@@ -1,0 +1,7 @@
+---
+layout: post
+title: Ovi store purchase of CameraFX failed I believe because there's no SIM card
+  & it's trying to do carrier billing
+created: 1308417740
+---
+<p>Would have been nice to have a proper error message like "Purchase failed because there's no SIM card and therefore we don't know who to bill. Please insert a SIM card or add a credit card number to your OVI account and try again". Tyranny of the SIM card and tyranny of the carriers all in one!</p><p>I will add a credit card number to my OVI account and try again and post a blog post on what I find. (hopefully not a case of the #<a href="http://search.twitter.com/search?q=%23maplesyrupcurtain">maplesyrupcurtain</a> :-) !)</p>

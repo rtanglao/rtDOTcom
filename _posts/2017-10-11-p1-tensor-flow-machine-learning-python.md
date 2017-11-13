@@ -1,0 +1,24 @@
+---
+layout: post
+title: "Gentlest Introduction to Tensorflow #1 (in Python)"
+---
+
+## Pontifications
+
+* [Applied Machine Learning: The Less Confusing Guide links to a nice intro to Tensor Flow and Python](https://udarajay.com/applied-machine-learning-the-less-confusing-guide/):
+    * [Gentlest Introduction to Tensorflow #1](https://medium.com/all-of-us-are-belong-to-machines/the-gentlest-introduction-to-tensorflow-248dc871a224) (from 2016)
+
+Juicy quote (could i modify the problem to: ```predict a single scalar outcome of #of likes based on a single feature, average colour```?):
+
+<blockquote>
+
+    Part 1 (this article): Linear regression with Tensorflow for single feature single outcome model<br /><br />
+    Part 2: Tensorflow training illustrated in diagrams/code, and exploring training variations<br /><br />
+    Part 3: Matrices and multi-feature linear regression with Tensorflow<br /><br />
+    Part 4: Logistic regression with Tensorflow<br /><br />
+
+    Introduction<br /><br />
+
+    We are going to solve an overly simple, and unrealistic problem, which has the upside of making understanding the concepts of ML and TF easy. We want to predict a single scalar outcome, house price (in $) based on a single feature, house size (in square meters, sqm). This eradicates the need to handle multi-dimensional data, enabling us to focus solely on defining a model, implementing, and training it in TF.
+    
+</blockquote>

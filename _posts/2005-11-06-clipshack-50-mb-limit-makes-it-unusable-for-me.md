@@ -1,0 +1,11 @@
+---
+layout: post
+title: " ClipShack - 50 MB limit makes it unusable for me"
+created: 1131313306
+---
+<p>Sorry I can't use a service with a limit of 50MB; maybe 100 MB  PER MONTH would work but not 50MB total.</p>
+<p>From <a href="http://www.clipshack.com/register.aspx">ClipShack - Join Us</a>.:</p>
+<p><b>QUOTE</b></p><blockquote>Free sharing account (50 MB storage)</blockquote><p><b>UNQUOTE</b></p>
+
+
+

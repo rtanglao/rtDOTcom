@@ -1,0 +1,13 @@
+---
+layout: post
+title: ' Kerry Intern Story that wasn''t true - yet another case of "real journalists"
+  not being any better than bloggers'
+created: 1086066362
+---
+Must read for both bloggers who think they are better than journalists and journalists who think they are better than bloggers.
+
+My take: both bloggers and journalists are birds of the same feather and for one to turn up one's nose at the other with respect to standards is hypocritical and misguided.
+
+From <a href="http://newyorkmetro.com/nymetro/news/politics/national/features/9221/index5.html">John Kerry intern scandal - Alexandra Polier's account</a>:
+<p><strong>QUOTE</strong></p><blockquote>And so my education had taken me pretty much as far as it could. I started out as an ambitious young woman inspired by politics and the media. I&#8217;ve ended up disenchanted with both. If I had been an ambitious young man, this story would not have happened. I&#8217;m never going to know exactly what happened, but that matters less to me now. I lost a good friend and learned a few lessons. I am struck by the pitiful state of political reporting, which is dominated by the unholy alliance of opposition research and its latest tool, the Internet. Even the Wall Street Journal&#8217;s Website ran Drudge&#8217;s story, with only a brief disclaimer that his stories weren&#8217;t always accurate.</blockquote><p><strong>UNQUOTE</strong></p>
+

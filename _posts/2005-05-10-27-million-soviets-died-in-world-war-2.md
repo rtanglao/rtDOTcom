@@ -1,0 +1,12 @@
+---
+layout: post
+title: " 27 million Soviets died in World War 2"
+created: 1115776217
+---
+<p>Wow, as they say, respect is due! I have read this in the past (and stories of the American and Russian soldiers hugging each other when the European war was won) but it never really hit home until I read <a href="http://www.jarche.com/">Harold Jarche</a>'s <a href="http://radiocomments.userland.com/comments?u=109961&p=1574&link=http%3A%2F%2Fblog.mathemagenic.com%2F2005%2F05%2F09.html%23a1574#a156166">comment</a> to <a href="http://blog.mathemagenic.com/2005/05/09.html#a1574">Lilia's post</a>.  The stories I grew up from my Filipino relatives were all about the Asian war and how brutal the Japanese were (<a href="http://history.acusd.edu/gen/st/~ehimchak/death_march.html">Bataan death march</a>, etc.)</p>
+
+<p>From <a href="http://www.bbc.co.uk/history/war/wwtwo/soviet_german_war_01.shtml">BBC - History - The Soviet-German War 1941 - 1945</a>.:</p>
+<p><b>QUOTE</b></p><blockquote>It was here, in the vast struggle between the two dictatorships, that the German army was defeated and the outcome of World War Two was decided in favour of the Allied powers - the British Empire, the United States and the USSR. The cost to the Soviet Union was an estimated 27 million dead.</blockquote><p><b>UNQUOTE</b></p>
+
+
+

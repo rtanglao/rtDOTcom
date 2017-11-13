@@ -1,0 +1,11 @@
+---
+layout: post
+title: " Ads On Blogs - BLOG SEARCH 500 - I am number 488"
+created: 1128668003
+---
+<p>Oh boy,  another list of blogs. Not a fan of these lists but oh well it's nice to be recognized with lots of cool folks.</p><p>From <a href="http://adsonblogs.blogspot.com/2005/10/adsonblogs-blog-search-500.html">Ads On Blogs: AdsOnBlogs - BLOG SEARCH 500</a>.:</p>
+<p><b>QUOTE</b></p><blockquote>
+488 Roland Tanglao's Weblog 474</blockquote><p><b>UNQUOTE</b></p>
+
+
+

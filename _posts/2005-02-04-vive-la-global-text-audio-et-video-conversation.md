@@ -1,0 +1,11 @@
+---
+layout: post
+title: " Vive la global text, audio et video conversation!"
+created: 1107549658
+---
+<p>This global text, audio and video conversation powered by the RSS and blog infrastructure is inevitable and disruptive in unexpected ways. And there's lots of money to be made and lost along the way.</p>
+<p>From <a href="http://www.businessweek.com/technology/content/jan2005/tc20050126_7264.htm">The Surging Tides of a Digital Torrent</a>.:</p>
+<p><b>QUOTE</b></p><blockquote>By the end of the decade, therefore, a billion people will have the ability to contribute not just text but photos and video instantly to the global virtual conversation. The results will echo throughout society, as did Krakatoa's long-ago explosion. </blockquote><p><b>UNQUOTE</b></p>
+
+
+

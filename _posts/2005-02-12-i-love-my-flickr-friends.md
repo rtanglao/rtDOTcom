@@ -1,0 +1,53 @@
+---
+layout: post
+title: " I love my Flickr friends"
+created: 1108278998
+---
+Laugh out loud! Rock! Read <a href="http://www.buzzmarketingwithblogs.com/weblog/comments/58/">the whole thing</a> for a link to the MP3.
+
+<p>From <a href="http://www.buzzmarketingwithblogs.com/weblog/comments/58/">The Flickr Song: A Fan's Love Ballad - Buzz Marketing with Blogs by Susannah Gardner</a>.:</p>
+<p><b>QUOTE</b></p><blockquote><p>Lyrics to 'The Flickr Song"</p>
+
+<p>Emdot, Oldhamedia, Tomahawk's Kid and Jetblasts2K,<br />
+Duchess, Yoshia, Homingpigeon, Silverstar and Rav-Rav<br />
+Charlottewebgal, Underbunny, Meta4, and Tisay<br />
+Selkie is naked again!<br />
+I love my Flickr friends<br />
+I'm addicted to their images and photostreams<br />
+I love my Flickr friends<br />
+They've crawled under my skin and into my dreams<br />
+One More Pernod, Pandarine, Juli.P and Roger B.<br />
+AsciiArtPaul, Sebastian's Belle, and Smiling da Vinci<br />
+Off My Front Porch, Solea, Atari Girl and Aikterese<br />
+Selkie is naked again!<br />
+I love my Flickr friends<br />
+From now on I'll be surfing their brains<br />
+I love my Flickr friends<br />
+They keep me coming back again and again<br />
+Etolane, Shoegazer, McArtist2, and Kariobinja<br />
+Fion, Spacecake, Dreamtiger and Vinathegreat<br />
+Airchild, Coffee Break, Ring Xie, and Awfulsara<br />
+Selkie is NAKED AGAIN!<br />
+I love my Flickr friends<br />
+I love their art and the light they bring<br />
+I love my Flickr friends<br />
+Can't get enough of their Flickr thing<br />
+CherryVega's hair is red<br />
+CherryVega's hair is white<br />
+CherryVega's hair is blue<br />
+CherryVega's hair is...<br />
+I love my Flickr friends<br />
+(I love my Flickr friends, it's troooooo)<br />
+I'm addicted to their photostreams<br />
+I love my Flickr friends<br />
+(I love my Flickr friends, I do)<br />
+They've crawled under my skin and into my dreams<br />
+I love my Flickr friends<br />
+(I love my Flickr friends, it's troooooo)<br />
+From now on I'll be surfing their brains<br />
+I love my Flickr friends<br />
+(I love my Flickr friends)<br />
+They keep me coming back again and again and again!</p></blockquote><p><b>UNQUOTE</b></p>
+
+
+

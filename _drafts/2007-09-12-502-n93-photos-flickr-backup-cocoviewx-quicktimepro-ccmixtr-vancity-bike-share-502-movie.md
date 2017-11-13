@@ -1,0 +1,31 @@
+---
+layout: post
+title: 502 N93 photos + Flickr Backup + CocoViewX + QuickTimePro + ccMixtr = Vancity
+  Bike Share 502 movie
+created: 1189659115
+---
+<p>Here's how I made the <a href="http://urbanvancouver.com/node/5435">VancityBike Share 502 movie (a video of 10 bike rides in Vancouver using stills taken with a N93)</a></p>
+<ol>
+  <li>Took 502 photos from my Vancity Bike Share bike over 10 one way journeys to Gastown from East Van and back using my Nokia N93. Uploaded them to flickr with ShoZu. Got lots of memory errors and other random crashes while taking pictures which I worked around by rebooting the phone. Hopefully I'll get an N95 North American version from Nokia Blogger Relations and its doubled RAM will cure the crashes and out of memory problems. Anecdotally the problems *seem* to be related to running out of memory and an inefficient Nokia Gallery app that slows down the entire phone when you have more than 200 pictures on a card (even though in my case there was over a Gig of memory left on my memory card). Could also be a ShoZu bug.</li>
+
+  <li>Downloaded them to my Mac using <a href="http://sourceforge.net/projects/flickrbackup">FlickrBackup</a></li>
+
+  <li>Changed the modification times to the EXIF date using <a href="http://www.stalkingwolf.net/software/cocoviewx/">CocoViewX</a>'s "EXIF - Tools" -&gt; Set Modification Date to EXIF date and then "Rename Series..." using New File Name of "VancityBikeShare###</li>
+
+  <li>Using QuickTime Pro's "Open Image Sequence command made a movie with 502 pictures using 2 frames (i.e. 2 of my pictures) per second</li>
+
+  <li>Found some Creative Commons music using c<a href="http://ccmixter.org/">cMixtr.or</a>g and pasted it into the movie</li>
+
+  <li>Exported the movie using QuickTime Pro</li>
+</ol>
+<p>Easy eh :-)? I know there are other ways to do this (Keynote, PhotoToMovie, etc!) but this is cheap and cheerful. Highly recommended as a fun way to make fun movies out of your photos!</p>
+<p>Here's the finished product:</p>
+<p>This movie (4:11) was made from 502 photos taken from my Vancity Bike Share bicycle from June 27 to July 11 2007 from my Nokia N93. Music from teru used under a Creative Commons license: Technology (ft. MTGakaCaraMelG) and Start a Digital Revolution (ft. tacet, KCentric), http://terumusic.blogspot.com/</p>
+<center>
+  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="437" height="370" id="viddler">
+    <param name="movie" value="http://www.viddler.com/player/c64eaeaa/" />
+    <param name="allowScriptAccess" value="always" />
+    <param name="allowFullScreen" value="true" />
+    <embed src="http://www.viddler.com/player/c64eaeaa/" width="437" height="370" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" name="viddler" />
+  </object>
+</center>

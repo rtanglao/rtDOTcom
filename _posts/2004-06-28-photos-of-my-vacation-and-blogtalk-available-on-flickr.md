@@ -1,0 +1,7 @@
+---
+layout: post
+title: " Photos of my vacation and BlogTalk available on Flickr"
+created: 1088457025
+---
+I won't be posting regularly here (except for BlogTalk July 5th and 6th) until July 9, but you can get a sense of where I am and what I am doing by checking out <a href="http://www.flickr.com/photos/roland">my photos on Flickr</a>.
+

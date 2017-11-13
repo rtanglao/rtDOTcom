@@ -1,0 +1,9 @@
+---
+layout: post
+title: " My Merry Christmas Publicast - and some predictions for 2005"
+created: 1103863884
+---
+<p>Merry Christmas to all. <a href="http://publicast.paulofierro.com/media/20041224054002.mp3">Hear my words</a> (very small MP3) in a <a href="http://publicast.paulofierro.com/">Publicast</a> stylee!</p>
+
+<p>The golden age of RSS, and blogging text, audio, video, etc. for fun but not $ is over.  2005 will be the year of $ in the blogosphere, RSS-o-sphere and podosphere and that's a good thing!  A lot of those people toiling away for free and just to play around who haven't made some money of it heretofore will make some money off it somehow in 2005.</p>
+

@@ -1,0 +1,7 @@
+---
+layout: post
+title: " HuginMugin 1.0 Source Release"
+created: 1108281384
+---
+As promised <a href="http://www.rolandtanglao.com/archives/2005/02/11/huginmugin_10_j2me_flickr_uploader_for_series_60_nokia_cameraphones">yesterday</a>, here is the <a href="http://www.rolandtanglao.com/code/HuginMugin1.0/HuginMuginSrc.zip">HuginMugin 1.0 Source</a> (88 K Zip file). For those too lazy to read <a href="http://www.rolandtanglao.com/archives/2005/02/11/huginmugin_10_j2me_flickr_uploader_for_series_60_nokia_cameraphones">yesterday's post</a>, HuginMugin is a J2ME Flickr uploader for Series 60 Nokia Cameraphones like the 7610, 6600 and 6630. It's free and licensed under the <a href="http://www.gnu.org/copyleft/gpl.html">GPL</a>. Too tired to do the release notes. Will do that tomorrow or early next week.
+

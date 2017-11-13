@@ -1,0 +1,40 @@
+---
+layout: post
+title: Create your own custom daily Get Satisfaction email report with emailReport.rb
+created: 1280817729
+---
+<p><strong>UPDATE November 2011</strong>:</p><p>The code has been dramatically re-factored so i deleted it from the gist. Please use the revised code at:<br /><a href="https://github.com/rtanglao/momogs/blob/master/emailReport-m.rb">https://github.com/rtanglao/momogs/blob/master/emailReport-m.rb</a></p><p>For my technical support lead job at Mozilla Messaging, I continue to try to find the best way to sort and sift and help out folks who need support and identify the hot issues. We currently use <a href="http://getsatisfaction.com/mozilla_messaging">Get Satisfaction for Thunderbird support</a> and I subscribe via email to everything but it's really difficult to read through the over 200 emails a day that Get Satisfaction sends</p><p>So I developed over the last 9 months a series of Ruby scripts to see the most active support topics (<a href="http://gist.github.com/326438">getactive.rb</a>),&nbsp; the contributors who are actually being marked by the community of users as solving a support topic (<a href="http://gist.github.com/357018">getcontributors.rb</a>), who's doing the most replies (<a href="http://gist.github.com/190094">gethappykludged.rb)</a> and pick out some random support topics (<a href="http://gist.github.com/343263">getrandom.rb</a>)</p><p>Up until last week I have been using these scripts on a manual basis but not as consistently as I would like since it's pain to run all four manually.</p><p>To make a single email report that ties together everything in one nice summary, last week I finally took 3 hours and wrote <a href="http://gist.github.com/505956">emailReport.rb</a> (code after the jump). It's crude but it works and is a useful report that I run every day now for the previous day (e.g. on Monday morning, I run it for Sunday and Saturday). It runs all the above mentioned scripts and then emails a summary email:</p><h3>Here's an example of how you invoke it:</h3><p>(for August 2, 2010)</p><pre>./emailReport.rb 2010 8 2 2010 8 2 2&gt;emailreport.20100802.20100802.stderr 1&gt;emailreport.2010082002.20100802.stdout</pre><h3>And here's a sample email:</h3><pre id="line1">From: xxxx@gmail.com
+To: yyyy@zzzzzo.com
+subject: MoMo Support Report FROM: 2010.8.2 TO: 2010.8.2
+Date: Mon, 02 Aug 2010 23:31:16 -0700
+</pre><pre>Get Satisfaction Top 5 active:
+5,<a class="moz-txt-link-freetext" href="http://getsatisfaction.com/mozilla_messaging/topics/how_do_i_export_folders_as_mbox_files_thanks_chris">http://getsatisfaction.com/mozilla_messaging/topics/how_do_i_export_folders_as_mbox_files_thanks_chris</a>
+5,<a class="moz-txt-link-freetext" href="http://getsatisfaction.com/mozilla_messaging/topics/migration_of_thunderbird_data_from_old_to_new_computer">http://getsatisfaction.com/mozilla_messaging/topics/migration_of_thunderbird_data_from_old_to_new_computer</a>
+4,<a class="moz-txt-link-freetext" href="http://getsatisfaction.com/mozilla_messaging/topics/delivering_mail_98_thunderbird_problem">http://getsatisfaction.com/mozilla_messaging/topics/delivering_mail_98_thunderbird_problem</a>
+4,<a class="moz-txt-link-freetext" href="http://getsatisfaction.com/mozilla_messaging/topics/from_thunderbird_to_outlook_how">http://getsatisfaction.com/mozilla_messaging/topics/from_thunderbird_to_outlook_how</a>
+4,<a class="moz-txt-link-freetext" href="http://getsatisfaction.com/mozilla_messaging/topics/cannot_start_thunderbird_already_runnning">http://getsatisfaction.com/mozilla_messaging/topics/cannot_start_thunderbird_already_runnning</a>
+
+Get Satisfaction Contributors:
+
+
+Top 10 Get Satisfaction Repliers:
+2, cam_1319937
+3, simonpaquet
+3, ankitgupta1980
+3, davro
+3, pat_drummond
+3, kent_james
+4, bhuvnesh_thakar
+5, wayne_mery
+9, archaeopteryx
+30, michael_a_pasek
+
+
+5 Random Get Satisfaction Topics:
+<a class="moz-txt-link-freetext" href="http://getsatisfaction.com/mozilla_messaging/topics/crashing_after_start_up">http://getsatisfaction.com/mozilla_messaging/topics/crashing_after_start_up</a>
+<a class="moz-txt-link-freetext" href="http://getsatisfaction.com/mozilla_messaging/topics/problems_editing_an_email_to_be_forwarded">http://getsatisfaction.com/mozilla_messaging/topics/problems_editing_an_email_to_be_forwarded</a>
+<a class="moz-txt-link-freetext" href="http://getsatisfaction.com/mozilla_messaging/topics/dmg_file_whats_this">http://getsatisfaction.com/mozilla_messaging/topics/dmg_file_whats_this</a>
+<a class="moz-txt-link-freetext" href="http://getsatisfaction.com/mozilla_messaging/topics/want_to_use_thunderbird_for_mass_mailing">http://getsatisfaction.com/mozilla_messaging/topics/want_to_use_thunderbird_for_mass_mailing</a>
+<a class="moz-txt-link-freetext" href="http://getsatisfaction.com/mozilla_messaging/topics/pasting_images_takes_minutes">http://getsatisfaction.com/mozilla_messaging/topics/pasting_images_takes_minutes</a>
+
+</pre><h3>What I did well</h3><ul><li>It works and when it doesn't I can check stderr for diagnostics and usually quickly figure out what went wrong (Get Satisfaction has a known bug on topics that have URLS that begin with numbers and also JSON can't cope when folks paste binary data into support topics; fortunately both cases are rare -:-) !)</li></ul><h3>What could be improved</h3><ul><li>The JSON API is called on the same data four times, once for each script (i.e. I don't store any of the GS data) so it takes 5-10 minutes to run emailReport.rb!</li><li>It would be more efficient to just read the data into a database, e.g. couchdb and then have the four scripts read from the database</li><li>Ruby is not an excellent choice for Windows users; would be better to write this in JavaScript and then anybody (i.e. other support contributors not just folks on Mac OS X or Linux) could use it</li><li>Badly need to way to extract the GS conversations I am involved in and highlight the top 5</li><li>Although a separate can of worms :-), I would love to have a really great search engine that works on the GS support data; unfortunately the GS management view search doesn't work so well.</li></ul><h3>Help Wanted</h3><p>I'd love some help :-) (what's in it for you! Open Source Whuffie, fame and adventure :-) !!!) &nbsp; in the following areas:</p><ul><li>Convert to JavaScript and to a web app so all can use it :-) !</li><li>Put the GS support data into a JSON friendly database like CouchDB</li></ul><p>&nbsp;</p><h3>The Code</h3><p>The code has been dramatically re-factored so i deleted it from the gist. Please use the revised code at:<br /><a href="https://github.com/rtanglao/momogs/blob/master/emailReport-m.rb">https://github.com/rtanglao/momogs/blob/master/emailReport-m.rb</a></p><p>&nbsp;</p>

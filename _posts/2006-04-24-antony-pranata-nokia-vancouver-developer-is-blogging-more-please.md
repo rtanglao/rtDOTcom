@@ -1,0 +1,6 @@
+---
+layout: post
+title: Antony Pranata, Nokia Vancouver developer is blogging! More please!
+created: 1145942405
+---
+<p>I am sure this is old news to some, but Antony Pranata, a Nokia employee at Nokia's lab here in Vancouver (unfortunately they are in suburban Richmond and Burnaby and not Vancouver so I don't see them at our "second office" Take 5 Cafe :-) ! ) is blogging, both <a href="http://www.s60tips.com/">S60Tips</a>, a <a href="http://mobile.antonypranata.com/">mobile blog</a>  as well as a <a href="http://www.antonypranata.com/">personal blog</a>. Are there any other Nokia Vancouver people blogging? I have personally been underwhelmed by the amount of blogging from the local Nokia folks and the amount of  involvement at Vancouver grassroots activities like <a href="http://momovan.org/">Mobile Monday Vancouver</a>, but hope lives on! Perhaps with Antony's cool example and the fact that the N91 has shipped (which I believe was developed partially in Vancouver), the Vancouver folks will start coming out more! Love to see you and love to meet you all! (Antony wir k&ouml;nnen unser Deutsch &uuml;ben! I see you did your masters in Germany in Stuttgart not far from Friedrichshafen where I lived from 95-98!)</p>

@@ -1,0 +1,15 @@
+---
+layout: post
+title: " Navarik is hiring and they have a jobs RSS feed!"
+created: 1112140052
+---
+<p>Cool <a href="http://www.navarik.com/home/news/navarik_staff/navarik_job_listings/mar05/index.php">jobs</a> (based in Vancouver, Canada) it looks like and you get to work with cool people like <a href="http://www.penmachine.com/index.html">Derek</a>. And they have a <a href="http://www.navarik.com/home/about/jobs/index.xml">jobs RSS feed</a>! All companies will have this someday!
+</p><p>From <a href="http://www.penmachine.com/2005/03/navarik-is-hiring.html">Penmachine.com: Navarik is hiring | Derek K. Miller, Writer & Editor, Vancouver, Canada</a>.:</p>
+<p><b>QUOTE</b></p><blockquote><p>As a sign of the recovering economy and its own success, my employer, Navarik Corp., is hiring, and today we started adding job postings to the company website.</p>
+
+<p>Perhaps you're interested in maritime shipping, web-based software and services, and open data formats and standards. Maybe you live in Vancouver, or want to move here (and who doesn't?). If you have solid qualifications and motivation, check out Navarik's listings or subscribe to the jobs RSS feed%u2014maybe you'll find something worth applying for.
+</p>
+</blockquote><p><b>UNQUOTE</b></p>
+
+
+

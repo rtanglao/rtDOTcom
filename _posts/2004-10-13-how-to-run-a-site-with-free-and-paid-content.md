@@ -1,0 +1,22 @@
+---
+layout: post
+title: " How to run a site with free and paid content"
+created: 1097656631
+---
+<p>
+Great advice.   Read <a href="http://www.paidcontent.org/contentnext/patrick_spain/the_secret_sauce.php">the whole thing</a>!
+</p><p>
+From <a href="http://www.paidcontent.org/contentnext/patrick_spain/the_secret_sauce.php">paidContent.org's ContentNext Series: The Secret Sauce</a>:
+</p><p>
+<strong>QUOTE</strong>
+</p><blockquote>
+As I look across the landscape of online content, I have observed some things that clearly work:
+<br />1. Users don't care where the information comes from. They just want to know what is out there. So failing to include the free Web with your paid service is a big mistake.
+<br />
+<br />2. Failing to provide premium for pay information on your free search is just as big a mistake. If the answer to a question relates to health or wealth, people will pay.
+<br />
+<br />3. You have to be very clear and honest with users about what is free and what is paid. Don't try to charge for content that is free elsewhere.
+</blockquote><p>
+<strong>UNQUOTE</strong>
+</p>
+

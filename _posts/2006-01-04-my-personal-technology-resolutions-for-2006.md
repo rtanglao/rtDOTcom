@@ -1,0 +1,49 @@
+---
+layout: post
+title: My Personal technology Resolutions for 2006
+created: 1136447567
+---
+Great list from Susan.
+
+Here's mine:
+<ol>
+<li>Get a video iPod second model when it comes out in June or sooner (i want wide screen, buying 2nd gen Apple stuff is always better if you can wait that long)
+</li>
+<li>Do a weekly video blog in a format that works well on iPod Video
+</li>
+<li>Do more screencasting
+</li>
+<li>Create<a href="http://www.makezine.com/blog/archive/2005/07/how_to_make_enh.html"> enhanced podcasts </a>for documentation and fun
+</li>
+<li>Create three <a href="http://www.rolandtanglao.com/archives/2005/08/26/1_minute_vandigicam_film_for_viff_contest_crazy_flickr_idea_89">1 minute movies</a> about Vancouver
+</li>
+<li>Dive into Jabber and XMPP since <a href="http://www.bmannconsulting.com/blog/bmann/2006-will-be-the-year-of-xmpp">2006 is the year of XMPP</a>
+</li>
+<li>Get a new desktop with oodles of RAM and disk (4GB, 160 GB or more) and power to run Aperture and RSS aggregation and filtering over 1000s of subscriptions and searches</li>
+<li>Dive into RAW processing of my photos using Aperture 2.0 (probably an end of year thing!)</li>
+<li>Buy, beg, borrow or steal :-)  a mobile phone that does WiFi and has a 2 Megapixel camera and half VGA or better video (e.g. N91) and run a VoIP over WiFi client on it as well
+</li>
+<li>Convert all my websites to Drupal (i.e VanEats)
+</li>
+<li>Run my own Linux box with Drupal for my own experiments
+</li>
+<li>Give back more to the Drupal community (probably by writing more handbook pages)
+</li>
+<li>Increase the audio quality of my podcasts!
+</li></ol>
+<p>From <a href="http://susanmernit.blogspot.com/2006/01/personal-tech-resolutions-for-2006.html">Susan Mernit's Blog: Personal tech: Resolutions for 2006</a>.:</p>
+<p><b>QUOTE</b></p><blockquote>1) Get an iPod and go all digital
+Yeah, I owned an iPod--and I gave it to my kid. This time, around, I want a video iPod and I want to move all my music over to digital--and figure out a media storage solution that works as well.<br />
+2) Upgrade my phone and add a decent video camera to it--with clogging and podcast components.<br />
+3) Start podcasting weekly-- a friend had a great idea--I still want to do it.<br />
+4) Move my blog to a new domain and get off blogspot. Aanyone need explanations on that?<br />
+5) Upgrade from my friend's digital camera to my own--and buy flickr pro--got it for my client, need to add my own access.<br />
+6) Tag more. I think tagging is amazing, but I avoid doing it. Change that a bit.<br />
+7) Get a decent new computer--or a cheap back up machine.<br />
+8) Do more new tools beta testing on a weekly basis--using that back-up machine I wanna establish.<br />
+9) Learn more--a lot more--about extreme programming--as I got more and more into product development this is a critical area to build competency.<br />
+10) Keep having fun with technology--it's gotta be both enjoyable and useful--and it can be.<br />
+11) Turn off my land line phone for good--between the VOIP options and the cell, the $$ I am paying is a waste.<br />
+12) Buy a big TV. Yeah, I don't watch it, but it's time to upgrade from 19 inches, doncha think?<br />
+13) Card scanning or something--figure out something to do with all those business cards that are stacked in bowls around my office. I do want to talk to some of these folks again.</blockquote><p><b>UNQUOTE</b></p>
+

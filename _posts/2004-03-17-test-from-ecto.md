@@ -1,0 +1,8 @@
+---
+layout: post
+title: " Test from Ecto"
+created: 1079596009
+---
+If you see this, then I was able to post from ecto.
+<br /><span style="font-size: 10px;">[Posted with <a href="http://www.kung-foo.tv/ecto/">ecto</a>]</span>
+

@@ -1,0 +1,19 @@
+---
+layout: post
+title: " Thijs van der Vossen predicts blogs will become most important way of sharing
+  information"
+created: 1080108760
+---
+Bold predictions which totally coincide with my thoughts.  We won't call them blogs but you will be able to author and share anything, anytime with the world, your friends or any group you decide.  Blogs, wikis etc. are just the first manifestation of this future world.
+
+From <a href="http://www.vandervossen.net/2004/03/predictions">Thijs van der Vossen &middot; Predictions</a>:
+<p><strong>QUOTE</strong></p><blockquote>"The future will be simple, open, informal, standard-compliant and in reverse-chronological order.
+
+No matter how you call it, blogging, weblogging or personal publishing will become the most important way of sharing information and managing knowledge.
+
+Wikis will become the most widely-used groupware and collaboration tools.
+
+Web standards usage will grow as more and more people will be accessing the web using an ever increasing range of browsers and devices. It will not be long before mobile phones include talking browsers by default.
+
+Everything will support and everybody will use content syndication and news aggregators."</blockquote><p><strong>UNQUOTE</strong></p>
+

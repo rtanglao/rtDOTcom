@@ -1,0 +1,9 @@
+---
+layout: post
+title: " PubSub rocks harder! -  You no longer need to use your email address"
+created: 1100735020
+---
+<p>
+I've become friends with <a href="http://bobwyman.pubsub.com/">Bob</a> and the rest of the crew at <a href="http://pubsub.com/">PubSub</a> and I just found out that not only have they revamped their website they removed one of my complaints: email registration is no longer required and you no longer have to click on a link in an email to activate an RSS feed for PubSub search.  Time to revise <a href="http://www.streamlinewebco.com/blog/_archives/2004/4/21/37574.html">my PubSub HowTo</a>! Congrats to PubSub on making their service even better and easier to use!
+</p>
+

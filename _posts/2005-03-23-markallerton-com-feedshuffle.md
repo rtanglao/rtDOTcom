@@ -1,0 +1,10 @@
+---
+layout: post
+title: " markallerton.com: FeedShuffle"
+created: 1111568337
+---
+<p>Cool hack! Need to try this! Thanks Mark!</p><p>From <a href="http://biketrouble.typepad.com/bike_trouble/2005/03/feedshuffle.html">markallerton.com: FeedShuffle</a>.:</p>
+<p><b>QUOTE</b></p><blockquote>FeedShuffle is program that can be run as "Special Subscription" in NetNewsWire 2.0. It will generate an RSS feed containing a random selection of items from all of your other NetNewsWire subscriptions.</blockquote><p><b>UNQUOTE</b></p>
+
+
+

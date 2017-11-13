@@ -1,0 +1,12 @@
+---
+layout: post
+title: " Technorati about to get 6.5 million in first round of funding !?!"
+created: 1093341100
+---
+Congrats to the fine folks at <a href="http://www.technorati.com/">Technorati</a>.  Please use the money to make your service more reliable and stable.
+
+From <a href="http://www.gigaom.com/2004/08/technorati_gets.php">Om Malik on Broadband: Technorati gets fed VC dollars</a>:
+<p><strong>QUOTE</strong></p><blockquote>EXCLUSIVE: RSS feeds have become beloved apps for all bloggers. And now it is the Venture capitalists who are falling in love with "real simple syndication." I have learned exclusively that Technorati has/or is about to close its first round of funding. My sources indicate that it was a mega-round, about $6.5 million at a valuation of around $12 million for the company. Draper Fisher Jurvetson led the round. When I asked David Sifry, he declined to either confirm or deny the news. "I'm sorry, it is our policy not to comment on questions on funding," he wrote in an email. Next step, a quick email to Steve Jurvetson who confirmed that his fund led the round. "We did lead the first round and I think we are the largest investor," he wrote. Both parties declined to comment on valuation and total funding received.
+
+This is the second RSS related company to get big VC dollars. In June Newsgator attracted undisclosed amount of funding i from Mobius Venture Capital.</blockquote><p><strong>UNQUOTE</strong></p>
+

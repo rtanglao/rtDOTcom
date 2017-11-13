@@ -1,0 +1,22 @@
+---
+layout: post
+title: " We need a way for people to make money off blogging, podcasting and vlogging
+  without working for traditional media companies"
+created: 1106461909
+---
+<p>
+Mitch nails it as usual. Read <a href="http://blog.redherring.com/MT/archives/main/000533.html">the whole thing</a>.
+</p><p>
+From <a href="http://blog.redherring.com/MT/archives/main/000533.html">Red Herring Blog: No ruling in Blogging v. Journalism</a>.:
+</p><p>
+<strong>QUOTE</strong>
+</p><blockquote>
+When all is said and done, the surplus value of words in blogging, audio in podcasting, and video in vlogging will wear away as creative people reestablish their relationships with audiences and communities that want the content they produce. There will be a lot of new stars, too, when the cosmos settles, not to mention a vast collection of hot gas that creates the background radiation in which these stars shine.
+</blockquote><blockquote>
+...
+<br />
+<br />What's missing now is a business infrastructure for a decentralized market, an eBay of content.
+</blockquote><p>
+<strong>UNQUOTE</strong>
+</p>
+

@@ -1,0 +1,21 @@
+---
+layout: post
+title: " Eric Rice's recipe for podcasting for MSN Spaces will work for other blog
+  systems too"
+created: 1102377238
+---
+<p>This should also work for any other blogging system that generates RSS but doesn't have enclosures/attachments.</p>
+
+<p>From <a href="http://spaces.msn.com/members/ericrice/Blog/cns!1pKWQQ1rX1CwkEMMjOMncO6A!141.entry#trackback">Eric Rice Podcast Lab @ MSN Spaces: I think Podcasting from MSN works!</a>.:</p>
+<p><b>QUOTE</b></p><blockquote><p>1. First, I link to an audio or video file that I've created (and possibly hosted anywhere online) and add the html tag rel=enclosures. A link would look like this (angle brackets removed):</p>
+
+   <blockquote><p> [a href="http://somewebsite.com/file.mp3" rel=enclosure]</p></blockquote>
+
+<p>2. Second, I create an account at Feedburner and create a new feed there with the SmartCast option turned ON. FeedBurner wants to know the feed address for my site. In this example for MSN Spaces, it is the link that is returned when you click on "Syndicate this site" up at the top of MSN Spaces blogs. That URL is http://spaces.msn.com/members/ericrice/feed.rss (Note: your MSN Space URL is the same, except instead of 'ericrice', you would type your MSN Space name.
+</p>
+<p>After I give that address to FeedBurner, they will give me a new feed address to share with everyone. In the case of THIS blog at MSN Spaces, the address I have to tell everyone about is the following: http://feeds.feedburner.com/spacespodcast</p>
+
+<p>Now, anyone who uses any of the great podcast software out there can subscribe to your podcast feed!</p></blockquote><p><b>UNQUOTE</b></p>
+
+
+

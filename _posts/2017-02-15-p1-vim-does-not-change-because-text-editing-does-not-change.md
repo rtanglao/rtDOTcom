@@ -1,0 +1,24 @@
+---
+layout: post
+title: Vim doesn't change because editing text doesn't change for software developers
+---
+
+
+## Pontifications
+
+
+* [Happy Belated 25th Birthday Vim](https://www.theregister.co.uk/2017/01/24/boring_vim_beats_exciting_browsers/)! Some juicy quotes from this register piece:
+
+**QUOTE**
+<blockquote>
+"<br />
+Stagnation is the equivalent of death apparently, which is as much a cultural value as one of the software produced by that culture, but either way it might be worth remembering that there is something else that pursues growth at all costs, dividing over and over again in a ceaseless headlong rush – cancer cells.
+
+The more time I spend meditating on this analogy the more accurate it feels. To be clear, I am not talking about security updates. Security updates improve software and are a good thing. What I'm talking about are the needless UI rewrites that don't actually do anything for users (web browsers seem to be the most egregious example of this), the development frameworks that reinvent themselves with every point update, or the latest trend: abstractions that promise to simplify everything but end up increasing the complexity of everything.<br />
+"
+</blockquote>
+
+**END QUOTE**
+
+* My assertion: Vim and emacs don't change as much as other software because editing text doesn't change for software developers. We're still editing text like the 1950s in 2017!
+* [Until we have true secure, re-mixable components that users can remix to get their own UI, we won't get software whose UI is what users want (which is usually the old UI or a UI that doesn't change much if ever)](http://rolandtanglao.com/2016/12/17/p1-software-is-hard-no-clean-separation-or-componentization/). And the users are right about this :-) the software industry just needs to invent true secure re-mixable components. We'll get there!

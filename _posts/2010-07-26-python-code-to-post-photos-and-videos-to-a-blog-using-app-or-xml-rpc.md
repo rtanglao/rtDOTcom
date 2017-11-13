@@ -1,0 +1,6 @@
+---
+layout: post
+title: Python code to post photos and videos to a blog using APP or XML-RPC?
+created: 1280153776
+---
+<p>For a sekrit mobile :-) project I am doing with <a href="http://www.blackphoebe.com/msjen/">Jen</a>, looking for open source python code that uses <a href="http://www.xmlrpc.com/metaWeblogApi#metaweblognewmediaobject">NewMediaObject</a> on XML-RPC or the equivalent in the Atom Publishing Protocol to post photos and videos. Jen has looked and only found code to do text blog posts. Lazyweb?</p>

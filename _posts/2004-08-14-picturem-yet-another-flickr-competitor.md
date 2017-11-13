@@ -1,0 +1,19 @@
+---
+layout: post
+title: " PictureM - yet another Flickr competitor"
+created: 1092547412
+---
+Something to try!
+
+From <a href="http://about.picturem.com/default?archive=true&#38;select=BlogSpace%2Fdefault%2F3Q9J43RUKJ">PictureM News</a>:
+<p><strong>QUOTE</strong></p><blockquote>PictureM is an online service designed to help you manage and share your digital life. PictureM makes it simple to organize, send, blog, print, and preserve all your digital content, including 1,000's of pictures, video clips, blogs, MMS (w/ photos), files, and more, via the Web, e-mail, and phone.
+
+It's free to get started with 128 MB, which is enough for camera phone users. And you can upgrade to 4.7 GB of highly reliable online space for an annual fee, which comes with an annual DVD-ROM burn, so that you don't have to worry about backups.
+
+Some of it's unique features are:
+Auto timeline organization of photos
+Zooming and moving pictures
+Browsing with WAP 2.0 (XHTML) phone
+
+There's nothing like it anywhere else</blockquote><p><strong>UNQUOTE</strong></p>
+

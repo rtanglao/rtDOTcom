@@ -1,0 +1,10 @@
+---
+layout: post
+title: " Java enabled mobile phones is 400 million by end of 2004"
+created: 1083536569
+---
+<a href="http://www.russellbeattie.com/notebook/">Russ</a> <a href="http://www.rolandtanglao.com/archives/2004/05/02/mobile_boom_is_leading_to_mass_deployment_of_java_and_more_java_phones_than_macs#comment94">comments</a> that the 250 million quoted in the article below plus the <a href="http://www.rolandtanglao.com/archives/2004/05/02/mobile_boom_is_leading_to_mass_deployment_of_java_and_more_java_phones_than_macs">150 million to be sold by then end of the year</a> = 400 million.  I really need to get myself one of these phones and start taking advantage of the apps and the buzz  that must be out there.
+
+From <a href="http://www.gamesindustry.biz/content_page.php?section_name=new&#38;aid=3374">gamesindustry.biz - New Media section</a>:
+<p><strong>QUOTE</strong></p><blockquote>GameLoft pointed to the increasing numbers of high-end mobile phones on the market as a key catalyst for its success. It estimates that the installed base of Java and BREW enabled phones climbed from 100 million worldwide in March 2003 to 250 million by March 2004.</blockquote><p><strong>UNQUOTE</strong></p>
+

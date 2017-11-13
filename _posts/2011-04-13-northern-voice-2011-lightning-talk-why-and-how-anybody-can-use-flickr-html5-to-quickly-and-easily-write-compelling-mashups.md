@@ -1,0 +1,7 @@
+---
+layout: post
+title: Northern Voice 2011 Lightning Talk - Why and how anybody can use flickr + HTML5
+  to quickly and easily write compelling mashups
+created: 1302719558
+---
+<p>HTML+CSS+JavaScript+flickr=awesome mashups for everyone aka <a href="http://rolandtanglao.com/archives/2010/11/19/golden-age-computing-not-1970s">it's the golden age of computing for everybody </a>not just computer science majors so let's go for it!</p><p>Got ideas on a <a href="http://wiki.northernvoice.ca/w/page/38026711/2011-Moosecamp">Northern Voice related flickr mashup I can do as part of my NV 2011 Moosecamp lightning talk</a> (or in general, love to collaborate HTML5ish and flickrish for good&nbsp; on something during the conference and after the conference as well) ? Leave 'em here as a comment or tweet @rtanglao or send me smoke signals :-). See you at <a href="http://2011.northernvoice.ca/">Northern Voice 2011</a> in May!</p>

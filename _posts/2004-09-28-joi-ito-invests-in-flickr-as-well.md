@@ -1,0 +1,21 @@
+---
+layout: post
+title: " Joi Ito invests in Flickr as well"
+created: 1096394176
+---
+<p>
+Congrats to the <a href="http://www.flickr.com/">Flickr</a> team. Can't wait for more cool features now that <a href="http://www.rolandtanglao.com/archives/2004/09/26/esther_dyson_invests_in_flickr">Esther</a> and <a href="http://joi.ito.com/">Joi</a> are investing.
+</p><p>
+From <a href="http://joi.ito.com/archives/2004/09/26/im_investing_in_flickr_too.html">Joi Ito's Web: I'm investing in flickr too</a>:
+</p><p>
+<strong>QUOTE</strong>
+</p><blockquote>
+Esther scooped me and announced that she is investing in flickr. So am I. I haven't been blogging about flickr too much, even though I'm addicted because I wanted to wait to announce this first. I'm just a passive investor, but wanted to disclose this relationship.
+<br />
+<br />You can see my photos on my flickr photo page. You can even subscribe to it in RSS 2.0 or Atom. Remember to check out the Tags page. There is also my personal tags page. Things have been getting very taggy around here ever since I started using del.icio.us.
+<br />
+<br />Thanks for the opportunity to invest Stewart and Caterina.
+</blockquote><p>
+<strong>UNQUOTE</strong>
+</p>
+

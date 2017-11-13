@@ -1,0 +1,6 @@
+---
+layout: post
+title: Writely allows you to create new docs from Word but not insert into docs
+created: 1132867958
+---
+<p><strong>LATER</strong>: It was not the Writely folks, it was Christoph Janz of <a href="http://calendarhub.com/" target="_self">CalendarHub</a>. <br /> </p><p>The <a href="http://www.writely.com/">Writely</a> folks (thanks!) left a <a href="/rt/comment/reply/1124/1230">comment</a> on my <a href="/rt/archives/2005/11/22/how-do-i-upload-word-documents-into-writely">Writely doesn't read Word docs post</a>. Yes you can create NEW Writely documents from Word documents but you can't insert Word documents into EXISTING Writely docs. I am sure that's an oversight that will soon be corrected!</p>

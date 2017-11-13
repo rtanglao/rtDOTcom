@@ -1,0 +1,76 @@
+---
+layout: post
+title: " Today's Links"
+created: 1106488861
+---
+
+<ul class="jotsBookmarks">
+
+<li><a href="http://www.ctv.ca/servlet/ArticleNews/story/CTVNews/1105142446966_16/?hub=WFive#"><span class="jotsBookmarkTitle">CTV.ca | Debit Card Fraud</span></a>
+<br><span class="jotsBookmarkDescription">hmmm we need a secure identity system for debit and atm's, obviously what we have now is not secure - &quot;In fact, McGrath also told W-FIVE that the Canadian Bankers Association does not consider debit card fraud to be a major crime despite the fact that about 27,000 Canadians have been victims of this crime to the tune of $44 million in 2003.&quot;</span>
+<br><span class="jotsBookmarkTags">Tags: <a href="http://www.jots.com/users/roland/debitcard">debitcard</a></span>
+</li>
+
+<li><a href="http://www.datsi.fi.upm.es/~frosal/docs/25mdq.html"><span class="jotsBookmarkTitle">The 25 most difficult questions</span></a>
+<br><span class="jotsBookmarkDescription">interview questions that are overused and have become clichés</span>
+<br><span class="jotsBookmarkTags">Tags: <a href="http://www.jots.com/users/roland/softskills">softskills</a></span>
+</li>
+
+<li><a href="http://anarkystic.com/blog/archives/2005/01/22/looking_for_a_cool_java_app.php"><span class="jotsBookmarkTitle">reoriginalize: Looking For A Cool Java App</span></a>
+<br><span class="jotsBookmarkDescription">sorry java apologists, java s*cks! Name one cool app please and i will stop saying Java s*cks! - &quot;After frequently falling into the trap of thinking (and saying) nothing neat comes out of Java, I decided to dig around looking for Java projects that were cool. Most of the stuff I see coming from Java has very boring implications, some are wonderfully powerful, certainly, yet I have not seen anything that makes me say, &quot;ooo.&quot;&quot;</span>
+<br><span class="jotsBookmarkTags">Tags: <a href="http://www.jots.com/users/roland/howtodevelopsoftware">howtodevelopsoftware</a>, <a href="http://www.jots.com/users/roland/java">java</a>, <a href="http://www.jots.com/users/roland/javascks">javascks</a></span>
+</li>
+
+<li><a href="http://www.russellbeattie.com/notebook/1008275.html#comments"><span class="jotsBookmarkTitle">Russell Beattie Notebook - Switching To My New Mac Mini: Pictorial</span></a>
+<br><span class="jotsBookmarkDescription">Great mac mini switcher photo essay</span>
+<br><span class="jotsBookmarkTags">Tags: <a href="http://www.jots.com/users/roland/macintosh">macintosh</a>, <a href="http://www.jots.com/users/roland/macmini">macmini</a></span>
+</li>
+
+<li><a href="http://www.collisiondetection.net/mt/archives/001095.html"><span class="jotsBookmarkTitle">collision detection: Can you think better when you&#39;re typing?</span></a>
+<br><span class="jotsBookmarkDescription">great comments on cursive versus printing versus typewriters versus word processors versus speech recognition software</span>
+
+</li>
+
+<li><a href="http://www.readwriteweb.com/archives/002638.php"><span class="jotsBookmarkTitle">Read/Write Web: Why Topic/Tag/Remix Feeds Are The Future of RSS</span></a>
+<br><span class="jotsBookmarkDescription">Sounds about right! - &quot;In 2005 in the blogosphere, RSS is a community-enabler. You find someone you like and you subscribe to them, and conversations ensue. What I'm suggesting is that in the future RSS will still be a community enabler, but by far its biggest use will be as a means to subscribe to personalised news and other information important to the lives of non-blogging people. Examples of the information I'm talking about: stocks, bank statements, weather, information needed for one's job, sports news, niche information (the long tail), lots of other things we can't predict yet ;-)&quot;</span>
+<br><span class="jotsBookmarkTags">Tags: <a href="http://www.jots.com/users/roland/blogs">blogs</a>, <a href="http://www.jots.com/users/roland/feedster">feedster</a>, <a href="http://www.jots.com/users/roland/pubsub">pubsub</a>, <a href="http://www.jots.com/users/roland/rss">rss</a>, <a href="http://www.jots.com/users/roland/technorati">technorati</a></span>
+</li>
+
+<li><a href="http://pyre.third-bit.com/blog/archives/000174.html"><span class="jotsBookmarkTitle">Pyre: Interviewing at Google</span></a>
+<br><span class="jotsBookmarkDescription">google = geeks 'r us (in the best possible way)</span>
+<br><span class="jotsBookmarkTags">Tags: <a href="http://www.jots.com/users/roland/google">google</a></span>
+</li>
+
+<li><a href="http://www.drupal.jp/"><span class="jotsBookmarkTitle">Drupal Japan | Drupal Japan</span></a>
+<br><span class="jotsBookmarkDescription">oh those crazy drupal japanese guys! Go Drupal Japan Gp!</span>
+<br><span class="jotsBookmarkTags">Tags: <a href="http://www.jots.com/users/roland/blogs">blogs</a>, <a href="http://www.jots.com/users/roland/cms">cms</a>, <a href="http://www.jots.com/users/roland/drupal">drupal</a>, <a href="http://www.jots.com/users/roland/japanese">japanese</a></span>
+</li>
+
+<li><a href="http://civicspacelabs.org/node/view/4778"><span class="jotsBookmarkTitle">How should CSL employees spend their time communicating? - CivicSpace Labs</span></a>
+<br><span class="jotsBookmarkDescription">continuing to debug the open source development process in the open! excellent</span>
+<br><span class="jotsBookmarkTags">Tags: <a href="http://www.jots.com/users/roland/civicspace">civicspace</a>, <a href="http://www.jots.com/users/roland/howtodevelopsoftware">howtodevelopsoftware</a>, <a href="http://www.jots.com/users/roland/opensource">opensource</a></span>
+</li>
+
+<li><a href="http://garage.docsearls.com/node/view/529"><span class="jotsBookmarkTitle">Open the &#39;pod bay doors, Steve | Doc Searls&#39; IT Garage</span></a>
+<br><span class="jotsBookmarkDescription">Doc continue to spread the &quot;Apple is th MS of music&quot; meme!  I want both the people's podcasting iPod and Apple's iPod - &quot;The subhead reads, A youthful duo wants to merge Wi-Fi with portable music. Nice idea, except for something called Apple.&quot;</span>
+<br><span class="jotsBookmarkTags">Tags: <a href="http://www.jots.com/users/roland/appleisthemicrosoftofmusic">appleisthemicrosoftofmusic</a>, <a href="http://www.jots.com/users/roland/ipod">ipod</a></span>
+</li>
+
+<li><a href="http://allensblog.typepad.com/allens_blog/2004/11/ten_commandment.html"><span class="jotsBookmarkTitle">Allen&#39;s Blog: Ten Commandments for Entrepreneurs</span></a>
+<br><span class="jotsBookmarkDescription">hmmm - &quot;Although I'm going to write about 10 Commandments, there are really 13, the first three of which are, sort of, &quot;Uber Commandments&quot;: (1) have a great technology idea, (2) have a great team and (3) pick a huge market in the midst of a major transition.  That's the hard part -- and it's where advice from a VC can't really help you.  But the next 10 Commandments are things you can control, more or less, and you should take advantage of this whenever possible.&quot;</span>
+<br><span class="jotsBookmarkTags">Tags: <a href="http://www.jots.com/users/roland/startingabusiness">startingabusiness</a>, <a href="http://www.jots.com/users/roland/vc">vc</a></span>
+</li>
+
+<li><a href="http://www.silentpenguin.com/archives/2005/01/revisited_the_l.html"><span class="jotsBookmarkTitle">The Silent Penguin: Revisited - The Long Tail of Open Source</span></a>
+<br><span class="jotsBookmarkDescription">apply itunes and amazone storefront tech to open source to expose the long tail of open source projects - Good idea!</span>
+<br><span class="jotsBookmarkTags">Tags: <a href="http://www.jots.com/users/roland/howtodevelopsoftware">howtodevelopsoftware</a>, <a href="http://www.jots.com/users/roland/opensource">opensource</a></span>
+</li>
+
+<li><a href="http://blogs.sun.com/roller/page/jonathan/20050121#an_open_letter_to_sam1"><span class="jotsBookmarkTitle">An Open Letter to Sam Palmisano, CEO, IBM Corp. - Jonathan Schwartz&#39;s Weblog</span></a>
+<br><span class="jotsBookmarkDescription">the usual FUD from the setting Sun - but it's great to watch this &quot;vendor sport&quot; (thanks Doc Searls  for the wonderful term!)  in action.</span>
+<br><span class="jotsBookmarkTags">Tags: <a href="http://www.jots.com/users/roland/fud">fud</a>, <a href="http://www.jots.com/users/roland/ibm">ibm</a>, <a href="http://www.jots.com/users/roland/sun">sun</a></span>
+</li>
+
+</ul>
+
+

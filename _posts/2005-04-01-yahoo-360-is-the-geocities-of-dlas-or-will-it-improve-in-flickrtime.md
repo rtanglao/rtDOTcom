@@ -1,0 +1,15 @@
+---
+layout: post
+title: " Yahoo! 360 is the GeoCities of DLAs? Or will it improve in FlickrTime?"
+created: 1112352498
+---
+<p>Is Yahoo! 360 the GeoCities of Digital Lifestyle Aggregators? Or will it improve at the rate that Flickr did, (which I call <a href="http://www.rolandtanglao.com/archives/2005/03/22/yahoo_buys_flickr_flickrtime_rules_for_web_20_apps">FlickrTime</a>)?</p> <p>One could argue that Flickr was just as lame when it was initially released but there is one key difference: Flickr was always fun and nice to look at and never looked or felt like it was developed by a large, bland corporation.</p><p>Unfortunately Yahoo! 360 does look and feel that way. However, perhaps they will rapidly improve it in FlickrTime and incorporate the great feedback from Marc and others. That would be great!
+</p><p>From <a href="http://marc.blogs.it/archives/2005/03/even_the_name_v.html">Marc's Voice: Even the name verification server is burping</a>.:</p>
+<p><b>QUOTE</b></p><blockquote><p>Can't yah feel the vibe?</p>
+
+<p>That's the sound of a 100,000 rushing into the next big thing - Yahoo 360. Over the coming days people's impressions will be revealed on this hybird social network/blogging tool.
+</p>
+<p>Just to be clear. This is what I call a DLA (digital lifestyle aggregator.) No they didn't get completely right- but it does successfully combine these two latest technology aspects - which each have been hailed as new 'spaces' (marketplaces, trends, what have you.)</p></blockquote><p><b>UNQUOTE</b></p>
+
+
+

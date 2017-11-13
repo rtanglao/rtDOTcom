@@ -1,0 +1,13 @@
+---
+layout: post
+title: " Going to Robert Scoble's Geek dinner tomorrow in Bellevue to catch up with
+  Anita, meet Scoble, Gentile and many more"
+created: 1091077158
+---
+<a href="http://www.justagwailo.com/">Richard</a> and I are driving up to Bellevue tomorrow to hang with the geeks, meet <a href="http://radio.weblogs.com/0001011/2004/07/27.html#a8022">Robert Scoble</a>, <a href="http://samgentile.com/blog/archive/2004/07/24/12099.aspx">Sam Gentile</a> (whose C++ blogging I've enjoyed) and many others, catch up with <a href="http://www.anitarowland.com/gmarchives/00001874.html">Anita</a>, meet her husband Jack and maybe even talk about <a href="http://www.urbanvancouver.com/">UrbanVancouver</a> and our upcoming Vancouver Blog Conference in 2005.
+
+See you there! If there's any change in plans, please call me on my mobile at 604 729 7924.
+
+From <a href="http://radio.weblogs.com/0001011/2004/07/27.html#a8022">Scobleizer: Microsoft Geek Blogger</a>:
+<p><strong>QUOTE</strong></p><blockquote>And I'm holding one (Sam Gentile, Dan Appleman, and Rod Paddock, the publisher of CoDE magazine, all say they'll be there) on Thursday night (the 29th). We'll meet at the Bellevue Barnes and Noble (the one downtown Bellevue) at 7 p.m. (Dan Appleman is doing a book signing) and then we'll move to Rock Bottom Brewery (probably be there starting at about 7:30). Everyone's invited.</blockquote><p><strong>UNQUOTE</strong></p>
+

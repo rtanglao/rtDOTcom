@@ -1,0 +1,11 @@
+---
+layout: post
+title: " Net routes around Lifeblog TypePad lockin"
+created: 1110332871
+---
+<p>Thank-you. Lazy web, please convert this to a Drupal module. <a href="http://walkah.net/">James</a>?</p><p>From <a href="http://www.ocasta.co.uk/mt/archives/2005/03/lifeblogging_to.html">Ocasta - Lifeblogging to Movable Type (Updated)</a>.:</p>
+<p><b>QUOTE</b></p><blockquote><p>As a user of Movable Type I always found it frustrating that Nokia's Lifeblog posted to Typepad but not Movable Type.
+I now have a modified AtomServer.pm script that lets me do this. I'm happy for people to download and use this (at their own risk). To install:</p></blockquote><p><b>UNQUOTE</b></p>
+
+
+

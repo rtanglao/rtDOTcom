@@ -1,0 +1,9 @@
+---
+layout: post
+title: " Overzealous use of MT-BlackList"
+created: 1098517548
+---
+<p>
+My apologies to <a href="http://www.gunson.ca/blog/">Gillian</a> and <a href="http://www.troyangrignon.com/">Troy</a> whose comments I accidentally deleted about my <a href="http://www.rolandtanglao.com/archives/2004/10/22/my_life_live_on_flickr_courtesy_of_simons_java_midlet_and_my_7610">FlickrLive</a> and my <a href="http://www.rolandtanglao.com/archives/2004/10/14/happy_belated_blogacatmas">BlogCatMas</a> posts.
+</p>
+

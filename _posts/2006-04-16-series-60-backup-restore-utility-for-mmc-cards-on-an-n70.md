@@ -1,0 +1,6 @@
+---
+layout: post
+title: Series 60 Backup Restore Utility for MMC cards on an N70?
+created: 1145245218
+---
+<p>I would like to back up the contents of my MMC memory card on my N70 (in particular the Opera web browser that came with it), reformat the MMC (it appears to be corrupted because after I take 50 or so photos using the built-in camera app in sequence mode  e.g. <a href="http://www.flickr.com/photos/roland/sets/72057594106968931/">one of my Skyte sets</a>, the phone displays a &quot;Saving&quot; alert box that doesn&#39;t disappear until I reboot it)  and restore Opera. Is this possible (it should be but you never know)? Could somebody please point me to a Series 60 or N70 specific utility (I have firmware V 3.0546.2.3 18-11-05 RM-84) that does this? I thought about wiping the card and then re-installing Opera from scratch but <a href="http://www.opera.com/products/mobile/products/s60/">Opera doesn&#39;t appear to be free</a> so the copy I have must be under some sort of Nokia OEM license.</p>

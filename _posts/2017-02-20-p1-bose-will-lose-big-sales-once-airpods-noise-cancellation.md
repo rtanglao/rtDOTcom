@@ -1,0 +1,10 @@
+---
+layout: post
+title: Bose will lose big sales once Apple Airpods have noise reduction
+---
+
+
+## Pontifications
+
+
+Bose will lose big sales once Apple Airpods have noise reduction which I figure will be in version 3.0 or 4.0. Sorry Bose :-) ! Until then I'll continue to happily use my Bose noise reduction headphones!

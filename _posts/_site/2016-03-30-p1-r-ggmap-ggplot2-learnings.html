@@ -1,0 +1,16 @@
+<p>Some code snippets that weren’t obvious to me from reading the manual!</p>
+
+<ol>
+  <li><strong>I() - “as is” function</strong></li>
+</ol>
+
+<p>If you don’t use this function, ggmap, and ggplot will try <s>to make a factor</s> to use the values as names instead of using the values literally e.g.  out of your array of colours instead of using the actual hex colour values in the color column of a dataframe i.e. <strong>color=I(data6$color)</strong></p>
+
+<p><code class="highlighter-rouge">r
+f="~rtanglao/Dropbox/GIT/rtgram/13March2016-instagram-vancouver-top-colour-lat-long-date-2015.csv"
+data6 = read.csv(file=f,stringsAsFactors=F)
+(p &lt;- qplot(long, lat, geom = "point", data = data6,
+color=I(data6$color), xlim=c(-123.27, -123.005),
+ylim=c(49.21, 49.324), size=I(1.0), alpha=I(0.4))+
+facet_wrap(~date) + theme_minimal())
+</code></p>

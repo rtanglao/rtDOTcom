@@ -1,0 +1,6 @@
+---
+layout: post
+title: Hire Will Pate
+created: 1141680132
+---
+<p>I still remember picking Will up for our first meeting  in Vancouver just over a year ago. Two words: hire him! He's smart and gets things done. </p> <p>From <a href="http://www.willpate.org/hire-me">Web Marketing Prodigy and Sales Rainmaker Seeks Awesome Job | Will Pate</a>.:</p> <p><strong>QUOTE</strong></p><blockquote><p>A great job with an awesome company, filled with people who &quot;get it&quot;. I can do the best work for firms that provide web services or are building web application products, work with open source (Drupal is my forte) or social software of any kind. I could also do good things for companies that want to stand apart in industries that need help figuring out Web 2.0 opportunities; such as media &amp; entertainment. </p> <p>I'd like to stay in Vancouver if possible (it rocks here). Willing to relocate to the Bay Area, Seattle or Toronto; but since I'm a self taught genius type it might be a bit difficult to get a work visa in the US. If your lawyers know how to figure that part out, then game on.</p></blockquote><p><strong>UNQUOTE</strong></p>  

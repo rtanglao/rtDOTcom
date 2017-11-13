@@ -1,0 +1,6 @@
+---
+layout: post
+title: Join OSCMS people for our snow event at Cypress Mountain
+created: 1139350638
+---
+<p>We've arranged a shuttle bus from Hornby on the West side of the Vancouver Art Gallery. Return bus fare is $20. We leave at 5:15 p.m. tomorrow Wednesday February 8th, 2006. More info on the <a href="http://oscms-summit.org/events/oscms-cypress-skiing-snowboarding-and-xc/snowshoeing-event">OSCMS Snow event event page</a>.  All are welcome, not just OSCMS attendees!</p>

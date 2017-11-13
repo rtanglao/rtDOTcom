@@ -1,0 +1,9 @@
+---
+layout: post
+title: " An options trader's diary - another Trader Blog"
+created: 1092935230
+---
+Someday I will understand the market and therefore understand what the h*ck this person is writing about :-) !
+From <a href="http://klugo.blogspot.com/">An option trader's diary</a>:
+<p><strong>QUOTE</strong></p><blockquote>This weblog is my way to objectify my trading activities, to add some dimensionality to my thought processes, to maintain discipline and to keep me honest.  I'll be discussing my trades and my rationale behind each of them.</blockquote><p><strong>UNQUOTE</strong></p>
+

@@ -1,0 +1,26 @@
+---
+layout: post
+title: N73 Review Part 4 - N73 versus N93 Photos
+created: 1165232289
+---
+<p>
+Compare this N73 shot of Trout Lake:
+</p><p>
+<a href="http://www.flickr.com/photos/roland/301545781/" title="N73 Trout Lak"><img src="http://static.flickr.com/121/301545781_9d32d647f1_m.jpg" width="240" height="180" alt="N73 Trout Lake - Roland in Vancouver 055" /></a>
+</p><p>
+With this N93 shot of Trout Lake (taken moments apart):
+</p><p>
+<a href="http://www.flickr.com/photos/roland/301436471/" title="N93 Trout Lakeg"><img src="http://static.flickr.com/122/301436471_27bd7d0aaa_m.jpg" width="240" height="180" alt="N93 Trout Lake - 19112006111" /></a>
+</p><p>
+Which do you like better?
+</p><p>
+I think the N73 shot reflects what I was trying to capture better.
+</p><p>
+It's totally objective, but from my experience the N73 takes better still photos than the N93. But of course there's no optical zoom on the N73.
+</p><p>
+What do you think?
+</p><p>
+Check out Ken's <a href="http://www.realtime-unifiedcommunications.com/mobilityfixed_mobille_converge/2006/12/kens_photo_comparision_treo_70.htm">N73 versus N93 shootout</a> (I think the N93 shot looks better in Ken's comparison) and I agree with <a href="http://www.ringnokia.com/2006/12/ken_says_hes_go.html">Stefan</a> that $200 point and shoots are better. But not for long!
+</p><p>
+Also, $200 point and shoots are NOT connected to any network, mobile, WiFi or otherwise. Which means a long chain of pain to get the photo out into the 'online global conversation' that is the Internet and far less 'documenting the moment/zeitgeist shots'. In the future all cameras will have network connectivity even $200 point and shoots.
+</p>

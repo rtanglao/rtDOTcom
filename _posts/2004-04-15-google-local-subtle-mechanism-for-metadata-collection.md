@@ -1,0 +1,18 @@
+---
+layout: post
+title: " Google Local subtle mechanism for metadata collection?"
+created: 1082072891
+---
+Hmmm.  Google remains a company to watch and monitor.
+
+From <a href="http://weblog.edventure.com/blog/_archives/2004/4/15/35034.html">EDventure :: Google locle</a>:
+<p><strong>QUOTE</strong></p><blockquote>But second, consider Google&#8217;s AdWords system a subtle mechanism for metadata collection. Right now, you can specify geographic targeting. Someday soon, perhaps, you&#8217;ll be able to specify targeting by opening hours, or by language spoken, or by other criteria. For now, that information is used only for targeting rather than displayed&#8230;
+
+But just as Google is&#160;implicitly &#160;if transparently planning to collect huge amounts of e-mail, it&#8217;s also beginning to collect metadata about businesses. And it has the market pprsence to make such a collection interesting. For now, the information provided by AdWords advertisers is an interesting database; someday, perhaps it could support a variety of open APIs. (Take a look at&#160;SMB meta,&#160;courtesy of Dan Bricklin.)
+
+The best analogy, perhaps, is to Wal-Mart&#8217;s efforts to get its suppliers to use RF-ID, faltering though they may be. In the long run, suppliers will adopt Wal-Mart&#8217;s standards, and other large customers will likely start to use those standards too. Here are some scenarios: Currently, most &#8220;commerce&#8221; searches are for products and the establishments that sell them. But unless you&#8217;re ordering online, those two searches are generally separate. There are few listings for what&#8217;s on sale at an individual store. But soon, it could make sense for a store to make limited access to its inventories available online, so that people could know exactly where to buy things.
+
+And, of course, Google could sell anonymous data about those queries to merchants who wanted to stay in stock or pre-order based on what looks hot, or to manufacturers, fashion mavens and so on.&#160; .
+
+While right now Google is collecting information through AdWords for targeting, there&#8217;s no reason it couldn&#8217;t start using advertiser-entered data for display as well, as it already does with data feeds in Froogle. Some companies may start sending these new kinds of feeds expressly, while others might fill out a slightly more complex , domain-specific form when they advertise. Then hotels could start to compete on the basis of their swimming pool hours.</blockquote><p><strong>UNQUOTE</strong></p>
+

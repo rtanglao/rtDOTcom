@@ -1,0 +1,6 @@
+---
+layout: post
+title: BarCamp Tdot redux Part 1 - Jay Goldman rocks
+created: 1148452958
+---
+<p> <a href="http://barcamp.org/BarCampTdot">BarCamp Tdot</a>  was a blast. This is the 1st of a bunch of stream of consciousness raves (as opposed to rants) for the cool people I met. </p><p> Thank-you <a href="http://www.radiantcore.com/">Jay</a> for taking over the running of BarCamp Tdot from the partying and participating <a href="http://davidcrow.ca/">David Crow</a> (I am sorry David that teh <a href="http://www.bmannconsulting.com/">Boris</a> forced you to stay up all hours :-) ! ) Great organization and great venue (well except for the noise from loud talkers like Boris and myself, next time we need a side track/loud talkers room!) </p>

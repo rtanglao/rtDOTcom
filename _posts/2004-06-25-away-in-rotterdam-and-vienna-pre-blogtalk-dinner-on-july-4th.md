@@ -1,0 +1,16 @@
+---
+layout: post
+title: " Away in Rotterdam and Vienna, pre-Blogtalk dinner on July 4th"
+created: 1088203012
+---
+I'm on "vacation" until July 9th.  Unfortunately (fortunately I love what I do!), you can never really take a 100% vacation when you work at a startup.
+
+Right now I am in  Rotterdam.
+
+I will be at <a href="http://blogtalk.net/">BlogTalk 2.0</a> in Vienna from July 4-7 where I will be lucky enough to meet up with some cool people like <a href="http://blog.mathemagenic.com/">Lilia</a>, <a href="http://www.zylstra.org/blog/">Ton</a>, and many others.  
+
+If anybody is interested in meeting up with me on the night of Sunday July 4th for a pre BlogTalk dinner (unfortunately I can't make <a href="http://blogwalk.mediapedagogy.com/BlogWalkVenues/BlogWalk3">BlogWalk 3.0</a> which includes dinner ), please leave a comment or email roland AT streamlinewebco.com
+
+
+
+

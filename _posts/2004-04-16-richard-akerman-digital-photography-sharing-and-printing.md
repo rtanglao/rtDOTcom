@@ -1,0 +1,12 @@
+---
+layout: post
+title: " Richard Akerman: Digital Photography, Sharing, and Printing"
+created: 1082144741
+---
+A wee bit out of date (not updated for Panther for instance) but useful nonetheless.
+
+From <a href="http://www.chebucto.ns.ca/~rakerman/digiphoto.html">Digital Photography, Sharing, and Printing</a> via <a href="http://www.darrenbarefoot.com/archives/000667.html">Darren Barefoot</a>:
+<p><strong>QUOTE</strong></p><blockquote>This site gathers together all the knowledge I have accumulated about digital photography. I see the same questions showing up in discussions again and again (the FAQ phenomenon) so I have created this page to provide a useful reference point, particularly for Canadians.
+
+Keep in mind that when I started writing this, 3 Megapixels and 256 Megabytes of storage was state-of-the-art.</blockquote><p><strong>UNQUOTE</strong></p>
+

@@ -1,0 +1,6 @@
+---
+layout: post
+title: Google Video Uploader can't handle 691MB video !?!
+created: 1163686905
+---
+<p> Using the Mac OS X Google Video Uploader, I tried to upload a 31 minute 691 MB MPEG4 640x480 30fps video I took with my N93 of today&#39;s 1st session of <a href="http://raincitystudios.com/training/drupal/november-2006">Drupal Training held by Bryght and Raincitystudios</a> and Google claims the video uploaded but I don&#39;t see it anywhere in my uploaded video list. Very frustrating! </p>

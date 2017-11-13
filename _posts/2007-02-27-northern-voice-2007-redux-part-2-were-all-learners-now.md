@@ -1,0 +1,6 @@
+---
+layout: post
+title: Northern Voice 2007 Redux Part 2 - We're all learners now
+created: 1172592311
+---
+<p> I really believe this was the best <a href="http://2007.northernvoice.ca/">Northern Voice</a> ever. Why? The people ! The right mix of people! People of all &quot;skill levels&quot; with something to contribute. A diverse set of people with diverse skill sets. And a willingness to learn and humility from everybody (local or not, famous or not and we had plenty of famous and expert locals and famous and expert out of town people) to learn from each other. </p>

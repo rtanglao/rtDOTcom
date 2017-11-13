@@ -1,0 +1,10 @@
+---
+layout: post
+title: " Pseduo-blog - word of the week"
+created: 1089934249
+---
+What's your definition of a pseudo-blog? <a href="http://www.alwayson-network.com/comments.php?id=4830_0_1_0_C">FCC Chairman Powell's pseudo-blog</a> offends some because it is written in a formal tone with no personality (reads like it's been vetted by a PR department), has no links, is on Always On's self-congratulatory no street cred site :-), is just a 'series', is not using blogging software or on a blog site domain, etc..  Personally, this doesn't frustrate me because it's inevitable that our tidy little blog community will be usurped by the mainstream like this.  It's a sign blogging is growing up when somebody like Mr. Powell tries to portray himself as a blogger!
+
+From <a href="http://bigblogcompany.net/archives/000320.html">Big Blog Company - Flop-blog</a>:
+<p><strong>QUOTE</strong></p><blockquote>Pseudo-blogs are deeply frustrating, as we are aware of the misconceptions and lack of understanding of blog as a medium, which really do not need to be deepened further. Explaining the full impact of blogging is complex enough as it is.</blockquote><p><strong>UNQUOTE</strong></p>
+

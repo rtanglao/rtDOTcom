@@ -1,0 +1,12 @@
+---
+layout: post
+title: " Alexandra Samuel - Angus Reid Dialogue Networks"
+created: 1117060917
+---
+<p>My latest <a href="http://dogmaradio.com/web2.0/">Web 2.0 Radio</a> podcast. Read <a href="http://dogmaradio.com/web2.0/alexandra-samuel-angus-reid-dialogue-networks">the whole thing</a> to access the links to stuff mentioned in the podcast.</p><p>From <a href="http://dogmaradio.com/web2.0/alexandra-samuel-angus-reid-dialogue-networks">Alexandra Samuel - Angus Reid Dialogue Networks</a>.:</p>
+<p><b>QUOTE</b></p><blockquote><p><a href="http://alexandrasamuel.com/">Alexandra Samuel, PhD</a> and I discussed  tagging</p><p><a rel="enclosure" href="http://dogmaradio.com/conf/dogmaradio-com.bryght.net/files/11-may-2005-web2.0-radio-alexandra-samuel.mp3">9.3 MB MP3</a> (20 minutes and 9 seconds (yup, I know this is way above 10 minutes, <a href="http://feeds.feedburner.com/web20-radio">RSS Feed for this podcast</a>) - Recorded May 11, 2005
+</p><p>Got a Web 2.0 idea or person who should be on this show? Email me roland AT rolandtanglao.com or call me at 604 729 7924</p>
+<p>...list of links deleted</p></blockquote><p><b>UNQUOTE</b></p>
+
+
+

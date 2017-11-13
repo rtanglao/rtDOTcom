@@ -1,0 +1,13 @@
+---
+layout: post
+title: " Branding is Dead because Doc and Hugh of Gaping Void say so :-) !"
+created: 1098315527
+---
+<p>
+Another in the great string of 'x is dead'  memes.  For those who are keeping score we now have:
+</p><ul>
+<li><a href="http://www.globalprblogweek.com/archives/pr_is_dead.php">PR is dead</a></li>
+<li><a href="http://www.bryght.com/node/view/94">SEO is dead</a></li>
+<li><a href="http://doc.weblogs.com/2004/10/20#nowItsOfficial">Branding is dead</a> via <a href="http://doc.weblogs.com/2004/10/20#nowItsOfficial">Doc</a></li>
+</ul>
+

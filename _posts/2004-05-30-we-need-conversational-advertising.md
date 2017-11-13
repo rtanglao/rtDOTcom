@@ -1,0 +1,12 @@
+---
+layout: post
+title: " We need Conversational Advertising"
+created: 1085974655
+---
+Phrase of the day: Conversational Advertising!
+
+From a comment in <a href="http://battellemedia.com/archives/000678.php">John Battelle's Searchblog: Toward the Endemic: What's missing in PPC/Behavioral/Contextual Ad Nets</a>:
+<p><strong>QUOTE</strong></p><blockquote>Well said. I call this new type of advertising, "Conversational Advertising." If your favorite weblog publisher makes a few on-topic product or service recommendations, you probably would welcome those suggestions. It&#8217;s not SPAM or Junk Mail if the product being discussed is something of interest or comes from a trusted voice.
+
+Conversational Advertising understands it&#8217;s all about trust between a publisher and her audience. It gives customers ownership in the advertising process. No longer are ads &#8216;thrown&#8217; at customers because some marketer decides what is best for the customer. Customers can now interact more openly with the brand and discuss likes and dislikes. Advertising becomes part of the content.</blockquote><p><strong>UNQUOTE</strong></p>
+

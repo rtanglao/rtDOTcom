@@ -1,0 +1,9 @@
+---
+layout: post
+title: " Record, Annotate, Upload, Blog - Podcaster and Video Blogger Manifesto"
+created: 1126330622
+---
+<a href="http://www.flickr.com/photos/roland/41237343/" title="1. Record 2. Annotate 3. Upload 4. Blo"><img src="http://static.flickr.com/30/41237343_5557144c52_m.jpg" width="240" height="180" alt="1. Record 2. Annotate 3. Upload 4. Blog" /></a>
+<p>The 4 steps to podcast and Video blog enlightenment :-) that we came up with at <a href="http://podcasthotel.com/">Podcast Hotel</a>.</p>
+
+

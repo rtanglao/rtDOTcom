@@ -1,0 +1,6 @@
+---
+layout: post
+title: Motorola KRZR K1 Review Part 6 - Can only hold 50 SMSes
+created: 1174167109
+---
+<p> I&#39;ve set my trial KRZR K1 to get SMSes from <a href="http://twitter.com/">twitter</a> which means that I get 75 SMSes per day. After 50 SMSes have been received, the KRZR runs out of memory and stops receiving text messages. This is not very helpful and a bug. In my opinion it should store the SMSes on the memory card which has plenty of room left. Anybody out there know how to make the KRZR store SMSes on the memory card? </p>

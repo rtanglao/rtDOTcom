@@ -1,0 +1,14 @@
+---
+layout: post
+title: " Don't price for a loss"
+created: 1115445211
+---
+Mitch rocks! This sounds familiar.<p>From <a href="http://blog.redherring.com/MT/archives/main/000611.html">Red Herring Blog: Notes From the Startup Front</a>.:</p>
+<p><b>QUOTE</b></p><blockquote><p>It would be very easy to fall victim to the urge to just sign a deal for a bulk payment to get the deal closed-you want that cash so bad, because it promises the first time you're not just paying out, or paying less, at the end of the month. Too many times, entrepreneurs think that making concessions on early deals in order to bring in revenue to help with fundraising or simply so that they can point to reference customers is worth the pain of an unprofitable relationship to "kickstart the market."</p>
+
+<p>The problem is that pricing for a loss at the beginning of the life of a business often leads to a permanently unprofitable operation. If what you have to offer doesn't earn a profit at the outset, it's unlikely to in the future, when you'll be facing price pressure from competition (or from customers who almost always want more for less) and the realities of delivering a new invention to the marketplace strain your budgets.
+</p>
+<p>So, you exercise what the management gurus might call patience and what you know is the worst form of torture. You wait, you respond to every customer request quickly, but without giving in to the urge to make the deal easier to swallow for the customer, because the quick and easy financial relationship may cost you your company in the long run. You sit back and wait, knowing that if you've done your development and sales work right, the victory will come on your terms. You wait, you cool your heels, and keep building with the limited resources available. You survive, which is all a startup can hope for, at first.</p></blockquote><p><b>UNQUOTE</b></p>
+
+
+

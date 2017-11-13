@@ -1,0 +1,7 @@
+---
+layout: post
+title: " Skype Video means the loneliness of iSight Users will soon be over"
+created: 1128466353
+---
+<p>Just had a thought. The <a href="http://www.apple.com/isight/">iSight</a> is awesome for video chatting if you know other people in the (increasingly more populated) Mac ghetto, but that's a pretty small population. But with <a href="http://www.rolandtanglao.com/archives/2005/09/28/2007_video_calls_for_the_masses_arrive_courtesy_of_skype_not_from_the_oligopoly_telcos">Skype Video in 2006 for Mac users</a>, the loneliness will soon be over. Because lots of Windows people have webcams and will therefore use Skype for video.</p>
+

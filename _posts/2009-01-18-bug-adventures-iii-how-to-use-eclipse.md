@@ -1,0 +1,28 @@
+---
+layout: post
+title: '"Bug Adventures" III - How to use Eclipse '
+created: 1232323724
+---
+<p>
+Eclipse is a maze of twisty passages all alike for those not used to it :-) Herewith a quick and dirty guide for those not used to it! More in my <a href="http://sites.google.com/site/bugadventures/Home">Bug Adventures</a> wiki
+</p>
+<ol>
+	<li>How do I use f***ing Eclipse?
+	<ol>
+		<li>Easy: always make sure the  Dragonfly Perspective is open from Window-&gt;Open Perspective-&gt;Other</li>
+	</ol>
+	</li>
+	<li>How do I load code from a JAR from other people for a Bug APP that's not on BUGnet?
+	<ol>
+		<li>&quot;New Bug Project&quot; (one of the funny icons on the top left , the one in the middle)</li>
+		<li>Select All Services, and select your Bug, then click Finish</li>
+		<li>Right Click-&gt;Import-&gt;General-&gt;Archive File-&gt;Browse-&gt;blah.jar that you received from your friend or fellow developer</li>
+		<li>Select &quot;Yes To All&quot; when asked about &quot;Overwrite .project&quot; in folder</li>
+		<li>Right Click &quot;Send to Bug</li>
+	</ol>
+	</li>
+</ol>
+There doesn't seem to be a way to single step through code on the Bug itself. This seems to work no problem on the Virtual Bug but I don't use simulators, sorry! I used to do this via adb/gdb/xdb/ in the 1990s with HP-UX and other unix variants so there must be a way to do this on the Bug. Pointers appreciated!<br />
+<p>
+&nbsp;
+</p>

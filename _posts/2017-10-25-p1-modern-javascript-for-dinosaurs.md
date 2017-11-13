@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Modern JavaScript Explained For Dinosaurs :-) Still seems lacking in developer usability"
+---
+
+## Pontifications
+
+* To this old fart LOL :-) [Modern JavaScript Explained For Dinosaurs](https://medium.com/@peterxjang/modern-javascript-explained-for-dinosaurs-f695e9747b70) still makes JS development sound 100% not fun and not 100% not developer friendly and in fact "worse than it seems" :-) NOT "not as bad as it seems". 
+* But I'm an optimist and remain confident that something will emerge that abstracts away or reduces the need for the yak shaving explained in this post.
+
+**QUOTE**
+
+<blockquote>
+
+So this is modern JavaScript in a nutshell. We went from plain HTML and JS to using a package manager to automatically download 3rd party packages, a module bundler to create a single script file, a transpiler to use future JavaScript features, and a task runner to automate different parts of the build process. Definitely a lot of moving pieces here, especially for beginners. Web development used to be a great entry point for people new to programming precisely because it was so easy to get up and running; nowadays it can be quite daunting, especially because the various tools tend to change rapidly.<br /><br />
+
+Still, it’s not as bad as it seems. Things are settling down, particularly with the adoption of the node ecosystem as a viable way to work with the frontend. It’s nice and consistent to use npm as a package manager, node require or import statements for modules, and npm scripts for running tasks. This is a vastly simplified workflow compared to even a year or two ago!
+
+</blockquote>
+
+**END QUOTE**

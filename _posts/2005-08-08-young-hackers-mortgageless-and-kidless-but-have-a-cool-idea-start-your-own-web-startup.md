@@ -1,0 +1,17 @@
+---
+layout: post
+title: " Young hackers: mortgageless and kidless but have a cool idea? Start your
+  own web startup"
+created: 1123537471
+---
+<p>It's the golden age (at least for the next year or two). Any hacker with a good web app idea can easily put it  up, blog about it to promote it and see if it works and see if it sticks! Go hackers go!
+</p>  <p>From <a href="http://paulgraham.com/opensource.html">What Business Can Learn from Open Source</a>.:</p>
+<p><b>QUOTE</b></p><blockquote><p>Another thing that keeps people away from starting startups is the risk. Someone with kids and a mortgage should think twice before doing it. But most young hackers have neither.
+</p>
+<p>And as the example of open source and blogging suggests, you'll enjoy it more, even if you fail. You'll be working on your own thing, instead of going to some office and doing what you're told. There may be more pain in your own company, but it won't hurt as much.
+</p>
+<p>That may be the greatest effect, in the long run, of the forces underlying open source and blogging: finally ditching the old paternalistic employer-employee relationship, and replacing it with a purely economic one, between equals.</p>
+</blockquote><p><b>UNQUOTE</b></p>
+
+
+

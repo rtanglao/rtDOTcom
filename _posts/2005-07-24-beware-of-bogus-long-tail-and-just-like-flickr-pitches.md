@@ -1,0 +1,11 @@
+---
+layout: post
+title: " Beware of bogus 'long tail and  'Just Like Flickr' pitches"
+created: 1122264329
+---
+<p>Heard lots of both of these kinds of pitches lately.</p>
+<p>From <a href="http://longtail.typepad.com/the_long_tail/2005/06/what_the_long_t.html">The Long Tail: What the Long Tail isn't</a>.:</p>
+<p><b>QUOTE</b></p><blockquote><p>Venture capitalists who are tired of bogus Long Tail pitches are invited to point the hapless entrepreneurs to this post.</p></blockquote><p><b>UNQUOTE</b></p>
+
+
+

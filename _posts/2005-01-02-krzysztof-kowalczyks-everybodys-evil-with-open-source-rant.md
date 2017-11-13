@@ -1,0 +1,17 @@
+---
+layout: post
+title: " Krzysztof Kowalczyk's everybody's evil with open source rant"
+created: 1104733167
+---
+<p>At <a href="http://bryght.com/">work</a>, we are trying to square the circle and help create a positive feedback loop in open source (specifically <a href="http://drupal.org/">Drupal</a>).  I think we will do it but I am sure that it's not as easy as it seems.
+</p><p>From <a href="http://blog.kowalczyk.info/archives/2004/12/29/google-we-take-it-all-give-nothing-back/">Google - we take it all, give nothing back.</a>.:</p>
+<p><b>QUOTE</b></p><blockquote><p>I'm picking on Google, but they are not alone. Amazon, yahoo, ebay, aol. Any large business that uses web as means of providing services and making revenues is enjoying enormous savings by using open source stack on their back end. And what do they contribute back? A good approximation of zero compared to benefits they reap.
+</p>
+<p>Another irony: compared to this bunch Microsoft looks good, they are the only ones that did pay for the software they use on their back-end
+</p>
+<p>The thing is: I actually believe that positive feedback loop in open source is possible. Except that it requires enlightement on the part of executives at all those companies. They should recognize that they should invest in improving in open source software that they use as their infrastructure. Not out of grattitude but because it makes good sense in the long term. It's the cheapest way for them to get software they use for building their services.
+</p>
+</blockquote><p><b>UNQUOTE</b></p>
+
+
+

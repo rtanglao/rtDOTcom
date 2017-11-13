@@ -1,0 +1,16 @@
+---
+layout: post
+title: Flash video encoding shootout - Brightcove Consumer wins
+created: 1170689310
+---
+<p> In a completely  unscientific test, I took this <a href="http://blip.tv/file/get/Roland-UploadiingALogoToTheDrupal5GarlandTheme793.mov">original MPEG-4 video from a Drupal 5 screencast I made</a> using <a href="http://www.ambrosiasw.com/utilities/snapzprox/">Snapz Pro X</a> and then uploaded it to <a href="http://roland.blip.tv/file/141837/">blip.tv</a>, <a href="http://www.youtube.com/watch?v=SYW0RqBgyiI">Google Video</a>, <a href="http://www.youtube.com/watch?v=SYW0RqBgyiI">YouTube</a> and <a href="http://www.brightcove.com/title.jsp?title=474435004">Brightcove Consumer</a>. </p><p> In the original MPEG-4  you can clearly make out the text. Only Brightcove&#39;s transcoded flash video has legible text. In the others, the text is very blurry and almost unreadable. I don&#39;t know anything about transcoding but could the fact that Brightcove transcodes to a slightly bigger size explain the fact that its text is not as blurry as the others? </p><p> Does this mean I&#39;ll switch to Brightcove Consumer for all my video? No! Why? Because I need the Creative Commons licensing and original file options that blip.tv gives me. And if anybody can improve their transcoding, blip.tv can! </p><p> See for yourself after the jump if you don&#39;t believe me!</p>  <!-- break --> 
+<h3>blip.tv: </h3> 															<div id="blip_movie_content_145810"><a href="http://blip.tv/file/get/Roland-UploadiingALogoToTheDrupal5GarlandTheme793.flv" onclick="play_blip_movie_145810(); return false;"><img src="http://blip.tv/file/get/Roland-UploadiingALogoToTheDrupal5GarlandTheme793.flv.jpg" border="0" alt="" title="Click To Play" /></a><br /><a href="http://blip.tv/file/get/Roland-UploadiingALogoToTheDrupal5GarlandTheme793.flv" onclick="play_blip_movie_145810(); return false;">Click To Play</a></div>										<div class="blip_description">Here&#39;s <a href="http://support.bryght.com/drupal5/uploading-logo">how to change the logo on the Drupal 5 Garland theme</a>.<br /></div> 
+
+<h3> Google Video: </h3>
+<embed style="width:400px; height:326px;" id="VideoPlayback" type="application/x-shockwave-flash" src="http://video.google.com/googleplayer.swf?docId=-6915387797311453966&hl=en-CA" flashvars=""> </embed>
+
+   <h3> YouTube: </h3>
+<object width="425" height="350"><param name="movie" value="http://www.youtube.com/v/SYW0RqBgyiI"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/SYW0RqBgyiI" type="application/x-shockwave-flash" wmode="transparent" width="425" height="350"></embed></object>
+
+   <h3> Brightcove Consumer: </h3> 
+<embed src='http://admin.brightcove.com/destination/player/player.swf' bgcolor='#FFFFFF' flashVars='allowFullScreen=true&initVideoId=474435004&servicesURL=http://services.brightcove.com/services&viewerSecureGatewayURL=https://services.brightcove.com/services/amfgateway&cdnURL=http://admin.brightcove.com&autoStart=false' base='http://admin.brightcove.com' name='bcPlayer' width='486' height='412' allowFullScreen='true' allowScriptAccess='always' seamlesstabbing='false' type='application/x-shockwave-flash' swLiveConnect='true' pluginspage='http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash'></embed>

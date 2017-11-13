@@ -1,0 +1,19 @@
+---
+layout: post
+title: " Thursday 24 February 2005 Bloggers dinner in Downtown Chicago"
+created: 1109107183
+---
+<p><b>LATER</b>: our hotel is the <a href="http://maps.yahoo.com/maps_result?ed=VxSYbup_0TodZoQlakTLYzyT9hfRnu3o3b59MBIzmg--&amp;csz=chicago%2C+il&amp;country=us&amp;new=1&amp;name=&amp;qty=">Chicago Crowne Plaza Hotel Silversmith 10 South Wabash Avenue, Chicago</a>, 312 372 7696 and the room is booked under Susannah Garner's name.
+</p>
+<p>Chicago area bloggers (the only one I really "know" is <a href="http://www.rklau.com/tins/">Rick Klau</a> of <a href="http://socialtext.com/">Socialtext</a>). I, along with <a href="http://www.buzzmarketingwithblogs.com/">Susannah Gardner</a> and <a href="http://www.hopstudios.com/nep/column/">Travis Smith</a> will be in Chicago for business starting tomorrow.
+</p>
+<p>How about a bloggers dinnner in downtown Chicago on Thursday 24 February 2005? <strike>I don't know where we are staying exactly since Susie booked it and she's at lunch now but I think any place within an easy cab ride of downtown Chicago (we are staying at one of the Crowne Plaza hotels) is fine</strike>).
+</p>
+<p><b>WHAT</b>: Bloggers Dinner with Roland Tanglao, Susannah Gardner (<a href="http://www.amazon.com/exec/obidos/ASIN/076458457X/qid%3D1109106953/sr%3D11-1/ref%3Dsr%5F11%5F1/104-0550449-8592766">Buzz Marketing with Blogs</a> author), Travis Smith<br />
+<b>WHERE</b>: ? need recommendations from Chicago people on a good place an easy cab ride from our hotel (<a href="http://maps.yahoo.com/maps_result?ed=VxSYbup_0TodZoQlakTLYzyT9hfRnu3o3b59MBIzmg--&amp;csz=chicago%2C+il&amp;country=us&amp;new=1&amp;name=&amp;qty=">Chicago Crowne Plaza Hotel Silversmith 10 South Wabash Avenue, Chicago</a>, 312 372 7696<strike>one of the Crowne Plazas</strike>)<br />
+<b>WHEN</b>: Thursday 24 February 2005, meet at our Crowne Plaza Hotel at 6:45p.m. (<a href="http://maps.yahoo.com/maps_result?ed=VxSYbup_0TodZoQlakTLYzyT9hfRnu3o3b59MBIzmg--&amp;csz=chicago%2C+il&amp;country=us&amp;new=1&amp;name=&amp;qty=">Chicago Crowne Plaza Hotel Silversmith 10 South Wabash Avenue, Chicago</a>, 312 372 7696<strike>by the time you RSVP, I should know which hotel we are at!</strike>), then walk or cab to the restaurant<br />
+<b>RSVP</b>: email roland AT bryght.com or call 604 729 7924 or leave a comment<br />
+<b>WHO</b>: all welcome, bloggers and non bloggers alike!<br />
+</p>
+
+

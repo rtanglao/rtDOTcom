@@ -1,0 +1,6 @@
+---
+layout: post
+title: Podcast Hotel Seattle 2006 - even better, still grassroots and vital
+created: 1141032877
+---
+<a title="Know your rights! Give it away strategically" href="http://www.flickr.com/photos/roland/103952104/"><img width="240" height="160" border="0" alt="Know your rights! Give it away strategically" src="http://static.flickr.com/35/103952104_a39e8930ac_m.jpg" /></a> <p>For me, the more you pay, the less you get when it comes to conferences. For $100, <a href="http://podcasthotel.com/">Podcast Hotel Seattle 2006</a> was even better than the original one in Portland. Still grassroots, still vital but with more bands and more great discussion. Looking forward to the next one. More later!</p> 

@@ -1,0 +1,10 @@
+---
+layout: post
+title: " Andy's script works - now need Amaretto so I can upload a directory of photos
+  on my 7610 in one step to Flickr"
+created: 1094760482
+---
+<p>
+OK, <a href="http://anarkystic.com/blog/archives/2004/09/07/flickrupload01.php">Andy's Python script</a> to upload files to <a href="http://www.flickr.com/">Flickr</a> works (check out <a href="http://www.flickr.com/photo.gne?id=387282">my espresso photo uploaded via the script</a>), thanks <a href="http://anarkystic.com/blog/">Andy</a>. Now I just need to get this working on the 7610. Unfortunately <a href="http://www.russellbeattie.com/notebook/1007908.html">the Series 60 Python port appears not to be public</a>. Hmmm, anybody know how i can get in on the Amaretto beta?
+</p>
+

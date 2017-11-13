@@ -1,0 +1,7 @@
+---
+layout: post
+title: Speakout Wireless pay as you go unlimited data for $10/month works for A-GPS
+  & uploading photos to flickr on my N8
+created: 1319035473
+---
+<p>[<strong>UPDATE</strong>: <a href="http://rolandtanglao.com/archives/2011/10/22/speakout-wireless-nokia-n8-internet-access-setup-details">detailed internet settings for Nokia N8 on Speakout Wireless</a>]</p><p>Speakout Wireless pay as you go unlimited data for $10/month works for A-GPS &amp; uploading photos to flickr on my N8 via WAP and it works beautifully. Full N8 setup details forthcoming! Setup Summary for the impatient: Nokia N8 auto configuration for WAP works; just copy the WAP access point to the Internet group and setup Application settings | Positioning to use the WAP access point for the positioning server. Haven't tested email and any other apps but I don't care :-)</p><p>There may be gotchas but it doesn't appear to require a voice value plan or any voice plan! I'll also post in a month or two to confirm whether there is any fine print to trip up on! But for now appears to be a cheap and cheerful pay as you go unlimited data plan!</p>

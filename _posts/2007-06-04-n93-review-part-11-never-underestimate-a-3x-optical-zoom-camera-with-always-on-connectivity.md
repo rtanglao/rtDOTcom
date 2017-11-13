@@ -1,0 +1,13 @@
+---
+layout: post
+title: N93 Review Part 11 - Never underestimate a 3x optical zoom camera with always
+  on connectivity
+created: 1180994902
+---
+<p>
+<a href="http://www.flickr.com/photos/roland/485376059/" title="Somersault over Kits Beach"><img src="http://farm1.static.flickr.com/226/485376059_db391edff0_m.jpg" width="240" height="180" alt="Somersault over Kits Beach - Image593" /></a>
+</p><p>
+Without the N93's optical zoom, <a href="http://www.flickr.com/photos/roland/485376059/">this shot</a> would not have been possible since I had no other camera on me. Without the N93's GPRS connectivity (too bad it doesn't support 850 MHz EDGE which is not 3G but much faster), I wouldn't have been able to upload it to flickr while I was still at the beach and get reactions to it via the N93's WebKit web browser again while still at the beach!
+</p><p>
+The combination of an optical zoom with always on connectivity is unbeatable (in spite of the imperfections of the memory management in S60v3 and the random shutoff bug that happens with the latest firmware).  I am jealous of the N95's GPS but when I get an N95, I am sure that I will miss the zoom. In the meantime, I continue to groove on my awesome but flawed N93!
+</p>

@@ -1,0 +1,10 @@
+---
+layout: post
+title: " Google jumps the shark by offering ads not tied to keywords?"
+created: 1114896865
+---
+<p>Hmmm. Need to think about this more but this doesn't sound like the right thing to do for Google. </p><p>From <a href="http://infocommerce.typepad.com/infocommerce/2005/04/google_racing_t.html">InfoCommerce: Google: Racing Towards Irrelevance?</a>.:</p>
+<p><b>QUOTE</b></p><blockquote>Google's recent decision to introduce advertising options not tied to keywords is a watershed event for the company. In one fell swoop, it is moving beyond the formula that made it unique and exciting -- relevancy coupled with pay-for-performance pricing -- and crossing over into the traditional world of cost-per-thousand advertising. What's driving this move? On quick inspection, it can be dismissed as nothing more than a quick grab for cash. But to me, it's a sign that Google is poised to lose its direction. Indeed the New York Times reports that some stock analysts are now suggesting that Google's advertising network will become more important to its business than its search engine.</blockquote><p><b>UNQUOTE</b></p>
+
+
+

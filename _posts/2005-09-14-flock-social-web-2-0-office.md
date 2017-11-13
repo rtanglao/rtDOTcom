@@ -1,0 +1,14 @@
+---
+layout: post
+title: " flock = Social Web 2.0 Office?"
+created: 1126723439
+---
+<p><p>Nice link to <a href="http://www.rolandtanglao.com/archives/2005/08/11/flock_rocks_or_chris_messina_is_a_demo_god">my Flock OSCON demo review</a> as well as mentions of fellow <a href="http://bryght.com/">Bryght</a> guys <a href="http://www.bmannconsulting.com/">Boris</a> and <a href="http://www.kriskrug.com/">Kris</a>. flock as "Social Web 2.0 Office" sounds great. Makes sense since it is cross platform and works (or will hopefully work with any cool Web 2.0 service and app that has APIs; that's the intent and promise but it's still early days) with everything unlike Microsoft Office.</p>
+
+</p><p>From <a href="http://wired.com/news/technology/0,1282,68823,00.html?tw=wn_tophead_1">Wired News: Killer Buzz Flocks to New Browser</a>.:</p>
+<p><b>QUOTE</b></p><blockquote><p>Flock may or may not become the Office of the web. But, for now, it's one of a kind, at least as far as buzz goes.
+</p>
+End of story</blockquote><p><b>UNQUOTE</b></p>
+
+
+

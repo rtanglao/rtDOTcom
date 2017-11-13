@@ -1,0 +1,6 @@
+---
+layout: post
+title: ComVu mobile webcasting - interesting idea but only works on M$crosoft
+created: 1134983967
+---
+<p>I know I've drunk too much Nokia and Apple Kool-Aid but I thought Nokia was still the market leader in the mobile space and not Microsoft so I kind of thought ComVu would support Nokia Series 60 phones like my 7610 but I was wrong! Oh well, and I also grow weary of companies that claim to serve bloggers and videobloggers but don't actually have a blog themselves. It's not as if it's 1999 and blogging is a novelty.  Next!</p>  <p>From <a href="http://www.comvu.com/Index.aspx">ComVu - Welcome to Mobile Webcasting</a>.:</p> <p><strong>QUOTE</strong></p><blockquote><p>ComVu has created the world's first live video broadcast solution from a mobile device to a global audience. With the push of a button on a camera phone bloggers, citizen reporters, family members, friends and corporate professionals can broadcast live events to their communities - simply and inexpensively.</p> </blockquote><p><strong>UNQUOTE</strong></p>  

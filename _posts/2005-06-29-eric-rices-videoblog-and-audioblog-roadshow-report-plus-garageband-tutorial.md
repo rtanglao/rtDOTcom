@@ -1,0 +1,9 @@
+---
+layout: post
+title: " Eric Rice's Videoblog and Audioblog Roadshow Report plus Garageband Tutorial"
+created: 1120081473
+---
+<p>Cross posted from <a href="http://bryght.com/blog/roland-tanglao/eric-rices-videoblog-and-audioblog-roadshow-report-plus-garageband-tutorial">my Bryght blog</a> since there are technical details in the audio file that podcasters might want to hear!
+</p>
+<blockquote><a href="http://www.flickr.com/photos/roland/22108748/" title="Eric Rice in front of Foo's Ho Ho in Chinatown"><img src="http://photos17.flickr.com/22108748_86e82639fa_m.jpg" width="160" height="240" alt="Podcast Videoblog Roadshow - Back to Bryght - 9" /></a><p>What can I say. Eric Rice (<a href="http://blog.ericrice.com/">blog</a>, <a href="http://show.ericrice.com/">podcast</a>, <a href="http://blog.ericrice.com/blog/TVVideo">video</a>) rocks! His enthusiasm for videoblogging and podcasting is infectious. Eric took a bunch of videos (waiting for Eric to render them and remix them in iMovie but that we have to wait since his Powerbook had a <a href="http://blog.ericrice.com/blog/_archives/2005/6/28/980896.html">beer mishap</a> at Gnomedex), <a href="http://flickr.com/photos/tags/ericrice/">photos</a> and some <a href="http://dogmaradio.com/dr/eric-rice-podcasting-102-next-level">audio</a> and had a great time. And we got a great tutorial on how to use Garageband for podcasts (4.5 MB MP3 file, 19 minutes 30 seconds).</p><a href="http://www.flickr.com/photos/roland/22108618/" title="Eric Rice's Garageband Tutorial Diagram"><img src="http://photos15.flickr.com/22108618_4ac088431f_m.jpg" width="240" height="160" alt="Podcast Videoblog Roadshow - Back to Bryght - 25" /></a></blockquote>
+

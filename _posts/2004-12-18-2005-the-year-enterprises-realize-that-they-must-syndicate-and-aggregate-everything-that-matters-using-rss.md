@@ -1,0 +1,17 @@
+---
+layout: post
+title: " 2005 - the year enterprises realize that they must syndicate and aggregate
+  everything that matters using RSS"
+created: 1103357594
+---
+<p>The mantra is: Syndicate everything that matters and aggregate everything that matters.  And soon most organizations will be doing this with RSS. So anybody who provides products and services that enable this will win big.</p>
+
+<p>From <a href="http://globelogger.com/item.php?id=252">GlobeLogger Vendors: Paddling Out to Catch the Enterprise Wave</a>.:</p>
+<p><b>QUOTE</b></p><blockquote><p>Form the shore, they look like tiny dots slowly making their way out past the breakers. They're the software vendors positioning themselves to catch the Enterprise RSS wave. My, that's a lot of tiny dots.</p>
+
+<p>In the past week, I've gotten emails from executives at two more compaines with designs on RSS in the enterprise and plan on hearing their approaches and checking out their products after the holidays. The interesting, if unsuprising, thing to me is that the companies maneuvering for position in this space are relative unknowns outside the blog world. They're startups. The big vendors, who will ultimately bring something to market, are going to be late getting out, and once a wave has passed you by there's no catching it. OK, enough with the surfing metaphor.</p>
+
+<p>There's only one question for those of us looking to bet big on one vendor: Which one will Win Big? In my experience it comes down to this. To win big, you have to bet big. You have to passionately believe in what you're doing. You have to surround yourself with the most effective people on the planet. And you have to never take your eye off the prize.</p></blockquote><p><b>UNQUOTE</b></p>
+
+
+

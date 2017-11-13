@@ -1,0 +1,36 @@
+---
+layout: post
+title: " Today's Links"
+created: 1107784816
+---
+
+<ul class="jotsBookmarks">
+
+<li><a href="http://www.boingboing.net/2005/02/06/shmoo_group_exploit_.html"><span class="jotsBookmarkTitle">Boing Boing: Shmoo Group exploit: 0wn any domain, no defense exists</span></a>
+<br><span class="jotsBookmarkDescription">I am sure this will be fixed soon! - &quot;A new exploit was demo'd by EricJ that left all jaws our on the floor. Want to own ANY domain? Want a trusted SSL cert for it? Check it out here. We 0wnz0rd PayPal, but left the rest for you. We have no idea how to fix this and neither do the browser developers. Official advisory here. Phishing attacks of doom coming soon.&quot;</span>
+<br><span class="jotsBookmarkTags">Tags: <a href="http://www.jots.com/users/roland/firefox">firefox</a>, <a href="http://www.jots.com/users/roland/howtodevelopsoftware">howtodevelopsoftware</a></span>
+</li>
+
+<li><a href="http://www.masternewmedia.org/2005/02/01/what_should_drive_site_organization.htm"><span class="jotsBookmarkTitle">What Should Drive Site Organization And Design: Consistency Or Flow? - Robin Good&#39; Sharewood Tidings</span></a>
+<br><span class="jotsBookmarkDescription">Definitely should focus on helping users find what they want! - &quot;Should we focus more on helping the users find what they want or shall we keep promoting the inventory of content our sites have available?&quot;</span>
+<br><span class="jotsBookmarkTags">Tags: <a href="http://www.jots.com/users/roland/howtodevelopsoftware">howtodevelopsoftware</a></span>
+</li>
+
+<li><a href="http://www.theregister.co.uk/2005/02/04/napster_go_away/"><span class="jotsBookmarkTitle">Why Napster will be a fully-integrated flop | The Register</span></a>
+<br><span class="jotsBookmarkDescription">the title says it all</span>
+<br><span class="jotsBookmarkTags">Tags: <a href="http://www.jots.com/users/roland/apple">apple</a>, <a href="http://www.jots.com/users/roland/howtodevelopsoftware">howtodevelopsoftware</a>, <a href="http://www.jots.com/users/roland/ipod">ipod</a>, <a href="http://www.jots.com/users/roland/itunes">itunes</a></span>
+</li>
+
+<li><a href="http://www.csthota.com/blogmap/"><span class="jotsBookmarkTitle">c s t h o t a . c o m - BlogMap</span></a>
+<br><span class="jotsBookmarkDescription">Er doesn't Mikel Maron's stuff already do this? - &quot;Using BlogMap you can geo-code your blog, browse already geo-coded blogs and search for blogs. Once geo-coded, you can get your own BlogMap location using a simple url!&quot;</span>
+<br><span class="jotsBookmarkTags">Tags: <a href="http://www.jots.com/users/roland/blogs">blogs</a>, <a href="http://www.jots.com/users/roland/rss">rss</a></span>
+</li>
+
+<li><a href="http://sfgate.com/columnists/morford/"><span class="jotsBookmarkTitle">Why Does Windows Still Suck? / Why do PC users put up with so many viruses and worms? Why isn&#39;t everyone on a Mac?</span></a>
+<br><span class="jotsBookmarkDescription">good question - if you must, only  use windoze for games, don't use IE, Outlook or Office on Windoze - if you do, you will run into problems</span>
+<br><span class="jotsBookmarkTags">Tags: <a href="http://www.jots.com/users/roland/windozeonly">windozeonly</a></span>
+</li>
+
+</ul>
+
+

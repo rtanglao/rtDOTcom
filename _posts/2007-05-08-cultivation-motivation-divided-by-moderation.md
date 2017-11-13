@@ -1,0 +1,6 @@
+---
+layout: post
+title: Cultivation = Motivation divided by Moderation
+created: 1178617598
+---
+<p> Very thought provoking equation for online communities. <a href="http://www.slideshare.net/andrewhinton/architectures-for-conversation-ii-what-communities-of-practice-can-mean-for-information-architecture/download">Read the whole thing</a>! </p><p> FROM <a href="http://www.slideshare.net/andrewhinton/architectures-for-conversation-ii-what-communities-of-practice-can-mean-for-information-architecture/44">Architectures for Conversation (ii): What Communities of Practice can mean for Information Architecture &raquo; SlideShare</a>: </p><p> <strong>QUOTE</strong> </p><p> Cultivation = Motivation / Moderation </p><p> <strong>END QUOTE</strong> </p>

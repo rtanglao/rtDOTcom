@@ -1,0 +1,31 @@
+---
+layout: post
+title: ' Not linking to the  Globe and Mail until they add "registration required"
+  to all their links'
+created: 1092848684
+---
+Unlike <a href="http://www.downes.ca/">Stephen</a>, I will continue to subscribe to the dead trees edition of the Globe and Mail because unfortunately they have a monopoly in Canada of decent newspaper writing (and it's great to have something to read in the washroom and to wrap fish and chips with :-) !).  I, however, will no longer link to them (or any other paper that requires registration) because of their bogus registration policy on this blog and <a href="http://paymentviews.com/">the</a>&nbsp;<a href="http://www.UrbanVancouver.com/">half</a>&nbsp;<a href="http://www.streamlinewebco.com/">dozen</a>&nbsp;<a href="http://www.VanEats.com/">or</a>&nbsp;<a href="http://developer.e-xact.com/">so</a>&nbsp;<a href="http://peer1.blogware.com/">other</a>&nbsp;<a href="http://nabandwidthnews.blogware.com/">blogs</a>&nbsp;that I write until they prominently label all their links as "registration required".
+
+From <a href="http://www.downes.ca/cgi-bin/website/view.cgi?dbs=Article&#38;key=1090868352&#38;format=full">Globe and Mail Registration - Stephen's Web ~ </a>:
+<p><strong>QUOTE</strong></p><blockquote>You wrote in your three paragraph 'explanation' that "we've been together for years - through election shenanigans, market fluctuations, tragedy, triumphs and everything in between." This is quite true. I have been a loyal online reader since the service came online.
+
+But the Globe and Mail "now requires our most frequent readers to register for continued access to the site."
+
+Is this any way to treat an old friend, your best customer?
+
+Were the registration voluntary - as it was in the past, to sign up for the email newsletter, and especially were it in support of some additional feature or service, such as content or even advertisement targeting, I would have been very willing to sign up.
+
+But the making of registration mandatory removes all choice in the matter, and indicates clearly to me that you do not respect the relationship between the reader and the newspaper. You dictate, we follow, that's about it. Perhaps that's how you view my relation to the news you cover as well.
+
+I understand why you will have taken this decision. Someone has convinced you that advertisers will pay you more for reader demographics. They may have also convinced you that most readers fill out these forms accurately.
+
+This research is unfounded, as it was collected at a point in time when very few sites require registration. With the advent of sites such as bugmenot.com and with an observed increased frequency of disparaging remarks about registration on discussion boards and blogs, I can say quite safely that future users will be much less amenable to mandatory registration.
+
+There are numerous other issues with respect to registration that I could raise. One wonders, for example, how I am supposed to remember the dozens of passwords required to use various news sites (or do you expect I will foolishly use the same one for every paper). One wonders how much more spam I will receive (since the honesty of sites regarding spam is self-evidently minimal). One wonders what sort of data security there will be, if any. One wonders who will be looking at my choice of political news, and for what purpose.
+
+Oh sure, you have a privacy policy - one that states "The Globe Privacy Code does not impose any limits on the collection, use or disclosure of the following information by a Globe Company..." and then lists most of my personal information. Even where limits were imposed, one wonders whether the retention of information inside a company like Bell Globemedia represents and sort of real limitation at all.
+
+None of these seem to bother you. So it's over. We're done. I'll get my news about Google from elsewhere.
+
+Now that you demand registration, I expect and request that you also stop propogating links directly to Globe and Mail stories on the open internet.</blockquote><p><strong>UNQUOTE</strong></p>
+

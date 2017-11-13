@@ -1,0 +1,11 @@
+---
+layout: post
+title: " Microsoft Office: cannibalize yourself or die!"
+created: 1131138612
+---
+<p>Great <a href="http://mp3.attentiontech.podshow.com/AttentionTech25.mp3">podcast</a> with some great thoughts including the notion that M*crosoft needs to cannibalize Office (i.e. offer a hosted version) or the Office franchise is doomed (my interpretation, the doomed part wasn't in the podcast). My summary of the M*crosoft Office Live thing is: <a href="http://www.microsoft-watch.com/article2/0,2180,1880560,00.asp">Hosted Email and VoIP + Vaporware</a> = no compelling value for small businesses or anybody. There's no reason to switch when Gmail and Skype are free and work today. </p>
+<p>From <a href="http://attentiontech.podshow.com/?p=7">Live Dead</a>.:</p>
+<p><b>QUOTE</b></p><blockquote>Well, it look like Microsoft has finally bellied up to the software-as-a-service bar with the unveiling of two strategic initiatives - Windows Live and Office Live - that will function as anchors for a range of Web-based applications that the company plans to roll out over the next couple of years. But whether Microsoft is truly innovating here or just borrowing a page from the playbooks of companies such as Google and salesforce.com remains to be seen. And how this move will affect the whole Microsoft ecosystem is even murkier. Joining us to discuss these and other issues is longtime Microsoft reporter Barb Darrow, software industry editor for CRN, which covers all things related to routes to market in the technology industry, otherwise known as the channel.</blockquote><p><b>UNQUOTE</b></p>
+
+
+

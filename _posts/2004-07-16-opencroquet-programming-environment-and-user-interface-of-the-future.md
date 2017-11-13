@@ -1,0 +1,28 @@
+---
+layout: post
+title: " OpenCroquet - programming environment and user interface of the future?"
+created: 1090014181
+---
+Wow! I don't program much these days, but if half the claims about this are true, it sounds like this would be a fantastic environment for playing around and programming.
+
+From <a href="http://www.opencroquet.org/">Croquet Project</a> (via this <a href="http://www.sauria.com/blog/computers/programming/1014">amazing post from Ted Leung</a>):
+<p><strong>QUOTE</strong></p><blockquote>WHAT IF...
+
+...we were to create a new operating system and user interface knowing what we know today, how far could we go? What kinds of decisions would we make that we might have been unable to even consider 20 or 30 years ago, when the current set of operating systems were first created?
+
+...we could collaborate with one another in  an online dimension to create or simulate anything we wanted to?
+
+...we had the robustness of a 3D immersive  technology, the diversity of the Internet, and the degree of social  interaction we have in the real world?
+
+Enter Croquet.
+
+CROQUET IS...
+
+...a combination of open source computer software and network architecture that supports deep collaboration and resource sharing among large numbers of users. Such collaboration is carried out within the context of a large-scale distributed information system. The software and architecture define a framework for delivering a scalable, persistent, and extensible interface to network delivered resources.
+
+The integrated 2D and 3D Croquet interface allows for co-creativity, knowledge sharing, and deep social presence among large numbers of people. Within Croquet's 3D wide-area environments, participants enjoy synchronous telepresence with one another.&#160; Moreover, users enjoy secure, shared access to Internet and other network-deliverable information resources, as well as the ability to design complex spaces individually or while working with others.&#160; Every visualization and simulation within Croquet is a collaborative object, as Croquet is fully modifiable at all times.
+
+Users and groups of users can author and publish their individual resources within a persistent 3D knowledge architecture. They may build any number of private or shared "worlds" instantaneously, making them immediately accessible for others to explore by providing spatial portals.&#160; These portals function much like hyperlinks do within the World Wide Web. But unlike the Web, Croquet enables the user to find and get to other individual worlds through the larger context of Croquet's persistent common spaces.
+
+Croquet is also a complete development and delivery platform. Its infinitely scalable architecture provides it with enormous possibilities as an operating system for both local and global informational resources.</blockquote><p><strong>UNQUOTE</strong></p>
+

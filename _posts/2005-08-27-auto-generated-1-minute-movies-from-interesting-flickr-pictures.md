@@ -1,0 +1,15 @@
+---
+layout: post
+title: " Auto-generated 1 minute movies from interesting Flickr pictures"
+created: 1125131670
+---
+<p>As a follow-up to<a href="http://www.rolandtanglao.com/archives/2005/08/26/1_minute_vandigicam_film_for_viff_contest_crazy_flickr_idea_89"> my 1 minute movie contest post</a>, here's the details of my latest crazy remix idea:</p>
+
+<p>All you need to have is:
+</p><ul><li>An API to get the 500 most interesting pictures with an CC attribution only license (e.g. <a href="http://flickr.com/creativecommons/by-2.0/tags/vancouver/">all photos with an attribution license tagged Vancouver</a>). I don't believe Flickr has APIs that will do the exact combination of a particular license, tag and "interesting" but I bet they will soon.</li>
+<li>A webservice to find some attribution only music</li>
+<li>A scriptable movie editor that will allow you to blend all the pictures using the Ken Burns effect into a movie, and add credits with the names of the photographer using the CC attribution music as the sound track.</li>
+</ul>
+<p>Hmmm, doesn't sound that difficult (I bet this can be done using the <a href="http://www.archive.org/">Internet Archive</a>, Final Cut Pro and some flickr hacking! Am I right?)! Lazy web?
+</p>
+

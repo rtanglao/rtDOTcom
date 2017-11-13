@@ -1,0 +1,6 @@
+---
+layout: post
+title: iMovie08 much easier than previous iMovie for quick and dirty movies
+created: 1189657758
+---
+<p>iMovie08 is much better and easier than previous iMovie versions for quick and dirty movies that just have a title. Yes the timeline is gone so you can&#39;t do advanced stuff but for easy beginner movies, it&#39;s just great!</p> 

@@ -1,0 +1,19 @@
+---
+layout: post
+title: Newspaper 2.0 - embracing the the socialness of "readers"
+created: 1223244649
+---
+<p>
+This is very interesting, now if it would tie into the New York Times iPhone app in a 2 way style, that would be great. Globe and Mail: please do something like this (or at least show that you are thinking about things like this!
+</p>
+<p>
+<strong>QUOTE</strong> [From AVC:<a href="http://www.avc.com/a_vc/2008/10/the-power-of-pr.html"><cite>The Power of Profiles</cite></a>]
+</p>
+<blockquote>
+	<p>
+	Talk about the feedization of the web user interface, we've got one now running at the New York Times. I think it's great to see the Times embracing social software concepts like profiles and feeds. I hope they take it a step further and connect all of this to the social web, beyond Facebook, to blogs, comments, tweets, and so on and so forth.
+	</p>
+</blockquote>
+<p>
+<strong>END QUOTE</strong>
+</p>

@@ -1,0 +1,8 @@
+---
+layout: post
+title: Canucks Outsider Live will videocast live Game 6 using ustream.tv
+created: 1177194200
+---
+<p>
+The Canucks lost Game 5 tabernouche :-) ! So instead of a 1 hour show, starting 4:45p.m.-ish Pacific Dave Olson and the awesome hockey pundet gang will be covering the entire game in a LIVE video stylee as we promised on <a href="http://hockeynw.com/cbc-radio-one-interview-canucks-outsider">CBC Radio's On the Coast yesterday</a>. Check us out at <a href="http://ustream.tv/canucksoutsider">ustream.tv/canucksoutsider</a> or <a href="http://hockeynw.com/">hockeynw.com</a>
+</p>

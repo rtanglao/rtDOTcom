@@ -1,0 +1,13 @@
+---
+layout: post
+title: " Microsoft smoking gun from Minnesota trial"
+created: 1080283605
+---
+Read <a href="http://www.startribune.com/stories/535/4684214.html">the whole thing</a>.  Looks like a dam*ing indictment to me. Of course that's in the past.  I hope Microsoft has changed for the better in 2004!
+
+From <a href="http://www.startribune.com/stories/535/4684214.html">A wary eye on Go</a>:
+<p><strong>QUOTE</strong></p><blockquote>In a Minnesota civil antitrust trial, Microsoft is accused of eliminating competitors so it could overcharge consumers for software. The evidence includes these internal documents in which Microsoft reacts to the perceived threat from Go Corp.
+</blockquote><p><strong>UNQUOTE</strong></p>
+
+
+

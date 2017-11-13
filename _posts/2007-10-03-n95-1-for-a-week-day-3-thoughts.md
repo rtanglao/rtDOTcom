@@ -1,0 +1,6 @@
+---
+layout: post
+title: N95-1 for a week - Day 3 thoughts
+created: 1191473801
+---
+<p>More N95-1 observations:</p> <ol>   <li>Had my first spontaneous power off of the N95-1 3/4 of the way through my commute to work this morning. ShoZu bug? S60 bug? N95-1 firmware bug? Who knows. Very annoying</li>    <li>Webkit browser still doesn&#39;t work properly with Twitter i.e. you don&#39;t see your twitter immediately like you do if you twitter from Firefox</li>    <li>Video looks great. Indistinguishable to my not very discerning eyes: <a href="http://urbanvancouver.com/node/5549">Check out 5:21 of my morning commute video</a></li>    <li>N95 is not as conducive to videoing on a bicycle as the N93. Not a surprise since there is no pistol grip so you have to hold the phone upright which means you can accidentally turn off your recording which is what I did!</li>    <li>ShoZu still hasn&#39;t crashed on me yet, yay! But after about 30 or so photos, the camera app (I think it&#39;s the camera app, maybe it&#39;s the gallery process doing the thumbnails?) slows the phone down which looks like a crash but really isn&#39;t!</li> </ol><br /> <br /> 

@@ -1,0 +1,7 @@
+---
+layout: post
+title: ShoZu Slideshow Beta for Consumers - about to launch
+created: 1190059523
+---
+<p>cool! Shozu slideshow - another viral attractor for ShoZu. Now if only Cognima and the ShoZu team would fix the crashing bugs that I experience when there are over 200 or so photos on my Nokia N93 (which I think is an S60 problem but what do I know? As always willing to run debug versions to help fix this and to act as a tester for S60 and ShoZu teams)</p>From <a href="http://ourowndevices.typepad.com/markbole/2007/09/shozu-slideshow.html">markbole: ShoZu Slideshow Beta for Consumers - about to launch</a>:  <p><strong>QUOTE</strong></p> <blockquote>   ShoZu is soon to launch a web widget that runs on all major social networking sites as well as other online services such as blogs. ShoZu Slideshow creates a virtual photo frame for camera phone pictures and videos, that anyone can create and anyone can post to any web page on the internet. The content can be updated at any time directly from the mobile phone and updates will be seen immediately by anyone who has a copy of your Slideshow. </blockquote> <p><strong>END QUOTE</strong></p> <p><strong>Here&#39;s my ShoZu slideshow widget:</strong></p> <p><strong><br /></strong></p> 
+<embed src="http://shozuslideshow.com/album05.swf" FlashVars="guid=F6D00570-2315-2F94-F654-0521D5876912" type="application/x-shockwave-flash" width="425" height="350"></embed>

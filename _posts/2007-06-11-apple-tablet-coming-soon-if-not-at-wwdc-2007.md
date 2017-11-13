@@ -1,0 +1,6 @@
+---
+layout: post
+title: Apple Tablet coming soon if not at WWDC 2007
+created: 1181576071
+---
+<p> Apple tablet is coming if not today, soon since the iPhone (bonus relevant analysis: <a href="http://communities-dominate.blogs.com/brands/2007/05/entering_iphone.html"> before iPhone and after iPhone</a>) is just a wee tablet that has call processing (to use a Nortel/Bellhead-ism and to all the doubters Apple has done everything that the iPhone does before except call processing which is not trivial  and GSM/EDGE/3G which I have to concede is even less trivial). Looking forward to the next installment of the Apple soap opera ... er keynote :-) in 1.5 hours! </p><p> FROM <a href="http://www.bmannconsulting.com/blog/bmann/12-macbook-pro-with-touchscreen-keyboard">12&quot; Macbook Pro...with touchscreen keyboard | B.Mann Consulting</a>: </p><p> <strong>QUOTE</strong> </p><blockquote> Update: I found a link to a<a href="http://www.techfeed.ca/?q=node/95"> &quot;leaked&quot; outline</a> for the WWDC keynote tomorrow -- talking about a 10&quot; iPhone at Home...which is pretty close to the &quot;tablet / non computer&quot; that I&#39;ve been thinking Apple would launch for quite some time. </blockquote><p> <strong>END QUOTE</strong> </p>

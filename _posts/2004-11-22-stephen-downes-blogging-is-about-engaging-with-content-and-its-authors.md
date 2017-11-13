@@ -1,0 +1,16 @@
+---
+layout: post
+title: " Stephen Downes - Blogging is about engaging with content and its authors"
+created: 1101166354
+---
+<p><a href="http://downes.ca/">Stephen</a> nails it yet again.  Find the text, audio and/or video that interests you (it could be yours or others!) and engage with it through text, video and audio blogging!
+</p>
+<p>From <a href="http://www.educause.edu/pub/er/erm04/erm0450.asp">Educational Blogging - Educause</a>.:</p>
+<p><b>QUOTE</b></p><blockquote><p>Despite obvious appearances, blogging isn't really about writing at all; that's just the end point of the process, the outcome that occurs more or less naturally if everything else has been done right. Blogging is about, first, reading. But more important, it is about reading what is of interest to you: your culture, your community, your ideas. And it is about engaging with the content and with the authors of what you have read--reflecting, criticizing, questioning, reacting. If a student has nothing to blog about, it is not because he or she has nothing to write about or has a boring life. It is because the student has not yet stretched out to the larger world, has not yet learned to meaningfully engage in a community. For blogging in education to be a success, this first must be embraced and encouraged.
+</p>
+<p>From time to time, we read about the potential of online learning to bring learning into life, to engender workplace learning or lifelong learning. When Jay Cross and others say that 90 percent of our learning is informal, this is the sort of thing they mean: that the lessons we might expect to find in the classroom work their way, through alternative means, into our day-to-day activities.</p>
+
+<p>Blogging can and should reverse this flow. The process of reading online, engaging a community, and reflecting it online is a process of bringing life into learning. As Richardson comments, "This [the blogging process] just seems to me to be closer to the way we learn outside of school, and I don't see those things happening anywhere in traditional education.see note And he asks: "Could blogging be the needle that sews together what is now a lot of learning in isolation with no real connection among the disciplines? I mean ultimately, aren't we trying to teach our kids how to learn, and isn't that [what] blogging is all about?(see note 40)</p></blockquote><p><b>UNQUOTE</b></p>
+
+'
+

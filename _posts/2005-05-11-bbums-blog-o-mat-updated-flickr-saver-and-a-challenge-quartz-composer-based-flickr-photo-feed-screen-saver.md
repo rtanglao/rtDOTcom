@@ -1,0 +1,17 @@
+---
+layout: post
+title: " bbum's blog-o-mat: Updated Flickr Saver & a challenge... | Quartz Composer
+  based Flickr photo feed Screen Saver"
+created: 1115826748
+---
+<p>Must try this after my Tiger upgrade. bbum is an awesome hack and regularly puts out great stuff like this! Of course I know similar stuff is already available but with this one you get the source.</p>
+
+<p>From <a href="http://www.pycs.net/bbum/2005/5/7/#200505072">bbum's blog-o-mat: Updated Flickr Saver & a challenge... | Quartz Composer based Flickr photo feed Screen Saver</a>.:</p>
+<p><b>QUOTE</b></p><blockquote><p>I updated the Flickr RSS ScreenSaver to actually have a configuration sheet and too allow the RSS feed to be customized from the UI. It is far from perfect.
+</p>
+<p>The groundwork has been laid to handle multiple RSS feeds simultaneously. Currently, the UI -- the Quartz Composer based presentation layer -- needs to b updated to fix the presentation.
+</p>
+<p>Hence, the challenge. I'm out of time on this and, besides, I have the design skills of your average Border Collie.</p></blockquote><p><b>UNQUOTE</b></p>
+
+
+

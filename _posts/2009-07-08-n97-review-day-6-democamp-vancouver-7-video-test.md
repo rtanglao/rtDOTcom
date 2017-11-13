@@ -1,0 +1,6 @@
+---
+layout: post
+title: N97 Review Day 6 - DemoCamp Vancouver 7 Video Test
+created: 1247076906
+---
+<p>I can't tell which is better N97 video or N82 video! Caveats: I don't have a keen eye and I only did limited testing last night at <a href="http://www.techvibes.com/event/democamp-vancouver-07-social-platforms-edition">Demo Camp Vancouver 07</a> before the N97 battery ran out.</p><p>Both of the following videos are from the <a href="http://www.anahitapolis.com/ ">Anahita Social Engine</a> demo last night at DemoCamp Vanocouver</p><p>Check out the flash videos below but for the best test download and compare and contrast:</p><ul><li>the <a href="http://blip.tv/file/get/Roland-N97AnahitaSocialEngineDemoCampVancouver7419.mp4">400MB N97 MP4 original file</a></li><li>the <a href="http://blip.tv/file/get/Roland-N82AnahitaSocialEngineDemoCampVancouver7515.mp4">300MB N82 MP4 original file</a>&nbsp;</li></ul><p>N82 Video in flash format:</p><p><embed src="http://blip.tv/play/AYGP4CaIGw" type="application/x-shockwave-flash" width="640" height="510" allowscriptaccess="always" allowfullscreen="true"></embed> </p><p>N97 Video in flash format:</p><p><embed src="http://blip.tv/play/AYGP3lOIGw" type="application/x-shockwave-flash" width="640" height="510" allowscriptaccess="always" allowfullscreen="true"></embed> </p>

@@ -1,0 +1,6 @@
+---
+layout: post
+title: 'Intention Economy H*ll: Renting a Car - sh*tty software and no digital identity'
+created: 1143652656
+---
+<p>Amazing example of how we (the software industry) make sh*tty software (in this case car rental web apps) and how we have no digital identity. <a href="http://blame.ca/dick/">Dick</a> (and the rest of the <a href="http://sxip.com/">sxip</a> folks), <a href="http://www.bmannconsulting.com/blog/bmann/internet-identity-workshop-open-for-registration">Boris</a>, <a href="http://www.windley.com/events/iiw2006a/announcement.shtml">Phil</a>, <a href="http://doc.weblogs.com/2006/03/29#puttingTheIInIdentity">Doc</a> and <a href="http://www.kaliyasblogs.net/Iwoman/">Identity Woman</a> are on the case at the <a href="http://www.windley.com/events/iiw2006a/announcement">Internet Identity Workshop 2006</a> though so at least the digital identity problem will be solved (eventually).</p>  <p>From <a href="http://www.flickr.com/photos/docsearls/sets/72057594093382980/">Intention Economy Hell: Renting a Car - a photoset on Flickr</a>.:</p> <p><strong>QUOTE</strong></p><blockquote>A real-world use case that serves as a fine example for both Identity and Intention Economy discussions.</blockquote><p><strong>UNQUOTE</strong></p>  

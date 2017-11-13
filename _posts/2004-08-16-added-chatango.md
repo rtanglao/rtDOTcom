@@ -1,0 +1,8 @@
+---
+layout: post
+title: " Added Chatango"
+created: 1092686065
+---
+Inspired by <a href="http://joi.ito.com/archives/2004/08/17/chatango.html">Joi Ito</a>, I added <a href="http://www.chatango.com/">Chatango</a>.  So far so good.  Looks to be <a href="http://www.blogchat.com/">BlogChat</a> on steroids. <a href="http://roland.chatango.com">Chat with me</a> (if you dare)!
+
+

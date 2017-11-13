@@ -1,0 +1,6 @@
+---
+layout: post
+title: Networks of networks of dynamic websites
+created: 1166716312
+---
+<p> Networks of Networks of dynamic websites is the where we are heading on the web. Don&#39;t believe me? Read <a href="http://bryght.com/blog/boris-mann/multisite-and-mass-hosting-drupal">Multisite and Mass hosting Drupal</a> by Boris to see where the web is going. [Disclosure: Of course I am biased since Boris and I are two of the founders of Bryght which uses Drupal.... blah blah blah :-) ] </p>

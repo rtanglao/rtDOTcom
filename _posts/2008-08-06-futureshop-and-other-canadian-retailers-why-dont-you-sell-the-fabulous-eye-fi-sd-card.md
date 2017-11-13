@@ -1,0 +1,15 @@
+---
+layout: post
+title: FutureShop and other Canadian Retailers - Why don't you sell the fabulous Eye-Fi
+  SD card?
+created: 1218038572
+---
+<p>
+<strong>UPDATE</strong>: Vincent Janelle says that it could be that the Eye-Fi card is not approved by the CRTC.  Thanks Vince!
+</p>
+<p>
+I am going on <a href="http://www.darrenbarefoot.com/">Darren</a>'s client <a href="http://www.futureshop.ca">Future Shop</a>'s<a href="http://www.darrenbarefoot.com/archives/2008/08/for-the-local-bloggers-want-to-come-to-an-interesting-store-opening.html"> blogger opening tonight</a> and I know it's off topic but I have a question for Future Shop buyers: Why don't you sell the cool gadgets? Like the <a href="http://www.eye.fi/">Eye-Fi</a> card which IMHO is mass market (and to my knowledge has been available in the USA for over 6 months but is still unavailable from Canadian mass market retailers)  but still cool?
+</p>
+<p>
+I have always loved gadgets. Ever since I have been a kid back in the 1970s I have been buying (via mail order) gadgets that were unavailable in Canada. Things are better now, since we have E-Bay (which I loathe, but that's another blog post) but we are still behind. Perhaps somebody should open up a retail version of TigerDirect.ca? I'd pay a premium to touch and feel cool gadgets that aren't officially available in Canada and to buy them immediately without suffering the slings and arrows of outrageous duty, mail order, e-bay and other annoying things like that. 
+</p>

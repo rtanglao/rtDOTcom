@@ -1,0 +1,14 @@
+---
+layout: post
+title: iPhone h*cking commences, quelle surprise!
+created: 1183638740
+---
+<p>
+FROM a wiki that doesn't want bloggers to link to them (! good luck with that i bet searching for "iPhone Dev Wiki" will find it if you are really looking for this info!) via <a href="http://acko.net/">Steven</a>:
+</p><p>
+<strong>QUOTE</strong>
+</p><blockquote>
+This website is dedicated to finding additional uses for the iPhone by (legitimately) enabling its potential capabilities, and is a place for the community to share ideas, discoveries and solutions. It is for informational purposes only. The iPhone Dev Wiki is not responsible if you void your warranty or damage your device.
+</blockquote><p>
+<strong>END QUOTE</strong>
+</p>

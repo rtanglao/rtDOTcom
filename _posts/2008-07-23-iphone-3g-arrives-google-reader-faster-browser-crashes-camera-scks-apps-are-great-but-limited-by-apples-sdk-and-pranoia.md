@@ -1,0 +1,24 @@
+---
+layout: post
+title: iPhone 3G arrives - google reader faster, browser crashes, camera s*cks,  apps
+  are great but limited by Apple's SDK and p*ranoia
+created: 1216878975
+---
+<p>
+Got the 16GB iPhone yesterday. Stream of consciousness notes so far:
+</p>
+<ol>
+	<li>Just like the original iPhone, ithe iPhone 3G still camera s*cks and not having video also s*cks! A slow, 2 megapixel camera doesn&#39;t cut it in 2008!<br />
+	</li>
+	<li>Does seem a bit lighter and battery is faster<br />
+	</li>
+	<li>3G doesn&#39;t seem that much faster than EDGE</li>
+	<li>Browser crashes more often</li>
+	<li>Google Reader is noticeably faster </li>
+	<li>ShoZu doesn&#39;t geo-tag and only posts one photo at a time and only at 640x480 (yes i know shozu is working on it! go ShoZu go!)</li>
+	<li>AirMe is better but only does 1024x768 and rquires bogus userid registration (complete with bogus personal questions)</li>
+	<li>Apps are great; I have already thought of some that would satisfy Apple&#39;s p*ranoia :-) and might be fun to develop and might even make money! Apps are great both because of Apple&#39;s p*ranoia and also despite it! A &quot;mass market, mobile GPS with decent connectivity and bandwidth&quot; platform is what the iPhone is; the first ever. Sorry Nokia you don&#39;t have such a platform (S60 isn&#39;t it, Maemo isn&#39;t it, S60 Python isn&#39;t it, Widsets isn&#39;t it, Flash Lite isn&#39;t, etc,, time to focus Nokia!) yet. Vive la competition; I trust Nokia has something in the works; it&#39;s been a year and either the Nokia cupboard is bare or they are going to launch something truly great soon. </li>
+	<li>I am waiting for Qik (aka live video streaming) and Nokia Sports Tracker</li>
+	<li>I like Tap Tap whatever it&#39;s called even though it&#39;s dumbed down from the unofficial SDK version </li>
+</ol>
+Now all I need is a North American 3G phone to confirm 100% that my 3G plan is not locked to my iPhone.

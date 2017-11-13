@@ -1,0 +1,7 @@
+---
+layout: post
+title: " VEF Web 2.0 Photos"
+created: 1130438561
+---
+<p><a href="http://flickr.com/photos/35034347371@N01/56167767" title="Paul Kedrosky's Get your Head Out of the F*cking Tag Cloud"><img src="http://photos32.flickr.com/56167767_b01abb6497_m.jpg" alt="Paul Kedrosky's Get your Head Out of the F*cking Tag Cloud" /></a></p><p>One more thing about the <a href="http://www.rolandtanglao.com/archives/2005/10/26/my_vef_web_20_blogging_presentation">Vancouver Enterprise Forum Web 2.0 Event</a>. Check out <a href="http://flickr.com/photos/roland/tags/vef">my photos</a> and <a href="http://flickr.com/photos/kk/tags/vef">Kris's photos</a><br /></p>
+

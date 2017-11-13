@@ -1,0 +1,25 @@
+---
+layout: post
+title: Bug Labs delays shipments because of worldwide credit crunch
+created: 1223973973
+---
+<p>
+Beside delaying my Bug yet <a href="/archives/2008/08/16/bug-labs-bug-bundle-shipment-delayed-until-september-switch-poky-more-funding">again (so first September and now November)</a>, this is another indicator of how deep this recession is (or will be). I don't recall a hardware manufacturing gadget crash during the dot com collapse!
+</p>
+<p>
+<strong>QUOTE</strong> [From <a href="http://bugblogger.com/credit-crisis-fx-238/#comment-779"><cite>Bug Blogger » Blog Archive » The Credit Crisis in Action</cite></a>]
+</p>
+<blockquote>
+	<p>
+	Over the past couple of months I’ve been reading with great interest all the postings on how the current economic crisis can/can’t, will/won’t effect the start up world. Having lived through the 2001 - 2003 nuclear winter, I feel strongly that no one will be spared, irrespective of how big your company is.
+	</p>
+	<p>
+	This reality scored a direct hit last week when we got a call from the CEO of our contract manufacturer (domestic, not overseas). Their credit lines were pulled by their bank (one of the big ones) because they had violated some terms of their loan agreement. While in the past, this type of thing was met with a “let’s work it out” type of attitude from the bank, instead given the credit crisis, that attitude disappeared. Consequently, they closed the facility where our product was being built.
+	</p>
+	<p>
+	As a result, we needed to immediately pull all our inventory, test fixtures, and packaging out of their facilities. To say the timing was terrible is a grave understatement. Our products were literally on their assembly lines, on schedule for our early October shipping deadlines.
+	</p>
+</blockquote>
+<p>
+<strong>END QUOTE</strong>
+</p>

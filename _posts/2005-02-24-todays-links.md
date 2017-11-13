@@ -1,0 +1,16 @@
+---
+layout: post
+title: " Today's Links"
+created: 1109253615
+---
+
+<ul class="jotsBookmarks">
+
+<li><a href="http://drupal.org/node/17717"><span class="jotsBookmarkTitle">New contributed theme: SpreadFireFox | drupal.org</span></a>
+<br><span class="jotsBookmarkDescription">excellent - &quot;Those who have visited Spread Firefox will know that it has a very nice theme, designed by Chris Messina (a.k.a. FactoryJoe). Since SpreadFirefox (also nicknamed SFX) runs on CivicSpace, it is behind Drupal in releases, and hence is at 4.4 or so now. After some persuasion (i.e. bugging Chris), and offering to work on the theme and bring it up to 4.5, he agreed, and I have been hacking at it for some time. It now works with 4.5 and Drupal CVS (pre-4.6).&quot;</span>
+<br><span class="jotsBookmarkTags">Tags: <a href="http://www.jots.com/users/roland/blogs">blogs</a>, <a href="http://www.jots.com/users/roland/css">css</a>, <a href="http://www.jots.com/users/roland/drupal">drupal</a>, <a href="http://www.jots.com/users/roland/spreadfirefox">spreadfirefox</a></span>
+</li>
+
+</ul>
+
+

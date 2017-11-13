@@ -1,0 +1,12 @@
+---
+layout: post
+title: " Deutsche Welle - Best of Blogs - BlogTalk 2.0"
+created: 1089117098
+---
+<a href="http://www.rolandtanglao.com/images/Tue, Jul 6, 2004 05:06:18 AM.jpg" onclick="window.open('http://www.rolandtanglao.com/images/Tue, Jul 6, 2004 05:06:18 AM.jpg','popup','width=639,height=853,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=no,menubar=no,status=yes,left=0,top=0');return false"><img src="http://www.rolandtanglao.com/images/Tue, Jul 6, 2004 05:06:18 AM-tm.jpg" align="right"  height="210" width="157" alt="Tue, Jul 6, 2004 05:06:18 AM" /></a>
+
+ Couldn't find a link to the award site.  I'll try to find it and post it later
+
+<a href="http://www.dw-world.de/">DW Online</a>, unlike Canada's Globe and Mail and CBC, <a href="http://www.dw-world.de/english/0,3367,5069_A_1137115_1_A,00.html"> offers RSS feeds</a>.  Ausgezeichnet!
+
+

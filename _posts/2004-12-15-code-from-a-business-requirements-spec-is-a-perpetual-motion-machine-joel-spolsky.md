@@ -1,0 +1,23 @@
+---
+layout: post
+title: " Code from a business requirements spec is  a perpetual motion machine - Joel
+  Spolsky"
+created: 1103171504
+---
+<p>Joel nails it. Another must read for those who develop software or software specs or who are interested in software development.</p>
+
+<p>From <a href="http://www.salon.com/tech/feature/2004/12/09/spolsky/print.html">Salon.com Technology | The Shlemiel way of software</a>.:</p>
+<p><b>QUOTE</b></p><blockquote><p><b>Hold on, I'm trying to follow the analogy here! The Yiddish is the equivalent of ...?</b></p>
+
+<p>The Yiddish is the C++. The English is the machine language code. Just because there is that compilation stage doesn't mean that the C++ level, the programming language level, doesn't actually have to specify everything that's going to happen. And so what a programmer is doing when they translate a quote unquote spec into quote unquote code, although it seems like a translation process, what they're actually doing is filling in lots and lots of details. And as programmers are wont to do, they're trying to take something, the vague thing that the humans want, and make it very, very specific, which is the kind of thing the computer wants. That's not really a translation; it's more of an interpretation. It's a very hard thing to do.
+</p>
+<p>The perpetual-motion machine is where you say, let's just take these business requirements that some business guy came up with and suddenly, instantly make code from them. And that doesn't work, because the business requirements don't actually specify what to do with the footnotes when they run off the bottom of the page. And the computer's going to have to know.
+</p>
+<p><b>You're saying there's a ton of work between the general requirements and the detailed specifications.
+</b></p>
+<p>There's requirements, specifications, code -- there's many levels. If you think of the requirements as being this paragraph, and the specification as being this page, and the code as being several pages, at each point, you're adding more detail. And in fact you can go straight from the requirements to the code, and most people try to do that. The trouble is, it's like eating your meat without chewing it -- you tend to choke a little bit. Whereas the specification is just a hope that before you actually start on the code you can think of as many problems as possible and solve them when it's still easy to make changes, before you get into the code and it's more costly to make changes.
+</p>
+<p>So there are a lot of false messiahs in the programming world, which is where the "no silver bullet" concept comes in. On the other hand, there have been big steps forward in productivity; they're just not as exciting as people think.</p></blockquote><p><b>UNQUOTE</b></p>
+
+
+

@@ -1,0 +1,17 @@
+---
+layout: post
+title: Generative Art for MozFest 2016
+---
+## Pontifications
+
+* Sabrina and Mavis [asked for Generative art for Mozfest 2016](https://github.com/MozillaFoundation/Mozfest2016_production/issues/143#issuecomment-246866598). You want it you got it :-)
+* Here is how I did it ([full details on github](https://github.com/rtanglao/mozfest2016-genart)):
+    * ```gem install pxlsrt```
+    * ```pxlsrt kim ig-van-2016-one-top-colour-square-per-hour-01-31january2016-square-piechart.png black-kim-pxlsrt-ig-van-2016-one-top-colour-square-per-hour-01-31january2016-square-piechart.png --method black``` 
+* Here's my first attempt: <br />
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/roland/29918723152/in/dateposted-ff/" title="black-kim-pixelsort-first3000-1-31-january2016-averagecolours"><img src="https://c1.staticflickr.com/6/5519/29918723152_c8b53c66a6.jpg" width="500" height="129" alt="black-kim-pixelsort-first3000-1-31-january2016-averagecolours"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+* And here is the original: <br />
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/roland/28852861814/" title="january 1-31, 2016 instagram vancouver top colour square pie chart  from the first 3000 photos arranged in a calendar ig-van-2016-top3000-topcolour-sorted-3000-squares-01-31january2016-square-piechart"><img src="https://c7.staticflickr.com/9/8347/28852861814_fa78b5a9ca.jpg" width="500" height="129" alt="january 1-31, 2016 instagram vancouver top colour square pie chart  from the first 3000 photos arranged in a calendar ig-van-2016-top3000-topcolour-sorted-3000-squares-01-31january2016-square-piechart"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>

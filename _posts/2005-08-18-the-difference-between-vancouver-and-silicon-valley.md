@@ -1,0 +1,15 @@
+---
+layout: post
+title: " The difference between Vancouver and Silicon Valley"
+created: 1124355432
+---
+<p>Unlike <a href="http://www.brendonwilson.com/">Brendon</a> I haven't lived in both places, but I think <a href="http://www.flickr.com/photos/roland/sets/775095/">yesterday's gathering of ex Nortel people</a> (about 20 of the 100s  who used to work at the now shut down R&D lab in Richmond, a suburb of Vancouver with lots of tech companies) was illustrative of the difference.</p>
+
+<p>In a gathering of 20 or so people from the software world (like the ex Nortelers) in Silicon Valley I bet several would be bloggers, several would be involved heavily in open source and several would have started their own businesses.</p>
+
+<p>As far as I can tell (except for myself), nobody at yesterday's gathering was any of those things.  And I am not dissing my fellow Nortelers (they are smart people, but lots of smart people everywhere missed the beginning of the blogging, RSS and open source wave that's sweeping over us but hey it's 2005 and these people are geeks, so seize the day Vancouver geeks it's coming to Vancouver whether you like it or not!), that's just the way it is!</p>
+
+<p>Perhaps last night's group of ex Nortelers are an anomaly and not representative of the whole of the software world in Vancouver or the ex Nortel people, but I don't think so.</p>
+
+<p>I may be a dreamer but I want to have my cake and eat it too! I want the social software people combined with the open source world and the entrepreneurs of Silicon Valley and the <a href="http://chuqui.typepad.com/teal_sunglasses/2005/08/vancouver_plann.html">livability of the city of Vancouver</a> combined with the <a href="http://www.brendonwilson.com/profile/000219.shtml">networking</a>, and <a href="http://www.brendonwilson.com/profile/000231.shtml">thinking big</a> of Silicon Valley. Impossible? I beg to differ!</p>
+

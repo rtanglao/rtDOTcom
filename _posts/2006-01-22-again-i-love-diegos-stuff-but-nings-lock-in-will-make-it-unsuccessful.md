@@ -1,0 +1,7 @@
+---
+layout: post
+title: Again, I love Diego's stuff but Ning's lock-in will make it unsuccessful
+created: 1137965309
+---
+<p>+1 on learning from WordPress. I think a big part of WordPress's success (beside the fact that it's an excellent blogging system) is that it's open-source. Open Source Ning and I think the success will be much greater. Imagine if you could only run .NET apps on Microsoft servers? Nobody would develop .Net apps. It's the same with Ning, either make it open source or let people run it on their servers and the apps will come. Until this happens the current Ning lock-in means nobody will develop apps for it. 
+</p><p>From <a href="http://mashable.com/2006/01/20/the-thing-with-ning/">The Thing With Ning - Why Ning Should Be More Like Wordpress</a>.:</p><p><b>QUOTE</b></p><blockquote>So what happens if you apply the Wordpress model to all web applications? You could create a piece of social software, then allow others to write plugins for it. Further down the line, create a hosted solution for those who can't code and let them assemble an app from the various modules. Of course, many bloggers create Wordpress plugins to scratch their own itch, so maybe social software wouldn't fly in the same way. But I still get the sense that Ning could have benefited from the radical decentralization that open source software provides. Instead, they%u2019ve built themselves a walled-garden for web applications - and walled gardens inevitably get torn down.</blockquote><p><b>UNQUOTE</b></p>

@@ -1,0 +1,6 @@
+---
+layout: post
+title: Large Display Workshop UBC Nicole Arksey - Family Blog
+created: 1175237030
+---
+<p> Family Blog </p><ul> <li>upload photos via Wifi to Family  Blog app</li> <li>Family Blog is java app</li> <li>up to 5 users</li> <li>right now upload 1 at a time</li> <li>app to upload from phone</li> <li>back end is java on &quot;media centre&quot;</li> <li>server sits on Home Media PC - can run anywhere Java is situated</li> <li>Questions: RSS? permanent link</li> </ul>

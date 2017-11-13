@@ -1,0 +1,9 @@
+---
+layout: post
+title: Mobile Monday Vancouver Feb 2006 - Eqo demo was great
+created: 1139902008
+---
+<a href="http://www.flickr.com/photos/roland/99517975/" title="Eqo presentation at MoMo Van"><img src="http://static.flickr.com/39/99517975_021637e62d_m.jpg" width="240" height="180" alt="Roland in Vancouver394.jpg" /></a>
+<br />
+<a href="http://blip.tv/file/get/Roland-VanVideoVerite064mp4299.mp4">Watch my 30 second video with <a href="http://mezzoblue.com/">Dave Shea</a>, Bill Tam, Jeff LaPorte, <a href="http://bryanrieger.com/">Bryan</a> and <a href="http://stephanierieger.com/">Steph Rieger</a> and posted in "real time" (takes about 10 minutes using glacially slow GPRS to transfer via Shozu) to show the use of Shozu.</a>
+<p>I demoed <a href="http://www.shozu.com/">Shozu</a> (and recapped my journey from buying my grey market 7610 for my 40th birthday using my own money to using email to upload photos to Flickr, to using <a href="http://archive.rolandtanglao.com/archives/2005/02/12/huginmugin_10_source_release">Hugin and Mugin</a> (Java midlet to upload pictures to flickr developed by my friend and ace programmer, Simon Lewis) and being frustrated by the low res pictures from <a href="http://www.rolandtanglao.com/archives/2004/12/17/j2me_doesnt_support_the_full_resolution_of_the_nokia_7610_and_other_cameraphones">the 7610's crippled Java implementation of the camera APIs</a> to uploading photos 4 at a time using Lifeblog to <a href="http://www.rolandtanglao.com/archives/2006/01/11/lifeblog-good-shozu-much-better-imho">today's Shozu happiness</a>!)  tonight and we had a great <a href="http://eqo.com/">Eqo</a> demo and presentation from Jeff LaPorte.</p>

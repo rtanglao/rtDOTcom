@@ -1,0 +1,30 @@
+<p>So I don’t forget how to identify valid JPEGS using GraphicMagick’s identify (from <a href="https://github.com/rtanglao/rtgram/blob/master/getTopColour.rb">getTopColour.rb</a>).</p>
+
+<p>Notes:</p>
+
+<ol>
+  <li>graphicsmagick is mac only and supposedly faster, imagemagick is fine so on a non mac i.e. Linux comment out those three lines starting with “MiniMagick.configure”</li>
+  <li>I wonder if a pure ruby solution would work better?</li>
+</ol>
+
+<p>``` ruby
+require ‘mini_magick’</p>
+
+<p>MiniMagick.configure do |config| # don’t need these 3 lines
+  config.cli = :graphicsmagick
+end</p>
+
+<p>jpg_file = ‘blah.jpg’
+identify = MiniMagick::Tool::Identify.new
+identify « jpg_file
+begin
+  id = identify.call
+  if id.include? “JPEG”
+    # do something    <br />
+  end
+  rescue MiniMagick::Error
+    $stderr.printf(“MiniMagick::Error file:%s\n”, jpg_file)
+  end
+end <br />
+```</p>
+

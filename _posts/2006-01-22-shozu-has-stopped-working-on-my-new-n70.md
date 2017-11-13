@@ -1,0 +1,12 @@
+---
+layout: post
+title: Shozu has stopped working on my new N70!
+created: 1137999697
+---
+<p>Aaargh! Just in time for <a href="http://rolandtanglao.com/archives/2006/01/17/canadian-election-2006-election-blogging-live-from-library-square-pub">my "real time" election video blogging tomorrow</a>, Shozu no longer is uploading photos or videos. Every time I get error 5005 and rebooting the phone doesn't help. I have an email into their support team (using their contact form) so hopefully it will get fixed before then. It's (I guess) one or more of the following:
+</p><ol><li>issue with my mobile carrier, <a href="http://www.fido.ca/">Fido</a>
+</li>
+<li>bug in Shozu
+</li>
+<li>bug in N70</li></ol>
+<p>It's very strange because Shozu worked just fine on Friday night and I can surf the web on my phone using Opera so GPRS access is working. Aaargh!</p>

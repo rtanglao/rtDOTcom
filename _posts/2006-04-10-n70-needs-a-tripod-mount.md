@@ -1,0 +1,6 @@
+---
+layout: post
+title: N70 needs a tripod mount
+created: 1144733953
+---
+<p>One thing I forgot in <a href="http://rolandtanglao.com/archives/2006/04/06/nokia-n70-cameraphone-review">my N70 review</a> is that the N70 (and all cameraphones for that matter) needs a tripod mount. Maybe it's my jittery hands but it would be great if I could somehow mount the N70 on a monopod or tripod for video blogging.</p>

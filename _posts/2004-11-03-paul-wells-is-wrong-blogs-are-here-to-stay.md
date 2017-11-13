@@ -1,0 +1,17 @@
+---
+layout: post
+title: " Paul Wells is wrong - blogs are here to stay"
+created: 1099553755
+---
+<p>
+If this 3rd hand account from <a href="http://www.rrj.ca/blogs/blogonblog/">Samantha</a> is to be believed, <a href="http://weblogs.macleans.ca/paulwells/">Paul Wells</a> has done the classic mistake of overestimating the impact of blogs in the short term and underestimating the long term impact of blogs.  Make no mistake, blogs (remixing of text, audio, photos and whatever else we think of!) are here to stay and their impact will be felt on political candidates.  The fact that blogs "failed" for Dean and Kerry doesn't mean that they have had no affect and that won't "succeed" in future campaigns.
+</p><p>
+From <a href="http://www.rrj.ca/blogs/blogonblog/archives/2004/11/from_andrew_sul.html">Blog on Blog: The death of the blog</a>:
+</p><p>
+<strong>QUOTE</strong>
+</p><blockquote>
+It's not that I think blogs will diappear any time soon. They may change gears a little in the future, like the website giving way to the blog, but they're far from dying in my mind. Wells, on the other hand, may disagree. He told me that blogs are ephemeral, the CB radio of the twenty-first century. Are they just a fad or indeed a lasting trend?
+</blockquote><p>
+<strong>UNQUOTE</strong>
+</p>
+

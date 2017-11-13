@@ -1,0 +1,10 @@
+---
+layout: post
+title: " List of Freeware Nokia Series 60 phones"
+created: 1083997165
+---
+Might need this if I end up getting a Nokia camera phone.
+From <a href="http://www.allaboutsymbian.com/devices/viewarticle.php?id=67">AAS Devices: Series 60 Freeware</a>:
+<p><strong>QUOTE</strong></p><blockquote>This article addresses that frequent question - where can I get free software for my phone? This isn't comprehensive, but gives a run down on the some of the software that Rafe uses.
+</blockquote><p><strong>UNQUOTE</strong></p>
+

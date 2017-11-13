@@ -1,0 +1,21 @@
+---
+layout: post
+title: " HowTo: Nokia 7610 as a GPRS modem for Mac OS X and Fido"
+created: 1094538596
+---
+<p>
+Here are the settings (Executive Summary: follow what is said on <a href="http://www.taniwha.org.uk/gprs.html">Ross Barkman's GPRS Info</a> page (make sure telephone number is set to internet.fido.ca!!!) and use <a href="http://www.taniwha.org.uk/">Ross's Nokia GPRS CID1 script</a>:
+</p><p>
+In System Preferences-&gt;Network-&gt;Bluetooth:
+<br />TCP/IP:
+<br />   -Set DNS Servers to 204.92.15.211
+<br />   -Turn off IPv6
+<br />PPP:
+<br />   -Service Provider:internet.fido.ca
+<br />   - Account Name: fido
+<br />   - Password: fido
+<br />   - Telephone number:internet.fido.ca (I kept getting this wrong!)
+<br />Bluetooth Modem:
+<br />   -use Ross Barkman's Nokia GPRS CID1 script
+</p>
+

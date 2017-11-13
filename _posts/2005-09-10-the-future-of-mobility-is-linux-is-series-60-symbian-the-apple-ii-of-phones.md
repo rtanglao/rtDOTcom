@@ -1,0 +1,20 @@
+---
+layout: post
+title: " The Future of Mobility is Linux!?! - Is Series 60 Symbian the Apple II of
+  phones?"
+created: 1126419187
+---
+<p>I really want Symbian Series 60 to be a viable long term platform. Except for the funky keypad, I really love my Nokia 7610 that I've had for a year. But yeah, there doesn't seem to be a viable longterm platform (sorry but C and C++ doesn't cut it in 2005 and <a href="http://www.rolandtanglao.com/archives/2005/07/21/charlie_schick_help_us_fix_huginandmugin_to_take_1_megapixel_pics_and_i_will_praise_java">Java can't take 1 megapixel photos</a> and has other problems).</p> 
+<p>My gut feeling is that Series 60 Symbian is the "Apple II of phones": there's a nice cottage industry of cool-ish apps but once the IBM PC of phones comes along, look out! I hope to be proven wrong and until that happens will keep buying and plugging Series 60 phones. And I will continue my efforts to port Simon's Java Hugin And Mugin to Python since that seems to be the only modern Series 60 Symbian development language and environment (hopefully others will emerge and/or Java will actually become useful for social software apps like Hugin and Mugin that need to take full advantage of the built-in multi-media capabilities of the phone. A platform like Nokia's 7610 Java implementation that doesn't allow one to take photos at full resolution on a cameraphone is broken IMHO) .
+</p>
+<p>From a comment on <a href="http://www.russellbeattie.com/notebook/1008610.html#1018841">The Future of Mobility is Linux</a>.:</p>
+<p><b>QUOTE</b></p><blockquote><p>Steve: "Firstly, developing for Symbian has a learning curve, it's true, as with any platform, but once climbed it's easy to produce portable code that can be re-used in versions of applications for each Symbian OS interface. There are HUNDREDS of quality Symbian OS C++ applications, proving that it isn't that hard."
+</p>
+<p>Oh, sure. Just tell me how to make a browser plugin for Nokia 7710, or Series60, will you? Nokia's documentation is false, they didn't even have the needed files up for download, their sample application is missing and the emulator works totally different from the actual device. Just a normal learning curve? Maybe, but at least we have DOCUMENTATION for other platforms and emulators that actually emulate something and aren't just something similar to the actual device's OS.
+</p>
+<p>I've been saying for a long time that the only reason Symbian is #1 is because Symbian is #1. That is, there are millions of devices, people have to force themselves to produce SW for it to get any ROI and more people will buy the devices since everyone else has them.
+</p>
+<p>Oh, and the hundreds of quality applications? Show me at least 200 quality applications that are a bit larger than just changing profiles, converting currencies or recording sounds. There are not that many real applications for Symbian, though it's been on the market for a loooong time.</p></blockquote><p><b>UNQUOTE</b></p>
+
+
+

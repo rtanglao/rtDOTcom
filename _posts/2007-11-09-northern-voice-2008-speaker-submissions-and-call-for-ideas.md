@@ -1,0 +1,6 @@
+---
+layout: post
+title: Northern Voice 2008 Speaker Submissions and Call for Ideas
+created: 1194676734
+---
+Really looking forward to our 4th annual <a href="http://2008.northernvoice.ca/">Northern Voice</a>! And to some great <a href="http://2008.northernvoice.ca/ideas">ideas</a> and <a href="http://2008.northernvoice.ca/speaker-submission">speaker submissions</a>!<br /> From <a href="http://2008.northernvoice.ca/news/2007/11/10/welcome"><cite>Northern Voice 2008</cite></a>:  <p><strong>QUOTE</strong></p> <blockquote>   The Moose is Loose in 2008! </blockquote> <blockquote>   Want to speak or lead a discussion? Then fill out the <a href="http://2008.northernvoice.ca/speaker-submission">speaker submission form</a> (speaker submissions close Monday December 10). </blockquote> <blockquote>   Got an idea for a topic or discussion but don&#39;t feel like speaking on it or leading a discussion? Then check out our <a href="http://2008.northernvoice.ca/ideas">Call for Ideas</a> (we&#39;ve seeded the list with two initial ideas: microblogging and mobile blogging but these are just examples!) and <a href="http://2008.northernvoice.ca/node/add/idea">add your own idea</a> and rate others&#39; ideas! </blockquote> <p><strong>END QUOTE</strong></p> 

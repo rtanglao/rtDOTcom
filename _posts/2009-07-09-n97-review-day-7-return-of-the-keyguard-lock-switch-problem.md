@@ -1,0 +1,6 @@
+---
+layout: post
+title: N97 Review Day 7 - Return of the Keyguard / Lock Switch Problem
+created: 1247176413
+---
+<p>Twice now in the last 24 hours, my N97-1 running the V11 firmware has auto-locked and subsequently pressing the keyguard aka lock switch on the right side and trying some <a href="http://rolandtanglao.com/archives/2009/07/07/n97-review-day-5-camera-app-crashed-lock-switch-wouldnt-unlock-so-i-did-hard-res">N97 unlock voodoo</a> from the last time this happened didn't work. I'm am going to do a hard reset and not re-install Nokia Sports Tracker and ShoZu (both of which are unofficial 5800 versions) and if it comes back, I can then definitely blame the hardware and firmware. Stay tuned!</p>

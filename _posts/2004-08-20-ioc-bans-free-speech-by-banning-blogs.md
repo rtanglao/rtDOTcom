@@ -1,0 +1,14 @@
+---
+layout: post
+title: " IOC bans free speech by banning blogs"
+created: 1093036675
+---
+So much for freedom of speech and expression.  I predict that this will not last and this kind of blanket prohibition will be history by the next Olympics, indeed probably sooner!
+
+From <a href="http://www.nwfusion.com/weblogs/layer8/006035.html">Olympic blog ban</a>:
+<p><strong>QUOTE</strong></p><blockquote>Interestingly, The International Olympic Committee has barred athletes, coaches and nearly everyone associated with a team from writing about their experiences for a newspaper or Web site - blogs included.
+
+According to USA Today: "The IOC's rationale for the restrictions is that athletes and their coaches should not serve as journalists - and that the interests of broadcast rightsholders and accredited media come first." Yes, lucrative rights money comes first.
+
+The only exception to the rule is if an athlete had a previously established Web site long before the games.</blockquote><p><strong>UNQUOTE</strong></p>
+

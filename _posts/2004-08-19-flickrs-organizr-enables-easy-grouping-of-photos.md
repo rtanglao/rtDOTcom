@@ -1,0 +1,9 @@
+---
+layout: post
+title: " Flickr's Organizr enables easy grouping of photos"
+created: 1092904355
+---
+Delicious or as the Germans say, "Total lecker".  This is the best way to organize photos into groups and edit them!
+From <a href="http://www.flickr.com/tools/organizr.gne">Flickr: Using the Organizr</a>:
+<p><strong>QUOTE</strong></p><blockquote>We're pleased to introduce Organizr, the latest addition to the Flickr toolbox, to help you more easily store, sort, search and share your photos. Organizr is a powerful tool that enables you to quickly find and edit your photos, create sets and add your photos to group pools. Oh yeah - Organizr runs right in your browser. There's nothing to install.</blockquote><p><strong>UNQUOTE</strong></p>
+

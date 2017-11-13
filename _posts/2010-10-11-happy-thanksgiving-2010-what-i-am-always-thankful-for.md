@@ -1,0 +1,6 @@
+---
+layout: post
+title: Happy Thanksgiving 2010 - What I am always thankful for!
+created: 1286857761
+---
+<p>Thankful for in no order but the priorities should be obvious :-) !:</p><ul><li><span style="font-size: 10px;">love,&nbsp;</span></li><li><span style="font-size: 10px;">family,</span></li><li><span style="font-size: 10px;">friends,&nbsp;</span></li><li><span style="font-size: 10px;">food,&nbsp;</span></li><li><span style="font-size: 10px;">shelter,&nbsp;</span></li><li><span style="font-size: 10px;">canada,&nbsp;</span></li><li><span style="font-size: 10px;">vancouver,&nbsp;</span></li><li><span style="font-size: 10px;">computers,</span></li><li><span style="font-size: 10px;">bicycles</span></li><li><span style="font-size: 10px;">cross country skiing</span></li><li><span style="font-size: 10px;">music and dance</span></li></ul>

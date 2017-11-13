@@ -1,0 +1,10 @@
+---
+layout: post
+title: " The Busine$$ of RSS"
+created: 1085584145
+---
+Not sure what this is but with <a href="http://www.myst-technology.com/">Bill French</a> involved, it could be good.
+
+From <a href="http://donatacom.com/archives/00000392.htm#comments">Terry Heaton's Pomo blog</a>:
+<p><strong>QUOTE</strong></p><blockquote>Here is the latest essay in my ongoing series, TV News in a Postmodern World. This one is called The Busine$$ of RSS and is must-reading for any television executive, for it introduces RSxStream, an entirely new business model for local media. This is the single most amazing technology I've seen in my years working with the Internet, and I'm excited to bring the story to light.</blockquote><p><strong>UNQUOTE</strong></p>
+

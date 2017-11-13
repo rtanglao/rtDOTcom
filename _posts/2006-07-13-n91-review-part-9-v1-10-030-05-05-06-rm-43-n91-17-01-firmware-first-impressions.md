@@ -1,0 +1,6 @@
+---
+layout: post
+title: N91 Review Part 9 - V1.10.030 05-05-06 RM-43 N91 (17.01) Firmware first impressions
+created: 1152823173
+---
+<p> <a href="http://www.flickr.com/photos/smith/184269731/in/photostream"><img src="http://static.flickr.com/51/184269731_d42878290d_m_d.jpg" alt="" title="Richard Smith&#39;s photo of Nokia Vancouver lab in Burnaby, a Vancouver suburb" width="240" height="180" /></a> </p><p> Now running V1.10.030 05-05-06 RM-43 N91 (17.01) Firmware courtesy of Nokia Vancouver (whose lab is pictured above in a picture by <a href="http://flickr.com/photos/smith">Richard Smith</a>). </p><p> First impressions: </p><ul> <li>Still have out of memory error in Nokia Webkit web browser which makes it almost unusable. Luckily Opera and Opera Mini work well.</li> <li>Haven&#39;t seen the theme reset bug. Hopefully it&#39;s fixed by this version of the firmware</li> <li>ShoZu beta crashed again, aaargh! Other people don&#39;t have this problem with their N91 and ShoZu and other devices running ShoZu and Series 60 v3 like the N80. I am going to reformat the hard drive and do a reset of the device before I make a definitive judgement on this.</li> </ul>

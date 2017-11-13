@@ -1,0 +1,13 @@
+---
+layout: post
+title: " Bill Day: Nokia 7610 has optional flash and takes decent 1 mega pixel images
+  and 10 minute videos"
+created: 1089645418
+---
+OK, I really want a 7610 now.  Anybody know where I can get the 7610 in Vancouver for a decent price?
+
+From <a href="http://billday.com/2004/07/11/everything-about-my-nokia-7610/">BillDay.com &raquo; Everything about my Nokia 7610</a>:
+<p><strong>QUOTE</strong></p><blockquote>The 7610 is Nokia&#8217;s first megapixel cellcam (photos are 1152 x 864 pixels). Though it doesn&#8217;t have a built-in flash, at least an add-on flash is available. Even without the flash module, though, the built-in night mode allows the 7610 to take fairly good low light photos. Example: Look at the quarter scale harbor image I took late at night near midsummer. The colors and quality of the full size image (click the quarter scale one to load full resolution) are good enough for a reasonably sized print (say, 4 x 6 inches). For more sample pictures, refer to my JavaOne 2004 photos.
+
+Even better for us imaging nuts, the 7610 significantly ups the ante to allow you to take much longer 3GP format videos, up to 10 minutes per video at the maximum resolution (176 x 144). It&#8217;s H.263 encoded low bitrate video that&#8217;s not going to replace my dedicated camcorder just yet, but once you&#8217;ve used the recorder to capture impromptu video magic a few times you really begin to see how far mobile video can go. Vidcams instead of cellcams, anyone? BTW, RealPlayer is included as the default video and audio player (suppports 3GP, MP3, AAC, and other several formats).</blockquote><p><strong>UNQUOTE</strong></p>
+

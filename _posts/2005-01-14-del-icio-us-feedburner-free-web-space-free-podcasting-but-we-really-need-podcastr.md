@@ -1,0 +1,20 @@
+---
+layout: post
+title: " del.icio.us + feedburner + free web space = free podcasting, but we really
+  need Podcastr!"
+created: 1105745089
+---
+<p>This is very cool. All you need is a microphone, a computer and some recording software and you can have your own podcast! That's it that's all.  A bit hackish but this is definitely a big opportunity for somebody to do a Flickr for podcasting methinks!</p>
+
+<p>And, BTW, where's the best place to get a reaonable amount of free web space (100MB or more) these days? Does this still exist? Perhaps GeoCities? Will they allow you to store MP3s? I know a lot didn't whether they were legit or not! Is the web server set up correctly to handle MP3s? I figure you only need about 100MB and you can do dozens of 10 minute podcasts.</p>
+
+<p>Yes, we need Podcastr!
+</p>
+<p>From <a href="http://forums.feedburner.com/viewtopic.php?t=20">FeedBurner Support :: View topic - Easier Podcasting with SmartCast</a>.:</p>
+<p><b>QUOTE</b></p><blockquote><p><b>"Social Podcasting" at del.icio.us</b></p>
+<p>If you'd just like to experiment with Podcasting, join us for some social syndication over at del.icio.us. If you have a del.icio.us account, you can post hyperlinks that point directly to your digital media with the tag groupcast. Anything posted with this tag will end up in a Smartcast-powered feed, http://feeds.feedburner.com/groupcast . This is a quick way to see the effect of this service in action -- and see who else is Podcasting!
+</p>
+<p>If you want to use your del.icio.us account as a starting point for personal Podcasting, you can burn your own del.icio.us account feed and apply the SmartCast service. FeedBurner will create <enclosure> elements in the feed for any links you post to del.icio.us that contain digital media. Painless. And tasty, indeed. </p></blockquote><p><b>UNQUOTE</b></p>
+
+
+

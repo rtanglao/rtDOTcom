@@ -1,0 +1,15 @@
+---
+layout: post
+title: " Welcome, let's have fun and have users and developers party together | Simple
+  List Extensions Community"
+created: 1119650014
+---
+<p>[Cross posted from <a href="http://simplelistextensions.org/node/2">my Bryght blog</a> - For those not at Gnomedex, <a href="http://bryght.com/blog/boris-mann/comments-on-rss-services-in-longhorn">Microsoft unveiled their extensions to RSS for lists and their comprehensive support in it via APIs in Longhorn and best of all the extensions are open and Creative Commons licensed</a>.]</p> 
+<p>From <a href="http://simplelistextensions.org/node/2">Microsoft unveils Simple List Extensions and Bryght sets up Simple List Extensions for the community</a></p>
+<blockquote>
+<p>Thanks <a href="http://bryght.com/blog/boris-mann/simple-list-extensions-community-process">Boris</a> for setting this up.
+Other places to put stuff and comment:
+<a href="http://channel9.msdn.com/wiki/default.aspx/Channel9.SimpleListExtensions">Wiki</a> and <a href="http://blogs.msdn.com/ie/">IE7 Blog </a>. Go open formats go! Thank-you Microsoft for working in the open and making the standard open!</p></blockquote><p><b>UNQUOTE</b></p>
+
+
+

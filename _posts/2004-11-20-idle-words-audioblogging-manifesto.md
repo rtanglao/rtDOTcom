@@ -1,0 +1,22 @@
+---
+layout: post
+title: " Idle Words Audioblogging Manifesto"
+created: 1100942049
+---
+<p>
+<a href="http://blog.wirearchy.com/">Jon</a> reminded me of this tonight via email and I listened to it again.  Hmmm. Excellent and funny anti-podcast hype.  But ultimately missing the point.  It's about re-mixing and creating your stuff.  If you want it to be text, go ahead. If you want it to be video go ahead.  If you want it to be audio go ahead.  All media are equally valid in my humble opinion.
+</p><p>
+As long as it scratches your creative itch who cares whether I like it or I hate it or I or <span style="font-family:Verdana;"><a href="http://www.idlewords.com/">maciej</a></span> (read his blog, it has consistently been excellent over the years)<span style="font-family:Verdana;color:#6a6a6a;"> </span>think it's irrelevant.
+</p><p>
+From <a href="http://www.idlewords.com/2004/08/an_audioblogging_manifesto.htm">Idle Words</a>:
+</p><p>
+<strong>QUOTE</strong>
+</p><blockquote>
+An Audioblogging Manifesto
+<br />
+<br />
+<br />I demand four minutes and twenty seconds of your life [<a href="http://www.idlewords.com/audio/manifesto.mp3">mp3</a>].
+</blockquote><p>
+<strong>UNQUOTE</strong>
+</p>
+

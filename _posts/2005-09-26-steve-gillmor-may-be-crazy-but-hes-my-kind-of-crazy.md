@@ -1,0 +1,12 @@
+---
+layout: post
+title: " Steve Gillmor may be crazy - but he's my kind of crazy!"
+created: 1127764502
+---
+<p>Go Steve go! More stream of consciousness "connecting the dots please". I am totally a believer in his "RSS, blog and user created cool stuff" vision and I have been loving his recent blog posts.  The same thing that the mainframe people said about PCs is what many are saying about RSS, blogs, and user created cool stuff (it'll never scale, it's just a fad, etc.). </p>
+ 
+<p>From <a href="http://blogs.zdnet.com/Gillmor/?p=156&part=rss&tag=feed&subj=zdblog">Blogosfear</a>.:</p>
+<p><b>QUOTE</b></p><blockquote>So follow my what passes for logic: If the New York freakin' Times can connect the dots between James Agee, Tom Wolfe, Hunter Thompson and Brian Hurricane Williams, then I can do the same with Bosworth, Lukovsky, Jeff Jarvis, Halley Suitt, Chris Pirillo, and the Scoblelizer Bunny, for starters. As Letterman says, waddya want for free. Don't like it, don't read it. Unsubscribe, please. Feel free to blame me.</blockquote><p><b>UNQUOTE</b></p>
+
+
+

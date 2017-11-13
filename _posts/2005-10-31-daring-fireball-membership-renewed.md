@@ -1,0 +1,12 @@
+---
+layout: post
+title: " Daring Fireball: Membership: Renewed"
+created: 1130789959
+---
+<p>I really want this to succeed so John can work full time on this rather than<a href="http://joyent.com/"> his Web 2.0 startup</a> :-) ! Go John go!
+</p>
+<p>From <a href="http://daringfireball.net/members/thankyou">Daring Fireball: Membership: Thank You</a>.:</p>
+<p><b>QUOTE</b></p><blockquote>Thanks for supporting Daring Fireball. Your transaction has been completed, and a receipt from PayPal has been emailed to you.</blockquote><p><b>UNQUOTE</b></p>
+
+
+

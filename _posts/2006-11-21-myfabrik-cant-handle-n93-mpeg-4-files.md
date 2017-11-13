@@ -1,0 +1,6 @@
+---
+layout: post
+title: myfabrik can't handle N93 MPEG 4 files
+created: 1164122325
+---
+<p> Add <a href="http://www.myfabrik.com/">MyFabrik</a> to the list of services that can&#39;t handle N93 MPEG 4 files. Check out my N93 video on <a href="http://www.myfabrik.com/roland/public/roland">http://www.myfabrik.com/roland/public/roland</a> If you can get it to play, love to hear it! On Mac Firefox 2.0, if I click on &quot;Video&quot; and then the play button at the top right, nothing happens. Back to blip.tv for me! </p>

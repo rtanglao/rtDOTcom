@@ -1,0 +1,9 @@
+---
+layout: post
+title: " 1st podcast on Dogma Radio - The Lady in the Lake - The Black Tories"
+created: 1106384084
+---
+<p>Check out <a href="http://dogmaradio.com/dr/lady-in-the-lake-black-tories">my first podcast over on DogmaRadio.com</a>. I will have multiple podcasts there but for now there is one called unoriginally, <a href="http://dogmaradio.com/taxonomy/term/1">DogmaRadio</a> (<a href="http://feeds.feedburner.com/dogmaradio">RSS</a>, <a href="http://rolandtanglao.com/podcasts/2005/01/21/Dogma-Radio-2005-01-21.mp3">direct link to 6MB MP3</a>). I "solved" <a href="http://www.rolandtanglao.com/archives/2005/01/20/david_berlind_has_the_same_fan_noise_problem_in_his_podcasts">the noisy fan problem</a> by using a mute switch on my microphone which causes a noticible audio click which I tried to remove using GarageBand.
+</p>
+<p>It's way too hard to do podcasting in January 2005. I basically followed <a href="http://www.engadget.com/entry/5843952395227141/">the old Engadget Podcasting recipe using GarageBand</a>  because I couldn't get Audacity to work but I would love to have a combined hardware and software all-in-one solution. C'mon Apple, bring on Asteroid! Podcasting today totally reminds me of 1999 and blogging without ecto,  MarsEdit and NetNewsWire.  Lots of room to make $ providing tools and services around audio and video podcasting me thinks!</p>
+

@@ -1,0 +1,6 @@
+---
+layout: post
+title: Jaiku beta mobile client shows how IP trumps SMS (eventually)
+created: 1182175550
+---
+<p> <a href="http://www.ipadventures.com/">Ken Camp</a> is doing <a href="http://ipadventures.com/2007/06/13/unveiling-the-new-jaiku-client-for-nokia-part-1/">a</a> <a href="http://ipadventures.com/2007/06/14/unveiling-the-new-jaiku-client-for-nokia-part-2/">great</a> <a href="http://ipadventures.com/2007/06/15/simpler-times/">job</a> of explaining why the Jaiku mobile client is the future (or at least the ideas are behind it are the future). The key idea is that you can see the presence of your friends and then participate in multi-threaded public conversations as well as (I hope) in the future private messages as well as voice over ip calls and heck even SMS to those people who don&#39;t have fancy phones. All of this is done over IP (so it obviously requires a world of affordable unlimited mobile internet); no need to pay the ridiculous phone call, IMS, or SMS &quot;tax&quot; er charge :-) and it&#39;s better because of the presence information! Imagine if this was combined with something like <a href="http://www.iotum.com/platform.php">Iotum&#39;s Relevance engine</a>.... hmmmm. This will happen; just not as fast as early adopters like myself would like. </p>

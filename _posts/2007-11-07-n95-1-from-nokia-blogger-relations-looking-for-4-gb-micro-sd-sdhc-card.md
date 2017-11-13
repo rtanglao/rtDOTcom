@@ -1,0 +1,6 @@
+---
+layout: post
+title: N95-1 from Nokia Blogger Relations, looking for 4 GB micro SD SDHC card
+created: 1194501477
+---
+<p>A wee bit late to the party: yesterday I received an N95-1 from <a href="http://n95.bloggercomm.com/">Nokia Blogger Relations </a>(thanks <a href="http://andyabramson.blogs.com/voipwatch/">Andy</a> and <a href="http://comunicano.typepad.com/bam/">Comunicano</a> and Nokia; I&#39;d love to do a N95-3 comparison since I&#39;ve already managed to run out of memory just running the web browser, something which I think is solved by the increased RAM on the N95-3). </p><p>I am enjoying the EDGE (anything&#39;s better than GPRS) and the WiFi and I have some video hijinx in mind which require a 4GB micro SD SDHC card. Anybody know where I can get this in Vancouver, Burnaby or Richmond (the usual suspects: Future Shop, London Drugs, and NCIX only have 2GB micro SD cards)? </p><p>I know I can mail order but I would like instant :-) gratification. Leave a comment or call or IM me please.</p><p>&nbsp;</p>

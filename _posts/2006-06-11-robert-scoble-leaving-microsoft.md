@@ -1,0 +1,6 @@
+---
+layout: post
+title: Robert Scoble leaving Microsoft
+created: 1150027286
+---
+<p><strong>UPDATE</strong>: Here&#39;s <a href="http://scobleizer.wordpress.com/2006/06/10/correcting-the-record-about-microsoft/">Robert&#39;s post</a>. Like <a href="http://www.darrenbarefoot.com/archives/2006/06/monsieur-scoble-moves-on-to-greener-pastures.html">Darren</a>, I am grateful Robert spoke at the first <a href="http://2006.northernvoice.ca/">Northern Voice</a> (we&#39;d still love to have you up here anytime for Iranian food and for Northern Voice 2007!).&nbsp; </p><p> If this is true, it&#39;s a big loss for M*crosoft. Good luck at the new gig <a href="http://scobleizer.wordpress.com/">Robert</a>! Can&#39;t wait for Robert&#39;s post on this. </p><p> From  <a href="http://www.siliconvalleywatcher.com/mt/archives/2006/06/microsofts_top.php">Microsoft&#39;s top blogger Robert Scoble is leaving....</a> </p><p> <strong>QUOTE</strong> </p><blockquote> Andy Plesser from Plesser Holland and the videoblog Beet.tv just called and told me Robert Scoble is leaving Microsoft and will join Podtech.net, the podcasting network. He will be moving from Seattle to Silicon Valley. </blockquote><p> <strong>ENDQUOTE</strong> </p>

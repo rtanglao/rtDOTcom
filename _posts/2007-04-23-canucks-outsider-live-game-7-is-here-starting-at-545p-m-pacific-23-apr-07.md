@@ -1,0 +1,8 @@
+---
+layout: post
+title: Canucks Outsider Live Game 7 is here starting at 5:45p.m. Pacific 23 Apr 07
+created: 1177368122
+---
+<p>To get in on the live chat go to <a href="http://ustream.tv/watch/channel/D0bFEBfFd.gSK89TIlssCw">ustream.tv/canucksoutsider</a></p>
+
+<embed width="320" height="261" src="http://ustream.tv/D0bFEBfFd.gSK89TIlssCw.usc" type="application/x-shockwave-flash" wmode="transparent" \>
