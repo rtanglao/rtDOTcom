@@ -6,9 +6,28 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 12 Nov 2017 17:57:29 -0800</pubDate>
-    <lastBuildDate>Sun, 12 Nov 2017 17:57:29 -0800</lastBuildDate>
+    <pubDate>Mon, 13 Nov 2017 18:00:41 -0800</pubDate>
+    <lastBuildDate>Mon, 13 Nov 2017 18:00:41 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Finally got my Note 8 August-October 2017 update, thanks! How long until November 2017 update?</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Finally got my Note 8 August-October 2017 update, (thanks!) that &lt;a href=&quot;http://rolandtanglao.com/2017/11/08/p1-note8-still-waiting-for-samsung-post-1august2017-update/&quot;&gt;I whinged :-) about earlier&lt;/a&gt;! How long until November 2017 update?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Screenshot proof :-)&lt;/h3&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/38370632252/in/dateposted-public/&quot; title=&quot;Screenshot_20171113-161015&quot;&gt;&lt;img src=&quot;https://farm5.staticflickr.com/4521/38370632252_ede6e2c8ca.jpg&quot; width=&quot;243&quot; height=&quot;500&quot; alt=&quot;Screenshot_20171113-161015&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 13 Nov 2017 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2017/11/13/p1-finally-got-my-note8-august-october-update/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2017/11/13/p1-finally-got-my-note8-august-october-update/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Added RolandTanglao.com to github</title>
@@ -214,24 +233,6 @@ My friends and I don't like adrenaline, but there's something similar that is pr
         <pubDate>Fri, 03 Nov 2017 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2017/11/03/p1-plot-Firefox-desktop-sumo-unanswered-questions/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2017/11/03/p1-plot-Firefox-desktop-sumo-unanswered-questions/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>MongoDB query to export Firefox unanswered questions into a CSV file </title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;1. MongoDB query to get Firefox unanswered questions into a CSV file (I used 3T MongoChef to run the query and export to CSV; you can also export to JSON), result is in &lt;a href=&quot;https://github.com/rtanglao/sumo-questions/blob/master/firefox_desktop_only_not_answered_in_72hours_id_created.csv&quot;&gt;firefox_desktop_only_not_answered_in_72hours_id_created.csv&lt;/a&gt; :&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-mongo&quot; data-lang=&quot;mongo&quot;&gt;db.questions.find(
-{&quot;product_id&quot;:1, &quot;answered_in_72_hours&quot;:false},
- {&quot;id&quot;:1, &quot;created&quot;:1, &quot;_id&quot;:0})
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        <pubDate>Wed, 01 Nov 2017 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2017/11/01/p1-mongodb-query-to-get-firefox-desktop-questions-not-answered-in-72-hours/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2017/11/01/p1-mongodb-query-to-get-firefox-desktop-questions-not-answered-in-72-hours/</guid>
         
         
       </item>
