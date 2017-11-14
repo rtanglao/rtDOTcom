@@ -6,9 +6,36 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 13 Nov 2017 18:00:41 -0800</pubDate>
-    <lastBuildDate>Mon, 13 Nov 2017 18:00:41 -0800</lastBuildDate>
+    <pubDate>Tue, 14 Nov 2017 10:07:20 -0800</pubDate>
+    <lastBuildDate>Tue, 14 Nov 2017 10:07:20 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>How to leave a comment on this blog? Why are you using github?</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;p&gt;(&lt;a href=&quot;https://github.com/Pomax/pomax.github.io/issues/1&quot;&gt;Forked from pomax&amp;#39;s issue&lt;/a&gt;; thanks Pomax!) and if you want, &lt;a href=&quot;https://github.com/rtanglao/rtDOTcom/issues/2&quot;&gt;check out the issue on github&lt;/a&gt; :-) recursive :-) !!!!&lt;/p&gt;
+
+&lt;p&gt;Leaving a comment on github is pretty easy if you have ever created a new userid and left a comment on the web before :-).  My apologies if this isn&amp;#39;t easy for you!&lt;/p&gt;
+
+&lt;p&gt;Yes, you need to log in, but if you really care about that comment you wanted to leave, that shouldn&amp;#39;t be much of a problem. I decided to go with github issues because if you just want a throwaway comment, you can always Tweet to me (@ mention @rtanglao on twitter)  about it and we can both count on that interaction losing traction and being forgotten by everyone in about a day. That&amp;#39;s fine, we should be able to have those interactions, just not on the blog itself.&lt;/p&gt;
+
+&lt;p&gt;If you want to leave a real comment, one that requires meaningful and direct interaction between you and me (say you a found glaring problem with one of the thing I posted, or you have information that you think would help me update a post or write a new one, or you have real questions after reading a post and need additional information), then this is a much better place to have a conversation that can guide real change to my posts.&lt;/p&gt;
+
+&lt;p&gt;Get an account if you don&amp;#39;t have one (it&amp;#39;s free), and then file a new issue about what you want to talk about - I&amp;#39;ll try to respond the same day, because if you care enough to comment, I certainly care enough to engage with you.&lt;/p&gt;
+
+&lt;p&gt;Cheers!&lt;/p&gt;
+
+&lt;p&gt;...Roland &lt;/p&gt;
+
+&lt;p&gt;p.s. Why github? Because it&amp;#39;s fast, updated and has features to lock issues if people sp*m them. And it&amp;#39;s a real business with a real business model (charging software developers for private software repositories)  unlike the other commenting systems&lt;/p&gt;
+</description>
+        <pubDate>Tue, 14 Nov 2017 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2017/11/14/p1-how-to-leave-a-comment-why-github/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2017/11/14/p1-how-to-leave-a-comment-why-github/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Finally got my Note 8 August-October 2017 update, thanks! How long until November 2017 update?</title>
@@ -200,39 +227,6 @@ My friends and I don't like adrenaline, but there's something similar that is pr
         <pubDate>Sat, 04 Nov 2017 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2017/11/04/p1-looks-like-my-rotonde-doesnt-work-firewall-time-try-jimpick-pipette/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2017/11/04/p1-looks-like-my-rotonde-doesnt-work-firewall-time-try-jimpick-pipette/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ggplot2 r bar graph of unanswered after 72 hours of Firefox desktop questions</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;1. Using the CSV file from &lt;a href=&quot;http://rolandtanglao.com/2017/11/01/p1-mongodb-query-to-get-firefox-desktop-questions-not-answered-in-72-hours/&quot;&gt;the last blog post, MongoDB query to export Firefox unanswered questions into a CSV file,&lt;/a&gt;:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-R&quot; data-lang=&quot;R&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# Plot unanswered after 72 hours Firefox Desktop Questions April-October 2017 by day of week&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;csv_url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://raw.githubusercontent.com/rtanglao/sumo-questions/master/firefox_desktop_only_not_answered_in_72hours_id_created.csv&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;unanswered_desktop_april_october_2017&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
-  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read_csv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;csv_url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;daynumber_of_week_abbrevDayName_hour&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;unanswered_desktop_april_october_2017&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
-  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rowwise&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mutate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;daynumber_abbrevDayName&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strftime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;as.Date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;created&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'%u-%a'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-         &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tz&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;America/Vancouver&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
-  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rowwise&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mutate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hour&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strftime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;created&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'%H'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tz&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;America/Vancouver&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ggplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;daynumber_of_week_abbrevDayName_hour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;aes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;geom_bar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stat&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;count&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;facet_wrap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;daynumber_abbrevDayName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3&gt;Output&lt;/h3&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/38067187296/in/dateposted-public/&quot; title=&quot;absolute-number-SUMO-unanswered-questions-after72hours-per-hour-per-day&quot;&gt;&lt;img src=&quot;https://farm5.staticflickr.com/4576/38067187296_9c4050da5d.jpg&quot; width=&quot;500&quot; height=&quot;500&quot; alt=&quot;absolute-number-SUMO-unanswered-questions-after72hours-per-hour-per-day&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 03 Nov 2017 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2017/11/03/p1-plot-Firefox-desktop-sumo-unanswered-questions/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2017/11/03/p1-plot-Firefox-desktop-sumo-unanswered-questions/</guid>
         
         
       </item>
