@@ -6,9 +6,41 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 16 Nov 2017 00:38:06 -0800</pubDate>
-    <lastBuildDate>Thu, 16 Nov 2017 00:38:06 -0800</lastBuildDate>
+    <pubDate>Thu, 16 Nov 2017 19:12:49 -0800</pubDate>
+    <lastBuildDate>Thu, 16 Nov 2017 19:12:49 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Aaron Klotz: Legacy extensions are like kernel modules</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;In Legacy Firefox Extensions and “Userspace”, Aaron Klotz writes:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+Legacy extensions were akin to kernel modules. When there is no abstraction, there can be no such thing as userspace. This is precisely the problem that WebExtensions solves!&lt;br /&gt;&lt;br /&gt;
+
+...&lt;br /&gt;&lt;br /&gt;
+
+
+* Gecko is the kernel;&lt;br /&gt;
+* WebExtensions are privileged user applications;&lt;br /&gt;
+* Web content runs as unprivileged user applications.
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 16 Nov 2017 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2017/11/16/p1-Aaron-Klotz-Legacy-extensions-like-kernel-modules/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2017/11/16/p1-Aaron-Klotz-Legacy-extensions-like-kernel-modules/</guid>
+        
+        
+      </item>
     
       <item>
         <title>I agree with Rex Hammock - No You Can’t Contribute a Guest Post to this Blog</title>
@@ -207,22 +239,6 @@ My friends and I don't like adrenaline, but there's something similar that is pr
         <pubDate>Tue, 07 Nov 2017 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2017/11/07/p1-tend-and-befriend-rather-than-fight-or-flight/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2017/11/07/p1-tend-and-befriend-rather-than-fight-or-flight/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Periodic Reminder: http://21stcenturycam.com/ is my blog on 21st century cameras: digital cameras and cameraphones</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Periodic Reminder: &lt;a href=&quot;http://21stcenturycam.com/&quot;&gt;http://21stcenturycam.com/&lt;/a&gt; (&lt;a href=&quot;http://21stcenturycam.com/feed&quot;&gt;RSS feed&lt;/a&gt;) is my blog on 21st century cameras: digital cameras and cameraphones&lt;/li&gt;
-&lt;li&gt;Latest post: &lt;a href=&quot;http://21stcenturycam.com/digital-camera-software-by-subscription-is-inevitable-unless-you-are-not-connected-to-the-internet&quot;&gt;Digital camera software by subscription is inevitable unless you are not connected to the internet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 05 Nov 2017 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2017/11/05/p1-periodic-reminder-of-other-blogs-21stcenturycam/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2017/11/05/p1-periodic-reminder-of-other-blogs-21stcenturycam/</guid>
         
         
       </item>
