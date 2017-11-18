@@ -5,7 +5,7 @@ title: "Everything built on insecure non verified software layers will break at 
 
 ## Pontifications
 
-* Following up from [yesterday where the nice analogy was made by Aaron Klotz that WebExtensions are privileged user applications](http://rolandtanglao.com/2017/11/16/p1-Aaron-Klotz-Legacy-extensions-like-kernel-modules/) in Firefox, somebody pointed me to [a great comment from Yogic on Hacker News on fixing things in a large piece of software like Firefox which has a large amount of add-ons built on insecure, unverified software](https://news.ycombinator.com/item?id=15696184) 
+* Following up from [yesterday where the nice analogy was made by Aaron Klotz that WebExtensions are privileged user applications](http://rolandtanglao.com/2017/11/16/p1-Aaron-Klotz-Legacy-extensions-like-kernel-modules/) in Firefox, somebody pointed me to [a great comment from Yoric on Hacker News on fixing things in a large piece of software like Firefox which has a large amount of add-ons built on insecure, unverified software](https://news.ycombinator.com/item?id=15696184) 
     * (tl;dr Everything built on [insecure non verified software layers](http://rolandtanglao.com/2017/03/01/p1-themes-like-uis-are-something-users-unfortunately-cant-really-control-without-secure-reliable-components/) will break at some point because you will be forced to refactor or modify those insecure non verified layers in a non backwards compatible way to make them better perhaps even [secure](http://rolandtanglao.com/2016/12/17/p1-software-is-hard-no-clean-separation-or-componentization/) :-) ! )
 
 **QUOTE**
