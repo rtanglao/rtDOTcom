@@ -6,16 +6,32 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 17 Nov 2017 22:05:11 -0800</pubDate>
-    <lastBuildDate>Fri, 17 Nov 2017 22:05:11 -0800</lastBuildDate>
+    <pubDate>Sat, 18 Nov 2017 09:27:03 -0800</pubDate>
+    <lastBuildDate>Sat, 18 Nov 2017 09:27:03 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>My former colleague at Raincity, Katherine Bailey, is doing great things at Acquia with Machine Learning</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://engage.acquia.com/baffled-brilliance-machine-learning-next-great-ux-challenge&quot;&gt;My former colleague at Raincity, Katherine Bailey, is doing great things at Acquia with Machine Learning&lt;/a&gt; in her role as Principal Data Scientist.&lt;/li&gt;
+&lt;li&gt;Would love to have the time to learn more! Check out &lt;a href=&quot;https://engage.acquia.com/speakers/katherine-bailey&quot;&gt;her&lt;/a&gt; &lt;a href=&quot;https://engage.acquia.com/baffled-brilliance-machine-learning-next-great-ux-challenge&quot;&gt;video&lt;/a&gt;! (and check out her &lt;a href=&quot;http://katbailey.github.io/&quot;&gt;blog&lt;/a&gt; and her &lt;a href=&quot;https://medium.com/@katherinebailey/&quot;&gt;medium&lt;/a&gt; blog, please cross-post all these things to your blog kat :-) )&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 18 Nov 2017 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2017/11/18/p1-katherine-bailey-great-things-acquia-machine-learning/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2017/11/18/p1-katherine-bailey-great-things-acquia-machine-learning/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Everything built on insecure non verified software layers will break at some point because you will be forced to refactor or modify those insecure non verified layers in a non backwards compatible way</title>
         <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Following up from &lt;a href=&quot;http://rolandtanglao.com/2017/11/16/p1-Aaron-Klotz-Legacy-extensions-like-kernel-modules/&quot;&gt;yesterday where the nice analogy was made by Aaron Klotz that WebExtensions are privileged user applications&lt;/a&gt; in Firefox, somebody pointed me to &lt;a href=&quot;https://news.ycombinator.com/item?id=15696184&quot;&gt;a great comment from Yogic on Hacker News on fixing things in a large piece of software like Firefox which has a large amount of add-ons built on insecure, unverified software&lt;/a&gt; 
+&lt;li&gt;Following up from &lt;a href=&quot;http://rolandtanglao.com/2017/11/16/p1-Aaron-Klotz-Legacy-extensions-like-kernel-modules/&quot;&gt;yesterday where the nice analogy was made by Aaron Klotz that WebExtensions are privileged user applications&lt;/a&gt; in Firefox, somebody pointed me to &lt;a href=&quot;https://news.ycombinator.com/item?id=15696184&quot;&gt;a great comment from Yoric on Hacker News on fixing things in a large piece of software like Firefox which has a large amount of add-ons built on insecure, unverified software&lt;/a&gt; 
 
 &lt;ul&gt;
 &lt;li&gt;(tl;dr Everything built on &lt;a href=&quot;http://rolandtanglao.com/2017/03/01/p1-themes-like-uis-are-something-users-unfortunately-cant-really-control-without-secure-reliable-components/&quot;&gt;insecure non verified software layers&lt;/a&gt; will break at some point because you will be forced to refactor or modify those insecure non verified layers in a non backwards compatible way to make them better perhaps even &lt;a href=&quot;http://rolandtanglao.com/2016/12/17/p1-software-is-hard-no-clean-separation-or-componentization/&quot;&gt;secure&lt;/a&gt; :-) ! )&lt;/li&gt;
@@ -256,23 +272,6 @@ I strongly recommend a healthy dose of critical thinking, making time for self c
         <pubDate>Thu, 09 Nov 2017 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2017/11/09/p1-internet-weaponized-critical-thinking-self-care-internet/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2017/11/09/p1-internet-weaponized-critical-thinking-self-care-internet/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>It's November 8, 2017 - My flagship Note 8 is still stuck at security patch level: August 1, 2017, Thanks S*msung and F*do, NOT :-)</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;It&amp;#39;s November 8, 2017 - My flagship Note 8 is still stuck at security level: August 1, 2017 which I think means no Blueborne patch! Thanks S&lt;em&gt;msung and F&lt;/em&gt;do for making my &amp;gt;$CDN1000 phone needlessly vulnerable.&lt;/li&gt;
-&lt;li&gt;I guess my next step is off to the Fido forums and Howard Forums. &lt;/li&gt;
-&lt;li&gt;No doubt other Canadians have experienced this problem sad face!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 08 Nov 2017 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2017/11/08/p1-note8-still-waiting-for-samsung-post-1august2017-update/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2017/11/08/p1-note8-still-waiting-for-samsung-post-1august2017-update/</guid>
         
         
       </item>
