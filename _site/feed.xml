@@ -6,16 +6,77 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 16 Nov 2017 19:12:49 -0800</pubDate>
-    <lastBuildDate>Thu, 16 Nov 2017 19:12:49 -0800</lastBuildDate>
+    <pubDate>Fri, 17 Nov 2017 21:58:20 -0800</pubDate>
+    <lastBuildDate>Fri, 17 Nov 2017 21:58:20 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Everything built on insecure non verified software layers will break at some point because you will be forced to refactor or modify those insecure non verified layers in a non backwards compatible way</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Following up from &lt;a href=&quot;http://rolandtanglao.com/2017/11/16/p1-Aaron-Klotz-Legacy-extensions-like-kernel-modules/&quot;&gt;yesterday where the nice analogy was made by Aaron Klutz that WebExtensions are privileged user applications&lt;/a&gt; in Firefox, somebody pointed me to &lt;a href=&quot;https://news.ycombinator.com/item?id=15696184&quot;&gt;a great comment from Yoric on Hacker News on fixing things in a large piece of software like Firefox which has a large amount of add-ons built on insecure, unverified software&lt;/a&gt; 
+
+&lt;ul&gt;
+&lt;li&gt;(tl;dr Everything built on &lt;a href=&quot;http://rolandtanglao.com/2017/03/01/p1-themes-like-uis-are-something-users-unfortunately-cant-really-control-without-secure-reliable-components/&quot;&gt;insecure non verified software layers&lt;/a&gt; will break at some point because you will be forced to refactor or modify those insecure non verified layers in a non backwards compatible way to make them better perhaps even &lt;a href=&quot;http://rolandtanglao.com/2016/12/17/p1-software-is-hard-no-clean-separation-or-componentization/&quot;&gt;secure&lt;/a&gt; :-) ! )&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+Consider the necessary steps:&lt;br /&gt;&lt;br /&gt;
+
+1. realize that an internal API is broken;&lt;br /&gt;&lt;br /&gt;
+
+2. come up with a new non-broken API;&lt;br /&gt;&lt;br /&gt;
+
+3. port all the internal code using the non-broken API;&lt;br /&gt;&lt;br /&gt;
+
+4. add a compatibility layer between the broken API and the non-broken API;&lt;br /&gt;&lt;br /&gt;
+
+5. check all the existing add-ons to find out which ones use the broken API;&lt;br /&gt;&lt;br /&gt;
+
+6. hope you didn't forget any add-on;&lt;br /&gt;&lt;br /&gt;
+
+7. attempt to get in touch with all the add-on developers;&lt;br /&gt;&lt;br /&gt;
+
+8. repeat 7. many, many times, until you are sure that the add-on developers that do not respond have simply abandoned their add-on;&lt;br /&gt;&lt;br /&gt;
+
+9. negotiate a transition plan with the add-on developer with whom you have managed to get in touch;&lt;br /&gt;&lt;br /&gt;
+
+10. land the patch that you have written now 3-4 months ago;&lt;br /&gt;&lt;br /&gt;
+
+11. maintain both the broken API and the non-broken API (and their tests) for ~1 year, until you are reasonably sure that all add-on developers who intend to migrate have done so;&lt;br /&gt;&lt;br /&gt;
+
+12. maintain (and test) a downgrade path for people who switch between versions of Firefox;&lt;br /&gt;&lt;br /&gt;
+
+13. finally land your code;&lt;br /&gt;&lt;br /&gt;
+
+14. realize that you still have accidentally broken some add-ons and people are (rightfully) unhappy because &quot;Firefox broke my add-on&quot;;&lt;br /&gt;&lt;br /&gt;
+
+15. it's 18 months since you wrote your 2-lines patch, you can finally get rid of the dead code and tests and move to something else.&lt;br /&gt;&lt;br /&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=15696184&quot;&gt;Read the whole thing&lt;/a&gt;!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 17 Nov 2017 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2017/11/17/p1-everything-built-on-insecure-non-verified-layers-will-break-at-some-point-you-will-refactor-modify-those-layers-in-a-non-backwards-compatible-way/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2017/11/17/p1-everything-built-on-insecure-non-verified-layers-will-break-at-some-point-you-will-refactor-modify-those-layers-in-a-non-backwards-compatible-way/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Aaron Klotz: Legacy extensions are like kernel modules</title>
         <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;In Legacy Firefox Extensions and “Userspace”, Aaron Klotz writes:&lt;/li&gt;
+&lt;li&gt;In &lt;a href=&quot;http://dblohm7.ca/blog/2017/11/16/legacy-firefox-extensions-and-userspace/&quot;&gt;Legacy Firefox Extensions and “Userspace”&lt;/a&gt;, Aaron Klotz writes:&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
@@ -34,6 +95,8 @@ Legacy extensions were akin to kernel modules. When there is no abstraction, the
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://dblohm7.ca/blog/2017/11/16/legacy-firefox-extensions-and-userspace/&quot;&gt;Read the whole thing :-) !!!&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 16 Nov 2017 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2017/11/16/p1-Aaron-Klotz-Legacy-extensions-like-kernel-modules/</link>
@@ -210,35 +273,6 @@ I strongly recommend a healthy dose of critical thinking, making time for self c
         <pubDate>Wed, 08 Nov 2017 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2017/11/08/p1-note8-still-waiting-for-samsung-post-1august2017-update/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2017/11/08/p1-note8-still-waiting-for-samsung-post-1august2017-update/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>tend-and-befriend instead of fight-or-flight in video games and life! yes please!</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Juicy quotes &lt;a href=&quot;http://www.gamesindustry.biz/articles/2017-03-08-slouching-toward-relevant-video-games&quot;&gt;From Slouching toward relevant video games&lt;/a&gt; and of course &lt;a href=&quot;http://www.gamesindustry.biz/articles/2017-03-08-slouching-toward-relevant-video-games&quot;&gt;read the whole thing&lt;/a&gt;:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-
-With fight-or-flight, your sympathetic nervous system kicks in and releases adrenaline followed by dopamine. If you like games like this, it's probably because adrenaline and dopamine are very enjoyable. Your pupils dilate. Your heart beats faster. Your airways open up. And you feel exhilarated. You feel alive. You feel powerful.&lt;br /&gt;&lt;br /&gt;
-
-But not everyone likes these kinds of games. I don't. My friends don't. And I think my friends find games like this boring not only because they aren't interested in more stories about callous white men, and not only because they don't know how the controls work or don't get the references to geek culture, but also because they don't get an adrenaline high. They have a different response to stress.&lt;br /&gt;&lt;br /&gt;
-
-My friends and I don't like adrenaline, but there's something similar that is probably going on with us. It's called tend-and-befriend. Like fight-or-flight, tend-and-befriend is an automatic, physiological reaction to threatening situations. &lt;br /&gt;&lt;br /&gt;
-
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 07 Nov 2017 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2017/11/07/p1-tend-and-befriend-rather-than-fight-or-flight/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2017/11/07/p1-tend-and-befriend-rather-than-fight-or-flight/</guid>
         
         
       </item>
