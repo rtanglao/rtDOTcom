@@ -6,8 +6,8 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 17 Nov 2017 21:58:20 -0800</pubDate>
-    <lastBuildDate>Fri, 17 Nov 2017 21:58:20 -0800</lastBuildDate>
+    <pubDate>Fri, 17 Nov 2017 22:05:11 -0800</pubDate>
+    <lastBuildDate>Fri, 17 Nov 2017 22:05:11 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>
@@ -15,7 +15,7 @@
         <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Following up from &lt;a href=&quot;http://rolandtanglao.com/2017/11/16/p1-Aaron-Klotz-Legacy-extensions-like-kernel-modules/&quot;&gt;yesterday where the nice analogy was made by Aaron Klutz that WebExtensions are privileged user applications&lt;/a&gt; in Firefox, somebody pointed me to &lt;a href=&quot;https://news.ycombinator.com/item?id=15696184&quot;&gt;a great comment from Yoric on Hacker News on fixing things in a large piece of software like Firefox which has a large amount of add-ons built on insecure, unverified software&lt;/a&gt; 
+&lt;li&gt;Following up from &lt;a href=&quot;http://rolandtanglao.com/2017/11/16/p1-Aaron-Klotz-Legacy-extensions-like-kernel-modules/&quot;&gt;yesterday where the nice analogy was made by Aaron Klotz that WebExtensions are privileged user applications&lt;/a&gt; in Firefox, somebody pointed me to &lt;a href=&quot;https://news.ycombinator.com/item?id=15696184&quot;&gt;a great comment from Yogic on Hacker News on fixing things in a large piece of software like Firefox which has a large amount of add-ons built on insecure, unverified software&lt;/a&gt; 
 
 &lt;ul&gt;
 &lt;li&gt;(tl;dr Everything built on &lt;a href=&quot;http://rolandtanglao.com/2017/03/01/p1-themes-like-uis-are-something-users-unfortunately-cant-really-control-without-secure-reliable-components/&quot;&gt;insecure non verified software layers&lt;/a&gt; will break at some point because you will be forced to refactor or modify those insecure non verified layers in a non backwards compatible way to make them better perhaps even &lt;a href=&quot;http://rolandtanglao.com/2016/12/17/p1-software-is-hard-no-clean-separation-or-componentization/&quot;&gt;secure&lt;/a&gt; :-) ! )&lt;/li&gt;
