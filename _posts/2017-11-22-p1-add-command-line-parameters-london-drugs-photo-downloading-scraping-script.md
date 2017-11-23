@@ -1,22 +1,21 @@
 ---
 layout: post
-title: "Click on next photo and then download instead of scrolling is how I scraped the photos from London Drugs"
+title: "Added url of photoset and photoset name command line parameters to London Drugs Scraping photo downloads script"
 ---
 
 ## Pontifications
 
-* See [previous London Drugs Scraping photo post](http://rolandtanglao.com/2017/11/20/p1-TIL-scraping-javascript-sites-with-ruby-and-watir-is-harder-than-it-should-be/)
-* I scrapped scrolling and that works!
-* Next up add a command line argument so we can do
+ * See [previous London Drugs Scraping photo post](http://rolandtanglao.com/2017/11/20/p1-scraping-london-drugs-photo-urls-working/)
+* I added a command line parameter for the photoset url and the photoset name
 
 ```sh
-#./click-sidebar-ldphotos.rb <url>
-./click-sidebar-ldphotos.rb  https://photolab.londondrugs.com/prints?coll=mVnr3ZX2GN3v1K46YLzyJxj
+#./click-sidebar-ldphotos.rb <url> <photosetname>
+~/Dropbox/GIT/rt-ldphoto/click-sidebar-ldphotos.rb https://photolab.londondrugs.com/prints?coll=NBbKxdL9GdXDmNzdGrAeQqyZ 13october2017-3rdsunday
 ```
 
 ### Code
 
-Here is my [working code, click-sidebar-ldphotos.rb,](https://github.com/rtanglao/rt-ldphoto/blob/master/click-sidebar-ldphotos.rb) that download 37 out of 37 photos:
+Here is my [working code, click-sidebar-ldphotos.rb,](https://github.com/rtanglao/rt-ldphoto/blob/master/click-sidebar-ldphotos.rb) has the two new command line parameters:
 
 ```ruby
 #!/usr/bin/env ruby
@@ -24,6 +23,10 @@ require 'rubygems'
 require 'watir'
 require 'pp'
 require 'curb'
+require 'rack'
+
+url = ARGV[0]
+$photoset_name = ARGV[1]
 
 def fetch_1_at_a_time(urls)
   
@@ -37,7 +40,9 @@ def fetch_1_at_a_time(urls)
     
     easy.url = url
     uri = URI.parse(url)
-    filename = sprintf("ldphoto-%2.2d.jpg", i)
+    params = Rack::Utils.parse_query URI(url).query
+    filename = sprintf("%s-ldphoto-%3.3d-%s.jpg", $photoset_name, i, 
+                       params["photo"])
     $stderr.print "filename:'#{filename}'"
     $stderr.print "url:'#{url}' :"
     if File.exist?(filename)
@@ -66,7 +71,7 @@ def fetch_1_at_a_time(urls)
     end
   end
 end
-url = "https://photolab.londondrugs.com/prints?coll=mVnr3ZX2GN3v1K46YLzyJxjo"
+
 b = Watir::Browser.start url ,  :firefox #, headless: true
 num_path = "/html/body/div[2]/div[2]/div/prints/div/div/div/prints-photos/div/div/div[1]/div[1]/collections-view/div/div[1]/div[1]/div[3]/ul/li[2]/div/div[2]/div[1]" 
 num = b.element(xpath: num_path).wait_until_present
