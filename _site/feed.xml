@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 22 Nov 2017 22:17:47 -0800</pubDate>
-    <lastBuildDate>Wed, 22 Nov 2017 22:17:47 -0800</lastBuildDate>
+    <pubDate>Thu, 23 Nov 2017 20:43:40 -0800</pubDate>
+    <lastBuildDate>Thu, 23 Nov 2017 20:43:40 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>emma humphries' node.js script to find the top bugs in a component by number of new comments since a given date - good example of node.js </title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt; Emma Humphries&amp;#39; &lt;a href=&quot;https://github.com/emceeaich/bugzilla-comment-counts&quot;&gt;node.js script to find the top bugs in a component by number of new comments since a given date&lt;/a&gt; looks useful to learn both about node.js and about the bugzilla API&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 23 Nov 2017 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2017/11/23/p1-emma-humphries-find-top-bugzilla-bug-by-number-of-comments-since-a-date/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2017/11/23/p1-emma-humphries-find-top-bugzilla-bug-by-number-of-comments-since-a-date/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Added url of photoset and photoset name command line parameters to London Drugs Scraping photo downloads script</title>
@@ -460,24 +475,6 @@ Legacy extensions were akin to kernel modules. When there is no abstraction, the
         <pubDate>Mon, 13 Nov 2017 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2017/11/13/p1-finally-got-my-note8-august-october-update/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2017/11/13/p1-finally-got-my-note8-august-october-update/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Added RolandTanglao.com to github</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;added the files for rolandtanglao.com using these instructions:
-&lt;a href=&quot;https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/&quot;&gt;https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Here is the github repo: &lt;a href=&quot;https://github.com/rtanglao/rtDOTcom&quot;&gt;https://github.com/rtanglao/rtDOTcom&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Feel free to &lt;a href=&quot;https://github.com/rtanglao/rtDOTcom/issues&quot;&gt;file an issue&lt;/a&gt; :-) &lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 12 Nov 2017 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2017/11/12/p1-added-rolandtanglao-dot-com-to-github/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2017/11/12/p1-added-rolandtanglao-dot-com-to-github/</guid>
         
         
       </item>
