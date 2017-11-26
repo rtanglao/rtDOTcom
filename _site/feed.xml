@@ -6,9 +6,58 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 24 Nov 2017 22:08:11 -0800</pubDate>
-    <lastBuildDate>Fri, 24 Nov 2017 22:08:11 -0800</lastBuildDate>
+    <pubDate>Sat, 25 Nov 2017 23:10:56 -0800</pubDate>
+    <lastBuildDate>Sat, 25 Nov 2017 23:10:56 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>SUMO aka support.mozilla.org Kitsune search api</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://kitsune.readthedocs.io/en/latest/api.html&quot;&gt;Unofficial Search API for support.mozilla.org&amp;#39;s Kitsune platform&lt;/a&gt;   that may go away at any day :-) to search for the word videos&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;curl &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;https://support.mozilla.org/api/2/search/suggest/&quot;&lt;/span&gt;      &lt;span class=&quot;nt&quot;&gt;-H&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Content-Type: application/json&quot;&lt;/span&gt;      &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'
+{
+   &quot;q&quot;: &quot;videos&quot;,
+   &quot;max_documents&quot;: 3,
+   &quot;max_questions&quot;: 0
+}'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;response from server is:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;HTTP/1.1 200 OK
+Server: Apache
+X-Backend-Server: support4.webapp.phx1.mozilla.com
+Vary: X-Mobile,User-Agent
+Cache-Control: no-cache, must-revalidate
+Content-Type: application/json
+Strict-Transport-Security: max-age=31536000
+Public-Key-Pins: max-age=1296000; pin-sha256=&quot;r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E=&quot;; pin-sha256=&quot;WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=&quot;;
+Date: Wed, 22 Nov 2017 23:07:54 GMT
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+Transfer-Encoding: chunked
+X-Content-Type-Options: nosniff
+X-Robots-Tag: noodp
+Set-Cookie: multidb_pin_writes=y; expires=Wed, 22-Nov-2017 23:08:09 GMT; httponly; Max-Age=15; Path=/
+Allow: POST, OPTIONS, GET
+X-Frame-Options: DENY
+X-Cache-Info: not cacheable; request wasn't a GET or HEAD
+
+{&quot;documents&quot;:[{&quot;id&quot;:15114,&quot;title&quot;:&quot;Download music, photos and videos&quot;,&quot;slug&quot;:&quot;download-music-photos-and-videos&quot;,&quot;url&quot;:&quot;/en-US/
+...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;etc&lt;/p&gt;
+</description>
+        <pubDate>Sat, 25 Nov 2017 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2017/11/25/p1-sumo-kitsune-search-api/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2017/11/25/p1-sumo-kitsune-search-api/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Stephen Downes: Consciousness</title>
@@ -456,33 +505,6 @@ Legacy extensions were akin to kernel modules. When there is no abstraction, the
         <pubDate>Wed, 15 Nov 2017 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2017/11/15/p1-rex-hammock-No-guest-posts-on-this-blog/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2017/11/15/p1-rex-hammock-No-guest-posts-on-this-blog/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to leave a comment on this blog? Why are you using github?</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;p&gt;(&lt;a href=&quot;https://github.com/Pomax/pomax.github.io/issues/1&quot;&gt;Forked from pomax&amp;#39;s issue&lt;/a&gt;; thanks Pomax!) and if you want, &lt;a href=&quot;https://github.com/rtanglao/rtDOTcom/issues/2&quot;&gt;check out the issue on github&lt;/a&gt; :-) recursive :-) !!!!&lt;/p&gt;
-
-&lt;p&gt;Leaving a comment on github is pretty easy if you have ever created a new userid and left a comment on the web before :-).  My apologies if this isn&amp;#39;t easy for you!&lt;/p&gt;
-
-&lt;p&gt;Yes, you need to log in, but if you really care about that comment you wanted to leave, that shouldn&amp;#39;t be much of a problem. I decided to go with github issues because if you just want a throwaway comment, you can always Tweet to me (@ mention @rtanglao on twitter)  about it and we can both count on that interaction losing traction and being forgotten by everyone in about a day. That&amp;#39;s fine, we should be able to have those interactions, just not on the blog itself.&lt;/p&gt;
-
-&lt;p&gt;If you want to leave a real comment, one that requires meaningful and direct interaction between you and me (say you a found glaring problem with one of the thing I posted, or you have information that you think would help me update a post or write a new one, or you have real questions after reading a post and need additional information), then this is a much better place to have a conversation that can guide real change to my posts.&lt;/p&gt;
-
-&lt;p&gt;Get an account if you don&amp;#39;t have one (it&amp;#39;s free), and then file a new issue about what you want to talk about - I&amp;#39;ll try to respond the same day, because if you care enough to comment, I certainly care enough to engage with you.&lt;/p&gt;
-
-&lt;p&gt;Cheers!&lt;/p&gt;
-
-&lt;p&gt;...Roland &lt;/p&gt;
-
-&lt;p&gt;p.s. Why github? Because it&amp;#39;s fast, updated and has features to lock issues if people sp*m them. And it&amp;#39;s a real business with a real business model (charging software developers for private software repositories)  unlike the other commenting systems&lt;/p&gt;
-</description>
-        <pubDate>Tue, 14 Nov 2017 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2017/11/14/p1-how-to-leave-a-comment-why-github/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2017/11/14/p1-how-to-leave-a-comment-why-github/</guid>
         
         
       </item>
