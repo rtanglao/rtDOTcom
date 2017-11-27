@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 25 Nov 2017 23:10:56 -0800</pubDate>
-    <lastBuildDate>Sat, 25 Nov 2017 23:10:56 -0800</lastBuildDate>
+    <pubDate>Sun, 26 Nov 2017 17:53:12 -0800</pubDate>
+    <lastBuildDate>Sun, 26 Nov 2017 17:53:12 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>An App to automatically commit this blog to git and upload to github</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Dave had a great idea: &lt;a href=&quot;http://scripting.com/2017/11/26.html#a141824&quot;&gt;an app to automatically commit this blog to git and upload to github daily&lt;/a&gt;!&lt;/li&gt;
+&lt;li&gt;If we had a github post commit hook that ran jekyll  in the cloud and then uploaded to surge.sh again in the cloud perhaps using heroku we&amp;#39;d then wouldn&amp;#39;t need a computer with jekyll and ruby installed, just a phone or anything that runs a web browser so we could update this blog from everywhere! I&amp;#39;ve tried heroku in the past but I&amp;#39;ve found it clunky and I don&amp;#39;t trust their free plan to stick around forever! (and as always I need to re-try heroku again, maybe it&amp;#39;s less clunky now?)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 26 Nov 2017 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2017/11/26/p1-an-app-to-automatically-upload-this-blog-to-github/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2017/11/26/p1-an-app-to-automatically-upload-this-blog-to-github/</guid>
+        
+        
+      </item>
     
       <item>
         <title>SUMO aka support.mozilla.org Kitsune search api</title>
@@ -489,22 +505,6 @@ Legacy extensions were akin to kernel modules. When there is no abstraction, the
         <pubDate>Thu, 16 Nov 2017 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2017/11/16/p1-Aaron-Klotz-Legacy-extensions-like-kernel-modules/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2017/11/16/p1-Aaron-Klotz-Legacy-extensions-like-kernel-modules/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>I agree with Rex Hammock - No You Can’t Contribute a Guest Post to this Blog</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I agree with Rex Hammock - &lt;a href=&quot;http://www.rexblog.com/2017/11/10/52289&quot;&gt;No You Can’t Contribute a Guest Post to this Blog&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Get your own blog :-) ! I think I blogged about this before!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 15 Nov 2017 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2017/11/15/p1-rex-hammock-No-guest-posts-on-this-blog/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2017/11/15/p1-rex-hammock-No-guest-posts-on-this-blog/</guid>
         
         
       </item>
