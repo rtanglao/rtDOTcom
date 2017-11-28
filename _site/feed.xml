@@ -6,9 +6,36 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 26 Nov 2017 17:53:12 -0800</pubDate>
-    <lastBuildDate>Sun, 26 Nov 2017 17:53:12 -0800</lastBuildDate>
+    <pubDate>Mon, 27 Nov 2017 17:01:23 -0800</pubDate>
+    <lastBuildDate>Mon, 27 Nov 2017 17:01:23 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Run Firefox with Selenium Web Extensions and how to develop a simple Firefox WebExtension</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I have been saying since forever that I should write a Firefox WebExension!&lt;/li&gt;
+&lt;li&gt;And this post makes it sound easy :-) !&lt;/li&gt;
+&lt;li&gt;From &lt;a href=&quot;https://intoli.com/blog/firefox-extensions-with-selenium/&quot;&gt;Using Firefox WebExtensions with Selenium&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+In this article, I’ll walk through the process of hacking support for Firefox WebExtensions into the Selenium Python client’s FirefoxProfile class. I’ve also put my money where my mouth is and submitted these changes as a pull request on the Selenium repository. This means that hopefully the workaround described in this article will eventually not be necessary. I’ll be sure to update this once that’s the case.
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 27 Nov 2017 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2017/11/27/p1-how-create-a-simple-firefox-webextension-that-works-with-selenium/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2017/11/27/p1-how-create-a-simple-firefox-webextension-that-works-with-selenium/</guid>
+        
+        
+      </item>
     
       <item>
         <title>An App to automatically commit this blog to git and upload to github</title>
@@ -471,40 +498,6 @@ Consider the necessary steps:&lt;br /&gt;&lt;br /&gt;
         <pubDate>Fri, 17 Nov 2017 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2017/11/17/p1-everything-built-on-insecure-non-verified-layers-will-break-at-some-point-you-will-refactor-modify-those-layers-in-a-non-backwards-compatible-way/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2017/11/17/p1-everything-built-on-insecure-non-verified-layers-will-break-at-some-point-you-will-refactor-modify-those-layers-in-a-non-backwards-compatible-way/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Aaron Klotz: Legacy extensions are like kernel modules</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;In &lt;a href=&quot;http://dblohm7.ca/blog/2017/11/16/legacy-firefox-extensions-and-userspace/&quot;&gt;Legacy Firefox Extensions and “Userspace”&lt;/a&gt;, Aaron Klotz writes:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-
-Legacy extensions were akin to kernel modules. When there is no abstraction, there can be no such thing as userspace. This is precisely the problem that WebExtensions solves!&lt;br /&gt;&lt;br /&gt;
-
-...&lt;br /&gt;&lt;br /&gt;
-
-
-* Gecko is the kernel;&lt;br /&gt;
-* WebExtensions are privileged user applications;&lt;br /&gt;
-* Web content runs as unprivileged user applications.
-
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://dblohm7.ca/blog/2017/11/16/legacy-firefox-extensions-and-userspace/&quot;&gt;Read the whole thing :-) !!!&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 16 Nov 2017 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2017/11/16/p1-Aaron-Klotz-Legacy-extensions-like-kernel-modules/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2017/11/16/p1-Aaron-Klotz-Legacy-extensions-like-kernel-modules/</guid>
         
         
       </item>
