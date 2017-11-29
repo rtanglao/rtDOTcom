@@ -5,7 +5,7 @@ title: "Run Firefox with Selenium Web Extensions and how to develop a simple Fir
 
 ## Pontifications
 
-* I have been saying since forever that I should write a Firefox WebExension!
+* I have been saying since forever that I should write a Firefox WebExtension!
 * And this post makes it sound easy :-) !
 * From [Using Firefox WebExtensions with Selenium](https://intoli.com/blog/firefox-extensions-with-selenium/)
 
