@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 28 Nov 2017 20:40:26 -0800</pubDate>
-    <lastBuildDate>Tue, 28 Nov 2017 20:40:26 -0800</lastBuildDate>
+    <pubDate>Wed, 29 Nov 2017 21:48:07 -0800</pubDate>
+    <lastBuildDate>Wed, 29 Nov 2017 21:48:07 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Used ruby watir gem instead of capybara maybe try capybara next time?</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;For my &lt;a href=&quot;http://rolandtanglao.com/2017/11/22/p1-add-command-line-parameters-london-drugs-photo-downloading-scraping-script/&quot;&gt;London Drugs Scraping photo downloads script&lt;/a&gt;, I used the ruby watir gem instead of &lt;a href=&quot;http://teamcapybara.github.io/capybara/&quot;&gt;capybara&lt;/a&gt; because I couldn&amp;#39;t get capybara to work?!?!&lt;/li&gt;
+&lt;li&gt;There is a &lt;a href=&quot;http://tutorials.jumpstartlab.com/topics/scraping-with-capybara.html&quot;&gt;nice capybara tutorial&lt;/a&gt;, I need to try capybara next time.&lt;/li&gt;
+&lt;li&gt;Finally here are some capybara versus watir posts: &lt;a href=&quot;https://github.com/watir/watir/issues/444&quot;&gt;github watir issue&lt;/a&gt;, &lt;a href=&quot;https://watirmelon.com/2011/12/03/a-tale-of-three-ruby-automated-testing-apis-redux/&quot;&gt;A tale of three ruby automated testing APIs (redux)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 29 Nov 2017 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2017/11/29/p1-i-used-ruby-watir-to-drive-selenium-capybara-next-time/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2017/11/29/p1-i-used-ruby-watir-to-drive-selenium-capybara-next-time/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Narrate all your work including your software work with Mathematica and Jupyter notebooks aka 'computational essays'</title>
@@ -451,22 +468,6 @@ For me, the lesson I draw, is that life is everything. This applies to my own li
         <pubDate>Mon, 20 Nov 2017 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2017/11/20/p1-TIL-scraping-javascript-sites-with-ruby-and-watir-is-harder-than-it-should-be/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2017/11/20/p1-TIL-scraping-javascript-sites-with-ruby-and-watir-is-harder-than-it-should-be/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>My former colleague at Raincity, Katherine Bailey, is doing great things at Acquia with Machine Learning</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://engage.acquia.com/baffled-brilliance-machine-learning-next-great-ux-challenge&quot;&gt;My former colleague at Raincity, Katherine Bailey, is doing great things at Acquia with Machine Learning&lt;/a&gt; in her role as Principal Data Scientist.&lt;/li&gt;
-&lt;li&gt;Would love to have the time to learn more! Check out &lt;a href=&quot;https://engage.acquia.com/speakers/katherine-bailey&quot;&gt;her&lt;/a&gt; &lt;a href=&quot;https://engage.acquia.com/baffled-brilliance-machine-learning-next-great-ux-challenge&quot;&gt;video&lt;/a&gt;! (and check out her &lt;a href=&quot;http://katbailey.github.io/&quot;&gt;blog&lt;/a&gt; and her &lt;a href=&quot;https://medium.com/@katherinebailey/&quot;&gt;medium&lt;/a&gt; blog, please cross-post all these things to your blog kat :-) )&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 18 Nov 2017 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2017/11/18/p1-katherine-bailey-great-things-acquia-machine-learning/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2017/11/18/p1-katherine-bailey-great-things-acquia-machine-learning/</guid>
         
         
       </item>
