@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 02 Dec 2017 23:53:15 -0800</pubDate>
-    <lastBuildDate>Sat, 02 Dec 2017 23:53:15 -0800</lastBuildDate>
+    <pubDate>Sun, 03 Dec 2017 20:20:02 -0800</pubDate>
+    <lastBuildDate>Sun, 03 Dec 2017 20:20:02 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Karoo #iWantToBelieve But You are Based on Android 6.0 which was introduced in October 2015 which means monthly security updates will cease on October 2019 or earlier so if I buy a Karoo in late 2017 I can only use it for a year or two until it's vulnerable forever right? What am I missing?</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.hammerhead.io/karoo-vs-smartphone-98b5fe89d30b&quot;&gt;Karoo&lt;/a&gt; #iWantToBelieve But You are Based on Android 6.0 which was introduced in October 2015 which means monthly security updates will cease on October 2019 (&lt;a href=&quot;http://rolandtanglao.com/2017/05/27/p1-going-to-have-to-disagree-with-the-wirecutter-about-android-buy-every-2-years/&quot;&gt;since Android OS updates only happen for 2-4 years from launch of that OS version&lt;/a&gt;) or earlier so if I buy a Karoo in late 2017 I can only use it for a year or two until it&amp;#39;s vulnerable forever right? What am I missing?&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 03 Dec 2017 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2017/12/03/p1-karoo-i-want-to-believe-but-i-also-dont-want-to-buy-a-new-bike-computer-every-2-4-years/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2017/12/03/p1-karoo-i-want-to-believe-but-i-also-dont-want-to-buy-a-new-bike-computer-every-2-4-years/</guid>
+        
+        
+      </item>
     
       <item>
         <title>David Robinson: DataCamp course: Introduction to the R package: Tidyverse</title>
@@ -249,21 +264,6 @@ For me, the lesson I draw, is that life is everything. This applies to my own li
         <pubDate>Thu, 23 Nov 2017 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2017/11/23/p1-stephen-downes-consciousness/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2017/11/23/p1-stephen-downes-consciousness/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>emma humphries' node.js script to find the top bugs in a component by number of new comments since a given date - good example of node.js </title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt; Emma Humphries&amp;#39; &lt;a href=&quot;https://github.com/emceeaich/bugzilla-comment-counts&quot;&gt;node.js script to find the top bugs in a component by number of new comments since a given date&lt;/a&gt; looks useful to learn both about node.js and about the bugzilla API&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 23 Nov 2017 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2017/11/23/p1-emma-humphries-find-top-bugzilla-bug-by-number-of-comments-since-a-date/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2017/11/23/p1-emma-humphries-find-top-bugzilla-bug-by-number-of-comments-since-a-date/</guid>
         
         
       </item>
