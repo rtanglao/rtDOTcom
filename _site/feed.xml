@@ -6,9 +6,43 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 03 Dec 2017 20:20:02 -0800</pubDate>
-    <lastBuildDate>Sun, 03 Dec 2017 20:20:02 -0800</lastBuildDate>
+    <pubDate>Mon, 04 Dec 2017 18:12:44 -0800</pubDate>
+    <lastBuildDate>Mon, 04 Dec 2017 18:12:44 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>BinderHub to run federated Jupyter notebooks in the cloud?</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The problem with interactive notebooks that have R or python or other computer software code is that you have nowhere to execute since it won&amp;#39;t execute in a browser (at least not YET :-), c&amp;#39;mon just translate R to javascript easy peasy :-)!). Binder hub solves this problem.&lt;/li&gt;
+&lt;li&gt;Juicy quotes from &lt;a href=&quot;https://blog.ouseful.info/2017/12/01/my-emerging-workflow-for-working-with-binderhub/&quot;&gt;Note On My Emerging Workflow for Working With Binderhub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;QUOTE&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+For anyone not familiar with Binder / MyBinder, it’s a service that will launch a fully running Jupyter notebook server and computing environment based the contents of a Github repository (config files as well as notebooks).  What this means is that if you put your Jupyter notebooks into a Github repository, along with one or two simple files that least any Linux or Python packages you need to install in order to run the code in the notebooks (or R packages and perhaps Rmd files if you also install an R kernel/RStudio), you can get a browser access to that running environment at just the click of a link. And the generosity of whoever is paying for the servers the notebook server runs on.&lt;br /&gt;&lt;br /&gt;
+
+....&lt;br /&gt;&lt;br /&gt;
+
+    We would love to see others deploy their own BinderHub servers, either for their own communities, or as part of a federated public service of BinderHubs.&lt;br /&gt;&lt;br /&gt;
+
+I’d love to see the OU get behind this, either directly or under the banner of OpenLearn, as part of an effort to help make Jupyter powered interactive open educational materials available without the need to install any software
+
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;ENDQUOTE
+* &lt;a href=&quot;https://blog.ouseful.info/2017/12/01/my-emerging-workflow-for-working-with-binderhub/&quot;&gt;Read the whole thing!&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 04 Dec 2017 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2017/12/04/p1-binderhub-to-run-federated-notebooks-in-the-cloud/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2017/12/04/p1-binderhub-to-run-federated-notebooks-in-the-cloud/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Karoo #iWantToBelieve But You are Based on Android 6.0 which was introduced in October 2015 which means monthly security updates will cease on October 2019 or earlier so if I buy a Karoo in late 2017 I can only use it for a year or two until it's vulnerable forever right? What am I missing?</title>
@@ -237,33 +271,6 @@ X-Cache-Info: not cacheable; request wasn't a GET or HEAD
         <pubDate>Sat, 25 Nov 2017 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2017/11/25/p1-sumo-kitsune-search-api/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2017/11/25/p1-sumo-kitsune-search-api/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Stephen Downes: Consciousness</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt; From &lt;a href=&quot;https://halfanhour.blogspot.ca/2017/11/consciousness.html&quot;&gt;Stephen Downes: Consciousness&lt;/a&gt;:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-
-For me, the lesson I draw, is that life is everything. This applies to my own life, of course, but I also extend the same feeling to those around me, whose existence I can only comprehend through science and culture, but whose dilemma I assume is the same as mine, that is, that it is the quality (and duration, and variety, and related properties) of their experience that overwhelms everything else.
-
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://halfanhour.blogspot.ca/2017/11/consciousness.html&quot;&gt;Read the whole thing!&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 23 Nov 2017 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2017/11/23/p1-stephen-downes-consciousness/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2017/11/23/p1-stephen-downes-consciousness/</guid>
         
         
       </item>
