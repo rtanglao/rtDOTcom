@@ -6,9 +6,49 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 04 Dec 2017 18:12:44 -0800</pubDate>
-    <lastBuildDate>Mon, 04 Dec 2017 18:12:44 -0800</lastBuildDate>
+    <pubDate>Tue, 05 Dec 2017 16:49:39 -0800</pubDate>
+    <lastBuildDate>Tue, 05 Dec 2017 16:49:39 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>What's the worst that can happen if Karoo's Android 6 gets hacked? Navigation is off? Never trust navigation</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Roland&amp;#39;s paranoia about Android 6 aka Roland&amp;#39;s over-analysis of Karoo part 2 (&lt;a href=&quot;http://rolandtanglao.com/2017/12/03/p1-karoo-i-want-to-believe-but-i-also-dont-want-to-buy-a-new-bike-computer-every-2-4-years/&quot;&gt;Roland&amp;#39;s over-analysis of Karoo part 1&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Based on the work folks response below, the worst that could happen is that you get mis-navigated and/or that the Karoo stops working because of an Android 6 hack that the Karoo folks don&amp;#39;t patch. Not a worry because I don&amp;#39;t trust navigation computers since I get lost no matter how accurate they are
+
+&lt;ul&gt;
+&lt;li&gt;I asked some work folks and here are their edited responses:&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+&quot;@roland it seems like an AOSP fork, so they could have a solid security/app model that limits enough attack surface.  and really, is that better or worse than whatever the h*ll G*rmin runs on?  :-)&lt;br /&gt;&lt;br /&gt;
+
+I mean, it’s a cycling computer with pretty finite functionality
+&lt;br /&gt;&lt;br /&gt;
+it’s an interesting design, and the idea of a connected GPS without taking my phone on rides is nice&quot;
+&lt;br /&gt;&lt;br /&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;All Right! I&amp;#39;ll revisit in Christmas 2018 and see how they are doing. &lt;/li&gt;
+&lt;li&gt;I&amp;#39;m more likely to buy the second version of Karoo because they are going to get some things wrong. And then stop supporting the 1st version. &lt;/li&gt;
+&lt;li&gt;I guess no bicycle computer with software and connectivity and apps lasts forever. A simple bike computer that doesn&amp;#39;t have connectivity is the only thing that lasts and how long will they last and will they provide the features I want? Probably not.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 05 Dec 2017 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2017/12/05/p1-karoo-security-model-better-than-android/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2017/12/05/p1-karoo-security-model-better-than-android/</guid>
+        
+        
+      </item>
     
       <item>
         <title>BinderHub to run federated Jupyter notebooks in the cloud?</title>
@@ -19,7 +59,7 @@
 &lt;li&gt;Juicy quotes from &lt;a href=&quot;https://blog.ouseful.info/2017/12/01/my-emerging-workflow-for-working-with-binderhub/&quot;&gt;Note On My Emerging Workflow for Working With Binderhub&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;QUOTE&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
 
@@ -27,15 +67,18 @@ For anyone not familiar with Binder / MyBinder, it’s a service that will launc
 
 ....&lt;br /&gt;&lt;br /&gt;
 
-    We would love to see others deploy their own BinderHub servers, either for their own communities, or as part of a federated public service of BinderHubs.&lt;br /&gt;&lt;br /&gt;
+    &quot;We would love to see others deploy their own BinderHub servers, either for their own communities, or as part of a federated public service of BinderHubs.&quot;&lt;br /&gt;&lt;br /&gt;
 
 I’d love to see the OU get behind this, either directly or under the banner of OpenLearn, as part of an effort to help make Jupyter powered interactive open educational materials available without the need to install any software
 
 
 &lt;/blockquote&gt;
 
-&lt;p&gt;ENDQUOTE
-* &lt;a href=&quot;https://blog.ouseful.info/2017/12/01/my-emerging-workflow-for-working-with-binderhub/&quot;&gt;Read the whole thing!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.ouseful.info/2017/12/01/my-emerging-workflow-for-working-with-binderhub/&quot;&gt;Read the whole thing!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Mon, 04 Dec 2017 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2017/12/04/p1-binderhub-to-run-federated-notebooks-in-the-cloud/</link>
@@ -222,55 +265,6 @@ In this article, I’ll walk through the process of hacking support for Firefox 
         <pubDate>Sun, 26 Nov 2017 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2017/11/26/p1-an-app-to-automatically-upload-this-blog-to-github/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2017/11/26/p1-an-app-to-automatically-upload-this-blog-to-github/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>SUMO aka support.mozilla.org Kitsune search api</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://kitsune.readthedocs.io/en/latest/api.html&quot;&gt;Unofficial Search API for support.mozilla.org&amp;#39;s Kitsune platform&lt;/a&gt;   that may go away at any day :-) to search for the word videos&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;curl &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;https://support.mozilla.org/api/2/search/suggest/&quot;&lt;/span&gt;      &lt;span class=&quot;nt&quot;&gt;-H&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Content-Type: application/json&quot;&lt;/span&gt;      &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'
-{
-   &quot;q&quot;: &quot;videos&quot;,
-   &quot;max_documents&quot;: 3,
-   &quot;max_questions&quot;: 0
-}'&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;response from server is:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;HTTP/1.1 200 OK
-Server: Apache
-X-Backend-Server: support4.webapp.phx1.mozilla.com
-Vary: X-Mobile,User-Agent
-Cache-Control: no-cache, must-revalidate
-Content-Type: application/json
-Strict-Transport-Security: max-age=31536000
-Public-Key-Pins: max-age=1296000; pin-sha256=&quot;r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E=&quot;; pin-sha256=&quot;WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=&quot;;
-Date: Wed, 22 Nov 2017 23:07:54 GMT
-Expires: Thu, 19 Nov 1981 08:52:00 GMT
-X-XSS-Protection: 1; mode=block
-Pragma: no-cache
-Transfer-Encoding: chunked
-X-Content-Type-Options: nosniff
-X-Robots-Tag: noodp
-Set-Cookie: multidb_pin_writes=y; expires=Wed, 22-Nov-2017 23:08:09 GMT; httponly; Max-Age=15; Path=/
-Allow: POST, OPTIONS, GET
-X-Frame-Options: DENY
-X-Cache-Info: not cacheable; request wasn't a GET or HEAD
-
-{&quot;documents&quot;:[{&quot;id&quot;:15114,&quot;title&quot;:&quot;Download music, photos and videos&quot;,&quot;slug&quot;:&quot;download-music-photos-and-videos&quot;,&quot;url&quot;:&quot;/en-US/
-...
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;etc&lt;/p&gt;
-</description>
-        <pubDate>Sat, 25 Nov 2017 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2017/11/25/p1-sumo-kitsune-search-api/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2017/11/25/p1-sumo-kitsune-search-api/</guid>
         
         
       </item>
