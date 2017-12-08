@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 06 Dec 2017 22:01:58 -0800</pubDate>
-    <lastBuildDate>Wed, 06 Dec 2017 22:01:58 -0800</lastBuildDate>
+    <pubDate>Thu, 07 Dec 2017 22:15:52 -0800</pubDate>
+    <lastBuildDate>Thu, 07 Dec 2017 22:15:52 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Future of Journalism and Media: Erin Millar and Discourse (fund them now for $250 by Dec 21, 2017), Jay Rosen of PressThink and The Correspondent (future USA arm of Dutch De Correspondent)</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Amazing conversation on the future of media and journalism conversation tonight with Erin Millar of Discourse &lt;a href=&quot;https://www.frontfundr.com/Company/discourse_media&quot;&gt;(crowd fund them now for $250 by Dec 21, 2017&lt;/a&gt;), Jay Rosen of &lt;a href=&quot;http://pressthink.org/&quot;&gt;PressThink&lt;/a&gt; and &lt;a href=&quot;https://thecorrespondent.com/&quot;&gt;The Correspondent&lt;/a&gt; (future USA arm of Dutch &lt;a href=&quot;https://decorrespondent.nl/&quot;&gt;De Correspondent&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;I was lucky enough to meet Jay at &lt;a href=&quot;https://en.wikipedia.org/wiki/BloggerCon&quot;&gt;BloggerCon&lt;/a&gt; in Boston in 2003. Ah the good ole days when we didn&amp;#39;t worry about bad actors manipulating our thoughts, hearts and votes algorithmically through social media and we believed reality and facts were a valid criteria for news :-)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 07 Dec 2017 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2017/12/07/p1-Jay-Rosen-Erin-Millar-The-Correspondent-Discourse-Media/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2017/12/07/p1-Jay-Rosen-Erin-Millar-The-Correspondent-Discourse-Media/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Beeswarm charts in R, Interactive Beeswarm charts in R and d3.js &lt;--- need to try this!</title>
@@ -237,33 +253,6 @@ hen we originally drafted the OU/FutureLearn course Learn to Code for Data Analy
         <pubDate>Tue, 28 Nov 2017 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2017/11/28/p1-narrate-your-work-including-your-software-work/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2017/11/28/p1-narrate-your-work-including-your-software-work/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Run Firefox with Selenium Web Extensions and how to develop a simple Firefox WebExtension</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I have been saying since forever that I should write a Firefox WebExtension!&lt;/li&gt;
-&lt;li&gt;And this post makes it sound easy :-) !&lt;/li&gt;
-&lt;li&gt;From &lt;a href=&quot;https://intoli.com/blog/firefox-extensions-with-selenium/&quot;&gt;Using Firefox WebExtensions with Selenium&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-
-In this article, I’ll walk through the process of hacking support for Firefox WebExtensions into the Selenium Python client’s FirefoxProfile class. I’ve also put my money where my mouth is and submitted these changes as a pull request on the Selenium repository. This means that hopefully the workaround described in this article will eventually not be necessary. I’ll be sure to update this once that’s the case.
-
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 27 Nov 2017 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2017/11/27/p1-how-create-a-simple-firefox-webextension-that-works-with-selenium/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2017/11/27/p1-how-create-a-simple-firefox-webextension-that-works-with-selenium/</guid>
         
         
       </item>
