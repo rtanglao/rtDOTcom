@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 07 Dec 2017 22:15:52 -0800</pubDate>
-    <lastBuildDate>Thu, 07 Dec 2017 22:15:52 -0800</lastBuildDate>
+    <pubDate>Fri, 08 Dec 2017 22:45:56 -0800</pubDate>
+    <lastBuildDate>Fri, 08 Dec 2017 22:45:56 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>cvss-to-sqlite Prequel to blog post about Datasette: Convert CSV files into a SQLite database. Browse and publish that SQLite database with Datasette</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/simonw/csvs-to-sqlite&quot;&gt;cvss-to-sqlite&lt;/a&gt;: Prequel to&lt;a href=&quot;http://rolandtanglao.com/2017/11/30/p1-simon-willison-Datasette-instantly-create-publish-API-SQLite-databases/&quot;&gt; my previous blog post about Datasette&lt;/a&gt;: Convert CSV files into a SQLite database. Browse and publish that SQLite database with Datasette&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 08 Dec 2017 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2017/12/08/p1-Convert-CSV-files-into-a-SQLite-database-prequel-to-datasette/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2017/12/08/p1-Convert-CSV-files-into-a-SQLite-database-prequel-to-datasette/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Future of Journalism and Media: Erin Millar and Discourse (fund them now for $250 by Dec 21, 2017), Jay Rosen of PressThink and The Correspondent (future USA arm of Dutch De Correspondent)</title>
@@ -223,36 +238,6 @@ Apple suffers greatly from not being able to get an accepted answer to most of t
         <pubDate>Wed, 29 Nov 2017 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2017/11/29/p1-i-used-ruby-watir-to-drive-selenium-capybara-next-time/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2017/11/29/p1-i-used-ruby-watir-to-drive-selenium-capybara-next-time/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Narrate all your work including your software work with Mathematica and Jupyter notebooks aka 'computational essays'</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I agree with &lt;a href=&quot;https://blog.ouseful.info/2017/11/15/programming-meh-lets-teach-how-to-write-computational-essays-instead/&quot;&gt;Programming, meh… Let’s Teach How to Write Computational Essays Instead&lt;/a&gt; that we should narrate all of our work including software work with online notebooks. &lt;/li&gt;
-&lt;li&gt;And if that&amp;#39;s software work or the work includes software then we should use something like Mathematica and Jupyter notebooks that are great at documenting text, computer software code and output from that code.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.ouseful.info/2017/11/15/programming-meh-lets-teach-how-to-write-computational-essays-instead/&quot;&gt;Read the whole thing but here&amp;#39;s a relevant quote&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;
-&lt;blockquote&gt;
-hen we originally drafted the OU/FutureLearn course Learn to Code for Data Analysis (also available on OpenLearn), we wrote the explanatory text – delivered as HTML but including static code fragments and code outputs – as a notebook, and then ‘ran” the notebook to generate static HTML (or markdown) that provided the static course content. These notebooks were complemented by actual notebooks that students could work with interactively themselves.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;(Actually, we prototyped authoring both the static text, and the elements to be used in the student notebooks, in a single document, from which the static HTML and “live” notebook documents could be generated: Authoring Multiple Docs from a Single IPython Notebook. )&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Whilst the notion of the computational essay as a form is really powerful, I think the added distinction between between generative and generated documents is also useful. For example, a raw Rmd document of Jupyter notebook is a generative document that can be used to create a document containing text, code, and the output generated from executing the code. A generated document is an HTML, Word, or PDF export from an executed generative document.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Note that the generating code can be omitted from the generated output document, leaving just the text and code generated outputs. Code cells can also be collapsed so the code itself is hidden from view but still available for inspection at any time:&lt;br /&gt;&lt;br /&gt;
-&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 28 Nov 2017 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2017/11/28/p1-narrate-your-work-including-your-software-work/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2017/11/28/p1-narrate-your-work-including-your-software-work/</guid>
         
         
       </item>
