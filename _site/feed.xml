@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 08 Dec 2017 22:45:56 -0800</pubDate>
-    <lastBuildDate>Fri, 08 Dec 2017 22:45:56 -0800</lastBuildDate>
+    <pubDate>Sat, 09 Dec 2017 20:34:38 -0800</pubDate>
+    <lastBuildDate>Sat, 09 Dec 2017 20:34:38 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Blogging pause until December 19, 2017</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;For my four readers :-), I&amp;#39;ll be back (might blog once or twice over the next few days)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 09 Dec 2017 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2017/12/09/p1-blogging-pause-until-the-19th/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2017/12/09/p1-blogging-pause-until-the-19th/</guid>
+        
+        
+      </item>
     
       <item>
         <title>cvss-to-sqlite Prequel to blog post about Datasette: Convert CSV files into a SQLite database. Browse and publish that SQLite database with Datasette</title>
@@ -221,23 +236,6 @@ Apple suffers greatly from not being able to get an accepted answer to most of t
         <pubDate>Thu, 30 Nov 2017 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2017/11/30/p1-simon-willison-Datasette-instantly-create-publish-API-SQLite-databases/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2017/11/30/p1-simon-willison-Datasette-instantly-create-publish-API-SQLite-databases/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Used ruby watir gem instead of capybara maybe try capybara next time?</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;For my &lt;a href=&quot;http://rolandtanglao.com/2017/11/22/p1-add-command-line-parameters-london-drugs-photo-downloading-scraping-script/&quot;&gt;London Drugs Scraping photo downloads script&lt;/a&gt;, I used the ruby watir gem instead of &lt;a href=&quot;http://teamcapybara.github.io/capybara/&quot;&gt;capybara&lt;/a&gt; because I couldn&amp;#39;t get capybara to work?!?!&lt;/li&gt;
-&lt;li&gt;There is a &lt;a href=&quot;http://tutorials.jumpstartlab.com/topics/scraping-with-capybara.html&quot;&gt;nice capybara tutorial&lt;/a&gt;, I need to try capybara next time.&lt;/li&gt;
-&lt;li&gt;Finally here are some capybara versus watir posts: &lt;a href=&quot;https://github.com/watir/watir/issues/444&quot;&gt;github watir issue&lt;/a&gt;, &lt;a href=&quot;https://watirmelon.com/2011/12/03/a-tale-of-three-ruby-automated-testing-apis-redux/&quot;&gt;A tale of three ruby automated testing APIs (redux)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 29 Nov 2017 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2017/11/29/p1-i-used-ruby-watir-to-drive-selenium-capybara-next-time/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2017/11/29/p1-i-used-ruby-watir-to-drive-selenium-capybara-next-time/</guid>
         
         
       </item>
