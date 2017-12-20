@@ -6,9 +6,39 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 09 Dec 2017 20:34:38 -0800</pubDate>
-    <lastBuildDate>Sat, 09 Dec 2017 20:34:38 -0800</lastBuildDate>
+    <pubDate>Tue, 19 Dec 2017 20:47:07 -0800</pubDate>
+    <lastBuildDate>Tue, 19 Dec 2017 20:47:07 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>How To: Make Word Clouds in Ruby</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1. Setup magic_cloud, from https://stackoverflow.com/questions/22715738/imagemagick-error :&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;https://stackoverflow.com/questions/22715738/imagemagick-error
+brew uninstall imagemagick@6 
+brew install imagemagick@6 
+&lt;span class=&quot;nv&quot;&gt;PKG_CONFIG_PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/usr/local/opt/imagemagick@6/lib/pkgconfig gem install rmagick
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;2. make word cloud&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;../print-out-words-from-questions-questions.rb ff55-56-question_questions.csv &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;ff55-ff56-unanswered-questions.txt
+magic_cloud &lt;span class=&quot;nt&quot;&gt;--textfile&lt;/span&gt; ff55-ff56-unanswered-questions.txt &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; naive-ff55-ff56.jpg
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;3. Output
+&lt;img src=&quot;https://raw.githubusercontent.com/rtanglao/sumo-questions/master/SUMO-QUESTIONS_MYSQL_20OCT2017/naive-ff55-ff56.jpg&quot; alt=&quot;Naive 55-56 wordcloud&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 19 Dec 2017 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2017/12/19/p1-how-to-make-wordclouds-in-ruby/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2017/12/19/p1-how-to-make-wordclouds-in-ruby/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Blogging pause until December 19, 2017</title>
@@ -219,23 +249,6 @@ Apple suffers greatly from not being able to get an accepted answer to most of t
         <pubDate>Fri, 01 Dec 2017 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2017/12/01/p1-feverbee-apple-community-assessment/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2017/12/01/p1-feverbee-apple-community-assessment/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Simon Willison - Datasette: instantly create and publish a read-only API for your SQLite databases</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2017/Nov/13/datasette/&quot;&gt;Simon Willison&amp;#39;s - Datasette: instantly create and publish a read-only API for your SQLite databases&lt;/a&gt; looks fabulous. Perfect for instagram and flickr historical data.&lt;/li&gt;
-&lt;li&gt;I hate SQL because I&amp;#39;m crazy!&lt;/li&gt;
-&lt;li&gt;But hey what a great way to make your data available in the cloud with docker and any dataset that you want to make available to the entire world.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 30 Nov 2017 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2017/11/30/p1-simon-willison-Datasette-instantly-create-publish-API-SQLite-databases/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2017/11/30/p1-simon-willison-Datasette-instantly-create-publish-API-SQLite-databases/</guid>
         
         
       </item>
