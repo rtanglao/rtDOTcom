@@ -6,16 +6,32 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 19 Dec 2017 20:47:07 -0800</pubDate>
-    <lastBuildDate>Tue, 19 Dec 2017 20:47:07 -0800</lastBuildDate>
+    <pubDate>Wed, 20 Dec 2017 23:12:19 -0800</pubDate>
+    <lastBuildDate>Wed, 20 Dec 2017 23:12:19 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>2017 is a wrap - see you in 2018. Happy Holidays and Happy New Year</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It&amp;#39;s been amazing at work: so many wee and not so wee :-) steps forward: (to name a few) Quantum, Firefox for Fire TV, and more coming!&lt;/li&gt;
+&lt;li&gt;And outside of work, I felt the fittest ever, thanks to the Ride to Conquer Cancer, commuting by Bicycle and cross-country skiing!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 20 Dec 2017 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2017/12/20/p1-2017-is-a-wrap/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2017/12/20/p1-2017-is-a-wrap/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How To: Make Word Clouds in Ruby</title>
         <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;1. Setup magic_cloud, from https://stackoverflow.com/questions/22715738/imagemagick-error :&lt;/li&gt;
+&lt;li&gt;1. Setup magic_cloud, from &lt;a href=&quot;https://stackoverflow.com/questions/22715738/imagemagick-error&quot;&gt;https://stackoverflow.com/questions/22715738/imagemagick-error&lt;/a&gt; :&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;https://stackoverflow.com/questions/22715738/imagemagick-error
 brew uninstall imagemagick@6 
@@ -212,43 +228,6 @@ I’d love to see the OU get behind this, either directly or under the banner of
         <pubDate>Sat, 02 Dec 2017 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2017/12/02/p1-david-robinson-introduction-to-the-tidyverse/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2017/12/02/p1-david-robinson-introduction-to-the-tidyverse/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Feverbee's analysis of the Apple community</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.feverbee.com/apple-community/&quot;&gt;Feverbee&amp;#39;s analysis of the Apple community&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Not sure why they use Jive but it seems to do the job. And the gamification seems to be from Jive; it seems too complicated to me.&lt;/li&gt;
-&lt;li&gt;Getting an accepted answer is hard for Apple and most communities on the internet! I guess it&amp;#39;s hard to get folks to mark a reply as an accepted answer.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-
-Apple has had an online community ecosystem since the earliest days of the internet.&lt;br /&gt;&lt;br /&gt;
-
-The current incarnation of the official community was launched in 2006, revamped in 2011, and has been gradually tweaked and upgraded since then to the site we see today (hosted on Jive).&lt;br /&gt;&lt;br /&gt;
-
-The community is designed as a customer support channel. The primary goal is most likely to deflect customer support tickets (and calls) and provide a superior level of customer service customers can get through other channels.&lt;br /&gt;&lt;br /&gt;
-
-The community also provides a less noticeable area for user tips. Members above a certain level can share their best advice to use products more effectively. This can have an impact upon customer satisfaction and retention.&lt;br /&gt;&lt;br /&gt;
-
-...&lt;br /&gt;&lt;br /&gt;
-
-Apple suffers greatly from not being able to get an accepted answer to most of the questions which appear in the community. This is the single biggest flaw the community faces today. Most of the online communities we looked at, the number of solved questions was extremely low. These were questions asked days, if not weeks ago. This discourages future people from responding. Questions with solutions should be featured near the top along with any trending or ever-present questions.
-
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 01 Dec 2017 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2017/12/01/p1-feverbee-apple-community-assessment/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2017/12/01/p1-feverbee-apple-community-assessment/</guid>
         
         
       </item>
