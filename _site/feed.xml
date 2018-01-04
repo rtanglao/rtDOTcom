@@ -6,9 +6,45 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 20 Dec 2017 23:12:19 -0800</pubDate>
-    <lastBuildDate>Wed, 20 Dec 2017 23:12:19 -0800</lastBuildDate>
+    <pubDate>Wed, 03 Jan 2018 14:46:15 -0800</pubDate>
+    <lastBuildDate>Wed, 03 Jan 2018 14:46:15 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>n grams, bigrams, trigrams, removing stop words using Python and NLTK</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/nltk/nltk/wiki/Frequently-Asked-Questions-(Stackoverflow-Edition)&quot;&gt;n grams, bigrams, trigrams, removing stop words using Python and NLTK&lt;/a&gt; (and other FAQs from stack overflow)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 03 Jan 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/01/03/p1-ngrms-bigrams-trigrams-stopword-removal-python-nltk/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/03/p1-ngrms-bigrams-trigrams-stopword-removal-python-nltk/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>2018 reflections</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Sleep more :-)&lt;/li&gt;
+&lt;li&gt;Listen more :-)&lt;/li&gt;
+&lt;li&gt;Write more hobbyist software :-)&lt;/li&gt;
+&lt;li&gt;Maybe truly &amp;quot;learn&amp;quot; a functional language :-)&lt;/li&gt;
+&lt;li&gt;Maybe apply machine learning to my 300,000 photos :-)&lt;/li&gt;
+&lt;li&gt;Swim more :-)&lt;/li&gt;
+&lt;li&gt;Road bicycle more :-)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 02 Jan 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/01/02/p1-2018-reflections/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/02/p1-2018-reflections/</guid>
+        
+        
+      </item>
     
       <item>
         <title>2017 is a wrap - see you in 2018. Happy Holidays and Happy New Year</title>
@@ -190,44 +226,6 @@ I’d love to see the OU get behind this, either directly or under the banner of
         <pubDate>Mon, 04 Dec 2017 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2017/12/04/p1-binderhub-to-run-federated-notebooks-in-the-cloud/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2017/12/04/p1-binderhub-to-run-federated-notebooks-in-the-cloud/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Karoo #iWantToBelieve But You are Based on Android 6.0 which was introduced in October 2015 which means monthly security updates will cease on October 2019 or earlier so if I buy a Karoo in late 2017 I can only use it for a year or two until it's vulnerable forever right? What am I missing?</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.hammerhead.io/karoo-vs-smartphone-98b5fe89d30b&quot;&gt;Karoo&lt;/a&gt; #iWantToBelieve But You are Based on Android 6.0 which was introduced in October 2015 which means monthly security updates will cease on October 2019 (&lt;a href=&quot;http://rolandtanglao.com/2017/05/27/p1-going-to-have-to-disagree-with-the-wirecutter-about-android-buy-every-2-years/&quot;&gt;since Android OS updates only happen for 2-4 years from launch of that OS version&lt;/a&gt;) or earlier so if I buy a Karoo in late 2017 I can only use it for a year or two until it&amp;#39;s vulnerable forever right? What am I missing?&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 03 Dec 2017 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2017/12/03/p1-karoo-i-want-to-believe-but-i-also-dont-want-to-buy-a-new-bike-computer-every-2-4-years/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2017/12/03/p1-karoo-i-want-to-believe-but-i-also-dont-want-to-buy-a-new-bike-computer-every-2-4-years/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>David Robinson: DataCamp course: Introduction to the R package: Tidyverse</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;On November 9, 2017 David Robinson wrote: &lt;a href=&quot;http://varianceexplained.org/r/intro-tidyverse/&quot;&gt;Announcing &amp;quot;Introduction to the Tidyverse&amp;quot;, my new DataCamp course&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Looks great but at &lt;a href=&quot;https://www.datacamp.com/pricing&quot;&gt;$29/month or $13/year i.e. pay $156 every twelve months for unlimited access&lt;/a&gt; it looks pricey for me :-) #ymmv&lt;/li&gt;
-&lt;li&gt;For me paying $20 or $30 on a course I will never finish isn&amp;#39;t worthwhile.&lt;/li&gt;
-&lt;li&gt;Because I can never find the time to finish an online course, I prefer books or ebooks and for the tidyverse there are lots of great ones luckily:
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2017/08/06/p1-modern-dive-really-is-a-modern-introduction-to-r/&quot;&gt;Modern Dive - An Introduction to Statistical and Data Sciences via R&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2017/01/24/p1-reading-hadley-wickhams-r-data-science-book/&quot;&gt;R for Data Science&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 02 Dec 2017 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2017/12/02/p1-david-robinson-introduction-to-the-tidyverse/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2017/12/02/p1-david-robinson-introduction-to-the-tidyverse/</guid>
         
         
       </item>
