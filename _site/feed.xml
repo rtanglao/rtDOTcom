@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 03 Jan 2018 14:46:15 -0800</pubDate>
-    <lastBuildDate>Wed, 03 Jan 2018 14:46:15 -0800</lastBuildDate>
+    <pubDate>Thu, 04 Jan 2018 22:11:15 -0800</pubDate>
+    <lastBuildDate>Thu, 04 Jan 2018 22:11:15 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Hardware is hard, software is soft part 888: Meltdown and Spectre</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Hardware is hard, software is soft part 888: &lt;a href=&quot;https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)&quot;&gt;Meltdown&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)&quot;&gt;Spectre&lt;/a&gt; - &lt;a href=&quot;http://rolandtanglao.com/2017/05/18/p1-xp-debacle-is-a-failure-of-the-software-industry-and-capitalism/&quot;&gt;More&lt;/a&gt; &lt;a href=&quot;http://rolandtanglao.com/2017/05/14/p1-we-all-make-shtty-software-including-mcrosoft/&quot;&gt;proof we don&amp;#39;t really know how to build computers&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 04 Jan 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/01/04/p1-hardware-is-hard/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/04/p1-hardware-is-hard/</guid>
+        
+        
+      </item>
     
       <item>
         <title>n grams, bigrams, trigrams, removing stop words using Python and NLTK</title>
@@ -189,43 +204,6 @@ it’s an interesting design, and the idea of a connected GPS without taking my 
         <pubDate>Tue, 05 Dec 2017 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2017/12/05/p1-karoo-security-model-better-than-android/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2017/12/05/p1-karoo-security-model-better-than-android/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>BinderHub to run federated Jupyter notebooks in the cloud?</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The problem with interactive notebooks that have R or python or other computer software code is that you have nowhere to execute since it won&amp;#39;t execute in a browser (at least not YET :-), c&amp;#39;mon just translate R to javascript easy peasy :-)!). Binder hub solves this problem.&lt;/li&gt;
-&lt;li&gt;Juicy quotes from &lt;a href=&quot;https://blog.ouseful.info/2017/12/01/my-emerging-workflow-for-working-with-binderhub/&quot;&gt;Note On My Emerging Workflow for Working With Binderhub&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-
-For anyone not familiar with Binder / MyBinder, it’s a service that will launch a fully running Jupyter notebook server and computing environment based the contents of a Github repository (config files as well as notebooks).  What this means is that if you put your Jupyter notebooks into a Github repository, along with one or two simple files that least any Linux or Python packages you need to install in order to run the code in the notebooks (or R packages and perhaps Rmd files if you also install an R kernel/RStudio), you can get a browser access to that running environment at just the click of a link. And the generosity of whoever is paying for the servers the notebook server runs on.&lt;br /&gt;&lt;br /&gt;
-
-....&lt;br /&gt;&lt;br /&gt;
-
-    &quot;We would love to see others deploy their own BinderHub servers, either for their own communities, or as part of a federated public service of BinderHubs.&quot;&lt;br /&gt;&lt;br /&gt;
-
-I’d love to see the OU get behind this, either directly or under the banner of OpenLearn, as part of an effort to help make Jupyter powered interactive open educational materials available without the need to install any software
-
-
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.ouseful.info/2017/12/01/my-emerging-workflow-for-working-with-binderhub/&quot;&gt;Read the whole thing!&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 04 Dec 2017 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2017/12/04/p1-binderhub-to-run-federated-notebooks-in-the-cloud/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2017/12/04/p1-binderhub-to-run-federated-notebooks-in-the-cloud/</guid>
         
         
       </item>
