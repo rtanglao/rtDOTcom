@@ -6,9 +6,35 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 04 Jan 2018 22:11:15 -0800</pubDate>
-    <lastBuildDate>Thu, 04 Jan 2018 22:11:15 -0800</lastBuildDate>
+    <pubDate>Fri, 05 Jan 2018 23:31:16 -0800</pubDate>
+    <lastBuildDate>Fri, 05 Jan 2018 23:31:16 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>More on Meltdown and Spectre, Branch Prediction and Out of Order Execution by Martin Sauter at Wireless moves and others</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Following up from yesterday: &lt;a href=&quot;http://rolandtanglao.com/2018/01/04/p1-hardware-is-hard/&quot;&gt;Hardware is hard, software is soft part 888: Meltdown and Spectre&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.wirelessmoves.com/2018/01/meltdown-the-technical-lunchtime-pitch.html&quot;&gt;More on Meltdown and Spectre by Martin Sauter at Wireless moves&lt;/a&gt; and others, &lt;a href=&quot;https://danluu.com/branch-prediction/&quot;&gt;Branch Prediction&lt;/a&gt; and Out of Order Execution 
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://meltdownattack.com/meltdown.pdf&quot;&gt;Meltdown White Paper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spectreattack.com/spectre.pdf&quot;&gt;Spectre White Paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;From a high level, like most things in life :-), I think this is understandable by all and is worthwhile understanding by all just as all should know how an internal combustion engine works even if we are not all car mechanics :-) 
+
+&lt;ul&gt;
+&lt;li&gt;The Guardian has a decent explanation: &lt;a href=&quot;https://www.theguardian.com/technology/2018/jan/04/meltdown-spectre-computer-processor-intel-security-flaws-explainer&quot;&gt;Spectre and Meltdown processor security flaws – explained&lt;/a&gt; and there are some fab web comics (which I can&amp;#39;t find a link to at the moment)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 05 Jan 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/01/05/p1-More-Meltdown-Spectre-Branch-Prediction-Out-Of-Order-Execution/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/05/p1-More-Meltdown-Spectre-Branch-Prediction-Out-Of-Order-Execution/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Hardware is hard, software is soft part 888: Meltdown and Spectre</title>
@@ -164,46 +190,6 @@ magic_cloud &lt;span class=&quot;nt&quot;&gt;--textfile&lt;/span&gt; ff55-ff56-u
         <pubDate>Wed, 06 Dec 2017 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2017/12/06/p1-beeswarm-charts/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2017/12/06/p1-beeswarm-charts/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>What's the worst that can happen if Karoo's Android 6 gets hacked? Navigation is off? Never trust navigation</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Roland&amp;#39;s paranoia about Android 6 aka Roland&amp;#39;s over-analysis of Karoo part 2 (&lt;a href=&quot;http://rolandtanglao.com/2017/12/03/p1-karoo-i-want-to-believe-but-i-also-dont-want-to-buy-a-new-bike-computer-every-2-4-years/&quot;&gt;Roland&amp;#39;s over-analysis of Karoo part 1&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Based on the work folks response below, the worst that could happen is that you get mis-navigated and/or that the Karoo stops working because of an Android 6 hack that the Karoo folks don&amp;#39;t patch. Not a worry because I don&amp;#39;t trust navigation computers since I get lost no matter how accurate they are
-
-&lt;ul&gt;
-&lt;li&gt;I asked some work folks and here are their edited responses:&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-
-&quot;@roland it seems like an AOSP fork, so they could have a solid security/app model that limits enough attack surface.  and really, is that better or worse than whatever the h*ll G*rmin runs on?  :-)&lt;br /&gt;&lt;br /&gt;
-
-I mean, it’s a cycling computer with pretty finite functionality
-&lt;br /&gt;&lt;br /&gt;
-it’s an interesting design, and the idea of a connected GPS without taking my phone on rides is nice&quot;
-&lt;br /&gt;&lt;br /&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;All Right! I&amp;#39;ll revisit in Christmas 2018 and see how they are doing. &lt;/li&gt;
-&lt;li&gt;I&amp;#39;m more likely to buy the second version of Karoo because they are going to get some things wrong. And then stop supporting the 1st version. &lt;/li&gt;
-&lt;li&gt;I guess no bicycle computer with software and connectivity and apps lasts forever. A simple bike computer that doesn&amp;#39;t have connectivity is the only thing that lasts and how long will they last and will they provide the features I want? Probably not.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 05 Dec 2017 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2017/12/05/p1-karoo-security-model-better-than-android/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2017/12/05/p1-karoo-security-model-better-than-android/</guid>
         
         
       </item>
