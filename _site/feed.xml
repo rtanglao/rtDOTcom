@@ -6,9 +6,27 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 05 Jan 2018 23:31:16 -0800</pubDate>
-    <lastBuildDate>Fri, 05 Jan 2018 23:31:16 -0800</lastBuildDate>
+    <pubDate>Sat, 06 Jan 2018 10:12:05 -0800</pubDate>
+    <lastBuildDate>Sat, 06 Jan 2018 10:12:05 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Hilarious and insightful and helpful Meltdown and Spectre comic from xkcd: Phantom Trolleys</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://xkcd.com/1938/&quot;&gt;Hilarious and insightful and helpful Meltdown and Spectre comic from xkcd: Phantom Trolleys&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The actual comic embedded:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://imgs.xkcd.com/comics/meltdown_and_spectre.png&quot; alt=&quot;Meltdown and Spectre&quot; title=&quot;Meltdown and Spectre from XKCD&quot;&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 06 Jan 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/01/06/p1-hilarious-insightful-spectre-meltdown-comic-from-xkcd/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/06/p1-hilarious-insightful-spectre-meltdown-comic-from-xkcd/</guid>
+        
+        
+      </item>
     
       <item>
         <title>More on Meltdown and Spectre, Branch Prediction and Out of Order Execution by Martin Sauter at Wireless moves and others</title>
@@ -175,21 +193,6 @@ magic_cloud &lt;span class=&quot;nt&quot;&gt;--textfile&lt;/span&gt; ff55-ff56-u
         <pubDate>Thu, 07 Dec 2017 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2017/12/07/p1-Jay-Rosen-Erin-Millar-The-Correspondent-Discourse-Media/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2017/12/07/p1-Jay-Rosen-Erin-Millar-The-Correspondent-Discourse-Media/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Beeswarm charts in R, Interactive Beeswarm charts in R and d3.js &lt;--- need to try this!</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://flowingdata.com/2016/09/08/beeswarm-plot-in-r-to-show-distributions/&quot;&gt;Static Beeswarm charts in R&lt;/a&gt;, &lt;a href=&quot;https://flowingdata.com/2017/10/03/how-i-made-that-interactive-beeswarm-chart-to-compare-distributions/&quot;&gt;Interactive Beeswarm charts in R and d3.js&lt;/a&gt; (alas members only!) &amp;lt;--- Need to try both of these!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 06 Dec 2017 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2017/12/06/p1-beeswarm-charts/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2017/12/06/p1-beeswarm-charts/</guid>
         
         
       </item>
