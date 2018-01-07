@@ -6,9 +6,35 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 06 Jan 2018 10:12:05 -0800</pubDate>
-    <lastBuildDate>Sat, 06 Jan 2018 10:12:05 -0800</lastBuildDate>
+    <pubDate>Sun, 07 Jan 2018 11:33:31 -0800</pubDate>
+    <lastBuildDate>Sun, 07 Jan 2018 11:33:31 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Gary Marcus: deep learning a critical appraisal </title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1801.00631&quot;&gt;Gary Marcus: deep learning a critical appraisal&lt;/a&gt; (&lt;a href=&quot;https://arxiv.org/pdf/1801.00631&quot;&gt;PDF of paper&lt;/a&gt;) via &lt;a href=&quot;https://twitter.com/GaryMarcus/status/948364570120335363&quot;&gt;Gary&amp;#39;s tweet&lt;/a&gt;, some juicy headings from the paper:
+
+&lt;ul&gt;
+&lt;li&gt;Is deep learning approaching a wall?&lt;/li&gt;
+&lt;li&gt;Deep learning thus far is shallow and has limited capacity for transfer&lt;/li&gt;
+&lt;li&gt;Deep learning thus far has no natural way to deal with hierarchical structure &lt;/li&gt;
+&lt;li&gt;Deep learning thus far cannot inherently distinguish causation from correlation &lt;/li&gt;
+&lt;li&gt;Deep learning presumes a largely stable world, in ways that may be problematic &lt;/li&gt;
+&lt;li&gt; Deep learning thus far works well as an approximation, but its answers often cannot be fully trusted &lt;/li&gt;
+&lt;li&gt; What would be better?&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;https://arxiv.org/pdf/1801.00631&quot;&gt;Read the whole thing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 07 Jan 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/01/07/p1-gary-marcus-deep-learning-a-critical-appraisal/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/07/p1-gary-marcus-deep-learning-a-critical-appraisal/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Hilarious and insightful and helpful Meltdown and Spectre comic from xkcd: Phantom Trolleys</title>
@@ -177,22 +203,6 @@ magic_cloud &lt;span class=&quot;nt&quot;&gt;--textfile&lt;/span&gt; ff55-ff56-u
         <pubDate>Fri, 08 Dec 2017 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2017/12/08/p1-Convert-CSV-files-into-a-SQLite-database-prequel-to-datasette/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2017/12/08/p1-Convert-CSV-files-into-a-SQLite-database-prequel-to-datasette/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Future of Journalism and Media: Erin Millar and Discourse (fund them now for $250 by Dec 21, 2017), Jay Rosen of PressThink and The Correspondent (future USA arm of Dutch De Correspondent)</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Amazing conversation on the future of media and journalism conversation tonight with Erin Millar of Discourse &lt;a href=&quot;https://www.frontfundr.com/Company/discourse_media&quot;&gt;(crowd fund them now for $250 by Dec 21, 2017&lt;/a&gt;), Jay Rosen of &lt;a href=&quot;http://pressthink.org/&quot;&gt;PressThink&lt;/a&gt; and &lt;a href=&quot;https://thecorrespondent.com/&quot;&gt;The Correspondent&lt;/a&gt; (future USA arm of Dutch &lt;a href=&quot;https://decorrespondent.nl/&quot;&gt;De Correspondent&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;I was lucky enough to meet Jay at &lt;a href=&quot;https://en.wikipedia.org/wiki/BloggerCon&quot;&gt;BloggerCon&lt;/a&gt; in Boston in 2003. Ah the good ole days when we didn&amp;#39;t worry about bad actors manipulating our thoughts, hearts and votes algorithmically through social media and we believed reality and facts were a valid criteria for news :-)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 07 Dec 2017 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2017/12/07/p1-Jay-Rosen-Erin-Millar-The-Correspondent-Discourse-Media/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2017/12/07/p1-Jay-Rosen-Erin-Millar-The-Correspondent-Discourse-Media/</guid>
         
         
       </item>
