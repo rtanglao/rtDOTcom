@@ -6,9 +6,42 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 07 Jan 2018 11:33:31 -0800</pubDate>
-    <lastBuildDate>Sun, 07 Jan 2018 11:33:31 -0800</lastBuildDate>
+    <pubDate>Mon, 08 Jan 2018 22:47:33 -0800</pubDate>
+    <lastBuildDate>Mon, 08 Jan 2018 22:47:33 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>From 2012 by David Deutsch: We need a breakthrough in philosophy about how brains create explanatory knowledge in order to create true Artificial General Intelligence (AGI)</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;p&gt;Seems perfectly clear to me :-) NOT!&lt;/p&gt;
+
+&lt;p&gt;From &lt;a href=&quot;https://aeon.co/essays/how-close-are-we-to-creating-artificial-intelligence&quot;&gt;David Deutsch&amp;#39;s 2012 Creative blocks The very laws of physics imply that artificial intelligence must be possible. What’s holding us up?&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+&quot;But no brain on Earth is yet close to knowing what brains do in order to achieve any of that functionality. The enterprise of achieving it artificially — the field of ‘artificial general intelligence’ or AGI — has made no progress whatever during the entire six decades of its existence&lt;br /&gt;&lt;br /&gt;
+
+...&lt;br /&gt;&lt;br /&gt;
+
+And in any case, AGI cannot possibly be defined purely behaviourally. In the classic ‘brain in a vat’ thought experiment, the brain, when temporarily disconnected from its input and output channels, is thinking, feeling, creating explanations — it has all the cognitive attributes of an AGI. So the relevant attributes of an AGI program do not consist only of the relationships between its inputs and outputs.&lt;br /&gt;&lt;br /&gt;
+
+The upshot is that, unlike any functionality that has ever been programmed to date, this one can be achieved neither by a specification nor a test of the outputs. What is needed is nothing less than a breakthrough in philosophy, a new epistemological theory that explains how brains create explanatory knowledge and hence defines, in principle, without ever running them as programs, which algorithms possess that functionality and which do not.&lt;br /&gt;&lt;br /&gt;
+
+Such a theory is beyond present-day knowledge. What we do know about epistemology implies that any approach not directed towards that philosophical breakthrough must be futile. Unfortunately, what we know about epistemology is contained largely in the work of the philosopher Karl Popper and is almost universally underrated and misunderstood (even — or perhaps especially — by philosophers). &quot;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt; &lt;a href=&quot;https://aeon.co/essays/how-close-are-we-to-creating-artificial-intelligence&quot;&gt;(read the whole thing!)&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 08 Jan 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/01/08/p1-david-deutsch-we-need-a-breakthrough-philosophy-how-brains-create-explanatory-knowledge/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/08/p1-david-deutsch-we-need-a-breakthrough-philosophy-how-brains-create-explanatory-knowledge/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Gary Marcus: deep learning a critical appraisal </title>
@@ -188,21 +221,6 @@ magic_cloud &lt;span class=&quot;nt&quot;&gt;--textfile&lt;/span&gt; ff55-ff56-u
         <pubDate>Sat, 09 Dec 2017 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2017/12/09/p1-blogging-pause-until-the-19th/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2017/12/09/p1-blogging-pause-until-the-19th/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>cvss-to-sqlite Prequel to blog post about Datasette: Convert CSV files into a SQLite database. Browse and publish that SQLite database with Datasette</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/simonw/csvs-to-sqlite&quot;&gt;cvss-to-sqlite&lt;/a&gt;: Prequel to&lt;a href=&quot;http://rolandtanglao.com/2017/11/30/p1-simon-willison-Datasette-instantly-create-publish-API-SQLite-databases/&quot;&gt; my previous blog post about Datasette&lt;/a&gt;: Convert CSV files into a SQLite database. Browse and publish that SQLite database with Datasette&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 08 Dec 2017 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2017/12/08/p1-Convert-CSV-files-into-a-SQLite-database-prequel-to-datasette/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2017/12/08/p1-Convert-CSV-files-into-a-SQLite-database-prequel-to-datasette/</guid>
         
         
       </item>
