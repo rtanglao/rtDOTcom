@@ -6,9 +6,29 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 08 Jan 2018 22:47:33 -0800</pubDate>
-    <lastBuildDate>Mon, 08 Jan 2018 22:47:33 -0800</lastBuildDate>
+    <pubDate>Tue, 09 Jan 2018 23:30:59 -0800</pubDate>
+    <lastBuildDate>Tue, 09 Jan 2018 23:30:59 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>How does Automattic handle 2000 support requests/day? With communication and respect for customers and respect for support folks</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Seems perfectly clear to me :-) NOT!&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.freshdesk.com/secret-sauce-wordpress-com/&quot;&gt;How does Automattic handle 2000 support requests/day? With communication and respect for customers and respect for support folks&amp;quot;&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;slack, internal blog P2S and respect!&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 09 Jan 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/01/09/p1-how-automattic-handles-2000-support-tickets-daily-communication-respect-for-team-and-customers/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/09/p1-how-automattic-handles-2000-support-tickets-daily-communication-respect-for-team-and-customers/</guid>
+        
+        
+      </item>
     
       <item>
         <title>From 2012 by David Deutsch: We need a breakthrough in philosophy about how brains create explanatory knowledge in order to create true Artificial General Intelligence (AGI)</title>
@@ -206,21 +226,6 @@ magic_cloud &lt;span class=&quot;nt&quot;&gt;--textfile&lt;/span&gt; ff55-ff56-u
         <pubDate>Tue, 19 Dec 2017 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2017/12/19/p1-how-to-make-wordclouds-in-ruby/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2017/12/19/p1-how-to-make-wordclouds-in-ruby/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Blogging pause until December 19, 2017</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;For my four readers :-), I&amp;#39;ll be back (might blog once or twice over the next few days)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 09 Dec 2017 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2017/12/09/p1-blogging-pause-until-the-19th/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2017/12/09/p1-blogging-pause-until-the-19th/</guid>
         
         
       </item>
