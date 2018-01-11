@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 09 Jan 2018 23:30:59 -0800</pubDate>
-    <lastBuildDate>Tue, 09 Jan 2018 23:30:59 -0800</lastBuildDate>
+    <pubDate>Wed, 10 Jan 2018 21:23:18 -0800</pubDate>
+    <lastBuildDate>Wed, 10 Jan 2018 21:23:18 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>emacs for science - the scimax package</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.linuxjournal.com/content/emacs-science&quot;&gt;emacs for science&lt;/a&gt; - the &lt;a href=&quot;https://github.com/jkitchin/scimax&quot;&gt;scimax&lt;/a&gt; package&lt;/li&gt;
+&lt;li&gt;In a former life :-) I would have been all over this but not now. Better to use python, google search, git and jupyter notebooks directly rather than using them through a heavily customized (and brittle) emacs customization :-) #ymmv&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 10 Jan 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/01/10/p1-scimax-emacs-science/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/10/p1-scimax-emacs-science/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How does Automattic handle 2000 support requests/day? With communication and respect for customers and respect for support folks</title>
@@ -196,36 +212,6 @@ Such a theory is beyond present-day knowledge. What we do know about epistemolog
         <pubDate>Wed, 20 Dec 2017 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2017/12/20/p1-2017-is-a-wrap/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2017/12/20/p1-2017-is-a-wrap/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How To: Make Word Clouds in Ruby</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;1. Setup magic_cloud, from &lt;a href=&quot;https://stackoverflow.com/questions/22715738/imagemagick-error&quot;&gt;https://stackoverflow.com/questions/22715738/imagemagick-error&lt;/a&gt; :&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;https://stackoverflow.com/questions/22715738/imagemagick-error
-brew uninstall imagemagick@6 
-brew install imagemagick@6 
-&lt;span class=&quot;nv&quot;&gt;PKG_CONFIG_PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/usr/local/opt/imagemagick@6/lib/pkgconfig gem install rmagick
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;2. make word cloud&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;../print-out-words-from-questions-questions.rb ff55-56-question_questions.csv &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;ff55-ff56-unanswered-questions.txt
-magic_cloud &lt;span class=&quot;nt&quot;&gt;--textfile&lt;/span&gt; ff55-ff56-unanswered-questions.txt &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; naive-ff55-ff56.jpg
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;3. Output
-&lt;img src=&quot;https://raw.githubusercontent.com/rtanglao/sumo-questions/master/SUMO-QUESTIONS_MYSQL_20OCT2017/naive-ff55-ff56.jpg&quot; alt=&quot;Naive 55-56 wordcloud&quot;&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 19 Dec 2017 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2017/12/19/p1-how-to-make-wordclouds-in-ruby/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2017/12/19/p1-how-to-make-wordclouds-in-ruby/</guid>
         
         
       </item>
