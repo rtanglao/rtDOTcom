@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 12 Jan 2018 21:15:03 -0800</pubDate>
-    <lastBuildDate>Fri, 12 Jan 2018 21:15:03 -0800</lastBuildDate>
+    <pubDate>Sat, 13 Jan 2018 22:10:52 -0800</pubDate>
+    <lastBuildDate>Sat, 13 Jan 2018 22:10:52 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Understanding and Writing your first Text Mining Script with R is an amazing tutorial about tm, an alternative/complement to tidytext</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://dev.to/lornamariak/understanding-and-writing-your-first-text-mining-script-withr-345k&quot;&gt;Understanding and Writing your first Text Mining Script with R&lt;/a&gt; by &lt;a href=&quot;https://twitter.com/lornamariak&quot;&gt;Lorna Mariak aka el marie&lt;/a&gt; is an amazing tutorial about &lt;a href=&quot;https://cran.r-project.org/web/packages/tm/index.html&quot;&gt;tm&lt;/a&gt;, an alternative/complement to &lt;a href=&quot;https://cran.r-project.org/web/packages/tidytext/vignettes/tidytext.html&quot;&gt;tidytext&lt;/a&gt; - Check it out!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 13 Jan 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/01/13/p1-tm-another-r-package-for-text-analysis-and-mining/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/13/p1-tm-another-r-package-for-text-analysis-and-mining/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Building in isolation dumb things that wreck the future instead of working with our sisters and brothers to make a better future aka Dude, you broke the future! by Charlie Stross</title>
@@ -205,27 +220,6 @@ Such a theory is beyond present-day knowledge. What we do know about epistemolog
         <pubDate>Wed, 03 Jan 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/01/03/p1-ngrms-bigrams-trigrams-stopword-removal-python-nltk/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/01/03/p1-ngrms-bigrams-trigrams-stopword-removal-python-nltk/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>2018 reflections</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Sleep more :-)&lt;/li&gt;
-&lt;li&gt;Listen more :-)&lt;/li&gt;
-&lt;li&gt;Write more hobbyist software :-)&lt;/li&gt;
-&lt;li&gt;Maybe truly &amp;quot;learn&amp;quot; a functional language :-)&lt;/li&gt;
-&lt;li&gt;Maybe apply machine learning to my 300,000 photos :-)&lt;/li&gt;
-&lt;li&gt;Swim more :-)&lt;/li&gt;
-&lt;li&gt;Road bicycle more :-)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 02 Jan 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/01/02/p1-2018-reflections/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/02/p1-2018-reflections/</guid>
         
         
       </item>
