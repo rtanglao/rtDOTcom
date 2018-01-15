@@ -6,9 +6,38 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 13 Jan 2018 22:10:52 -0800</pubDate>
-    <lastBuildDate>Sat, 13 Jan 2018 22:10:52 -0800</lastBuildDate>
+    <pubDate>Sun, 14 Jan 2018 21:36:29 -0800</pubDate>
+    <lastBuildDate>Sun, 14 Jan 2018 21:36:29 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Another great Nathan Yau Flowing Data members only tutorial:Compact Ways to Visualize Distributions in R</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://flowingdata.com/2017/12/04/compact-ways-to-visualize-distributions-in-r/&quot;&gt;Another great Nathan Yau Flowing Data members only tutorial:Compact Ways to Visualize Distributions in R&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+&quot;For when you want to show or compare several distributions but don’t have a lot of space.&quot;
+
+&lt;/blockquote&gt; 
+
+&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt; (&lt;a href=&quot;https://flowingdata.com/2017/12/04/compact-ways-to-visualize-distributions-in-r/&quot;&gt;read the whole thing, again members only!&lt;/a&gt;)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;See also Beeswarm charts which are similar/complementary &lt;a href=&quot;http://rolandtanglao.com/2017/12/06/p1-beeswarm-charts/&quot;&gt; Beeswarm charts in R, Interactive Beeswarm charts in R and d3.js&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 14 Jan 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/01/14/p1-more-flowing-data-experiment-to-try/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/14/p1-more-flowing-data-experiment-to-try/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Understanding and Writing your first Text Mining Script with R is an amazing tutorial about tm, an alternative/complement to tidytext</title>
@@ -205,21 +234,6 @@ Such a theory is beyond present-day knowledge. What we do know about epistemolog
         <pubDate>Thu, 04 Jan 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/01/04/p1-hardware-is-hard/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/01/04/p1-hardware-is-hard/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>n grams, bigrams, trigrams, removing stop words using Python and NLTK</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/nltk/nltk/wiki/Frequently-Asked-Questions-(Stackoverflow-Edition)&quot;&gt;n grams, bigrams, trigrams, removing stop words using Python and NLTK&lt;/a&gt; (and other FAQs from stack overflow)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 03 Jan 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/01/03/p1-ngrms-bigrams-trigrams-stopword-removal-python-nltk/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/03/p1-ngrms-bigrams-trigrams-stopword-removal-python-nltk/</guid>
         
         
       </item>
