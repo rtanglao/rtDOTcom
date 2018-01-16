@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 14 Jan 2018 21:36:29 -0800</pubDate>
-    <lastBuildDate>Sun, 14 Jan 2018 21:36:29 -0800</lastBuildDate>
+    <pubDate>Mon, 15 Jan 2018 20:25:30 -0800</pubDate>
+    <lastBuildDate>Mon, 15 Jan 2018 20:25:30 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Learn the basics of Computer Science with BaseCS</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/basecs&quot;&gt;Learn the basics of Computer Science with BaseCS&lt;/a&gt;! Good stuff for those new or newish to computer science!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 15 Jan 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/01/15/p1-basecs-learn-computerscience/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/15/p1-basecs-learn-computerscience/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Another great Nathan Yau Flowing Data members only tutorial:Compact Ways to Visualize Distributions in R</title>
@@ -219,21 +234,6 @@ Such a theory is beyond present-day knowledge. What we do know about epistemolog
         <pubDate>Fri, 05 Jan 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/01/05/p1-More-Meltdown-Spectre-Branch-Prediction-Out-Of-Order-Execution/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/01/05/p1-More-Meltdown-Spectre-Branch-Prediction-Out-Of-Order-Execution/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Hardware is hard, software is soft part 888: Meltdown and Spectre</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Hardware is hard, software is soft part 888: &lt;a href=&quot;https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)&quot;&gt;Meltdown&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)&quot;&gt;Spectre&lt;/a&gt; - &lt;a href=&quot;http://rolandtanglao.com/2017/05/18/p1-xp-debacle-is-a-failure-of-the-software-industry-and-capitalism/&quot;&gt;More&lt;/a&gt; &lt;a href=&quot;http://rolandtanglao.com/2017/05/14/p1-we-all-make-shtty-software-including-mcrosoft/&quot;&gt;proof we don&amp;#39;t really know how to build computers&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 04 Jan 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/01/04/p1-hardware-is-hard/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/04/p1-hardware-is-hard/</guid>
         
         
       </item>
