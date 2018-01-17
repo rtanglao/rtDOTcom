@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 15 Jan 2018 20:25:30 -0800</pubDate>
-    <lastBuildDate>Mon, 15 Jan 2018 20:25:30 -0800</lastBuildDate>
+    <pubDate>Tue, 16 Jan 2018 22:12:30 -0800</pubDate>
+    <lastBuildDate>Tue, 16 Jan 2018 22:12:30 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Software that makes replying to Google Play Store and iOS App Store reviews as easy as Reply by Buffer makes it easy to reply to Facebook and Twitter?</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Anybody know of software that makes replying to Google Play Store and iOS App Store reviews as easy as &lt;a href=&quot;https://buffer.com/reply/&quot;&gt;Reply by Buffer&lt;/a&gt; makes it easy to reply to Facebook and Twitter?&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 16 Jan 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/01/16/p1-software-to-make-finding-and-replying-to-google-play-store-and-ios-app-store-reviews-easier-like-reply-bufffer-for-facebook-twitter/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/16/p1-software-to-make-finding-and-replying-to-google-play-store-and-ios-app-store-reviews-easier-like-reply-bufffer-for-facebook-twitter/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Learn the basics of Computer Science with BaseCS</title>
@@ -208,32 +223,6 @@ Such a theory is beyond present-day knowledge. What we do know about epistemolog
         <pubDate>Sat, 06 Jan 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/01/06/p1-hilarious-insightful-spectre-meltdown-comic-from-xkcd/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/01/06/p1-hilarious-insightful-spectre-meltdown-comic-from-xkcd/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>More on Meltdown and Spectre, Branch Prediction and Out of Order Execution by Martin Sauter at Wireless moves and others</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Following up from yesterday: &lt;a href=&quot;http://rolandtanglao.com/2018/01/04/p1-hardware-is-hard/&quot;&gt;Hardware is hard, software is soft part 888: Meltdown and Spectre&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.wirelessmoves.com/2018/01/meltdown-the-technical-lunchtime-pitch.html&quot;&gt;More on Meltdown and Spectre by Martin Sauter at Wireless moves&lt;/a&gt; and others, &lt;a href=&quot;https://danluu.com/branch-prediction/&quot;&gt;Branch Prediction&lt;/a&gt; and Out of Order Execution 
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://meltdownattack.com/meltdown.pdf&quot;&gt;Meltdown White Paper&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://spectreattack.com/spectre.pdf&quot;&gt;Spectre White Paper&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;From a high level, like most things in life :-), I think this is understandable by all and is worthwhile understanding by all just as all should know how an internal combustion engine works even if we are not all car mechanics :-) 
-
-&lt;ul&gt;
-&lt;li&gt;The Guardian has a decent explanation: &lt;a href=&quot;https://www.theguardian.com/technology/2018/jan/04/meltdown-spectre-computer-processor-intel-security-flaws-explainer&quot;&gt;Spectre and Meltdown processor security flaws – explained&lt;/a&gt; and there are some fab web comics (which I can&amp;#39;t find a link to at the moment)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 05 Jan 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/01/05/p1-More-Meltdown-Spectre-Branch-Prediction-Out-Of-Order-Execution/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/05/p1-More-Meltdown-Spectre-Branch-Prediction-Out-Of-Order-Execution/</guid>
         
         
       </item>
