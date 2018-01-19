@@ -6,9 +6,30 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 17 Jan 2018 22:34:08 -0800</pubDate>
-    <lastBuildDate>Wed, 17 Jan 2018 22:34:08 -0800</lastBuildDate>
+    <pubDate>Thu, 18 Jan 2018 23:26:04 -0800</pubDate>
+    <lastBuildDate>Thu, 18 Jan 2018 23:26:04 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Recommendations for a Windows 10 touchscreen work laptop w/16gb RAM, USB-C power?</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;For work, I am seeking recommendations for a Windows 10 touchscreen laptop w/16gb RAM, USB-C power
+
+&lt;ul&gt;
+&lt;li&gt;The &lt;a href=&quot;https://www3.lenovo.com/ca/en/laptops/yoga/yoga-900-series/Yoga-920-13-inch/p/80Y70062US&quot;&gt;Lenovo Yoga&lt;/a&gt; looks good&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.razerzone.com/ca-en/gaming-laptops/razer-blade-stealth&quot;&gt;Razer Blade Stealth&lt;/a&gt; also looks good&lt;/li&gt;
+&lt;li&gt;Any other recommendations?&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 18 Jan 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/01/18/p1-windows-laptop-touch-screen-16gb-ram-usb-c-power/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/18/p1-windows-laptop-touch-screen-16gb-ram-usb-c-power/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Part 1: Getting SUMO ngrams for Firefox releases: first update the question title and description</title>
@@ -222,32 +243,6 @@ Such a theory is beyond present-day knowledge. What we do know about epistemolog
         <pubDate>Mon, 08 Jan 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/01/08/p1-david-deutsch-we-need-a-breakthrough-philosophy-how-brains-create-explanatory-knowledge/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/01/08/p1-david-deutsch-we-need-a-breakthrough-philosophy-how-brains-create-explanatory-knowledge/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Gary Marcus: deep learning a critical appraisal </title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1801.00631&quot;&gt;Gary Marcus: deep learning a critical appraisal&lt;/a&gt; (&lt;a href=&quot;https://arxiv.org/pdf/1801.00631&quot;&gt;PDF of paper&lt;/a&gt;) via &lt;a href=&quot;https://twitter.com/GaryMarcus/status/948364570120335363&quot;&gt;Gary&amp;#39;s tweet&lt;/a&gt;, some juicy headings from the paper:
-
-&lt;ul&gt;
-&lt;li&gt;Is deep learning approaching a wall?&lt;/li&gt;
-&lt;li&gt;Deep learning thus far is shallow and has limited capacity for transfer&lt;/li&gt;
-&lt;li&gt;Deep learning thus far has no natural way to deal with hierarchical structure &lt;/li&gt;
-&lt;li&gt;Deep learning thus far cannot inherently distinguish causation from correlation &lt;/li&gt;
-&lt;li&gt;Deep learning presumes a largely stable world, in ways that may be problematic &lt;/li&gt;
-&lt;li&gt; Deep learning thus far works well as an approximation, but its answers often cannot be fully trusted &lt;/li&gt;
-&lt;li&gt; What would be better?&lt;/li&gt;
-&lt;li&gt; &lt;a href=&quot;https://arxiv.org/pdf/1801.00631&quot;&gt;Read the whole thing&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 07 Jan 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/01/07/p1-gary-marcus-deep-learning-a-critical-appraisal/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/07/p1-gary-marcus-deep-learning-a-critical-appraisal/</guid>
         
         
       </item>
