@@ -6,9 +6,32 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 18 Jan 2018 23:26:04 -0800</pubDate>
-    <lastBuildDate>Thu, 18 Jan 2018 23:26:04 -0800</lastBuildDate>
+    <pubDate>Fri, 19 Jan 2018 21:06:18 -0800</pubDate>
+    <lastBuildDate>Fri, 19 Jan 2018 21:06:18 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>hypercast p2p broadcasting for dat:// enabled web browsers</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;p&gt;(via &lt;a href=&quot;https://twitter.com/jimpick/status/954578683838132224&quot;&gt;the picker&amp;#39;s tweet&lt;/a&gt;)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/louiscenter/hypercast&quot;&gt;hypercast&lt;/a&gt; p2p broadcasting for dat:// enabled web browsers&lt;/li&gt;
+&lt;li&gt;everything peer to peer :-)
+
+&lt;ul&gt;
+&lt;li&gt;if you have the bandwidth :-) and the right setup&lt;/li&gt;
+&lt;li&gt;I will have to try this!&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 19 Jan 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/01/19/p1-hypercast-p2p-webcasting/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/19/p1-hypercast-p2p-webcasting/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Recommendations for a Windows 10 touchscreen work laptop w/16gb RAM, USB-C power?</title>
@@ -210,39 +233,6 @@ Is that the app developer isn't a nation-state trying to disrupt its enemies, or
         <pubDate>Tue, 09 Jan 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/01/09/p1-how-automattic-handles-2000-support-tickets-daily-communication-respect-for-team-and-customers/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/01/09/p1-how-automattic-handles-2000-support-tickets-daily-communication-respect-for-team-and-customers/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>From 2012 by David Deutsch: We need a breakthrough in philosophy about how brains create explanatory knowledge in order to create true Artificial General Intelligence (AGI)</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;p&gt;Seems perfectly clear to me :-) NOT!&lt;/p&gt;
-
-&lt;p&gt;From &lt;a href=&quot;https://aeon.co/essays/how-close-are-we-to-creating-artificial-intelligence&quot;&gt;David Deutsch&amp;#39;s 2012 Creative blocks The very laws of physics imply that artificial intelligence must be possible. What’s holding us up?&lt;/a&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-
-&quot;But no brain on Earth is yet close to knowing what brains do in order to achieve any of that functionality. The enterprise of achieving it artificially — the field of ‘artificial general intelligence’ or AGI — has made no progress whatever during the entire six decades of its existence&lt;br /&gt;&lt;br /&gt;
-
-...&lt;br /&gt;&lt;br /&gt;
-
-And in any case, AGI cannot possibly be defined purely behaviourally. In the classic ‘brain in a vat’ thought experiment, the brain, when temporarily disconnected from its input and output channels, is thinking, feeling, creating explanations — it has all the cognitive attributes of an AGI. So the relevant attributes of an AGI program do not consist only of the relationships between its inputs and outputs.&lt;br /&gt;&lt;br /&gt;
-
-The upshot is that, unlike any functionality that has ever been programmed to date, this one can be achieved neither by a specification nor a test of the outputs. What is needed is nothing less than a breakthrough in philosophy, a new epistemological theory that explains how brains create explanatory knowledge and hence defines, in principle, without ever running them as programs, which algorithms possess that functionality and which do not.&lt;br /&gt;&lt;br /&gt;
-
-Such a theory is beyond present-day knowledge. What we do know about epistemology implies that any approach not directed towards that philosophical breakthrough must be futile. Unfortunately, what we know about epistemology is contained largely in the work of the philosopher Karl Popper and is almost universally underrated and misunderstood (even — or perhaps especially — by philosophers). &quot;
-
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt; &lt;a href=&quot;https://aeon.co/essays/how-close-are-we-to-creating-artificial-intelligence&quot;&gt;(read the whole thing!)&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 08 Jan 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/01/08/p1-david-deutsch-we-need-a-breakthrough-philosophy-how-brains-create-explanatory-knowledge/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/08/p1-david-deutsch-we-need-a-breakthrough-philosophy-how-brains-create-explanatory-knowledge/</guid>
         
         
       </item>
