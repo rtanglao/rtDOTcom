@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 19 Jan 2018 21:06:18 -0800</pubDate>
-    <lastBuildDate>Fri, 19 Jan 2018 21:06:18 -0800</lastBuildDate>
+    <pubDate>Sat, 20 Jan 2018 22:21:41 -0800</pubDate>
+    <lastBuildDate>Sat, 20 Jan 2018 22:21:41 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Microsoft Surface Book 2 Meets all the requirements and doesn't have WiFi driver issues</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2018/01/18/p1-windows-laptop-touch-screen-16gb-ram-usb-c-power/&quot;&gt;When I posted about Windows laptops recently&lt;/a&gt;, I didn&amp;#39;t realize that the Microsoft Surface Book 2 meets all the requirements (and doesn&amp;#39;t have WiFi driver issues unlike Dell XPS 13 and Lenovo and all the others). Unlike the previous generation, it has USB-C power (not to mention a touch screen).&lt;/li&gt;
+&lt;li&gt;Since I hate Windows drivers stuff (what is this the 1990s :-) ?!?), I think assuming work will pay the $ that the Surface Book 2&amp;#39;s currently the front runner.&lt;/li&gt;
+&lt;li&gt;If Microsoft can&amp;#39;t get the drivers right for their own hardware, there&amp;#39;s no hope for Windows :-) !&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 20 Jan 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/01/20/p1-microsoft-surface-book-2-meets-all-the-requirements/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/20/p1-microsoft-surface-book-2-meets-all-the-requirements/</guid>
+        
+        
+      </item>
     
       <item>
         <title>hypercast p2p broadcasting for dat:// enabled web browsers</title>
@@ -17,7 +34,7 @@
 &lt;p&gt;(via &lt;a href=&quot;https://twitter.com/jimpick/status/954578683838132224&quot;&gt;the picker&amp;#39;s tweet&lt;/a&gt;)&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/louiscenter/hypercast&quot;&gt;hypercast&lt;/a&gt; p2p broadcasting for dat:// enabled web browsers&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/louiscenter/hypercast&quot;&gt;hypercast&lt;/a&gt;~~~~ p2p broadcasting for dat:// enabled web browsers&lt;/li&gt;
 &lt;li&gt;everything peer to peer :-)
 
 &lt;ul&gt;
@@ -213,26 +230,6 @@ Is that the app developer isn't a nation-state trying to disrupt its enemies, or
         <pubDate>Wed, 10 Jan 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/01/10/p1-scimax-emacs-science/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/01/10/p1-scimax-emacs-science/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How does Automattic handle 2000 support requests/day? With communication and respect for customers and respect for support folks</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Seems perfectly clear to me :-) NOT!&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.freshdesk.com/secret-sauce-wordpress-com/&quot;&gt;How does Automattic handle 2000 support requests/day? With communication and respect for customers and respect for support folks&amp;quot;&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;slack, internal blog P2S and respect!&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 09 Jan 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/01/09/p1-how-automattic-handles-2000-support-tickets-daily-communication-respect-for-team-and-customers/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/09/p1-how-automattic-handles-2000-support-tickets-daily-communication-respect-for-team-and-customers/</guid>
         
         
       </item>
