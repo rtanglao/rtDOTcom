@@ -6,9 +6,30 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 22 Jan 2018 21:14:48 -0800</pubDate>
-    <lastBuildDate>Mon, 22 Jan 2018 21:14:48 -0800</lastBuildDate>
+    <pubDate>Tue, 23 Jan 2018 23:35:02 -0800</pubDate>
+    <lastBuildDate>Tue, 23 Jan 2018 23:35:02 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Take more breaks (even schedule them) and give the bad news first so you end with the good news. Good endings are much more helpful so bad news first! (from Daniel Pink's  When: The Scientific Secrets of Perfect Timing)</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.cbc.ca/radio/quirks/science-explains-when-to-visit-the-hospital-answer-emails-psychiatrist-s-new-warning-on-trump-s-mental-state-1.4480633/science-explains-when-to-visit-the-hospital-answer-emails-and-deliver-bad-news-1.4480645&quot;&gt;From CBC Quirks and Quarks story&lt;/a&gt; about &lt;a href=&quot;https://penguinrandomhouse.ca/books/539546/when-scientific-secrets-perfect-timing#9780735210622&quot;&gt;Daniel Pink&amp;#39;s  When: The Scientific Secrets of Perfect Timing&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&amp;quot;we are best off doing our brainless administrative work in the afternoons, like answering emails or filling our reports.&amp;quot;&lt;/li&gt;
+&lt;li&gt;&amp;quot;The best way to get through an afternoon cognitive slump is to take a lot of breaks. &amp;quot; social and outdoor breaks are best&lt;/li&gt;
+&lt;li&gt;Pink says, &amp;quot;Given a choice, we prefer endings that elevate. We prefer rising sequences to declining sequences. So this is one of the ways this research has changed my own behaviour - not only am I taking more breaks, but I am the king of giving the bad news first.&amp;quot;! &lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 23 Jan 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/01/23/p1-no-need-to-iterate-puts-does-the-right-thing-ruby-copy/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/23/p1-no-need-to-iterate-puts-does-the-right-thing-ruby-copy/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Ruby tip: no need to iterate over an array to print it, ruby does the right thing, just call puts</title>
@@ -268,21 +289,6 @@ mongod &lt;span class=&quot;nt&quot;&gt;--config&lt;/span&gt; /usr/local/etc/mon
         <pubDate>Sun, 14 Jan 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/01/14/p1-more-flowing-data-experiment-to-try/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/01/14/p1-more-flowing-data-experiment-to-try/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Understanding and Writing your first Text Mining Script with R is an amazing tutorial about tm, an alternative/complement to tidytext</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://dev.to/lornamariak/understanding-and-writing-your-first-text-mining-script-withr-345k&quot;&gt;Understanding and Writing your first Text Mining Script with R&lt;/a&gt; by &lt;a href=&quot;https://twitter.com/lornamariak&quot;&gt;Lorna Mariak aka el marie&lt;/a&gt; is an amazing tutorial about &lt;a href=&quot;https://cran.r-project.org/web/packages/tm/index.html&quot;&gt;tm&lt;/a&gt;, an alternative/complement to &lt;a href=&quot;https://cran.r-project.org/web/packages/tidytext/vignettes/tidytext.html&quot;&gt;tidytext&lt;/a&gt; - Check it out!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 13 Jan 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/01/13/p1-tm-another-r-package-for-text-analysis-and-mining/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/13/p1-tm-another-r-package-for-text-analysis-and-mining/</guid>
         
         
       </item>
