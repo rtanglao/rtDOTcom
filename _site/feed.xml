@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 23 Jan 2018 23:35:02 -0800</pubDate>
-    <lastBuildDate>Tue, 23 Jan 2018 23:35:02 -0800</lastBuildDate>
+    <pubDate>Wed, 24 Jan 2018 19:58:43 -0800</pubDate>
+    <lastBuildDate>Wed, 24 Jan 2018 19:58:43 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Claus O. Wilke-Fundamentals of Data Visualization aka the great series of R and data visualization books just keep on coming - bring 'em on!</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://serialmentor.com/dataviz/&quot;&gt; Claus O. Wilke&amp;#39;s Fundamentals of Data Visualization&lt;/a&gt; (&lt;a href=&quot;http://serialmentor.com/blog/2018/1/23/fundamentals-of-data-visualization&quot;&gt;intro blog post&lt;/a&gt;) aka the great series of R and data visualization books just keep on coming - bring &amp;#39;em on!&lt;/li&gt;
+&lt;li&gt;R the language is not really my cup of tea :-) but the community and the books and the docs are amazing and keep me using it :-) !&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 24 Jan 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/01/24/p1-Claus-O-Wilke-Fundamentals-Data-Visualization-and-the-great-r-and-data-visualization-books-just-keep-on-coming/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/24/p1-Claus-O-Wilke-Fundamentals-Data-Visualization-and-the-great-r-and-data-visualization-books-just-keep-on-coming/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Take more breaks (even schedule them) and give the bad news first so you end with the good news. Good endings are much more helpful so bad news first! (from Daniel Pink's  When: The Scientific Secrets of Perfect Timing)</title>
@@ -25,8 +41,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 23 Jan 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/01/23/p1-no-need-to-iterate-puts-does-the-right-thing-ruby-copy/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/23/p1-no-need-to-iterate-puts-does-the-right-thing-ruby-copy/</guid>
+        <link>http://rolandtanglao.com/2018/01/23/p1-take-social-outdoor-breaks-bad-news-first-good-endings/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/23/p1-take-social-outdoor-breaks-bad-news-first-good-endings/</guid>
         
         
       </item>
@@ -260,35 +276,6 @@ mongod &lt;span class=&quot;nt&quot;&gt;--config&lt;/span&gt; /usr/local/etc/mon
         <pubDate>Mon, 15 Jan 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/01/15/p1-basecs-learn-computerscience/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/01/15/p1-basecs-learn-computerscience/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Another great Nathan Yau Flowing Data members only tutorial:Compact Ways to Visualize Distributions in R</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://flowingdata.com/2017/12/04/compact-ways-to-visualize-distributions-in-r/&quot;&gt;Another great Nathan Yau Flowing Data members only tutorial:Compact Ways to Visualize Distributions in R&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-
-&quot;For when you want to show or compare several distributions but don’t have a lot of space.&quot;
-
-&lt;/blockquote&gt; 
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt; (&lt;a href=&quot;https://flowingdata.com/2017/12/04/compact-ways-to-visualize-distributions-in-r/&quot;&gt;read the whole thing, again members only!&lt;/a&gt;)&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;See also Beeswarm charts which are similar/complementary &lt;a href=&quot;http://rolandtanglao.com/2017/12/06/p1-beeswarm-charts/&quot;&gt; Beeswarm charts in R, Interactive Beeswarm charts in R and d3.js&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 14 Jan 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/01/14/p1-more-flowing-data-experiment-to-try/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/14/p1-more-flowing-data-experiment-to-try/</guid>
         
         
       </item>
