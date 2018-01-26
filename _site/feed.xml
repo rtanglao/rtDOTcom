@@ -6,9 +6,33 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 24 Jan 2018 19:58:43 -0800</pubDate>
-    <lastBuildDate>Wed, 24 Jan 2018 19:58:43 -0800</lastBuildDate>
+    <pubDate>Thu, 25 Jan 2018 23:19:15 -0800</pubDate>
+    <lastBuildDate>Thu, 25 Jan 2018 23:19:15 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Steven Johnson: The open web can only be revived with new protocols and code like Blockchain</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I don&amp;#39;t buy it but what do I know :-) ?!?! New open code and protocols yes! Does it have to be blockchain?!? NO! Other breakthroughs through code are possible right? Not just blockchain &lt;/li&gt;
+&lt;li&gt;From &lt;a href=&quot;https://www.nytimes.com/2018/01/16/magazine/beyond-the-bitcoin-bubble.html&quot;&gt;Steven Johnson&amp;#39;s Beyond the Bitcoin Bubble&lt;/a&gt; (paywalled, so in Firefox open the link in a new private window: &lt;code&gt;File&lt;/code&gt; -&amp;gt; &lt;code&gt;New Private Window&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+Yes, the blockchain may seem like the very worst of speculative capitalism right now, and yes, it is demonically challenging to understand. But the beautiful thing about open protocols is that they can be steered in surprising new directions by the people who discover and champion them in their infancy. Right now, the only real hope for a revival of the open-protocol ethos lies in the blockchain. Whether it eventually lives up to its egalitarian promise will in large part depend on the people who embrace the platform, who take up the baton, as Juan Benet puts it, from those early online pioneers. If you think the internet is not working in its current incarnation, you can’t change the system through think-pieces and F.C.C. regulations alone. You need new code.
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 25 Jan 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/01/25/p1-steven-johnson-the-only-hope-for-the-open-web-is-new-code-like-blockchain/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/25/p1-steven-johnson-the-only-hope-for-the-open-web-is-new-code-like-blockchain/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Claus O. Wilke-Fundamentals of Data Visualization aka the great series of R and data visualization books just keep on coming - bring 'em on!</title>
@@ -261,21 +285,6 @@ mongod &lt;span class=&quot;nt&quot;&gt;--config&lt;/span&gt; /usr/local/etc/mon
         <pubDate>Tue, 16 Jan 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/01/16/p1-software-to-make-finding-and-replying-to-google-play-store-and-ios-app-store-reviews-easier-like-reply-bufffer-for-facebook-twitter/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/01/16/p1-software-to-make-finding-and-replying-to-google-play-store-and-ios-app-store-reviews-easier-like-reply-bufffer-for-facebook-twitter/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Learn the basics of Computer Science with BaseCS</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://medium.com/basecs&quot;&gt;Learn the basics of Computer Science with BaseCS&lt;/a&gt;! Good stuff for those new or newish to computer science!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 15 Jan 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/01/15/p1-basecs-learn-computerscience/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/15/p1-basecs-learn-computerscience/</guid>
         
         
       </item>
