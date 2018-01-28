@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 26 Jan 2018 22:22:27 -0800</pubDate>
-    <lastBuildDate>Fri, 26 Jan 2018 22:22:27 -0800</lastBuildDate>
+    <pubDate>Sat, 27 Jan 2018 22:51:40 -0800</pubDate>
+    <lastBuildDate>Sat, 27 Jan 2018 22:51:40 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>2018 reminder: Email will fail! Don't depend on it. Archive it by year, convert to wikis, blogs todos, calendar, etc. and then delete</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;No change from &lt;a href=&quot;http://rolandtanglao.com/2017/01/10/p1-archive-email-by-year-move-to-appropriate-tools-and-delete-it-all/&quot;&gt;2017 Email will fail! Don&amp;#39;t depend on it. Archive it by year, convert to wikis, blogs todos, calendar and then delete&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Applies to your knowledge in Skype, Slack, WeChat, iMessage, IRC and elsewhere too :-)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 27 Jan 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/01/27/p1-email-will-fail-in-2018-use-todo-crm-database-wiki-blogs-etc-instead/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/27/p1-email-will-fail-in-2018-use-todo-crm-database-wiki-blogs-etc-instead/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Part 2A Get Firefox 55 first 3weeks' words in preparation for NLTK -ngram-analysis</title>
@@ -250,49 +266,6 @@ Yes, the blockchain may seem like the very worst of speculative capitalism right
         <pubDate>Thu, 18 Jan 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/01/18/p1-windows-laptop-touch-screen-16gb-ram-usb-c-power/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/01/18/p1-windows-laptop-touch-screen-16gb-ram-usb-c-power/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Part 1: Getting SUMO ngrams for Firefox releases: first update the question title and description</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;h3&gt;Update title and content&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;As part of preparing to get SUMO &lt;a href=&quot;http://rolandtanglao.com/2018/01/03/p1-ngrms-bigrams-trigrams-stopword-removal-python-nltk/&quot;&gt;ngrams&lt;/a&gt; for Firefox releases: first update the question title and description.
-The following is from &lt;a href=&quot;https://github.com/rtanglao/sumo-questions/blob/master/README.md&quot;&gt;the sumo-questions README&lt;/a&gt;:&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;1. run mongodb&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /Users/rtanglao/Dropbox/GIT/sumo-questions/MONGODB
-mongod &lt;span class=&quot;nt&quot;&gt;--config&lt;/span&gt; /usr/local/etc/mongod.conf &lt;span class=&quot;nt&quot;&gt;--dbpath&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt; &amp;amp;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;2. fix firefox 55 and 56 desktop questions &lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt; setupMongo
-&lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;SUMO-QUESTIONS_MYSQL_20OCT2017/ff55-56-question_questions.csv | ./add-questions-to-mongodb.rb 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;3. add firefox 57 desktop questions &lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt; setupMongo
-&lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;SUMO_QUESTIONS_MYSQL_FF57_15DEC2017/ff57-questions_question.csv | ./add-questions-to-mongodb.rb 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3&gt;Then in part 2 we will get the raw question title and description from mongodb&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;And then run it through the NLTK ngram library
-
-&lt;ul&gt;
-&lt;li&gt;perhaps &lt;a href=&quot;http://www.nltk.org/book/ch03.html&quot;&gt;this NLTK tutorial (chapter 3 of the NLTK book) on cleaning raw text from the Project Gutenberg&lt;/a&gt; will help&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 17 Jan 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/01/17/p1-preparing-to-get-ngrams-update-the-text/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/17/p1-preparing-to-get-ngrams-update-the-text/</guid>
         
         
       </item>
