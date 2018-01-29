@@ -6,9 +6,43 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 27 Jan 2018 22:51:40 -0800</pubDate>
-    <lastBuildDate>Sat, 27 Jan 2018 22:51:40 -0800</lastBuildDate>
+    <pubDate>Sun, 28 Jan 2018 21:04:12 -0800</pubDate>
+    <lastBuildDate>Sun, 28 Jan 2018 21:04:12 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Part 2B Got NLTK working with Firefox 55 SUMO support questions! Now what? Sentiment?</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;p&gt;See &lt;a href=&quot;http://rolandtanglao.com/2018/01/26/p1-part2a-get-firefox55-first-3weeks-words-in-preparation-for-nltk-ngram-analysis/&quot;&gt;Part 2A Get Firefox 55 first 3weeks&amp;#39; words in preparation for NLTK -ngram-analysis&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1. Here&amp;#39;s how I invoked the code:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;python/print-ngram-from-file.py ff55.08August2017.28august2017.1st.3weeks.title.content.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;2. Here&amp;#39;s the code, &lt;a href=&quot;https://github.com/rtanglao/sumo-questions/blob/master/python/print-ngram-from-file.py&quot;&gt;print-ngram-from-file.py&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/usr/local/bin/python3&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;nltk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;re&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pprint&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;nltk&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;word_tokenize&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;nltk&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bigrams&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;trigrams&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;fileinput&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;raw&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fileinput&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;raw&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rstrip&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;raw&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;' '&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;tokens&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;word_tokenize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;raw&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;tokens_bigrams&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bigrams&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tokens&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tokens_bigrams&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        <pubDate>Sun, 28 Jan 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/01/28/p1-part2b-got-nltk-working-with-firefox-55-questions-now-what/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/28/p1-part2b-got-nltk-working-with-firefox-55-questions-now-what/</guid>
+        
+        
+      </item>
     
       <item>
         <title>2018 reminder: Email will fail! Don't depend on it. Archive it by year, convert to wikis, blogs todos, calendar, etc. and then delete</title>
@@ -245,27 +279,6 @@ Yes, the blockchain may seem like the very worst of speculative capitalism right
         <pubDate>Fri, 19 Jan 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/01/19/p1-hypercast-p2p-webcasting/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/01/19/p1-hypercast-p2p-webcasting/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Recommendations for a Windows 10 touchscreen work laptop w/16gb RAM, USB-C power?</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;For work, I am seeking recommendations for a Windows 10 touchscreen laptop w/16gb RAM, USB-C power
-
-&lt;ul&gt;
-&lt;li&gt;The &lt;a href=&quot;https://www3.lenovo.com/ca/en/laptops/yoga/yoga-900-series/Yoga-920-13-inch/p/80Y70062US&quot;&gt;Lenovo Yoga&lt;/a&gt; looks good&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.razerzone.com/ca-en/gaming-laptops/razer-blade-stealth&quot;&gt;Razer Blade Stealth&lt;/a&gt; also looks good&lt;/li&gt;
-&lt;li&gt;Any other recommendations?&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 18 Jan 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/01/18/p1-windows-laptop-touch-screen-16gb-ram-usb-c-power/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/18/p1-windows-laptop-touch-screen-16gb-ram-usb-c-power/</guid>
         
         
       </item>
