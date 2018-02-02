@@ -6,9 +6,39 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 31 Jan 2018 22:05:59 -0800</pubDate>
-    <lastBuildDate>Wed, 31 Jan 2018 22:05:59 -0800</lastBuildDate>
+    <pubDate>Thu, 01 Feb 2018 22:58:21 -0800</pubDate>
+    <lastBuildDate>Thu, 01 Feb 2018 22:58:21 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Douglas Hofstadter in the Atlantic: The Shallowness of Google Translate (because computers don't really have any understanding)</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.theatlantic.com/amp/article/551570/&quot;&gt;Douglas Hofstadter in the Atlantic: The Shallowness of Google Translate:&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+When, one day, a translation engine crafts an artistic novel in verse in English, using precise rhyming iambic tetrameter rich in wit, pathos, and sonic verve, then I’ll know it’s time for me to tip my hat and bow out.
+ 
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Amen! and that day doesn&amp;#39;t look like it will happen without a breakthrough. Neural networks and the other brute force techniques won&amp;#39;t get us there. Good enough for Go and Chess, not good enough for &amp;quot;C3P0-style&amp;quot; fluency and understanding. &lt;/li&gt;
+&lt;li&gt;I think that breakthrough (quantum computers? ) will come in my lifetime but what do I know :-) ? &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 01 Feb 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/02/01/p1-hofstadter-atlantic-brute-force-translation-lacks-understanding/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/02/01/p1-hofstadter-atlantic-brute-force-translation-lacks-understanding/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Internet disrupts industry after industry but that industry edifice lasts far longer than technologists think, only to one day collapse far quicker than anyone expected e.g. Nokia, Nortel and Blackberry</title>
@@ -241,28 +271,6 @@ Yes, the blockchain may seem like the very worst of speculative capitalism right
         <pubDate>Tue, 23 Jan 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/01/23/p1-take-social-outdoor-breaks-bad-news-first-good-endings/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/01/23/p1-take-social-outdoor-breaks-bad-news-first-good-endings/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Ruby tip: no need to iterate over an array to print it, ruby does the right thing, just call puts</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Simple ruby tip today &lt;a href=&quot;http://rolandtanglao.com/2018/01/21/p1-2018-querying-mongodb-by-date-and-integer-value/&quot;&gt;following up from yesterday&lt;/a&gt;:&lt;/li&gt;
-&lt;li&gt;No need for:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;content&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;' '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;because &lt;code&gt;puts&lt;/code&gt; does the right thing, all you need to do is:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;content&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;' '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        <pubDate>Mon, 22 Jan 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/01/22/p1-no-need-to-iterate-puts-does-the-right-thing-ruby/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/22/p1-no-need-to-iterate-puts-does-the-right-thing-ruby/</guid>
         
         
       </item>
