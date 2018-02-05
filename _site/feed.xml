@@ -6,9 +6,27 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 03 Feb 2018 20:17:37 -0800</pubDate>
-    <lastBuildDate>Sat, 03 Feb 2018 20:17:37 -0800</lastBuildDate>
+    <pubDate>Sun, 04 Feb 2018 23:43:39 -0800</pubDate>
+    <lastBuildDate>Sun, 04 Feb 2018 23:43:39 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Remember when Lightroom was new and fast and it didn't require a $USD5900 machine to run it fast for 'hobbyist' photographers? Neither do I :-) </title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Remember when Lightroom was new and fast and it didn&amp;#39;t require a $USD5900 Windows machine (source: &lt;a href=&quot;https://paulstamatiou.com/building-a-windows-10-lightroom-photo-editing-pc/#full_parts_list&quot;&gt;Paul Stamatiou @Stammy&amp;#39;s Building a Lightroom PC&lt;/a&gt;) to run it fast for &amp;#39;hobbyist&amp;#39; photographers? Neither do I :-)&lt;/li&gt;
+&lt;li&gt;Time to switch to Lightroom CC or something much faster on mobile :-)&lt;/li&gt;
+&lt;li&gt;Moral of the story: All software needs to be ruthlessly refactored eventually i.e. we all build big balls of mud :-) or something!&lt;/li&gt;
+&lt;li&gt;By making RAW files too big and not doing any sort of in-camera or send to iOS and Android workflows, digital camera companies aren&amp;#39;t doing &amp;#39;hobbyists&amp;#39; any favours to make our workflow fast, convenient and fun.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 04 Feb 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/02/04/p1-remember-when-lightroom-was-new-and-did-not-require-a-6000-usd-pc-to-run-fast/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/02/04/p1-remember-when-lightroom-was-new-and-did-not-require-a-6000-usd-pc-to-run-fast/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Why don't I attend conferences or listen to podcasts? Answer: too homogeneous and too long</title>
@@ -19,7 +37,7 @@
 &lt;li&gt;I&amp;#39;d rather talk to people in the lobby of a conference or at a cafe then listen to a talk for 20-60 minutes.&lt;/li&gt;
 &lt;li&gt;I&amp;#39;d rather people summarize their stuff in the 1st 10 slides (or less! I bet most folks talks could be 5 slides and most podcasts could be 10 minutes or less) and talk for 5 or 10 minutes and then do a long Q&amp;amp;A (and put the long form detailed stuff in a wiki page or blog post that they link to in those slides)&lt;/li&gt;
 &lt;li&gt;I&amp;#39;d rather not have more of the same sorts of the same people who are always on the radio and in the books I read and in the media I consume when I can easily find more diverse voices on the internet without going to a conference and without enduring a &amp;gt;30 minute podcast!&lt;/li&gt;
-&lt;li&gt;Having said that conferences with diverse folks and speakers are still appealing and so are short podcasts (although short ones seem to very scarce!).&lt;/li&gt;
+&lt;li&gt;Having said that conferences with diverse folks and speakers are still appealing and so are short podcasts (although short podcasts seem to be very very scarce!).&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 03 Feb 2018 00:00:00 -0800</pubDate>
@@ -245,30 +263,6 @@ This dataset contains yearly counts for Hepatitis A, measles, mumps, pertussis, 
         <pubDate>Fri, 26 Jan 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/01/26/p1-part2a-get-firefox55-first-3weeks-words-in-preparation-for-nltk-ngram-analysis/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/01/26/p1-part2a-get-firefox55-first-3weeks-words-in-preparation-for-nltk-ngram-analysis/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Steven Johnson: The open web can only be revived with new protocols and code like Blockchain</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I don&amp;#39;t buy it but what do I know :-) ?!?! New open code and protocols yes! Does it have to be blockchain?!? NO! Other breakthroughs through code are possible right? Not just blockchain &lt;/li&gt;
-&lt;li&gt;From &lt;a href=&quot;https://www.nytimes.com/2018/01/16/magazine/beyond-the-bitcoin-bubble.html&quot;&gt;Steven Johnson&amp;#39;s Beyond the Bitcoin Bubble&lt;/a&gt; (paywalled, so in Firefox open the link in a new private window: &lt;code&gt;File&lt;/code&gt; -&amp;gt; &lt;code&gt;New Private Window&lt;/code&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-Yes, the blockchain may seem like the very worst of speculative capitalism right now, and yes, it is demonically challenging to understand. But the beautiful thing about open protocols is that they can be steered in surprising new directions by the people who discover and champion them in their infancy. Right now, the only real hope for a revival of the open-protocol ethos lies in the blockchain. Whether it eventually lives up to its egalitarian promise will in large part depend on the people who embrace the platform, who take up the baton, as Juan Benet puts it, from those early online pioneers. If you think the internet is not working in its current incarnation, you can’t change the system through think-pieces and F.C.C. regulations alone. You need new code.
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 25 Jan 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/01/25/p1-steven-johnson-the-only-hope-for-the-open-web-is-new-code-like-blockchain/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/25/p1-steven-johnson-the-only-hope-for-the-open-web-is-new-code-like-blockchain/</guid>
         
         
       </item>
