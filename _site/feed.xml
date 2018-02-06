@@ -6,9 +6,38 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 04 Feb 2018 23:43:39 -0800</pubDate>
-    <lastBuildDate>Sun, 04 Feb 2018 23:43:39 -0800</lastBuildDate>
+    <pubDate>Mon, 05 Feb 2018 21:44:43 -0800</pubDate>
+    <lastBuildDate>Mon, 05 Feb 2018 21:44:43 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Mike Bostock's observablehq formerly known as d3.express looks great! Much better than d3.js </title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mike Bostock&amp;#39;s observablehq formerly known as d3.express looks great! Much better than d3.js or should I say it&amp;#39;s natural evolution to make it friendlier and more accessible!
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@mbostock/a-better-way-to-code-2b1d2876a3a0&quot;&gt;d3.express tutorial from April 2017&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;more up to date observable tutorials from December 2017
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://beta.observablehq.com/@mbostock/five-minute-introduction&quot;&gt;5 minute introduction&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;which is part of this &lt;a href=&quot;https://beta.observablehq.com/collection/introduction&quot;&gt;set of observable tutorials&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://beta.observablehq.com/@jbum/circles-spirals-and-sunflowers&quot;&gt;Circles, Spirals and Sunflower tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 05 Feb 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/02/05/p1-Mike-Bostock-observablehq-fka-d3-express-looks-great/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/02/05/p1-Mike-Bostock-observablehq-fka-d3-express-looks-great/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Remember when Lightroom was new and fast and it didn't require a $USD5900 machine to run it fast for 'hobbyist' photographers? Neither do I :-) </title>
@@ -240,29 +269,6 @@ This dataset contains yearly counts for Hepatitis A, measles, mumps, pertussis, 
         <pubDate>Sat, 27 Jan 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/01/27/p1-email-will-fail-in-2018-use-todo-crm-database-wiki-blogs-etc-instead/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/01/27/p1-email-will-fail-in-2018-use-todo-crm-database-wiki-blogs-etc-instead/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Part 2A Get Firefox 55 first 3weeks' words in preparation for NLTK -ngram-analysis</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;p&gt;See &lt;a href=&quot;http://rolandtanglao.com/2018/01/17/p1-preparing-to-get-ngrams-update-the-text/&quot;&gt;Part 1: Getting SUMO ngrams for Firefox releases: first update the question title and description&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;1. remove mongodb stdout logging with:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;Mongo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Logger&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;logger&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;level&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Logger&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;FATAL&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# http://stackoverflow.com/questions/30292100/how-can-i-disable-mongodb-log-messages-in-console&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;2. create firefox 55 title + content 1 word per line for the first 3 weeks of the release (FF55 releae dat was August 8, 2017&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;./get_firefox_desktop_words_by_start_stop_date.rb 2017 8 8 2017 8 28 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; ff55.08August2017.28august2017.1st.3weeks.title.content.txt
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        <pubDate>Fri, 26 Jan 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/01/26/p1-part2a-get-firefox55-first-3weeks-words-in-preparation-for-nltk-ngram-analysis/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/26/p1-part2a-get-firefox55-first-3weeks-words-in-preparation-for-nltk-ngram-analysis/</guid>
         
         
       </item>
