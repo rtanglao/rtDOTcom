@@ -6,9 +6,28 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 05 Feb 2018 21:44:43 -0800</pubDate>
-    <lastBuildDate>Mon, 05 Feb 2018 21:44:43 -0800</lastBuildDate>
+    <pubDate>Tue, 06 Feb 2018 22:21:21 -0800</pubDate>
+    <lastBuildDate>Tue, 06 Feb 2018 22:21:21 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Ian Bicking: '(Firefox) Screenshots makes Mozilla part of the web not just a window onto the web'</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ian Bicking in &lt;a href=&quot;http://www.ianbicking.org/blog/2018/02/web-small-composable-tools.html&quot;&gt;Improving the web with small, composable tools&lt;/a&gt;: &amp;quot;(Firefox) Screenshots makes Mozilla part of the web not just a window onto the web&amp;quot;
+
+&lt;ul&gt;
+&lt;li&gt;Amen! &lt;a href=&quot;http://www.ianbicking.org/blog/2018/02/web-small-composable-tools.html&quot;&gt;Read the whole thing&lt;/a&gt;!&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 06 Feb 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/02/06/p1-screenshots-makes-mozilla-a-part-of-the-web-not-just-a-window-on-the-web/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/02/06/p1-screenshots-makes-mozilla-a-part-of-the-web-not-just-a-window-on-the-web/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Mike Bostock's observablehq formerly known as d3.express looks great! Much better than d3.js </title>
@@ -253,22 +272,6 @@ This dataset contains yearly counts for Hepatitis A, measles, mumps, pertussis, 
         <pubDate>Sun, 28 Jan 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/01/28/p1-part2b-got-nltk-working-with-firefox-55-questions-now-what/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/01/28/p1-part2b-got-nltk-working-with-firefox-55-questions-now-what/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>2018 reminder: Email will fail! Don't depend on it. Archive it by year, convert to wikis, blogs todos, calendar, etc. and then delete</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;No change from &lt;a href=&quot;http://rolandtanglao.com/2017/01/10/p1-archive-email-by-year-move-to-appropriate-tools-and-delete-it-all/&quot;&gt;2017 Email will fail! Don&amp;#39;t depend on it. Archive it by year, convert to wikis, blogs todos, calendar and then delete&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Applies to your knowledge in Skype, Slack, WeChat, iMessage, IRC and elsewhere too :-)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 27 Jan 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/01/27/p1-email-will-fail-in-2018-use-todo-crm-database-wiki-blogs-etc-instead/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/27/p1-email-will-fail-in-2018-use-todo-crm-database-wiki-blogs-etc-instead/</guid>
         
         
       </item>
