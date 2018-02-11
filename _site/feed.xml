@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 09 Feb 2018 22:14:56 -0800</pubDate>
-    <lastBuildDate>Fri, 09 Feb 2018 22:14:56 -0800</lastBuildDate>
+    <pubDate>Sat, 10 Feb 2018 22:12:34 -0800</pubDate>
+    <lastBuildDate>Sat, 10 Feb 2018 22:12:34 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>agalmics (uh-GAL-miks), n. [Gr. 'agalma', 'a pleasing gift'] - The study and practice of the production and allocation of non-scarce goods</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;agalmics (uh-GAL-miks), n. [Gr. &amp;quot;agalma&amp;quot;, &amp;quot;a pleasing gift&amp;quot;] - The study and practice of the production and allocation of non-scarce goods. &amp;lt;-- &lt;a href=&quot;https://www.openverse.com/%7Edtinker/agalmics.html&quot;&gt;From Robert Levin - The Marginalization of Scarcity&lt;/a&gt; via Warren Ellis&amp;#39;s &lt;a href=&quot;http://www.warrenellis.com/?p=13972&quot;&gt;The Manfred Macx Media Diet&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 10 Feb 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/02/10/p1-algamics/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/02/10/p1-algamics/</guid>
+        
+        
+      </item>
     
       <item>
         <title>My modest-but-not-easy-and-unencumbered-by-knowledge :-) vision for Thunderbird: Reuse Andrew Sutherland et al's Firefox OS mail client for desktop and mobile, IMAP only</title>
@@ -17,10 +32,11 @@
 &lt;ul&gt;
 &lt;li&gt;My modest-unencumbered-by-knowledge :-) vision for Thunderbird - Reuse Andrew Sutherland et al&amp;#39;s Firefox OS mail client for desktop and mobile, IMAP only and add better searching.&lt;/li&gt;
 &lt;li&gt;I don&amp;#39;t need add-ons.&lt;/li&gt;
-&lt;li&gt;I don&amp;#39;t need IRC or any other messaging, just IMAP email.&lt;/li&gt;
+&lt;li&gt;I don&amp;#39;t need IRC or any other messaging, just IMAP email. I think POP is something whose day has come and gone.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2018/01/27/p1-email-will-fail-in-2018-use-todo-crm-database-wiki-blogs-etc-instead/&quot;&gt;I don&amp;#39;t need to locally store gigabytes of emails (that&amp;#39;s what Calendars, ToDo lists, CRMs, databases, blogs, wikis, etc are for :-) )&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;#ymmv and that&amp;#39;s totally fine :-) ! As I said I am unencumbered by knowledge !!!!! &lt;/li&gt;
 &lt;li&gt;Read the Thunderbird vision (&lt;a href=&quot;https://mail.mozilla.org/pipermail/tb-planning/2018-January/005744.html&quot;&gt;January 2018 Thunderbird vision thread&lt;/a&gt;, &lt;a href=&quot;https://mail.mozilla.org/pipermail/tb-planning/2018-February/005747.html&quot;&gt;February 2018 thread&lt;/a&gt;) of others for more insight.&lt;/li&gt;
+&lt;li&gt;Disclaimer: I used to work on Thunderbird support, but I haven&amp;#39;t worked on Thunderbird since 2012. I know nothing about the code; I still use Thunderbird daily but I won&amp;#39;t be heart broken if/when Thunderbird in its present form ceases to exist; I will just use something else! And like many others I pay Thunderbird a small amount of money to hopefully keep it going and to fund Thunderbird.next whatever that turns out to be!&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 09 Feb 2018 00:00:00 -0800</pubDate>
@@ -215,35 +231,6 @@ When, one day, a translation engine crafts an artistic novel in verse in English
         <pubDate>Thu, 01 Feb 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/02/01/p1-hofstadter-atlantic-brute-force-translation-lacks-understanding/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/02/01/p1-hofstadter-atlantic-brute-force-translation-lacks-understanding/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Internet disrupts industry after industry but that industry edifice lasts far longer than technologists think, only to one day collapse far quicker than anyone expected e.g. Nokia, Nortel and Blackberry</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Not sure the following is true especially for domains that can and should be government regulated like transit and health but I can think of 3 examples: N*kia, Bl*ckberry and N*ortel :-) !
-
-&lt;ul&gt;
-&lt;li&gt;From &lt;a href=&quot;https://stratechery.com/2018/amazon-health/&quot;&gt;stratechery, Amazon Health&lt;/a&gt;:&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-
- Internet methodically disrupts industry after industry in some sort of chronological order, but rather that the entire edifice lasts far longer than technologists think, only to one day collapse far quicker than anyone expected
-
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 31 Jan 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/01/31/p1-internet-disruption-resistance-and-then-sudden-total-collapse/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/01/31/p1-internet-disruption-resistance-and-then-sudden-total-collapse/</guid>
         
         
       </item>
