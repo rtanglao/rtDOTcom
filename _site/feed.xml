@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 10 Feb 2018 22:12:34 -0800</pubDate>
-    <lastBuildDate>Sat, 10 Feb 2018 22:12:34 -0800</lastBuildDate>
+    <pubDate>Sun, 11 Feb 2018 22:55:55 -0800</pubDate>
+    <lastBuildDate>Sun, 11 Feb 2018 22:55:55 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Google Maps backwards compatibility - at what point does this become an albatross?</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Read &lt;a href=&quot;https://www.tnhh.net/posts/google-maps-insane-backward-compatibility.html&quot;&gt;The insane amount of backward compatibility in Google Maps&lt;/a&gt; by Huan Truong. &lt;/li&gt;
+&lt;li&gt;Google Maps backwards compatibility via &lt;a href=&quot;http://scripting.com/2018/02/10.html#a142901&quot;&gt;Dave&lt;/a&gt; - at what point does this become an albatross? How do you even keep things working? I doubt Google tests it on all these old phones and OSes!??!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 11 Feb 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/02/11/p1-google-maps-backward-compatibility/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/02/11/p1-google-maps-backward-compatibility/</guid>
+        
+        
+      </item>
     
       <item>
         <title>agalmics (uh-GAL-miks), n. [Gr. 'agalma', 'a pleasing gift'] - The study and practice of the production and allocation of non-scarce goods</title>
@@ -201,36 +217,6 @@ which has this juicy nugget:&lt;/li&gt;
         <pubDate>Fri, 02 Feb 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/02/02/p1-software-support-corpus-for-sentiment-training/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/02/02/p1-software-support-corpus-for-sentiment-training/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Douglas Hofstadter in the Atlantic: The Shallowness of Google Translate (because computers don't really have any understanding)</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.theatlantic.com/amp/article/551570/&quot;&gt;Douglas Hofstadter in the Atlantic: The Shallowness of Google Translate:&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-
-When, one day, a translation engine crafts an artistic novel in verse in English, using precise rhyming iambic tetrameter rich in wit, pathos, and sonic verve, then I’ll know it’s time for me to tip my hat and bow out.
- 
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Amen! and that day doesn&amp;#39;t look like it will happen without a breakthrough. Neural networks and the other brute force techniques won&amp;#39;t get us there. Good enough for Go and Chess, not good enough for &amp;quot;C3P0-style&amp;quot; fluency and understanding. &lt;/li&gt;
-&lt;li&gt;I think that breakthrough (quantum computers? ) will come in my lifetime but what do I know :-) ? &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 01 Feb 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/02/01/p1-hofstadter-atlantic-brute-force-translation-lacks-understanding/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/02/01/p1-hofstadter-atlantic-brute-force-translation-lacks-understanding/</guid>
         
         
       </item>
