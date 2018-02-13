@@ -6,9 +6,29 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 11 Feb 2018 22:55:55 -0800</pubDate>
-    <lastBuildDate>Sun, 11 Feb 2018 22:55:55 -0800</lastBuildDate>
+    <pubDate>Mon, 12 Feb 2018 21:44:29 -0800</pubDate>
+    <lastBuildDate>Mon, 12 Feb 2018 21:44:29 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Never in a million years would I have imagined back in the 80s that software would be used for so much evil</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;To follow up on &lt;a href=&quot;http://rolandtanglao.com/2018/02/07/p1-Mike-Caulfield-Arendt-propaganda-machine-automated-aka-computational-propaganda/&quot;&gt;my computational propaganda post&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Back in the 1980s, Reading K&amp;amp;R (not knowing there was so much goodness in Forth and Functional programming and other areas of computer science and so much more out there in computing! I read the Byte Forth, Lisp and Smalltalk issues in the Augusts of my youth but didn&amp;#39;t really grok how wonderful they were), writing 6502 assembler, and writing C and BASIC I never would have imagined that software would be used for so much evil.&lt;/li&gt;
+&lt;li&gt;Naive sad face :-) and :-(&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 12 Feb 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/02/12/p1-never-in-a-million-years-computational-propaganda/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/02/12/p1-never-in-a-million-years-computational-propaganda/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Google Maps backwards compatibility - at what point does this become an albatross?</title>
@@ -201,22 +221,6 @@ which has this juicy nugget:&lt;/li&gt;
         <pubDate>Sat, 03 Feb 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/02/03/p1-why-i-dont-attend-conferences-listen-to-podcasts/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/02/03/p1-why-i-dont-attend-conferences-listen-to-podcasts/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Anybody have a corpus of Software Support questions I can use for sentiment training for Firefox support or do I have to develop my own?</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Anybody have a corpus of Software Support questions I can use for sentiment training for Firefox support or do I have to develop my own?&lt;/li&gt;
-&lt;li&gt;Pretty much resigned to developing my own :-) I have the data and technology just not much time for this &amp;quot;20%&amp;quot; hobbyist project.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 02 Feb 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/02/02/p1-software-support-corpus-for-sentiment-training/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/02/02/p1-software-support-corpus-for-sentiment-training/</guid>
         
         
       </item>
