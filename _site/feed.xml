@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 14 Feb 2018 23:21:23 -0800</pubDate>
-    <lastBuildDate>Wed, 14 Feb 2018 23:21:23 -0800</lastBuildDate>
+    <pubDate>Thu, 15 Feb 2018 20:55:25 -0800</pubDate>
+    <lastBuildDate>Thu, 15 Feb 2018 20:55:25 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Need to read and add to my mythical wiki: A16Z crypto Reading Resources</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://a16z.com/2018/02/10/crypto-readings-resources/&quot;&gt;Need to read and add to my mythical wiki :-) : A16Z crypto Reading Resources&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 15 Feb 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/02/15/p1-crypto-bibliography/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/02/15/p1-crypto-bibliography/</guid>
+        
+        
+      </item>
     
       <item>
         <title>OMG it ain't hard, just create compelling content constantly on your blog, people can always unsubscribe if it's too frequent or they don't find it compelling</title>
@@ -189,35 +204,6 @@ which has this juicy nugget:&lt;/li&gt;
         <pubDate>Tue, 06 Feb 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/02/06/p1-screenshots-makes-mozilla-a-part-of-the-web-not-just-a-window-on-the-web/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/02/06/p1-screenshots-makes-mozilla-a-part-of-the-web-not-just-a-window-on-the-web/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Mike Bostock's observablehq formerly known as d3.express looks great! Much better than d3.js </title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Mike Bostock&amp;#39;s observablehq formerly known as d3.express looks great! Much better than d3.js or should I say it&amp;#39;s natural evolution to make it friendlier and more accessible!
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://medium.com/@mbostock/a-better-way-to-code-2b1d2876a3a0&quot;&gt;d3.express tutorial from April 2017&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;more up to date observable tutorials from December 2017
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://beta.observablehq.com/@mbostock/five-minute-introduction&quot;&gt;5 minute introduction&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;which is part of this &lt;a href=&quot;https://beta.observablehq.com/collection/introduction&quot;&gt;set of observable tutorials&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://beta.observablehq.com/@jbum/circles-spirals-and-sunflowers&quot;&gt;Circles, Spirals and Sunflower tutorial&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 05 Feb 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/02/05/p1-Mike-Bostock-observablehq-fka-d3-express-looks-great/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/02/05/p1-Mike-Bostock-observablehq-fka-d3-express-looks-great/</guid>
         
         
       </item>
