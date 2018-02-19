@@ -6,9 +6,41 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 17 Feb 2018 21:02:44 -0800</pubDate>
-    <lastBuildDate>Sat, 17 Feb 2018 21:02:44 -0800</lastBuildDate>
+    <pubDate>Sun, 18 Feb 2018 23:09:37 -0800</pubDate>
+    <lastBuildDate>Sun, 18 Feb 2018 23:09:37 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Zcash just a flash in the 2018 bitcoin pan or something real that will last to 2020?</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;From Bryce &amp;quot;Zooko&amp;quot; Wilcox&amp;#39;s interview: &lt;a href=&quot;https://factordaily.com/zcash-founder-zooko-wilcox-interview/&quot;&gt;The man building a ‘better Bitcoin’ on why Bitcoin isn’t the cryptocurrency for mainstream use&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+As far as I’m aware, all of the enterprise solutions of blockchain so far are still in a preliminary stage. It could be that’s just because iterating such complex and high-value systems take many years of careful effort or you could say pessimistically that blockchain is failing to satisfy their needs and it will eventually be abandoned. I don’t know which it is yet. I’ve been waiting for several years now to find out about the application of blockchain to enterprise use cases which gains traction and gets more and more users and makes more money.&lt;br /&gt;&lt;br/&gt;
+ 
+
+The Zcash and JP Morgan partnership is making an enterprise blockchain technology which could be a leading candidate for the breakthrough that allows enterprises to use blockchain for real-world use cases. The JP Morgan partnership allows smart contracts, it also allows privacy which is necessary for every enterprise. (Editor’s note: JPMorgan uses a payments platform called Quorum, built on the Ethereum blockchain. Zcash’s Zero Knowledge Proof-based method adds a layer of privacy to the transactions that happen on Quorum. See more here.)
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I have no idea what will happen but hope that by 2020 we will know if blockchain is going to be used and not abandoned.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 18 Feb 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/02/18/p1-zcash-latest-blockchain-fad-will-it-even-be-around-in-2020/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/02/18/p1-zcash-latest-blockchain-fad-will-it-even-be-around-in-2020/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Maha Bali: 'Where is the Humanity in the Computer Science Curriculum?' Me: 'Where is the Enlightenment in the Liberal Arts?'</title>
@@ -181,33 +213,6 @@ So maybe I should make the time to learn to code a bit more and not abuse my pri
         <pubDate>Fri, 09 Feb 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/02/09/p1-my-modest-vision-for-thunderbird-reuse-firefox-os-email-client/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/02/09/p1-my-modest-vision-for-thunderbird-reuse-firefox-os-email-client/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>John Ganz and Steven Klein: A Serious Man</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;From: &lt;a href=&quot;https://thebaffler.com/latest/peterson-ganz-klein&quot;&gt;John Ganz and Steven Klein: A Serious Man&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-
-&quot;It is not the duty of intellectuals to be reassuring and edifying, to create a serious world for adult children to wrap themselves up in: they are supposed to be critics not clerics. Their job is to provide tools to weather the sometimes enervating, painful, and confusing path of reflection and thought, not to allow for its easy interruption with images of glory. And their task is certainly not to turn individuals into adulating crowds. In the hands of false prophets, the crowd quickly becomes a mob. &quot;
-
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://thebaffler.com/latest/peterson-ganz-klein&quot;&gt;Read the whole thing!&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 08 Feb 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/02/08/p1-john-ganz-steven-klein-false-prophets/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/02/08/p1-john-ganz-steven-klein-false-prophets/</guid>
         
         
       </item>
