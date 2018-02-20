@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 18 Feb 2018 23:09:37 -0800</pubDate>
-    <lastBuildDate>Sun, 18 Feb 2018 23:09:37 -0800</lastBuildDate>
+    <pubDate>Mon, 19 Feb 2018 21:58:54 -0800</pubDate>
+    <lastBuildDate>Mon, 19 Feb 2018 21:58:54 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>VoodooPad acquired by Toronto's Primate Labs in December</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.voodoopad.com/blog/2017/12/primate-labs-acquires-voodoopad/&quot;&gt;VoodooPad acquired by Toronto&amp;#39;s Primate Labs in December 2017&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Still want to use it for my &lt;a href=&quot;http://rolandtanglao.com/2016/09/24/p1-rolandex-for-my-personal-wiki/&quot;&gt;&amp;quot;real-soon-now&amp;quot; wiki&lt;/a&gt; :-) (gotta buy a copy first)&lt;/li&gt;
+&lt;li&gt;Hope it continues to be updated, &lt;a href=&quot;http://support.primatelabs.com/discussions/voodoopad&quot;&gt;looks like support questions are being answered fast&lt;/a&gt;!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 19 Feb 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/02/19/p1-voodooPad-bought-by-toronto-primate-labs/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/02/19/p1-voodooPad-bought-by-toronto-primate-labs/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Zcash just a flash in the 2018 bitcoin pan or something real that will last to 2020?</title>
@@ -192,27 +209,6 @@ So maybe I should make the time to learn to code a bit more and not abuse my pri
         <pubDate>Sat, 10 Feb 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/02/10/p1-algamics/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/02/10/p1-algamics/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>My modest-but-not-easy-and-unencumbered-by-knowledge :-) vision for Thunderbird: Reuse Andrew Sutherland et al's Firefox OS mail client for desktop and mobile, IMAP only</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;My modest-unencumbered-by-knowledge :-) vision for Thunderbird - Reuse Andrew Sutherland et al&amp;#39;s Firefox OS mail client for desktop and mobile, IMAP only and add better searching.&lt;/li&gt;
-&lt;li&gt;I don&amp;#39;t need add-ons.&lt;/li&gt;
-&lt;li&gt;I don&amp;#39;t need IRC or any other messaging, just IMAP email. I think POP is something whose day has come and gone.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2018/01/27/p1-email-will-fail-in-2018-use-todo-crm-database-wiki-blogs-etc-instead/&quot;&gt;I don&amp;#39;t need to locally store gigabytes of emails (that&amp;#39;s what Calendars, ToDo lists, CRMs, databases, blogs, wikis, etc are for :-) )&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;#ymmv and that&amp;#39;s totally fine :-) ! As I said I am unencumbered by knowledge !!!!! &lt;/li&gt;
-&lt;li&gt;Read the Thunderbird vision (&lt;a href=&quot;https://mail.mozilla.org/pipermail/tb-planning/2018-January/005744.html&quot;&gt;January 2018 Thunderbird vision thread&lt;/a&gt;, &lt;a href=&quot;https://mail.mozilla.org/pipermail/tb-planning/2018-February/005747.html&quot;&gt;February 2018 thread&lt;/a&gt;) of others for more insight.&lt;/li&gt;
-&lt;li&gt;Disclaimer: I used to work on Thunderbird support, but I haven&amp;#39;t worked on Thunderbird since 2012. I know nothing about the code; I still use Thunderbird daily but I won&amp;#39;t be heart broken if/when Thunderbird in its present form ceases to exist; I will just use something else! And like many others I pay Thunderbird a small amount of money to hopefully keep it going and to fund Thunderbird.next whatever that turns out to be!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 09 Feb 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/02/09/p1-my-modest-vision-for-thunderbird-reuse-firefox-os-email-client/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/02/09/p1-my-modest-vision-for-thunderbird-reuse-firefox-os-email-client/</guid>
         
         
       </item>
