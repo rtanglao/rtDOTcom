@@ -6,9 +6,29 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 21 Feb 2018 23:25:47 -0800</pubDate>
-    <lastBuildDate>Wed, 21 Feb 2018 23:25:47 -0800</lastBuildDate>
+    <pubDate>Thu, 22 Feb 2018 14:38:52 -0800</pubDate>
+    <lastBuildDate>Thu, 22 Feb 2018 14:38:52 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>First couple of days Microsoft Surface Book impressions</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What I got: &lt;a href=&quot;http://rolandtanglao.com/2018/02/13/p1-switching-to-a-microsoft-surface-book2-for-mozilla-work/&quot;&gt;Microsoft Surface Book 2, 16 GB RAM, 512GB SSD, 13 inch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Love the facial unlock. Don&amp;#39;t need to ever type passwords.&lt;/li&gt;
+&lt;li&gt;Love USB-C power. I am using the Apple Laptop USB-C chargers and they work perfectly except for the gratuitous message about it charging slowly! Thanks but no thanks Microsoft :-)&lt;/li&gt;
+&lt;li&gt;Only down side is it&amp;#39;s too thick! Don&amp;#39;t have a sleeve or case; I thought it would fit 13&amp;quot; MBP sleeves but it&amp;#39;s too thick! &lt;/li&gt;
+&lt;li&gt;Still haven&amp;#39;t tried the Window Linux subsystem aka Ubuntu box :-)&lt;/li&gt;
+&lt;li&gt;Hope I can write my blog posts using IA for Windows and the Linux subsystem&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 22 Feb 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/02/22/p1-microsoft-surface-book-impressions-first-couple-of-days/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/02/22/p1-microsoft-surface-book-impressions-first-couple-of-days/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Polling users is great but not enough;you need to find a purpose for what you are building</title>
@@ -210,26 +230,6 @@ So maybe I should make the time to learn to code a bit more and not abuse my pri
         <pubDate>Tue, 13 Feb 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/02/13/p1-switching-to-a-microsoft-surface-book2-for-mozilla-work/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/02/13/p1-switching-to-a-microsoft-surface-book2-for-mozilla-work/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Never in a million years would I have imagined back in the 80s that software would be used for so much evil</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;To follow up on &lt;a href=&quot;http://rolandtanglao.com/2018/02/07/p1-Mike-Caulfield-Arendt-propaganda-machine-automated-aka-computational-propaganda/&quot;&gt;my computational propaganda post&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Back in the 1980s, Reading K&amp;amp;R (not knowing there was so much goodness in Forth and Functional programming and other areas of computer science and so much more out there in computing! I read the Byte Forth, Lisp and Smalltalk issues in the Augusts of my youth but didn&amp;#39;t really grok how wonderful they were), writing 6502 assembler, and writing C and BASIC I never would have imagined that software would be used for so much evil.&lt;/li&gt;
-&lt;li&gt;Naive sad face :-) and :-(&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 12 Feb 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/02/12/p1-never-in-a-million-years-computational-propaganda/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/02/12/p1-never-in-a-million-years-computational-propaganda/</guid>
         
         
       </item>
