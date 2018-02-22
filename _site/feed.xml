@@ -6,9 +6,41 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 20 Feb 2018 18:53:13 -0800</pubDate>
-    <lastBuildDate>Tue, 20 Feb 2018 18:53:13 -0800</lastBuildDate>
+    <pubDate>Wed, 21 Feb 2018 23:25:47 -0800</pubDate>
+    <lastBuildDate>Wed, 21 Feb 2018 23:25:47 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Polling users is great but not enough;you need to find a purpose for what you are building</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;My tl;dr of Farmer &amp;amp; Farmer - &lt;a href=&quot;http://farmerandfarmer.org/mastery/builder.html&quot;&gt;Purpose: the heart of the builder&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Polling users is great but not enough;you need to find a purpose for what you are building&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Juicy Quote&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+&quot;Natural technologies arise from the heart of the builder, from a place of gift, from an intuition and purpose outside of oneself. There is something beautiful about the fact that spending time in nature helps get us there.&quot;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://farmerandfarmer.org/mastery/builder.html&quot;&gt;Read the whole thing!&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 21 Feb 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/02/21/p1-builders-need-a-purpose-not-poll-users/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/02/21/p1-builders-need-a-purpose-not-poll-users/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Don't assume anything, be humble, and remember people are people</title>
@@ -198,22 +230,6 @@ So maybe I should make the time to learn to code a bit more and not abuse my pri
         <pubDate>Mon, 12 Feb 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/02/12/p1-never-in-a-million-years-computational-propaganda/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/02/12/p1-never-in-a-million-years-computational-propaganda/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Google Maps backwards compatibility - at what point does this become an albatross?</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Read &lt;a href=&quot;https://www.tnhh.net/posts/google-maps-insane-backward-compatibility.html&quot;&gt;The insane amount of backward compatibility in Google Maps&lt;/a&gt; by Huan Truong. &lt;/li&gt;
-&lt;li&gt;Google Maps backwards compatibility via &lt;a href=&quot;http://scripting.com/2018/02/10.html#a142901&quot;&gt;Dave&lt;/a&gt; - at what point does this become an albatross? How do you even keep things working? I doubt Google tests it on all these old phones and OSes!??!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 11 Feb 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/02/11/p1-google-maps-backward-compatibility/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/02/11/p1-google-maps-backward-compatibility/</guid>
         
         
       </item>
