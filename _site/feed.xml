@@ -6,9 +6,40 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 22 Feb 2018 14:38:52 -0800</pubDate>
-    <lastBuildDate>Thu, 22 Feb 2018 14:38:52 -0800</lastBuildDate>
+    <pubDate>Fri, 23 Feb 2018 13:34:05 -0800</pubDate>
+    <lastBuildDate>Fri, 23 Feb 2018 13:34:05 -0800</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Chris Dixon: Why decentralization matters</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@cdixon/why-decentralization-matters-5e3f79f7638e&quot;&gt;Chris Dixon: Why decentralization matters&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Juicy Quote:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+&quot;Centralized platforms have been dominant for so long that many people have forgotten there is a better way to build internet services. Cryptonetworks are a powerful way to develop community-owned networks and provide a level playing field for 3rd-party developers, creators, and businesses. We saw the value of decentralized systems in the first era of the internet. Hopefully we’ll get to see it again in the next.
+&quot;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Crypto powered or not (and really is there any other way to do it?), decentralized will come back; if not to public prominence at least in the peer 2 peer or network in the &amp;quot;shadows&amp;quot; :-)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 23 Feb 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/02/23/p1-chris-dixon-why-decentralization-matters/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/02/23/p1-chris-dixon-why-decentralization-matters/</guid>
+        
+        
+      </item>
     
       <item>
         <title>First couple of days Microsoft Surface Book impressions</title>
@@ -214,22 +245,6 @@ So maybe I should make the time to learn to code a bit more and not abuse my pri
         <pubDate>Wed, 14 Feb 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/02/14/p1-create-compelling-content-constantly/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/02/14/p1-create-compelling-content-constantly/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Switching to a Microsoft Surface Book 2 for Mozilla work! Wish me luck :-) !</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Switching to a Microsoft Surface Book 2 for Mozilla work! Wish me luck :-) ! (I will survive, I&amp;#39;ve had Windows machines and laptops before!)&lt;/li&gt;
-&lt;li&gt;Hopefully the Ubuntu box er &lt;a href=&quot;https://docs.microsoft.com/en-us/windows/wsl/about&quot;&gt;Linux Subsystem for Windows 10&lt;/a&gt; :-)  will allow me to run my ruby and python stuff.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 13 Feb 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/02/13/p1-switching-to-a-microsoft-surface-book2-for-mozilla-work/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/02/13/p1-switching-to-a-microsoft-surface-book2-for-mozilla-work/</guid>
         
         
       </item>
