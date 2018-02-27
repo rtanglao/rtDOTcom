@@ -9,6 +9,7 @@ title: "Moving blogging to old MacBook Air in preparation for move to new Window
 
 ```bash
 brew upgrade rbenv ruby-build
+rbenv install 2.5.0
 rbenv global 2.5.0
 vi ~/.bash_profile # and add eval "$(rbenv init -)"
 ```
