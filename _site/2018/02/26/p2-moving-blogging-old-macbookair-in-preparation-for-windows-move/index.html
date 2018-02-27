@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Two ways to get Average Colour Using ImageMagick convert command</title>
+    <title>Moving blogging to old MacBook Air in preparation for move to new Windows Machine</title>
     <meta name="description" content="flickr.com/roland, twitter.com/rtanglao #firefox #thunderbird
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2017/02/21/p1-Average-colour-using-imagemagick-convert/">
+    <link rel="canonical" href="http://rolandtanglao.com/2018/02/26/p2-moving-blogging-old-macbookair-in-preparation-for-windows-move/">
 </head>
 
 
@@ -57,35 +57,26 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Two ways to get Average Colour Using ImageMagick convert command</h1>
-    <p class="post-meta">Feb 21, 2017</p>
+    <h1 class="post-title">Moving blogging to old MacBook Air in preparation for move to new Windows Machine</h1>
+    <p class="post-meta">Feb 26, 2018</p>
   </header>
 
   <article class="post-content">
     <h2>Pontifications</h2>
 
-<h3>1 Scaling to 1x1</h3>
-<div class="highlight"><pre><code class="language-sh" data-lang="sh">convert rose: <span class="nt">-scale</span> 1x1 <span class="se">\</span>
-<span class="nt">-format</span> <span class="s1">'%[fx:int(255*r+.5)],%[fx:int(255*g+.5)],%[fx:int(255*b+.5)]'</span><span class="se">\</span>
-info:-
+<ul>
+<li>First I had to install ruby:</li>
+</ul>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">brew upgrade rbenv ruby-build
+rbenv global 2.5.0
+vi ~/.bash_profile <span class="c"># and add eval "$(rbenv init -)"</span>
 </code></pre></div>
-<h3>Output</h3>
-<div class="highlight"><pre><code class="language-sh" data-lang="sh">146,89,80
-</code></pre></div>
-<h3>2 Histogram</h3>
-<div class="highlight"><pre><code class="language-sh" data-lang="sh">convert rose:  <span class="nt">-fordepth</span> 8  histogram:info:- | <span class="nb">sort</span> <span class="nt">-r</span> | <span class="nb">head</span>
-</code></pre></div>
-<h3>Output</h3>
-<div class="highlight"><pre><code class="language-sh" data-lang="sh">21: <span class="o">(</span>255,255,255<span class="o">)</span> <span class="c">#FFFFFF white</span>
-14: <span class="o">(</span>254,254,252<span class="o">)</span> <span class="c">#FEFEFC srgb(254,254,252)</span>
-10: <span class="o">(</span>104,101, 86<span class="o">)</span> <span class="c">#686556 srgb(104,101,86)</span>
- 9: <span class="o">(</span>105, 96, 81<span class="o">)</span> <span class="c">#696051 srgb(105,96,81)</span>
- 7: <span class="o">(</span>108, 99, 84<span class="o">)</span> <span class="c">#6C6354 srgb(108,99,84)</span>
- 6: <span class="o">(</span>107, 98, 83<span class="o">)</span> <span class="c">#6B6253 srgb(107,98,83)</span>
- 6: <span class="o">(</span>105, 98, 82<span class="o">)</span> <span class="c">#696252 srgb(105,98,82)</span>
- 5: <span class="o">(</span>255,255,254<span class="o">)</span> <span class="c">#FFFFFE srgb(255,255,254)</span>
- 5: <span class="o">(</span>105,102, 87<span class="o">)</span> <span class="c">#696657 srgb(105,102,87)</span>
- 5: <span class="o">(</span>104, 99, 83<span class="o">)</span> <span class="c">#686353 srgb(104,99,83)</span>
+<ul>
+<li>Then jekyll and surge.sh</li>
+</ul>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">gem <span class="nb">install </span>jekyll <span class="c"># my syntax colouring needs red carpet</span>
+gem <span class="nb">install </span>redcarpet
+<span class="nb">sudo </span>npm <span class="nb">install</span> <span class="nt">--global</span> surge
 </code></pre></div>
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>

@@ -71,7 +71,7 @@ Ubuntu 16.04 Xenial Xerus</a></li>
 
 <p>Specifically</p>
 <div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">sudo </span>apt-get update
-<span class="nb">sudo </span>apt-get install git-core curl zlib1g-dev<span class="se">\</span>
+<span class="nb">sudo </span>apt-get <span class="nb">install </span>git-core curl zlib1g-dev<span class="se">\</span>
  build-essential libssl-dev libreadline-dev<span class="se">\</span>
   libyaml-dev libsqlite3-dev sqlite3<span class="se">\</span>
    libxml2-dev libxslt1-dev libcurl4-openssl-dev<span class="se">\</span>
@@ -87,11 +87,11 @@ git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 <span class="nb">echo</span> <span class="s1">'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"'</span> <span class="o">&gt;&gt;</span> ~/.bashrc
 <span class="nb">exec</span> <span class="nv">$SHELL</span>
 
-rbenv install 2.4.2
+rbenv <span class="nb">install </span>2.4.2
 rbenv global 2.4.2
 ruby <span class="nt">-v</span>
 
-gem install bundler
+gem <span class="nb">install </span>bundler
 </code></pre></div>
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>

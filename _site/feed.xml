@@ -6,9 +6,34 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 26 Feb 2018 11:41:01 -0800</pubDate>
-    <lastBuildDate>Mon, 26 Feb 2018 11:41:01 -0800</lastBuildDate>
-    <generator>Jekyll v3.6.0</generator>
+    <pubDate>Mon, 26 Feb 2018 20:50:26 -0800</pubDate>
+    <lastBuildDate>Mon, 26 Feb 2018 20:50:26 -0800</lastBuildDate>
+    <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Moving blogging to old MacBook Air in preparation for move to new Windows Machine</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;First I had to install ruby:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;brew upgrade rbenv ruby-build
+rbenv global 2.5.0
+vi ~/.bash_profile &lt;span class=&quot;c&quot;&gt;# and add eval &quot;$(rbenv init -)&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Then jekyll and surge.sh&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;jekyll &lt;span class=&quot;c&quot;&gt;# my syntax colouring needs red carpet&lt;/span&gt;
+gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;redcarpet
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;npm &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; surge
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        <pubDate>Mon, 26 Feb 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/02/26/p2-moving-blogging-old-macbookair-in-preparation-for-windows-move/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/02/26/p2-moving-blogging-old-macbookair-in-preparation-for-windows-move/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Payak 2018: 1 hour 40 minutes instead of 1:25, -4 degrees, not as fast, skate skiing uphill technique needs work</title>
@@ -230,21 +255,6 @@ So maybe I should make the time to learn to code a bit more and not abuse my pri
         <pubDate>Fri, 16 Feb 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/02/16/p1-not-knowing-how-to-code-can-be-a-privilege/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/02/16/p1-not-knowing-how-to-code-can-be-a-privilege/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Need to read and add to my mythical wiki: A16Z crypto Reading Resources</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://a16z.com/2018/02/10/crypto-readings-resources/&quot;&gt;Need to read and add to my mythical wiki :-) : A16Z crypto Reading Resources&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 15 Feb 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/02/15/p1-crypto-bibliography/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/02/15/p1-crypto-bibliography/</guid>
         
         
       </item>
