@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 27 Feb 2018 13:19:24 -0800</pubDate>
-    <lastBuildDate>Tue, 27 Feb 2018 13:19:24 -0800</lastBuildDate>
+    <pubDate>Tue, 27 Feb 2018 21:35:57 -0800</pubDate>
+    <lastBuildDate>Tue, 27 Feb 2018 21:35:57 -0800</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Getting X11, emacs, etc to work on Windows Linux Subsystem</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;For X11 I followed: &lt;a href=&quot;https://solarianprogrammer.com/2017/04/16/windows-susbsystem-for-linux-xfce-4/&quot;&gt;Using the Windows Subsystem for Linux with Xfce 4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;For emacs I followed: &lt;a href=&quot;https://solarianprogrammer.com/2017/05/18/emacs-windows-subsystem-linux/&quot;&gt;Emacs 25 on Windows Subsystem for Linux&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;xfce4-session
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        <pubDate>Tue, 27 Feb 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/02/27/p2-emacs-x11/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/02/27/p2-emacs-x11/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Getting jekyll, surge etc to work on Windows Linux Subsystem</title>
@@ -229,23 +246,6 @@ The Zcash and JP Morgan partnership is making an enterprise blockchain technolog
         <pubDate>Sun, 18 Feb 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/02/18/p1-zcash-latest-blockchain-fad-will-it-even-be-around-in-2020/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/02/18/p1-zcash-latest-blockchain-fad-will-it-even-be-around-in-2020/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Maha Bali: 'Where is the Humanity in the Computer Science Curriculum?' Me: 'Where is the Enlightenment in the Liberal Arts?'</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://dmlcentral.net/humanity-computer-science-curriculum/&quot;&gt;Maha Bali: &amp;#39;Where is the Humanity in the Computer Science Curriculum?&amp;#39;&lt;/a&gt; &amp;lt;--- read it, it&amp;#39;s excellent and thought provoking&lt;/li&gt;
-&lt;li&gt;Me: &amp;#39;Where is the Enlightenment in the Liberal Arts?&amp;#39;. Why did so many people who have Liberal Arts degrees vote for T* and H* and D*?&lt;/li&gt;
-&lt;li&gt;We need people who are facts and science and arts based! All 3 not just 1! Not just selective bits of each !&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 17 Feb 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/02/17/p1-where-humanity-in-computer-science-where-is-enlightmentment-in-liberal-arts/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/02/17/p1-where-humanity-in-computer-science-where-is-enlightmentment-in-liberal-arts/</guid>
         
         
       </item>
