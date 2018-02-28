@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 27 Feb 2018 21:35:57 -0800</pubDate>
-    <lastBuildDate>Tue, 27 Feb 2018 21:35:57 -0800</lastBuildDate>
+    <pubDate>Wed, 28 Feb 2018 13:17:09 -0800</pubDate>
+    <lastBuildDate>Wed, 28 Feb 2018 13:17:09 -0800</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Writing this from IA Writer Windows Beta</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Writing this from the &lt;a href=&quot;https://www.kickstarter.com/projects/reichenstein/a-focused-writing-app-for-windows&quot;&gt;iA Writer: A focused writing app for Windows beta that I backed on Kickstarter&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;Crazy workflow: IA writer -&amp;gt; copy and paste into github&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 28 Feb 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/02/28/p1-ia-writer-windows-beta/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/02/28/p1-ia-writer-windows-beta/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Getting X11, emacs, etc to work on Windows Linux Subsystem</title>
@@ -214,38 +230,6 @@ gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;redcarpet
         <pubDate>Mon, 19 Feb 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/02/19/p1-voodooPad-bought-by-toronto-primate-labs/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/02/19/p1-voodooPad-bought-by-toronto-primate-labs/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Zcash just a flash in the 2018 bitcoin pan or something real that will last to 2020?</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;From Bryce &amp;quot;Zooko&amp;quot; Wilcox&amp;#39;s interview: &lt;a href=&quot;https://factordaily.com/zcash-founder-zooko-wilcox-interview/&quot;&gt;The man building a ‘better Bitcoin’ on why Bitcoin isn’t the cryptocurrency for mainstream use&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-
-As far as I’m aware, all of the enterprise solutions of blockchain so far are still in a preliminary stage. It could be that’s just because iterating such complex and high-value systems take many years of careful effort or you could say pessimistically that blockchain is failing to satisfy their needs and it will eventually be abandoned. I don’t know which it is yet. I’ve been waiting for several years now to find out about the application of blockchain to enterprise use cases which gains traction and gets more and more users and makes more money.&lt;br /&gt;&lt;br/&gt;
- 
-
-The Zcash and JP Morgan partnership is making an enterprise blockchain technology which could be a leading candidate for the breakthrough that allows enterprises to use blockchain for real-world use cases. The JP Morgan partnership allows smart contracts, it also allows privacy which is necessary for every enterprise. (Editor’s note: JPMorgan uses a payments platform called Quorum, built on the Ethereum blockchain. Zcash’s Zero Knowledge Proof-based method adds a layer of privacy to the transactions that happen on Quorum. See more here.)
-
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I have no idea what will happen but hope that by 2020 we will know if blockchain is going to be used and not abandoned.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 18 Feb 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/02/18/p1-zcash-latest-blockchain-fad-will-it-even-be-around-in-2020/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/02/18/p1-zcash-latest-blockchain-fad-will-it-even-be-around-in-2020/</guid>
         
         
       </item>
