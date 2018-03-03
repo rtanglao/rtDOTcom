@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to setup github credential caching on Windows Linu subsystem"
+title: "How to setup github credential caching on Windows Linux subsystem"
 ---
 
 ## Pontifications
