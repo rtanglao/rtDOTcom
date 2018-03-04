@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 02 Mar 2018 21:28:06 -0800</pubDate>
-    <lastBuildDate>Fri, 02 Mar 2018 21:28:06 -0800</lastBuildDate>
+    <pubDate>Sat, 03 Mar 2018 18:36:48 -0800</pubDate>
+    <lastBuildDate>Sat, 03 Mar 2018 18:36:48 -0800</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Emil Hvitfeldt's fantastic summary of R colour palettes</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/EmilHvitfeldt/r-color-palettes/blob/master/type-sorted-palettes.md&quot;&gt;Emil Hvitfeldt&amp;#39;s fantastic summary of R colour palettes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;I might just use the material-pink R colour palette! :-)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 03 Mar 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/03/03/p1-emil-hvitfeldt-summary-r-colour-palettes/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/03/03/p1-emil-hvitfeldt-summary-r-colour-palettes/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How to setup github credential caching on Windows Linux subsystem</title>
@@ -195,26 +211,6 @@ gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;redcarpet
         <pubDate>Fri, 23 Feb 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/02/23/p1-chris-dixon-why-decentralization-matters/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/02/23/p1-chris-dixon-why-decentralization-matters/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>First couple of days Microsoft Surface Book impressions</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;What I got: &lt;a href=&quot;http://rolandtanglao.com/2018/02/13/p1-switching-to-a-microsoft-surface-book2-for-mozilla-work/&quot;&gt;Microsoft Surface Book 2, 16 GB RAM, 512GB SSD, 13 inch&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Love the facial unlock. Don&amp;#39;t need to ever type passwords.&lt;/li&gt;
-&lt;li&gt;Love USB-C power. I am using the Apple Laptop USB-C chargers and they work perfectly except for the gratuitous message about it charging slowly! Thanks but no thanks Microsoft :-)&lt;/li&gt;
-&lt;li&gt;Only down side is it&amp;#39;s too thick! Don&amp;#39;t have a sleeve or case; I thought it would fit 13&amp;quot; MBP sleeves but it&amp;#39;s too thick! &lt;/li&gt;
-&lt;li&gt;Still haven&amp;#39;t tried the Window Linux subsystem aka Ubuntu box :-)&lt;/li&gt;
-&lt;li&gt;Hope I can write my blog posts using IA for Windows and the Linux subsystem&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 22 Feb 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/02/22/p1-microsoft-surface-book-impressions-first-couple-of-days/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/02/22/p1-microsoft-surface-book-impressions-first-couple-of-days/</guid>
         
         
       </item>
