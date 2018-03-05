@@ -6,9 +6,30 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 03 Mar 2018 22:44:43 -0800</pubDate>
-    <lastBuildDate>Sat, 03 Mar 2018 22:44:43 -0800</lastBuildDate>
+    <pubDate>Sun, 04 Mar 2018 19:20:09 -0800</pubDate>
+    <lastBuildDate>Sun, 04 Mar 2018 19:20:09 -0800</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Mikhail Popov: Plotting a course through charted waters: A website workshop on data visualization literacy aka introduction to the many different types of graphical charts</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mikhail Popov: &lt;a href=&quot;https://blog.wikimedia.org/2018/02/21/data-visualization-literacy-workshop/&quot;&gt;Plotting a course through charted waters: A website workshop on data visualization literacy aka introduction to the many different types of graphical charts&lt;/a&gt; - developed in R and source code is available! &lt;/li&gt;
+&lt;li&gt;Learn about: pie charts, bar charts, waffle charts aka square pie charts, histograms, desnity plots, violin plots, ridgeline plots, box plots, scatter plots, line charts, mosaic plots, stacked area plots, heatmaps, treemaps, choropleths, etc.
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://bearloga.github.io/wmf-allhands18/&quot;&gt;static version&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://dataviz-literacy.wmflabs.org/&quot;&gt;interactive version&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 04 Mar 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/03/04/p1-mikhail-popov-workshop-different-types-statistical-graphic-charts/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/03/04/p1-mikhail-popov-workshop-different-types-statistical-graphic-charts/</guid>
+        
+        
+      </item>
     
       <item>
         <title>icetigris: github is just code deviantart</title>
@@ -177,24 +198,6 @@ gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;redcarpet
         <pubDate>Mon, 26 Feb 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/02/26/p2-moving-blogging-old-macbookair-in-preparation-for-windows-move/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/02/26/p2-moving-blogging-old-macbookair-in-preparation-for-windows-move/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Payak 2018: 1 hour 40 minutes instead of 1:25, -4 degrees, not as fast, skate skiing uphill technique needs work</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://zone4.ca/race/2018-02-24/273f29ee/sigges-payakentsut-2018/results/&quot;&gt;Payak 2018: chip time: 1 hour 40 minutes&lt;/a&gt; instead of &lt;a href=&quot;http://rolandtanglao.com/2017/02/25/payak-2017-125/&quot;&gt;1:25 in 2017&lt;/a&gt;, -4 degrees, not as fast, skate skiing uphill technique needs work :-)&lt;/li&gt;
-&lt;li&gt;Here&amp;#39;s Strava which says 1:38 moving time:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/1424175368/embed/81576e9b95575d38e81f66da920b37af15efb3ea'&gt;&lt;/iframe&gt;
-</description>
-        <pubDate>Mon, 26 Feb 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/02/26/p1-payak-2018-skate-skiing-140/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/02/26/p1-payak-2018-skate-skiing-140/</guid>
         
         
       </item>
