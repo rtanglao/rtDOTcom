@@ -6,21 +6,21 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 05 Mar 2018 19:39:16 -0800</pubDate>
-    <lastBuildDate>Mon, 05 Mar 2018 19:39:16 -0800</lastBuildDate>
-    <generator>Jekyll v3.7.3</generator>
+    <pubDate>Tue, 06 Mar 2018 14:48:32 -0800</pubDate>
+    <lastBuildDate>Tue, 06 Mar 2018 14:48:32 -0800</lastBuildDate>
+    <generator>Jekyll v3.6.0</generator>
     
       <item>
         <title>MSDN blog post from 2016: DO NOT, under ANY circumstances, create and/or modify Linux files using Windows apps, tools, scripts, consoles, etc.</title>
         <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;MSDN blog post from 2016:&lt;a href=&quot;https://blogs.msdn.microsoft.com/commandline/2016/11/17/do-not-change-linux-files-using-windows-apps-and-tools/&quot;&gt;DO NOT, under ANY circumstances, create and/or modify Linux files using Windows apps, tools, scripts, consoles, etc.&lt;/a&gt;
+&lt;li&gt;MSDN blog post from 2016:&lt;a href=&quot;https://blogs.msdn.microsoft.com/commandline/2016/11/17/do-not-change-linux-files-using-windows-apps-and-tools/&quot;&gt;DO NOT, under ANY circumstances, create and/or modify Linux files using Windows apps, tools, scripts, consoles, etc.&lt;/a&gt;:
 
 &lt;ul&gt;
 &lt;li&gt;Reading files from Windows on Linux is OK&lt;/li&gt;
 &lt;li&gt;Copying files from Windows to Linux is OK&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Editing Linux files or modifying Linux files on Windows is NOT OK&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Editing Linux files or modifying Linux files on Windows is NOT OK&lt;/strong&gt; &amp;lt;-- testing jekyll on mac versus jekyll on windows subsystem for linux&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -178,17 +178,17 @@
 &lt;li&gt;have to re-compile ruby from scratch otherwise jekyll gem won&amp;#39;t build, no idea why :-)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get upgrade &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; build-essential ruby-full
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get install &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; build-essential ruby-full
 &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;gem update &lt;span class=&quot;nt&quot;&gt;--system&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;jekyll bundler
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;github-pages
-apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;zlib1g-dev
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;zlib1g-dev
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;github-pages &lt;span class=&quot;c&quot;&gt;# don't need this&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;redcarpet
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;gem install jekyll bundler
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;gem install github-pages
+apt-get install zlib1g-dev
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get install zlib1g-dev
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;gem install github-pages &lt;span class=&quot;c&quot;&gt;# don't need this&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;gem install redcarpet
 curl &lt;span class=&quot;nt&quot;&gt;-sL&lt;/span&gt; https://deb.nodesource.com/setup_8.x | &lt;span class=&quot;nb&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-E&lt;/span&gt; bash -
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; nodejs 
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;npm &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; surge
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get install &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; nodejs 
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;npm install &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; surge
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
         <pubDate>Tue, 27 Feb 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/02/27/p1-jekyll-surge-windows/</link>

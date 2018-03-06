@@ -68,9 +68,9 @@
 <li>I think <code>open</code> only works in mac os x :-)</li>
 <li>Skip line 1, which is the header line, print lines 2-10, open all column B aka field 2 links from the CSV file in the web browser, i.e. Firefox:</li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">sed</span> <span class="nt">-n</span> 2,10p <span class="se">\</span>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">sed <span class="nt">-n</span> 2,10p <span class="se">\</span>
 10April2017-corrected-by-vesper-mismatchedlinks-spreadsheet1.csv | <span class="se">\</span>
-<span class="nb">cut</span> <span class="nt">-d</span> <span class="s2">","</span> <span class="nt">-f2</span> | xargs <span class="nt">-n</span> 1 open
+cut <span class="nt">-d</span> <span class="s2">","</span> <span class="nt">-f2</span> | xargs <span class="nt">-n</span> 1 open
 </code></pre></div>
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
