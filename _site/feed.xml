@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 07 Mar 2018 10:45:25 -0800</pubDate>
-    <lastBuildDate>Wed, 07 Mar 2018 10:45:25 -0800</lastBuildDate>
+    <pubDate>Wed, 07 Mar 2018 11:09:00 -0800</pubDate>
+    <lastBuildDate>Wed, 07 Mar 2018 11:09:00 -0800</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Fixed jekyll default theme font-weight bug by changing from 300 to 400 in _sass/_base.scss, still might be a Firefox bug</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fixed jekyll default theme &lt;code&gt;font-weight&lt;/code&gt; bug by changing from &lt;code&gt;font-weight&lt;/code&gt; from &lt;code&gt;300&lt;/code&gt; to &lt;code&gt;400&lt;/code&gt; in &lt;code&gt;_sass/_base.scss&lt;/code&gt;, still might be a Firefox bug as per &lt;a href=&quot;https://github.com/jekyll/jekyll/issues/4042#issuecomment-170397990&quot;&gt;this comment on jekyll ussye 4042&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Still might be a Firefox bug as per my previous blog post &lt;a href=&quot;http://rolandtanglao.com/2018/03/06/p1-firefox-font-weight-bug-on-windows-and-linux/&quot;&gt;Possible font-weight bug in Windows and Linux?!?&lt;/a&gt;. If I can write a test case that doesn&amp;#39;t have jekyll in it, then it probably is a bug in Firefox.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 07 Mar 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/03/07/p1-fixed-jekyll-default-theme-font-weight-bug-might-still-be-a-firefox-bug/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/03/07/p1-fixed-jekyll-default-theme-font-weight-bug-might-still-be-a-firefox-bug/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Possible font-weight bug in Windows and Linux?!?</title>
@@ -173,23 +189,6 @@
         <pubDate>Wed, 28 Feb 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/02/28/p1-ia-writer-windows-beta/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/02/28/p1-ia-writer-windows-beta/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Getting X11, emacs, etc to work on Windows Linux Subsystem</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;For X11 I followed: &lt;a href=&quot;https://solarianprogrammer.com/2017/04/16/windows-susbsystem-for-linux-xfce-4/&quot;&gt;Using the Windows Subsystem for Linux with Xfce 4&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;For emacs I followed: &lt;a href=&quot;https://solarianprogrammer.com/2017/05/18/emacs-windows-subsystem-linux/&quot;&gt;Emacs 25 on Windows Subsystem for Linux&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;xfce4-session
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        <pubDate>Tue, 27 Feb 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/02/27/p2-emacs-x11/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/02/27/p2-emacs-x11/</guid>
         
         
       </item>
