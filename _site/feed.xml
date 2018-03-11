@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 09 Mar 2018 21:16:56 -0800</pubDate>
-    <lastBuildDate>Fri, 09 Mar 2018 21:16:56 -0800</lastBuildDate>
+    <pubDate>Sat, 10 Mar 2018 21:12:26 -0800</pubDate>
+    <lastBuildDate>Sat, 10 Mar 2018 21:12:26 -0800</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>More thoughts on switching to Windows from OS X: preview and QuickTime replacements?</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I miss preview.app - is there anything comparable on Windows for annotating screenshots and doing all things preview does on OSX?&lt;/li&gt;
+&lt;li&gt;I miss QuickTime. I guess VLC is a fine replacement? It doesn&amp;#39;t seem as polished.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 10 Mar 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/03/10/p1-more-switching-to-windows-thoughts/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/03/10/p1-more-switching-to-windows-thoughts/</guid>
+        
+        
+      </item>
     
       <item>
         <title>The Atlantic: Adam Grant: You don't know yourself as well as your colleagues and friends do</title>
@@ -196,22 +212,6 @@ Difficult conversations on diversity and gender discrimination have been happeni
         <pubDate>Fri, 02 Mar 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/03/02/p2-how-to-setup-github-credential-caching/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/03/02/p2-how-to-setup-github-credential-caching/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Google Play Store has a Review Reply API!</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Even better news than yesterday&amp;#39;s &lt;a href=&quot;http://rolandtanglao.com/2018/03/01/p1-zendesk-has-a-google-play-review-reply-integration/&quot;&gt;Zendesk has a Google Play Store Review Reply Integration&lt;/a&gt;, there is a &lt;a href=&quot;https://developers.google.com/android-publisher/reply-to-reviews&quot;&gt;Google Play Developer Reply to Reviews API&lt;/a&gt;! &lt;/li&gt;
-&lt;li&gt;Yes! I&amp;#39;d love to write my own reply tool (or more likely get somebody to write one for me :-) )&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 02 Mar 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/03/02/p1-replying-to-google-play-store-views-api/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/03/02/p1-replying-to-google-play-store-views-api/</guid>
         
         
       </item>
