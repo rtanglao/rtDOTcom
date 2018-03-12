@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 10 Mar 2018 21:12:26 -0800</pubDate>
-    <lastBuildDate>Sat, 10 Mar 2018 21:12:26 -0800</lastBuildDate>
+    <pubDate>Sun, 11 Mar 2018 20:38:02 -0700</pubDate>
+    <lastBuildDate>Sun, 11 Mar 2018 20:38:02 -0700</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Prediction: Artificial General Intelligence won't happen before 2029</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Prediction: &lt;a href=&quot;http://rolandtanglao.com/2018/01/08/p1-david-deutsch-we-need-a-breakthrough-philosophy-how-brains-create-explanatory-knowledge/&quot;&gt;Artificial General Intelligence&lt;/a&gt; won&amp;#39;t happen before 2029! Until then we are stuck with brute force. Brute force will get us self driving transit in dense urban centres (bring it on! self guided buses and self guided taxis controlled by proactive government regulation not by the &amp;quot;market&amp;quot; which will s*ck at this) but not Tesla&amp;#39;s dream or R2D2 !&lt;/li&gt;
+&lt;li&gt;Of course since I&amp;#39;m an old fart :-) , then this prediction will probably be wrong. Maybe we will get an AGI breakthrough before 2029!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 11 Mar 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/03/11/p1-artificial-general-intelligence-wont-happen-before-2029/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/03/11/p1-artificial-general-intelligence-wont-happen-before-2029/</guid>
+        
+        
+      </item>
     
       <item>
         <title>More thoughts on switching to Windows from OS X: preview and QuickTime replacements?</title>
@@ -190,28 +206,6 @@ Difficult conversations on diversity and gender discrimination have been happeni
         <pubDate>Sat, 03 Mar 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/03/03/p1-emil-hvitfeldt-summary-r-colour-palettes/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/03/03/p1-emil-hvitfeldt-summary-r-colour-palettes/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to setup github credential caching on Windows Linux subsystem</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Just one command from &lt;a href=&quot;https://stackoverflow.com/questions/45925964/how-to-use-git-credential-store-on-wsl-ubuntu-on-windows&quot;&gt;How to use Git credential store on WSL (Ubuntu on Windows)?&lt;/a&gt;:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; credential.helper cache
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;I didn&amp;#39;t have to change the timeout in ~/.gitconfig but just in case here&amp;#39;s the line to add&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;[credential]
-        helper = cache --timeout=144000
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        <pubDate>Fri, 02 Mar 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/03/02/p2-how-to-setup-github-credential-caching/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/03/02/p2-how-to-setup-github-credential-caching/</guid>
         
         
       </item>
