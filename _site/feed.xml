@@ -6,9 +6,33 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 16 Mar 2018 22:22:16 -0700</pubDate>
-    <lastBuildDate>Fri, 16 Mar 2018 22:22:16 -0700</lastBuildDate>
+    <pubDate>Sat, 17 Mar 2018 22:38:45 -0700</pubDate>
+    <lastBuildDate>Sat, 17 Mar 2018 22:38:45 -0700</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Stack Overflow doesn't incentivize being nice; it incentivizes marking questions as duplicates or as poor questions as quickly as possible and answering questions as tersely as possible without emotion</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;There&amp;#39;s no culture of being human at Stack Overflow.&lt;/li&gt;
+&lt;li&gt;Instead it&amp;#39;s people who respond off the cuff as tersely and as quickly as possible with as little emotion as possible.&lt;/li&gt;
+&lt;li&gt;Online, terse communication is great for technical stuff but not so great for being human and online community. Over-communicating that you aren&amp;#39;t a jerk is the only way to this and this is de-incentivized by SO.&lt;/li&gt;
+&lt;li&gt;And the duplicate hammer at SO is equally terse and inhumane&lt;/li&gt;
+&lt;li&gt;Unfortunately real life doesn&amp;#39;t work that way; you have to communicate and explain things to people and that takes time.&lt;/li&gt;
+&lt;li&gt;And often when you learning you ask imprecise questions but then people in real life help you make them more precise instead of greeting you with derision and hostility. SO has the potential to educate people on asking better question but instead rewards people for being hostile to &amp;quot;bad&amp;quot; questions.&lt;/li&gt;
+&lt;li&gt;A really good answer takes time in SO or anywhere else in life.&lt;/li&gt;
+&lt;li&gt;Many regular users on SO are jerks towards people trying to learn (and whose first language might not be English).&lt;/li&gt;
+&lt;li&gt;Fortunately there are good answers written by great people on SO but almost every good question with a good answer has many other unacceptably rude and impolite answers from many not so great users on SO.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://codeblog.jonskeet.uk/2018/03/17/stack-overflow-culture/&quot;&gt;This blog post was inspired by Jon Skeet&amp;#39;s Stack Overflow Culture&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 17 Mar 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/03/17/p1-stack-overflow-doesnt-incentivize-being-nice-so-question-askers-and-answers-are-rude/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/03/17/p1-stack-overflow-doesnt-incentivize-being-nice-so-question-askers-and-answers-are-rude/</guid>
+        
+        
+      </item>
     
       <item>
         <title>What's your personal transit utopia in your town? Mine is autonomous, self guided transit i.e. buses supplemented by autonomous taxis</title>
@@ -187,27 +211,6 @@ Difficult conversations on diversity and gender discrimination have been happeni
         <pubDate>Tue, 06 Mar 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/03/06/p1-firefox-font-weight-bug-on-windows-and-linux/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/03/06/p1-firefox-font-weight-bug-on-windows-and-linux/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>MSDN blog post from 2016: DO NOT, under ANY circumstances, create and/or modify Linux files using Windows apps, tools, scripts, consoles, etc.</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;MSDN blog post from 2016:&lt;a href=&quot;https://blogs.msdn.microsoft.com/commandline/2016/11/17/do-not-change-linux-files-using-windows-apps-and-tools/&quot;&gt;DO NOT, under ANY circumstances, create and/or modify Linux files using Windows apps, tools, scripts, consoles, etc.&lt;/a&gt;:
-
-&lt;ul&gt;
-&lt;li&gt;Reading files from Windows on Linux is OK&lt;/li&gt;
-&lt;li&gt;Copying files from Windows to Linux is OK&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Editing Linux files or modifying Linux files on Windows is NOT OK&lt;/strong&gt; &amp;lt;-- testing jekyll on mac versus jekyll on windows subsystem for linux&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 05 Mar 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/03/05/p1-do-not-create-change-linux-subsystem-files-from-windows/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/03/05/p1-do-not-create-change-linux-subsystem-files-from-windows/</guid>
         
         
       </item>
