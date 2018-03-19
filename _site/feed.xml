@@ -6,9 +6,53 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 17 Mar 2018 22:38:45 -0700</pubDate>
-    <lastBuildDate>Sat, 17 Mar 2018 22:38:45 -0700</lastBuildDate>
+    <pubDate>Sun, 18 Mar 2018 21:50:56 -0700</pubDate>
+    <lastBuildDate>Sun, 18 Mar 2018 21:50:56 -0700</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>The Guardian: Carole Cadwalladr writing about Canadian Christopher Wylie: 'The Facebook data is out in the wild. And for all Wylie’s efforts, there’s no turning the clock back.'</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.theguardian.com/news/2018/mar/17/data-war-whistleblower-christopher-wylie-faceook-nix-bannon-trump&quot;&gt;From The Cambridge Analytica Files ‘I made Steve Bannon’s psychological warfare tool’: meet the data war whistleblower&lt;/a&gt; :&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+Millions of people’s personal information was stolen and used to target them in ways they wouldn’t have seen, and couldn’t have known about, by a mercenary outfit, Cambridge Analytica, who, Wylie says, “would work for anyone”. Who would pitch to Russian oil companies. Would they subvert elections abroad on behalf of foreign governments? &lt;br /&gt;&lt;br /&gt;
+
+It occurs to me to ask Wylie this one night.&lt;br /&gt;&lt;br /&gt;
+
+“Yes.”&lt;br /&gt;&lt;br /&gt;
+
+Nato or non-Nato?&lt;br /&gt;&lt;br /&gt;
+
+“Either. I mean they’re mercenaries. They’ll work for pretty much anyone who pays.”&lt;br /&gt;&lt;br /&gt;
+
+It’s an incredible revelation. It also encapsulates all of the problems of outsourcing – at a global scale, with added cyberweapons. And in the middle of it all are the public – our intimate family connections, our “likes”, our crumbs of personal data, all sucked into a swirling black hole that’s expanding and growing and is now owned by a politically motivated billionaire.&lt;br /&gt;&lt;br /&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Possible ways to fight his but probably not going to happen
+
+&lt;ul&gt;
+&lt;li&gt;Strong, benovlent, incorruptible regulation&lt;/li&gt;
+&lt;li&gt;Make everybody aware of the enlightment and learn about history, philosophy and ethics&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 18 Mar 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/03/18/p1-the-facebook-data-out-in-the-wild-no-turning-back-wylie/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/03/18/p1-the-facebook-data-out-in-the-wild-no-turning-back-wylie/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Stack Overflow doesn't incentivize being nice; it incentivizes marking questions as duplicates or as poor questions as quickly as possible and answering questions as tersely as possible without emotion</title>
@@ -187,30 +231,6 @@ Difficult conversations on diversity and gender discrimination have been happeni
         <pubDate>Wed, 07 Mar 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/03/07/p1-fixed-jekyll-default-theme-font-weight-bug-might-still-be-a-firefox-bug/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/03/07/p1-fixed-jekyll-default-theme-font-weight-bug-might-still-be-a-firefox-bug/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Possible font-weight bug in Windows and Linux?!?</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;There appears to be a Firefox on Windows and Linux bug with CSS &lt;code&gt;font-weight&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;The following Windows (Linux has the bug too) screenshot shows a &lt;code&gt;font-weight&lt;/code&gt; bug where Firefox on Windows and Linux is not displaying bold text. How to fix? Change &lt;code&gt;font-weight&lt;/code&gt; to 50 from 300. &lt;strong&gt;Editing Linux files or modifying Linux files on Windows is NOT OK should be in bold!&lt;/strong&gt; (&lt;a href=&quot;http://rolandtanglao.com/2018/03/05/p1-do-not-create-change-linux-subsystem-files-from-windows/&quot;&gt;this bug was discovered from yesterday&amp;#39;s blog post&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/39952558904/in/dateposted-public/&quot; title=&quot;FF59beta Windows 10: Firefox font-weight bug in Windows and Linux: &amp;quot;Editing Linux files or modifying Linux files on Windows is NOT OK &amp;quot; should be bold, it&amp;#x27;s bold on all browsers except Firefox for Windows and Linux&quot;&gt;&lt;img src=&quot;https://farm5.staticflickr.com/4703/39952558904_40d5d78b7b_n.jpg&quot; width=&quot;320&quot; height=&quot;207&quot; alt=&quot;FF59beta Windows 10: Firefox font-weight bug in Windows and Linux: &amp;quot;Editing Linux files or modifying Linux files on Windows is NOT OK &amp;quot; should be bold, it&amp;#x27;s bold on all browsers except Firefox for Windows and Linux&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The bug doesn&amp;#39;t appear in OS X and any other browser on Linux, Android, iOS Windows and Mac as evidenced by this screenshot:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/39952634404/in/dateposted-public/&quot; title=&quot;FF58 OS X : Firefox font-weight bug in Windows and Linux: &amp;quot;Editing Linux files or modifying Linux files on Windows is NOT OK &amp;quot; should be bold, it&amp;#x27;s bold on all browsers except Firefox for Windows and Linux&quot;&gt;&lt;img src=&quot;https://farm5.staticflickr.com/4651/39952634404_d53a1169a6_n.jpg&quot; width=&quot;320&quot; height=&quot;241&quot; alt=&quot;FF58 OS X : Firefox font-weight bug in Windows and Linux: &amp;quot;Editing Linux files or modifying Linux files on Windows is NOT OK &amp;quot; should be bold, it&amp;#x27;s bold on all browsers except Firefox for Windows and Linux&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 06 Mar 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/03/06/p1-firefox-font-weight-bug-on-windows-and-linux/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/03/06/p1-firefox-font-weight-bug-on-windows-and-linux/</guid>
         
         
       </item>
