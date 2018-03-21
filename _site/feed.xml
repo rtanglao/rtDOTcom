@@ -6,9 +6,27 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 19 Mar 2018 22:21:39 -0700</pubDate>
-    <lastBuildDate>Mon, 19 Mar 2018 22:21:39 -0700</lastBuildDate>
+    <pubDate>Tue, 20 Mar 2018 22:06:15 -0700</pubDate>
+    <lastBuildDate>Tue, 20 Mar 2018 22:06:15 -0700</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>IA Writer for Windows: Control K for links doesn't work</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;IA Writer for Windows: Control K for links doesn&amp;#39;t work. Steps to reproduce: copy something to the clipboard with Control C. Highlight some text. Control K. Highlighted text gets deleted and replaced with link text&lt;/li&gt;
+&lt;li&gt;Major bug :-)&lt;/li&gt;
+&lt;li&gt;Luckily doesn&amp;#39;t seem to be something that is hard to fix.&lt;/li&gt;
+&lt;li&gt;If this bug ever gets fixed, IA Writer for Windows will be just as good as &lt;a href=&quot;http://rolandtanglao.com/2015/10/14/p2-love-ia-writer/&quot;&gt;IA Writer Mac&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 20 Mar 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/03/20/p1-ia-writer-windows-control-k-does-not-work/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/03/20/p1-ia-writer-windows-control-k-does-not-work/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Ehsan Akhgari: An overview of online ad fraud</title>
@@ -203,35 +221,6 @@ It’s an incredible revelation. It also encapsulates all of the problems of out
         <pubDate>Fri, 09 Mar 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/03/09/p1-you-dont-know-yourself-friends-and-colleagues-know-you-better/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/03/09/p1-you-dont-know-yourself-friends-and-colleagues-know-you-better/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>xiaowei: Nevertheless she coded - What does it mean to be a feminist coder in 2018?</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;From: &lt;a href=&quot;https://dev.to/xrwang/what-does-it-mean-to-be-a-feminist-coder-in-2018--25i3&quot;&gt;xiaowei: Nevertheless she coded - What does it mean to be a feminist coder in 2018?&lt;/a&gt; &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-Difficult conversations on diversity and gender discrimination have been happening across all parts of the political spectrum, including how activist and organizing communities can be inclusive across different genders and races. Many of the positive advancements over the past year have come from years of organizing within marginalized communities.
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://dev.to/xrwang/what-does-it-mean-to-be-a-feminist-coder-in-2018--25i3&quot;&gt;Read the whole thing!&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Relevant 365 days a year not just on International Women&amp;#39;s Day 2018!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 08 Mar 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/03/08/p1-what-does-it-mean-feminist-coder-2018/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/03/08/p1-what-does-it-mean-feminist-coder-2018/</guid>
         
         
       </item>
