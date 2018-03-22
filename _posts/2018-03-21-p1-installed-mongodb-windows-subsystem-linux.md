@@ -6,7 +6,7 @@ title: "Installed MongoDB on Windows Subsystem for Linux"
 ## Pontifications
  
 * I installed ongoDB on Windows Subsystem for Linux by following [Rob Aird's Setting Up Windows for Web Development](https://blog.cloudboost.io/setting-up-windows-for-web-development-28483d245a82)
-* Specifically using the following commands (make sure quotes are plan double quotes i.e. ```"``` and not fancy open and closing quotes
+* Specifically using the following commands (make sure quotes are plain ole double quotes i.e. ```"``` and not fancy open and closing quotes
 
     ```bash
     sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 0C49F3730359A14518585931BC711F9BA15703C6
