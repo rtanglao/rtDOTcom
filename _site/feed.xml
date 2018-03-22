@@ -6,9 +6,33 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 20 Mar 2018 22:06:15 -0700</pubDate>
-    <lastBuildDate>Tue, 20 Mar 2018 22:06:15 -0700</lastBuildDate>
+    <pubDate>Wed, 21 Mar 2018 23:12:38 -0700</pubDate>
+    <lastBuildDate>Wed, 21 Mar 2018 23:12:38 -0700</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Installed MongoDB on Windows Subsystem for Linux</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I installed ongoDB on Windows Subsystem for Linux by following &lt;a href=&quot;https://blog.cloudboost.io/setting-up-windows-for-web-development-28483d245a82&quot;&gt;Rob Aird&amp;#39;s Setting Up Windows for Web Development&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Specifically using the following commands (make sure quotes are plan double quotes i.e. &lt;code&gt;&amp;quot;&lt;/code&gt; and not fancy open and closing quotes&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-key adv &lt;span class=&quot;nt&quot;&gt;--keyserver&lt;/span&gt; hkp://keyserver.ubuntu.com:80 &lt;span class=&quot;nt&quot;&gt;--recv&lt;/span&gt; 0C49F3730359A14518585931BC711F9BA15703C6
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;deb [ arch=amd64,arm64 ] http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.4 multiverse&quot;&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;sudo tee&lt;/span&gt; /etc/apt/sources.list.d/mongodb-org-3.4.list
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;mongodb &lt;span class=&quot;c&quot;&gt;#(this will install an old version, but is seemingly necessary for reasons unknown)&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; mongodb-org  &lt;span class=&quot;c&quot;&gt;#(this installs the newest version)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;To start mongodb:&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;service mongodb start
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        <pubDate>Wed, 21 Mar 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/03/21/p1-installed-mongodb-windows-subsystem-linux/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/03/21/p1-installed-mongodb-windows-subsystem-linux/</guid>
+        
+        
+      </item>
     
       <item>
         <title>IA Writer for Windows: Control K for links doesn't work</title>
@@ -195,32 +219,6 @@ It’s an incredible revelation. It also encapsulates all of the problems of out
         <pubDate>Sat, 10 Mar 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/03/10/p1-more-switching-to-windows-thoughts/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/03/10/p1-more-switching-to-windows-thoughts/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>The Atlantic: Adam Grant: You don't know yourself as well as your colleagues and friends do</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.theatlantic.com/health/archive/2018/03/you-dont-know-yourself-as-well-as-you-think-you-do/554612/&quot;&gt;The Atlantic: Adam Grant: You don&amp;#39;t know yourself as well as your colleagues and friends do&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;So true!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-
-&quot;Put yourself in situations where you can’t ignore feedback from multiple sources. In studies, one friend is only a little better at gauging a person’s intelligence and creativity than they themselves are; four friends are significantly better. When I infiltrated the writers’ room at The Daily Show, the host, Trevor Noah, told me he makes up 90 percent of his stand-up comedy on stage. He just starts riffing on topics and gets instant input on what’s funny from a whole crowd. And at Bridgewater, the ratings are weighted by how believable your colleagues have proven themselves to be in each domain. When five of your close colleagues have a track record of being highly organized and they all say you’re not, it’s tough to argue that you’re right and they’re wrong.&quot;
-
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 09 Mar 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/03/09/p1-you-dont-know-yourself-friends-and-colleagues-know-you-better/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/03/09/p1-you-dont-know-yourself-friends-and-colleagues-know-you-better/</guid>
         
         
       </item>
