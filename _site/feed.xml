@@ -6,8 +6,8 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 25 Mar 2018 13:09:03 -0700</pubDate>
-    <lastBuildDate>Sun, 25 Mar 2018 13:09:03 -0700</lastBuildDate>
+    <pubDate>Sun, 25 Mar 2018 18:50:22 -0700</pubDate>
+    <lastBuildDate>Sun, 25 Mar 2018 18:50:22 -0700</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
@@ -15,10 +15,11 @@
         <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Having Surface Book 2 WiFi 802.11ac issues: &lt;code&gt;ipconfig /release&lt;/code&gt; and then &lt;code&gt;ipconfig /renew&lt;/code&gt;` in powershell seems to fix it
+&lt;li&gt;Having Surface Book 2 WiFi 802.11ac issues: &lt;code&gt;ipconfig /release&lt;/code&gt; and then &lt;code&gt;ipconfig /renew&lt;/code&gt; in powershell seems to fix it
 
 &lt;ul&gt;
 &lt;li&gt;the above fix was found by a google search that turned up reddit:&lt;a href=&quot;https://www.reddit.com/r/Surface/comments/7dtr5b/new_surface_book_2_same_bs_marvell_wifi_fails_help/&quot;&gt;New Surface Book 2, same BS Marvell WiFi fails... (help) &lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;Note: I don&amp;#39;t have these issues with 802.11ac wifi on OS X, Android or iOS (so it&amp;#39;s probably driver related?!?)&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
