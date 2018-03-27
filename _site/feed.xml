@@ -6,9 +6,39 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 25 Mar 2018 18:50:22 -0700</pubDate>
-    <lastBuildDate>Sun, 25 Mar 2018 18:50:22 -0700</lastBuildDate>
+    <pubDate>Mon, 26 Mar 2018 22:09:29 -0700</pubDate>
+    <lastBuildDate>Mon, 26 Mar 2018 22:09:29 -0700</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Altair is ggplot2 for python and vega? Yes please!</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Altair is ggplot2 for python and vega? Yes please!&lt;/li&gt;
+&lt;li&gt;Check out &lt;a href=&quot;http://vallandingham.me/altair_intro.html&quot;&gt;Jim Vallandingham&amp;#39;s An Introduction to Altair&lt;/a&gt;, juicy quote:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote&gt;&lt;/p&gt;
+
+&lt;p&gt;Recently I attended a wonderful talk by Jake VanderPlas (and hosted by the always astute Eli Bressert) about a wonderful package he has been working on to make visualization in python easier.&lt;/p&gt;
+
+&lt;p&gt;As a long time ggplot2 user, I’m quick to bemoan the challenges of succinctly visualizing data in python. While there are many visualization packages out there, none of them seem to approach the intuitiveness, completeness, and consistency found in R’s go-to tooling.&lt;/p&gt;
+
+&lt;p&gt;I’m happy to say that this new python package Altair might put an end to my grumblings (and yours) once and for all.&lt;/p&gt;
+
+&lt;p&gt;&lt;/blockquote&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 26 Mar 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/03/26/p1-altair-ggplot2-for-python-and-vega/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/03/26/p1-altair-ggplot2-for-python-and-vega/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Having Surface Book 2 WiFi 802.11ac issues: ipconfig /release and then ipconfig /renew seems to fix it</title>
@@ -207,25 +237,6 @@ It’s an incredible revelation. It also encapsulates all of the problems of out
         <pubDate>Sat, 17 Mar 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/03/17/p1-stack-overflow-doesnt-incentivize-being-nice-so-question-askers-and-answers-are-rude/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/03/17/p1-stack-overflow-doesnt-incentivize-being-nice-so-question-askers-and-answers-are-rude/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>What's your personal transit utopia in your town? Mine is autonomous, self guided transit i.e. buses supplemented by autonomous taxis</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;What&amp;#39;s your personal transit utopia in your town? Mine is autonomous, self guided transit and transport i.e. buses  and trucks supplemented by autonomous taxis in the city of Vancouver. And it&amp;#39;s free and it&amp;#39;s strongly regulated by the government :-) #ymmv&lt;/li&gt;
-&lt;li&gt;Speed limit of 20km/h with only 1.5 lanes needed since only the AGVs drive and thereby freeing up physically separated space for pedestrians, and bicycles to co-exist safely.&lt;/li&gt;
-&lt;li&gt;I doubt the above will happen but I think in the absence of &lt;a href=&quot;http://rolandtanglao.com/2018/03/11/p1-artificial-general-intelligence-wont-happen-before-2029/&quot;&gt;&amp;quot;true AI&amp;quot;&lt;/a&gt;, it&amp;#39;s about the only autonomous guided vehicle vision that will work in the city of Vancouver.&lt;/li&gt;
-&lt;li&gt;As for the suburbs I have no idea, could it work there? I don&amp;#39;t think so, not enough density to work without true AI.&lt;/li&gt;
-&lt;li&gt;Again, I doubt this will actually happen but sometimes you have to put your vision out there no matter how unlikely :-)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 16 Mar 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/03/16/p1-self-guided-vehicles-personal-utopia-self-guided-transit/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/03/16/p1-self-guided-vehicles-personal-utopia-self-guided-transit/</guid>
         
         
       </item>
