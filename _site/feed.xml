@@ -6,9 +6,27 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 27 Mar 2018 17:44:31 -0700</pubDate>
-    <lastBuildDate>Tue, 27 Mar 2018 17:44:31 -0700</lastBuildDate>
+    <pubDate>Wed, 28 Mar 2018 23:14:28 -0700</pubDate>
+    <lastBuildDate>Wed, 28 Mar 2018 23:14:28 -0700</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Windows files are UTF-16 NOT UTF8, how to read them in ruby: 'rb:bom|utf-16'</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;p&gt;From &lt;a href=&quot;https://github.com/rtanglao/rt-fennec-gplay/blob/master/read-reviews-replies.rb&quot;&gt;read-reviews-replies.rb&lt;/a&gt; :&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;CSV&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;ARGV&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'rb:bom|utf-16'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:headers&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;csv&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;csv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;row&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ap&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;row&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;where: &lt;code&gt;rb&lt;/code&gt; is read, binary (utf16 files are not text files!)&lt;/p&gt;
+</description>
+        <pubDate>Wed, 28 Mar 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/03/28/p1-windows-files-are-utf16-not-utf8-how-to-read-them-in-ruby/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/03/28/p1-windows-files-are-utf16-not-utf8-how-to-read-them-in-ruby/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Installed ruby 2.5.0 on Windows 10, couldn't get rvm or rbenv to work</title>
@@ -190,50 +208,6 @@ make
         <pubDate>Mon, 19 Mar 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/03/19/p1-ehasan-akhgari-an-overview-of-online-ad-fraud/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/03/19/p1-ehasan-akhgari-an-overview-of-online-ad-fraud/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>The Guardian: Carole Cadwalladr writing about Canadian Christopher Wylie: 'The Facebook data is out in the wild. And for all Wylie’s efforts, there’s no turning the clock back.'</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.theguardian.com/news/2018/mar/17/data-war-whistleblower-christopher-wylie-faceook-nix-bannon-trump&quot;&gt;From The Cambridge Analytica Files ‘I made Steve Bannon’s psychological warfare tool’: meet the data war whistleblower&lt;/a&gt; :&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-
-Millions of people’s personal information was stolen and used to target them in ways they wouldn’t have seen, and couldn’t have known about, by a mercenary outfit, Cambridge Analytica, who, Wylie says, “would work for anyone”. Who would pitch to Russian oil companies. Would they subvert elections abroad on behalf of foreign governments? &lt;br /&gt;&lt;br /&gt;
-
-It occurs to me to ask Wylie this one night.&lt;br /&gt;&lt;br /&gt;
-
-“Yes.”&lt;br /&gt;&lt;br /&gt;
-
-Nato or non-Nato?&lt;br /&gt;&lt;br /&gt;
-
-“Either. I mean they’re mercenaries. They’ll work for pretty much anyone who pays.”&lt;br /&gt;&lt;br /&gt;
-
-It’s an incredible revelation. It also encapsulates all of the problems of outsourcing – at a global scale, with added cyberweapons. And in the middle of it all are the public – our intimate family connections, our “likes”, our crumbs of personal data, all sucked into a swirling black hole that’s expanding and growing and is now owned by a politically motivated billionaire.&lt;br /&gt;&lt;br /&gt;
-
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Possible ways to fight his but probably not going to happen
-
-&lt;ul&gt;
-&lt;li&gt;Strong, benovlent, incorruptible regulation&lt;/li&gt;
-&lt;li&gt;Make everybody aware of the enlightment and learn about history, philosophy and ethics&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 18 Mar 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/03/18/p1-the-facebook-data-out-in-the-wild-no-turning-back-wylie/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/03/18/p1-the-facebook-data-out-in-the-wild-no-turning-back-wylie/</guid>
         
         
       </item>
