@@ -6,9 +6,32 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 28 Mar 2018 23:14:28 -0700</pubDate>
-    <lastBuildDate>Wed, 28 Mar 2018 23:14:28 -0700</lastBuildDate>
+    <pubDate>Thu, 29 Mar 2018 20:22:52 -0700</pubDate>
+    <lastBuildDate>Thu, 29 Mar 2018 20:22:52 -0700</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Google Play Store Review spreadsheets are UTF-16 not UTF-8, best to convert to UTF-8 using iconv</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Following up from &lt;a href=&quot;http://rolandtanglao.com/2018/03/28/p1-windows-files-are-utf16-not-utf8-how-to-read-them-in-ruby/&quot;&gt;yesterday&amp;#39;s Windows files are UTF-16 NOT UTF8, how to read them in ruby: &amp;#39;rb:bom|utf-16&amp;#39;&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Google Play Store Review spreadsheets are in UTF-16 not UTF-8 for some strange reason.&lt;/li&gt;
+&lt;li&gt;Most tools like ruby expect UTF-8 and work better with UTF-8&lt;/li&gt;
+&lt;li&gt;Therefore convert to UTF-8 as follows using iconv:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt; iconv &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; UTF-16 &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; UTF-8 utf16-spreadsheet-from-gplay-reviews.csv &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;utf8-spreadsheet-from-gplay-reviews.csv
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 29 Mar 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/03/29/p1-best-to-convert-google-play-store-reviews-utf16-utf8-iconv/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/03/29/p1-best-to-convert-google-play-store-reviews-utf16-utf8-iconv/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Windows files are UTF-16 NOT UTF8, how to read them in ruby: 'rb:bom|utf-16'</title>
@@ -191,23 +214,6 @@ make
         <pubDate>Tue, 20 Mar 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/03/20/p1-ia-writer-windows-control-k-does-not-work/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/03/20/p1-ia-writer-windows-control-k-does-not-work/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Ehsan Akhgari: An overview of online ad fraud</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://ehsanakhgari.org/blog/2018-03-13/an-overview-of-online-ad-fraud#comments&quot;&gt;Ehsan Akhgari: An overview of online ad fraud&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Read it and weep :-)&lt;/li&gt;
-&lt;li&gt;Internet ads, blockchain, are two of many things I&amp;#39;d like to learn about :-) (Also Rust, functional programming, probabilistic programming, machine learning, etc etc :-) !)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 19 Mar 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/03/19/p1-ehasan-akhgari-an-overview-of-online-ad-fraud/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/03/19/p1-ehasan-akhgari-an-overview-of-online-ad-fraud/</guid>
         
         
       </item>
