@@ -6,9 +6,27 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 29 Mar 2018 20:22:52 -0700</pubDate>
-    <lastBuildDate>Thu, 29 Mar 2018 20:22:52 -0700</lastBuildDate>
+    <pubDate>Fri, 30 Mar 2018 23:38:32 -0700</pubDate>
+    <lastBuildDate>Fri, 30 Mar 2018 23:38:32 -0700</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Software development isn't easy, adding features is hard with current software technology #brokenRecord</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;For the moment since we for the most part use 1950s technology like Java, C++, etc, software development is &lt;a href=&quot;http://rolandtanglao.com/2017/02/16/p1-dumbed-down-excel-or-1950s-r/&quot;&gt;stupid&lt;/a&gt;  and hard.&lt;/li&gt;
+&lt;li&gt;It&amp;#39;s hard to add a feature and not break existing features. (It&amp;#39;s easy to add features to a small app where there is only 1 user, the developer; but for something that works for millions of people on millions of computers and phones and tablets it ain&amp;#39;t easy to make something usable by normal folks)&lt;/li&gt;
+&lt;li&gt;It&amp;#39;s easy for an OS update or some other update in the layers of software below an app to break that app.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2017/03/01/p1-themes-like-uis-are-something-users-unfortunately-cant-really-control-without-secure-reliable-components/&quot;&gt;The answer of course is true, secure components&lt;/a&gt;  and we might just get there with 21st century software technology like &lt;a href=&quot;https://www.rust-lang.org/en-US/&quot;&gt;Rust&lt;/a&gt; .&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 30 Mar 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/03/30/p1-software-development-is-hard-adding-features-is-not-trivial/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/03/30/p1-software-development-is-hard-adding-features-is-not-trivial/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Google Play Store Review spreadsheets are UTF-16 not UTF-8, best to convert to UTF-8 using iconv</title>
@@ -196,24 +214,6 @@ make
         <pubDate>Wed, 21 Mar 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/03/21/p1-installed-mongodb-windows-subsystem-linux/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/03/21/p1-installed-mongodb-windows-subsystem-linux/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>IA Writer for Windows: Control K for links doesn't work</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;IA Writer for Windows: Control K for links doesn&amp;#39;t work. Steps to reproduce: copy something to the clipboard with Control C. Highlight some text. Control K. Highlighted text gets deleted and replaced with link text&lt;/li&gt;
-&lt;li&gt;Major bug :-)&lt;/li&gt;
-&lt;li&gt;Luckily doesn&amp;#39;t seem to be something that is hard to fix.&lt;/li&gt;
-&lt;li&gt;If this bug ever gets fixed, IA Writer for Windows will be just as good as &lt;a href=&quot;http://rolandtanglao.com/2015/10/14/p2-love-ia-writer/&quot;&gt;IA Writer Mac&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 20 Mar 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/03/20/p1-ia-writer-windows-control-k-does-not-work/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/03/20/p1-ia-writer-windows-control-k-does-not-work/</guid>
         
         
       </item>
