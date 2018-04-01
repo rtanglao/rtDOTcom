@@ -6,15 +6,31 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 30 Mar 2018 23:57:56 -0700</pubDate>
-    <lastBuildDate>Fri, 30 Mar 2018 23:57:56 -0700</lastBuildDate>
+    <pubDate>Sat, 31 Mar 2018 22:53:31 -0700</pubDate>
+    <lastBuildDate>Sat, 31 Mar 2018 22:53:31 -0700</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Probably Wrong 2029 Prediction :-) : No conversational speech recognition with a bot in a restaurant server situation</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Probably Wrong 2029 Prediction :-) : No conversational speech recognition with a bot in a restaurant server situation&lt;/li&gt;
+&lt;li&gt;Of course I could be wrong and &lt;a href=&quot;http://rolandtanglao.com/2018/03/11/p1-artificial-general-intelligence-wont-happen-before-2029/&quot;&gt;we could have an artificial general intelligence breakthrough&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 31 Mar 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/03/31/p1-probably-wrong-prediction-no-restaurant-conversational-ai-by-2029/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/03/31/p1-probably-wrong-prediction-no-restaurant-conversational-ai-by-2029/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Software development isn't easy, adding features is hard with current software technology #brokenRecord</title>
         <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
 
-&lt;p&gt;[I of course wrote this before on December 17, 2016 :-) &lt;a href=&quot;link_url&quot;&gt;Software is hard and won&amp;#39;t be what users want until there is security and real layers and components&lt;/a&gt; ]&lt;/p&gt;
+&lt;p&gt;[I of course wrote this before on December 17, 2016 :-) &lt;a href=&quot;http://rolandtanglao.com/2016/12/17/p1-software-is-hard-no-clean-separation-or-componentization/&quot;&gt;Software is hard and won&amp;#39;t be what users want until there is security and real layers and components&lt;/a&gt; ]&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;For the moment since we for the most part use 1950s technology like Java, C++, etc, software development is &lt;a href=&quot;http://rolandtanglao.com/2017/02/16/p1-dumbed-down-excel-or-1950s-r/&quot;&gt;stupid&lt;/a&gt;  and hard.&lt;/li&gt;
@@ -192,30 +208,6 @@ make
         <pubDate>Thu, 22 Mar 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/03/22/p1-google-play-versus-ios-app-store-review-reply-limits/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/03/22/p1-google-play-versus-ios-app-store-review-reply-limits/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Installed MongoDB on Windows Subsystem for Linux</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I installed ongoDB on Windows Subsystem for Linux by following &lt;a href=&quot;https://blog.cloudboost.io/setting-up-windows-for-web-development-28483d245a82&quot;&gt;Rob Aird&amp;#39;s Setting Up Windows for Web Development&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Specifically using the following commands (make sure quotes are plain ole double quotes i.e. &lt;code&gt;&amp;quot;&lt;/code&gt; and not fancy open and closing quotes&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-key adv &lt;span class=&quot;nt&quot;&gt;--keyserver&lt;/span&gt; hkp://keyserver.ubuntu.com:80 &lt;span class=&quot;nt&quot;&gt;--recv&lt;/span&gt; 0C49F3730359A14518585931BC711F9BA15703C6
-&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;deb [ arch=amd64,arm64 ] http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.4 multiverse&quot;&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;sudo tee&lt;/span&gt; /etc/apt/sources.list.d/mongodb-org-3.4.list
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;mongodb &lt;span class=&quot;c&quot;&gt;#(this will install an old version, but is seemingly necessary for reasons unknown)&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; mongodb-org  &lt;span class=&quot;c&quot;&gt;#(this installs the newest version)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;To start mongodb:&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;service mongodb start
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        <pubDate>Wed, 21 Mar 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/03/21/p1-installed-mongodb-windows-subsystem-linux/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/03/21/p1-installed-mongodb-windows-subsystem-linux/</guid>
         
         
       </item>
