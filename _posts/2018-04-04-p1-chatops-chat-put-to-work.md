@@ -18,12 +18,12 @@ They are expanding the definition of ChatOps and breaking new ground when it com
 
 * I've talked about this before but this is the logical conclusion (and it could have been done with email instead of chat)
 	* Bots/assistants with human help and without human help take chats and
-	* put the appropriate stuff from chat into CRM
-	* put the appropriate stuff into the appropriate wiki page or blog or google doc
-	* put the appropriate stuff into a spreadsheet
-	* put the appropriate stuff into a calendar
-	* put the appropriate stuff into the appropriate container
-	* etc etc
+		* put the appropriate stuff from chat into CRM
+		* put the appropriate stuff into the appropriate wiki page or blog or google doc
+		* put the appropriate stuff into a spreadsheet
+		* put the appropriate stuff into a calendar
+		* put the appropriate stuff into the appropriate container
+		* etc etc
 	
 	
  
