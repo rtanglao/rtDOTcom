@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 05 Apr 2018 20:31:48 -0700</pubDate>
-    <lastBuildDate>Thu, 05 Apr 2018 20:31:48 -0700</lastBuildDate>
+    <pubDate>Fri, 06 Apr 2018 18:54:46 -0700</pubDate>
+    <lastBuildDate>Fri, 06 Apr 2018 18:54:46 -0700</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Nathan Yau:How to Make Chord Diagrams in R</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Another great tutorial from Flowing Data and Nathan Yau: &lt;a href=&quot;https://flowingdata.com/2018/04/06/how-to-make-chord-diagrams-in-r/&quot;&gt;How to Make Chord Diagrams in R&lt;/a&gt;&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 06 Apr 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/04/06/p1-nathan-yau-how-to-make-chord-diagrams-in-r/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/04/06/p1-nathan-yau-how-to-make-chord-diagrams-in-r/</guid>
+        
+        
+      </item>
     
       <item>
         <title>I disagree with: 'Alexis Madrigal:The Atlantic:The Most Important Self-Driving Car Announcement Yet--Autonomous vehicles will transform urban life by 2020, if Waymo’s time line is correct' yes it will transform dense urban core life by 2029 not 2020 but it won't transform the suburbs</title>
@@ -22,8 +37,7 @@
 
 &lt;blockquote&gt;
 
-&quot;But the qualitative impact will be even bigger. Right now, maybe 10,000 or 20,000 people have ever ridden in a self-driving car, in any context. Far fewer have been in a vehicle that is truly absent a driver. Up to a million people could have that experience every day in 2020.
-
+&quot;But the qualitative impact will be even bigger. Right now, maybe 10,000 or 20,000 people have ever ridden in a self-driving car, in any context. Far fewer have been in a vehicle that is truly absent a driver. Up to a million people could have that experience every day in 2020.&lt;br /&gt;&lt;br /&gt;
 
 2020 is not some distant number. It’s hardly even a projection. By laying out this time line yesterday, Waymo is telling the world: Get ready, this is really happening. This is autonomous driving at scale, and not in five years or 10 years or 50 years, but in two years or less.&quot;
 
@@ -219,27 +233,6 @@ At the extreme end of ChatOps, we see teams that have automated large portions o
         <pubDate>Wed, 28 Mar 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/03/28/p1-windows-files-are-utf16-not-utf8-how-to-read-them-in-ruby/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/03/28/p1-windows-files-are-utf16-not-utf8-how-to-read-them-in-ruby/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Installed ruby 2.5.0 on Windows 10, couldn't get rvm or rbenv to work</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;p&gt;From &lt;a href=&quot;https://gorails.com/setup/ubuntu/16.04&quot;&gt;Setup Ruby On Rails on Ubuntu 16.04 Xenial Xerus&lt;/a&gt;, here&amp;#39;s how I installed ruby 2.5.0 on Windows 10 (I couldn&amp;#39;t get rbenv to work and the CSV gem wouldn&amp;#39;t work on &lt;a href=&quot;http://rolandtanglao.com/2018/02/27/p1-jekyll-surge-windows/&quot;&gt;ruby 2.3 which is what I installed before&lt;/a&gt; )&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cd
-&lt;/span&gt;wget http://ftp.ruby-lang.org/pub/ruby/2.5/ruby-2.5.0.tar.gz
-&lt;span class=&quot;nb&quot;&gt;tar&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-xzvf&lt;/span&gt; ruby-2.5.0.tar.gz
-&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;ruby-2.5.0/
-./configure
-make
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;make &lt;span class=&quot;nb&quot;&gt;install
-&lt;/span&gt;ruby &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        <pubDate>Tue, 27 Mar 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/03/27/p1-how-to-install-ruby-25-on-windows10-wsl/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/03/27/p1-how-to-install-ruby-25-on-windows10-wsl/</guid>
         
         
       </item>
