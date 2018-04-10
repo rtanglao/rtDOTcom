@@ -6,9 +6,33 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 08 Apr 2018 21:01:26 -0700</pubDate>
-    <lastBuildDate>Sun, 08 Apr 2018 21:01:26 -0700</lastBuildDate>
+    <pubDate>Mon, 09 Apr 2018 20:49:37 -0700</pubDate>
+    <lastBuildDate>Mon, 09 Apr 2018 20:49:37 -0700</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>No unique identifier in Google Play's CSV file of supported devices</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Hilariously bad :-) : No unique identifier in Google Play&amp;#39;s CSV file of supported devices&lt;/li&gt;
+&lt;li&gt;Maybe Google has it but doesn&amp;#39;t want to export it or maybe Android just doesn&amp;#39;t have it due to a bad design decision at the beginning of Android? Maybe something else :-) ?!?&lt;/li&gt;
+&lt;li&gt;Anyhow if I hash together all 4 fields: Retail Branding, Marketing Name, Device and Model, I do get something unique, hooray&lt;/li&gt;
+&lt;li&gt;Here&amp;#39;s the code from: &lt;a href=&quot;https://github.com/rtanglao/rt-fennec-gplay/blob/master/synthetic_add_device_branding_marketing_model.rb&quot;&gt;synthetic&lt;em&gt;add&lt;/em&gt;device&lt;em&gt;branding&lt;/em&gt;marketing_model.rb&lt;/a&gt;  :&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;id_hashstr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;id_hashstr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;d1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Retail Branding&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Retail Branding&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;nil?&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;id_hashstr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;d1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Marketing Name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Marketing Name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;nil?&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;id_hashstr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;d1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Device&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Device&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;nil?&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;id_hashstr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;d1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Model&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Model&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;nil?&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;d1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;id&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Digest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;SHA2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;256&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;hexdigest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;id_hashstr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        <pubDate>Mon, 09 Apr 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/04/09/p1-no-unique-identifier-in-google-play-supported-devices-csv-file/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/04/09/p1-no-unique-identifier-in-google-play-supported-devices-csv-file/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Mongodb query in javascript showing '$or' syntax</title>
@@ -203,26 +227,6 @@ At the extreme end of ChatOps, we see teams that have automated large portions o
         <pubDate>Sat, 31 Mar 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/03/31/p1-probably-wrong-prediction-no-restaurant-conversational-ai-by-2029/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/03/31/p1-probably-wrong-prediction-no-restaurant-conversational-ai-by-2029/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Software development isn't easy, adding features is hard with current software technology #brokenRecord</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;p&gt;[I of course wrote this before on December 17, 2016 :-) &lt;a href=&quot;http://rolandtanglao.com/2016/12/17/p1-software-is-hard-no-clean-separation-or-componentization/&quot;&gt;Software is hard and won&amp;#39;t be what users want until there is security and real layers and components&lt;/a&gt; ]&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;For the moment since we for the most part use 1950s technology like Java, C++, etc, software development is &lt;a href=&quot;http://rolandtanglao.com/2017/02/16/p1-dumbed-down-excel-or-1950s-r/&quot;&gt;stupid&lt;/a&gt;  and hard.&lt;/li&gt;
-&lt;li&gt;It&amp;#39;s hard to add a feature and not break existing features. (It&amp;#39;s easy to add features to a small app where there is only 1 user, the developer; but for something that works for millions of people on millions of computers and phones and tablets it ain&amp;#39;t easy to make something usable by normal folks)&lt;/li&gt;
-&lt;li&gt;It&amp;#39;s easy for an OS update or some other update in the layers of software below an app to break that app.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2017/03/01/p1-themes-like-uis-are-something-users-unfortunately-cant-really-control-without-secure-reliable-components/&quot;&gt;The answer of course is true, secure components&lt;/a&gt;  and we might just get there with 21st century software technology like &lt;a href=&quot;https://www.rust-lang.org/en-US/&quot;&gt;Rust&lt;/a&gt; .&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 30 Mar 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/03/30/p1-software-development-is-hard-adding-features-is-not-trivial/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/03/30/p1-software-development-is-hard-adding-features-is-not-trivial/</guid>
         
         
       </item>
