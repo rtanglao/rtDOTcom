@@ -68,7 +68,7 @@
 <li>Hilariously bad :-) : No unique identifier in Google Play&#39;s CSV file of supported devices</li>
 <li>Maybe Google has it but doesn&#39;t want to export it or maybe Android just doesn&#39;t have it due to a bad design decision at the beginning of Android? Maybe something else :-) ?!?</li>
 <li>Anyhow if I hash together all 4 fields: Retail Branding, Marketing Name, Device and Model, I do get something unique, hooray</li>
-<li>Here&#39;s the code from: <a href="https://github.com/rtanglao/rt-fennec-gplay/blob/master/synthetic_add_device_branding_marketing_model.rb">synthetic<em>add</em>device<em>branding</em>marketing_model.rb</a>  :</li>
+<li>Here&#39;s the code from: <a href="https://github.com/rtanglao/rt-fennec-gplay/blob/master/synthetic_add_device_branding_marketing_model.rb">synthetic_add_device_branding_marketing_model.rb</a>  :</li>
 </ul>
 <div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">id_hashstr</span> <span class="o">=</span> <span class="s2">""</span>
 <span class="n">id_hashstr</span> <span class="o">+=</span>  <span class="n">d1</span><span class="p">[</span><span class="s2">"Retail Branding"</span><span class="p">]</span> <span class="k">if</span> <span class="o">!</span><span class="n">d1</span><span class="p">[</span><span class="s2">"Retail Branding"</span><span class="p">].</span><span class="nf">nil?</span>

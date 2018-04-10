@@ -8,7 +8,7 @@ title: "No unique identifier in Google Play's CSV file of supported devices"
 * Hilariously bad :-) : No unique identifier in Google Play's CSV file of supported devices
 * Maybe Google has it but doesn't want to export it or maybe Android just doesn't have it due to a bad design decision at the beginning of Android? Maybe something else :-) ?!?
 * Anyhow if I hash together all 4 fields: Retail Branding, Marketing Name, Device and Model, I do get something unique, hooray
-* Here's the code from: [synthetic_add_device_branding_marketing_model.rb](https://github.com/rtanglao/rt-fennec-gplay/blob/master/synthetic_add_device_branding_marketing_model.rb)  :
+* Here's the code from: [synthetic\_add\_device\_branding\_marketing\_model.rb](https://github.com/rtanglao/rt-fennec-gplay/blob/master/synthetic_add_device_branding_marketing_model.rb)  :
 
  
 ```ruby
