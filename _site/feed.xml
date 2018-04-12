@@ -6,9 +6,31 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 10 Apr 2018 20:53:54 -0700</pubDate>
-    <lastBuildDate>Tue, 10 Apr 2018 20:53:54 -0700</lastBuildDate>
+    <pubDate>Wed, 11 Apr 2018 21:17:28 -0700</pubDate>
+    <lastBuildDate>Wed, 11 Apr 2018 21:17:28 -0700</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Bookdown Tutorials for making books in R via hrbrmstr's posts on twitter in R</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Sean Kross: &lt;a href=&quot;https://leanpub.com/msdr&quot;&gt;How to Start a Bookdown Book&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;Yihui Xie: &lt;a href=&quot;https://bookdown.org/yihui/bookdown/&quot;&gt;bookdown: Authoring Books and Technical Documents with R Markdown&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;The above two links via hrbrmstr&amp;#39;s posts on twitter in R:
+
+&lt;ul&gt;
+&lt;li&gt;A bookdown &lt;a href=&quot;https://rud.is/b/2018/01/05/a-bookdown-hello-world-twenty-one-minus-two-recipes-for-mining-twitter/&quot;&gt;“Hello World” : Twenty-one (minus two) Recipes for Mining Twitter with rtweet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://rud.is/b/2018/01/15/cant-stop-at-21-twitter-recipe-22-tying-up-loose-threads/&quot;&gt;Can’t Stop at 21: Twitter Recipe #22 — Tying Up Loose Threads&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 11 Apr 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/04/11/p1-bookdown-tutorial-hrbmstr-tweets/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/04/11/p1-bookdown-tutorial-hrbmstr-tweets/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Only a strong and democratic world government and strong regulation  by that government will save us from climate change and digital malfeasance</title>
@@ -202,30 +224,6 @@ At the extreme end of ChatOps, we see teams that have automated large portions o
         <pubDate>Mon, 02 Apr 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/04/02/p1-making-slides-in-3-slides-summarize-your-thesis-story/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/04/02/p1-making-slides-in-3-slides-summarize-your-thesis-story/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Probably Wrong 2029 Prediction :-) : No self-driving cars and vehicles outside city cores</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Probably Wrong 2029 Prediction :-) : No self-driving cars and vehicles outside city cores&lt;/li&gt;
-&lt;li&gt;Of course I could be wrong and &lt;a href=&quot;http://rolandtanglao.com/2018/03/11/p1-artificial-general-intelligence-wont-happen-before-2029/&quot;&gt;we could have an artificial general intelligence breakthrough&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;Why?
-
-&lt;ul&gt;
-&lt;li&gt;Law suits&lt;/li&gt;
-&lt;li&gt;We need a breakthrough for truly adaptive self driving&lt;/li&gt;
-&lt;li&gt;The city cores already have the dense infrastructure in many cities like Vancouver and San Francisco (e.g. trolleybus wires are places for sensors and radars and cameras and there are plenty of places in city cores to add these sorts of things) to allow safe 20km/h self driving buses and mini-buses &lt;/li&gt;
-&lt;li&gt;As I wrote before: &amp;quot;bring it on! self guided buses and self guided taxis controlled by proactive government regulation not by the &amp;#39;market&amp;#39; which will s*ck at this but not Tesla&amp;#39;s dream or R2D2&amp;quot;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 01 Apr 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/04/01/p1-probably-wrong-2029-prediction-no-self-driving-cars-outside-city-cores/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/04/01/p1-probably-wrong-2029-prediction-no-self-driving-cars-outside-city-cores/</guid>
         
         
       </item>
