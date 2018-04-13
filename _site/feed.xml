@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 11 Apr 2018 21:17:28 -0700</pubDate>
-    <lastBuildDate>Wed, 11 Apr 2018 21:17:28 -0700</lastBuildDate>
+    <pubDate>Thu, 12 Apr 2018 20:13:58 -0700</pubDate>
+    <lastBuildDate>Thu, 12 Apr 2018 20:13:58 -0700</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Had to Reboot my Surface Book 2 again (twice in two weeks) to get WiFi working, ipconfig dance didn't work</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Had to Reboot my Surface Book 2 again (twice in two weeks) to get WiFi working&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;ipconfig /release&lt;/code&gt; and then &lt;code&gt;ipconfig /renew&lt;/code&gt;  &lt;a href=&quot;http://rolandtanglao.com/2018/03/25/p1-having-surface-book-2-80211ac-wifi-issues-ipconfig-release-renew-seems-to-fix-it/&quot;&gt;powershell dance&lt;/a&gt;  didn&amp;#39;t work after a week!&lt;/li&gt;
+&lt;li&gt;Other than this major :-) complaint, really like the computer and Windows 10 especially the Windows Subsystem for Linux.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 12 Apr 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/04/12/p1-had-to-reboot-to-get-wifi-working-on-surface-book2/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/04/12/p1-had-to-reboot-to-get-wifi-working-on-surface-book2/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Bookdown Tutorials for making books in R via hrbrmstr's posts on twitter in R</title>
@@ -205,25 +222,6 @@ At the extreme end of ChatOps, we see teams that have automated large portions o
         <pubDate>Tue, 03 Apr 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/04/03/p1-note8-android-8-oreo-update-03april2018/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/04/03/p1-note8-android-8-oreo-update-03april2018/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>In 3 slides visualize your thesis/story inspired by Kieran Healy's Making Slides</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Probably Wrong way to make slides but my mantra: &amp;quot;In 3 slides visualize (not outline!!!!) your thesis/story&amp;quot;&lt;/li&gt;
-&lt;li&gt;If you can&amp;#39;t do it in the first 3 slides then I&amp;#39;ll fall asleep :-)&lt;/li&gt;
-&lt;li&gt;Also I love the idea of deliberately leaving things out and having slides for them in reserve for the Q&amp;amp;A (and leaving plenty i.e. most of the time for Q&amp;amp;A)&lt;/li&gt;
-&lt;li&gt;Inspired by &lt;a href=&quot;https://kieranhealy.org/blog/archives/2018/03/24/making-slides/&quot;&gt;Kieran Healy&amp;#39;s Making Slides&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;Maybe this is why I don&amp;#39;t give many talks :-) ?!?!?&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 02 Apr 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/04/02/p1-making-slides-in-3-slides-summarize-your-thesis-story/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/04/02/p1-making-slides-in-3-slides-summarize-your-thesis-story/</guid>
         
         
       </item>
