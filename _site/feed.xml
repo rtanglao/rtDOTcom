@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 12 Apr 2018 20:13:58 -0700</pubDate>
-    <lastBuildDate>Thu, 12 Apr 2018 20:13:58 -0700</lastBuildDate>
+    <pubDate>Fri, 13 Apr 2018 22:18:44 -0700</pubDate>
+    <lastBuildDate>Fri, 13 Apr 2018 22:18:44 -0700</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>NoSQL Manager for MongoDB Professional seems cool but expensive but Windows only, another one to try is RazorSQL any free MongoDB GUI tools on Windows that allow export to CSV?</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.mongodbmanager.com/&quot;&gt;NoSQL Manager for MongoDB Professional&lt;/a&gt;  seems cool but expensive but Windows only, another one to try is &lt;a href=&quot;https://razorsql.com/index.html&quot;&gt;RazorSQL&lt;/a&gt; as well as a tool I&amp;#39;ve used on OS X in the past: &lt;a href=&quot;https://studio3t.com/&quot;&gt;Studio 3T&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Any free MongoDB GUI tools on Windows that allow export to CSV?&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 13 Apr 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/04/13/p1-no-sql-manager-for-mongodb-professional-better-tool-razorsql/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/04/13/p1-no-sql-manager-for-mongodb-professional-better-tool-razorsql/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Had to Reboot my Surface Book 2 again (twice in two weeks) to get WiFi working, ipconfig dance didn't work</title>
@@ -203,25 +219,6 @@ At the extreme end of ChatOps, we see teams that have automated large portions o
         <pubDate>Wed, 04 Apr 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/04/04/p1-chatops-chat-put-to-work/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/04/04/p1-chatops-chat-put-to-work/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>6 months after Pixel devices and 2 weeks after Samsung S8, Oreo update aka Android 8 finally comes out for the Note 8</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Got the Oreo aka Android 8 update for my Note 8 on April 3, 2018 &lt;/li&gt;
-&lt;li&gt;6 months after Pixel devices and 2 weeks after S*msung S8, Oreo update aka Android 8 finally comes out for the Note 8&lt;/li&gt;
-&lt;li&gt;Unacceptably long 6 month delay and it seems silly that the Note 8 last year&amp;#39;s flag ship gets it after the S8 which is one step down in terms of flagships. Thanks not thanks S*msung and F*do.&lt;/li&gt;
-&lt;li&gt;For a $USD 1000 phone like the S*msung Note 8 what would be an acceptable delay? 1 month? 2 months? Certainly not 6 months!&lt;/li&gt;
-&lt;li&gt;And finally what is an acceptable delay for a previous year flagship for monthly Google Android security patches? 1 week, 2 weeks? 3 weeks? The average delay for the Note 8 has been over one month which is too long!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 03 Apr 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/04/03/p1-note8-android-8-oreo-update-03april2018/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/04/03/p1-note8-android-8-oreo-update-03april2018/</guid>
         
         
       </item>
