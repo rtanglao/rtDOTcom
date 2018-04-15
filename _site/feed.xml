@@ -6,27 +6,49 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 14 Apr 2018 00:01:43 -0700</pubDate>
-    <lastBuildDate>Sat, 14 Apr 2018 00:01:43 -0700</lastBuildDate>
+    <pubDate>Sat, 14 Apr 2018 22:15:10 -0700</pubDate>
+    <lastBuildDate>Sat, 14 Apr 2018 22:15:10 -0700</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Google Play Review Gameplan: devices trend and then history</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Enter the spreadsheets for January - March 2018&lt;/li&gt;
+&lt;li&gt;See if there&amp;#39;s a device trend for specific devices like &lt;code&gt;dreamlte&lt;/code&gt; aka Samsung S8&lt;/li&gt;
+&lt;li&gt;See if there&amp;#39;s a device trend for specific family of devices (like the &lt;a href=&quot;http://rolandtanglao.com/2018/04/13/p2-find-all-samsung-s8-in-devices-database/&quot;&gt;19 variants of the Samsung S8&lt;/a&gt; which together form what I will call a &amp;quot;family&amp;quot; e.g. the &amp;quot;Samsung S8&amp;quot; family)&lt;/li&gt;
+&lt;li&gt;Add review history and reply history&lt;/li&gt;
+&lt;li&gt;Devise a workflow for daily updating&lt;/li&gt;
+&lt;li&gt;Update daily somehow :-)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 14 Apr 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/04/14/p1-google-play-gameplan-devices-history-workflow/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/04/14/p1-google-play-gameplan-devices-history-workflow/</guid>
+        
+        
+      </item>
     
       <item>
         <title>MongoDB query to find all Samsung S8s in the devices MongoDB collection</title>
         <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;The devices collection (see &lt;a href=&quot;http://rolandtanglao.com/2018/04/09/p1-no-unique-identifier-in-google-play-supported-devices-csv-file/&quot;&gt;previous post about Google Play supported devices&lt;/a&gt; ) is created as follows using &lt;a href=&quot;https://github.com/rtanglao/rt-fennec-gplay/blob/master/synthetic_add_device_branding_marketing_model.rb&quot;&gt;synthetic_add_device_branding_marketing_model.rb&lt;/a&gt;  and &lt;a href=&quot;https://github.com/rtanglao/rt-fennec-gplay/blob/master/utf_8_reviews_reviews_org.mozilla.firefox_201801.csv&quot;&gt;utf8_supported_devices.csv&lt;/a&gt;  :
-&lt;code&gt;bash
-./synthetic_add_device_branding_marketing_model.rb utf8_supported_devices.csv
-&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;The devices collection (see &lt;a href=&quot;http://rolandtanglao.com/2018/04/09/p1-no-unique-identifier-in-google-play-supported-devices-csv-file/&quot;&gt;previous post about Google Play supported devices&lt;/a&gt; ) is created as follows using &lt;a href=&quot;https://github.com/rtanglao/rt-fennec-gplay/blob/master/synthetic_add_device_branding_marketing_model.rb&quot;&gt;synthetic_add_device_branding_marketing_model.rb&lt;/a&gt;  and &lt;a href=&quot;https://github.com/rtanglao/rt-fennec-gplay/blob/master/utf_8_reviews_reviews_org.mozilla.firefox_201801.csv&quot;&gt;utf8_supported_devices.csv&lt;/a&gt;  :&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h3&gt;How To make the devices collection&lt;/h3&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt; ./synthetic_add_device_branding_marketing_model.rb utf8_supported_devices.csv
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;How to query for Samung S8&lt;/h3&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;s2&quot;&gt;&quot;Retail Branding&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Samsung&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
   &lt;span class=&quot;s2&quot;&gt;&quot;Marketing Name&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;S8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;
 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
-&lt;li&gt;The above code returns 19 rows:&lt;/li&gt;
+&lt;li&gt;The above query returns 19 rows:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;cm&quot;&gt;/* 1 */&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
@@ -382,38 +404,6 @@
         <pubDate>Fri, 06 Apr 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/04/06/p1-nathan-yau-how-to-make-chord-diagrams-in-r/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/04/06/p1-nathan-yau-how-to-make-chord-diagrams-in-r/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>I disagree with: 'Alexis Madrigal:The Atlantic:The Most Important Self-Driving Car Announcement Yet--Autonomous vehicles will transform urban life by 2020, if Waymo’s time line is correct' yes it will transform dense urban core life by 2029 not 2020 but it won't transform the suburbs</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I disagree with: &lt;a href=&quot;https://www.theatlantic.com/technology/archive/2018/03/the-most-important-self-driving-car-announcement-yet/556712/&quot;&gt;&amp;#39;Alexis Madrigal:The Atlantic:The Most Important Self-Driving Car Announcement Yet--Autonomous vehicles will transform urban life by 2020, if Waymo’s time line is correct&amp;#39;&lt;/a&gt;! Especially words like:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-
-&quot;But the qualitative impact will be even bigger. Right now, maybe 10,000 or 20,000 people have ever ridden in a self-driving car, in any context. Far fewer have been in a vehicle that is truly absent a driver. Up to a million people could have that experience every day in 2020.&lt;br /&gt;&lt;br /&gt;
-
-2020 is not some distant number. It’s hardly even a projection. By laying out this time line yesterday, Waymo is telling the world: Get ready, this is really happening. This is autonomous driving at scale, and not in five years or 10 years or 50 years, but in two years or less.&quot;
-
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Yes, it will transform dense urban core life by 2029 &lt;strong&gt;not 2020&lt;/strong&gt; but it won&amp;#39;t transform the suburbs and rural places!&lt;/li&gt;
-&lt;li&gt;In other words, I stand by my previous post: &lt;a href=&quot;http://rolandtanglao.com/2018/04/01/p1-probably-wrong-2029-prediction-no-self-driving-cars-outside-city-cores/&quot;&gt;&amp;#39;Probably Wrong 2029 Prediction :-) : No self-driving cars and vehicles outside city cores&amp;#39;&lt;/a&gt; &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 05 Apr 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/04/05/p1-i-stand-by-my-autonomous-cars-and-buses-only-in-city-cores-in-2029/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/04/05/p1-i-stand-by-my-autonomous-cars-and-buses-only-in-city-cores-in-2029/</guid>
         
         
       </item>
