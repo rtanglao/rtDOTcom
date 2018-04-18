@@ -5,7 +5,7 @@ title: "How to convert MongoDB cursor or result iterator to an array in Ruby: us
 
 ## Pontifications
 
-* Example in ruby: 
+* Example in ruby from [read-reviews-replies.rb](https://github.com/rtanglao/rt-fennec-gplay/blob/master/read-reviews-replies.rb) : 
 
 ```ruby
  result_array = reviewsColl.find(
