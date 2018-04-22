@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 20 Apr 2018 22:23:09 -0700</pubDate>
-    <lastBuildDate>Fri, 20 Apr 2018 22:23:09 -0700</lastBuildDate>
+    <pubDate>Sat, 21 Apr 2018 22:30:02 -0700</pubDate>
+    <lastBuildDate>Sat, 21 Apr 2018 22:30:02 -0700</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>SmugMug Buys Flickr and pledges to continue with flickr's fab API, yay!</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Hard to believe but it&amp;#39;s true :-) &lt;a href=&quot;http://blog.flickr.net/en/2018/04/20/together-smugmug-flickr/&quot;&gt;SmugMug Buys Flickr&lt;/a&gt;, and pledges to &lt;a href=&quot;https://twitter.com/SmugMug/status/987864729178771456&quot;&gt;continue with flickr&amp;#39;s fab API&lt;/a&gt;, yay!&lt;/li&gt;
+&lt;li&gt;Fingers crossed! and super optimistic for now!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 21 Apr 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/04/21/smugmug-buys-flickr-pledges-to-keep-api/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/04/21/smugmug-buys-flickr-pledges-to-keep-api/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Like WiFi, the USB gets into a funky state every so often on the Microsoft Surface Book 2 and the only way to fix it is to reboot</title>
@@ -401,23 +417,6 @@
         <pubDate>Fri, 13 Apr 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/04/13/p1-no-sql-manager-for-mongodb-professional-better-tool-razorsql/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/04/13/p1-no-sql-manager-for-mongodb-professional-better-tool-razorsql/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Had to Reboot my Surface Book 2 again (twice in two weeks) to get WiFi working, ipconfig dance didn't work</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Had to Reboot my Surface Book 2 again (twice in two weeks) to get WiFi working&lt;/li&gt;
-&lt;li&gt;The &lt;code&gt;ipconfig /release&lt;/code&gt; and then &lt;code&gt;ipconfig /renew&lt;/code&gt;  &lt;a href=&quot;http://rolandtanglao.com/2018/03/25/p1-having-surface-book-2-80211ac-wifi-issues-ipconfig-release-renew-seems-to-fix-it/&quot;&gt;powershell dance&lt;/a&gt;  didn&amp;#39;t work after a week!&lt;/li&gt;
-&lt;li&gt;Other than this major :-) complaint, really like the computer and Windows 10 especially the Windows Subsystem for Linux.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 12 Apr 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/04/12/p1-had-to-reboot-to-get-wifi-working-on-surface-book2/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/04/12/p1-had-to-reboot-to-get-wifi-working-on-surface-book2/</guid>
         
         
       </item>
