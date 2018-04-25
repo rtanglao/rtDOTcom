@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 23 Apr 2018 23:24:56 -0700</pubDate>
-    <lastBuildDate>Mon, 23 Apr 2018 23:24:56 -0700</lastBuildDate>
+    <pubDate>Tue, 24 Apr 2018 23:45:28 -0700</pubDate>
+    <lastBuildDate>Tue, 24 Apr 2018 23:45:28 -0700</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>alialmossawi: Visualizing in VR using A-Frame and D3</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/alialmossawi&quot;&gt;alialmossawi&lt;/a&gt;: &lt;a href=&quot;https://almossawi.com/aframe-d3-visualization/&quot;&gt; Visualizing in VR using A-Frame and D3&lt;/a&gt; via kip&lt;/li&gt;
+&lt;li&gt;Gotta try this but I&amp;#39;ve been saying that for years :-), maybe start with some sort of &lt;a href=&quot;http://rolandtanglao.com/2018/04/23/p1-no-correlation-between-samsung-s8-oreo-crashes-bug-1450793-and-google-play-reviews/&quot;&gt;google play review and devices visualization&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 24 Apr 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/04/24/p1-visualizing-vr-aframe-d3/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/04/24/p1-visualizing-vr-aframe-d3/</guid>
+        
+        
+      </item>
     
       <item>
         <title>No correlation between Samsung S8 Devices in bug 1450793 (crashing after Oreo update) and Google Play Store 1 and 2 star reviews for those same S8 devices</title>
@@ -260,26 +276,6 @@
         <pubDate>Sun, 15 Apr 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/04/15/p1-how-to-turn-off-mongodb-logging-in-ruby/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/04/15/p1-how-to-turn-off-mongodb-logging-in-ruby/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Google Play Review Gameplan: devices trend and then history</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Enter the spreadsheets for January - March 2018&lt;/li&gt;
-&lt;li&gt;See if there&amp;#39;s a device trend for specific devices like &lt;code&gt;dreamlte&lt;/code&gt; aka Samsung S8&lt;/li&gt;
-&lt;li&gt;See if there&amp;#39;s a device trend for specific family of devices (like the &lt;a href=&quot;http://rolandtanglao.com/2018/04/13/p2-find-all-samsung-s8-in-devices-database/&quot;&gt;19 variants of the Samsung S8&lt;/a&gt; which together form what I will call a &amp;quot;family&amp;quot; e.g. the &amp;quot;Samsung S8&amp;quot; family)&lt;/li&gt;
-&lt;li&gt;Add review history and reply history&lt;/li&gt;
-&lt;li&gt;Devise a workflow for daily updating&lt;/li&gt;
-&lt;li&gt;Update daily somehow :-)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 14 Apr 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/04/14/p1-google-play-gameplan-devices-history-workflow/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/04/14/p1-google-play-gameplan-devices-history-workflow/</guid>
         
         
       </item>
