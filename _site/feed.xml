@@ -6,9 +6,32 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 24 Apr 2018 23:45:28 -0700</pubDate>
-    <lastBuildDate>Tue, 24 Apr 2018 23:45:28 -0700</lastBuildDate>
+    <pubDate>Wed, 25 Apr 2018 23:54:37 -0700</pubDate>
+    <lastBuildDate>Wed, 25 Apr 2018 23:54:37 -0700</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Bought an Epson 'Ecotank' ET-2750 printer, it does save ink and is fast and works with wireless</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Bought an Epson &amp;#39;Ecotank&amp;#39; ET-2750 printer, it does save ink and is fast and works with wireless
+
+&lt;ul&gt;
+&lt;li&gt;So far so good, about 50 colour pages&lt;/li&gt;
+&lt;li&gt;It is fast and not too noisy&lt;/li&gt;
+&lt;li&gt;Decent scanner (at least up until now)&lt;/li&gt;
+&lt;li&gt;Mac Software doesn&amp;#39;t install, instead I just print on OS X&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2018/03/10/p1-more-switching-to-windows-thoughts/&quot;&gt;Preview on OS X is great for tweaking photos haven&amp;#39;t found nanything aything like it on Windows still&lt;/a&gt;!&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 25 Apr 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/04/25/p1-epson-et2750-ecotank-does-save-ink/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/04/25/p1-epson-et2750-ecotank-does-save-ink/</guid>
+        
+        
+      </item>
     
       <item>
         <title>alialmossawi: Visualizing in VR using A-Frame and D3</title>
@@ -260,22 +283,6 @@
         <pubDate>Mon, 16 Apr 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/04/16/p1-mongodb-36-upsert-does-not-return-updatedexisting-returns-nmodified-0-1/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/04/16/p1-mongodb-36-upsert-does-not-return-updatedexisting-returns-nmodified-0-1/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to turn off MongoDB logging in the ruby driver</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I thought I blogged this previously :-) ! I guess I didn&amp;#39;t!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;Mongo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Logger&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;logger&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;level&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Logger&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;FATAL&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        <pubDate>Sun, 15 Apr 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/04/15/p1-how-to-turn-off-mongodb-logging-in-ruby/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/04/15/p1-how-to-turn-off-mongodb-logging-in-ruby/</guid>
         
         
       </item>
