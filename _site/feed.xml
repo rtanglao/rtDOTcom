@@ -6,9 +6,27 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 26 Apr 2018 00:00:19 -0700</pubDate>
-    <lastBuildDate>Thu, 26 Apr 2018 00:00:19 -0700</lastBuildDate>
+    <pubDate>Thu, 26 Apr 2018 20:38:41 -0700</pubDate>
+    <lastBuildDate>Thu, 26 Apr 2018 20:38:41 -0700</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Everybody who writes formulas and/or uses pivot tables in a spreadsheet is a programmer</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Your yearly reminder: Everybody who writes formulas and/or uses pivot tables in a spreadsheet is a programmer :-) &lt;/li&gt;
+&lt;li&gt;Check out &lt;a href=&quot;http://rolandtanglao.com/2017/04/26/p1-spreadsheet-developers-are-real-developers-too/&quot;&gt;Spreadsheet developers are &amp;quot;real&amp;quot; developers too from 2017 :-)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Now I&amp;#39;ll add something new in 2018, we in the software business should give them better tools that somehow adds versioning and puts their spreadsheets on their internet, heck I&amp;#39;ll go crazy and say we should find a way to let them automatically test their spreadsheets too!&lt;/li&gt;
+&lt;li&gt;What I&amp;#39;m proposing doesn&amp;#39;t have to look like a spreadsheet, it just has to be as easy to use for 1st timers!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 26 Apr 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/04/26/p1-everybody-who-writes-formulas-or-uses-pivot-tables-in-a-spreadsheet-is-a-programmer/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/04/26/p1-everybody-who-writes-formulas-or-uses-pivot-tables-in-a-spreadsheet-is-a-programmer/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Bought an Epson 'Ecotank' ET-2750 printer, it does save ink and is fast and works with wireless</title>
@@ -22,7 +40,7 @@
 &lt;li&gt;It is fast and not too noisy&lt;/li&gt;
 &lt;li&gt;Decent scanner (at least up until now)&lt;/li&gt;
 &lt;li&gt;Mac Software doesn&amp;#39;t install, instead I just print using the normal OS X ET-2750 printer driver!&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2018/03/10/p1-more-switching-to-windows-thoughts/&quot;&gt;Preview on OS X is great for tweaking photos haven&amp;#39;t found nanything aything like it on Windows still&lt;/a&gt;!&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2018/03/10/p1-more-switching-to-windows-thoughts/&quot;&gt;Preview on OS X is great for tweaking photos! I still haven&amp;#39;t found anything like it on Windows&lt;/a&gt;!&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -255,34 +273,6 @@
         <pubDate>Tue, 17 Apr 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/04/17/p1-mongodb-cursor-or-result-to-array-use-to_a/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/04/17/p1-mongodb-cursor-or-result-to-array-use-to_a/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>MongoDB upsert doesn't return updatedExisting boolean instead it returns nModified: 1 for update, 0 for insert </title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; 
-  &lt;span class=&quot;n&quot;&gt;reviewsColl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'id'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;id&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;update_one&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;r1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:upsert&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;ai&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;logger&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;debug&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;ai&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;The above code for MongoDB 3.6 with latest ruby driver &lt;code&gt;upsert&lt;/code&gt; doesn&amp;#39;t return &lt;a href=&quot;https://stackoverflow.com/questions/13955212/check-if-mongodb-upsert-did-an-insert-or-an-update/13955778&quot;&gt;updatedExisting&lt;/a&gt; boolean instead it returns &lt;code&gt;nModified&lt;/code&gt;: &lt;code&gt;1&lt;/code&gt; for update, &lt;code&gt;0&lt;/code&gt; for insert&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;update:&lt;/h3&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;nx&quot;&gt;documents&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[{&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;n&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;nModified&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;ok&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;1.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}]&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3&gt;insert:&lt;/h3&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;nx&quot;&gt;documents&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[{&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;n&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;s2&quot;&gt;&quot;nModified&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;upserted&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[{&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;index&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;s2&quot;&gt;&quot;_id&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;BSON&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ObjectId&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'5ad4dda1e8bdbe30ca37f700'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)}],&lt;/span&gt; 
-    &lt;span class=&quot;s2&quot;&gt;&quot;ok&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;1.0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}]&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        <pubDate>Mon, 16 Apr 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/04/16/p1-mongodb-36-upsert-does-not-return-updatedexisting-returns-nmodified-0-1/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/04/16/p1-mongodb-36-upsert-does-not-return-updatedexisting-returns-nmodified-0-1/</guid>
         
         
       </item>
