@@ -6,9 +6,28 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 30 Apr 2018 00:17:42 -0700</pubDate>
-    <lastBuildDate>Mon, 30 Apr 2018 00:17:42 -0700</lastBuildDate>
+    <pubDate>Mon, 30 Apr 2018 21:18:35 -0700</pubDate>
+    <lastBuildDate>Mon, 30 Apr 2018 21:18:35 -0700</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>R Tips: How to force the Y Axis breaks in ggplot2 to be integers from Stack Overflow: How to display only integer values on an axis using ggplot2</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;use &lt;code&gt;scale_y_continuous()&lt;/code&gt; (from &lt;a href=&quot;https://github.com/rtanglao/rt-fennec-gplay/blob/master/30april2018-r-scratch.R&quot;&gt;https://github.com/rtanglao/rt-fennec-gplay/blob/master/30april2018-r-scratch.R&lt;/a&gt; )&lt;/li&gt;
+&lt;li&gt;found the above on Stack Overflow somewhere :-) i.e.  &lt;a href=&quot;https://stackoverflow.com/questions/15622001/how-to-display-only-integer-values-on-an-axis-using-ggplot2/39877048#39877048&quot;&gt;How to display only integer values on an axis using ggplot2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-R&quot; data-lang=&quot;R&quot;&gt;&lt;span class=&quot;n&quot;&gt;scale_y_continuous&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;breaks&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;unique&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;floor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pretty&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;seq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1.1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        <pubDate>Mon, 30 Apr 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/04/30/p1-how-to-force-y-axis-breaks-to-be-integers-in-ggplot2/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/04/30/p1-how-to-force-y-axis-breaks-to-be-integers-in-ggplot2/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How to use group_by to create a data frame in R suitable for ggplot2 and tidyverse</title>
@@ -281,23 +300,6 @@ Notebook manufacturers can opt out of the program but in this case, it was simpl
         <pubDate>Sat, 21 Apr 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/04/21/smugmug-buys-flickr-pledges-to-keep-api/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/04/21/smugmug-buys-flickr-pledges-to-keep-api/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Like WiFi, the USB gets into a funky state every so often on the Microsoft Surface Book 2 and the only way to fix it is to reboot</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Like &lt;a href=&quot;http://rolandtanglao.com/2018/04/12/p1-had-to-reboot-to-get-wifi-working-on-surface-book2/&quot;&gt;WiFi&lt;/a&gt;, the USB gets into a funky state every so often on the Microsoft Surface Book 2 and the only way to fix it is to reboot. This works fine on Mac just like WiFi works fine on Mac. Sad but true! Shouldn&amp;#39;t happen if the computer is made and designed by the same company that made the operating system, right :-) ?!?!&lt;/li&gt;
-&lt;li&gt;Otherwise still very happy with this computer.&lt;/li&gt;
-&lt;li&gt;WSL works great, screen is great, etc etc&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 20 Apr 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/04/20/p1-Microsoft-Surface-Book2-nits-USB-unreliable-works-fine-on-mac/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/04/20/p1-Microsoft-Surface-Book2-nits-USB-unreliable-works-fine-on-mac/</guid>
         
         
       </item>
