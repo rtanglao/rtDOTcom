@@ -6,9 +6,36 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 06 May 2018 09:49:08 -0700</pubDate>
-    <lastBuildDate>Sun, 06 May 2018 09:49:08 -0700</lastBuildDate>
+    <pubDate>Mon, 07 May 2018 14:34:01 -0700</pubDate>
+    <lastBuildDate>Mon, 07 May 2018 14:34:01 -0700</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>The Augmented Social Network: Building identity and trust into the next-generation Internet by Ken Jordan, Jan Hauser, and Steven Foster: nothing has changed, the internet is still at a cross roads</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://journals.uic.edu/ojs/index.php/fm/article/view/1068/988&quot;&gt;The Augmented Social Network: Building identity and trust into the next-generation Internet by Ken Jordan, Jan Hauser, and Steven Foster&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;We forgot about bots and automated influencing back in 2003. Nobody saw that coming! We thought it would be commercial interests not state actors that would pervert the internet!&lt;/li&gt;
+&lt;li&gt;Indeed, though nothing has changed the internet is still at a cross-roads&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+Not to over-simplify a complex issue, but the Internet is at a crossroads and has to choose which path to take, what kinds of interactivity to allow. For example, will people on the Net be able to distribute video from their own computers? Will people in Russia have access to U.S. blogs? Will peer-to-peer interactions be permissible, or might they be strictly limited? Decisions are being made today about what behavior will be allowed online tomorrow. No less important than the above examples are the questions: How will each individual be represented online, and how will this effect the way people are able to meet each other and organize on the Net? Will the &quot;next generation&quot; online community serve only commercial interests, or will it also contribute to the public good? If the public interest sector does not act now, these questions will be answered for us, and a tremendous opportunity to reinvigorate democracy may be lost.
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 07 May 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/05/07/p1-augmented-social-networks-4august2013-internet-at-crossroads/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/05/07/p1-augmented-social-networks-4august2013-internet-at-crossroads/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Pythonista script to get GPS and text adapt to make music like my 2010 N900 gpsgamelan.py script?</title>
@@ -241,24 +268,6 @@ Notebook manufacturers can opt out of the program but in this case, it was simpl
         <pubDate>Fri, 27 Apr 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/04/27/p1-email-does-not-always-get-sent-and-you-will-never-know/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/04/27/p1-email-does-not-always-get-sent-and-you-will-never-know/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Everybody who writes formulas and/or uses pivot tables in a spreadsheet is a programmer</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Your yearly reminder: Everybody who writes formulas and/or uses pivot tables in a spreadsheet is a programmer :-) &lt;/li&gt;
-&lt;li&gt;Check out &lt;a href=&quot;http://rolandtanglao.com/2017/04/26/p1-spreadsheet-developers-are-real-developers-too/&quot;&gt;Spreadsheet developers are &amp;quot;real&amp;quot; developers too from 2017 :-)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Now I&amp;#39;ll add something new in 2018, we in the software business should give them better tools that somehow adds versioning and puts their spreadsheets on their internet, heck I&amp;#39;ll go crazy and say we should find a way to let them automatically test their spreadsheets too!&lt;/li&gt;
-&lt;li&gt;What I&amp;#39;m proposing doesn&amp;#39;t have to look like a spreadsheet, it just has to be as easy to use for 1st timers!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 26 Apr 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/04/26/p1-everybody-who-writes-formulas-or-uses-pivot-tables-in-a-spreadsheet-is-a-programmer/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/04/26/p1-everybody-who-writes-formulas-or-uses-pivot-tables-in-a-spreadsheet-is-a-programmer/</guid>
         
         
       </item>
