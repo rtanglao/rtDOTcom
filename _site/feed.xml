@@ -6,9 +6,27 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 11 May 2018 22:13:58 -0700</pubDate>
-    <lastBuildDate>Fri, 11 May 2018 22:13:58 -0700</lastBuildDate>
+    <pubDate>Sat, 12 May 2018 23:01:05 -0700</pubDate>
+    <lastBuildDate>Sat, 12 May 2018 23:01:05 -0700</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Google to demand regular Android security patches from OEMs: Dave Kleidermacher who leads mobile security at Google:this will really lead to a massive increase in the number of devices, and users, receiving regular security patches</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Google to demand regular Android security patches from OEMs:&lt;a href=&quot;https://vowe.net/archives/017137.html&quot;&gt;via the fabulous vowe.net: Dave Kleidermacher who leads mobile security at Google:&amp;quot;...this will really lead to a massive increase in the number of devices, and users, receiving regular security patches&amp;quot;&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;Oh really, how massive? all OEMs that use Google Play? 50% 75%, 100%, of the OEMs?&lt;/li&gt;
+&lt;li&gt;By when? 2020, 2021, end of 2019?&lt;/li&gt;
+&lt;li&gt;I want to believe :-) but I don&amp;#39;t. I&amp;#39;ll believe it when S*msung agrees to this. Until then Android is one massive security headache except for Pixel devices.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 12 May 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/05/12/p1-regular-android-security-patches-starting-2020/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/05/12/p1-regular-android-security-patches-starting-2020/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Eero WiFi router with 2 beacons has seemingly solved our WiFi issues in our 1600 square foot 3 story flat</title>
@@ -193,45 +211,6 @@ I am happy to introduce the padr package, which is now available on CRAN. If you
         <pubDate>Wed, 02 May 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/05/02/p1-hamilton-uninstalled-my-surface-book2-wifi-drivers-1may2018/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/05/02/p1-hamilton-uninstalled-my-surface-book2-wifi-drivers-1may2018/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to invoke Chromedriver from Windows Subsystem for Linux for Selenium (should work with Firefox too) from Stack Overflow:  Using BashOnWindows with Selenium? #1169 </title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Makes me want to get a real Linux machine where these kludges aren&amp;#39;t necessary :-) i.e. WSL is a gateway drug to using real Linux! &lt;/li&gt;
-&lt;li&gt;From &lt;a href=&quot;https://github.com/Microsoft/WSL/issues/1169#issuecomment-293023930&quot;&gt;Using BashOnWindows with Selenium? #1169&lt;/a&gt;&lt;br&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-
-With the regular Windows environment, in my Python script I'd normally have:&lt;br /&gt;&lt;br /&gt;
-
-webdriver.Chrome()&lt;br /&gt;&lt;br /&gt;
-
-This works as I've added c/Python34/Scripts/ in my path (which is where I placed chromedriver.exe&lt;br /&gt;&lt;br /&gt;
-
-...&lt;br /&gt;&lt;br /&gt;
-
-Unfortunately, most Linux tools think that chromedriver and chromedriver.exe are different executables :-)&lt;br /&gt;&lt;br /&gt;
-
-One possible workaround (I haven't tried it myself): You could create a text file /mnt/c/Python34/Scripts/chromedriver and populate it with the following:&lt;br /&gt;&lt;br /&gt;
-
-#!/bin/sh&lt;br /&gt;
-chromedriver.exe &quot;$@&quot;&lt;br /&gt;&lt;br /&gt;
-
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 01 May 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/05/01/p1-how-to-invoke-chromedriver-from-windows-subsystem-linux/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/05/01/p1-how-to-invoke-chromedriver-from-windows-subsystem-linux/</guid>
         
         
       </item>
