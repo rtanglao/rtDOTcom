@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 12 May 2018 23:01:05 -0700</pubDate>
-    <lastBuildDate>Sat, 12 May 2018 23:01:05 -0700</lastBuildDate>
+    <pubDate>Sun, 13 May 2018 21:44:45 -0700</pubDate>
+    <lastBuildDate>Sun, 13 May 2018 21:44:45 -0700</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Bash keyboard shortcuts to move forward a word (Alt F), move backward (Alt B) and delete word forward (Alt D)</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;For some reason I never learnt this from OS X. Blogging this in the hope they will stick!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 13 May 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/05/13/p1-bash-command-line-shortcuts-to-move-forward-backward-words-delete-words/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/05/13/p1-bash-command-line-shortcuts-to-move-forward-backward-words-delete-words/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Google to demand regular Android security patches from OEMs: Dave Kleidermacher who leads mobile security at Google:this will really lead to a massive increase in the number of devices, and users, receiving regular security patches</title>
@@ -196,21 +211,6 @@ I am happy to introduce the padr package, which is now available on CRAN. If you
         <pubDate>Thu, 03 May 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/05/03/p1-padr-thicken-R-dataframe-to-make-time-granularity-more-coarse/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/05/03/p1-padr-thicken-R-dataframe-to-make-time-granularity-more-coarse/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Hamilton uninstalled and re-installed my wifi drivers on May 1, 2018: let's see if this fixes the wifi not working after about 1-2 weeks problem on my surface book 2</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Hamilton uninstalled and re-installed my wifi drivers on May 1, 2018: let&amp;#39;s see if this fixes the &lt;a href=&quot;http://rolandtanglao.com/2018/04/12/p1-had-to-reboot-to-get-wifi-working-on-surface-book2/&quot;&gt;wifi not working after about 1-2 weeks problem on my surface book 2&lt;/a&gt; &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 02 May 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/05/02/p1-hamilton-uninstalled-my-surface-book2-wifi-drivers-1may2018/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/05/02/p1-hamilton-uninstalled-my-surface-book2-wifi-drivers-1may2018/</guid>
         
         
       </item>
