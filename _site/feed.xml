@@ -6,9 +6,28 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 15 May 2018 23:02:25 -0700</pubDate>
-    <lastBuildDate>Tue, 15 May 2018 23:02:25 -0700</lastBuildDate>
+    <pubDate>Wed, 16 May 2018 23:17:22 -0700</pubDate>
+    <lastBuildDate>Wed, 16 May 2018 23:17:22 -0700</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Remember the last two times twitter wrecked their API? Neither do I :-)</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;First they made it hard (or was it first and second and third and fourth times)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.twitter.com/en/pricing/aaa-all&quot;&gt;Then Twitter charged outrageous fees :-) for API access&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;(I expect the above link to break the next time Twitter borks their API, the flickr API is still the gold standard!)&lt;/li&gt;
+&lt;li&gt;It&amp;#39;s a private business they can do whatever they want. Better off blogging methinks but I&amp;#39;m krazy :-) &lt;/li&gt;
+&lt;li&gt;I also think the black helicopters should take over twitter :-) but again I&amp;#39;m krazy ! Nationalize it :-) UN-takeover please!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 16 May 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/05/16/p1-remember-the-last-two-times-twitter-wrecked-their-api/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/05/16/p1-remember-the-last-two-times-twitter-wrecked-their-api/</guid>
+        
+        
+      </item>
     
       <item>
         <title>R in the Windows 10 WSL Windows Subsystem for Linux</title>
@@ -172,32 +191,6 @@ Not to over-simplify a complex issue, but the Internet is at a crossroads and ha
         <pubDate>Mon, 07 May 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/05/07/p1-augmented-social-networks-4august2013-internet-at-crossroads/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/05/07/p1-augmented-social-networks-4august2013-internet-at-crossroads/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Pythonista script to get GPS and text adapt to make music like my 2010 N900 gpsgamelan.py script?</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://gist.github.com/n8henrie/60b2e9390355bc8e24dd&quot;&gt;gps.py from n8henrie gets the GPS coordinates on iPhone or iPad and texts it&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;How hard would it be to modify it to play music like my script from 2010 for the N900? &lt;a href=&quot;http://rolandtanglao.com/2010/07/06/gpsgamelan-py-is-ok-but-i-want-real-music-use-12-major-keys-with-10-chords/&quot;&gt;gpsgamelan.py is ok, but i want real music - use 12 major keys with 10 chords&lt;/a&gt; &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-
-As a beginning graduate student in the social sciences, what sort of software should you use to do your work? More importantly, what principles should guide your choices? This article offers some answers. The short version is: you should use tools that give you more control over the process of data analysis and writing. I recommend you write prose and code using a good text editor; analyze quantitative data with R or Stata; minimize error by storing your work in a simple format (plain text is best), and make a habit of documenting what you’ve done. For data analysis, consider using a format like Rmarkdown and tools like Knitr to make your work more easily reproducible for your future self. Use Pandoc to turn your plain-text documents into PDF, HTML, or Word files to share with others. Keep your projects in a version control system. Back everything up regularly. Make your computer work for you by automating as many of these steps as you can. To help you get started, I briefly discuss a drop-in set of useful defaults to get started with Emacs (a powerful, free text-editor). I share some templates and style files that can get you quickly from plain text to various output formats. And I point to several alternatives, because no humane person should recommend Emacs without presenting some other options as well.
-
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 06 May 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/05/06/p1-pythonista-script-to-get-gps-coordinates-on-ios/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/05/06/p1-pythonista-script-to-get-gps-coordinates-on-ios/</guid>
         
         
       </item>
