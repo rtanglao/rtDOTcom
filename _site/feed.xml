@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 17 May 2018 21:05:20 -0700</pubDate>
-    <lastBuildDate>Thu, 17 May 2018 21:05:20 -0700</lastBuildDate>
-    <generator>Jekyll v3.7.3</generator>
+    <pubDate>Fri, 18 May 2018 22:12:38 -0700</pubDate>
+    <lastBuildDate>Fri, 18 May 2018 22:12:38 -0700</lastBuildDate>
+    <generator>Jekyll v3.8.1</generator>
+    
+      <item>
+        <title>Back on the mac for now!</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;IA Writer works better simply because of OS X&amp;#39;s duplicate command.&lt;/li&gt;
+&lt;li&gt;Miss the Surface Book 2 facial unlock!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 18 May 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/05/18/p1-back-on-the-mac-for-now/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/05/18/p1-back-on-the-mac-for-now/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Returning the Surface Book 2 because of WiFi and USB issues (Mozilla colleague Asa Dotzler doesn't have these issues with his Surface Book 2)</title>
@@ -161,24 +177,6 @@ After a long, frustrating search, I finally found a clue in an obscure post some
         <pubDate>Wed, 09 May 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/05/09/p1-gemini-pda-keyboard-is-amazing-better-than-gpd-pocket/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/05/09/p1-gemini-pda-keyboard-is-amazing-better-than-gpd-pocket/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Surface Book 2 Drivers were re-installed by Hamilton again Monday May 7, 2018</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Surface Book 2 Drivers were re-installed by Hamilton again Monday May 7, 2018 &amp;lt;-- this is getting ridiculous :-) oh well the laptop still works well especially Ubuntu in the Windows Subsystem for Linux&lt;/li&gt;
-&lt;li&gt;See &lt;a href=&quot;http://rolandtanglao.com/2018/05/02/p1-hamilton-uninstalled-my-surface-book2-wifi-drivers-1may2018/&quot;&gt;Hamilton uninstalled and re-installed my wifi drivers on May 1, 2018: let&amp;#39;s see if this fixes the wifi not working after about 1-2 weeks problem on my surface book 2&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;I think rebooting would work better or faster or just as well?!?!?&lt;/li&gt;
-&lt;li&gt;I guess Marvell, M*crosoft, somebody, anybody :-)  need to fix this !&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 08 May 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/05/08/p1-surface-book2-wifi-drivers-reinstalled-again-may7-2018/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/05/08/p1-surface-book2-wifi-drivers-reinstalled-again-may7-2018/</guid>
         
         
       </item>
