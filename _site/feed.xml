@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 21 May 2018 21:13:55 -0700</pubDate>
-    <lastBuildDate>Mon, 21 May 2018 21:13:55 -0700</lastBuildDate>
+    <pubDate>Tue, 22 May 2018 06:52:22 -0700</pubDate>
+    <lastBuildDate>Tue, 22 May 2018 06:52:22 -0700</lastBuildDate>
     <generator>Jekyll v3.8.1</generator>
+    
+      <item>
+        <title>Speed is a feature! I forgot how fast hugo is compared to jekyll</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Now I am dreaming of converting rolandtanglao.com to hugo from jekyll (because of speed which I realized from working on &lt;a href=&quot;http://rollingroland.com/&quot;&gt;rollingroland.com&lt;/a&gt; last night)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 22 May 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/05/22/p1-speed-is-a-feature-forgot-how-faster-hugo-is-than-jekyll/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/05/22/p1-speed-is-a-feature-forgot-how-faster-hugo-is-than-jekyll/</guid>
+        
+        
+      </item>
     
       <item>
         <title>You can use euro-roaming if you have a European address</title>
@@ -155,24 +170,6 @@ After a long, frustrating search, I finally found a clue in an obscure post some
         <pubDate>Sun, 13 May 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/05/13/p1-bash-command-line-shortcuts-to-move-forward-backward-words-delete-words/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/05/13/p1-bash-command-line-shortcuts-to-move-forward-backward-words-delete-words/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Google to demand regular Android security patches from OEMs: Dave Kleidermacher who leads mobile security at Google:this will really lead to a massive increase in the number of devices, and users, receiving regular security patches</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Google to demand regular Android security patches from OEMs:&lt;a href=&quot;https://vowe.net/archives/017137.html&quot;&gt;via the fabulous vowe.net: Dave Kleidermacher who leads mobile security at Google:&amp;quot;...this will really lead to a massive increase in the number of devices, and users, receiving regular security patches&amp;quot;&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;Oh really, how massive? all OEMs that use Google Play? 50% 75%, 100%, of the OEMs?&lt;/li&gt;
-&lt;li&gt;By when? 2020, 2021, end of 2019?&lt;/li&gt;
-&lt;li&gt;I want to believe :-) but I don&amp;#39;t. I&amp;#39;ll believe it when S*msung agrees to this. Until then Android is one massive security headache except for Pixel devices.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 12 May 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/05/12/p1-regular-android-security-patches-starting-2020/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/05/12/p1-regular-android-security-patches-starting-2020/</guid>
         
         
       </item>
