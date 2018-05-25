@@ -6,9 +6,29 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 23 May 2018 23:14:31 -0700</pubDate>
-    <lastBuildDate>Wed, 23 May 2018 23:14:31 -0700</lastBuildDate>
+    <pubDate>Thu, 24 May 2018 22:49:32 -0700</pubDate>
+    <lastBuildDate>Thu, 24 May 2018 22:49:32 -0700</lastBuildDate>
     <generator>Jekyll v3.8.1</generator>
+    
+      <item>
+        <title>Periodic reminder: Computer software is full of bugs and hard to create and modify</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;p&gt;Just in case anybody forgot :-) :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Coding a command line script that 1 person usually the person writing it is easy.&lt;/li&gt;
+&lt;li&gt;Coding a mass market app means lots of bugs and it is hard to create and modify apps.&lt;/li&gt;
+&lt;li&gt;Our greatest failure is our failure to communicate the above two statements.&lt;/li&gt;
+&lt;li&gt;Hopefully this will change in the future and we&amp;#39;ll have &lt;a href=&quot;http://rolandtanglao.com/2017/11/17/p1-everything-built-on-insecure-non-verified-layers-will-break-at-some-point-you-will-refactor-modify-those-layers-in-a-non-backwards-compatible-way/&quot;&gt;secure, true software components&lt;/a&gt; that make software development for the masses pleasant and easy.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 24 May 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/05/24/p1-computer-software-full-of-bugs-hard-modify-create/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/05/24/p1-computer-software-full-of-bugs-hard-modify-create/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Hugo has an import from jekyll command</title>
@@ -147,29 +167,6 @@
         <pubDate>Tue, 15 May 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/05/15/p1-r-in-windows-subsystem-for-linux/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/05/15/p1-r-in-windows-subsystem-for-linux/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>eusebeia:So if you are running Linux (I'm using Debian) and are having trouble with the printer functions of the MFC-7220, try installing it as a HL-2060 instead. It might just be the thing you need. </title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Department of I might need this someday :-) ---&amp;gt; &lt;a href=&quot;http://eusebeia.dyndns.org/mfc7220&quot;&gt;From CUPS and the Brother MFC-7220 USB printer&lt;/a&gt;:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-After a long, frustrating search, I finally found a clue in an obscure post somewhere in the Ubuntu forums, hinting that CUPS actually comes with a driver that works with the MFC-7220. It appears that the printer part of MFC-7220 is identical to Brother's HL-2060 printer; so all I had to do, was to uninstall the MFC-7220 drivers, delete the printer from the CUPS web interface, and then re-add the printer and select the HL-2060 driver for the printer. After this very non-obvious choice of printer driver, the printer started to work perfectly again.
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 14 May 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/05/14/p1-hl-2060-printer-same-as-brother-mfc-7220/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/05/14/p1-hl-2060-printer-same-as-brother-mfc-7220/</guid>
         
         
       </item>
