@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 24 May 2018 22:49:32 -0700</pubDate>
-    <lastBuildDate>Thu, 24 May 2018 22:49:32 -0700</lastBuildDate>
+    <pubDate>Fri, 25 May 2018 21:40:55 -0700</pubDate>
+    <lastBuildDate>Fri, 25 May 2018 21:40:55 -0700</lastBuildDate>
     <generator>Jekyll v3.8.1</generator>
+    
+      <item>
+        <title>Self Driving Cars and Uber's software: Decisions made by engineers and managers to prioritize comfort of passengers over unreliable false positive detection algorithms</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;p&gt;&amp;quot;&lt;a href=&quot;https://twitter.com/skip_sf/status/999782839657758720&quot;&gt;I hate this framing. It&amp;#39;s not the software that failed, it&amp;#39;s the engineers who designed the software that failed. Decisions made by engineers and managers to prioritize comfort of passengers over unreliable false positive detection algorithms is the real story here.&lt;/a&gt;&amp;quot;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I have a feeling this kind of issue is going to come up more and more. Need government regulation to ensure safety for everyone including pedestrians and bicyclists.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 25 May 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/05/25/p1-self-driving-software-should-prioritize-not-killing-humans-over-occupants-of-the-vehicles-comfort/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/05/25/p1-self-driving-software-should-prioritize-not-killing-humans-over-occupants-of-the-vehicles-comfort/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Periodic reminder: Computer software is full of bugs and hard to create and modify</title>
@@ -17,7 +34,7 @@
 &lt;p&gt;Just in case anybody forgot :-) :&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Coding a command line script that 1 person usually the person writing it is easy.&lt;/li&gt;
+&lt;li&gt;Coding a command line script that 1 person uses, usually the person writing it, is easy.&lt;/li&gt;
 &lt;li&gt;Coding a mass market app means lots of bugs and it is hard to create and modify apps.&lt;/li&gt;
 &lt;li&gt;Our greatest failure is our failure to communicate the above two statements.&lt;/li&gt;
 &lt;li&gt;Hopefully this will change in the future and we&amp;#39;ll have &lt;a href=&quot;http://rolandtanglao.com/2017/11/17/p1-everything-built-on-insecure-non-verified-layers-will-break-at-some-point-you-will-refactor-modify-those-layers-in-a-non-backwards-compatible-way/&quot;&gt;secure, true software components&lt;/a&gt; that make software development for the masses pleasant and easy.&lt;/li&gt;
@@ -152,21 +169,6 @@
         <pubDate>Wed, 16 May 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/05/16/p1-remember-the-last-two-times-twitter-wrecked-their-api/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/05/16/p1-remember-the-last-two-times-twitter-wrecked-their-api/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>R in the Windows 10 WSL Windows Subsystem for Linux</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Need to check out Revolution Analytics: &lt;a href=&quot;http://blog.revolutionanalytics.com/2017/12/r-in-the-windows-subsystem-for-linux.html&quot;&gt;R in the Windows Subsystem for Linux&lt;/a&gt; so I can run R in the Linux command line!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 15 May 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/05/15/p1-r-in-windows-subsystem-for-linux/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/05/15/p1-r-in-windows-subsystem-for-linux/</guid>
         
         
       </item>
