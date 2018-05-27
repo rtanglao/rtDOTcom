@@ -6,15 +6,33 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 25 May 2018 21:40:55 -0700</pubDate>
-    <lastBuildDate>Fri, 25 May 2018 21:40:55 -0700</lastBuildDate>
+    <pubDate>Sat, 26 May 2018 21:11:55 -0700</pubDate>
+    <lastBuildDate>Sat, 26 May 2018 21:11:55 -0700</lastBuildDate>
     <generator>Jekyll v3.8.1</generator>
+    
+      <item>
+        <title>Firefox on OS X is slower than Firefox on Windows</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Having switched &lt;a href=&quot;http://rolandtanglao.com/2018/05/18/p1-back-on-the-mac-for-now/&quot;&gt;temporarily back to OS X from Windows 10&lt;/a&gt;, I can say that Firefox on OS X is slower than Firefox on Windows&lt;/li&gt;
+&lt;li&gt;Photo software like Lumen for the Light 16 however is faster on OS X! Why? Better graphics frameworks like Core Image?&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 26 May 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/05/26/p1-firefox-is-slower-on-osx-than-windows/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/05/26/p1-firefox-is-slower-on-osx-than-windows/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Self Driving Cars and Uber's software: Decisions made by engineers and managers to prioritize comfort of passengers over unreliable false positive detection algorithms</title>
         <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
 
-&lt;p&gt;&amp;quot;&lt;a href=&quot;https://twitter.com/skip_sf/status/999782839657758720&quot;&gt;I hate this framing. It&amp;#39;s not the software that failed, it&amp;#39;s the engineers who designed the software that failed. Decisions made by engineers and managers to prioritize comfort of passengers over unreliable false positive detection algorithms is the real story here.&lt;/a&gt;&amp;quot;&lt;/p&gt;
+&lt;blockquote&gt;
+&quot;[I hate this framing. It's not the software that failed, it's the engineers who designed the software that failed. Decisions made by engineers and managers to prioritize comfort of passengers over unreliable false positive detection algorithms is the real story here.](https://twitter.com/skip_sf/status/999782839657758720)&quot;
+&lt;/blockquote&gt;
 
 &lt;ul&gt;
 &lt;li&gt;I have a feeling this kind of issue is going to come up more and more. Need government regulation to ensure safety for everyone including pedestrians and bicyclists.&lt;/li&gt;
@@ -150,25 +168,6 @@
         <pubDate>Thu, 17 May 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/05/17/p1-returning-surfacebook2-because-of-usb-wifi-issues/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/05/17/p1-returning-surfacebook2-because-of-usb-wifi-issues/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Remember the last two times twitter wrecked their API? Neither do I :-)</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;First they made it hard (or was it first and second and third and fourth times)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://developer.twitter.com/en/pricing/aaa-all&quot;&gt;Then Twitter charged outrageous fees :-) for API access&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;(I expect the above link to break the next time Twitter borks their API, the flickr API is still the gold standard!)&lt;/li&gt;
-&lt;li&gt;It&amp;#39;s a private business they can do whatever they want. Better off blogging methinks but I&amp;#39;m krazy :-) &lt;/li&gt;
-&lt;li&gt;I also think the black helicopters should take over twitter :-) but again I&amp;#39;m krazy ! Nationalize it :-) UN-takeover please!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 16 May 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/05/16/p1-remember-the-last-two-times-twitter-wrecked-their-api/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/05/16/p1-remember-the-last-two-times-twitter-wrecked-their-api/</guid>
         
         
       </item>
