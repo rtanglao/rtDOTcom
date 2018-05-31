@@ -6,9 +6,34 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 29 May 2018 22:21:53 -0700</pubDate>
-    <lastBuildDate>Tue, 29 May 2018 22:21:53 -0700</lastBuildDate>
+    <pubDate>Wed, 30 May 2018 23:40:52 -0700</pubDate>
+    <lastBuildDate>Wed, 30 May 2018 23:40:52 -0700</lastBuildDate>
     <generator>Jekyll v3.8.1</generator>
+    
+      <item>
+        <title>Every few weeks my pinned sites &amp; bookmarks disappear into thin air replaced with Amazon links -- Firefox doesn't do this nor does Chrome</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;User review of Firefox for Android --&amp;gt; &amp;quot;Every few weeks my pinned sites &amp;amp; bookmarks disappear into thin air replaced with Amazon links&amp;quot; &amp;lt;-- 99.99999% Firefox for Android doesn&amp;#39;t do this nor does Chrome or any other browser on Android&lt;/li&gt;
+&lt;li&gt;So what&amp;#39;s causing this you ask?&lt;/li&gt;
+&lt;li&gt;Good Question :-)&lt;/li&gt;
+&lt;li&gt;Wild guesses but it&amp;#39;s probably one or more of the following:
+
+&lt;ul&gt;
+&lt;li&gt;anti-virus&lt;/li&gt;
+&lt;li&gt;an errant Firefox for Android add-on (unlikely but possible)&lt;/li&gt;
+&lt;li&gt;your WiFi or 3G or 4G provider&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;All software including Chrome, Firefox, or any piece of software on any phone or tablet or computer will continue to have sad bugs like this until &lt;a href=&quot;http://rolandtanglao.com/2018/05/24/p1-computer-software-full-of-bugs-hard-modify-create/&quot;&gt;we build secure reliable components at every software layer in a safe language like Rust&lt;/a&gt;, Haskell or some such (not C++, not Javascript, not Python, not Ruby, not Fortran :-), not Cobol, not C, not BASIC etc etc)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 30 May 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/05/30/p1-Every-few-weeks-my-pinned-sites-bookmarks-disappear-into-thin-air-replaced-with-Amazon-links/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/05/30/p1-Every-few-weeks-my-pinned-sites-bookmarks-disappear-into-thin-air-replaced-with-Amazon-links/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Surface Book 2 came back, let's see if I still have USB and WiFi issues</title>
@@ -154,21 +179,6 @@
         <pubDate>Mon, 21 May 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/05/21/p1-you-can-use-euro-roaming-if-you-have-a-european-address/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/05/21/p1-you-can-use-euro-roaming-if-you-have-a-european-address/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Know Roaming Sim Sticker for Canadians - highly recommended</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Not sure about Android but I&amp;#39;ve used the &lt;a href=&quot;https://www.knowroaming.com/&quot;&gt;Know Roaming&lt;/a&gt; Sim Sticker in the USA, France and Germany without any issues on iPhone. Highly recommended!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 20 May 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/05/20/p1-know-roaming-highly-recommended/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/05/20/p1-know-roaming-highly-recommended/</guid>
         
         
       </item>
