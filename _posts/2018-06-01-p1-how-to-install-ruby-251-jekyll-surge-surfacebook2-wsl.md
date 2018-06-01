@@ -5,7 +5,7 @@ title: "How to install ruby 2.5.1, jekyll and surge on surface book 2, Windows 1
 
 ## Pontifications
 
-* works for me no warranty etc :-)
+* works for me no warranty etc :-) from: [https://github.com/rtanglao/rt-making-wsl-and-windows-work-for-me/blob/master/README.md#01june2018](https://github.com/rtanglao/rt-making-wsl-and-windows-work-for-me/blob/master/README.md#01june2018) 
 
 ```bash
 sudo apt-get update

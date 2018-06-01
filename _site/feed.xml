@@ -6,8 +6,8 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 01 Jun 2018 16:06:14 -0700</pubDate>
-    <lastBuildDate>Fri, 01 Jun 2018 16:06:14 -0700</lastBuildDate>
+    <pubDate>Fri, 01 Jun 2018 16:23:55 -0700</pubDate>
+    <lastBuildDate>Fri, 01 Jun 2018 16:23:55 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
     
       <item>
@@ -15,7 +15,7 @@
         <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;works for me no warranty etc :-)&lt;/li&gt;
+&lt;li&gt;works for me no warranty etc :-) from: https://github.com/rtanglao/rt-making-wsl-and-windows-work-for-me/blob/master/README.md#01june2018&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update
 &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;build-essential
