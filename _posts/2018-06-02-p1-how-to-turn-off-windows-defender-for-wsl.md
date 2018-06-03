@@ -19,7 +19,6 @@ Copy the entire path from Explorer.exe address bar, then go to <br /><i>Settings
 
 **END QUOTE**
 
-```
 
 
 
