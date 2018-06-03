@@ -6,16 +6,46 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 01 Jun 2018 16:23:55 -0700</pubDate>
-    <lastBuildDate>Fri, 01 Jun 2018 16:23:55 -0700</lastBuildDate>
+    <pubDate>Sat, 02 Jun 2018 22:06:19 -0700</pubDate>
+    <lastBuildDate>Sat, 02 Jun 2018 22:06:19 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>How to turn off Windows Defender for Windows Subystem for Linux from @leandrw</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Turn off Windows Defender for Windows Subystem for Linux to speed up your command line scripting! It&amp;#39;s at least twice as fast!&lt;/li&gt;
+&lt;li&gt;From &lt;a href=&quot;https://medium.com/@leandrw/speeding-up-wsl-i-o-up-than-5x-fast-saving-a-lot-of-battery-life-cpu-usage-c3537dd03c74&quot;&gt;@leandrw: Speeding up WSL I/O up than 5x fast + saving a lot of battery life &amp;amp; CPU usage&lt;/a&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+So, to do so, first get the UbuntuOnLinux (or your distro of choice) installation path going to %USERPROFILE%\AppData\Local\Packages and lookup for something like CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc.
+
+Copy the entire path from Explorer.exe address bar, then go to Settings &gt; Update &amp; Security &gt; Windows Defender &gt; Open Windows Defender Secutiry Central &gt; Protection Against Viruses &amp; Threats &gt; Advanced Config… &gt; Exclusions &gt; Add or Remove &gt; Add &gt; Folder and finally: paste the previous copied path
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;
+
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        <pubDate>Sat, 02 Jun 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/06/02/p1-how-to-turn-off-windows-defender-for-wsl/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/06/02/p1-how-to-turn-off-windows-defender-for-wsl/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How to install ruby 2.5.1, jekyll and surge on surface book 2, Windows 10 WSL as of June 1, 2018</title>
         <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;works for me no warranty etc :-) from: https://github.com/rtanglao/rt-making-wsl-and-windows-work-for-me/blob/master/README.md#01june2018&lt;/li&gt;
+&lt;li&gt;works for me no warranty etc :-) from: &lt;a href=&quot;https://github.com/rtanglao/rt-making-wsl-and-windows-work-for-me/blob/master/README.md#01june2018&quot;&gt;https://github.com/rtanglao/rt-making-wsl-and-windows-work-for-me/blob/master/README.md#01june2018&lt;/a&gt; &lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update
 &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;build-essential
@@ -185,21 +215,6 @@ curl &lt;span class=&quot;nt&quot;&gt;-sL&lt;/span&gt; https://deb.nodesource.co
         <pubDate>Thu, 24 May 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/05/24/p1-computer-software-full-of-bugs-hard-modify-create/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/05/24/p1-computer-software-full-of-bugs-hard-modify-create/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Hugo has an import from jekyll command</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Hugo has an &lt;a href=&quot;https://gohugo.io/commands/hugo_import_jekyll/&quot;&gt;import from jekyll command&lt;/a&gt; which means that if it works I&amp;#39;ll probably move this blog to hugo  before the end of 2018 :-)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 23 May 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/05/23/p1-hugo-has-an-import-from-jekyll-command/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/05/23/p1-hugo-has-an-import-from-jekyll-command/</guid>
         
         
       </item>
