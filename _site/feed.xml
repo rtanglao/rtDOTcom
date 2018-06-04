@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 02 Jun 2018 22:06:19 -0700</pubDate>
-    <lastBuildDate>Sat, 02 Jun 2018 22:06:19 -0700</lastBuildDate>
+    <pubDate>Sun, 03 Jun 2018 18:51:48 -0700</pubDate>
+    <lastBuildDate>Sun, 03 Jun 2018 18:51:48 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>rt-making-wsl-and-windows-work-for-me: a github repo for those 'transitioning' to windows</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-making-wsl-and-windows-work-for-me/blob/master/README.md&quot;&gt;rt-making-wsl-and-windows-work-for-me&lt;/a&gt; : a github repo for those &amp;#39;transitioning&amp;#39; to windows&lt;/li&gt;
+&lt;li&gt;Will always be a work in progress :-) &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 03 Jun 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/06/03/p1-github-repo-with-my-coping-windows-tips/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/06/03/p1-github-repo-with-my-coping-windows-tips/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How to turn off Windows Defender for Windows Subystem for Linux from @leandrw</title>
@@ -22,17 +38,14 @@
 &lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-So, to do so, first get the UbuntuOnLinux (or your distro of choice) installation path going to %USERPROFILE%\AppData\Local\Packages and lookup for something like CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc.
+So, to do so, first get the UbuntuOnLinux (or your distro of choice) installation path going to &lt;i&gt;%USERPROFILE%\AppData\Local\Packages&lt;/i&gt; and lookup for something like :&lt;br &gt;&lt;b&gt;CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
 
-Copy the entire path from Explorer.exe address bar, then go to Settings &gt; Update &amp; Security &gt; Windows Defender &gt; Open Windows Defender Secutiry Central &gt; Protection Against Viruses &amp; Threats &gt; Advanced Config… &gt; Exclusions &gt; Add or Remove &gt; Add &gt; Folder and finally: paste the previous copied path
+Copy the entire path from Explorer.exe address bar, then go to &lt;br /&gt;&lt;i&gt;Settings &gt; Update &amp; Security &gt; Windows Defender &gt; Open Windows Defender Security Central &gt; Protection Against Viruses &amp; Threats &gt; Advanced Config… &gt; Exclusions &gt; Add or Remove &gt; Add &gt; Folder&lt;/i&gt; and finally: paste the previous copied path
 
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;
-
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+</description>
         <pubDate>Sat, 02 Jun 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/06/02/p1-how-to-turn-off-windows-defender-for-wsl/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/06/02/p1-how-to-turn-off-windows-defender-for-wsl/</guid>
@@ -195,26 +208,6 @@ curl &lt;span class=&quot;nt&quot;&gt;-sL&lt;/span&gt; https://deb.nodesource.co
         <pubDate>Fri, 25 May 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/05/25/p1-self-driving-software-should-prioritize-not-killing-humans-over-occupants-of-the-vehicles-comfort/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/05/25/p1-self-driving-software-should-prioritize-not-killing-humans-over-occupants-of-the-vehicles-comfort/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Periodic reminder: Computer software is full of bugs and hard to create and modify</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;p&gt;Just in case anybody forgot :-) :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Coding a command line script that 1 person uses, usually the person writing it, is easy.&lt;/li&gt;
-&lt;li&gt;Coding a mass market app means lots of bugs and it is hard to create and modify apps.&lt;/li&gt;
-&lt;li&gt;Our greatest failure is our failure to communicate the above two statements.&lt;/li&gt;
-&lt;li&gt;Hopefully this will change in the future and we&amp;#39;ll have &lt;a href=&quot;http://rolandtanglao.com/2017/11/17/p1-everything-built-on-insecure-non-verified-layers-will-break-at-some-point-you-will-refactor-modify-those-layers-in-a-non-backwards-compatible-way/&quot;&gt;secure, true software components&lt;/a&gt; that make software development for the masses pleasant and easy.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 24 May 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/05/24/p1-computer-software-full-of-bugs-hard-modify-create/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/05/24/p1-computer-software-full-of-bugs-hard-modify-create/</guid>
         
         
       </item>
