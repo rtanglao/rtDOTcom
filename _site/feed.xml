@@ -6,9 +6,27 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 03 Jun 2018 18:51:48 -0700</pubDate>
-    <lastBuildDate>Sun, 03 Jun 2018 18:51:48 -0700</lastBuildDate>
+    <pubDate>Mon, 04 Jun 2018 22:04:52 -0700</pubDate>
+    <lastBuildDate>Mon, 04 Jun 2018 22:04:52 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Like 2009 the future of coding is social and github is the first harbinger of it</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/rtanglao/status/1003401628525854720&quot;&gt;i remember pitching a social coding talk with github with &amp;quot;The picker&amp;quot; aka the fabulous @jimpick back in 2009. So so many memories. it&amp;#39;s great to share code urls, wish it wasn&amp;#39;t private but a public utility somehow :-)&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;i.e. critical internet coding and other infrastructure should be nationalized and owned by the black helicopters :-) i.e. the word government i.e. the UN&lt;/li&gt;
+&lt;li&gt;and/or it should be decentralized&lt;/li&gt;
+&lt;li&gt;easier said than done!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 04 Jun 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/06/04/p1-microsoft-buys-github-which-i-have-been-using-since-2009/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/06/04/p1-microsoft-buys-github-which-i-have-been-using-since-2009/</guid>
+        
+        
+      </item>
     
       <item>
         <title>rt-making-wsl-and-windows-work-for-me: a github repo for those 'transitioning' to windows</title>
@@ -189,25 +207,6 @@ curl &lt;span class=&quot;nt&quot;&gt;-sL&lt;/span&gt; https://deb.nodesource.co
         <pubDate>Sat, 26 May 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/05/26/p1-firefox-is-slower-on-osx-than-windows/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/05/26/p1-firefox-is-slower-on-osx-than-windows/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Self Driving Cars and Uber's software: Decisions made by engineers and managers to prioritize comfort of passengers over unreliable false positive detection algorithms</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&quot;[I hate this framing. It's not the software that failed, it's the engineers who designed the software that failed. Decisions made by engineers and managers to prioritize comfort of passengers over unreliable false positive detection algorithms is the real story here.](https://twitter.com/skip_sf/status/999782839657758720)&quot;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I have a feeling this kind of issue is going to come up more and more. Need government regulation to ensure safety for everyone including pedestrians and bicyclists.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 25 May 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/05/25/p1-self-driving-software-should-prioritize-not-killing-humans-over-occupants-of-the-vehicles-comfort/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/05/25/p1-self-driving-software-should-prioritize-not-killing-humans-over-occupants-of-the-vehicles-comfort/</guid>
         
         
       </item>
