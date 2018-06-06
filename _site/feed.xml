@@ -6,9 +6,32 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 04 Jun 2018 22:08:29 -0700</pubDate>
-    <lastBuildDate>Mon, 04 Jun 2018 22:08:29 -0700</lastBuildDate>
+    <pubDate>Tue, 05 Jun 2018 22:28:21 -0700</pubDate>
+    <lastBuildDate>Tue, 05 Jun 2018 22:28:21 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>How to make Hugo work on WSL aka Windows Subystem for Linux</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;change &lt;code&gt;0.41&lt;/code&gt; to whatever the current version of Hugo is&lt;/li&gt;
+&lt;li&gt;From &lt;a href=&quot;https://github.com/rtanglao/rt-making-wsl-and-windows-work-for-me/blob/master/README.md#04june2018-hugo&quot;&gt;https://github.com/rtanglao/rt-making-wsl-and-windows-work-for-me/blob/master/README.md#04june2018-hugo&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;wget &lt;span class=&quot;nt&quot;&gt;-O&lt;/span&gt; /tmp/hugo_0.41_Linux-64bit.deb https://github.com/spf13/hugo/releases/download/v0.41/hugo_0.41_Linux-64bit.deb
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; /tmp/hugo_0.41_Linux-64bit.deb
+hugo version
+Hugo Static Site Generator v0.41 linux/amd64 BuildDate: 2018-05-25T16:57:20Z
+&lt;span class=&quot;c&quot;&gt;# cd to your hugo site top directory&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;themes
+git clone https://github.com/halogenica/beautifulhugo.git beautifulhugo
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        <pubDate>Tue, 05 Jun 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/06/05/p1-how-to-get-hugo-working-wsl/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/06/05/p1-how-to-get-hugo-working-wsl/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Like 2009 the future of coding is social and github is the first harbinger of it</title>
@@ -191,22 +214,6 @@ curl &lt;span class=&quot;nt&quot;&gt;-sL&lt;/span&gt; https://deb.nodesource.co
         <pubDate>Sun, 27 May 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/05/27/p1-enjoying-dropbox-paper-beautiful-and-functional/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/05/27/p1-enjoying-dropbox-paper-beautiful-and-functional/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Firefox on OS X is slower than Firefox on Windows</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Having switched &lt;a href=&quot;http://rolandtanglao.com/2018/05/18/p1-back-on-the-mac-for-now/&quot;&gt;temporarily back to OS X from Windows 10&lt;/a&gt;, I can say that Firefox on OS X is slower than Firefox on Windows&lt;/li&gt;
-&lt;li&gt;Photo software like Lumen for the Light 16 however is faster on OS X! Why? Better graphics frameworks like Core Image?&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 26 May 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/05/26/p1-firefox-is-slower-on-osx-than-windows/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/05/26/p1-firefox-is-slower-on-osx-than-windows/</guid>
         
         
       </item>
