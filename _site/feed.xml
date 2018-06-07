@@ -6,9 +6,28 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 05 Jun 2018 22:28:21 -0700</pubDate>
-    <lastBuildDate>Tue, 05 Jun 2018 22:28:21 -0700</lastBuildDate>
+    <pubDate>Wed, 06 Jun 2018 22:54:44 -0700</pubDate>
+    <lastBuildDate>Wed, 06 Jun 2018 22:54:44 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>The google play store reviewing app is open source on github</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The google play store app for replying to 1 and 2 star Firefox for Android reviews is on github, yay
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/mozilla/sumo-playstore-campaign&quot;&gt;https://github.com/mozilla/sumo-playstore-campaign&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 06 Jun 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/06/06/p1-google-play-store-reviewing-web-app-on-github/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/06/06/p1-google-play-store-reviewing-web-app-on-github/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How to make Hugo work on WSL aka Windows Subystem for Linux</title>
@@ -198,22 +217,6 @@ curl &lt;span class=&quot;nt&quot;&gt;-sL&lt;/span&gt; https://deb.nodesource.co
         <pubDate>Mon, 28 May 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/05/28/p1-epson-et2750-stopped-working-and-a-spring-came-out/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/05/28/p1-epson-et2750-stopped-working-and-a-spring-came-out/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>I'm enjoying using Dropbox Paper on my own without collaborating</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I&amp;#39;m enjoying using Dropbox Paper on my own without collaborating! Why because it&amp;#39;s beautiful and functional.&lt;/li&gt;
-&lt;li&gt;Great for a &amp;quot;tickler&amp;quot; file!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 27 May 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/05/27/p1-enjoying-dropbox-paper-beautiful-and-functional/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/05/27/p1-enjoying-dropbox-paper-beautiful-and-functional/</guid>
         
         
       </item>
