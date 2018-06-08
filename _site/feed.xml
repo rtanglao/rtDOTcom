@@ -6,9 +6,28 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 06 Jun 2018 22:54:44 -0700</pubDate>
-    <lastBuildDate>Wed, 06 Jun 2018 22:54:44 -0700</lastBuildDate>
+    <pubDate>Thu, 07 Jun 2018 19:34:08 -0700</pubDate>
+    <lastBuildDate>Thu, 07 Jun 2018 19:34:08 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>PICOs aka 'persistent compute objects' programmed reactively so we can have our own personal clouds</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Love the ideas (personal, privacy by design etc) in Phil Windley&amp;#39;s &lt;a href=&quot;http://www.windley.com/archives/2015/11/reactive_programming_with_picos.shtml&quot;&gt;2015: Reactive Programming with Picos&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;Is it realistic?&lt;/li&gt;
+&lt;li&gt;Can we resist the big companies and centralization of clouds?&lt;/li&gt;
+&lt;li&gt;Not sure!&lt;/li&gt;
+&lt;li&gt;And of course this is via &lt;a href=&quot;https://blogs.harvard.edu/doc/2018/06/07/bots/&quot;&gt;Stephen Downes&lt;/a&gt;  and &lt;a href=&quot;https://blogs.harvard.edu/doc/2018/06/07/bots/&quot;&gt;Doc Searls&amp;#39; What’s wrong with bots is they’re not ours&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 07 Jun 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/06/07/p1-picos-personal-clouds-reactive/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/06/07/p1-picos-personal-clouds-reactive/</guid>
+        
+        
+      </item>
     
       <item>
         <title>The google play store reviewing app is open source on github</title>
@@ -201,22 +220,6 @@ curl &lt;span class=&quot;nt&quot;&gt;-sL&lt;/span&gt; https://deb.nodesource.co
         <pubDate>Tue, 29 May 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/05/29/p1-surface-book2-came-back/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/05/29/p1-surface-book2-came-back/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Epson 'Ecotank' ET-2750 stopped printing, jams every time and a spring fell out</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2018/04/25/p1-epson-et2750-ecotank-does-save-ink/&quot;&gt;Epson &amp;#39;Ecotank&amp;#39; ET-2750&lt;/a&gt; stopped printing, jams every time and a spring fell out! oops! it apparently has a 1 year warranty. I&amp;#39;ll see if I can get it fixed under warranty.&lt;/li&gt;
-&lt;li&gt;Up until it now when it jams every time it&amp;#39;s been reliable!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 28 May 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/05/28/p1-epson-et2750-stopped-working-and-a-spring-came-out/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/05/28/p1-epson-et2750-stopped-working-and-a-spring-came-out/</guid>
         
         
       </item>
