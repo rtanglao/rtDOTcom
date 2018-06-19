@@ -6,9 +6,33 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 10 Jun 2018 21:12:50 -0700</pubDate>
-    <lastBuildDate>Sun, 10 Jun 2018 21:12:50 -0700</lastBuildDate>
-    <generator>Jekyll v3.8.2</generator>
+    <pubDate>Tue, 19 Jun 2018 11:32:46 -0700</pubDate>
+    <lastBuildDate>Tue, 19 Jun 2018 11:32:46 -0700</lastBuildDate>
+    <generator>Jekyll v3.8.1</generator>
+    
+      <item>
+        <title>Allow blog comments or just use ping back, trackback and Web Mentions?</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ton raises some great points in his blog post:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.zylstra.org/blog/2018/06/entropy-as-power-difference-or-why-its-always-easier-to-f-things-up/&quot;&gt;Entropy as Power Difference, or Why It’s Always Easier to F Things Up&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Allow blog comments or just use ping back, trackback and Web Mentions?&lt;/li&gt;
+&lt;li&gt;Since I started blogging in 1999, I&amp;#39;ve always disliked blog comments and hosting them but haven&amp;#39;t really thought too much  about it.&lt;/li&gt;
+&lt;li&gt;My current position: I think the best thing is to use something like ping back, trackback or Web Mentions and blog your comment in response to a blog.&lt;/li&gt;
+&lt;li&gt;I agree that centralized comments always fail in time because of sp*m. And what Ton said about power and entropy :-)&lt;/li&gt;
+&lt;li&gt;Someday :-), I will implement something like Web Mentions !&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 18 Jun 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/06/18/p1-allow-blog-comments-or-just-use-blogs-and-pingback-webmentions/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/06/18/p1-allow-blog-comments-or-just-use-blogs-and-pingback-webmentions/</guid>
+        
+        
+      </item>
     
       <item>
         <title>It's that wonderful time of the year: Mozilla All Hands San Francisco 2018 - meetings meetings meetings and most importantly meeting fabulous volunteers and fellow staff</title>
@@ -183,42 +207,6 @@ Copy the entire path from Explorer.exe address bar, then go to &lt;br /&gt;&lt;i
         <pubDate>Sat, 02 Jun 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/06/02/p1-how-to-turn-off-windows-defender-for-wsl/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/06/02/p1-how-to-turn-off-windows-defender-for-wsl/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to install ruby 2.5.1, jekyll and surge on surface book 2, Windows 10 WSL as of June 1, 2018</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;works for me no warranty etc :-) from: &lt;a href=&quot;https://github.com/rtanglao/rt-making-wsl-and-windows-work-for-me/blob/master/README.md#01june2018&quot;&gt;https://github.com/rtanglao/rt-making-wsl-and-windows-work-for-me/blob/master/README.md#01june2018&lt;/a&gt; &lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;build-essential
-&lt;span class=&quot;nb&quot;&gt;cd
-&lt;/span&gt;wget http://ftp.ruby-lang.org/pub/ruby/2.5/ruby-2.5.1.tar.gz
-&lt;span class=&quot;nb&quot;&gt;tar&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-xzvf&lt;/span&gt; ruby-2.5.1.tar.gz
-&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;ruby-2.5.1/
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;zlib1g-dev
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get upgrade &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;libssl-dev
-./configure
-make
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;make &lt;span class=&quot;nb&quot;&gt;install
-&lt;/span&gt;ruby &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;gem update &lt;span class=&quot;nt&quot;&gt;--system&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;jekyll bundler
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;redcarpet
-curl &lt;span class=&quot;nt&quot;&gt;-sL&lt;/span&gt; https://deb.nodesource.com/setup_8.x | &lt;span class=&quot;nb&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-E&lt;/span&gt; bash -
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; nodejs 
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;npm &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; surge
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;add-apt-repository ppa:git-core/ppa
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt update&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;git
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        <pubDate>Fri, 01 Jun 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/06/01/p1-how-to-install-ruby-251-jekyll-surge-surfacebook2-wsl/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/06/01/p1-how-to-install-ruby-251-jekyll-surge-surfacebook2-wsl/</guid>
         
         
       </item>
