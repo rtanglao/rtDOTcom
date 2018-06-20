@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 19 Jun 2018 11:32:46 -0700</pubDate>
-    <lastBuildDate>Tue, 19 Jun 2018 11:32:46 -0700</lastBuildDate>
-    <generator>Jekyll v3.8.1</generator>
+    <pubDate>Tue, 19 Jun 2018 18:15:51 -0700</pubDate>
+    <lastBuildDate>Tue, 19 Jun 2018 18:15:51 -0700</lastBuildDate>
+    <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Second Surface Book 2: No WiFi or USB issues after 2 weeks, fingers crossed!</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Second Surface Book 2: No WiFi or USB issues after 2 weeks, fingers crossed! &lt;/li&gt;
+&lt;li&gt;Maybe &lt;a href=&quot;http://rolandtanglao.com/2018/05/29/p1-surface-book2-came-back/&quot;&gt;the first Surface Book 2 was a lemon&lt;/a&gt; ?!?&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 19 Jun 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/06/19/p1-no-wifi-usb-issues-after-2-weeks/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/06/19/p1-no-wifi-usb-issues-after-2-weeks/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Allow blog comments or just use ping back, trackback and Web Mentions?</title>
@@ -180,33 +196,6 @@ git clone https://github.com/halogenica/beautifulhugo.git beautifulhugo
         <pubDate>Sun, 03 Jun 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/06/03/p1-github-repo-with-my-coping-windows-tips/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/06/03/p1-github-repo-with-my-coping-windows-tips/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to turn off Windows Defender for Windows Subystem for Linux from @leandrw</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Turn off Windows Defender for Windows Subystem for Linux to speed up your command line scripting! It&amp;#39;s at least twice as fast!&lt;/li&gt;
-&lt;li&gt;From &lt;a href=&quot;https://medium.com/@leandrw/speeding-up-wsl-i-o-up-than-5x-fast-saving-a-lot-of-battery-life-cpu-usage-c3537dd03c74&quot;&gt;@leandrw: Speeding up WSL I/O up than 5x fast + saving a lot of battery life &amp;amp; CPU usage&lt;/a&gt;:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-So, to do so, first get the UbuntuOnLinux (or your distro of choice) installation path going to &lt;i&gt;%USERPROFILE%\AppData\Local\Packages&lt;/i&gt; and lookup for something like :&lt;br &gt;&lt;b&gt;CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc.&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;
-
-Copy the entire path from Explorer.exe address bar, then go to &lt;br /&gt;&lt;i&gt;Settings &gt; Update &amp; Security &gt; Windows Defender &gt; Open Windows Defender Security Central &gt; Protection Against Viruses &amp; Threats &gt; Advanced Config… &gt; Exclusions &gt; Add or Remove &gt; Add &gt; Folder&lt;/i&gt; and finally: paste the previous copied path
-
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 02 Jun 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/06/02/p1-how-to-turn-off-windows-defender-for-wsl/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/06/02/p1-how-to-turn-off-windows-defender-for-wsl/</guid>
         
         
       </item>
