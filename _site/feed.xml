@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 19 Jun 2018 18:15:51 -0700</pubDate>
-    <lastBuildDate>Tue, 19 Jun 2018 18:15:51 -0700</lastBuildDate>
+    <pubDate>Thu, 21 Jun 2018 20:15:37 -0700</pubDate>
+    <lastBuildDate>Thu, 21 Jun 2018 20:15:37 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Am I crazy? I don't want software controlled critical subsystems on my non electric bicycles</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;DI2 shift by wire, wireless shifting, and other software controlled bicycle subsystems sound great until you think about DOS attacks, firmware bugs, etc etc&lt;/li&gt;
+&lt;li&gt;You pretty much can&amp;#39;t avoid software controlled drivetrains because rightly or wrongly most chargers and motors have micro-controllers with software.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 21 Jun 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/06/21/p1-dont-want-crazy-software-controlled-shifting-bicycle/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/06/21/p1-dont-want-crazy-software-controlled-shifting-bicycle/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Second Surface Book 2: No WiFi or USB issues after 2 weeks, fingers crossed!</title>
@@ -180,22 +196,6 @@ git clone https://github.com/halogenica/beautifulhugo.git beautifulhugo
         <pubDate>Mon, 04 Jun 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/06/04/p1-microsoft-buys-github-which-i-have-been-using-since-2009/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/06/04/p1-microsoft-buys-github-which-i-have-been-using-since-2009/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>rt-making-wsl-and-windows-work-for-me: a github repo for those 'transitioning' to windows</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-making-wsl-and-windows-work-for-me/blob/master/README.md&quot;&gt;rt-making-wsl-and-windows-work-for-me&lt;/a&gt; : a github repo for those &amp;#39;transitioning&amp;#39; to windows&lt;/li&gt;
-&lt;li&gt;Will always be a work in progress :-) &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 03 Jun 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/06/03/p1-github-repo-with-my-coping-windows-tips/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/06/03/p1-github-repo-with-my-coping-windows-tips/</guid>
         
         
       </item>
