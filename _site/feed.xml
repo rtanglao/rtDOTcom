@@ -6,17 +6,33 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 21 Jun 2018 20:15:37 -0700</pubDate>
-    <lastBuildDate>Thu, 21 Jun 2018 20:15:37 -0700</lastBuildDate>
+    <pubDate>Fri, 22 Jun 2018 21:57:27 -0700</pubDate>
+    <lastBuildDate>Fri, 22 Jun 2018 21:57:27 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>iodide: Python notebooks in your browser using Web Assembly - no server required</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Blown away by &lt;a href=&quot;https://iodide.io/&quot;&gt;iodide&lt;/a&gt;  demo at Mozilla All Hands&lt;/li&gt;
+&lt;li&gt;Gotta try it !&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 22 Jun 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/06/22/p1-iodide-python-notebooks-no-server-required-just-web-assembly-in-browser/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/06/22/p1-iodide-python-notebooks-no-server-required-just-web-assembly-in-browser/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Am I crazy? I don't want software controlled critical subsystems on my non electric bicycles</title>
         <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;DI2 shift by wire, wireless shifting, and other software controlled bicycle subsystems sound great until you think about DOS attacks, firmware bugs, etc etc&lt;/li&gt;
-&lt;li&gt;You pretty much can&amp;#39;t avoid software controlled drivetrains because rightly or wrongly most chargers and motors have micro-controllers with software.&lt;/li&gt;
+&lt;li&gt;For non electric bicycles, DI2 shift by wire, wireless shifting, and other software controlled bicycle subsystems sound great until you think about DOS attacks, firmware bugs, etc etc&lt;/li&gt;
+&lt;li&gt;You pretty much can&amp;#39;t avoid software controlled drivetrains  on electric bicycles because rightly or wrongly most chargers and motors have micro-controllers with software.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 21 Jun 2018 00:00:00 -0700</pubDate>
@@ -178,24 +194,6 @@ git clone https://github.com/halogenica/beautifulhugo.git beautifulhugo
         <pubDate>Tue, 05 Jun 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/06/05/p1-how-to-get-hugo-working-wsl/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/06/05/p1-how-to-get-hugo-working-wsl/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Like 2009 the future of coding is social and github is the first harbinger of it</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://twitter.com/rtanglao/status/1003401628525854720&quot;&gt;I remember pitching a social coding talk with github with &amp;quot;The picker&amp;quot; aka the fabulous @jimpick back in 2009. So so many memories. it&amp;#39;s great to share code urls, wish it wasn&amp;#39;t private but a public utility somehow :-)&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;i.e. critical internet coding and other infrastructure should be nationalized and owned by the black helicopters :-) i.e. the world government i.e. the UN&lt;/li&gt;
-&lt;li&gt;and/or it should be decentralized&lt;/li&gt;
-&lt;li&gt;easier said than done!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 04 Jun 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/06/04/p1-microsoft-buys-github-which-i-have-been-using-since-2009/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/06/04/p1-microsoft-buys-github-which-i-have-been-using-since-2009/</guid>
         
         
       </item>
