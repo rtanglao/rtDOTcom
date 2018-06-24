@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 23 Jun 2018 23:14:15 -0700</pubDate>
-    <lastBuildDate>Sat, 23 Jun 2018 23:14:15 -0700</lastBuildDate>
+    <pubDate>Sun, 24 Jun 2018 09:13:40 -0700</pubDate>
+    <lastBuildDate>Sun, 24 Jun 2018 09:13:40 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Twitter smytes customers and its 3 out of 5 spam comments encapsulates today's internet, central control and entropy and power distibution</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://techcrunch.com/2018/06/21/twitter-smytes-customers/&quot;&gt;Twitter smytes customers&lt;/a&gt; (tl;dr Twitter shuts down API overnight without notice that Indiegogo and lots of other folks rely on for social media spam filtering and other stuff)  and its 3 out of 5 spam comments encapsulates today&amp;#39;s internet: &lt;a href=&quot;https://www.zylstra.org/blog/2018/06/entropy-as-power-difference-or-why-its-always-easier-to-f-things-up/&quot;&gt;central control and entropy and power distibution&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&amp;quot;Tyranny&amp;quot; of centralized services including APIs sad face&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 24 Jun 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/06/24/p1-twitter-smytes-customers-3-out-of-5-spam-comments/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/06/24/p1-twitter-smytes-customers-3-out-of-5-spam-comments/</guid>
+        
+        
+      </item>
     
       <item>
         <title>iodide is just another example of everything in your browser, what's next R? Ruby? Yes Please!</title>
@@ -167,25 +183,6 @@
         <pubDate>Thu, 07 Jun 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/06/07/p1-picos-personal-clouds-reactive/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/06/07/p1-picos-personal-clouds-reactive/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>The google play store reviewing app is open source on github</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The google play store app for replying to 1 and 2 star Firefox for Android reviews is on github, yay
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/mozilla/sumo-playstore-campaign&quot;&gt;https://github.com/mozilla/sumo-playstore-campaign&lt;/a&gt; &lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 06 Jun 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/06/06/p1-google-play-store-reviewing-web-app-on-github/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/06/06/p1-google-play-store-reviewing-web-app-on-github/</guid>
         
         
       </item>
