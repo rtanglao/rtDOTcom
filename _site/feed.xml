@@ -6,9 +6,31 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 24 Jun 2018 09:13:40 -0700</pubDate>
-    <lastBuildDate>Sun, 24 Jun 2018 09:13:40 -0700</lastBuildDate>
+    <pubDate>Mon, 25 Jun 2018 21:40:43 -0700</pubDate>
+    <lastBuildDate>Mon, 25 Jun 2018 21:40:43 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>How difficult is it to write an Android app that works with Android 4.1, 5, 6,7, 8 and the Android 9 which will be released by September?</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Serious and honestly not really a work related question:
+
+&lt;ul&gt;
+&lt;li&gt;How difficult is it to write an Android app that works with Android 4.1, 5, 6,7, 8 and the Android 9 which will be released by September?&lt;/li&gt;
+&lt;li&gt;Is it better to write multiple apps, e.g. one for 4.1 and one for 5,6 and one for 7, 8 and 9?&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;How much Android functionality do you lose as you move from Android 9 down to 4.1? &lt;/li&gt;
+&lt;li&gt;I&amp;#39;ve been supporting Android apps since 2012 so I know the answers to most of the above questions, but maybe there&amp;#39;s somebody out there who can give me a 2018 answer.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 25 Jun 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/06/25/p1-how-difficult-writing-an-app-for-android-41-5-6-7-8-9/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/06/25/p1-how-difficult-writing-an-app-for-android-41-5-6-7-8-9/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Twitter smytes customers and its 3 out of 5 spam comments encapsulates today's internet, central control and entropy and power distibution</title>
@@ -164,25 +186,6 @@
         <pubDate>Fri, 08 Jun 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/06/08/p1-four-filipino-epson-call-centre-agents-named-nathan/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/06/08/p1-four-filipino-epson-call-centre-agents-named-nathan/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>PICOs aka 'persistent compute objects' programmed reactively so we can have our own personal clouds</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Love the ideas (personal, privacy by design etc) in Phil Windley&amp;#39;s &lt;a href=&quot;http://www.windley.com/archives/2015/11/reactive_programming_with_picos.shtml&quot;&gt;2015: Reactive Programming with Picos&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;Is it realistic?&lt;/li&gt;
-&lt;li&gt;Can we resist the big companies and centralization of clouds?&lt;/li&gt;
-&lt;li&gt;Not sure!&lt;/li&gt;
-&lt;li&gt;And of course this is via &lt;a href=&quot;https://www.downes.ca/post/68188&quot;&gt;Stephen Downes&lt;/a&gt;  and &lt;a href=&quot;https://blogs.harvard.edu/doc/2018/06/07/bots/&quot;&gt;Doc Searls&amp;#39; What’s wrong with bots is they’re not ours&lt;/a&gt; &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 07 Jun 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/06/07/p1-picos-personal-clouds-reactive/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/06/07/p1-picos-personal-clouds-reactive/</guid>
         
         
       </item>
