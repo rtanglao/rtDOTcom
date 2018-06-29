@@ -6,9 +6,27 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 27 Jun 2018 22:41:01 -0700</pubDate>
-    <lastBuildDate>Wed, 27 Jun 2018 22:41:01 -0700</lastBuildDate>
+    <pubDate>Thu, 28 Jun 2018 21:58:15 -0700</pubDate>
+    <lastBuildDate>Thu, 28 Jun 2018 21:58:15 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Potential TensorFlow project: Use Human in the loop to train on 50 or less Firefox for Android Google Play Store reviews for positive and negative sentiment and keyword extraction?!?</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I think sentiment is definitely doable with &lt;a href=&quot;https://en.wikipedia.org/wiki/TensorFlow&quot;&gt;TensorFlow&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;Not sure about keyword extraction, it might just be word clustering?!?&lt;/li&gt;
+&lt;li&gt;How many reviews would have to be randomly sampled? Maybe 50 per month in English?&lt;/li&gt;
+&lt;li&gt;Can do this in German and other languages, right?&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 28 Jun 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/06/28/p1-tensor-flow-train-on-firefox-android-support-reviews-sentiment-keywords/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/06/28/p1-tensor-flow-train-on-firefox-android-support-reviews-sentiment-keywords/</guid>
+        
+        
+      </item>
     
       <item>
         <title>De-ranting: Making non constructive feedback visible only to the person who posted it</title>
@@ -165,23 +183,6 @@
         <pubDate>Mon, 18 Jun 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/06/18/p1-allow-blog-comments-or-just-use-blogs-and-pingback-webmentions/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/06/18/p1-allow-blog-comments-or-just-use-blogs-and-pingback-webmentions/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>It's that wonderful time of the year: Mozilla All Hands San Francisco 2018 - meetings meetings meetings and most importantly meeting fabulous volunteers and fellow staff</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;It&amp;#39;s that wonderful time of the year: &lt;a href=&quot;https://wiki.mozilla.org/All_Hands/SanFrancisco2018&quot;&gt;Mozilla All Hands San Francisco 2018 &lt;/a&gt; - meetings meetings meetings and most importantly meeting fabulous volunteers and fellow staff. No work will be done but the relationships formed and renewed are priceless!&lt;/li&gt;
-&lt;li&gt;Can&amp;#39;t wait! &lt;/li&gt;
-&lt;li&gt;Won&amp;#39;t be blogging! Not that anybody cares :-) Back to regular blogging on Sunday June 17, 2018&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 10 Jun 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/06/10/san-francisco-mozilla-all-hands/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/06/10/san-francisco-mozilla-all-hands/</guid>
         
         
       </item>
