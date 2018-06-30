@@ -6,9 +6,34 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 28 Jun 2018 21:58:15 -0700</pubDate>
-    <lastBuildDate>Thu, 28 Jun 2018 21:58:15 -0700</lastBuildDate>
+    <pubDate>Fri, 29 Jun 2018 22:45:16 -0700</pubDate>
+    <lastBuildDate>Fri, 29 Jun 2018 22:45:16 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Mikeysax: How to install MongoDB 3.6 on Windows 10 Subsystem for Linux</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mikeysax&amp;#39;s gist: &lt;a href=&quot;https://gist.github.com/Mikeysax/cc86c30903727c556bcce960f7e4d59b&quot;&gt;From Install Mongo with WSL for Windows.&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-key adv &lt;span class=&quot;nt&quot;&gt;--keyserver&lt;/span&gt; hkp://keyserver.ubuntu.com:80 &lt;span class=&quot;nt&quot;&gt;--recv&lt;/span&gt; 2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 multiverse&quot;&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;sudo tee&lt;/span&gt; /etc/apt/sources.list.d/mongodb-org-3.6.list
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; mongodb-org
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This will install the most stable version of mongod, 3.6 at time of writing. If you want to install a different version please refer to the &lt;a href=&quot;https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/&quot;&gt;link&lt;/a&gt; above.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 29 Jun 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/06/29/p1-how-to-install-mongodb-3.6-on-wsl/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/06/29/p1-how-to-install-mongodb-3.6-on-wsl/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Potential TensorFlow project: Use Human in the loop to train on 50 or less Firefox for Android Google Play Store reviews for positive and negative sentiment and keyword extraction?!?</title>
@@ -159,30 +184,6 @@
         <pubDate>Tue, 19 Jun 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/06/19/p1-no-wifi-usb-issues-after-2-weeks/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/06/19/p1-no-wifi-usb-issues-after-2-weeks/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Allow blog comments or just use ping back, trackback and Web Mentions?</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Ton raises some great points in his blog post:
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.zylstra.org/blog/2018/06/entropy-as-power-difference-or-why-its-always-easier-to-f-things-up/&quot;&gt;Entropy as Power Difference, or Why It’s Always Easier to F Things Up&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Allow blog comments or just use ping back, trackback and Web Mentions?&lt;/li&gt;
-&lt;li&gt;Since I started blogging in 1999, I&amp;#39;ve always disliked blog comments and hosting them but haven&amp;#39;t really thought too much  about it.&lt;/li&gt;
-&lt;li&gt;My current position: I think the best thing is to use something like ping back, trackback or Web Mentions and blog your comment in response to a blog.&lt;/li&gt;
-&lt;li&gt;I agree that centralized comments always fail in time because of sp*m. And what Ton said about power and entropy :-)&lt;/li&gt;
-&lt;li&gt;Someday :-), I will implement something like Web Mentions !&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 18 Jun 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/06/18/p1-allow-blog-comments-or-just-use-blogs-and-pingback-webmentions/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/06/18/p1-allow-blog-comments-or-just-use-blogs-and-pingback-webmentions/</guid>
         
         
       </item>
