@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 30 Jun 2018 21:38:41 -0700</pubDate>
-    <lastBuildDate>Sat, 30 Jun 2018 21:38:41 -0700</lastBuildDate>
+    <pubDate>Sun, 01 Jul 2018 16:33:46 -0700</pubDate>
+    <lastBuildDate>Sun, 01 Jul 2018 16:33:46 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>The People's Internet: Good stuff as well as bad stuff of course!</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2018/06/30/p1-the-peoples-internet/&quot;&gt;The people&amp;#39;s internet will be overlayed on top of the existng commercial internet I wrote yesterday&lt;/a&gt; .&lt;/li&gt;
+&lt;li&gt;This doesn&amp;#39;t mean it&amp;#39;s full of bad stuff or questionable stuff. It can and should be just as diverse and a force for good.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 01 Jul 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/07/01/p1-happy-canada-day/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/07/01/p1-happy-canada-day/</guid>
+        
+        
+      </item>
     
       <item>
         <title>The People's Internet: Slow, decentralized and not subject to takedown</title>
@@ -168,22 +184,6 @@
         <pubDate>Fri, 22 Jun 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/06/22/p1-iodide-python-notebooks-no-server-required-just-web-assembly-in-browser/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/06/22/p1-iodide-python-notebooks-no-server-required-just-web-assembly-in-browser/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Am I crazy? I don't want software controlled critical subsystems on my non electric bicycles</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;For non electric bicycles, DI2 shift by wire, wireless shifting, and other software controlled bicycle subsystems sound great until you think about DOS attacks, firmware bugs, etc etc&lt;/li&gt;
-&lt;li&gt;You pretty much can&amp;#39;t avoid software controlled drivetrains  on electric bicycles because rightly or wrongly most chargers and motors have micro-controllers with software.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 21 Jun 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/06/21/p1-dont-want-crazy-software-controlled-shifting-bicycle/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/06/21/p1-dont-want-crazy-software-controlled-shifting-bicycle/</guid>
         
         
       </item>
