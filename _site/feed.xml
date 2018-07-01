@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 29 Jun 2018 22:45:16 -0700</pubDate>
-    <lastBuildDate>Fri, 29 Jun 2018 22:45:16 -0700</lastBuildDate>
+    <pubDate>Sat, 30 Jun 2018 21:38:41 -0700</pubDate>
+    <lastBuildDate>Sat, 30 Jun 2018 21:38:41 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>The People's Internet: Slow, decentralized and not subject to takedown</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The people&amp;#39;s internet will be overlayed on top of the existng commercial internet.&lt;/li&gt;
+&lt;li&gt;It will be slow, encrypted, decentralized and not subject to takedown which can happen at any layer with the commercial internet (DNS, WiFi, Wireless, servers, clouds, etc etc)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 30 Jun 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/06/30/p1-the-peoples-internet/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/06/30/p1-the-peoples-internet/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Mikeysax: How to install MongoDB 3.6 on Windows 10 Subsystem for Linux</title>
@@ -168,22 +184,6 @@
         <pubDate>Thu, 21 Jun 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/06/21/p1-dont-want-crazy-software-controlled-shifting-bicycle/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/06/21/p1-dont-want-crazy-software-controlled-shifting-bicycle/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Second Surface Book 2: No WiFi or USB issues after 2 weeks, fingers crossed!</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Second Surface Book 2: No WiFi or USB issues after 2 weeks, fingers crossed! &lt;/li&gt;
-&lt;li&gt;Maybe &lt;a href=&quot;http://rolandtanglao.com/2018/05/29/p1-surface-book2-came-back/&quot;&gt;the first Surface Book 2 was a lemon&lt;/a&gt; ?!?&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 19 Jun 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/06/19/p1-no-wifi-usb-issues-after-2-weeks/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/06/19/p1-no-wifi-usb-issues-after-2-weeks/</guid>
         
         
       </item>
