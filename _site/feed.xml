@@ -6,9 +6,44 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 02 Jul 2018 20:21:04 -0700</pubDate>
-    <lastBuildDate>Mon, 02 Jul 2018 20:21:04 -0700</lastBuildDate>
+    <pubDate>Tue, 03 Jul 2018 23:12:26 -0700</pubDate>
+    <lastBuildDate>Tue, 03 Jul 2018 23:12:26 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Slack bot chat interface for replying to Google Play Store reviews?!?!</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;p&gt;The following is just a thought experiment:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;DM a bot to ask for reviews to reply e.g. `&lt;code&gt;/review&lt;/code&gt;
+
+&lt;ul&gt;
+&lt;li&gt;maybe you get 5-10 reviews&lt;/li&gt;
+&lt;li&gt;emoji for skip, emoji for spam, emoji for nonsense reviews&lt;/li&gt;
+&lt;li&gt;reply to a review via slack&amp;#39;s reply feature&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;DM the same bot to ask for reviews to moderate e.g. &lt;code&gt;/moderate&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;emoji for skip, emjoi for thumbs up, emoji for thumbs down, can, maybe have a command for editing, a review reply
+### Pros&lt;/li&gt;
+&lt;li&gt;userids are taken care of&lt;/li&gt;
+&lt;li&gt;easy text driven interface, works wherever slack works, i.e. on mobile, on desktop, etc&lt;/li&gt;
+&lt;li&gt;emojis are fun :-)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Cons&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;you need a slack id which might be limited in supply, maybe just do this for moderating?&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 03 Jul 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/07/03/p1-slack-chat-interface-for-google-play-review-replying/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/07/03/p1-slack-chat-interface-for-google-play-review-replying/</guid>
+        
+        
+      </item>
     
       <item>
         <title>MongoDB: When comparing dates of type DateTime you need to convert strings to ISODate</title>
@@ -181,21 +216,6 @@
         <pubDate>Sun, 24 Jun 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/06/24/p1-twitter-smytes-customers-3-out-of-5-spam-comments/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/06/24/p1-twitter-smytes-customers-3-out-of-5-spam-comments/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>iodide is just another example of everything in your browser, what's next R? Ruby? Yes Please!</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Can&amp;#39;t wait until we can do Ruby and R in the browser as well!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 23 Jun 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/06/23/p1-everything-in-your-browser/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/06/23/p1-everything-in-your-browser/</guid>
         
         
       </item>
