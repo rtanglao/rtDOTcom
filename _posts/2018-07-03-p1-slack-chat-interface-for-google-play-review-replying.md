@@ -6,7 +6,7 @@ title: "Slack bot chat interface for replying to Google Play Store reviews?!?!"
 ## Pontifications
 The following is just a thought experiment:
 
-* DM a bot to ask for reviews to reply e.g. ```/review``
+* DM a bot to ask for reviews to reply e.g. ```/review```
 	* maybe you get 5-10 reviews
 	* emoji for skip, emoji for spam, emoji for nonsense reviews
 	* reply to a review via slack's reply feature
