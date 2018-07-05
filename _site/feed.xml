@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 03 Jul 2018 23:12:26 -0700</pubDate>
-    <lastBuildDate>Tue, 03 Jul 2018 23:12:26 -0700</lastBuildDate>
+    <pubDate>Wed, 04 Jul 2018 22:09:30 -0700</pubDate>
+    <lastBuildDate>Wed, 04 Jul 2018 22:09:30 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>The replacement Epson Ecotank ET-2750 is working well so far</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The &lt;a href=&quot;http://rolandtanglao.com/2018/06/08/p1-four-filipino-epson-call-centre-agents-named-nathan/&quot;&gt;replacement Epson Ecotank ET-2750&lt;/a&gt;  is working well so far.&lt;/li&gt;
+&lt;li&gt;Maybe the first one was a lemon?!?&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 04 Jul 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/07/04/p1-replacement-epson-ecotank-et-2750/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/07/04/p1-replacement-epson-ecotank-et-2750/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Slack bot chat interface for replying to Google Play Store reviews?!?!</title>
@@ -17,7 +33,7 @@
 &lt;p&gt;The following is just a thought experiment:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;DM a bot to ask for reviews to reply e.g. `&lt;code&gt;/review&lt;/code&gt;
+&lt;li&gt;DM a bot to ask for reviews to reply e.g. &lt;code&gt;/review&lt;/code&gt;
 
 &lt;ul&gt;
 &lt;li&gt;maybe you get 5-10 reviews&lt;/li&gt;
@@ -25,8 +41,12 @@
 &lt;li&gt;reply to a review via slack&amp;#39;s reply feature&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;DM the same bot to ask for reviews to moderate e.g. &lt;code&gt;/moderate&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;emoji for skip, emjoi for thumbs up, emoji for thumbs down, can, maybe have a command for editing, a review reply
-### Pros&lt;/li&gt;
+&lt;li&gt;emoji for skip, emjoi for thumbs up, emoji for thumbs down, can, maybe have a command for editing, a review reply&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Pros&lt;/h3&gt;
+
+&lt;ul&gt;
 &lt;li&gt;userids are taken care of&lt;/li&gt;
 &lt;li&gt;easy text driven interface, works wherever slack works, i.e. on mobile, on desktop, etc&lt;/li&gt;
 &lt;li&gt;emojis are fun :-)&lt;/li&gt;
@@ -200,22 +220,6 @@
         <pubDate>Mon, 25 Jun 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/06/25/p1-how-difficult-writing-an-app-for-android-41-5-6-7-8-9/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/06/25/p1-how-difficult-writing-an-app-for-android-41-5-6-7-8-9/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Twitter smytes customers and its 3 out of 5 spam comments encapsulates today's internet, central control and entropy and power distibution</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://techcrunch.com/2018/06/21/twitter-smytes-customers/&quot;&gt;Twitter smytes customers&lt;/a&gt; (tl;dr Twitter shuts down API overnight without notice that Indiegogo and lots of other folks rely on for social media spam filtering and other stuff)  and its 3 out of 5 spam comments encapsulates today&amp;#39;s internet: &lt;a href=&quot;https://www.zylstra.org/blog/2018/06/entropy-as-power-difference-or-why-its-always-easier-to-f-things-up/&quot;&gt;central control and entropy and power distibution&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;&amp;quot;Tyranny&amp;quot; of centralized services including APIs sad face&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 24 Jun 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/06/24/p1-twitter-smytes-customers-3-out-of-5-spam-comments/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/06/24/p1-twitter-smytes-customers-3-out-of-5-spam-comments/</guid>
         
         
       </item>
