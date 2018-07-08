@@ -6,9 +6,28 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 06 Jul 2018 21:28:28 -0700</pubDate>
-    <lastBuildDate>Fri, 06 Jul 2018 21:28:28 -0700</lastBuildDate>
+    <pubDate>Sat, 07 Jul 2018 22:35:53 -0700</pubDate>
+    <lastBuildDate>Sat, 07 Jul 2018 22:35:53 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Could you decentralize everything? YES....AND...!</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Could you build everything so it&amp;#39;s decentralized and verifiable?&lt;/li&gt;
+&lt;li&gt;Could we have the people&amp;#39;s bandwidth?&lt;/li&gt;
+&lt;li&gt;Could we have the people&amp;#39;s DNS?&lt;/li&gt;
+&lt;li&gt;Could we host the &amp;quot;master&amp;quot; our stuff locally but have it served by other nodes when our &amp;quot;master&amp;quot; nodes goes down?&lt;/li&gt;
+&lt;li&gt;I don&amp;#39;t see why not. &lt;a href=&quot;http://rolandtanglao.com/2018/07/01/p1-happy-canada-day/&quot;&gt;Again it will be slower&lt;/a&gt; but it&amp;#39;s worth it!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 07 Jul 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/07/07/p1-could-you-host-everything-decentralized-style/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/07/07/p1-could-you-host-everything-decentralized-style/</guid>
+        
+        
+      </item>
     
       <item>
         <title>DuckDuckGo Blog - How To Protect Your Privacy On Windows 10</title>
@@ -196,24 +215,6 @@
         <pubDate>Thu, 28 Jun 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/06/28/p1-tensor-flow-train-on-firefox-android-support-reviews-sentiment-keywords/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/06/28/p1-tensor-flow-train-on-firefox-android-support-reviews-sentiment-keywords/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>De-ranting: Making non constructive feedback visible only to the person who posted it</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I&amp;#39;m a wee bit tired :-) of ranting, insults and other non-constructive feedback&lt;/li&gt;
-&lt;li&gt;I suggest that this non-constructive text be marked by admins from all of the websites that I work on and that once marked, have it visible only to the people who posted the non-constructive text. (The constructive-feedback text if any would be unaltered and visible to all)&lt;/li&gt;
-&lt;li&gt;Examples would be google play store reviews. Volunteers who are replying to Google Play Store reviews shouldn&amp;#39;t have to read endless insults when replying to reviews.&lt;/li&gt;
-&lt;li&gt;What&amp;#39;s the best way to do this? An add-on? A web app?&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 27 Jun 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/06/27/p1-remove-insults-rants-non-constructive-feedback/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/06/27/p1-remove-insults-rants-non-constructive-feedback/</guid>
         
         
       </item>
