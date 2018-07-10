@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 08 Jul 2018 22:46:41 -0700</pubDate>
-    <lastBuildDate>Sun, 08 Jul 2018 22:46:41 -0700</lastBuildDate>
+    <pubDate>Mon, 09 Jul 2018 22:41:40 -0700</pubDate>
+    <lastBuildDate>Mon, 09 Jul 2018 22:41:40 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>It's my birthday Wednesday! Very light blogging and very thankful for family, friends and computers</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I&amp;#39;m thankful to family friends and computers without whom I&amp;#39;d have nothing!&lt;/li&gt;
+&lt;li&gt;Be nice online and in so-called real life.&lt;/li&gt;
+&lt;li&gt;This piece: &lt;a href=&quot;https://calvinscanadiancaveofcool.blogspot.com/2018/06/a-letter-of-hope-from-henry-rollins.html?m=1&quot;&gt;A letter of hope from Henry Rollins&lt;/a&gt;  seems apt (shared by &lt;a href=&quot;https://tippett.org/&quot;&gt;Michael Tippett&lt;/a&gt;  on the occasion of &lt;a href=&quot;http://www.agentic.ca/studio/phillip-djwa&quot;&gt;Phillip Djwa&lt;/a&gt;&amp;#39;s 50th), thanks Mike, happy 50th Philipp!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 09 Jul 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/07/09/p1-birthday-week/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/07/09/p1-birthday-week/</guid>
+        
+        
+      </item>
     
       <item>
         <title>At what point does an Electric Car for trips to Cypress  to go cross country skiing make economic sense? Now or when gas is $2/litre?</title>
@@ -26,7 +43,7 @@
 &lt;li&gt;Obviously the above discussion comes from a perspective of socioeconomic privilege&lt;/li&gt;
 &lt;li&gt;And obviously from a point of view of a province like BC where electricity is hydro-electric, EVs make sense TODAY! &lt;/li&gt;
 &lt;li&gt;It seems to me that if cross-country skiing at Cypress is our only car driving need  than 160km is adequate range (double the actual 80kn for cold conditions)&lt;/li&gt;
-&lt;li&gt;For trips to Whistler Olympic Park (we only go to WOP 2 or 3 times a year( which is 130km i.e. 260km round trip you need a car with a range of about 500km (or about 260km if you can charge on the way back)&lt;/li&gt;
+&lt;li&gt;For trips to Whistler Olympic Park (we only go to WOP 2 or 3 times a year) which is 130km i.e. 260km round trip you need a car with a range of about 500km (or about 260km if you can charge on the way back)&lt;/li&gt;
 &lt;li&gt;Ignoring Tesla because of its high cost, then either the forthcoming Nissan Leaf (scheduled for end of 2018) with over 300km range is the only &amp;quot;affordable&amp;quot; EV that fits gets us to Cypress and WOP!&lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -199,31 +216,6 @@
         <pubDate>Sat, 30 Jun 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/06/30/p1-the-peoples-internet/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/06/30/p1-the-peoples-internet/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Mikeysax: How to install MongoDB 3.6 on Windows 10 Subsystem for Linux</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Mikeysax&amp;#39;s gist: &lt;a href=&quot;https://gist.github.com/Mikeysax/cc86c30903727c556bcce960f7e4d59b&quot;&gt;From Install Mongo with WSL for Windows.&lt;/a&gt; &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-key adv &lt;span class=&quot;nt&quot;&gt;--keyserver&lt;/span&gt; hkp://keyserver.ubuntu.com:80 &lt;span class=&quot;nt&quot;&gt;--recv&lt;/span&gt; 2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5
-&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 multiverse&quot;&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;sudo tee&lt;/span&gt; /etc/apt/sources.list.d/mongodb-org-3.6.list
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; mongodb-org
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;This will install the most stable version of mongod, 3.6 at time of writing. If you want to install a different version please refer to the &lt;a href=&quot;https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/&quot;&gt;link&lt;/a&gt; above.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 29 Jun 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/06/29/p1-how-to-install-mongodb-3.6-on-wsl/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/06/29/p1-how-to-install-mongodb-3.6-on-wsl/</guid>
         
         
       </item>
