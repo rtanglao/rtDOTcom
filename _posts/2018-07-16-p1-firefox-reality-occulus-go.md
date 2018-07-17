@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "I'm testing Firefox Reality Alpha builds on the Occulus Go"
+title: "I'm testing Firefox Reality Alpha builds on the Oculus Go"
 ---
 
 ## Pontifications
