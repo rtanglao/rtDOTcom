@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 09 Jul 2018 22:41:40 -0700</pubDate>
-    <lastBuildDate>Mon, 09 Jul 2018 22:41:40 -0700</lastBuildDate>
+    <pubDate>Tue, 17 Jul 2018 10:57:10 -0700</pubDate>
+    <lastBuildDate>Tue, 17 Jul 2018 10:57:10 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>I'm testing Firefox Reality Alpha builds on the Occulus Go</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Very cool, but early days and I&amp;#39;m not sure where this whole Firefox Reality and indeed AR/VR/MR is going! Fun to play with Augmented Reality, Mixed Reality and Virtual Reality though!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 16 Jul 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/07/16/p1-firefox-reality-occulus-go/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/07/16/p1-firefox-reality-occulus-go/</guid>
+        
+        
+      </item>
     
       <item>
         <title>It's my birthday Wednesday! Very light blogging and very thankful for family, friends and computers</title>
@@ -200,22 +215,6 @@
         <pubDate>Sun, 01 Jul 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/07/01/p1-happy-canada-day/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/07/01/p1-happy-canada-day/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>The People's Internet: Slow, decentralized and not subject to takedown</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The people&amp;#39;s internet will be overlayed on top of the existng commercial internet.&lt;/li&gt;
-&lt;li&gt;It will be slow, encrypted, decentralized and not subject to takedown which can happen at any layer with the commercial internet (DNS, WiFi, Wireless, servers, clouds, etc etc)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 30 Jun 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/06/30/p1-the-peoples-internet/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/06/30/p1-the-peoples-internet/</guid>
         
         
       </item>
