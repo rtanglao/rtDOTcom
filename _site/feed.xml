@@ -6,9 +6,39 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 17 Jul 2018 16:17:00 -0700</pubDate>
-    <lastBuildDate>Tue, 17 Jul 2018 16:17:00 -0700</lastBuildDate>
+    <pubDate>Wed, 18 Jul 2018 20:58:38 -0700</pubDate>
+    <lastBuildDate>Wed, 18 Jul 2018 20:58:38 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Rough Notes: How to install apps (like Firefox Reality) on the Occulus Go using ADB on Windows 10</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;p&gt;Apparently there&amp;#39;s an easier way from cmvan that I have checkout!&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Login to developer.oculus.com&lt;/li&gt;
+&lt;li&gt;Go to &lt;code&gt;Oculus Go ADB Drivers&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;right click on &lt;code&gt;android_winusb&lt;/code&gt; and then &lt;code&gt;Install&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Go to https://github.com/mozillareality/FirefoxReality&lt;/li&gt;
+&lt;li&gt;click on &lt;code&gt;Build Results&lt;/code&gt; which takes you to for example:
+
+&lt;ul&gt;
+&lt;li&gt;https://tools.taskcluster.net/groups/WFVLzRTLTJCf1lkt5nIEeA/tasks/WFVLzRTLTJCf1lkt5nIEeA/details&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;click on the &lt;code&gt;Run Artifacts&lt;/code&gt; tab and download the apk&lt;/li&gt;
+&lt;li&gt;https://developer.android.com/studio/#downloads scroll to &lt;code&gt;Command line tools only&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;https://developer.android.com/studio/releases/platform-tools&lt;/li&gt;
+&lt;li&gt;put the Oculus Go headset on, click ok once maybe twice&lt;/li&gt;
+&lt;li&gt; &lt;code&gt;adb install -r C:\Users\rtang\Downloads\FirefoxReality-oculusvr-release-signed-aligned.apk&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 18 Jul 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/07/18/p1-how-to-install-apps-like-firefox-reality-on-occulus-go/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/07/18/p1-how-to-install-apps-like-firefox-reality-on-occulus-go/</guid>
+        
+        
+      </item>
     
       <item>
         <title>I'm testing Firefox Reality Alpha builds on the Oculus Go</title>
@@ -199,22 +229,6 @@
         <pubDate>Mon, 02 Jul 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/07/02/p1-when-comparing-MongoDB-dates-type-DateTime-you-need-to-use-ISODate/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/07/02/p1-when-comparing-MongoDB-dates-type-DateTime-you-need-to-use-ISODate/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>The People's Internet: Good stuff as well as bad stuff of course!</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2018/06/30/p1-the-peoples-internet/&quot;&gt;The people&amp;#39;s internet will be overlayed on top of the existng commercial internet I wrote yesterday&lt;/a&gt; .&lt;/li&gt;
-&lt;li&gt;This doesn&amp;#39;t mean it&amp;#39;s full of bad stuff or questionable stuff. It can and should be just as diverse and a force for good.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 01 Jul 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/07/01/p1-happy-canada-day/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/07/01/p1-happy-canada-day/</guid>
         
         
       </item>
