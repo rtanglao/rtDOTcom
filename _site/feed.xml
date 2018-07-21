@@ -6,9 +6,36 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 18 Jul 2018 20:58:38 -0700</pubDate>
-    <lastBuildDate>Wed, 18 Jul 2018 20:58:38 -0700</lastBuildDate>
+    <pubDate>Fri, 20 Jul 2018 22:37:56 -0700</pubDate>
+    <lastBuildDate>Fri, 20 Jul 2018 22:37:56 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>roland-cars a dataset for electric cars in Canada</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;p&gt;Just for fun, I will do a dataset, &amp;quot;roland-cars&amp;quot; around electric cars in Canada:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;exclude sports cars like Tesla and has to be &amp;quot;affordable&amp;quot;&lt;/li&gt;
+&lt;li&gt;include all safety features&lt;/li&gt;
+&lt;li&gt;exclude paying extra for Android and Apple Car&lt;/li&gt;
+&lt;li&gt;60 month lease price&lt;/li&gt;
+&lt;li&gt;48 month lease price&lt;/li&gt;
+&lt;li&gt;plug in hybrids&lt;/li&gt;
+&lt;li&gt;range&lt;/li&gt;
+&lt;li&gt;pure electric as well as PHEV&lt;/li&gt;
+&lt;li&gt;have to be able to go to Cypress (80km round trip, 1000metre elevation rise in  sub zero temperatures twice a week for 5 months of year)&lt;/li&gt;
+&lt;li&gt;would be nice if it can make it to Whistler Olympic Park which is 130km one way, so 260km round trip&lt;/li&gt;
+&lt;li&gt;factor in the $2500 BC rebate for PHEV and $5000 BC rebate for EV&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 20 Jul 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/07/20/p1-roland-cars-a-dataset-for-electric-cars/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/07/20/p1-roland-cars-a-dataset-for-electric-cars/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Rough Notes: How to install apps (like Firefox Reality) on the Occulus Go using ADB on Windows 10</title>
@@ -201,34 +228,6 @@
         <pubDate>Tue, 03 Jul 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/07/03/p1-slack-chat-interface-for-google-play-review-replying/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/07/03/p1-slack-chat-interface-for-google-play-review-replying/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>MongoDB: When comparing dates of type DateTime you need to convert strings to ISODate</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;i.e. the following MongoDB query doesn&amp;#39;t work:&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Developer Reply Text&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;$ne&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'developer_last_updated_time'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; 
-  &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;$gte&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;  &lt;span class=&quot;s2&quot;&gt;&quot;2018-05-16T00:00:00Z&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;but the following does work&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Developer Reply Text&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;$ne&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'developer_last_updated_time'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;$gte&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;$date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;2018-05-16T00:00:00Z&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;this also works and is the form I prefer since it seems less complicated to me:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Developer Reply Text&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;$ne&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'developer_last_updated_time'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;s1&quot;&gt;'$gte'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ISODate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;2018-05-16T00:00:00Z&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        <pubDate>Mon, 02 Jul 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/07/02/p1-when-comparing-MongoDB-dates-type-DateTime-you-need-to-use-ISODate/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/07/02/p1-when-comparing-MongoDB-dates-type-DateTime-you-need-to-use-ISODate/</guid>
         
         
       </item>
