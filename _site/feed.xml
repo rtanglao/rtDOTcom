@@ -6,9 +6,22 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 20 Jul 2018 22:37:56 -0700</pubDate>
-    <lastBuildDate>Fri, 20 Jul 2018 22:37:56 -0700</lastBuildDate>
+    <pubDate>Sat, 21 Jul 2018 23:16:16 -0700</pubDate>
+    <lastBuildDate>Sat, 21 Jul 2018 23:16:16 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>We can fix this</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;p&gt;We can fix this! This being everything that threatens the world and our civilization. We can figure this out together :-)&lt;/p&gt;
+</description>
+        <pubDate>Sat, 21 Jul 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/07/21/p1-we-can-fix-this/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/07/21/p1-we-can-fix-this/</guid>
+        
+        
+      </item>
     
       <item>
         <title>roland-cars a dataset for electric cars in Canada</title>
@@ -189,45 +202,6 @@
         <pubDate>Wed, 04 Jul 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/07/04/p1-replacement-epson-ecotank-et-2750/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/07/04/p1-replacement-epson-ecotank-et-2750/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Slack bot chat interface for replying to Google Play Store reviews?!?!</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;p&gt;The following is just a thought experiment:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;DM a bot to ask for reviews to reply e.g. &lt;code&gt;/review&lt;/code&gt;
-
-&lt;ul&gt;
-&lt;li&gt;maybe you get 5-10 reviews&lt;/li&gt;
-&lt;li&gt;emoji for skip, emoji for spam, emoji for nonsense reviews&lt;/li&gt;
-&lt;li&gt;reply to a review via slack&amp;#39;s reply feature&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;DM the same bot to ask for reviews to moderate e.g. &lt;code&gt;/moderate&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;emoji for skip, emjoi for thumbs up, emoji for thumbs down, can, maybe have a command for editing, a review reply&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Pros&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;userids are taken care of&lt;/li&gt;
-&lt;li&gt;easy text driven interface, works wherever slack works, i.e. on mobile, on desktop, etc&lt;/li&gt;
-&lt;li&gt;emojis are fun :-)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Cons&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;you need a slack id which might be limited in supply, maybe just do this for moderating?&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 03 Jul 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/07/03/p1-slack-chat-interface-for-google-play-review-replying/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/07/03/p1-slack-chat-interface-for-google-play-review-replying/</guid>
         
         
       </item>
