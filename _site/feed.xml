@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 29 Jul 2018 23:45:28 -0700</pubDate>
-    <lastBuildDate>Sun, 29 Jul 2018 23:45:28 -0700</lastBuildDate>
+    <pubDate>Mon, 30 Jul 2018 21:43:58 -0700</pubDate>
+    <lastBuildDate>Mon, 30 Jul 2018 21:43:58 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>IA Writer Windows doesn't startup since 29 July 2018</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I&amp;#39;ll debug tomorrow but maybe something got corrupted?!?!&lt;/li&gt;
+&lt;li&gt;Never had any issues like this with IA Writer on Mac.&lt;/li&gt;
+&lt;li&gt;For now I am just writing using the github editor which isn&amp;#39;t so bad actually!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 30 Jul 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/07/30/p1-ia-writer-windows-does-not-startup/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/07/30/p1-ia-writer-windows-does-not-startup/</guid>
+        
+        
+      </item>
     
       <item>
         <title>DrivingToXCSki.com will be my blog about buying an electric car</title>
@@ -165,36 +182,6 @@
         <pubDate>Fri, 20 Jul 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/07/20/p1-roland-cars-a-dataset-for-electric-cars/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/07/20/p1-roland-cars-a-dataset-for-electric-cars/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Rough Notes: How to install apps (like Firefox Reality) on the Occulus Go using ADB on Windows 10</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;p&gt;Apparently there&amp;#39;s an easier way from cmvan that I have checkout!&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Login to developer.oculus.com&lt;/li&gt;
-&lt;li&gt;Go to &lt;code&gt;Oculus Go ADB Drivers&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;right click on &lt;code&gt;android_winusb&lt;/code&gt; and then &lt;code&gt;Install&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Go to https://github.com/mozillareality/FirefoxReality&lt;/li&gt;
-&lt;li&gt;click on &lt;code&gt;Build Results&lt;/code&gt; which takes you to for example:
-
-&lt;ul&gt;
-&lt;li&gt;https://tools.taskcluster.net/groups/WFVLzRTLTJCf1lkt5nIEeA/tasks/WFVLzRTLTJCf1lkt5nIEeA/details&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;click on the &lt;code&gt;Run Artifacts&lt;/code&gt; tab and download the apk&lt;/li&gt;
-&lt;li&gt;https://developer.android.com/studio/#downloads scroll to &lt;code&gt;Command line tools only&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;https://developer.android.com/studio/releases/platform-tools&lt;/li&gt;
-&lt;li&gt;put the Oculus Go headset on, click ok once maybe twice&lt;/li&gt;
-&lt;li&gt; &lt;code&gt;adb install -r C:\Users\rtang\Downloads\FirefoxReality-oculusvr-release-signed-aligned.apk&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 18 Jul 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/07/18/p1-how-to-install-apps-like-firefox-reality-on-occulus-go/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/07/18/p1-how-to-install-apps-like-firefox-reality-on-occulus-go/</guid>
         
         
       </item>
