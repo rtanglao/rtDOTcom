@@ -6,9 +6,32 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 30 Jul 2018 21:43:58 -0700</pubDate>
-    <lastBuildDate>Mon, 30 Jul 2018 21:43:58 -0700</lastBuildDate>
+    <pubDate>Tue, 31 Jul 2018 22:05:00 -0700</pubDate>
+    <lastBuildDate>Tue, 31 Jul 2018 22:05:00 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Throwback Tuesday: Remember 2006 when I taught podcasting with Robert Ouimet at Vancouver Film School :-) ?</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Neither do I :-) That was so 12 years ago!!! January 26, 2006 to be precise
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2006/01/26/vfs-diy-podcasting-and-blogs-and-wikis-at-vpl/&quot;&gt;My blog post from 12 years ago: VFS DIY Podcasting and Blogs and Wikis at VPL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Robert&amp;#39;s post from 12 years ago: &lt;a href=&quot;http://blog.bigsnit.com/2005/12/28/new-media-bc-podcasting-session/&quot;&gt;New Media BC Podcasting Session&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;I hear podcasting is back :-) I&amp;#39;ll believe it when I see it&lt;/li&gt;
+&lt;li&gt;Podcasting tech is here to stay but it&amp;#39;s not what I envisioned! &lt;/li&gt;
+&lt;li&gt;I envisioned normal people doing short podcasts on their own domain instead of doing them on centralized platforms like Facebook and twitter and youtube.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 31 Jul 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/07/31/p1-throwback-to-teaching-podcasting-at-vfs-in-2006/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/07/31/p1-throwback-to-teaching-podcasting-at-vfs-in-2006/</guid>
+        
+        
+      </item>
     
       <item>
         <title>IA Writer Windows doesn't startup since 29 July 2018</title>
@@ -155,33 +178,6 @@
         <pubDate>Sat, 21 Jul 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/07/21/p1-we-can-fix-this/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/07/21/p1-we-can-fix-this/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>roland-cars a dataset for electric cars in Canada</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;p&gt;Just for fun, I will do a dataset, &amp;quot;roland-cars&amp;quot; around electric cars in Canada:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;exclude sports cars like Tesla and has to be &amp;quot;affordable&amp;quot;&lt;/li&gt;
-&lt;li&gt;include all safety features&lt;/li&gt;
-&lt;li&gt;exclude paying extra for Android and Apple Car&lt;/li&gt;
-&lt;li&gt;60 month lease price&lt;/li&gt;
-&lt;li&gt;48 month lease price&lt;/li&gt;
-&lt;li&gt;plug in hybrids&lt;/li&gt;
-&lt;li&gt;range&lt;/li&gt;
-&lt;li&gt;pure electric as well as PHEV&lt;/li&gt;
-&lt;li&gt;have to be able to go to Cypress (80km round trip, 1000metre elevation rise in  sub zero temperatures twice a week for 5 months of year)&lt;/li&gt;
-&lt;li&gt;would be nice if it can make it to Whistler Olympic Park which is 130km one way, so 260km round trip&lt;/li&gt;
-&lt;li&gt;factor in the $2500 BC rebate for PHEV and $5000 BC rebate for EV&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 20 Jul 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/07/20/p1-roland-cars-a-dataset-for-electric-cars/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/07/20/p1-roland-cars-a-dataset-for-electric-cars/</guid>
         
         
       </item>
