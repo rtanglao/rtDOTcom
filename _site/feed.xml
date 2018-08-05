@@ -6,9 +6,36 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 04 Aug 2018 23:21:41 -0700</pubDate>
-    <lastBuildDate>Sat, 04 Aug 2018 23:21:41 -0700</lastBuildDate>
+    <pubDate>Sun, 05 Aug 2018 14:50:16 -0700</pubDate>
+    <lastBuildDate>Sun, 05 Aug 2018 14:50:16 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Podcasts on micro.blog using the iOS App Wavelength are maximum 25MB and can only be in MP3 format</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;From &lt;a href=&quot;http://help.micro.blog/2018/microcasting/&quot;&gt;help.micro.blog April 12, 2018:Podcasting with Micro.blog&lt;/a&gt;:
+&lt;blockquote&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;MP3s should be 25 MB or less. The following list shows an estimate for how long episodes can be depending on the audio encoding:
+&lt;/blockquote&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;64 kbps: 53 minutes&lt;/li&gt;
+&lt;li&gt;96 kbps: 35 minutes&lt;/li&gt;
+&lt;li&gt;112 kbps: 30 minutes&lt;/li&gt;
+&lt;li&gt;128 kbps: 26 minutes (used in Wavelength)&lt;/li&gt;
+&lt;li&gt;192 kbps: 17 minutes&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 05 Aug 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/08/05/p1-wavelength-microblog-podcast-mp3-format-only-25mb-limit/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/08/05/p1-wavelength-microblog-podcast-mp3-format-only-25mb-limit/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Programming should be easier (and secure and reliable)</title>
@@ -157,22 +184,6 @@ Pity it would have been great to have an all-in-one solution that can record 2 m
         <pubDate>Wed, 25 Jul 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/07/25/p1-i-grew-up-in-library-it-was-my-80s-internet/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/07/25/p1-i-grew-up-in-library-it-was-my-80s-internet/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Things I must do: Daily Blogging and Frequent Writing of Software for fun!</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Things I must do (and don&amp;#39;t feel complete (weird but true) if I don&amp;#39;t): Daily or almost daily blogging (about anything at all, it doesn&amp;#39;t really mattter what :-)) and frequent writing of software for fun (not money).&lt;/li&gt;
-&lt;li&gt;How about you :-) ?&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 24 Jul 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/07/24/p1-daily-blogging-and-frequent-coding/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/07/24/p1-daily-blogging-and-frequent-coding/</guid>
         
         
       </item>
