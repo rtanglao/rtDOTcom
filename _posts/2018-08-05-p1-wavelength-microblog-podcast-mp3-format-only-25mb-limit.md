@@ -9,7 +9,7 @@ title: "Podcasts on micro.blog using the iOS App Wavelength are maximum 25MB and
 
 <blockquote>
     
-MP3s should be 25 MB or less. The following list shows an estimate for how long episodes can be depending on the audio encoding:
+"MP3s should be 25 MB or less. The following list shows an estimate for how long episodes can be depending on the audio encoding:
 
 </blockquote>
 
