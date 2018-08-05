@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 02 Aug 2018 23:34:01 -0700</pubDate>
-    <lastBuildDate>Thu, 02 Aug 2018 23:34:01 -0700</lastBuildDate>
+    <pubDate>Sat, 04 Aug 2018 23:21:41 -0700</pubDate>
+    <lastBuildDate>Sat, 04 Aug 2018 23:21:41 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Programming should be easier (and secure and reliable)</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&amp;quot;It is long past time to return to designing tools not just for rock stars at Google but the vast majority of programmers and laypeople with simple small-scale problems. &amp;quot; &amp;lt;- from Jonathan Edwards &lt;a href=&quot;https://alarmingdevelopment.org/?p=1173&quot;&gt;The problem with programming an dhow to fix it!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;I&amp;#39;ve written lots about this e.g. &lt;a href=&quot;http://rolandtanglao.com/2018/04/26/p1-everybody-who-writes-formulas-or-uses-pivot-tables-in-a-spreadsheet-is-a-programmer/&quot;&gt;Everybody who writes formulas and/or uses pivot tables in a spreadsheet is a programmer&lt;/a&gt; from April.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 04 Aug 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/08/04/p1-programmking-should-be-easier/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/08/04/p1-programmking-should-be-easier/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Wavelength the micro.blog podcasting app doesn't support stereo recording through the lightning port</title>
@@ -157,26 +173,6 @@ Pity it would have been great to have an all-in-one solution that can record 2 m
         <pubDate>Tue, 24 Jul 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/07/24/p1-daily-blogging-and-frequent-coding/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/07/24/p1-daily-blogging-and-frequent-coding/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Small multiples are fun and useful </title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Reminded of this by &lt;a href=&quot;http://flowingdata.com/2014/02/05/where-people-run/&quot;&gt;Where People Run in Major Cities&lt;/a&gt; in Flowing Data&lt;/li&gt;
-&lt;li&gt;Read the whole thing!&lt;/li&gt;
-&lt;li&gt;And then check out &lt;a href=&quot;https://www.flickr.com/photos/roland/25149010853/in/photolist-VtARVZ-EjkfKp-E8nYSt-Eq4r5q-EnKnTo-K58Pxd-Ks65MF-JvrJGC&quot;&gt;my small multiples on flickr&lt;/a&gt; :&lt;/li&gt;
-&lt;li&gt;e.g.:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/25149010853/in/photolist-VtARVZ-EjkfKp-E8nYSt-Eq4r5q-EnKnTo-K58Pxd-Ks65MF-JvrJGC/&quot; title=&quot;ggmap top color vancouver instagram 2015 small multiples sorted by date 13march2016-abbreviated-date-minimal-1.0-point-size-alpha-0.4-4096px-wide&quot;&gt;&lt;img src=&quot;https://farm2.staticflickr.com/1502/25149010853_a1906a19cc_n.jpg&quot; width=&quot;320&quot; height=&quot;282&quot; alt=&quot;ggmap top color vancouver instagram 2015 small multiples sorted by date 13march2016-abbreviated-date-minimal-1.0-point-size-alpha-0.4-4096px-wide&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 23 Jul 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/07/23/p1-small-multiples-are-fun-and-useful/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/07/23/p1-small-multiples-are-fun-and-useful/</guid>
         
         
       </item>
