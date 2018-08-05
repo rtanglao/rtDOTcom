@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Podcasts on micro.blog use the iOS App Wavelenght are maximum 25MB and can only be in MP3 format"
+title: "Podcasts on micro.blog using the iOS App Wavelength are maximum 25MB and can only be in MP3 format"
 ---
 
 ## Pontifications
