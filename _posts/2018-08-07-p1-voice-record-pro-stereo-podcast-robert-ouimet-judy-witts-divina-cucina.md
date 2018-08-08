@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Robert Ouimet meets Judy witts aka Divina Cucina recorded with Voice Record Pro and Roland Duo Capture EX"
+title: "Robert Ouimet meets Judy Witts aka Divina Cucina recorded with iOS App Voice Record Pro and Roland Duo Capture EX"
 ---
 
 ## Pontifications
