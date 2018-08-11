@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Cypress Challenge for Pancreatic Cancer Research 2018 Sunday August 12, 2018 - Riding for my Mom"
+---
 
 ## Pontifications
 
