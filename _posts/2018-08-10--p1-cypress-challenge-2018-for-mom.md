@@ -6,7 +6,7 @@ title: "Cypress Challenge for Pancreatic Cancer Research 2018 Sunday August 12, 
 ## Pontifications
 
 * In 2013, my mother died of pancreatic cancer suddenly in 4 days.
-* Pancreatic cancer is deadly and underfunded! Therefore, I am riding up Cypress Mountain (12 km) in the [Cypress Challenge for Pancreatic Cancer Research](http://www.cypresschallenge.com/) 2018 Sunday August 12, 2018 
+* Pancreatic cancer is deadly and research for a cure underfunded! Therefore, I am riding up Cypress Mountain (12 km) in the [Cypress Challenge for Pancreatic Cancer Research](http://www.cypresschallenge.com/) 2018 Sunday August 12, 2018 
 * Read my story from [Tackling Cypress Mountain in honour of his mother](http://www.cypresschallenge.com/stories-2018/):
 
 **QUOTE**
