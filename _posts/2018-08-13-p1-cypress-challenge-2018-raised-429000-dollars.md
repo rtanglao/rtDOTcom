@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cypress Challenge for Pancreatic Cancer Research 2018 Sunday August 12, 2018 raised $429,000, yay! See you next yar"
+title: "Cypress Challenge for Pancreatic Cancer Research 2018 Sunday August 12, 2018 raised $429,000, yay! See you next year!"
 ---
 
 ## Pontifications
