@@ -5,7 +5,7 @@ title: "Steve Pemberton: The 100 Year Web (In Praise of XML)! (and declarative v
 
 ## Pontifications
 
-* Juicy Quotes from [Steve Pemberton The 100 Year Web (In Praise of XML)](https://homepages.cwi.nl/~steven/Talks/2018/07-31-balisage/#L757 via [Dorian's tweet](https://twitter.com/doriantaylor/status/1024491419027685377):
+* Juicy Quotes from [Steve Pemberton The 100 Year Web (In Praise of XML)](https://homepages.cwi.nl/~steven/Talks/2018/07-31-balisage/#L757) via [Dorian's tweet](https://twitter.com/doriantaylor/status/1024491419027685377):
 
 <blockquote>
 
