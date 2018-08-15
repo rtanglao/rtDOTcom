@@ -6,9 +6,53 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 13 Aug 2018 17:25:58 -0700</pubDate>
-    <lastBuildDate>Mon, 13 Aug 2018 17:25:58 -0700</lastBuildDate>
+    <pubDate>Tue, 14 Aug 2018 21:27:33 -0700</pubDate>
+    <lastBuildDate>Tue, 14 Aug 2018 21:27:33 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Steve Pemberton: The 100 Year Web (In Praise of XML)! (and declarative versus procedural)</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Juicy Quotes from &lt;a href=&quot;https://homepages.cwi.nl/%7Esteven/Talks/2018/07-31-balisage/#L757&quot;&gt;Steve Pemberton The 100 Year Web (In Praise of XML)&lt;/a&gt; via &lt;a href=&quot;https://twitter.com/doriantaylor/status/1024491419027685377&quot;&gt;Dorian&amp;#39;s tweet&lt;/a&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+
+The web is the way now that we distribute information. We will need the web pages we create now to be readable in 100 years time, just as we can still read 100-year-old books.
+
+Requiring a webpage to depend on a particular 100-year-old implementation of Javascript is not exactly evidence of future-thinking.
+
+At least declarative markup is easier to keep alive because (see the 5th slide) it is INDEPENDENT OF THE IMPLEMENTATION!
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;...&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+We need to seize the initiative, and recreate a declarative, robust, lasting web.
+
+Let HTML5 play; HTML5 is now the assembly language of the web.
+
+It is time for some Higher-Level Languages!
+
+Who's in?
+
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;And of course &lt;a href=&quot;https://homepages.cwi.nl/%7Esteven/Talks/2018/07-31-balisage/#L757&quot;&gt;read the whole thing!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;I agree, we need declarative!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 14 Aug 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/08/14/p1-long-live-the-declarative-web/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/08/14/p1-long-live-the-declarative-web/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Cypress Challenge for Pancreatic Cancer Research 2018 Sunday August 12, 2018 raised $429,000, yay! See you next year!</title>
@@ -207,21 +251,6 @@ Pity it would have been great to have an all-in-one solution that can record 2 m
         <pubDate>Thu, 02 Aug 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/08/02/p1-wavelength-does-not-support-stereo-recording/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/08/02/p1-wavelength-does-not-support-stereo-recording/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Voice Record Pro on iOS seems to record In stereo through lightning port</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://roland.micro.blog/2018/08/01/voice-record-pro.html&quot;&gt;Voice Record Pro On iOS Seems To Record In Stereo Through iOS The Lightning port unlike many other iOS recording apps&lt;/a&gt; &amp;lt;--- check out the audio quality in the link!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 01 Aug 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/08/01/p1-voice-record-pro-records-stereo-through-ios-lightning-port/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/08/01/p1-voice-record-pro-records-stereo-through-ios-lightning-port/</guid>
         
         
       </item>
