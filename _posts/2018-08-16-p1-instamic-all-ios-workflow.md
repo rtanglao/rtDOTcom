@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "instaMic: does an all iOS workflow exist (instead of using a OS X or Windows machine)?"
-
+title: "Instamic: does an all iOS workflow exist (instead of using a OS X or Windows machine)?"
+---
 ## Pontifications
 
 * Yesterday's [convoluted workflow post to make a podcast using Instamic and a laptop](http://rolandtanglao.com/2018/08/15/p1-instamic-wave-instamic-microblog/) was because I couldn't see a way to read the WAV files stored on a USB drive like Instamic from iOS (even though there is an Instamic remote control iOS app) so I had to resort to using a laptop (OS X or Windows or Linux it doesn't matter because you need to read the files).
@@ -11,14 +11,14 @@ title: "instaMic: does an all iOS workflow exist (instead of using a OS X or Win
 
 <blockquote>
 
-#8722 is there way to access the instamic files from an iOS app so i can record and podcast without using a laptop?
-Roland Tanglao, reported 3 days ago
- Hi Folks:
+#8722 is there way to access the instamic files from an iOS app so i can record and podcast without using a laptop?<br />
+Roland Tanglao, reported 3 days ago<br />
+ Hi Folks:<br />
 
-is there way to access the instamic files from an iOS app like Wavelength or GarageBand so i can record and podcast without using a laptop?
+is there way to access the instamic files from an iOS app like Wavelength or GarageBand so i can record and podcast without using a laptop?<br />
 
-Cheers!
-
+Cheers!<br />
+<br />
 ...Roland Tanglao, instamic indiegogo backer
 
 </blockquote>

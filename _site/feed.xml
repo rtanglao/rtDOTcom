@@ -6,19 +6,53 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 15 Aug 2018 19:52:00 -0700</pubDate>
-    <lastBuildDate>Wed, 15 Aug 2018 19:52:00 -0700</lastBuildDate>
+    <pubDate>Thu, 16 Aug 2018 23:26:02 -0700</pubDate>
+    <lastBuildDate>Thu, 16 Aug 2018 23:26:02 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Instamic: does an all iOS workflow exist (instead of using a OS X or Windows machine)?</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Yesterday&amp;#39;s &lt;a href=&quot;http://rolandtanglao.com/2018/08/15/p1-instamic-wave-instamic-microblog/&quot;&gt;convoluted workflow post to make a podcast using Instamic and a laptop&lt;/a&gt; was because I couldn&amp;#39;t see a way to read the WAV files stored on a USB drive like Instamic from iOS (even though there is an Instamic remote control iOS app) so I had to resort to using a laptop (OS X or Windows or Linux it doesn&amp;#39;t matter because you need to read the files).&lt;/li&gt;
+&lt;li&gt;But wait maybe there is a way with the &lt;a href=&quot;https://www.cultofmac.com/529159/how-to-use-a-usb-drive-with-files-on-ios/&quot;&gt;FileBrowser iOS app and certain usb drives&lt;/a&gt; and/or the &lt;a href=&quot;https://www.cultofmac.com/508611/how-to-use-external-storage-with-your-ipad-or-iphones-files-app/&quot;&gt;Filebrowser iOS app with the USB drive connected to your router&lt;/a&gt;. &lt;/li&gt;
+&lt;li&gt;It&amp;#39;s silly that you can&amp;#39;t just use the built-in iOS Files app! C&amp;#39;mon Apple!&lt;/li&gt;
+&lt;li&gt;3 days ago I &lt;a href=&quot;https://instamic.freshdesk.com/support/tickets/8722&quot;&gt;filed an Instamic Support request&lt;/a&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+
+#8722 is there way to access the instamic files from an iOS app so i can record and podcast without using a laptop?&lt;br /&gt;
+Roland Tanglao, reported 3 days ago&lt;br /&gt;
+ Hi Folks:&lt;br /&gt;
+
+is there way to access the instamic files from an iOS app like Wavelength or GarageBand so i can record and podcast without using a laptop?&lt;br /&gt;
+
+Cheers!&lt;br /&gt;
+&lt;br /&gt;
+...Roland Tanglao, instamic indiegogo backer
+
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Thu, 16 Aug 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/08/16/p1-instamic-all-ios-workflow/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/08/16/p1-instamic-all-ios-workflow/</guid>
+        
+        
+      </item>
     
       <item>
         <title>record on instaMic -&gt; plug into Windows -&gt; convert to mp3 with ffmpeg -&gt; upload with website to micro.blog aka how i recorded this one's for pat</title>
         <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
 
+&lt;p&gt;aka how i recorded &lt;a href=&quot;http://roland.micro.blog/2018/08/15/this-ones-for.html&quot;&gt;this one&amp;#39;s for pat&lt;/a&gt;&lt;/p&gt;
+
 &lt;ol&gt;
 &lt;li&gt;record on &lt;a href=&quot;https://instamic.io/pages/instamic-support-mobile-app&quot;&gt;instaMic&lt;/a&gt; which only records WAV files&lt;/li&gt;
 &lt;li&gt;plug into Windows computer or mac  using USB (wireless would be better!)&lt;/li&gt;
 &lt;li&gt;convert to mp3 with &lt;a href=&quot;https://ffmpeg.zeranoe.com/builds/&quot;&gt;ffmpeg&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;upload with website to micro.blog aka how i recorded &lt;a href=&quot;http://roland.micro.blog/2018/08/15/this-ones-for.html&quot;&gt;this one&amp;#39;s for pat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;upload with website to micro.blog &lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;ul&gt;
@@ -243,22 +277,6 @@ Who's in?
         <pubDate>Sun, 05 Aug 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/08/05/p1-wavelength-microblog-podcast-mp3-format-only-25mb-limit/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/08/05/p1-wavelength-microblog-podcast-mp3-format-only-25mb-limit/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Programming should be easier (and secure and reliable)</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&amp;quot;It is long past time to return to designing tools not just for rock stars at Google but the vast majority of programmers and laypeople with simple small-scale problems. &amp;quot; &amp;lt;- from Jonathan Edwards &lt;a href=&quot;https://alarmingdevelopment.org/?p=1173&quot;&gt;The problem with programming an dhow to fix it!&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;I&amp;#39;ve written lots about this e.g. &lt;a href=&quot;http://rolandtanglao.com/2018/04/26/p1-everybody-who-writes-formulas-or-uses-pivot-tables-in-a-spreadsheet-is-a-programmer/&quot;&gt;Everybody who writes formulas and/or uses pivot tables in a spreadsheet is a programmer&lt;/a&gt; from April.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 04 Aug 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/08/04/p1-programmking-should-be-easier/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/08/04/p1-programmking-should-be-easier/</guid>
         
         
       </item>
