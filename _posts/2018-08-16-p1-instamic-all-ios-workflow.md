@@ -4,6 +4,8 @@ title: "Instamic: does an all iOS workflow exist (instead of using a OS X or Win
 ---
 ## Pontifications
 
+* UPDATE: I see that [Instamic just (in July) got the ability to stream using bluetooth aka Handsfree microphone profile (HFP) microphone but it only works with one app, Pro Movie App](https://www.youtube.com/watch?v=dTqkdc2sl1g)  
+
 * Yesterday's [convoluted workflow post to make a podcast using Instamic and a laptop](http://rolandtanglao.com/2018/08/15/p1-instamic-wave-instamic-microblog/) was because I couldn't see a way to read the WAV files stored on a USB drive like the bluetooth microphone Instamic does from iOS (even though there is an Instamic remote control iOS app) so I had to resort to using a laptop (OS X or Windows or Linux it doesn't matter because you need to read the files).
 * But wait maybe there is a way with the [FileBrowser iOS app and certain usb drives](https://www.cultofmac.com/529159/how-to-use-a-usb-drive-with-files-on-ios/) and/or the [Filebrowser iOS app with the USB drive connected to your router](https://www.cultofmac.com/508611/how-to-use-external-storage-with-your-ipad-or-iphones-files-app/). 
 * It's silly that you can't just use the built-in iOS Files app! C'mon Apple!
