@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 16 Aug 2018 23:49:18 -0700</pubDate>
-    <lastBuildDate>Thu, 16 Aug 2018 23:49:18 -0700</lastBuildDate>
+    <pubDate>Fri, 17 Aug 2018 23:14:24 -0700</pubDate>
+    <lastBuildDate>Fri, 17 Aug 2018 23:14:24 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Stepping away from the laptop for a few weeks!</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;See you after Labour Day!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 17 Aug 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/08/17/p1-vacation-time/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/08/17/p1-vacation-time/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Instamic: does an all iOS workflow exist (instead of using a OS X or Windows machine)?</title>
@@ -249,35 +264,6 @@ Who's in?
         <pubDate>Mon, 06 Aug 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/08/06/p1-rode-rec-also-appears-to-record-in-stereo-ios-iphone/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/08/06/p1-rode-rec-also-appears-to-record-in-stereo-ios-iphone/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Podcasts on micro.blog using the iOS App Wavelength are maximum 25MB and can only be in MP3 format</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;From &lt;a href=&quot;http://help.micro.blog/2018/microcasting/&quot;&gt;help.micro.blog April 12, 2018:Podcasting with Micro.blog&lt;/a&gt;:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-    
-&quot;MP3s should be 25 MB or less. The following list shows an estimate for how long episodes can be depending on the audio encoding:
-
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;64 kbps: 53 minutes&lt;/li&gt;
-&lt;li&gt;96 kbps: 35 minutes&lt;/li&gt;
-&lt;li&gt;112 kbps: 30 minutes&lt;/li&gt;
-&lt;li&gt;128 kbps: 26 minutes (used in Wavelength)&lt;/li&gt;
-&lt;li&gt;192 kbps: 17 minutes&amp;quot;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 05 Aug 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/08/05/p1-wavelength-microblog-podcast-mp3-format-only-25mb-limit/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/08/05/p1-wavelength-microblog-podcast-mp3-format-only-25mb-limit/</guid>
         
         
       </item>
