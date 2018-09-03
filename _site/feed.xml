@@ -6,9 +6,34 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 17 Aug 2018 23:14:24 -0700</pubDate>
-    <lastBuildDate>Fri, 17 Aug 2018 23:14:24 -0700</lastBuildDate>
+    <pubDate>Mon, 03 Sep 2018 14:34:42 -0700</pubDate>
+    <lastBuildDate>Mon, 03 Sep 2018 14:34:42 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Not sure what happened but iA Writer 1.0.4 is working after I deleted C:\Users\{your user name}\AppData\Roaming\iA Writer</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Should have read this &lt;a href=&quot;https://ia.net/writer/support/windows/frequently-asked-questions&quot;&gt;IA Writer Windows Support FAQ&lt;/a&gt;  back when &lt;a href=&quot;http://rolandtanglao.com/2018/07/30/p1-ia-writer-windows-does-not-startup/&quot;&gt;I complained about IA Writer on July 30th&lt;/a&gt; !&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+We would also recommend deleting the user settings file for iA Writer when performing a reinstall. To do so, please delete the following folder: C:\Users\{your user name}\AppData\Roaming\iA Writer
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 03 Sep 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/09/03/p1-ia-writer-is-working-after-i-deleted-app-data/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/09/03/p1-ia-writer-is-working-after-i-deleted-app-data/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Stepping away from the laptop for a few weeks!</title>
@@ -248,22 +273,6 @@ Who's in?
         <pubDate>Tue, 07 Aug 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/08/07/p1-voice-record-pro-stereo-podcast-robert-ouimet-judy-witts-divina-cucina/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/08/07/p1-voice-record-pro-stereo-podcast-robert-ouimet-judy-witts-divina-cucina/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>RØDE Rec also appears to record in stereo from the lightning port on iOS i.e. iPhone and iPad</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Like &lt;a href=&quot;http://rolandtanglao.com/2018/08/01/p1-voice-record-pro-records-stereo-through-ios-lightning-port/&quot;&gt;Voice Record Pro&lt;/a&gt;, &lt;a href=&quot;http://www.rode.com/software/roderec&quot;&gt;RØDE Rec&lt;/a&gt; also appears to record in stereo from the lightning port on iOS i.e. iPhone and iPad&lt;/li&gt;
-&lt;li&gt;I will try both but first I will try Voice Record Pro with 2 people and 2 microphones!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 06 Aug 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/08/06/p1-rode-rec-also-appears-to-record-in-stereo-ios-iphone/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/08/06/p1-rode-rec-also-appears-to-record-in-stereo-ios-iphone/</guid>
         
         
       </item>
