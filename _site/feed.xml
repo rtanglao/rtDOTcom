@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 06 Sep 2018 22:20:01 -0700</pubDate>
-    <lastBuildDate>Thu, 06 Sep 2018 22:20:01 -0700</lastBuildDate>
+    <pubDate>Fri, 07 Sep 2018 17:45:21 -0700</pubDate>
+    <lastBuildDate>Fri, 07 Sep 2018 17:45:21 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>UC Berkeley deploys Jupyter notebooks campus wide! Bravo! Better and cheaper in terms of server costs with Iodide right?</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;UC Berkeley deploys Jupyter notebooks campus wide, see &lt;a href=&quot;https://www.oreilly.com/ideas/sea-change-what-happens-when-jupyter-becomes-pervasive-at-a-university&quot;&gt;Sea change: What happens when Jupyter becomes pervasive at a university?&lt;/a&gt; ! Bravo&lt;/li&gt;
+&lt;li&gt;Better and cheaper in terms of server costs with &lt;a href=&quot;https://iodide.io/&quot;&gt;Iodide&lt;/a&gt; right? Because Iodide doesn&amp;#39;t require a server?!?! The Iodide notebooks run in your browser!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 07 Sep 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/09/07/p1-berkley-deploys-jupyter-notebooks-cheaper-iodide/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/09/07/p1-berkley-deploys-jupyter-notebooks-cheaper-iodide/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Brent Cannon: Pay for open source with kindness</title>
@@ -232,33 +248,6 @@ Who's in?
         <pubDate>Tue, 14 Aug 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/08/14/p1-long-live-the-declarative-web/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/08/14/p1-long-live-the-declarative-web/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Cypress Challenge for Pancreatic Cancer Research 2018 Sunday August 12, 2018 raised $429,000, yay! See you next year!</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;429,000 dollars raised by the Cypress Challenge in 2018! Yes! More fundraising next year!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Wow!! An incredible $429,000 was raised for Pancreatic Cancer Research at this years &lt;a href=&quot;https://twitter.com/hashtag/CypressChallenge?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#CypressChallenge&lt;/a&gt; event!! A massive thank you to everyone who took part, for all the generous donations made and to the awesome volunteers who helped ensure the day ran so smoothly! THANK YOU! ❤ &lt;a href=&quot;https://t.co/QysI0kS7AF&quot;&gt;pic.twitter.com/QysI0kS7AF&lt;/a&gt;&lt;/p&gt;&amp;mdash; Glotman Simpson (@GlotmanSimpson) &lt;a href=&quot;https://twitter.com/GlotmanSimpson/status/1028771456505675776?ref_src=twsrc%5Etfw&quot;&gt;August 12, 2018&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;ul&gt;
-&lt;li&gt;And I was interviewed by Global TV, fun times :-) I made the producer cry when mentioning the 4 days!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Roland channeling his mom&amp;#39;s memory at &lt;a href=&quot;https://twitter.com/hashtag/CypressChallenge?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#CypressChallenge&lt;/a&gt;. Love the hat! 👌 &lt;br&gt;&lt;br&gt;We are going live on Facebook from the start line - tune in to our page to see our incredible community come together. 📺 &lt;a href=&quot;https://t.co/jlfek3PQOd&quot;&gt;pic.twitter.com/jlfek3PQOd&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cypress Challenge (@CypChallenge) &lt;a href=&quot;https://twitter.com/CypChallenge/status/1028667200394022912?ref_src=twsrc%5Etfw&quot;&gt;August 12, 2018&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-</description>
-        <pubDate>Mon, 13 Aug 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/08/13/p1-cypress-challenge-2018-raised-429000-dollars/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/08/13/p1-cypress-challenge-2018-raised-429000-dollars/</guid>
         
         
       </item>
