@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 07 Sep 2018 17:45:21 -0700</pubDate>
-    <lastBuildDate>Fri, 07 Sep 2018 17:45:21 -0700</lastBuildDate>
+    <pubDate>Sat, 08 Sep 2018 21:08:35 -0700</pubDate>
+    <lastBuildDate>Sat, 08 Sep 2018 21:08:35 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Anchored Coffee / Two if by Sea Cafe / Dartmouth, Nova Scotia, highly recommended</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.anchoredcoffee.com/&quot;&gt;Anchored Coffee&lt;/a&gt; is the roastery co-located with the fab &lt;a href=&quot;https://www.twoifbyseacafe.ca/&quot;&gt;Two if by Sea Cafe in Dartmouth, Nova Scotia&lt;/a&gt;, both highly recommended&lt;/li&gt;
+&lt;li&gt;Great coffee and deserts! And bread!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 08 Sep 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/09/08/p1-two-if-by-sea-anchored-coffee-dartmouth-highly-recommended/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/09/08/p1-two-if-by-sea-anchored-coffee-dartmouth-highly-recommended/</guid>
+        
+        
+      </item>
     
       <item>
         <title>UC Berkeley deploys Jupyter notebooks campus wide! Bravo! Better and cheaper in terms of server costs with Iodide right?</title>
@@ -204,50 +220,6 @@ Cheers!&lt;br /&gt;
         <pubDate>Wed, 15 Aug 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/08/15/p1-instamic-wave-instamic-microblog/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/08/15/p1-instamic-wave-instamic-microblog/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Steve Pemberton: The 100 Year Web (In Praise of XML)! (and declarative versus procedural)</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Juicy Quotes from &lt;a href=&quot;https://homepages.cwi.nl/%7Esteven/Talks/2018/07-31-balisage/#L757&quot;&gt;Steve Pemberton The 100 Year Web (In Praise of XML)&lt;/a&gt; via &lt;a href=&quot;https://twitter.com/doriantaylor/status/1024491419027685377&quot;&gt;Dorian&amp;#39;s tweet&lt;/a&gt;:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-
-The web is the way now that we distribute information. We will need the web pages we create now to be readable in 100 years time, just as we can still read 100-year-old books.
-
-Requiring a webpage to depend on a particular 100-year-old implementation of Javascript is not exactly evidence of future-thinking.
-
-At least declarative markup is easier to keep alive because (see the 5th slide) it is INDEPENDENT OF THE IMPLEMENTATION!
-
-&lt;/blockquote&gt;
-
-&lt;p&gt;...&lt;/p&gt;
-
-&lt;blockquote&gt;
-
-We need to seize the initiative, and recreate a declarative, robust, lasting web.
-
-Let HTML5 play; HTML5 is now the assembly language of the web.
-
-It is time for some Higher-Level Languages!
-
-Who's in?
-
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;And of course &lt;a href=&quot;https://homepages.cwi.nl/%7Esteven/Talks/2018/07-31-balisage/#L757&quot;&gt;read the whole thing!&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;I agree, we need declarative!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 14 Aug 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/08/14/p1-long-live-the-declarative-web/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/08/14/p1-long-live-the-declarative-web/</guid>
         
         
       </item>
