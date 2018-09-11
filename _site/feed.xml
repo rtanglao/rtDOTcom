@@ -6,9 +6,30 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 10 Sep 2018 00:26:51 -0700</pubDate>
-    <lastBuildDate>Mon, 10 Sep 2018 00:26:51 -0700</lastBuildDate>
+    <pubDate>Mon, 10 Sep 2018 22:36:42 -0700</pubDate>
+    <lastBuildDate>Mon, 10 Sep 2018 22:36:42 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>August 10, 2018: Dale and I podcast about rebooting Over 40 in Vancouver</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What&amp;#39;s more boring than a podcast by two males?&lt;/li&gt;
+&lt;li&gt;Answer: a podcast about rebooting their old podcast :-) &lt;/li&gt;
+&lt;li&gt;Behold :-)
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://roland.micro.blog/2018/08/10/dale-and-i.html&quot;&gt;Dale and I Chat about Over 40 in Vancouver “The Next Generation”&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 10 Sep 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/09/10/p1-over-40-in-vancouver-reboot-using-sftp-to-a-wordpress-blog/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/09/10/p1-over-40-in-vancouver-reboot-using-sftp-to-a-wordpress-blog/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Still can't launch Firefox from Windows Subystem From Linux without a Selenium server and some hacks that nobody has working (Chrome works though)</title>
@@ -202,39 +223,6 @@ We would also recommend deleting the user settings file for iA Writer when perfo
         <pubDate>Fri, 17 Aug 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/08/17/p1-vacation-time/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/08/17/p1-vacation-time/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Instamic: does an all iOS workflow exist (instead of using a OS X or Windows machine)?</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;UPDATE: I see that &lt;a href=&quot;https://www.youtube.com/watch?v=dTqkdc2sl1g&quot;&gt;Instamic just (in July) got the ability to stream using bluetooth aka Handsfree microphone profile (HFP) microphone but it only works with one app, Pro Movie App&lt;/a&gt; , hopefully &lt;a href=&quot;http://rolandtanglao.com/2018/08/01/p1-voice-record-pro-records-stereo-through-ios-lightning-port/&quot;&gt;Voice Record Pro&lt;/a&gt; will upgrade their iOS app to support this.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Yesterday&amp;#39;s &lt;a href=&quot;http://rolandtanglao.com/2018/08/15/p1-instamic-wave-instamic-microblog/&quot;&gt;convoluted workflow post to make a podcast using Instamic and a laptop&lt;/a&gt; was because I couldn&amp;#39;t see a way to read the WAV files stored on a USB drive like the bluetooth microphone Instamic does from iOS (even though there is an Instamic remote control iOS app) so I had to resort to using a laptop (OS X or Windows or Linux it doesn&amp;#39;t matter because you need to read the files).&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;But wait maybe there is a way with the &lt;a href=&quot;https://www.cultofmac.com/529159/how-to-use-a-usb-drive-with-files-on-ios/&quot;&gt;FileBrowser iOS app and certain usb drives&lt;/a&gt; and/or the &lt;a href=&quot;https://www.cultofmac.com/508611/how-to-use-external-storage-with-your-ipad-or-iphones-files-app/&quot;&gt;Filebrowser iOS app with the USB drive connected to your router&lt;/a&gt;. &lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;It&amp;#39;s silly that you can&amp;#39;t just use the built-in iOS Files app! C&amp;#39;mon Apple!&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;3 days ago I &lt;a href=&quot;https://instamic.freshdesk.com/support/tickets/8722&quot;&gt;filed an Instamic Support request&lt;/a&gt;:&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-
-#8722 is there way to access the instamic files from an iOS app so i can record and podcast without using a laptop?&lt;br /&gt;
-Roland Tanglao, reported 3 days ago&lt;br /&gt;
- Hi Folks:&lt;br /&gt;
-
-is there way to access the instamic files from an iOS app like Wavelength or GarageBand so i can record and podcast without using a laptop?&lt;br /&gt;
-
-Cheers!&lt;br /&gt;
-&lt;br /&gt;
-...Roland Tanglao, instamic indiegogo backer
-
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Thu, 16 Aug 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/08/16/p1-instamic-all-ios-workflow/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/08/16/p1-instamic-all-ios-workflow/</guid>
         
         
       </item>
