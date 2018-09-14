@@ -6,21 +6,48 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 12 Sep 2018 23:18:01 -0700</pubDate>
-    <lastBuildDate>Wed, 12 Sep 2018 23:18:01 -0700</lastBuildDate>
+    <pubDate>Thu, 13 Sep 2018 21:28:11 -0700</pubDate>
+    <lastBuildDate>Thu, 13 Sep 2018 21:28:11 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Kitsune aka support.mozilla.org question API</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Like the &lt;a href=&quot;http://rolandtanglao.com/2018/09/12/p1-kitsune-answer-api/&quot;&gt;answer API&lt;/a&gt; this was discovered in &lt;a href=&quot;https://github.com/jscher2000/My-SuMo-Questions/blob/master/myq.html&quot;&gt;jscher2000&amp;#39;s myq.html code&lt;/a&gt;!&lt;/li&gt;
+&lt;li&gt;sample question API code: &lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/testAPI.rb&quot;&gt;https://github.com/rtanglao/rt-kitsune-api/blob/master/testAPI.rb&lt;/a&gt;&lt;br&gt;
+
+&lt;ul&gt;
+&lt;li&gt;sample question API json response: &lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/sample-question-api-result.md&quot;&gt;https://github.com/rtanglao/rt-kitsune-api/blob/master/sample-question-api-result.md&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;API is:&lt;code&gt;https://support.mozilla.org/api/2/question/?format=json&amp;amp;product=firefox&amp;amp;locale=en-US&lt;/code&gt; &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 13 Sep 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/09/13/kitsune-question-api/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/09/13/kitsune-question-api/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Kitsune aka support.mozilla.org answer API</title>
         <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
 
-&lt;p&gt;s
-* Like the questionAPI this was discovered in &lt;a href=&quot;https://github.com/jscher2000/My-SuMo-Questions/blob/master/myq.html&quot;&gt;jscher2000&amp;#39;s myq.html code&lt;/a&gt;!
-* sample answer API code: https://github.com/rtanglao/rt-kitsune-api/blob/master/answerTestAPI.rb 
-  * sample API json response: https://github.com/rtanglao/rt-kitsune-api/blob/master/sampleAnswerTestAPIoutput.md
-* sample reply API code: https://github.com/rtanglao/rt-kitsune-api/blob/master/testAPI.rb
-* API is:&lt;code&gt;https://support.mozilla.org/api/2/answer/?format=json&amp;amp;id=&amp;lt;question_id&amp;gt;&lt;/code&gt; 
-  * where &lt;code&gt;&amp;lt;question_id&amp;gt;&lt;/code&gt; is an integer question id! &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Like the &lt;a href=&quot;http://rolandtanglao.com/2018/09/13/kitsune-question-api/&quot;&gt;kitsune question API&lt;/a&gt;, this was discovered by me in &lt;a href=&quot;https://github.com/jscher2000/My-SuMo-Questions/blob/master/myq.html&quot;&gt;jscher2000&amp;#39;s myq.html code&lt;/a&gt;! Couldn&amp;#39;t find any official docs but maybe there are some docs?!?!&lt;/li&gt;
+&lt;li&gt;sample answer API code: &lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/answerTestAPI.rb&quot;&gt;https://github.com/rtanglao/rt-kitsune-api/blob/master/answerTestAPI.rb&lt;/a&gt;&lt;br&gt;
+
+&lt;ul&gt;
+&lt;li&gt;sample API json response: &lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/sampleAnswerTestAPIoutput.md&quot;&gt;https://github.com/rtanglao/rt-kitsune-api/blob/master/sampleAnswerTestAPIoutput.md&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;API is:&lt;code&gt;https://support.mozilla.org/api/2/answer/?format=json&amp;amp;id=&amp;lt;question_id&amp;gt;&lt;/code&gt; 
+
+&lt;ul&gt;
+&lt;li&gt;where &lt;code&gt;&amp;lt;question_id&amp;gt;&lt;/code&gt; is an integer question id! &lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Wed, 12 Sep 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/09/12/p1-kitsune-answer-api/</link>
@@ -202,31 +229,6 @@
         <pubDate>Mon, 03 Sep 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/09/03/p2-thanks-for-the-receiver-coffee-recommendation-peter/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/09/03/p2-thanks-for-the-receiver-coffee-recommendation-peter/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Not sure what happened but iA Writer 1.0.4 is working after I deleted C:\Users\{your user name}\AppData\Roaming\iA Writer</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Should have read this &lt;a href=&quot;https://ia.net/writer/support/windows/frequently-asked-questions&quot;&gt;IA Writer Windows Support FAQ&lt;/a&gt;  back when &lt;a href=&quot;http://rolandtanglao.com/2018/07/30/p1-ia-writer-windows-does-not-startup/&quot;&gt;I complained about IA Writer on July 30th&lt;/a&gt; !&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-
-We would also recommend deleting the user settings file for iA Writer when performing a reinstall. To do so, please delete the following folder: C:\Users\{your user name}\AppData\Roaming\iA Writer
-
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 03 Sep 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/09/03/p1-ia-writer-is-working-after-i-deleted-app-data/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/09/03/p1-ia-writer-is-working-after-i-deleted-app-data/</guid>
         
         
       </item>
