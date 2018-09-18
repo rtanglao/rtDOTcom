@@ -9,7 +9,7 @@ title: "Graph of yesterday's Firefox 62 Desktop SUMO Support Forums Week 1 tags 
 
 ```r
 library(ggplot2)
-tags = read.csv(file = "https://raw.githubusercontent.com/rtanglao/rt-kitsune-api/master/16september2018-tags-5-11september2018.csv", stringsAsFactors = F)
+tags = read.csv(file = "https://raw.githubusercontent.com/rtanglao/rt-kitsune-api/master/FF62_WEEK1/16september2018-tags-5-11september2018.csv", stringsAsFactors = F)
 
 p = ggplot(data=tags, aes(x=tag))
 p= p + geom_bar(stat="count")
@@ -33,4 +33,4 @@ p2
 
 * The graph from yesterday's [Firefox 62 Desktop SUMO Support Forums Week 1 tags - September 5-11, 2018](http://rolandtanglao.com/2018/09/16/p1-firefox62-sumo-support-forum-tags-week1/):
 
-![All tags for the first week of Firefox Desktop 62 i.e. September 5-11, 2018](https://github.com/rtanglao/rt-kitsune-api/raw/master/sumo-firefox-desktop-62-week1-05-11september2018-all-tags-count-gt-10-Rplot02.png)
+![All tags for the first week of Firefox Desktop 62 i.e. September 5-11, 2018](https://github.com/rtanglao/rt-kitsune-api/raw/master/FF62_WEEK1/sumo-firefox-desktop-62-week1-05-11september2018-all-tags-count-gt-10-Rplot02.png)
