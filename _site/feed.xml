@@ -6,9 +6,27 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 17 Sep 2018 21:21:27 -0700</pubDate>
-    <lastBuildDate>Mon, 17 Sep 2018 21:21:27 -0700</lastBuildDate>
+    <pubDate>Sat, 22 Sep 2018 22:53:11 -0700</pubDate>
+    <lastBuildDate>Sat, 22 Sep 2018 22:53:11 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Launching Windows Firefox from WSL works, just set the BROWSER environment variable</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I was wrong when I wrote: &lt;a href=&quot;http://rolandtanglao.com/2018/09/09/p1-still-cannot-launch-firefox-from-wsl-without-lots-of-yakshaving/&quot;&gt;Still can&amp;#39;t launch Firefox from Windows Subystem From Linux without a Selenium server and some hacks that nobody has working (Chrome works though)&lt;/a&gt; back on September 9, 2018.&lt;/li&gt;
+&lt;li&gt;It&amp;#39;s easy to use the &lt;code&gt;Launchy&lt;/code&gt; ruby gem&lt;/li&gt;
+&lt;li&gt;Just set the &lt;code&gt;BROWSER&lt;/code&gt; enviroment variable and the Launchy just works:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;BROWSER&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'/mnt/c/Program\ Files/Mozilla\ Firefox/firefox.exe'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        <pubDate>Sat, 22 Sep 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/09/22/p1-launchy-works-on-wsl-if-you-set-browser-environment-variable/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/09/22/p1-launchy-works-on-wsl-if-you-set-browser-environment-variable/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Just Operating System bar graph of yesterday's Firefox 62 Desktop SUMO Support Forums Week 1 tags - September 5-11, 2018</title>
@@ -289,22 +307,6 @@
         <pubDate>Sun, 09 Sep 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/09/09/p1-still-cannot-launch-firefox-from-wsl-without-lots-of-yakshaving/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/09/09/p1-still-cannot-launch-firefox-from-wsl-without-lots-of-yakshaving/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Anchored Coffee / Two if by Sea Cafe / Dartmouth, Nova Scotia, highly recommended</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.anchoredcoffee.com/&quot;&gt;Anchored Coffee&lt;/a&gt; is the roastery co-located with the fab &lt;a href=&quot;https://www.twoifbyseacafe.ca/&quot;&gt;Two if by Sea Cafe in Dartmouth, Nova Scotia&lt;/a&gt;, both highly recommended&lt;/li&gt;
-&lt;li&gt;Great coffee and deserts! And bread!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 08 Sep 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/09/08/p1-two-if-by-sea-anchored-coffee-dartmouth-highly-recommended/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/09/08/p1-two-if-by-sea-anchored-coffee-dartmouth-highly-recommended/</guid>
         
         
       </item>
