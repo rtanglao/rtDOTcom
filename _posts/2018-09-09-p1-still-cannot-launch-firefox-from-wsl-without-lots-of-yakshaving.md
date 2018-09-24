@@ -5,6 +5,8 @@ title: "Still can't launch Firefox from Windows Subystem From Linux without a Se
 
 ## Pontifications
 
+[**UPDATE September 22, 2018: Just set the ```BROWSER``` environment variable!**](http://rolandtanglao.com/2018/09/22/p1-launchy-works-on-wsl-if-you-set-browser-environment-variable/) 
+
 * Still can't launch Firefox from Windows Subystem From Linux without a Selenium server and some hacks that nobody has w	working (Chrome works though)
 	* above according to [browser\_testing\_on\_wsl by danwhitston](https://gist.github.com/danwhitston/5cea26ae0861ce1520695cff3c2c3315):
 	
