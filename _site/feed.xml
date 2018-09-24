@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 23 Sep 2018 20:07:47 -0700</pubDate>
-    <lastBuildDate>Sun, 23 Sep 2018 20:07:47 -0700</lastBuildDate>
+    <pubDate>Sun, 23 Sep 2018 20:15:14 -0700</pubDate>
+    <lastBuildDate>Sun, 23 Sep 2018 20:15:14 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Blown away by the power of surveys during last week's Mozilla course on the Culture of Experimentation</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I had no idea that surveys were so inexpensive and powerful!!&lt;/li&gt;
+&lt;li&gt;Didn&amp;#39;t realize that today&amp;#39;s online survey platforms like Survey Gizmo are a workflow engine, email server, platform and reporting engine as well!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 23 Sep 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/09/23/p1-power-of-surveys-culture-of-experimentation/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/09/23/p1-power-of-surveys-culture-of-experimentation/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Launching Windows Firefox from WSL works, just set the BROWSER environment variable</title>
@@ -266,49 +282,6 @@
         <pubDate>Mon, 10 Sep 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/09/10/p1-over-40-in-vancouver-reboot-using-sftp-to-a-wordpress-blog/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/09/10/p1-over-40-in-vancouver-reboot-using-sftp-to-a-wordpress-blog/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Still can't launch Firefox from Windows Subystem From Linux without a Selenium server and some hacks that nobody has working (Chrome works though)</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2018/09/22/p1-launchy-works-on-wsl-if-you-set-browser-environment-variable/&quot;&gt;&lt;strong&gt;UPDATE September 22, 2018: Just set the &lt;code&gt;BROWSER&lt;/code&gt; environment variable!&lt;/strong&gt;&lt;/a&gt; &lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Still can&amp;#39;t launch Firefox from Windows Subystem From Linux without a Selenium server and some hacks that nobody has w    working (Chrome works though)
-
-&lt;ul&gt;
-&lt;li&gt;above according to &lt;a href=&quot;https://gist.github.com/danwhitston/5cea26ae0861ce1520695cff3c2c3315&quot;&gt;browser_testing_on_wsl by danwhitston&lt;/a&gt;:&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-    
-    The problem with browser testing in WSL is that it relies on opening and controlling a web browser, and browsers don’t work on WSL at present as it deliberately doesn’t include X Windows or some other GUI manager - it’s meant to be command line after all. So while you can apt-get firefox, trying to actually run it isn’t going to work.&lt;br /&gt;&lt;br /&gt;
-    
-    ...&lt;br /&gt;&lt;br /&gt;
-    
-    For Firefox (incomplete)&lt;br /&gt;&lt;br /&gt;
-
-    Install geckodriver on Windows. Note that the modern webdriver for Firefox is now known as Marionette, but that, if I understand correctly, the old webdriver is used for remote connections such as the one we're setting up.&lt;br /&gt;&lt;br /&gt;
-
-    Try something similar to the Chrome code below, but with :firefox instead of :chrome&lt;br /&gt;&lt;br /&gt;
-
-    Get errors such as 'Selenium::WebDriver::Error::UnknownError: The path to the driver executable must be set by the webdriver.gecko.driver system property' and try Chrome instead&lt;br /&gt;&lt;br /&gt;
-
-&lt;/blockquote&gt;
-    
-
-&lt;ul&gt;
-&lt;li&gt;Oh well maybe I&amp;#39;ll eventually find the time to make it work with Firefox!&lt;/li&gt;
-&lt;li&gt;In the meantime I wrote &lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/open-day-in-browser.rb&quot;&gt;open-day-in-browser.rb&lt;/a&gt; which only works on Mac and not on WSL! Someday!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 09 Sep 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/09/09/p1-still-cannot-launch-firefox-from-wsl-without-lots-of-yakshaving/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/09/09/p1-still-cannot-launch-firefox-from-wsl-without-lots-of-yakshaving/</guid>
         
         
       </item>
