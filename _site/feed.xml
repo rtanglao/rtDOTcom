@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 23 Sep 2018 20:15:14 -0700</pubDate>
-    <lastBuildDate>Sun, 23 Sep 2018 20:15:14 -0700</lastBuildDate>
+    <pubDate>Mon, 24 Sep 2018 21:18:20 -0700</pubDate>
+    <lastBuildDate>Mon, 24 Sep 2018 21:18:20 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Is auto-tagging (like flickr) possible with SUMO Firefox Desktop Support Forum posts?</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;My guess: yes! But like flickr it will make mistakes?! i.e. tags will be wrong sometime&lt;/li&gt;
+&lt;li&gt;Maybe we just need to train the auto-tagger on about 100-500 posts per release? (and say 1000 from previous releases)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 24 Sep 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/09/24/p1-is-auto-tagging-of-sumo-support-requests-possible/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/09/24/p1-is-auto-tagging-of-sumo-support-requests-possible/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Blown away by the power of surveys during last week's Mozilla course on the Culture of Experimentation</title>
@@ -261,27 +277,6 @@
         <pubDate>Wed, 12 Sep 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/09/12/p1-kitsune-answer-api/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/09/12/p1-kitsune-answer-api/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>August 10, 2018: Dale and I podcast about rebooting Over 40 in Vancouver</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;What&amp;#39;s more boring than a podcast by two males?&lt;/li&gt;
-&lt;li&gt;Answer: a podcast about rebooting their old podcast :-) &lt;/li&gt;
-&lt;li&gt;Behold :-)
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://roland.micro.blog/2018/08/10/dale-and-i.html&quot;&gt;Dale and I Chat about Over 40 in Vancouver “The Next Generation”&lt;/a&gt; &lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 10 Sep 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/09/10/p1-over-40-in-vancouver-reboot-using-sftp-to-a-wordpress-blog/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/09/10/p1-over-40-in-vancouver-reboot-using-sftp-to-a-wordpress-blog/</guid>
         
         
       </item>
