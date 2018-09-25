@@ -6,17 +6,18 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 24 Sep 2018 21:18:20 -0700</pubDate>
-    <lastBuildDate>Mon, 24 Sep 2018 21:18:20 -0700</lastBuildDate>
+    <pubDate>Mon, 24 Sep 2018 21:25:14 -0700</pubDate>
+    <lastBuildDate>Mon, 24 Sep 2018 21:25:14 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
     
       <item>
-        <title>Is auto-tagging (like flickr) possible with SUMO Firefox Desktop Support Forum posts?</title>
+        <title>Is auto-tagging (like flickr) possible with SUMO Firefox Desktop Support Forum posts? e.g. using Keras?</title>
         <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;My guess: yes! But like flickr it will make mistakes?! i.e. tags will be wrong sometime&lt;/li&gt;
 &lt;li&gt;Maybe we just need to train the auto-tagger on about 100-500 posts per release? (and say 1000 from previous releases)&lt;/li&gt;
+&lt;li&gt;Maybe this article will help: &lt;a href=&quot;https://cloud.google.com/blog/products/gcp/intro-to-text-classification-with-keras-automatically-tagging-stack-overflow-posts&quot;&gt;Intro to text classification with Keras: automatically tagging Stack Overflow posts&lt;/a&gt; &lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 24 Sep 2018 00:00:00 -0700</pubDate>
