@@ -6,8 +6,8 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 25 Sep 2018 23:17:43 -0700</pubDate>
-    <lastBuildDate>Tue, 25 Sep 2018 23:17:43 -0700</lastBuildDate>
+    <pubDate>Wed, 26 Sep 2018 09:22:45 -0700</pubDate>
+    <lastBuildDate>Wed, 26 Sep 2018 09:22:45 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
     
       <item>
@@ -15,7 +15,7 @@
         <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Beyond &lt;a href=&quot;http://rolandtanglao.com/2018/09/22/p1-launchy-works-on-wsl-if-you-set-browser-environment-variable/&quot;&gt;mere opening Firefox tabs from WSL&lt;/a&gt;, You can launch Firefox using Geckodriver from WSL, here&amp;#39;s Hal Wine&amp;#39;s code. &lt;/li&gt;
+&lt;li&gt;Beyond &lt;a href=&quot;http://rolandtanglao.com/2018/09/22/p1-launchy-works-on-wsl-if-you-set-browser-environment-variable/&quot;&gt;mere opening Firefox tabs from WSL&lt;/a&gt;, You can launch Firefox using Geckodriver from WSL, here&amp;#39;s a chat about &lt;a href=&quot;https://twitter.com/hwine&quot;&gt;Hal Wine&lt;/a&gt; &amp;#39;s code. &lt;/li&gt;
 &lt;li&gt;Hal wrote in chat:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;I did a python module to login to GitHub with 2FA: 

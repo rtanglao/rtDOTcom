@@ -5,7 +5,7 @@ title: "You can launch Firefox using Geckodriver from WSL, here's Hal Wine's cod
 
 ## Pontifications
 
-* Beyond [mere opening Firefox tabs from WSL](http://rolandtanglao.com/2018/09/22/p1-launchy-works-on-wsl-if-you-set-browser-environment-variable/), You can launch Firefox using Geckodriver from WSL, here's Hal Wine's code. 
+* Beyond [mere opening Firefox tabs from WSL](http://rolandtanglao.com/2018/09/22/p1-launchy-works-on-wsl-if-you-set-browser-environment-variable/), You can launch Firefox using Geckodriver from WSL, here's a chat about [Hal Wine](https://twitter.com/hwine) 's code. 
 * Hal wrote in chat:
 
 ```
