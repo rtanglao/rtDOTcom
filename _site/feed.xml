@@ -6,9 +6,61 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 01 Oct 2018 20:58:36 -0700</pubDate>
-    <lastBuildDate>Mon, 01 Oct 2018 20:58:36 -0700</lastBuildDate>
+    <pubDate>Tue, 02 Oct 2018 20:17:19 -0700</pubDate>
+    <lastBuildDate>Tue, 02 Oct 2018 20:17:19 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Variety, a tool to traverse mongodb i.e. reverse engineer schemas</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/variety/variety&quot;&gt;Variety&lt;/a&gt;, is an excellent tool (yay open source developers scratching an itch :-) !) to traverse mongodb i.e. reverse engineer schemas (found via Stack Overflow: &lt;a href=&quot;https://stackoverflow.com/questions/2298870/get-names-of-all-keys-in-the-collection&quot;&gt;Get names of all keys in the collection&lt;/a&gt; ) &lt;/li&gt;
+&lt;li&gt;Sample usage and output:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt; mongo ff62questions &lt;span class=&quot;nt&quot;&gt;--eval&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;var collection = 'questions', maxDepth=1, lastValue = true&quot;&lt;/span&gt; variety.js
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Output&lt;/h3&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| key                 | types                    | occurrences | percents | lastValue                                                                                                                                               |
+| ------------------- | ------------------------ | ----------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| _id                 | ObjectId                 |        1866 |    100.0 | 5baf13e01cb741f05c219400                                                                                                                                |
+| answers             | Array                    |        1866 |    100.0 | [Array]                                                                                                                                                 |
+| content             | String                   |        1866 |    100.0 | &amp;lt;p&amp;gt;Desktop computer.  Now no browser.   ????
+&amp;lt;/p&amp;gt;                                                                                                       |
+| created             | Date                     |        1866 |    100.0 |                                                                                                                                           1537910207000 |
+| creator             | Object                   |        1866 |    100.0 | [Object]                                                                                                                                                |
+| id                  | Number                   |        1866 |    100.0 |                                                                                                                                                 1235288 |
+| involved            | Array                    |        1866 |    100.0 | [Array]                                                                                                                                                 |
+| is_archived         | Boolean                  |        1866 |    100.0 | false                                                                                                                                                   |
+| is_locked           | Boolean                  |        1866 |    100.0 | false                                                                                                                                                   |
+| is_solved           | Boolean                  |        1866 |    100.0 | false                                                                                                                                                   |
+| is_spam             | Boolean                  |        1866 |    100.0 | false                                                                                                                                                   |
+| is_taken            | Boolean                  |        1866 |    100.0 | false                                                                                                                                                   |
+| last_answer         | null (152),Number (1714) |        1866 |    100.0 | [null]                                                                                                                                                  |
+| locale              | String                   |        1866 |    100.0 | en-US                                                                                                                                                   |
+| metadata            | Array                    |        1866 |    100.0 | [Array]                                                                                                                                                 |
+| num_answers         | Number                   |        1866 |    100.0 | [Number]                                                                                                                                                |
+| num_votes           | Number                   |        1866 |    100.0 |                                                                                                                                                       1 |
+| num_votes_past_week | Number                   |        1866 |    100.0 |                                                                                                                                                       1 |
+| product             | String                   |        1866 |    100.0 | firefox                                                                                                                                                 |
+| solution            | null (1412),Number (454) |        1866 |    100.0 | [null]                                                                                                                                                  |
+| solved_by           | null (1412),Object (454) |        1866 |    100.0 | [null]                                                                                                                                                  |
+| tags                | Array                    |        1866 |    100.0 | [Array]                                                                                                                                                 |
+| taken_by            | null                     |        1866 |    100.0 | [null]                                                                                                                                                  |
+| taken_until         | null                     |        1866 |    100.0 | [null]                                                                                                                                                  |
+| title               | String                   |        1866 |    100.0 | Been getting update message for a while now.  I always choose update but apparently its not updating.  Now Firefox won't come up at all.  I need help!! |
+| topic               | String                   |        1866 |    100.0 | basic-browsing-firefox                                                                                                                                  |
+| updated             | String                   |        1866 |    100.0 | 2018-09-25T21:16:47Z                                                                                                                                    |
+| updated_by          | null (1722),Object (144) |        1866 |    100.0 | [null]                                                                                                                                                  |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        <pubDate>Tue, 02 Oct 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/10/02/p1-variety-a-tool-to-reverse-engineer-mongodb-schemas/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/02/p1-variety-a-tool-to-reverse-engineer-mongodb-schemas/</guid>
+        
+        
+      </item>
     
       <item>
         <title>R Package directlabels allows you to label end of lines, group_by() allows you to group by multiple variables; krazy idea: watch for spikes in FF questions by operating system</title>
@@ -268,24 +320,6 @@ https://github.com/mozilla/github-org-scripts/blob/master/lfs.py
         <pubDate>Sun, 23 Sep 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/09/23/p1-power-of-surveys-culture-of-experimentation/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/09/23/p1-power-of-surveys-culture-of-experimentation/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Launching Windows Firefox from WSL works, just set the BROWSER environment variable</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I was wrong when I wrote: &lt;a href=&quot;http://rolandtanglao.com/2018/09/09/p1-still-cannot-launch-firefox-from-wsl-without-lots-of-yakshaving/&quot;&gt;Still can&amp;#39;t launch Firefox from Windows Subystem From Linux without a Selenium server and some hacks that nobody has working (Chrome works though)&lt;/a&gt; back on September 9, 2018.&lt;/li&gt;
-&lt;li&gt;It&amp;#39;s easy to use the &lt;code&gt;Launchy&lt;/code&gt; ruby gem&lt;/li&gt;
-&lt;li&gt;Just set the &lt;code&gt;BROWSER&lt;/code&gt; enviroment variable and the Launchy just works:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;BROWSER&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'/mnt/c/Program\ Files/Mozilla\ Firefox/firefox.exe'&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        <pubDate>Sat, 22 Sep 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/09/22/p1-launchy-works-on-wsl-if-you-set-browser-environment-variable/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/09/22/p1-launchy-works-on-wsl-if-you-set-browser-environment-variable/</guid>
         
         
       </item>
