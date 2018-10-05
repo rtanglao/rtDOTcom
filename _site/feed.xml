@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 03 Oct 2018 22:02:57 -0700</pubDate>
-    <lastBuildDate>Wed, 03 Oct 2018 22:02:57 -0700</lastBuildDate>
+    <pubDate>Fri, 05 Oct 2018 01:17:07 -0700</pubDate>
+    <lastBuildDate>Fri, 05 Oct 2018 01:17:07 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Jessica Powell: The Big Disruption aka Microserfs 2018 :-)</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;“Roni sighed and pumped his Crocs against the door in a pitter patter of plastic. ” &amp;lt;---- LOL :-) ! Made me laugh like Coupland&amp;#39;s Microserfs did back in the 80s (or was it the 90s :-) ?!?)&lt;/li&gt;
+&lt;li&gt;^^^^^Read the whole thing: &lt;a href=&quot;https://medium.com/s/the-big-disruption/the-big-disruption-36fbed0268cf&quot;&gt;The Big Disruption&lt;/a&gt; by Jessica Powell aka &lt;a href=&quot;https://twitter.com/themoko&quot;&gt;@themoko&lt;/a&gt;&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 04 Oct 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/10/04/p1-the-big-disruption-aka-microserfs-2018/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/04/p1-the-big-disruption-aka-microserfs-2018/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Blogging for over 17 years, you should try it!</title>
@@ -22,7 +38,7 @@
 &lt;li&gt;Forcing yourself to write daily or at least periodically or at least once a week is something everybody should do for at least a year. Why? To improve your writing! Try it not for money!&lt;/li&gt;
 &lt;li&gt;And if you get a chance, try it for money. &lt;/li&gt;
 &lt;li&gt;Both are valid and both are equally challenging. And yes I&amp;#39;ve done both. I blogged professionally for Bryght 2004-2008.&lt;/li&gt;
-&lt;li&gt;And it&amp;#39;s a YES AND ! IF you must, use somebody else&amp;#39;s silo like instagram or twitter or facebook or whatever the flavour of the month is in additioni to blogging.&lt;/li&gt;
+&lt;li&gt;And it&amp;#39;s a YES AND ! IF you must, use somebody else&amp;#39;s silo like instagram or twitter or facebook or whatever the flavour of the month is in addition to blogging.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 03 Oct 2018 00:00:00 -0700</pubDate>
@@ -309,23 +325,6 @@ https://github.com/mozilla/github-org-scripts/blob/master/lfs.py
         <pubDate>Tue, 25 Sep 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/09/25/p1-hal-wine-python-code-to-launch-firefox-from-geckodriver/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/09/25/p1-hal-wine-python-code-to-launch-firefox-from-geckodriver/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Is auto-tagging (like flickr) possible with SUMO Firefox Desktop Support Forum posts? e.g. using Keras?</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;My guess: yes! But like flickr it will make mistakes?! i.e. tags will be wrong sometime&lt;/li&gt;
-&lt;li&gt;Maybe we just need to train the auto-tagger on about 100-500 posts per release? (and say 1000 from previous releases)&lt;/li&gt;
-&lt;li&gt;Maybe this article will help: &lt;a href=&quot;https://cloud.google.com/blog/products/gcp/intro-to-text-classification-with-keras-automatically-tagging-stack-overflow-posts&quot;&gt;Intro to text classification with Keras: automatically tagging Stack Overflow posts&lt;/a&gt; &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 24 Sep 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/09/24/p1-is-auto-tagging-of-sumo-support-requests-possible/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/09/24/p1-is-auto-tagging-of-sumo-support-requests-possible/</guid>
         
         
       </item>
