@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 05 Oct 2018 01:17:07 -0700</pubDate>
-    <lastBuildDate>Fri, 05 Oct 2018 01:17:07 -0700</lastBuildDate>
+    <pubDate>Fri, 05 Oct 2018 21:25:22 -0700</pubDate>
+    <lastBuildDate>Fri, 05 Oct 2018 21:25:22 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Steve Yelvington: The marriage of convenience that has existed between journalism and advertising has been broken.</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Steve Yelvington: &lt;a href=&quot;http://www.yelvington.com/content/10-05-2018/broken-marriage-content-and-advertising&quot;&gt;&amp;quot;The marriage of convenience that has existed between journalism and advertising has been broken.&amp;quot;&lt;/a&gt;! &amp;lt;--- Amen and the solution is ....? I don&amp;#39;t have a solution either :-) !&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 05 Oct 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/10/05/p1-marriage-of-convenience-between-advertising-and-journalism-broken/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/05/p1-marriage-of-convenience-between-advertising-and-journalism-broken/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Jessica Powell: The Big Disruption aka Microserfs 2018 :-)</title>
@@ -295,36 +310,6 @@
         <pubDate>Wed, 26 Sep 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/09/26/p1-firefox62-operating-system-graph-sumo-support-questions-first-3-weeks/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/09/26/p1-firefox62-operating-system-graph-sumo-support-questions-first-3-weeks/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>You can launch Firefox using Geckodriver from WSL, here's Hal Wine's code, thanks Hal!</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Beyond &lt;a href=&quot;http://rolandtanglao.com/2018/09/22/p1-launchy-works-on-wsl-if-you-set-browser-environment-variable/&quot;&gt;mere opening Firefox tabs from WSL&lt;/a&gt;, You can launch Firefox using Geckodriver from WSL, here&amp;#39;s a chat about &lt;a href=&quot;https://twitter.com/hwine&quot;&gt;Hal Wine&lt;/a&gt; &amp;#39;s code. &lt;/li&gt;
-&lt;li&gt;Hal wrote in chat:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;I did a python module to login to GitHub with 2FA: 
-https://github.com/mozilla/GitHub_Selenium/blob/master/github_selenium/__init__.py
-
-which is called from: 
-https://github.com/mozilla/github-org-scripts/blob/master/lfs.py
-
-iirc, geckodriver (not the python wrapper to it) has all the page load fu. 
-
-Like: 
-https://github.com/mozilla/github-org-scripts/blob/master/lfs.py
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;I wonder if then if ruby WATIR and all that other QA / run your browser works in WSL too!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 25 Sep 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/09/25/p1-hal-wine-python-code-to-launch-firefox-from-geckodriver/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/09/25/p1-hal-wine-python-code-to-launch-firefox-from-geckodriver/</guid>
         
         
       </item>
