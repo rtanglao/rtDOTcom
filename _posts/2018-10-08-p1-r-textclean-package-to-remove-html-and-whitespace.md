@@ -5,6 +5,6 @@ title: "R textclean package looks to be an excellent way to clean text including
 
 ## Pontifications
 
-* The R [textclean](https://github.com/trinker/textshape) package looks to be an excellent way to clean text including removing HTML and whitespace
+* The R [textclean](https://github.com/trinker/textclean) package looks to be an excellent way to clean text including removing HTML and whitespace
 
 
