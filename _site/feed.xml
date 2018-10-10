@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 08 Oct 2018 21:50:29 -0700</pubDate>
-    <lastBuildDate>Mon, 08 Oct 2018 21:50:29 -0700</lastBuildDate>
+    <pubDate>Tue, 09 Oct 2018 23:47:01 -0700</pubDate>
+    <lastBuildDate>Tue, 09 Oct 2018 23:47:01 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Maybe 2019 is the year I learn a functional programming language like Haskell or Elm</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Inspired by meeting the fab &lt;a href=&quot;https://twitter.com/expede&quot;&gt;Brooklyn&lt;/a&gt; tonight at the &lt;a href=&quot;https://twitter.com/bmann/status/1048067126018408449&quot;&gt;Indie Web meetup of the Boris&lt;/a&gt; :-) &lt;/li&gt;
+&lt;li&gt;Maybe &lt;a href=&quot;http://rolandtanglao.com/2016/10/19/p1-haskell-unblocked-omnioutliner/&quot;&gt;unlike 2016 with Haskell&lt;/a&gt; :-), 2019 will be the year I finally do something significant with Functional programming&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 09 Oct 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/10/09/p1-maybe-2019-is-the-year-i-learn-functional-programming/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/09/p1-maybe-2019-is-the-year-i-learn-functional-programming/</guid>
+        
+        
+      </item>
     
       <item>
         <title>R textclean package looks to be an excellent way to clean text including removing HTML and whitespace</title>
@@ -228,21 +244,6 @@
         <pubDate>Sun, 30 Sep 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/09/30/p1-cars-in-2018-are-just-apps-on-wheels/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/09/30/p1-cars-in-2018-are-just-apps-on-wheels/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>colorbrewer 2.0: color advice for cartography makes nice colour palettes for maps</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;e.g. &lt;a href=&quot;http://colorbrewer2.org/#type=qualitative&amp;scheme=Paired&amp;n=12&quot;&gt;colorbrewer 2.0&amp;#39;s 12 data class qualitative colour palette&lt;/a&gt; &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 29 Sep 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/09/29/p2-colorbrewer-color-advice-for-cartography/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/09/29/p2-colorbrewer-color-advice-for-cartography/</guid>
         
         
       </item>
