@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 09 Oct 2018 23:47:01 -0700</pubDate>
-    <lastBuildDate>Tue, 09 Oct 2018 23:47:01 -0700</lastBuildDate>
+    <pubDate>Wed, 10 Oct 2018 20:18:31 -0700</pubDate>
+    <lastBuildDate>Wed, 10 Oct 2018 20:18:31 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>It's 2018, can we get rid of the awkward and horrible bluetooth paring dance?</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Just tap to pair?!? or qr code to pair!?!?&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 10 Oct 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/10/10/p1-it-is-2018-can-we-get-rid-of-the-bluetooth-pairing-dance/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/10/p1-it-is-2018-can-we-get-rid-of-the-bluetooth-pairing-dance/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Maybe 2019 is the year I learn a functional programming language like Haskell or Elm</title>
@@ -227,23 +242,6 @@
         <pubDate>Mon, 01 Oct 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/10/01/p1-directlabels-in-r-labels-at-the-end-of-lines/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/10/01/p1-directlabels-in-r-labels-at-the-end-of-lines/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Cars in 2018 are just apps on Wheels!</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Been that way since at least 2013 ! Or earlier. Since everything from fuel injection to ABS to steering is controlled by microcontrollers and now with lane avoidance and emergency braking even &amp;quot;intelligent&amp;quot; safety features are controlled by software!&lt;/li&gt;
-&lt;li&gt;And furthermore with Car Play and Google Auto and Amazon Alexa Auto all those horrible and not so horrible apps like Google Maps and Waze are coming to your car.&lt;/li&gt;
-&lt;li&gt;Crazy yes but no more crazy than &lt;a href=&quot;http://rolandtanglao.com/2018/06/21/p1-dont-want-crazy-software-controlled-shifting-bicycle/&quot;&gt;apps on bicycles&lt;/a&gt;  (which is happening much faster than anybody realizes).&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 30 Sep 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/09/30/p1-cars-in-2018-are-just-apps-on-wheels/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/09/30/p1-cars-in-2018-are-just-apps-on-wheels/</guid>
         
         
       </item>
