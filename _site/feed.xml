@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 11 Oct 2018 21:46:41 -0700</pubDate>
-    <lastBuildDate>Thu, 11 Oct 2018 21:46:41 -0700</lastBuildDate>
+    <pubDate>Fri, 12 Oct 2018 22:43:39 -0700</pubDate>
+    <lastBuildDate>Fri, 12 Oct 2018 22:43:39 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>I'm a 1 issue voter, I guess I'll vote for the strongest supporters of expanding the bike lanes!?!</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/rtanglao/status/1050566785429192704&quot;&gt;I&amp;#39;m a 1 issue voter :-) who wants more bicycle lanes especially Commercial Drive where I see many folks on bicycles almost getting hit by cars. so i&amp;#39;m going to vote for Shauna Sylvester and Pete Fry and anybody else 100% in favour of bicycle lane expansion. #ymmv :-)&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;See &lt;a href=&quot;https://bikehub.ca/votetobike-vote-for-better-biking&quot;&gt;#VoteToBike - Vote for Better Biking
+2018 General Local Elections (Metro Vancouver) - Candidate Responses&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 12 Oct 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/10/12/p1-i-am-a-one-issue-voter-i-vote-for-bicycle-lanes/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/12/p1-i-am-a-one-issue-voter-i-vote-for-bicycle-lanes/</guid>
+        
+        
+      </item>
     
       <item>
         <title>It's 2018, can we enable normal people to create their content and share it with whoever they want without large companies bombarding them with ads and snooping?</title>
@@ -150,58 +167,6 @@
         <pubDate>Wed, 03 Oct 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/10/03/p1-blogging-for-over-15-years/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/10/03/p1-blogging-for-over-15-years/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Variety, a tool to traverse mongodb i.e. reverse engineer schemas</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/variety/variety&quot;&gt;Variety&lt;/a&gt;, is an excellent tool (yay open source developers scratching an itch :-) !) to traverse mongodb i.e. reverse engineer schemas (found via Stack Overflow: &lt;a href=&quot;https://stackoverflow.com/questions/2298870/get-names-of-all-keys-in-the-collection&quot;&gt;Get names of all keys in the collection&lt;/a&gt; ) &lt;/li&gt;
-&lt;li&gt;Sample usage and output:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt; mongo ff62questions &lt;span class=&quot;nt&quot;&gt;--eval&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;var collection = 'questions', maxDepth=1, lastValue = true&quot;&lt;/span&gt; variety.js
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h3&gt;Output&lt;/h3&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| key                 | types                    | occurrences | percents | lastValue                                                                                                                                               |
-| ------------------- | ------------------------ | ----------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| _id                 | ObjectId                 |        1866 |    100.0 | 5baf13e01cb741f05c219400                                                                                                                                |
-| answers             | Array                    |        1866 |    100.0 | [Array]                                                                                                                                                 |
-| content             | String                   |        1866 |    100.0 | &amp;lt;p&amp;gt;Desktop computer.  Now no browser.   ????
-&amp;lt;/p&amp;gt;                                                                                                       |
-| created             | Date                     |        1866 |    100.0 |                                                                                                                                           1537910207000 |
-| creator             | Object                   |        1866 |    100.0 | [Object]                                                                                                                                                |
-| id                  | Number                   |        1866 |    100.0 |                                                                                                                                                 1235288 |
-| involved            | Array                    |        1866 |    100.0 | [Array]                                                                                                                                                 |
-| is_archived         | Boolean                  |        1866 |    100.0 | false                                                                                                                                                   |
-| is_locked           | Boolean                  |        1866 |    100.0 | false                                                                                                                                                   |
-| is_solved           | Boolean                  |        1866 |    100.0 | false                                                                                                                                                   |
-| is_spam             | Boolean                  |        1866 |    100.0 | false                                                                                                                                                   |
-| is_taken            | Boolean                  |        1866 |    100.0 | false                                                                                                                                                   |
-| last_answer         | null (152),Number (1714) |        1866 |    100.0 | [null]                                                                                                                                                  |
-| locale              | String                   |        1866 |    100.0 | en-US                                                                                                                                                   |
-| metadata            | Array                    |        1866 |    100.0 | [Array]                                                                                                                                                 |
-| num_answers         | Number                   |        1866 |    100.0 | [Number]                                                                                                                                                |
-| num_votes           | Number                   |        1866 |    100.0 |                                                                                                                                                       1 |
-| num_votes_past_week | Number                   |        1866 |    100.0 |                                                                                                                                                       1 |
-| product             | String                   |        1866 |    100.0 | firefox                                                                                                                                                 |
-| solution            | null (1412),Number (454) |        1866 |    100.0 | [null]                                                                                                                                                  |
-| solved_by           | null (1412),Object (454) |        1866 |    100.0 | [null]                                                                                                                                                  |
-| tags                | Array                    |        1866 |    100.0 | [Array]                                                                                                                                                 |
-| taken_by            | null                     |        1866 |    100.0 | [null]                                                                                                                                                  |
-| taken_until         | null                     |        1866 |    100.0 | [null]                                                                                                                                                  |
-| title               | String                   |        1866 |    100.0 | Been getting update message for a while now.  I always choose update but apparently its not updating.  Now Firefox won't come up at all.  I need help!! |
-| topic               | String                   |        1866 |    100.0 | basic-browsing-firefox                                                                                                                                  |
-| updated             | String                   |        1866 |    100.0 | 2018-09-25T21:16:47Z                                                                                                                                    |
-| updated_by          | null (1722),Object (144) |        1866 |    100.0 | [null]                                                                                                                                                  |
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        <pubDate>Tue, 02 Oct 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/10/02/p1-variety-a-tool-to-reverse-engineer-mongodb-schemas/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/02/p1-variety-a-tool-to-reverse-engineer-mongodb-schemas/</guid>
         
         
       </item>
