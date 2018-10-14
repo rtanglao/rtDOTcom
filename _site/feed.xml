@@ -6,9 +6,28 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 12 Oct 2018 22:43:39 -0700</pubDate>
-    <lastBuildDate>Fri, 12 Oct 2018 22:43:39 -0700</lastBuildDate>
+    <pubDate>Sun, 14 Oct 2018 02:03:15 -0700</pubDate>
+    <lastBuildDate>Sun, 14 Oct 2018 02:03:15 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>We cannot break free from legacy</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;p&gt;(inspired by &lt;a href=&quot;https://robotlolita.me/2016/01/09/no-i-dont-want-to-configure-your-app.html&quot;&gt;No, I Don&amp;#39;t Want To Configure Your App&lt;/a&gt; ! )&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Notes from Destroy all Software: &lt;a href=&quot;https://www.destroyallsoftware.com/talks/a-whole-new-world&quot;&gt;A Whole new world&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;Nobody replaces low level infrastructure or thinks about a full redesign of VT100 i.e. terminals, and other infrastructure above it.&lt;/li&gt;
+&lt;li&gt;Need to go beyond &amp;quot;always shipping&amp;quot;, need to think, step back and improve things and this needs &amp;quot;hammock time&amp;quot; :-) (like Clojure&amp;#39;s creation took 2 years). Amen!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 13 Oct 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/10/13/p1-we-cannot-break-free-from-legacy/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/13/p1-we-cannot-break-free-from-legacy/</guid>
+        
+        
+      </item>
     
       <item>
         <title>I'm a 1 issue voter, I guess I'll vote for the strongest supporters of expanding the bike lanes!?!</title>
@@ -145,28 +164,6 @@
         <pubDate>Thu, 04 Oct 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/10/04/p1-the-big-disruption-aka-microserfs-2018/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/10/04/p1-the-big-disruption-aka-microserfs-2018/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Blogging for over 17 years, you should try it!</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I&amp;#39;ve been blogging since 1999. &lt;/li&gt;
-&lt;li&gt;Over 15 years! In fact over 17 years! My first blog was on Radio Userland and sadly is gone.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2004/03/16/hello-world/&quot;&gt;Then Movable Type in 2004&lt;/a&gt;, then Drupal and now Jekyll!&lt;/li&gt;
-&lt;li&gt;I have no grandious thoughts other than just do it! And I don&amp;#39;t plan this blog nor have I ever really planned it. I&amp;#39;m sure that&amp;#39;s obvious :-)&lt;/li&gt;
-&lt;li&gt;Forcing yourself to write daily or at least periodically or at least once a week is something everybody should do for at least a year. Why? To improve your writing! Try it not for money!&lt;/li&gt;
-&lt;li&gt;And if you get a chance, try it for money. &lt;/li&gt;
-&lt;li&gt;Both are valid and both are equally challenging. And yes I&amp;#39;ve done both. I blogged professionally for Bryght 2004-2008.&lt;/li&gt;
-&lt;li&gt;And it&amp;#39;s a YES AND ! IF you must, use somebody else&amp;#39;s silo like instagram or twitter or facebook or whatever the flavour of the month is in addition to blogging.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 03 Oct 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/10/03/p1-blogging-for-over-15-years/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/03/p1-blogging-for-over-15-years/</guid>
         
         
       </item>
