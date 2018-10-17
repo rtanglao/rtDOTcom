@@ -6,9 +6,54 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 15 Oct 2018 20:49:19 -0700</pubDate>
-    <lastBuildDate>Mon, 15 Oct 2018 20:49:19 -0700</lastBuildDate>
+    <pubDate>Tue, 16 Oct 2018 23:04:22 -0700</pubDate>
+    <lastBuildDate>Tue, 16 Oct 2018 23:04:22 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>I would like to think that my thinking is solidly reality-based based on Jay Owens' The Age of Post-Authenticity and the Ironic Truths of Meme Culture</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;From Jay Owens&amp;#39;: &lt;a href=&quot;https://medium.com/s/story/post-authenticity-and-the-real-truths-of-meme-culture-f98b24d645a0&quot;&gt;The Age of Post-Authenticity and the Ironic Truths of Meme Culture&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+
+Nonetheless, the kind of truth in play is changing form: emotional and moral truths are in ascendance over straightforward, factual claims. Truth becomes plural, and thereby highly contested: global warming, 9/11, or Obama’s birthplace are all treated as matters of cultural allegiance over fact, as traditionally understood. “By my reckoning, the solidly reality-based are a minority, maybe a third of us but almost certainly fewer than half,” writer Kurt Andersen posits. Electorates in the U.S. and Europe are polarising along value-driven lines — order and authority vs. openness and change. Building the coalitions of support needed to tackle the grand challenges we face this century will require a profound upgrade to our political and cultural leaders’ empathic and reconciliation skills.
+
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Read the &lt;a href=&quot;https://medium.com/s/story/post-authenticity-and-the-real-truths-of-meme-culture-f98b24d645a0&quot;&gt;whole thing&lt;/a&gt;!&lt;/li&gt;
+&lt;li&gt;And also read &lt;a href=&quot;https://medium.com/@hautepop/this-is-a-placeholder-to-say-that-there-are-at-least-two-things-missing-from-this-essay-b1c58dd25d4b&quot;&gt;Jay&amp;#39;s followup note&lt;/a&gt;  which has this juicy quote:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+This is a placeholder to say that there are (at least) two things missing from this essay&lt;br /&gt;&lt;br&gt;
+
+...&lt;br /&gt;&lt;br&gt;
+
+“How memes in their emergence, development, transformation, and resurgence are imbued with a semantically Black mode of improvisation and revitalization,” and the importance of “excavating the blackness in memes (even ones that don’t seem so black)” — as Laur M. Jackson argues for in ‘The Blackness of the Meme Movement’ in Model View Culture, March 2016.
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 16 Oct 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/10/16/p1-solidly-reality-based-minority/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/16/p1-solidly-reality-based-minority/</guid>
+        
+        
+      </item>
     
       <item>
         <title>ruk on clique busting at events: Take the number of years you’ve been in the group and help and meet that number of people at each event</title>
@@ -19,8 +64,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 15 Oct 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/10/15/p1-clique=busting-take-the-number-of-years-and-meet-that-many-new-people/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/15/p1-clique=busting-take-the-number-of-years-and-meet-that-many-new-people/</guid>
+        <link>http://rolandtanglao.com/2018/10/15/p1-clique-busting-take-the-number-of-years-and-meet-that-many-new-people/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/15/p1-clique-busting-take-the-number-of-years-and-meet-that-many-new-people/</guid>
         
         
       </item>
@@ -154,21 +199,6 @@
         <pubDate>Sun, 07 Oct 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/10/07/p1-thanksgiving-2018-thanks/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/10/07/p1-thanksgiving-2018-thanks/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Dmitry Shkolnik: A look at the Vancouver mayoral race twitter picture using R packages: textfeatures, Text Mining with R's tidytext, syuzhet, rtweet: 200 lines of code</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.dshkol.com/2018/vancouver-mayor-race-twitter/&quot;&gt;Dmitry Shkolnik: A look at the Vancouver mayoral race twitter picture&lt;/a&gt; using R packages: &lt;a href=&quot;https://cran.r-project.org/web/packages/textfeatures/index.html&quot;&gt;textfeatures&lt;/a&gt;, tidytext, &lt;a href=&quot;https://cran.r-project.org/package=syuzhet&quot;&gt;syuzhet&lt;/a&gt;, and &lt;a href=&quot;https://rtweet.info/&quot;&gt;rtweet&lt;/a&gt; is about &lt;a href=&quot;https://github.com/dshkol/scratchpad/blob/master/content/post/2018-10-01-a-look-at-the-vancouver-mayor-twitter-picture.Rmd&quot;&gt;200 lines of code&lt;/a&gt;. Amazing, must dig into this post and the book about tidytext, &lt;a href=&quot;https://www.tidytextmining.com/&quot;&gt;Text Mining with R&lt;/a&gt; &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 06 Oct 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/10/06/p1-vancouver-mayoral-race-twitter-text-mining-with-r-syuzhet-textfeatures-rtweet/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/06/p1-vancouver-mayoral-race-twitter-text-mining-with-r-syuzhet-textfeatures-rtweet/</guid>
         
         
       </item>
