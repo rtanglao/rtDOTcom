@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 17 Oct 2018 22:03:00 -0700</pubDate>
-    <lastBuildDate>Wed, 17 Oct 2018 22:03:00 -0700</lastBuildDate>
+    <pubDate>Thu, 18 Oct 2018 23:46:15 -0700</pubDate>
+    <lastBuildDate>Thu, 18 Oct 2018 23:46:15 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>I was at BloggerCon in October 2003 and it was glorious an everybody blogs now and Terry Heaton is right:the web connects people doesn't merely extend old brand-oriented value propositions</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://scripting.com/archives/bloggerCon/I/participants/&quot;&gt;I was&lt;/a&gt;  at &lt;a href=&quot;http://scripting.com/2018/10/18.html&quot;&gt;BloggerCon in 2003&lt;/a&gt;  along with Dave, Terry Heaton and many others!&lt;/li&gt;
+&lt;li&gt;It was a blast, learned so much!&lt;/li&gt;
+&lt;li&gt;And yes Terry Heaton is right: &lt;a href=&quot;http://thepomoblog.com/index.php/the-web-is-its-own-culture/&quot;&gt;&amp;quot;...the Web is its own culture... Those gathered a Bloggercon knew that what the web does best is connect people, but mainstreamers can only bring themselves to use it as an extension of their old, brand-oriented value propositions.&amp;quot;&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 18 Oct 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/10/18/p1-i-was-at-bloggercon-in-october-2003/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/18/p1-i-was-at-bloggercon-in-october-2003/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Prohibition Ends Again 2.0 :-) </title>
@@ -188,21 +205,6 @@ This is a placeholder to say that there are (at least) two things missing from t
         <pubDate>Tue, 09 Oct 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/10/09/p1-maybe-2019-is-the-year-i-learn-functional-programming/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/10/09/p1-maybe-2019-is-the-year-i-learn-functional-programming/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>R textclean package looks to be an excellent way to clean text including removing HTML and whitespace</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The R &lt;a href=&quot;https://github.com/trinker/textclean&quot;&gt;textclean&lt;/a&gt; package looks to be an excellent way to clean text including removing HTML and whitespace&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 08 Oct 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/10/08/p1-r-textclean-package-to-remove-html-and-whitespace/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/08/p1-r-textclean-package-to-remove-html-and-whitespace/</guid>
         
         
       </item>
