@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 18 Oct 2018 23:46:15 -0700</pubDate>
-    <lastBuildDate>Thu, 18 Oct 2018 23:46:15 -0700</lastBuildDate>
+    <pubDate>Sat, 20 Oct 2018 19:46:08 -0700</pubDate>
+    <lastBuildDate>Sat, 20 Oct 2018 19:46:08 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Mr Data Converter converts CSV to JSON, HTML, JSON, XML, Python, ruby, etc</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I wonder if &lt;a href=&quot;https://shancarter.github.io/mr-data-converter/&quot;&gt;Mr Data Converter, which converts CSV to JSON, HTML, JSON, XML, Python, ruby, etc&lt;/a&gt;  will work on large datasets e.g. with 10,000 rows or 100K rows&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 20 Oct 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/10/20/p1-csv-to-json-mr-data-converter/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/20/p1-csv-to-json-mr-data-converter/</guid>
+        
+        
+      </item>
     
       <item>
         <title>I was at BloggerCon in October 2003 and it was glorious an everybody blogs now and Terry Heaton is right:the web connects people doesn't merely extend old brand-oriented value propositions</title>
@@ -189,22 +204,6 @@ This is a placeholder to say that there are (at least) two things missing from t
         <pubDate>Wed, 10 Oct 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/10/10/p1-it-is-2018-can-we-get-rid-of-the-bluetooth-pairing-dance/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/10/10/p1-it-is-2018-can-we-get-rid-of-the-bluetooth-pairing-dance/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Maybe 2019 is the year I learn a functional programming language like Haskell or Elm</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Inspired by meeting the fab &lt;a href=&quot;https://twitter.com/expede&quot;&gt;Brooklyn&lt;/a&gt; tonight at the &lt;a href=&quot;https://twitter.com/bmann/status/1048067126018408449&quot;&gt;Indie Web meetup of the Boris&lt;/a&gt; :-) &lt;/li&gt;
-&lt;li&gt;Maybe &lt;a href=&quot;http://rolandtanglao.com/2016/10/19/p1-haskell-unblocked-omnioutliner/&quot;&gt;unlike 2016 with Haskell&lt;/a&gt; :-), 2019 will be the year I finally do something significant with Functional programming&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 09 Oct 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/10/09/p1-maybe-2019-is-the-year-i-learn-functional-programming/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/09/p1-maybe-2019-is-the-year-i-learn-functional-programming/</guid>
         
         
       </item>
