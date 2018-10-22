@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 20 Oct 2018 19:46:08 -0700</pubDate>
-    <lastBuildDate>Sat, 20 Oct 2018 19:46:08 -0700</lastBuildDate>
+    <pubDate>Sun, 21 Oct 2018 20:38:21 -0700</pubDate>
+    <lastBuildDate>Sun, 21 Oct 2018 20:38:21 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>R tidyverse function unite() concatenates two columns</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;TIL &lt;a href=&quot;https://tidyr.tidyverse.org/reference/unite.html&quot;&gt;unite()&lt;/a&gt; concatenates two columns with underscore &amp;quot;_&amp;quot; being the default separator and &lt;code&gt;separate()&lt;/code&gt; does the opposite&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/f7205a26bab5b56c8d4ed929b0b5b1d86a6d431f/VISUALIZATIONS/firefox62-most-common-words-stop-words-removed-bar-graph.r#L11&quot;&gt;see &lt;code&gt;unite(text, title, content, sep = &amp;quot; &amp;quot;)&lt;/code&gt;&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 21 Oct 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/10/21/p1-unite-concatenates-two-columns-in-tidyverse/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/21/p1-unite-concatenates-two-columns-in-tidyverse/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Mr Data Converter converts CSV to JSON, HTML, JSON, XML, Python, ruby, etc</title>
@@ -189,21 +205,6 @@ This is a placeholder to say that there are (at least) two things missing from t
         <pubDate>Thu, 11 Oct 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/10/11/p1-it-is-2018-can-we-enable-normal-people-to-create-their-content-and-share-it-without-large-companies-bombarding-them-with-ads-and-snooping/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/10/11/p1-it-is-2018-can-we-enable-normal-people-to-create-their-content-and-share-it-without-large-companies-bombarding-them-with-ads-and-snooping/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>It's 2018, can we get rid of the awkward and horrible bluetooth paring dance?</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Just tap to pair?!? or qr code to pair!?!?&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 10 Oct 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/10/10/p1-it-is-2018-can-we-get-rid-of-the-bluetooth-pairing-dance/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/10/p1-it-is-2018-can-we-get-rid-of-the-bluetooth-pairing-dance/</guid>
         
         
       </item>
