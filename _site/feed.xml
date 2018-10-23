@@ -6,8 +6,8 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 22 Oct 2018 17:03:53 -0700</pubDate>
-    <lastBuildDate>Mon, 22 Oct 2018 17:03:53 -0700</lastBuildDate>
+    <pubDate>Mon, 22 Oct 2018 17:20:43 -0700</pubDate>
+    <lastBuildDate>Mon, 22 Oct 2018 17:20:43 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
     
       <item>
@@ -21,7 +21,7 @@
 &lt;ul&gt;
 &lt;li&gt;For github pages you are covered since you have the files in git on your computer or in a cloud you control.&lt;/li&gt;
 &lt;li&gt;For gists, I would say copy and paste the code into a blog post on your domain.&lt;/li&gt;
-&lt;li&gt;For links to code like yesterday, I would copy and paste the entire code here and again make sure your git repo is backed up!&lt;/li&gt;
+&lt;li&gt;For links to code like &lt;a href=&quot;http://rolandtanglao.com/2018/10/21/p1-unite-concatenates-two-columns-in-tidyverse/&quot;&gt;yesterday&lt;/a&gt;, I would copy and paste the entire code here and again make sure your git repo is backed up!&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>

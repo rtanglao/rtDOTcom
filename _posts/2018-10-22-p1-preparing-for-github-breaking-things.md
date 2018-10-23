@@ -9,4 +9,4 @@ title: "Prepare now for github breaking github pages, links to gists and links t
 * How best to prepare for the coming github breakage :-) ? No disrespect intended to github but it's a fact, it will happen!
 	* For github pages you are covered since you have the files in git on your computer or in a cloud you control.
 	* For gists, I would say copy and paste the code into a blog post on your domain.
-	* For links to code like yesterday, I would copy and paste the entire code here and again make sure your git repo is backed up!
+	* For links to code like [yesterday](http://rolandtanglao.com/2018/10/21/p1-unite-concatenates-two-columns-in-tidyverse/), I would copy and paste the entire code here and again make sure your git repo is backed up!
