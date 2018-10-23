@@ -6,9 +6,31 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 21 Oct 2018 20:38:21 -0700</pubDate>
-    <lastBuildDate>Sun, 21 Oct 2018 20:38:21 -0700</lastBuildDate>
+    <pubDate>Mon, 22 Oct 2018 17:03:53 -0700</pubDate>
+    <lastBuildDate>Mon, 22 Oct 2018 17:03:53 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Prepare now for github breaking github pages, links to gists and links to code: backup your git repos and paste important code snippets into a blog post</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Of all the silos I use, Flickr has had the best run at not breaking things. Their API works but little things have broken over time like their datetaken dateuploaded urls, embedding has changed, etc&lt;/li&gt;
+&lt;li&gt;How best to prepare for the coming github breakage :-) ? No disrespect intended to github but it&amp;#39;s a fact, it will happen!
+
+&lt;ul&gt;
+&lt;li&gt;For github pages you are covered since you have the files in git on your computer or in a cloud you control.&lt;/li&gt;
+&lt;li&gt;For gists, I would say copy and paste the code into a blog post on your domain.&lt;/li&gt;
+&lt;li&gt;For links to code like yesterday, I would copy and paste the entire code here and again make sure your git repo is backed up!&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 22 Oct 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/10/22/p1-preparing-for-github-breaking-things/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/22/p1-preparing-for-github-breaking-things/</guid>
+        
+        
+      </item>
     
       <item>
         <title>R tidyverse function unite() concatenates two columns</title>
@@ -190,21 +212,6 @@ This is a placeholder to say that there are (at least) two things missing from t
         <pubDate>Fri, 12 Oct 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/10/12/p1-i-am-a-one-issue-voter-i-vote-for-bicycle-lanes/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/10/12/p1-i-am-a-one-issue-voter-i-vote-for-bicycle-lanes/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>It's 2018, can we enable normal people to create their content and share it with whoever they want without large companies bombarding them with ads and snooping?</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I know we can :-) but as it stands now podcasting, sharing photos, streaming video, and even blogging are much easier on the big companies&amp;#39; platforms!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 11 Oct 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/10/11/p1-it-is-2018-can-we-enable-normal-people-to-create-their-content-and-share-it-without-large-companies-bombarding-them-with-ads-and-snooping/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/11/p1-it-is-2018-can-we-enable-normal-people-to-create-their-content-and-share-it-without-large-companies-bombarding-them-with-ads-and-snooping/</guid>
         
         
       </item>
