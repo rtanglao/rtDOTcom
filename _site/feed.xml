@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 24 Oct 2018 23:30:59 -0700</pubDate>
-    <lastBuildDate>Wed, 24 Oct 2018 23:30:59 -0700</lastBuildDate>
+    <pubDate>Thu, 25 Oct 2018 23:56:54 -0700</pubDate>
+    <lastBuildDate>Thu, 25 Oct 2018 23:56:54 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Anybody have any case studies about machine learning  for supporting consumer software and state of the art consumer software support in 2018?</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I hear IBM and gmail are doing interesting stuff about machine learning from user support data!&lt;/li&gt;
+&lt;li&gt;Others?&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 25 Oct 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/10/25/p1-machine-learning-for-consumer-software-support-folks/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/25/p1-machine-learning-for-consumer-software-support-folks/</guid>
+        
+        
+      </item>
     
       <item>
         <title>TIL: how to search and replace in a R, how to read MongoDB from R and how to make a wordcloud in R</title>
@@ -362,27 +378,6 @@ This is a placeholder to say that there are (at least) two things missing from t
         <pubDate>Mon, 15 Oct 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/10/15/p1-clique-busting-take-the-number-of-years-and-meet-that-many-new-people/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/10/15/p1-clique-busting-take-the-number-of-years-and-meet-that-many-new-people/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Our own groups, our own stuff, our own rules within socialized contextual limits! &lt;- inspired by Ton's Disintegration of Discourse and Decentralised Tools</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;p&gt;(inspired by &lt;a href=&quot;https://www.zylstra.org/blog/2018/10/disintegration-of-discourse-and-decentralised-tools/&quot;&gt;Ton&amp;#39;s Disintegration of Discourse and Decentralised Tools&lt;/a&gt;! )&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;+1 to the following:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&quot;I also do see a place for federation, where a group of people from a single context run an instance of a platform. A group of neighbours, a sports team, a project team, some other association, but always settings where damaging behaviour carries a cost because social distance is finite and context defined, even if temporary or emergent.&quot;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Sun, 14 Oct 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/10/14/p1-our-own-groups-our-own-stuff/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/14/p1-our-own-groups-our-own-stuff/</guid>
         
         
       </item>
