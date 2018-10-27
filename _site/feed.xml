@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 25 Oct 2018 23:56:54 -0700</pubDate>
-    <lastBuildDate>Thu, 25 Oct 2018 23:56:54 -0700</lastBuildDate>
+    <pubDate>Fri, 26 Oct 2018 21:24:46 -0700</pubDate>
+    <lastBuildDate>Fri, 26 Oct 2018 21:24:46 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Of course R has a Keras package called Keras</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Found via &lt;a href=&quot;http://www.bernhardlearns.com/2018/10/trying-out-rs-keras-api.html&quot;&gt;Bernhard Learns - Trying out R&amp;#39;s keras API - Can we predict the ETH price with recurrent neural networks?&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;The R keras package is called &lt;a href=&quot;https://keras.rstudio.com/&quot;&gt;Keras&lt;/a&gt; of course LOL&lt;/li&gt;
+&lt;li&gt;and how did I miss the book? &lt;a href=&quot;https://www.manning.com/books/deep-learning-with-r&quot;&gt;Deep Learning with R&lt;/a&gt; published February 2018, d&amp;#39;oh!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 26 Oct 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/10/26/p1-r-keras-machine-learning/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/26/p1-r-keras-machine-learning/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Anybody have any case studies about machine learning  for supporting consumer software and state of the art consumer software support in 2018?</title>
@@ -363,21 +380,6 @@ This is a placeholder to say that there are (at least) two things missing from t
         <pubDate>Tue, 16 Oct 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/10/16/p1-solidly-reality-based-minority/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/10/16/p1-solidly-reality-based-minority/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ruk on clique busting at events: Take the number of years you’ve been in the group and help and meet that number of people at each event</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;great tip from &lt;a href=&quot;https://ruk.ca/content/take-number-years-you%E2%80%99ve-been-group&quot;&gt;ruk&amp;#39;s Take the number of years you’ve been in the group&lt;/a&gt; which was from &lt;a href=&quot;http://ericholscher.com/blog/2017/dec/2/breaking-cliques-at-events/&quot;&gt;Breaking Cliques at Events&lt;/a&gt; because &amp;quot;meeting new people is scary&amp;quot;!!!!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 15 Oct 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/10/15/p1-clique-busting-take-the-number-of-years-and-meet-that-many-new-people/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/15/p1-clique-busting-take-the-number-of-years-and-meet-that-many-new-people/</guid>
         
         
       </item>
