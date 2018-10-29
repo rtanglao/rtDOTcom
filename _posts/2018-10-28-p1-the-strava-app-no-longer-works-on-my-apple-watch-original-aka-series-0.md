@@ -1,0 +1,27 @@
+---
+layout: post
+title: "The Strava app no longer works (it crashes) on my Apple Watch Series 0 aka the original Apple Watch after last week's Strava Watch app update, time to buy a new watch?!?"
+---
+
+## Pontifications
+
+* And there's no ETA on when / if Strava can get it working!
+* If I was a normal user of software I might be tempted to rant, but since I am not (I've worked as technical lead supporting  free and open source software software support since 2005), I won't. LOL. I know too much about how the sausage is made to rant. And ranting always makes everybody feel better except for the real human beings at the other end of the rant.
+* Would be curious to see to see the source code but even then that doesn't mean I can fix it since everything is mysterious and proprietary :-) Even if this app and it's source code and the protocols to the Strava app on the iPhone were open and documented I bet it would still be diffiult.
+* By the way Apple now values the watch at $CDN 30 for trade in purposes if you trade it in, anybody want to buy it ?!?
+* Here's the official support team post from Thursday October 25, 2018,  [Apple Watch App Crashing with Latest Update](https://support.strava.com/hc/en-us/articles/360018719631) : 
+
+**QUOTE**
+
+<blockquote>
+
+"We are aware of an issue with the latest update and Watch OS 4.3. If you are able, please update your Apple Watch to version 5. WatchOS 5 requires iPhone 5s or later with iOS 12 or later, and one of the following Apple Watch models:<br /><br />
+
+Apple Watch Series 1<br />
+Apple Watch Series 2<br />
+Apple Watch Series 3<br />
+Apple Watch Series 4<br /><br />
+
+Unfortunately, watchOS 5 is not compatible with the first-generation Apple Watch. If you are using a first-generation (Apple Watch Series 0) device, you will not be able to prevent your Strava Apple Watch app from crashing. We are working on resolving this issue and appreciate your patience."
+
+**END QUOTE**
