@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Maybe we can use UNLFiT for machine learning on SUMO support questions and support tweets?"
+title: "Maybe we can use UMLFiT for machine learning on SUMO support questions and support tweets?"
 ---
 
 ## Pontifications
