@@ -6,9 +6,29 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 30 Oct 2018 20:27:42 -0700</pubDate>
-    <lastBuildDate>Tue, 30 Oct 2018 20:27:42 -0700</lastBuildDate>
+    <pubDate>Wed, 31 Oct 2018 22:48:47 -0700</pubDate>
+    <lastBuildDate>Wed, 31 Oct 2018 22:48:47 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Or maybe use Google Bert for machine learning on SUMO support questions and support tweets?</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Google Bidirectional Encoder Representations from Transformers (Bert) is another machine learning tool we could use that Felix mentioned yesterday. Gotta check out:
+&lt;a href=&quot;https://medium.com/syncedreview/best-nlp-model-ever-google-bert-sets-new-standards-in-11-language-tasks-4a2a189bc155&quot;&gt;Best NLP Model Ever? Google BERT Sets New Standards in 11 Language Tasks&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(see yesterday&amp;#39;s &lt;a href=&quot;http://rolandtanglao.com/2018/10/30/p1-ULMFiT-state-of-the-art-text-classification-universal-language-models/&quot;&gt;Maybe we can use UMLFiT for machine learning on SUMO support questions and support tweets?&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 31 Oct 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/10/31/p1-use-google-bert-for-machine-learning-on-sumo-support-questions-and-support-tweets/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/31/p1-use-google-bert-for-machine-learning-on-sumo-support-questions-and-support-tweets/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Maybe we can use UMLFiT for machine learning on SUMO support questions and support tweets?</title>
@@ -360,22 +380,6 @@ ff60_61_62 &amp;lt;-
         <pubDate>Mon, 22 Oct 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/10/22/p1-preparing-for-github-breaking-things/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/10/22/p1-preparing-for-github-breaking-things/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>R tidyverse function unite() concatenates two columns</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;TIL &lt;a href=&quot;https://tidyr.tidyverse.org/reference/unite.html&quot;&gt;unite()&lt;/a&gt; concatenates two columns with underscore &amp;quot;_&amp;quot; being the default separator and &lt;code&gt;separate()&lt;/code&gt; does the opposite&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/f7205a26bab5b56c8d4ed929b0b5b1d86a6d431f/VISUALIZATIONS/firefox62-most-common-words-stop-words-removed-bar-graph.r#L11&quot;&gt;see &lt;code&gt;unite(text, title, content, sep = &amp;quot; &amp;quot;)&lt;/code&gt;&lt;/a&gt; &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 21 Oct 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/10/21/p1-unite-concatenates-two-columns-in-tidyverse/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/21/p1-unite-concatenates-two-columns-in-tidyverse/</guid>
         
         
       </item>
