@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 31 Oct 2018 22:48:47 -0700</pubDate>
-    <lastBuildDate>Wed, 31 Oct 2018 22:48:47 -0700</lastBuildDate>
+    <pubDate>Thu, 01 Nov 2018 22:48:50 -0700</pubDate>
+    <lastBuildDate>Thu, 01 Nov 2018 22:48:50 -0700</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Steve Burr's fascinating behind the messy scenes of a data science workflow:Replicating Flowingdata Population Charts in R</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Love Steve Burr&amp;#39;s fascinating behind the messy scenes of a data science workflow:
+&lt;a href=&quot;https://www.stevejburr.com/post/replicating-flowingdata-population-charts-in-r/&quot;&gt;Replicating Flowingdata Population Chart&lt;/a&gt;!
+Shows the messiness and the evolution of a data visualization. i.e. the reality :-) !&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 01 Nov 2018 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2018/11/01/p1-stevejburr-replicating-flowing-data-population-charts-fascinating-datascience-journey/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/11/01/p1-stevejburr-replicating-flowing-data-population-charts-fascinating-datascience-journey/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Or maybe use Google Bert for machine learning on SUMO support questions and support tweets?</title>
@@ -358,28 +375,6 @@ ff60_61_62 &amp;lt;-
         <pubDate>Tue, 23 Oct 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/10/23/p1-hunspell-destemmer-ff60-ff61-ff62-common-words-sumo-firefox-desktop-english/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/10/23/p1-hunspell-destemmer-ff60-ff61-ff62-common-words-sumo-firefox-desktop-english/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Prepare now for github breaking github pages, links to gists and links to code: backup your git repos and paste important code snippets into a blog post</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Of all the silos I use, Flickr has had the best run at not breaking things. Their API works but little things have broken over time like their datetaken dateuploaded urls, embedding has changed, etc&lt;/li&gt;
-&lt;li&gt;How best to prepare for the coming github breakage :-) ? No disrespect intended to github but it&amp;#39;s a fact, it will happen!
-
-&lt;ul&gt;
-&lt;li&gt;For github pages you are covered since you have the files in git on your computer or in a cloud you control.&lt;/li&gt;
-&lt;li&gt;For gists, I would say copy and paste the code into a blog post on your domain.&lt;/li&gt;
-&lt;li&gt;For links to code like &lt;a href=&quot;http://rolandtanglao.com/2018/10/21/p1-unite-concatenates-two-columns-in-tidyverse/&quot;&gt;yesterday&lt;/a&gt;, I would copy and paste the entire code here and again make sure your git repo is backed up!&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 22 Oct 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/10/22/p1-preparing-for-github-breaking-things/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/22/p1-preparing-for-github-breaking-things/</guid>
         
         
       </item>
