@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Gaugeplots using R and ggplot2 look cool, use them for operating system percentages in SUMO questions"
+title: "Gaugeplots using R and ggplot2 look cool, use them for operating system percentages in SUMO questions?"
 ---
 
 ## Pontifications
