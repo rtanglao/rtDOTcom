@@ -6,6 +6,7 @@ title: "Some posts about Sparklines and microplots in R and ggplot2"
 ## Pontifications
 
 Too many choices!
+
 * my favourite: [Sparklines in ggplot2](https://stackoverflow.com/questions/35434760/sparklines-in-ggplot2)
 * [Combining data tables and sparklines](https://leonawicz.github.io/HtmlWidgetExamples/ex_dt_sparkline.html) <---- htmlwidget hacks! nice compact format, could be used to summarize firefox desktop metrics: 
   * os, keywords, sentiment, language
