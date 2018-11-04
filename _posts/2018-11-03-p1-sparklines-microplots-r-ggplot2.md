@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Some posts about Sparklines and microplots in R and ggplot2
+title: "Some posts about Sparklines and microplots in R and ggplot2"
 ---
 
 ## Pontifications
