@@ -6,9 +6,27 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 04 Nov 2018 23:40:56 -0800</pubDate>
-    <lastBuildDate>Sun, 04 Nov 2018 23:40:56 -0800</lastBuildDate>
+    <pubDate>Mon, 05 Nov 2018 23:43:28 -0800</pubDate>
+    <lastBuildDate>Mon, 05 Nov 2018 23:43:28 -0800</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Looking for recommendations: OmniOutliner for Windows or as a cross platform webapp? Checkvist seems close!</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Love OmniOutliner on Mac!&lt;/li&gt;
+&lt;li&gt;Looking for something like that for Windows!&lt;/li&gt;
+&lt;li&gt;Or since it&amp;#39;s 2018 as a cross-platform web app!&lt;/li&gt;
+&lt;li&gt;The closest thing I found was &lt;a href=&quot;https://checkvist.com&quot;&gt;Checkvist&lt;/a&gt;!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 05 Nov 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/11/05/p1-omni-outliner-for-windows/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/11/05/p1-omni-outliner-for-windows/</guid>
+        
+        
+      </item>
     
       <item>
         <title>gwern.net - bitcoin is worse is better </title>
@@ -212,23 +230,6 @@ Apple Watch Series 4&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
         <pubDate>Sat, 27 Oct 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/10/27/p1-nice-r-notebook-showing-mongodb-and-heat-map/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/10/27/p1-nice-r-notebook-showing-mongodb-and-heat-map/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Of course R has a Keras package called Keras</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Found via &lt;a href=&quot;http://www.bernhardlearns.com/2018/10/trying-out-rs-keras-api.html&quot;&gt;Bernhard Learns - Trying out R&amp;#39;s keras API - Can we predict the ETH price with recurrent neural networks?&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;The R keras package is called &lt;a href=&quot;https://keras.rstudio.com/&quot;&gt;Keras&lt;/a&gt; of course LOL&lt;/li&gt;
-&lt;li&gt;and how did I miss the book? &lt;a href=&quot;https://www.manning.com/books/deep-learning-with-r&quot;&gt;Deep Learning with R&lt;/a&gt; published February 2018, d&amp;#39;oh!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 26 Oct 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/10/26/p1-r-keras-machine-learning/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/26/p1-r-keras-machine-learning/</guid>
         
         
       </item>
