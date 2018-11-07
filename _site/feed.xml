@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 05 Nov 2018 23:43:28 -0800</pubDate>
-    <lastBuildDate>Mon, 05 Nov 2018 23:43:28 -0800</lastBuildDate>
+    <pubDate>Tue, 06 Nov 2018 23:50:39 -0800</pubDate>
+    <lastBuildDate>Tue, 06 Nov 2018 23:50:39 -0800</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Creating Sparklines for Blog Post with R and Plumber: REST API in R, sparklines, calling the google analytics API in R!</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.brettrics.com/creating-sparklines-for-blog-post-with-r-and-plumber/&quot;&gt;Creating Sparklines for Blog Post with R and Plumber&lt;/a&gt; &amp;lt;--- need to read and learn&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 06 Nov 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/11/06/p1-sparklines-rest-api-using-plumber-google-analytics-r/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/11/06/p1-sparklines-rest-api-using-plumber-google-analytics-r/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Looking for recommendations: OmniOutliner for Windows or as a cross platform webapp? Checkvist seems close!</title>
@@ -214,22 +229,6 @@ Apple Watch Series 4&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
         <pubDate>Sun, 28 Oct 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/10/28/p1-the-strava-app-no-longer-works-on-my-apple-watch-original-aka-series-0/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/10/28/p1-the-strava-app-no-longer-works-on-my-apple-watch-original-aka-series-0/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>nice r notebook by Fisseha Berhane showing mongodb and python driver and how to make a heatmap</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Check out: &lt;a href=&quot;https://datascience-enthusiast.com/R/MongoDB_R_Python.html&quot;&gt;Fisseha Berhane&amp;#39;s Using MongoDB with R and Python&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;I especially like the heatmap, would be cool to do one for FF60-63, support questions, Sunday-Monday, by hour&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 27 Oct 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/10/27/p1-nice-r-notebook-showing-mongodb-and-heat-map/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/27/p1-nice-r-notebook-showing-mongodb-and-heat-map/</guid>
         
         
       </item>
