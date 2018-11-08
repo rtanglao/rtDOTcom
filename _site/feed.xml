@@ -6,9 +6,27 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 06 Nov 2018 23:50:39 -0800</pubDate>
-    <lastBuildDate>Tue, 06 Nov 2018 23:50:39 -0800</lastBuildDate>
+    <pubDate>Wed, 07 Nov 2018 21:27:18 -0800</pubDate>
+    <lastBuildDate>Wed, 07 Nov 2018 21:27:18 -0800</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>More fun with sparklines: use ggplot and remove facet wrap labels</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;More fun with &amp;quot;pseudo&amp;quot; :-) sparklines: &lt;a href=&quot;https://stackoverflow.com/questions/10547487/remove-facet-wrap-labels-completely&quot;&gt;use ggplot and remove facet wrap labels&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Would be cool to do this for 365 days a year of flickr photos per woeid&lt;/li&gt;
+&lt;li&gt;Or per average colour&lt;/li&gt;
+&lt;li&gt;Or per the 256 web safe colours&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 07 Nov 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/11/07/p1-pseudo-sparklines-with-ggplot2/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/11/07/p1-pseudo-sparklines-with-ggplot2/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Creating Sparklines for Blog Post with R and Plumber: REST API in R, sparklines, calling the google analytics API in R!</title>
@@ -195,40 +213,6 @@ This post is a lay-person’s introduction to our new paper, which shows how to 
         <pubDate>Mon, 29 Oct 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/10/29/p1-strava-app-updated-and-appears-to-work-on-apple-watch-series-0/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/10/29/p1-strava-app-updated-and-appears-to-work-on-apple-watch-series-0/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>The Strava app no longer works (it crashes) on my Apple Watch Series 0 aka the original Apple Watch after last week's Strava Watch app update, time to buy a new watch?!?</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;And there&amp;#39;s no ETA on when / if Strava can get it working!&lt;/li&gt;
-&lt;li&gt;If I was a normal user of software I might be tempted to rant, but since I am not (I&amp;#39;ve worked as technical lead supporting  free and open source software software support since 2005), I won&amp;#39;t. LOL. I know too much about how the sausage is made to rant. And ranting always makes everybody feel better except for the real human beings at the other end of the rant.&lt;/li&gt;
-&lt;li&gt;Would be curious to see to see the source code but even then that doesn&amp;#39;t mean I can fix it since everything is mysterious and proprietary :-) Even if this app and it&amp;#39;s source code and the protocols to the Strava app on the iPhone were open and documented I bet it would still be diffiult.&lt;/li&gt;
-&lt;li&gt;By the way Apple now values the watch at $CDN 30 for trade in purposes if you trade it in, anybody want to buy it ?!?&lt;/li&gt;
-&lt;li&gt;Here&amp;#39;s the official support team post from Thursday October 25, 2018,  &lt;a href=&quot;https://support.strava.com/hc/en-us/articles/360018719631&quot;&gt;Apple Watch App Crashing with Latest Update&lt;/a&gt; : &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;quot;We are aware of an issue with the latest update and Watch OS 4.3. If you are able, please update your Apple Watch to version 5. WatchOS 5 requires iPhone 5s or later with iOS 12 or later, and one of the following Apple Watch models:&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Apple Watch Series 1&lt;br /&gt;
-Apple Watch Series 2&lt;br /&gt;
-Apple Watch Series 3&lt;br /&gt;
-Apple Watch Series 4&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Unfortunately, watchOS 5 is not compatible with the first-generation Apple Watch. If you are using a first-generation (Apple Watch Series 0) device, you will not be able to prevent your Strava Apple Watch app from crashing. We are working on resolving this issue and appreciate your patience.&amp;quot;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 28 Oct 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/10/28/p1-the-strava-app-no-longer-works-on-my-apple-watch-original-aka-series-0/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/28/p1-the-strava-app-no-longer-works-on-my-apple-watch-original-aka-series-0/</guid>
         
         
       </item>
