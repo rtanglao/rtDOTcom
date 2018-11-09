@@ -6,9 +6,39 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 07 Nov 2018 21:27:18 -0800</pubDate>
-    <lastBuildDate>Wed, 07 Nov 2018 21:27:18 -0800</lastBuildDate>
+    <pubDate>Thu, 08 Nov 2018 22:44:00 -0800</pubDate>
+    <lastBuildDate>Thu, 08 Nov 2018 22:44:00 -0800</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Katharine Bailey: 'AI' leads to more jobs for humans</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Former colleague Katharine Bailey and current AI maven at Accenture continues her fabulous explanations of &amp;#39;AI&amp;#39; to newbies like myself.&lt;/li&gt;
+&lt;li&gt;In &lt;a href=&quot;https://medium.com/@katherinebailey/a-i-and-the-future-of-work-e18653d1636d?fbclid=IwAR0ADV0MMw8FS6G9EwtTGL9jRnVPPTaZ4NHBIBdiWRmHYPdXAtb99AEwXC8&quot;&gt;A.I. and the Future of Work&lt;/a&gt; she writes how AI leads to more jobs for humans:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+Many companies working in the AI space today are at pains to make clear that these technologies are about augmenting human intelligence, not about machine intelligence replacing humans. This may seem like a PR platitude to avoid coming across like they’re in the business of putting people out of a job, but it’s actually more than that. The type of AI that’s being used today, i.e. Machine Learning, doesn’t just augment humans, it requires them.
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;As always &lt;a href=&quot;https://medium.com/@katherinebailey/a-i-and-the-future-of-work-e18653d1636d?fbclid=IwAR0ADV0MMw8FS6G9EwtTGL9jRnVPPTaZ4NHBIBdiWRmHYPdXAtb99AEwXC8&quot;&gt;read the whole thing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 08 Nov 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/11/08/p1-humans-required-to-train-ai-model/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/11/08/p1-humans-required-to-train-ai-model/</guid>
+        
+        
+      </item>
     
       <item>
         <title>More fun with sparklines: use ggplot and remove facet wrap labels</title>
@@ -198,21 +228,6 @@ This post is a lay-person’s introduction to our new paper, which shows how to 
         <pubDate>Tue, 30 Oct 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/10/30/p1-ULMFiT-state-of-the-art-text-classification-universal-language-models/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/10/30/p1-ULMFiT-state-of-the-art-text-classification-universal-language-models/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Strava App updated to version 70.0 and it appears to work on Apple Watch Series 0, thanks!</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2018/10/28/p1-the-strava-app-no-longer-works-on-my-apple-watch-original-aka-series-0/&quot;&gt;I was wrong yesterday&lt;/a&gt;, &lt;a href=&quot;https://support.strava.com/hc/en-us/articles/360018719631-Apple-Watch-App-Crashing-with-Latest-Update&quot;&gt;the Strava App updated to version 70.0 and it appears to work on Apple Watch Series 0&lt;/a&gt;, thanks!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 29 Oct 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/10/29/p1-strava-app-updated-and-appears-to-work-on-apple-watch-series-0/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/29/p1-strava-app-updated-and-appears-to-work-on-apple-watch-series-0/</guid>
         
         
       </item>
