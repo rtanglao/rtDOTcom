@@ -6,9 +6,27 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 08 Nov 2018 22:44:00 -0800</pubDate>
-    <lastBuildDate>Thu, 08 Nov 2018 22:44:00 -0800</lastBuildDate>
+    <pubDate>Sat, 10 Nov 2018 08:56:06 -0800</pubDate>
+    <lastBuildDate>Sat, 10 Nov 2018 08:56:06 -0800</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Remember 2006 when we used our own websites for own media like Dave's podcast with Ross Rebagliati gold medal winner</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Remember 2006 when we used our own websites for own media like Dave&amp;#39;s podcast: 
+&lt;a href=&quot;https://daveostory.com/audio-pods-songs/olympic-outsider/coffee-talk-with-gold-medalist-ross-rebagliati-olympic-outsider-3-enhanced/&quot;&gt;Coffee talk with Gold Medalist Ross Rebagliati – Olympic Outsider #3 (enhanced)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Neither do I :-)&lt;/li&gt;
+&lt;li&gt;Bonus fun: &lt;a href=&quot;http://roland.micro.blog/2018/11/10/good-morning-dave.html&quot;&gt;A Good Morning to Mike and Dave 14 second podcast&lt;/a&gt; who inspired me to write this post. (&lt;a href=&quot;https://tippett.org/&quot;&gt;Mike&amp;#39;s site&lt;/a&gt;, &lt;a href=&quot;https://daveostory.com/&quot;&gt;Dave&amp;#39;s site&lt;/a&gt;; we&amp;#39;re still here on the internet making our stuff, join us :-)!)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 10 Nov 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/11/10/p1-remember-our-2006-era-of-scrappy-podcasts-hosted-on-our-own-sites/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/11/10/p1-remember-our-2006-era-of-scrappy-podcasts-hosted-on-our-own-sites/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Katharine Bailey: 'AI' leads to more jobs for humans</title>
@@ -201,33 +219,6 @@ Shows the messiness and the evolution of a data visualization. i.e. the reality 
         <pubDate>Wed, 31 Oct 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/10/31/p1-use-google-bert-for-machine-learning-on-sumo-support-questions-and-support-tweets/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/10/31/p1-use-google-bert-for-machine-learning-on-sumo-support-questions-and-support-tweets/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Maybe we can use UMLFiT for machine learning on SUMO support questions and support tweets?</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Via Felix, I learned about Universal Language Model Fine-tuning for Text Classification (ULMFiT) which might be what we need to do machine learning on SUMO Firefox Desktop support
-questions and tweets.&lt;/li&gt;
-&lt;li&gt;From Jermey Howard and Sebastian Ruder&amp;#39;s May 15, 2018 blog post, &lt;a href=&quot;http://nlp.fast.ai/classification/2018/05/15/introducting-ulmfit.html&quot;&gt;Introducing state of the art text classification with universal language models&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-
-This post is a lay-person’s introduction to our new paper, which shows how to classify documents automatically with both higher accuracy and less data requirements than previous approaches. We’ll explain in simple terms: natural language processing; text classification; transfer learning; language modeling; and how our approach brings these ideas together. If you’re already familar with NLP and deep learning, you’ll probably want to jump over to our NLP classification page for technical links. 
-
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 30 Oct 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/10/30/p1-ULMFiT-state-of-the-art-text-classification-universal-language-models/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/30/p1-ULMFiT-state-of-the-art-text-classification-universal-language-models/</guid>
         
         
       </item>
