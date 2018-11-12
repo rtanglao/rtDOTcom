@@ -6,9 +6,38 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 10 Nov 2018 08:56:06 -0800</pubDate>
-    <lastBuildDate>Sat, 10 Nov 2018 08:56:06 -0800</lastBuildDate>
+    <pubDate>Sun, 11 Nov 2018 21:53:11 -0800</pubDate>
+    <lastBuildDate>Sun, 11 Nov 2018 21:53:11 -0800</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Rememberance Day 2018: Centum Corpora - 100 brass instruments 100 repeats of a musical phrase for 100 WWI soldiers</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We went to &lt;a href=&quot;http://littlechambermusic.com/centum-corpora/&quot;&gt;Centum Corpora&lt;/a&gt; today which was was a very meditative and fitting way to commemorate the 100th anniversary of the WWI armistice day:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt; from their website&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+&quot;The Little Chamber Music Series That Could, in association with the Homegoing Brass Band, are proud to present Centum Corpora.&lt;br /&gt;&lt;br /&gt;
+
+To mark the 100th anniversary of Armistice Day and the end of “the war to end all wars“, we will be placing 100 professional, student and community musicians in the Jones 45 section (enter on 41st west of Fraser) of Mountain View Cemetery, which is a Commonwealth War Graves Commission section.&lt;br /&gt;&lt;br /&gt;
+
+Each musician will be representing a different fallen soldier from WW1, and will be standing behind their marker for the performance. Simple, beautiful chords will echo through the cemetery when 100 instruments musically repeat the name and date of death of their veteran 100 times, as the community walks amongst them for this unique composed sound installation (approx 25min). In the spirit of what soldiers in WW1 faced, this outdoor performance will proceed in any weather.&quot;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 11 Nov 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/11/11/p1-remembrance-day-centum-corpora/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/11/11/p1-remembrance-day-centum-corpora/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Remember 2006 when we used our own websites for own media like Dave's podcast with Ross Rebagliati gold medal winner</title>
@@ -199,26 +228,6 @@ Shows the messiness and the evolution of a data visualization. i.e. the reality 
         <pubDate>Thu, 01 Nov 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/11/01/p1-stevejburr-replicating-flowing-data-population-charts-fascinating-datascience-journey/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/11/01/p1-stevejburr-replicating-flowing-data-population-charts-fascinating-datascience-journey/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Or maybe use Google Bert for machine learning on SUMO support questions and support tweets?</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Google Bidirectional Encoder Representations from Transformers (Bert) is another machine learning tool we could use that Felix mentioned yesterday. Gotta check out:
-&lt;a href=&quot;https://medium.com/syncedreview/best-nlp-model-ever-google-bert-sets-new-standards-in-11-language-tasks-4a2a189bc155&quot;&gt;Best NLP Model Ever? Google BERT Sets New Standards in 11 Language Tasks&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;(see yesterday&amp;#39;s &lt;a href=&quot;http://rolandtanglao.com/2018/10/30/p1-ULMFiT-state-of-the-art-text-classification-universal-language-models/&quot;&gt;Maybe we can use UMLFiT for machine learning on SUMO support questions and support tweets?&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 31 Oct 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/10/31/p1-use-google-bert-for-machine-learning-on-sumo-support-questions-and-support-tweets/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/10/31/p1-use-google-bert-for-machine-learning-on-sumo-support-questions-and-support-tweets/</guid>
         
         
       </item>
