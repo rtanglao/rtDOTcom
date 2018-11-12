@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Rememberance Day 2018: Centum Corpora - 100 brass instruments 100 repeats of a musical phrase for 100 WWI soldiers"
+title: "Remembrance Day 2018: Centum Corpora - 100 brass instruments 100 repeats of a musical phrase for 100 WWI soldiers"
 ---
 
 ## Pontifications
