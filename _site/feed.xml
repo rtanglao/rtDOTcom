@@ -6,9 +6,38 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 11 Nov 2018 22:22:47 -0800</pubDate>
-    <lastBuildDate>Sun, 11 Nov 2018 22:22:47 -0800</lastBuildDate>
+    <pubDate>Mon, 12 Nov 2018 18:07:29 -0800</pubDate>
+    <lastBuildDate>Mon, 12 Nov 2018 18:07:29 -0800</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Ton points to Bryan Alexander's excellent post on how World War I actually continued until 1923</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;In &lt;a href=&quot;https://www.zylstra.org/blog/2018/11/the-end-of-war-a-graphic-record/&quot;&gt;&amp;quot;The end of the war -- a Graphic Record&amp;quot;, Ton&lt;/a&gt; points to Bryan Alexander&amp;#39;s excellent post, &amp;quot;&lt;a href=&quot;https://bryanalexander.org/politics/when-the-guns-stopped-but-the-future-kept-happening/&quot;&gt;When the guns stopped, but the future kept happening&lt;/a&gt;&amp;quot;, on how World War I actually continued until 1923 in Eastern Europe. Shows how Western European-centric we are!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt; &lt;/p&gt;
+
+&lt;blockquote&gt;
+
+&quot;So at the very least we can track these WWI continuations and echoes for five more horrendous years.  Indeed, Robert Gerwarth argues that we should date the war’s end as 1923.&lt;br /&gt;&lt;br /&gt;
+
+Why, then, are our eyes drawn to 11/11/18?  I think a major reason is the long-standing* divide between eastern and western Europe.  People in the latter usually avoid paying attention to the former.  This is especially true in the United States, where “Europe” usually means “Britain and France and maybe Germany.”  The former Ottoman lands are even more neglected.  The armistice we celebrate today was only for one of WWI’s fronts.&lt;br /&gt;&lt;br /&gt;
+
+A great deal of the violence follows from Allied mistakes and disasters, from the stupid invasion of the Soviet Union to the failed attempts to manage Turkey.  The armistice lets us avoid all of that unpleasantness in favor of celebrating a clear victory instead.&quot;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 12 Nov 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/11/12/p1-world-war-i-actually-continued-until-1923-in-eastern-europe/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/11/12/p1-world-war-i-actually-continued-until-1923-in-eastern-europe/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Remembrance Day 2018: Centum Corpora - 100 brass instruments 100 repeats of a musical phrase for 100 WWI soldiers</title>
@@ -211,23 +240,6 @@ using R and ggplot2 look cool, use them for operating system percentages?&lt;/li
         <pubDate>Fri, 02 Nov 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/11/02/p1-gauge-plots-r-ggplot2/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/11/02/p1-gauge-plots-r-ggplot2/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Steve Burr's fascinating behind the messy scenes of a data science workflow:Replicating Flowingdata Population Charts in R</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Love Steve Burr&amp;#39;s fascinating behind the messy scenes of a data science workflow:
-&lt;a href=&quot;https://www.stevejburr.com/post/replicating-flowingdata-population-charts-in-r/&quot;&gt;Replicating Flowingdata Population Chart&lt;/a&gt;!
-Shows the messiness and the evolution of a data visualization. i.e. the reality :-) !&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 01 Nov 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/11/01/p1-stevejburr-replicating-flowing-data-population-charts-fascinating-datascience-journey/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/11/01/p1-stevejburr-replicating-flowing-data-population-charts-fascinating-datascience-journey/</guid>
         
         
       </item>
