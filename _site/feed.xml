@@ -6,9 +6,47 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 12 Nov 2018 18:07:29 -0800</pubDate>
-    <lastBuildDate>Mon, 12 Nov 2018 18:07:29 -0800</lastBuildDate>
+    <pubDate>Tue, 13 Nov 2018 22:14:32 -0800</pubDate>
+    <lastBuildDate>Tue, 13 Nov 2018 22:14:32 -0800</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>John Battelle: Tech must get over itself and solve problems that really matter!</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;In John Battelle&amp;#39;s &lt;a href=&quot;https://shift.newco.co/2018/11/12/tech-must-get-over-its-superman-complex-or-were-all-screwed/&quot;&gt;&amp;quot;Tech Must Get Over Its Superman Complex, Or We’re All Screwed&amp;quot;&lt;/a&gt; says we should solve problems that matter and I agree&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;quot;Witness this nearly idea-free interview with Google CEO Sundar Pichai, also in the Times, where the meticulously media-prepped executive opines on whether his industry has a role to play in society’s ills: “Every generation is worried about the new technology, and feels like this time it’s different. Our parents worried about Elvis Presley’s influence on kids. So, I’m always asking the question, “Why would it be any different this time?” Having said that, I do realize the change that’s happening now is much faster than ever before. My son still doesn’t have a phone.”
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pichai’s son may not have a phone, but he is earning money mining Ethereum (really, you can’t make this shit up). I’m not sure the son of a centi-millionaire needs to earn money – but it certainly is useful to master the algorithms that will soon control nearly every aspect of human life. So – no, son, no addictive phone for you (even though my company makes them, and makes their operating systems, and makes the apps which ensure their addictive qualities).
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;But mining crypto currency? Absolutely!
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Should Harari be proven right and humanity becomes irrelevant, I’m pretty sure Pichai’s son will have a first class ticket out of whatever mess is left behind. But the rest of us? We should probably focus on making sure that kid never needs to use it.&lt;/p&gt;
+
+&lt;p&gt;&lt;/blockquote&gt;&amp;quot;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Absolutely &lt;a href=&quot;https://shift.newco.co/2018/11/12/tech-must-get-over-its-superman-complex-or-were-all-screwed/&quot;&gt;read the whole thing&lt;/a&gt; and Homo Deus!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 13 Nov 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/11/13/p1-john-batelle-tech-must-get-over-itself/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/11/13/p1-john-batelle-tech-must-get-over-itself/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Ton points to Bryan Alexander's excellent post on how World War I actually continued until 1923</title>
@@ -222,24 +260,6 @@ But it seems to work. Just like Unix, there were countless ways to destroy your 
         <pubDate>Sat, 03 Nov 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/11/03/p1-sparklines-microplots-r-ggplot2/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/11/03/p1-sparklines-microplots-r-ggplot2/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Gaugeplots using R and ggplot2 look cool, use them for operating system percentages in SUMO questions?</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Gaugeplots from jbedford&amp;#39;s &lt;a href=&quot;https://pomvlad.blog/2018/05/03/gauges-ggplot2/&quot;&gt;Generating gauge plots in ggplot2&lt;/a&gt;
-using R and ggplot2 look cool, use them for operating system percentages?&lt;/li&gt;
-&lt;li&gt;Or maybe for percent that are solved, not solved?&lt;/li&gt;
-&lt;li&gt;Or maybe for percent that are &amp;quot;troubleshootingdetailsmissing&amp;quot;, &amp;quot;probablynotafirefoxproblem&amp;quot;, &amp;quot;notafirefoxproblem&amp;quot;, &amp;quot;unclearquestion&amp;quot;?&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 02 Nov 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/11/02/p1-gauge-plots-r-ggplot2/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/11/02/p1-gauge-plots-r-ggplot2/</guid>
         
         
       </item>
