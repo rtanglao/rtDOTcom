@@ -8,8 +8,8 @@ title: "No surprise in Firefox Support Questions by Operating System: Windows 10
 * It's surprising but not really surprising that folks hold onto Windows 7: they like the non Metro-ness of the interface and/or their hardware is old; and or many other long tail of reasons some of which are valid :-)
 * In my bubble Windows 10 is far superior because of anti-virus and security maijly but hey I can see the reasons why others wouldn't agree!
 * code for the following OS graphs:
-  * https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/12november2018-gauge-plot-ff62.r (not sure why it has soooo much white space)
-  *  https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/12november2018-gauge-plot-ff61.r (not sure why it has soooo much white space)
+  * [12november2018-gauge-plot-ff62.r](https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/12november2018-gauge-plot-ff62.r) (not sure why it has soooo much white space)
+  * [12november2018-gauge-plot-ff61.r](https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/12november2018-gauge-plot-ff61.r) (not sure why it has soooo much white space)
 
 
 **ff61:**<br />
