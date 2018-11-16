@@ -1,0 +1,20 @@
+---
+layout: post
+title: "No surprise in Firefox Support Questions by Operating System: Windows 10 is dominant, followed by Windows 7; Windows 8, Mac and Linux are used by a minority of Users"
+---
+
+## Pontifications
+
+* It's surprising but not really surprising that folks hold onto Windows 7: they like the non Metro-ness of the interface and/or their hardware is old; and or many other long tail of reasons some of which are valid :-)
+* In my bubble Windows 10 is far superior because of anti-virus and security maijly but hey I can see the reasons why others wouldn't agree!
+* code for the following OS graphs:
+  * https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/12november2018-gauge-plot-ff62.r (not sure why it has soooo much white space)
+  *  https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/12november2018-gauge-plot-ff61.r (not sure why it has soooo much white space)
+
+
+**ff61:**<br />
+
+![ff61 first 3 week operating system](https://github.com/rtanglao/rt-kitsune-api/raw/master/VISUALIZATIONS/5x5border-trimmed-ff61-first-3-weeks-operating-system.png)
+
+**ff62:**<br />
+![ff62 first 3 week operating system](https://github.com/rtanglao/rt-kitsune-api/raw/master/VISUALIZATIONS/5x5border-trimmed-ff62-first-3-weeks-operating-system.png)
