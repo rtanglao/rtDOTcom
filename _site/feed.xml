@@ -6,9 +6,38 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 13 Nov 2018 22:14:32 -0800</pubDate>
-    <lastBuildDate>Tue, 13 Nov 2018 22:14:32 -0800</lastBuildDate>
+    <pubDate>Thu, 15 Nov 2018 21:57:41 -0800</pubDate>
+    <lastBuildDate>Thu, 15 Nov 2018 21:57:41 -0800</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>No surprise in Firefox Support Questions by Operating System: Windows 10 is dominant, followed by Windows 7; Windows 8, Mac and Linux are used by a minority of Users</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It&amp;#39;s surprising but not really surprising that folks hold onto Windows 7: they like the non Metro-ness of the interface and/or their hardware is old; and or many other long tail of reasons some of which are valid :-)&lt;/li&gt;
+&lt;li&gt;In my bubble Windows 10 is far superior because of anti-virus and security maijly but hey I can see the reasons why others wouldn&amp;#39;t agree!&lt;/li&gt;
+&lt;li&gt;code for the following OS graphs:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/12november2018-gauge-plot-ff62.r&quot;&gt;12november2018-gauge-plot-ff62.r&lt;/a&gt; (not sure why it has soooo much white space)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/12november2018-gauge-plot-ff61.r&quot;&gt;12november2018-gauge-plot-ff61.r&lt;/a&gt; (not sure why it has soooo much white space)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;ff61:&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.com/rtanglao/rt-kitsune-api/raw/master/VISUALIZATIONS/5x5border-trimmed-ff61-first-3-weeks-operating-system.png&quot; alt=&quot;ff61 first 3 week operating system&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ff62:&lt;/strong&gt;&lt;br /&gt;
+&lt;img src=&quot;https://github.com/rtanglao/rt-kitsune-api/raw/master/VISUALIZATIONS/5x5border-trimmed-ff62-first-3-weeks-operating-system.png&quot; alt=&quot;ff62 first 3 week operating system&quot;&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 15 Nov 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/11/15/p1-no-surprise-in-ff-desktop-questions/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/11/15/p1-no-surprise-in-ff-desktop-questions/</guid>
+        
+        
+      </item>
     
       <item>
         <title>John Battelle: Tech must get over itself and solve problems that really matter!</title>
@@ -232,34 +261,6 @@ But it seems to work. Just like Unix, there were countless ways to destroy your 
         <pubDate>Sun, 04 Nov 2018 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2018/11/04/gwern-net-bitcoin-is-worse-is-better/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/11/04/gwern-net-bitcoin-is-worse-is-better/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Some posts about Sparklines and microplots in R and ggplot2</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;p&gt;Too many choices!&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;my favourite: &lt;a href=&quot;https://stackoverflow.com/questions/35434760/sparklines-in-ggplot2&quot;&gt;Sparklines in ggplot2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://leonawicz.github.io/HtmlWidgetExamples/ex_dt_sparkline.html&quot;&gt;Combining data tables and sparklines&lt;/a&gt; &amp;lt;---- htmlwidget hacks! nice compact format, could be used to summarize firefox desktop metrics: 
-
-&lt;ul&gt;
-&lt;li&gt;os, keywords, sentiment, language&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/htmlwidgets/sparkline&quot;&gt;jQuery Sparkline HTML Widget for R&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://cran.r-project.org/web/packages/microplot/index.html&quot;&gt;microplot: Microplots (Sparklines) in &amp;#39;LaTeX&amp;#39;, &amp;#39;Word&amp;#39;, &amp;#39;HTML&amp;#39;, &amp;#39;Excel&amp;#39;&lt;/a&gt; &amp;lt;--- not really designed for ggplot2
-
-&lt;ul&gt;
-&lt;li&gt;further tutorial: &lt;a href=&quot;https://cran.r-project.org/web/packages/microplot/vignettes/rmhPoster.pdf&quot;&gt;R Microplots in Tables with the latex() Function&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 03 Nov 2018 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2018/11/03/p1-sparklines-microplots-r-ggplot2/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/11/03/p1-sparklines-microplots-r-ggplot2/</guid>
         
         
       </item>
