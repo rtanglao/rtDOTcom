@@ -9,7 +9,8 @@ title: "Cleaning the data to make it work with your data visualization toolkit i
 * In fact it's not fun but data cleaning is also an act of judgement and analysis because it's almost always a judgment call as to what an 'outlier' is and what outliners to throw out!
 * I'm far from the first to observe this of course :-)
 * And ```ggplot2``` is great fun because you can easily create many many types of graphs with that 1 cleaned dataset with minimal lines of code.
-* An example was the [previous post on the Operating System graph for Firefox Desktop questions](http://rolandtanglao.com/2018/11/15/p1-no-surprise-in-ff-desktop-questions/): e.g.  what is 'linux'? should I track every distro? You can see my arbitrary-but-hopefully-mostly-correct choices in [the ruby code to generate the datasest](https://github.com/rtanglao/rt-kitsune-api/blob/master/print-csv-os-percentage-group-label-title.rb):
+* An example was the [previous post on the Operating System graph for Firefox Desktop questions](http://rolandtanglao.com/2018/11/15/p1-no-surprise-in-ff-desktop-questions/): e.g.  what is 'linux'? should I track every distro? You can see my arbitrary-but-hopefully-mostly-correct choices in [the ruby code to generate the dataset](https://github.com/rtanglao/rt-kitsune-api/blob/master/print-csv-os-percentage-group-label-title.rb):
+
 ```ruby
 case os
   when /^Windows 7/i
