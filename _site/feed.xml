@@ -6,9 +6,42 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 17 Nov 2018 19:21:21 -0800</pubDate>
-    <lastBuildDate>Sat, 17 Nov 2018 19:21:21 -0800</lastBuildDate>
+    <pubDate>Sun, 18 Nov 2018 20:28:18 -0800</pubDate>
+    <lastBuildDate>Sun, 18 Nov 2018 20:28:18 -0800</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Updated with Firefox 63: No surprise in Firefox Support Questions by Operating System: Windows 10 is dominant, followed by Windows 7; Windows 8, Mac and Linux are used by a minority of Users</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Updated &lt;a href=&quot;http://rolandtanglao.com/2018/11/15/p1-no-surprise-in-ff-desktop-questions/&quot;&gt;November 15, 2018 post and added Firefox 63&lt;/a&gt;. No surprises!&lt;/li&gt;
+&lt;li&gt;It&amp;#39;s surprising but not really surprising that folks hold onto Windows 7: they like the non Metro-ness of the interface and/or their hardware is old; and or many other long tail of reasons some of which are valid :-)&lt;/li&gt;
+&lt;li&gt;In my bubble Windows 10 is far superior because of anti-virus and security mainly but hey I can see the reasons why others wouldn&amp;#39;t agree!&lt;/li&gt;
+&lt;li&gt;code for the following OS graphs:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/12november2018-gauge-plot-ff62.r&quot;&gt;12november2018-gauge-plot-ff62.r&lt;/a&gt; (not sure why it has soooo much white space)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/12november2018-gauge-plot-ff61.r&quot;&gt;12november2018-gauge-plot-ff61.r&lt;/a&gt; (not sure why it has soooo much white space)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;ff61:&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.com/rtanglao/rt-kitsune-api/raw/master/VISUALIZATIONS/5x5border-trimmed-ff61-first-3-weeks-operating-system.png&quot; alt=&quot;ff61 first 3 week operating system&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ff62:&lt;/strong&gt;&lt;br /&gt;
+&lt;img src=&quot;https://github.com/rtanglao/rt-kitsune-api/raw/master/VISUALIZATIONS/5x5border-trimmed-ff62-first-3-weeks-operating-system.png&quot; alt=&quot;ff62 first 3 week operating system&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ff63:&lt;/strong&gt;&lt;br /&gt;
+&lt;img src=&quot;https://github.com/rtanglao/rt-kitsune-api/raw/master/VISUALIZATIONS/5x5border-trimmed-ff63-first-3-weeks-operating-system.png&quot; alt=&quot;ff63 first 3 week operating system&quot;&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 18 Nov 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/11/18/p1-ff63-update-no-surprise-in-ff-desktop-questions/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/11/18/p1-ff63-update-no-surprise-in-ff-desktop-questions/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Cleaning the data to make it work with your data visualization toolkit is 90% of the work; to learn a new plotting technique take the sample code, print out the dataset  and and write your code to you create the identically structured dataset</title>
@@ -248,24 +281,6 @@ Many companies working in the AI space today are at pains to make clear that the
         <pubDate>Tue, 06 Nov 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/11/06/p1-sparklines-rest-api-using-plumber-google-analytics-r/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/11/06/p1-sparklines-rest-api-using-plumber-google-analytics-r/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Looking for recommendations: OmniOutliner for Windows or as a cross platform webapp? Checkvist seems close!</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Love OmniOutliner on Mac!&lt;/li&gt;
-&lt;li&gt;Looking for something like that for Windows!&lt;/li&gt;
-&lt;li&gt;Or since it&amp;#39;s 2018 as a cross-platform web app!&lt;/li&gt;
-&lt;li&gt;The closest thing I found was &lt;a href=&quot;https://checkvist.com&quot;&gt;Checkvist&lt;/a&gt;!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 05 Nov 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/11/05/p1-omni-outliner-for-windows/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/11/05/p1-omni-outliner-for-windows/</guid>
         
         
       </item>
