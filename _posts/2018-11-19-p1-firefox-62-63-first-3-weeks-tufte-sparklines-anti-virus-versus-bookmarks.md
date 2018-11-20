@@ -9,6 +9,7 @@ title: "Firefox 62 and 63 First 3 weeks Tufte Sparklines: anti-virus versus book
 * R code which uses the CSV from ```print-daynum-issuetype-issuecount.rb```:
   * [12november2018-ff62-tufte-sparklines](https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/12november2018-ff62-tufte-sparklines.r)
   * [13november2018-ff63-tufte-sparklines.R)](https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/13november2018-ff63-tufte-sparklines.R)
+  
 ### Output
 
 * observations: bookmarks appears more frequently in FF63 and FF62, need to add in FF 61 and FF 60
