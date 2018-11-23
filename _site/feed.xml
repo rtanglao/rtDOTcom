@@ -6,9 +6,41 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 20 Nov 2018 22:57:51 -0800</pubDate>
-    <lastBuildDate>Tue, 20 Nov 2018 22:57:51 -0800</lastBuildDate>
+    <pubDate>Thu, 22 Nov 2018 22:32:02 -0800</pubDate>
+    <lastBuildDate>Thu, 22 Nov 2018 22:32:02 -0800</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Logic Magazine: The Smart, the Stupid, and the Catastrophically Scary: An Interview with an Anonymous Data Scientist</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I need to read every back issue of Logic Magazine!&lt;/li&gt;
+&lt;li&gt;Why? Because every piece I&amp;#39;ve read is very insightful including 
+&lt;a href=&quot;https://logicmag.io/01-interview-with-an-anonymous-data-scientist/&quot;&gt;The Smart, the Stupid, and the Catastrophically Scary: An Interview with an Anonymous Data Scientist&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+&quot;So I think a lot of the strong AI stuff is like that. A lot of data science is like that too. Another way of looking at it is that it’s a bunch of people who got PhDs in the wrong thing, and realized they wanted to have a job. Another way of looking at it—I think the most positive way, which is maybe a bit contrarian—is that it’s really, really good marketing.&lt;br /&gt;&lt;br /&gt;
+
+As someone who tries not to sell fraudulent solutions to people, it actually has made my life significantly better because you can say “big data machine learning,” and people will be like, “Oh, I’ve heard of that, I want that.” It makes it way easier to sell them something than having to explain this complex series of mathematical operations. The hype around it—and that there’s so much hype—has made the actual sales process so much easier. The fact that there is a thing with a label is really good for me professionally.&lt;br /&gt;&lt;br /&gt;
+
+But that doesn’t mean there’s not a lot of ridiculous hype around the discipline.&quot;&lt;br /&gt;&lt;br /&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://logicmag.io/01-interview-with-an-anonymous-data-scientist/&quot;&gt;Read the whole thing of course&lt;/a&gt; :-) !&lt;/p&gt;
+</description>
+        <pubDate>Thu, 22 Nov 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/11/22/p1-logic-magazine-interview-with-anonymous-data-scientist/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/11/22/p1-logic-magazine-interview-with-anonymous-data-scientist/</guid>
+        
+        
+      </item>
     
       <item>
         <title>sparklines in ggplot2, the source for: Firefox 62 and 63 First 3 weeks Tufte Sparklines: anti-virus versus bookmarks</title>
@@ -279,36 +311,6 @@ Each musician will be representing a different fallen soldier from WW1, and will
         <pubDate>Sat, 10 Nov 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/11/10/p1-remember-our-2006-era-of-scrappy-podcasts-hosted-on-our-own-sites/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/11/10/p1-remember-our-2006-era-of-scrappy-podcasts-hosted-on-our-own-sites/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Katharine Bailey: 'AI' leads to more jobs for humans</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Former colleague Katharine Bailey and current AI maven at Accenture continues her fabulous explanations of &amp;#39;AI&amp;#39; to newbies like myself.&lt;/li&gt;
-&lt;li&gt;In &lt;a href=&quot;https://medium.com/@katherinebailey/a-i-and-the-future-of-work-e18653d1636d?fbclid=IwAR0ADV0MMw8FS6G9EwtTGL9jRnVPPTaZ4NHBIBdiWRmHYPdXAtb99AEwXC8&quot;&gt;A.I. and the Future of Work&lt;/a&gt; she writes how AI leads to more jobs for humans:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-
-Many companies working in the AI space today are at pains to make clear that these technologies are about augmenting human intelligence, not about machine intelligence replacing humans. This may seem like a PR platitude to avoid coming across like they’re in the business of putting people out of a job, but it’s actually more than that. The type of AI that’s being used today, i.e. Machine Learning, doesn’t just augment humans, it requires them.
-
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;As always &lt;a href=&quot;https://medium.com/@katherinebailey/a-i-and-the-future-of-work-e18653d1636d?fbclid=IwAR0ADV0MMw8FS6G9EwtTGL9jRnVPPTaZ4NHBIBdiWRmHYPdXAtb99AEwXC8&quot;&gt;read the whole thing&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 08 Nov 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/11/08/p1-humans-required-to-train-ai-model/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/11/08/p1-humans-required-to-train-ai-model/</guid>
         
         
       </item>
