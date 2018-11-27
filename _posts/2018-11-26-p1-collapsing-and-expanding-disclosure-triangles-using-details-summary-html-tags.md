@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "HTML tags &lt;details> and &lt;summmary> can be used for expand/collapse with disclosure triangles for 'collapsible HTMK'"
+title: "HTML tags &lt;details> and &lt;summmary> can be used for expand/collapse with disclosure triangles for 'collapsible HTML'"
 ---
 ## Pontifications
 
