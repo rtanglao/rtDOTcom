@@ -6,9 +6,54 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 25 Nov 2018 21:31:26 -0800</pubDate>
-    <lastBuildDate>Sun, 25 Nov 2018 21:31:26 -0800</lastBuildDate>
+    <pubDate>Mon, 26 Nov 2018 21:49:55 -0800</pubDate>
+    <lastBuildDate>Mon, 26 Nov 2018 21:49:55 -0800</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>HTML tags &amp;lt;details&gt; and &amp;lt;summmary&gt; can be used for expand/collapse with disclosure triangles for 'collapsible HTML'</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;following up on &lt;a href=&quot;http://rolandtanglao.com/2018/11/25/p1-checkvist-webapp-for-outlining-good-so-far/&quot;&gt;Checkvist seems like a great omnioutliner on the web cross platform replacment except for html export which doesn&amp;#39;t implement expand and collapse unlike omnioutliner&lt;/a&gt;:
+
+&lt;ul&gt;
+&lt;li&gt;Not sure if this works outside of github, i.e. if i need CSS but the following markdown from &lt;a href=&quot;https://gist.github.com/joyrexus/16041f2426450e73f5df9391f7f7ae5f&quot;&gt;collapsible markdown&lt;/a&gt; works on github&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-md&quot; data-lang=&quot;md&quot;&gt;&lt;span class=&quot;gu&quot;&gt;## collapsible markdown?&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;details&amp;gt;&amp;lt;summary&amp;gt;&lt;/span&gt;CLICK ME&lt;span class=&quot;nt&quot;&gt;&amp;lt;/summary&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;gu&quot;&gt;#### yes, even hidden code blocks!&lt;/span&gt;
+
+&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;python
+print(&quot;hello world!&quot;)
+&lt;span class=&quot;se&quot;&gt;\`\`\`&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;
+
+
+&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/details&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;sounds like I or somebody else could easily (ha! for some definition of easy!) write a script to take checkvist markdown and convert it to &amp;quot;collapsible html&amp;quot;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Other links with potential clues&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/dear-github/dear-github/issues/166&quot;&gt;https://github.com/dear-github/dear-github/issues/166&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/32814161/how-to-make-spoiler-text-in-github-wiki-pages/39920717#39920717&quot;&gt;https://stackoverflow.com/questions/32814161/how-to-make-spoiler-text-in-github-wiki-pages/39920717#39920717&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/31562552/collapsible-header-in-markdown-to-html&quot;&gt;https://stackoverflow.com/questions/31562552/collapsible-header-in-markdown-to-html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 26 Nov 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/11/26/p1-collapsing-and-expanding-disclosure-triangles-using-details-summary-html-tags/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/11/26/p1-collapsing-and-expanding-disclosure-triangles-using-details-summary-html-tags/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Checkvist seems like a great omnioutliner on the web cross platform replacment except for html export which doesn't implement expand and collapse unlike omnioutliner</title>
@@ -276,44 +321,6 @@ yesterday&amp;#39;s post &lt;a href=&quot;http://rolandtanglao.com/2018/11/19/p1
         <pubDate>Thu, 15 Nov 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/11/15/p1-no-surprise-in-ff-desktop-questions/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/11/15/p1-no-surprise-in-ff-desktop-questions/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>John Battelle: Tech must get over itself and solve problems that really matter!</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;In John Battelle&amp;#39;s &lt;a href=&quot;https://shift.newco.co/2018/11/12/tech-must-get-over-its-superman-complex-or-were-all-screwed/&quot;&gt;&amp;quot;Tech Must Get Over Its Superman Complex, Or We’re All Screwed&amp;quot;&lt;/a&gt; says we should solve problems that matter and I agree&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;quot;Witness this nearly idea-free interview with Google CEO Sundar Pichai, also in the Times, where the meticulously media-prepped executive opines on whether his industry has a role to play in society’s ills: “Every generation is worried about the new technology, and feels like this time it’s different. Our parents worried about Elvis Presley’s influence on kids. So, I’m always asking the question, “Why would it be any different this time?” Having said that, I do realize the change that’s happening now is much faster than ever before. My son still doesn’t have a phone.”
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Pichai’s son may not have a phone, but he is earning money mining Ethereum (really, you can’t make this shit up). I’m not sure the son of a centi-millionaire needs to earn money – but it certainly is useful to master the algorithms that will soon control nearly every aspect of human life. So – no, son, no addictive phone for you (even though my company makes them, and makes their operating systems, and makes the apps which ensure their addictive qualities).
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;But mining crypto currency? Absolutely!
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Should Harari be proven right and humanity becomes irrelevant, I’m pretty sure Pichai’s son will have a first class ticket out of whatever mess is left behind. But the rest of us? We should probably focus on making sure that kid never needs to use it.&lt;/p&gt;
-
-&lt;p&gt;&lt;/blockquote&gt;&amp;quot;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Absolutely &lt;a href=&quot;https://shift.newco.co/2018/11/12/tech-must-get-over-its-superman-complex-or-were-all-screwed/&quot;&gt;read the whole thing&lt;/a&gt; and Homo Deus!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 13 Nov 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/11/13/p1-john-batelle-tech-must-get-over-itself/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/11/13/p1-john-batelle-tech-must-get-over-itself/</guid>
         
         
       </item>
