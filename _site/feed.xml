@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 26 Nov 2018 21:49:55 -0800</pubDate>
-    <lastBuildDate>Mon, 26 Nov 2018 21:49:55 -0800</lastBuildDate>
+    <pubDate>Wed, 28 Nov 2018 23:51:00 -0800</pubDate>
+    <lastBuildDate>Wed, 28 Nov 2018 23:51:00 -0800</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Google's Crash Course in Machine Learning with Tensor Flow APIs -- any good?</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://developers.google.com/machine-learning/crash-course/ml-intro&quot;&gt;Google&amp;#39;s Crash Course in Machine Learning with Tensor Flow APIs -- any good?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;comes with examples solved in the cloud no machine with high-end nVidia GPU needed! maybe I should take this course :-) ?&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 28 Nov 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/11/28/p1-google-machine-learning-crash-course/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/11/28/p1-google-machine-learning-crash-course/</guid>
+        
+        
+      </item>
     
       <item>
         <title>HTML tags &amp;lt;details&gt; and &amp;lt;summmary&gt; can be used for expand/collapse with disclosure triangles for 'collapsible HTML'</title>
@@ -292,35 +308,6 @@ yesterday&amp;#39;s post &lt;a href=&quot;http://rolandtanglao.com/2018/11/19/p1
         <pubDate>Sat, 17 Nov 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/11/17/p1-cleaning-the-data-in-the-right-format-for-your-visualiation-tools-is-90-percent-of-the-work/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/11/17/p1-cleaning-the-data-in-the-right-format-for-your-visualiation-tools-is-90-percent-of-the-work/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>No surprise in Firefox Support Questions by Operating System: Windows 10 is dominant, followed by Windows 7; Windows 8, Mac and Linux are used by a minority of Users</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;It&amp;#39;s surprising but not really surprising that folks hold onto Windows 7: they like the non Metro-ness of the interface and/or their hardware is old; and or many other long tail of reasons some of which are valid :-)&lt;/li&gt;
-&lt;li&gt;In my bubble Windows 10 is far superior because of anti-virus and security mainly but hey I can see the reasons why others wouldn&amp;#39;t agree!&lt;/li&gt;
-&lt;li&gt;code for the following OS graphs:
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/12november2018-gauge-plot-ff62.r&quot;&gt;12november2018-gauge-plot-ff62.r&lt;/a&gt; (not sure why it has soooo much white space)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/12november2018-gauge-plot-ff61.r&quot;&gt;12november2018-gauge-plot-ff61.r&lt;/a&gt; (not sure why it has soooo much white space)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;ff61:&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://github.com/rtanglao/rt-kitsune-api/raw/master/VISUALIZATIONS/5x5border-trimmed-ff61-first-3-weeks-operating-system.png&quot; alt=&quot;ff61 first 3 week operating system&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;ff62:&lt;/strong&gt;&lt;br /&gt;
-&lt;img src=&quot;https://github.com/rtanglao/rt-kitsune-api/raw/master/VISUALIZATIONS/5x5border-trimmed-ff62-first-3-weeks-operating-system.png&quot; alt=&quot;ff62 first 3 week operating system&quot;&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 15 Nov 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/11/15/p1-no-surprise-in-ff-desktop-questions/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/11/15/p1-no-surprise-in-ff-desktop-questions/</guid>
         
         
       </item>
