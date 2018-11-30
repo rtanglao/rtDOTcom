@@ -6,9 +6,28 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 28 Nov 2018 23:51:00 -0800</pubDate>
-    <lastBuildDate>Wed, 28 Nov 2018 23:51:00 -0800</lastBuildDate>
+    <pubDate>Fri, 30 Nov 2018 00:03:43 -0800</pubDate>
+    <lastBuildDate>Fri, 30 Nov 2018 00:03:43 -0800</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>checkvist has a nice open api for making expandible/collapsible html from checkvist outlines</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Following up on: &lt;a href=&quot;http://rolandtanglao.com/2018/11/26/p1-collapsing-and-expanding-disclosure-triangles-using-details-summary-html-tags/&quot;&gt;HTML tags &amp;lt;details&amp;gt; and &amp;lt;summmary&amp;gt; can be used for expand/collapse with disclosure triangles for &amp;#39;collapsible HTML&amp;#39;&lt;/a&gt;:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://checkvist.com/auth/api&quot;&gt;checkvist has a nice open api&lt;/a&gt; that can probably be used to convert the outlines faster and better than converting to collapsible html from checkvist&amp;#39;s html or markdown output &lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 29 Nov 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/11/29/p1-checkvist-api-for-collapsible-html/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/11/29/p1-checkvist-api-for-collapsible-html/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Google's Crash Course in Machine Learning with Tensor Flow APIs -- any good?</title>
@@ -272,42 +291,6 @@ yesterday&amp;#39;s post &lt;a href=&quot;http://rolandtanglao.com/2018/11/19/p1
         <pubDate>Sun, 18 Nov 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/11/18/p1-ff63-update-no-surprise-in-ff-desktop-questions/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/11/18/p1-ff63-update-no-surprise-in-ff-desktop-questions/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Cleaning the data to make it work with your data visualization toolkit is 90% of the work; to learn a new plotting technique take the sample code, print out the dataset  and and write your code to you create the identically structured dataset</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;And it&amp;#39;s not fun work but it is rewarding work because then you can easily plot using &lt;code&gt;ggplot2&lt;/code&gt; or whatever you use!&lt;/li&gt;
-&lt;li&gt;In fact it&amp;#39;s not fun but data cleaning is also an act of judgement and analysis because it&amp;#39;s almost always a judgment call as to what an &amp;#39;outlier&amp;#39; is and what outliners to throw out!&lt;/li&gt;
-&lt;li&gt;I&amp;#39;m far from the first to observe this of course :-)&lt;/li&gt;
-&lt;li&gt;And &lt;code&gt;ggplot2&lt;/code&gt; is great fun because you can easily create many many types of graphs with that 1 cleaned dataset with minimal lines of code.&lt;/li&gt;
-&lt;li&gt;An example was the &lt;a href=&quot;http://rolandtanglao.com/2018/11/15/p1-no-surprise-in-ff-desktop-questions/&quot;&gt;previous post on the Operating System graph for Firefox Desktop questions&lt;/a&gt;: e.g.  what is &amp;#39;linux&amp;#39;? should I track every distro? You can see my arbitrary-but-hopefully-mostly-correct choices in &lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/print-csv-os-percentage-group-label-title.rb&quot;&gt;the ruby code to generate the dataset&lt;/a&gt;:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;when&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/^Windows 7/i&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Windows 7&quot;&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;when&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/^Windows 10/i&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Windows 10&quot;&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;when&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/^Windows 8/i&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Windows 8&quot;&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;when&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/^Windows XP/i&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Windows XP&quot;&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;when&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/^Mac OS/i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/^macos/i&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Mac OS&quot;&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;when&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/^Linux/i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/^ubuntu/i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/^centos/i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/^arch/i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/^lfs/i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/^fedora/i&lt;/span&gt; 
-    &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Linux&quot;&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; 
-    &lt;span class=&quot;n&quot;&gt;logger&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;debug&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;SETTING os:&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot; to other&quot;&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Other&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        <pubDate>Sat, 17 Nov 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/11/17/p1-cleaning-the-data-in-the-right-format-for-your-visualiation-tools-is-90-percent-of-the-work/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/11/17/p1-cleaning-the-data-in-the-right-format-for-your-visualiation-tools-is-90-percent-of-the-work/</guid>
         
         
       </item>
