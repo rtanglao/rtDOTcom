@@ -6,9 +6,43 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 30 Nov 2018 00:03:43 -0800</pubDate>
-    <lastBuildDate>Fri, 30 Nov 2018 00:03:43 -0800</lastBuildDate>
+    <pubDate>Fri, 30 Nov 2018 23:39:39 -0800</pubDate>
+    <lastBuildDate>Fri, 30 Nov 2018 23:39:39 -0800</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Feverbee: Accepted Solutions &amp; Featured Answers </title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Read &lt;a href=&quot;https://www.feverbee.com/solutions-answers/&quot;&gt;Feverbee: Accepted Solutions &amp;amp; Featured Answers&lt;/a&gt;! &lt;/li&gt;
+&lt;li&gt;Hmmmm, these three things sounds like great things to measure, maybe we should measure thme in Firefox?!?!?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+&quot;I’d measure and work to improve three things:&lt;br /&gt;&lt;br /&gt;
+
+&quot;1) % of questions with an answer (even explaining there is no known solution helps the member move on).&lt;br /&gt;&lt;br /&gt;
+
+2) % of questions with a ‘featured/best answer’ (set fairly rigid criteria for what qualifies as a ‘featured answer’. This might be it offers something new, something of unique value etc…it might not be the solution, but it’s an answer that offers help.&lt;br /&gt;&lt;br /&gt;
+
+3) Time to get a featured/best answer. The quicker the answer, the better.&lt;br /&gt;&lt;br /&gt;
+&quot;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.feverbee.com/solutions-answers/&quot;&gt;Read the whole thing of course&lt;/a&gt; :-) !&lt;/p&gt;
+</description>
+        <pubDate>Fri, 30 Nov 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/11/30/p1-accepted-solutions-featured-solutions-feverbee/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/11/30/p1-accepted-solutions-featured-solutions-feverbee/</guid>
+        
+        
+      </item>
     
       <item>
         <title>checkvist has a nice open api for making expandible/collapsible html from checkvist outlines</title>
@@ -258,39 +292,6 @@ yesterday&amp;#39;s post &lt;a href=&quot;http://rolandtanglao.com/2018/11/19/p1
         <pubDate>Mon, 19 Nov 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/11/19/p1-firefox-62-63-first-3-weeks-tufte-sparklines-anti-virus-versus-bookmarks/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/11/19/p1-firefox-62-63-first-3-weeks-tufte-sparklines-anti-virus-versus-bookmarks/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Updated with Firefox 63: No surprise in Firefox Support Questions by Operating System: Windows 10 is dominant, followed by Windows 7; Windows 8, Mac and Linux are used by a minority of Users</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Updated &lt;a href=&quot;http://rolandtanglao.com/2018/11/15/p1-no-surprise-in-ff-desktop-questions/&quot;&gt;November 15, 2018 post and added Firefox 63&lt;/a&gt;. No surprises!&lt;/li&gt;
-&lt;li&gt;It&amp;#39;s surprising but not really surprising that folks hold onto Windows 7: they like the non Metro-ness of the interface and/or their hardware is old; and or many other long tail of reasons some of which are valid :-)&lt;/li&gt;
-&lt;li&gt;In my bubble Windows 10 is far superior because of anti-virus and security mainly but hey I can see the reasons why others wouldn&amp;#39;t agree!&lt;/li&gt;
-&lt;li&gt;code for the following OS graphs:
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/12november2018-gauge-plot-ff62.r&quot;&gt;12november2018-gauge-plot-ff62.r&lt;/a&gt; (not sure why it has soooo much white space)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/12november2018-gauge-plot-ff61.r&quot;&gt;12november2018-gauge-plot-ff61.r&lt;/a&gt; (not sure why it has soooo much white space)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;ff61:&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://github.com/rtanglao/rt-kitsune-api/raw/master/VISUALIZATIONS/5x5border-trimmed-ff61-first-3-weeks-operating-system.png&quot; alt=&quot;ff61 first 3 week operating system&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;ff62:&lt;/strong&gt;&lt;br /&gt;
-&lt;img src=&quot;https://github.com/rtanglao/rt-kitsune-api/raw/master/VISUALIZATIONS/5x5border-trimmed-ff62-first-3-weeks-operating-system.png&quot; alt=&quot;ff62 first 3 week operating system&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;ff63:&lt;/strong&gt;&lt;br /&gt;
-&lt;img src=&quot;https://github.com/rtanglao/rt-kitsune-api/raw/master/VISUALIZATIONS/5x5border-trimmed-ff63-first-3-weeks-operating-system.png&quot; alt=&quot;ff63 first 3 week operating system&quot;&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 18 Nov 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/11/18/p1-ff63-update-no-surprise-in-ff-desktop-questions/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/11/18/p1-ff63-update-no-surprise-in-ff-desktop-questions/</guid>
         
         
       </item>
