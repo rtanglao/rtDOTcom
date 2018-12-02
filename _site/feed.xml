@@ -6,9 +6,28 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 30 Nov 2018 23:39:39 -0800</pubDate>
-    <lastBuildDate>Fri, 30 Nov 2018 23:39:39 -0800</lastBuildDate>
+    <pubDate>Sat, 01 Dec 2018 20:20:07 -0800</pubDate>
+    <lastBuildDate>Sat, 01 Dec 2018 20:20:07 -0800</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>Switching to a Chromebook or iPad from Windows or Mac laptop, what would it take?</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Good question :-)&lt;/li&gt;
+&lt;li&gt;I switched to a Surface Book laptop running Windows from OS X and I&amp;#39;m still alive :-) Both now have great Linux / Unix / BSD command lines :-)&lt;/li&gt;
+&lt;li&gt;I guess all I need is a Unix command line that runs R, R Studio, ruby, python and Chromebook has one so I could switch to a Chromebook.&lt;/li&gt;
+&lt;li&gt;Switching to an iPad would be more difficult since there is no built-in Unix command line (but I suppose i could ssh to a server?!? Awkward but many others!&lt;/li&gt;
+&lt;li&gt;It would be nice if Firefox was supported 100% on a Chromebook but I&amp;#39;m not holding my breath. How popular are Chromebooks? Never say never :-)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 01 Dec 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/12/01/p1-switching-to-chromebook-iPad-what-would-it-take/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/12/01/p1-switching-to-chromebook-iPad-what-would-it-take/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Feverbee: Accepted Solutions &amp; Featured Answers </title>
@@ -248,50 +267,6 @@ yesterday&amp;#39;s post &lt;a href=&quot;http://rolandtanglao.com/2018/11/19/p1
         <pubDate>Tue, 20 Nov 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/11/20/p1-ff62-ff63-sparklines-came-from-stackoverflow-sparklines-ggplot2/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/11/20/p1-ff62-ff63-sparklines-came-from-stackoverflow-sparklines-ggplot2/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Firefox 62 and 63 First 3 weeks Tufte Sparklines: anti-virus versus bookmarks</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;There is a bug in &lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/print-daynum-issuetype-issuecount.rb&quot;&gt;print-daynum-issuetype-issuecount.rb&lt;/a&gt;, need to count &amp;quot;anti-virus&amp;quot; as well as &amp;quot;antivirus&amp;quot; and &amp;quot;anti virus&amp;quot; !&lt;/li&gt;
-&lt;li&gt;And I am probably missing some anti-virus &amp;quot;googlewhacks&amp;quot; :_)&lt;/li&gt;
-&lt;li&gt;R code which uses the CSV from &lt;code&gt;print-daynum-issuetype-issuecount.rb&lt;/code&gt;:
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/12november2018-ff62-tufte-sparklines.r&quot;&gt;12november2018-ff62-tufte-sparklines&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/13november2018-ff63-tufte-sparklines.R&quot;&gt;13november2018-ff63-tufte-sparklines.R)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Output&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;observations: bookmarks appears more frequently in FF63 and FF62, need to add in FF 61 and FF 60&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;FF62:&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;graph FF62 using &lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/12november2018-ff62-tufte-sparklines.r&quot;&gt;12november2018-ff62-tufte-sparklines.r&lt;/a&gt; &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://github.com/rtanglao/rt-kitsune-api/raw/master/VISUALIZATIONS/ff62-1st-3-weeks-antivirus-bookmarks-tufte-sparkline.png&quot; alt=&quot;ff62-1st-3-weeks-antivirus-bookmarks-tufte-sparkline.png&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;FF63:&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;graph FF63 using &lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/13november2018-ff63-tufte-sparklines.R&quot;&gt;13november2018-ff63-tufte-sparklines.R&lt;/a&gt; &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://github.com/rtanglao/rt-kitsune-api/raw/master/VISUALIZATIONS/ff63-1st-3-weeks-antivirus-bookmarks-tufte-sparkline.png&quot; alt=&quot;ff63-1st-3-weeks-antivirus-bookmarks-tufte-sparkline.png&quot;&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 19 Nov 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/11/19/p1-firefox-62-63-first-3-weeks-tufte-sparklines-anti-virus-versus-bookmarks/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/11/19/p1-firefox-62-63-first-3-weeks-tufte-sparklines-anti-virus-versus-bookmarks/</guid>
         
         
       </item>
