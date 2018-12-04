@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 01 Dec 2018 20:20:07 -0800</pubDate>
-    <lastBuildDate>Sat, 01 Dec 2018 20:20:07 -0800</lastBuildDate>
+    <pubDate>Mon, 03 Dec 2018 19:21:58 -0800</pubDate>
+    <lastBuildDate>Mon, 03 Dec 2018 19:21:58 -0800</lastBuildDate>
     <generator>Jekyll v3.8.2</generator>
+    
+      <item>
+        <title>In Florida for a Mozilla All Hands, back to blogging on December 9, 2018</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;See you here on December 9!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 03 Dec 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/12/03/p1-out-in-florida-back-at-dec9/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/12/03/p1-out-in-florida-back-at-dec9/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Switching to a Chromebook or iPad from Windows or Mac laptop, what would it take?</title>
@@ -18,7 +33,7 @@
 &lt;li&gt;Good question :-)&lt;/li&gt;
 &lt;li&gt;I switched to a Surface Book laptop running Windows from OS X and I&amp;#39;m still alive :-) Both now have great Linux / Unix / BSD command lines :-)&lt;/li&gt;
 &lt;li&gt;I guess all I need is a Unix command line that runs R, R Studio, ruby, python and Chromebook has one so I could switch to a Chromebook.&lt;/li&gt;
-&lt;li&gt;Switching to an iPad would be more difficult since there is no built-in Unix command line (but I suppose i could ssh to a server?!? Awkward but many others!&lt;/li&gt;
+&lt;li&gt;Switching to an iPad would be more difficult since there is no built-in Unix command line (but I suppose i could ssh to a server?!? Awkward but many others have used iPads that way!&lt;/li&gt;
 &lt;li&gt;It would be nice if Firefox was supported 100% on a Chromebook but I&amp;#39;m not holding my breath. How popular are Chromebooks? Never say never :-)&lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -250,23 +265,6 @@ But that doesn’t mean there’s not a lot of ridiculous hype around the discip
         <pubDate>Thu, 22 Nov 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/11/22/p1-logic-magazine-interview-with-anonymous-data-scientist/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/11/22/p1-logic-magazine-interview-with-anonymous-data-scientist/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>sparklines in ggplot2, the source for: Firefox 62 and 63 First 3 weeks Tufte Sparklines: anti-virus versus bookmarks</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Big respect to Stack Overflow. Although I mock SO&amp;#39;s &amp;quot;Vulcan-like&amp;quot; culture :-) it has amazing answers! Just wish there was less brusqueness!&lt;/li&gt;
-&lt;li&gt;Like &lt;a href=&quot;https://stackoverflow.com/questions/35434760/sparklines-in-ggplot2&quot;&gt;sparklines in ggplot2&lt;/a&gt; which gave me the code for 
-yesterday&amp;#39;s post &lt;a href=&quot;http://rolandtanglao.com/2018/11/19/p1-firefox-62-63-first-3-weeks-tufte-sparklines-anti-virus-versus-bookmarks/&quot;&gt;Firefox 62 and 63 First 3 weeks Tufte Sparklines: anti-virus versus bookmarks&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 20 Nov 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/11/20/p1-ff62-ff63-sparklines-came-from-stackoverflow-sparklines-ggplot2/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/11/20/p1-ff62-ff63-sparklines-came-from-stackoverflow-sparklines-ggplot2/</guid>
         
         
       </item>
