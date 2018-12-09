@@ -5,7 +5,7 @@ title: "Blown away again by Kenneday Space Center"
 ## Pontifications
 
 * Back when i was 10 or 11 or 12 I went to Kennedy Space Center, I went to KSC and was amazed.
-* Went with Mozilla last Tuesday and saw the amazing [Atlantis](https://en.wikipedia.org/wiki/Space_Shuttle_Columbia) and Columbia and [Challenger](https://en.wikipedia.org/wiki/Space_Shuttle_Challenger) tributes.
+* Went with Mozilla last Tuesday and saw the amazing [Atlantis](https://en.wikipedia.org/wiki/Space_Shuttle_Atlantis) and [Columbia](https://en.wikipedia.org/wiki/Space_Shuttle_Columbia) and [Challenger](https://en.wikipedia.org/wiki/Space_Shuttle_Challenger) tributes.
 * Some photos:
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/roland/45474747534/in/dateposted-ff/" title="canadarm"><img src="https://farm5.staticflickr.com/4887/45474747534_b6a99a9198.jpg" width="500" height="375" alt="canadarm"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script><br />
