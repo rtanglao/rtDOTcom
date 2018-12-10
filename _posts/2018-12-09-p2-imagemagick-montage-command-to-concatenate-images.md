@@ -12,7 +12,7 @@ title: "How To: Use imagemagick montage command to concate images"
   * ```-geometry '1023x684+0+0<'``` means 1024 x 768 ? is this a bug? should it be ```768``` instead of ```684```?
   * ```null:``` is a placeholder blank image to pad out the first and last rows 
   
-```bash
+  
 ### 24 squares per day
 1. ```cd /Users/rtanglao/Dropbox/GIT/2016-r-rtgram/JANUARY2016/24SQUARES-PER-DAY```
 2. ```parallel Rscript ../../twenty-four-square-pie-chart-from-csv.R '{}' ::: ../??-january2016-ig-van-avgcolour-id-mf-month-day-daynum-unixtime-hour.csv```
