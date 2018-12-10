@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Blown away again by Kenneday Space Center"
+title: "Blown away again by Kennedy Space Center"
 ---
 ## Pontifications
 
