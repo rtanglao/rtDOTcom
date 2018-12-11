@@ -4,7 +4,7 @@ title: "How I designed my geeky Zazzle T-shirt from Kennedy Space Centre pics"
 ---
 ## Pontifications
 
-* Following up on my [Mozlando 2018 Kennedy Space Center amazement](http://rolandtanglao.com/2018/12/09/p1-blown-away-again-by-kennedy-space-center/), here's how I designed my t-shirt:
+* Following up on my [Mozlando 2018 Kennedy Space Center amazement](http://rolandtanglao.com/2018/12/09/p1-blown-away-again-by-kennedy-space-center/), here's how I designed my t-shirt (tl;dr use imagemagick and kludge the 1.16 to 1 image aspect ratio using preview.app on mac os x; maybe in the future I should crop to 1.16 to 1 each individual image OR do 11 across and 10 down to make it closer to the 1800x2100px ideal ratio for dazzle?):
 
 ### How To make a Dazzle Graphic out out of photos
 

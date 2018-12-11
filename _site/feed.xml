@@ -6,9 +6,77 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 09 Dec 2018 22:33:02 -0500</pubDate>
-    <lastBuildDate>Sun, 09 Dec 2018 22:33:02 -0500</lastBuildDate>
-    <generator>Jekyll v3.8.2</generator>
+    <pubDate>Mon, 10 Dec 2018 17:58:38 -0800</pubDate>
+    <lastBuildDate>Mon, 10 Dec 2018 17:58:38 -0800</lastBuildDate>
+    <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>How I designed my geeky Zazzle T-shirt from Kennedy Space Centre pics</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Following up on my &lt;a href=&quot;http://rolandtanglao.com/2018/12/09/p1-blown-away-again-by-kennedy-space-center/&quot;&gt;Mozlando 2018 Kennedy Space Center amazement&lt;/a&gt;, here&amp;#39;s how I designed my t-shirt (tl;dr use imagemagick and kludge the 1.16 to 1 image aspect ratio using preview.app on mac os x; maybe in the future I should crop to 1.16 to 1 each individual image OR do 11 across and 10 down to make it closer to the 1800x2100px ideal ratio for dazzle?):&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;How To make a Dazzle Graphic out out of photos&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1. resize&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /home/rtanglao/GIT/rt-mozlando2018-ksc/FIFTYPERCENT
+convert &lt;span class=&quot;s1&quot;&gt;'../ORIGINALS/*.jpg'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-resize&lt;/span&gt; 50% &lt;span class=&quot;nt&quot;&gt;-set&lt;/span&gt; filename:area &lt;span class=&quot;s1&quot;&gt;'%wx%h'&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'ksc-%03d-size-%[filename:area].png'&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#originals come from flickr set and i deleted the vertical ones !&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;2. get 120 files&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d1&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$PWD&lt;/span&gt;/&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;head&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-120&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;1st-120files.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;3. make montage in 2100x1800 approx 1.2 to 1
+&lt;code&gt;bash
+montage -verbose -adjoin -tile 12x10 +frame +shadow +label -adjoin -geometry &amp;#39;2304x1728+0+0&amp;lt;&amp;#39; @FIFTYPERCENT/1st-120files.txt mozlando-ksc-12x10.png
+% ls -lh mozlando-ksc-12x10.png
+-rw-rw-rw- 1 rtanglao rtanglao 578M Dec  9 22:54 mozlando-ksc-12x10.png
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;4. the above makes a huge 578M image so try 25%&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /home/rtanglao/GIT/rt-mozlando2018-ksc/TWENTYFIVEPERCENT
+convert &lt;span class=&quot;s1&quot;&gt;'../ORIGINALS/*.jpg'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-resize&lt;/span&gt; 25% &lt;span class=&quot;nt&quot;&gt;-set&lt;/span&gt; filename:area &lt;span class=&quot;s1&quot;&gt;'%wx%h'&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'ksc-%03d-size-%[filename:area].png'&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d1&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$PWD&lt;/span&gt;/&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;head&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-120&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;1st-120files.txt
+&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ..
+montage &lt;span class=&quot;nt&quot;&gt;-verbose&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-tile&lt;/span&gt; 12x10 +frame +shadow +label &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-geometry&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'1152x864+0+0&amp;lt;'&lt;/span&gt; @TWENTYFIVEPERCENT/1st-120files.txt 25percent-mozlando-ksc-12x10.png
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;5. still over 100MB, let&amp;#39;s try 19%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /home/rtanglao/GIT/rt-mozlando2018-ksc/TENPERCENT
+convert &lt;span class=&quot;s1&quot;&gt;'../ORIGINALS/*.jpg'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-resize&lt;/span&gt; 10% &lt;span class=&quot;nt&quot;&gt;-set&lt;/span&gt; filename:area &lt;span class=&quot;s1&quot;&gt;'%wx%h'&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'ksc-%03d-size-%[filename:area].png'&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d1&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$PWD&lt;/span&gt;/&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;head&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-120&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;1st-120files.txt
+&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ..
+montage &lt;span class=&quot;nt&quot;&gt;-verbose&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-tile&lt;/span&gt; 12x10 +frame +shadow +label &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-geometry&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'461x346+0+0&amp;lt;'&lt;/span&gt; @TENPERCENT/1st-120files.txt ten-percent-mozlando-ksc-12x10.png
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;6. 12x10 seems to be wrong, let&amp;#39;s try 10x12&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;montage &lt;span class=&quot;nt&quot;&gt;-verbose&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-tile&lt;/span&gt; 10x12 +frame +shadow +label &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-geometry&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'461x346+0+0&amp;lt;'&lt;/span&gt; @TENPERCENT/1st-120files.txt ten-percent-mozlando-ksc-10x12.png
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;7. resized graphic in preview.app on OS X to &lt;strong&gt;1800x2100 300dpi&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;8. order your #Mozlando2018 Kennedy Space Center tshirt here :-) :&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.zazzle.com/z/16oru?rf=238729664665771966&quot;&gt;www.zazzle.com/z/16oru?rf=238729664665771966&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Output&lt;/h3&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/45537349384/in/datetaken-ff/&quot; title=&quot;For Zazzle Tshirt - distorted :-) in previw to 1800x2100 300dpi 1800x2100-ten-percent-mozlando-ksc-10x12&quot;&gt;&lt;img src=&quot;https://farm5.staticflickr.com/4858/45537349384_ff274fb60d_z.jpg&quot; width=&quot;549&quot; height=&quot;640&quot; alt=&quot;For Zazzle Tshirt - distorted :-) in previw to 1800x2100 300dpi 1800x2100-ten-percent-mozlando-ksc-10x12&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 10 Dec 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/12/10/p1-kennedy-space-center-tshirt-howto/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/12/10/p1-kennedy-space-center-tshirt-howto/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How To: Use imagemagick montage command to concate images</title>
@@ -43,7 +111,7 @@
 
 &lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/29008995333/in/dateposted-ff/&quot; title=&quot;ig-van-2016-one-top-colour-square-per-hour-01-31january2016-square-piechart&quot;&gt;&lt;img src=&quot;https://c6.staticflickr.com/9/8139/29008995333_1881d310f8.jpg&quot; width=&quot;500&quot; height=&quot;287&quot; alt=&quot;ig-van-2016-one-top-colour-square-per-hour-01-31january2016-square-piechart&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sun, 09 Dec 2018 00:00:00 -0500</pubDate>
+        <pubDate>Sun, 09 Dec 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/12/09/p2-imagemagick-montage-command-to-concatenate-images/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/12/09/p2-imagemagick-montage-command-to-concatenate-images/</guid>
         
@@ -68,7 +136,7 @@
 
 &lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/31259429817/in/dateposted-ff/&quot; title=&quot;Untitled&quot;&gt;&lt;img src=&quot;https://farm5.staticflickr.com/4803/31259429817_87d6f4ecff.jpg&quot; width=&quot;500&quot; height=&quot;375&quot; alt=&quot;Untitled&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sun, 09 Dec 2018 00:00:00 -0500</pubDate>
+        <pubDate>Sun, 09 Dec 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/12/09/p1-blown-away-again-by-kennedy-space-center/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/12/09/p1-blown-away-again-by-kennedy-space-center/</guid>
         
@@ -83,7 +151,7 @@
 &lt;li&gt;See you here on December 9!&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Mon, 03 Dec 2018 00:00:00 -0500</pubDate>
+        <pubDate>Mon, 03 Dec 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/12/03/p1-out-in-florida-back-at-dec9/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/12/03/p1-out-in-florida-back-at-dec9/</guid>
         
@@ -102,7 +170,7 @@
 &lt;li&gt;It would be nice if Firefox was supported 100% on a Chromebook but I&amp;#39;m not holding my breath. How popular are Chromebooks? Never say never :-)&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Sat, 01 Dec 2018 00:00:00 -0500</pubDate>
+        <pubDate>Sat, 01 Dec 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/12/01/p1-switching-to-chromebook-iPad-what-would-it-take/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/12/01/p1-switching-to-chromebook-iPad-what-would-it-take/</guid>
         
@@ -136,7 +204,7 @@
 
 &lt;p&gt;&lt;a href=&quot;https://www.feverbee.com/solutions-answers/&quot;&gt;Read the whole thing of course&lt;/a&gt; :-) !&lt;/p&gt;
 </description>
-        <pubDate>Fri, 30 Nov 2018 00:00:00 -0500</pubDate>
+        <pubDate>Fri, 30 Nov 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/11/30/p1-accepted-solutions-featured-solutions-feverbee/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/11/30/p1-accepted-solutions-featured-solutions-feverbee/</guid>
         
@@ -155,7 +223,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Thu, 29 Nov 2018 00:00:00 -0500</pubDate>
+        <pubDate>Thu, 29 Nov 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/11/29/p1-checkvist-api-for-collapsible-html/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/11/29/p1-checkvist-api-for-collapsible-html/</guid>
         
@@ -171,7 +239,7 @@
 &lt;li&gt;comes with examples solved in the cloud no machine with high-end nVidia GPU needed! maybe I should take this course :-) ?&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Wed, 28 Nov 2018 00:00:00 -0500</pubDate>
+        <pubDate>Wed, 28 Nov 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/11/28/p1-google-machine-learning-crash-course/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/11/28/p1-google-machine-learning-crash-course/</guid>
         
@@ -216,7 +284,7 @@ print(&quot;hello world!&quot;)
 &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/31562552/collapsible-header-in-markdown-to-html&quot;&gt;https://stackoverflow.com/questions/31562552/collapsible-header-in-markdown-to-html&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Mon, 26 Nov 2018 00:00:00 -0500</pubDate>
+        <pubDate>Mon, 26 Nov 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/11/26/p1-collapsing-and-expanding-disclosure-triangles-using-details-summary-html-tags/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/11/26/p1-collapsing-and-expanding-disclosure-triangles-using-details-summary-html-tags/</guid>
         
@@ -238,40 +306,9 @@ print(&quot;hello world!&quot;)
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Sun, 25 Nov 2018 00:00:00 -0500</pubDate>
+        <pubDate>Sun, 25 Nov 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/11/25/p1-checkvist-webapp-for-outlining-good-so-far/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/11/25/p1-checkvist-webapp-for-outlining-good-so-far/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>1990 not 1990 :-) Justin Falcone: The Origin of HyperCard in the Breakdown of the Bicycle for the Mind</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Read &lt;a href=&quot;https://medium.com/@modernserf/the-origin-of-hypercard-in-the-breakdown-of-the-bicycle-for-the-mind-8d0f3287e561&quot;&gt;1990 not 1990 :-) Justin Falcone: The Origin of HyperCard in the Breakdown of the Bicycle for the Mind&lt;/a&gt;! &lt;/li&gt;
-&lt;li&gt;It&amp;#39;s not too late to take the correct fork in this road methinks :-)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-
-&quot;Technological inequality doesn’t require a conspiracy against free software. I don’t know about you, but I can imagine a world where the whole tech industry is built on top of free and open source software, and yet anticompetitive practices, institutional prejudices, a culture of credentialism, the venture capital bubble, and the idea that tech workers need to live in the most expensive cities in the country are still endemic issues. I can imagine a world in which computers are a thousand times more powerful than they are today, and nearly everyone has the equipment to create hypermedia-powered software that we couldn’t even imagine now, but the tools are so arcane that next to nobody has the ability to use them. And in my darkest moments, I can imagine a 2015 in which everyone is constantly connected to a global network of computers, but the whole system is designed to show us ads and spy on us.&lt;br /&gt;&lt;br /&gt;
-
-...&lt;br /&gt;&lt;br /&gt;
-
-I’ve presented you two visions of 2015 — one in which we use a global hypermedia system to increase human understanding, and one in which we use it to shackle ourselves to the commercial software industry. The basic&quot;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://medium.com/@modernserf/the-origin-of-hypercard-in-the-breakdown-of-the-bicycle-for-the-mind-8d0f3287e561&quot;&gt;Read the whole thing of course&lt;/a&gt; :-) !&lt;/p&gt;
-</description>
-        <pubDate>Sat, 24 Nov 2018 00:00:00 -0500</pubDate>
-        <link>http://rolandtanglao.com/2018/11/24/p1-1990-not-1990/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/11/24/p1-1990-not-1990/</guid>
         
         
       </item>
