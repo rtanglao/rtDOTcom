@@ -6,8 +6,8 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 10 Dec 2018 17:58:38 -0800</pubDate>
-    <lastBuildDate>Mon, 10 Dec 2018 17:58:38 -0800</lastBuildDate>
+    <pubDate>Mon, 10 Dec 2018 18:07:34 -0800</pubDate>
+    <lastBuildDate>Mon, 10 Dec 2018 18:07:34 -0800</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
@@ -15,7 +15,7 @@
         <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Following up on my &lt;a href=&quot;http://rolandtanglao.com/2018/12/09/p1-blown-away-again-by-kennedy-space-center/&quot;&gt;Mozlando 2018 Kennedy Space Center amazement&lt;/a&gt;, here&amp;#39;s how I designed my t-shirt (tl;dr use imagemagick and kludge the 1.16 to 1 image aspect ratio using preview.app on mac os x; maybe in the future I should crop to 1.16 to 1 each individual image OR do 11 across and 10 down to make it closer to the 1800x2100px ideal ratio for dazzle?):&lt;/li&gt;
+&lt;li&gt;Following up on my &lt;a href=&quot;http://rolandtanglao.com/2018/12/09/p1-blown-away-again-by-kennedy-space-center/&quot;&gt;Mozlando 2018 Kennedy Space Center amazement&lt;/a&gt;, here&amp;#39;s how I designed my t-shirt (tl;dr use &lt;a href=&quot;https://www.flickr.com/photos/roland/albums/72157704451096864&quot;&gt;this flickr set&lt;/a&gt; and then imagemagick and kludge the 1.16 to 1 image aspect ratio using preview.app on mac os x; maybe in the future I should crop to 1.16 to 1 each individual image OR do 11 across and 10 down to make it closer to the 1800x2100px ideal ratio for dazzle?):&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3&gt;How To make a Dazzle Graphic out out of photos&lt;/h3&gt;
