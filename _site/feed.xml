@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 10 Dec 2018 18:07:34 -0800</pubDate>
-    <lastBuildDate>Mon, 10 Dec 2018 18:07:34 -0800</lastBuildDate>
+    <pubDate>Tue, 11 Dec 2018 22:50:40 -0800</pubDate>
+    <lastBuildDate>Tue, 11 Dec 2018 22:50:40 -0800</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>The Effects of Group Size and Time on the Formation of Online Communities: Evidence From Reddit</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Via &lt;a href=&quot;https://www.feverbee.com/read-this/&quot;&gt;FeverBee&lt;/a&gt;: &lt;a href=&quot;https://journals.sagepub.com/doi/pdf/10.1177/2056305118815908&quot;&gt;The Effects of Group Size and Time on the Formation of Online Communities: Evidence From Reddit&lt;/a&gt; sounds like a must read!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 11 Dec 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/12/11/p1-effects-group-size-time-formation-community-reddit/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/12/11/p1-effects-group-size-time-formation-community-reddit/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How I designed my geeky Zazzle T-shirt from Kennedy Space Centre pics</title>
@@ -287,28 +302,6 @@ print(&quot;hello world!&quot;)
         <pubDate>Mon, 26 Nov 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/11/26/p1-collapsing-and-expanding-disclosure-triangles-using-details-summary-html-tags/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/11/26/p1-collapsing-and-expanding-disclosure-triangles-using-details-summary-html-tags/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Checkvist seems like a great omnioutliner on the web cross platform replacment except for html export which doesn't implement expand and collapse unlike omnioutliner</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;As per: &lt;a href=&quot;http://rolandtanglao.com/2018/11/05/p1-omni-outliner-for-windows/&quot;&gt;Looking for recommendations: OmniOutliner for Windows or as a cross platform webapp? Checkvist seems close!&lt;/a&gt; I&amp;#39;ve been trying out Checkvist for the last week i.e. &lt;a href=&quot;https://checkvist.com/checklists/695874&quot;&gt;Week 3 of My Firefox 63 desktop SUMO forum report&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;So far so good except for html export which doesn&amp;#39;t implement expand and collapse &amp;quot;disclosure triangles&amp;quot; unlike omnioutliner!
-
-&lt;ul&gt;
-&lt;li&gt;Hope lives on, maybe somebody can write or has written a markdown to disclosure triangle HTML script or some such :-)&lt;/li&gt;
-&lt;li&gt;or maybe I&amp;#39;ll write the script (unlikely :-) !)&lt;/li&gt;
-&lt;li&gt;or maybe somebody has done one for markdown?!?&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 25 Nov 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/11/25/p1-checkvist-webapp-for-outlining-good-so-far/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/11/25/p1-checkvist-webapp-for-outlining-good-so-far/</guid>
         
         
       </item>
