@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 11 Dec 2018 22:50:40 -0800</pubDate>
-    <lastBuildDate>Tue, 11 Dec 2018 22:50:40 -0800</lastBuildDate>
+    <pubDate>Wed, 12 Dec 2018 22:51:26 -0800</pubDate>
+    <lastBuildDate>Wed, 12 Dec 2018 22:51:26 -0800</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>For the record, Naz re-installed Windows 10 today on the second Surface Book 2, fingers crossed</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;For the record :-), Naz re-installed Windows 10 today December 12, 2018 on the &lt;a href=&quot;http://rolandtanglao.com/2018/06/19/p1-no-wifi-usb-issues-after-2-weeks/&quot;&gt;second Surface Book 2&lt;/a&gt; (which has been crashing with a &lt;a href=&quot;https://www.flickr.com/photos/roland/46139281902/&quot;&gt;system thread exception issue&lt;/a&gt; since last Thursday), fingers crossed this fixes the random crashes!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 12 Dec 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/12/12/p1-surface-book2-2nd-copy-naz-reinstalled-windows10/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/12/12/p1-surface-book2-2nd-copy-naz-reinstalled-windows10/</guid>
+        
+        
+      </item>
     
       <item>
         <title>The Effects of Group Size and Time on the Formation of Online Communities: Evidence From Reddit</title>
@@ -257,51 +272,6 @@ montage &lt;span class=&quot;nt&quot;&gt;-verbose&lt;/span&gt; &lt;span class=&q
         <pubDate>Wed, 28 Nov 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/11/28/p1-google-machine-learning-crash-course/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/11/28/p1-google-machine-learning-crash-course/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>HTML tags &amp;lt;details&gt; and &amp;lt;summmary&gt; can be used for expand/collapse with disclosure triangles for 'collapsible HTML'</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;following up on &lt;a href=&quot;http://rolandtanglao.com/2018/11/25/p1-checkvist-webapp-for-outlining-good-so-far/&quot;&gt;Checkvist seems like a great omnioutliner on the web cross platform replacment except for html export which doesn&amp;#39;t implement expand and collapse unlike omnioutliner&lt;/a&gt;:
-
-&lt;ul&gt;
-&lt;li&gt;Not sure if this works outside of github, i.e. if i need CSS but the following markdown from &lt;a href=&quot;https://gist.github.com/joyrexus/16041f2426450e73f5df9391f7f7ae5f&quot;&gt;collapsible markdown&lt;/a&gt; works on github&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-md&quot; data-lang=&quot;md&quot;&gt;&lt;span class=&quot;gu&quot;&gt;## collapsible markdown?&lt;/span&gt;
-
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;details&amp;gt;&amp;lt;summary&amp;gt;&lt;/span&gt;CLICK ME&lt;span class=&quot;nt&quot;&gt;&amp;lt;/summary&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;
-
-&lt;span class=&quot;gu&quot;&gt;#### yes, even hidden code blocks!&lt;/span&gt;
-
-&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;python
-print(&quot;hello world!&quot;)
-&lt;span class=&quot;se&quot;&gt;\`\`\`&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;
-
-
-&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/details&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;sounds like I or somebody else could easily (ha! for some definition of easy!) write a script to take checkvist markdown and convert it to &amp;quot;collapsible html&amp;quot;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Other links with potential clues&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/dear-github/dear-github/issues/166&quot;&gt;https://github.com/dear-github/dear-github/issues/166&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/32814161/how-to-make-spoiler-text-in-github-wiki-pages/39920717#39920717&quot;&gt;https://stackoverflow.com/questions/32814161/how-to-make-spoiler-text-in-github-wiki-pages/39920717#39920717&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/31562552/collapsible-header-in-markdown-to-html&quot;&gt;https://stackoverflow.com/questions/31562552/collapsible-header-in-markdown-to-html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 26 Nov 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/11/26/p1-collapsing-and-expanding-disclosure-triangles-using-details-summary-html-tags/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/11/26/p1-collapsing-and-expanding-disclosure-triangles-using-details-summary-html-tags/</guid>
         
         
       </item>
