@@ -6,9 +6,27 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 14 Dec 2018 07:42:11 -0800</pubDate>
-    <lastBuildDate>Fri, 14 Dec 2018 07:42:11 -0800</lastBuildDate>
+    <pubDate>Sat, 15 Dec 2018 23:30:52 -0800</pubDate>
+    <lastBuildDate>Sat, 15 Dec 2018 23:30:52 -0800</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Grateful that I have the time,money and health to cross-country ski</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Grateful that I have the time,money and health to cross-country ski! First ski of the day with 6 lovely five and six year old &lt;a href=&quot;http://www.hollyburnxc.ca/&quot;&gt;Hollyburn XC&lt;/a&gt; kids I am coaching.&lt;/li&gt;
+&lt;li&gt;What does global climate change have in store for Cypress?&lt;/li&gt;
+&lt;li&gt;I don&amp;#39;t know but enjoy it while you can and work to reverse it!
+&lt;iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/2018810841/embed/08fbba87cfec3e8f49ba99a4cbc74e8e5c63051c'&gt;&lt;/iframe&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 15 Dec 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/12/15/p1-grateful-to-be-able-to-cross-country-ski/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/12/15/p1-grateful-to-be-able-to-cross-country-ski/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Andy Abramson on Nokia Blogger Relations: The Age of Influence Online</title>
@@ -263,25 +281,6 @@ montage &lt;span class=&quot;nt&quot;&gt;-verbose&lt;/span&gt; &lt;span class=&q
         <pubDate>Fri, 30 Nov 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/11/30/p1-accepted-solutions-featured-solutions-feverbee/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/11/30/p1-accepted-solutions-featured-solutions-feverbee/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>checkvist has a nice open api for making expandible/collapsible html from checkvist outlines</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Following up on: &lt;a href=&quot;http://rolandtanglao.com/2018/11/26/p1-collapsing-and-expanding-disclosure-triangles-using-details-summary-html-tags/&quot;&gt;HTML tags &amp;lt;details&amp;gt; and &amp;lt;summmary&amp;gt; can be used for expand/collapse with disclosure triangles for &amp;#39;collapsible HTML&amp;#39;&lt;/a&gt;:
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://checkvist.com/auth/api&quot;&gt;checkvist has a nice open api&lt;/a&gt; that can probably be used to convert the outlines faster and better than converting to collapsible html from checkvist&amp;#39;s html or markdown output &lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 29 Nov 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/11/29/p1-checkvist-api-for-collapsible-html/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/11/29/p1-checkvist-api-for-collapsible-html/</guid>
         
         
       </item>
