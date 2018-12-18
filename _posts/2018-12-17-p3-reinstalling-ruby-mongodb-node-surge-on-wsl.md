@@ -1,5 +1,5 @@
 ---
-layout:post
+layout: post
 title: "Re-installing latest ruby, mongodb, node, surge, jekyll on WSL"
 ---
 # 17december2018 install mongodb 4.0.4
