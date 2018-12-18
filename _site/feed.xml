@@ -6,8 +6,8 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 17 Dec 2018 20:03:02 -0800</pubDate>
-    <lastBuildDate>Mon, 17 Dec 2018 20:03:02 -0800</lastBuildDate>
+    <pubDate>Tue, 18 Dec 2018 07:35:50 -0800</pubDate>
+    <lastBuildDate>Tue, 18 Dec 2018 07:35:50 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -15,7 +15,7 @@
         <description>&lt;h1&gt;17december2018 install mongodb 4.0.4&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/#install-the-mongodb-packages&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/#install-the-mongodb-packages&quot;&gt;https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/#install-the-mongodb-packages&lt;/a&gt; &lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-key adv &lt;span class=&quot;nt&quot;&gt;--keyserver&lt;/span&gt; hkp://keyserver.ubuntu.com:80 &lt;span class=&quot;nt&quot;&gt;--recv&lt;/span&gt; 9DA31620334BD75D9DCB49F368818C72E52529D4
 &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.0 multiverse&quot;&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;sudo tee&lt;/span&gt; /etc/apt/sources.list.d/mongodb-org-4.0.list
@@ -30,7 +30,7 @@
 &lt;h1&gt;17december2018 add exclusion for Windows Defender&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;https://medium.com/@leandrw/speeding-up-wsl-i-o-up-than-5x-fast-saving-a-lot-of-battery-life-cpu-usage-c3537dd03c74&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@leandrw/speeding-up-wsl-i-o-up-than-5x-fast-saving-a-lot-of-battery-life-cpu-usage-c3537dd03c74&quot;&gt;https://medium.com/@leandrw/speeding-up-wsl-i-o-up-than-5x-fast-saving-a-lot-of-battery-life-cpu-usage-c3537dd03c74&lt;/a&gt; &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1&gt;17december2018 after re-install of Windows 10, install ruby 2.5.3&lt;/h1&gt;

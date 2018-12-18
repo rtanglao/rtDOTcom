@@ -4,7 +4,7 @@ title: "Re-installing latest ruby, mongodb, node, surge, jekyll on WSL"
 ---
 # 17december2018 install mongodb 4.0.4
 
-* https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/#install-the-mongodb-packages
+* [https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/#install-the-mongodb-packages](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/#install-the-mongodb-packages) 
 
 ```bash
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4
@@ -22,7 +22,7 @@ sudo npm install --global surge
 ```
 # 17december2018 add exclusion for Windows Defender
 
-* https://medium.com/@leandrw/speeding-up-wsl-i-o-up-than-5x-fast-saving-a-lot-of-battery-life-cpu-usage-c3537dd03c74
+* [https://medium.com/@leandrw/speeding-up-wsl-i-o-up-than-5x-fast-saving-a-lot-of-battery-life-cpu-usage-c3537dd03c74](https://medium.com/@leandrw/speeding-up-wsl-i-o-up-than-5x-fast-saving-a-lot-of-battery-life-cpu-usage-c3537dd03c74) 
 
 
 # 17december2018 after re-install of Windows 10, install ruby 2.5.3
