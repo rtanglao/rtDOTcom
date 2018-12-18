@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Part 2B Got NLTK working with Firefox 55 SUMO support questions! Now what? Sentiment?</title>
+    <title>Re-installing latest ruby, mongodb, node, surge, jekyll on WSL</title>
     <meta name="description" content="flickr.com/roland, twitter.com/rtanglao #firefox #thunderbird
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2018/01/28/p1-part2b-got-nltk-working-with-firefox-55-questions-now-what/">
+    <link rel="canonical" href="http://rolandtanglao.com/2018/12/17/p3-reinstalling-ruby-mongodb-node-surge-on-wsl/">
 </head>
 
 
@@ -57,35 +57,49 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Part 2B Got NLTK working with Firefox 55 SUMO support questions! Now what? Sentiment?</h1>
-    <p class="post-meta">Jan 28, 2018</p>
+    <h1 class="post-title">Re-installing latest ruby, mongodb, node, surge, jekyll on WSL</h1>
+    <p class="post-meta">Dec 17, 2018</p>
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
-
-<p>See <a href="http://rolandtanglao.com/2018/01/26/p1-part2a-get-firefox55-first-3weeks-words-in-preparation-for-nltk-ngram-analysis/">Part 2A Get Firefox 55 first 3weeks&#39; words in preparation for NLTK -ngram-analysis</a></p>
+    <h1>17december2018 install mongodb 4.0.4</h1>
 
 <ul>
-<li>1. Here&#39;s how I invoked the code:</li>
+<li>https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/#install-the-mongodb-packages</li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">python/print-ngram-from-file.py ff55.08August2017.28august2017.1st.3weeks.title.content.txt
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">sudo </span>apt-key adv <span class="nt">--keyserver</span> hkp://keyserver.ubuntu.com:80 <span class="nt">--recv</span> 9DA31620334BD75D9DCB49F368818C72E52529D4
+<span class="nb">echo</span> <span class="s2">"deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.0 multiverse"</span> | <span class="nb">sudo tee</span> /etc/apt/sources.list.d/mongodb-org-4.0.list
+<span class="nb">sudo </span>apt-get update
+<span class="nb">sudo </span>apt-get <span class="nb">install</span> <span class="nt">-y</span> mongodb-org
 </code></pre></div>
+<h1>17december2018 install node and surge</h1>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">curl <span class="nt">-sL</span> https://deb.nodesource.com/setup_11.x | <span class="nb">sudo</span> <span class="nt">-E</span> bash -
+<span class="nb">sudo </span>apt-get <span class="nb">install</span> <span class="nt">-y</span> nodejs
+<span class="nb">sudo </span>npm <span class="nb">install</span> <span class="nt">--global</span> surge
+</code></pre></div>
+<h1>17december2018 add exclusion for Windows Defender</h1>
+
 <ul>
-<li>2. Here&#39;s the code, <a href="https://github.com/rtanglao/sumo-questions/blob/master/python/print-ngram-from-file.py">print-ngram-from-file.py</a></li>
+<li>https://medium.com/@leandrw/speeding-up-wsl-i-o-up-than-5x-fast-saving-a-lot-of-battery-life-cpu-usage-c3537dd03c74</li>
 </ul>
-<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="c1">#!/usr/local/bin/python3
-</span><span class="kn">import</span> <span class="nn">nltk</span><span class="p">,</span> <span class="n">re</span><span class="p">,</span> <span class="n">pprint</span>
-<span class="kn">from</span> <span class="nn">nltk</span> <span class="kn">import</span> <span class="n">word_tokenize</span>
-<span class="kn">from</span> <span class="nn">nltk</span> <span class="kn">import</span> <span class="n">bigrams</span><span class="p">,</span> <span class="n">trigrams</span>
-<span class="kn">import</span> <span class="nn">fileinput</span>
-<span class="n">raw</span> <span class="o">=</span> <span class="s">""</span>
-<span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">fileinput</span><span class="o">.</span><span class="nb">input</span><span class="p">():</span>
-    <span class="n">raw</span> <span class="o">+=</span> <span class="n">line</span><span class="o">.</span><span class="n">rstrip</span><span class="p">()</span>
-    <span class="n">raw</span> <span class="o">+=</span> <span class="s">' '</span>
-<span class="n">tokens</span> <span class="o">=</span> <span class="n">word_tokenize</span><span class="p">(</span><span class="n">raw</span><span class="p">)</span>
-<span class="n">tokens_bigrams</span> <span class="o">=</span> <span class="n">bigrams</span><span class="p">(</span><span class="n">tokens</span><span class="p">)</span>
-<span class="k">print</span> <span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">tokens_bigrams</span><span class="p">))</span>
+
+<h1>17december2018 after re-install of Windows 10, install ruby 2.5.3</h1>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">sudo </span>apt-get update
+<span class="nb">sudo </span>apt-get <span class="nb">install </span>build-essential
+<span class="nb">cd
+</span>wget http://ftp.ruby-lang.org/pub/ruby/2.5/ruby-2.5.3.tar.gz
+<span class="nb">tar</span> <span class="nt">-xzvf</span> ruby-2.5.3.tar.gz
+<span class="nb">cd </span>ruby-2.5.3/
+<span class="nb">sudo </span>apt-get <span class="nb">install </span>zlib1g-dev
+<span class="nb">sudo </span>apt-get update <span class="nt">-y</span> <span class="o">&amp;&amp;</span> <span class="nb">sudo </span>apt-get upgrade <span class="nt">-y</span>
+<span class="nb">sudo </span>apt-get <span class="nb">install </span>libssl-dev
+./configure
+make
+<span class="nb">sudo </span>make <span class="nb">install
+</span>ruby <span class="nt">-v</span>
+<span class="nb">sudo </span>gem update <span class="nt">--system</span>
+<span class="nb">sudo </span>gem <span class="nb">install </span>jekyll bundler
+<span class="nb">sudo </span>gem <span class="nb">install </span>redcarpet
 </code></pre></div>
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
