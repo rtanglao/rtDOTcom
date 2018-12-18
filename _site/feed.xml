@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 17 Dec 2018 17:49:20 -0800</pubDate>
-    <lastBuildDate>Mon, 17 Dec 2018 17:49:20 -0800</lastBuildDate>
+    <pubDate>Mon, 17 Dec 2018 17:53:51 -0800</pubDate>
+    <lastBuildDate>Mon, 17 Dec 2018 17:53:51 -0800</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Windows 10 hasn't crashed since Naz reinstalled it on December 12, 2018</title>
+        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2018/12/12/p1-surface-book2-2nd-copy-naz-reinstalled-windows10/&quot;&gt;Windows 10 hasn&amp;#39;t crashed since Naz reinstalled it on December 12, 2018&lt;/a&gt;, yay!&lt;/li&gt;
+&lt;li&gt;Maybe it was due to some sort of driver or insider build?!?&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 17 Dec 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/12/17/p2-surface-book2-windows-10-has-not-crashed/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/12/17/p2-surface-book2-windows-10-has-not-crashed/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How to rotate videos with ffmpeg</title>
@@ -247,25 +263,6 @@ montage &lt;span class=&quot;nt&quot;&gt;-verbose&lt;/span&gt; &lt;span class=&q
         <pubDate>Mon, 03 Dec 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/12/03/p1-out-in-florida-back-at-dec9/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/12/03/p1-out-in-florida-back-at-dec9/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Switching to a Chromebook or iPad from Windows or Mac laptop, what would it take?</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Good question :-)&lt;/li&gt;
-&lt;li&gt;I switched to a Surface Book laptop running Windows from OS X and I&amp;#39;m still alive :-) Both now have great Linux / Unix / BSD command lines :-)&lt;/li&gt;
-&lt;li&gt;I guess all I need is a Unix command line that runs R, R Studio, ruby, python and Chromebook has one so I could switch to a Chromebook.&lt;/li&gt;
-&lt;li&gt;Switching to an iPad would be more difficult since there is no built-in Unix command line (but I suppose i could ssh to a server?!? Awkward but many others have used iPads that way!&lt;/li&gt;
-&lt;li&gt;It would be nice if Firefox was supported 100% on a Chromebook but I&amp;#39;m not holding my breath. How popular are Chromebooks? Never say never :-)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 01 Dec 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/12/01/p1-switching-to-chromebook-iPad-what-would-it-take/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/12/01/p1-switching-to-chromebook-iPad-what-would-it-take/</guid>
         
         
       </item>
