@@ -6,9 +6,29 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 18 Dec 2018 07:35:50 -0800</pubDate>
-    <lastBuildDate>Tue, 18 Dec 2018 07:35:50 -0800</lastBuildDate>
+    <pubDate>Wed, 19 Dec 2018 11:09:42 -0800</pubDate>
+    <lastBuildDate>Wed, 19 Dec 2018 11:09:42 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Mac-&gt;Windows-&gt;Mac-&gt;Windows Lessons: rely on Linux/Posix, version control everything, store everything in the cloud </title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I switched repeatedly! First because I wanted to try Windows 10 on a Microsoft laptop.&lt;/li&gt;
+&lt;li&gt;And then back to the Mac because the Surface Book 2 had WiFi problems&lt;/li&gt;
+&lt;li&gt;And then to the new refurbished Surface Book 2&lt;/li&gt;
+&lt;li&gt;And then back to the Mac because of thread exception issues on the Surface Book 2&lt;/li&gt;
+&lt;li&gt;And then back to the Surface Book 2 after re-installing Windows 10&lt;/li&gt;
+&lt;li&gt;And the switch is actually quite easy if you don&amp;#39;t rely on platform specific stuff but instead rely on Linux/OS X/Posix stuff that you can get on Windows and Mac and Linux today, store everything extra in version control like git and in the cloud like github!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 19 Dec 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/12/19/p1-version-control-everything-store-in-cloud-use-linux/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/12/19/p1-version-control-everything-store-in-cloud-use-linux/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Re-installing latest ruby, mongodb, node, surge, jekyll on WSL</title>
@@ -271,31 +291,6 @@ montage &lt;span class=&quot;nt&quot;&gt;-verbose&lt;/span&gt; &lt;span class=&q
         <pubDate>Sun, 09 Dec 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/12/09/p2-imagemagick-montage-command-to-concatenate-images/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/12/09/p2-imagemagick-montage-command-to-concatenate-images/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Blown away again by Kennedy Space Center</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Back when i was 10 or 11 or 12 I went to Kennedy Space Center, I went to KSC and was amazed.&lt;/li&gt;
-&lt;li&gt;Went with Mozilla last Tuesday and saw the amazing &lt;a href=&quot;https://en.wikipedia.org/wiki/Space_Shuttle_Atlantis&quot;&gt;Atlantis&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Space_Shuttle_Columbia&quot;&gt;Columbia&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Space_Shuttle_Challenger&quot;&gt;Challenger&lt;/a&gt; tributes.&lt;/li&gt;
-&lt;li&gt;Some photos:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/45474747534/in/dateposted-ff/&quot; title=&quot;canadarm&quot;&gt;&lt;img src=&quot;https://farm5.staticflickr.com/4887/45474747534_b6a99a9198.jpg&quot; width=&quot;500&quot; height=&quot;375&quot; alt=&quot;canadarm&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/32326743638/in/dateposted-ff/&quot; title=&quot;atlantis&quot;&gt;&lt;img src=&quot;https://farm5.staticflickr.com/4854/32326743638_92576c071f.jpg&quot; width=&quot;500&quot; height=&quot;375&quot; alt=&quot;atlantis&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/45286084195/in/dateposted-ff/&quot; title=&quot;columbia&quot;&gt;&lt;img src=&quot;https://farm5.staticflickr.com/4910/45286084195_dcf03848ac.jpg&quot; width=&quot;500&quot; height=&quot;375&quot; alt=&quot;columbia&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/31259429817/in/dateposted-ff/&quot; title=&quot;Untitled&quot;&gt;&lt;img src=&quot;https://farm5.staticflickr.com/4803/31259429817_87d6f4ecff.jpg&quot; width=&quot;500&quot; height=&quot;375&quot; alt=&quot;Untitled&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 09 Dec 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/12/09/p1-blown-away-again-by-kennedy-space-center/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/12/09/p1-blown-away-again-by-kennedy-space-center/</guid>
         
         
       </item>
