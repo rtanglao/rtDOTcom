@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Happy Holidays 2019 / Merry Christmas / Happy New Year - Consider blogging regularly in 2019 "
+title: "Happy Holidays 2018-2019 / Merry Christmas / Happy New Year - Consider blogging regularly in 2019 "
 ---
 # Pontifications
 
