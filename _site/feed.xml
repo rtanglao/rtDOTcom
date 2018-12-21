@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 19 Dec 2018 11:09:42 -0800</pubDate>
-    <lastBuildDate>Wed, 19 Dec 2018 11:09:42 -0800</lastBuildDate>
+    <pubDate>Thu, 20 Dec 2018 19:23:57 -0800</pubDate>
+    <lastBuildDate>Thu, 20 Dec 2018 19:23:57 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Happy Holidays 2019 / Merry Christmas / Happy New Year - Consider blogging regularly in 2019 </title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Happy Holidays 2019 / Merry Christmas / Happy New Year - Consider blogging regularly in 2019 on your own domain. It&amp;#39;s a great habit to get into :-) ! #ymmv&lt;/li&gt;
+&lt;li&gt;See you in 2019!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 20 Dec 2018 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2018/12/20/p1-happy-holidays-consider-public-blogging-regularly-in-2019/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2018/12/20/p1-happy-holidays-consider-public-blogging-regularly-in-2019/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Mac-&gt;Windows-&gt;Mac-&gt;Windows Lessons: rely on Linux/Posix, version control everything, store everything in the cloud </title>
@@ -251,46 +267,6 @@ montage &lt;span class=&quot;nt&quot;&gt;-verbose&lt;/span&gt; &lt;span class=&q
         <pubDate>Mon, 10 Dec 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/12/10/p1-kennedy-space-center-tshirt-howto/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/12/10/p1-kennedy-space-center-tshirt-howto/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How To: Use imagemagick montage command to concate images</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;From &lt;a href=&quot;http://rolandtanglao.com/2016/09/08/p1-24-squares-1-per-hour/&quot;&gt;September 11, 2016&lt;/a&gt;, the important things in the &lt;code&gt;gm montage&lt;/code&gt; or equivalently the &lt;code&gt;imagemagick montage&lt;/code&gt; comnand are:
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;-adjoin&lt;/code&gt; leaves no spaces&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;-tile 7x6&lt;/code&gt; arranges the images in 7 columns by 6 rows&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;+shadow&lt;/code&gt; means no shadow&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;+label&lt;/code&gt; means no label&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;-geometry &amp;#39;1023x684+0+0&amp;lt;&amp;#39;&lt;/code&gt; means 1024 x 768 ? is this a bug? should it be &lt;code&gt;768&lt;/code&gt; instead of &lt;code&gt;684&lt;/code&gt;?&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;null:&lt;/code&gt; is a placeholder blank image to pad out the first and last rows &lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;24 squares per day&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;code&gt;cd /Users/rtanglao/Dropbox/GIT/2016-r-rtgram/JANUARY2016/24SQUARES-PER-DAY&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;parallel Rscript ../../twenty-four-square-pie-chart-from-csv.R &amp;#39;{}&amp;#39; ::: ../??-january2016-ig-van-avgcolour-id-mf-month-day-daynum-unixtime-hour.csv&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;mkdir TRIMMED&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;parallel convert -trim &amp;#39;{}&amp;#39; &amp;#39;TRIMMED/{}&amp;#39; ::: *.png&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;cd TRIMMED&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ls -1 *.png  &amp;gt;31pngs.txt&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;gm montage -verbose -adjoin -tile 7x6 +frame +shadow +label -adjoin -geometry &amp;#39;1023x684+0+0&amp;lt;&amp;#39; null: null: null: null: null: @31pngs.txt null: null: null: null: null: null: ig-van-2016-one-top-colour-square-per-hour-01-31january2016-square-piechart.png&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3&gt;Here&amp;#39;s how the 24 squares per day looks!&lt;/h3&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/29008995333/in/dateposted-ff/&quot; title=&quot;ig-van-2016-one-top-colour-square-per-hour-01-31january2016-square-piechart&quot;&gt;&lt;img src=&quot;https://c6.staticflickr.com/9/8139/29008995333_1881d310f8.jpg&quot; width=&quot;500&quot; height=&quot;287&quot; alt=&quot;ig-van-2016-one-top-colour-square-per-hour-01-31january2016-square-piechart&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 09 Dec 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/12/09/p2-imagemagick-montage-command-to-concatenate-images/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/12/09/p2-imagemagick-montage-command-to-concatenate-images/</guid>
         
         
       </item>
