@@ -4,7 +4,7 @@ title: "Aaron Turon:Thank-you for these terms: 'Critique Gauntlet, Groundhog Day
 ---
 # Pontifications
 
-* Thank-you [Aaaron](https://twitter.com/aaron_turon/status/1073757756958621696)
+* Thank-you [Aaron](https://twitter.com/aaron_turon/status/1073757756958621696)
 
 <blockquote>
 aturon is Business Flamboyant
