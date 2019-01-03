@@ -6,9 +6,42 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 02 Jan 2019 23:12:25 -0800</pubDate>
-    <lastBuildDate>Wed, 02 Jan 2019 23:12:25 -0800</lastBuildDate>
+    <pubDate>Wed, 02 Jan 2019 23:27:22 -0800</pubDate>
+    <lastBuildDate>Wed, 02 Jan 2019 23:27:22 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>How to make Firefox work on Windows Subsystem for Linux</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;tl;dr install ubuntu desktop!!! and dbus and turn off multi-process(not sure this will work long-term!)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;Details on how to make Firefox work on WSL&lt;/h1&gt;
+
+&lt;h2&gt;fix fonts, make dbus work&lt;/h2&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;dbus-x11
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;service dbus start
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;ubuntu-desktop
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;turn off multi-proces&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;in firefox turn off multi-process from corel (thanks!), UNSUPPORTED!!! ( from &lt;a href=&quot;https://support.mozilla.org/nl/questions/1167673&quot;&gt;https://support.mozilla.org/nl/questions/1167673&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;You can disable multi-process windows in Firefox by setting these prefs to false on the about:config page.
+
+   browser.tabs.remote.autostart = false
+
+   browser.tabs.remote.autostart.2 = false 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        <pubDate>Wed, 02 Jan 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/01/02/p1-howto-make-firefox-work-on-wsl/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/01/02/p1-howto-make-firefox-work-on-wsl/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Aaron Turon:Thank-you for these terms: 'Critique Gauntlet, Groundhog Day, &amp; Stochastic Criticism': We face them every day on the SUMO forums indeed any user feedback forum for any popular open source project! </title>
@@ -260,21 +293,6 @@ ffmpeg &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; ~/Downloads/45620789954.
         <pubDate>Wed, 12 Dec 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/12/12/p1-surface-book2-2nd-copy-naz-reinstalled-windows10/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/12/12/p1-surface-book2-2nd-copy-naz-reinstalled-windows10/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>The Effects of Group Size and Time on the Formation of Online Communities: Evidence From Reddit</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Via &lt;a href=&quot;https://www.feverbee.com/read-this/&quot;&gt;FeverBee&lt;/a&gt;: &lt;a href=&quot;https://journals.sagepub.com/doi/pdf/10.1177/2056305118815908&quot;&gt;The Effects of Group Size and Time on the Formation of Online Communities: Evidence From Reddit&lt;/a&gt; sounds like a must read!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 11 Dec 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/12/11/p1-effects-group-size-time-formation-community-reddit/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/12/11/p1-effects-group-size-time-formation-community-reddit/</guid>
         
         
       </item>
