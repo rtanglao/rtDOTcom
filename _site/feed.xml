@@ -6,9 +6,35 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 02 Jan 2019 23:27:22 -0800</pubDate>
-    <lastBuildDate>Wed, 02 Jan 2019 23:27:22 -0800</lastBuildDate>
+    <pubDate>Thu, 03 Jan 2019 23:29:54 -0800</pubDate>
+    <lastBuildDate>Thu, 03 Jan 2019 23:29:54 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>withoutboats: How do we create a culture of two way empathy in open source software?</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;withoutboats wrote a fantastic article about &lt;a href=&quot;https://boats.gitlab.io/blog/post/rust-2019/&quot;&gt;organizational debt&lt;/a&gt; which applies to SUMO too just like &lt;a href=&quot;http://rolandtanglao.com/2019/01/01/p1-aaron-turon-critique-gauntlet-groundhog-day-stochastic-critique/&quot;&gt;Jan 1, 2019&amp;#39;s post: Aaron Turon:Thank-you for these terms: &amp;#39;Critique Gauntlet, Groundhog Day, &amp;amp; Stochastic Criticism&amp;#39;: We face them every day on the SUMO forums indeed any user feedback forum for any popular open source project!&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Juicy quote, &lt;a href=&quot;https://boats.gitlab.io/blog/post/rust-2019/&quot;&gt;read the whole thing&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt; 
+    
+But what is so exhausting for me personally is that there is so often not a reciprocity of empathy from the other side of the discussion. Frankly, what I experience often is a startling lack of professionalism from community members, a standard of conduct which - while not below the bare minimum of appropriate behavior set by our Code of Conduct - I cannot imagine would be acceptable as a manner of communication to a colleague in a workplace.
+
+&lt;/blockquote&gt; 
+
+&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 03 Jan 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/01/03/p1-howto-culture-of-two-way-empathy-in-opensource-software/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/01/03/p1-howto-culture-of-two-way-empathy-in-opensource-software/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How to make Firefox work on Windows Subsystem for Linux</title>
@@ -278,21 +304,6 @@ ffmpeg &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; ~/Downloads/45620789954.
         <pubDate>Fri, 14 Dec 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/12/14/p1-nokia-blogger-relations-influencers/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/12/14/p1-nokia-blogger-relations-influencers/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>For the record, Naz re-installed Windows 10 today on the second Surface Book 2, fingers crossed</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;For the record :-), Naz re-installed Windows 10 today December 12, 2018 on the &lt;a href=&quot;http://rolandtanglao.com/2018/06/19/p1-no-wifi-usb-issues-after-2-weeks/&quot;&gt;second Surface Book 2&lt;/a&gt; (which has been crashing with a &lt;a href=&quot;https://www.flickr.com/photos/roland/46139281902/&quot;&gt;system thread exception issue&lt;/a&gt; since last Thursday), fingers crossed this fixes the random crashes!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 12 Dec 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/12/12/p1-surface-book2-2nd-copy-naz-reinstalled-windows10/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/12/12/p1-surface-book2-2nd-copy-naz-reinstalled-windows10/</guid>
         
         
       </item>
