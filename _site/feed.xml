@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 04 Jan 2019 19:33:46 -0800</pubDate>
-    <lastBuildDate>Fri, 04 Jan 2019 19:33:46 -0800</lastBuildDate>
+    <pubDate>Sun, 06 Jan 2019 12:08:57 -0800</pubDate>
+    <lastBuildDate>Sun, 06 Jan 2019 12:08:57 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Volker Weber: How to delete Windows 10 'crapware' using 'remove-appxpackage'</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;OMG I didn&amp;#39;t know about &lt;code&gt;remove-appxpackage&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Read the whole thing: &lt;a href=&quot;https://vowe.net/archives/017656.html&quot;&gt;Setting up a new Windows 10 machine&lt;/a&gt; &amp;lt;--- tl;dr &lt;code&gt;Get-AppxPackage|? name -like *Xbox*|remove-appxpackage&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 05 Jan 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/01/05/p1-how-to-remove-windows10-crapware/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/01/05/p1-how-to-remove-windows10-crapware/</guid>
+        
+        
+      </item>
     
       <item>
         <title>John Battelle: 'they built a new architecture of governance over our economy and our culture  a brutalist ecosystem that repels innovation.'</title>
@@ -276,24 +292,6 @@ ffmpeg &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; ~/Downloads/45620789954.
         <pubDate>Mon, 17 Dec 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/12/17/p1-how-to-rotate-videos-with-ffmpeg/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/12/17/p1-how-to-rotate-videos-with-ffmpeg/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Grateful that I have the time,money and health to cross-country ski</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Grateful that I have the time,money and health to cross-country ski! First ski of the day with 6 lovely five and six year old &lt;a href=&quot;http://www.hollyburnxc.ca/&quot;&gt;Hollyburn XC&lt;/a&gt; kids I am coaching.&lt;/li&gt;
-&lt;li&gt;What does global climate change have in store for Cypress?&lt;/li&gt;
-&lt;li&gt;I don&amp;#39;t know but enjoy it while you can and work to reverse it!
-&lt;iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/2018810841/embed/08fbba87cfec3e8f49ba99a4cbc74e8e5c63051c'&gt;&lt;/iframe&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 15 Dec 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/12/15/p1-grateful-to-be-able-to-cross-country-ski/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/12/15/p1-grateful-to-be-able-to-cross-country-ski/</guid>
         
         
       </item>
