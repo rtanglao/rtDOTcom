@@ -6,9 +6,32 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 06 Jan 2019 12:08:57 -0800</pubDate>
-    <lastBuildDate>Sun, 06 Jan 2019 12:08:57 -0800</lastBuildDate>
+    <pubDate>Sun, 06 Jan 2019 20:44:09 -0800</pubDate>
+    <lastBuildDate>Sun, 06 Jan 2019 20:44:09 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>R and Lubridate: How do I get daynumber starting at arbitrary day of the week? e.g. Firefox day 1 of a release week usually starts on Tuesday</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Using R and lubridate, I don&amp;#39;t know how to reset the start of the year to be an arbitrary day of the year i.e. the day Firefox is released which is usually a Tuesday and sometimes Wednesday.&lt;/li&gt;
+&lt;li&gt;It would be cool if there was something analogous to &lt;code&gt;lubridate.week.start&lt;/code&gt; e.g. something like &lt;code&gt;lubridate.year.start&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;For now I kludged (this doesn&amp;#39;t work if the first 3 weeks of the release spans years e.g. dec 2018-2019 or if there is a leap year) it in &lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/plot-antivirus-mentions-by-week.r&quot;&gt;plot-antivirus-mentions-by-week.R&lt;/a&gt; by subtracting the day of the year and adding 1:&lt;/li&gt;
+&lt;li&gt;e.g. in the following code, if Firefox 62 was released on September 5, 2018 which is yday 248 let&amp;#39;s call it &lt;code&gt;release_yday&lt;/code&gt;, then the days since September 5th is &lt;code&gt;yday - release_yday + 1&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;base_yday&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;yday&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;one_day_of_data_from_mongo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;created&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
+
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+
+ &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mutate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;release_week_day_number&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;yday&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;created&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;base_yday&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        <pubDate>Sun, 06 Jan 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/01/06/p1-lubridate-ydate-to-release-week-daynumber/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/01/06/p1-lubridate-ydate-to-release-week-daynumber/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Volker Weber: How to delete Windows 10 'crapware' using 'remove-appxpackage'</title>
@@ -273,25 +296,6 @@ make
         <pubDate>Mon, 17 Dec 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/12/17/p2-surface-book2-windows-10-has-not-crashed/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/12/17/p2-surface-book2-windows-10-has-not-crashed/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to rotate videos with ffmpeg</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Usually it&amp;#39;s just the metadata!&lt;/li&gt;
-&lt;li&gt;from &lt;a href=&quot;https://stackoverflow.com/questions/3937387/rotating-videos-with-ffmpeg&quot;&gt;SO:Rotating videos with FFmpeg&lt;/a&gt;, here&amp;#39;s how to change the metadata from 90 to 0&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;
-ffmpeg &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; ~/Downloads/45620789954.mp4 &lt;span class=&quot;nt&quot;&gt;-map_metadata&lt;/span&gt; 0 &lt;span class=&quot;nt&quot;&gt;-metadata&lt;/span&gt;:s:v &lt;span class=&quot;nv&quot;&gt;rotate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;0&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-codec&lt;/span&gt; copy 16dec2018-cypress-powerline-xc-rotated.mp4 &lt;span class=&quot;c&quot;&gt;# preserves metadata&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        <pubDate>Mon, 17 Dec 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/12/17/p1-how-to-rotate-videos-with-ffmpeg/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/12/17/p1-how-to-rotate-videos-with-ffmpeg/</guid>
         
         
       </item>
