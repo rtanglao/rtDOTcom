@@ -6,9 +6,36 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 06 Jan 2019 20:44:09 -0800</pubDate>
-    <lastBuildDate>Sun, 06 Jan 2019 20:44:09 -0800</lastBuildDate>
+    <pubDate>Mon, 07 Jan 2019 22:28:53 -0800</pubDate>
+    <lastBuildDate>Mon, 07 Jan 2019 22:28:53 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>R and Lubridate: Calculating Time Differences in R using intervals aka a better way to compute daynumber starting from arbitrary day of the week</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;the following is from &lt;a href=&quot;https://github.com/rtanglao/rt-making-r-and-rstudio-work-for-me#07-january-2019-how-to-calculate-time-differences-for-support&quot;&gt;my new repo about r and r studio tips and tricks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;interval&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ymd_hms&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;2019-01-04 18:40:00&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tz&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;America/Vancouver&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ymd_hms&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;2019-01-07 12:59:00&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
+    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tz&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;America/Vancouver&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hours&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;66.31667&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;The above ^^^^ is the most accurate and the best way to compute &lt;a href=&quot;http://rolandtanglao.com/2019/01/06/p1-lubridate-ydate-to-release-week-daynumber/&quot;&gt;daynumber starting at an arbitrary day of the week e.g. Tuesday for Firefox releases&lt;/a&gt;! 
+You can also use lubridate &lt;code&gt;durations&lt;/code&gt;, but 
+durations aren&amp;#39;t accurate when you transition 
+from month to month or year to year&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 07 Jan 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/01/07/p1-calculating-time-differences-in-r/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/01/07/p1-calculating-time-differences-in-r/</guid>
+        
+        
+      </item>
     
       <item>
         <title>R and Lubridate: How do I get daynumber starting at arbitrary day of the week? e.g. Firefox day 1 of a release week usually starts on Tuesday</title>
@@ -280,22 +307,6 @@ make
         <pubDate>Mon, 17 Dec 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/12/17/p3-reinstalling-ruby-mongodb-node-surge-on-wsl/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/12/17/p3-reinstalling-ruby-mongodb-node-surge-on-wsl/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Windows 10 hasn't crashed since Naz reinstalled it on December 12, 2018</title>
-        <description>&lt;h2&gt;Pontifications&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2018/12/12/p1-surface-book2-2nd-copy-naz-reinstalled-windows10/&quot;&gt;Windows 10 hasn&amp;#39;t crashed since Naz reinstalled it on December 12, 2018&lt;/a&gt;, yay!&lt;/li&gt;
-&lt;li&gt;Maybe it was due to some sort of driver or insider build?!?&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 17 Dec 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/12/17/p2-surface-book2-windows-10-has-not-crashed/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/12/17/p2-surface-book2-windows-10-has-not-crashed/</guid>
         
         
       </item>
