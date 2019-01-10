@@ -6,9 +6,34 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 09 Jan 2019 01:04:58 -0800</pubDate>
-    <lastBuildDate>Wed, 09 Jan 2019 01:04:58 -0800</lastBuildDate>
+    <pubDate>Wed, 09 Jan 2019 21:33:02 -0800</pubDate>
+    <lastBuildDate>Wed, 09 Jan 2019 21:33:02 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Thanks to Jenny Bryan's gmailr tutorial, got emailing of my 3 week Firefox anti-virus mention graph working but flickr ignores the body</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Thanks to &lt;a href=&quot;https://github.com/jennybc/send-email-with-r&quot;&gt;Jenny Bryan&amp;#39;s tutorial&lt;/a&gt; got gmailr working.&lt;/li&gt;
+&lt;li&gt;Now my code, &lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/plot-antivirus-mentions-by-3weeks.r&quot;&gt;plot-antivirus-mentions-by-3weeks.r&lt;/a&gt;, emails images to flickr!&lt;/li&gt;
+&lt;li&gt;Flickr appears to ignore my body text though dang!&lt;/li&gt;
+&lt;li&gt;Here&amp;#39;s how to invoke it:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;Rscript ./plot-antivirus-mentions-by-3weeks.r FF61 2018 6 26 FF62 2018 9 5 &lt;span class=&quot;nb&quot;&gt;yes&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;and here&amp;#39;s the output:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/31743070337/in/datetaken-ff/&quot; title=&quot;FF Desktop Antivirus 3 weeks antivirus-3weeks-FF61-2018-6-26-FF62-2018-9-5&quot;&gt;&lt;img src=&quot;https://farm5.staticflickr.com/4826/31743070337_1a4f9d214c.jpg&quot; width=&quot;500&quot; height=&quot;500&quot; alt=&quot;FF Desktop Antivirus 3 weeks antivirus-3weeks-FF61-2018-6-26-FF62-2018-9-5&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 09 Jan 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/01/09/p1-gmailr-jenny-bryan-tutorial-flickr-ignores-body/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/01/09/p1-gmailr-jenny-bryan-tutorial-flickr-ignores-body/</guid>
+        
+        
+      </item>
     
       <item>
         <title>R and Lubridate: How to add daynumber starting with Firefox release date i.e. Tuesday instead of Sunday or Monday to a dataframe</title>
@@ -284,26 +309,6 @@ So: a project trying to be truly open. Everyone playing their role in good faith
         <pubDate>Thu, 20 Dec 2018 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2018/12/20/p1-happy-holidays-consider-public-blogging-regularly-in-2019/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2018/12/20/p1-happy-holidays-consider-public-blogging-regularly-in-2019/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Mac-&gt;Windows-&gt;Mac-&gt;Windows Lessons: rely on Linux/Posix, version control everything, store everything in the cloud </title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I switched repeatedly! First because I wanted to try Windows 10 on a Microsoft laptop.&lt;/li&gt;
-&lt;li&gt;And then back to the Mac because the Surface Book 2 had WiFi problems&lt;/li&gt;
-&lt;li&gt;And then to the new refurbished Surface Book 2&lt;/li&gt;
-&lt;li&gt;And then back to the Mac because of thread exception issues on the Surface Book 2&lt;/li&gt;
-&lt;li&gt;And then back to the Surface Book 2 after re-installing Windows 10&lt;/li&gt;
-&lt;li&gt;And the switch is actually quite easy if you don&amp;#39;t rely on platform specific stuff but instead rely on Linux/OS X/Posix stuff that you can get on Windows and Mac and Linux today, store everything extra in version control like git and in the cloud like github!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 19 Dec 2018 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2018/12/19/p1-version-control-everything-store-in-cloud-use-linux/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2018/12/19/p1-version-control-everything-store-in-cloud-use-linux/</guid>
         
         
       </item>
