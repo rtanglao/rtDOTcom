@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 10 Jan 2019 21:00:23 -0800</pubDate>
-    <lastBuildDate>Thu, 10 Jan 2019 21:00:23 -0800</lastBuildDate>
+    <pubDate>Fri, 11 Jan 2019 21:07:27 -0800</pubDate>
+    <lastBuildDate>Fri, 11 Jan 2019 21:07:27 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Next Art of Where Tights 3325px x 6358px for one leg : 5x5 random pixels from Space Shuttle Atlantis photos </title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;My next pair of tights will (&lt;a href=&quot;https://artofwhere.com/info/design-guidelines&quot;&gt;each leg is 3325x6358 pixels&lt;/a&gt;) consist of random 5x5 pixels picked from &lt;a href=&quot;https://github.com/rtanglao/rt-mozlando2018-ksc&quot;&gt;my space shuttle Atlantis photos from Mozlando 2018&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 11 Jan 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/01/11/p1-artofwhere-tights-using-space-shuttle-atlantis-5x5-pixels/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/01/11/p1-artofwhere-tights-using-space-shuttle-atlantis-5x5-pixels/</guid>
+        
+        
+      </item>
     
       <item>
         <title>R and R Studio: How to debug R command line scripts with R Studio: mock commandArgs and use debugSource()</title>
@@ -244,82 +259,6 @@ But what is so exhausting for me personally is that there is so often not a reci
         <pubDate>Wed, 02 Jan 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/01/02/p1-howto-make-firefox-work-on-wsl/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/01/02/p1-howto-make-firefox-work-on-wsl/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Aaron Turon:Thank-you for these terms: 'Critique Gauntlet, Groundhog Day, &amp; Stochastic Criticism': We face them every day on the SUMO forums indeed any user feedback forum for any popular open source project! </title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Thank-you &lt;a href=&quot;https://twitter.com/aaron_turon/status/1073757756958621696&quot;&gt;Aaron&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-aturon is Business Flamboyant
-‏ @aaron_turon
-14 Dec 2018&lt;br /&gt;&lt;br /&gt;
-
-One facet of OSS sustainability that's often on my mind: how to cope with an endless stream of critiques, sometimes unstructured and underinformed.&lt;br /&gt;&lt;br /&gt;
-
-The problem comes in a few guises:&lt;br /&gt;&lt;br /&gt;
-
-aturon is Business Flamboyant
-‏ @aaron_turon
-14 Dec 2018&lt;br /&gt;&lt;br /&gt;
-
-The best-case version goes like this. You make your project increasingly, truly open, giving opportunities for people to weigh in at every point in the development process. (With Rust, this is very explicitly a *Request* for Comments).&lt;br /&gt;&lt;br /&gt;
-
-aturon is Business Flamboyant
-‏ @aaron_turon
-14 Dec 2018&lt;br /&gt;&lt;br /&gt;
-
-The better your project is on this front, the more commentary needs to be digested and responded to. And for those taking the initiative to Get Something Done, it can feel like running a gauntlet of criticism.&lt;br /&gt;&lt;br /&gt;
-
-aturon is Business Flamboyant
-‏ @aaron_turon
-14 Dec 2018&lt;br /&gt;&lt;br /&gt;
-
-In this best-case world, this gauntlet improves quality, ensures that stakeholder constraints are met, and uncovers positive-sum solutions (see http://aturon.github.io/2018/06/02/listening-part-2/ …).
-
-But even so, even if everyone is polite and on point, the Critique Gauntlet is... exhausting.
-&lt;br /&gt;&lt;br /&gt;
-
-aturon is Business Flamboyant
-‏ @aaron_turon
-14 Dec 2018&lt;br /&gt;&lt;br /&gt;
-
-A harder variant is Critique Groundhog Day, in which the same critiques are made over and over at each stage of the development process, sometimes even within the same (long) thread.
-
-Again, this can happen even if everyone is acting in good faith and doing their best.
-&lt;br /&gt;&lt;br /&gt;
-
-aturon is Business Flamboyant
-‏ @aaron_turon
-14 Dec 2018&lt;br /&gt;&lt;br /&gt;
-
-Then there are critiques that aren't part of the development process, but rather &quot;just&quot; personal outcries. With OSS, though, these critiques can appear at random &quot;in the workplace&quot;, within the forums where development usually takes place. Stochastic Critiques!
-&lt;br /&gt;&lt;br /&gt;
-
-aturon is Business Flamboyant
-‏ @aaron_turon
-14 Dec 2018&lt;br /&gt;&lt;br /&gt;
-
-If you're doing Open well, there's a sense of co-ownership of the project shared by its entire community. And from that perspective, it's easy for an individual, even on the periphery, to believe that their critique needs to Be Heard.
-&lt;br /&gt;&lt;br /&gt;
-
-aturon is Business Flamboyant
-‏ @aaron_turon
-14 Dec 2018&lt;br /&gt;&lt;br /&gt;
-
-So: a project trying to be truly open. Everyone playing their role in good faith and intent. But a result of a Critique Gauntlet, Groundhog Day, or Stochastic Criticism... all making it pretty hard to keep burnout at bay.
-
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Tue, 01 Jan 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/01/01/p1-aaron-turon-critique-gauntlet-groundhog-day-stochastic-critique/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/01/01/p1-aaron-turon-critique-gauntlet-groundhog-day-stochastic-critique/</guid>
         
         
       </item>
