@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 11 Jan 2019 21:07:27 -0800</pubDate>
-    <lastBuildDate>Fri, 11 Jan 2019 21:07:27 -0800</lastBuildDate>
+    <pubDate>Sat, 12 Jan 2019 23:18:04 -0800</pubDate>
+    <lastBuildDate>Sat, 12 Jan 2019 23:18:04 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>India Innenga: Toward a More Radical Selfie</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&amp;quot;We are currently confronted with questions that, until recently, seemed behind us. Is asserting self-love affirming and feminist, or is it playing into age-old misogynist reductions of women as fetish objects? Where do hashtag trends like “I woke up like this” and “celebrities without makeup” quite fit in? Do they acknowledge the pressures that women face in a gendered society, or do they simply obscure the means of beauty’s production? To break past this surface we must ask: where is the work? I mean, really, who seems to work anymore? All we see is women on vacationcooly “off duty” in the day, beguilingly gowned at night. Studios and offices serve as backdrops for fashion shoots, not meaningful loci of productivity. All these women “woke up like this”: capturing and captioning themselves from the moment the dawn light began streaming in.&amp;quot; &amp;lt;--- Read the whole thing: &lt;a href=&quot;https://www.theparisreview.org/blog/2018/11/27/toward-a-more-radical-selfie/&quot;&gt;India Innenga: Toward a More Radical Selfie&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 12 Jan 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/01/12/p1-india-ennenga-toward-a-more-radical-selfie/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/01/12/p1-india-ennenga-toward-a-more-radical-selfie/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Next Art of Where Tights 3325px x 6358px for one leg : 5x5 random pixels from Space Shuttle Atlantis photos </title>
@@ -226,39 +241,6 @@ But what is so exhausting for me personally is that there is so often not a reci
         <pubDate>Thu, 03 Jan 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/01/03/p1-howto-culture-of-two-way-empathy-in-opensource-software/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/01/03/p1-howto-culture-of-two-way-empathy-in-opensource-software/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to make Firefox work on Windows Subsystem for Linux</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;tl;dr install ubuntu desktop!!! and dbus and turn off multi-process(not sure this will work long-term!)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1&gt;Details on how to make Firefox work on WSL&lt;/h1&gt;
-
-&lt;h2&gt;fix fonts, make dbus work&lt;/h2&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;dbus-x11
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;service dbus start
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;ubuntu-desktop
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;turn off multi-proces&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;in firefox turn off multi-process from corel (thanks!), UNSUPPORTED!!! ( from &lt;a href=&quot;https://support.mozilla.org/nl/questions/1167673&quot;&gt;https://support.mozilla.org/nl/questions/1167673&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;You can disable multi-process windows in Firefox by setting these prefs to false on the about:config page.
-
-   browser.tabs.remote.autostart = false
-
-   browser.tabs.remote.autostart.2 = false 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        <pubDate>Wed, 02 Jan 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/01/02/p1-howto-make-firefox-work-on-wsl/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/01/02/p1-howto-make-firefox-work-on-wsl/</guid>
         
         
       </item>
