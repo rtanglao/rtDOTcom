@@ -6,9 +6,50 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 12 Jan 2019 23:18:04 -0800</pubDate>
-    <lastBuildDate>Sat, 12 Jan 2019 23:18:04 -0800</lastBuildDate>
+    <pubDate>Sun, 13 Jan 2019 20:25:07 -0800</pubDate>
+    <lastBuildDate>Sun, 13 Jan 2019 20:25:07 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>R: you can source files you pass as command line arguments at run time!</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This wasn&amp;#39;t obvious to me :-) ! Maybe it&amp;#39;s my C/C++ brain damage in action !!!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt; % Rscript testSourceCommandLine.R testSourceAtRunTime.R
+── Attaching packages ─────────────────────────────────────── tidyverse 1.2.1 ──
+✔ ggplot2 3.1.0     ✔ purrr   0.2.5
+✔ tibble  1.4.2     ✔ dplyr   0.7.8
+✔ tidyr   0.8.2     ✔ stringr 1.3.1
+✔ readr   1.3.1     ✔ forcats 0.3.0
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; ──
+✖ dplyr::filter&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; masks stats::filter&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+✖ dplyr::lag&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;    masks stats::lag&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;1] &lt;span class=&quot;s2&quot;&gt;&quot;testSourceAtRunTime.R&quot;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;1] 1
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;code from &lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/testSourceCommandLine.R&quot;&gt;testSourceCommandLine.R&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tidyverse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;commandArgs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;TRUE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file_to_source&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file_to_source&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;file_to_source&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;code from &lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/testSourceAtRunTime.R&quot;&gt;testSourceAtRunTime.R&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        <pubDate>Sun, 13 Jan 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/01/13/p1-you-can-source-files-passed-as-command-line-arguments-at-runtime/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/01/13/p1-you-can-source-files-passed-as-command-line-arguments-at-runtime/</guid>
+        
+        
+      </item>
     
       <item>
         <title>India Innenga: Toward a More Radical Selfie</title>
@@ -215,32 +256,6 @@ from month to month or year to year&lt;/li&gt;
         <pubDate>Fri, 04 Jan 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/01/04/p1-together-we-built-brutalist-ecosystem-on-the-internet/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/01/04/p1-together-we-built-brutalist-ecosystem-on-the-internet/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>withoutboats: How do we create a culture of two way empathy in open source software?</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;withoutboats wrote a fantastic article about &lt;a href=&quot;https://boats.gitlab.io/blog/post/rust-2019/&quot;&gt;organizational debt&lt;/a&gt; which applies to SUMO too just like &lt;a href=&quot;http://rolandtanglao.com/2019/01/01/p1-aaron-turon-critique-gauntlet-groundhog-day-stochastic-critique/&quot;&gt;Jan 1, 2019&amp;#39;s post: Aaron Turon:Thank-you for these terms: &amp;#39;Critique Gauntlet, Groundhog Day, &amp;amp; Stochastic Criticism&amp;#39;: We face them every day on the SUMO forums indeed any user feedback forum for any popular open source project!&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Juicy quote, &lt;a href=&quot;https://boats.gitlab.io/blog/post/rust-2019/&quot;&gt;read the whole thing&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt; 
-    
-But what is so exhausting for me personally is that there is so often not a reciprocity of empathy from the other side of the discussion. Frankly, what I experience often is a startling lack of professionalism from community members, a standard of conduct which - while not below the bare minimum of appropriate behavior set by our Code of Conduct - I cannot imagine would be acceptable as a manner of communication to a colleague in a workplace.
-
-&lt;/blockquote&gt; 
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 03 Jan 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/01/03/p1-howto-culture-of-two-way-empathy-in-opensource-software/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/01/03/p1-howto-culture-of-two-way-empathy-in-opensource-software/</guid>
         
         
       </item>
