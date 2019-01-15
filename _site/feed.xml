@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 13 Jan 2019 20:25:07 -0800</pubDate>
-    <lastBuildDate>Sun, 13 Jan 2019 20:25:07 -0800</lastBuildDate>
+    <pubDate>Tue, 15 Jan 2019 00:14:03 -0800</pubDate>
+    <lastBuildDate>Tue, 15 Jan 2019 00:14:03 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>2019 Things to (re)learn: CSS, SQL, infoviz using web tech not Python, R and Ruby, Tagalog and Kapampangan </title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2019 Things to (re)learn: CSS, SQL, infoviz using web tech like d3.js (not Python, R and Ruby), Tagalog and &lt;a href=&quot;https://en.wikipedia.org/wiki/Kapampangan_language&quot;&gt;Kapampangan&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 14 Jan 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/01/14/p1-things-i-am-going-to-try-and-learn-in-2019-css-sql-infoviz-using-webtechnology-tagalog-pampango/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/01/14/p1-things-i-am-going-to-try-and-learn-in-2019-css-sql-infoviz-using-webtechnology-tagalog-pampango/</guid>
+        
+        
+      </item>
     
       <item>
         <title>R: you can source files you pass as command line arguments at run time!</title>
@@ -240,22 +255,6 @@ from month to month or year to year&lt;/li&gt;
         <pubDate>Sat, 05 Jan 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/01/05/p1-how-to-remove-windows10-crapware/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/01/05/p1-how-to-remove-windows10-crapware/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>John Battelle: 'they built a new architecture of governance over our economy and our culture  a brutalist ecosystem that repels innovation.'</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Correction: &lt;strong&gt;together WE not THEY&lt;/strong&gt; built a new architecture of governance over our economy and our culture  a brutalist ecosystem that repels innovation. &amp;lt;--- it&amp;#39;s our collective society that built it!&lt;/li&gt;
-&lt;li&gt;Read the whole thing: &lt;a href=&quot;https://battellemedia.com/archives/2018/12/its-not-facebooks-fault-our-shadow-internet-constitution&quot;&gt;It’s Not Facebook’s Fault: Our Shadow Internet Constitution&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 04 Jan 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/01/04/p1-together-we-built-brutalist-ecosystem-on-the-internet/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/01/04/p1-together-we-built-brutalist-ecosystem-on-the-internet/</guid>
         
         
       </item>
