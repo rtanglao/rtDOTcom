@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 15 Jan 2019 00:14:03 -0800</pubDate>
-    <lastBuildDate>Tue, 15 Jan 2019 00:14:03 -0800</lastBuildDate>
+    <pubDate>Tue, 15 Jan 2019 23:12:25 -0800</pubDate>
+    <lastBuildDate>Tue, 15 Jan 2019 23:12:25 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Stratechery's tl;dr: Open Source infrastructure software like MongoDB is doomed to being disrupted by AWS or other big company unless the OSS has a hosted service or other business model?</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Open Source infrastructure software like MongoDB is doomed to being disrupted by Amazon AWS or other big company unless the OSS like MongoDB has a hosted service or other business model? That&amp;#39;s what I gleaned :-) rightly or wrongly from &lt;a href=&quot;https://stratechery.com/2019/aws-mongodb-and-the-economic-realities-of-open-source/&quot;&gt;Stratechery&amp;#39;s AWS, MongoDB, and the Economic Realities of Open Source&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 15 Jan 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/01/15/p1-open-source-software-is-doomed-to-aws-disruption-without-a-hosted-service-or-other-business-model/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/01/15/p1-open-source-software-is-doomed-to-aws-disruption-without-a-hosted-service-or-other-business-model/</guid>
+        
+        
+      </item>
     
       <item>
         <title>2019 Things to (re)learn: CSS, SQL, infoviz using web tech not Python, R and Ruby, Tagalog and Kapampangan </title>
@@ -239,22 +254,6 @@ from month to month or year to year&lt;/li&gt;
         <pubDate>Sun, 06 Jan 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/01/06/p1-lubridate-ydate-to-release-week-daynumber/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/01/06/p1-lubridate-ydate-to-release-week-daynumber/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Volker Weber: How to delete Windows 10 'crapware' using 'remove-appxpackage'</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;OMG I didn&amp;#39;t know about &lt;code&gt;remove-appxpackage&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Read the whole thing: &lt;a href=&quot;https://vowe.net/archives/017656.html&quot;&gt;Setting up a new Windows 10 machine&lt;/a&gt; &amp;lt;--- tl;dr &lt;code&gt;Get-AppxPackage|? name -like *Xbox*|remove-appxpackage&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 05 Jan 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/01/05/p1-how-to-remove-windows10-crapware/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/01/05/p1-how-to-remove-windows10-crapware/</guid>
         
         
       </item>
