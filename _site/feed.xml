@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 15 Jan 2019 23:12:25 -0800</pubDate>
-    <lastBuildDate>Tue, 15 Jan 2019 23:12:25 -0800</lastBuildDate>
+    <pubDate>Wed, 16 Jan 2019 22:47:05 -0800</pubDate>
+    <lastBuildDate>Wed, 16 Jan 2019 22:47:05 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Flowing data animated gif heatmaps with Base R and ImageMagick</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Another amazing tutorial from Nathan Yau and Flowing Data: &lt;a href=&quot;https://flowingdata.com/2019/01/15/how-to-make-animated-gif-heatmaps-in-r/&quot;&gt;January 15, 2019 How to make Animated GIF Heatmaps in R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Bonus: &lt;a href=&quot;https://flowingdata.com/2012/03/15/calendar-heatmaps-to-visualize-time-series-data/&quot;&gt;2012 Calendar Heatmaps to visualize time series data tutorial in Base R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;I prefer ggplot2 and tidyverse to Base R, so I&amp;#39;ll look for time series in ggplot2 as well of course!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 16 Jan 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/01/16/p1-animated-GIF-heat-maps-flowing-data/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/01/16/p1-animated-GIF-heat-maps-flowing-data/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Stratechery's tl;dr: Open Source infrastructure software like MongoDB is doomed to being disrupted by AWS or other big company unless the OSS has a hosted service or other business model?</title>
@@ -231,29 +248,6 @@ from month to month or year to year&lt;/li&gt;
         <pubDate>Mon, 07 Jan 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/01/07/p1-calculating-time-differences-in-r/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/01/07/p1-calculating-time-differences-in-r/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>R and Lubridate: How do I get daynumber starting at arbitrary day of the week? e.g. Firefox day 1 of a release week usually starts on Tuesday</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Using R and lubridate, I don&amp;#39;t know how to reset the start of the year to be an arbitrary day of the year i.e. the day Firefox is released which is usually a Tuesday and sometimes Wednesday.&lt;/li&gt;
-&lt;li&gt;It would be cool if there was something analogous to &lt;code&gt;lubridate.week.start&lt;/code&gt; e.g. something like &lt;code&gt;lubridate.year.start&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;For now I kludged (this doesn&amp;#39;t work if the first 3 weeks of the release spans years e.g. dec 2018-2019 or if there is a leap year) it in &lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/plot-antivirus-mentions-by-week.r&quot;&gt;plot-antivirus-mentions-by-week.R&lt;/a&gt; by subtracting the day of the year and adding 1:&lt;/li&gt;
-&lt;li&gt;e.g. in the following code, if Firefox 62 was released on September 5, 2018 which is yday 248 let&amp;#39;s call it &lt;code&gt;release_yday&lt;/code&gt;, then the days since September 5th is &lt;code&gt;yday - release_yday + 1&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;base_yday&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;yday&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;one_day_of_data_from_mongo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;created&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
-
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-
- &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mutate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;release_week_day_number&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;yday&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;created&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;base_yday&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        <pubDate>Sun, 06 Jan 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/01/06/p1-lubridate-ydate-to-release-week-daynumber/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/01/06/p1-lubridate-ydate-to-release-week-daynumber/</guid>
         
         
       </item>
