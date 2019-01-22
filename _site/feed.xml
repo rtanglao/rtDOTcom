@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 20 Jan 2019 21:33:56 -0800</pubDate>
-    <lastBuildDate>Sun, 20 Jan 2019 21:33:56 -0800</lastBuildDate>
+    <pubDate>Mon, 21 Jan 2019 22:57:18 -0800</pubDate>
+    <lastBuildDate>Mon, 21 Jan 2019 22:57:18 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>The Unschedule: Schedule your leisure time, breaks and errands not your work stuff!</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;intrigued by &lt;a href=&quot;https://www.njlifehacks.com/the-unschedule-procrastination/&quot;&gt;The Unschedule: A Counter-Intuitive But Highly Effective Time-Planning Method to Beat Procrastination&lt;/a&gt; ! &lt;/li&gt;
+&lt;li&gt;not sure it&amp;#39;s practical or even that it&amp;#39;s not a joke but some insights in this!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 21 Jan 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/01/21/p1-the-unschedule/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/01/21/p1-the-unschedule/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Creating one leg for Zazzle / Art of Where tights using random 5x5 pixel patches from Kennedy Space Center Photos</title>
@@ -195,33 +211,6 @@ e.g.&lt;/li&gt;
         <pubDate>Fri, 11 Jan 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/01/11/p1-artofwhere-tights-using-space-shuttle-atlantis-5x5-pixels/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/01/11/p1-artofwhere-tights-using-space-shuttle-atlantis-5x5-pixels/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>R and R Studio: How to debug R command line scripts with R Studio: mock commandArgs and use debugSource()</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Put the main function in a function e.g. &lt;code&gt;script_main()&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Invoke &lt;code&gt;debug()&lt;/code&gt; on that function i.e. &lt;code&gt;debug(script_main)&lt;/code&gt;. You can see this in: &lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/plot-antivirus-mentions-by-3weeks.r&quot;&gt;plot-antivirus-mentions-by-3weeks.r&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Create a test script that mocks up &lt;code&gt;commandArgs&lt;/code&gt; which is the built-in command line parsing function and &lt;code&gt;debugSource&lt;/code&gt;s the file&lt;/li&gt;
-&lt;li&gt;e.g. &lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/testRScript.R&quot;&gt;testRScript.R&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-R&quot; data-lang=&quot;R&quot;&gt;&lt;span class=&quot;n&quot;&gt;commandArgs&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;FF61&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;2018&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;6&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;26&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;FF62&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;2018&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;9&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;5&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;no&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;debugSource&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;plot-antivirus-mentions-by-3weeks.r&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;commandArgs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;and then source &lt;code&gt;testRScript.R&lt;/code&gt; in R Studio to debug with all the great R Studio debug utilities&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Important note when you run it using RScript, &lt;code&gt;debug()&lt;/code&gt; is ignored! Here&amp;#39;s how to invoke it with the command line again:&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;Rscript ./plot-antivirus-mentions-by-3weeks.r FF61 2018 6 26 FF62 2018 9 5 &lt;span class=&quot;nb&quot;&gt;yes&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        <pubDate>Thu, 10 Jan 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/01/10/p1-how-to-debug-command-line-r-scripts-r-studio-fake-commandrgs/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/01/10/p1-how-to-debug-command-line-r-scripts-r-studio-fake-commandrgs/</guid>
         
         
       </item>
