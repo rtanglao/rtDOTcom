@@ -6,9 +6,32 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 25 Jan 2019 19:43:15 -0800</pubDate>
-    <lastBuildDate>Fri, 25 Jan 2019 19:43:15 -0800</lastBuildDate>
+    <pubDate>Sat, 26 Jan 2019 21:28:45 -0800</pubDate>
+    <lastBuildDate>Sat, 26 Jan 2019 21:28:45 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>First successful Kennedy Space Center 'patchwork quilt' suitable for tights</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;run this script in a subdirectory of &lt;code&gt;rt-mozlando2018-ksc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;bash
+cat ../originals.txt | ../oily-100x100px-zazzle-leg.rb 2&amp;gt; 26jan2019-oily100x100-stderr.txt &amp;amp;
+&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;and you get this (the filename is &amp;#39;interim&amp;#39; but it&amp;#39;s actually the final result; the program should have terminated immediately after creating this file but it died because &lt;a href=&quot;https://github.com/rtanglao/rt-mozlando2018-ksc/blob/master/oily-100x100px-zazzle-leg.rb#L42&quot;&gt;if i &amp;gt;= num_pixels&lt;/a&gt; was erroneously &lt;code&gt;if i &amp;gt; num_pixels&lt;/code&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/46164708574/in/datetaken-ff/&quot; title=&quot;interim-100x100-oily-out-row-6300&quot;&gt;&lt;img src=&quot;https://farm5.staticflickr.com/4881/46164708574_8dc40d9b39.jpg&quot; width=&quot;266&quot; height=&quot;500&quot; alt=&quot;interim-100x100-oily-out-row-6300&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 26 Jan 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/01/26/p1-1st-successful-kennedy-space-center-patchwork-quilt/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/01/26/p1-1st-successful-kennedy-space-center-patchwork-quilt/</guid>
+        
+        
+      </item>
     
       <item>
         <title>The 'patchwork quilt' effect that I'm looking for is better with 100 pixel by 100 pixel patches</title>
@@ -371,21 +394,6 @@ e.g.&lt;/li&gt;
         <pubDate>Wed, 16 Jan 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/01/16/p1-animated-GIF-heat-maps-flowing-data/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/01/16/p1-animated-GIF-heat-maps-flowing-data/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Stratechery's tl;dr: Open Source infrastructure software like MongoDB is doomed to being disrupted by AWS or other big company unless the OSS has a hosted service or other business model?</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Open Source infrastructure software like MongoDB is doomed to being disrupted by Amazon AWS or other big company unless the OSS like MongoDB has a hosted service or other business model? That&amp;#39;s what I gleaned :-) rightly or wrongly from &lt;a href=&quot;https://stratechery.com/2019/aws-mongodb-and-the-economic-realities-of-open-source/&quot;&gt;Stratechery&amp;#39;s AWS, MongoDB, and the Economic Realities of Open Source&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 15 Jan 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/01/15/p1-open-source-software-is-doomed-to-aws-disruption-without-a-hosted-service-or-other-business-model/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/01/15/p1-open-source-software-is-doomed-to-aws-disruption-without-a-hosted-service-or-other-business-model/</guid>
         
         
       </item>
