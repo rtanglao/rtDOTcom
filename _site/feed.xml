@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 27 Jan 2019 22:37:39 -0800</pubDate>
-    <lastBuildDate>Sun, 27 Jan 2019 22:37:39 -0800</lastBuildDate>
+    <pubDate>Mon, 28 Jan 2019 23:53:33 -0800</pubDate>
+    <lastBuildDate>Mon, 28 Jan 2019 23:53:33 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Today's idea: green, tan and white camoflage from Vancouver flickr pictures</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Specifically grab all the &amp;#39;green&amp;#39; 75x75  pictures in 2018 and make green camoflage&lt;/li&gt;
+&lt;li&gt;Similarly do the same for tan and white?&lt;/li&gt;
+&lt;li&gt;But how do you figure out if a picture is &amp;#39;green&amp;#39;, &amp;#39;tan&amp;#39; or &amp;#39;white&amp;#39;? To be determined!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 28 Jan 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/01/28/p1-green-tan-white-camoflage-from-vancouver-flickr-pictures/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/01/28/p1-green-tan-white-camoflage-from-vancouver-flickr-pictures/</guid>
+        
+        
+      </item>
     
       <item>
         <title>To get more of a patchwork quilt effect I'm trying 200x200px</title>
@@ -454,26 +471,6 @@ e.g.&lt;/li&gt;
         <pubDate>Fri, 18 Jan 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/01/18/p1-there-is-no-place-like-blogging-home/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/01/18/p1-there-is-no-place-like-blogging-home/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Azure Key Phrase Extraction API looks useful for Firefox Support Requests</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;From &lt;a href=&quot;https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction&quot;&gt;Example: How to extract key phrases in Text Analytics&lt;/a&gt; the 
-&lt;a href=&quot;https://westus.dev.cognitive.microsoft.com/docs/services/TextAnalytics.V2.0/operations/56f30ceeeda5650db055a3c6&quot;&gt;API&lt;/a&gt; looks great and useful for Firefox Support requests and simple!
-
-&lt;ul&gt;
-&lt;li&gt;All you need is a JSON document with maximum 5000 characters per document, and with  maximum 1000 documents&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 17 Jan 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/01/17/p1-azure-api-for-extracting-key-phrases/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/01/17/p1-azure-api-for-extracting-key-phrases/</guid>
         
         
       </item>
