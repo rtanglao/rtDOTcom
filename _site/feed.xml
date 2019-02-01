@@ -6,9 +6,32 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 29 Jan 2019 23:42:42 -0800</pubDate>
-    <lastBuildDate>Tue, 29 Jan 2019 23:42:42 -0800</lastBuildDate>
+    <pubDate>Thu, 31 Jan 2019 21:34:34 -0800</pubDate>
+    <lastBuildDate>Thu, 31 Jan 2019 21:34:34 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>One leg 200px, one leg 100px </title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The current plan is to make this 200x200px graphic (colophon: &lt;code&gt;cat ../originals.txt | ../oily-200x200px-zazzle-leg.rb&lt;/code&gt;; code is &lt;a href=&quot;https://github.com/rtanglao/rt-mozlando2018-ksc/blob/master/oily-200x200px-zazzle-leg.rb&quot;&gt;oily-200x200px-zazzle-leg.rb)&lt;/a&gt;) the left leg of a pair of tights from artofwhere/zazzle&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/33067258758/&quot; title=&quot;The current plan is to make this 200x200px graphic the left leg of a pair of tights from artofwhere/zazzle and the 100x100 graphic: https://flic.kr/p/2d4wp92 the right leg of the tights 2019-01-31-05-36-oily-200x200-out&quot;&gt;&lt;img src=&quot;https://farm5.staticflickr.com/4911/33067258758_a405ceba1d.jpg&quot; width=&quot;266&quot; height=&quot;500&quot; alt=&quot;The current plan is to make this 200x200px graphic the left leg of a pair of tights from artofwhere/zazzle and the 100x100 graphic: https://flic.kr/p/2d4wp92 the right leg of the tights 2019-01-31-05-36-oily-200x200-out&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;and the following 100x100 graphic (colophon: &lt;code&gt;cat ../originals.txt | ../oily-100x100px-zazzle-leg.rb&lt;/code&gt;`) the right leg of the tights &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/45984854445/&quot; title=&quot;2019-01-27-15-03-interim-100x100-oily-out-row-6300&quot;&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7852/45984854445_6f3de791f2.jpg&quot; width=&quot;266&quot; height=&quot;500&quot; alt=&quot;2019-01-27-15-03-interim-100x100-oily-out-row-6300&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 31 Jan 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/01/31/p1-left-leg-200px-right-leg-100px/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/01/31/p1-left-leg-200px-right-leg-100px/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Citizen's assembly instead of philosophers and computer scientists deciding who lives who dies?!!</title>
@@ -438,41 +461,6 @@ cat ../originals.txt | ../oily-100x100px-zazzle-leg.rb 2&amp;gt; 26jan2019-oily1
         <pubDate>Mon, 21 Jan 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/01/21/p1-the-unschedule/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/01/21/p1-the-unschedule/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Creating one leg for Zazzle / Art of Where tights using random 5x5 pixel patches from Kennedy Space Center Photos</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;p&gt;(see Earlier post: &lt;a href=&quot;http://rolandtanglao.com/2019/01/11/p1-artofwhere-tights-using-space-shuttle-atlantis-5x5-pixels/&quot;&gt;Next Art of Where Tights 3325px x 6358px for one leg : 5x5 random pixels from Space Shuttle Atlantis photos&lt;/a&gt;)&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;3325 / 5 px = 665 rows one way i.e. &amp;quot;horizontally&amp;quot;&lt;/li&gt;
-&lt;li&gt;6358 -&amp;gt; 6370 / 5 px = 1274 rows the other way &amp;quot;vertically&amp;quot;&lt;/li&gt;
-&lt;li&gt;each original is 4608 x 3456 px&lt;/li&gt;
-&lt;li&gt;round down to 4605 x 3455 px
-
-&lt;ul&gt;
-&lt;li&gt;which means there are 921 five pixel columns horizontally&lt;/li&gt;
-&lt;li&gt;and 691 five pixel rows vertically&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;which means the script needs to pick 847210 (665 * 1274) random 5px x 5x patches&lt;/li&gt;
-&lt;li&gt;use the imagemagick &lt;code&gt;crop&lt;/code&gt; commmand with the &lt;code&gt;+repage&lt;/code&gt; option 
-see: &lt;a href=&quot;http://www.imagemagick.org/Usage/crop/#crop_repage&quot;&gt;http://www.imagemagick.org/Usage/crop/#crop_repage&lt;/a&gt;
-e.g.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;  convert rose: &lt;span class=&quot;nt&quot;&gt;-crop&lt;/span&gt; 40x30+40+30  +repage  repage_br.gif
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;in our case something like:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;  convert &amp;lt;ksc_img&amp;gt; &lt;span class=&quot;nt&quot;&gt;-crop&lt;/span&gt; 5x5+&amp;lt;random_x&amp;gt;+&amp;lt;random_y&amp;gt;  +repage  5x5-ksc.png
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        <pubDate>Sun, 20 Jan 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/01/20/p1-creating-one-leg-for-zazzle-tights-using-kennedy-space-center-photos-5x5-pixel-patches/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/01/20/p1-creating-one-leg-for-zazzle-tights-using-kennedy-space-center-photos-5x5-pixel-patches/</guid>
         
         
       </item>
