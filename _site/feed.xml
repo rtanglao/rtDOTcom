@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 03 Feb 2019 21:51:21 -0800</pubDate>
-    <lastBuildDate>Sun, 03 Feb 2019 21:51:21 -0800</lastBuildDate>
+    <pubDate>Mon, 04 Feb 2019 22:10:19 -0800</pubDate>
+    <lastBuildDate>Mon, 04 Feb 2019 22:10:19 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Photomosaic Image Builder: codebox/mosaic in python</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/codebox/mosaic&quot;&gt;Photomosaic Image Builder: codebox/mosaic in python&lt;/a&gt;. Found via kip, might be useful if I can find an image  of &lt;a href=&quot;http://rolandtanglao.com/2019/01/28/p1-green-tan-white-camoflage-from-vancouver-flickr-pictures/&quot;&gt;white, green and tan camo&lt;/a&gt; to use this with that image.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 04 Feb 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/02/04/p1-python-script-to-make-mosaics/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/02/04/p1-python-script-to-make-mosaics/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Make Vancouver print all over shirt idea: left: 100px right 200 px</title>
@@ -327,22 +342,6 @@ cat ../originals.txt | ../oily-100x100px-zazzle-leg.rb 2&amp;gt; 26jan2019-oily1
         <pubDate>Fri, 25 Jan 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/01/25/p1-patchwork-quilt-effect-is-better-with-100-pixel-by-100-pixel-patches/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/01/25/p1-patchwork-quilt-effect-is-better-with-100-pixel-by-100-pixel-patches/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>my ruby vips code crashed my surface book 2 when running Ubuntu on Windows Subsystem for Linux!</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Not a surprise :-) &lt;a href=&quot;http://rolandtanglao.com/2019/01/23/p1-did-you-get-catch-the-error-vips-code-yesterday-oilypng-twice-as-fast/&quot;&gt;that yesterday&amp;#39;s software crashed my Surface Book 2&lt;/a&gt;!&lt;/li&gt;
-&lt;li&gt;Here&amp;#39;s to more reliable software that can handle 300,000 files in 1 directory&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 24 Jan 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/01/24/p1-vips-software-crashed-surface-book2-wsl/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/01/24/p1-vips-software-crashed-surface-book2-wsl/</guid>
         
         
       </item>
