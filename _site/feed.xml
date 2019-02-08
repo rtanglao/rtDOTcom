@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 06 Feb 2019 21:09:54 -0800</pubDate>
-    <lastBuildDate>Wed, 06 Feb 2019 21:09:54 -0800</lastBuildDate>
+    <pubDate>Thu, 07 Feb 2019 22:19:47 -0800</pubDate>
+    <lastBuildDate>Thu, 07 Feb 2019 22:19:47 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>We know nothing about personal publishing on the web, the best is yet to come</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;i like how all of us, &lt;a href=&quot;https://twitter.com/vgr/status/1092155903044775936&quot;&gt;greybeard&lt;/a&gt; bloggers from 1999 like myself or even pre 1999 to newbies who only publish on walled gardens, think we know everything about personal publishing on the web!I beg to differ! we know nothing, the best is yet to come &amp;amp; we have no idea what it&amp;#39;ll be! &amp;lt;-- &lt;a href=&quot;https://twitter.com/rtanglao/status/1093754413003337728&quot;&gt;originally posted on twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 07 Feb 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/02/07/p1-we-know-nothing-about-personal-publishing-on-the-web/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/02/07/p1-we-know-nothing-about-personal-publishing-on-the-web/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Got my Make Vancouver #mozlando2018 Kennedy Space Center shirt yesterday and it's fab</title>
@@ -244,31 +259,6 @@
         <pubDate>Sun, 27 Jan 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/01/27/p1-200px-by-200px-to-get-more-of-a-patchwork-quilt-ksc/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/01/27/p1-200px-by-200px-to-get-more-of-a-patchwork-quilt-ksc/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>First successful Kennedy Space Center 'patchwork quilt' suitable for tights</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;run this script in a subdirectory of &lt;code&gt;rt-mozlando2018-ksc&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;code&gt;bash
-cat ../originals.txt | ../oily-100x100px-zazzle-leg.rb 2&amp;gt; 26jan2019-oily100x100-stderr.txt &amp;amp;
-&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;and you get this (the filename is: &lt;a href=&quot;https://github.com/rtanglao/rt-mozlando2018-ksc/blob/master/100x100OILY/interim-100x100-oily-out-row-6300.png&quot;&gt;interim-100x100-oily-out-row-6300.png&lt;/a&gt; labelled &amp;#39;interim&amp;#39; but it&amp;#39;s actually the final result; the program should have terminated immediately after creating this file but it died because:&lt;br /&gt;&lt;br /&gt;
-  &lt;a href=&quot;https://github.com/rtanglao/rt-mozlando2018-ksc/blob/master/oily-100x100px-zazzle-leg.rb#L42&quot;&gt;if i &amp;gt;= num_pixels&lt;/a&gt;&lt;br /&gt;&lt;br /&gt; was erroneously&lt;br /&gt;&lt;br /&gt;
-  &lt;code&gt;if i &amp;gt; num_pixels&lt;/code&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/46164708574/in/datetaken-ff/&quot; title=&quot;interim-100x100-oily-out-row-6300&quot;&gt;&lt;img src=&quot;https://farm5.staticflickr.com/4881/46164708574_8dc40d9b39.jpg&quot; width=&quot;266&quot; height=&quot;500&quot; alt=&quot;interim-100x100-oily-out-row-6300&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 26 Jan 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/01/26/p1-1st-successful-kennedy-space-center-patchwork-quilt/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/01/26/p1-1st-successful-kennedy-space-center-patchwork-quilt/</guid>
         
         
       </item>
