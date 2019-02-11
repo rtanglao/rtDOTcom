@@ -6,9 +6,50 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 10 Feb 2019 00:36:45 -0800</pubDate>
-    <lastBuildDate>Sun, 10 Feb 2019 00:36:45 -0800</lastBuildDate>
+    <pubDate>Sun, 10 Feb 2019 22:46:24 -0800</pubDate>
+    <lastBuildDate>Sun, 10 Feb 2019 22:46:24 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Users don't know when their antivirus breaks Firefox and it's not obvious to them so they don't mention it in their support requests</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The following plot  of AVG and Avast mentions in the first week of Firefox 58-65 release shows that users don&amp;#39;t know when their antivirus breaks Firefox and it&amp;#39;s not obvious to them so they don&amp;#39;t mention it in their support requests:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/46333828794/in/dateposted-ff/&quot; title=&quot;firefox58-65-mentions-of-avg-avast-week1-of-release&quot;&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7884/46333828794_bd87a153b5.jpg&quot; width=&quot;500&quot; height=&quot;313&quot; alt=&quot;firefox58-65-mentions-of-avg-avast-week1-of-release&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;h2&gt;Code:&lt;/h2&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ~/GIT/rt-kitsune-api/VISUALIZATIONS/WEEK1
+../../print-csv-ff-desktop-questions-id-content-created-product-tags-title-topic-firefoxversion-1releaseweek.rb 2018 1 23 58 1
+../../print-csv-ff-desktop-questions-id-content-created-product-tags-title-topic-firefoxversion-1releaseweek.rb 2018 3 13 59 1
+../../print-csv-ff-desktop-questions-id-content-created-product-tags-title-topic-firefoxversion-1releaseweek.rb 2018 5 9 60 1
+../../print-csv-ff-desktop-questions-id-content-created-product-tags-title-topic-firefoxversion-1releaseweek.rb 2018 6 26 61 1
+../../print-csv-ff-desktop-questions-id-content-created-product-tags-title-topic-firefoxversion-1releaseweek.rb 2018 9 5 62 1
+../../print-csv-ff-desktop-questions-id-content-created-product-tags-title-topic-firefoxversion-1releaseweek.rb 2018 10 23 63 1
+../../print-csv-ff-desktop-questions-id-content-created-product-tags-title-topic-firefoxversion-1releaseweek.rb 2018 12 11 64 1
+../../print-csv-ff-desktop-questions-id-content-created-product-tags-title-topic-firefoxversion-1releaseweek.rb 2019 1 29 65 1
+mlr &lt;span class=&quot;nt&quot;&gt;--csv&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;cut&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-x&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt;  &lt;span class=&quot;s1&quot;&gt;'product,topic,tags'&lt;/span&gt;  firefox&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.csv &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; ff58-65-id-created-title-content-firefoxversion-1streleaseweek-day.csv
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;and then run the r script in debug mode:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;commandArgs&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;WEEK1/ff58-65-id-created-title-content-firefoxversion-1streleaseweek-day.csv&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;no&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;debugSource&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;plot-avg-and-avast-mentions-1st-week.r&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;commandArgs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;or from the bash command line run &lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/plot-avg-and-avast-mentions-1st-week.r&quot;&gt;plot-avg-and-avast-mentions-1st-week.r&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;Rscript plot-avg-and-avast-mentions-1st-week.r WEEK1/ff58-65-id-created-title-content-firefoxversion-1streleaseweek-day.csv no
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        <pubDate>Sun, 10 Feb 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/02/10/p1-users-dont-know-antivirus-is-breaking-firefox-and-it-not-obvious-when-it-does/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/02/10/p1-users-dont-know-antivirus-is-breaking-firefox-and-it-not-obvious-when-it-does/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Installed ruby 2.6.1 on WSL with readline support so irb cursor keys work, here's how</title>
@@ -177,24 +218,6 @@ make
         <pubDate>Thu, 31 Jan 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/01/31/p1-left-leg-200px-right-leg-100px/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/01/31/p1-left-leg-200px-right-leg-100px/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Citizen's assembly instead of philosophers and computer scientists deciding who lives who dies?!!</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;p&gt;(context: &lt;a href=&quot;https://www.newyorker.com/science/elements/a-study-on-driverless-car-ethics-offers-a-troubling-look-into-our-values&quot;&gt;A Study on Driverless-Car Ethics Offers a Troubling Look Into Our Values&lt;/a&gt;)&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I don&amp;#39;t trust both philosophers and computer scientists to get it right when it comes to who lives and who dies because of autonomous vehicle algorithms. &lt;/li&gt;
-&lt;li&gt;I do trust a citizen&amp;#39;s assembly which includes all folks from all walks of life including computer scientists and philosophers!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 29 Jan 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/01/29/p1-i-do-not-trust-computer-scientists-philosophers-autonomous-vehicles/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/01/29/p1-i-do-not-trust-computer-scientists-philosophers-autonomous-vehicles/</guid>
         
         
       </item>
