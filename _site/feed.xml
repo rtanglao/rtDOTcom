@@ -6,16 +6,31 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 10 Feb 2019 22:46:24 -0800</pubDate>
-    <lastBuildDate>Sun, 10 Feb 2019 22:46:24 -0800</lastBuildDate>
+    <pubDate>Mon, 11 Feb 2019 23:43:28 -0800</pubDate>
+    <lastBuildDate>Mon, 11 Feb 2019 23:43:28 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Laura Schenck: CSS is a Declarative, Domain-Specific Programming Language</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://notlaura.com/css-is-a-programming-language/&quot;&gt;Laura Schenck: CSS is a Declarative, Domain-Specific Programming Language&lt;/a&gt; &amp;lt;-- this is the best explanation for computer scientists that I&amp;#39;ve come across but I am slow :-) and have resisted CSS because I&amp;#39;m silly&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 11 Feb 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/02/11/p1-css-domain-specific-declarative-programming-language/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/02/11/p1-css-domain-specific-declarative-programming-language/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Users don't know when their antivirus breaks Firefox and it's not obvious to them so they don't mention it in their support requests</title>
         <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;The following plot  of AVG and Avast mentions in the first week of Firefox 58-65 release shows that users don&amp;#39;t know when their antivirus breaks Firefox and it&amp;#39;s not obvious to them so they don&amp;#39;t mention it in their support requests:&lt;/li&gt;
+&lt;li&gt;The following plot  of AVG and Avast mentions in the first week of Firefox 58-65 (we know that in the first week of Firefox 65 that Avast broke Firefox and that several support questions were about Avast/Avg yet it&amp;#39;s hardly mentioned more in 65 than other releases) release shows that users don&amp;#39;t know when their antivirus breaks Firefox and it&amp;#39;s not obvious to them so they don&amp;#39;t mention it in their support requests:&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/46333828794/in/dateposted-ff/&quot; title=&quot;firefox58-65-mentions-of-avg-avast-week1-of-release&quot;&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7884/46333828794_bd87a153b5.jpg&quot; width=&quot;500&quot; height=&quot;313&quot; alt=&quot;firefox58-65-mentions-of-avg-avast-week1-of-release&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
@@ -195,29 +210,6 @@ make
         <pubDate>Fri, 01 Feb 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/02/01/p1-we-are-all-communication-styles/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/02/01/p1-we-are-all-communication-styles/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>One leg 200px, one leg 100px </title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The current plan is to make this 200x200px graphic (colophon: &lt;code&gt;cat ../originals.txt | ../oily-200x200px-zazzle-leg.rb&lt;/code&gt;; code is &lt;a href=&quot;https://github.com/rtanglao/rt-mozlando2018-ksc/blob/master/oily-200x200px-zazzle-leg.rb&quot;&gt;oily-200x200px-zazzle-leg.rb)&lt;/a&gt;) the left leg of a pair of tights from artofwhere/zazzle&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/33067258758/&quot; title=&quot;The current plan is to make this 200x200px graphic the left leg of a pair of tights from artofwhere/zazzle and the 100x100 graphic: https://flic.kr/p/2d4wp92 the right leg of the tights 2019-01-31-05-36-oily-200x200-out&quot;&gt;&lt;img src=&quot;https://farm5.staticflickr.com/4911/33067258758_a405ceba1d.jpg&quot; width=&quot;266&quot; height=&quot;500&quot; alt=&quot;The current plan is to make this 200x200px graphic the left leg of a pair of tights from artofwhere/zazzle and the 100x100 graphic: https://flic.kr/p/2d4wp92 the right leg of the tights 2019-01-31-05-36-oily-200x200-out&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;and the following 100x100 graphic (colophon: &lt;code&gt;cat ../originals.txt | ../oily-100x100px-zazzle-leg.rb&lt;/code&gt;`) the right leg of the tights &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/45984854445/&quot; title=&quot;2019-01-27-15-03-interim-100x100-oily-out-row-6300&quot;&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7852/45984854445_6f3de791f2.jpg&quot; width=&quot;266&quot; height=&quot;500&quot; alt=&quot;2019-01-27-15-03-interim-100x100-oily-out-row-6300&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 31 Jan 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/01/31/p1-left-leg-200px-right-leg-100px/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/01/31/p1-left-leg-200px-right-leg-100px/</guid>
         
         
       </item>
