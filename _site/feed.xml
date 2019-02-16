@@ -6,9 +6,32 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 15 Feb 2019 00:36:48 -0800</pubDate>
-    <lastBuildDate>Fri, 15 Feb 2019 00:36:48 -0800</lastBuildDate>
+    <pubDate>Fri, 15 Feb 2019 21:43:58 -0800</pubDate>
+    <lastBuildDate>Fri, 15 Feb 2019 21:43:58 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Using mlr aka miller to combine selected fields from multiple CSV files</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I think it&amp;#39;s worth pulling out the &lt;a href=&quot;https://github.com/johnkerl/miller&quot;&gt;miller aka mlr&lt;/a&gt; bits from &lt;a href=&quot;http://rolandtanglao.com/2019/02/10/p1-users-dont-know-antivirus-is-breaking-firefox-and-it-not-obvious-when-it-does/&quot;&gt;Users don&amp;#39;t know when their antivirus breaks Firefox and it&amp;#39;s not obvious to them so they don&amp;#39;t mention it in their support requests&lt;/a&gt; because combining selected fields CSV files is a common thing to do:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;mlr &lt;span class=&quot;nt&quot;&gt;--csv&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;cut&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-x&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt;  &lt;span class=&quot;s1&quot;&gt;'product,topic,tags'&lt;/span&gt;  firefox&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.csv &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; ff58-65-id-created-title-content-firefoxversion-1streleaseweek-day.csv
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;where:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;product, topic, tags&lt;/code&gt; are the fields to cut out&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;firefox*.csv&lt;/code&gt; are the CSV files to combine&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 15 Feb 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/02/15/p1-using-miller-aka-mlr-to-combine-selected-fields-from-a-csv-file/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/02/15/p1-using-miller-aka-mlr-to-combine-selected-fields-from-a-csv-file/</guid>
+        
+        
+      </item>
     
       <item>
         <title>R Studio Conf Keynote Day 2 - Explicit Direct Instruction in Programming Education - Felienne  aka 'It's 2019 read code out loud to teach coding'</title>
@@ -192,21 +215,6 @@ make
         <pubDate>Mon, 04 Feb 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/02/04/p1-python-script-to-make-mosaics/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/02/04/p1-python-script-to-make-mosaics/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Make Vancouver print all over shirt idea: left: 100px right 200 px</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Inspired by &lt;a href=&quot;http://rolandtanglao.com/2019/02/02/p1-buy-my-kennedy-space-center-tshirt-from-zazzle-ca/&quot;&gt;yesterday&amp;#39;s tshirt&lt;/a&gt; and a visit to Granville Island how about a &lt;a href=&quot;https://www.makevancouver.com/products/mighty-print-unisex-t-shirt&quot;&gt;Make Vancouver&lt;/a&gt; &amp;quot;print all over&amp;quot; thshirt with 100px on the left, 200 px on the right?&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 03 Feb 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/02/03/p1-make-vancouver-left-100px-right-200px/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/02/03/p1-make-vancouver-left-100px-right-200px/</guid>
         
         
       </item>
