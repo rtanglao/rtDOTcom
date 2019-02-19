@@ -6,9 +6,29 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 15 Feb 2019 21:43:58 -0800</pubDate>
-    <lastBuildDate>Fri, 15 Feb 2019 21:43:58 -0800</lastBuildDate>
+    <pubDate>Mon, 18 Feb 2019 22:13:47 -0800</pubDate>
+    <lastBuildDate>Mon, 18 Feb 2019 22:13:47 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Don't be selfish folks, cafes are not designed for customers to take up more than one person width</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;To all the folks at Match, Lucky&amp;#39;s and basically every cafe in Vancouver:
+
+&lt;ul&gt;
+&lt;li&gt;&amp;quot;Don&amp;#39;t be selfish folks, cafes are not designed for customers to take up more than one person width&amp;quot;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;I want to trigger a random sound bite from an invisible :-) speaker that says &amp;quot;don&amp;#39;t be shellfish :-)&amp;quot;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 18 Feb 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/02/18/p1-do-not-be-selfish-cafes-are-not-designed-for-space-larger-than-the-width-of-one-human/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/02/18/p1-do-not-be-selfish-cafes-are-not-designed-for-space-larger-than-the-width-of-one-human/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Using mlr aka miller to combine selected fields from multiple CSV files</title>
@@ -200,21 +220,6 @@ make
         <pubDate>Wed, 06 Feb 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/02/06/p1-actual-makevancouver-shirt/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/02/06/p1-actual-makevancouver-shirt/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Photomosaic Image Builder: codebox/mosaic in python</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/codebox/mosaic&quot;&gt;Photomosaic Image Builder: codebox/mosaic in python&lt;/a&gt;. Found via kip, might be useful if I can find an image  of &lt;a href=&quot;http://rolandtanglao.com/2019/01/28/p1-green-tan-white-camoflage-from-vancouver-flickr-pictures/&quot;&gt;white, green and tan camo&lt;/a&gt; to use this with that image.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 04 Feb 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/02/04/p1-python-script-to-make-mosaics/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/02/04/p1-python-script-to-make-mosaics/</guid>
         
         
       </item>
