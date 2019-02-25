@@ -6,9 +6,31 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 23 Feb 2019 19:08:48 -0800</pubDate>
-    <lastBuildDate>Sat, 23 Feb 2019 19:08:48 -0800</lastBuildDate>
+    <pubDate>Sun, 24 Feb 2019 23:20:59 -0800</pubDate>
+    <lastBuildDate>Sun, 24 Feb 2019 23:20:59 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>get-set-photo-metadata.rb - Ruby code to download metadata from a  flickr set of photos i.e an album</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;To use &lt;a href=&quot;https://github.com/rtanglao/for-jmv-pm-photos/blob/master/get-set-photo-metadata.rb&quot;&gt;get-set-photo-metadata.rb&lt;/a&gt;, first setup mongoddb&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /home/roland/GIT/for-jmv-pm-photos
+&lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt; ./setupFlickrjmvpmDB
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;and then specify two parameters: the flickr alphanumeric userid and the flickr set id&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;./get-set-photo-metadata.rb 36896321@N08 72157622068072145
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        <pubDate>Sun, 24 Feb 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/02/24/p1-retrieve-public-flickr-photoset/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/02/24/p1-retrieve-public-flickr-photoset/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Payak 2019: 1 hour 29 minutes (skate), Payak 2018: 1:40  (skate) Payak 2017: 1:25 (classic)</title>
@@ -199,38 +221,6 @@ mlr &lt;span class=&quot;nt&quot;&gt;--csv&lt;/span&gt; &lt;span class=&quot;nb&
         <pubDate>Sun, 10 Feb 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/02/10/p1-users-dont-know-antivirus-is-breaking-firefox-and-it-not-obvious-when-it-does/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/02/10/p1-users-dont-know-antivirus-is-breaking-firefox-and-it-not-obvious-when-it-does/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Installed ruby 2.6.1 on WSL with readline support so irb cursor keys work, here's how</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Basically the same as &lt;a href=&quot;https://github.com/rtanglao/rt-making-wsl-and-windows-work-for-me/blob/master/README.md#17december2018-after-re-install-of-windows-10-install-ruby-253&quot;&gt;ruby 2.5.3&lt;/a&gt; but I changed &lt;code&gt;2.5.3&lt;/code&gt; to &lt;code&gt;2.6.1&lt;/code&gt; and installed &lt;code&gt;libreadline-dev&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; libreadline-dev
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;build-essential
-&lt;span class=&quot;nb&quot;&gt;cd
-&lt;/span&gt;wget http://ftp.ruby-lang.org/pub/ruby/2.6/ruby-2.6.1.tar.gz
-&lt;span class=&quot;nb&quot;&gt;tar&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-xzvf&lt;/span&gt; ruby-2.6.1.tar.gz
-&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;ruby-2.6.1/
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;zlib1g-dev
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get upgrade &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;libssl-dev
-./configure
-make
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;make &lt;span class=&quot;nb&quot;&gt;install
-&lt;/span&gt;ruby &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;gem update &lt;span class=&quot;nt&quot;&gt;--system&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;jekyll bundler
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;redcarpet
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        <pubDate>Sat, 09 Feb 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/02/09/p1-installed-ruby-2-6-1-readline-support-for-irb/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/02/09/p1-installed-ruby-2-6-1-readline-support-for-irb/</guid>
         
         
       </item>
