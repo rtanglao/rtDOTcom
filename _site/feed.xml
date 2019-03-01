@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 26 Feb 2019 22:36:02 -0800</pubDate>
-    <lastBuildDate>Tue, 26 Feb 2019 22:36:02 -0800</lastBuildDate>
+    <pubDate>Thu, 28 Feb 2019 21:01:37 -0800</pubDate>
+    <lastBuildDate>Thu, 28 Feb 2019 21:01:37 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Anybody want to help document the undocumented Kitsune aka 'the system that powers support.mozilla.org'  REST APIs on readthedocs?</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/mozilla/kitsune/issues/3475&quot;&gt;Anybody want to help document the undocumented Kitsune aka &amp;#39;the system that powers support.mozilla.org&amp;#39;  REST APIs on readthedocs&lt;/a&gt;?&lt;/li&gt;
+&lt;li&gt;I can help you if you have questions :-) since I have used the &lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/get-sumo-firefox-questions-from-api.rb&quot;&gt;undocumented questions API&lt;/a&gt; for many moons now :-)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 28 Feb 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/02/28/p1-anybody-want-to-document-undocumented-mozilla-support-sumo-rest-apis/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/02/28/p1-anybody-want-to-document-undocumented-mozilla-support-sumo-rest-apis/</guid>
+        
+        
+      </item>
     
       <item>
         <title>When you get a flickr photo using the search API or the photoset API, you can't determine which photoset it is in by setting a field in extras</title>
@@ -19,120 +35,117 @@
 &lt;li&gt;Therefore I think it&amp;#39;s best to add a field e.g. &lt;code&gt;synthetic_photos_sets_array&lt;/code&gt; which is an array of photoset ids that this photo belongs to.&lt;/li&gt;
 &lt;li&gt;Interestingly enough , the certificate for code.flickr.net is broken so here is the 2008 (! still works in 2019!) blog post content for posterity&amp;#39;s sake (and when the cert 100% breaks)&lt;/li&gt;
 &lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;Funny story. I went to write a blog post and when the time came to link to the documentation of our standard “standard photos response” structure, I found we had never documented it!
 
-&lt;p&gt;&lt;code&gt;
-Funny story. I went to write a blog post and when the time came to link to the documentation of our standard “standard photos response” structure, I found we had never documented it!&lt;/p&gt;
+Okay. Maybe that wasn’t so funny.
 
-&lt;p&gt;Okay. Maybe that wasn’t so funny.&lt;/p&gt;
+But anyway, this is the blog post before that other blog post, so that when I write that other blog post I’ve got something to point to.
 
-&lt;p&gt;But anyway, this is the blog post before that other blog post, so that when I write that other blog post I’ve got something to point to.&lt;/p&gt;
+And besides you should know this stuff if you’re using the API. It’s good stuff.
+Standard Photos Response
 
-&lt;p&gt;And besides you should know this stuff if you’re using the API. It’s good stuff.
-Standard Photos Response&lt;/p&gt;
+The standard photos response is a data structure that we use when we want to return a list of photos. Most prominently the ever popular swiss-army-API flickr.photos.search() uses it, but also methods like flickr.favorites.getList() or flickr.groups.pools.getPhotos().
 
-&lt;p&gt;The standard photos response is a data structure that we use when we want to return a list of photos. Most prominently the ever popular swiss-army-API flickr.photos.search() uses it, but also methods like flickr.favorites.getList() or flickr.groups.pools.getPhotos().&lt;/p&gt;
+Beyond a common structure that gets serialized across all our different API response formats, standard photos response methods share a common set of arguments for sorting and paging (after all these are lists of photos), and the special extras argument.
+Standard Photo Response, the XML Serialization
 
-&lt;p&gt;Beyond a common structure that gets serialized across all our different API response formats, standard photos response methods share a common set of arguments for sorting and paging (after all these are lists of photos), and the special extras argument.
-Standard Photo Response, the XML Serialization&lt;/p&gt;
+You’re basic standard photos response looks like this. It’s just an envelope for delivering a list of photos.
 
-&lt;p&gt;You’re basic standard photos response looks like this. It’s just an envelope for delivering a list of photos.&lt;/p&gt;
+&amp;lt;rsp stat=&quot;ok&quot;&amp;gt;
+  &amp;lt;photos page=&quot;1&quot; pages=&quot;7&quot; perpage=&quot;100&quot; total=&quot;608&quot;&amp;gt;
+    &amp;lt;photo id=&quot;2777191844&quot; owner=&quot;51035734193@N01&quot; secret=&quot;653a19d017&quot; server=&quot;3059&quot; farm=&quot;4&quot; title=&quot;FAIL&quot; ispublic=&quot;1&quot; isfriend=&quot;0&quot; isfamily=&quot;0&quot;/&amp;gt;
+    &amp;lt;photo id=&quot;2771521705&quot; owner=&quot;51035734193@N01&quot; secret=&quot;1878507379&quot; server=&quot;3178&quot; farm=&quot;4&quot; title=&quot;In the street&quot; ispublic=&quot;1&quot; isfriend=&quot;0&quot; isfamily=&quot;0&quot;/&amp;gt;
+  &amp;lt;/photos&amp;gt;
+&amp;lt;/rsp&amp;gt;
 
-&lt;p&gt;&lt;rsp stat=&quot;ok&quot;&gt;
-  &lt;photos page=&quot;1&quot; pages=&quot;7&quot; perpage=&quot;100&quot; total=&quot;608&quot;&gt;
-    &lt;photo id=&quot;2777191844&quot; owner=&quot;51035734193@N01&quot; secret=&quot;653a19d017&quot; server=&quot;3059&quot; farm=&quot;4&quot; title=&quot;FAIL&quot; ispublic=&quot;1&quot; isfriend=&quot;0&quot; isfamily=&quot;0&quot;/&gt;
-    &lt;photo id=&quot;2771521705&quot; owner=&quot;51035734193@N01&quot; secret=&quot;1878507379&quot; server=&quot;3178&quot; farm=&quot;4&quot; title=&quot;In the street&quot; ispublic=&quot;1&quot; isfriend=&quot;0&quot; isfamily=&quot;0&quot;/&gt;
-  &lt;/photos&gt;
-&lt;/rsp&gt;&lt;/p&gt;
+We’ve got the standard Flickr &amp;lt;rsp&amp;gt; root element, a &amp;lt;photos&amp;gt; container describing the full list and the page we’re on, and some &amp;lt;photo&amp;gt; elements that include everything we need to display a photo.
 
-&lt;p&gt;We’ve got the standard Flickr &lt;rsp&gt; root element, a &lt;photos&gt; container describing the full list and the page we’re on, and some &lt;photo&gt; elements that include everything we need to display a photo.&lt;/p&gt;
+Another largely undocumented deep structure in the Flickr API is a distinction between getList() and getInfo() methods. We tend to return a pared down list of identifiers, and provide methods for getting more info about individual items. Generally it’s a very useful pattern, and saves us all bandwidth, processing, and data rot.
 
-&lt;p&gt;Another largely undocumented deep structure in the Flickr API is a distinction between getList() and getInfo() methods. We tend to return a pared down list of identifiers, and provide methods for getting more info about individual items. Generally it’s a very useful pattern, and saves us all bandwidth, processing, and data rot.&lt;/p&gt;
+However sometimes (often?) you’re wanting to display a bunch of photos, and having to roundtrip to call flickr.photos.getInfo() for every single one of them is annoying. (not to mention slow, and likely to get you frowned upon by our ops team)
 
-&lt;p&gt;However sometimes (often?) you’re wanting to display a bunch of photos, and having to roundtrip to call flickr.photos.getInfo() for every single one of them is annoying. (not to mention slow, and likely to get you frowned upon by our ops team)&lt;/p&gt;
+That’s where extras come in. The idea behind extras is you can selectively enrich the bare bones list I showed you earlier with the metadata you need to display your bunch of photos, without the round trip, and without fetching more then you’ll need.
 
-&lt;p&gt;That’s where extras come in. The idea behind extras is you can selectively enrich the bare bones list I showed you earlier with the metadata you need to display your bunch of photos, without the round trip, and without fetching more then you’ll need.&lt;/p&gt;
+There are currently 13 different extras available, and we add new ones periodically as new concepts come online, or you make a compelling enough case for them.
 
-&lt;p&gt;There are currently 13 different extras available, and we add new ones periodically as new concepts come online, or you make a compelling enough case for them.&lt;/p&gt;
+As of today they are: license, date_upload, date_taken, owner_name, icon_server, original_format, last_update, geo, tags, machine_tags, o_dims, views, media.
+license
 
-&lt;p&gt;As of today they are: license, date&lt;em&gt;upload, date&lt;/em&gt;taken, owner&lt;em&gt;name, icon&lt;/em&gt;server, original&lt;em&gt;format, last&lt;/em&gt;update, geo, tags, machine&lt;em&gt;tags, o&lt;/em&gt;dims, views, media.
-license&lt;/p&gt;
+Is the photo “All rights reversed”? Licensed under one of the CC license?
 
-&lt;p&gt;Is the photo “All rights reversed”? Licensed under one of the CC license?&lt;/p&gt;
-
-&lt;p&gt;&lt;photo id=&quot;2777191844&quot; owner=&quot;51035734193@N01&quot; secret=&quot;653a19d017&quot;
+&amp;lt;photo id=&quot;2777191844&quot; owner=&quot;51035734193@N01&quot; secret=&quot;653a19d017&quot;
  server=&quot;3059&quot; farm=&quot;4&quot; title=&quot;FAIL&quot; ispublic=&quot;1&quot; isfriend=&quot;0&quot; isfamily=&quot;0&quot; 
- license=&quot;3&quot;/&gt;&lt;/p&gt;
+ license=&quot;3&quot;/&amp;gt;
 
-&lt;p&gt;license=”3” means Attribution-NonCommercial-NoDerivs, you can get our mappings with flickr.photos.licenses.getInfo().
-date&lt;em&gt;upload, date&lt;/em&gt;taken, last_update&lt;/p&gt;
+license=”3” means Attribution-NonCommercial-NoDerivs, you can get our mappings with flickr.photos.licenses.getInfo().
+date_upload, date_taken, last_update
 
-&lt;p&gt;When was the photo uploaded to Flickr? When do we think it was taken? When was its metadata last twiddled?&lt;/p&gt;
+When was the photo uploaded to Flickr? When do we think it was taken? When was its metadata last twiddled?
 
-&lt;p&gt;&lt;photo id=&quot;2772368826&quot; owner=&quot;51035734193@N01&quot; secret=&quot;1078392104&quot;
+&amp;lt;photo id=&quot;2772368826&quot; owner=&quot;51035734193@N01&quot; secret=&quot;1078392104&quot;
  server=&quot;3122&quot; farm=&quot;4&quot;       title=&quot;Finger on the button&quot; ispublic=&quot;1&quot; isfriend=&quot;0&quot; isfamily=&quot;0&quot;
  license=&quot;3&quot;  dateupload=&quot;1219006901&quot; datetaken=&quot;2008-08-17 12:38:06&quot; 
-datetakengranularity=&quot;0&quot;     lastupdate=&quot;1219117103&quot;/&gt;&lt;/p&gt;
+datetakengranularity=&quot;0&quot;     lastupdate=&quot;1219117103&quot;/&amp;gt;
 
-&lt;p&gt;Yes the extras param is called date&lt;em&gt;upload the attribute is dateupload, what can I say, legacy. Notice also that dateupload and lastupdate are epoch seconds, while datetakengranularity is probably best ignored.
-owner&lt;/em&gt;name and icon_server&lt;/p&gt;
+Yes the extras param is called date_upload the attribute is dateupload, what can I say, legacy. Notice also that dateupload and lastupdate are epoch seconds, while datetakengranularity is probably best ignored.
+owner_name and icon_server
 
-&lt;p&gt;Everything you need to properly credit the photographer, including their name, and the info necessary to display their buddyicon.&lt;/p&gt;
+Everything you need to properly credit the photographer, including their name, and the info necessary to display their buddyicon.
 
-&lt;p&gt;&lt;photo id=&quot;2772368826&quot; owner=&quot;51035734193@N01&quot; secret=&quot;1078392104&quot; 
+&amp;lt;photo id=&quot;2772368826&quot; owner=&quot;51035734193@N01&quot; secret=&quot;1078392104&quot; 
 server=&quot;3122&quot; farm=&quot;4&quot; title=&quot;Finger on the button&quot; ispublic=&quot;1&quot; isfriend=&quot;0&quot; isfamily=&quot;0&quot; 
-ownername=&quot;kellan&quot; iconserver=&quot;54&quot; iconfarm=&quot;1&quot;/&gt;&lt;/p&gt;
+ownername=&quot;kellan&quot; iconserver=&quot;54&quot; iconfarm=&quot;1&quot;/&amp;gt;
 
-&lt;p&gt;geo&lt;/p&gt;
+geo
 
-&lt;p&gt;If the photo was geotagged include the latitude, longitude, and accuracy of the geotagging.&lt;/p&gt;
+If the photo was geotagged include the latitude, longitude, and accuracy of the geotagging.
 
-&lt;p&gt;&lt;photo id=&quot;2772368826&quot; owner=&quot;51035734193@N01&quot; secret=&quot;1078392104&quot; 
+&amp;lt;photo id=&quot;2772368826&quot; owner=&quot;51035734193@N01&quot; secret=&quot;1078392104&quot; 
 server=&quot;3122&quot; farm=&quot;4&quot; title=&quot;Finger on the button&quot; ispublic=&quot;1&quot; isfriend=&quot;0&quot; isfamily=&quot;0&quot; 
-latitude=&quot;40.714666&quot; longitude=&quot;73.957333&quot; accuracy=&quot;16&quot;/&gt;&lt;/p&gt;
+latitude=&quot;40.714666&quot; longitude=&quot;73.957333&quot; accuracy=&quot;16&quot;/&amp;gt;
 
-&lt;p&gt;tags and machine_tags&lt;/p&gt;
+tags and machine_tags
 
-&lt;p&gt;Note these are the “clean” versions of the tags and machine tags, which means spaces, and most punctuation will have been stripped.  Safe to display in HTML, and useable as URL fragments.&lt;/p&gt;
+Note these are the “clean” versions of the tags and machine tags, which means spaces, and most punctuation will have been stripped.  Safe to display in HTML, and useable as URL fragments.
 
-&lt;p&gt;&lt;photo id=&quot;2772368826&quot; owner=&quot;51035734193@N01&quot; secret=&quot;1078392104&quot; 
+&amp;lt;photo id=&quot;2772368826&quot; owner=&quot;51035734193@N01&quot; secret=&quot;1078392104&quot; 
 server=&quot;3122&quot; farm=&quot;4&quot; title=&quot;Finger on the button&quot; ispublic=&quot;1&quot; isfriend=&quot;0&quot; isfamily=&quot;0&quot; 
 tags=&quot;nyc streetart williamsburg ph:camera=iphone3g&quot; 
-machine_tags=&quot;ph:camera=iphone3g&quot;/&gt;&lt;/p&gt;
+machine_tags=&quot;ph:camera=iphone3g&quot;/&amp;gt;
 
-&lt;p&gt;original&lt;em&gt;format and o&lt;/em&gt;dims&lt;/p&gt;
+original_format and o_dims
 
-&lt;p&gt;Assuming you’re making API calls as a member who is authorized to download a photo (e.g. the photographer) you can ask for details about the unmodified, full resolution photo that was uploaded.  Get the original file format, the secret needed to construct the URL to the photo, and what the original’s dimensions are.&lt;/p&gt;
+Assuming you’re making API calls as a member who is authorized to download a photo (e.g. the photographer) you can ask for details about the unmodified, full resolution photo that was uploaded.  Get the original file format, the secret needed to construct the URL to the photo, and what the original’s dimensions are.
 
-&lt;p&gt;&lt;photo id=&quot;2772368826&quot; owner=&quot;51035734193@N01&quot; secret=&quot;1078392104&quot; 
+&amp;lt;photo id=&quot;2772368826&quot; owner=&quot;51035734193@N01&quot; secret=&quot;1078392104&quot; 
 server=&quot;3122&quot; farm=&quot;4&quot; title=&quot;Finger on the button&quot; ispublic=&quot;1&quot; isfriend=&quot;0&quot; isfamily=&quot;0&quot; 
 originalsecret=&quot;xxxxxxxx&quot; originalformat=&quot;jpg&quot; o_width=&quot;1200&quot; 
-o_height=&quot;1600&quot;/&gt;&lt;/p&gt;
+o_height=&quot;1600&quot;/&amp;gt;
 
-&lt;p&gt;views&lt;/p&gt;
+views
 
-&lt;p&gt;How many times has this photo been viewed by folks other then the person who uploaded it?&lt;/p&gt;
+How many times has this photo been viewed by folks other then the person who uploaded it?
 
-&lt;p&gt;&lt;photo id=&quot;2772368826&quot; owner=&quot;51035734193@N01&quot; secret=&quot;1078392104&quot; 
+&amp;lt;photo id=&quot;2772368826&quot; owner=&quot;51035734193@N01&quot; secret=&quot;1078392104&quot; 
 server=&quot;3122&quot; farm=&quot;4&quot; title=&quot;Finger on the button&quot; ispublic=&quot;1&quot; isfriend=&quot;0&quot; isfamily=&quot;0&quot; 
-views=&quot;9&quot;/&gt;&lt;/p&gt;
+views=&quot;9&quot;/&amp;gt;
 
-&lt;p&gt;media&lt;/p&gt;
+media
 
-&lt;p&gt;Is it a photo? Or a video? Has it been processed and is it ready for displaying? (media_status is a lot more useful for videos)&lt;/p&gt;
+Is it a photo? Or a video? Has it been processed and is it ready for displaying? (media_status is a lot more useful for videos)
 
-&lt;p&gt;&lt;photo id=&quot;2771521705&quot; owner=&quot;51035734193@N01&quot; secret=&quot;1878507379&quot; 
+&amp;lt;photo id=&quot;2771521705&quot; owner=&quot;51035734193@N01&quot; secret=&quot;1878507379&quot; 
 server=&quot;3178&quot; farm=&quot;4&quot; title=&quot;In the street&quot; ispublic=&quot;1&quot; isfriend=&quot;0&quot; isfamily=&quot;0&quot; 
-media=&quot;photo&quot; media_status=&quot;ready&quot;/&gt;&lt;/p&gt;
+media=&quot;photo&quot; media_status=&quot;ready&quot;/&amp;gt;
 
-&lt;p&gt;Wow. What a list. Really, what more could anyone ever want? (that’s rhetorical)
-The punch line&lt;/p&gt;
+Wow. What a list. Really, what more could anyone ever want? (that’s rhetorical)
+The punch line
 
-&lt;p&gt;That’s standard photos responses, and how to use extras (paging and sorting is left as an exercise to the reader). Mastering the format is the key to building both interesting and performant API applications. use the metadata, love the metadata, and ditch the round trip.&lt;/p&gt;
+That’s standard photos responses, and how to use extras (paging and sorting is left as an exercise to the reader). Mastering the format is the key to building both interesting and performant API applications. use the metadata, love the metadata, and ditch the round trip.
 
-&lt;p&gt;And now for the that next blog post I mentioned ….&lt;/p&gt;
+And now for the that next blog post I mentioned ….
 
-&lt;p&gt;&lt;/code&gt;&lt;/p&gt;
-</description>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
         <pubDate>Tue, 26 Feb 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/02/26/p1-flickr-extras-in-the-flickr-api-does-not-have-an-albums-field/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/02/26/p1-flickr-extras-in-the-flickr-api-does-not-have-an-albums-field/</guid>
@@ -292,24 +305,6 @@ The punch line&lt;/p&gt;
         <pubDate>Thu, 14 Feb 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/02/14/p1-rstudio-conf-2019-keynote-day2-explicit-direct-instruction-programming-education-Felienne/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/02/14/p1-rstudio-conf-2019-keynote-day2-explicit-direct-instruction-programming-education-Felienne/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Prediction: Current Podcast 'boom' :-) will end before the end of 2020</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Just like blogging everybody does it because it&amp;#39;s once again popular like you know back in the naughty naughts i.e. the 2000s.&lt;/li&gt;
-&lt;li&gt;But just like blogging, you gotta really love it to sustain it and you gotta do the work, vlogging, blogging, podcasting, etc etc become hard (but fun :-) !) work akin to an artist&amp;#39;s daily practice over time! And not everybody can be popular, influential or perfect like NPR and CBC so if that&amp;#39;s what you are in for you will exit just like the podcasters did in the 2000s.&lt;/li&gt;
-&lt;li&gt;Hope I&amp;#39;m wrong :-)&lt;/li&gt;
-&lt;li&gt;But I think I&amp;#39;m not; I think voice, video, text, pictures will just be content types for everyone&amp;#39;s personal published stuff and few people will do it on any sort of regular schedule or artistic practice and that&amp;#39;s ok!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 13 Feb 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/02/13/p1-prediction-podcast-boom-ends-before-end-2020/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/02/13/p1-prediction-podcast-boom-ends-before-end-2020/</guid>
         
         
       </item>
