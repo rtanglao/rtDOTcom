@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 28 Feb 2019 21:01:37 -0800</pubDate>
-    <lastBuildDate>Thu, 28 Feb 2019 21:01:37 -0800</lastBuildDate>
+    <pubDate>Fri, 01 Mar 2019 20:11:04 -0800</pubDate>
+    <lastBuildDate>Fri, 01 Mar 2019 20:11:04 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Weird Windows 10 Black Screen of Death after signin fixed by resetting network in Windows 10 safe mode</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Weird! Never seen anything like this on Mac.&lt;/li&gt;
+&lt;li&gt;And this was unexpected because I assumed these sorts of (wifi driver related?) shenanigans wouldn&amp;#39;t happen since Microsoft makes the computer and the OS.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 01 Mar 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/03/01/windows-black-screen-of-death-afer-login-fixed-by-resetting-networking-safe-mode/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/01/windows-black-screen-of-death-afer-login-fixed-by-resetting-networking-safe-mode/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Anybody want to help document the undocumented Kitsune aka 'the system that powers support.mozilla.org'  REST APIs on readthedocs?</title>
@@ -290,21 +306,6 @@ And now for the that next blog post I mentioned ….
         <pubDate>Fri, 15 Feb 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/02/15/p1-using-miller-aka-mlr-to-combine-selected-fields-from-a-csv-file/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/02/15/p1-using-miller-aka-mlr-to-combine-selected-fields-from-a-csv-file/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>R Studio Conf Keynote Day 2 - Explicit Direct Instruction in Programming Education - Felienne  aka 'It's 2019 read code out loud to teach coding'</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Amazing, explicit strategies for reading code and reading code out loud! Watch the whole thing: &lt;a href=&quot;https://resources.rstudio.com/rstudio-conf-2019/opening-keynote-day2&quot;&gt;R Studio Conf Keynote Day 2 - Explicit Direct Instruction in Programming Education - Felienne&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 14 Feb 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/02/14/p1-rstudio-conf-2019-keynote-day2-explicit-direct-instruction-programming-education-Felienne/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/02/14/p1-rstudio-conf-2019-keynote-day2-explicit-direct-instruction-programming-education-Felienne/</guid>
         
         
       </item>
