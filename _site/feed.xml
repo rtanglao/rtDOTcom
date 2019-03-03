@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 03 Mar 2019 00:28:18 -0800</pubDate>
-    <lastBuildDate>Sun, 03 Mar 2019 00:28:18 -0800</lastBuildDate>
+    <pubDate>Sun, 03 Mar 2019 08:31:00 -0800</pubDate>
+    <lastBuildDate>Sun, 03 Mar 2019 08:31:00 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Again! Weird Windows 10 Black Screen of Death after signin fixed by resetting network in Windows 10 safe mode</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Again (&lt;a href=&quot;http://rolandtanglao.com/2019/03/01/windows-black-screen-of-death-afer-login-fixed-by-resetting-networking-safe-mode/&quot;&gt;last time was Friday&lt;/a&gt;) Weird! Never seen anything like this on Mac.&lt;/li&gt;
+&lt;li&gt;Again, this is unexpected because I assumed these sorts of (wifi driver related?) shenanigans wouldn&amp;#39;t happen since Microsoft makes the computer and the OS.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 03 Mar 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/03/03/p1-again-windows-black-screen-of-death-afer-login-fixed-by-resetting-networking-safe-mode/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/03/p1-again-windows-black-screen-of-death-afer-login-fixed-by-resetting-networking-safe-mode/</guid>
+        
+        
+      </item>
     
       <item>
         <title>It's March 2, 2019: has the current podcast boom busted yet?</title>
@@ -279,26 +295,6 @@ And now for the that next blog post I mentioned ….
         <pubDate>Wed, 20 Feb 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/02/20/p1-noisify-gradient-great-for-tshirts/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/02/20/p1-noisify-gradient-great-for-tshirts/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Don't be selfish folks, cafes are not designed for customers to take up more than one person width</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;To all the folks at Match, Lucky&amp;#39;s and basically every cafe in Vancouver:
-
-&lt;ul&gt;
-&lt;li&gt;&amp;quot;Don&amp;#39;t be selfish folks, cafes are not designed for customers to take up more than one person width&amp;quot;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;I want to trigger a random sound bite from an invisible :-) speaker that says &amp;quot;don&amp;#39;t be shellfish :-)&amp;quot;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 18 Feb 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/02/18/p1-do-not-be-selfish-cafes-are-not-designed-for-space-larger-than-the-width-of-one-human/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/02/18/p1-do-not-be-selfish-cafes-are-not-designed-for-space-larger-than-the-width-of-one-human/</guid>
         
         
       </item>
