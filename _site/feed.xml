@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 03 Mar 2019 08:31:00 -0800</pubDate>
-    <lastBuildDate>Sun, 03 Mar 2019 08:31:00 -0800</lastBuildDate>
+    <pubDate>Mon, 04 Mar 2019 07:56:56 -0800</pubDate>
+    <lastBuildDate>Mon, 04 Mar 2019 07:56:56 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Perhaps the Windows black screen of death was due to a dead battery</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I noticed that my battery was dead or close to dead.&lt;/li&gt;
+&lt;li&gt;Perhaps the &lt;a href=&quot;http://rolandtanglao.com/2019/03/03/p1-again-windows-black-screen-of-death-afer-login-fixed-by-resetting-networking-safe-mode/&quot;&gt;Windows black screen of death&lt;/a&gt; was due to a dead battery due to a problem with the Surfacebook AC adapter?!? I substituted a USB-C adapter and had no problems so far.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 04 Mar 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/03/04/p1-perhaps-it-was-a-power-adapter/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/04/p1-perhaps-it-was-a-power-adapter/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Again! Weird Windows 10 Black Screen of Death after signin fixed by resetting network in Windows 10 safe mode</title>
@@ -279,22 +295,6 @@ And now for the that next blog post I mentioned ….
         <pubDate>Thu, 21 Feb 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/02/21/p1-digital-ladders-feb26-feb27/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/02/21/p1-digital-ladders-feb26-feb27/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Make a tshirt from Kjetil Golid's fabulous Noisify (via Flowing Data)?</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Make a tshirt from &lt;a href=&quot;https://generated.space/sketch/noisify/&quot;&gt;Kjetil Golid&amp;#39;s Noisify&lt;/a&gt; via &lt;a href=&quot;https://flowingdata.com/2019/02/12/generate-a-noise-field-from-an-image/&quot;&gt;Flowing Data&lt;/a&gt;?&lt;/li&gt;
-&lt;li&gt;Maybe run this web app from my Mac? &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 20 Feb 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/02/20/p1-noisify-gradient-great-for-tshirts/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/02/20/p1-noisify-gradient-great-for-tshirts/</guid>
         
         
       </item>
