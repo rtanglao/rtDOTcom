@@ -6,9 +6,29 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 04 Mar 2019 07:56:56 -0800</pubDate>
-    <lastBuildDate>Mon, 04 Mar 2019 07:56:56 -0800</lastBuildDate>
+    <pubDate>Tue, 05 Mar 2019 21:46:55 -0800</pubDate>
+    <lastBuildDate>Tue, 05 Mar 2019 21:46:55 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>The Windows black screen of death is due to a known problem with the Surface power adapter I believe: it can't supply 60W so it can't charge enough to charge and run the Surfacebook simultaneously when the battery is &lt; 10% </title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;See &lt;a href=&quot;http://rolandtanglao.com/2019/03/04/p1-perhaps-it-was-a-power-adapter/&quot;&gt;March 4, 2019&amp;#39;s Perhaps the Windows black screen of death was due to a dead battery&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;My guess: The Windows black screen of death is due to a known problem with the Surface power adapter I believe: it can&amp;#39;t supply 60W so it can&amp;#39;t charge enough to charge and run the Surfacebook simultaneously when the battery is &amp;lt; 10%
+
+&lt;ul&gt;
+&lt;li&gt;Based on &amp;quot;If the battery is drained, and the charger you’re using uses 60 watts or more, your Surface will instantly turn on when you plug it in. If you’re using a charger that uses less than 60 watts, your Surface must charge to 10% before it will turn on.&amp;quot; from &lt;a href=&quot;https://support.microsoft.com/en-ca/help/4023536/surface-surface-battery-wont-charge&quot;&gt;Surface battery won’t charge or Surface won’t run on battery on Windows 10&lt;/a&gt;, it&amp;#39;s my guess that the Surface Book 2 power adapter doesn&amp;#39;t supply 60W (since when the battery is &amp;lt; 10% and you try to use the Surface Book 2 adapter, the battery doesn&amp;#39;t go above 10% while with a 60W USB-C charge the battery &lt;em&gt;does&lt;/em&gt; go to above 10%)!!!!! Wow, hope my guess is wrong!&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 05 Mar 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/03/05/p1-known-problem-with-surface-power-adapter/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/05/p1-known-problem-with-surface-power-adapter/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Perhaps the Windows black screen of death was due to a dead battery</title>
@@ -276,25 +296,6 @@ And now for the that next blog post I mentioned ….
         <pubDate>Sat, 23 Feb 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/02/23/p1-payak-2019-129/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/02/23/p1-payak-2019-129/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Teaching Digital Ladders February 25-26, 2019 to Arts folks</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;From the &amp;quot;This is going to be fun&amp;quot; department:
-
-&lt;ul&gt;
-&lt;li&gt;I am one of the &lt;a href=&quot;https://www.digitalladders.ca/who-we-are&quot;&gt;faculty&lt;/a&gt; who will be teaching (more like dis-coordinating in the best positive sense! you know like &lt;a href=&quot;https://cogdogblog.com/&quot;&gt;cogdog&lt;/a&gt;, &lt;a href=&quot;https://abject.ca/about/&quot;&gt;Brian Lamb&amp;#39;s abject learning&lt;/a&gt; or &lt;a href=&quot;https://darcynorman.net/&quot;&gt;D&amp;#39;arcy Norman&lt;/a&gt;) &lt;a href=&quot;https://www.digitalladders.ca/&quot;&gt;Digital Ladders&lt;/a&gt; &lt;a href=&quot;https://www.digitalladders.ca/workshops&quot;&gt;Workshops&lt;/a&gt; February 25-26, 2019 to arts folks who are unencumbered by large amounts of digital knowledge :-). It&amp;#39;s going to be fun brainstorming and helping arts folks fill in their digital knowledge. Can&amp;#39;t wait!&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 21 Feb 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/02/21/p1-digital-ladders-feb26-feb27/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/02/21/p1-digital-ladders-feb26-feb27/</guid>
         
         
       </item>
