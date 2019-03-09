@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 07 Mar 2019 07:26:00 -0800</pubDate>
-    <lastBuildDate>Thu, 07 Mar 2019 07:26:00 -0800</lastBuildDate>
+    <pubDate>Fri, 08 Mar 2019 23:59:34 -0800</pubDate>
+    <lastBuildDate>Fri, 08 Mar 2019 23:59:34 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Use Martin Krzywinski's colorsnap utility to create green, black, white, and pink camo from multiple images?!?</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Use &lt;a href=&quot;http://mkweb.bcgsc.ca/color/colorsnap/DOCUMENTATION.txt&quot;&gt;Martin Krzywinski&amp;#39;s colorsnap utility&lt;/a&gt; to create green, black, white, and pink camo from multiple images?!?&lt;/li&gt;
+&lt;li&gt;Sounds like a plan! Have to test it on a few images before running it through thousands!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 08 Mar 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/03/08/p1-use-martin-krzywinski-colorsnap-perl-utility-to-make-green-black-white-pink-camo/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/08/p1-use-martin-krzywinski-colorsnap-perl-utility-to-make-green-black-white-pink-camo/</guid>
+        
+        
+      </item>
     
       <item>
         <title>The Windows black screen of death is a sleep screen? Maybe not a power issue?!</title>
@@ -27,7 +43,7 @@ If you have a keyboard connected, simultaneously press Windows logo key +Ctrl+Sh
 
 &lt;ul&gt;
 &lt;li&gt;&amp;quot;1. Press and hold the power button until the screen turns off (about 10 seconds), then release the power button.&lt;/li&gt;
-&lt;li&gt;2. Press and release the power button to turn your Surface back on. You should see the Microsoft logo.&amp;quot;&amp;quot;&lt;/li&gt;
+&lt;li&gt;2. Press and release the power button to turn your Surface back on. You should see the Microsoft logo.&amp;quot;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -277,28 +293,6 @@ And now for the that next blog post I mentioned ….
         <pubDate>Mon, 25 Feb 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/02/25/p1-i-have-written-flickr-backup-programs-twice-how-about-you/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/02/25/p1-i-have-written-flickr-backup-programs-twice-how-about-you/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>get-set-photo-metadata.rb - Ruby code to download metadata from a  flickr set of photos i.e an album</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;To use &lt;a href=&quot;https://github.com/rtanglao/for-jmv-pm-photos/blob/master/get-set-photo-metadata.rb&quot;&gt;get-set-photo-metadata.rb&lt;/a&gt;, first setup mongoddb&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /home/roland/GIT/for-jmv-pm-photos
-&lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt; ./setupFlickrjmvpmDB
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;and then specify two parameters: the flickr alphanumeric userid and the flickr set id&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;./get-set-photo-metadata.rb 36896321@N08 72157622068072145
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        <pubDate>Sun, 24 Feb 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/02/24/p1-retrieve-public-flickr-photoset/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/02/24/p1-retrieve-public-flickr-photoset/</guid>
         
         
       </item>
