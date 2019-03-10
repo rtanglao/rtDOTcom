@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 08 Mar 2019 23:59:34 -0800</pubDate>
-    <lastBuildDate>Fri, 08 Mar 2019 23:59:34 -0800</lastBuildDate>
+    <pubDate>Sun, 10 Mar 2019 09:23:29 -0700</pubDate>
+    <lastBuildDate>Sun, 10 Mar 2019 09:23:29 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>I'm sure I've overanalyzed this but I'm going to back to my Windows Surface Charger Theory because Windows Explorer crashed and my battery was at 6%</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I&amp;#39;m sure I&amp;#39;ve &lt;a href=&quot;http://rolandtanglao.com/2019/03/07/p1-windows-black-screen-is-a-low-power-screen/&quot;&gt;overanalyzed&lt;/a&gt; this but I&amp;#39;m going to back to my &lt;a href=&quot;http://rolandtanglao.com/2019/03/05/p1-known-problem-with-surface-power-adapter/&quot;&gt;Windows Surface Book 2 Charger is broken theory&lt;/a&gt; because Windows Explorer crashed and my battery was at 6% yesterday. Maybe my charger overheats or is defective and stops charging?!?!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 10 Mar 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/03/10/p1-windows-charger-stops-charging/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/10/p1-windows-charger-stops-charging/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Use Martin Krzywinski's colorsnap utility to create green, black, white, and pink camo from multiple images?!?</title>
@@ -278,21 +293,6 @@ And now for the that next blog post I mentioned ….
         <pubDate>Tue, 26 Feb 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/02/26/p1-flickr-extras-in-the-flickr-api-does-not-have-an-albums-field/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/02/26/p1-flickr-extras-in-the-flickr-api-does-not-have-an-albums-field/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>backup-originals.rb - I have written flickr backup programs like this at least twice :-) How about you :-) ?</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/for-jmv-pm-photos/blob/master/backup-originals.rb&quot;&gt;backup-originals.rb&lt;/a&gt; - I have written flickr backup programs like this at least twice :-) How about you :-) ? See &lt;a href=&quot;https://github.com/rtanglao/mongoflickrbackup/blob/gh-pages/backup75x75.rb&quot;&gt;https://github.com/rtanglao/mongoflickrbackup/blob/gh-pages/backup75x75.rb&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 25 Feb 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/02/25/p1-i-have-written-flickr-backup-programs-twice-how-about-you/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/02/25/p1-i-have-written-flickr-backup-programs-twice-how-about-you/</guid>
         
         
       </item>
