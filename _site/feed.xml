@@ -6,9 +6,39 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 11 Mar 2019 21:46:45 -0700</pubDate>
-    <lastBuildDate>Mon, 11 Mar 2019 21:46:45 -0700</lastBuildDate>
+    <pubDate>Thu, 14 Mar 2019 21:18:48 -0700</pubDate>
+    <lastBuildDate>Thu, 14 Mar 2019 21:18:48 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Downloaded Stephanie's neon and neon2 flickr galleries before the big flickr March 12, 2019 deletion</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Just in time for the &lt;a href=&quot;https://tidbits.com/2019/03/14/flickr-vows-to-not-delete-creative-commons-images-or-those-of-deceased-members/&quot;&gt;big March 12, 2019 deletion by flickr of non CC photos on free accounts and any non CC photos over 1000 on free accounts which I fully support :-) #ymmv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;See the original (or biggest available if the originals aren&amp;#39;t available) photos here: &lt;a href=&quot;https://github.com/rtanglao/neon-for-stephanie/tree/master/NEON1_ORIGINALS&quot;&gt;NEON 1&lt;/a&gt;, &lt;a href=&quot;https://github.com/rtanglao/neon-for-stephanie/tree/master/NEON2_ORIGINALS&quot;&gt;NEON2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;And the software:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/neon-for-stephanie/blob/master/add-synthetic-galleryid-get-gallery-photo-metadata.rb&quot;&gt;add-synthetic-galleryid-get-gallery-photo-metadata.rb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/neon-for-stephanie/blob/master/backup-biggest-by-galleryid.rb&quot;&gt;backup-biggest-by-galleryid.rb&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Colophon&lt;/h2&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;./add-synthetic-galleryid-get-gallery-photo-metadata.rb 72157675774023387 2&amp;gt;neon2-add-galleryid-stderr.out &amp;amp;
+./add-synthetic-galleryid-get-gallery-photo-metadata.rb 72157675752554377 2&amp;gt;neon1-add-galleryid-stderr.out &amp;amp;
+&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /home/roland/GIT/neon-for-stephanie/NEON1_ORIGINALS
+../backup-biggest-by-galleryid.rb  72157675752554377
+&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /home/roland/GIT/neon-for-stephanie/NEON2_ORIGINALS
+../backup-biggest-by-galleryid.rb  72157675774023387
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        <pubDate>Thu, 14 Mar 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/03/14/p1-backed-up-neon-galleries-before-big-flickr-deletion/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/14/p1-backed-up-neon-galleries-before-big-flickr-deletion/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How to move files newer than 60 minutes ago to another directory</title>
@@ -166,22 +196,6 @@ If you have a keyboard connected, simultaneously press Windows logo key +Ctrl+Sh
         <pubDate>Fri, 01 Mar 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/03/01/windows-black-screen-of-death-afer-login-fixed-by-resetting-networking-safe-mode/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/03/01/windows-black-screen-of-death-afer-login-fixed-by-resetting-networking-safe-mode/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Anybody want to help document the undocumented Kitsune aka 'the system that powers support.mozilla.org'  REST APIs on readthedocs?</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/mozilla/kitsune/issues/3475&quot;&gt;Anybody want to help document the undocumented Kitsune aka &amp;#39;the system that powers support.mozilla.org&amp;#39;  REST APIs on readthedocs&lt;/a&gt;?&lt;/li&gt;
-&lt;li&gt;I can help you if you have questions :-) since I have used the &lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/get-sumo-firefox-questions-from-api.rb&quot;&gt;undocumented questions API&lt;/a&gt; for many moons now :-)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 28 Feb 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/02/28/p1-anybody-want-to-document-undocumented-mozilla-support-sumo-rest-apis/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/02/28/p1-anybody-want-to-document-undocumented-mozilla-support-sumo-rest-apis/</guid>
         
         
       </item>
