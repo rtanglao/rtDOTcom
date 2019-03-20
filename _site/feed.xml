@@ -6,9 +6,37 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 17 Mar 2019 06:32:58 -0700</pubDate>
-    <lastBuildDate>Sun, 17 Mar 2019 06:32:58 -0700</lastBuildDate>
+    <pubDate>Tue, 19 Mar 2019 23:42:58 -0700</pubDate>
+    <lastBuildDate>Tue, 19 Mar 2019 23:42:58 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Kitsune Questions aka AAQ API, product == 'firefox' is desktop, 'mobile' is Firefox for android</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Just to clarify &lt;a href=&quot;http://rolandtanglao.com/2018/09/13/kitsune-question-api/&quot;&gt;Kitsune aka support.mozilla.org question API&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;product=&amp;#39;&lt;code&gt;firefox&lt;/code&gt;&amp;#39; is Firefox for desktop e.g. sample API is:
+
+&lt;ul&gt;
+&lt;li&gt; &lt;code&gt;https://support.mozilla.org/api/2/question/?format=json&amp;amp;product=firefox&amp;amp;locale=en-US&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;product=&amp;#39;&lt;code&gt;mobile&lt;/code&gt;&amp;#39; is Firefox for Android e.g. sample API is:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;https://support.mozilla.org/api/2/question/?format=json&amp;amp;product=mobile&amp;amp;locale=en-US&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 19 Mar 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/03/19/p1-kitsune-questions-aaq-api-product-firefox-desktop-product-mobile-firefox-for-android/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/19/p1-kitsune-questions-aaq-api-product-firefox-desktop-product-mobile-firefox-for-android/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Learning not learning Tagalog and Kapampangan by podcasting</title>
@@ -185,22 +213,6 @@ If you have a keyboard connected, simultaneously press Windows logo key +Ctrl+Sh
         <pubDate>Tue, 05 Mar 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/03/05/p1-known-problem-with-surface-power-adapter/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/03/05/p1-known-problem-with-surface-power-adapter/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Perhaps the Windows black screen of death was due to a dead battery</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I noticed that my battery was dead or close to dead.&lt;/li&gt;
-&lt;li&gt;Perhaps the &lt;a href=&quot;http://rolandtanglao.com/2019/03/03/p1-again-windows-black-screen-of-death-afer-login-fixed-by-resetting-networking-safe-mode/&quot;&gt;Windows black screen of death&lt;/a&gt; was due to a dead battery due to a problem with the Surfacebook AC adapter?!? I substituted a USB-C adapter and had no problems so far.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 04 Mar 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/03/04/p1-perhaps-it-was-a-power-adapter/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/04/p1-perhaps-it-was-a-power-adapter/</guid>
         
         
       </item>
