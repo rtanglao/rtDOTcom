@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 19 Mar 2019 23:42:58 -0700</pubDate>
-    <lastBuildDate>Tue, 19 Mar 2019 23:42:58 -0700</lastBuildDate>
+    <pubDate>Thu, 21 Mar 2019 15:12:38 -0700</pubDate>
+    <lastBuildDate>Thu, 21 Mar 2019 15:12:38 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Kitsune 'products' are defined in the django admin backend</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Following up from &lt;a href=&quot;http://rolandtanglao.com/2019/03/19/p1-kitsune-questions-aaq-api-product-firefox-desktop-product-mobile-firefox-for-android/&quot;&gt;Kitsune Questions aka AAQ API, product == &amp;#39;firefox&amp;#39; is desktop, &amp;#39;mobile&amp;#39; is Firefox for android&lt;/a&gt;, &lt;a href=&quot;https://support.mozilla.org/admin/products/product/&quot;&gt;Kitsune products are defined the django admin backend&lt;/a&gt; which for security reasons is only accessible by employees.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 20 Mar 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/03/20/p1-kitsune-products-are-defined-in-the-django-admin-backend/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/20/p1-kitsune-products-are-defined-in-the-django-admin-backend/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Kitsune Questions aka AAQ API, product == 'firefox' is desktop, 'mobile' is Firefox for android</title>
@@ -193,26 +208,6 @@ If you have a keyboard connected, simultaneously press Windows logo key +Ctrl+Sh
         <pubDate>Thu, 07 Mar 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/03/07/p1-windows-black-screen-is-a-low-power-screen/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/03/07/p1-windows-black-screen-is-a-low-power-screen/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>The Windows black screen of death is due to a known problem with the Surface power adapter I believe: it can't supply 60W so it can't charge enough to charge and run the Surfacebook simultaneously when the battery is &lt; 10% </title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;See &lt;a href=&quot;http://rolandtanglao.com/2019/03/04/p1-perhaps-it-was-a-power-adapter/&quot;&gt;March 4, 2019&amp;#39;s Perhaps the Windows black screen of death was due to a dead battery&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;My guess: The Windows black screen of death is due to a known problem with the Surface power adapter I believe: it can&amp;#39;t supply 60W so it can&amp;#39;t charge enough to charge and run the Surfacebook simultaneously when the battery is &amp;lt; 10%
-
-&lt;ul&gt;
-&lt;li&gt;Based on &amp;quot;If the battery is drained, and the charger you’re using uses 60 watts or more, your Surface will instantly turn on when you plug it in. If you’re using a charger that uses less than 60 watts, your Surface must charge to 10% before it will turn on.&amp;quot; from &lt;a href=&quot;https://support.microsoft.com/en-ca/help/4023536/surface-surface-battery-wont-charge&quot;&gt;Surface battery won’t charge or Surface won’t run on battery on Windows 10&lt;/a&gt;, it&amp;#39;s my guess that the Surface Book 2 power adapter doesn&amp;#39;t supply 60W (since when the battery is &amp;lt; 10% and you try to use the Surface Book 2 adapter, the battery doesn&amp;#39;t go above 10% while with a 60W USB-C charge the battery &lt;em&gt;does&lt;/em&gt; go to above 10%)!!!!! Wow, hope my guess is wrong!&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 05 Mar 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/03/05/p1-known-problem-with-surface-power-adapter/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/05/p1-known-problem-with-surface-power-adapter/</guid>
         
         
       </item>
