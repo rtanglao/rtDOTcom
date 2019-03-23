@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 21 Mar 2019 15:12:38 -0700</pubDate>
-    <lastBuildDate>Thu, 21 Mar 2019 15:12:38 -0700</lastBuildDate>
+    <pubDate>Fri, 22 Mar 2019 22:32:51 -0700</pubDate>
+    <lastBuildDate>Fri, 22 Mar 2019 22:32:51 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>everybody thinks they're an expert on fixing web browser bugs and how easy it is to add web browser features because they use a web browser daily. I bicycle every day but don't consider myself an expert on bicycle design, repair and maintenance #ymmv</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/rtanglao/status/1109320514034528256&quot;&gt;everybody thinks they&amp;#39;re an expert on fixing web browser bugs and how easy it is to add web browser features because they use a web browser daily. I bicycle every day but don&amp;#39;t consider myself an expert on bicycle design, repair and maintenance #ymmv&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 22 Mar 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/03/22/p1-everybody-is-an-expert-on-webbrowsers-and-how-to-fix-improve-them-not/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/22/p1-everybody-is-an-expert-on-webbrowsers-and-how-to-fix-improve-them-not/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Kitsune 'products' are defined in the django admin backend</title>
@@ -179,35 +194,6 @@
         <pubDate>Fri, 08 Mar 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/03/08/p1-use-martin-krzywinski-colorsnap-perl-utility-to-make-green-black-white-pink-camo/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/03/08/p1-use-martin-krzywinski-colorsnap-perl-utility-to-make-green-black-white-pink-camo/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>The Windows black screen of death is a sleep screen? Maybe not a power issue?!</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;See &lt;a href=&quot;http://rolandtanglao.com/2019/03/05/p1-known-problem-with-surface-power-adapter/&quot;&gt;March 5, 2019 where I thought it was the Surface charger!&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Maybe it&amp;#39;s just the normal sleep and maybe the following docs will help in the future:
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://support.microsoft.com/en-ca/help/4023537/surface-wont-turn-on-or-wake-from-sleep&quot;&gt;Surface won’t turn on or wake from sleep&lt;/a&gt;: &amp;quot;If the battery charge is low, you may see a battery icon on the screen when you press the power button. Charge your Surface for 10 to 15 minutes to make sure that the battery has enough power to start Surface and Windows.... 
-(or) You might be able to wake your Surface by using a special keyboard shortcut that refreshes the Surface display driver. This solution may resolve your issue if Windows is on but the Surface display is not responding, and the display needs to be restarted.
-If you have a keyboard connected, simultaneously press Windows logo key +Ctrl+Shift+B.&amp;quot;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://support.microsoft.com/en-ca/help/4036297/surface-windows-doesnt-start-on-surface&quot;&gt;Windows doesn’t start on Surface&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://support.microsoft.com/en-ca/help/4036280/surface-force-a-shut-down-and-restart-your-surface&quot;&gt;Force a shut down and restart your Surface&lt;/a&gt;:
-
-&lt;ul&gt;
-&lt;li&gt;&amp;quot;1. Press and hold the power button until the screen turns off (about 10 seconds), then release the power button.&lt;/li&gt;
-&lt;li&gt;2. Press and release the power button to turn your Surface back on. You should see the Microsoft logo.&amp;quot;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 07 Mar 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/03/07/p1-windows-black-screen-is-a-low-power-screen/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/07/p1-windows-black-screen-is-a-low-power-screen/</guid>
         
         
       </item>
