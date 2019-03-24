@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 22 Mar 2019 22:32:51 -0700</pubDate>
-    <lastBuildDate>Fri, 22 Mar 2019 22:32:51 -0700</lastBuildDate>
+    <pubDate>Sat, 23 Mar 2019 22:16:44 -0700</pubDate>
+    <lastBuildDate>Sat, 23 Mar 2019 22:16:44 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Memories of University of Waterloo CS240:Learn Rust With Entirely Too Many Linked Lists</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://rust-unofficial.github.io/too-many-lists/#learn-rust-with-entirely-too-many-linked-lists&quot;&gt;Learn Rust With Entirely Too Many Linked Lists&lt;/a&gt; is fantastic, I might even learn some Rust since linked lists is something I&amp;#39;ve implemented at least twice :-) in C and C++!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 23 Mar 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/03/23/p1-memories-of-cs-240-learn-rust-linked-lists/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/23/p1-memories-of-cs-240-learn-rust-linked-lists/</guid>
+        
+        
+      </item>
     
       <item>
         <title>everybody thinks they're an expert on fixing web browser bugs and how easy it is to add web browser features because they use a web browser daily. I bicycle every day but don't consider myself an expert on bicycle design, repair and maintenance #ymmv</title>
@@ -178,22 +193,6 @@
         <pubDate>Sun, 10 Mar 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/03/10/p1-windows-charger-stops-charging/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/03/10/p1-windows-charger-stops-charging/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Use Martin Krzywinski's colorsnap utility to create green, black, white, and pink camo from multiple images?!?</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Use &lt;a href=&quot;http://mkweb.bcgsc.ca/color/colorsnap/DOCUMENTATION.txt&quot;&gt;Martin Krzywinski&amp;#39;s colorsnap utility&lt;/a&gt; to create green, black, white, and pink camo from multiple images?!?&lt;/li&gt;
-&lt;li&gt;Sounds like a plan! Have to test it on a few images before running it through thousands!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 08 Mar 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/03/08/p1-use-martin-krzywinski-colorsnap-perl-utility-to-make-green-black-white-pink-camo/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/08/p1-use-martin-krzywinski-colorsnap-perl-utility-to-make-green-black-white-pink-camo/</guid>
         
         
       </item>
