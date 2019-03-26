@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 23 Mar 2019 22:16:44 -0700</pubDate>
-    <lastBuildDate>Sat, 23 Mar 2019 22:16:44 -0700</lastBuildDate>
+    <pubDate>Mon, 25 Mar 2019 22:17:02 -0700</pubDate>
+    <lastBuildDate>Mon, 25 Mar 2019 22:17:02 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Eric Rice: Please start podcasting again, I'd love to hear your voice again!</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/ericrice&quot;&gt;Eric Rice&lt;/a&gt;: &lt;a href=&quot;https://roland.micro.blog/2019/03/22/eric-please-start.html&quot;&gt;Please start podcasting again, I&amp;#39;d love to hear your voice again!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 25 Mar 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/03/25/p1-eric-rice-please-start-podcasting-again-love-your-voice/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/25/p1-eric-rice-please-start-podcasting-again-love-your-voice/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Memories of University of Waterloo CS240:Learn Rust With Entirely Too Many Linked Lists</title>
@@ -178,21 +193,6 @@
         <pubDate>Mon, 11 Mar 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/03/11/p1-how-to-move-files-newer-than-60-minutes-ago-to-another-directory-using-find/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/03/11/p1-how-to-move-files-newer-than-60-minutes-ago-to-another-directory-using-find/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>I'm sure I've overanalyzed this but I'm going to back to my Windows Surface Charger Theory because Windows Explorer crashed and my battery was at 6%</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I&amp;#39;m sure I&amp;#39;ve &lt;a href=&quot;http://rolandtanglao.com/2019/03/07/p1-windows-black-screen-is-a-low-power-screen/&quot;&gt;overanalyzed&lt;/a&gt; this but I&amp;#39;m going to back to my &lt;a href=&quot;http://rolandtanglao.com/2019/03/05/p1-known-problem-with-surface-power-adapter/&quot;&gt;Windows Surface Book 2 Charger is broken theory&lt;/a&gt; because Windows Explorer crashed and my battery was at 6% yesterday. Maybe my charger overheats or is defective and stops charging?!?!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 10 Mar 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/03/10/p1-windows-charger-stops-charging/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/10/p1-windows-charger-stops-charging/</guid>
         
         
       </item>
