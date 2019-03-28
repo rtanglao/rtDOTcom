@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 26 Mar 2019 19:37:35 -0700</pubDate>
-    <lastBuildDate>Tue, 26 Mar 2019 19:37:35 -0700</lastBuildDate>
+    <pubDate>Thu, 28 Mar 2019 00:02:49 -0700</pubDate>
+    <lastBuildDate>Thu, 28 Mar 2019 00:02:49 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Had to Reboot my Surface Book 2 again to get WiFi working, just like April 12, 2018</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Had to Reboot my Surface Book 2 again to get WiFi working, &lt;a href=&quot;http://rolandtanglao.com/2018/04/12/p1-had-to-reboot-to-get-wifi-working-on-surface-book2/&quot;&gt;just like April 12, 2018&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;I need to try the  &lt;code&gt;ipconfig /release&lt;/code&gt; and then &lt;code&gt;ipconfig /renew&lt;/code&gt; powershell dance next time like I did back in 2018!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 27 Mar 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/03/27/p1-had-to-reboot-my-surfacebook2-to-get-wifi-working/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/27/p1-had-to-reboot-my-surfacebook2-to-get-wifi-working/</guid>
+        
+        
+      </item>
     
       <item>
         <title>NVIDIA Jetson Nano - Good machine learning starter system; more flexible than google's Coral TFLite board?!?</title>
@@ -162,36 +178,6 @@
         <pubDate>Fri, 15 Mar 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/03/15/p1-note8-15march2019-900-usd-phone-more-than-two-months-behind-security-updates/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/03/15/p1-note8-15march2019-900-usd-phone-more-than-two-months-behind-security-updates/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Downloaded Stephanie's neon and neon2 flickr galleries before the big flickr March 12, 2019 deletion</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Just in time for the &lt;a href=&quot;https://tidbits.com/2019/03/14/flickr-vows-to-not-delete-creative-commons-images-or-those-of-deceased-members/&quot;&gt;big March 12, 2019 deletion by flickr of non CC photos on free accounts and any non CC photos over 1000 on free accounts which I fully support :-) #ymmv&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;See the original (or biggest available if the originals aren&amp;#39;t available) photos here: &lt;a href=&quot;https://github.com/rtanglao/neon-for-stephanie/tree/master/NEON1_ORIGINALS&quot;&gt;NEON 1&lt;/a&gt;, &lt;a href=&quot;https://github.com/rtanglao/neon-for-stephanie/tree/master/NEON2_ORIGINALS&quot;&gt;NEON2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;And the software:
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/neon-for-stephanie/blob/master/add-synthetic-galleryid-get-gallery-photo-metadata.rb&quot;&gt;add-synthetic-galleryid-get-gallery-photo-metadata.rb&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/neon-for-stephanie/blob/master/backup-biggest-by-galleryid.rb&quot;&gt;backup-biggest-by-galleryid.rb&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;Colophon&lt;/h2&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;./add-synthetic-galleryid-get-gallery-photo-metadata.rb 72157675774023387 2&amp;gt;neon2-add-galleryid-stderr.out &amp;amp;
-./add-synthetic-galleryid-get-gallery-photo-metadata.rb 72157675752554377 2&amp;gt;neon1-add-galleryid-stderr.out &amp;amp;
-&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /home/roland/GIT/neon-for-stephanie/NEON1_ORIGINALS
-../backup-biggest-by-galleryid.rb  72157675752554377
-&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /home/roland/GIT/neon-for-stephanie/NEON2_ORIGINALS
-../backup-biggest-by-galleryid.rb  72157675774023387
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        <pubDate>Thu, 14 Mar 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/03/14/p1-backed-up-neon-galleries-before-big-flickr-deletion/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/14/p1-backed-up-neon-galleries-before-big-flickr-deletion/</guid>
         
         
       </item>
