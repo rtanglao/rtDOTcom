@@ -6,9 +6,29 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 28 Mar 2019 23:04:55 -0700</pubDate>
-    <lastBuildDate>Thu, 28 Mar 2019 23:04:55 -0700</lastBuildDate>
+    <pubDate>Fri, 29 Mar 2019 21:43:16 -0700</pubDate>
+    <lastBuildDate>Fri, 29 Mar 2019 21:43:16 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>07January2019 how to calculate time differences for support using R and lubridate</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt; forgot to blog this: &lt;a href=&quot;https://github.com/rtanglao/rt-making-r-and-rstudio-work-for-me#07january2019-how-to-calculate-time-differences-for-support&quot;&gt;07January2019 how to calculate time differences in hours for support using R and lubridate&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;interval&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ymd_hms&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;2019-01-04 18:40:00&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tz&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;America/Vancouver&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ymd_hms&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;2019-01-07 12:59:00&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
+    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tz&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;America/Vancouver&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hours&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;66.31667&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        <pubDate>Fri, 29 Mar 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/03/29/p1-calculating-time-differences-in-hours-using-r-and-lubridate/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/29/p1-calculating-time-differences-in-hours-using-r-and-lubridate/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Russell and Vinsel: Hail the maintainers (innovation is over-rated)</title>
@@ -163,21 +183,6 @@ Capitalism excels at innovation but is failing at maintenance, and for most live
         <pubDate>Sun, 17 Mar 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/03/17/p1-learning-not-learning-tagalog-kapampangan/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/03/17/p1-learning-not-learning-tagalog-kapampangan/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>There's nothing special about voice or podcasts, everybody should be able to publish what they: voice, audio, text, video whatever whenever they want to whomever they want</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2019/03/02/p1-is-the-current-podcast-boom-over-yet/&quot;&gt;When the current podcast boom is over&lt;/a&gt;, we should all recognize that we can and should be creators of whatever we want and publish it to whoever we want including voice, text, audio, etc&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 16 Mar 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/03/16/p1-voice-is-just-a-content-type-everybody-should-publish-what-they-want-video-audio-text-whatever-to-whoever-they-want/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/16/p1-voice-is-just-a-content-type-everybody-should-publish-what-they-want-video-audio-text-whatever-to-whoever-they-want/</guid>
         
         
       </item>
