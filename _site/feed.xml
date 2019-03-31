@@ -6,9 +6,39 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 29 Mar 2019 21:43:16 -0700</pubDate>
-    <lastBuildDate>Fri, 29 Mar 2019 21:43:16 -0700</lastBuildDate>
+    <pubDate>Sat, 30 Mar 2019 20:46:32 -0700</pubDate>
+    <lastBuildDate>Sat, 30 Mar 2019 20:46:32 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Boris Mann: Chunks of text, not too large, connected with links. </title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt; &lt;a href=&quot;https://twitter.com/bmann/status/1112090591779680257&quot;&gt;Boris Mann&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+
+&quot;blogging ;) I’ll be at 20 years next year!
+
+So, more broadly, a domain I own and HTML. Also Git. How to generate and host it changes.
+
+Chunks of text, not too large, connected with links. 
+
+Bullish on IPFS. Spec that rely on URIs will need to be re-imagined. That’s exciting!&quot;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I started blogging in late 1999 methinks so it&amp;#39;s my 20th year! Go Boris-20years gogo!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 30 Mar 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/03/30/p1-chunks-text-not-too-large-connected-with-links/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/30/p1-chunks-text-not-too-large-connected-with-links/</guid>
+        
+        
+      </item>
     
       <item>
         <title>07January2019 how to calculate time differences for support using R and lubridate</title>
@@ -161,28 +191,6 @@ Capitalism excels at innovation but is failing at maintenance, and for most live
         <pubDate>Tue, 19 Mar 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/03/19/p1-kitsune-questions-aaq-api-product-firefox-desktop-product-mobile-firefox-for-android/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/03/19/p1-kitsune-questions-aaq-api-product-firefox-desktop-product-mobile-firefox-for-android/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Learning not learning Tagalog and Kapampangan by podcasting</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Over on roland.micro.blog I&amp;#39;m learning not learning :-)  Tagalog and Kapampangan by podcasting&lt;/li&gt;
-&lt;li&gt;So far:
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://roland.micro.blog/2019/03/07/marimla-means-cold.html&quot;&gt;Marimla Means Cold In Kapampangan :-)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://roland.micro.blog/2019/03/07/malamig-means-cold.html&quot;&gt;Malamig Means Cold In Tagalog :-)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://roland.micro.blog/2019/03/07/i-thought-everyone.html&quot;&gt;I thought Everyone Spoke Kapampangan Just Like Tagalog :-)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 17 Mar 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/03/17/p1-learning-not-learning-tagalog-kapampangan/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/17/p1-learning-not-learning-tagalog-kapampangan/</guid>
         
         
       </item>
