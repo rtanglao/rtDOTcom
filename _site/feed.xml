@@ -6,16 +6,32 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 30 Mar 2019 20:46:32 -0700</pubDate>
-    <lastBuildDate>Sat, 30 Mar 2019 20:46:32 -0700</lastBuildDate>
+    <pubDate>Sun, 31 Mar 2019 14:03:46 -0700</pubDate>
+    <lastBuildDate>Sun, 31 Mar 2019 14:03:46 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Use Hatching, shape-based tonal or shading,  to create fun infographics for tshirts in R (code by Jean Fan)</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt; See: &lt;a href=&quot;https://jef.works/art-with-code/portfolio/20190301_hatching/&quot;&gt;Jean Fan&amp;#39;s Hatching
+shape-based tonal or shading&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 31 Mar 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/03/31/p1-use-hatching-to-create-fun-infographics-for-tshirts/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/31/p1-use-hatching-to-create-fun-infographics-for-tshirts/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Boris Mann: Chunks of text, not too large, connected with links. </title>
         <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt; &lt;a href=&quot;https://twitter.com/bmann/status/1112090591779680257&quot;&gt;Boris Mann&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;https://twitter.com/bmann/status/1112090591779680257&quot;&gt;Boris Mann&lt;/a&gt;:&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;blockquote&gt;
@@ -30,7 +46,7 @@ Bullish on IPFS. Spec that rely on URIs will need to be re-imagined. That’s ex
 &lt;/blockquote&gt;
 
 &lt;ul&gt;
-&lt;li&gt;I started blogging in late 1999 methinks so it&amp;#39;s my 20th year! Go Boris-20years gogo!&lt;/li&gt;
+&lt;li&gt;I started blogging in late 1999 methinks so it&amp;#39;s my 20th year! Go Boris-20-years go!&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 30 Mar 2019 00:00:00 -0700</pubDate>
@@ -163,34 +179,6 @@ Capitalism excels at innovation but is failing at maintenance, and for most live
         <pubDate>Wed, 20 Mar 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/03/20/p1-kitsune-products-are-defined-in-the-django-admin-backend/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/03/20/p1-kitsune-products-are-defined-in-the-django-admin-backend/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Kitsune Questions aka AAQ API, product == 'firefox' is desktop, 'mobile' is Firefox for android</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Just to clarify &lt;a href=&quot;http://rolandtanglao.com/2018/09/13/kitsune-question-api/&quot;&gt;Kitsune aka support.mozilla.org question API&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;product=&amp;#39;&lt;code&gt;firefox&lt;/code&gt;&amp;#39; is Firefox for desktop e.g. sample API is:
-
-&lt;ul&gt;
-&lt;li&gt; &lt;code&gt;https://support.mozilla.org/api/2/question/?format=json&amp;amp;product=firefox&amp;amp;locale=en-US&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;product=&amp;#39;&lt;code&gt;mobile&lt;/code&gt;&amp;#39; is Firefox for Android e.g. sample API is:
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;https://support.mozilla.org/api/2/question/?format=json&amp;amp;product=mobile&amp;amp;locale=en-US&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 19 Mar 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/03/19/p1-kitsune-questions-aaq-api-product-firefox-desktop-product-mobile-firefox-for-android/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/19/p1-kitsune-questions-aaq-api-product-firefox-desktop-product-mobile-firefox-for-android/</guid>
         
         
       </item>
