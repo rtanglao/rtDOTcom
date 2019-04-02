@@ -6,9 +6,47 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 31 Mar 2019 14:03:46 -0700</pubDate>
-    <lastBuildDate>Sun, 31 Mar 2019 14:03:46 -0700</lastBuildDate>
+    <pubDate>Mon, 01 Apr 2019 20:44:16 -0700</pubDate>
+    <lastBuildDate>Mon, 01 Apr 2019 20:44:16 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Tried Jean Fan's R function on Mozlando KSC 200x200px, maybe I should have started with a black and white image?</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The output below is great but maybe I should have started with a black and white i.e. converted the image from colour to black and white first?&lt;/li&gt;
+&lt;li&gt;And maybe I could use the output images for &lt;a href=&quot;http://rolandtanglao.com/2019/01/28/p1-green-tan-white-camoflage-from-vancouver-flickr-pictures/&quot;&gt;white camo&lt;/a&gt;?&lt;/li&gt;
+&lt;li&gt; See: &lt;a href=&quot;http://rolandtanglao.com/2019/03/31/p1-use-hatching-to-create-fun-infographics-for-tshirts/&quot;&gt;Use Hatching, shape-based tonal or shading, to create fun infographics for tshirts in R (code by Jean Fan)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt; Here is what I did:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;convert 2019-01-31-05-36-oily-200x200-out.png 2019-01-31-05-36-oily-200x200-out.jpg
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;setwd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;~/GIT/rt-mozlando2018-ksc&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'hatching.R'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;img&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;readJPEG&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/home/roland/GIT/rt-mozlando2018-ksc/TRY2-200x200OILY/2019-01-31-05-36-oily-200x200-out.jpg&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hatching&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;img&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0.1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;var&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;N&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;10000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pch&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;step&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0.01&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# export as 3600 px wide to&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# https://github.com/rtanglao/rt-mozlando2018-ksc/blob/master/hatched-2019-01-31-05-36-oily-200x200-out.png&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;img2&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;readJPEG&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/home/roland/GIT/rt-mozlando2018-ksc/TRY2-200x200OILY/2019-01-31-05-36-oily-200x200-out.jpg&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[,,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;img2&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;apply&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;img2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rev&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hatching&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;img2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# export as 3600 px wide to&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# https://github.com/rtanglao/rt-mozlando2018-ksc/blob/master/hatched2-2019-01-31-05-36-oily-200x200-out.png&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Output hatched-2019-01-31-05-36-oily-200x200-out.png&lt;/h2&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/47512303491/in/dateposted-ff/&quot; title=&quot;hatched-2019-01-31-05-36-oily-200x200-out&quot;&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7832/47512303491_b046dc3f84.jpg&quot; width=&quot;500&quot; height=&quot;434&quot; alt=&quot;hatched-2019-01-31-05-36-oily-200x200-out&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;h2&gt;Output hatched2-2019-01-31-05-36-oily-200x200-out.png&lt;/h2&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/47512306271/in/dateposted-ff/&quot; title=&quot;hatched2-2019-01-31-05-36-oily-200x200-out&quot;&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7867/47512306271_af67cc6af6.jpg&quot; width=&quot;500&quot; height=&quot;434&quot; alt=&quot;hatched2-2019-01-31-05-36-oily-200x200-out&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Apr 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/04/01/p1-hatching-output-from-mozlando-ksc/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/01/p1-hatching-output-from-mozlando-ksc/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Use Hatching, shape-based tonal or shading,  to create fun infographics for tshirts in R (code by Jean Fan)</title>
@@ -164,21 +202,6 @@ Capitalism excels at innovation but is failing at maintenance, and for most live
         <pubDate>Fri, 22 Mar 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/03/22/p1-everybody-is-an-expert-on-webbrowsers-and-how-to-fix-improve-them-not/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/03/22/p1-everybody-is-an-expert-on-webbrowsers-and-how-to-fix-improve-them-not/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Kitsune 'products' are defined in the django admin backend</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Following up from &lt;a href=&quot;http://rolandtanglao.com/2019/03/19/p1-kitsune-questions-aaq-api-product-firefox-desktop-product-mobile-firefox-for-android/&quot;&gt;Kitsune Questions aka AAQ API, product == &amp;#39;firefox&amp;#39; is desktop, &amp;#39;mobile&amp;#39; is Firefox for android&lt;/a&gt;, &lt;a href=&quot;https://support.mozilla.org/admin/products/product/&quot;&gt;Kitsune products are defined the django admin backend&lt;/a&gt; which for security reasons is only accessible by employees.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 20 Mar 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/03/20/p1-kitsune-products-are-defined-in-the-django-admin-backend/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/20/p1-kitsune-products-are-defined-in-the-django-admin-backend/</guid>
         
         
       </item>
