@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 01 Apr 2019 20:44:16 -0700</pubDate>
-    <lastBuildDate>Mon, 01 Apr 2019 20:44:16 -0700</lastBuildDate>
+    <pubDate>Wed, 03 Apr 2019 23:15:27 -0700</pubDate>
+    <lastBuildDate>Wed, 03 Apr 2019 23:15:27 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Prediction: Artificial General Intelligence won't be written in Software 2.0</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Prediction: Artificial General Intelligence won&amp;#39;t be written in &lt;a href=&quot;https://medium.com/@karpathy/software-2-0-a64152b37c35&quot;&gt;Software 2.0&lt;/a&gt; (more likely to happen is widespread stuff like this: &amp;quot;The 2.0 stack can fail in unintuitive and embarrassing ways ,or worse, they can “silently fail”, e.g., by silently adopting biases in their training data, which are very difficult to properly analyze and examine when their sizes are easily in the millions in most cases.&amp;quot;) and &lt;a href=&quot;http://rolandtanglao.com/2018/03/11/p1-artificial-general-intelligence-wont-happen-before-2029/&quot;&gt;AGI won&amp;#39;t happen before 2029&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 03 Apr 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/04/03/p1-prediction-artificial-general-intelligence-wont-be-written-in-software-2.0/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/03/p1-prediction-artificial-general-intelligence-wont-be-written-in-software-2.0/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Tried Jean Fan's R function on Mozlando KSC 200x200px, maybe I should have started with a black and white image?</title>
@@ -187,21 +202,6 @@ Capitalism excels at innovation but is failing at maintenance, and for most live
         <pubDate>Sat, 23 Mar 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/03/23/p1-memories-of-cs-240-learn-rust-linked-lists/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/03/23/p1-memories-of-cs-240-learn-rust-linked-lists/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>everybody thinks they're an expert on fixing web browser bugs and how easy it is to add web browser features because they use a web browser daily. I bicycle every day but don't consider myself an expert on bicycle design, repair and maintenance #ymmv</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://twitter.com/rtanglao/status/1109320514034528256&quot;&gt;everybody thinks they&amp;#39;re an expert on fixing web browser bugs and how easy it is to add web browser features because they use a web browser daily. I bicycle every day but don&amp;#39;t consider myself an expert on bicycle design, repair and maintenance #ymmv&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 22 Mar 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/03/22/p1-everybody-is-an-expert-on-webbrowsers-and-how-to-fix-improve-them-not/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/22/p1-everybody-is-an-expert-on-webbrowsers-and-how-to-fix-improve-them-not/</guid>
         
         
       </item>
