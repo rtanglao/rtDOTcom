@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 03 Apr 2019 23:15:27 -0700</pubDate>
-    <lastBuildDate>Wed, 03 Apr 2019 23:15:27 -0700</lastBuildDate>
+    <pubDate>Thu, 04 Apr 2019 21:31:06 -0700</pubDate>
+    <lastBuildDate>Thu, 04 Apr 2019 21:31:06 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Machine Learning in the cloud from a Browser using Tensor Flow, Keras and Jupyter Notebooks</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Gotta try this: &lt;a href=&quot;https://medium.com/@curioushruti/how-to-guide-cnns-using-tensorflow-keras-tensorflow-serving-in-google-colaboratory-878e5884d03&quot;&gt;Shruti Sharma: How-to Guide: CNNs using TensorFlow / Keras / TensorFlow Serving in Google Colaboratory&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 04 Apr 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/04/04/p1-machine-learning-in-the-cloud-from-your-browser/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/04/p1-machine-learning-in-the-cloud-from-your-browser/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Prediction: Artificial General Intelligence won't be written in Software 2.0</title>
@@ -187,21 +202,6 @@ Capitalism excels at innovation but is failing at maintenance, and for most live
         <pubDate>Mon, 25 Mar 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/03/25/p1-eric-rice-please-start-podcasting-again-love-your-voice/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/03/25/p1-eric-rice-please-start-podcasting-again-love-your-voice/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Memories of University of Waterloo CS240:Learn Rust With Entirely Too Many Linked Lists</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://rust-unofficial.github.io/too-many-lists/#learn-rust-with-entirely-too-many-linked-lists&quot;&gt;Learn Rust With Entirely Too Many Linked Lists&lt;/a&gt; is fantastic, I might even learn some Rust since linked lists is something I&amp;#39;ve implemented at least twice :-) in C and C++!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 23 Mar 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/03/23/p1-memories-of-cs-240-learn-rust-linked-lists/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/23/p1-memories-of-cs-240-learn-rust-linked-lists/</guid>
         
         
       </item>
