@@ -6,9 +6,29 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 04 Apr 2019 21:31:06 -0700</pubDate>
-    <lastBuildDate>Thu, 04 Apr 2019 21:31:06 -0700</lastBuildDate>
+    <pubDate>Sat, 06 Apr 2019 16:36:39 -0700</pubDate>
+    <lastBuildDate>Sat, 06 Apr 2019 16:36:39 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Windows 10 taskbar doesn't autohide 2 solutions: 1. restart windows explorer 2. click on search and then click on desktop to close the search window</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;From the department of i-never-had-a-problem-with-automatically-hiding-taskbar-on-osx-but-i-do-have-it-on-windows: &lt;a href=&quot;https://www.drivereasy.com/knowledge/windows-10-taskbar-not-hiding-solved/&quot;&gt;Windows 10 Taskbar Not Hiding&lt;/a&gt; :
+
+&lt;ol&gt;
+&lt;li&gt;&amp;quot; In the &lt;strong&gt;Processes&lt;/strong&gt; tab, select &lt;strong&gt;Windows Explorer&lt;/strong&gt; and click on the &lt;strong&gt;Restart&lt;/strong&gt;button.&amp;quot;&lt;/li&gt;
+&lt;li&gt;a) &amp;quot;If you have the SEARCH box on the taskbar but not the SEARCH button, click in the search box.  b) When the search window pops up, click somewhere on the desktop so the search window disappears. After that, the taskbar should auto-hide normally. &amp;quot;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 06 Apr 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/04/06/p1-windows-taskbar-not-hiding-restart-windows-explorer-or-click-search-and-then-desktop/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/06/p1-windows-taskbar-not-hiding-restart-windows-explorer-or-click-search-and-then-desktop/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Machine Learning in the cloud from a Browser using Tensor Flow, Keras and Jupyter Notebooks</title>
@@ -187,21 +207,6 @@ Capitalism excels at innovation but is failing at maintenance, and for most live
         <pubDate>Tue, 26 Mar 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/03/26/p1-nvidia-jetson-nano-machine-learning-good-first-development-system/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/03/26/p1-nvidia-jetson-nano-machine-learning-good-first-development-system/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Eric Rice: Please start podcasting again, I'd love to hear your voice again!</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://twitter.com/ericrice&quot;&gt;Eric Rice&lt;/a&gt;: &lt;a href=&quot;https://roland.micro.blog/2019/03/22/eric-please-start.html&quot;&gt;Please start podcasting again, I&amp;#39;d love to hear your voice again!&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 25 Mar 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/03/25/p1-eric-rice-please-start-podcasting-again-love-your-voice/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/25/p1-eric-rice-please-start-podcasting-again-love-your-voice/</guid>
         
         
       </item>
