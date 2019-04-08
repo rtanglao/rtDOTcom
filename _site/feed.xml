@@ -6,19 +6,60 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 06 Apr 2019 16:36:39 -0700</pubDate>
-    <lastBuildDate>Sat, 06 Apr 2019 16:36:39 -0700</lastBuildDate>
+    <pubDate>Sun, 07 Apr 2019 21:23:30 -0700</pubDate>
+    <lastBuildDate>Sun, 07 Apr 2019 21:23:30 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>White pseudo-camo 'art of where' tights using Mozlando 2019 Kennedy Space Center photos processed through Jean Fan's hatching function</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;White pseudo-camo &amp;#39;art of where&amp;#39; tights using Mozlando 2019 Kennedy Space Center photos processed through &lt;a href=&quot;http://rolandtanglao.com/2019/04/01/p1-hatching-output-from-mozlando-ksc/&quot;&gt;Jean Fan&amp;#39;s hatching function&lt;/a&gt;:&lt;/li&gt;
+&lt;li&gt;One Leg:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /home/roland/GIT/rt-mozlando2018-ksc/RUN2_HATCHED_ZAZZLE
+../6400-hatched-art-of-where.rb
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;output is:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/46829916124/in/dateposted-ff/&quot; title=&quot;hatched-2019-04-06-21-27-oily-200x200-out&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/7801/46829916124_cdd3020646.jpg&quot; width=&quot;266&quot; height=&quot;500&quot; alt=&quot;hatched-2019-04-06-21-27-oily-200x200-out&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Another Leg:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /home/roland/GIT/rt-mozlando2018-ksc/HATCHED_ZAZZLE
+../6400-hatched-art-of-where.rb
+&lt;span class=&quot;c&quot;&gt;# output is  hatched-2019-04-06-21-27-oily-200x200-out.png&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;output is:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/46833686154/in/dateposted-ff/&quot; title=&quot;hatched-2019-04-07-09-42-oily-200x200-out&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/7854/46833686154_b96cc3e85f.jpg&quot; width=&quot;266&quot; height=&quot;500&quot; alt=&quot;hatched-2019-04-07-09-42-oily-200x200-out&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;h2&gt;Rendering of the tights&lt;/h2&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/40591357133/in/dateposted-ff/&quot; title=&quot;hatched-leggings-ksc-artofwhere-preview&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/7869/40591357133_44d27265f6.jpg&quot; width=&quot;500&quot; height=&quot;318&quot; alt=&quot;hatched-leggings-ksc-artofwhere-preview&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 07 Apr 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/04/07/p1-white-pseudo-camo-artofwhere-tights-from-mozlando2018-ksc-hatched-photos/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/07/p1-white-pseudo-camo-artofwhere-tights-from-mozlando2018-ksc-hatched-photos/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Windows 10 taskbar doesn't autohide 2 solutions: 1. restart windows explorer 2. click on search and then click on desktop to close the search window</title>
         <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;From the department of i-never-had-a-problem-with-automatically-hiding-taskbar-on-osx-but-i-do-have-it-on-windows: &lt;a href=&quot;https://www.drivereasy.com/knowledge/windows-10-taskbar-not-hiding-solved/&quot;&gt;Windows 10 Taskbar Not Hiding&lt;/a&gt; :
+&lt;li&gt;From the department of i-never-had-a-problem-with-automatically-hiding-taskbar-on-osx-but-i-do-have-it-on-windows: &lt;a href=&quot;https://www.drivereasy.com/knowledge/windows-10-taskbar-not-hiding-solved/&quot;&gt;Windows 10 Taskbar Not Hiding&lt;/a&gt; (I tried to fix the typos but this is definitely not how I would have phrased this! Anyhow that&amp;#39;s grammmatical snobby english-as-a-first-language nitpicking :-) because the text does get the message across!):
 
 &lt;ol&gt;
-&lt;li&gt;&amp;quot; In the &lt;strong&gt;Processes&lt;/strong&gt; tab, select &lt;strong&gt;Windows Explorer&lt;/strong&gt; and click on the &lt;strong&gt;Restart&lt;/strong&gt;button.&amp;quot;&lt;/li&gt;
+&lt;li&gt;&amp;quot;In the &lt;strong&gt;Processes&lt;/strong&gt; tab, select &lt;strong&gt;Windows Explorer&lt;/strong&gt; and click on the &lt;strong&gt;Restart&lt;/strong&gt; button.&amp;quot;&lt;/li&gt;
 &lt;li&gt;a) &amp;quot;If you have the SEARCH box on the taskbar but not the SEARCH button, click in the search box.  b) When the search window pops up, click somewhere on the desktop so the search window disappears. After that, the taskbar should auto-hide normally. &amp;quot;&lt;/li&gt;
 &lt;/ol&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -192,21 +233,6 @@ Capitalism excels at innovation but is failing at maintenance, and for most live
         <pubDate>Wed, 27 Mar 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/03/27/p1-had-to-reboot-my-surfacebook2-to-get-wifi-working/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/03/27/p1-had-to-reboot-my-surfacebook2-to-get-wifi-working/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>NVIDIA Jetson Nano - Good machine learning starter system; more flexible than google's Coral TFLite board?!?</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The &lt;a href=&quot;https://developer.nvidia.com/embedded/buy/jetson-nano-devkit&quot;&gt;NVIDIA Jetson Nano looks to be  a great starter system  for machine learning&lt;/a&gt;; more flexible than &lt;a href=&quot;https://coral.withgoogle.com/products/dev-board/&quot;&gt;google&amp;#39;s Coral Tensor Flow Lite  board&lt;/a&gt;?!? (via Kip! Thanks!)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 26 Mar 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/03/26/p1-nvidia-jetson-nano-machine-learning-good-first-development-system/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/26/p1-nvidia-jetson-nano-machine-learning-good-first-development-system/</guid>
         
         
       </item>
