@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "White pseudo-camo 'art of where' tights using Mozlando 2019 Kennedy Space Center photos processed through Jean Fan's hatching function"
+title: "White pseudo-camo 'art of where' tights using Mozlando 2018 Kennedy Space Center photos processed through Jean Fan's hatching function"
 ---
 
 # Pontifications
