@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 08 Apr 2019 18:22:03 -0700</pubDate>
-    <lastBuildDate>Mon, 08 Apr 2019 18:22:03 -0700</lastBuildDate>
+    <pubDate>Tue, 09 Apr 2019 20:10:33 -0700</pubDate>
+    <lastBuildDate>Tue, 09 Apr 2019 20:10:33 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Nikon 1 GPS GP-N100 erroneously says the year is 2099 instead of 2019 due to a GPS Week rollover bug starting April 6, 2019</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The &lt;a href=&quot;https://www.nikonusa.com/en/nikon-products/product/gps/gp-n100-gps-unit.html#tab-ProductDetail-ProductTabs-Overview&quot;&gt;Nikon 1 GPS GP-N100 module&lt;/a&gt; for Nikon 1 cameras erroneously says the year is 2099 instead of 2019 due to a &lt;a href=&quot;https://en.wikipedia.org/wiki/Time_formatting_and_storage_bugs#Second_GPS_rollover&quot;&gt;GPS Week rollover&lt;/a&gt; that happened on April 6, 2019 (&lt;a href=&quot;https://gpsd-dev.berlios.narkive.com/XGU31nJE/gps-date-fail-due-to-week-counter-rollover-not-a-gpsd-bug&quot;&gt;and other GPS modules have the same bug&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 09 Apr 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/04/09/p1-gps-weeknumber-rollover-april-6-2019-breaks-nikon1-gpn-100-gps-module-leads-to-2099-instead-of-2019/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/09/p1-gps-weeknumber-rollover-april-6-2019-breaks-nikon1-gpn-100-gps-module-leads-to-2099-instead-of-2019/</guid>
+        
+        
+      </item>
     
       <item>
         <title>I really like Jean Fan's Flickr: color distribution of publicly available images, adapt it to my tags: bicycling, xcskiing, food, rainy?</title>
@@ -216,22 +231,6 @@ Bullish on IPFS. Spec that rely on URIs will need to be re-imagined. That’s ex
         <pubDate>Fri, 29 Mar 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/03/29/p1-calculating-time-differences-in-hours-using-r-and-lubridate/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/03/29/p1-calculating-time-differences-in-hours-using-r-and-lubridate/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Russell and Vinsel: Hail the maintainers (innovation is over-rated)</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt; From 2016: &lt;a href=&quot;https://aeon.co/essays/innovation-is-overvalued-maintenance-often-matters-more&quot;&gt;Hail the maintainers
-Capitalism excels at innovation but is failing at maintenance, and for most lives it is maintenance that matters more&lt;/a&gt;: &amp;quot;The most unappreciated and undervalued forms of technological labour are also the most ordinary: those who repair and maintain technologies that already exist, that were ‘innovated’ long ago. &amp;quot;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 28 Mar 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/03/28/p1-russell-vinsel-hail-the-maintainers/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/28/p1-russell-vinsel-hail-the-maintainers/</guid>
         
         
       </item>
