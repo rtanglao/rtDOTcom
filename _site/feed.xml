@@ -6,15 +6,44 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 10 Apr 2019 08:18:56 -0700</pubDate>
-    <lastBuildDate>Wed, 10 Apr 2019 08:18:56 -0700</lastBuildDate>
+    <pubDate>Wed, 10 Apr 2019 20:48:46 -0700</pubDate>
+    <lastBuildDate>Wed, 10 Apr 2019 20:48:46 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>e-ink/epaper red, white and black badge with: TTGO-T5s-V1-9-ESP32-2-7-EPaper-Plus-Module-for-Alexa-I2S-DAC-MAX98357A-MEMS</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.aliexpress.com/item/TTGO-T5s-V1-9-ESP32-2-7-EPaper-Plus-Module-for-Alexa-I2S-DAC-MAX98357A-MEMS/32867880658.html?tt=ae.CopyActivity&amp;aff_platform=default&amp;cpt=1554954145758&amp;sk=cNxl1yFq&amp;aff_trace_key=d3058dbb2f1642b9b3d831745988c647-1554954145758-09073-cNxl1yFq&amp;terminal_id=9ca9ba2113d24209a576849c6b205825&quot;&gt;TGO-T5s-V1-9-ESP32-2-7-EPaper-Plus-Module-for-Alexa-I2S-DAC-MAX98357A-MEMS&lt;/a&gt; sounds great! Red, white and black e-ink so it&amp;#39;s persistent display with an ESP microcontroller, usb power and a microphone.&lt;/li&gt;
+&lt;li&gt;Can&amp;#39;t wait to try it out!&lt;/li&gt;
+&lt;li&gt;And there is software already:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/LilyGO/TTGO-Electronic-Badge&quot;&gt;https://github.com/LilyGO/TTGO-Electronic-Badge&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/LilyGO/TTGO-T5S-Epaper&quot;&gt;https://github.com/LilyGO/TTGO-T5S-Epaper&lt;/a&gt; &amp;lt;--- specific module&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Current Idea: display &amp;quot;Roland&amp;quot; on the top and below change one pixel at a time randomly every minute (or 10 minutes or 30 minutes)&lt;/li&gt;
+&lt;li&gt;Previous posts on badges:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2017/05/11/p1-colour-badge-using-320x240-Espressif-ESP32/&quot;&gt;320x240 LCD Badge using the Espressif ESP32 with SD Card and LiPO power from microwavemont&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2017/01/26/p1-arduino-colour-320x240-lcd-badge,md/&quot;&gt;Arduino driven colour 320x240 LCD Badge using the Espressif ESP32 WROVER Kit?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 10 Apr 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/04/10/p1-e-ink-red-black-white-badge/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/10/p1-e-ink-red-black-white-badge/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Nikon 1 GPS GP-N100 erroneously sets the EXIF in photos to 2099 instead of 2019 due to a GPS Week rollover bug starting April 6, 2019</title>
         <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
 
-&lt;p&gt;UPDATE: I posted this on the Nikon 1 dpreview.com forums as well: &lt;a href=&quot;https://www.dpreview.com/forums/post/62536512&quot;&gt;Nikon 1 GPS GP-N100 erroneously sets year to 2099 after April 6, 2019 GPS Week rollover&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;UPDATE: I posted this on the Nikon 1 dpreview.com forums as well: &lt;a href=&quot;https://www.dpreview.com/forums/post/62536512&quot;&gt;Nikon 1 GPS GP-N100 erroneously sets year to 2099 after April 6, 2019 GPS Week rollover&lt;/a&gt;  &amp;lt;--- waiting for moderators to approve it so the public can see it :-)&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;The &lt;a href=&quot;https://www.nikonusa.com/en/nikon-products/product/gps/gp-n100-gps-unit.html#tab-ProductDetail-ProductTabs-Overview&quot;&gt;Nikon 1 GPS GP-N100 module&lt;/a&gt; for Nikon 1 cameras erroneously sets the EXIF in photos to the year 2099 instead of 2019 due to a &lt;a href=&quot;https://en.wikipedia.org/wiki/Time_formatting_and_storage_bugs#Second_GPS_rollover&quot;&gt;GPS Week rollover&lt;/a&gt; that happened on April 6, 2019 (&lt;a href=&quot;https://gpsd-dev.berlios.narkive.com/XGU31nJE/gps-date-fail-due-to-week-counter-rollover-not-a-gpsd-bug&quot;&gt;and other GPS modules have the same bug&lt;/a&gt;)&lt;/li&gt;
@@ -213,26 +242,6 @@ Bullish on IPFS. Spec that rely on URIs will need to be re-imagined. That’s ex
         <pubDate>Sat, 30 Mar 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/03/30/p1-chunks-text-not-too-large-connected-with-links/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/03/30/p1-chunks-text-not-too-large-connected-with-links/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>07January2019 how to calculate time differences for support using R and lubridate</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt; forgot to blog this: &lt;a href=&quot;https://github.com/rtanglao/rt-making-r-and-rstudio-work-for-me#07january2019-how-to-calculate-time-differences-for-support&quot;&gt;07January2019 how to calculate time differences in hours for support using R and lubridate&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;interval&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ymd_hms&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;2019-01-04 18:40:00&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
-  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tz&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;America/Vancouver&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
-  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ymd_hms&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;2019-01-07 12:59:00&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
-    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tz&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;America/Vancouver&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hours&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;66.31667&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        <pubDate>Fri, 29 Mar 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/03/29/p1-calculating-time-differences-in-hours-using-r-and-lubridate/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/29/p1-calculating-time-differences-in-hours-using-r-and-lubridate/</guid>
         
         
       </item>
