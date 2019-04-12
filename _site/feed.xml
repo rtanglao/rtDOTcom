@@ -6,9 +6,28 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 10 Apr 2019 20:48:46 -0700</pubDate>
-    <lastBuildDate>Wed, 10 Apr 2019 20:48:46 -0700</lastBuildDate>
+    <pubDate>Thu, 11 Apr 2019 20:32:48 -0700</pubDate>
+    <lastBuildDate>Thu, 11 Apr 2019 20:32:48 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>S*msung Note 8 got the Android 9 Pie Update April 1st, when will it get the April 5, 2019 Android security patches?</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;My S*msung Note 8 got the Android 9 Pie Update April 1st (&lt;a href=&quot;https://en.wikipedia.org/wiki/Android_Pie&quot;&gt;Google released Android 9 Pie back in August 2018&lt;/a&gt;; far too long; shouldn&amp;#39;t take 6 months in 2019; I hope Android Project Treble reduces this time to at most 1 month for newer S*msung phones like the Note 9 and S9 and S10!), when will it get the &lt;a href=&quot;https://source.android.com/security/bulletin/2019-04-01#framework&quot;&gt;April 5, 2019 Android security patches&lt;/a&gt;? I hope before the end of April 2019 but I&amp;#39;m not holding my breath :-)
+
+&lt;ul&gt;
+&lt;li&gt;Previously: &lt;a href=&quot;http://rolandtanglao.com/2019/03/15/p1-note8-15march2019-900-usd-phone-more-than-two-months-behind-security-updates/&quot;&gt;It&amp;#39;s March 15, 2019: My $USD900 Note 8 is still at January Android security patch level i.e. more than 2 months behind: Thanks but no thanks S*msung and F*do&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 11 Apr 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/04/11/p1-note8-got-android-pie-update-01april2019-when-will-it-get-android-security-patch-2019-04-05/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/11/p1-note8-got-android-pie-update-01april2019-when-will-it-get-android-security-patch-2019-04-05/</guid>
+        
+        
+      </item>
     
       <item>
         <title>e-ink/epaper red, white and black badge with: TTGO-T5s-V1-9-ESP32-2-7-EPaper-Plus-Module-for-Alexa-I2S-DAC-MAX98357A-MEMS</title>
@@ -212,36 +231,6 @@ shape-based tonal or shading&lt;/a&gt;&lt;/li&gt;
         <pubDate>Sun, 31 Mar 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/03/31/p1-use-hatching-to-create-fun-infographics-for-tshirts/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/03/31/p1-use-hatching-to-create-fun-infographics-for-tshirts/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Boris Mann: Chunks of text, not too large, connected with links. </title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt; &lt;a href=&quot;https://twitter.com/bmann/status/1112090591779680257&quot;&gt;Boris Mann&lt;/a&gt;:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-
-&quot;blogging ;) I’ll be at 20 years next year!
-
-So, more broadly, a domain I own and HTML. Also Git. How to generate and host it changes.
-
-Chunks of text, not too large, connected with links. 
-
-Bullish on IPFS. Spec that rely on URIs will need to be re-imagined. That’s exciting!&quot;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I started blogging in late 1999 methinks so it&amp;#39;s my 20th year! Go Boris-20-years go!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 30 Mar 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/03/30/p1-chunks-text-not-too-large-connected-with-links/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/30/p1-chunks-text-not-too-large-connected-with-links/</guid>
         
         
       </item>
