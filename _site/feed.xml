@@ -6,9 +6,32 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 11 Apr 2019 20:32:48 -0700</pubDate>
-    <lastBuildDate>Thu, 11 Apr 2019 20:32:48 -0700</lastBuildDate>
+    <pubDate>Sun, 14 Apr 2019 08:37:08 -0700</pubDate>
+    <lastBuildDate>Sun, 14 Apr 2019 08:37:08 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Checkvist Firefox analyst notes and tags -&gt; API -&gt; SQLite -&gt; Datasette -&gt; allow people to do sql queries?</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Using Checkvist, I&amp;#39;m tagging and taking Firefox desktop user feedback with notes and notes (e.g. see &lt;a href=&quot;https://checkvist.com/p/Z6DzuEp5M8FvHr87DRij1w&quot;&gt;Checkvist SUMO notes and tags for Firefox 66&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Checkvist is great but it&amp;#39;s not a searchable database and it&amp;#39;s not something others can query.&lt;/li&gt;
+&lt;li&gt;So my idea is to use the Checkvist API, and some software (hah! but easy since I&amp;#39;ve done this countless times with MongoDB) and convert to JSON, store the JSON in SQLite and host the SQLite via datasette (see &lt;a href=&quot;https://gist.github.com/simonw/eb5ad8e55d75bbc3003dd9e5d6eb438b&quot;&gt;How to turn a list of JSON objects into a Datasette&lt;/a&gt;) in the cloud. That way other folks who don&amp;#39;t want to work with outlines and don&amp;#39;t know to work with outlines but do know SQL can easily query using SQL or &lt;a href=&quot;https://datasette.readthedocs.io/en/stable/json_api.html&quot;&gt;JSON API&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Previously relevant: 
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2018/11/29/p1-checkvist-api-for-collapsible-html/&quot;&gt;checkvist has a nice open api for making expandible/collapsible html from checkvist outlines&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2017/12/08/p1-Convert-CSV-files-into-a-SQLite-database-prequel-to-datasette/&quot;&gt;cvss-to-sqlite Prequel to blog post about Datasette: Convert CSV files into a SQLite database. Browse and publish that SQLite database with Datasette&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 14 Apr 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/04/14/p1-firefox-analyst-notes-checkvist-api-sql-lite-datasette/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/14/p1-firefox-analyst-notes-checkvist-api-sql-lite-datasette/</guid>
+        
+        
+      </item>
     
       <item>
         <title>S*msung Note 8 got the Android 9 Pie Update April 1st, when will it get the April 5, 2019 Android security patches?</title>
@@ -215,22 +238,6 @@
         <pubDate>Mon, 01 Apr 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/04/01/p1-hatching-output-from-mozlando-ksc/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/04/01/p1-hatching-output-from-mozlando-ksc/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Use Hatching, shape-based tonal or shading,  to create fun infographics for tshirts in R (code by Jean Fan)</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt; See: &lt;a href=&quot;https://jef.works/art-with-code/portfolio/20190301_hatching/&quot;&gt;Jean Fan&amp;#39;s Hatching
-shape-based tonal or shading&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 31 Mar 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/03/31/p1-use-hatching-to-create-fun-infographics-for-tshirts/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/03/31/p1-use-hatching-to-create-fun-infographics-for-tshirts/</guid>
         
         
       </item>
