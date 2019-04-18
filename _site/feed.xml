@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 16 Apr 2019 23:17:25 -0700</pubDate>
-    <lastBuildDate>Tue, 16 Apr 2019 23:17:25 -0700</lastBuildDate>
+    <pubDate>Wed, 17 Apr 2019 21:28:13 -0700</pubDate>
+    <lastBuildDate>Wed, 17 Apr 2019 21:28:13 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Carnets - Standlone Jupyter notebooks for iOS!</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/holzschu/Carnets&quot;&gt;Carnets - Standlone Jupyter notebooks for iOS&lt;/a&gt;! via &lt;a href=&quot;https://taoofmac.com/space/links/2019/04/15/1008&quot;&gt;Rui&lt;/a&gt;! Someday I&amp;#39;ll try Jupyter in earnest :-)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 17 Apr 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/04/17/p1-carnets-standlonejupyter-notebooks-for-ios/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/17/p1-carnets-standlonejupyter-notebooks-for-ios/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Quantum computing for the very curious via nicky &lt;-- amazing</title>
@@ -208,21 +223,6 @@
         <pubDate>Sat, 06 Apr 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/04/06/p1-windows-taskbar-not-hiding-restart-windows-explorer-or-click-search-and-then-desktop/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/04/06/p1-windows-taskbar-not-hiding-restart-windows-explorer-or-click-search-and-then-desktop/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Machine Learning in the cloud from a Browser using Tensor Flow, Keras and Jupyter Notebooks</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Gotta try this: &lt;a href=&quot;https://medium.com/@curioushruti/how-to-guide-cnns-using-tensorflow-keras-tensorflow-serving-in-google-colaboratory-878e5884d03&quot;&gt;Shruti Sharma: How-to Guide: CNNs using TensorFlow / Keras / TensorFlow Serving in Google Colaboratory&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 04 Apr 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/04/04/p1-machine-learning-in-the-cloud-from-your-browser/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/04/p1-machine-learning-in-the-cloud-from-your-browser/</guid>
         
         
       </item>
