@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Jan 1, 2019 - April 18, 2019 - 22 SUMO Firefox desktop Forum questions about losing two factor authentication codes"
+title: "Jan 1, 2019 - April 18, 2019 - 22 (out of 5539 i.e. 0.4%) SUMO Firefox desktop Forum questions about losing two factor authentication codes"
 ---
 
 # Pontifications
 
-* Jan 1, 2019 - April 18, 2019 - 22 SUMO Firefox desktop Forum questions about losing two factor authentication codes
+* over 3.5 months 0.4 % of SUMO Firefox desktop questions were about losing 2FA codes (22 out of 5539)
 
 ## Colophon
 
