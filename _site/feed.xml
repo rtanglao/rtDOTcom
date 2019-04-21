@@ -6,9 +6,46 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 18 Apr 2019 22:11:44 -0700</pubDate>
-    <lastBuildDate>Thu, 18 Apr 2019 22:11:44 -0700</lastBuildDate>
+    <pubDate>Sat, 20 Apr 2019 23:29:02 -0700</pubDate>
+    <lastBuildDate>Sat, 20 Apr 2019 23:29:02 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>MakeVancouver allover tshirt using Kennedy Space Center hatched graphics from Jean Fan </title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;4000 pixels by 4000 pixels instead of 6400 pixels long but otherwise identical to &lt;a href=&quot;http://rolandtanglao.com/2019/04/07/p1-white-pseudo-camo-artofwhere-tights-from-mozlando2018-ksc-hatched-photos/&quot;&gt;White pseudo-camo &amp;#39;art of where&amp;#39; tights using Mozlando 2018 Kennedy Space Center photos processed through Jean Fan&amp;#39;s hatching function&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;16inches  at 250 dot per inch = 16 * 250 = 4000 pixels&lt;/li&gt;
+&lt;li&gt;to make the &lt;strong&gt;front&lt;/strong&gt; of the all over tshirt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /home/roland/GIT/rt-mozlando2018-ksc/RUN2_HATCHED_ZAZZLE
+../4000px-square-allover-makevancouver-shirt.rb 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;output: &lt;a href=&quot;https://github.com/rtanglao/rt-mozlando2018-ksc/blob/master/RUN2_HATCHED_ZAZZLE/hatched-makevancouver-2019-04-20-12-02-oily-200x200-out.png&quot;&gt;https://github.com/rtanglao/rt-mozlando2018-ksc/blob/master/RUN2&lt;em&gt;HATCHED&lt;/em&gt;ZAZZLE/hatched-makevancouver-2019-04-20-12-02-oily-200x200-out.png&lt;/a&gt; &amp;lt;--- which I will use for the &lt;strong&gt;front&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/47603726652/in/datetaken-ff/&quot; title=&quot;FRONT - hatched-makevancouver-2019-04-20-12-02-oily-200x200-out&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/47603726652_1ed0a02f9c.jpg&quot; width=&quot;500&quot; height=&quot;500&quot; alt=&quot;FRONT - hatched-makevancouver-2019-04-20-12-02-oily-200x200-out&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;to make the &lt;strong&gt;back&lt;/strong&gt; of the all over tshirt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /home/roland/GIT/rt-mozlando2018-ksc/RUN2_HATCHED_ZAZZLE
+../4000px-square-allover-makevancouver-shirt.rb 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;output: &lt;a href=&quot;https://github.com/rtanglao/rt-mozlando2018-ksc/blob/master/RUN2_HATCHED_ZAZZLE/hatched-makevancouver-2019-04-20-23-02-oily-200x200-out.png&quot;&gt;https://github.com/rtanglao/rt-mozlando2018-ksc/blob/master/RUN2&lt;em&gt;HATCHED&lt;/em&gt;ZAZZLE/hatched-makevancouver-2019-04-20-23-02-oily-200x200-out.png&lt;/a&gt; &amp;lt;--- which I will use for the &lt;strong&gt;back&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/33779137328/in/datetaken-ff/&quot; title=&quot;BACK - hatched-makevancouver-2019-04-20-23-02-oily-200x200-out&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/33779137328_1b7193a306.jpg&quot; width=&quot;500&quot; height=&quot;500&quot; alt=&quot;BACK - hatched-makevancouver-2019-04-20-23-02-oily-200x200-out&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 20 Apr 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/04/20/p1-makevancouver-allover-shirt/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/20/p1-makevancouver-allover-shirt/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Jan 1, 2019 - April 18, 2019 - 22 (out of 5539 i.e. 0.4%) SUMO Firefox desktop Forum questions about losing two factor authentication codes</title>
@@ -188,47 +225,6 @@
         <pubDate>Mon, 08 Apr 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/04/08/p1-jean-fan-flickr-color-distribution-publicly-available-images-adapt-to-xcskiing-bicycling-food-rainy/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/04/08/p1-jean-fan-flickr-color-distribution-publicly-available-images-adapt-to-xcskiing-bicycling-food-rainy/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>White pseudo-camo 'art of where' tights using Mozlando 2018 Kennedy Space Center photos processed through Jean Fan's hatching function</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;White pseudo-camo &amp;#39;art of where&amp;#39; tights using Mozlando 2019 Kennedy Space Center photos processed through &lt;a href=&quot;http://rolandtanglao.com/2019/04/01/p1-hatching-output-from-mozlando-ksc/&quot;&gt;Jean Fan&amp;#39;s hatching function&lt;/a&gt;:&lt;/li&gt;
-&lt;li&gt;One Leg:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /home/roland/GIT/rt-mozlando2018-ksc/RUN2_HATCHED_ZAZZLE
-../6400-hatched-art-of-where.rb
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;output is:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/46829916124/in/dateposted-ff/&quot; title=&quot;hatched-2019-04-06-21-27-oily-200x200-out&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/7801/46829916124_cdd3020646.jpg&quot; width=&quot;266&quot; height=&quot;500&quot; alt=&quot;hatched-2019-04-06-21-27-oily-200x200-out&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Another Leg:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /home/roland/GIT/rt-mozlando2018-ksc/HATCHED_ZAZZLE
-../6400-hatched-art-of-where.rb
-&lt;span class=&quot;c&quot;&gt;# output is  hatched-2019-04-06-21-27-oily-200x200-out.png&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;output is:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/46833686154/in/dateposted-ff/&quot; title=&quot;hatched-2019-04-07-09-42-oily-200x200-out&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/7854/46833686154_b96cc3e85f.jpg&quot; width=&quot;266&quot; height=&quot;500&quot; alt=&quot;hatched-2019-04-07-09-42-oily-200x200-out&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;h2&gt;Rendering of the tights&lt;/h2&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/40591357133/in/dateposted-ff/&quot; title=&quot;hatched-leggings-ksc-artofwhere-preview&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/7869/40591357133_44d27265f6.jpg&quot; width=&quot;500&quot; height=&quot;318&quot; alt=&quot;hatched-leggings-ksc-artofwhere-preview&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 07 Apr 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/04/07/p1-white-pseudo-camo-artofwhere-tights-from-mozlando2018-ksc-hatched-photos/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/07/p1-white-pseudo-camo-artofwhere-tights-from-mozlando2018-ksc-hatched-photos/</guid>
         
         
       </item>
