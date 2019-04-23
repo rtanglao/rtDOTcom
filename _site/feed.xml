@@ -6,9 +6,31 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 22 Apr 2019 14:18:14 -0700</pubDate>
-    <lastBuildDate>Mon, 22 Apr 2019 14:18:14 -0700</lastBuildDate>
+    <pubDate>Mon, 22 Apr 2019 21:14:12 -0700</pubDate>
+    <lastBuildDate>Mon, 22 Apr 2019 21:14:12 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>How to use mlr (miller) to create an id, url CSV file from a file of ids by concatenating 'support.mozilla.org/questions/' to the id</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;mlr &lt;span class=&quot;nt&quot;&gt;--csv&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--implicit-csv-header&lt;/span&gt; label &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+offtopic-and-duplicates-removed-01january2019-18january2019-2fa-sumo-forum-question-ids.txt&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+| mlr &lt;span class=&quot;nt&quot;&gt;--csv&lt;/span&gt; put &lt;span class=&quot;s1&quot;&gt;'$url = &quot;https://support.mozilla.org/&quot; . $id\
+ &amp;gt; urls_offtopic-and-duplicates-removed-01january2019-18january2019-2fa-sumo-forum-question-ids.txt'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;offtopic-and-duplicates-removed-01january2019-18january2019-2fa-sumo-forum-question-ids.txt&lt;/code&gt; is just a file of 1 &lt;code&gt;id&lt;/code&gt; per line&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mlr --csv --implicit-csv-header label id&lt;/code&gt; outputs a CSV file with one column name &lt;code&gt;id&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mlr --csv put &amp;#39;$url = &amp;quot;https://support.mozilla.org/&amp;quot; . $id&lt;/code&gt; adds the &lt;code&gt;url&lt;/code&gt; column&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;.&lt;/code&gt; is the concatenation operator in miller which wasn&amp;#39;t clear to me from the docs&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 21 Apr 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/04/21/p2-howto-use-miller-mlr-to-create-csv-file-with-urls-from-ids/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/21/p2-howto-use-miller-mlr-to-create-csv-file-with-urls-from-ids/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Idea: make a tshirt with the m*eller report r*dacted with 50% of the thumbnails on front and 50% on back and call it of course 'mrstardacted'</title>
@@ -208,23 +230,6 @@
         <pubDate>Wed, 10 Apr 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/04/10/p1-e-ink-red-black-white-badge/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/04/10/p1-e-ink-red-black-white-badge/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Nikon 1 GPS GP-N100 erroneously sets the EXIF in photos to 2099 instead of 2019 due to a GPS Week rollover bug starting April 6, 2019</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;p&gt;UPDATE: I posted this on the Nikon 1 dpreview.com forums as well: &lt;a href=&quot;https://www.dpreview.com/forums/post/62536512&quot;&gt;Nikon 1 GPS GP-N100 erroneously sets year to 2099 after April 6, 2019 GPS Week rollover&lt;/a&gt;  &amp;lt;--- waiting for moderators to approve it so the public can see it :-)&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The &lt;a href=&quot;https://www.nikonusa.com/en/nikon-products/product/gps/gp-n100-gps-unit.html#tab-ProductDetail-ProductTabs-Overview&quot;&gt;Nikon 1 GPS GP-N100 module&lt;/a&gt; for Nikon 1 cameras erroneously sets the EXIF in photos to the year 2099 instead of 2019 due to a &lt;a href=&quot;https://en.wikipedia.org/wiki/Time_formatting_and_storage_bugs#Second_GPS_rollover&quot;&gt;GPS Week rollover&lt;/a&gt; that happened on April 6, 2019 (&lt;a href=&quot;https://gpsd-dev.berlios.narkive.com/XGU31nJE/gps-date-fail-due-to-week-counter-rollover-not-a-gpsd-bug&quot;&gt;and other GPS modules have the same bug&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 09 Apr 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/04/09/p1-gps-weeknumber-rollover-april-6-2019-breaks-nikon1-gpn-100-gps-module-leads-to-2099-instead-of-2019/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/09/p1-gps-weeknumber-rollover-april-6-2019-breaks-nikon1-gpn-100-gps-module-leads-to-2099-instead-of-2019/</guid>
         
         
       </item>
