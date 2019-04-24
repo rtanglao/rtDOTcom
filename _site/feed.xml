@@ -6,23 +6,42 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 22 Apr 2019 21:14:12 -0700</pubDate>
-    <lastBuildDate>Mon, 22 Apr 2019 21:14:12 -0700</lastBuildDate>
+    <pubDate>Tue, 23 Apr 2019 19:03:44 -0700</pubDate>
+    <lastBuildDate>Tue, 23 Apr 2019 19:03:44 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Datasette on glitch seems more future proof but more complicated than datasette on Zeit Now</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Datasette on Glitch (see &lt;a href=&quot;https://simonwillison.net/2019/Apr/23/datasette-glitch/&quot;&gt;Simon Willison&amp;#39;s Running Datasette on Glitch&lt;/a&gt;) seems more future proof but more complicated than datasette on Zeit Now (see &lt;a href=&quot;http://rolandtanglao.com/2019/04/14/p1-firefox-analyst-notes-checkvist-api-sql-lite-datasette/&quot;&gt;Checkvist Firefox analyst notes and tags -&amp;gt; API -&amp;gt; SQLite -&amp;gt; Datasette -&amp;gt; allow people to do sql queries?&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 23 Apr 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/04/23/p1-datasette-on-glitch-has-a-future-but-seems-harder-than-zeit-now/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/23/p1-datasette-on-glitch-has-a-future-but-seems-harder-than-zeit-now/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How to use mlr (miller) to create an id, url CSV file from a file of ids by concatenating 'support.mozilla.org/questions/' to the id</title>
         <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;mlr &lt;span class=&quot;nt&quot;&gt;--csv&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--implicit-csv-header&lt;/span&gt; label &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;mlr &lt;span class=&quot;nt&quot;&gt;--csv&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--implicit-csv-header&lt;/span&gt; label &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
 offtopic-and-duplicates-removed-01january2019-18january2019-2fa-sumo-forum-question-ids.txt&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-| mlr &lt;span class=&quot;nt&quot;&gt;--csv&lt;/span&gt; put &lt;span class=&quot;s1&quot;&gt;'$url = &quot;https://support.mozilla.org/&quot; . $id\
- &amp;gt; urls_offtopic-and-duplicates-removed-01january2019-18january2019-2fa-sumo-forum-question-ids.txt'&lt;/span&gt;
+| mlr &lt;span class=&quot;nt&quot;&gt;--csv&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+put &lt;span class=&quot;s1&quot;&gt;'$url = &quot;https://support.mozilla.org/questions/&quot;\
+. $id'&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; urls_offtopic-and-duplicates-removed-01january2019-18january2019-2fa-sumo-forum-question-ids.csv 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;offtopic-and-duplicates-removed-01january2019-18january2019-2fa-sumo-forum-question-ids.txt&lt;/code&gt; is just a file of 1 &lt;code&gt;id&lt;/code&gt; per line&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;mlr --csv --implicit-csv-header label id&lt;/code&gt; outputs a CSV file with one column name &lt;code&gt;id&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;mlr --csv put &amp;#39;$url = &amp;quot;https://support.mozilla.org/&amp;quot; . $id&lt;/code&gt; adds the &lt;code&gt;url&lt;/code&gt; column&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;.&lt;/code&gt; is the concatenation operator in miller which wasn&amp;#39;t clear to me from the docs&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;.&lt;/code&gt; is the string concatenation operator in miller which wasn&amp;#39;t clear to me from the docs &amp;lt;--- all i could find in the docs was: &amp;quot;&lt;a href=&quot;http://johnkerl.org/miller/doc/reference.html#String_literals&quot;&gt;If the regular expression is a more complex
+expression, including string concatenation using &lt;code&gt;.&lt;/code&gt;,&lt;/a&gt;&amp;quot;&lt;/li&gt;
+&lt;li&gt;output is &lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/urls_offtopic-and-duplicates-removed-01january2019-18january2019-2fa-sumo-forum-question-ids.csv&quot;&gt;https://github.com/rtanglao/rt-kitsune-api/blob/master/urls_offtopic-and-duplicates-removed-01january2019-18january2019-2fa-sumo-forum-question-ids.csv&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 21 Apr 2019 00:00:00 -0700</pubDate>
@@ -201,35 +220,6 @@ offtopic-and-duplicates-removed-01january2019-18january2019-2fa-sumo-forum-quest
         <pubDate>Thu, 11 Apr 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/04/11/p1-note8-got-android-pie-update-01april2019-when-will-it-get-android-security-patch-2019-04-05/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/04/11/p1-note8-got-android-pie-update-01april2019-when-will-it-get-android-security-patch-2019-04-05/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>e-ink/epaper red, white and black badge with: TTGO-T5s-V1-9-ESP32-2-7-EPaper-Plus-Module-for-Alexa-I2S-DAC-MAX98357A-MEMS</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.aliexpress.com/item/TTGO-T5s-V1-9-ESP32-2-7-EPaper-Plus-Module-for-Alexa-I2S-DAC-MAX98357A-MEMS/32867880658.html?tt=ae.CopyActivity&amp;aff_platform=default&amp;cpt=1554954145758&amp;sk=cNxl1yFq&amp;aff_trace_key=d3058dbb2f1642b9b3d831745988c647-1554954145758-09073-cNxl1yFq&amp;terminal_id=9ca9ba2113d24209a576849c6b205825&quot;&gt;TGO-T5s-V1-9-ESP32-2-7-EPaper-Plus-Module-for-Alexa-I2S-DAC-MAX98357A-MEMS&lt;/a&gt; sounds great! Red, white and black e-ink so it&amp;#39;s persistent display with an ESP microcontroller, usb power and a microphone.&lt;/li&gt;
-&lt;li&gt;Can&amp;#39;t wait to try it out!&lt;/li&gt;
-&lt;li&gt;And there is software already:
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/LilyGO/TTGO-Electronic-Badge&quot;&gt;https://github.com/LilyGO/TTGO-Electronic-Badge&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/LilyGO/TTGO-T5S-Epaper&quot;&gt;https://github.com/LilyGO/TTGO-T5S-Epaper&lt;/a&gt; &amp;lt;--- specific module&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Current Idea: display &amp;quot;Roland&amp;quot; on the top and below change one pixel at a time randomly every minute (or 10 minutes or 30 minutes)&lt;/li&gt;
-&lt;li&gt;Previous posts on badges:
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2017/05/11/p1-colour-badge-using-320x240-Espressif-ESP32/&quot;&gt;320x240 LCD Badge using the Espressif ESP32 with SD Card and LiPO power from microwavemont&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2017/01/26/p1-arduino-colour-320x240-lcd-badge,md/&quot;&gt;Arduino driven colour 320x240 LCD Badge using the Espressif ESP32 WROVER Kit?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 10 Apr 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/04/10/p1-e-ink-red-black-white-badge/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/10/p1-e-ink-red-black-white-badge/</guid>
         
         
       </item>
