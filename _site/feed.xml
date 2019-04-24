@@ -6,9 +6,34 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 23 Apr 2019 19:03:44 -0700</pubDate>
-    <lastBuildDate>Tue, 23 Apr 2019 19:03:44 -0700</lastBuildDate>
+    <pubDate>Tue, 23 Apr 2019 19:19:07 -0700</pubDate>
+    <lastBuildDate>Tue, 23 Apr 2019 19:19:07 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Windows 10 insider build slow run build crashed with win32k_power_watchdog_timeout</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I hope this isn&amp;#39;t the start of a trend!&lt;/li&gt;
+&lt;li&gt;Previously relevant:
+
+&lt;ul&gt;
+&lt;li&gt;From March 27, 2019: &lt;a href=&quot;http://rolandtanglao.com/2019/03/27/p1-had-to-reboot-my-surfacebook2-to-get-wifi-working/&quot;&gt;Had to Reboot my Surface Book 2 again to get WiFi working, just like April 12, 2018&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Screenshot of crash:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/46762849515/in/datetaken-ff/&quot; title=&quot;bad windows 10 insider build bad :-)&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/46762849515_387ee8816e.jpg&quot; width=&quot;500&quot; height=&quot;500&quot; alt=&quot;bad windows 10 insider build bad :-)&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 23 Apr 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/04/23/p2-surface-book2-windows-insider-build-crashed-win32k_power_watchdog_timeout/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/23/p2-surface-book2-windows-insider-build-crashed-win32k_power_watchdog_timeout/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Datasette on glitch seems more future proof but more complicated than datasette on Zeit Now</title>
@@ -201,25 +226,6 @@ expression, including string concatenation using &lt;code&gt;.&lt;/code&gt;,&lt;
         <pubDate>Sun, 14 Apr 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/04/14/p1-firefox-analyst-notes-checkvist-api-sql-lite-datasette/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/04/14/p1-firefox-analyst-notes-checkvist-api-sql-lite-datasette/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>S*msung Note 8 got the Android 9 Pie Update April 1st, when will it get the April 5, 2019 Android security patches?</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;My S*msung Note 8 got the Android 9 Pie Update April 1st (&lt;a href=&quot;https://en.wikipedia.org/wiki/Android_Pie&quot;&gt;Google released Android 9 Pie back in August 2018&lt;/a&gt;; far too long; shouldn&amp;#39;t take 6 months in 2019; I hope Android Project Treble reduces this time to at most 1 month for newer S*msung phones like the Note 9 and S9 and S10!), when will it get the &lt;a href=&quot;https://source.android.com/security/bulletin/2019-04-01#framework&quot;&gt;April 5, 2019 Android security patches&lt;/a&gt;? I hope before the end of April 2019 but I&amp;#39;m not holding my breath :-)
-
-&lt;ul&gt;
-&lt;li&gt;Previously: &lt;a href=&quot;http://rolandtanglao.com/2019/03/15/p1-note8-15march2019-900-usd-phone-more-than-two-months-behind-security-updates/&quot;&gt;It&amp;#39;s March 15, 2019: My $USD900 Note 8 is still at January Android security patch level i.e. more than 2 months behind: Thanks but no thanks S*msung and F*do&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 11 Apr 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/04/11/p1-note8-got-android-pie-update-01april2019-when-will-it-get-android-security-patch-2019-04-05/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/11/p1-note8-got-android-pie-update-01april2019-when-will-it-get-android-security-patch-2019-04-05/</guid>
         
         
       </item>
