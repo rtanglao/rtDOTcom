@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 23 Apr 2019 19:19:07 -0700</pubDate>
-    <lastBuildDate>Tue, 23 Apr 2019 19:19:07 -0700</lastBuildDate>
+    <pubDate>Tue, 23 Apr 2019 19:35:34 -0700</pubDate>
+    <lastBuildDate>Tue, 23 Apr 2019 19:35:34 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Loving the Typora Markdown Editor</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I&amp;#39;m sure I&amp;#39;ll find some nits :-) but at the moment, loving &lt;a href=&quot;https://typora.io/&quot;&gt;Typora&lt;/a&gt; on Windows for editing Markdown which, unlike the current version of IA Writer, Typora reads and writes to Windows Subsystem for Linux (WSL) files.&lt;/li&gt;
+&lt;li&gt;The current version of  IA Writer, 1.1,  hangs when reading and writing WSL files; I&amp;#39;m sure the IA Writer folks will fix it quickly since Windows 10 build 1903 with support for writing to WSL files from the Windows side will go GA in a month or two.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 23 Apr 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/04/23/p3-loving-typora-markdown-editor/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/23/p3-loving-typora-markdown-editor/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Windows 10 insider build slow run build crashed with win32k_power_watchdog_timeout</title>
@@ -203,29 +219,6 @@ expression, including string concatenation using &lt;code&gt;.&lt;/code&gt;,&lt;
         <pubDate>Mon, 15 Apr 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/04/15/p1-sqlite-does-not-have-array-types/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/04/15/p1-sqlite-does-not-have-array-types/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Checkvist Firefox analyst notes and tags -&gt; API -&gt; SQLite -&gt; Datasette -&gt; allow people to do sql queries?</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Using Checkvist, I&amp;#39;m tagging and taking Firefox desktop user feedback with notes and notes (e.g. see &lt;a href=&quot;https://checkvist.com/p/Z6DzuEp5M8FvHr87DRij1w&quot;&gt;Checkvist SUMO notes and tags for Firefox 66&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Checkvist is great but it&amp;#39;s not a searchable database and it&amp;#39;s not something others can query.&lt;/li&gt;
-&lt;li&gt;So my idea is to use the Checkvist API, and some software (hah! but easy since I&amp;#39;ve done this countless times with MongoDB) and convert to JSON, store the JSON in SQLite and host the SQLite via datasette (see &lt;a href=&quot;https://gist.github.com/simonw/eb5ad8e55d75bbc3003dd9e5d6eb438b&quot;&gt;How to turn a list of JSON objects into a Datasette&lt;/a&gt;) in the cloud. That way other folks who don&amp;#39;t want to work with outlines and don&amp;#39;t know to work with outlines but do know SQL can easily query using SQL or &lt;a href=&quot;https://datasette.readthedocs.io/en/stable/json_api.html&quot;&gt;JSON API&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Previously relevant: 
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2018/11/29/p1-checkvist-api-for-collapsible-html/&quot;&gt;checkvist has a nice open api for making expandible/collapsible html from checkvist outlines&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2017/12/08/p1-Convert-CSV-files-into-a-SQLite-database-prequel-to-datasette/&quot;&gt;cvss-to-sqlite Prequel to blog post about Datasette: Convert CSV files into a SQLite database. Browse and publish that SQLite database with Datasette&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 14 Apr 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/04/14/p1-firefox-analyst-notes-checkvist-api-sql-lite-datasette/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/14/p1-firefox-analyst-notes-checkvist-api-sql-lite-datasette/</guid>
         
         
       </item>
