@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 23 Apr 2019 19:35:34 -0700</pubDate>
-    <lastBuildDate>Tue, 23 Apr 2019 19:35:34 -0700</lastBuildDate>
+    <pubDate>Wed, 24 Apr 2019 23:28:06 -0700</pubDate>
+    <lastBuildDate>Wed, 24 Apr 2019 23:28:06 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Orff's AppleWatchFaces: Create your own faces for watchOS. Customize the watch hands, layout, colors, and images. Edit faces on your phone and switch them on the watch. &lt;-- sounds great</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;If only XCode wasn&amp;#39;t so convoluted :-)&lt;/li&gt;
+&lt;li&gt;I&amp;#39;ll see if I can get Orff&amp;#39;s &lt;a href=&quot;https://github.com/orff/AppleWatchFaces&quot;&gt;AppleWatchFaces&lt;/a&gt; to compile and work on my iPhone and Apple Watch &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 24 Apr 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/04/24/p1-orrf-applewatchfaces-sounds-like-fun/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/24/p1-orrf-applewatchfaces-sounds-like-fun/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Loving the Typora Markdown Editor</title>
@@ -196,29 +212,6 @@ expression, including string concatenation using &lt;code&gt;.&lt;/code&gt;,&lt;
         <pubDate>Tue, 16 Apr 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/04/16/p1-quantum-computing-for-the-very-curious/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/04/16/p1-quantum-computing-for-the-very-curious/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Today I learned that SQLite doesn't have array types</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Today I learned that &lt;a href=&quot;https://stackoverflow.com/questions/3005231/how-to-store-array-in-one-column-in-sqlite3&quot;&gt;SQLite doesn&amp;#39;t have array types&lt;/a&gt;; just &lt;a href=&quot;https://www.sqlite.org/datatype3.html&quot;&gt;NULL, INTEGER, REAL, TEXT, BLOB&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Therefore if I want to store json with arrays, I can
-
-&lt;ul&gt;
-&lt;li&gt;a) store the JSON in a blog&lt;/li&gt;
-&lt;li&gt;b) put the arrays in a separate table&lt;/li&gt;
-&lt;li&gt;c) flatten the arrays into a string or some such kludge&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;I&amp;#39;ll probably do c) first and then b) later for my &lt;a href=&quot;http://rolandtanglao.com/2019/04/14/p1-firefox-analyst-notes-checkvist-api-sql-lite-datasette/&quot;&gt;Firefox support analyst notes&lt;/a&gt; &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 15 Apr 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/04/15/p1-sqlite-does-not-have-array-types/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/15/p1-sqlite-does-not-have-array-types/</guid>
         
         
       </item>
