@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 24 Apr 2019 23:28:06 -0700</pubDate>
-    <lastBuildDate>Wed, 24 Apr 2019 23:28:06 -0700</lastBuildDate>
+    <pubDate>Thu, 25 Apr 2019 21:25:35 -0700</pubDate>
+    <lastBuildDate>Thu, 25 Apr 2019 21:25:35 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Probably Wrong Prediction :-) : No x86 laptops for sale in 10 years</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Just like you can&amp;#39;t buy PowerPC or 68K laptops in 2019, I predict no x86 laptops for sale in 2030. All laptops will be ARM64 in 2030 or some other non x86, non ATOM architecture.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 25 Apr 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/04/25/p1-probably-wrong-prediction-no-x86-laptops-10-years/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/25/p1-probably-wrong-prediction-no-x86-laptops-10-years/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Orff's AppleWatchFaces: Create your own faces for watchOS. Customize the watch hands, layout, colors, and images. Edit faces on your phone and switch them on the watch. &lt;-- sounds great</title>
@@ -197,21 +212,6 @@ expression, including string concatenation using &lt;code&gt;.&lt;/code&gt;,&lt;
         <pubDate>Wed, 17 Apr 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/04/17/p1-carnets-standlonejupyter-notebooks-for-ios/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/04/17/p1-carnets-standlonejupyter-notebooks-for-ios/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Quantum computing for the very curious via nicky &lt;-- amazing</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://quantum.country/qcvc&quot;&gt;Quantum computing for the very curious&lt;/a&gt; via &lt;a href=&quot;https://www.patreon.com/posts/interactive-to-26152273?utm_medium=post_notification_email&amp;utm_source=post_link&amp;utm_campaign=patron_engagement&quot;&gt;ncase&lt;/a&gt; &amp;lt;-- amazing stuff!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 16 Apr 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/04/16/p1-quantum-computing-for-the-very-curious/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/16/p1-quantum-computing-for-the-very-curious/</guid>
         
         
       </item>
