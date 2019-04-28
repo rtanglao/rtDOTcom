@@ -6,9 +6,36 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 27 Apr 2019 23:06:47 -0700</pubDate>
-    <lastBuildDate>Sat, 27 Apr 2019 23:06:47 -0700</lastBuildDate>
+    <pubDate>Sat, 27 Apr 2019 23:23:30 -0700</pubDate>
+    <lastBuildDate>Sat, 27 Apr 2019 23:23:30 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Victoria.dev How to make changes to a private github repo result in a deployment of a public github site? Two Ways: 1) Travis CI 2) Netlify and Make</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;From Victoria.dev&amp;#39;s &lt;a href=&quot;https://victoria.dev/verbose/two-ways-to-deploy-a-public-github-pages-site-from-a-private-hugo-repository/&quot;&gt;Two ways to deploy a public GitHub Pages site from a private Hugo repository&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+A couple three-in-the-morning bright ideas and a revoked access token later (oops), I now have not one but two ways to deploy to my public GitHub Pages repository from an entirely separated, private GitHub repository. In this post, I’ll take you through achieving this with Travis CI or using Netlify and Make.&lt;br /&gt;&lt;br /&gt;
+
+There’s nothing hackish about it - my public GitHub Pages repository still looks the same as it does when I pushed to it locally from my terminal. Only now, I’m able to take advantage of a couple great deployment tools to have the site update whenever I push to my private repo, whether I’m on my laptop or out and about with my iPad.
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 27 Apr 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/04/27/p2-update-private-github-repo-from-phone-or-desktop-triggers-a-deploy-of-public-github-io-website/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/27/p2-update-private-github-repo-from-phone-or-desktop-triggers-a-deploy-of-public-github-io-website/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Probably Wrong Prediction :-) : No gas or diesel cars for sale in 2030</title>
@@ -186,32 +213,6 @@ expression, including string concatenation using &lt;code&gt;.&lt;/code&gt;,&lt;
         <pubDate>Sat, 20 Apr 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/04/20/p1-makevancouver-allover-shirt/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/04/20/p1-makevancouver-allover-shirt/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Jan 1, 2019 - April 18, 2019 - 22 (out of 5539 i.e. 0.4%) SUMO Firefox desktop Forum questions about losing two factor authentication codes</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;over 3.5 months 0.4 % of SUMO Firefox desktop questions were about losing 2FA codes (22 out of 5539)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;Colophon&lt;/h2&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;./print-2fa-sumo-questions.rb 2019 1 1 2019 4 18 2&amp;gt;01jan2019-18january-2fa-stderr-out.txt&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;01january2019-18january2019-2fa-sumo-forum-question-ids.txt
-&lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;01january2019-18january2019-2fa-sumo-forum-question-ids.txt | ./open-ids-in-browser.rb
-&lt;span class=&quot;c&quot;&gt;# which leads to 33 questions, some of which are off topic and duplicates&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;manually remove duplicates and off topic and you end up with 22 questions in 4.5 months:
-&lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/offtopic-and-duplicates-removed-01january2019-18january2019-2fa-sumo-forum-question-ids.txt&quot;&gt;offtopic-and-duplicates-removed-01january2019-18january2019-2fa-sumo-forum-question-ids.txt&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 18 Apr 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/04/18/p1-22-questions-about-losing-2fa-codes-firefox-accounts-in-three-and-a-half-months/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/18/p1-22-questions-about-losing-2fa-codes-firefox-accounts-in-three-and-a-half-months/</guid>
         
         
       </item>
