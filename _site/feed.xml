@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 27 Apr 2019 23:23:30 -0700</pubDate>
-    <lastBuildDate>Sat, 27 Apr 2019 23:23:30 -0700</lastBuildDate>
+    <pubDate>Sun, 28 Apr 2019 09:40:47 -0700</pubDate>
+    <lastBuildDate>Sun, 28 Apr 2019 09:40:47 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Use glideapps.com to make an app from Google Sheets to recommend Vancouver restaurants?!?</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.glideapps.com/&quot;&gt;Glideapps&lt;/a&gt; looks almost too easy? What&amp;#39;s the catch? Is it the pricing?&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 28 Apr 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/04/28/p1-use-glideapps-to-make-vancouver-restaurant-recommendation-app/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/28/p1-use-glideapps-to-make-vancouver-restaurant-recommendation-app/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Victoria.dev How to make changes to a private github repo result in a deployment of a public github site? Two Ways: 1) Travis CI 2) Netlify and Make</title>
@@ -22,9 +37,11 @@
 
 &lt;blockquote&gt;
 
-A couple three-in-the-morning bright ideas and a revoked access token later (oops), I now have not one but two ways to deploy to my public GitHub Pages repository from an entirely separated, private GitHub repository. In this post, I’ll take you through achieving this with Travis CI or using Netlify and Make.&lt;br /&gt;&lt;br /&gt;
+&quot;A couple three-in-the-morning bright ideas and a revoked access token later (oops), I now have not one but two ways to deploy to my public GitHub Pages repository from an entirely separated, private GitHub repository. In this post, I’ll take you through achieving this with Travis CI or using Netlify and Make.&lt;br /&gt;&lt;br /&gt;
 
 There’s nothing hackish about it - my public GitHub Pages repository still looks the same as it does when I pushed to it locally from my terminal. Only now, I’m able to take advantage of a couple great deployment tools to have the site update whenever I push to my private repo, whether I’m on my laptop or out and about with my iPad.
+
+&quot;
 
 &lt;/blockquote&gt;
 
@@ -176,43 +193,6 @@ expression, including string concatenation using &lt;code&gt;.&lt;/code&gt;,&lt;
         <pubDate>Sun, 21 Apr 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/04/21/p1-mrstardacted/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/04/21/p1-mrstardacted/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>MakeVancouver allover tshirt using Kennedy Space Center photos with hatched graphic algorithm from Jean Fan </title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;4000 pixels by 4000 pixels instead of 6400 pixels long but otherwise identical to &lt;a href=&quot;http://rolandtanglao.com/2019/04/07/p1-white-pseudo-camo-artofwhere-tights-from-mozlando2018-ksc-hatched-photos/&quot;&gt;White pseudo-camo &amp;#39;art of where&amp;#39; tights using Mozlando 2018 Kennedy Space Center photos processed through Jean Fan&amp;#39;s hatching function&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;16inches  at 250 dot per inch = 16 * 250 = 4000 pixels&lt;/li&gt;
-&lt;li&gt;to make the &lt;strong&gt;front&lt;/strong&gt; of the all over tshirt&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /home/roland/GIT/rt-mozlando2018-ksc/RUN2_HATCHED_ZAZZLE
-../4000px-square-allover-makevancouver-shirt.rb 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;output: &lt;a href=&quot;https://github.com/rtanglao/rt-mozlando2018-ksc/blob/master/RUN2_HATCHED_ZAZZLE/hatched-makevancouver-2019-04-20-12-02-oily-200x200-out.png&quot;&gt;https://github.com/rtanglao/rt-mozlando2018-ksc/blob/master/RUN2&lt;em&gt;HATCHED&lt;/em&gt;ZAZZLE/hatched-makevancouver-2019-04-20-12-02-oily-200x200-out.png&lt;/a&gt; &amp;lt;--- which I will use for the &lt;strong&gt;front&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/47603726652/in/datetaken-ff/&quot; title=&quot;FRONT - hatched-makevancouver-2019-04-20-12-02-oily-200x200-out&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/47603726652_1ed0a02f9c.jpg&quot; width=&quot;500&quot; height=&quot;500&quot; alt=&quot;FRONT - hatched-makevancouver-2019-04-20-12-02-oily-200x200-out&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;to make the &lt;strong&gt;back&lt;/strong&gt; of the all over tshirt&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /home/roland/GIT/rt-mozlando2018-ksc/RUN2_HATCHED_ZAZZLE
-../4000px-square-allover-makevancouver-shirt.rb 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;output: &lt;a href=&quot;https://github.com/rtanglao/rt-mozlando2018-ksc/blob/master/RUN2_HATCHED_ZAZZLE/hatched-makevancouver-2019-04-20-23-02-oily-200x200-out.png&quot;&gt;https://github.com/rtanglao/rt-mozlando2018-ksc/blob/master/RUN2&lt;em&gt;HATCHED&lt;/em&gt;ZAZZLE/hatched-makevancouver-2019-04-20-23-02-oily-200x200-out.png&lt;/a&gt; &amp;lt;--- which I will use for the &lt;strong&gt;back&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/33779137328/in/datetaken-ff/&quot; title=&quot;BACK - hatched-makevancouver-2019-04-20-23-02-oily-200x200-out&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/33779137328_1b7193a306.jpg&quot; width=&quot;500&quot; height=&quot;500&quot; alt=&quot;BACK - hatched-makevancouver-2019-04-20-23-02-oily-200x200-out&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 20 Apr 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/04/20/p1-makevancouver-allover-shirt/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/20/p1-makevancouver-allover-shirt/</guid>
         
         
       </item>
