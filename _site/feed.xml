@@ -6,16 +6,31 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 29 Apr 2019 19:03:25 -0700</pubDate>
-    <lastBuildDate>Mon, 29 Apr 2019 19:03:25 -0700</lastBuildDate>
+    <pubDate>Tue, 30 Apr 2019 21:52:25 -0700</pubDate>
+    <lastBuildDate>Tue, 30 Apr 2019 21:52:25 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Richard Gabriel: Nevertheless, the spreadsheet was something never seen before. A chart indicating the 64 greatest events in accounting and business history contains VisiCalc.</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Richard Gabriel: &amp;quot;Nevertheless, the spreadsheet was something never seen before. A chart indicating the 64 greatest events in accounting and business history contains VisiCalc.&amp;quot; from &lt;a href=&quot;http://dreamsongs.com/LessonsFromNothing.html&quot;&gt;Lessons from the Science of Nothing at All&lt;/a&gt; via &lt;a href=&quot;http://www.cs.uni.edu/%7Ewallingf/blog/archives/monthly/2019-04.html#e2019-04-29T14_42_40.htm&quot;&gt;Eugene Wallingford: The path to nothing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 30 Apr 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/04/30/p1-richard-gabriel-the-spreadsheet-was-something-never-seen-before/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/30/p1-richard-gabriel-the-spreadsheet-was-something-never-seen-before/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Kapampangan and Tagalog: Jenny Odell: When you think something is one thing but it's actually two things due to your duration and quality of attention </title>
         <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;For me it was Kapampangan and Tagalog. For Jenny Odell it was Kapampangan and Ilonggo! How about you?&lt;/li&gt;
+&lt;li&gt;For me it was Kapampangan and Tagalog. For Jenny Odell it was Ilonggo and Tagalog! How about you?&lt;/li&gt;
 &lt;li&gt;From &lt;a href=&quot;https://medium.com/@the_jennitaur/how-to-do-nothing-57e100f59bbb&quot;&gt;Jenny Odell&amp;#39;s amazing: how to do nothing&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -184,32 +199,6 @@ There’s nothing hackish about it - my public GitHub Pages repository still loo
         <pubDate>Tue, 23 Apr 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/04/23/p1-datasette-on-glitch-has-a-future-but-seems-harder-than-zeit-now/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/04/23/p1-datasette-on-glitch-has-a-future-but-seems-harder-than-zeit-now/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to use mlr (miller) to create an id, url CSV file from a file of ids by concatenating 'support.mozilla.org/questions/' to the id</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;mlr &lt;span class=&quot;nt&quot;&gt;--csv&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--implicit-csv-header&lt;/span&gt; label &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-offtopic-and-duplicates-removed-01january2019-18january2019-2fa-sumo-forum-question-ids.txt&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-| mlr &lt;span class=&quot;nt&quot;&gt;--csv&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-put &lt;span class=&quot;s1&quot;&gt;'$url = &quot;https://support.mozilla.org/questions/&quot;\
-. $id'&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; urls_offtopic-and-duplicates-removed-01january2019-18january2019-2fa-sumo-forum-question-ids.csv 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;offtopic-and-duplicates-removed-01january2019-18january2019-2fa-sumo-forum-question-ids.txt&lt;/code&gt; is just a file of 1 &lt;code&gt;id&lt;/code&gt; per line&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;mlr --csv --implicit-csv-header label id&lt;/code&gt; outputs a CSV file with one column name &lt;code&gt;id&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;mlr --csv put &amp;#39;$url = &amp;quot;https://support.mozilla.org/&amp;quot; . $id&lt;/code&gt; adds the &lt;code&gt;url&lt;/code&gt; column&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;.&lt;/code&gt; is the string concatenation operator in miller which wasn&amp;#39;t clear to me from the docs &amp;lt;--- all i could find in the docs was: &amp;quot;&lt;a href=&quot;http://johnkerl.org/miller/doc/reference.html#String_literals&quot;&gt;If the regular expression is a more complex
-expression, including string concatenation using &lt;code&gt;.&lt;/code&gt;,&lt;/a&gt;&amp;quot;&lt;/li&gt;
-&lt;li&gt;output is &lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/urls_offtopic-and-duplicates-removed-01january2019-18january2019-2fa-sumo-forum-question-ids.csv&quot;&gt;https://github.com/rtanglao/rt-kitsune-api/blob/master/urls_offtopic-and-duplicates-removed-01january2019-18january2019-2fa-sumo-forum-question-ids.csv&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 21 Apr 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/04/21/p2-howto-use-miller-mlr-to-create-csv-file-with-urls-from-ids/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/21/p2-howto-use-miller-mlr-to-create-csv-file-with-urls-from-ids/</guid>
         
         
       </item>
