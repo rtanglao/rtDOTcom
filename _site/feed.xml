@@ -6,9 +6,31 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 01 May 2019 22:54:30 -0700</pubDate>
-    <lastBuildDate>Wed, 01 May 2019 22:54:30 -0700</lastBuildDate>
+    <pubDate>Thu, 02 May 2019 21:26:15 -0700</pubDate>
+    <lastBuildDate>Thu, 02 May 2019 21:26:15 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>You can also use the English International Keyboard (switch to this keyboard using Windows + Space Bar) to type accented characters &quot;+ a vowel to get German umlauts for example</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Regarding yesterday&amp;#39;s post: &lt;a href=&quot;http://rolandtanglao.com/2019/05/01/p1-free-compose-to-type-accented-characters-on-windows/&quot;&gt;Enjoying using freecompose on Windows to type accented characters e.g. German vowels with umlauts like &amp;#39;ä&amp;#39;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;See:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://support.microsoft.com/en-ca/help/97738/using-us-int-l-keyboard-layout-to-type-accented-characters&quot;&gt;Using US-Int&amp;#39;l Keyboard Layout to Type Accented Characters&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.windowscentral.com/how-change-your-keyboard-layout-windows-10&quot;&gt;How to change keyboard layout on Windows 10&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Change to the US International Keyboard Layout using &lt;code&gt;Windows&lt;/code&gt; key + `&lt;code&gt;space bar&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 02 May 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/05/02/p1-windows-english-international-keyboard-to-type-accented-characters/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/05/02/p1-windows-english-international-keyboard-to-type-accented-characters/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Enjoying using freecompose on Windows to type accented characters e.g. German vowels with umlauts like 'ä'</title>
@@ -174,31 +196,6 @@ There’s nothing hackish about it - my public GitHub Pages repository still loo
         <pubDate>Tue, 23 Apr 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/04/23/p3-loving-typora-markdown-editor/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/04/23/p3-loving-typora-markdown-editor/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Windows 10 insider build slow run build crashed with win32k_power_watchdog_timeout</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I hope this isn&amp;#39;t the start of a trend!&lt;/li&gt;
-&lt;li&gt;Previously relevant:
-
-&lt;ul&gt;
-&lt;li&gt;From March 27, 2019: &lt;a href=&quot;http://rolandtanglao.com/2019/03/27/p1-had-to-reboot-my-surfacebook2-to-get-wifi-working/&quot;&gt;Had to Reboot my Surface Book 2 again to get WiFi working, just like April 12, 2018&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Screenshot of crash:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot;  href=&quot;https://www.flickr.com/photos/roland/46762849515/in/datetaken-ff/&quot; title=&quot;bad windows 10 insider build bad :-)&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/46762849515_387ee8816e.jpg&quot; width=&quot;500&quot; height=&quot;500&quot; alt=&quot;bad windows 10 insider build bad :-)&quot;&gt;&lt;/a&gt;&lt;script async src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 23 Apr 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/04/23/p2-surface-book2-windows-insider-build-crashed-win32k_power_watchdog_timeout/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/23/p2-surface-book2-windows-insider-build-crashed-win32k_power_watchdog_timeout/</guid>
         
         
       </item>
