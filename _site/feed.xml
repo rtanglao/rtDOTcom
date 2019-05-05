@@ -6,9 +6,38 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 02 May 2019 21:26:15 -0700</pubDate>
-    <lastBuildDate>Thu, 02 May 2019 21:26:15 -0700</lastBuildDate>
+    <pubDate>Sat, 04 May 2019 22:41:33 -0700</pubDate>
+    <lastBuildDate>Sat, 04 May 2019 22:41:33 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Way Spurr-Chen: When correcting others on the Internet do not confuse firmness with harshness</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Written in the context of software development! Read the whole thing:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://medium.com/@way/rage-against-the-codebase-programmers-and-negativity-d7d6b968e5f3&quot;&gt;Rage Against the Codebase: Programmers and Negativity&lt;/a&gt;:&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+    &quot;Letting excessive negativity dominate your mindset and communication and spilling over into toxicity is dangerous to productive teams and expensive for businesses. I can’t tell you the number of software projects that I have seen (and heard of) get torn down and completely rebuilt at great cost because one trusted software developer had an axe to grind with a technology, a former developer, or a single file they took to be representative of the quality of the entire codebase. It’s also demoralizing and strains relationships. I’ll never forget an incident where I was berated by a coworker for putting CSS in the wrong file, which upset me and distracted my thoughts for days. I’m also very unlikely to ever let that person near one of my teams in the future. (But who knows? People change.)&quot;&lt;br /&gt; &lt;br/&gt;
+    It’s also literally bad for your health.
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 04 May 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/05/04/p1-when-correcting-others-do-not-confuse-firmness-with-harshness/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/05/04/p1-when-correcting-others-do-not-confuse-firmness-with-harshness/</guid>
+        
+        
+      </item>
     
       <item>
         <title>You can also use the English International Keyboard (switch to this keyboard using Windows + Space Bar) to type accented characters &quot;+ a vowel to get German umlauts for example</title>
@@ -21,7 +50,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://support.microsoft.com/en-ca/help/97738/using-us-int-l-keyboard-layout-to-type-accented-characters&quot;&gt;Using US-Int&amp;#39;l Keyboard Layout to Type Accented Characters&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.windowscentral.com/how-change-your-keyboard-layout-windows-10&quot;&gt;How to change keyboard layout on Windows 10&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Change to the US International Keyboard Layout using &lt;code&gt;Windows&lt;/code&gt; key + `&lt;code&gt;space bar&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Change to the US International Keyboard Layout using &lt;code&gt;Windows&lt;/code&gt; key + &lt;code&gt;space bar&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -180,22 +209,6 @@ There’s nothing hackish about it - my public GitHub Pages repository still loo
         <pubDate>Wed, 24 Apr 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/04/24/p1-orrf-applewatchfaces-sounds-like-fun/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/04/24/p1-orrf-applewatchfaces-sounds-like-fun/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Loving the Typora Markdown Editor</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I&amp;#39;m sure I&amp;#39;ll find some nits :-) but at the moment, loving &lt;a href=&quot;https://typora.io/&quot;&gt;Typora&lt;/a&gt; on Windows for editing Markdown which, unlike the current version of IA Writer, Typora reads and writes to Windows Subsystem for Linux (WSL) files.&lt;/li&gt;
-&lt;li&gt;The current version of  IA Writer, 1.1,  hangs when reading and writing WSL files; I&amp;#39;m sure the IA Writer folks will fix it quickly since Windows 10 build 1903 with support for writing to WSL files from the Windows side will go GA in a month or two.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 23 Apr 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/04/23/p3-loving-typora-markdown-editor/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/23/p3-loving-typora-markdown-editor/</guid>
         
         
       </item>
