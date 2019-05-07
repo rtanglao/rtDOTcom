@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 04 May 2019 22:41:33 -0700</pubDate>
-    <lastBuildDate>Sat, 04 May 2019 22:41:33 -0700</lastBuildDate>
+    <pubDate>Mon, 06 May 2019 23:33:17 -0700</pubDate>
+    <lastBuildDate>Mon, 06 May 2019 23:33:17 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>cert2019: excellent teamwork and problem solving over the weekend</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.mozilla.org/addons/2019/05/04/update-regarding-add-ons-in-firefox/&quot;&gt;That&lt;/a&gt; was &amp;quot;fun&amp;quot; :-) For certain values of fun ! Love the excellent team work and spirit and engineering work.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 06 May 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/05/06/p1-excellent-teamwork-and-problem-solving-certificate2019/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/05/06/p1-excellent-teamwork-and-problem-solving-certificate2019/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Way Spurr-Chen: When correcting others on the Internet do not confuse firmness with harshness</title>
@@ -193,22 +208,6 @@ There’s nothing hackish about it - my public GitHub Pages repository still loo
         <pubDate>Thu, 25 Apr 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/04/25/p1-probably-wrong-prediction-no-x86-laptops-10-years/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/04/25/p1-probably-wrong-prediction-no-x86-laptops-10-years/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Orff's AppleWatchFaces: Create your own faces for watchOS. Customize the watch hands, layout, colors, and images. Edit faces on your phone and switch them on the watch. &lt;-- sounds great</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;If only XCode wasn&amp;#39;t so convoluted :-)&lt;/li&gt;
-&lt;li&gt;I&amp;#39;ll see if I can get Orff&amp;#39;s &lt;a href=&quot;https://github.com/orff/AppleWatchFaces&quot;&gt;AppleWatchFaces&lt;/a&gt; to compile and work on my iPhone and Apple Watch &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 24 Apr 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/04/24/p1-orrf-applewatchfaces-sounds-like-fun/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/24/p1-orrf-applewatchfaces-sounds-like-fun/</guid>
         
         
       </item>
