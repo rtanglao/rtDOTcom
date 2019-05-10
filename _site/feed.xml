@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 08 May 2019 23:31:57 -0700</pubDate>
-    <lastBuildDate>Wed, 08 May 2019 23:31:57 -0700</lastBuildDate>
+    <pubDate>Thu, 09 May 2019 21:47:39 -0700</pubDate>
+    <lastBuildDate>Thu, 09 May 2019 21:47:39 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Classic Byte August 1981: Design Principles Behind Smalltalk </title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;From Byte Magazine&amp;#39;s legendary Smalltalk issue in August 1981:  &lt;a href=&quot;http://www.cs.virginia.edu/%7Eevans/cs655/readings/smalltalk.html&quot;&gt;Design Principles Behind Smalltalk&lt;/a&gt; (BTW I had a paper copy of this magazine because I was a Byte subscriber for many years  but my Dad threw it out :-(  at least  I think :-) that&amp;#39;s what happened)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 09 May 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/05/09/p1-byte-august-1981-design-principles-behind-smalltalk/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/05/09/p1-byte-august-1981-design-principles-behind-smalltalk/</guid>
+        
+        
+      </item>
     
       <item>
         <title>WSL2 is great!</title>
@@ -179,35 +194,6 @@ This type of embarrassing discovery, in which something you thought was one thin
         <pubDate>Sun, 28 Apr 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/04/28/p1-use-glideapps-to-make-vancouver-restaurant-recommendation-app/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/04/28/p1-use-glideapps-to-make-vancouver-restaurant-recommendation-app/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Victoria.dev How to make changes to a private github repo result in a deployment of a public github site? Two Ways: 1) Travis CI 2) Netlify and Make</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;From Victoria.dev&amp;#39;s &lt;a href=&quot;https://victoria.dev/verbose/two-ways-to-deploy-a-public-github-pages-site-from-a-private-hugo-repository/&quot;&gt;Two ways to deploy a public GitHub Pages site from a private Hugo repository&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-
-&quot;A couple three-in-the-morning bright ideas and a revoked access token later (oops), I now have not one but two ways to deploy to my public GitHub Pages repository from an entirely separated, private GitHub repository. In this post, I’ll take you through achieving this with Travis CI or using Netlify and Make.&lt;br /&gt;&lt;br /&gt;
-
-There’s nothing hackish about it - my public GitHub Pages repository still looks the same as it does when I pushed to it locally from my terminal. Only now, I’m able to take advantage of a couple great deployment tools to have the site update whenever I push to my private repo, whether I’m on my laptop or out and about with my iPad.
-
-&quot;
-
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 27 Apr 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/04/27/p2-update-private-github-repo-from-phone-or-desktop-triggers-a-deploy-of-public-github-io-website/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/27/p2-update-private-github-repo-from-phone-or-desktop-triggers-a-deploy-of-public-github-io-website/</guid>
         
         
       </item>
