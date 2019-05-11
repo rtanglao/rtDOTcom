@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 09 May 2019 21:47:39 -0700</pubDate>
-    <lastBuildDate>Thu, 09 May 2019 21:47:39 -0700</lastBuildDate>
+    <pubDate>Fri, 10 May 2019 23:01:21 -0700</pubDate>
+    <lastBuildDate>Fri, 10 May 2019 23:01:21 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Mathics looks cool although why bother when Mathematica is still free for Raspberry Pi?!?</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Maybe it&amp;#39;s worth the bother so you don&amp;#39;t have to be dependent on Wolfram?!?&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://mathics.github.io/&quot;&gt;Mathics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.wolfram.com/raspberry-pi/&quot;&gt;Free Mathematica on Raspberry Pi&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 10 May 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/05/10/p1-mathics-looks-cool-although-raspberry-pi-mathematica-is-still-free/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/05/10/p1-mathics-looks-cool-although-raspberry-pi-mathematica-is-still-free/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Classic Byte August 1981: Design Principles Behind Smalltalk </title>
@@ -179,21 +196,6 @@ This type of embarrassing discovery, in which something you thought was one thin
         <pubDate>Mon, 29 Apr 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/04/29/p1-something-you-thought-was-one-thing-is-two-things-for-me-kapampangan-tagalog/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/04/29/p1-something-you-thought-was-one-thing-is-two-things-for-me-kapampangan-tagalog/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Use glideapps.com to make an app from Google Sheets to recommend Vancouver restaurants?!?</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.glideapps.com/&quot;&gt;Glideapps&lt;/a&gt; looks almost too easy? What&amp;#39;s the catch? Is it the pricing?&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 28 Apr 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/04/28/p1-use-glideapps-to-make-vancouver-restaurant-recommendation-app/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/04/28/p1-use-glideapps-to-make-vancouver-restaurant-recommendation-app/</guid>
         
         
       </item>
