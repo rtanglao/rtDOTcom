@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 11 May 2019 22:04:39 -0700</pubDate>
-    <lastBuildDate>Sat, 11 May 2019 22:04:39 -0700</lastBuildDate>
+    <pubDate>Sat, 11 May 2019 22:12:42 -0700</pubDate>
+    <lastBuildDate>Sat, 11 May 2019 22:12:42 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>On May 9, 2019, my Surface Book 2 Keyboard and Touchpad stopped working</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The touchscreen worked though and plugging in an external USB keyboard and mouse also worked. &lt;/li&gt;
+&lt;li&gt;Even more mysterious the keyboard and mouse started working a few minutes later without me changing anything.&lt;/li&gt;
+&lt;li&gt;See further Surface Book 2 Hardware issues blog posts from &lt;a href=&quot;http://rolandtanglao.com/2019/03/27/p1-had-to-reboot-my-surfacebook2-to-get-wifi-working/&quot;&gt;March 27, 2019&lt;/a&gt; and &lt;a href=&quot;http://rolandtanglao.com/2018/04/12/p1-had-to-reboot-to-get-wifi-working-on-surface-book2/&quot;&gt;April 12, 2018&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 11 May 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/05/11/p3-surface-book2-keyboard-touchpad-mysteriously-stopped-working-on-the-9may2019-mysteriously-started-working/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/05/11/p3-surface-book2-keyboard-touchpad-mysteriously-stopped-working-on-the-9may2019-mysteriously-started-working/</guid>
+        
+        
+      </item>
     
       <item>
         <title>S*msung Note 8 on F*do received the Google April Security Patch on May 11, 2019</title>
@@ -164,21 +181,6 @@
         <pubDate>Thu, 02 May 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/05/02/p1-windows-english-international-keyboard-to-type-accented-characters/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/05/02/p1-windows-english-international-keyboard-to-type-accented-characters/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Enjoying using freecompose on Windows to type accented characters e.g. German vowels with umlauts like 'ä'</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I found &lt;a href=&quot;https://code.google.com/archive/p/freecompose/&quot;&gt;freecompose&lt;/a&gt; via superuser: &lt;a href=&quot;https://superuser.com/questions/110605/how-do-i-type-accented-characters-in-windows&quot;&gt;How do I type accented characters in windows?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 01 May 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/05/01/p1-free-compose-to-type-accented-characters-on-windows/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/05/01/p1-free-compose-to-type-accented-characters-on-windows/</guid>
         
         
       </item>
