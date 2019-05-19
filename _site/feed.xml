@@ -6,9 +6,31 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 16 May 2019 22:37:45 -0700</pubDate>
-    <lastBuildDate>Thu, 16 May 2019 22:37:45 -0700</lastBuildDate>
+    <pubDate>Sat, 18 May 2019 23:28:56 -0700</pubDate>
+    <lastBuildDate>Sat, 18 May 2019 23:28:56 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>May 17, 2019: USB Audio didn't work but USB microphone did. Vidyo problem? Hardware problem with Surface Book 2 USB?</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Oddly normal headphones worked which makes it seem to my non-hardware-knowledge-encumbered-self :-)  that it&amp;#39;s a USB hardware problem with my Surface Book 2.&lt;/li&gt;
+&lt;li&gt;Previous Hardware Problems:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2019/05/11/p3-surface-book2-keyboard-touchpad-mysteriously-stopped-working-on-the-9may2019-mysteriously-started-working/&quot;&gt;May 11, 2019&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2019/03/27/p1-had-to-reboot-my-surfacebook2-to-get-wifi-working/&quot;&gt;March 27, 2019&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2018/04/12/p1-had-to-reboot-to-get-wifi-working-on-surface-book2/&quot;&gt;April 12, 2019&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 18 May 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/05/18/p1-usb-audio-did-not-work-but-usb-microphone-did-vidyo/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/05/18/p1-usb-audio-did-not-work-but-usb-microphone-did-vidyo/</guid>
+        
+        
+      </item>
     
       <item>
         <title>McGuckian Shane: Scraping Reddit with PRAW</title>
@@ -147,21 +169,6 @@
         <pubDate>Wed, 08 May 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/05/08/p1-wsl2-is-great/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/05/08/p1-wsl2-is-great/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>empathy is a choice!</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.nytimes.com/2015/07/12/opinion/sunday/empathy-is-actually-a-choice.html&quot;&gt;Enough said&lt;/a&gt; :-)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 07 May 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/05/07/p1-empathy-is-a-choice/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/05/07/p1-empathy-is-a-choice/</guid>
         
         
       </item>
