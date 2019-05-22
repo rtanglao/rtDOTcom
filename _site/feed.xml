@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 20 May 2019 19:13:25 -0700</pubDate>
-    <lastBuildDate>Mon, 20 May 2019 19:13:25 -0700</lastBuildDate>
+    <pubDate>Tue, 21 May 2019 21:20:18 -0700</pubDate>
+    <lastBuildDate>Tue, 21 May 2019 21:20:18 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Make a tshirt or sticker or some such swag from the thumbnails of a pdf of  bugzilla text contributions (e.g. new bugs, comments, metadata changes) or kitsune text contributions (e.g. SUMO KB article edits)</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Inspired by my previous post from April 21, 2019 : &lt;a href=&quot;http://rolandtanglao.com/2019/04/21/p1-mrstardacted/&quot;&gt;Idea: make a tshirt with the m*eller report  r*dacted with 50% of the thumbnails on front and 50% on back and call it  of course &amp;#39;mrstardacted&amp;#39;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Text thumbnails of open source contributions as art for the win :-) (I&amp;#39;d make my thumbnails pink on white instead of black on white naturally or maybe even white on pink)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 21 May 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/05/21/p1-make-a-tshirt-sticker-from-thumbnails-textual-contributions-by-volunteers/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/05/21/p1-make-a-tshirt-sticker-from-thumbnails-textual-contributions-by-volunteers/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Reinstalling the Realtek audio drivers fixed the 'audio not working when switching from USB to builtin Surface Book 2 speakers' problem, could this also explain my May 27, 2019 audio issue?</title>
@@ -155,21 +171,6 @@
         <pubDate>Fri, 10 May 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/05/10/p1-mathics-looks-cool-although-raspberry-pi-mathematica-is-still-free/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/05/10/p1-mathics-looks-cool-although-raspberry-pi-mathematica-is-still-free/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Classic Byte August 1981: Design Principles Behind Smalltalk </title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;From Byte Magazine&amp;#39;s legendary Smalltalk issue in August 1981:  &lt;a href=&quot;http://www.cs.virginia.edu/%7Eevans/cs655/readings/smalltalk.html&quot;&gt;Design Principles Behind Smalltalk&lt;/a&gt; (BTW I had a paper copy of this magazine because I was a Byte subscriber for many years  but my Dad threw it out :-(  at least  I think :-) that&amp;#39;s what happened)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 09 May 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/05/09/p1-byte-august-1981-design-principles-behind-smalltalk/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/05/09/p1-byte-august-1981-design-principles-behind-smalltalk/</guid>
         
         
       </item>
