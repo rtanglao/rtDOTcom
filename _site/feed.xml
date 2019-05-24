@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 21 May 2019 21:20:18 -0700</pubDate>
-    <lastBuildDate>Tue, 21 May 2019 21:20:18 -0700</lastBuildDate>
+    <pubDate>Thu, 23 May 2019 22:43:37 -0700</pubDate>
+    <lastBuildDate>Thu, 23 May 2019 22:43:37 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Interplanetary Gatsby: The Complete Beginner's Guide to Deploying Your First Static Website to IPFS: another cool thing I should try!</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Interplanetary Gatsby: &lt;a href=&quot;https://interplanetarygatsby.com/ipfs-deploy/&quot;&gt;The Complete Beginner&amp;#39;s Guide to Deploying Your First Static Website to IPFS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Gotta try it!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 23 May 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/05/23/p1-interplanetary-gatsby-the-complete-beginners-guide-to-deploying-your-website-ipfs/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/05/23/p1-interplanetary-gatsby-the-complete-beginners-guide-to-deploying-your-website-ipfs/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Make a tshirt or sticker or some such swag from the thumbnails of a pdf of  bugzilla text contributions (e.g. new bugs, comments, metadata changes) or kitsune text contributions (e.g. SUMO KB article edits)</title>
@@ -154,23 +170,6 @@
         <pubDate>Sat, 11 May 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/05/11/p1-avo-new-grammar-of-television/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/05/11/p1-avo-new-grammar-of-television/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Mathics looks cool although why bother when Mathematica is still free for Raspberry Pi?!?</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Maybe it&amp;#39;s worth the bother so you don&amp;#39;t have to be dependent on Wolfram?!?&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://mathics.github.io/&quot;&gt;Mathics&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.wolfram.com/raspberry-pi/&quot;&gt;Free Mathematica on Raspberry Pi&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 10 May 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/05/10/p1-mathics-looks-cool-although-raspberry-pi-mathematica-is-still-free/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/05/10/p1-mathics-looks-cool-although-raspberry-pi-mathematica-is-still-free/</guid>
         
         
       </item>
