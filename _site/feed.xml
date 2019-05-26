@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 24 May 2019 23:11:53 -0700</pubDate>
-    <lastBuildDate>Fri, 24 May 2019 23:11:53 -0700</lastBuildDate>
+    <pubDate>Sat, 25 May 2019 21:29:57 -0700</pubDate>
+    <lastBuildDate>Sat, 25 May 2019 21:29:57 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Maybe Fido is delaying Samsung Note 8 Updates not Samsung (since Note 8 is on the list of phones that get a monthly update and the Samsung S10 got an update already)?</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;See Volker Weber&amp;#39;s  &lt;a href=&quot;https://vowe.net/archives/017953.html&quot;&gt;May Android Updates :: Samsung wins again&lt;/a&gt; which shows the S10 got it&amp;#39;s May update already and&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.sammobile.com/2019/05/13/samsung-galaxy-security-updates&quot;&gt;sammobile:  When will my Galaxy phone get a security update?&lt;/a&gt; &amp;lt;--- shows the Note 8 on the same update schedule as the S10&lt;/li&gt;
+&lt;li&gt;Previously: &lt;a href=&quot;http://rolandtanglao.com/2019/05/11/p2-samsung-note-8-on-fido-received-april2019-security-update-may11-2019/&quot;&gt;S*msung Note 8 on F*do received the Google April Security Patch on May 11, 2019&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 25 May 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/05/25/p1-maybe-it-is-not-samsung-but-fido-that-is-delaying-note8-monthly-security-updates/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/05/25/p1-maybe-it-is-not-samsung-but-fido-that-is-delaying-note8-monthly-security-updates/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Omar Shehata: Unravelling the JPEG</title>
@@ -155,21 +172,6 @@
         <pubDate>Sat, 11 May 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/05/11/p3-surface-book2-keyboard-touchpad-mysteriously-stopped-working-on-the-9may2019-mysteriously-started-working/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/05/11/p3-surface-book2-keyboard-touchpad-mysteriously-stopped-working-on-the-9may2019-mysteriously-started-working/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>S*msung Note 8 on F*do received the Google April Security Patch on May 11, 2019</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;For the record,  1 month behind on security updates is not great for a $1000 phone. #ymmv :-) Thanks S*msung and F*do for the unnecessary delay!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 11 May 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/05/11/p2-samsung-note-8-on-fido-received-april2019-security-update-may11-2019/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/05/11/p2-samsung-note-8-on-fido-received-april2019-security-update-may11-2019/</guid>
         
         
       </item>
