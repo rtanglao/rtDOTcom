@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 25 May 2019 21:33:21 -0700</pubDate>
-    <lastBuildDate>Sat, 25 May 2019 21:33:21 -0700</lastBuildDate>
+    <pubDate>Tue, 28 May 2019 00:40:35 -0700</pubDate>
+    <lastBuildDate>Tue, 28 May 2019 00:40:35 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>recode is a handy linux command line utility to convert text with html escaped entites like &amp; lt to &lt;</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;See &lt;a href=&quot;https://github.com/rrthomas/recode/&quot;&gt;recode github&lt;/a&gt; site! And &lt;a href=&quot;https://stackoverflow.com/questions/5929492/bash-script-to-convert-from-html-entities-to-characters&quot;&gt;a recode question on stack overflow&lt;/a&gt; where i learned the following incantation :-)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;try2-2116-27may2019-test-api-stdout.txt | &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+recode html..ascii  &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; try2-2116-27may2019-test-api-stdout.html
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        <pubDate>Mon, 27 May 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/05/27/p1-recode-convert-html-entities-back-into-html/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/05/27/p1-recode-convert-html-entities-back-into-html/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Maybe Fido is delaying Samsung Note 8 Updates not Samsung (since Note 8 is on the list of phones that get a monthly update and the Samsung S10 got an update already)?</title>
@@ -155,23 +172,6 @@
         <pubDate>Mon, 13 May 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/05/13/p1-outlinersoftware-old-skool-forum-for-outliners-pims-knowledge-management/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/05/13/p1-outlinersoftware-old-skool-forum-for-outliners-pims-knowledge-management/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>On May 9, 2019, my Surface Book 2 Keyboard and Touchpad stopped working</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The touchscreen worked though and plugging in an external USB keyboard and mouse also worked. &lt;/li&gt;
-&lt;li&gt;Even more mysterious the keyboard and mouse started working a few minutes later without me changing anything.&lt;/li&gt;
-&lt;li&gt;See further Surface Book 2 Hardware issues blog posts from &lt;a href=&quot;http://rolandtanglao.com/2019/03/27/p1-had-to-reboot-my-surfacebook2-to-get-wifi-working/&quot;&gt;March 27, 2019&lt;/a&gt; and &lt;a href=&quot;http://rolandtanglao.com/2018/04/12/p1-had-to-reboot-to-get-wifi-working-on-surface-book2/&quot;&gt;April 12, 2018&lt;/a&gt; &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 11 May 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/05/11/p3-surface-book2-keyboard-touchpad-mysteriously-stopped-working-on-the-9may2019-mysteriously-started-working/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/05/11/p3-surface-book2-keyboard-touchpad-mysteriously-stopped-working-on-the-9may2019-mysteriously-started-working/</guid>
         
         
       </item>
