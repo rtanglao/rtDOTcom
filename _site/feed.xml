@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 28 May 2019 00:40:35 -0700</pubDate>
-    <lastBuildDate>Tue, 28 May 2019 00:40:35 -0700</lastBuildDate>
+    <pubDate>Thu, 30 May 2019 13:49:53 -0700</pubDate>
+    <lastBuildDate>Thu, 30 May 2019 13:49:53 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Hello world from Windows 10 ARM64 Lenovo C630 Yoga</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Hello from &amp;quot;ARM64 Windows 10 low power&amp;quot; land :-)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 30 May 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/05/30/p1-hello-world-from-arm64-windows-lenovo-c630-yoga/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/05/30/p1-hello-world-from-arm64-windows-lenovo-c630-yoga/</guid>
+        
+        
+      </item>
     
       <item>
         <title>recode is a handy linux command line utility to convert text with html escaped entites like &amp; lt to &lt;</title>
@@ -157,21 +172,6 @@ recode html..ascii  &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; try2-2
         <pubDate>Tue, 14 May 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/05/14/p1-tom-macwright-big-presentation-system-works-on-glitch-looks-great/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/05/14/p1-tom-macwright-big-presentation-system-works-on-glitch-looks-great/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>OutlinerSoftware.com is an old skool forum for outliners, PIMs and Knowledge management software</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Check it out at &lt;a href=&quot;https://www.outlinersoftware.com/&quot;&gt;OutlinerSoftware.com&lt;/a&gt; (via &lt;a href=&quot;https://inessential.com/2019/05/11/i_discovered_just_today_that_theres_an_i&quot;&gt;Brent&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 13 May 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/05/13/p1-outlinersoftware-old-skool-forum-for-outliners-pims-knowledge-management/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/05/13/p1-outlinersoftware-old-skool-forum-for-outliners-pims-knowledge-management/</guid>
         
         
       </item>
