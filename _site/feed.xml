@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 30 May 2019 13:49:53 -0700</pubDate>
-    <lastBuildDate>Thu, 30 May 2019 13:49:53 -0700</lastBuildDate>
+    <pubDate>Thu, 30 May 2019 20:31:36 -0700</pubDate>
+    <lastBuildDate>Thu, 30 May 2019 20:31:36 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Accessing WSL files from File Explore using \\wsl$\Ubuntu appears to be broken in ARM64 Windows 10 Builds on Windows 10 Build 1903</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Perhaps I should have stayed on the previous build :-) ?!!? &lt;code&gt;\\wsl$\Ubuntu&lt;/code&gt; seems to work fine on my Surface Book 2 running the intel build 1903.&lt;/li&gt;
+&lt;li&gt;Haven&amp;#39;t been able to find the same issue on github but  &lt;a href=&quot;https://github.com/microsoft/WSL/issues/4027&quot;&gt;P9 Explorer Integration not working #4027&lt;/a&gt;  appears closest although I have the P9 DLL and the correct P9 registry keys!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 30 May 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/05/30/p2-accessing-wsl-files-from-file-explorer-using-wsl-file-explorer-arm64-windows10-build-1903/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/05/30/p2-accessing-wsl-files-from-file-explorer-using-wsl-file-explorer-arm64-windows10-build-1903/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Hello world from Windows 10 ARM64 Lenovo C630 Yoga</title>
@@ -156,22 +172,6 @@ recode html..ascii  &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; try2-2
         <pubDate>Wed, 15 May 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/05/15/p1-howto-deploy-static-website-to-ipfs/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/05/15/p1-howto-deploy-static-website-to-ipfs/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Tom MacWright's Big Presentation system looks great and it works on glitch</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Read all about it in &lt;a href=&quot;https://macwright.org/2019/05/12/big.html&quot;&gt;Tom MacWright: Big 4&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Need to try &lt;a href=&quot;https://glitch.com/edit/#!/remix/tmcw-big&quot;&gt;Big on Glitch&lt;/a&gt;!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 14 May 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/05/14/p1-tom-macwright-big-presentation-system-works-on-glitch-looks-great/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/05/14/p1-tom-macwright-big-presentation-system-works-on-glitch-looks-great/</guid>
         
         
       </item>
