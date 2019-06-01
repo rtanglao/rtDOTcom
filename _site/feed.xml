@@ -6,12 +6,28 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 31 May 2019 07:27:01 -0700</pubDate>
-    <lastBuildDate>Fri, 31 May 2019 07:27:01 -0700</lastBuildDate>
+    <pubDate>Fri, 31 May 2019 20:53:51 -0700</pubDate>
+    <lastBuildDate>Fri, 31 May 2019 20:53:51 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>Accessing WSL files from File Explore using \\wsl$\Ubuntu appears to be broken in ARM64 Windows 10 Builds on Windows 10 Build 1903</title>
+        <title>Firefox Nightly is working great on Lenovo C630 Yogo ARM64 with Windows 10</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Firefox &lt;a href=&quot;https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central/firefox-69.0a1.en-US.win64-aarch64.installer.exe&quot;&gt;Nightly&lt;/a&gt; (&lt;a href=&quot;https://blog.mozilla.org/futurereleases/2019/04/11/firefox-beta-for-windows-10-on-qualcomm-snapdragon-always-connected-pcs-now-available/&quot;&gt;ARM64 Windows 10 announcement&lt;/a&gt;) on ARM 64 Windows 10 is working great so far.&lt;/li&gt;
+&lt;li&gt;Have had a few issues with audio drivers but I&amp;#39;m not sure if that&amp;#39;s a Firefox bug.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 31 May 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/05/31/p1-arm64-windows10-firefox-working-great-some-audio-issues-lenovo-c630/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/05/31/p1-arm64-windows10-firefox-working-great-some-audio-issues-lenovo-c630/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Accessing WSL files from File Explorer using \\wsl$\Ubuntu appears to be broken in ARM64 Windows 10 Builds on Windows 10 Build 1903</title>
         <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
 
 &lt;ul&gt;
@@ -156,22 +172,6 @@ recode html..ascii  &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; try2-2
         <pubDate>Sat, 18 May 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/05/18/p1-usb-audio-did-not-work-but-usb-microphone-did-vidyo/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/05/18/p1-usb-audio-did-not-work-but-usb-microphone-did-vidyo/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>McGuckian Shane: Scraping Reddit with PRAW</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;very cool and seemingly easily: &lt;a href=&quot;https://towardsdatascience.com/scraping-reddit-with-praw-76efc1d1e1d9&quot;&gt;Scraping Reddit with PRAW&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;better than manually reading Reddit :-)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 15 May 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/05/15/p1-howto-deploy-static-website-to-ipfs/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/05/15/p1-howto-deploy-static-website-to-ipfs/</guid>
         
         
       </item>
