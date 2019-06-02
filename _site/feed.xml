@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 01 Jun 2019 21:44:36 -0700</pubDate>
-    <lastBuildDate>Sat, 01 Jun 2019 21:44:36 -0700</lastBuildDate>
+    <pubDate>Sun, 02 Jun 2019 09:41:49 -0700</pubDate>
+    <lastBuildDate>Sun, 02 Jun 2019 09:41:49 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>When in doubt go to bed! &lt;--- gleaned from  Microcosmographia lv: The Discipline </title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://buttondown.email/fet/archive/620702a8-f8de-4ca4-99d1-75d398a3c3d5&quot;&gt;Microcosmographia lv: The Discipline&lt;/a&gt; &amp;lt;--- I&amp;#39;ll never structure my day like this (or in any sort of regime inspired by or copied from monks even if it is from  &lt;em&gt;Anathem&lt;/em&gt; by Neal Stephenson which is one my favourites) but the sleep advice is obvious but great.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 02 Jun 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/06/02/p1-when-in-doubt-go-to-bed/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/06/02/p1-when-in-doubt-go-to-bed/</guid>
+        
+        
+      </item>
     
       <item>
         <title>The Art of Command Line</title>
@@ -149,22 +164,6 @@ recode html..ascii  &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; try2-2
         <pubDate>Tue, 21 May 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/05/21/p1-make-a-tshirt-sticker-from-thumbnails-textual-contributions-by-volunteers/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/05/21/p1-make-a-tshirt-sticker-from-thumbnails-textual-contributions-by-volunteers/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Reinstalling the Realtek audio drivers fixed the 'audio not working when switching from USB to builtin Surface Book 2 speakers' problem, could this also explain my May 27, 2019 audio issue?</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;See &lt;a href=&quot;http://rolandtanglao.com/2019/05/18/p1-usb-audio-did-not-work-but-usb-microphone-did-vidyo/&quot;&gt;May 17, 2019: USB Audio didn&amp;#39;t work but USB microphone did. Vidyo problem? Hardware problem with Surface Book 2 USB?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;So krazy! Never had audio issues like this with multiple MacBooks over the last 15 years!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 20 May 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/05/20/p1-reinstalling-realtek-audio-drivers-fixed-audio-issues-when-switching-usb-to-builtin-surfacebook2-speakers/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/05/20/p1-reinstalling-realtek-audio-drivers-fixed-audio-issues-when-switching-usb-to-builtin-surfacebook2-speakers/</guid>
         
         
       </item>
