@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 31 May 2019 20:53:51 -0700</pubDate>
-    <lastBuildDate>Fri, 31 May 2019 20:53:51 -0700</lastBuildDate>
+    <pubDate>Sat, 01 Jun 2019 21:44:36 -0700</pubDate>
+    <lastBuildDate>Sat, 01 Jun 2019 21:44:36 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>The Art of Command Line</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/jlevy/the-art-of-command-line/blob/master/README.md&quot;&gt;jlevy: The Art of Command Line&lt;/a&gt; is an amazing summary of command line capabilities. It mentions parallel and other fine commands but doesn&amp;#39;t mention &lt;a href=&quot;http://rolandtanglao.com/2019/04/21/p2-howto-use-miller-mlr-to-create-csv-file-with-urls-from-ids/&quot;&gt;mlr aka miller&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 01 Jun 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/06/01/p1-the-art-of-command-line/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/06/01/p1-the-art-of-command-line/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Firefox Nightly is working great on Lenovo C630 Yogo ARM64 with Windows 10</title>
@@ -150,28 +165,6 @@ recode html..ascii  &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; try2-2
         <pubDate>Mon, 20 May 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/05/20/p1-reinstalling-realtek-audio-drivers-fixed-audio-issues-when-switching-usb-to-builtin-surfacebook2-speakers/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/05/20/p1-reinstalling-realtek-audio-drivers-fixed-audio-issues-when-switching-usb-to-builtin-surfacebook2-speakers/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>May 17, 2019: USB Audio didn't work but USB microphone did. Vidyo problem? Hardware problem with Surface Book 2 USB?</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Oddly normal headphones worked which makes it seem to my non-hardware-knowledge-encumbered-self :-)  that it&amp;#39;s a USB hardware problem with my Surface Book 2.&lt;/li&gt;
-&lt;li&gt;Previous Hardware Problems:
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2019/05/11/p3-surface-book2-keyboard-touchpad-mysteriously-stopped-working-on-the-9may2019-mysteriously-started-working/&quot;&gt;May 11, 2019&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2019/03/27/p1-had-to-reboot-my-surfacebook2-to-get-wifi-working/&quot;&gt;March 27, 2019&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2018/04/12/p1-had-to-reboot-to-get-wifi-working-on-surface-book2/&quot;&gt;April 12, 2019&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 18 May 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/05/18/p1-usb-audio-did-not-work-but-usb-microphone-did-vidyo/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/05/18/p1-usb-audio-did-not-work-but-usb-microphone-did-vidyo/</guid>
         
         
       </item>
