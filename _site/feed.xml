@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 02 Jun 2019 09:41:49 -0700</pubDate>
-    <lastBuildDate>Sun, 02 Jun 2019 09:41:49 -0700</lastBuildDate>
+    <pubDate>Tue, 04 Jun 2019 00:07:36 -0700</pubDate>
+    <lastBuildDate>Tue, 04 Jun 2019 00:07:36 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>New SUMO Kitsune questions API: created and updated less than and greater than for created and updated fields</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;New to me but available since &lt;a href=&quot;https://github.com/mozilla/kitsune/issues/3481&quot;&gt;March in the fix to issue 3481&lt;/a&gt;: New SUMO Kitsune questions API: created and updated less than and greater than. Previously:  &lt;a href=&quot;http://rolandtanglao.com/2019/03/19/p1-kitsune-questions-aaq-api-product-firefox-desktop-product-mobile-firefox-for-android/&quot;&gt;Kitsune Questions aka AAQ API, product == &amp;#39;firefox&amp;#39; is desktop, &amp;#39;mobile&amp;#39; is Firefox for android&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;See it in action in &lt;a href=&quot;https://github.com/rtanglao/rt-kits-api2/blob/master/get-questions-for-1-day.rb&quot;&gt;my code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Or in &lt;a href=&quot;https://github.com/mozilla-it/sumo/blob/master/Kitsune/get_kitsune_data.py&quot;&gt;Nancy&amp;#39;s code:&lt;/a&gt; search for &lt;code&gt;updated_lt&lt;/code&gt; and &lt;code&gt;updated_gt&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 03 Jun 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/06/03/p1-new-kitsune-questions-api-options-greater-than-less-than/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/06/03/p1-new-kitsune-questions-api-options-greater-than-less-than/</guid>
+        
+        
+      </item>
     
       <item>
         <title>When in doubt go to bed! &lt;--- gleaned from  Microcosmographia lv: The Discipline </title>
@@ -148,22 +165,6 @@ recode html..ascii  &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; try2-2
         <pubDate>Thu, 23 May 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/05/23/p1-interplanetary-gatsby-the-complete-beginners-guide-to-deploying-your-website-ipfs/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/05/23/p1-interplanetary-gatsby-the-complete-beginners-guide-to-deploying-your-website-ipfs/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Make a tshirt or sticker or some such swag from the thumbnails of a pdf of  bugzilla text contributions (e.g. new bugs, comments, metadata changes) or kitsune text contributions (e.g. SUMO KB article edits)</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Inspired by my previous post from April 21, 2019 : &lt;a href=&quot;http://rolandtanglao.com/2019/04/21/p1-mrstardacted/&quot;&gt;Idea: make a tshirt with the m*eller report  r*dacted with 50% of the thumbnails on front and 50% on back and call it  of course &amp;#39;mrstardacted&amp;#39;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Text thumbnails of open source contributions as art for the win :-) (I&amp;#39;d make my thumbnails pink on white instead of black on white naturally or maybe even white on pink)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 21 May 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/05/21/p1-make-a-tshirt-sticker-from-thumbnails-textual-contributions-by-volunteers/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/05/21/p1-make-a-tshirt-sticker-from-thumbnails-textual-contributions-by-volunteers/</guid>
         
         
       </item>
