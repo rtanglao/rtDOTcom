@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 04 Jun 2019 00:07:36 -0700</pubDate>
-    <lastBuildDate>Tue, 04 Jun 2019 00:07:36 -0700</lastBuildDate>
+    <pubDate>Wed, 05 Jun 2019 22:50:30 -0700</pubDate>
+    <lastBuildDate>Wed, 05 Jun 2019 22:50:30 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>rt-kits-api2 second version of my SUMO API code, now with daily CSV :-)</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-kits-api2&quot;&gt;rt-kits-api2&lt;/a&gt; is the second version of my KITSUNE API code (first version was &lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/&quot;&gt;https://github.com/rtanglao/rt-kitsune-api/&lt;/a&gt; )&lt;/li&gt;
+&lt;li&gt;Instead of MongoDB,  I&amp;#39;ll use one CSV file per UTC day (daily CSV files for: &lt;a href=&quot;https://github.com/rtanglao/rt-kits-api2/tree/master/201906&quot;&gt;June 2019&lt;/a&gt;, &lt;a href=&quot;https://github.com/rtanglao/rt-kits-api2/tree/master/201905&quot;&gt;May 2019&lt;/a&gt;) which will allow easy importing into R, SQLite etc&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 05 Jun 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/06/05/p1-second-version-of-kitsune-api-csv-r-sqlite/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/06/05/p1-second-version-of-kitsune-api-csv-r-sqlite/</guid>
+        
+        
+      </item>
     
       <item>
         <title>New SUMO Kitsune questions API: created and updated less than and greater than for created and updated fields</title>
@@ -149,22 +165,6 @@ recode html..ascii  &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; try2-2
         <pubDate>Fri, 24 May 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/05/24/p1-unravelling-the-jpeg/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/05/24/p1-unravelling-the-jpeg/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Interplanetary Gatsby: The Complete Beginner's Guide to Deploying Your First Static Website to IPFS: another cool thing I should try!</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Interplanetary Gatsby: &lt;a href=&quot;https://interplanetarygatsby.com/ipfs-deploy/&quot;&gt;The Complete Beginner&amp;#39;s Guide to Deploying Your First Static Website to IPFS&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Gotta try it!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 23 May 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/05/23/p1-interplanetary-gatsby-the-complete-beginners-guide-to-deploying-your-website-ipfs/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/05/23/p1-interplanetary-gatsby-the-complete-beginners-guide-to-deploying-your-website-ipfs/</guid>
         
         
       </item>
