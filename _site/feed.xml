@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 05 Jun 2019 22:50:30 -0700</pubDate>
-    <lastBuildDate>Wed, 05 Jun 2019 22:50:30 -0700</lastBuildDate>
+    <pubDate>Thu, 06 Jun 2019 23:15:57 -0700</pubDate>
+    <lastBuildDate>Thu, 06 Jun 2019 23:15:57 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>The Launchy Ruby gem doesn't launch Firefox on Windows 10 build 1903 ARM64</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It works great on x86 Windows 10!&lt;/li&gt;
+&lt;li&gt;Maybe this is related to &lt;a href=&quot;http://rolandtanglao.com/2019/05/30/p2-accessing-wsl-files-from-file-explorer-using-wsl-file-explorer-arm64-windows10-build-1903/&quot;&gt;Accessing WSL files from File Explorer using  \wsl$\Ubuntu appears to be broken in ARM64 Windows 10 Builds on Windows  10 Build 1903&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Again, perhaps some kind of P9 issue?&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 06 Jun 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/06/06/p1-launchy-ruby-gem-does-not-launch-firefox/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/06/06/p1-launchy-ruby-gem-does-not-launch-firefox/</guid>
+        
+        
+      </item>
     
       <item>
         <title>rt-kits-api2 second version of my SUMO API code, now with daily CSV :-)</title>
@@ -150,21 +167,6 @@ recode html..ascii  &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; try2-2
         <pubDate>Sat, 25 May 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/05/25/p1-maybe-it-is-not-samsung-but-fido-that-is-delaying-note8-monthly-security-updates/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/05/25/p1-maybe-it-is-not-samsung-but-fido-that-is-delaying-note8-monthly-security-updates/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Omar Shehata: Unravelling the JPEG</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Fascinating :-) ! &lt;a href=&quot;https://parametric.press/issue-01/unraveling-the-jpeg/&quot;&gt;Unravelling the JPEG!&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 24 May 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/05/24/p1-unravelling-the-jpeg/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/05/24/p1-unravelling-the-jpeg/</guid>
         
         
       </item>
