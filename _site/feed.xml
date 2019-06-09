@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 07 Jun 2019 21:37:16 -0700</pubDate>
-    <lastBuildDate>Fri, 07 Jun 2019 21:37:16 -0700</lastBuildDate>
+    <pubDate>Sun, 09 Jun 2019 11:16:45 -0700</pubDate>
+    <lastBuildDate>Sun, 09 Jun 2019 11:16:45 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Fido APN settings for Lenovo C630 Yoga since autodetect doesn't work probably because this computer was never sold in Canada</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;If you insert a SIM card, then from &amp;quot;Fido Stephen&amp;quot;&amp;#39;s &lt;a href=&quot;https://forums.fido.ca/t5/General-Support/Fido-s-APN-amp-MMS-Settings/td-p/91614&quot;&gt;Fido’s APN &amp;amp; MMS Settings&lt;/a&gt; all you need is to create an APN  called: &lt;br /&gt;
+&lt;strong&gt;LTEMOBILE.APN&lt;/strong&gt;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;That&amp;#39;s it, that&amp;#39;s all :-) MMS settings not required!&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 09 Jun 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/06/09/p1-fido-apn-ltemobile-lenovo-c630-yoga-arm64/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/06/09/p1-fido-apn-ltemobile-lenovo-c630-yoga-arm64/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Open Multiple URLs Firefox Add-on by Firefox user 12363525</title>
@@ -152,23 +169,6 @@
         <pubDate>Thu, 30 May 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/05/30/p1-hello-world-from-arm64-windows-lenovo-c630-yoga/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/05/30/p1-hello-world-from-arm64-windows-lenovo-c630-yoga/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>recode is a handy linux command line utility to convert text with html escaped entites like &amp; lt to &lt;</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;See &lt;a href=&quot;https://github.com/rrthomas/recode/&quot;&gt;recode github&lt;/a&gt; site! And &lt;a href=&quot;https://stackoverflow.com/questions/5929492/bash-script-to-convert-from-html-entities-to-characters&quot;&gt;a recode question on stack overflow&lt;/a&gt; where i learned the following incantation :-)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;try2-2116-27may2019-test-api-stdout.txt | &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-recode html..ascii  &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; try2-2116-27may2019-test-api-stdout.html
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        <pubDate>Mon, 27 May 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/05/27/p1-recode-convert-html-entities-back-into-html/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/05/27/p1-recode-convert-html-entities-back-into-html/</guid>
         
         
       </item>
