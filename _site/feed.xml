@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 10 Jun 2019 22:46:37 -0700</pubDate>
-    <lastBuildDate>Mon, 10 Jun 2019 22:46:37 -0700</lastBuildDate>
+    <pubDate>Tue, 11 Jun 2019 10:08:30 -0700</pubDate>
+    <lastBuildDate>Tue, 11 Jun 2019 10:08:30 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Use Tag Wranglers on SUMO like Archive of Our Own?!?</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The Tag Wrangling on Archive of our own sounds amazing in Wired&amp;#39;s article:  &lt;a href=&quot;https://www.wired.com/story/archive-of-our-own-fans-better-than-tech-organizing-information/&quot;&gt;Fans are better than tech at organizing information online&lt;/a&gt;. &lt;/li&gt;
+&lt;li&gt;Would love to use it on SUMO questions. &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 11 Jun 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/06/11/p1-use-tag-wranglers-on-sumo-like-archive-of-our-own/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/06/11/p1-use-tag-wranglers-on-sumo-like-archive-of-our-own/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Gotta try Andy McKay's create issue on Github as a ToDo list</title>
@@ -154,22 +170,6 @@
         <pubDate>Fri, 31 May 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/05/31/p1-arm64-windows10-firefox-working-great-some-audio-issues-lenovo-c630/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/05/31/p1-arm64-windows10-firefox-working-great-some-audio-issues-lenovo-c630/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Accessing WSL files from File Explorer using \\wsl$\Ubuntu appears to be broken in ARM64 Windows 10 Builds on Windows 10 Build 1903</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Perhaps I should have stayed on the previous build :-) ?!!? &lt;code&gt;\\wsl$\Ubuntu&lt;/code&gt; seems to work fine on my Surface Book 2 running the intel build 1903.&lt;/li&gt;
-&lt;li&gt;Haven&amp;#39;t been able to find the same issue on github but  &lt;a href=&quot;https://github.com/microsoft/WSL/issues/4027&quot;&gt;P9 Explorer Integration not working #4027&lt;/a&gt;  appears closest although I have the P9 DLL and the correct P9 registry keys!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 30 May 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/05/30/p2-accessing-wsl-files-from-file-explorer-using-wsl-file-explorer-arm64-windows10-build-1903/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/05/30/p2-accessing-wsl-files-from-file-explorer-using-wsl-file-explorer-arm64-windows10-build-1903/</guid>
         
         
       </item>
