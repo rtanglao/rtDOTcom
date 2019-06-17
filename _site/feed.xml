@@ -6,9 +6,38 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 11 Jun 2019 10:08:30 -0700</pubDate>
-    <lastBuildDate>Tue, 11 Jun 2019 10:08:30 -0700</lastBuildDate>
+    <pubDate>Sun, 16 Jun 2019 23:25:40 -0700</pubDate>
+    <lastBuildDate>Sun, 16 Jun 2019 23:25:40 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>GNU Parallel replacement string for filename without path and filetype is '{/.}'</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;If you don&amp;#39;t want the filepath and you don&amp;#39;t want the filetype use &lt;code&gt;{/.}&lt;/code&gt; which is the &amp;quot;Basename of input line without extension.&amp;quot; according to the man page.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;example:&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /home/roland/GIT/rt-mozlando2018-ksc/264x176
+parallel convert &lt;span class=&quot;o&quot;&gt;{}&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-resize&lt;/span&gt; 264x176! 264x176-&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;/.&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;.png ::: ../ORIGINALS/&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.jpg    
+&lt;span class=&quot;nb&quot;&gt;mkdir &lt;/span&gt;MONOCHROME &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;
+parallel convert &lt;span class=&quot;o&quot;&gt;{}&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-monochrome&lt;/span&gt; monochrome-&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;/.&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;.gif ::: ../&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.png
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;previous blog posts about parallel:  &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2017/06/15/p1-gnu-parallel-to-run-a-script-on-a-file-with-a-list-files-who-needs-xargs/&quot;&gt;Use GNU Parallel instead of xargs to run a script on wildcards and a file that is a list of files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2016/09/12/p1-parallel-to-use-all-your-cpu-cores/&quot;&gt;GNU Parallel to use all your CPU cores&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 16 Jun 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/06/16/p1-gnu-parallel-syntax-replacement-string-filename-without-filetype-and-path/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/06/16/p1-gnu-parallel-syntax-replacement-string-filename-without-filetype-and-path/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Use Tag Wranglers on SUMO like Archive of Our Own?!?</title>
@@ -154,22 +183,6 @@
         <pubDate>Sat, 01 Jun 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/06/01/p1-the-art-of-command-line/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/06/01/p1-the-art-of-command-line/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Firefox Nightly is working great on Lenovo C630 Yogo ARM64 with Windows 10</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Firefox &lt;a href=&quot;https://archive.mozilla.org/pub/firefox/nightly/latest-mozilla-central/firefox-69.0a1.en-US.win64-aarch64.installer.exe&quot;&gt;Nightly&lt;/a&gt; (&lt;a href=&quot;https://blog.mozilla.org/futurereleases/2019/04/11/firefox-beta-for-windows-10-on-qualcomm-snapdragon-always-connected-pcs-now-available/&quot;&gt;ARM64 Windows 10 announcement&lt;/a&gt;) on ARM 64 Windows 10 is working great so far.&lt;/li&gt;
-&lt;li&gt;Have had a few issues with audio drivers but I&amp;#39;m not sure if that&amp;#39;s a Firefox bug.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 31 May 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/05/31/p1-arm64-windows10-firefox-working-great-some-audio-issues-lenovo-c630/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/05/31/p1-arm64-windows10-firefox-working-great-some-audio-issues-lenovo-c630/</guid>
         
         
       </item>
