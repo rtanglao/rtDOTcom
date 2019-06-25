@@ -6,7 +6,7 @@ title: "Vancouver 2019 Restaurant Recommendations near the Mozilla office"
 
 # Pontifications
 
-* Bonus Restaurants added 24June2019: [Minami](https://minamirestaurant.com/) (awesome Sushi, not cheap, close to the office, 20 minute walk?!?); [Sen Paid Thai](http://senpadthai.com/) at Granville Island, love their rice noodles, [The Magnet](https://themagnet.ca/) is a 5 minute walk from the office and has a magnificent beer list and good eats
+* Bonus Restaurants added 24June2019: [Minami](https://minamirestaurant.com/) (awesome Sushi, not cheap, close to the office, 20 minute walk?!?); [Sen Paid Thai](http://senpadthai.com/) at Granville Island, love their rice sheet noodles with beef, [The Magnet](https://themagnet.ca/) is a 5 minute walk from the office and has a magnificent beer list and good eats
 * Disclaimer: We don't eat out as much as we used to before the kid was born 15 years ago :-) which means there are many many restaurants I've never heard of or eaten at :-) especially in  Richmond and Burnaby!
 * I stand by my 2016 recommendations in [24 hours in Vancouver what would you recommend?](http://rolandtanglao.com/2016/09/20/p1-24-hours-in-vancouver/) (Rangoli, Revolver, Meat and Bread, New Town (watch out for the Always Be My Maybe groupies :-) ), Patisserie Lebeau, The Boss, Siegel's Bagels, Phnom Penh, Museum of Vancouver, Beatty Biodiversity Museum, Museum of Anthropology, Strange Fellows microbrew; Aquabus to see Vancouver the water city)
 * [Nuba](https://www.nuba.ca/) is kitty corner from the office. It's delicious and GF, vegan, meat and family friendly :-) Everything is my favourite. They also have Turkish coffee :-) which I love but #ymmv
