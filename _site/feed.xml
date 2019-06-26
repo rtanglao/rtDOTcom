@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 24 Jun 2019 19:38:20 -0700</pubDate>
-    <lastBuildDate>Mon, 24 Jun 2019 19:38:20 -0700</lastBuildDate>
+    <pubDate>Tue, 25 Jun 2019 22:20:58 -0700</pubDate>
+    <lastBuildDate>Tue, 25 Jun 2019 22:20:58 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Use Ferrite or AUM to record two microphone podcasts?</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Use &lt;a href=&quot;https://sixcolors.com/post/2018/05/post/&quot;&gt;Ferrite&lt;/a&gt; or &lt;a href=&quot;https://www.cultofmac.com/596728/ipad-podcasting-apps/&quot;&gt;AUM&lt;/a&gt; to record two microphone podcasts? (through my Roland USB interface?, perhaps better than &lt;a href=&quot;http://rolandtanglao.com/2018/08/08/p1-rode-rec-does-mono/&quot;&gt;RØDE Rec&lt;/a&gt;?)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 25 Jun 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/06/25/p1-use-ferrite-or-aum-to-record-two-microphone-podcasts/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/06/25/p1-use-ferrite-or-aum-to-record-two-microphone-podcasts/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Kip made a Mozilla Whistler All Hands badge for the e-ink board that rotates between 1 of 16 Kennedy Space Centre photos</title>
@@ -212,23 +227,6 @@ parallel convert &lt;span class=&quot;o&quot;&gt;{}&lt;/span&gt; &lt;span class=
         <pubDate>Wed, 05 Jun 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/06/05/p1-second-version-of-kitsune-api-csv-r-sqlite/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/06/05/p1-second-version-of-kitsune-api-csv-r-sqlite/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>New SUMO Kitsune questions API: created and updated less than and greater than for created and updated fields</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;New to me but available since &lt;a href=&quot;https://github.com/mozilla/kitsune/issues/3481&quot;&gt;March in the fix to issue 3481&lt;/a&gt;: New SUMO Kitsune questions API: created and updated less than and greater than. Previously:  &lt;a href=&quot;http://rolandtanglao.com/2019/03/19/p1-kitsune-questions-aaq-api-product-firefox-desktop-product-mobile-firefox-for-android/&quot;&gt;Kitsune Questions aka AAQ API, product == &amp;#39;firefox&amp;#39; is desktop, &amp;#39;mobile&amp;#39; is Firefox for android&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;See it in action in &lt;a href=&quot;https://github.com/rtanglao/rt-kits-api2/blob/master/get-questions-for-1-day.rb&quot;&gt;my code&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Or in &lt;a href=&quot;https://github.com/mozilla-it/sumo/blob/master/Kitsune/get_kitsune_data.py&quot;&gt;Nancy&amp;#39;s code:&lt;/a&gt; search for &lt;code&gt;updated_lt&lt;/code&gt; and &lt;code&gt;updated_gt&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 03 Jun 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/06/03/p1-new-kitsune-questions-api-options-greater-than-less-than/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/06/03/p1-new-kitsune-questions-api-options-greater-than-less-than/</guid>
         
         
       </item>
