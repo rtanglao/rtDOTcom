@@ -6,9 +6,27 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 25 Jun 2019 22:20:58 -0700</pubDate>
-    <lastBuildDate>Tue, 25 Jun 2019 22:20:58 -0700</lastBuildDate>
+    <pubDate>Thu, 27 Jun 2019 21:23:41 -0700</pubDate>
+    <lastBuildDate>Thu, 27 Jun 2019 21:23:41 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Yes; it does require lots of tech skills that are constantly changing so you have to be in the (software) field basically to keep up (with the Open Web and Indie Web)</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I agree with &lt;a href=&quot;https://resourceroomblog.wordpress.com/&quot;&gt;Susan Jones&lt;/a&gt;&amp;#39;s comment on Ton&amp;#39;s post: &lt;a href=&quot;https://www.zylstra.org/blog/2019/06/an-obligation-to-explain-the-indieweb/&quot;&gt;An Obligation to Explain the IndieWeb&lt;/a&gt;: &amp;quot;&lt;a href=&quot;https://www.zylstra.org/blog/2019/06/an-obligation-to-explain-the-indieweb/#comment-126959&quot;&gt;Yes; it  does require lots of tech skills that are constantly changing so you have to be in the field basically to keep up.   A person w/ a day 
+job in education?  Not gonna happen 🙂   Worth following along, though&lt;/a&gt;&amp;quot;&lt;/li&gt;
+&lt;li&gt;Not sure it&amp;#39;s possible to follow along completely without a lot of work (worthwhile work if you have the time and the capacity mind you)&lt;/li&gt;
+&lt;li&gt;Until then what do you suggest? I suggest simple static websites  on your own domains and lots of experiments with folks near you in real life if possible and finding a technical person on the web or in real life  who can continually explain it to you like &lt;a href=&quot;https://www.zylstra.org/blog/&quot;&gt;Ton&lt;/a&gt;!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 27 Jun 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/06/27/p1-you-should-not-have-to-work-in-software-to-host-your-openweb-indieweb-website/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/06/27/p1-you-should-not-have-to-work-in-software-to-host-your-openweb-indieweb-website/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Use Ferrite or AUM to record two microphone podcasts?</title>
@@ -211,22 +229,6 @@ parallel convert &lt;span class=&quot;o&quot;&gt;{}&lt;/span&gt; &lt;span class=
         <pubDate>Thu, 06 Jun 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/06/06/p1-launchy-ruby-gem-does-not-launch-firefox/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/06/06/p1-launchy-ruby-gem-does-not-launch-firefox/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>rt-kits-api2 second version of my SUMO API code, now with daily CSV :-)</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-kits-api2&quot;&gt;rt-kits-api2&lt;/a&gt; is the second version of my KITSUNE API code (first version was &lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/&quot;&gt;https://github.com/rtanglao/rt-kitsune-api/&lt;/a&gt; )&lt;/li&gt;
-&lt;li&gt;Instead of MongoDB,  I&amp;#39;ll use one CSV file per UTC day (daily CSV files for: &lt;a href=&quot;https://github.com/rtanglao/rt-kits-api2/tree/master/201906&quot;&gt;June 2019&lt;/a&gt;, &lt;a href=&quot;https://github.com/rtanglao/rt-kits-api2/tree/master/201905&quot;&gt;May 2019&lt;/a&gt;) which will allow easy importing into R, SQLite etc&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 05 Jun 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/06/05/p1-second-version-of-kitsune-api-csv-r-sqlite/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/06/05/p1-second-version-of-kitsune-api-csv-r-sqlite/</guid>
         
         
       </item>
