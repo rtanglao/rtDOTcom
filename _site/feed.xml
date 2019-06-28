@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 27 Jun 2019 21:23:41 -0700</pubDate>
-    <lastBuildDate>Thu, 27 Jun 2019 21:23:41 -0700</lastBuildDate>
+    <pubDate>Fri, 28 Jun 2019 00:20:02 -0700</pubDate>
+    <lastBuildDate>Fri, 28 Jun 2019 00:20:02 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Maybe all those people who would've learned scripting languages on OS X are instead hacking those same scripting languages on Linux e.g. a $35 Raspberry PI and/or writing javascript/node.js apps in glitch or jsbin or jsfiddle or Android apps or IOS apps?</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I don&amp;#39;t think it&amp;#39;s the end of the World that &lt;a href=&quot;https://mjtsai.com/blog/2019/06/04/scripting-languages-to-be-removed/&quot;&gt;Apple is removing the built in scripting languages  in Mac OS X Catalina&lt;/a&gt; but ymmv :-)&lt;/li&gt;
+&lt;li&gt;I&amp;#39;ve never developed a Perl/Python/PHP/Ruby script on OS X or in fact on any platform that I share with &amp;quot;normal folks&amp;quot; who aren&amp;#39;t power users or developers (hobbyist or otherwise)&lt;/li&gt;
+&lt;li&gt;Just like there&amp;#39;s more good music (it&amp;#39;s just not all hit parade stuff ) than ever I feel there&amp;#39;s more good software than ever at the scripting / hobbyist level.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 27 Jun 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/06/27/p2-maybe-people-writing-scripts-are-doing-on-linux-or-webapps-in-localhost-or-jsbin-jsfiddle/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/06/27/p2-maybe-people-writing-scripts-are-doing-on-linux-or-webapps-in-localhost-or-jsbin-jsfiddle/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Yes; it does require lots of tech skills that are constantly changing so you have to be in the (software) field basically to keep up (with the Open Web and Indie Web)</title>
@@ -18,7 +35,7 @@
 &lt;li&gt;I agree with &lt;a href=&quot;https://resourceroomblog.wordpress.com/&quot;&gt;Susan Jones&lt;/a&gt;&amp;#39;s comment on Ton&amp;#39;s post: &lt;a href=&quot;https://www.zylstra.org/blog/2019/06/an-obligation-to-explain-the-indieweb/&quot;&gt;An Obligation to Explain the IndieWeb&lt;/a&gt;: &amp;quot;&lt;a href=&quot;https://www.zylstra.org/blog/2019/06/an-obligation-to-explain-the-indieweb/#comment-126959&quot;&gt;Yes; it  does require lots of tech skills that are constantly changing so you have to be in the field basically to keep up.   A person w/ a day 
 job in education?  Not gonna happen 🙂   Worth following along, though&lt;/a&gt;&amp;quot;&lt;/li&gt;
 &lt;li&gt;Not sure it&amp;#39;s possible to follow along completely without a lot of work (worthwhile work if you have the time and the capacity mind you)&lt;/li&gt;
-&lt;li&gt;Until then what do you suggest? I suggest simple static websites  on your own domains and lots of experiments with folks near you in real life if possible and finding a technical person on the web or in real life  who can continually explain it to you like &lt;a href=&quot;https://www.zylstra.org/blog/&quot;&gt;Ton&lt;/a&gt;!&lt;/li&gt;
+&lt;li&gt;Until then what do you suggest? I suggest simple static websites  on your own domains and lots of experiments with folks near you in real life if possible on open web services that allow you to back up your data like &lt;a href=&quot;https://micro.blog/&quot;&gt;micro.blog&lt;/a&gt; and finding a technical person on the web or in real life  who can continually explain it to you like &lt;a href=&quot;https://www.zylstra.org/blog/&quot;&gt;Ton&lt;/a&gt;!&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 27 Jun 2019 00:00:00 -0700</pubDate>
@@ -212,23 +229,6 @@ parallel convert &lt;span class=&quot;o&quot;&gt;{}&lt;/span&gt; &lt;span class=
         <pubDate>Fri, 07 Jun 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/06/07/p1-open-multiple-urls-firefox-add-on/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/06/07/p1-open-multiple-urls-firefox-add-on/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>The Launchy Ruby gem doesn't launch Firefox on Windows 10 build 1903 ARM64</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;It works great on x86 Windows 10!&lt;/li&gt;
-&lt;li&gt;Maybe this is related to &lt;a href=&quot;http://rolandtanglao.com/2019/05/30/p2-accessing-wsl-files-from-file-explorer-using-wsl-file-explorer-arm64-windows10-build-1903/&quot;&gt;Accessing WSL files from File Explorer using  \wsl$\Ubuntu appears to be broken in ARM64 Windows 10 Builds on Windows  10 Build 1903&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Again, perhaps some kind of P9 issue?&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 06 Jun 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/06/06/p1-launchy-ruby-gem-does-not-launch-firefox/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/06/06/p1-launchy-ruby-gem-does-not-launch-firefox/</guid>
         
         
       </item>
