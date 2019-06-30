@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 28 Jun 2019 00:20:02 -0700</pubDate>
-    <lastBuildDate>Fri, 28 Jun 2019 00:20:02 -0700</lastBuildDate>
+    <pubDate>Sat, 29 Jun 2019 21:58:27 -0700</pubDate>
+    <lastBuildDate>Sat, 29 Jun 2019 21:58:27 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>static HTML pages and links is all you need in the end; everything else is icing on the cake</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The demise of EverNote (see &lt;a href=&quot;https://usefyi.com/evernote-history/&quot;&gt;Ahead of Its Time, Behind the Curve: Why Evernote Failed to Realize Its Potential&lt;/a&gt;) just shows that static HTML pages in the form of a &lt;a href=&quot;http://rolandtanglao.com/2018/01/27/p1-email-will-fail-in-2018-use-todo-crm-database-wiki-blogs-etc-instead/&quot;&gt;blog and/or a wiki&lt;/a&gt; and links is all you need in the end; everything else is icing on the cake.&lt;/li&gt;
+&lt;li&gt;Don&amp;#39;t depend on somebody else&amp;#39;s clouds or servers or even your own computer to store all your personal notes, it&amp;#39;s fine to use fancy tools like EverNote but place your real bets on a collection of  static html pages that you can use and move anywhere.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 29 Jun 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/06/29/p1-html-and-links-is-all-you-need/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/06/29/p1-html-and-links-is-all-you-need/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Maybe all those people who would've learned scripting languages on OS X are instead hacking those same scripting languages on Linux e.g. a $35 Raspberry PI and/or writing javascript/node.js apps in glitch or jsbin or jsfiddle or Android apps or IOS apps?</title>
@@ -210,25 +226,6 @@ parallel convert &lt;span class=&quot;o&quot;&gt;{}&lt;/span&gt; &lt;span class=
         <pubDate>Sun, 09 Jun 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/06/09/p1-fido-apn-ltemobile-lenovo-c630-yoga-arm64/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/06/09/p1-fido-apn-ltemobile-lenovo-c630-yoga-arm64/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Open Multiple URLs Firefox Add-on by Firefox user 12363525</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Since &lt;a href=&quot;http://rolandtanglao.com/2019/06/06/p1-launchy-ruby-gem-does-not-launch-firefox/&quot;&gt;I can&amp;#39;t get Launchy on ARM64 Windows 10 to work&lt;/a&gt;, I am opening multiple URLs using the following Firefox Add-on:
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/en-CA/firefox/addon/open-multiple-urls/&quot;&gt;Open Multiple URLs Firefox Add-on by Firefox user 12363525&lt;/a&gt; &amp;lt;--- it is slower than Launchy but good enough for now.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 07 Jun 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/06/07/p1-open-multiple-urls-firefox-add-on/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/06/07/p1-open-multiple-urls-firefox-add-on/</guid>
         
         
       </item>
