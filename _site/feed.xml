@@ -6,9 +6,29 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 29 Jun 2019 21:58:27 -0700</pubDate>
-    <lastBuildDate>Sat, 29 Jun 2019 21:58:27 -0700</lastBuildDate>
+    <pubDate>Sun, 30 Jun 2019 19:49:50 -0700</pubDate>
+    <lastBuildDate>Sun, 30 Jun 2019 19:49:50 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Come celebrate my birthday Friday July 12, 2019: 730 Breakfast at Livia, 930ish Coffee at Nusa, 1130ish Lunch at Kulinarya, after lunch beers at Port Moody Ales</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;p&gt;Get in where you fit in :-) Email me roland AT rolandtanglao.com with your phone number so you can get text updates for exact timing.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Friday July 12, 2019 730a.m. Breakfast at &lt;a href=&quot;http://www.liviasweets.com/&quot;&gt;Livia&lt;/a&gt; on the drive, 1399 Commercial Drive. Carbonara anybody :-) ?&lt;/li&gt;
+&lt;li&gt;.Friday July 12, 2019 930a.m.ish Coffee at &lt;a href=&quot;http://www.nusacoffeecompany.com/visit-us&quot;&gt;Nusa&lt;/a&gt; (it&amp;#39;s about a 30 minute bicycle ride from Livia, &lt;a href=&quot;http://www.nusacoffeecompany.com/visit-us&quot;&gt;2766 West 4th&lt;/a&gt;; I&amp;#39;ll be bicycling, you can walk, ride, drive whatever works for you :-) ). Indonesian coffee and sweets!&lt;/li&gt;
+&lt;li&gt;Friday July 12, 2019 1130ish Filipino lunch at &lt;a href=&quot;http://kulinarya.ca/vancouver/&quot;&gt;Kulinarya on the Drive&lt;/a&gt;, 1134 Commercial Drive (it&amp;#39;s about a 30 minute bike ride from Nusa. If I had to pick, I&amp;#39;d pick  the following meat-based dishes, kare-kare, chicken adobo, pancit canton, house sinigang and crispy pata .Luckily for vegans and vegetarians Kulinarya&amp;#39;s &lt;a href=&quot;http://kulinarya.ca/vancouver/commercial-menu.pdf&quot;&gt;menu&lt;/a&gt; has many dishes for you!&lt;/li&gt;
+&lt;li&gt;Friday July 12, 2019 2p.m.-ish-4p.m.-ish Beer at &lt;a href=&quot;http://www.moodyales.com/&quot;&gt;Port Moody Ales&lt;/a&gt; , 2601 Murray Street, Port Moody (about an hour sky train ride from Commercial/Broadway to Port Moody and then a 15 minute walk), we&amp;#39;ll go to my house and park the bicycles first)&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Sun, 30 Jun 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/06/30/p1-come-celebrate-my-birthday-friday-july-12-2019/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/06/30/p1-come-celebrate-my-birthday-friday-july-12-2019/</guid>
+        
+        
+      </item>
     
       <item>
         <title>static HTML pages and links is all you need in the end; everything else is icing on the cake</title>
@@ -209,23 +229,6 @@ parallel convert &lt;span class=&quot;o&quot;&gt;{}&lt;/span&gt; &lt;span class=
         <pubDate>Mon, 10 Jun 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/06/10/p1-use-andy-mckay-create-issue-on-github-for-todlist/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/06/10/p1-use-andy-mckay-create-issue-on-github-for-todlist/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Fido APN settings for Lenovo C630 Yoga since autodetect doesn't work probably because this computer was never sold in Canada</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;If you insert a SIM card, then from &amp;quot;Fido Stephen&amp;quot;&amp;#39;s &lt;a href=&quot;https://forums.fido.ca/t5/General-Support/Fido-s-APN-amp-MMS-Settings/td-p/91614&quot;&gt;Fido’s APN &amp;amp; MMS Settings&lt;/a&gt; all you need is to create an APN  called: &lt;br /&gt;
-&lt;strong&gt;LTEMOBILE.APN&lt;/strong&gt;&lt;br&gt;&lt;/li&gt;
-&lt;li&gt;That&amp;#39;s it, that&amp;#39;s all :-) MMS settings not required!&lt;br&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 09 Jun 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/06/09/p1-fido-apn-ltemobile-lenovo-c630-yoga-arm64/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/06/09/p1-fido-apn-ltemobile-lenovo-c630-yoga-arm64/</guid>
         
         
       </item>
