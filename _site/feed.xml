@@ -6,9 +6,40 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 02 Jul 2019 22:27:26 -0700</pubDate>
-    <lastBuildDate>Tue, 02 Jul 2019 22:27:26 -0700</lastBuildDate>
+    <pubDate>Thu, 04 Jul 2019 21:05:00 -0700</pubDate>
+    <lastBuildDate>Thu, 04 Jul 2019 21:05:00 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Dan McKinley: Choose Boring Technology</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;From  &lt;a href=&quot;http://boringtechnology.club/&quot;&gt;Dan McKinley: Choose Boring Technology&lt;/a&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+Adding the technology is easy, living with it is hard. These are all the things you have to worry about.&lt;br /&gt;&lt;br /&gt;
+
+I could brew install a new database right here right now while giving this talk, and start writing some data to it. God help me I could, don’t make me do it. But it’s another matter entirely to run that thing in production at a professional level.&lt;br /&gt;&lt;br /&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Does this apply to hobbyist projects?!!??! Hmmm yes and no. I guess this means for me to stick to R, ruby and mongodb unless I move into an area like Machine Learning that is primarily in other tech like Python!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 04 Jul 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/07/04/p1-dan-mckinley-use-boring-technology/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/07/04/p1-dan-mckinley-use-boring-technology/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Need to cherry pick the most relevant stuff from these four great examples of Support Reporting from helpscout</title>
@@ -198,35 +229,6 @@ job in education?  Not gonna happen 🙂   Worth following along, though&lt;/a&g
         <pubDate>Sun, 23 Jun 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/06/23/p1-vancouver-2019-restaurant-recommendations/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/06/23/p1-vancouver-2019-restaurant-recommendations/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>GNU Parallel replacement string for filename without path and filetype is '{/.}'</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;If you don&amp;#39;t want the filepath and you don&amp;#39;t want the filetype use &lt;code&gt;{/.}&lt;/code&gt; which is the &amp;quot;Basename of input line without extension.&amp;quot; according to the man page.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;example:&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /home/roland/GIT/rt-mozlando2018-ksc/264x176
-parallel convert &lt;span class=&quot;o&quot;&gt;{}&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-resize&lt;/span&gt; 264x176! 264x176-&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;/.&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;.png ::: ../ORIGINALS/&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.jpg    
-&lt;span class=&quot;nb&quot;&gt;mkdir &lt;/span&gt;MONOCHROME &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;
-parallel convert &lt;span class=&quot;o&quot;&gt;{}&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-monochrome&lt;/span&gt; monochrome-&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;/.&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;.gif ::: ../&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.png
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;previous blog posts about parallel:  &lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2017/06/15/p1-gnu-parallel-to-run-a-script-on-a-file-with-a-list-files-who-needs-xargs/&quot;&gt;Use GNU Parallel instead of xargs to run a script on wildcards and a file that is a list of files&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2016/09/12/p1-parallel-to-use-all-your-cpu-cores/&quot;&gt;GNU Parallel to use all your CPU cores&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 16 Jun 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/06/16/p1-gnu-parallel-syntax-replacement-string-filename-without-filetype-and-path/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/06/16/p1-gnu-parallel-syntax-replacement-string-filename-without-filetype-and-path/</guid>
         
         
       </item>
