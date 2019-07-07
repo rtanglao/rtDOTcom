@@ -19,5 +19,5 @@ So gather  knowledge and find ways to structure it. Work on the big idea and the
 
 **END QUOTE**
 
-
+[Read the whole thing](https://withoutbullshit.com/blog/frameworks-matter-why-its-not-enough-to-be-an-expert) (Framework 1 = knowledge without structure, Framework 2 = hierarchical framework, Framework 3 = cyclical framework, Framework 4 = list  with related bits of information)
 
