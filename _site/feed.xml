@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 07 Jul 2019 22:46:58 -0700</pubDate>
-    <lastBuildDate>Sun, 07 Jul 2019 22:46:58 -0700</lastBuildDate>
+    <pubDate>Mon, 08 Jul 2019 07:56:09 -0700</pubDate>
+    <lastBuildDate>Mon, 08 Jul 2019 07:56:09 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>IA Writer 1.1.7121.15952 still hangs when opening WSL files</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2019/04/23/p3-loving-typora-markdown-editor/&quot;&gt;IA Writer 1.1.7121.15952 still hangs like it did in April 2019&lt;/a&gt; when opening  Windows Subsystem for Linux (WSL) files. I use WSL for blogging which means my blogging workflow with IA Writer is broken and has been broken since April 2019.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Luckily, I can use Typora instead. &lt;a href=&quot;http://rolandtanglao.com/2015/10/14/p2-love-ia-writer/&quot;&gt;Still love IA Writer though&lt;/a&gt;. Time to file a support request I guess.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 08 Jul 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/07/08/p1-ia-writer-01july2019-build-still-hangs-when-opening-wsl-files/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/07/08/p1-ia-writer-01july2019-build-still-hangs-when-opening-wsl-files/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Love the New Westminster New Media Gallery</title>
@@ -199,21 +215,6 @@ job in education?  Not gonna happen 🙂   Worth following along, though&lt;/a&g
         <pubDate>Thu, 27 Jun 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/06/27/p1-you-should-not-have-to-work-in-software-to-host-your-openweb-indieweb-website/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/06/27/p1-you-should-not-have-to-work-in-software-to-host-your-openweb-indieweb-website/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Use Ferrite or AUM to record two microphone podcasts?</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Use &lt;a href=&quot;https://sixcolors.com/post/2018/05/post/&quot;&gt;Ferrite&lt;/a&gt; or &lt;a href=&quot;https://www.cultofmac.com/596728/ipad-podcasting-apps/&quot;&gt;AUM&lt;/a&gt; to record two microphone podcasts? (through my Roland USB interface?, perhaps better than &lt;a href=&quot;http://rolandtanglao.com/2018/08/08/p1-rode-rec-does-mono/&quot;&gt;RØDE Rec&lt;/a&gt;?)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 25 Jun 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/06/25/p1-use-ferrite-or-aum-to-record-two-microphone-podcasts/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/06/25/p1-use-ferrite-or-aum-to-record-two-microphone-podcasts/</guid>
         
         
       </item>
