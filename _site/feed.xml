@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 08 Jul 2019 07:56:09 -0700</pubDate>
-    <lastBuildDate>Mon, 08 Jul 2019 07:56:09 -0700</lastBuildDate>
+    <pubDate>Tue, 09 Jul 2019 16:34:13 -0700</pubDate>
+    <lastBuildDate>Tue, 09 Jul 2019 16:34:13 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>My Samsung Note 8 received the May and June Android security update on July 6, 2019, when will I get the July update :-) ?!? Thanks Fido</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Possible reasons: Fido isn&amp;#39;t that big. the number of Samsung Note 8 users on Fido isn&amp;#39;t that big.  Blah blah blah :-)&lt;/li&gt;
+&lt;li&gt;Android security updates for the Note 8 are NOT clearly separated from carrier customizations! Which they will be with the Google&amp;#39;s Project Treble and newer phones like the Samsung Galaxy S10 and the Note 9 and 10 methinks?!?&lt;/li&gt;
+&lt;li&gt;Previously:  &lt;a href=&quot;http://rolandtanglao.com/2019/05/25/p1-maybe-it-is-not-samsung-but-fido-that-is-delaying-note8-monthly-security-updates/&quot;&gt;Maybe Fido is delaying Samsung Note 8 Updates not  Samsung (since Note 8 is on the list of phones that get a monthly  update and the Samsung S10 got an update already)?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 09 Jul 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/07/09/p1-samsung-note-8-received-may-june-2019-android-security-update-06july2019/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/07/09/p1-samsung-note-8-received-may-june-2019-android-security-update-06july2019/</guid>
+        
+        
+      </item>
     
       <item>
         <title>IA Writer 1.1.7121.15952 still hangs when opening WSL files</title>
@@ -197,24 +214,6 @@ I could brew install a new database right here right now while giving this talk,
         <pubDate>Thu, 27 Jun 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/06/27/p2-maybe-people-writing-scripts-are-doing-on-linux-or-webapps-in-localhost-or-jsbin-jsfiddle/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/06/27/p2-maybe-people-writing-scripts-are-doing-on-linux-or-webapps-in-localhost-or-jsbin-jsfiddle/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Yes; it does require lots of tech skills that are constantly changing so you have to be in the (software) field basically to keep up (with the Open Web and Indie Web)</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I agree with &lt;a href=&quot;https://resourceroomblog.wordpress.com/&quot;&gt;Susan Jones&lt;/a&gt;&amp;#39;s comment on Ton&amp;#39;s post: &lt;a href=&quot;https://www.zylstra.org/blog/2019/06/an-obligation-to-explain-the-indieweb/&quot;&gt;An Obligation to Explain the IndieWeb&lt;/a&gt;: &amp;quot;&lt;a href=&quot;https://www.zylstra.org/blog/2019/06/an-obligation-to-explain-the-indieweb/#comment-126959&quot;&gt;Yes; it  does require lots of tech skills that are constantly changing so you have to be in the field basically to keep up.   A person w/ a day 
-job in education?  Not gonna happen 🙂   Worth following along, though&lt;/a&gt;&amp;quot;&lt;/li&gt;
-&lt;li&gt;Not sure it&amp;#39;s possible to follow along completely without a lot of work (worthwhile work if you have the time and the capacity mind you)&lt;/li&gt;
-&lt;li&gt;Until then what do you suggest? I suggest simple static websites  on your own domains and lots of experiments with folks near you in real life if possible on open web services that allow you to back up your data like &lt;a href=&quot;https://micro.blog/&quot;&gt;micro.blog&lt;/a&gt; and finding a technical person on the web or in real life  who can continually explain it to you like &lt;a href=&quot;https://www.zylstra.org/blog/&quot;&gt;Ton&lt;/a&gt;!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 27 Jun 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/06/27/p1-you-should-not-have-to-work-in-software-to-host-your-openweb-indieweb-website/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/06/27/p1-you-should-not-have-to-work-in-software-to-host-your-openweb-indieweb-website/</guid>
         
         
       </item>
