@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 28 Jul 2019 12:39:32 -0700</pubDate>
-    <lastBuildDate>Sun, 28 Jul 2019 12:39:32 -0700</lastBuildDate>
+    <pubDate>Mon, 29 Jul 2019 08:23:32 -0700</pubDate>
+    <lastBuildDate>Mon, 29 Jul 2019 08:23:32 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>craigmod: Fast Software, the Best Software - which is why I use phone apps to edit photos</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I agree with &lt;a href=&quot;https://craigmod.com/essays/fast_software/&quot;&gt;craigmod: Fast Software, the Best Software&lt;/a&gt;!&lt;/li&gt;
+&lt;li&gt;This is why I use phone apps to edit photos (&lt;a href=&quot;http://rolandtanglao.com/2007/05/14/love-lightroom-hate-photoshop/&quot;&gt;Lightroom used to be fast back in 2007&lt;/a&gt; but not anymore! and I used it heavily 2007-2016). No import dance and most importantly when I move a slider the photo changes quickly.&lt;/li&gt;
+&lt;li&gt;#ymmv of course especially if you make money off of photos! Or are printing very large prints!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 29 Jul 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/07/29/p1-fast-sofware-the-best-software-which-is-why-i-use-phone-apps-to-edit-photos-instead-of-desktop-apps/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/07/29/p1-fast-sofware-the-best-software-which-is-why-i-use-phone-apps-to-edit-photos-instead-of-desktop-apps/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Just came back from Berlin where beer is actually legal :-)</title>
@@ -200,37 +217,6 @@ So gather  knowledge and find ways to structure it. Work on the big idea and the
         <pubDate>Sat, 06 Jul 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/07/06/p1-knowledge-frameworks-matter-list-cycle-hierarchy/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/07/06/p1-knowledge-frameworks-matter-list-cycle-hierarchy/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Dan McKinley: Choose Boring Technology</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;From  &lt;a href=&quot;http://boringtechnology.club/&quot;&gt;Dan McKinley: Choose Boring Technology&lt;/a&gt;:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-
-Adding the technology is easy, living with it is hard. These are all the things you have to worry about.&lt;br /&gt;&lt;br /&gt;
-
-I could brew install a new database right here right now while giving this talk, and start writing some data to it. God help me I could, don’t make me do it. But it’s another matter entirely to run that thing in production at a professional level.&lt;br /&gt;&lt;br /&gt;
-
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Does this apply to hobbyist projects?!!??! Hmmm yes and no. I guess this means for me to stick to R, ruby and mongodb unless I move into an area like Machine Learning that is primarily in other tech like Python!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 04 Jul 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/07/04/p1-dan-mckinley-use-boring-technology/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/07/04/p1-dan-mckinley-use-boring-technology/</guid>
         
         
       </item>
