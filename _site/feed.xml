@@ -6,9 +6,35 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 01 Aug 2019 07:41:19 -0700</pubDate>
-    <lastBuildDate>Thu, 01 Aug 2019 07:41:19 -0700</lastBuildDate>
+    <pubDate>Sat, 03 Aug 2019 22:41:28 -0700</pubDate>
+    <lastBuildDate>Sat, 03 Aug 2019 22:41:28 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Stowe Boyd: Feedback about Feedback</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Read  the whole thing (subject to Medium&amp;#39;s ridiculous paywall :-) #ymmv ): &lt;a href=&quot;https://medium.com/work-futures/some-feedback-about-feedback-be02d84dd903&quot;&gt;Stowe Body Some Feedback About Feedback&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;I especially like these table entries:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Here are three things that really worked for me. What was going through your mind when you did them?&lt;/strong&gt; Instead of &amp;quot;Good Job&amp;quot;!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Here&amp;#39;s what I would do&lt;/strong&gt;. Instead of &amp;quot;Here&amp;#39;s what you should do&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;When you did x, I felt y or I didn&amp;#39;t get that.&lt;/strong&gt; Instead of &amp;quot;That didn&amp;#39;t really work.&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Here&amp;#39;s exactly where you started to lose me.&lt;/strong&gt; Instead of &amp;quot;You need to improve your communications skills&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;I&amp;#39;m struggling to understand your plan&lt;/strong&gt;. Instead of &amp;quot;You lack strategic thinking&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;When I don&amp;#39;t hear from you, I worry that we&amp;#39;re not on the same page.&lt;/strong&gt; Instead of &amp;quot;You need to be more responsive&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Here&amp;#39;s my reaction.&lt;/strong&gt; Instead of &amp;quot;Can I give you some feedback?&amp;quot;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 03 Aug 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/08/03/p1-stowe-boyd-feedback-on-giving-feedback/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/08/03/p1-stowe-boyd-feedback-on-giving-feedback/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Read Stephen Rees's The Last Post</title>
@@ -170,22 +196,6 @@ FS: Could not start file system server. Invalid argument @.\plan9.cpp:88 (Create
         <pubDate>Tue, 09 Jul 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/07/09/p1-samsung-note-8-received-may-june-2019-android-security-update-06july2019/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/07/09/p1-samsung-note-8-received-may-june-2019-android-security-update-06july2019/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>IA Writer 1.1.7121.15952 still hangs when opening WSL files</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2019/04/23/p3-loving-typora-markdown-editor/&quot;&gt;IA Writer 1.1.7121.15952 still hangs like it did in April 2019&lt;/a&gt; when opening  Windows Subsystem for Linux (WSL) files. I use WSL for blogging which means my blogging workflow with IA Writer is broken and has been broken since April 2019.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Luckily, I can use Typora instead. &lt;a href=&quot;http://rolandtanglao.com/2015/10/14/p2-love-ia-writer/&quot;&gt;Still love IA Writer though&lt;/a&gt;. Time to file a support request I guess.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 08 Jul 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/07/08/p1-ia-writer-01july2019-build-still-hangs-when-opening-wsl-files/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/07/08/p1-ia-writer-01july2019-build-still-hangs-when-opening-wsl-files/</guid>
         
         
       </item>
