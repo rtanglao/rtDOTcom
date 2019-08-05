@@ -6,9 +6,30 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 03 Aug 2019 22:41:28 -0700</pubDate>
-    <lastBuildDate>Sat, 03 Aug 2019 22:41:28 -0700</lastBuildDate>
+    <pubDate>Sun, 04 Aug 2019 17:35:51 -0700</pubDate>
+    <lastBuildDate>Sun, 04 Aug 2019 17:35:51 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>McGee's Musings: Leading self-managed experts: 'collaborate with your experts to articulate and explore questions you have not thought to ask.'</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Read  the whole thing &lt;a href=&quot;https://mcgeesmusings.net/2019/08/04/leading-self-managed-experts/&quot;&gt;Leading self-managed experts&lt;/a&gt; ! My takeaway quote is:
+
+&lt;ul&gt;
+&lt;li&gt;&amp;quot; The counterintuitive yet more useful strategy in volatile environments 
+is to collaborate with your experts to articulate and explore questions 
+you have not thought to ask.&amp;quot;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 04 Aug 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/08/04/p1-mcgees-musings-leading-self-managed-experts-articulate-explore-unasked-questions/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/08/04/p1-mcgees-musings-leading-self-managed-experts-articulate-explore-unasked-questions/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Stowe Boyd: Feedback about Feedback</title>
@@ -179,23 +200,6 @@ FS: Could not start file system server. Invalid argument @.\plan9.cpp:88 (Create
         <pubDate>Wed, 10 Jul 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/07/10/p1-windows-insider-fast-ring-build-18932-1000-fixed-my-wsl-p9-issues-arm64-lenovo-c630/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/07/10/p1-windows-insider-fast-ring-build-18932-1000-fixed-my-wsl-p9-issues-arm64-lenovo-c630/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>My Samsung Note 8 received the May and June Android security update on July 6, 2019, when will I get the July update :-) ?!? Thanks Fido</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Possible reasons: Fido isn&amp;#39;t that big. the number of Samsung Note 8 users on Fido isn&amp;#39;t that big.  Blah blah blah :-)&lt;/li&gt;
-&lt;li&gt;Android security updates for the Note 8 are NOT clearly separated from carrier customizations! Which they will be with the Google&amp;#39;s Project Treble and newer phones like the Samsung Galaxy S10 and the Note 9 and 10 methinks?!?&lt;/li&gt;
-&lt;li&gt;Previously:  &lt;a href=&quot;http://rolandtanglao.com/2019/05/25/p1-maybe-it-is-not-samsung-but-fido-that-is-delaying-note8-monthly-security-updates/&quot;&gt;Maybe Fido is delaying Samsung Note 8 Updates not  Samsung (since Note 8 is on the list of phones that get a monthly  update and the Samsung S10 got an update already)?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 09 Jul 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/07/09/p1-samsung-note-8-received-may-june-2019-android-security-update-06july2019/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/07/09/p1-samsung-note-8-received-may-june-2019-android-security-update-06july2019/</guid>
         
         
       </item>
