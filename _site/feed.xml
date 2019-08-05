@@ -6,9 +6,31 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 04 Aug 2019 17:35:51 -0700</pubDate>
-    <lastBuildDate>Sun, 04 Aug 2019 17:35:51 -0700</lastBuildDate>
+    <pubDate>Mon, 05 Aug 2019 16:42:49 -0700</pubDate>
+    <lastBuildDate>Mon, 05 Aug 2019 16:42:49 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Great software teams ship regularly (every 10 weeks or less) and have a process for iteratively shaping their software</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Read  the whole thing &lt;a href=&quot;https://basecamp.com/shapeup&quot;&gt;Shape Up&lt;/a&gt;: Stop Running in Circles and Ship Work that Matters. Love the shaping concept: &amp;quot;Second, we &lt;strong&gt;shape the work&lt;/strong&gt; before giving it to a team. A
+small senior group works in parallel to the cycle teams. They define 
+the key elements of a solution before we consider a project ready to bet
+on. Projects are defined at the right level of abstraction: concrete 
+enough that the teams know what to do, yet abstract enough that they 
+have room to work out the interesting details themselves.&amp;quot;&lt;/li&gt;
+&lt;li&gt;I think 6-8 weeks like Mozilla and Basecamp does is about right.&lt;/li&gt;
+&lt;li&gt;And there is no one size fits all; each software team will have its own process for scoping and breaking down  features  into manageable as well as useable  chunks.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 05 Aug 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/08/05/p1-great-software-teams-ship-regularly-and-have-a-process-for-shaping-slash-chunking/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/08/05/p1-great-software-teams-ship-regularly-and-have-a-process-for-shaping-slash-chunking/</guid>
+        
+        
+      </item>
     
       <item>
         <title>McGee's Musings: Leading self-managed experts: 'collaborate with your experts to articulate and explore questions you have not thought to ask.'</title>
@@ -177,29 +199,6 @@ you have not thought to ask.&amp;quot;&lt;/li&gt;
         <pubDate>Mon, 15 Jul 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/07/15/p1-please-support-my-ride-to-conquer-cancer2019-for-mom-dad-lewis-others/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/07/15/p1-please-support-my-ride-to-conquer-cancer2019-for-mom-dad-lewis-others/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Windows Insider Fast Ring Build 18932.1000 fixed my issues accessing \\wsl$ as well as running explorer.exe on Lenovo Yoga C630 ARM64. Thanks to WSL issue 4016</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;I googled my dmesg error message on my ARM64 Lenovo C630:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;[0.453819] &amp;lt;3&amp;gt;init: (1) ERROR: LogException:23:\
-FS: Could not start file system server. Invalid argument @.\plan9.cpp:88 (CreateServerSocket)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;This led me to: WSL issue 4016 which is reported on the exact same hardware:   &lt;a href=&quot;https://github.com/microsoft/WSL/issues/4016&quot;&gt;init: LogException:23 FS: Could not start file system server #4016&lt;/a&gt;  where I found out that &lt;a href=&quot;https://github.com/brion&quot;&gt;brion&lt;/a&gt; had solved the issue by: &lt;code&gt;For me, it cleared up after upgrading to the Fast ring build 18917; file server seems to work ok there.&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;So, I upgraded to  the most bleeding edge Windows 10 build: Windows Insider Fast Ring Build 18932.1000 and voila all the bugs were fixed! I can now access &lt;code&gt;\\wsl$\&lt;/code&gt; and &lt;code&gt;explorer.exe .&lt;/code&gt; from WSL works i.e. the bug is fixed that I complained about back on May 30, 2019 &lt;a href=&quot;http://rolandtanglao.com/2019/05/30/p2-accessing-wsl-files-from-file-explorer-using-wsl-file-explorer-arm64-windows10-build-1903/&quot;&gt;Accessing WSL files from File Explorer using  \\wsl$\Ubuntu appears to be broken in ARM64 Windows 10 Builds on Windows  10 Build 1903&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Hooray, this means I can use my C630 for all of my Mozilla work that involve WSL!!!!! Very big win!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 10 Jul 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/07/10/p1-windows-insider-fast-ring-build-18932-1000-fixed-my-wsl-p9-issues-arm64-lenovo-c630/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/07/10/p1-windows-insider-fast-ring-build-18932-1000-fixed-my-wsl-p9-issues-arm64-lenovo-c630/</guid>
         
         
       </item>
