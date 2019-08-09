@@ -6,9 +6,28 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 06 Aug 2019 19:51:01 -0700</pubDate>
-    <lastBuildDate>Tue, 06 Aug 2019 19:51:01 -0700</lastBuildDate>
+    <pubDate>Thu, 08 Aug 2019 18:57:08 -0700</pubDate>
+    <lastBuildDate>Thu, 08 Aug 2019 18:57:08 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Computing Education Research Blog:Task-specific programming languages: People aren’t dumb. Programming is hard.</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Read  the whole thing from the Computing Education Research Blog:&lt;a href=&quot;https://computinged.wordpress.com/2019/03/25/task-specific-programming-languages-past-guzdial-is-smarter-than-present-guzdial/&quot;&gt;Task-specific programming languages: People aren’t dumb. Programming is hard.&lt;/a&gt;:  &amp;quot;People aren’t dumb. Programming languages are hard.  If we can fix that, we should. That’s what I see task-specific programming as being about.&amp;quot;&lt;/li&gt;
+&lt;li&gt;I think we&amp;#39;ve tried this before but it&amp;#39;s time to try again. And learn from Matlab, R, Logo, Hypercard, spreadsheets etc&lt;/li&gt;
+&lt;li&gt;Anybody should be able to express what they want and create a crude software tool to do it and then hand it off to others for refinement and user experience improvement if need be.  I bet more than 50% of the time the crude software tool created by normal folks would be super useful at least as a working prototype.&lt;/li&gt;
+&lt;li&gt;Via Knowing and Doing::Eugene Wallingford::&lt;a href=&quot;http://www.cs.uni.edu/%7Ewallingf/blog/archives/monthly/2019-08.html#e2019-08-08T14_42_55.htm&quot;&gt;Encountering an Old Idea Three Times in Ten Days&lt;/a&gt; which has this great quote: &amp;quot;There was a need for a keyboard thirty years before anyone designed a standard typing interface, so telegraphers adapted an existing tool to fit their needs. What if we are in that same thirty-year gap in the design of programming
+languages? &amp;quot;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 08 Aug 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/08/08/p1-people-are-not-dumb-programming-languages-are-hard/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/08/08/p1-people-are-not-dumb-programming-languages-are-hard/</guid>
+        
+        
+      </item>
     
       <item>
         <title>If you can learn when you're going down a rabbit hole, automation is beneficial! Problem is you don't always know until you've wasted a lot of time</title>
@@ -174,24 +193,6 @@ you have not thought to ask.&amp;quot;&lt;/li&gt;
         <pubDate>Thu, 18 Jul 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/07/18/p1-dan-mckinley-causal-inference-for-fun-and-profit/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/07/18/p1-dan-mckinley-causal-inference-for-fun-and-profit/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Retired and happy, I'd be the super enthusiastic and welcoming true expert in an online open source  community</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Experts don&amp;#39;t have to be grumpy :-)&lt;/li&gt;
-&lt;li&gt;Experts can be technical and nurturing :-)  (especially if you equip them with &amp;quot;&lt;a href=&quot;http://rolandtanglao.com/2018/06/27/p1-remove-insults-rants-non-constructive-feedback/&quot;&gt;De-ranting: Making non constructive feedback visible only to the person who posted it )&lt;/a&gt;&amp;quot;-type tools)&lt;/li&gt;
-&lt;li&gt;Just because you don&amp;#39;t often run into non grumpy, friendly, nurturing experts , doesn&amp;#39;t mean they don&amp;#39;t exist; that you definitely can nurture a culture where more of these folks exist.&lt;/li&gt;
-&lt;li&gt;The above came to mind after reading Feverbee&amp;#39;s  &lt;a href=&quot;https://www.feverbee.com/archetypes/&quot;&gt;Archetypes &lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 17 Jul 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/07/17/p1-what-archetype-do-you-want-to-be/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/07/17/p1-what-archetype-do-you-want-to-be/</guid>
         
         
       </item>
