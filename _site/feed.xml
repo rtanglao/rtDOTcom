@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 15 Aug 2019 23:29:27 -0700</pubDate>
-    <lastBuildDate>Thu, 15 Aug 2019 23:29:27 -0700</lastBuildDate>
+    <pubDate>Sat, 17 Aug 2019 20:28:27 -0700</pubDate>
+    <lastBuildDate>Sat, 17 Aug 2019 20:28:27 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Use Sampler to build terminal-based-dashboards?</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Use &lt;a href=&quot;https://github.com/sqshq/sampler&quot;&gt;Sampler&lt;/a&gt; to build terminal-based-dashboards? (via &lt;a href=&quot;https://taoofmac.com/space/cli/sampler&quot;&gt;Rui&lt;/a&gt;) &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 17 Aug 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/08/17/p1-use-sampler-to-build-terminal-based-dashboards/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/08/17/p1-use-sampler-to-build-terminal-based-dashboards/</guid>
+        
+        
+      </item>
     
       <item>
         <title>HowTo: Circular Crop with ImageMagick</title>
@@ -200,32 +215,6 @@ you have not thought to ask.&amp;quot;&lt;/li&gt;
         <pubDate>Sun, 04 Aug 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/08/04/p1-mcgees-musings-leading-self-managed-experts-articulate-explore-unasked-questions/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/08/04/p1-mcgees-musings-leading-self-managed-experts-articulate-explore-unasked-questions/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Stowe Boyd: Feedback about Feedback</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Read  the whole thing (subject to Medium&amp;#39;s ridiculous paywall :-) #ymmv ): &lt;a href=&quot;https://medium.com/work-futures/some-feedback-about-feedback-be02d84dd903&quot;&gt;Stowe Body Some Feedback About Feedback&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;I especially like these table entries:
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Here are three things that really worked for me. What was going through your mind when you did them?&lt;/strong&gt; Instead of &amp;quot;Good Job&amp;quot;!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Here&amp;#39;s what I would do&lt;/strong&gt;. Instead of &amp;quot;Here&amp;#39;s what you should do&amp;quot;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;When you did x, I felt y or I didn&amp;#39;t get that.&lt;/strong&gt; Instead of &amp;quot;That didn&amp;#39;t really work.&amp;quot;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Here&amp;#39;s exactly where you started to lose me.&lt;/strong&gt; Instead of &amp;quot;You need to improve your communications skills&amp;quot;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;I&amp;#39;m struggling to understand your plan&lt;/strong&gt;. Instead of &amp;quot;You lack strategic thinking&amp;quot;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;When I don&amp;#39;t hear from you, I worry that we&amp;#39;re not on the same page.&lt;/strong&gt; Instead of &amp;quot;You need to be more responsive&amp;quot;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Here&amp;#39;s my reaction.&lt;/strong&gt; Instead of &amp;quot;Can I give you some feedback?&amp;quot;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 03 Aug 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/08/03/p1-stowe-boyd-feedback-on-giving-feedback/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/08/03/p1-stowe-boyd-feedback-on-giving-feedback/</guid>
         
         
       </item>
