@@ -6,9 +6,46 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 17 Aug 2019 20:28:27 -0700</pubDate>
-    <lastBuildDate>Sat, 17 Aug 2019 20:28:27 -0700</lastBuildDate>
+    <pubDate>Sun, 18 Aug 2019 17:14:03 -0700</pubDate>
+    <lastBuildDate>Sun, 18 Aug 2019 17:14:03 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>How to: Use Imagemagick vignette to circular crop</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Here&amp;#39;s how to use the  &lt;a href=&quot;https://imagemagick.org/script/command-line-options.php#vignette&quot;&gt;Imagemagick V7 -vignette option&lt;/a&gt; to make a circular crop of an image (via Stack Overflow::ImageMagick: &lt;a href=&quot;https://stackoverflow.com/questions/41314498/imagemagick-how-can-i-cut-out-round-from-image&quot;&gt;How can I cut out round from image?&lt;/a&gt;):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;magick input.png &lt;span class=&quot;nt&quot;&gt;-vignette&lt;/span&gt; 0x0+0+0 output.png
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;This assumes a square input image, but if it isn&amp;#39;t you use the &lt;code&gt;-vignette&lt;/code&gt; geometry parameter.&lt;/li&gt;
+&lt;li&gt;This is simpler than my previous post from &lt;a href=&quot;http://rolandtanglao.com/2019/08/15/p1-how-to-use-imagemagick-circular-crop/&quot;&gt;August 15, HowTo: Circular Crop with ImageMagick&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;How To Install Imagemagick V7&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;from &lt;a href=&quot;https://linuxconfig.org/how-to-install-imagemagick-7-on-ubuntu-18-04-linux&quot;&gt;https://linuxconfig.org/how-to-install-imagemagick-7-on-ubuntu-18-04-linux&lt;/a&gt; ; installed on Lenovo ARM64 C630 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cd
+&lt;/span&gt;wget https://www.imagemagick.org/download/ImageMagick.tar.gz
+&lt;span class=&quot;nb&quot;&gt;tar &lt;/span&gt;xf ImageMagick.tar.gz
+&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;ImageMagick-7.0.8-61/
+./configure
+make
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;make &lt;span class=&quot;nb&quot;&gt;install
+sudo &lt;/span&gt;ldconfig /usr/local/lib
+identify &lt;span class=&quot;nt&quot;&gt;-version&lt;/span&gt;
+magick &lt;span class=&quot;nt&quot;&gt;-version&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        <pubDate>Sun, 18 Aug 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/08/18/p1-use-imagemagick-vignette-to-do-circular-crop/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/08/18/p1-use-imagemagick-vignette-to-do-circular-crop/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Use Sampler to build terminal-based-dashboards?</title>
@@ -194,27 +231,6 @@ have room to work out the interesting details themselves.&amp;quot;&lt;/li&gt;
         <pubDate>Mon, 05 Aug 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/08/05/p1-great-software-teams-ship-regularly-and-have-a-process-for-shaping-slash-chunking/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/08/05/p1-great-software-teams-ship-regularly-and-have-a-process-for-shaping-slash-chunking/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>McGee's Musings: Leading self-managed experts: 'collaborate with your experts to articulate and explore questions you have not thought to ask.'</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Read  the whole thing &lt;a href=&quot;https://mcgeesmusings.net/2019/08/04/leading-self-managed-experts/&quot;&gt;Leading self-managed experts&lt;/a&gt; ! My takeaway quote is:
-
-&lt;ul&gt;
-&lt;li&gt;&amp;quot; The counterintuitive yet more useful strategy in volatile environments 
-is to collaborate with your experts to articulate and explore questions 
-you have not thought to ask.&amp;quot;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 04 Aug 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/08/04/p1-mcgees-musings-leading-self-managed-experts-articulate-explore-unasked-questions/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/08/04/p1-mcgees-musings-leading-self-managed-experts-articulate-explore-unasked-questions/</guid>
         
         
       </item>
