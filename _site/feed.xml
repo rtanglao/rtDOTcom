@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 18 Aug 2019 17:14:03 -0700</pubDate>
-    <lastBuildDate>Sun, 18 Aug 2019 17:14:03 -0700</lastBuildDate>
+    <pubDate>Mon, 19 Aug 2019 23:02:59 -0700</pubDate>
+    <lastBuildDate>Mon, 19 Aug 2019 23:02:59 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Kevin Kwok: The Arc of Collaboration/Slack as Else Statement</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Not sure about the rest of the many thoughts in Kevin Kwok&amp;#39;s &lt;a href=&quot;https://kwokchain.com/2019/08/16/the-arc-of-collaboration/&quot;&gt;The Arc of Collaboration&lt;/a&gt; but I love Kevin&amp;#39;s idea of &amp;quot;Slack as Else Statement&amp;quot;&lt;/li&gt;
+&lt;li&gt;Not sure there&amp;#39;s &amp;quot;one app to rule them all&amp;quot; :-)  I am sure that it won&amp;#39;t be Microsoft Teams but hey I&amp;#39;ve been wrong before :-) !&lt;/li&gt;
+&lt;li&gt;I am sure that continuously working better to produce awesome products and services is hard, messy and will involve lots of tools all loosely coupled together by something like Slack or maybe even many apps like Slack.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 19 Aug 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/08/19/p1-the-arc-of-collaboration-slack-as-else-statement/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/08/19/p1-the-arc-of-collaboration-slack-as-else-statement/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How to: Use Imagemagick vignette to circular crop</title>
@@ -209,28 +226,6 @@ languages? &amp;quot;&lt;/li&gt;
         <pubDate>Tue, 06 Aug 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/08/06/p1-surprising-benefits-of-automation/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/08/06/p1-surprising-benefits-of-automation/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Great software teams ship regularly (every 10 weeks or less) and have a process for iteratively shaping their software</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Read  the whole thing &lt;a href=&quot;https://basecamp.com/shapeup&quot;&gt;Shape Up&lt;/a&gt;: Stop Running in Circles and Ship Work that Matters. Love the shaping concept: &amp;quot;Second, we &lt;strong&gt;shape the work&lt;/strong&gt; before giving it to a team. A
-small senior group works in parallel to the cycle teams. They define 
-the key elements of a solution before we consider a project ready to bet
-on. Projects are defined at the right level of abstraction: concrete 
-enough that the teams know what to do, yet abstract enough that they 
-have room to work out the interesting details themselves.&amp;quot;&lt;/li&gt;
-&lt;li&gt;I think 6-8 weeks like Mozilla and Basecamp does is about right.&lt;/li&gt;
-&lt;li&gt;And there is no one size fits all; each software team will have its own process for scoping and breaking down  features  into manageable as well as useable  chunks.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 05 Aug 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/08/05/p1-great-software-teams-ship-regularly-and-have-a-process-for-shaping-slash-chunking/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/08/05/p1-great-software-teams-ship-regularly-and-have-a-process-for-shaping-slash-chunking/</guid>
         
         
       </item>
