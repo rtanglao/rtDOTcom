@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: "Rolling to Richmond (inspired by the Ride to Conquer Cancer 2017)"
+title: "Rolling to Redmond (inspired by the Ride to Conquer Cancer 2017)"
 ---
 
 # Pontifications
