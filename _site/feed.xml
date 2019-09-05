@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 02 Sep 2019 08:33:41 -0700</pubDate>
-    <lastBuildDate>Mon, 02 Sep 2019 08:33:41 -0700</lastBuildDate>
+    <pubDate>Wed, 04 Sep 2019 23:53:32 -0700</pubDate>
+    <lastBuildDate>Wed, 04 Sep 2019 23:53:32 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>ggpointdensity would probably make some awesome tshirt graphics</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Must try &lt;a href=&quot;https://github.com/LKremer/ggpointdensity&quot;&gt;ggpointdensity&lt;/a&gt; and make some tshirts :-)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 04 Sep 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/09/04/p1-ggpointdensity-would-probably-make-some-awesome-tshirt-graphics/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/04/p1-ggpointdensity-would-probably-make-some-awesome-tshirt-graphics/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Eugene Wallingford: Learn the Basics, Struggle a Bit, Then Ask Questions</title>
@@ -206,30 +221,6 @@ magick &lt;span class=&quot;nt&quot;&gt;-version&lt;/span&gt;
         <pubDate>Sat, 17 Aug 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/08/17/p1-use-sampler-to-build-terminal-based-dashboards/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/08/17/p1-use-sampler-to-build-terminal-based-dashboards/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>HowTo: Circular Crop with ImageMagick</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;See &lt;a href=&quot;https://stackoverflow.com/questions/41959355/how-can-i-combine-these-commands-to-achieve-circular-crop-in-imagemagick&quot;&gt;How can I combine these commands to achieve circular crop in ImageMagick?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Gotta try this with &lt;a href=&quot;https://www.flickr.com/photos/roland/albums/72157709917594396&quot;&gt;my Berlin July 2019 photos&lt;/a&gt; and then make a collage of these circular crops!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;Code&lt;/h2&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;convert &lt;span class=&quot;nt&quot;&gt;-size&lt;/span&gt; 200x200 xc:Black &lt;span class=&quot;nt&quot;&gt;-fill&lt;/span&gt; White &lt;span class=&quot;nt&quot;&gt;-draw&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'circle 100 100 100 1'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-alpha&lt;/span&gt; Copy mask.png
-
-&lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;f &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.jpg&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;do
-  &lt;/span&gt;convert &lt;span class=&quot;nv&quot;&gt;$f&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-gravity&lt;/span&gt; Center mask.png &lt;span class=&quot;nt&quot;&gt;-compose&lt;/span&gt; CopyOpacity &lt;span class=&quot;nt&quot;&gt;-composite&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-trim&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;_output.png
-&lt;span class=&quot;k&quot;&gt;done&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        <pubDate>Thu, 15 Aug 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/08/15/p1-how-to-use-imagemagick-circular-crop/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/08/15/p1-how-to-use-imagemagick-circular-crop/</guid>
         
         
       </item>
