@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 04 Sep 2019 23:53:32 -0700</pubDate>
-    <lastBuildDate>Wed, 04 Sep 2019 23:53:32 -0700</lastBuildDate>
+    <pubDate>Fri, 06 Sep 2019 21:23:22 -0700</pubDate>
+    <lastBuildDate>Fri, 06 Sep 2019 21:23:22 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>The 2 Erics are at it again with pixaver: Google Photos backups made easy, reminds me of shoeboxapp</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pixaver.com/&quot;&gt;pixaver&lt;/a&gt; seems similar to recently defunct &lt;a href=&quot;https://shoeboxapp.com/&quot;&gt;shoeboxapp&lt;/a&gt; but hopefully more sustainable longterm&lt;/li&gt;
+&lt;li&gt;go 2-&lt;a href=&quot;http://www.smashlab.com/&quot;&gt;smashlab&lt;/a&gt;-erics go :-)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 06 Sep 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/09/06/p1-karj-two-erics-pixaver-google-photos-backup-made-easy/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/06/p1-karj-two-erics-pixaver-google-photos-backup-made-easy/</guid>
+        
+        
+      </item>
     
       <item>
         <title>ggpointdensity would probably make some awesome tshirt graphics</title>
@@ -206,21 +222,6 @@ magick &lt;span class=&quot;nt&quot;&gt;-version&lt;/span&gt;
         <pubDate>Sun, 18 Aug 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/08/18/p1-use-imagemagick-vignette-to-do-circular-crop/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/08/18/p1-use-imagemagick-vignette-to-do-circular-crop/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Use Sampler to build terminal-based-dashboards?</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Use &lt;a href=&quot;https://github.com/sqshq/sampler&quot;&gt;Sampler&lt;/a&gt; to build terminal-based-dashboards? (via &lt;a href=&quot;https://taoofmac.com/space/cli/sampler&quot;&gt;Rui&lt;/a&gt;) &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 17 Aug 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/08/17/p1-use-sampler-to-build-terminal-based-dashboards/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/08/17/p1-use-sampler-to-build-terminal-based-dashboards/</guid>
         
         
       </item>
