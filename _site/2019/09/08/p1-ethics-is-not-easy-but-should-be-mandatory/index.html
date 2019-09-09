@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Part 2B Got NLTK working with Firefox 55 SUMO support questions! Now what? Sentiment?</title>
+    <title>Learning ethics (the real ethics not the STV100) version should be mandatory for all starting high school</title>
     <meta name="description" content="flickr.com/roland, twitter.com/rtanglao #firefox #thunderbird
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2018/01/28/p1-part2b-got-nltk-working-with-firefox-55-questions-now-what/">
+    <link rel="canonical" href="http://rolandtanglao.com/2019/09/08/p1-ethics-is-not-easy-but-should-be-mandatory/">
 </head>
 
 
@@ -57,36 +57,18 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Part 2B Got NLTK working with Firefox 55 SUMO support questions! Now what? Sentiment?</h1>
-    <p class="post-meta">Jan 28, 2018</p>
+    <h1 class="post-title">Learning ethics (the real ethics not the STV100) version should be mandatory for all starting high school</h1>
+    <p class="post-meta">Sep 8, 2019</p>
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
-
-<p>See <a href="http://rolandtanglao.com/2018/01/26/p1-part2a-get-firefox55-first-3weeks-words-in-preparation-for-nltk-ngram-analysis/">Part 2A Get Firefox 55 first 3weeks&#39; words in preparation for NLTK -ngram-analysis</a></p>
+    <h1>Pontifications</h1>
 
 <ul>
-<li>1. Here&#39;s how I invoked the code:</li>
+<li>Learning ethics, the real ethics  that my son is learning in high school not the <a href="https://uwflow.com/course/stv100">STV100</a> version, should be mandatory for all starting high school</li>
+<li>Disclaimer: I took the first offering of STV100 at the University of Waterloo back in the 80s and though I learned lots,  in retrospect, really learning ethics from the philosophy ground up to its application to technology would have been better than STV100&#39;s much more superficial treatment.</li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">python/print-ngram-from-file.py ff55.08August2017.28august2017.1st.3weeks.title.content.txt
-</code></pre></div>
-<ul>
-<li>2. Here&#39;s the code, <a href="https://github.com/rtanglao/sumo-questions/blob/master/python/print-ngram-from-file.py">print-ngram-from-file.py</a></li>
-</ul>
-<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="c">#!/usr/local/bin/python3</span>
-<span class="kn">import</span> <span class="nn">nltk</span><span class="p">,</span> <span class="n">re</span><span class="p">,</span> <span class="n">pprint</span>
-<span class="kn">from</span> <span class="nn">nltk</span> <span class="kn">import</span> <span class="n">word_tokenize</span>
-<span class="kn">from</span> <span class="nn">nltk</span> <span class="kn">import</span> <span class="n">bigrams</span><span class="p">,</span> <span class="n">trigrams</span>
-<span class="kn">import</span> <span class="nn">fileinput</span>
-<span class="n">raw</span> <span class="o">=</span> <span class="s">""</span>
-<span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">fileinput</span><span class="o">.</span><span class="nb">input</span><span class="p">():</span>
-    <span class="n">raw</span> <span class="o">+=</span> <span class="n">line</span><span class="o">.</span><span class="n">rstrip</span><span class="p">()</span>
-    <span class="n">raw</span> <span class="o">+=</span> <span class="s">' '</span>
-<span class="n">tokens</span> <span class="o">=</span> <span class="n">word_tokenize</span><span class="p">(</span><span class="n">raw</span><span class="p">)</span>
-<span class="n">tokens_bigrams</span> <span class="o">=</span> <span class="n">bigrams</span><span class="p">(</span><span class="n">tokens</span><span class="p">)</span>
-<span class="k">print</span> <span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">tokens_bigrams</span><span class="p">))</span>
-</code></pre></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

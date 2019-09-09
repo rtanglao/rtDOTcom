@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 06 Sep 2019 21:23:22 -0700</pubDate>
-    <lastBuildDate>Fri, 06 Sep 2019 21:23:22 -0700</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
+    <pubDate>Sun, 08 Sep 2019 18:43:20 -0700</pubDate>
+    <lastBuildDate>Sun, 08 Sep 2019 18:43:20 -0700</lastBuildDate>
+    <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Learning ethics (the real ethics not the STV100) version should be mandatory for all starting high school</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Learning ethics, the real ethics  that my son is learning in high school not the &lt;a href=&quot;https://uwflow.com/course/stv100&quot;&gt;STV100&lt;/a&gt; version, should be mandatory for all starting high school&lt;/li&gt;
+&lt;li&gt;Disclaimer: I took the first offering of STV100 at the University of Waterloo back in the 80s and though I learned lots,  in retrospect, really learning ethics from the philosophy ground up to its application to technology would have been better than STV100&amp;#39;s much more superficial treatment.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 08 Sep 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/09/08/p1-ethics-is-not-easy-but-should-be-mandatory/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/08/p1-ethics-is-not-easy-but-should-be-mandatory/</guid>
+        
+        
+      </item>
     
       <item>
         <title>The 2 Erics are at it again with pixaver: Google Photos backups made easy, reminds me of shoeboxapp</title>
@@ -185,43 +201,6 @@ good reason to stay away.&amp;quot; &amp;lt;--- from &lt;a href=&quot;https://st
         <pubDate>Mon, 19 Aug 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/08/19/p1-the-arc-of-collaboration-slack-as-else-statement/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/08/19/p1-the-arc-of-collaboration-slack-as-else-statement/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to: Use Imagemagick vignette to circular crop</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Here&amp;#39;s how to use the  &lt;a href=&quot;https://imagemagick.org/script/command-line-options.php#vignette&quot;&gt;Imagemagick V7 -vignette option&lt;/a&gt; to make a circular crop of an image (via Stack Overflow::ImageMagick: &lt;a href=&quot;https://stackoverflow.com/questions/41314498/imagemagick-how-can-i-cut-out-round-from-image&quot;&gt;How can I cut out round from image?&lt;/a&gt;):&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;magick input.png &lt;span class=&quot;nt&quot;&gt;-vignette&lt;/span&gt; 0x0+0+0 output.png
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;This assumes a square input image, but if it isn&amp;#39;t you use the &lt;code&gt;-vignette&lt;/code&gt; geometry parameter.&lt;/li&gt;
-&lt;li&gt;This is simpler than my previous post from &lt;a href=&quot;http://rolandtanglao.com/2019/08/15/p1-how-to-use-imagemagick-circular-crop/&quot;&gt;August 15, HowTo: Circular Crop with ImageMagick&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;How To Install Imagemagick V7&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;from &lt;a href=&quot;https://linuxconfig.org/how-to-install-imagemagick-7-on-ubuntu-18-04-linux&quot;&gt;https://linuxconfig.org/how-to-install-imagemagick-7-on-ubuntu-18-04-linux&lt;/a&gt; ; installed on Lenovo ARM64 C630 &lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cd
-&lt;/span&gt;wget https://www.imagemagick.org/download/ImageMagick.tar.gz
-&lt;span class=&quot;nb&quot;&gt;tar &lt;/span&gt;xf ImageMagick.tar.gz
-&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;ImageMagick-7.0.8-61/
-./configure
-make
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;make &lt;span class=&quot;nb&quot;&gt;install
-sudo &lt;/span&gt;ldconfig /usr/local/lib
-identify &lt;span class=&quot;nt&quot;&gt;-version&lt;/span&gt;
-magick &lt;span class=&quot;nt&quot;&gt;-version&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        <pubDate>Sun, 18 Aug 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/08/18/p1-use-imagemagick-vignette-to-do-circular-crop/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/08/18/p1-use-imagemagick-vignette-to-do-circular-crop/</guid>
         
         
       </item>

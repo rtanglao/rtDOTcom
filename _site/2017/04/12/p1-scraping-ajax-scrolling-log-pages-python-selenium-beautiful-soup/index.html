@@ -82,27 +82,27 @@
 <span class="n">login_l</span> <span class="o">=</span> <span class="s">'yourSTusername'</span>
 <span class="n">password_l</span><span class="o">=</span><span class="s">'yourSTpassword'</span>
 
-<span class="c1">#function to extract needed string
-</span><span class="k">def</span> <span class="nf">xstr</span><span class="p">(</span><span class="n">s</span><span class="p">):</span>
+<span class="c">#function to extract needed string</span>
+<span class="k">def</span> <span class="nf">xstr</span><span class="p">(</span><span class="n">s</span><span class="p">):</span>
 <span class="k">if</span> <span class="p">(</span><span class="n">s</span><span class="o">==</span><span class="bp">None</span><span class="p">)</span> <span class="ow">or</span> <span class="nb">len</span><span class="p">(</span><span class="n">s</span><span class="p">)</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span>
     <span class="k">return</span> <span class="s">""</span>
 <span class="k">else</span><span class="p">:</span>  
     <span class="k">return</span> <span class="s">''</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
 
-<span class="c1"># PhantomJS files have different extensions
-# under different operating systems
-</span><span class="k">if</span> <span class="n">platform</span><span class="o">.</span><span class="n">system</span><span class="p">()</span> <span class="o">==</span> <span class="s">'Windows'</span><span class="p">:</span>
+<span class="c"># PhantomJS files have different extensions</span>
+<span class="c"># under different operating systems</span>
+<span class="k">if</span> <span class="n">platform</span><span class="o">.</span><span class="n">system</span><span class="p">()</span> <span class="o">==</span> <span class="s">'Windows'</span><span class="p">:</span>
 <span class="n">PHANTOMJS_PATH</span> <span class="o">=</span> <span class="s">'./phantomjs.exe'</span>
 <span class="k">else</span><span class="p">:</span>
 <span class="n">PHANTOMJS_PATH</span> <span class="o">=</span> <span class="s">'./phantomjs'</span>
 
-<span class="c1"># Initialize difflib for later usage
-</span><span class="n">d</span><span class="o">=</span> <span class="n">difflib</span><span class="o">.</span><span class="n">Differ</span><span class="p">()</span>
+<span class="c"># Initialize difflib for later usage</span>
+<span class="n">d</span><span class="o">=</span> <span class="n">difflib</span><span class="o">.</span><span class="n">Differ</span><span class="p">()</span>
 
-<span class="c1"># here we'll use pseudo browser PhantomJS,
-# but browser can be replaced with browser = webdriver.FireFox(),
-# which is good for debugging.
-</span><span class="n">browser</span> <span class="o">=</span> <span class="n">webdriver</span><span class="o">.</span><span class="n">PhantomJS</span><span class="p">(</span><span class="n">PHANTOMJS_PATH</span><span class="p">)</span>
+<span class="c"># here we'll use pseudo browser PhantomJS,</span>
+<span class="c"># but browser can be replaced with browser = webdriver.FireFox(),</span>
+<span class="c"># which is good for debugging.</span>
+<span class="n">browser</span> <span class="o">=</span> <span class="n">webdriver</span><span class="o">.</span><span class="n">PhantomJS</span><span class="p">(</span><span class="n">PHANTOMJS_PATH</span><span class="p">)</span>
 <span class="n">browser</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">'https://graph-na02-useast1.api.smartthings.com/login/auth'</span><span class="p">)</span>
 <span class="n">username</span> <span class="o">=</span> <span class="n">browser</span><span class="o">.</span><span class="n">find_element_by_name</span><span class="p">(</span><span class="s">'j_username'</span><span class="p">)</span>
 <span class="n">password</span> <span class="o">=</span> <span class="n">browser</span><span class="o">.</span><span class="n">find_element_by_name</span><span class="p">(</span><span class="s">'j_password'</span><span class="p">)</span>
@@ -110,8 +110,8 @@
 <span class="n">password</span><span class="o">.</span><span class="n">send_keys</span><span class="p">(</span><span class="n">password_l</span><span class="p">)</span>
 
 <span class="n">browser</span><span class="o">.</span><span class="n">find_element_by_name</span><span class="p">(</span><span class="s">'_action_Log in'</span><span class="p">)</span><span class="o">.</span><span class="n">click</span><span class="p">();</span>
-<span class="c1">#time.sleep(10) # to replace by a page.load detection to ensure the login was successfully done.
-</span><span class="k">print</span> <span class="s">"Authenticating :"</span><span class="p">,</span>
+<span class="c">#time.sleep(10) # to replace by a page.load detection to ensure the login was successfully done.</span>
+<span class="k">print</span> <span class="s">"Authenticating :"</span><span class="p">,</span>
 
 <span class="k">while</span><span class="p">(</span><span class="n">login_l</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">browser</span><span class="o">.</span><span class="n">page_source</span><span class="p">):</span>
 <span class="k">print</span> <span class="s">"."</span><span class="p">,</span>
@@ -119,90 +119,90 @@
 <span class="k">print</span> <span class="s">"Authenticated as "</span><span class="p">,</span> <span class="n">login_l</span>
 <span class="n">browser</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">'https://graph-na02-useast1.api.smartthings.com/ide/logs'</span><span class="p">)</span>
 
-<span class="c1"># variable needed log and page parsing management
-</span><span class="n">first_log_trace</span><span class="o">=</span><span class="s">''</span>
+<span class="c"># variable needed log and page parsing management</span>
+<span class="n">first_log_trace</span><span class="o">=</span><span class="s">''</span>
 <span class="n">log_trace</span><span class="o">=</span><span class="s">''</span>
 <span class="n">old_page</span><span class="o">=</span><span class="s">''</span>
 
-<span class="c1">#CSV file name
-</span><span class="n">csv_file_name</span><span class="o">=</span><span class="s">''</span>
+<span class="c">#CSV file name</span>
+<span class="n">csv_file_name</span><span class="o">=</span><span class="s">''</span>
 <span class="n">last_file_name</span><span class="o">=</span><span class="s">''</span>
 
 <span class="k">print</span> <span class="s">"Parsing..."</span><span class="p">,</span>
 
 <span class="k">while</span> <span class="p">(</span><span class="bp">True</span><span class="p">):</span>            
-<span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span> <span class="c1"># put a sleep to avoid socket get messed-up while in WAIT state
-</span>
-<span class="c1">#Check if the page content changed (=new logs)
-</span><span class="k">while</span> <span class="n">browser</span><span class="o">.</span><span class="n">page_source</span><span class="o">==</span><span class="n">old_page</span><span class="p">:</span>
+<span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span> <span class="c"># put a sleep to avoid socket get messed-up while in WAIT state</span>
+
+<span class="c">#Check if the page content changed (=new logs)</span>
+<span class="k">while</span> <span class="n">browser</span><span class="o">.</span><span class="n">page_source</span><span class="o">==</span><span class="n">old_page</span><span class="p">:</span>
     <span class="k">pass</span>
 
-<span class="c1"># new page content, we'll have to write things in the log file
-</span><span class="n">new_log</span><span class="o">=</span><span class="mi">1</span>
+<span class="c"># new page content, we'll have to write things in the log file</span>
+<span class="n">new_log</span><span class="o">=</span><span class="mi">1</span>
 
-<span class="c1">#Prepare for file name based on the date.
-</span><span class="n">timestr</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s">"</span><span class="si">%</span><span class="s">Y</span><span class="si">%</span><span class="s">m</span><span class="si">%</span><span class="s">d"</span><span class="p">)</span>
+<span class="c">#Prepare for file name based on the date.</span>
+<span class="n">timestr</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s">"</span><span class="si">%</span><span class="s">Y</span><span class="si">%</span><span class="s">m</span><span class="si">%</span><span class="s">d"</span><span class="p">)</span>
 
-<span class="c1"># first logs in this file might include last minutes of the day before logs
-</span><span class="n">logfile</span><span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">timestr</span><span class="o">+</span><span class="s">".csv"</span><span class="p">,</span><span class="s">"a+"</span><span class="p">)</span>
+<span class="c"># first logs in this file might include last minutes of the day before logs</span>
+<span class="n">logfile</span><span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">timestr</span><span class="o">+</span><span class="s">".csv"</span><span class="p">,</span><span class="s">"a+"</span><span class="p">)</span>
 
-<span class="c1"># If new file name, add csv header.
-</span><span class="k">if</span> <span class="n">last_file_name</span><span class="o">!=</span><span class="n">timestr</span><span class="o">+</span><span class="s">'.csv'</span><span class="p">:</span>
-    <span class="c1"># write csv header
-</span>    <span class="n">logfile</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s">'"Log_Class";"Device_Name";"Local_Log_Time";"Log_Message"'</span><span class="p">)</span>
+<span class="c"># If new file name, add csv header.</span>
+<span class="k">if</span> <span class="n">last_file_name</span><span class="o">!=</span><span class="n">timestr</span><span class="o">+</span><span class="s">'.csv'</span><span class="p">:</span>
+    <span class="c"># write csv header</span>
+    <span class="n">logfile</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s">'"Log_Class";"Device_Name";"Local_Log_Time";"Log_Message"'</span><span class="p">)</span>
     <span class="n">last_file_name</span><span class="o">=</span><span class="n">timestr</span><span class="o">+</span><span class="s">".csv"</span>
 
-<span class="c1"># Prepare to parse page
-</span><span class="n">new_page</span><span class="o">=</span><span class="n">browser</span><span class="o">.</span><span class="n">page_source</span>
+<span class="c"># Prepare to parse page</span>
+<span class="n">new_page</span><span class="o">=</span><span class="n">browser</span><span class="o">.</span><span class="n">page_source</span>
 
 <span class="n">soup</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">new_page</span><span class="p">,</span> <span class="s">"html.parser"</span><span class="p">)</span>
 
-<span class="c1"># keep track of the page content to avoid reloading same page content
-</span><span class="n">old_page</span><span class="o">=</span><span class="n">new_page</span>
+<span class="c"># keep track of the page content to avoid reloading same page content</span>
+<span class="n">old_page</span><span class="o">=</span><span class="n">new_page</span>
 
-<span class="c1"># We'll put the device names and the corresponding href used by ST logs to put the name in clear in the logs we export
-</span><span class="n">devicename_dic</span><span class="o">=</span><span class="p">{}</span>
-<span class="c1"># the devices already traced are added as filters option on the top of the window,
-# checking all element of &lt;a class=filter&gt; help to know the correspondance between later href URL and ST device names 
-</span><span class="n">div_tools</span> <span class="o">=</span> <span class="n">soup</span><span class="o">.</span><span class="n">findAll</span><span class="p">(</span><span class="s">'div'</span><span class="p">,</span> <span class="p">{</span><span class="s">'class'</span><span class="p">:</span><span class="s">'tools'</span><span class="p">})</span> 
-<span class="c1"># loop in the device names
-</span><span class="k">for</span> <span class="n">child</span> <span class="ow">in</span> <span class="n">div_tools</span><span class="p">:</span>
+<span class="c"># We'll put the device names and the corresponding href used by ST logs to put the name in clear in the logs we export</span>
+<span class="n">devicename_dic</span><span class="o">=</span><span class="p">{}</span>
+<span class="c"># the devices already traced are added as filters option on the top of the window,</span>
+<span class="c"># checking all element of &lt;a class=filter&gt; help to know the correspondance between later href URL and ST device names </span>
+<span class="n">div_tools</span> <span class="o">=</span> <span class="n">soup</span><span class="o">.</span><span class="n">findAll</span><span class="p">(</span><span class="s">'div'</span><span class="p">,</span> <span class="p">{</span><span class="s">'class'</span><span class="p">:</span><span class="s">'tools'</span><span class="p">})</span> 
+<span class="c"># loop in the device names</span>
+<span class="k">for</span> <span class="n">child</span> <span class="ow">in</span> <span class="n">div_tools</span><span class="p">:</span>
     <span class="n">device_href_name</span><span class="o">=</span><span class="n">child</span><span class="o">.</span><span class="n">findAll</span><span class="p">(</span><span class="s">'li'</span><span class="p">)</span>
     <span class="k">for</span> <span class="n">href</span> <span class="ow">in</span> <span class="n">device_href_name</span><span class="p">:</span>
         <span class="n">device_href</span><span class="o">=</span><span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="s">'.*href="(.*)".*'</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">href</span><span class="o">.</span><span class="n">a</span><span class="p">))</span>
         <span class="n">device_name</span><span class="o">=</span><span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="s">'.*href=.*&gt;(.*)&lt;/a&gt;'</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">href</span><span class="o">.</span><span class="n">a</span><span class="p">))</span>
         <span class="k">if</span> <span class="n">device_name</span> <span class="o">!=</span> <span class="bp">None</span><span class="p">:</span>
             <span class="n">devicename_dic</span><span class="p">[</span><span class="nb">str</span><span class="p">(</span><span class="n">device_href</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">))]</span><span class="o">=</span><span class="nb">str</span><span class="p">(</span><span class="n">device_name</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>
-<span class="c1"># search for the div sections with style attributes containing the logs
-</span><span class="n">div_class_body</span> <span class="o">=</span> <span class="n">soup</span><span class="o">.</span><span class="n">findAll</span><span class="p">(</span><span class="s">'div'</span><span class="p">,</span> <span class="p">{</span><span class="s">'style'</span><span class="p">:</span><span class="s">'display: block;'</span><span class="p">})</span>
+<span class="c"># search for the div sections with style attributes containing the logs</span>
+<span class="n">div_class_body</span> <span class="o">=</span> <span class="n">soup</span><span class="o">.</span><span class="n">findAll</span><span class="p">(</span><span class="s">'div'</span><span class="p">,</span> <span class="p">{</span><span class="s">'style'</span><span class="p">:</span><span class="s">'display: block;'</span><span class="p">})</span>
 
 <span class="k">for</span> <span class="n">child</span> <span class="ow">in</span> <span class="n">div_class_body</span><span class="p">:</span>
     <span class="n">log_class</span><span class="o">=</span><span class="n">xstr</span><span class="p">(</span><span class="n">re</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s">'&lt;div class="(.*?)".*'</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">child</span><span class="p">)))</span>
-    <span class="c1"># extract the url from the console log and match it to the device name we stored.
-</span>    <span class="n">device_href</span><span class="o">=</span><span class="n">xstr</span><span class="p">(</span><span class="n">re</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s">'.*href="(.*)".*'</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">child</span><span class="p">)))</span>
-    <span class="c1"># extract the time. Will be in format (H)H:(M)M:(S)S AM/PM TZ
-</span>    <span class="n">log_time</span><span class="o">=</span><span class="n">xstr</span><span class="p">(</span><span class="n">re</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s">'&lt;span class="time"&gt;(.*?)&lt;/span&gt;'</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">child</span><span class="p">)))</span>
-    <span class="c1"># extract the log message text.
-</span>    <span class="n">log_msg</span><span class="o">=</span><span class="n">xstr</span><span class="p">((</span><span class="n">re</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s">'.*msg"&gt;(.*?)&lt;/span&gt;'</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">child</span><span class="p">),</span> <span class="n">re</span><span class="o">.</span><span class="n">MULTILINE</span><span class="p">)))</span>
-    <span class="c1"># build the string. Due to ST displays the newest first, each line will be written in the file in the new-&gt;old order for this group
-</span>    <span class="c1"># example:
-</span>    <span class="c1"># [c
-</span>    <span class="c1">#  b
-</span>    <span class="c1">#  a] ==&gt; first set of logs 
-</span>    <span class="c1"># [f
-</span>    <span class="c1">#  e] ==&gt; second set of logs
-</span>    <span class="c1"># This is not really important as file can be reordered by the program using the csv file. However, smartthings doesn't add the day 
-</span>    <span class="n">log_trace</span> <span class="o">=</span> <span class="s">'"'</span><span class="o">+</span><span class="n">log_class</span><span class="o">+</span> <span class="s">'";'</span><span class="o">+</span><span class="s">'"'</span><span class="o">+</span> <span class="n">devicename_dic</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">device_href</span><span class="p">,</span><span class="s">""</span><span class="p">)</span><span class="o">+</span> <span class="s">'";'</span><span class="o">+</span><span class="s">'"'</span><span class="o">+</span><span class="n">log_time</span><span class="o">+</span><span class="s">'";'</span><span class="o">+</span><span class="s">'"'</span><span class="o">+</span><span class="n">log_msg</span><span class="o">+</span><span class="s">'"</span><span class="se">\n</span><span class="s">'</span>
+    <span class="c"># extract the url from the console log and match it to the device name we stored.</span>
+    <span class="n">device_href</span><span class="o">=</span><span class="n">xstr</span><span class="p">(</span><span class="n">re</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s">'.*href="(.*)".*'</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">child</span><span class="p">)))</span>
+    <span class="c"># extract the time. Will be in format (H)H:(M)M:(S)S AM/PM TZ</span>
+    <span class="n">log_time</span><span class="o">=</span><span class="n">xstr</span><span class="p">(</span><span class="n">re</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s">'&lt;span class="time"&gt;(.*?)&lt;/span&gt;'</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">child</span><span class="p">)))</span>
+    <span class="c"># extract the log message text.</span>
+    <span class="n">log_msg</span><span class="o">=</span><span class="n">xstr</span><span class="p">((</span><span class="n">re</span><span class="o">.</span><span class="n">findall</span><span class="p">(</span><span class="s">'.*msg"&gt;(.*?)&lt;/span&gt;'</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">child</span><span class="p">),</span> <span class="n">re</span><span class="o">.</span><span class="n">MULTILINE</span><span class="p">)))</span>
+    <span class="c"># build the string. Due to ST displays the newest first, each line will be written in the file in the new-&gt;old order for this group</span>
+    <span class="c"># example:</span>
+    <span class="c"># [c</span>
+    <span class="c">#  b</span>
+    <span class="c">#  a] ==&gt; first set of logs </span>
+    <span class="c"># [f</span>
+    <span class="c">#  e] ==&gt; second set of logs</span>
+    <span class="c"># This is not really important as file can be reordered by the program using the csv file. However, smartthings doesn't add the day </span>
+    <span class="n">log_trace</span> <span class="o">=</span> <span class="s">'"'</span><span class="o">+</span><span class="n">log_class</span><span class="o">+</span> <span class="s">'";'</span><span class="o">+</span><span class="s">'"'</span><span class="o">+</span> <span class="n">devicename_dic</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">device_href</span><span class="p">,</span><span class="s">""</span><span class="p">)</span><span class="o">+</span> <span class="s">'";'</span><span class="o">+</span><span class="s">'"'</span><span class="o">+</span><span class="n">log_time</span><span class="o">+</span><span class="s">'";'</span><span class="o">+</span><span class="s">'"'</span><span class="o">+</span><span class="n">log_msg</span><span class="o">+</span><span class="s">'"</span><span class="se">\n</span><span class="s">'</span>
 
-    <span class="c1"># events being in reverse date order, stop writing to files events already written last time.
-</span>    <span class="k">if</span> <span class="p">(</span><span class="n">log_trace</span><span class="o">==</span><span class="n">first_log_trace</span> <span class="p">):</span>
+    <span class="c"># events being in reverse date order, stop writing to files events already written last time.</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">log_trace</span><span class="o">==</span><span class="n">first_log_trace</span> <span class="p">):</span>
         <span class="n">new_log</span><span class="o">=</span><span class="mi">0</span>
-    <span class="c1">#first time parsing? then write csv header in the file and set variables for next time in order to avoid writing past events
-</span>    <span class="k">if</span> <span class="n">first_log_trace</span><span class="o">==</span><span class="s">''</span><span class="p">:</span>
+    <span class="c">#first time parsing? then write csv header in the file and set variables for next time in order to avoid writing past events</span>
+    <span class="k">if</span> <span class="n">first_log_trace</span><span class="o">==</span><span class="s">''</span><span class="p">:</span>
         <span class="n">first_log_trace</span><span class="o">=</span><span class="n">log_trace</span>
         <span class="n">new_log</span><span class="o">=</span><span class="mi">1</span>
-    <span class="c1"># got new logs? print them in the file
-</span>    <span class="k">if</span> <span class="n">new_log</span><span class="o">==</span><span class="mi">1</span><span class="p">:</span>
+    <span class="c"># got new logs? print them in the file</span>
+    <span class="k">if</span> <span class="n">new_log</span><span class="o">==</span><span class="mi">1</span><span class="p">:</span>
         <span class="k">print</span> <span class="n">log_trace</span>
         <span class="n">logfile</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">log_trace</span><span class="p">)</span>
 
