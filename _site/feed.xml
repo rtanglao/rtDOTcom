@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 10 Sep 2019 18:06:53 -0700</pubDate>
-    <lastBuildDate>Tue, 10 Sep 2019 18:06:53 -0700</lastBuildDate>
-    <generator>Jekyll v3.7.3</generator>
+    <pubDate>Wed, 11 Sep 2019 21:10:47 -0700</pubDate>
+    <lastBuildDate>Wed, 11 Sep 2019 21:10:47 -0700</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>WSL1 runs fine from cmd.exe, the windows command line, but not from the Windows 10 GUI(tap the Windows key, type 'u' and click on Ubuntu)</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Thanks to &lt;a href=&quot;https://twitter.com/benhillis/status/1171973767729278976&quot;&gt;a suggestion from @benhillis on twitter&lt;/a&gt;, I found out today  that WSL1 runs fine from cmd.exe, the windows command line, but not from the Windows 10 GUI (tap the Windows key, type &amp;#39;u&amp;#39; and click on Ubuntu). &amp;lt;-- following up from yesterday&amp;#39;s &lt;a href=&quot;http://rolandtanglao.com/2019/09/10/p1-wsl1-broke-on-arm64-windows10-build18975-cannot-install-wsl2/&quot;&gt;Windows 10 build 18975 on the Fast Insider Ring on ARM64 Windows 10 Lenovo C630 broke WSL1 and I cannot install WSL2&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 11 Sep 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/09/11/p1-wsl-runs-fine-from-windows-command-line-but-not-from-windows-gui/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/11/p1-wsl-runs-fine-from-windows-command-line-but-not-from-windows-gui/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Windows 10 build 18975 on the Fast Insider Ring on ARM64 Windows 10 Lenovo C630 broke WSL1 and I cannot install WSL2</title>
@@ -184,21 +199,6 @@ months&lt;/a&gt;.&lt;/li&gt;
         <pubDate>Sun, 25 Aug 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/08/25/p1-ride-to-conquer-cancer-2019-humbling-moving-as-ever-vintage-1946-schwinn-in-2020/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/08/25/p1-ride-to-conquer-cancer-2019-humbling-moving-as-ever-vintage-1946-schwinn-in-2020/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Value others’ time. Limit instant messages to two a day among all colleagues.</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&amp;quot;&lt;strong&gt;Value others’ time.&lt;/strong&gt; Limit instant messages to two a day among all colleagues. &amp;quot;&amp;lt;--- from  &lt;a href=&quot;https://getpocket.com/explore/item/break-bad-habits-with-a-simple-checklist?utm_source=pocket-newtab&quot;&gt;Break Bad Habits With a Simple Checklist&lt;/a&gt; &amp;lt;-- Not sure I could do this given the real time cross-functional nature of my support job! Probably worth trying to reduce the number of slack messages I write though!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 22 Aug 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/08/22/p1-value-others-time-limit-yourself-to-1-or-two-instant-messages-per-day-among-all-colleagues/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/08/22/p1-value-others-time-limit-yourself-to-1-or-two-instant-messages-per-day-among-all-colleagues/</guid>
         
         
       </item>

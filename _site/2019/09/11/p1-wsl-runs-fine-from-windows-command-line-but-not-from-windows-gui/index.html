@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Part 2B Got NLTK working with Firefox 55 SUMO support questions! Now what? Sentiment?</title>
+    <title>WSL1 runs fine from cmd.exe, the windows command line, but not from the Windows 10 GUI(tap the Windows key, type 'u' and click on Ubuntu)</title>
     <meta name="description" content="flickr.com/roland, twitter.com/rtanglao #firefox #thunderbird
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2018/01/28/p1-part2b-got-nltk-working-with-firefox-55-questions-now-what/">
+    <link rel="canonical" href="http://rolandtanglao.com/2019/09/11/p1-wsl-runs-fine-from-windows-command-line-but-not-from-windows-gui/">
 </head>
 
 
@@ -57,36 +57,17 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Part 2B Got NLTK working with Firefox 55 SUMO support questions! Now what? Sentiment?</h1>
-    <p class="post-meta">Jan 28, 2018</p>
+    <h1 class="post-title">WSL1 runs fine from cmd.exe, the windows command line, but not from the Windows 10 GUI(tap the Windows key, type 'u' and click on Ubuntu)</h1>
+    <p class="post-meta">Sep 11, 2019</p>
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
-
-<p>See <a href="http://rolandtanglao.com/2018/01/26/p1-part2a-get-firefox55-first-3weeks-words-in-preparation-for-nltk-ngram-analysis/">Part 2A Get Firefox 55 first 3weeks&#39; words in preparation for NLTK -ngram-analysis</a></p>
+    <h1>Pontifications</h1>
 
 <ul>
-<li>1. Here&#39;s how I invoked the code:</li>
+<li>Thanks to <a href="https://twitter.com/benhillis/status/1171973767729278976">a suggestion from @benhillis on twitter</a>, I found out today  that WSL1 runs fine from cmd.exe, the windows command line, but not from the Windows 10 GUI (tap the Windows key, type &#39;u&#39; and click on Ubuntu). &lt;-- following up from yesterday&#39;s <a href="http://rolandtanglao.com/2019/09/10/p1-wsl1-broke-on-arm64-windows10-build18975-cannot-install-wsl2/">Windows 10 build 18975 on the Fast Insider Ring on ARM64 Windows 10 Lenovo C630 broke WSL1 and I cannot install WSL2</a>.</li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">python/print-ngram-from-file.py ff55.08August2017.28august2017.1st.3weeks.title.content.txt
-</code></pre></div>
-<ul>
-<li>2. Here&#39;s the code, <a href="https://github.com/rtanglao/sumo-questions/blob/master/python/print-ngram-from-file.py">print-ngram-from-file.py</a></li>
-</ul>
-<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="c1">#!/usr/local/bin/python3
-</span><span class="kn">import</span> <span class="nn">nltk</span><span class="p">,</span> <span class="n">re</span><span class="p">,</span> <span class="n">pprint</span>
-<span class="kn">from</span> <span class="nn">nltk</span> <span class="kn">import</span> <span class="n">word_tokenize</span>
-<span class="kn">from</span> <span class="nn">nltk</span> <span class="kn">import</span> <span class="n">bigrams</span><span class="p">,</span> <span class="n">trigrams</span>
-<span class="kn">import</span> <span class="nn">fileinput</span>
-<span class="n">raw</span> <span class="o">=</span> <span class="s">""</span>
-<span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">fileinput</span><span class="o">.</span><span class="nb">input</span><span class="p">():</span>
-    <span class="n">raw</span> <span class="o">+=</span> <span class="n">line</span><span class="o">.</span><span class="n">rstrip</span><span class="p">()</span>
-    <span class="n">raw</span> <span class="o">+=</span> <span class="s">' '</span>
-<span class="n">tokens</span> <span class="o">=</span> <span class="n">word_tokenize</span><span class="p">(</span><span class="n">raw</span><span class="p">)</span>
-<span class="n">tokens_bigrams</span> <span class="o">=</span> <span class="n">bigrams</span><span class="p">(</span><span class="n">tokens</span><span class="p">)</span>
-<span class="k">print</span> <span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">tokens_bigrams</span><span class="p">))</span>
-</code></pre></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 
