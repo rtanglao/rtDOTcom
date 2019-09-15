@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 14 Sep 2019 20:10:12 -0700</pubDate>
-    <lastBuildDate>Sat, 14 Sep 2019 20:10:12 -0700</lastBuildDate>
+    <pubDate>Sun, 15 Sep 2019 12:08:53 -0700</pubDate>
+    <lastBuildDate>Sun, 15 Sep 2019 12:08:53 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>RSS club makes me laugh :-) Also WSL2 max_user_watches is hilarious</title>
+        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I learned about &lt;a href=&quot;https://daverupert.com/rss-club/&quot;&gt;RSS Club&lt;/a&gt; :-) from &lt;a href=&quot;https://www.zylstra.org/blog/2019/09/joining-rss-club-as-an-experiment/&quot;&gt;Ton&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;I&amp;#39;ll probably run into the &lt;a href=&quot;https://daverupert.com/2019/07/a-lament-for-max-user-watches/&quot;&gt;WSL2 max&lt;em&gt;user&lt;/em&gt;watches problem&lt;/a&gt; in the future too (the blogger who blogged this is part of RSS club; I of course subscribed to the &lt;a href=&quot;https://daverupert.com/atom.xml&quot;&gt;RSS feed&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 15 Sep 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/09/15/p1-wsl2-max-user-watches-rss-club/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/15/p1-wsl2-max-user-watches-rss-club/</guid>
+        
+        
+      </item>
     
       <item>
         <title>True experts are authors i.e. they can write down explanations and explain it to non experts</title>
@@ -147,21 +163,6 @@ months&lt;/a&gt;.&lt;/li&gt;
         <pubDate>Wed, 04 Sep 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/09/04/p1-ggpointdensity-would-probably-make-some-awesome-tshirt-graphics/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/09/04/p1-ggpointdensity-would-probably-make-some-awesome-tshirt-graphics/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Eugene Wallingford: Learn the Basics, Struggle a Bit, Then Ask Questions</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Eugene Wallingford&amp;#39;s blog is so great. Just read it all! &lt;a href=&quot;http://www.cs.uni.edu/%7Ewallingf/blog/archives/monthly/2019-08.html#e2019-08-25T10_00_32.htm&quot;&gt;Learn the Basics, Struggle a Bit, Then Ask Questions&lt;/a&gt; is yet another great post; we all should be doing some of this no matter what our age or stage in life.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 02 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/09/02/p1-learn-the-basics-struggle-a-bit-ask-questions/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/02/p1-learn-the-basics-struggle-a-bit-ask-questions/</guid>
         
         
       </item>
