@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2017/09/17/p1-trying-out-yql-for-vancouver-latitude-longitude/">
+    <link rel="canonical" href="http://localhost:4000/2017/09/17/p1-trying-out-yql-for-vancouver-latitude-longitude/">
 </head>
 
 
@@ -62,18 +62,19 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li>Followup from <a href="http://rolandtanglao.com/2017/09/15/p1-ggmap-to-show-blank-spots-for-other-neighbourhoods/">R ggmap faceted by vancouver neighborhoods, just need lat/lon to Vancouver neighborhood function</a>:</li>
-<li>The following YQL and REST queries gives me WOEID from lat, long, e.g. <code>23405270</code></li>
-<li>Then <a href="https://www.flickr.com/services/api/explore/flickr.places.getInfo">find the neighborhood name from the WOEID</a> using this query:
-<code>
-https://api.flickr.com/services/rest/?method=flickr.places.getInfo&amp;api_key=&lt;api_key&gt;&amp;woe_id=23405270&amp;format=json
-</code></li>
-<li>which in this case for <code>23405270</code> is <code>place&quot; -&gt;&quot;woe_name&quot;:</code>West End```:</li>
+  <li>Followup from <a href="http://rolandtanglao.com/2017/09/15/p1-ggmap-to-show-blank-spots-for-other-neighbourhoods/">R ggmap faceted by vancouver neighborhoods, just need lat/lon to Vancouver neighborhood function</a>:</li>
+  <li>The following YQL and REST queries gives me WOEID from lat, long, e.g. <code class="highlighter-rouge">23405270</code></li>
+  <li>Then <a href="https://www.flickr.com/services/api/explore/flickr.places.getInfo">find the neighborhood name from the WOEID</a> using this query:
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://api.flickr.com/services/rest/?method=flickr.places.getInfo&amp;api_key=&lt;api_key&gt;&amp;woe_id=23405270&amp;format=json
+</code></pre></div>    </div>
+  </li>
+  <li>which in this case for <code class="highlighter-rouge">23405270</code> is <code class="highlighter-rouge">place" -&gt;"woe_name":</code>West End```:</li>
 </ul>
-<div class="highlight"><pre><code class="language-json" data-lang="json"><span class="err">jsonFlickrApi(</span><span class="p">{</span><span class="w"> </span><span class="s2">"place"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="s2">"place_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"EPQ.yiVTUb7YazWQlg"</span><span class="p">,</span><span class="w"> </span><span class="s2">"woeid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"23405270"</span><span class="p">,</span><span class="w"> </span><span class="s2">"latitude"</span><span class="p">:</span><span class="w"> </span><span class="mf">49.284</span><span class="p">,</span><span class="w"> </span><span class="s2">"longitude"</span><span class="p">:</span><span class="w"> </span><span class="mf">-123.135</span><span class="p">,</span><span class="w"> </span><span class="s2">"place_url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"</span><span class="se">\/</span><span class="s2">Canada</span><span class="se">\/</span><span class="s2">British+Columbia</span><span class="se">\/</span><span class="s2">Vancouver</span><span class="se">\/</span><span class="s2">West+End"</span><span class="p">,</span><span class="w"> </span><span class="s2">"place_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"neighbourhood"</span><span class="p">,</span><span class="w"> </span><span class="s2">"place_type_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">22</span><span class="p">,</span><span class="w"> </span><span class="s2">"timezone"</span><span class="p">:</span><span class="w"> </span><span class="s2">"America</span><span class="se">\/</span><span class="s2">Vancouver"</span><span class="p">,</span><span class="w"> </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"West End, Vancouver, BC, CA, Canada"</span><span class="p">,</span><span class="w"> </span><span class="s2">"woe_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"West End"</span><span class="p">,</span><span class="w"> 
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">jsonFlickrApi(</span><span class="p">{</span><span class="w"> </span><span class="s2">"place"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="s2">"place_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"EPQ.yiVTUb7YazWQlg"</span><span class="p">,</span><span class="w"> </span><span class="s2">"woeid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"23405270"</span><span class="p">,</span><span class="w"> </span><span class="s2">"latitude"</span><span class="p">:</span><span class="w"> </span><span class="mf">49.284</span><span class="p">,</span><span class="w"> </span><span class="s2">"longitude"</span><span class="p">:</span><span class="w"> </span><span class="mf">-123.135</span><span class="p">,</span><span class="w"> </span><span class="s2">"place_url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"</span><span class="se">\/</span><span class="s2">Canada</span><span class="se">\/</span><span class="s2">British+Columbia</span><span class="se">\/</span><span class="s2">Vancouver</span><span class="se">\/</span><span class="s2">West+End"</span><span class="p">,</span><span class="w"> </span><span class="s2">"place_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"neighbourhood"</span><span class="p">,</span><span class="w"> </span><span class="s2">"place_type_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">22</span><span class="p">,</span><span class="w"> </span><span class="s2">"timezone"</span><span class="p">:</span><span class="w"> </span><span class="s2">"America</span><span class="se">\/</span><span class="s2">Vancouver"</span><span class="p">,</span><span class="w"> </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"West End, Vancouver, BC, CA, Canada"</span><span class="p">,</span><span class="w"> </span><span class="s2">"woe_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"West End"</span><span class="p">,</span><span class="w"> 
     </span><span class="s2">"neighbourhood"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="s2">"_content"</span><span class="p">:</span><span class="w"> </span><span class="s2">"West End, Vancouver, BC, CA, Canada"</span><span class="p">,</span><span class="w"> </span><span class="s2">"place_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"EPQ.yiVTUb7YazWQlg"</span><span class="p">,</span><span class="w"> </span><span class="s2">"woeid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"23405270"</span><span class="p">,</span><span class="w"> </span><span class="s2">"latitude"</span><span class="p">:</span><span class="w"> </span><span class="mf">49.284</span><span class="p">,</span><span class="w"> </span><span class="s2">"longitude"</span><span class="p">:</span><span class="w"> </span><span class="mf">-123.135</span><span class="p">,</span><span class="w"> </span><span class="s2">"place_url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"</span><span class="se">\/</span><span class="s2">Canada</span><span class="se">\/</span><span class="s2">British+Columbia</span><span class="se">\/</span><span class="s2">Vancouver</span><span class="se">\/</span><span class="s2">West+End"</span><span class="w"> </span><span class="p">},</span><span class="w"> 
     </span><span class="s2">"locality"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="s2">"_content"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Vancouver, British Columbia, Canada"</span><span class="p">,</span><span class="w"> </span><span class="s2">"place_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"lOfvpopYWrrC"</span><span class="p">,</span><span class="w"> </span><span class="s2">"woeid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"9807"</span><span class="p">,</span><span class="w"> </span><span class="s2">"latitude"</span><span class="p">:</span><span class="w"> </span><span class="mf">49.247</span><span class="p">,</span><span class="w"> </span><span class="s2">"longitude"</span><span class="p">:</span><span class="w"> </span><span class="mf">-123.106</span><span class="p">,</span><span class="w"> </span><span class="s2">"place_url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"</span><span class="se">\/</span><span class="s2">Canada</span><span class="se">\/</span><span class="s2">British+Columbia</span><span class="se">\/</span><span class="s2">Vancouver"</span><span class="w"> </span><span class="p">},</span><span class="w"> 
     </span><span class="s2">"county"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="s2">"_content"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Greater Vancouver, British Columbia, Canada"</span><span class="p">,</span><span class="w"> </span><span class="s2">"place_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"emTQ4FlTW7nupnbp2Q"</span><span class="p">,</span><span class="w"> </span><span class="s2">"woeid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"29375222"</span><span class="p">,</span><span class="w"> </span><span class="s2">"latitude"</span><span class="p">:</span><span class="w"> </span><span class="mf">49.290</span><span class="p">,</span><span class="w"> </span><span class="s2">"longitude"</span><span class="p">:</span><span class="w"> </span><span class="mf">-122.851</span><span class="p">,</span><span class="w"> </span><span class="s2">"place_url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"</span><span class="se">\/</span><span class="s2">emTQ4FlTW7nupnbp2Q"</span><span class="w"> </span><span class="p">},</span><span class="w"> 
@@ -86,47 +87,52 @@ https://api.flickr.com/services/rest/?method=flickr.places.getInfo&amp;api_key=&
         </span><span class="p">]</span><span class="w"> </span><span class="p">},</span><span class="w"> </span><span class="s2">"has_donuthole"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="s2">"is_donuthole"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> 
       </span><span class="s2">"urls"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> 
         </span><span class="s2">"shapefile"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="s2">"_content"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http:</span><span class="se">\/\/</span><span class="s2">farm6.static.flickr.com</span><span class="se">\/</span><span class="s2">5085</span><span class="se">\/</span><span class="s2">shapefiles</span><span class="se">\/</span><span class="s2">23405270_20101214_840ec233ea.tar.gz"</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="p">},</span><span class="w"> </span><span class="s2">"stat"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ok"</span><span class="w"> </span><span class="p">}</span><span class="err">)</span><span class="w">
-</span></code></pre></div>
-<h3>YQL</h3>
-<div class="highlight"><pre><code class="language-" data-lang="">https://developer.yahoo.com/yql/console/#h=select+place.woeid+from+flickr.places+where+api_key+%3D++%22&lt;api_key&gt;%22++and+lat%3D49.285648+and+lon%3D-123.139954
-</code></pre></div>
-<p>where <code>api_key</code> is the <code>key</code> found at: <a href="https://www.flickr.com/services/apps/72157622539864558/key/">https://www.flickr.com/services/apps/72157622539864558/key/</a></p>
+</span></code></pre></div></div>
 
-<h3>REST</h3>
+<h3 id="yql">YQL</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://developer.yahoo.com/yql/console/#h=select+place.woeid+from+flickr.places+where+api_key+%3D++%22&lt;api_key&gt;%22++and+lat%3D49.285648+and+lon%3D-123.139954
+</code></pre></div></div>
+
+<p>where <code class="highlighter-rouge">api_key</code> is the <code class="highlighter-rouge">key</code> found at: <a href="https://www.flickr.com/services/apps/72157622539864558/key/">https://www.flickr.com/services/apps/72157622539864558/key/</a></p>
+
+<h3 id="rest">REST</h3>
 
 <p>(or <a href="https://www.flickr.com/services/api/explore/flickr.places.findByLatLon">https://www.flickr.com/services/api/explore/flickr.places.findByLatLon</a> )</p>
 
-<p>https://query.yahooapis.com/v1/public/yql?q=select%20place.woeid%20from%20flickr.places%20where%20api<em>key%20%3D%20%20%22&lt;api</em>key%22%20%20and%20lat%3D49.285648%20and%20lon%3D-123.139954&amp;format=json&amp;diagnostics=true&amp;callback=
-```</p>
+<p>https://query.yahooapis.com/v1/public/yql?q=select%20place.woeid%20from%20flickr.places%20where%20api_key%20%3D%20%20%22&lt;api_key%22%20%20and%20lat%3D49.285648%20and%20lon%3D-123.139954&amp;format=json&amp;diagnostics=true&amp;callback=</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+### Result
 
-<h3>Result</h3>
-<div class="highlight"><pre><code class="language-json" data-lang="json"><span class="p">{</span><span class="w">
- </span><span class="s2">"query"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-  </span><span class="s2">"count"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
-  </span><span class="s2">"created"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2017-09-18T05:25:15Z"</span><span class="p">,</span><span class="w">
-  </span><span class="s2">"lang"</span><span class="p">:</span><span class="w"> </span><span class="s2">"en-US"</span><span class="p">,</span><span class="w">
-  </span><span class="s2">"diagnostics"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-   </span><span class="s2">"publiclyCallable"</span><span class="p">:</span><span class="w"> </span><span class="s2">"true"</span><span class="p">,</span><span class="w">
-   </span><span class="s2">"url"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-    </span><span class="s2">"execution-start-time"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"execution-stop-time"</span><span class="p">:</span><span class="w"> </span><span class="s2">"193"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"execution-time"</span><span class="p">:</span><span class="w"> </span><span class="s2">"192"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"content"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://api.flickr.com/services/rest/?method=flickr.places.findByLatLon&amp;lat=49.285648&amp;lon=-123.139954"</span><span class="w">
-   </span><span class="p">},</span><span class="w">
-   </span><span class="s2">"user-time"</span><span class="p">:</span><span class="w"> </span><span class="s2">"193"</span><span class="p">,</span><span class="w">
-   </span><span class="s2">"service-time"</span><span class="p">:</span><span class="w"> </span><span class="s2">"192"</span><span class="p">,</span><span class="w">
-   </span><span class="s2">"build-version"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2.0.177"</span><span class="w">
-  </span><span class="p">},</span><span class="w">
-  </span><span class="s2">"results"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-   </span><span class="s2">"places"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-    </span><span class="s2">"place"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-     </span><span class="s2">"woeid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"23405270"</span><span class="w">
-    </span><span class="p">}</span><span class="w">
-   </span><span class="p">}</span><span class="w">
-  </span><span class="p">}</span><span class="w">
- </span><span class="p">}</span><span class="w">
-</span><span class="p">}</span><span class="w">
-</span></code></pre></div>
+```json
+{
+ "query": {
+  "count": 1,
+  "created": "2017-09-18T05:25:15Z",
+  "lang": "en-US",
+  "diagnostics": {
+   "publiclyCallable": "true",
+   "url": {
+    "execution-start-time": "1",
+    "execution-stop-time": "193",
+    "execution-time": "192",
+    "content": "https://api.flickr.com/services/rest/?method=flickr.places.findByLatLon&amp;lat=49.285648&amp;lon=-123.139954"
+   },
+   "user-time": "193",
+   "service-time": "192",
+   "build-version": "2.0.177"
+  },
+  "results": {
+   "places": {
+    "place": {
+     "woeid": "23405270"
+    }
+   }
+  }
+ }
+}
+</code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

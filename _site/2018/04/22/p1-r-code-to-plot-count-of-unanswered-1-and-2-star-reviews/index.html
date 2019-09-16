@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2018/04/22/p1-r-code-to-plot-count-of-unanswered-1-and-2-star-reviews/">
+    <link rel="canonical" href="http://localhost:4000/2018/04/22/p1-r-code-to-plot-count-of-unanswered-1-and-2-star-reviews/">
 </head>
 
 
@@ -62,17 +62,20 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li>Here&#39;s the code to rotate x axis labels:</li>
+  <li>Here’s the code to rotate x axis labels:</li>
 </ul>
-<div class="highlight"><pre><code class="language-R" data-lang="R"><span class="n">theme</span><span class="p">(</span><span class="n">axis.text.x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">element_text</span><span class="p">(</span><span class="n">angle</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">90</span><span class="p">,</span><span class="w"> </span><span class="n">hjust</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="p">))</span><span class="w">
-</span></code></pre></div>
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">theme</span><span class="p">(</span><span class="n">axis.text.x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">element_text</span><span class="p">(</span><span class="n">angle</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">90</span><span class="p">,</span><span class="w"> </span><span class="n">hjust</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="p">))</span><span class="w">
+</span></code></pre></div></div>
+
 <ul>
-<li>See the code on github at <a href="https://github.com/rtanglao/rt-fennec-gplay/blob/master/20180322-scratch-code.R">https://github.com/rtanglao/rt-fennec-gplay/blob/master/20180322-scratch-code.R</a> </li>
+  <li>See the code on github at <a href="https://github.com/rtanglao/rt-fennec-gplay/blob/master/20180322-scratch-code.R">https://github.com/rtanglao/rt-fennec-gplay/blob/master/20180322-scratch-code.R</a></li>
 </ul>
-<div class="highlight"><pre><code class="language-R" data-lang="R"><span class="n">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span><span class="w">
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span><span class="w">
 </span><span class="n">reviews</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">read.csv</span><span class="p">(</span><span class="s2">"20april2018-01nov2017-18april2018-mongo-export-reviews.csv"</span><span class="p">)</span><span class="w">
 </span><span class="n">csv</span><span class="p">)</span><span class="w">
 </span><span class="c1"># remove 3, 4 and 5 star reviews</span><span class="w">
@@ -107,11 +110,12 @@
   </span><span class="n">geom_bar</span><span class="p">(</span><span class="n">stat</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"count"</span><span class="p">)</span><span class="o">+</span><span class="w">
   </span><span class="n">theme</span><span class="p">(</span><span class="n">axis.text.x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">element_text</span><span class="p">(</span><span class="n">angle</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">90</span><span class="p">,</span><span class="w"> </span><span class="n">hjust</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w"> 
   </span><span class="n">facet_wrap</span><span class="p">(</span><span class="o">~</span><span class="w"> </span><span class="n">Device</span><span class="p">)</span><span class="w">
+  
+</span></code></pre></div></div>
+<h3 id="plot">Plot</h3>
 
-</span></code></pre></div>
-<h3>Plot</h3>
+<p><a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/39832963620/in/datetaken-public/" title="01nov2017-18nov2018-fennec-unanswered-gplay-reviews-1-and-2star"><img src="https://farm1.staticflickr.com/812/39832963620_8f4e29849b_n.jpg" width="320" height="309" alt="01nov2017-18nov2018-fennec-unanswered-gplay-reviews-1-and-2star" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
 
-<p><a data-flickr-embed="true"  href="https://www.flickr.com/photos/roland/39832963620/in/datetaken-public/" title="01nov2017-18nov2018-fennec-unanswered-gplay-reviews-1-and-2star"><img src="https://farm1.staticflickr.com/812/39832963620_8f4e29849b_n.jpg" width="320" height="309" alt="01nov2017-18nov2018-fennec-unanswered-gplay-reviews-1-and-2star"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>

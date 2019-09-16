@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2015/03/20/yosemite-rmagick-magic/">
+    <link rel="canonical" href="http://localhost:4000/2015/03/20/yosemite-rmagick-magic/">
 </head>
 
 
@@ -62,8 +62,9 @@
   </header>
 
   <article class="post-content">
-    <p>If you cannot install RMagick using brew on Yosemite 10.10.2, then for the 3 of you who care, here&#39;s how to do that (copied and pasted from: <a href="http://stackoverflow.com/questions/28247947/fail-to-install-rmagick-on-mac-10-9-5">Stack Overflow</a>):</p>
-<div class="highlight"><pre><code class="language-" data-lang="">$ git clone -b RMagick_2-13-4 git://github.com/gemhome/rmagick.git
+    <p>If you cannot install RMagick using brew on Yosemite 10.10.2, then for the 3 of you who care, here’s how to do that (copied and pasted from: <a href="http://stackoverflow.com/questions/28247947/fail-to-install-rmagick-on-mac-10-9-5">Stack Overflow</a>):</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git clone -b RMagick_2-13-4 git://github.com/gemhome/rmagick.git
 
 Merged the fix code (replace related code in ext/RMagick/rmmain.c) .
 #if defined(HAVE_GETMAGICKFEATURES)
@@ -87,7 +88,9 @@ $ gem install --local rmagick-2.13.4.gem
 Building native extensions.  This could take a while...
 Successfully installed rmagick-2.13.4
 1 gem installed
-</code></pre></div>
+</code></pre></div></div>
+
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

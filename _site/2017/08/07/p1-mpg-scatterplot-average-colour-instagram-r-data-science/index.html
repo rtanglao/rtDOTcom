@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2017/08/07/p1-mpg-scatterplot-average-colour-instagram-r-data-science/">
+    <link rel="canonical" href="http://localhost:4000/2017/08/07/p1-mpg-scatterplot-average-colour-instagram-r-data-science/">
 </head>
 
 
@@ -62,38 +62,41 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li><a href="http://r4ds.had.co.nz/data-visualisation.html">R for Data Science has the following example in Chapter 1.First</a> Steps.The mpg Data Frame.Creating a ggplot (page 5 of the First Edition):</li>
+  <li><a href="http://r4ds.had.co.nz/data-visualisation.html">R for Data Science has the following example in Chapter 1.First</a> Steps.The mpg Data Frame.Creating a ggplot (page 5 of the First Edition):</li>
 </ul>
-<div class="highlight"><pre><code class="language-R" data-lang="R"><span class="n">ggplot</span><span class="p">(</span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mpg</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> 
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">ggplot</span><span class="p">(</span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mpg</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> 
   </span><span class="n">geom_point</span><span class="p">(</span><span class="n">mapping</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">displ</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">hwy</span><span class="p">))</span><span class="w">
-</span></code></pre></div>
+</span></code></pre></div></div>
+
 <ul>
-<li>I thought it might be educational to do the identical graph with my dataset of instagram vancouver photos January 1-31, 2016 average colours:</li>
+  <li>I thought it might be educational to do the identical graph with my dataset of instagram vancouver photos January 1-31, 2016 average colours:</li>
 </ul>
-<div class="highlight"><pre><code class="language-R" data-lang="R"><span class="n">data4</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">read.csv</span><span class="p">(</span><span class="w">
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">data4</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">read.csv</span><span class="p">(</span><span class="w">
 </span><span class="n">file</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="c1"># [1]</span><span class="w">
 </span><span class="s2">"/Users/rtanglao/Dropbox/GIT/2016-r-rtgram/JANUARY2016/january2016-ig-van-avgcolour-id-mf-month-day-daynum-unixtime-hour.csv"</span><span class="p">,</span><span class="w"> 
 </span><span class="n">stringsAsFactors</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">F</span><span class="p">)</span><span class="w">
 </span><span class="n">ggplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">data4</span><span class="p">)</span><span class="o">+</span><span class="n">geom_point</span><span class="p">(</span><span class="n">mapping</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">hour</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="o">=</span><span class="n">colour</span><span class="p">))</span><span class="w"> 
-</span></code></pre></div>
+</span></code></pre></div></div>
 <ul>
-<li>[1] I believe you can read from a URL (on github or anywhere!) directly so the following should work too:
-<code>
-file = 
-&quot;https://raw.githubusercontent.com/rtanglao/2016-r-rtgram/master/JANUARY2016/january2016-ig-van-avgcolour-id-mf-month-day-daynum-unixtime-hour.csv&quot;
-</code></li>
-<li>Here&#39;s how it looks:</li>
+  <li>[1] I believe you can read from a URL (on github or anywhere!) directly so the following should work too:
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>file = 
+"https://raw.githubusercontent.com/rtanglao/2016-r-rtgram/master/JANUARY2016/january2016-ig-van-avgcolour-id-mf-month-day-daynum-unixtime-hour.csv"
+</code></pre></div>    </div>
+  </li>
+  <li>Here’s how it looks:</li>
 </ul>
 
-<p><a data-flickr-embed="true"  href="https://www.flickr.com/photos/roland/36383186986/in/dateposted-ff/" title="1st-try-scatterplot-jan1-31-2016-ig-van-average-colours"><img src="https://farm5.staticflickr.com/4396/36383186986_334864c924_n.jpg" width="320" height="174" alt="1st-try-scatterplot-jan1-31-2016-ig-van-average-colours"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+<p><a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/36383186986/in/dateposted-ff/" title="1st-try-scatterplot-jan1-31-2016-ig-van-average-colours"><img src="https://farm5.staticflickr.com/4396/36383186986_334864c924_n.jpg" width="320" height="174" alt="1st-try-scatterplot-jan1-31-2016-ig-van-average-colours" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
 
 <ul>
-<li>What was I trying to do? I was trying to plot average colour versus hour i.e. 0-23!</li>
-<li>Why is it a mess? Because no two average colours are identical so you have 146475 values on the y axis which won&#39;t fit on any display less than 146475 pixels high :-). Well not unless you have the world&#39;s largest screen!</li>
-<li><a href="http://rolandtanglao.com/2017/08/07/p2-part2-create-csv-files-with-plotrix-colour-names/">Part 2</a> will explore changing the colours to the 600 or so R colours.</li>
+  <li>What was I trying to do? I was trying to plot average colour versus hour i.e. 0-23!</li>
+  <li>Why is it a mess? Because no two average colours are identical so you have 146475 values on the y axis which won’t fit on any display less than 146475 pixels high :-). Well not unless you have the world’s largest screen!</li>
+  <li><a href="http://rolandtanglao.com/2017/08/07/p2-part2-create-csv-files-with-plotrix-colour-names/">Part 2</a> will explore changing the colours to the 600 or so R colours.</li>
 </ul>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>

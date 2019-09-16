@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2019/07/10/p1-windows-insider-fast-ring-build-18932-1000-fixed-my-wsl-p9-issues-arm64-lenovo-c630/">
+    <link rel="canonical" href="http://localhost:4000/2019/07/10/p1-windows-insider-fast-ring-build-18932-1000-fixed-my-wsl-p9-issues-arm64-lenovo-c630/">
 </head>
 
 
@@ -62,18 +62,20 @@
   </header>
 
   <article class="post-content">
-    <h1>Pontifications</h1>
+    <h1 id="pontifications">Pontifications</h1>
 
 <ul>
-<li>I googled my dmesg error message on my ARM64 Lenovo C630:</li>
+  <li>I googled my dmesg error message on my ARM64 Lenovo C630:</li>
 </ul>
-<div class="highlight"><pre><code class="language-" data-lang="">[0.453819] &lt;3&gt;init: (1) ERROR: LogException:23:\
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[0.453819] &lt;3&gt;init: (1) ERROR: LogException:23:\
 FS: Could not start file system server. Invalid argument @.\plan9.cpp:88 (CreateServerSocket)
-</code></pre></div>
+</code></pre></div></div>
+
 <ul>
-<li>This led me to: WSL issue 4016 which is reported on the exact same hardware:   <a href="https://github.com/microsoft/WSL/issues/4016">init: LogException:23 FS: Could not start file system server #4016</a>  where I found out that <a href="https://github.com/brion">brion</a> had solved the issue by: <code>For me, it cleared up after upgrading to the Fast ring build 18917; file server seems to work ok there.</code></li>
-<li>So, I upgraded to  the most bleeding edge Windows 10 build: Windows Insider Fast Ring Build 18932.1000 and voila all the bugs were fixed! I can now access <code>\\wsl$\</code> and <code>explorer.exe .</code> from WSL works i.e. the bug is fixed that I complained about back on May 30, 2019 <a href="http://rolandtanglao.com/2019/05/30/p2-accessing-wsl-files-from-file-explorer-using-wsl-file-explorer-arm64-windows10-build-1903/">Accessing WSL files from File Explorer using  \\wsl$\Ubuntu appears to be broken in ARM64 Windows 10 Builds on Windows  10 Build 1903</a></li>
-<li>Hooray, this means I can use my C630 for all of my Mozilla work that involve WSL!!!!! Very big win!</li>
+  <li>This led me to: WSL issue 4016 which is reported on the exact same hardware:   <a href="https://github.com/microsoft/WSL/issues/4016">init: LogException:23 FS: Could not start file system server #4016</a>  where I found out that <a href="https://github.com/brion">brion</a> had solved the issue by: <code class="highlighter-rouge">For me, it cleared up after upgrading to the Fast ring build 18917; file server seems to work ok there.</code></li>
+  <li>So, I upgraded to  the most bleeding edge Windows 10 build: Windows Insider Fast Ring Build 18932.1000 and voila all the bugs were fixed! I can now access <code class="highlighter-rouge">\\wsl$\</code> and <code class="highlighter-rouge">explorer.exe .</code> from WSL works i.e. the bug is fixed that I complained about back on May 30, 2019 <a href="http://rolandtanglao.com/2019/05/30/p2-accessing-wsl-files-from-file-explorer-using-wsl-file-explorer-arm64-windows10-build-1903/">Accessing WSL files from File Explorer using  \\wsl$\Ubuntu appears to be broken in ARM64 Windows 10 Builds on Windows  10 Build 1903</a></li>
+  <li>Hooray, this means I can use my C630 for all of my Mozilla work that involve WSL!!!!! Very big win!</li>
 </ul>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>

@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2017/04/25/p1-semi-colon-to-separate-statements-in-a-ruby-block/">
+    <link rel="canonical" href="http://localhost:4000/2017/04/25/p1-semi-colon-to-separate-statements-in-a-ruby-block/">
 </head>
 
 
@@ -62,14 +62,14 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
-
+    <h2 id="pontifications">Pontifications</h2>
 <ul>
-<li>1. only works with <code>begin</code>...<code>end</code> not <code>{</code>...<code>}</code> blocks</li>
+  <li>1. only works with <code class="highlighter-rouge">begin</code>…<code class="highlighter-rouge">end</code> not <code class="highlighter-rouge">{</code>…<code class="highlighter-rouge">}</code> blocks</li>
 </ul>
 
 <p>e.g. from multiple-statements-in-a-block.rb:</p>
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1">#!/usr/bin/env ruby</span>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/env ruby</span>
 <span class="nb">require</span> <span class="s1">'rubygems'</span>
 
 <span class="n">x</span> <span class="o">=</span> <span class="mi">1</span>
@@ -77,14 +77,17 @@
 <span class="c1"># note this doesn't work: { puts "1" ; puts "2" } if x == 1</span>
 <span class="c1"># Why doesn't it work? probably because {} returns a value</span>
 
-</code></pre></div>
+</code></pre></div></div>
+
 <p>output:</p>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">ruby multiple-statements-in-a-block.rb 
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ruby multiple-statements-in-a-block.rb 
 1
 2
-</code></pre></div>
+</code></pre></div></div>
+
 <ul>
-<li>2. explanation from <a href="https://www.sitepoint.com/learn-ruby-on-rails-2/">Interacting with Ruby Objects</a>:</li>
+  <li>2. explanation from <a href="https://www.sitepoint.com/learn-ruby-on-rails-2/">Interacting with Ruby Objects</a>:</li>
 </ul>
 
 <blockquote>
@@ -97,7 +100,7 @@ If you chain multiple statements together in the interactive shell, only the out
 </blockquote>
 
 <ul>
-<li>3. See also: <a href="https://mixandgo.com/blog/mastering-ruby-blocks-in-less-than-5-minutes">Mastering ruby blocks in less than 5 minutes</a></li>
+  <li>3. See also: <a href="https://mixandgo.com/blog/mastering-ruby-blocks-in-less-than-5-minutes">Mastering ruby blocks in less than 5 minutes</a></li>
 </ul>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>

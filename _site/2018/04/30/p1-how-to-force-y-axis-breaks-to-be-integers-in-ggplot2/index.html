@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2018/04/30/p1-how-to-force-y-axis-breaks-to-be-integers-in-ggplot2/">
+    <link rel="canonical" href="http://localhost:4000/2018/04/30/p1-how-to-force-y-axis-breaks-to-be-integers-in-ggplot2/">
 </head>
 
 
@@ -62,16 +62,19 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li>use <code>scale_y_continuous()</code> (from <a href="https://github.com/rtanglao/rt-fennec-gplay/blob/master/30april2018-r-scratch.R">https://github.com/rtanglao/rt-fennec-gplay/blob/master/30april2018-r-scratch.R</a> )</li>
-<li>found the above on Stack Overflow somewhere :-) i.e.  <a href="https://stackoverflow.com/questions/15622001/how-to-display-only-integer-values-on-an-axis-using-ggplot2/39877048#39877048">How to display only integer values on an axis using ggplot2</a></li>
+  <li>use <code class="highlighter-rouge">scale_y_continuous()</code> (from <a href="https://github.com/rtanglao/rt-fennec-gplay/blob/master/30april2018-r-scratch.R">https://github.com/rtanglao/rt-fennec-gplay/blob/master/30april2018-r-scratch.R</a> )</li>
+  <li>found the above on Stack Overflow somewhere :-) i.e.  <a href="https://stackoverflow.com/questions/15622001/how-to-display-only-integer-values-on-an-axis-using-ggplot2/39877048#39877048">How to display only integer values on an axis using ggplot2</a></li>
 </ul>
-<div class="highlight"><pre><code class="language-R" data-lang="R"><span class="n">scale_y_continuous</span><span class="p">(</span><span class="w">
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">scale_y_continuous</span><span class="p">(</span><span class="w">
     </span><span class="n">breaks</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">function</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="w"> </span><span class="n">unique</span><span class="p">(</span><span class="w">
       </span><span class="nf">floor</span><span class="p">(</span><span class="n">pretty</span><span class="p">(</span><span class="n">seq</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="p">(</span><span class="nf">max</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="m">1</span><span class="p">)</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="m">1.1</span><span class="p">)))))</span><span class="w"> 
-</span></code></pre></div>
+</span></code></pre></div></div>
+
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

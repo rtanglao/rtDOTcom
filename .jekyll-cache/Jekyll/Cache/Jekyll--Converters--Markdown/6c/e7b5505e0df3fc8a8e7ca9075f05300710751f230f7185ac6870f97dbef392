@@ -1,0 +1,24 @@
+I"¨<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>Lessons from writing <a href="https://github.com/rtanglao/sumo-questions/blob/master/add-answers-to-questions-mongodb.rb">add-answers-to-questions-mongodb.rb</a>:</li>
+  <li>1. in question_questions.csv:
+    <ul>
+      <li><code class="highlighter-rouge">change "" to ","</code></li>
+      <li><code class="highlighter-rouge">change "\"" to "\'"</code></li>
+      <li><code class="highlighter-rouge">change "\\'", to ' "'</code></li>
+    </ul>
+  </li>
+  <li>2. truncate the <code class="highlighter-rouge">content</code> or any large field (it seems like the built-in ruby 2.4 CSV built-in parser canâ€™t handle &gt;256 characters and SUMO troubleshooting info can be very large i.e. 1024 characters or larger</li>
+  <li>3. Next time use <a href="https://github.com/tilo/smarter_csv">https://github.com/tilo/smarter_csv</a>, in particular: <a href="https://github.com/tilo/smarter_csv#example-6-using-value-converters">Value Converters</a> to automatically convert data fields for mongodb</li>
+</ul>
+
+<h3 id="30october2017-first-run-of-adding-answers-aka-replies">30October2017-first-run-of-adding-answers aka replies</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cat </span>SUMO-QUESTIONS_MYSQL_20OCT2017/questions_answers.csv | 
+./add-answers-to-questions-mongodb.rb
+</code></pre></div></div>
+
+<ul>
+  <li></li>
+</ul>
+:ET

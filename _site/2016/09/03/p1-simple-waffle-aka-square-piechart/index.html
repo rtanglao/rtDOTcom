@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2016/09/03/p1-simple-waffle-aka-square-piechart/">
+    <link rel="canonical" href="http://localhost:4000/2016/09/03/p1-simple-waffle-aka-square-piechart/">
 </head>
 
 
@@ -64,10 +64,11 @@
   <article class="post-content">
     <p>Sometime after 1000 squares this fails, I do not yet know why :-) !</p>
 
-<h2>Code</h2>
+<h2 id="code">Code</h2>
 
 <p><a href="https://github.com/rtanglao/2016-r-rtgram/blob/master/first6-ig-van-01january2016-square-piechart.R">first6-ig-van-01january2016-square-piechart.R</a></p>
-<div class="highlight"><pre><code class="language-R" data-lang="R"><span class="n">library</span><span class="p">(</span><span class="n">ggplot2</span><span class="p">)</span><span class="w">
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">ggplot2</span><span class="p">)</span><span class="w">
 </span><span class="n">library</span><span class="p">(</span><span class="n">waffle</span><span class="p">)</span><span class="w">
 </span><span class="n">library</span><span class="p">(</span><span class="n">plotrix</span><span class="p">)</span><span class="w">
 </span><span class="n">library</span><span class="p">(</span><span class="n">plyr</span><span class="p">)</span><span class="w">
@@ -92,25 +93,26 @@
 
 </span><span class="n">ggsave</span><span class="p">(</span><span class="s2">"6datapoints-squarepiechart.png"</span><span class="p">,</span><span class="w"> </span><span class="n">p</span><span class="p">,</span><span class="w"> </span><span class="n">width</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">26.666666667</span><span class="p">,</span><span class="w"> </span><span class="n">height</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">26.666666667</span><span class="p">,</span><span class="w"> </span><span class="n">dpi</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">72</span><span class="p">,</span><span class="w"> </span><span class="n">limitsize</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">FALSE</span><span class="p">)</span><span class="w"> </span><span class="c1"># 26.6666667 = 1920/72dpi</span><span class="w">
 </span><span class="n">warnings</span><span class="p">()</span><span class="w">
-</span></code></pre></div>
-<h2>Dataset</h2>
+</span></code></pre></div></div>
 
+<h2 id="dataset">Dataset</h2>
 <p><a href="https://github.com/rtanglao/2016-r-rtgram/blob/master/6datapoints-01jan2016.csv">6datapoints-01jan2016.csv</a></p>
-<div class="highlight"><pre><code class="language-csv" data-lang="csv">colour,id,dayofweek-month-dayofmonth,daynumber
+
+<pre><code class="language-csv">colour,id,dayofweek-month-dayofmonth,daynumber
 #8B7D7D,1152722080165873450_545005592,FriJan1,1
 #4C3F3F,1152722094194289757_285178194,FriJan1,1
 #716666,1152722146880749719_340863,FriJan1,1
 #8B7D7D,1152722080165873450_545005592,SatJan1,1
 #4C3F3F,1152722094194289757_285178194,SatJan1,1
 #716666,1152722146880749719_340863,SatJan1,1
-</code></pre></div>
-<h2>The square piechart</h2>
+</code></pre>
 
+<h2 id="the-square-piechart">The square piechart</h2>
 <p>On github you can find the six square square pie chart at <a href="https://github.com/rtanglao/2016-r-rtgram/blob/master/6datapoints-squarepiechart.png">6datapoints-squarepiechart.png</a></p>
 
 <p>And here is the flickr embed:</p>
 
-<p><a data-flickr-embed="true"  href="https://www.flickr.com/photos/roland/29056444650/in/dateposted-ff/" title="6datapoints-squarepiechart"><img src="https://c3.staticflickr.com/9/8309/29056444650_5624472f95.jpg" width="500" height="500" alt="6datapoints-squarepiechart"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+<p><a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/29056444650/in/dateposted-ff/" title="6datapoints-squarepiechart"><img src="https://c3.staticflickr.com/9/8309/29056444650_5624472f95.jpg" width="500" height="500" alt="6datapoints-squarepiechart" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>

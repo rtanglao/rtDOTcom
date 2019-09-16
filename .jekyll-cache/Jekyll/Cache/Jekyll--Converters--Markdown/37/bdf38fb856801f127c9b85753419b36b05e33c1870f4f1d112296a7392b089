@@ -1,0 +1,8 @@
+I"�<ul>
+  <li>CSS is silly. Can we have something better please ? Futile rhetorical question I know LOL.</li>
+  <li>The DOM is a silly abstraction as well. Again rhetorical: can we have something better?</li>
+  <li>Having to run a server is silly too. But better than becoming dependent on somebody’s silly proprietary cloud “server less” abstractions :-) ! (heroku, aws, azure etc etc etc)</li>
+  <li>Finally everything runs slowly especially when you have 100K to 1million data points. R is for all its faults is faster and slurps up and deals with 100K to 1million without fuss.</li>
+  <li>I’m not giving up :-). I’m considering writing web app visualizations  using https://formidable.com/open-source/victory/about/ + React. Any good?</li>
+</ul>
+:ET

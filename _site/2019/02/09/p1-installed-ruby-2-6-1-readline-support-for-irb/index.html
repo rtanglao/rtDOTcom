@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2019/02/09/p1-installed-ruby-2-6-1-readline-support-for-irb/">
+    <link rel="canonical" href="http://localhost:4000/2019/02/09/p1-installed-ruby-2-6-1-readline-support-for-irb/">
 </head>
 
 
@@ -62,12 +62,13 @@
   </header>
 
   <article class="post-content">
-    <h1>Pontifications</h1>
+    <h1 id="pontifications">Pontifications</h1>
 
 <ul>
-<li>Basically the same as <a href="https://github.com/rtanglao/rt-making-wsl-and-windows-work-for-me/blob/master/README.md#17december2018-after-re-install-of-windows-10-install-ruby-253">ruby 2.5.3</a> but I changed <code>2.5.3</code> to <code>2.6.1</code> and installed <code>libreadline-dev</code></li>
+  <li>Basically the same as <a href="https://github.com/rtanglao/rt-making-wsl-and-windows-work-for-me/blob/master/README.md#17december2018-after-re-install-of-windows-10-install-ruby-253">ruby 2.5.3</a> but I changed <code class="highlighter-rouge">2.5.3</code> to <code class="highlighter-rouge">2.6.1</code> and installed <code class="highlighter-rouge">libreadline-dev</code></li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">sudo </span>apt-get update
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt-get update
 <span class="nb">sudo </span>apt <span class="nb">install</span> <span class="nt">-y</span> libreadline-dev
 <span class="nb">sudo </span>apt-get <span class="nb">install </span>build-essential
 <span class="nb">cd
@@ -84,7 +85,8 @@ make
 <span class="nb">sudo </span>gem update <span class="nt">--system</span>
 <span class="nb">sudo </span>gem <span class="nb">install </span>jekyll bundler
 <span class="nb">sudo </span>gem <span class="nb">install </span>redcarpet
-</code></pre></div>
+</code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2016/11/14/p1-error-messages/">
+    <link rel="canonical" href="http://localhost:4000/2016/11/14/p1-error-messages/">
 </head>
 
 
@@ -62,14 +62,15 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
-<p>The following example is from the R language but I&#39;ve found misleading error messages in every computer language and operating system I&#39;ve ever used.</p>
+<p>The following example is from the R language but I’ve found misleading error messages in every computer language and operating system I’ve ever used.</p>
 
 <ul>
-<li><code>In if (is.na(col)) col &lt;- par(&quot;col&quot;) : the condition has length &gt; 1 and only the first element will be used</code></li>
-<li>What was this error message from? It was from col being multiple element valued i.e. an array instead of single valued variable. Would it be possible for the error message to be something more helpful like <code>col was expected to be an integer or color name single element variable instead of a 360 length array</code> </li>
+  <li><code class="highlighter-rouge">In if (is.na(col)) col &lt;- par("col") : the condition has length &gt; 1 and only the first element will be used</code></li>
+  <li>What was this error message from? It was from col being multiple element valued i.e. an array instead of single valued variable. Would it be possible for the error message to be something more helpful like <code class="highlighter-rouge">col was expected to be an integer or color name single element variable instead of a 360 length array</code></li>
 </ul>
+
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>

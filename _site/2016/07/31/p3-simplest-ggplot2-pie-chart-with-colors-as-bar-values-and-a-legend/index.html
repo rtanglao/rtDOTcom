@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2016/07/31/p3-simplest-ggplot2-pie-chart-with-colors-as-bar-values-and-a-legend/">
+    <link rel="canonical" href="http://localhost:4000/2016/07/31/p3-simplest-ggplot2-pie-chart-with-colors-as-bar-values-and-a-legend/">
 </head>
 
 
@@ -62,22 +62,23 @@
   </header>
 
   <article class="post-content">
-    <h1>Things to note:</h1>
+    <h1 id="things-to-note">Things to note:</h1>
 
 <ol>
-<li>If you don&#39;t need a legend see <a href="http://rolandtanglao.com/2016/07/31/p2-simplest-ggplot2-pie-chart-with-colors-as-bar-values/">Simplest ggplot2 Pie Chart using colours as literal bar values</a>.</li>
-<li>Changes from the legend-less version:
-
-<ol>
-<li>in the aes() change TO <code>fill=colour</code> FROM <code>fill=I(colour)</code></li>
-<li>add <code>p = p + scale_fill_manual(values=c(&quot;#8B7D7D&quot; = &quot;#8B7D7D&quot;, &quot;#4C3F3F&quot; = &quot;#4C3F3F&quot;, &quot;#716666&quot; = &quot;#716666&quot;))</code> (i&#39;m sure you can automate this colour=colour kludgery that i manully typed!)</li>
-</ol></li>
+  <li>If you don’t need a legend see <a href="http://rolandtanglao.com/2016/07/31/p2-simplest-ggplot2-pie-chart-with-colors-as-bar-values/">Simplest ggplot2 Pie Chart using colours as literal bar values</a>.</li>
+  <li>Changes from the legend-less version:
+    <ol>
+      <li>in the aes() change TO <code class="highlighter-rouge">fill=colour</code> FROM <code class="highlighter-rouge">fill=I(colour)</code></li>
+      <li>add <code class="highlighter-rouge">p = p + scale_fill_manual(values=c("#8B7D7D" = "#8B7D7D", "#4C3F3F" = "#4C3F3F", "#716666" = "#716666"))</code> (i’m sure you can automate this colour=colour kludgery that i manully typed!)</li>
+    </ol>
+  </li>
 </ol>
 
-<h2>The Code</h2>
+<h2 id="the-code">The Code</h2>
 
-<p>The code is in <a href="https://github.com/rtanglao/2016-r-rtgram/blob/master/scale-fill-manual-first3-ig-van01january2016-piechart.R">scale-fill-manual-first3-ig-van01january2016-piechart.R</a>. </p>
-<div class="highlight"><pre><code class="language-R" data-lang="R"><span class="n">library</span><span class="p">(</span><span class="n">ggplot2</span><span class="p">)</span><span class="w">
+<p>The code is in <a href="https://github.com/rtanglao/2016-r-rtgram/blob/master/scale-fill-manual-first3-ig-van01january2016-piechart.R">scale-fill-manual-first3-ig-van01january2016-piechart.R</a>.</p>
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">ggplot2</span><span class="p">)</span><span class="w">
 </span><span class="n">data3</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">read.csv</span><span class="p">(</span><span class="w">
   </span><span class="n">file</span><span class="o">=</span><span class="s2">"01january2016-1st3datapoints.csv"</span><span class="p">,</span><span class="w"> 
     </span><span class="n">stringsAsFactors</span><span class="o">=</span><span class="nb">F</span><span class="p">)</span><span class="w">
@@ -91,10 +92,11 @@
 </span><span class="s2">"#716666"</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"#716666"</span><span class="p">))</span><span class="w">
 
 </span><span class="n">ggsave</span><span class="p">(</span><span class="s2">"scale-fill-manual-1st3-ig-van-01january-2016-piechart.png"</span><span class="p">,</span><span class="w"> </span><span class="n">p</span><span class="p">,</span><span class="w"> </span><span class="n">width</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">26.666666667</span><span class="p">,</span><span class="w"> </span><span class="n">height</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">26.666666667</span><span class="p">,</span><span class="w"> </span><span class="n">dpi</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">72</span><span class="p">,</span><span class="w"> </span><span class="n">limitsize</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">FALSE</span><span class="p">)</span><span class="w">
-</span></code></pre></div>
-<p>And here&#39;s what <a href="https://github.com/rtanglao/2016-r-rtgram/blob/master/scale-fill-manual-1st3-ig-van-01january-2016-piechart.png">the pie chart with a legend looks like</a>:</p>
+</span></code></pre></div></div>
 
-<p><a data-flickr-embed="true"  href="https://www.flickr.com/photos/roland/28611893171/in/dateposted-ff/" title="scale-fill-manual-1st3-ig-van-01january-2016-piechart"><img src="https://c4.staticflickr.com/9/8797/28611893171_a336c6397b.jpg" width="500" height="500" alt="scale-fill-manual-1st3-ig-van-01january-2016-piechart"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+<p>And here’s what <a href="https://github.com/rtanglao/2016-r-rtgram/blob/master/scale-fill-manual-1st3-ig-van-01january-2016-piechart.png">the pie chart with a legend looks like</a>:</p>
+
+<p><a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/28611893171/in/dateposted-ff/" title="scale-fill-manual-1st3-ig-van-01january-2016-piechart"><img src="https://c4.staticflickr.com/9/8797/28611893171_a336c6397b.jpg" width="500" height="500" alt="scale-fill-manual-1st3-ig-van-01january-2016-piechart" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>

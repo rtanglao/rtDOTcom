@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2019/05/27/p1-recode-convert-html-entities-back-into-html/">
+    <link rel="canonical" href="http://localhost:4000/2019/05/27/p1-recode-convert-html-entities-back-into-html/">
 </head>
 
 
@@ -62,14 +62,16 @@
   </header>
 
   <article class="post-content">
-    <h1>Pontifications</h1>
+    <h1 id="pontifications">Pontifications</h1>
 
 <ul>
-<li>See <a href="https://github.com/rrthomas/recode/">recode github</a> site! And <a href="https://stackoverflow.com/questions/5929492/bash-script-to-convert-from-html-entities-to-characters">a recode question on stack overflow</a> where i learned the following incantation :-)</li>
+  <li>See <a href="https://github.com/rrthomas/recode/">recode github</a> site! And <a href="https://stackoverflow.com/questions/5929492/bash-script-to-convert-from-html-entities-to-characters">a recode question on stack overflow</a> where i learned the following incantation :-)</li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cat </span>try2-2116-27may2019-test-api-stdout.txt | <span class="se">\</span>
-recode html..ascii  <span class="o">&gt;</span> try2-2116-27may2019-test-api-stdout.html
-</code></pre></div>
+
+<p>```bash
+cat try2-2116-27may2019-test-api-stdout.txt | <br />
+recode html..ascii  &gt; try2-2116-27may2019-test-api-stdout.html</p>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

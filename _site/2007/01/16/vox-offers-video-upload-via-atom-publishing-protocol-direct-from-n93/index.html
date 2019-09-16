@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2007/01/16/vox-offers-video-upload-via-atom-publishing-protocol-direct-from-n93/">
+    <link rel="canonical" href="http://localhost:4000/2007/01/16/vox-offers-video-upload-via-atom-publishing-protocol-direct-from-n93/">
 </head>
 
 
@@ -62,7 +62,12 @@
   </header>
 
   <article class="post-content">
-    <p> <a href="http://www.vox.com/">Vox</a> offers video upload via the Atom Publishing Protocol direct from your N93  and other Nokia N series phone with Series 60 v3  (e.g. N73, N80i, N93) and it works great (<a href="http://wongtanglao.vox.com/library/post/15012007.html">check out my one and only public Vox video so fa</a>r - taken with an N93)! The only problem that I see so far is that the Vox Flash video player stutters badly in Firefox 2 and Safari on my 15 inch PowerBook running Mac OS X 10.4.8 </p><p> Blip.tv, please implement this too. I think all that needs to be done (heh! easy for me to say) is to implement an Atom publish protocol endpoint. </p><p> Just hack the <a href="http://www.vox.com/services/kb/658">config file </a>that Vox provides with your own APP endpoint. </p><p> I figure changing: </p><p>     &lt;protocol_options&gt; <br />        &lt;protocol plugin=&quot;Atom&quot; version=&quot;0.3&quot;&gt; <br />            &lt;endpoint_path&gt;http://www.vox.com/atom&lt;/endpoint_path&gt; <br />            &lt;roundtrip_editing&gt;0&lt;/roundtrip_editing&gt; <br />        &lt;/protocol&gt; <br />    &lt;/protocol_options&gt; </p><p> to a suitable blip.tv endpoint will make it work! Ha! Just a small matter of code :-) ! Challenge to blip.tv and all the other video services; you now have no excuse for not having direct video upload from phones! And please increase the per video limit from 50MB (Vox&#39;s limit) to 100MB. </p>
+    <p> <a href="http://www.vox.com/">Vox</a> offers video upload via the Atom Publishing Protocol direct from your N93  and other Nokia N series phone with Series 60 v3  (e.g. N73, N80i, N93) and it works great (<a href="http://wongtanglao.vox.com/library/post/15012007.html">check out my one and only public Vox video so fa</a>r - taken with an N93)! The only problem that I see so far is that the Vox Flash video player stutters badly in Firefox 2 and Safari on my 15 inch PowerBook running Mac OS X 10.4.8 </p>
+<p> Blip.tv, please implement this too. I think all that needs to be done (heh! easy for me to say) is to implement an Atom publish protocol endpoint. </p>
+<p> Just hack the <a href="http://www.vox.com/services/kb/658">config file </a>that Vox provides with your own APP endpoint. </p>
+<p> I figure changing: </p>
+<p>     &lt;protocol_options&gt; <br />        &lt;protocol plugin=&quot;Atom&quot; version=&quot;0.3&quot;&gt; <br />            &lt;endpoint_path&gt;http://www.vox.com/atom&lt;/endpoint_path&gt; <br />            &lt;roundtrip_editing&gt;0&lt;/roundtrip_editing&gt; <br />        &lt;/protocol&gt; <br />    &lt;/protocol_options&gt; </p>
+<p> to a suitable blip.tv endpoint will make it work! Ha! Just a small matter of code :-) ! Challenge to blip.tv and all the other video services; you now have no excuse for not having direct video upload from phones! And please increase the per video limit from 50MB (Vox&#39;s limit) to 100MB. </p>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>

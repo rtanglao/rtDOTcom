@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2017/10/14/p1-trying-to-fix-chinatown-map-by-removing-the-woeid-that-is-subclass-of-strathcona/">
+    <link rel="canonical" href="http://localhost:4000/2017/10/14/p1-trying-to-fix-chinatown-map-by-removing-the-woeid-that-is-subclass-of-strathcona/">
 </head>
 
 
@@ -62,37 +62,42 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li>1. <a href="http://rolandtanglao.com/2017/10/12/p1-maps-of-vancouver-neighourhoods-average-colour-instagram/">From the last post</a>, I found out that Chinatown map was blank:</li>
+  <li>1. <a href="http://rolandtanglao.com/2017/10/12/p1-maps-of-vancouver-neighourhoods-average-colour-instagram/">From the last post</a>, I found out that Chinatown map was blank:</li>
 </ul>
 
-<p><a data-flickr-embed="true"  href="https://www.flickr.com/photos/roland/36957069814/in/dateposted-public/" title="Chinatown-instagram-vancouver-2015-average-colour-overplotted"><img src="https://farm5.staticflickr.com/4480/36957069814_cb04b5afc3.jpg" width="500" height="303" alt="with-outliers-Chinatown-instagram-vancouver-2015-average-colour-overplotted"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+<p><a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/36957069814/in/dateposted-public/" title="Chinatown-instagram-vancouver-2015-average-colour-overplotted"><img src="https://farm5.staticflickr.com/4480/36957069814_cb04b5afc3.jpg" width="500" height="303" alt="with-outliers-Chinatown-instagram-vancouver-2015-average-colour-overplotted" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
 
 <ul>
-<li>2. So <a href="https://github.com/rtanglao/ig-ggmap/blob/master/remove-outliers-chinatown.rb">I wrote some code called remove-outliers-chinatown.rb[1]</a> to remove anything that isn&#39;t in woeid  <code>91977405</code> because apparently there&#39;s another woeid for another Vancouver Chinatown :-) (there is only one Chinatown!). This other wooed is a subwoeid of Strathcona.</li>
-<li>3. Here&#39;s how I invoked it</li>
+  <li>2. So <a href="https://github.com/rtanglao/ig-ggmap/blob/master/remove-outliers-chinatown.rb">I wrote some code called remove-outliers-chinatown.rb[1]</a> to remove anything that isn’t in woeid  <code class="highlighter-rouge">91977405</code> because apparently there’s another woeid for another Vancouver Chinatown :-) (there is only one Chinatown!). This other wooed is a subwoeid of Strathcona.</li>
+  <li>3. Here’s how I invoked it</li>
 </ul>
-<div class="highlight"><pre><code class="language-R" data-lang="R"><span class="n">chinatown_ig_van_2015</span><span class="w"> </span><span class="o">&lt;-</span><span class="w">
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">chinatown_ig_van_2015</span><span class="w"> </span><span class="o">&lt;-</span><span class="w">
 </span><span class="n">all_neighbourhoods_ig_van_2015</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
 </span><span class="n">filter</span><span class="p">(</span><span class="n">neighbourhood</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">"Chinatown"</span><span class="p">)</span><span class="w">
 </span><span class="n">chinatown_ig_van_2015</span><span class="w"> </span><span class="o">&lt;-</span><span class="w">
 </span><span class="n">all_neighbourhoods_ig_van_2015</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
 </span><span class="n">filter</span><span class="p">(</span><span class="n">neighbourhood</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">"Chinatown"</span><span class="p">)</span><span class="w">
-</span></code></pre></div><div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cat</span> <span class="se">\</span>
+</span></code></pre></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cat</span> <span class="se">\</span>
 WITH_NEIGHBOURHOOD_CSV_FILES_FOR_GGMAP_2015/CHROMELESS_MAPS_FOR_EACH_NEIGHBOURHOOD/with_outliers_chinatown_ig_van_2015.csv |<span class="se">\</span>
  ./remove-outliers-chinatown.rb <span class="se">\</span>
  <span class="o">&gt;</span> WITH_NEIGHBOURHOOD_CSV_FILES_FOR_GGMAP_2015/CHROMELESS_MAPS_FOR_EACH_NEIGHBOURHOOD/with__91977405_chinatown_ig_van_2015.csv <span class="se">\</span>
  2&gt;stderr.with__91977405_chinatown_ig_van_2015.txt
-</code></pre></div>
+</code></pre></div></div>
+
 <ul>
-<li>4. Next up is plotting: 
-<code>with\__91977405_chinatown_ig_van_2015.csv</code> (which due to a bug or a network timeout only goes from Jan 1, 2015 until December 5, 2015)</li>
+  <li>4. Next up is plotting:
+<code class="highlighter-rouge">with\__91977405_chinatown_ig_van_2015.csv</code> (which due to a bug or a network timeout only goes from Jan 1, 2015 until December 5, 2015)</li>
 </ul>
 
-<h3>[1] remove-outliers-chinatown.rb</h3>
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1">#!/usr/bin/env ruby</span>
+<h3 id="1-remove-outliers-chinatownrb">[1] remove-outliers-chinatown.rb</h3>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/env ruby</span>
 <span class="nb">require</span> <span class="s1">'rubygems'</span>
 <span class="nb">require</span> <span class="s1">'parseconfig'</span>
 <span class="nb">require</span> <span class="s1">'pp'</span>
@@ -124,7 +129,7 @@ WITH_NEIGHBOURHOOD_CSV_FILES_FOR_GGMAP_2015/CHROMELESS_MAPS_FOR_EACH_NEIGHBOURHO
   <span class="n">lon</span> <span class="o">=</span> <span class="n">fields</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
 
   <span class="n">base_url</span> <span class="o">=</span> <span class="s2">"services/rest/"</span>
-
+  
   <span class="n">url_params</span> <span class="o">=</span> <span class="p">{</span><span class="ss">:method</span> <span class="o">=&gt;</span> <span class="s2">"flickr.places.findByLatLon"</span><span class="p">,</span>
       <span class="ss">:api_key</span> <span class="o">=&gt;</span> <span class="n">api_key</span><span class="p">,</span>
       <span class="ss">:format</span> <span class="o">=&gt;</span> <span class="s2">"json"</span><span class="p">,</span>
@@ -134,13 +139,13 @@ WITH_NEIGHBOURHOOD_CSV_FILES_FOR_GGMAP_2015/CHROMELESS_MAPS_FOR_EACH_NEIGHBOURHO
     <span class="p">}</span>
   <span class="n">woeid_rsp</span> <span class="o">=</span> <span class="n">getFlickrResponse</span><span class="p">(</span><span class="n">base_url</span><span class="p">,</span> <span class="n">url_params</span><span class="p">)</span>
   <span class="no">PP</span><span class="o">::</span><span class="n">pp</span><span class="p">(</span><span class="n">woeid_rsp</span><span class="p">,</span> <span class="vg">$stderr</span><span class="p">)</span>
-
+  
   <span class="n">place</span> <span class="o">=</span> <span class="n">woeid_rsp</span><span class="p">[</span><span class="s2">"places"</span><span class="p">][</span><span class="s2">"place"</span><span class="p">]</span>
   <span class="k">if</span> <span class="n">place</span> <span class="o">==</span> <span class="p">[]</span>
     <span class="vg">$stderr</span><span class="p">.</span><span class="nf">printf</span><span class="p">(</span><span class="s2">"place is nil, skipping</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
     <span class="k">next</span>
   <span class="k">end</span>
-
+  
   <span class="n">woeid</span> <span class="o">=</span>  <span class="n">place</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="s2">"woeid"</span><span class="p">]</span>
   <span class="k">if</span> <span class="n">woeid</span> <span class="o">!=</span> <span class="s2">"91977405"</span>
     <span class="vg">$stderr</span><span class="p">.</span><span class="nf">printf</span><span class="p">(</span><span class="s2">"WOEID is %s, SKIPPING</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="n">woeid</span><span class="p">)</span>
@@ -148,10 +153,11 @@ WITH_NEIGHBOURHOOD_CSV_FILES_FOR_GGMAP_2015/CHROMELESS_MAPS_FOR_EACH_NEIGHBOURHO
   <span class="k">end</span>
   <span class="nb">puts</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
   <span class="nb">sleep</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-
+  
 <span class="k">end</span>
 
-</code></pre></div>
+</code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

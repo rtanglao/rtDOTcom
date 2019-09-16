@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2017/03/10/p1-OS-gets-filled-in-at-runtime/">
+    <link rel="canonical" href="http://localhost:4000/2017/03/10/p1-OS-gets-filled-in-at-runtime/">
 </head>
 
 
@@ -62,23 +62,23 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
-<p><a data-flickr-embed="true"  href="https://www.flickr.com/photos/roland/32551494173/" title="%OS% can be WINNT or Darwin or Linux..."><img src="https://c1.staticflickr.com/4/3866/32551494173_b5798be2c4_n.jpg" width="320" height="81" alt="%OS% can be WINNT or Darwin or Linux..."></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
-
-<ul>
-<li>On Firefox for OS X, I when I select <code>Help-&gt;Firefox Help</code> I see a url with <code>Darwin</code> in it momentarily and then the &quot;real&quot; url after the redirect, same with <code>WINNT</code> on Windows</li>
-<li>The <code>%OS%</code> values are:
+<p><a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/32551494173/" title="%OS% can be WINNT or Darwin or Linux..."><img src="https://c1.staticflickr.com/4/3866/32551494173_b5798be2c4_n.jpg" width="320" height="81" alt="%OS% can be WINNT or Darwin or Linux..." /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
 
 <ul>
-<li><code>Darwin</code> for OSX</li>
-<li><code>WINNT</code> for Windows</li>
-<li><code>Linux</code> for Linux</li>
-<li>not sure what it is for Android (maybe <code>Android</code>?)</li>
-</ul></li>
-<li>nsIURLFormatter https://dxr.mozilla.org/mozilla-central/source/toolkit/components/urlformatter/nsURLFormatter.js</li>
-<li>The pref is <code>app.support.baseURL</code> and the value of that is passed to formatURL in nsURLFormatter.js</li>
-<li>all of the values inside <code>%NAME%</code> are replaced at run time when creating the url</li>
+  <li>On Firefox for OS X, I when I select <code class="highlighter-rouge">Help-&gt;Firefox Help</code> I see a url with <code class="highlighter-rouge">Darwin</code> in it momentarily and then the “real” url after the redirect, same with <code class="highlighter-rouge">WINNT</code> on Windows</li>
+  <li>The <code class="highlighter-rouge">%OS%</code> values are:
+    <ul>
+      <li><code class="highlighter-rouge">Darwin</code> for OSX</li>
+      <li><code class="highlighter-rouge">WINNT</code> for Windows</li>
+      <li><code class="highlighter-rouge">Linux</code> for Linux</li>
+      <li>not sure what it is for Android (maybe <code class="highlighter-rouge">Android</code>?)</li>
+    </ul>
+  </li>
+  <li>nsIURLFormatter https://dxr.mozilla.org/mozilla-central/source/toolkit/components/urlformatter/nsURLFormatter.js</li>
+  <li>The pref is <code class="highlighter-rouge">app.support.baseURL</code> and the value of that is passed to formatURL in nsURLFormatter.js</li>
+  <li>all of the values inside <code class="highlighter-rouge">%NAME%</code> are replaced at run time when creating the url</li>
 </ul>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>

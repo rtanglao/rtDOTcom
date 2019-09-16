@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2016/07/31/p1-simplest-ggplot2-bar-chart-with-colors-as-bar-values/">
+    <link rel="canonical" href="http://localhost:4000/2016/07/31/p1-simplest-ggplot2-bar-chart-with-colors-as-bar-values/">
 </head>
 
 
@@ -62,21 +62,22 @@
   </header>
 
   <article class="post-content">
-    <h1>Things to note:</h1>
+    <h1 id="things-to-note">Things to note:</h1>
 
 <ol>
-<li>It doesn&#39;t seem to matter what you use for x in the aes statement , <code>x=color</code>, <code>x=factor(1)</code> both work</li>
-<li>In <code>aes(x=colour, fill=I(colour))</code> if you use <code>fill=I(colour)</code> i.e. use the literal colour values to colour the bar chart, then no legend is produced by ggplot2. If you need a legend, then use <code>fill=colour</code> in the AES to force a legend and add <code>scale_fill_manual()</code> to make a legend with the colours you want (see <a href="http://rolandtanglao.com/2016/07/31/p3-simplest-ggplot2-pie-chart-with-colors-as-bar-values-and-a-legend/">blog post on how to make literal colour pie charts with a legend</a>). Not sure if this is a bug in ggplot2 or if there is an option to force a legend when using literal colour values.</li>
-<li>In <code>p= p + geom_bar(stat=&quot;count&quot;)</code> you need <code>stat=&quot;count</code> if you want ggplot to count the number of occurrences (in this case AFAICT all colours only appear once for most instagram vancouver vancouver 2016 photos for any particular hour!), i.e. your data is un-summarized. If your data is summarized then you can use <code>stat=&quot;identity&quot;</code></li>
+  <li>It doesn’t seem to matter what you use for x in the aes statement , <code class="highlighter-rouge">x=color</code>, <code class="highlighter-rouge">x=factor(1)</code> both work</li>
+  <li>In <code class="highlighter-rouge">aes(x=colour, fill=I(colour))</code> if you use <code class="highlighter-rouge">fill=I(colour)</code> i.e. use the literal colour values to colour the bar chart, then no legend is produced by ggplot2. If you need a legend, then use <code class="highlighter-rouge">fill=colour</code> in the AES to force a legend and add <code class="highlighter-rouge">scale_fill_manual()</code> to make a legend with the colours you want (see <a href="http://rolandtanglao.com/2016/07/31/p3-simplest-ggplot2-pie-chart-with-colors-as-bar-values-and-a-legend/">blog post on how to make literal colour pie charts with a legend</a>). Not sure if this is a bug in ggplot2 or if there is an option to force a legend when using literal colour values.</li>
+  <li>In <code class="highlighter-rouge">p= p + geom_bar(stat="count")</code> you need <code class="highlighter-rouge">stat="count</code> if you want ggplot to count the number of occurrences (in this case AFAICT all colours only appear once for most instagram vancouver vancouver 2016 photos for any particular hour!), i.e. your data is un-summarized. If your data is summarized then you can use <code class="highlighter-rouge">stat="identity"</code></li>
 </ol>
 
-<p>And here&#39;s what <a href="https://github.com/rtanglao/2016-r-rtgram/blob/master/1st3-ig-van-01january-2016-barchart.png">the bar chart  looks like</a>:
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/roland/28582924752/" title="1st3-ig-van-01january-2016-barchart"><img src="https://c1.staticflickr.com/9/8155/28582924752_bf6a00f95e.jpg" width="500" height="500" alt="1st3-ig-van-01january-2016-barchart"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+<p>And here’s what <a href="https://github.com/rtanglao/2016-r-rtgram/blob/master/1st3-ig-van-01january-2016-barchart.png">the bar chart  looks like</a>:
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/28582924752/" title="1st3-ig-van-01january-2016-barchart"><img src="https://c1.staticflickr.com/9/8155/28582924752_bf6a00f95e.jpg" width="500" height="500" alt="1st3-ig-van-01january-2016-barchart" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
 
-<h2>The Code</h2>
+<h2 id="the-code">The Code</h2>
 
 <p>First the <a href="https://github.com/rtanglao/2016-r-rtgram/blob/master/first3-ig-van-01january2016-barchart.R">code,first3-ig-van-01january2016-barchart.R</a></p>
-<div class="highlight"><pre><code class="language-R" data-lang="R"><span class="n">library</span><span class="p">(</span><span class="n">ggplot2</span><span class="p">)</span><span class="w">
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">ggplot2</span><span class="p">)</span><span class="w">
 </span><span class="n">data3</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">read.csv</span><span class="p">(</span><span class="n">file</span><span class="o">=</span><span class="s2">"01january2016-1st3datapoints.csv"</span><span class="p">,</span><span class="w"> 
     </span><span class="n">stringsAsFactors</span><span class="o">=</span><span class="nb">F</span><span class="p">)</span><span class="w">
 </span><span class="n">p</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ggplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">data3</span><span class="p">,</span><span class="w"> </span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">colour</span><span class="p">,</span><span class="w"> </span><span class="n">fill</span><span class="o">=</span><span class="n">I</span><span class="p">(</span><span class="n">colour</span><span class="p">)))</span><span class="w">
@@ -85,15 +86,18 @@
 </span><span class="n">ggsave</span><span class="p">(</span><span class="s2">"1st3-ig-van-01january-2016-barchart.png"</span><span class="p">,</span><span class="w"> 
 </span><span class="n">p</span><span class="p">,</span><span class="w"> </span><span class="n">width</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">26.666666667</span><span class="p">,</span><span class="w"> 
 </span><span class="n">height</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">26.666666667</span><span class="p">,</span><span class="w"> </span><span class="n">dpi</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">72</span><span class="p">,</span><span class="w"> </span><span class="n">limitsize</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">FALSE</span><span class="p">)</span><span class="w">
-</span></code></pre></div>
-<h2>The Data</h2>
+</span></code></pre></div></div>
+
+<h2 id="the-data">The Data</h2>
 
 <p>Then the data, <a href="https://github.com/rtanglao/2016-r-rtgram/blob/master/01january2016-1st3datapoints.csv">01january2016-1st3datapoints.csv</a>:</p>
-<div class="highlight"><pre><code class="language-csv" data-lang="csv">colour,id,dayofweek-month-dayofmonth,daynumber
+
+<pre><code class="language-csv">colour,id,dayofweek-month-dayofmonth,daynumber
 #8B7D7D,1152722080165873450_545005592,FriJan1,1
 #4C3F3F,1152722094194289757_285178194,FriJan1,1
 #716666,1152722146880749719_340863,FriJan1,1
-</code></pre></div>
+</code></pre>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

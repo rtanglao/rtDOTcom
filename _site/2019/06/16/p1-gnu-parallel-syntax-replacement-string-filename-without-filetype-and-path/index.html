@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2019/06/16/p1-gnu-parallel-syntax-replacement-string-filename-without-filetype-and-path/">
+    <link rel="canonical" href="http://localhost:4000/2019/06/16/p1-gnu-parallel-syntax-replacement-string-filename-without-filetype-and-path/">
 </head>
 
 
@@ -62,24 +62,36 @@
   </header>
 
   <article class="post-content">
-    <h1>Pontifications</h1>
+    <h1 id="pontifications">Pontifications</h1>
 
 <ul>
-<li><p>If you don&#39;t want the filepath and you don&#39;t want the filetype use <code>{/.}</code> which is the &quot;Basename of input line without extension.&quot; according to the man page.</p></li>
-<li><p>example:</p></li>
+  <li>
+    <p>If you don’t want the filepath and you don’t want the filetype use <code class="highlighter-rouge">{/.}</code> which is the “Basename of input line without extension.” according to the man page.</p>
+  </li>
+  <li>
+    <p>example:</p>
+  </li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cd</span> /home/roland/GIT/rt-mozlando2018-ksc/264x176
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> /home/roland/GIT/rt-mozlando2018-ksc/264x176
 parallel convert <span class="o">{}</span> <span class="nt">-resize</span> 264x176! 264x176-<span class="o">{</span>/.<span class="o">}</span>.png ::: ../ORIGINALS/<span class="k">*</span>.jpg    
 <span class="nb">mkdir </span>MONOCHROME <span class="p">;</span> <span class="nb">cd</span> <span class="o">!</span><span class="err">$</span>
 parallel convert <span class="o">{}</span> <span class="nt">-monochrome</span> monochrome-<span class="o">{</span>/.<span class="o">}</span>.gif ::: ../<span class="k">*</span>.png
-</code></pre></div>
-<ul>
-<li><p>previous blog posts about parallel:  </p>
+</code></pre></div></div>
 
 <ul>
-<li><a href="http://rolandtanglao.com/2017/06/15/p1-gnu-parallel-to-run-a-script-on-a-file-with-a-list-files-who-needs-xargs/">Use GNU Parallel instead of xargs to run a script on wildcards and a file that is a list of files</a></li>
-<li><a href="http://rolandtanglao.com/2016/09/12/p1-parallel-to-use-all-your-cpu-cores/">GNU Parallel to use all your CPU cores</a></li>
-</ul></li>
+  <li>
+    <p>previous blog posts about parallel:</p>
+
+    <ul>
+      <li>
+        <p><a href="http://rolandtanglao.com/2017/06/15/p1-gnu-parallel-to-run-a-script-on-a-file-with-a-list-files-who-needs-xargs/">Use GNU Parallel instead of xargs to run a script on wildcards and a file that is a list of files</a></p>
+      </li>
+      <li>
+        <p><a href="http://rolandtanglao.com/2016/09/12/p1-parallel-to-use-all-your-cpu-cores/">GNU Parallel to use all your CPU cores</a></p>
+      </li>
+    </ul>
+  </li>
 </ul>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>

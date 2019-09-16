@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2019/01/27/p1-200px-by-200px-to-get-more-of-a-patchwork-quilt-ksc/">
+    <link rel="canonical" href="http://localhost:4000/2019/01/27/p1-200px-by-200px-to-get-more-of-a-patchwork-quilt-ksc/">
 </head>
 
 
@@ -62,13 +62,14 @@
   </header>
 
   <article class="post-content">
-    <h1>Pontifications</h1>
+    <h1 id="pontifications">Pontifications</h1>
 
 <ul>
-<li>Yesterday&#39;s 100px by 100px was great but to get more of a patchwork quilt effect, I&#39;m trying 200px by 200px as well!</li>
-<li>Here&#39;s the code, <a href="https://github.com/rtanglao/rt-mozlando2018-ksc/blob/master/oily-200x200px-zazzle-leg.rb">oily-200x200px-zazzle-leg.rb</a>:</li>
+  <li>Yesterday’s 100px by 100px was great but to get more of a patchwork quilt effect, I’m trying 200px by 200px as well!</li>
+  <li>Here’s the code, <a href="https://github.com/rtanglao/rt-mozlando2018-ksc/blob/master/oily-200x200px-zazzle-leg.rb">oily-200x200px-zazzle-leg.rb</a>:</li>
 </ul>
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1">#!/usr/bin/env ruby</span>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/env ruby</span>
 <span class="nb">require</span> <span class="s1">'json'</span>
 <span class="nb">require</span> <span class="s1">'rubygems'</span>
 <span class="nb">require</span> <span class="s1">'awesome_print'</span>
@@ -147,7 +148,8 @@
   <span class="n">t</span><span class="p">.</span><span class="nf">year</span><span class="p">,</span> <span class="n">t</span><span class="p">.</span><span class="nf">month</span><span class="p">,</span> <span class="n">t</span><span class="p">.</span><span class="nf">day</span><span class="p">,</span>  <span class="n">t</span><span class="p">.</span><span class="nf">hour</span><span class="p">,</span> <span class="n">t</span><span class="p">.</span><span class="nf">min</span><span class="p">)</span>
 <span class="n">output_png</span><span class="p">.</span><span class="nf">save</span> <span class="n">filename</span><span class="p">,</span> <span class="ss">:interlace</span> <span class="o">=&gt;</span> <span class="kp">true</span>
 
-</code></pre></div>
+</code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

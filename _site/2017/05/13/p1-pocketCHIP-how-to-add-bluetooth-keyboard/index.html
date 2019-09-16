@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2017/05/13/p1-pocketCHIP-how-to-add-bluetooth-keyboard/">
+    <link rel="canonical" href="http://localhost:4000/2017/05/13/p1-pocketCHIP-how-to-add-bluetooth-keyboard/">
 </head>
 
 
@@ -62,15 +62,16 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li>From <a href="https://opensource.com/article/17/2/pocketchip-or-pi?sc_cid=701600000011jJVAAY">How does the PocketCHIP compare to the Raspberry Pi</a></li>
+  <li>From <a href="https://opensource.com/article/17/2/pocketchip-or-pi?sc_cid=701600000011jJVAAY">How does the PocketCHIP compare to the Raspberry Pi</a></li>
 </ul>
 
 <p><strong>QUOTE</strong></p>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c">#!/bin/bash</span>
 
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
+ 
 <span class="nv">ARG</span><span class="o">=</span><span class="s2">"</span><span class="k">${</span><span class="nv">1</span><span class="k">}</span><span class="s2">"</span>
 <span class="nb">help</span><span class="o">()</span> <span class="o">{</span>
     <span class="nb">echo</span> <span class="s2">"Connect a Bluetooth device to PocketCHIP"</span>
@@ -78,32 +79,33 @@
     <span class="nb">echo</span> <span class="s2">"Optional: put your device ID into ~/.bluechip"</span>
     <span class="nb">exit </span>0
     <span class="o">}</span>
-
+ 
 xkbfunc<span class="o">()</span> <span class="o">{</span>
     setxkbmap dvorak
     xmodmap <span class="nv">$HOME</span>/Xmodmap.logitech
     <span class="nb">exit </span>0
 <span class="o">}</span>
-
+ 
 <span class="k">if</span> <span class="o">[</span> <span class="nt">-e</span> ~/.bluechip <span class="o">]</span><span class="p">;</span> <span class="k">then
     </span><span class="nv">ARG</span><span class="o">=</span><span class="sb">`</span><span class="nb">cat</span> <span class="nv">$HOME</span>/.bluechip<span class="sb">`</span>
 <span class="k">elif</span> <span class="o">[</span> X<span class="s2">"</span><span class="nv">$ARG</span><span class="s2">"</span> <span class="o">=</span> <span class="s2">"X"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
     </span><span class="nb">help
 </span><span class="k">fi
-
+ 
 </span><span class="nb">echo</span> <span class="s2">"Using ID </span><span class="nv">$ARG</span><span class="s2">"</span>
-
+ 
 <span class="nb">sudo </span>systemctl start bluetooth <span class="o">||</span> <span class="nb">echo</span> <span class="se">\</span>
 <span class="s2">"Bluetooth already started or cannot be started."</span>
-
+ 
 <span class="nb">sudo</span> <span class="se">\</span>
 <span class="nb">echo</span> <span class="nt">-e</span> <span class="s2">"power on</span><span class="se">\n</span><span class="s2"> connect </span><span class="nv">$ARG</span><span class="s2"> </span><span class="se">\n</span><span class="s2">quit"</span> | bluetoothctl
 xkbfunc 
-</code></pre></div>
+</code></pre></div></div>
+
 <p><strong>END QUOTE</strong></p>
 
 <ul>
-<li>Anybody know how to have a normal i.e. non-dvorak keyboard layout? (hopefully I can figure this out on my own)</li>
+  <li>Anybody know how to have a normal i.e. non-dvorak keyboard layout? (hopefully I can figure this out on my own)</li>
 </ul>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>

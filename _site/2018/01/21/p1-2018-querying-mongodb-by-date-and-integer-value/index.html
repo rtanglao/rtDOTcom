@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2018/01/21/p1-2018-querying-mongodb-by-date-and-integer-value/">
+    <link rel="canonical" href="http://localhost:4000/2018/01/21/p1-2018-querying-mongodb-by-date-and-integer-value/">
 </head>
 
 
@@ -62,19 +62,20 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li>Juicy code excerpts from: <a href="https://github.com/rtanglao/sumo-questions/blob/master/get_firefox_desktop_words_by_start_stop_date.rb">get_firefox_desktop_words_by_start_stop_date.rb</a>
-
-<ul>
-<li>for querying by date, see in the Code section below <code># [1]</code></li>
-<li>for querying by integer scalar value see <code># [2]</code></li>
-</ul></li>
+  <li>Juicy code excerpts from: <a href="https://github.com/rtanglao/sumo-questions/blob/master/get_firefox_desktop_words_by_start_stop_date.rb">get_firefox_desktop_words_by_start_stop_date.rb</a>
+    <ul>
+      <li>for querying by date, see in the Code section below <code class="highlighter-rouge"># [1]</code></li>
+      <li>for querying by integer scalar value see <code class="highlighter-rouge"># [2]</code></li>
+    </ul>
+  </li>
 </ul>
 
-<h3>Code</h3>
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1">#!/usr/bin/env ruby</span>
+<h3 id="code">Code</h3>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/env ruby</span>
 <span class="nb">require</span> <span class="s1">'rubygems'</span>
 <span class="nb">require</span> <span class="s1">'pp'</span>
 <span class="nb">require</span> <span class="s1">'json'</span>
@@ -129,7 +130,8 @@
   <span class="n">q</span><span class="p">[</span><span class="s2">"content"</span><span class="p">].</span><span class="nf">split</span><span class="p">(</span><span class="s1">' '</span><span class="p">).</span><span class="nf">each</span> <span class="p">{</span><span class="o">|</span><span class="n">c</span><span class="o">|</span> <span class="nb">puts</span> <span class="n">c</span><span class="p">}</span>
 <span class="k">end</span>
 
-</code></pre></div>
+</code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

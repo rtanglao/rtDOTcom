@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2018/01/17/p1-preparing-to-get-ngrams-update-the-text/">
+    <link rel="canonical" href="http://localhost:4000/2018/01/17/p1-preparing-to-get-ngrams-update-the-text/">
 </head>
 
 
@@ -62,38 +62,48 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
-<h3>Update title and content</h3>
+<h3 id="update-title-and-content">Update title and content</h3>
 
 <ul>
-<li><p>As part of preparing to get SUMO <a href="http://rolandtanglao.com/2018/01/03/p1-ngrms-bigrams-trigrams-stopword-removal-python-nltk/">ngrams</a> for Firefox releases: first update the question title and description.
-The following is from <a href="https://github.com/rtanglao/sumo-questions/blob/master/README.md">the sumo-questions README</a>:</p></li>
-<li><p>1. run mongodb</p></li>
+  <li>
+    <p>As part of preparing to get SUMO <a href="http://rolandtanglao.com/2018/01/03/p1-ngrms-bigrams-trigrams-stopword-removal-python-nltk/">ngrams</a> for Firefox releases: first update the question title and description.
+The following is from <a href="https://github.com/rtanglao/sumo-questions/blob/master/README.md">the sumo-questions README</a>:</p>
+  </li>
+  <li>
+    <p>1. run mongodb</p>
+  </li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cd</span> /Users/rtanglao/Dropbox/GIT/sumo-questions/MONGODB
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> /Users/rtanglao/Dropbox/GIT/sumo-questions/MONGODB
 mongod <span class="nt">--config</span> /usr/local/etc/mongod.conf <span class="nt">--dbpath</span><span class="o">=</span><span class="nb">.</span> &amp;
-</code></pre></div>
+</code></pre></div></div>
+
 <ul>
-<li>2. fix firefox 55 and 56 desktop questions </li>
+  <li>2. fix firefox 55 and 56 desktop questions</li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">.</span> setupMongo
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">.</span> setupMongo
 <span class="nb">cat </span>SUMO-QUESTIONS_MYSQL_20OCT2017/ff55-56-question_questions.csv | ./add-questions-to-mongodb.rb 
-</code></pre></div>
+</code></pre></div></div>
+
 <ul>
-<li>3. add firefox 57 desktop questions </li>
+  <li>3. add firefox 57 desktop questions</li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">.</span> setupMongo
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">.</span> setupMongo
 <span class="nb">cat </span>SUMO_QUESTIONS_MYSQL_FF57_15DEC2017/ff57-questions_question.csv | ./add-questions-to-mongodb.rb 
-</code></pre></div>
-<h3>Then in part 2 we will get the raw question title and description from mongodb</h3>
+</code></pre></div></div>
+
+<h3 id="then-in-part-2-we-will-get-the-raw-question-title-and-description-from-mongodb">Then in part 2 we will get the raw question title and description from mongodb</h3>
 
 <ul>
-<li>And then run it through the NLTK ngram library
-
-<ul>
-<li>perhaps <a href="http://www.nltk.org/book/ch03.html">this NLTK tutorial (chapter 3 of the NLTK book) on cleaning raw text from the Project Gutenberg</a> will help</li>
-</ul></li>
+  <li>And then run it through the NLTK ngram library
+    <ul>
+      <li>perhaps <a href="http://www.nltk.org/book/ch03.html">this NLTK tutorial (chapter 3 of the NLTK book) on cleaning raw text from the Project Gutenberg</a> will help</li>
+    </ul>
+  </li>
 </ul>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>

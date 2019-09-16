@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2018/10/23/p1-hunspell-destemmer-ff60-ff61-ff62-common-words-sumo-firefox-desktop-english/">
+    <link rel="canonical" href="http://localhost:4000/2018/10/23/p1-hunspell-destemmer-ff60-ff61-ff62-common-words-sumo-firefox-desktop-english/">
 </head>
 
 
@@ -62,13 +62,14 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li>The hunspell vector function can be found in <a href="https://fivethirtyeight-r.netlify.com/articles/trump_twitter.html">an article on T*ump tweets from fivethirtyeight.com</a> </li>
-<li>from <a href="https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/hunspell-ff60-ff61-ff62-1st-three-weeks-common-words.R">hunspell-ff60-ff61-ff62-1st-three-weeks-common-words.R</a> </li>
+  <li>The hunspell vector function can be found in <a href="https://fivethirtyeight-r.netlify.com/articles/trump_twitter.html">an article on T*ump tweets from fivethirtyeight.com</a></li>
+  <li>from <a href="https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/hunspell-ff60-ff61-ff62-1st-three-weeks-common-words.R">hunspell-ff60-ff61-ff62-1st-three-weeks-common-words.R</a></li>
 </ul>
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span>
 <span class="n">library</span><span class="p">(</span><span class="n">stringr</span><span class="p">)</span>
 <span class="n">library</span><span class="p">(</span><span class="n">tokenizers</span><span class="p">)</span>
 <span class="n">library</span><span class="p">(</span><span class="n">tidytext</span><span class="p">)</span>
@@ -158,25 +159,26 @@ ff60_61_62 &lt;-
   <span class="n">bind_rows</span><span class="p">(</span><span class="n">ff61_count</span><span class="p">)</span> <span class="o">%&gt;%</span> 
   <span class="n">bind_rows</span><span class="p">(</span><span class="n">ff62_count</span><span class="p">)</span> <span class="o">%&gt;%</span> 
   <span class="n">mutate</span><span class="p">(</span><span class="n">word</span> <span class="o">=</span> <span class="n">reorder</span><span class="p">(</span><span class="n">word</span><span class="p">,</span> <span class="n">n</span><span class="p">))</span>
-
+  
 <span class="n">ggplot</span><span class="p">(</span><span class="n">ff60_61_62</span><span class="p">,</span> <span class="n">aes</span><span class="p">(</span><span class="n">word</span><span class="p">,</span> <span class="n">n</span><span class="p">))</span> <span class="o">+</span>
   <span class="n">geom_col</span><span class="p">()</span> <span class="o">+</span>
   <span class="n">xlab</span><span class="p">(</span><span class="no">NULL</span><span class="p">)</span> <span class="o">+</span>
   <span class="n">coord_flip</span><span class="p">()</span> <span class="o">+</span>
   <span class="n">facet_wrap</span><span class="p">(</span><span class="o">~</span> <span class="n">firefoxversion</span><span class="p">)</span>
 
-</code></pre></div>
-<h2>Output</h2>
+</code></pre></div></div>
+
+<h2 id="output">Output</h2>
 
 <ul>
-<li><p>See <a href="https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/hunspell-ff60-ff61-ff62-1st-three-weeks-common-words.png">https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/hunspell-ff60-ff61-ff62-1st-three-weeks-common-words.png</a> </p>
+  <li>See <a href="https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/hunspell-ff60-ff61-ff62-1st-three-weeks-common-words.png">https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/hunspell-ff60-ff61-ff62-1st-three-weeks-common-words.png</a>
+    <ul>
+      <li><strong>Note that the hunwell destemmer isn’t perfect</strong>: it creates pseudo words from stems like “stall” (is that install), “aft”, “ha” (is that hang?), etc</li>
+      <li>Note also that stemmers (or is it the tokenizer) can’t handle hyphenated words: “add-ons” gets converted to “add” and “ons”</li>
+    </ul>
 
-<ul>
-<li><strong>Note that the hunwell destemmer isn&#39;t perfect</strong>: it creates pseudo words from stems like &quot;stall&quot; (is that install), &quot;aft&quot;, &quot;ha&quot; (is that hang?), etc</li>
-<li>Note also that stemmers (or is it the tokenizer) can&#39;t handle hyphenated words: &quot;add-ons&quot; gets converted to &quot;add&quot; and &quot;ons&quot;</li>
-</ul>
-
-<p><a data-flickr-embed="true"  href="https://www.flickr.com/photos/roland/43713318990/in/dateposted-ff/" title="hunspell-ff60-ff61-ff62-1st-three-weeks-common-words"><img src="https://farm2.staticflickr.com/1974/43713318990_6f58bb1cf3.jpg" width="335" height="500" alt="hunspell-ff60-ff61-ff62-1st-three-weeks-common-words"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p></li>
+    <p><a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/43713318990/in/dateposted-ff/" title="hunspell-ff60-ff61-ff62-1st-three-weeks-common-words"><img src="https://farm2.staticflickr.com/1974/43713318990_6f58bb1cf3.jpg" width="335" height="500" alt="hunspell-ff60-ff61-ff62-1st-three-weeks-common-words" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+  </li>
 </ul>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>

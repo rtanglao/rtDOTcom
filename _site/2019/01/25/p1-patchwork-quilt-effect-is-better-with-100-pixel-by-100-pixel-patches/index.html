@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2019/01/25/p1-patchwork-quilt-effect-is-better-with-100-pixel-by-100-pixel-patches/">
+    <link rel="canonical" href="http://localhost:4000/2019/01/25/p1-patchwork-quilt-effect-is-better-with-100-pixel-by-100-pixel-patches/">
 </head>
 
 
@@ -62,14 +62,19 @@
   </header>
 
   <article class="post-content">
-    <h1>Pontifications</h1>
+    <h1 id="pontifications">Pontifications</h1>
 
 <ul>
-<li><p>I&#39;ve tried <a href="https://github.com/rtanglao/rt-mozlando2018-ksc/blob/master/oily-5px-zazzle-leg.rb">5px x 1 px</a>, <a href="https://github.com/rtanglao/rt-mozlando2018-ksc/blob/master/oily-10x10px-zazzle-leg.rb">10px by 10 px</a> but I like 100 px by 100 px the best so far!</p></li>
-<li><p>Here&#39;s the code <a href="https://github.com/rtanglao/rt-mozlando2018-ksc/blob/master/oily-100x100px-zazzle-leg.rb">oily-100x100px-zazzle-leg.rb
-</a>:</p></li>
+  <li>
+    <p>I’ve tried <a href="https://github.com/rtanglao/rt-mozlando2018-ksc/blob/master/oily-5px-zazzle-leg.rb">5px x 1 px</a>, <a href="https://github.com/rtanglao/rt-mozlando2018-ksc/blob/master/oily-10x10px-zazzle-leg.rb">10px by 10 px</a> but I like 100 px by 100 px the best so far!</p>
+  </li>
+  <li>
+    <p>Here’s the code <a href="https://github.com/rtanglao/rt-mozlando2018-ksc/blob/master/oily-100x100px-zazzle-leg.rb">oily-100x100px-zazzle-leg.rb
+</a>:</p>
+  </li>
 </ul>
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1">#!/usr/bin/env ruby</span>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/env ruby</span>
 <span class="nb">require</span> <span class="s1">'json'</span>
 <span class="nb">require</span> <span class="s1">'rubygems'</span>
 <span class="nb">require</span> <span class="s1">'awesome_print'</span>
@@ -140,10 +145,11 @@
 <span class="k">end</span>
 <span class="n">output_png</span><span class="p">.</span><span class="nf">save</span> <span class="s2">"oily-100x100-out.png"</span><span class="p">,</span> <span class="ss">:interlace</span> <span class="o">=&gt;</span> <span class="kp">true</span>
 
-</code></pre></div>
-<h2>Interim Output after 13 Rows</h2>
+</code></pre></div></div>
 
-<p><a data-flickr-embed="true"  href="https://www.flickr.com/photos/roland/46153086474/in/datetaken-ff/" title="interim-100x100-oily-out-row-1300"><img src="https://farm8.staticflickr.com/7874/46153086474_6b25b4cc4a.jpg" width="266" height="500" alt="interim-100x100-oily-out-row-1300"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+<h2 id="interim-output-after-13-rows">Interim Output after 13 Rows</h2>
+
+<p><a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/46153086474/in/datetaken-ff/" title="interim-100x100-oily-out-row-1300"><img src="https://farm8.staticflickr.com/7874/46153086474_6b25b4cc4a.jpg" width="266" height="500" alt="interim-100x100-oily-out-row-1300" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>

@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2017/04/12/p1-scraping-ajax-scrolling-log-pages-python-selenium-beautiful-soup/">
+    <link rel="canonical" href="http://localhost:4000/2017/04/12/p1-scraping-ajax-scrolling-log-pages-python-selenium-beautiful-soup/">
 </head>
 
 
@@ -62,16 +62,17 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li>See <a href="https://community.smartthings.com/t/managed-to-extract-hub-live-log-for-my-usage-via-python-script/77837">Managed to extract Hub live log for my usage via python script</a></li>
-<li>amazing what you can do with scrapers :-) I bet I can reuse this code when scraping instagram, flickr and other places where the API is going to stop functioning.</li>
-<li>I only copy and pasted the code below because I don&#39;t trust S*msung to keep the Smart Things website up.</li>
+  <li>See <a href="https://community.smartthings.com/t/managed-to-extract-hub-live-log-for-my-usage-via-python-script/77837">Managed to extract Hub live log for my usage via python script</a></li>
+  <li>amazing what you can do with scrapers :-) I bet I can reuse this code when scraping instagram, flickr and other places where the API is going to stop functioning.</li>
+  <li>I only copy and pasted the code below because I don’t trust S*msung to keep the Smart Things website up.</li>
 </ul>
 
-<h3>Code by Philippe_Portes:</h3>
-<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">platform</span>
+<h3 id="code-by-philippe_portes">Code by Philippe_Portes:</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">platform</span>
 <span class="kn">from</span> <span class="nn">bs4</span> <span class="kn">import</span> <span class="n">BeautifulSoup</span>
 <span class="kn">from</span> <span class="nn">selenium</span> <span class="kn">import</span> <span class="n">webdriver</span>
 <span class="kn">import</span> <span class="nn">datetime</span>
@@ -136,7 +137,7 @@
 <span class="c1">#Check if the page content changed (=new logs)
 </span><span class="k">while</span> <span class="n">browser</span><span class="o">.</span><span class="n">page_source</span><span class="o">==</span><span class="n">old_page</span><span class="p">:</span>
     <span class="k">pass</span>
-
+   
 <span class="c1"># new page content, we'll have to write things in the log file
 </span><span class="n">new_log</span><span class="o">=</span><span class="mi">1</span>
 
@@ -151,7 +152,7 @@
     <span class="c1"># write csv header
 </span>    <span class="n">logfile</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s">'"Log_Class";"Device_Name";"Local_Log_Time";"Log_Message"'</span><span class="p">)</span>
     <span class="n">last_file_name</span><span class="o">=</span><span class="n">timestr</span><span class="o">+</span><span class="s">".csv"</span>
-
+    
 <span class="c1"># Prepare to parse page
 </span><span class="n">new_page</span><span class="o">=</span><span class="n">browser</span><span class="o">.</span><span class="n">page_source</span>
 
@@ -193,7 +194,7 @@
 </span>    <span class="c1">#  e] ==&gt; second set of logs
 </span>    <span class="c1"># This is not really important as file can be reordered by the program using the csv file. However, smartthings doesn't add the day 
 </span>    <span class="n">log_trace</span> <span class="o">=</span> <span class="s">'"'</span><span class="o">+</span><span class="n">log_class</span><span class="o">+</span> <span class="s">'";'</span><span class="o">+</span><span class="s">'"'</span><span class="o">+</span> <span class="n">devicename_dic</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">device_href</span><span class="p">,</span><span class="s">""</span><span class="p">)</span><span class="o">+</span> <span class="s">'";'</span><span class="o">+</span><span class="s">'"'</span><span class="o">+</span><span class="n">log_time</span><span class="o">+</span><span class="s">'";'</span><span class="o">+</span><span class="s">'"'</span><span class="o">+</span><span class="n">log_msg</span><span class="o">+</span><span class="s">'"</span><span class="se">\n</span><span class="s">'</span>
-
+    
     <span class="c1"># events being in reverse date order, stop writing to files events already written last time.
 </span>    <span class="k">if</span> <span class="p">(</span><span class="n">log_trace</span><span class="o">==</span><span class="n">first_log_trace</span> <span class="p">):</span>
         <span class="n">new_log</span><span class="o">=</span><span class="mi">0</span>
@@ -205,12 +206,15 @@
 </span>    <span class="k">if</span> <span class="n">new_log</span><span class="o">==</span><span class="mi">1</span><span class="p">:</span>
         <span class="k">print</span> <span class="n">log_trace</span>
         <span class="n">logfile</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">log_trace</span><span class="p">)</span>
-
+   
 <span class="n">logfile</span><span class="o">.</span><span class="n">close</span>
-</code></pre></div><div class="highlight"><pre><code class="language-" data-lang="">Example of logs as csv file I got:
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Example of logs as csv file I got:
 "Log_Class";"Device_Name";"Local_Log_Time";"Log_Message"
 "log debug";"Arrival Sensor guest";"3:55:14 PM PST";"Creating battery event for voltage=2.2V: Arrival Sensor guest battery is 70%"
-</code></pre></div>
+</code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

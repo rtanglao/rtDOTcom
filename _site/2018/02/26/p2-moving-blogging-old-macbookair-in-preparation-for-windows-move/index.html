@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2018/02/26/p2-moving-blogging-old-macbookair-in-preparation-for-windows-move/">
+    <link rel="canonical" href="http://localhost:4000/2018/02/26/p2-moving-blogging-old-macbookair-in-preparation-for-windows-move/">
 </head>
 
 
@@ -62,23 +62,27 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li>First I had to install ruby:</li>
+  <li>First I had to install ruby:</li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">brew upgrade rbenv ruby-build
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew upgrade rbenv ruby-build
 rbenv <span class="nb">install </span>2.5.0
 rbenv global 2.5.0
 vi ~/.bash_profile <span class="c"># and add eval "$(rbenv init -)"</span>
-</code></pre></div>
+</code></pre></div></div>
+
 <ul>
-<li>Then jekyll and surge.sh</li>
+  <li>Then jekyll and surge.sh</li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">gem <span class="nb">install </span>jekyll <span class="c"># my syntax colouring needs red carpet</span>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem <span class="nb">install </span>jekyll <span class="c"># my syntax colouring needs red carpet</span>
 gem <span class="nb">install </span>redcarpet
 <span class="nb">sudo </span>npm <span class="nb">install</span> <span class="nt">--global</span> surge
-</code></pre></div>
+</code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

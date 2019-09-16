@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2018/01/22/p1-no-need-to-iterate-puts-does-the-right-thing-ruby/">
+    <link rel="canonical" href="http://localhost:4000/2018/01/22/p1-no-need-to-iterate-puts-does-the-right-thing-ruby/">
 </head>
 
 
@@ -62,19 +62,23 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li>Simple ruby tip today <a href="http://rolandtanglao.com/2018/01/21/p1-2018-querying-mongodb-by-date-and-integer-value/">following up from yesterday</a>:</li>
-<li>No need for:</li>
+  <li>Simple ruby tip today <a href="http://rolandtanglao.com/2018/01/21/p1-2018-querying-mongodb-by-date-and-integer-value/">following up from yesterday</a>:</li>
+  <li>No need for:</li>
 </ul>
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">q</span><span class="p">[</span><span class="s2">"content"</span><span class="p">].</span><span class="nf">split</span><span class="p">(</span><span class="s1">' '</span><span class="p">).</span><span class="nf">each</span> <span class="p">{</span><span class="o">|</span><span class="n">c</span><span class="o">|</span> <span class="nb">puts</span> <span class="n">c</span><span class="p">}</span>
-</code></pre></div>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">q</span><span class="p">[</span><span class="s2">"content"</span><span class="p">].</span><span class="nf">split</span><span class="p">(</span><span class="s1">' '</span><span class="p">).</span><span class="nf">each</span> <span class="p">{</span><span class="o">|</span><span class="n">c</span><span class="o">|</span> <span class="nb">puts</span> <span class="n">c</span><span class="p">}</span>
+</code></pre></div></div>
+
 <ul>
-<li>because <code>puts</code> does the right thing, all you need to do is:</li>
+  <li>because <code class="highlighter-rouge">puts</code> does the right thing, all you need to do is:</li>
 </ul>
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="nb">puts</span> <span class="n">q</span><span class="p">[</span><span class="s2">"content"</span><span class="p">].</span><span class="nf">split</span><span class="p">(</span><span class="s1">' '</span><span class="p">)</span>
-</code></pre></div>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">puts</span> <span class="n">q</span><span class="p">[</span><span class="s2">"content"</span><span class="p">].</span><span class="nf">split</span><span class="p">(</span><span class="s1">' '</span><span class="p">)</span>
+</code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

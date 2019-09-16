@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2017/09/04/p1-faceted-plot-is-a-mess/">
+    <link rel="canonical" href="http://localhost:4000/2017/09/04/p1-faceted-plot-is-a-mess/">
 </head>
 
 
@@ -62,17 +62,18 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li><strong>UPDATE</strong>: I think I figured it out. I need to remove <code>n&lt;=5</code> over each 1 hour period of the 24 hour period not over the entire 24 hour time period of the data set.</li>
-<li>Not statistically valid :-) again :-) again :-)</li>
-<li>I don&#39;t like this version aesthetically, I envisioned 24 versions of <a href="http://rolandtanglao.com/2017/09/02/p2-0.0012version-is-better-density-plot-corrupted-for-art/">the previous blog post aka y axis limited to <code>0.0012</code> for hour 0</a> but I tried to use 0.0012 and it didn&#39;t look good.</li>
-<li>I guess I need to look at a real density plot :-) somehow</li>
+  <li><strong>UPDATE</strong>: I think I figured it out. I need to remove <code class="highlighter-rouge">n&lt;=5</code> over each 1 hour period of the 24 hour period not over the entire 24 hour time period of the data set.</li>
+  <li>Not statistically valid :-) again :-) again :-)</li>
+  <li>I don’t like this version aesthetically, I envisioned 24 versions of <a href="http://rolandtanglao.com/2017/09/02/p2-0.0012version-is-better-density-plot-corrupted-for-art/">the previous blog post aka y axis limited to <code class="highlighter-rouge">0.0012</code> for hour 0</a> but I tried to use 0.0012 and it didn’t look good.</li>
+  <li>I guess I need to look at a real density plot :-) somehow</li>
 </ul>
 
-<h3>R ggplot2 geom_density() Code, no y axis limit, aes=colour (not the 600 R colours), faceted by hour, nrow = 2:</h3>
-<div class="highlight"><pre><code class="language-R" data-lang="R"><span class="n">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span><span class="w">
+<h3 id="r-ggplot2-geom_density-code-no-y-axis-limit-aescolour-not-the-600-r-colours-faceted-by-hour-nrow--2">R ggplot2 geom_density() Code, no y axis limit, aes=colour (not the 600 R colours), faceted by hour, nrow = 2:</h3>
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span><span class="w">
 </span><span class="n">library</span><span class="p">(</span><span class="n">plotrix</span><span class="p">)</span><span class="w">
 
 </span><span class="n">getnumericColour</span><span class="w"> </span><span class="o">&lt;-</span><span class="w">
@@ -105,10 +106,11 @@
   </span><span class="n">theme</span><span class="p">(</span><span class="n">strip.background</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">element_blank</span><span class="p">(),</span><span class="w">
   </span><span class="n">strip.text.x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">element_blank</span><span class="p">())</span><span class="o">+</span><span class="w">
   </span><span class="n">facet_wrap</span><span class="p">(</span><span class="o">~</span><span class="w"> </span><span class="n">hour</span><span class="p">,</span><span class="w"> </span><span class="n">nrow</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">2</span><span class="p">)</span><span class="w">
-</span></code></pre></div>
-<h3>Output:</h3>
+</span></code></pre></div></div>
 
-<p><a data-flickr-embed="true"  href="https://www.flickr.com/photos/roland/36883741461/in/datetaken-public/" title="aes-colour-no-y-axis-limit-03september2017-facet-hour-600-colour-ig-vancouver-jan2016-average-colour"><img src="https://farm5.staticflickr.com/4394/36883741461_5a5f293577_n.jpg" width="320" height="198" alt="aes-colour-no-y-axis-limit-03september2017-facet-hour-600-colour-ig-vancouver-jan2016-average-colour"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+<h3 id="output">Output:</h3>
+
+<p><a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/36883741461/in/datetaken-public/" title="aes-colour-no-y-axis-limit-03september2017-facet-hour-600-colour-ig-vancouver-jan2016-average-colour"><img src="https://farm5.staticflickr.com/4394/36883741461_5a5f293577_n.jpg" width="320" height="198" alt="aes-colour-no-y-axis-limit-03september2017-facet-hour-600-colour-ig-vancouver-jan2016-average-colour" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>

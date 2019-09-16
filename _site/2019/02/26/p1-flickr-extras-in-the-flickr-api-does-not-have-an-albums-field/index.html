@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2019/02/26/p1-flickr-extras-in-the-flickr-api-does-not-have-an-albums-field/">
+    <link rel="canonical" href="http://localhost:4000/2019/02/26/p1-flickr-extras-in-the-flickr-api-does-not-have-an-albums-field/">
 </head>
 
 
@@ -62,14 +62,15 @@
   </header>
 
   <article class="post-content">
-    <h1>Pontifications</h1>
+    <h1 id="pontifications">Pontifications</h1>
 
 <ul>
-<li><a href="http://code.flickr.net/2008/08/19/standard-photos-response-apis-for-civilized-age/">When you get a flickr photo using the search API or the photoset API, you can&#39;t determine which photoset the photo is by setting a field in extras</a></li>
-<li>Therefore I think it&#39;s best to add a field e.g. <code>synthetic_photos_sets_array</code> which is an array of photoset ids that this photo belongs to.</li>
-<li>Interestingly enough , the certificate for code.flickr.net is broken so here is the 2008 (! still works in 2019!) blog post content for posterity&#39;s sake (and when the cert 100% breaks)</li>
+  <li><a href="http://code.flickr.net/2008/08/19/standard-photos-response-apis-for-civilized-age/">When you get a flickr photo using the search API or the photoset API, you can’t determine which photoset the photo is by setting a field in extras</a></li>
+  <li>Therefore I think it’s best to add a field e.g. <code class="highlighter-rouge">synthetic_photos_sets_array</code> which is an array of photoset ids that this photo belongs to.</li>
+  <li>Interestingly enough , the certificate for code.flickr.net is broken so here is the 2008 (! still works in 2019!) blog post content for posterity’s sake (and when the cert 100% breaks)</li>
 </ul>
-<div class="highlight"><pre><code class="language-" data-lang="">Funny story. I went to write a blog post and when the time came to link to the documentation of our standard “standard photos response” structure, I found we had never documented it!
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Funny story. I went to write a blog post and when the time came to link to the documentation of our standard “standard photos response” structure, I found we had never documented it!
 
 Okay. Maybe that wasn’t so funny.
 
@@ -179,7 +180,8 @@ That’s standard photos responses, and how to use extras (paging and sorting is
 
 And now for the that next blog post I mentioned ….
 
-</code></pre></div>
+</code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2017/04/13/p1-ruby-2dots-inclusive-3dots-exclusive/">
+    <link rel="canonical" href="http://localhost:4000/2017/04/13/p1-ruby-2dots-inclusive-3dots-exclusive/">
 </head>
 
 
@@ -62,16 +62,18 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li><a href="http://ruby-doc.org/core-2.1.3/Range.html">Ranges constructed using .. run from the beginning to the end inclusively. Those created using ... exclude the end value. </a></li>
-<li>It&#39;s not like C! <code>variable[0,n]</code> is the same as ruby&#39;s <code>variable[0..n]</code>. In ruby <code>variable[x,n]</code> means starting at position x, return n elements. Learned this the hard way in <a href="https://github.com/rtanglao/rt-li-sumo-redirects/blob/master/production-test-797-redirects.rb">production-test-797-redirects.rb</a></li>
+  <li><a href="http://ruby-doc.org/core-2.1.3/Range.html">Ranges constructed using .. run from the beginning to the end inclusively. Those created using … exclude the end value. </a></li>
+  <li>It’s not like C! <code class="highlighter-rouge">variable[0,n]</code> is the same as ruby’s <code class="highlighter-rouge">variable[0..n]</code>. In ruby <code class="highlighter-rouge">variable[x,n]</code> means starting at position x, return n elements. Learned this the hard way in <a href="https://github.com/rtanglao/rt-li-sumo-redirects/blob/master/production-test-797-redirects.rb">production-test-797-redirects.rb</a></li>
 </ul>
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1">#using ranges. The end position is included with two periods but not with three</span>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#using ranges. The end position is included with two periods but not with three</span>
 <span class="n">array_four</span><span class="p">[</span><span class="mi">0</span><span class="o">..</span><span class="mi">1</span><span class="p">]</span>              <span class="c1"># =&gt; ["a", "b"]</span>
 <span class="n">array_four</span><span class="p">[</span><span class="mi">0</span><span class="o">...</span><span class="mi">1</span><span class="p">]</span>             <span class="c1"># =&gt; ["a"]</span>
-</code></pre></div>
+</code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

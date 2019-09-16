@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2016/01/25/p2-making-a-raw-file-from-ascii-hex-color-values/">
+    <link rel="canonical" href="http://localhost:4000/2016/01/25/p2-making-a-raw-file-from-ascii-hex-color-values/">
 </head>
 
 
@@ -62,9 +62,12 @@
   </header>
 
   <article class="post-content">
-    <p>If you have a hex file of colours e.g. <a href="https://github.com/rtanglao/rtgram/blob/master/THUMBNAIL_150x150/48percent-687858photo-ig-vancouver-2015-dominant-colours.txt">48% of instagram 2015 vancouver dominant colours</a>, here’s how to use <a href="http://linux.die.net/man/1/xxd">xxd</a> to do it (&quot;-r&quot; to create the hex dump, -p to take the ascii values):</p>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">xxd <span class="nt">-r</span> <span class="nt">-p</span> ig-vancouver-2015-dominant-colours.txt ig-vancouver-2015-dominant-colours.try3.rgb
-</code></pre></div>
+    <p>If you have a hex file of colours e.g. <a href="https://github.com/rtanglao/rtgram/blob/master/THUMBNAIL_150x150/48percent-687858photo-ig-vancouver-2015-dominant-colours.txt">48% of instagram 2015 vancouver dominant colours</a>, here’s how to use <a href="http://linux.die.net/man/1/xxd">xxd</a> to do it (“-r” to create the hex dump, -p to take the ascii values):</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>xxd <span class="nt">-r</span> <span class="nt">-p</span> ig-vancouver-2015-dominant-colours.txt ig-vancouver-2015-dominant-colours.try3.rgb
+</code></pre></div></div>
+
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

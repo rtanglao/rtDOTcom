@@ -1,0 +1,17 @@
+I"<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>Following up from yesterday: <a href="http://rolandtanglao.com/2018/01/04/p1-hardware-is-hard/">Hardware is hard, software is soft part 888: Meltdown and Spectre</a></li>
+  <li><a href="https://blog.wirelessmoves.com/2018/01/meltdown-the-technical-lunchtime-pitch.html">More on Meltdown and Spectre by Martin Sauter at Wireless moves</a> and others, <a href="https://danluu.com/branch-prediction/">Branch Prediction</a> and Out of Order Execution
+    <ul>
+      <li><a href="https://meltdownattack.com/meltdown.pdf">Meltdown White Paper</a></li>
+      <li><a href="https://spectreattack.com/spectre.pdf">Spectre White Paper</a></li>
+    </ul>
+  </li>
+  <li>From a high level, like most things in life :-), I think this is understandable by all and is worthwhile understanding by all just as all should know how an internal combustion engine works even if we are not all car mechanics :-)
+    <ul>
+      <li>The Guardian has a decent explanation: <a href="https://www.theguardian.com/technology/2018/jan/04/meltdown-spectre-computer-processor-intel-security-flaws-explainer">Spectre and Meltdown processor security flaws – explained</a> and there are some fab web comics (which I can’t find a link to at the moment)</li>
+    </ul>
+  </li>
+</ul>
+:ET

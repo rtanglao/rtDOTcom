@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2017/11/20/p1-scraping-london-drugs-photo-urls-working/">
+    <link rel="canonical" href="http://localhost:4000/2017/11/20/p1-scraping-london-drugs-photo-urls-working/">
 </head>
 
 
@@ -62,35 +62,38 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li>See <a href="http://rolandtanglao.com/2017/11/20/p1-TIL-scraping-javascript-sites-with-ruby-and-watir-is-harder-than-it-should-be/">previous London Drugs Scraping photo post</a></li>
-<li>I scrapped scrolling and that works!</li>
-<li>Next up add a command line argument so we can do</li>
+  <li>See <a href="http://rolandtanglao.com/2017/11/20/p1-TIL-scraping-javascript-sites-with-ruby-and-watir-is-harder-than-it-should-be/">previous London Drugs Scraping photo post</a></li>
+  <li>I scrapped scrolling and that works!</li>
+  <li>Next up add a command line argument so we can do</li>
 </ul>
-<div class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="c">#./click-sidebar-ldphotos.rb &lt;url&gt;</span>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#./click-sidebar-ldphotos.rb &lt;url&gt;</span>
 ./click-sidebar-ldphotos.rb  https://photolab.londondrugs.com/prints?coll<span class="o">=</span>mVnr3ZX2GN3v1K46YLzyJxj
-</code></pre></div>
-<h3>Code</h3>
+</code></pre></div></div>
+
+<h3 id="code">Code</h3>
 
 <p>Here is my <a href="https://github.com/rtanglao/rt-ldphoto/blob/master/click-sidebar-ldphotos.rb">working code, click-sidebar-ldphotos.rb,</a> that download 37 out of 37 photos:</p>
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1">#!/usr/bin/env ruby</span>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/env ruby</span>
 <span class="nb">require</span> <span class="s1">'rubygems'</span>
 <span class="nb">require</span> <span class="s1">'watir'</span>
 <span class="nb">require</span> <span class="s1">'pp'</span>
 <span class="nb">require</span> <span class="s1">'curb'</span>
 
 <span class="k">def</span> <span class="nf">fetch_1_at_a_time</span><span class="p">(</span><span class="n">urls</span><span class="p">)</span>
-
+  
   <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
-
+  
   <span class="n">easy</span> <span class="o">=</span> <span class="no">Curl</span><span class="o">::</span><span class="no">Easy</span><span class="p">.</span><span class="nf">new</span>
   <span class="n">easy</span><span class="p">.</span><span class="nf">follow_location</span> <span class="o">=</span> <span class="kp">true</span>
 
   <span class="n">urls</span><span class="p">.</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">url</span><span class="o">|</span>
     <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
-
+    
     <span class="n">easy</span><span class="p">.</span><span class="nf">url</span> <span class="o">=</span> <span class="n">url</span>
     <span class="n">uri</span> <span class="o">=</span> <span class="no">URI</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
     <span class="n">filename</span> <span class="o">=</span> <span class="nb">sprintf</span><span class="p">(</span><span class="s2">"ldphoto-%2.2d.jpg"</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span>
@@ -149,7 +152,8 @@
   <span class="n">b</span><span class="p">.</span><span class="nf">element</span><span class="p">(</span><span class="ss">xpath: </span><span class="n">next_photo</span><span class="p">).</span><span class="nf">wait_until_present</span><span class="p">.</span><span class="nf">click</span>
 <span class="k">end</span>
 <span class="n">fetch_1_at_a_time</span><span class="p">(</span><span class="n">urls</span><span class="p">)</span>
-</code></pre></div>
+</code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

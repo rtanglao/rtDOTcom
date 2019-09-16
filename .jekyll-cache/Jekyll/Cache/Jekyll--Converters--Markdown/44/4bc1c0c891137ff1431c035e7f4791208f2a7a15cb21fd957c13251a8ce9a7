@@ -1,0 +1,9 @@
+I"÷<p>Say you want to sum up how many times a colour appears in a data table in R? code from <a href="https://github.com/rtanglao/2016-r-rtgram/blob/master/computed-counts-first3-ig-van-01january2016-square-piechart.R">computed-counts-first3-ig-van-01january2016-square-piechart.R</a></p>
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">some_data_table_withcounts</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">count</span><span class="p">(</span><span class="n">some_data_table</span><span class="p">,</span><span class="w"> </span><span class="s2">"column_to_count"</span><span class="p">)</span><span class="w">
+</span><span class="c1"># e.g. </span><span class="w">
+</span><span class="n">countcolourname</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">count</span><span class="p">(</span><span class="n">data3</span><span class="p">,</span><span class="w"> </span><span class="s2">"colourname"</span><span class="p">)</span><span class="w">
+</span><span class="c1"># easy peasy right? as if :-)</span><span class="w">
+</span><span class="c1"># inch by inch</span><span class="w">
+</span></code></pre></div></div>
+:ET

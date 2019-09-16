@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2017/10/10/p1-step2-remove-non-vancouver-neighbourhoods/">
+    <link rel="canonical" href="http://localhost:4000/2017/10/10/p1-step2-remove-non-vancouver-neighbourhoods/">
 </head>
 
 
@@ -62,10 +62,10 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
-
+    <h2 id="pontifications">Pontifications</h2>
 <p>(<a href="http://rolandtanglao.com/2017/10/09/p2-step1-to-clean-up-ig-van2015-neighbourhoods-count/">Step 1 of cleaning instagram vancouver 2015 neighbourhood dataset is to count the occurrences of each neighborhood using add_count() and filter()</a>)</p>
-<div class="highlight"><pre><code class="language-R" data-lang="R"><span class="n">filter_step2_ig_van_neighbourhood_2015</span><span class="w">  </span><span class="o">&lt;-</span><span class="w">
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">filter_step2_ig_van_neighbourhood_2015</span><span class="w">  </span><span class="o">&lt;-</span><span class="w">
   </span><span class="n">ig_van_neighbourhood_2015</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
   </span><span class="n">filter</span><span class="p">(</span><span class="n">neighbourhood</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s2">"Maywood"</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
   </span><span class="n">filter</span><span class="p">(</span><span class="n">neighbourhood</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s2">"Whistler"</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
@@ -88,7 +88,8 @@
   </span><span class="n">filter</span><span class="p">(</span><span class="n">neighbourhood</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s2">"Squamish-Lillooet"</span><span class="w"> </span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
   </span><span class="n">filter</span><span class="p">(</span><span class="n">neighbourhood</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s2">"Horseshoe Bay"</span><span class="w"> </span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
   </span><span class="n">filter</span><span class="p">(</span><span class="n">neighbourhood</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s2">"Golden Village"</span><span class="w"> </span><span class="p">)</span><span class="w">
-</span></code></pre></div>
+</span></code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

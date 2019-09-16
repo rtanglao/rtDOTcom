@@ -1,0 +1,74 @@
+I"ï*<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>Mongodb times were weird and having to use <code class="highlighter-rouge">$date</code> with R unlike the mongodb ruby driver was also weird.</li>
+  <li>Time in general was a nightmare to go from local Pacific time to UTC</li>
+  <li>Finally itâ€™s the whole SVG to PNG dance is always weird; I punted by doing a screenshot in Firefox.</li>
+  <li>Anyhow the code is called: <a href="https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/23october2018-wordcloud-ff63.r">23october2018-wordcloud-ff63.r</a></li>
+  <li>ToDo: remove Firefox, Firefox versions, ff, and numbers and other stop words</li>
+</ul>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">mongolite</span><span class="p">)</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">textclean</span><span class="p">)</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">tidytext</span><span class="p">)</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">wordcloud2</span><span class="p">)</span><span class="w">
+</span><span class="n">m</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">mongo</span><span class="p">(</span><span class="s2">"questions"</span><span class="p">,</span><span class="w">
+           </span><span class="n">url</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"mongodb://127.0.0.1:27017/ff62questions"</span><span class="p">)</span><span class="w">
+</span><span class="n">MIN_DATE</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">strptime</span><span class="p">(</span><span class="s2">"2018-10-23 00:00:00 -0700"</span><span class="p">,</span><span class="w"> </span><span class="n">format</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'%Y-%m-%d %H:%M:%S %z'</span><span class="p">,</span><span class="w">
+                    </span><span class="n">tz</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"UTC"</span><span class="p">)</span><span class="w">
+</span><span class="n">MIN_DATE_STR</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">strftime</span><span class="p">(</span><span class="n">MIN_DATE</span><span class="p">,</span><span class="w"> </span><span class="s2">"%Y-%m-%dT%H:%M:%SZ"</span><span class="p">,</span><span class="w"> </span><span class="s1">'UTC'</span><span class="p">)</span><span class="w">
+</span><span class="n">MAX_DATE</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">strptime</span><span class="p">(</span><span class="s2">"2018-10-23 23:59:59 -0700"</span><span class="p">,</span><span class="w">  </span><span class="n">format</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'%Y-%m-%d %H:%M:%S %z'</span><span class="p">,</span><span class="w">
+                    </span><span class="n">tz</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"UTC"</span><span class="p">)</span><span class="w">
+</span><span class="n">MAX_DATE_STR</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">strftime</span><span class="p">(</span><span class="n">MAX_DATE</span><span class="p">,</span><span class="w"> </span><span class="s2">"%Y-%m-%dT%H:%M:%SZ"</span><span class="p">,</span><span class="w"> </span><span class="s1">'UTC'</span><span class="p">)</span><span class="w">
+</span><span class="n">query_str</span><span class="w"> </span><span class="o">=</span><span class="w">
+  </span><span class="n">sprintf</span><span class="p">(</span><span class="w">
+    </span><span class="s1">'{ "created" : { "$gt" : { "$date" : "%s"}, "$lte" : {"$date" : "%s"}}}'</span><span class="p">,</span><span class="w">
+    </span><span class="n">MIN_DATE_STR</span><span class="p">,</span><span class="w">
+    </span><span class="n">MAX_DATE_STR</span><span class="w">
+  </span><span class="p">)</span><span class="w">
+
+</span><span class="n">one_day_of_data_from_mongo</span><span class="w"> </span><span class="o">&lt;-</span><span class="w">
+  </span><span class="n">m</span><span class="o">$</span><span class="n">find</span><span class="p">(</span><span class="w">
+    </span><span class="n">query</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">query_str</span><span class="p">,</span><span class="w">
+    </span><span class="n">fields</span><span class="w"> </span><span class="o">=</span><span class="w">
+      </span><span class="s1">'{
+    "_id" : 0,
+    "id" : 1,
+    "tags" : 1,
+    "title" : 1,
+    "content" : 1,
+    "created" : 1
+    }'</span><span class="w">
+  </span><span class="p">)</span><span class="w">
+</span><span class="n">one_day_of_data</span><span class="w"> </span><span class="o">&lt;-</span><span class="w">
+  </span><span class="n">one_day_of_data_from_mongo</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+  </span><span class="n">unite</span><span class="p">(</span><span class="n">text</span><span class="p">,</span><span class="w"> </span><span class="n">title</span><span class="p">,</span><span class="w"> </span><span class="n">content</span><span class="p">,</span><span class="w"> </span><span class="n">sep</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">" "</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
+  </span><span class="n">mutate</span><span class="p">(</span><span class="n">text</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">replace_html</span><span class="p">(</span><span class="n">text</span><span class="p">))</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
+  </span><span class="n">mutate</span><span class="p">(</span><span class="n">text</span><span class="w">  </span><span class="o">=</span><span class="w"> </span><span class="n">str_replace_all</span><span class="p">(</span><span class="w">
+    </span><span class="n">text</span><span class="p">,</span><span class="w"> </span><span class="n">pattern</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'[bB]ookmark?s'</span><span class="p">,</span><span class="w"> </span><span class="n">replacement</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'bookmark'</span><span class="p">))</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+  </span><span class="n">mutate</span><span class="p">(</span><span class="n">text</span><span class="w">  </span><span class="o">=</span><span class="w"> </span><span class="n">str_replace_all</span><span class="p">(</span><span class="w">
+    </span><span class="n">text</span><span class="p">,</span><span class="w"> </span><span class="n">pattern</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'[fF]irefox'</span><span class="p">,</span><span class="w"> </span><span class="n">replacement</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">''</span><span class="p">))</span><span class="w"> 
+
+</span><span class="n">tidy_23oct</span><span class="w"> </span><span class="o">&lt;-</span><span class="w">
+  </span><span class="n">one_day_of_data</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+  </span><span class="n">unnest_tokens</span><span class="p">(</span><span class="n">word</span><span class="p">,</span><span class="w"> </span><span class="n">text</span><span class="p">)</span><span class="w"> 
+</span><span class="n">data</span><span class="p">(</span><span class="n">stop_words</span><span class="p">)</span><span class="w">
+</span><span class="n">tidy_23oct</span><span class="w"> </span><span class="o">&lt;-</span><span class="w">
+  </span><span class="n">tidy_23oct</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+  </span><span class="n">anti_join</span><span class="p">(</span><span class="n">stop_words</span><span class="p">)</span><span class="w">
+</span><span class="n">tidy_23oct</span><span class="w"> </span><span class="o">&lt;-</span><span class="w">
+  </span><span class="n">tidy_23oct</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+  </span><span class="n">count</span><span class="p">(</span><span class="n">word</span><span class="p">,</span><span class="w"> </span><span class="n">sort</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">TRUE</span><span class="p">)</span><span class="w">
+</span><span class="n">top150</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">head</span><span class="p">(</span><span class="n">tidy_23oct</span><span class="p">,</span><span class="w"> </span><span class="m">150</span><span class="p">)</span><span class="w">
+</span><span class="nf">names</span><span class="p">(</span><span class="n">top150</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="s2">"word"</span><span class="p">,</span><span class="w"> </span><span class="s2">"freq"</span><span class="p">)</span><span class="w">
+</span><span class="n">wordcloud2</span><span class="p">(</span><span class="n">top150</span><span class="p">)</span><span class="w">
+</span><span class="c1"># can't export to PNG, it's just SVG but luckily in R studio you can open in firefox and take a screenshot</span><span class="w">
+</span><span class="c1"># issue is here for this png export bug https://github.com/Lchiffon/wordcloud2/issues/8</span><span class="w">
+  
+</span></code></pre></div></div>
+
+<h3 id="23october2018-day-1-of-firefox-63-wordcloud-output">23October2018 Day 1 of Firefox 63 WordCloud Output</h3>
+
+<p><a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/44821741664/in/dateposted-ff/" title="24october2018-wordcloud-screenshot-firefox62-day1-23oct2018"><img src="https://farm2.staticflickr.com/1962/44821741664_56a6cab3ae.jpg" width="500" height="350" alt="24october2018-wordcloud-screenshot-firefox62-day1-23oct2018" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+:ET

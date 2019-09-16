@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2016/09/12/p1-parallel-to-use-all-your-cpu-cores/">
+    <link rel="canonical" href="http://localhost:4000/2016/09/12/p1-parallel-to-use-all-your-cpu-cores/">
 </head>
 
 
@@ -62,12 +62,13 @@
   </header>
 
   <article class="post-content">
-    <h2>GNU Parallel is good stuff</h2>
+    <h2 id="gnu-parallel-is-good-stuff">GNU Parallel is good stuff</h2>
 
-<p><code>parallel convert -trim &#39;{}&#39; &#39;TRIMMED/{}&#39; ::: *.png</code></p>
+<p><code class="highlighter-rouge">parallel convert -trim '{}' 'TRIMMED/{}' ::: *.png</code></p>
 
-<p>I think this default &quot;don&#39;t forget to cite&quot; message is hilarious but anyhow <a href="https://www.usenix.org/system/files/login/articles/105438-Tange.pdf">I am happy to cite the GNU parallel Usenix paper aka O. Tange (2011): GNU Parallel - The Command-Line Power Tool,;login: The USENIX Magazine, February 2011:42-47.</a> :-)! :</p>
-<div class="highlight"><pre><code class="language-" data-lang="">Academic tradition requires you to cite works you base your article on.
+<p>I think this default “don’t forget to cite” message is hilarious but anyhow <a href="https://www.usenix.org/system/files/login/articles/105438-Tange.pdf">I am happy to cite the GNU parallel Usenix paper aka O. Tange (2011): GNU Parallel - The Command-Line Power Tool,;login: The USENIX Magazine, February 2011:42-47.</a> :-)! :</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Academic tradition requires you to cite works you base your article on.
 When using programs that use GNU Parallel to process data for publication
 please cite:
 
@@ -78,7 +79,9 @@ This helps funding further development; AND IT WON'T COST YOU A CENT.
 If you pay 10000 EUR you should feel free to use GNU Parallel without citing.
 
 To silence the citation notice: run 'parallel --citation'.
-</code></pre></div>
+</code></pre></div></div>
+
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

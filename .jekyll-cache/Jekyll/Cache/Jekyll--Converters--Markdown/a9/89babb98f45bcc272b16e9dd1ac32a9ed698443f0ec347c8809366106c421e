@@ -1,0 +1,5 @@
+I"�<p><a href="http://rolandtanglao.com/2015/04/27/p1-r-package-names-cant-have-underscores-or-hyphens/">Per the previous blog post</a>, I found <a href="http://cran.r-project.org/doc/manuals/R-exts.html#The-DESCRIPTION-file">the reference where it is stated that package titles shouldn’t contain underscores or hyphens but can contain periods</a>:</p>
+<blockquote>
+“The mandatory ‘Package’ field gives the name of the package. This should contain only (ASCII) letters, numbers and dot, have at least two characters and start with a letter and not end in a dot. This should contain only (ASCII) letters, numbers and dot, have at least two characters and start with a letter and not end in a dot”
+</blockquote>
+:ET

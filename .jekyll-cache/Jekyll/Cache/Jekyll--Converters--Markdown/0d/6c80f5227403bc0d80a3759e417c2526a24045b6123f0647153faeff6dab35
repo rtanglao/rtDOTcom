@@ -1,0 +1,20 @@
+I"W<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>I installed ongoDB on Windows Subsystem for Linux by following <a href="https://blog.cloudboost.io/setting-up-windows-for-web-development-28483d245a82">Rob Aird’s Setting Up Windows for Web Development</a></li>
+  <li>
+    <p>Specifically using the following commands (make sure quotes are plain ole double quotes i.e. <code class="highlighter-rouge">"</code> and not fancy open and closing quotes</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nb">sudo </span>apt-key adv <span class="nt">--keyserver</span> hkp://keyserver.ubuntu.com:80 <span class="nt">--recv</span> 0C49F3730359A14518585931BC711F9BA15703C6
+  <span class="nb">echo</span> <span class="s2">"deb [ arch=amd64,arm64 ] http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.4 multiverse"</span> | <span class="nb">sudo tee</span> /etc/apt/sources.list.d/mongodb-org-3.4.list
+  <span class="nb">sudo </span>apt-get update
+  <span class="nb">sudo </span>apt-get <span class="nb">install </span>mongodb <span class="c">#(this will install an old version, but is seemingly necessary for reasons unknown)</span>
+  <span class="nb">sudo </span>apt-get <span class="nb">install</span> <span class="nt">-y</span> mongodb-org  <span class="c">#(this installs the newest version)</span>
+</code></pre></div>    </div>
+  </li>
+  <li>To start mongodb:</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>service mongodb start
+</code></pre></div></div>
+:ET

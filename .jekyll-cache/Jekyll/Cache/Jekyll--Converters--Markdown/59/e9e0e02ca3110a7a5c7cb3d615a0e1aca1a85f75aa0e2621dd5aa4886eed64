@@ -1,0 +1,13 @@
+I"»<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>use <code class="highlighter-rouge">scale_y_continuous()</code> (from <a href="https://github.com/rtanglao/rt-fennec-gplay/blob/master/30april2018-r-scratch.R">https://github.com/rtanglao/rt-fennec-gplay/blob/master/30april2018-r-scratch.R</a> )</li>
+  <li>found the above on Stack Overflow somewhere :-) i.e.  <a href="https://stackoverflow.com/questions/15622001/how-to-display-only-integer-values-on-an-axis-using-ggplot2/39877048#39877048">How to display only integer values on an axis using ggplot2</a></li>
+</ul>
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">scale_y_continuous</span><span class="p">(</span><span class="w">
+    </span><span class="n">breaks</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">function</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="w"> </span><span class="n">unique</span><span class="p">(</span><span class="w">
+      </span><span class="nf">floor</span><span class="p">(</span><span class="n">pretty</span><span class="p">(</span><span class="n">seq</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="p">(</span><span class="nf">max</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="m">1</span><span class="p">)</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="m">1.1</span><span class="p">)))))</span><span class="w"> 
+</span></code></pre></div></div>
+
+:ET

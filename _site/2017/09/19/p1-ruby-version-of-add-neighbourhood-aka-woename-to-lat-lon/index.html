@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2017/09/19/p1-ruby-version-of-add-neighbourhood-aka-woename-to-lat-lon/">
+    <link rel="canonical" href="http://localhost:4000/2017/09/19/p1-ruby-version-of-add-neighbourhood-aka-woename-to-lat-lon/">
 </head>
 
 
@@ -62,32 +62,36 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li>See <a href="http://rolandtanglao.com/2017/09/17/p1-trying-out-yql-for-vancouver-latitude-longitude/">&quot;Trying out YQL and flickr API for Vancouver Latitude and Longitude -&gt; WOEID-&gt; neighborhood name e.g. &#39;West End&#39;&quot;</a> .</li>
-<li>See code below</li>
-<li>code is invoked as:</li>
+  <li>See <a href="http://rolandtanglao.com/2017/09/17/p1-trying-out-yql-for-vancouver-latitude-longitude/">“Trying out YQL and flickr API for Vancouver Latitude and Longitude -&gt; WOEID-&gt; neighborhood name e.g. ‘West End’”</a> .</li>
+  <li>See code below</li>
+  <li>code is invoked as:</li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cat</span> <span class="se">\</span>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cat</span> <span class="se">\</span>
 ~/Downloads/13March2016-instagram-vancouver-top-colour-lat-long-date-2015.csv <span class="se">\</span>
 | ./add-neightbourhood-to-csv.rb <span class="se">\</span>
 <span class="o">&gt;</span> 13March2016-instagram-vancouver-top-colour-lat-long-date-neighbourhood-2015.csv
-</code></pre></div>
+</code></pre></div></div>
+
 <p>where:</p>
 
 <ul>
-<li><p><code>~/Downloads/13March2016-instagram-vancouver-top-colour-lat-long-date-2015.csv</code> is the unzipped version of: <a href="https://github.com/rtanglao/rtgram/blob/master/13March2016-instagram-vancouver-top-colour-lat-long-date-2015.csv.gz">https://github.com/rtanglao/rtgram/blob/master/13March2016-instagram-vancouver-top-colour-lat-long-date-2015.csv.gz</a></p>
-
-<ul>
-<li>and <code>api_key</code> is <code>Key:</code> from: <a href="https://www.flickr.com/services/apps/72157622539864558/key/">https://www.flickr.com/services/apps/72157622539864558/key/</a></li>
-</ul></li>
+  <li>
+    <p><code class="highlighter-rouge">~/Downloads/13March2016-instagram-vancouver-top-colour-lat-long-date-2015.csv</code> is the unzipped version of: <a href="https://github.com/rtanglao/rtgram/blob/master/13March2016-instagram-vancouver-top-colour-lat-long-date-2015.csv.gz">https://github.com/rtanglao/rtgram/blob/master/13March2016-instagram-vancouver-top-colour-lat-long-date-2015.csv.gz</a></p>
+  </li>
+  <li>
+    <p>and <code class="highlighter-rouge">api_key</code> is <code class="highlighter-rouge">Key:</code> from: <a href="https://www.flickr.com/services/apps/72157622539864558/key/">https://www.flickr.com/services/apps/72157622539864558/key/</a></p>
+  </li>
 </ul>
 
-<h3>Code</h3>
+<h3 id="code">Code</h3>
 
 <p>copied and pasted from: <a href="https://github.com/rtanglao/ig-ggmap/blob/master/add-neightbourhood-to-csv.rb">https://github.com/rtanglao/ig-ggmap/blob/master/add-neightbourhood-to-csv.rb</a></p>
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby">
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
 <span class="c1">#!/usr/bin/env ruby</span>
 <span class="nb">require</span> <span class="s1">'rubygems'</span>
 <span class="nb">require</span> <span class="s1">'parseconfig'</span>
@@ -120,7 +124,7 @@
   <span class="n">lon</span> <span class="o">=</span> <span class="n">fields</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
 
   <span class="n">base_url</span> <span class="o">=</span> <span class="s2">"services/rest/"</span>
-
+  
   <span class="n">url_params</span> <span class="o">=</span> <span class="p">{</span><span class="ss">:method</span> <span class="o">=&gt;</span> <span class="s2">"flickr.places.findByLatLon"</span><span class="p">,</span>
       <span class="ss">:api_key</span> <span class="o">=&gt;</span> <span class="n">api_key</span><span class="p">,</span>
       <span class="ss">:format</span> <span class="o">=&gt;</span> <span class="s2">"json"</span><span class="p">,</span>
@@ -133,9 +137,10 @@
   <span class="n">woe_name</span> <span class="o">=</span>  <span class="n">woeid_rsp</span><span class="p">[</span><span class="s2">"places"</span><span class="p">][</span><span class="s2">"place"</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="s2">"woe_name"</span><span class="p">]</span>
 
   <span class="nb">printf</span><span class="p">(</span><span class="s2">"%s,%s</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span>  <span class="n">averagecolour_lat_lon_date</span><span class="p">,</span> <span class="n">woe_name</span><span class="p">)</span>
-
+  
 <span class="k">end</span>
-</code></pre></div>
+</code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

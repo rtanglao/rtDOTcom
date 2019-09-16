@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2019/01/20/p1-creating-one-leg-for-zazzle-tights-using-kennedy-space-center-photos-5x5-pixel-patches/">
+    <link rel="canonical" href="http://localhost:4000/2019/01/20/p1-creating-one-leg-for-zazzle-tights-using-kennedy-space-center-photos-5x5-pixel-patches/">
 </head>
 
 
@@ -62,32 +62,36 @@
   </header>
 
   <article class="post-content">
-    <h1>Pontifications</h1>
+    <h1 id="pontifications">Pontifications</h1>
 
 <p>(see Earlier post: <a href="http://rolandtanglao.com/2019/01/11/p1-artofwhere-tights-using-space-shuttle-atlantis-5x5-pixels/">Next Art of Where Tights 3325px x 6358px for one leg : 5x5 random pixels from Space Shuttle Atlantis photos</a>)</p>
 
 <ul>
-<li>3325 / 5 px = 665 rows one way i.e. &quot;horizontally&quot;</li>
-<li>6358 -&gt; 6370 / 5 px = 1274 rows the other way &quot;vertically&quot;</li>
-<li>each original is 4608 x 3456 px</li>
-<li>round down to 4605 x 3455 px
-
-<ul>
-<li>which means there are 921 five pixel columns horizontally</li>
-<li>and 691 five pixel rows vertically</li>
-</ul></li>
-<li>which means the script needs to pick 847210 (665 * 1274) random 5px x 5x patches</li>
-<li>use the imagemagick <code>crop</code> commmand with the <code>+repage</code> option 
+  <li>3325 / 5 px = 665 rows one way i.e. “horizontally”</li>
+  <li>6358 -&gt; 6370 / 5 px = 1274 rows the other way “vertically”</li>
+  <li>each original is 4608 x 3456 px</li>
+  <li>round down to 4605 x 3455 px
+    <ul>
+      <li>which means there are 921 five pixel columns horizontally</li>
+      <li>and 691 five pixel rows vertically</li>
+    </ul>
+  </li>
+  <li>which means the script needs to pick 847210 (665 * 1274) random 5px x 5x patches</li>
+  <li>use the imagemagick <code class="highlighter-rouge">crop</code> commmand with the <code class="highlighter-rouge">+repage</code> option 
 see: <a href="http://www.imagemagick.org/Usage/crop/#crop_repage">http://www.imagemagick.org/Usage/crop/#crop_repage</a>
 e.g.</li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">  convert rose: <span class="nt">-crop</span> 40x30+40+30  +repage  repage_br.gif
-</code></pre></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  convert rose: <span class="nt">-crop</span> 40x30+40+30  +repage  repage_br.gif
+</code></pre></div></div>
+
 <ul>
-<li>in our case something like:</li>
+  <li>in our case something like:</li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">  convert &lt;ksc_img&gt; <span class="nt">-crop</span> 5x5+&lt;random_x&gt;+&lt;random_y&gt;  +repage  5x5-ksc.png
-</code></pre></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  convert &lt;ksc_img&gt; <span class="nt">-crop</span> 5x5+&lt;random_x&gt;+&lt;random_y&gt;  +repage  5x5-ksc.png
+</code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

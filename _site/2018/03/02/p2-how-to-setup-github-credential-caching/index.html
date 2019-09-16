@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2018/03/02/p2-how-to-setup-github-credential-caching/">
+    <link rel="canonical" href="http://localhost:4000/2018/03/02/p2-how-to-setup-github-credential-caching/">
 </head>
 
 
@@ -62,19 +62,23 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li>Just one command from <a href="https://stackoverflow.com/questions/45925964/how-to-use-git-credential-store-on-wsl-ubuntu-on-windows">How to use Git credential store on WSL (Ubuntu on Windows)?</a>:</li>
+  <li>Just one command from <a href="https://stackoverflow.com/questions/45925964/how-to-use-git-credential-store-on-wsl-ubuntu-on-windows">How to use Git credential store on WSL (Ubuntu on Windows)?</a>:</li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">git config <span class="nt">--global</span> credential.helper cache
-</code></pre></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config <span class="nt">--global</span> credential.helper cache
+</code></pre></div></div>
+
 <ul>
-<li>I didn&#39;t have to change the timeout in ~/.gitconfig but just in case here&#39;s the line to add</li>
+  <li>I didn’t have to change the timeout in ~/.gitconfig but just in case here’s the line to add</li>
 </ul>
-<div class="highlight"><pre><code class="language-" data-lang="">[credential]
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[credential]
         helper = cache --timeout=144000
-</code></pre></div>
+</code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2018/04/13/p2-find-all-samsung-s8-in-devices-database/">
+    <link rel="canonical" href="http://localhost:4000/2018/04/13/p2-find-all-samsung-s8-in-devices-database/">
 </head>
 
 
@@ -62,25 +62,28 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li>The devices collection (see <a href="http://rolandtanglao.com/2018/04/09/p1-no-unique-identifier-in-google-play-supported-devices-csv-file/">previous post about Google Play supported devices</a> ) is created as follows using <a href="https://github.com/rtanglao/rt-fennec-gplay/blob/master/synthetic_add_device_branding_marketing_model.rb">synthetic_add_device_branding_marketing_model.rb</a>  and <a href="https://github.com/rtanglao/rt-fennec-gplay/blob/master/utf_8_reviews_reviews_org.mozilla.firefox_201801.csv">utf8_supported_devices.csv</a>  :</li>
+  <li>The devices collection (see <a href="http://rolandtanglao.com/2018/04/09/p1-no-unique-identifier-in-google-play-supported-devices-csv-file/">previous post about Google Play supported devices</a> ) is created as follows using <a href="https://github.com/rtanglao/rt-fennec-gplay/blob/master/synthetic_add_device_branding_marketing_model.rb">synthetic_add_device_branding_marketing_model.rb</a>  and <a href="https://github.com/rtanglao/rt-fennec-gplay/blob/master/utf_8_reviews_reviews_org.mozilla.firefox_201801.csv">utf8_supported_devices.csv</a>  :</li>
 </ul>
 
-<h3>How To make the devices collection</h3>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"> ./synthetic_add_device_branding_marketing_model.rb utf8_supported_devices.csv
-</code></pre></div>
-<h3>How to query for Samung S8</h3>
-<div class="highlight"><pre><code class="language-js" data-lang="js"><span class="p">{</span>
+<h3 id="how-to-make-the-devices-collection">How To make the devices collection</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ./synthetic_add_device_branding_marketing_model.rb utf8_supported_devices.csv
+</code></pre></div></div>
+
+<h3 id="how-to-query-for-samung-s8">How to query for Samung S8</h3>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span>
   <span class="s2">"Retail Branding"</span> <span class="p">:</span> <span class="s2">"Samsung"</span><span class="p">,</span>
   <span class="s2">"Marketing Name"</span> <span class="p">:</span> <span class="o">/</span><span class="p">.</span><span class="o">*</span><span class="nx">S8</span><span class="p">.</span><span class="o">*</span><span class="sr">/</span><span class="err">
 </span><span class="p">}</span>
-</code></pre></div>
+</code></pre></div></div>
+
 <ul>
-<li>The above query returns 19 rows:</li>
+  <li>The above query returns 19 rows:</li>
 </ul>
-<div class="highlight"><pre><code class="language-js" data-lang="js"><span class="cm">/* 1 */</span>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/* 1 */</span>
 <span class="p">{</span>
   <span class="s2">"_id"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="s2">"5acbc5561115a9a462b64d58"</span><span class="p">),</span>
   <span class="s2">"Retail Branding"</span> <span class="p">:</span> <span class="s2">"Samsung"</span><span class="p">,</span>
@@ -290,7 +293,9 @@
 <span class="p">}</span>
 
 
-</code></pre></div>
+</code></pre></div></div>
+
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

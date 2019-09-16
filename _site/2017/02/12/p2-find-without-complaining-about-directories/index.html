@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2017/02/12/p2-find-without-complaining-about-directories/">
+    <link rel="canonical" href="http://localhost:4000/2017/02/12/p2-find-without-complaining-about-directories/">
 </head>
 
 
@@ -62,10 +62,12 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
-<div class="highlight"><pre><code class="language-sh" data-lang="sh">find <span class="nb">.</span> <span class="nt">-type</span> f <span class="nt">-exec</span> <span class="nb">echo</span> <span class="o">{}</span> <span class="se">\;</span> | <span class="nb">grep</span> <span class="s2">"custom.node-browser"</span>
-</code></pre></div>
-<p>searches for the string <code>custom.node-browser</code> in files (NOT directories) (not sure why we need the whole <code>-exec echo {} \;</code> dance (is this an OS X / BSD thing?)!</p>
+    <h2 id="pontifications">Pontifications</h2>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>find <span class="nb">.</span> <span class="nt">-type</span> f <span class="nt">-exec</span> <span class="nb">echo</span> <span class="o">{}</span> <span class="se">\;</span> | <span class="nb">grep</span> <span class="s2">"custom.node-browser"</span>
+</code></pre></div></div>
+
+<p>searches for the string <code class="highlighter-rouge">custom.node-browser</code> in files (NOT directories) (not sure why we need the whole <code class="highlighter-rouge">-exec echo {} \;</code> dance (is this an OS X / BSD thing?)!</p>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>

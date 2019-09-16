@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2017/06/01/p1-mogrify-works-better-to-convert-tiff-to-pngs-or-convert-one-at-a-time/">
+    <link rel="canonical" href="http://localhost:4000/2017/06/01/p1-mogrify-works-better-to-convert-tiff-to-pngs-or-convert-one-at-a-time/">
 </head>
 
 
@@ -62,17 +62,18 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
-
+    <h2 id="pontifications">Pontifications</h2>
 <ul>
-<li>Following on from yesterday&#39;s <a href="http://rolandtanglao.com/2017/05/31/p1-convert-tif-to-jpg-using-graphicsmagick-imagemagick/">How to convert all TIFFs to PNGs in a separate sub directory using ImageMagick / GraphicsMagick</a>, actually <code>mogrify</code> or <code>convert</code> one at a time in a for loop works better! A bug in batch <code>convert</code> perhaps?!?</li>
-<li>example:</li>
+  <li>Following on from yesterday’s <a href="http://rolandtanglao.com/2017/05/31/p1-convert-tif-to-jpg-using-graphicsmagick-imagemagick/">How to convert all TIFFs to PNGs in a separate sub directory using ImageMagick / GraphicsMagick</a>, actually <code class="highlighter-rouge">mogrify</code> or <code class="highlighter-rouge">convert</code> one at a time in a for loop works better! A bug in batch <code class="highlighter-rouge">convert</code> perhaps?!?</li>
+  <li>example:</li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c"># Warning mogrify will overwrite your files if you don't </span>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Warning mogrify will overwrite your files if you don't </span>
 <span class="c"># change format or do something to create new filenames</span>
 <span class="c"># or put the files in a subdirectory</span>
 gm mogrify <span class="nt">-format</span> png <span class="k">*</span>.TIF 
-</code></pre></div>
+</code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

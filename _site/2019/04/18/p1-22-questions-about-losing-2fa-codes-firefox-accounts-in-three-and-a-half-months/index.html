@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2019/04/18/p1-22-questions-about-losing-2fa-codes-firefox-accounts-in-three-and-a-half-months/">
+    <link rel="canonical" href="http://localhost:4000/2019/04/18/p1-22-questions-about-losing-2fa-codes-firefox-accounts-in-three-and-a-half-months/">
 </head>
 
 
@@ -62,20 +62,21 @@
   </header>
 
   <article class="post-content">
-    <h1>Pontifications</h1>
+    <h1 id="pontifications">Pontifications</h1>
 
 <ul>
-<li>over 3.5 months 0.4 % of SUMO Firefox desktop questions were about losing 2FA codes (22 out of 5539)</li>
+  <li>over 3.5 months 0.4 % of SUMO Firefox desktop questions were about losing 2FA codes (22 out of 5539)</li>
 </ul>
 
-<h2>Colophon</h2>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">./print-2fa-sumo-questions.rb 2019 1 1 2019 4 18 2&gt;01jan2019-18january-2fa-stderr-out.txt<span class="se">\</span>
+<h2 id="colophon">Colophon</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./print-2fa-sumo-questions.rb 2019 1 1 2019 4 18 2&gt;01jan2019-18january-2fa-stderr-out.txt<span class="se">\</span>
 <span class="o">&gt;</span>01january2019-18january2019-2fa-sumo-forum-question-ids.txt
 <span class="nb">cat </span>01january2019-18january2019-2fa-sumo-forum-question-ids.txt | ./open-ids-in-browser.rb
 <span class="c"># which leads to 33 questions, some of which are off topic and duplicates</span>
-</code></pre></div>
+</code></pre></div></div>
 <ul>
-<li>manually remove duplicates and off topic and you end up with 22 questions in 4.5 months:
+  <li>manually remove duplicates and off topic and you end up with 22 questions in 4.5 months:
 <a href="https://github.com/rtanglao/rt-kitsune-api/blob/master/offtopic-and-duplicates-removed-01january2019-18january2019-2fa-sumo-forum-question-ids.txt">offtopic-and-duplicates-removed-01january2019-18january2019-2fa-sumo-forum-question-ids.txt</a></li>
 </ul>
 

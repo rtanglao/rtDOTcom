@@ -1,0 +1,17 @@
+I"ó<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>Simple ruby tip today <a href="http://rolandtanglao.com/2018/01/21/p1-2018-querying-mongodb-by-date-and-integer-value/">following up from yesterday</a>:</li>
+  <li>No need for:</li>
+</ul>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">q</span><span class="p">[</span><span class="s2">"content"</span><span class="p">].</span><span class="nf">split</span><span class="p">(</span><span class="s1">' '</span><span class="p">).</span><span class="nf">each</span> <span class="p">{</span><span class="o">|</span><span class="n">c</span><span class="o">|</span> <span class="nb">puts</span> <span class="n">c</span><span class="p">}</span>
+</code></pre></div></div>
+
+<ul>
+  <li>because <code class="highlighter-rouge">puts</code> does the right thing, all you need to do is:</li>
+</ul>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">puts</span> <span class="n">q</span><span class="p">[</span><span class="s2">"content"</span><span class="p">].</span><span class="nf">split</span><span class="p">(</span><span class="s1">' '</span><span class="p">)</span>
+</code></pre></div></div>
+:ET

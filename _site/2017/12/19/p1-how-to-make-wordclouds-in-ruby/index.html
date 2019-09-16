@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2017/12/19/p1-how-to-make-wordclouds-in-ruby/">
+    <link rel="canonical" href="http://localhost:4000/2017/12/19/p1-how-to-make-wordclouds-in-ruby/">
 </head>
 
 
@@ -62,25 +62,29 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li>1. Setup magic_cloud, from <a href="https://stackoverflow.com/questions/22715738/imagemagick-error">https://stackoverflow.com/questions/22715738/imagemagick-error</a> :</li>
+  <li>1. Setup magic_cloud, from <a href="https://stackoverflow.com/questions/22715738/imagemagick-error">https://stackoverflow.com/questions/22715738/imagemagick-error</a> :</li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">https://stackoverflow.com/questions/22715738/imagemagick-error
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://stackoverflow.com/questions/22715738/imagemagick-error
 brew uninstall imagemagick@6 
 brew <span class="nb">install </span>imagemagick@6 
 <span class="nv">PKG_CONFIG_PATH</span><span class="o">=</span>/usr/local/opt/imagemagick@6/lib/pkgconfig gem <span class="nb">install </span>rmagick
-</code></pre></div>
+</code></pre></div></div>
+
 <ul>
-<li>2. make word cloud</li>
+  <li>2. make word cloud</li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">../print-out-words-from-questions-questions.rb ff55-56-question_questions.csv <span class="o">&gt;</span>ff55-ff56-unanswered-questions.txt
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>../print-out-words-from-questions-questions.rb ff55-56-question_questions.csv <span class="o">&gt;</span>ff55-ff56-unanswered-questions.txt
 magic_cloud <span class="nt">--textfile</span> ff55-ff56-unanswered-questions.txt <span class="nt">-f</span> naive-ff55-ff56.jpg
-</code></pre></div>
+</code></pre></div></div>
+
 <ul>
-<li>3. Output
-<img src="https://raw.githubusercontent.com/rtanglao/sumo-questions/master/SUMO-QUESTIONS_MYSQL_20OCT2017/naive-ff55-ff56.jpg" alt="Naive 55-56 wordcloud"></li>
+  <li>3. Output
+<img src="https://raw.githubusercontent.com/rtanglao/sumo-questions/master/SUMO-QUESTIONS_MYSQL_20OCT2017/naive-ff55-ff56.jpg" alt="Naive 55-56 wordcloud" /></li>
 </ul>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>

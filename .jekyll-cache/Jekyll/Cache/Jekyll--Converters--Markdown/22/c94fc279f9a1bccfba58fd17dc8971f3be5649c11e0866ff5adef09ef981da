@@ -1,0 +1,8 @@
+I"ù<h2 id="pontifications">Pontifications</h2>
+<ul>
+  <li>I think sentiment is definitely doable with <a href="https://en.wikipedia.org/wiki/TensorFlow">TensorFlow</a></li>
+  <li>Not sure about keyword extraction, it might just be word clustering?!?</li>
+  <li>How many reviews would have to be randomly sampled? Maybe 50 per month in English?</li>
+  <li>Can do this in German and other languages, right?</li>
+</ul>
+:ET

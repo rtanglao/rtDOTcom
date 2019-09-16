@@ -1,0 +1,24 @@
+I"j<p>After taking <a href="http://flickr.com/photos/roland/tags/flickrlive/">over 950 photos</a> with <a href="http://www.rolandtanglao.com/archives/2004/10/22/my_life_live_on_flickr_courtesy_of_simons_java_midlet_and_my_7610">Simon's yet to be released Java Midlet called FlickrLIVE!</a> (I believe Simon is off until January, hopefully we will finally release the Midlet and open source it in early January), here are some reflections:
+
+<ul>
+<li>Should I change the name FlickrLIVE! to something else? I just realized that Flickr LIVE! is the name of the original photo IM Flash app which was how Flickr started!</li>
+
+<li><a href="http://www.rolandtanglao.com/archives/2004/12/17/j2me_doesnt_support_the_full_resolution_of_the_nokia_7610_and_other_cameraphones">J2ME s*cks because it won't let me take full 1 megapixel images</a> like you can with the native camera app.</li>
+
+<li>The pixelated 640x480 photos (that's right the J2ME software on  the 7610 doesn't allow you take true 640x480 photos)  s*ck.  Still these pixelated images are far better than alot of camera phones like the Sony Ericsson T610 for instance.</li>
+
+<li>GPRS s*cks except when I am on the SkyTrain.  On the SkyTrain, the upload seems to much faster, elsewhere like in Gastown or Yaletown it can take almost a minute for a 32 K pixelated image to be uploaded to Flickr.
+</li>
+<li>In spite of GPRS, J2ME and 640x480 s*cking :-), Simon's Flickr LIVE rocks! Why? No 'chain of pain'! No upload to the computer and then upload to Flickr using ultra slow Bluetooth or problematic USB cables.  No worries about deleting the images to save memory or running out of space on the compact flash card in the phone.  And only 1 minute delay (the delay used to 6-10 minutes until Flickr installed a <a href="http://www.squid-cache.org/">Squid</a> which broke an earlier version of FlickrLIVE! that used chunked encoding).  It's great to be able to record your life delayed by one minute. Immediacy trumps bad quality in this case!
+</li>
+<li>Once I get a fast network like EVDO or UMTS or even mobile WiFi, applications like FlickrLIVE! will really be awesome.  Why? The 7610 native 1 megapixel images from the native app, rock (e.g. <a href="http://flickr.com/photos/roland/2289787/">this one of food at Take 5</a> and <a href="http://flickr.com/photos/roland/278279/">this one of Yaletown</a>)!
+</li>
+
+<li>I am hooked on FlickrLIVE! and will continue to use it.  I will also use the native camera app on those rare occasions when the chain of pain is worth it which is usually only for low light situations (the night mode works nicely) and for food shots when I am actually reviewing restaurants for <a href="http://www.vaneats.com/">VanEats</a>.</li>
+
+<li>I am hooked on the mobile Internet (I blame it on <a href="http://www.russellbeattie.com/notebook/">Russell Beattie</a> and I am only using it for photos (and occasionally Google through Opera) at the moment! Imagine what will happen when I seriously start using mobile web apps like email, SMS, IM, location based services, etc.! Thanks for helping me drink the mobile Koolaid, Russ) and will probably upgrade to a 1 megapixel camera phone that works on UMTS or EVDO or some other faster network if/when such a thing is available in Vancouver.  Supposedly <a href="http://mobiletechnews.com/info/2004/12/14/010745.html">Bell is rolling out EVDO in Canada</a> but I'll believe it when I see it!
+</li>
+</ul>
+
+</p>
+:ET

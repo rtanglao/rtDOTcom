@@ -1,0 +1,29 @@
+I"�<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>And it’s not fun work but it is rewarding work because then you can easily plot using <code class="highlighter-rouge">ggplot2</code> or whatever you use!</li>
+  <li>In fact it’s not fun but data cleaning is also an act of judgement and analysis because it’s almost always a judgment call as to what an ‘outlier’ is and what outliners to throw out!</li>
+  <li>I’m far from the first to observe this of course :-)</li>
+  <li>And <code class="highlighter-rouge">ggplot2</code> is great fun because you can easily create many many types of graphs with that 1 cleaned dataset with minimal lines of code.</li>
+  <li>An example was the <a href="http://rolandtanglao.com/2018/11/15/p1-no-surprise-in-ff-desktop-questions/">previous post on the Operating System graph for Firefox Desktop questions</a>: e.g.  what is ‘linux’? should I track every distro? You can see my arbitrary-but-hopefully-mostly-correct choices in <a href="https://github.com/rtanglao/rt-kitsune-api/blob/master/print-csv-os-percentage-group-label-title.rb">the ruby code to generate the dataset</a>:</li>
+</ul>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">case</span> <span class="n">os</span>
+  <span class="k">when</span> <span class="sr">/^Windows 7/i</span>
+    <span class="n">os</span> <span class="o">=</span> <span class="s2">"Windows 7"</span>
+  <span class="k">when</span> <span class="sr">/^Windows 10/i</span>
+    <span class="n">os</span> <span class="o">=</span> <span class="s2">"Windows 10"</span>
+  <span class="k">when</span> <span class="sr">/^Windows 8/i</span>
+    <span class="n">os</span> <span class="o">=</span> <span class="s2">"Windows 8"</span>
+  <span class="k">when</span> <span class="sr">/^Windows XP/i</span>
+    <span class="n">os</span> <span class="o">=</span> <span class="s2">"Windows XP"</span>
+  <span class="k">when</span> <span class="sr">/^Mac OS/i</span><span class="p">,</span> <span class="sr">/^macos/i</span>
+    <span class="n">os</span> <span class="o">=</span> <span class="s2">"Mac OS"</span>
+  <span class="k">when</span> <span class="sr">/^Linux/i</span><span class="p">,</span> <span class="sr">/^ubuntu/i</span><span class="p">,</span> <span class="sr">/^centos/i</span><span class="p">,</span> <span class="sr">/^arch/i</span><span class="p">,</span> <span class="sr">/^lfs/i</span><span class="p">,</span> <span class="sr">/^fedora/i</span> 
+    <span class="n">os</span> <span class="o">=</span> <span class="s2">"Linux"</span>
+  <span class="k">else</span> 
+    <span class="n">logger</span><span class="p">.</span><span class="nf">debug</span> <span class="s2">"SETTING os:"</span> <span class="o">+</span> <span class="n">os</span> <span class="o">+</span> <span class="s2">" to other"</span>
+    <span class="n">os</span> <span class="o">=</span> <span class="s2">"Other"</span>
+<span class="k">end</span>
+</code></pre></div></div>
+:ET

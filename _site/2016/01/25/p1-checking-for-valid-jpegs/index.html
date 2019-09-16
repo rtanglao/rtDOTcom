@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2016/01/25/p1-checking-for-valid-jpegs/">
+    <link rel="canonical" href="http://localhost:4000/2016/01/25/p1-checking-for-valid-jpegs/">
 </head>
 
 
@@ -67,10 +67,11 @@
 <p>Notes:</p>
 
 <ol>
-<li>graphicsmagick is mac only and supposedly faster, imagemagick is fine so on a non mac i.e. Linux comment out those three lines starting with “MiniMagick.configure”</li>
-<li>I wonder if a pure ruby solution would work better?</li>
+  <li>graphicsmagick is mac only and supposedly faster, imagemagick is fine so on a non mac i.e. Linux comment out those three lines starting with “MiniMagick.configure”</li>
+  <li>I wonder if a pure ruby solution would work better?</li>
 </ol>
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="nb">require</span> <span class="s1">'mini_magick'</span>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">require</span> <span class="s1">'mini_magick'</span>
 
 <span class="no">MiniMagick</span><span class="p">.</span><span class="nf">configure</span> <span class="k">do</span> <span class="o">|</span><span class="n">config</span><span class="o">|</span> <span class="c1"># don’t need these 3 lines</span>
   <span class="n">config</span><span class="p">.</span><span class="nf">cli</span> <span class="o">=</span> <span class="ss">:graphicsmagick</span>
@@ -88,7 +89,9 @@
     <span class="vg">$stderr</span><span class="p">.</span><span class="nf">printf</span><span class="p">(</span><span class="s2">"MiniMagick::Error file:%s</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="n">jpg_file</span><span class="p">)</span>
   <span class="k">end</span>
 <span class="k">end</span>   
-</code></pre></div>
+</code></pre></div></div>
+
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

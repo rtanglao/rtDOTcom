@@ -1,0 +1,12 @@
+I"<p>World of unix :-) split for linux, gsplit for OS X</p>
+
+<h2 id="pontifications">Pontifications</h2>
+
+<p>You can see how i used this by <a href="https://github.com/rtanglao/rt-animated-gifs">going to https://github.com/rtanglao/rt-animated-gifs and scrolling down to November 4, 2016</a>.</p>
+
+<ul>
+  <li><code class="highlighter-rouge">brew install coreutils</code> on os x if you use homebrew similar incantations for other package managers</li>
+  <li><code class="highlighter-rouge">gsplit -a3 -l 1024 --numeric-suffixes=1  flickr-roland-2004-12-avgcolour.txt 1024line-chunks-flickr-roland-2004-12-avgcolour-</code> # -a3 means 3 digits i.e. <code class="highlighter-rouge">nnn</code> e.g. 001 , -l 1024 means 1024 line chunks, –numeric-suffixes=1 means start at 1 instead of 0</li>
+</ul>
+
+:ET

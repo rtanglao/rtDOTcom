@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2016/03/30/p1-r-ggmap-ggplot2-learnings/">
+    <link rel="canonical" href="http://localhost:4000/2016/03/30/p1-r-ggmap-ggplot2-learnings/">
 </head>
 
 
@@ -62,20 +62,22 @@
   </header>
 
   <article class="post-content">
-    <p>Some code snippets that weren&#39;t obvious to me from reading the manual!</p>
+    <p>Some code snippets that weren’t obvious to me from reading the manual!</p>
 
 <ol>
-<li><strong>I() - &quot;as is&quot; function</strong></li>
+  <li><strong>I() - “as is” function</strong></li>
 </ol>
 
-<p>If you don&#39;t use this function, ggmap, and ggplot will try <s>to make a factor</s> to use the values as names instead of using the values literally e.g.  out of your array of colours instead of using the actual hex colour values in the color column of a dataframe i.e. <strong>color=I(data6$color)</strong></p>
-<div class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">f</span><span class="o">=</span><span class="s2">"~rtanglao/Dropbox/GIT/rtgram/13March2016-instagram-vancouver-top-colour-lat-long-date-2015.csv"</span><span class="w">
+<p>If you don’t use this function, ggmap, and ggplot will try <s>to make a factor</s> to use the values as names instead of using the values literally e.g.  out of your array of colours instead of using the actual hex colour values in the color column of a dataframe i.e. <strong>color=I(data6$color)</strong></p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">f</span><span class="o">=</span><span class="s2">"~rtanglao/Dropbox/GIT/rtgram/13March2016-instagram-vancouver-top-colour-lat-long-date-2015.csv"</span><span class="w">
 </span><span class="n">data6</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">read.csv</span><span class="p">(</span><span class="n">file</span><span class="o">=</span><span class="n">f</span><span class="p">,</span><span class="n">stringsAsFactors</span><span class="o">=</span><span class="nb">F</span><span class="p">)</span><span class="w">
 </span><span class="p">(</span><span class="n">p</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">qplot</span><span class="p">(</span><span class="n">long</span><span class="p">,</span><span class="w"> </span><span class="n">lat</span><span class="p">,</span><span class="w"> </span><span class="n">geom</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"point"</span><span class="p">,</span><span class="w"> </span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">data6</span><span class="p">,</span><span class="w">
 </span><span class="n">color</span><span class="o">=</span><span class="n">I</span><span class="p">(</span><span class="n">data6</span><span class="o">$</span><span class="n">color</span><span class="p">),</span><span class="w"> </span><span class="n">xlim</span><span class="o">=</span><span class="nf">c</span><span class="p">(</span><span class="m">-123.27</span><span class="p">,</span><span class="w"> </span><span class="m">-123.005</span><span class="p">),</span><span class="w">
 </span><span class="n">ylim</span><span class="o">=</span><span class="nf">c</span><span class="p">(</span><span class="m">49.21</span><span class="p">,</span><span class="w"> </span><span class="m">49.324</span><span class="p">),</span><span class="w"> </span><span class="n">size</span><span class="o">=</span><span class="n">I</span><span class="p">(</span><span class="m">1.0</span><span class="p">),</span><span class="w"> </span><span class="n">alpha</span><span class="o">=</span><span class="n">I</span><span class="p">(</span><span class="m">0.4</span><span class="p">))</span><span class="o">+</span><span class="w">
 </span><span class="n">facet_wrap</span><span class="p">(</span><span class="o">~</span><span class="n">date</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">theme_minimal</span><span class="p">())</span><span class="w">
-</span></code></pre></div>
+</span></code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

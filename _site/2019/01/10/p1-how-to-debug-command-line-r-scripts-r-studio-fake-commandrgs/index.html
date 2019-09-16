@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2019/01/10/p1-how-to-debug-command-line-r-scripts-r-studio-fake-commandrgs/">
+    <link rel="canonical" href="http://localhost:4000/2019/01/10/p1-how-to-debug-command-line-r-scripts-r-studio-fake-commandrgs/">
 </head>
 
 
@@ -62,24 +62,31 @@
   </header>
 
   <article class="post-content">
-    <h1>Pontifications</h1>
+    <h1 id="pontifications">Pontifications</h1>
 
 <ul>
-<li>Put the main function in a function e.g. <code>script_main()</code></li>
-<li>Invoke <code>debug()</code> on that function i.e. <code>debug(script_main)</code>. You can see this in: <a href="https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/plot-antivirus-mentions-by-3weeks.r">plot-antivirus-mentions-by-3weeks.r</a></li>
-<li>Create a test script that mocks up <code>commandArgs</code> which is the built-in command line parsing function and <code>debugSource</code>s the file</li>
-<li>e.g. <a href="https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/testRScript.R">testRScript.R</a></li>
+  <li>Put the main function in a function e.g. <code class="highlighter-rouge">script_main()</code></li>
+  <li>Invoke <code class="highlighter-rouge">debug()</code> on that function i.e. <code class="highlighter-rouge">debug(script_main)</code>. You can see this in: <a href="https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/plot-antivirus-mentions-by-3weeks.r">plot-antivirus-mentions-by-3weeks.r</a></li>
+  <li>Create a test script that mocks up <code class="highlighter-rouge">commandArgs</code> which is the built-in command line parsing function and <code class="highlighter-rouge">debugSource</code>s the file</li>
+  <li>e.g. <a href="https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/testRScript.R">testRScript.R</a></li>
 </ul>
-<div class="highlight"><pre><code class="language-R" data-lang="R"><span class="n">commandArgs</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="k">function</span><span class="p">(</span><span class="n">...</span><span class="p">)</span><span class="w"> </span><span class="nf">return</span><span class="p">(</span><span class="nf">c</span><span class="p">(</span><span class="s2">"FF61"</span><span class="p">,</span><span class="w"> </span><span class="s2">"2018"</span><span class="p">,</span><span class="w"> </span><span class="s2">"6"</span><span class="p">,</span><span class="w"> </span><span class="s2">"26"</span><span class="p">,</span><span class="w"> </span><span class="s2">"FF62"</span><span class="p">,</span><span class="w"> </span><span class="s2">"2018"</span><span class="p">,</span><span class="w"> </span><span class="s2">"9"</span><span class="p">,</span><span class="w"> </span><span class="s2">"5"</span><span class="p">,</span><span class="w"> </span><span class="s2">"no"</span><span class="p">))</span><span class="w">
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">commandArgs</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="k">function</span><span class="p">(</span><span class="n">...</span><span class="p">)</span><span class="w"> </span><span class="nf">return</span><span class="p">(</span><span class="nf">c</span><span class="p">(</span><span class="s2">"FF61"</span><span class="p">,</span><span class="w"> </span><span class="s2">"2018"</span><span class="p">,</span><span class="w"> </span><span class="s2">"6"</span><span class="p">,</span><span class="w"> </span><span class="s2">"26"</span><span class="p">,</span><span class="w"> </span><span class="s2">"FF62"</span><span class="p">,</span><span class="w"> </span><span class="s2">"2018"</span><span class="p">,</span><span class="w"> </span><span class="s2">"9"</span><span class="p">,</span><span class="w"> </span><span class="s2">"5"</span><span class="p">,</span><span class="w"> </span><span class="s2">"no"</span><span class="p">))</span><span class="w">
 </span><span class="n">debugSource</span><span class="p">(</span><span class="s2">"plot-antivirus-mentions-by-3weeks.r"</span><span class="p">)</span><span class="w">
 </span><span class="n">rm</span><span class="p">(</span><span class="n">commandArgs</span><span class="p">)</span><span class="w">
-</span></code></pre></div>
+</span></code></pre></div></div>
 <ul>
-<li><p>and then source <code>testRScript.R</code> in R Studio to debug with all the great R Studio debug utilities</p></li>
-<li><p>Important note when you run it using RScript, <code>debug()</code> is ignored! Here&#39;s how to invoke it with the command line again:</p></li>
+  <li>
+    <p>and then source <code class="highlighter-rouge">testRScript.R</code> in R Studio to debug with all the great R Studio debug utilities</p>
+  </li>
+  <li>
+    <p>Important note when you run it using RScript, <code class="highlighter-rouge">debug()</code> is ignored! Here’s how to invoke it with the command line again:</p>
+  </li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">Rscript ./plot-antivirus-mentions-by-3weeks.r FF61 2018 6 26 FF62 2018 9 5 <span class="nb">yes</span>
-</code></pre></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Rscript ./plot-antivirus-mentions-by-3weeks.r FF61 2018 6 26 FF62 2018 9 5 <span class="nb">yes</span>
+</code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

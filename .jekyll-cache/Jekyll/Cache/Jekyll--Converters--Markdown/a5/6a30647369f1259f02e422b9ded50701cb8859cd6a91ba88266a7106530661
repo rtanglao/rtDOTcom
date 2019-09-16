@@ -1,0 +1,12 @@
+I"i	<p>We still don't have a real time geotagged photo web in 2011. Even in 2011, where there are many more geo capable cameras and cameraphones than ever, people still wait hours, days, weeks or hours to upload their photos to places like flickr as evidenced by my video of the 276 (as of this writing) photos geotagged in Vancouver on flickr taken on the day the Vancouver Canucks beat San Jose Sharks to make it into the 2011 Stanley Cup finals.</p>
+<p>My prediction: after a couple of months, we'll have about 500 photos (up from the 276 currently posted) from this day geotagged in Vancouver and uploaded to flickr.</p>
+<h3>Video of HTML5 mashup of Vancouver Beats San Jose May 24, 2011 which is currently 271 geotagged flickr photos</h3>
+<p><object type="application/x-shockwave-flash" width="400" height="246" data="http://www.flickr.com/apps/video/stewart.swf?v=71377" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"> <param name="flashvars" value="intl_lang=en-us&amp;photo_secret=a862f1248d&amp;photo_id=5774331319" />&lt;/param&gt; <param name="movie" value="http://www.flickr.com/apps/video/stewart.swf?v=71377" />&lt;/param&gt; <param name="bgcolor" value="#000000" />&lt;/param&gt; <param name="allowFullScreen" value="true" />&lt;/param&gt;<embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/video/stewart.swf?v=71377" bgcolor="#000000" allowfullscreen="true" flashvars="intl_lang=en-us&amp;photo_secret=a862f1248d&amp;photo_id=5774331319" height="246" width="400" />&lt;/embed&gt;</object></p>
+<p>Far less then the approximately 2500 geotagged photos taken during the 2010 Olympic Gold Men's Hockey day in 2010 when there were far less geo-capable phones and cameras.</p>
+<h3>Code</h3>
+<p><a href="https://github.com/rtanglao/rth5/blob/master/vancouver-beats-san-jose-24may2011.html" rel="nofollow">github.com/rtanglao/rth5/blob/master/vancouver-beats-san-...</a></p>
+<h3>Try it out yourself (you get to see my cool reverse fade :-) !)</h3>
+<p><a href="http://dl.dropbox.com/u/361757/CCC/vancouver-beats-san-jose-24may2011.html" rel="nofollow">dl.dropbox.com/u/361757/CCC/vancouver-beats-san-jose-24ma...</a></p>
+<h3>Compare and Contrast with 2010 Olympics Men's Gold Medal Hockey Game</h3>
+<p><a href="http://dl.dropbox.com/u/361757/CCC/mens-gold-medal-hockey-game28feb2010-HD.html" rel="nofollow">dl.dropbox.com/u/361757/CCC/mens-gold-medal-hockey-game28...</a></p>
+:ET

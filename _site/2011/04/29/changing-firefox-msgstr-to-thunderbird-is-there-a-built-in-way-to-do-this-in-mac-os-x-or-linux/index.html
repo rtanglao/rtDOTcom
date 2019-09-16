@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2011/04/29/changing-firefox-msgstr-to-thunderbird-is-there-a-built-in-way-to-do-this-in-mac-os-x-or-linux/">
+    <link rel="canonical" href="http://localhost:4000/2011/04/29/changing-firefox-msgstr-to-thunderbird-is-there-a-built-in-way-to-do-this-in-mac-os-x-or-linux/">
 </head>
 
 
@@ -62,7 +62,13 @@
   </header>
 
   <article class="post-content">
-    <p>In the course of customizing Mozilla's Kitsune knowledge base website for Thunderbird (from the great Mozilla SUMO dev team, thanks jsocol and team!) software, I needed to change locale strings to reference Thunderbird instead of Firefox. Locale strings consist of:</p><ul><li><em>msgid</em> e.g. "Firefox Help"</li><li>followed by <em>msgstr</em> which is the localized version e.g. "Firefox-Hilfe" (for the German locale)</li></ul><p>For Thunderbird I changed all occurences of Thunderbird to Firefox where there was a Thunderbird equivalent (I didn't change strings that have no Thunderbird equivalent e.g. there is no mobile version of Thunderbird so I left all mobile related strings unchanged). In the above example "Firefox-Hilfe" becomes "Thunderbird-Hilfe"</p><p>To do this automatically for all languages that the knowledge base for Thunderbird supports (which is dozens), I wrote a ruby script to do this: <a href="https://github.com/rtanglao/kitsune-utils/blob/master/changeMessages-po-to-tb.rb">changeMessages-po-to-tb.rb</a></p><p>Of course this fails for languages where nouns are declined like Polish which in various situations uses "Firefoksa" instead of "Firefox" for example.</p><p>But it works for most of the locales and therefore has saved me and the localizers considerable time.</p><p>Is there a better way to do this? Perhaps a built in search and replace utilty in Linux or Mac OS X?</p>
+    <p>In the course of customizing Mozilla's Kitsune knowledge base website for Thunderbird (from the great Mozilla SUMO dev team, thanks jsocol and team!) software, I needed to change locale strings to reference Thunderbird instead of Firefox. Locale strings consist of:</p>
+<ul><li><em>msgid</em> e.g. "Firefox Help"</li><li>followed by <em>msgstr</em> which is the localized version e.g. "Firefox-Hilfe" (for the German locale)</li></ul>
+<p>For Thunderbird I changed all occurences of Thunderbird to Firefox where there was a Thunderbird equivalent (I didn't change strings that have no Thunderbird equivalent e.g. there is no mobile version of Thunderbird so I left all mobile related strings unchanged). In the above example "Firefox-Hilfe" becomes "Thunderbird-Hilfe"</p>
+<p>To do this automatically for all languages that the knowledge base for Thunderbird supports (which is dozens), I wrote a ruby script to do this: <a href="https://github.com/rtanglao/kitsune-utils/blob/master/changeMessages-po-to-tb.rb">changeMessages-po-to-tb.rb</a></p>
+<p>Of course this fails for languages where nouns are declined like Polish which in various situations uses "Firefoksa" instead of "Firefox" for example.</p>
+<p>But it works for most of the locales and therefore has saved me and the localizers considerable time.</p>
+<p>Is there a better way to do this? Perhaps a built in search and replace utilty in Linux or Mac OS X?</p>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>

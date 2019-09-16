@@ -1,0 +1,12 @@
+I"Ã<h2 id="pontifications">Pontifications</h2>
+<ul>
+  <li>Following on from yesterdayâ€™s <a href="http://rolandtanglao.com/2017/05/31/p1-convert-tif-to-jpg-using-graphicsmagick-imagemagick/">How to convert all TIFFs to PNGs in a separate sub directory using ImageMagick / GraphicsMagick</a>, actually <code class="highlighter-rouge">mogrify</code> or <code class="highlighter-rouge">convert</code> one at a time in a for loop works better! A bug in batch <code class="highlighter-rouge">convert</code> perhaps?!?</li>
+  <li>example:</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Warning mogrify will overwrite your files if you don't </span>
+<span class="c"># change format or do something to create new filenames</span>
+<span class="c"># or put the files in a subdirectory</span>
+gm mogrify <span class="nt">-format</span> png <span class="k">*</span>.TIF 
+</code></pre></div></div>
+:ET

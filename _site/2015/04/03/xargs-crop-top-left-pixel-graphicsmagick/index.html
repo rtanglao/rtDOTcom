@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2015/04/03/xargs-crop-top-left-pixel-graphicsmagick/">
+    <link rel="canonical" href="http://localhost:4000/2015/04/03/xargs-crop-top-left-pixel-graphicsmagick/">
 </head>
 
 
@@ -63,9 +63,11 @@
 
   <article class="post-content">
     <p>Since <a href="https://github.com/rtanglao/rtgram/blob/gh-pages/IG-VANCOUVER_2014/RENUMBERED/TOP10/createTopColour.rb">I couldn’t get the mini_magick ruby gem</a> to work (file not found aka the ‘identify’ command couldn’t recognize jpeg files for some strange reason), i resorted to good ‘ole xargs:</p>
-<div class="highlight"><pre><code class="language-" data-lang="">find . -maxdepth 1 -name ‘*.jpg’ -print0 | \
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>find . -maxdepth 1 -name ‘*.jpg’ -print0 | \
 xargs -0 -I file gm convert -crop 1x1+0+0 file TOPCOLOUR/file
-</code></pre></div>
+</code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

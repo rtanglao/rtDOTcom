@@ -1,0 +1,20 @@
+I"�<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>Mike Bostock’s observablehq formerly known as d3.express looks great! Much better than d3.js or should I say it’s natural evolution to make it friendlier and more accessible!
+    <ul>
+      <li><a href="https://medium.com/@mbostock/a-better-way-to-code-2b1d2876a3a0">d3.express tutorial from April 2017</a></li>
+      <li>more up to date observable tutorials from December 2017
+        <ul>
+          <li><a href="https://beta.observablehq.com/@mbostock/five-minute-introduction">5 minute introduction</a>
+            <ul>
+              <li>which is part of this <a href="https://beta.observablehq.com/collection/introduction">set of observable tutorials</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="https://beta.observablehq.com/@jbum/circles-spirals-and-sunflowers">Circles, Spirals and Sunflower tutorial</a></li>
+    </ul>
+  </li>
+</ul>
+:ET

@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2019/02/15/p1-using-miller-aka-mlr-to-combine-selected-fields-from-a-csv-file/">
+    <link rel="canonical" href="http://localhost:4000/2019/02/15/p1-using-miller-aka-mlr-to-combine-selected-fields-from-a-csv-file/">
 </head>
 
 
@@ -62,18 +62,20 @@
   </header>
 
   <article class="post-content">
-    <h1>Pontifications</h1>
+    <h1 id="pontifications">Pontifications</h1>
 
 <ul>
-<li>I think it&#39;s worth pulling out the <a href="https://github.com/johnkerl/miller">miller aka mlr</a> bits from <a href="http://rolandtanglao.com/2019/02/10/p1-users-dont-know-antivirus-is-breaking-firefox-and-it-not-obvious-when-it-does/">Users don&#39;t know when their antivirus breaks Firefox and it&#39;s not obvious to them so they don&#39;t mention it in their support requests</a> because combining selected fields CSV files is a common thing to do:</li>
+  <li>I think it’s worth pulling out the <a href="https://github.com/johnkerl/miller">miller aka mlr</a> bits from <a href="http://rolandtanglao.com/2019/02/10/p1-users-dont-know-antivirus-is-breaking-firefox-and-it-not-obvious-when-it-does/">Users don’t know when their antivirus breaks Firefox and it’s not obvious to them so they don’t mention it in their support requests</a> because combining selected fields CSV files is a common thing to do:</li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">mlr <span class="nt">--csv</span> <span class="nb">cut</span> <span class="nt">-x</span> <span class="nt">-f</span>  <span class="s1">'product,topic,tags'</span>  firefox<span class="k">*</span>.csv <span class="o">&gt;</span> ff58-65-id-created-title-content-firefoxversion-1streleaseweek-day.csv
-</code></pre></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mlr <span class="nt">--csv</span> <span class="nb">cut</span> <span class="nt">-x</span> <span class="nt">-f</span>  <span class="s1">'product,topic,tags'</span>  firefox<span class="k">*</span>.csv <span class="o">&gt;</span> ff58-65-id-created-title-content-firefoxversion-1streleaseweek-day.csv
+</code></pre></div></div>
+
 <p>where:</p>
 
 <ul>
-<li><code>product, topic, tags</code> are the fields to cut out</li>
-<li><code>firefox*.csv</code> are the CSV files to combine</li>
+  <li><code class="highlighter-rouge">product, topic, tags</code> are the fields to cut out</li>
+  <li><code class="highlighter-rouge">firefox*.csv</code> are the CSV files to combine</li>
 </ul>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>

@@ -1,0 +1,8 @@
+I"*<p>As a follow up to my <a href="http://www.rolandtanglao.com/archives/2005/08/11/flock_rocks_or_chris_messina_is_a_demo_god">Flock demo at OSCON</a> post, here's what I think so far (can't tell you everything because of the terms and conditions of the trial):</p>
+<ul><li>Summary: It's very, very rough but it shows great promise.</li>
+<li>It works quite well for <a href="http://www.rolandtanglao.com/archives/2005/08/13/blurry_skytrain_at_night_3rd_flock_02_test">posting</a>&nbsp;<a href="http://www.rolandtanglao.com/archives/2005/08/13/testing_out_posting_flickr_photos_from_flock_02">pictures</a> from Flickr (minus a few details like not putting in size attributes and a title attribute as well as getting the time wrong in one of my test posts; all these things are easy and I am sure that <a href="http://an9.org/blog/">Andy</a> and his colleagues will add very quickly)</li>
+<li>It needs to support any system that supports <a href="http://archipelago.phrasewise.com/rsd">RSD</a> and the MetaWeblogging API and the MovableType extensions rather than the current situation where it seems to be hardcoded for just a few systems. (See <a href="http://ranchero.com/marsedit/">MarsEdit</a> and <a href="http://ecto.kung-foo.tv/">ecto</a> for two of many examples of how this is done right today.)
+</li><li>It is indeed cross platform (works on Mac, Windows and Linux)</li>
+<li>Really looking forward to Flock improving in <a href="http://www.rolandtanglao.com/archives/2005/03/22/yahoo_buys_flickr_flickrtime_rules_for_web_20_apps">FlickrTime</a>! Go Flock go!</li></ul>
+
+:ET

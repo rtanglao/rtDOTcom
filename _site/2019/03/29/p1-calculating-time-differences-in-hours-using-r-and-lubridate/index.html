@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2019/03/29/p1-calculating-time-differences-in-hours-using-r-and-lubridate/">
+    <link rel="canonical" href="http://localhost:4000/2019/03/29/p1-calculating-time-differences-in-hours-using-r-and-lubridate/">
 </head>
 
 
@@ -62,17 +62,20 @@
   </header>
 
   <article class="post-content">
-    <h1>Pontifications</h1>
+    <h1 id="pontifications">Pontifications</h1>
 
 <ul>
-<li> forgot to blog this: <a href="https://github.com/rtanglao/rt-making-r-and-rstudio-work-for-me#07january2019-how-to-calculate-time-differences-for-support">07January2019 how to calculate time differences in hours for support using R and lubridate</a></li>
+  <li>forgot to blog this: <a href="https://github.com/rtanglao/rt-making-r-and-rstudio-work-for-me#07january2019-how-to-calculate-time-differences-for-support">07January2019 how to calculate time differences in hours for support using R and lubridate</a></li>
 </ul>
-<div class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">interval</span><span class="p">(</span><span class="n">ymd_hms</span><span class="p">(</span><span class="s2">"2019-01-04 18:40:00"</span><span class="p">,</span><span class="w"> 
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">interval</span><span class="p">(</span><span class="n">ymd_hms</span><span class="p">(</span><span class="s2">"2019-01-04 18:40:00"</span><span class="p">,</span><span class="w"> 
   </span><span class="n">tz</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"America/Vancouver"</span><span class="p">),</span><span class="w"> 
   </span><span class="n">ymd_hms</span><span class="p">(</span><span class="s2">"2019-01-07 12:59:00"</span><span class="p">,</span><span class="w"> 
     </span><span class="n">tz</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"America/Vancouver"</span><span class="p">))</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">hours</span><span class="p">(</span><span class="m">1</span><span class="p">)</span><span class="w">
 </span><span class="p">[</span><span class="m">1</span><span class="p">]</span><span class="w"> </span><span class="m">66.31667</span><span class="w">
-</span></code></pre></div>
+</span></code></pre></div></div>
+
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

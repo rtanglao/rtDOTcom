@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2019/01/07/p1-calculating-time-differences-in-r/">
+    <link rel="canonical" href="http://localhost:4000/2019/01/07/p1-calculating-time-differences-in-r/">
 </head>
 
 
@@ -62,21 +62,23 @@
   </header>
 
   <article class="post-content">
-    <h1>Pontifications</h1>
+    <h1 id="pontifications">Pontifications</h1>
 
 <ul>
-<li>the following is from <a href="https://github.com/rtanglao/rt-making-r-and-rstudio-work-for-me#07-january-2019-how-to-calculate-time-differences-for-support">my new repo about r and r studio tips and tricks</a></li>
+  <li>the following is from <a href="https://github.com/rtanglao/rt-making-r-and-rstudio-work-for-me#07-january-2019-how-to-calculate-time-differences-for-support">my new repo about r and r studio tips and tricks</a></li>
 </ul>
-<div class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">interval</span><span class="p">(</span><span class="n">ymd_hms</span><span class="p">(</span><span class="s2">"2019-01-04 18:40:00"</span><span class="p">,</span><span class="w"> 
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">interval</span><span class="p">(</span><span class="n">ymd_hms</span><span class="p">(</span><span class="s2">"2019-01-04 18:40:00"</span><span class="p">,</span><span class="w"> 
   </span><span class="n">tz</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"America/Vancouver"</span><span class="p">),</span><span class="w"> 
   </span><span class="n">ymd_hms</span><span class="p">(</span><span class="s2">"2019-01-07 12:59:00"</span><span class="p">,</span><span class="w"> 
     </span><span class="n">tz</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"America/Vancouver"</span><span class="p">))</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">hours</span><span class="p">(</span><span class="m">1</span><span class="p">)</span><span class="w">
 </span><span class="p">[</span><span class="m">1</span><span class="p">]</span><span class="w"> </span><span class="m">66.31667</span><span class="w">
-</span></code></pre></div>
+</span></code></pre></div></div>
+
 <ul>
-<li>The above ^^^^ is the most accurate and the best way to compute <a href="http://rolandtanglao.com/2019/01/06/p1-lubridate-ydate-to-release-week-daynumber/">daynumber starting at an arbitrary day of the week e.g. Tuesday for Firefox releases</a>! 
-You can also use lubridate <code>durations</code>, but 
-durations aren&#39;t accurate when you transition 
+  <li>The above ^^^^ is the most accurate and the best way to compute <a href="http://rolandtanglao.com/2019/01/06/p1-lubridate-ydate-to-release-week-daynumber/">daynumber starting at an arbitrary day of the week e.g. Tuesday for Firefox releases</a>! 
+You can also use lubridate <code class="highlighter-rouge">durations</code>, but 
+durations aren’t accurate when you transition 
 from month to month or year to year</li>
 </ul>
 

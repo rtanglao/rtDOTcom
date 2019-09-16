@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2016/08/01/p1-howto-named-character-vector/">
+    <link rel="canonical" href="http://localhost:4000/2016/08/01/p1-howto-named-character-vector/">
 </head>
 
 
@@ -62,15 +62,18 @@
   </header>
 
   <article class="post-content">
-    <p>From <a href="http://stackoverflow.com/questions/19265172/converting-two-columns-of-a-data-frame-to-a-named-vector">stack overflow</a> assuming you have a column called &quot;colour&quot; in &quot;tt&quot;:</p>
-<div class="highlight"><pre><code class="language-R" data-lang="R"><span class="n">colour_named_vector</span><span class="w"> </span><span class="o">&lt;-</span><span class="n">setNames</span><span class="p">(</span><span class="nf">as.character</span><span class="p">(</span><span class="n">tt</span><span class="o">$</span><span class="n">colour</span><span class="p">),</span><span class="w"> 
+    <p>From <a href="http://stackoverflow.com/questions/19265172/converting-two-columns-of-a-data-frame-to-a-named-vector">stack overflow</a> assuming you have a column called “colour” in “tt”:</p>
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">colour_named_vector</span><span class="w"> </span><span class="o">&lt;-</span><span class="n">setNames</span><span class="p">(</span><span class="nf">as.character</span><span class="p">(</span><span class="n">tt</span><span class="o">$</span><span class="n">colour</span><span class="p">),</span><span class="w"> 
 </span><span class="n">tt</span><span class="o">$</span><span class="n">colour</span><span class="p">)</span><span class="w">
 </span><span class="o">&gt;</span><span class="w"> </span><span class="n">colour_named_vector</span><span class="w">
   </span><span class="c1">#FFFFFF   #FEFEFE   #FEFCFF   #FBFFFF   #F7FFFF   #FFFDFF </span><span class="w">
 </span><span class="s2">"#FFFFFF"</span><span class="w"> </span><span class="s2">"#FEFEFE"</span><span class="w"> </span><span class="s2">"#FEFCFF"</span><span class="w"> </span><span class="s2">"#FBFFFF"</span><span class="w"> </span><span class="s2">"#F7FFFF"</span><span class="w"> </span><span class="s2">"#FFFDFF"</span><span class="w"> 
 </span><span class="o">&gt;</span><span class="w"> </span><span class="n">typeof</span><span class="p">(</span><span class="n">colour_named_vector</span><span class="p">)</span><span class="w">
 </span><span class="p">[</span><span class="m">1</span><span class="p">]</span><span class="w"> </span><span class="s2">"character"</span><span class="w">
-</span></code></pre></div>
+</span></code></pre></div></div>
+
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

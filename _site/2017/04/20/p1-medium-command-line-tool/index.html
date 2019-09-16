@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2017/04/20/p1-medium-command-line-tool/">
+    <link rel="canonical" href="http://localhost:4000/2017/04/20/p1-medium-command-line-tool/">
 </head>
 
 
@@ -62,26 +62,28 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li><a href="http://rolandtanglao.com/2017/04/19/p1-medium-still-not-my-fav-but-i-will-make-it-my-link-blog/">See yesterday&#39;s initial discussion of my to-be-written medium command line link-blogging-to-rolandtanglao.com tool</a></li>
-<li>Current thinking: 
-
-<ul>
-<li>url is mandatory parameter - the url of the blog post on rolandtanglao.com</li>
-<li>optional is title  - (if not specified use title of the blog post)</li>
-<li>linktext is mandatory and specifies the text that links to the blog post </li>
-</ul></li>
-<li>Sample invocation:</li>
+  <li><a href="http://rolandtanglao.com/2017/04/19/p1-medium-still-not-my-fav-but-i-will-make-it-my-link-blog/">See yesterday’s initial discussion of my to-be-written medium command line link-blogging-to-rolandtanglao.com tool</a></li>
+  <li>Current thinking:
+    <ul>
+      <li>url is mandatory parameter - the url of the blog post on rolandtanglao.com</li>
+      <li>optional is title  - (if not specified use title of the blog post)</li>
+      <li>linktext is mandatory and specifies the text that links to the blog post</li>
+    </ul>
+  </li>
+  <li>Sample invocation:</li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">./link-blog.rb <span class="se">\</span>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./link-blog.rb <span class="se">\</span>
 <span class="nt">-url</span> <span class="se">\</span>
 http://rolandtanglao.com/2017/04/19/p1-medium-still-not-my-fav-but-i-will-make-it-my-link-blog/ <span class="se">\</span>
 <span class="nt">-title</span> <span class="s2">"Medium could be a cool link blog"</span> <span class="se">\</span>
 <span class="nt">-linktext</span> <span class="se">\</span>
 <span class="s2">"Still not a fan of Medium but I'll grudgingly admit it gets good flow"</span>
-</code></pre></div>
+</code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

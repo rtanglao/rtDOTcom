@@ -1,0 +1,18 @@
+I"�
+<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>Hilariously bad :-) : No unique identifier in Google Play’s CSV file of supported devices</li>
+  <li>Maybe Google has it but doesn’t want to export it or maybe Android just doesn’t have it due to a bad design decision at the beginning of Android? Maybe something else :-) ?!?</li>
+  <li>Anyhow if I hash together all 4 fields: Retail Branding, Marketing Name, Device and Model, I do get something unique, hooray</li>
+  <li>Here’s the code from: <a href="https://github.com/rtanglao/rt-fennec-gplay/blob/master/synthetic_add_device_branding_marketing_model.rb">synthetic_add_device_branding_marketing_model.rb</a>  :</li>
+</ul>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">id_hashstr</span> <span class="o">=</span> <span class="s2">""</span>
+<span class="n">id_hashstr</span> <span class="o">+=</span>  <span class="n">d1</span><span class="p">[</span><span class="s2">"Retail Branding"</span><span class="p">]</span> <span class="k">if</span> <span class="o">!</span><span class="n">d1</span><span class="p">[</span><span class="s2">"Retail Branding"</span><span class="p">].</span><span class="nf">nil?</span>
+<span class="n">id_hashstr</span> <span class="o">+=</span>  <span class="n">d1</span><span class="p">[</span><span class="s2">"Marketing Name"</span><span class="p">]</span> <span class="k">if</span> <span class="o">!</span><span class="n">d1</span><span class="p">[</span><span class="s2">"Marketing Name"</span><span class="p">].</span><span class="nf">nil?</span>
+<span class="n">id_hashstr</span> <span class="o">+=</span>  <span class="n">d1</span><span class="p">[</span><span class="s2">"Device"</span><span class="p">]</span> <span class="k">if</span> <span class="o">!</span><span class="n">d1</span><span class="p">[</span><span class="s2">"Device"</span><span class="p">].</span><span class="nf">nil?</span>
+<span class="n">id_hashstr</span> <span class="o">+=</span>  <span class="n">d1</span><span class="p">[</span><span class="s2">"Model"</span><span class="p">]</span> <span class="k">if</span> <span class="o">!</span><span class="n">d1</span><span class="p">[</span><span class="s2">"Model"</span><span class="p">].</span><span class="nf">nil?</span>
+<span class="n">d1</span><span class="p">[</span><span class="s2">"id"</span><span class="p">]</span> <span class="o">=</span> <span class="no">Digest</span><span class="o">::</span><span class="no">SHA2</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="mi">256</span><span class="p">).</span><span class="nf">hexdigest</span><span class="p">(</span><span class="n">id_hashstr</span><span class="p">)</span>
+</code></pre></div></div>
+:ET

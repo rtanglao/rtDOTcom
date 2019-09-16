@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2017/09/24/p1-installing-ruby-242-on-gpd-pocket-ubuntu-1604/">
+    <link rel="canonical" href="http://localhost:4000/2017/09/24/p1-installing-ruby-242-on-gpd-pocket-ubuntu-1604/">
 </head>
 
 
@@ -62,21 +62,22 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li>I followed the instructions on the GPD pocket at <a href="https://gorails.com/setup/ubuntu/16.04">Setup Ruby On Rails on
+  <li>I followed the instructions on the GPD pocket at <a href="https://gorails.com/setup/ubuntu/16.04">Setup Ruby On Rails on
 Ubuntu 16.04 Xenial Xerus</a></li>
 </ul>
 
 <p>Specifically</p>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">sudo </span>apt-get update
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt-get update
 <span class="nb">sudo </span>apt-get <span class="nb">install </span>git-core curl zlib1g-dev<span class="se">\</span>
  build-essential libssl-dev libreadline-dev<span class="se">\</span>
   libyaml-dev libsqlite3-dev sqlite3<span class="se">\</span>
    libxml2-dev libxslt1-dev libcurl4-openssl-dev<span class="se">\</span>
     python-software-properties libffi-dev nodejs
-
+    
 <span class="nb">cd
 </span>git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 <span class="nb">echo</span> <span class="s1">'export PATH="$HOME/.rbenv/bin:$PATH"'</span> <span class="o">&gt;&gt;</span> ~/.bashrc
@@ -92,7 +93,8 @@ rbenv global 2.4.2
 ruby <span class="nt">-v</span>
 
 gem <span class="nb">install </span>bundler
-</code></pre></div>
+</code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

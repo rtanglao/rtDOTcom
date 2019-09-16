@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2018/02/27/p1-jekyll-surge-windows/">
+    <link rel="canonical" href="http://localhost:4000/2018/02/27/p1-jekyll-surge-windows/">
 </head>
 
 
@@ -62,12 +62,13 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li>have to re-compile ruby from scratch otherwise jekyll gem won&#39;t build, no idea why :-)</li>
+  <li>have to re-compile ruby from scratch otherwise jekyll gem won’t build, no idea why :-)</li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">sudo </span>apt-get update <span class="nt">-y</span> <span class="o">&amp;&amp;</span> <span class="nb">sudo </span>apt-get upgrade <span class="nt">-y</span>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt-get update <span class="nt">-y</span> <span class="o">&amp;&amp;</span> <span class="nb">sudo </span>apt-get upgrade <span class="nt">-y</span>
 <span class="nb">sudo </span>apt-get <span class="nb">install</span> <span class="nt">-y</span> build-essential ruby-full
 <span class="nb">sudo </span>gem update <span class="nt">--system</span>
 <span class="nb">sudo </span>gem <span class="nb">install </span>jekyll bundler
@@ -79,7 +80,8 @@ apt-get <span class="nb">install </span>zlib1g-dev
 curl <span class="nt">-sL</span> https://deb.nodesource.com/setup_8.x | <span class="nb">sudo</span> <span class="nt">-E</span> bash -
 <span class="nb">sudo </span>apt-get <span class="nb">install</span> <span class="nt">-y</span> nodejs 
 <span class="nb">sudo </span>npm <span class="nb">install</span> <span class="nt">--global</span> surge
-</code></pre></div>
+</code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

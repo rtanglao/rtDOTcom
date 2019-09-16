@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2019/01/08/p1-howto-use-r-lubridate-to-compute-arbitrary-daynumber-for-firefox-release/">
+    <link rel="canonical" href="http://localhost:4000/2019/01/08/p1-howto-use-r-lubridate-to-compute-arbitrary-daynumber-for-firefox-release/">
 </head>
 
 
@@ -62,12 +62,13 @@
   </header>
 
   <article class="post-content">
-    <h1>Pontifications</h1>
+    <h1 id="pontifications">Pontifications</h1>
 
 <ul>
-<li>Following up from yesterday&#39;s <a href="title:" title="R and Lubridate: How to add daynumber starting with Firefox release date i.e. Tuesday to a dataframe">R and Lubridate: Calculating Time Differences in R using intervals aka a better way to compute daynumber starting from arbitrary day of the week</a></li>
+  <li>Following up from yesterday’s <a href="title:" title="R and Lubridate: How to add daynumber starting with Firefox release date i.e. Tuesday to a dataframe">R and Lubridate: Calculating Time Differences in R using intervals aka a better way to compute daynumber starting from arbitrary day of the week</a></li>
 </ul>
-<div class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">add_release_day_number</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="k">function</span><span class="p">(</span><span class="w">
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">add_release_day_number</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="k">function</span><span class="p">(</span><span class="w">
   </span><span class="n">df_release</span><span class="p">,</span><span class="w">
   </span><span class="n">yyyy</span><span class="p">,</span><span class="w">
   </span><span class="n">mm</span><span class="p">,</span><span class="w">
@@ -79,7 +80,7 @@
     </span><span class="n">yyyy</span><span class="p">,</span><span class="w"> </span><span class="n">mm</span><span class="p">,</span><span class="w"> </span><span class="n">dd</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="w"> 
     </span><span class="n">tz</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"America/Vancouver"</span><span class="w">
     </span><span class="p">)</span><span class="w">
-
+  
   </span><span class="n">return</span><span class="w"> </span><span class="p">(</span><span class="w">
     </span><span class="n">df_release</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
       </span><span class="n">mutate</span><span class="p">(</span><span class="w">
@@ -90,11 +91,12 @@
         </span><span class="p">)</span><span class="w">
   </span><span class="p">)</span><span class="w">
 </span><span class="p">}</span><span class="w">
-</span></code></pre></div>
+</span></code></pre></div></div>
+
 <ul>
-<li>The above ^^^^ is the most accurate and the best way to compute <a href="http://rolandtanglao.com/2019/01/06/p1-lubridate-ydate-to-release-week-daynumber/">daynumber starting at an arbitrary day of the week e.g. Tuesday for Firefox releases</a>! 
-You can also use lubridate <code>durations</code>, but 
-durations aren&#39;t accurate when you transition 
+  <li>The above ^^^^ is the most accurate and the best way to compute <a href="http://rolandtanglao.com/2019/01/06/p1-lubridate-ydate-to-release-week-daynumber/">daynumber starting at an arbitrary day of the week e.g. Tuesday for Firefox releases</a>! 
+You can also use lubridate <code class="highlighter-rouge">durations</code>, but 
+durations aren’t accurate when you transition 
 from month to month or year to year</li>
 </ul>
 

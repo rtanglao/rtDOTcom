@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2018/03/29/p1-best-to-convert-google-play-store-reviews-utf16-utf8-iconv/">
+    <link rel="canonical" href="http://localhost:4000/2018/03/29/p1-best-to-convert-google-play-store-reviews-utf16-utf8-iconv/">
 </head>
 
 
@@ -62,18 +62,27 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li><p>Following up from <a href="http://rolandtanglao.com/2018/03/28/p1-windows-files-are-utf16-not-utf8-how-to-read-them-in-ruby/">yesterday&#39;s Windows files are UTF-16 NOT UTF8, how to read them in ruby: &#39;rb:bom|utf-16&#39;</a>:</p>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Following up from [yesterday’s Windows files are UTF-16 NOT UTF8, how to read them in ruby: ‘rb:bom</td>
+          <td>utf-16’](http://rolandtanglao.com/2018/03/28/p1-windows-files-are-utf16-not-utf8-how-to-read-them-in-ruby/):</td>
+        </tr>
+      </tbody>
+    </table>
+    <ul>
+      <li>Google Play Store Review spreadsheets are in UTF-16 not UTF-8 for some strange reason.</li>
+      <li>Most tools like ruby expect UTF-8 and work better with UTF-8</li>
+      <li>Therefore convert to UTF-8 as follows using iconv:</li>
+    </ul>
 
-<ul>
-<li>Google Play Store Review spreadsheets are in UTF-16 not UTF-8 for some strange reason.</li>
-<li>Most tools like ruby expect UTF-8 and work better with UTF-8</li>
-<li>Therefore convert to UTF-8 as follows using iconv:</li>
-</ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"> iconv <span class="nt">-f</span> UTF-16 <span class="nt">-t</span> UTF-8 utf16-spreadsheet-from-gplay-reviews.csv <span class="o">&gt;</span>utf8-spreadsheet-from-gplay-reviews.csv
-</code></pre></div></li>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  iconv <span class="nt">-f</span> UTF-16 <span class="nt">-t</span> UTF-8 utf16-spreadsheet-from-gplay-reviews.csv <span class="o">&gt;</span>utf8-spreadsheet-from-gplay-reviews.csv
+</code></pre></div>    </div>
+  </li>
 </ul>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>

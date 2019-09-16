@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2017/08/07/p5-part5-ig-van-jan2016-chromeless-big-dots/">
+    <link rel="canonical" href="http://localhost:4000/2017/08/07/p5-part5-ig-van-jan2016-chromeless-big-dots/">
 </head>
 
 
@@ -62,19 +62,20 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li><a href="http://rolandtanglao.com/2017/08/07/p1-mpg-scatterplot-average-colour-instagram-r-data-science/">Part 1</a>, <a href="http://rolandtanglao.com/2017/08/07/p2-part2-create-csv-files-with-plotrix-colour-names/">Part 2</a>, <a href="http://rolandtanglao.com/2017/08/07/p3-part3-create-naive-scatterplot-with-colournames/">Part 3</a>, <a href="http://rolandtanglao.com/2017/08/07/p4-part4-ig-van-jan2016-colour-the-dots-with-the-right-colour-name/">part 4</a></li>
-<li>First, here&#39;s the output. The difference from part 4 is the dots size=20 and all chrome has been removed (legends, etc) :</li>
+  <li><a href="http://rolandtanglao.com/2017/08/07/p1-mpg-scatterplot-average-colour-instagram-r-data-science/">Part 1</a>, <a href="http://rolandtanglao.com/2017/08/07/p2-part2-create-csv-files-with-plotrix-colour-names/">Part 2</a>, <a href="http://rolandtanglao.com/2017/08/07/p3-part3-create-naive-scatterplot-with-colournames/">Part 3</a>, <a href="http://rolandtanglao.com/2017/08/07/p4-part4-ig-van-jan2016-colour-the-dots-with-the-right-colour-name/">part 4</a></li>
+  <li>First, here’s the output. The difference from part 4 is the dots size=20 and all chrome has been removed (legends, etc) :</li>
 </ul>
 
-<p><a data-flickr-embed="true"  href="https://www.flickr.com/photos/roland/36438473065/in/dateposted-ff/" title="size20-part5-colourname-chromeless-january2016-ig-van-avgcolour-id-mf-month-day-daynum-unixtime-hour-colourname"><img src="https://farm5.staticflickr.com/4342/36438473065_ded41ba128_n.jpg" width="320" height="174" alt="size20-part5-colourname-chromeless-january2016-ig-van-avgcolour-id-mf-month-day-daynum-unixtime-hour-colourname"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+<p><a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/36438473065/in/dateposted-ff/" title="size20-part5-colourname-chromeless-january2016-ig-van-avgcolour-id-mf-month-day-daynum-unixtime-hour-colourname"><img src="https://farm5.staticflickr.com/4342/36438473065_ded41ba128_n.jpg" width="320" height="174" alt="size20-part5-colourname-chromeless-january2016-ig-van-avgcolour-id-mf-month-day-daynum-unixtime-hour-colourname" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
 
 <ul>
-<li>Here&#39;s the relevant code from <a href="https://github.com/rtanglao/2016-r-rtgram/blob/master/part5-make-it-chromeless-ig-van-jan2016-scatterplot.R">https://github.com/rtanglao/2016-r-rtgram/blob/master/part5-make-it-chromeless-ig-van-jan2016-scatterplot.R</a> : </li>
+  <li>Here’s the relevant code from <a href="https://github.com/rtanglao/2016-r-rtgram/blob/master/part5-make-it-chromeless-ig-van-jan2016-scatterplot.R">https://github.com/rtanglao/2016-r-rtgram/blob/master/part5-make-it-chromeless-ig-van-jan2016-scatterplot.R</a> :</li>
 </ul>
-<div class="highlight"><pre><code class="language-R" data-lang="R"><span class="n">csv_url</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"https://raw.githubusercontent.com/rtanglao/2016-r-rtgram/master/JANUARY2016/january2016-ig-van-avgcolour-id-mf-month-day-daynum-unixtime-hour-colourname.csv"</span><span class="w">
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">csv_url</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"https://raw.githubusercontent.com/rtanglao/2016-r-rtgram/master/JANUARY2016/january2016-ig-van-avgcolour-id-mf-month-day-daynum-unixtime-hour-colourname.csv"</span><span class="w">
 </span><span class="n">average_colour_ig_van_jan2016_colourname</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">read_csv</span><span class="p">(</span><span class="n">csv_url</span><span class="p">)</span><span class="w">
 </span><span class="n">plot</span><span class="w"> </span><span class="o">=</span><span class="w">
     </span><span class="n">ggplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">average_colour_ig_van_jan2016_colourname</span><span class="p">)</span><span class="o">+</span><span class="w">
@@ -83,16 +84,20 @@
     </span><span class="n">theme_void</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w">
     </span><span class="n">theme</span><span class="p">(</span><span class="n">legend.position</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'none'</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
 </span><span class="n">theme</span><span class="p">(</span><span class="n">strip.background</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">element_blank</span><span class="p">(),</span><span class="n">strip.text.x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">element_blank</span><span class="p">())</span><span class="w">
-</span></code></pre></div>
+</span></code></pre></div></div>
+
 <ul>
-<li>Here&#39;s the code to remove the chrome: <code>theme_void</code>and <code>theme(legend.position = &#39;none&#39;) +
+  <li>Here’s the code to remove the chrome: <code class="highlighter-rouge">theme_void</code>and <code class="highlighter-rouge">theme(legend.position = 'none') +
 theme(strip.background = element_blank(),strip.text.x = element_blank())</code></li>
-<li>This RScript was invoked as follows:</li>
+  <li>This RScript was invoked as follows:</li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cd </span>JANUARY2016
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>JANUARY2016
 Rscript ../part5-make-it-chromeless-ig-van-jan2016-scatterplot.R 
 <span class="nb">mv </span>part5-colourname-chromeless-january2016-ig-van-avgcolour-id-mf-month-day-daynum-unixtime-hour-colourname.png size20-part5-colourname-chromeless-january2016-ig-van-avgcolour-id-mf-month-day-daynum-unixtime-hour-colourname.png
-</code></pre></div>
+</code></pre></div></div>
+
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

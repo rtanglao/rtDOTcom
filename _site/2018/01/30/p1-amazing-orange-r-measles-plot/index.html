@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2018/01/30/p1-amazing-orange-r-measles-plot/">
+    <link rel="canonical" href="http://localhost:4000/2018/01/30/p1-amazing-orange-r-measles-plot/">
 </head>
 
 
@@ -62,7 +62,7 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <p>Amazing orange measles plot using r, ggpplot using a red colour palette (hence the orange) in <a href="https://simplystatistics.org/2018/01/22/the-dslabs-package-provides-datasets-for-teaching-data-science/">Some datasets for teaching data science</a></p>
 
@@ -77,7 +77,8 @@ This dataset contains yearly counts for Hepatitis A, measles, mumps, pertussis, 
 </blockquote>
 
 <p><strong>END QUOTE</strong></p>
-<div class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">library</span><span class="p">(</span><span class="n">RColorBrewer</span><span class="p">)</span><span class="w">
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">RColorBrewer</span><span class="p">)</span><span class="w">
 </span><span class="n">data</span><span class="p">(</span><span class="s2">"us_contagious_diseases"</span><span class="p">)</span><span class="w">
 </span><span class="n">the_disease</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="s2">"Measles"</span><span class="w">
 </span><span class="n">us_contagious_diseases</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
@@ -93,9 +94,10 @@ This dataset contains yearly counts for Hepatitis A, measles, mumps, pertussis, 
   </span><span class="n">ggtitle</span><span class="p">(</span><span class="n">the_disease</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
   </span><span class="n">ylab</span><span class="p">(</span><span class="s2">""</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
   </span><span class="n">xlab</span><span class="p">(</span><span class="s2">""</span><span class="p">)</span><span class="w">
-</span></code></pre></div>
+</span></code></pre></div></div>
+
 <ul>
-<li>Much to learn from the above code!</li>
+  <li>Much to learn from the above code!</li>
 </ul>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>

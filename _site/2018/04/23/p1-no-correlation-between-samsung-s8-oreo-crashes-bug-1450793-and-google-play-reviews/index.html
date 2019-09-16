@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2018/04/23/p1-no-correlation-between-samsung-s8-oreo-crashes-bug-1450793-and-google-play-reviews/">
+    <link rel="canonical" href="http://localhost:4000/2018/04/23/p1-no-correlation-between-samsung-s8-oreo-crashes-bug-1450793-and-google-play-reviews/">
 </head>
 
 
@@ -62,16 +62,17 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li>Following on from yesterday&#39;s post, <a href="http://rolandtanglao.com/2018/04/22/p1-r-code-to-plot-count-of-unanswered-1-and-2-star-reviews/">R Code to plot unanswered google play reviews using ggplot2 including code to rotate x axis labels so they are readable</a> :</li>
-<li>There doesn&#39;t seem to be a correlation between Samsung S8 Devices in <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1450793">bug 1450793</a>  (crashing after Oreo update) and Google Play Store 1 and 2 star reviews for those same S8 devices</li>
-<li>If there was a correlation you&#39;d see a spike in S8 device 1 and 2 star reviews in Mid March-early April 2018 just like we saw a spike in crashes for these devices in bug 1450793</li>
+  <li>Following on from yesterday’s post, <a href="http://rolandtanglao.com/2018/04/22/p1-r-code-to-plot-count-of-unanswered-1-and-2-star-reviews/">R Code to plot unanswered google play reviews using ggplot2 including code to rotate x axis labels so they are readable</a> :</li>
+  <li>There doesn’t seem to be a correlation between Samsung S8 Devices in <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1450793">bug 1450793</a>  (crashing after Oreo update) and Google Play Store 1 and 2 star reviews for those same S8 devices</li>
+  <li>If there was a correlation you’d see a spike in S8 device 1 and 2 star reviews in Mid March-early April 2018 just like we saw a spike in crashes for these devices in bug 1450793</li>
 </ul>
 
-<p>Here&#39;s the code <a href="https://github.com/rtanglao/rt-fennec-gplay/blob/master/23april2018-r-scratch.R">https://github.com/rtanglao/rt-fennec-gplay/blob/master/23april2018-r-scratch.R</a>:</p>
-<div class="highlight"><pre><code class="language-R" data-lang="R"><span class="n">count_p_red_device</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">year_month_day_device_all_languages_unreplied_one_and_two_star_reviews_star_last_updated_language</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
+<p>Here’s the code <a href="https://github.com/rtanglao/rt-fennec-gplay/blob/master/23april2018-r-scratch.R">https://github.com/rtanglao/rt-fennec-gplay/blob/master/23april2018-r-scratch.R</a>:</p>
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">count_p_red_device</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">year_month_day_device_all_languages_unreplied_one_and_two_star_reviews_star_last_updated_language</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
   </span><span class="n">add_count</span><span class="p">(</span><span class="n">Device</span><span class="p">,</span><span class="w"> </span><span class="n">sort</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">TRUE</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
   </span><span class="n">filter</span><span class="p">(</span><span class="n">n</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="m">100</span><span class="p">)</span><span class="w">
 </span><span class="n">p_count_red_device</span><span class="w"> </span><span class="o">=</span><span class="w"> 
@@ -105,10 +106,10 @@
   </span><span class="n">geom_bar</span><span class="p">(</span><span class="n">stat</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"count"</span><span class="p">)</span><span class="o">+</span><span class="w">
   </span><span class="n">theme</span><span class="p">(</span><span class="n">axis.text.x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">element_text</span><span class="p">(</span><span class="n">angle</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">90</span><span class="p">,</span><span class="w"> </span><span class="n">hjust</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w"> 
   </span><span class="n">facet_wrap</span><span class="p">(</span><span class="o">~</span><span class="w"> </span><span class="n">Device</span><span class="p">)</span><span class="w">
-</span></code></pre></div>
-<h3>Plot showing no correlation between s8 crashes and s8 reviews on the google play store (crashes started occurring with oreo upgrade but there&#39;s no corresponding spike in 1 and 2 star reviews)</h3>
+</span></code></pre></div></div>
+<h3 id="plot-showing-no-correlation-between-s8-crashes-and-s8-reviews-on-the-google-play-store-crashes-started-occurring-with-oreo-upgrade-but-theres-no-corresponding-spike-in-1-and-2-star-reviews">Plot showing no correlation between s8 crashes and s8 reviews on the google play store (crashes started occurring with oreo upgrade but there’s no corresponding spike in 1 and 2 star reviews)</h3>
 
-<p><a data-flickr-embed="true"  href="https://www.flickr.com/photos/roland/39845714550/in/datetaken-public/" title="aka no correlation between s8 crashes and s8 reviews on the google play store (crashes started occurring with oreo upgrade but there&#x27;s no corresponding spike in 1 and 2 star reviews)s8_family_bug_1450793"><img src="https://farm1.staticflickr.com/883/39845714550_198881975a_n.jpg" width="320" height="291" alt="aka no correlation between s8 crashes and s8 reviews on the google play store (crashes started occurring with oreo upgrade but there&#x27;s no corresponding spike in 1 and 2 star reviews)s8_family_bug_1450793"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+<p><a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/39845714550/in/datetaken-public/" title="aka no correlation between s8 crashes and s8 reviews on the google play store (crashes started occurring with oreo upgrade but there&#x27;s no corresponding spike in 1 and 2 star reviews)s8_family_bug_1450793"><img src="https://farm1.staticflickr.com/883/39845714550_198881975a_n.jpg" width="320" height="291" alt="aka no correlation between s8 crashes and s8 reviews on the google play store (crashes started occurring with oreo upgrade but there&#x27;s no corresponding spike in 1 and 2 star reviews)s8_family_bug_1450793" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>

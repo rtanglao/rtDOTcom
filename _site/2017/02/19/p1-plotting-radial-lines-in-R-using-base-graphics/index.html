@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2017/02/19/p1-plotting-radial-lines-in-R-using-base-graphics/">
+    <link rel="canonical" href="http://localhost:4000/2017/02/19/p1-plotting-radial-lines-in-R-using-base-graphics/">
 </head>
 
 
@@ -62,12 +62,13 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <p>I forgot to blog this because I found a better way to do this with ggplot2 instead of base graphics.</p>
 
-<p>Anyway here&#39;s the code:</p>
-<div class="highlight"><pre><code class="language-R" data-lang="R"><span class="n">index</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="w">
+<p>Anyway here’s the code:</p>
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">index</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="w">
 </span><span class="k">for</span><span class="p">(</span><span class="n">i</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="m">1</span><span class="o">:</span><span class="n">nrow</span><span class="p">(</span><span class="n">colours360</span><span class="p">))</span><span class="w"> </span><span class="p">{</span><span class="w">
 </span><span class="n">draw.radial.line</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="m">1</span><span class="p">,</span><span class="w"> 
   </span><span class="n">deg</span><span class="o">=</span><span class="w"> </span><span class="n">index</span><span class="p">,</span><span class="w"> </span><span class="n">center</span><span class="o">=</span><span class="nf">c</span><span class="p">(</span><span class="m">3</span><span class="p">,</span><span class="m">2</span><span class="p">),</span><span class="w"> 
@@ -76,7 +77,8 @@
 </span><span class="n">Sys.sleep</span><span class="p">(</span><span class="m">1.0</span><span class="p">)</span><span class="w">
 </span><span class="n">index</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">index</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="m">1</span><span class="w">
 </span><span class="p">}</span><span class="w">
-</span></code></pre></div>
+</span></code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

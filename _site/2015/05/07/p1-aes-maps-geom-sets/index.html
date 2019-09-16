@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2015/05/07/p1-aes-maps-geom-sets/">
+    <link rel="canonical" href="http://localhost:4000/2015/05/07/p1-aes-maps-geom-sets/">
 </head>
 
 
@@ -62,10 +62,10 @@
   </header>
 
   <article class="post-content">
-    <h2>Why does the following R program using ggplot2 work?</h2>
-
+    <h2 id="why-does-the-following-r-program-using-ggplot2-work">Why does the following R program using ggplot2 work?</h2>
 <p>Answer: because aes MAPS values and geom SETS values!</p>
-<div class="highlight"><pre><code class="language-" data-lang="">getnumericColour &lt;-
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>getnumericColour &lt;-
 function(colorname) {
 colour_matrix=col2rgb(colorname)
 return(as.numeric(colour_matrix[1,1]) * 65536 +
@@ -80,7 +80,8 @@ geom_bar(colour=colour_hex_strings_all,
 stat=“identity”,fill=colour_hex_strings_all)+
 scale_x_discrete(limits = sorted$colorname)+
 scale_fill_manual(values = colour_hex_strings_all)
-</code></pre></div>
+</code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

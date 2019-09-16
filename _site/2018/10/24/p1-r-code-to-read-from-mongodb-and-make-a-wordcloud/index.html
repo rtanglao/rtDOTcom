@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2018/10/24/p1-r-code-to-read-from-mongodb-and-make-a-wordcloud/">
+    <link rel="canonical" href="http://localhost:4000/2018/10/24/p1-r-code-to-read-from-mongodb-and-make-a-wordcloud/">
 </head>
 
 
@@ -62,16 +62,17 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li>Mongodb times were weird and having to use <code>$date</code> with R unlike the mongodb ruby driver was also weird.</li>
-<li>Time in general was a nightmare to go from local Pacific time to UTC</li>
-<li>Finally it&#39;s the whole SVG to PNG dance is always weird; I punted by doing a screenshot in Firefox.</li>
-<li>Anyhow the code is called: <a href="https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/23october2018-wordcloud-ff63.r">23october2018-wordcloud-ff63.r</a> </li>
-<li>ToDo: remove Firefox, Firefox versions, ff, and numbers and other stop words</li>
+  <li>Mongodb times were weird and having to use <code class="highlighter-rouge">$date</code> with R unlike the mongodb ruby driver was also weird.</li>
+  <li>Time in general was a nightmare to go from local Pacific time to UTC</li>
+  <li>Finally it’s the whole SVG to PNG dance is always weird; I punted by doing a screenshot in Firefox.</li>
+  <li>Anyhow the code is called: <a href="https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/23october2018-wordcloud-ff63.r">23october2018-wordcloud-ff63.r</a></li>
+  <li>ToDo: remove Firefox, Firefox versions, ff, and numbers and other stop words</li>
 </ul>
-<div class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">library</span><span class="p">(</span><span class="n">mongolite</span><span class="p">)</span><span class="w">
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">mongolite</span><span class="p">)</span><span class="w">
 </span><span class="n">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span><span class="w">
 </span><span class="n">library</span><span class="p">(</span><span class="n">textclean</span><span class="p">)</span><span class="w">
 </span><span class="n">library</span><span class="p">(</span><span class="n">tidytext</span><span class="p">)</span><span class="w">
@@ -128,11 +129,12 @@
 </span><span class="n">wordcloud2</span><span class="p">(</span><span class="n">top150</span><span class="p">)</span><span class="w">
 </span><span class="c1"># can't export to PNG, it's just SVG but luckily in R studio you can open in firefox and take a screenshot</span><span class="w">
 </span><span class="c1"># issue is here for this png export bug https://github.com/Lchiffon/wordcloud2/issues/8</span><span class="w">
+  
+</span></code></pre></div></div>
 
-</span></code></pre></div>
-<h3>23October2018 Day 1 of Firefox 63 WordCloud Output</h3>
+<h3 id="23october2018-day-1-of-firefox-63-wordcloud-output">23October2018 Day 1 of Firefox 63 WordCloud Output</h3>
 
-<p><a data-flickr-embed="true"  href="https://www.flickr.com/photos/roland/44821741664/in/dateposted-ff/" title="24october2018-wordcloud-screenshot-firefox62-day1-23oct2018"><img src="https://farm2.staticflickr.com/1962/44821741664_56a6cab3ae.jpg" width="500" height="350" alt="24october2018-wordcloud-screenshot-firefox62-day1-23oct2018"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+<p><a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/44821741664/in/dateposted-ff/" title="24october2018-wordcloud-screenshot-firefox62-day1-23oct2018"><img src="https://farm2.staticflickr.com/1962/44821741664_56a6cab3ae.jpg" width="500" height="350" alt="24october2018-wordcloud-screenshot-firefox62-day1-23oct2018" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>

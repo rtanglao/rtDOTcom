@@ -1,0 +1,43 @@
+I"-<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>see <a href="http://rolandtanglao.com/2018/09/17/p1-the-graph-firefox62-sumo-support-forum-tags-week1/">previous post</a> for the code that this builds on</li>
+</ul>
+
+<h3 id="code-with-all-the-operating-system-tags-removed">code with all the operating system tags removed</h3>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">tags_gt10_remove_common_tags</span><span class="w"> </span><span class="o">&lt;-</span><span class="w">
+</span><span class="n">tags_count_gt_10</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+  </span><span class="n">filter</span><span class="p">(</span><span class="n">tag</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s2">"desktop"</span><span class="w"> </span><span class="o">&amp;</span><span class="w">
+    </span><span class="n">tag</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s2">"escalate"</span><span class="w"> </span><span class="o">&amp;</span><span class="w">
+    </span><span class="n">tag</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s2">"beta"</span><span class="w"> </span><span class="o">&amp;</span><span class="w">
+    </span><span class="n">tag</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s2">"esr"</span><span class="w"> </span><span class="o">&amp;</span><span class="w">
+    </span><span class="n">tag</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s2">"firefox-520"</span><span class="w"> </span><span class="o">&amp;</span><span class="w">
+    </span><span class="n">tag</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s2">"firefox-600"</span><span class="w"> </span><span class="o">&amp;</span><span class="w">
+    </span><span class="n">tag</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s2">"firefox-610"</span><span class="w"> </span><span class="o">&amp;</span><span class="w">
+    </span><span class="n">tag</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s2">"firefox-6102"</span><span class="w"> </span><span class="o">&amp;</span><span class="w">
+    </span><span class="n">tag</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s2">"firefox-620"</span><span class="w"> </span><span class="o">&amp;</span><span class="w">
+    </span><span class="n">tag</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s2">"firefox-630"</span><span class="w"> </span><span class="o">&amp;</span><span class="w">
+    </span><span class="n">tag</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s2">"linux"</span><span class="w"> </span><span class="o">&amp;</span><span class="w">
+    </span><span class="n">tag</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s2">"mac-os"</span><span class="w"> </span><span class="o">&amp;</span><span class="w">
+    </span><span class="n">tag</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s2">"needsinfo"</span><span class="w"> </span><span class="o">&amp;</span><span class="w">
+    </span><span class="n">tag</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s2">"other"</span><span class="w"> </span><span class="o">&amp;</span><span class="w">
+    </span><span class="n">tag</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s2">"rolandff62experiment"</span><span class="w"> </span><span class="o">&amp;</span><span class="w">
+    </span><span class="n">tag</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s2">"windows-10"</span><span class="w"> </span><span class="o">&amp;</span><span class="w">
+    </span><span class="n">tag</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s2">"windows-7"</span><span class="w"> </span><span class="o">&amp;</span><span class="w">
+    </span><span class="n">tag</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s2">"windows-81"</span><span class="w"> </span><span class="o">&amp;</span><span class="w">
+    </span><span class="n">tag</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s2">"windows-xp"</span><span class="w"> </span><span class="p">)</span><span class="w">
+</span><span class="n">p</span><span class="m">3</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ggplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">tags_gt10_remove_common_tags</span><span class="p">,</span><span class="w"> </span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">tag</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="o">=</span><span class="n">n</span><span class="p">))</span><span class="w">
+</span><span class="n">p</span><span class="m">3</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">p</span><span class="m">3</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">geom_bar</span><span class="p">(</span><span class="n">stat</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"identity"</span><span class="p">)</span><span class="w">
+</span><span class="n">p</span><span class="m">3</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">p</span><span class="m">3</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">theme</span><span class="p">(</span><span class="n">axis.text.x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">element_text</span><span class="p">(</span><span class="n">angle</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">90</span><span class="p">,</span><span class="w"> </span><span class="n">hjust</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="p">))</span><span class="w">
+</span><span class="n">p</span><span class="m">3</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="graph-with-all-the-operating-system-tags-removed">graph with all the operating system tags removed</h3>
+
+<ul>
+  <li>The graph from yesterday’s <a href="http://rolandtanglao.com/2018/09/16/p1-firefox62-sumo-support-forum-tags-week1/">Firefox 62 Desktop SUMO Support Forums Week 1 tags - September 5-11, 2018</a>:</li>
+</ul>
+
+<p><img src="https://github.com/rtanglao/rt-kitsune-api/raw/master/FF62_WEEK1/linux-removed-Operating%20System%20tags%20removed%20for%20the%20first%20week%20of%20Firefox%20Desktop%2062%20i.e.%20September%205-11Rplot02.png" alt="Operating system tags (linux, mac, windows) removed for the first week of Firefox Desktop 62 i.e. September 5-11, 2018" /></p>
+:ET

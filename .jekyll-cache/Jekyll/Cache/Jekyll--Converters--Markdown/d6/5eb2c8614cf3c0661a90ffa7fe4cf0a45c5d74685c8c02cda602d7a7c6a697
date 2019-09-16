@@ -1,0 +1,12 @@
+I"Ò<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>Example in ruby from <a href="https://github.com/rtanglao/rt-fennec-gplay/blob/master/read-reviews-replies.rb">read-reviews-replies.rb</a> :</li>
+</ul>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">result_array</span> <span class="o">=</span> <span class="n">reviewsColl</span><span class="p">.</span><span class="nf">find</span><span class="p">(</span>
+   <span class="p">{</span> <span class="s1">'id'</span> <span class="o">=&gt;</span> <span class="n">r1</span><span class="p">[</span><span class="s2">"id"</span><span class="p">]</span> <span class="p">}).</span><span class="nf">update_one</span><span class="p">(</span>
+     <span class="n">r1</span><span class="p">,</span> <span class="ss">:upsert</span> <span class="o">=&gt;</span> <span class="kp">true</span> <span class="p">).</span><span class="nf">to_a</span>
+</code></pre></div></div>
+
+:ET

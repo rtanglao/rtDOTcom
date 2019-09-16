@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2017/09/02/p1-density-plot-corrupted-for-art/">
+    <link rel="canonical" href="http://localhost:4000/2017/09/02/p1-density-plot-corrupted-for-art/">
 </head>
 
 
@@ -62,14 +62,15 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li>Not statistically valid :-)</li>
+  <li>Not statistically valid :-)</li>
 </ul>
 
-<h3>R ggplot2 geom_density() Code:</h3>
-<div class="highlight"><pre><code class="language-R" data-lang="R"><span class="n">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span><span class="w">
+<h3 id="r-ggplot2-geom_density-code">R ggplot2 geom_density() Code:</h3>
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span><span class="w">
 </span><span class="n">library</span><span class="p">(</span><span class="n">plotrix</span><span class="p">)</span><span class="w">
 
 </span><span class="n">getnumericColour</span><span class="w"> </span><span class="o">&lt;-</span><span class="w">
@@ -95,17 +96,18 @@
 </span><span class="n">colour_hex_strings_all</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sapply</span><span class="p">(</span><span class="n">gt5_h00_600colours</span><span class="o">$</span><span class="n">sixhundred_colourint</span><span class="p">,</span><span class="w"> </span><span class="k">function</span><span class="p">(</span><span class="n">x</span><span class="p">){</span><span class="w">
   </span><span class="k">function</span><span class="p">(</span><span class="n">x</span><span class="p">){</span><span class="w">
     </span><span class="n">sprintf</span><span class="p">(</span><span class="s2">"#%6.6X"</span><span class="p">,</span><span class="w"> </span><span class="n">x</span><span class="p">)})</span><span class="w">
-
+             
 </span><span class="n">colour_named_vector</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">setNames</span><span class="p">(</span><span class="nf">as.character</span><span class="p">(</span><span class="n">colour_hex_strings_all</span><span class="p">),</span><span class="w"> </span><span class="n">colour_hex_strings_all</span><span class="p">)</span><span class="w">
 
 </span><span class="n">ggplot</span><span class="p">(</span><span class="n">gt5_h00_600colours</span><span class="p">,</span><span class="w"> </span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">colour</span><span class="p">))</span><span class="o">+</span><span class="w">
 </span><span class="n">geom_density</span><span class="p">(</span><span class="n">mapping</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">aes</span><span class="p">(</span><span class="n">colour</span><span class="o">=</span><span class="w"> </span><span class="n">colour_named_vector</span><span class="p">))</span><span class="o">+</span><span class="w">
 </span><span class="n">scale_colour_manual</span><span class="p">(</span><span class="n">values</span><span class="o">=</span><span class="n">colour_named_vector</span><span class="p">)</span><span class="o">+</span><span class="w">
 </span><span class="n">scale_y_continuous</span><span class="p">(</span><span class="n">limits</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">0.002</span><span class="p">))</span><span class="w">
-</span></code></pre></div>
-<h3>Output:</h3>
+</span></code></pre></div></div>
 
-<p><a data-flickr-embed="true"  href="https://www.flickr.com/photos/roland/36173254743/in/datetaken-public/" title="01september2017-ig-van-jan-2016-gt5-hexcolours-truncate-ylim0-0.002-hour00-600colours"><img src="https://farm5.staticflickr.com/4396/36173254743_76f71b0833_n.jpg" width="320" height="198" alt="01september2017-ig-van-jan-2016-gt5-hexcolours-truncate-ylim0-0.002-hour00-600colours"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+<h3 id="output">Output:</h3>
+
+<p><a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/36173254743/in/datetaken-public/" title="01september2017-ig-van-jan-2016-gt5-hexcolours-truncate-ylim0-0.002-hour00-600colours"><img src="https://farm5.staticflickr.com/4396/36173254743_76f71b0833_n.jpg" width="320" height="198" alt="01september2017-ig-van-jan-2016-gt5-hexcolours-truncate-ylim0-0.002-hour00-600colours" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>

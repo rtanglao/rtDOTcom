@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2017/07/10/p1-joyplot-r-reverse-engineering-part1/">
+    <link rel="canonical" href="http://localhost:4000/2017/07/10/p1-joyplot-r-reverse-engineering-part1/">
 </head>
 
 
@@ -62,15 +62,15 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
-
+    <h2 id="pontifications">Pontifications</h2>
 <p>(<a href="http://rolandtanglao.com/2017/07/11/reverse-engineering-r-joyplot-code-part2-activity-tsv/">Part 2</a>)</p>
 
 <ul>
-<li>Reverse engineering the <a href="http://rolandtanglao.com/2017/07/09/p1-instagram-joyplot-using-colours/">USA peak time for sports and leaisurejoyplot code from yesterday&#39;s blog post</a>:</li>
-<li><a href="https://github.com/halhen/viz-pub/blob/master/sports-time-of-day/2_gen_chart.R">first few lines of code</a>:</li>
+  <li>Reverse engineering the <a href="http://rolandtanglao.com/2017/07/09/p1-instagram-joyplot-using-colours/">USA peak time for sports and leaisurejoyplot code from yesterday’s blog post</a>:</li>
+  <li><a href="https://github.com/halhen/viz-pub/blob/master/sports-time-of-day/2_gen_chart.R">first few lines of code</a>:</li>
 </ul>
-<div class="highlight"><pre><code class="language-R" data-lang="R"><span class="c1"># This time, you can run this file and generate the chart with only files in this</span><span class="w">
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># This time, you can run this file and generate the chart with only files in this</span><span class="w">
 </span><span class="c1"># directory. 1_gen_data.R generates the activity.tsv file that is used in here, if you're</span><span class="w">
 </span><span class="c1"># looking to do similar analyses on other activtites.</span><span class="w">
 
@@ -79,36 +79,39 @@
 </span><span class="n">source</span><span class="p">(</span><span class="s1">'henrik.r'</span><span class="p">)</span><span class="w"> </span><span class="c1"># for the horribly named theme_henrik</span><span class="w">
 
 </span><span class="n">df</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">read_tsv</span><span class="p">(</span><span class="s1">'activity.tsv'</span><span class="p">)</span><span class="w">
-</span></code></pre></div>
+</span></code></pre></div></div>
+
 <ul>
-<li>I still haven&#39;t figured out the <code>tidyverse</code> malarkey :-) ! But hopefully not critical to do so for now. I do want to learn this!</li>
-<li><code>henrik.r</code> I guess is a theme that I can also ignore for now.</li>
-<li>here is the first few lines of <code>[activity.tsv](https://github.com/halhen/viz-pub/blob/master/sports-time-of-day/activity.tsv)</code></li>
-<li>I guess <code>p</code> is the &quot;number of participants throughout the day compared to peak popularity```</li>
-<li>i.e. <code>p = number_of_participants for the that time measured in hours divided by the number of participants at the peak time</code>?</li>
+  <li>I still haven’t figured out the <code class="highlighter-rouge">tidyverse</code> malarkey :-) ! But hopefully not critical to do so for now. I do want to learn this!</li>
+  <li><code class="highlighter-rouge">henrik.r</code> I guess is a theme that I can also ignore for now.</li>
+  <li>here is the first few lines of <code class="highlighter-rouge">[activity.tsv](https://github.com/halhen/viz-pub/blob/master/sports-time-of-day/activity.tsv)</code></li>
+  <li>I guess <code class="highlighter-rouge">p</code> is the “number of participants throughout the day compared to peak popularity```</li>
+  <li>i.e. <code class="highlighter-rouge">p = number_of_participants for the that time measured in hours divided by the number of participants at the peak time</code>?</li>
 </ul>
-<div class="highlight"><pre><code class="language-" data-lang="">activity    time     p
-Running 0.0 6.45223543281662e-5
-Running 5.0 6.45223543281662e-5
-Running 10.0    6.45223543281662e-5
-Running 15.0    6.45223543281662e-5
-Running 20.0    6.45223543281662e-5
-Running 25.0    6.45223543281662e-5
-Running 30.0    6.45223543281662e-5
-Running 35.0    6.45223543281662e-5
-Running 40.0    6.45223543281662e-5
-Running 45.0    6.45223543281662e-5
-Running 50.0    6.45223543281662e-5
-Running 55.0    6.45223543281662e-5
-Running 60.0    6.45223543281662e-5
-Running 65.0    6.45223543281662e-5
-Running 70.0    7.549121524369304e-5
-Running 75.0    7.549121524369304e-5
-Running 80.0    7.549121524369304e-5
-Running 85.0    7.549121524369304e-5
-Running 90.0    7.549121524369304e-5
-Running 95.0    0.0
-</code></pre></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>activity	time	 p
+Running	0.0	6.45223543281662e-5
+Running	5.0	6.45223543281662e-5
+Running	10.0	6.45223543281662e-5
+Running	15.0	6.45223543281662e-5
+Running	20.0	6.45223543281662e-5
+Running	25.0	6.45223543281662e-5
+Running	30.0	6.45223543281662e-5
+Running	35.0	6.45223543281662e-5
+Running	40.0	6.45223543281662e-5
+Running	45.0	6.45223543281662e-5
+Running	50.0	6.45223543281662e-5
+Running	55.0	6.45223543281662e-5
+Running	60.0	6.45223543281662e-5
+Running	65.0	6.45223543281662e-5
+Running	70.0	7.549121524369304e-5
+Running	75.0	7.549121524369304e-5
+Running	80.0	7.549121524369304e-5
+Running	85.0	7.549121524369304e-5
+Running	90.0	7.549121524369304e-5
+Running	95.0	0.0
+</code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

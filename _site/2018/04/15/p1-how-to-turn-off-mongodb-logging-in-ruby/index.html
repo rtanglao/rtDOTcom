@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2018/04/15/p1-how-to-turn-off-mongodb-logging-in-ruby/">
+    <link rel="canonical" href="http://localhost:4000/2018/04/15/p1-how-to-turn-off-mongodb-logging-in-ruby/">
 </head>
 
 
@@ -62,13 +62,16 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li>I thought I blogged this previously :-) ! I guess I didn&#39;t!</li>
+  <li>I thought I blogged this previously :-) ! I guess I didn’t!</li>
 </ul>
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">Mongo</span><span class="o">::</span><span class="no">Logger</span><span class="p">.</span><span class="nf">logger</span><span class="p">.</span><span class="nf">level</span> <span class="o">=</span> <span class="no">Logger</span><span class="o">::</span><span class="no">FATAL</span>
-</code></pre></div>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="no">Mongo</span><span class="o">::</span><span class="no">Logger</span><span class="p">.</span><span class="nf">logger</span><span class="p">.</span><span class="nf">level</span> <span class="o">=</span> <span class="no">Logger</span><span class="o">::</span><span class="no">FATAL</span>
+</code></pre></div></div>
+
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

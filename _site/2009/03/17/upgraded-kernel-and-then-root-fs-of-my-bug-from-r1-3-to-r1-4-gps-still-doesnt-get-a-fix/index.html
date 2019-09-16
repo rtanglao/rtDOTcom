@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2009/03/17/upgraded-kernel-and-then-root-fs-of-my-bug-from-r1-3-to-r1-4-gps-still-doesnt-get-a-fix/">
+    <link rel="canonical" href="http://localhost:4000/2009/03/17/upgraded-kernel-and-then-root-fs-of-my-bug-from-r1-3-to-r1-4-gps-still-doesnt-get-a-fix/">
 </head>
 
 
@@ -62,7 +62,31 @@
   </header>
 
   <article class="post-content">
-    <p><strong>Summary:</strong></p><p>Successfully updated my kernel on my BUG and then the ROOT FS (order is important, you must upgrade the kernel FIRST and then shutdown and then update the Root FS). However GPS is still not getting a fix!</p><p><a href="http://bugcommunity.com/wiki/index.php/Upgrading_BUG_Kernel">Typos and minor bugs in the R1.44 Kernel upgrade procedure:</a></p><ul><li>bug_kflash was in /usr/bin NOT /sbin</li><li>version is:&nbsp;<ul><li>Linux version 2.6.27.2 (buildbot@darner) (gcc version 4.1.2) #104 PREEMPT Thu Mar 12 11:32:33 EDT 2009</li></ul></li><li>which is slightly older than the version in the instructions (probably because the person who wrote the instructions has an experimental, newer version)</li></ul><p><a href="http://bugcommunity.com/wiki/index.php/Upgrade_your_BUG_memory_card">Typos and minor bugs in the R1.4 Root FS upgrade procedure:</a></p><ul><li>on the Mac, e2fsck and resize2fs are in /usr/local/sbin</li></ul><h2>Here's what the GPS is showing</h2><p>command is:</p><p><strong>cat /dev/ttymxc/1</strong></p><div>(since GPS is in slot 1)</div><p>("V" on the GPGLL lines mans "void" i.e no GPS FIX AFAIK!) - Antenna is pointing out the window which means it should get a fix since my other GPSes i.e. E71 and LD-4W have no problem getting a fix there!)</p><p>$GPGLL,,,,,081149.577,V*18</p><p>$GPGSA,A,1,,,,,,,,,,,,,,,*1E</p><p>$GPGSV,3,1,12,11,89,179,27,24,76,162,,08,57,214,,27,32,183,*72</p><p>$GPGSV,3,2,12,07,28,280,,19,28,046,,28,24,317,,03,17,062,*74</p><p>$GPGSV,3,3,12,20,17,150,,13,03,220,,23,-1,196,,29,-1,293,*77</p><p>$GPRMC,081149.577,V,,,,,,,170309,,*23</p><p>$GPVTG,,T,,M,,N,,K*4E</p><p>$GPGGA,081150.577,,,,,0,00,,,M,0.0,M,,0000*5E</p><p>$GPGLL,,,,,081150.577,V*10</p><p>$GPGSA,A,1,,,,,,,,,,,,,,,*1E</p><p>$GPGSV,3,1,12,11,89,179,27,24,76,162,,08,57,214,,27,32,183,*72</p><p>$GPGSV,3,2,12,07,28,280,,19,28,046,,28,24,317,,03,17,062,*74</p><p>&nbsp;</p><p>&nbsp;</p>
+    <p><strong>Summary:</strong></p>
+<p>Successfully updated my kernel on my BUG and then the ROOT FS (order is important, you must upgrade the kernel FIRST and then shutdown and then update the Root FS). However GPS is still not getting a fix!</p>
+<p><a href="http://bugcommunity.com/wiki/index.php/Upgrading_BUG_Kernel">Typos and minor bugs in the R1.44 Kernel upgrade procedure:</a></p>
+<ul><li>bug_kflash was in /usr/bin NOT /sbin</li><li>version is:&nbsp;<ul><li>Linux version 2.6.27.2 (buildbot@darner) (gcc version 4.1.2) #104 PREEMPT Thu Mar 12 11:32:33 EDT 2009</li></ul></li><li>which is slightly older than the version in the instructions (probably because the person who wrote the instructions has an experimental, newer version)</li></ul>
+<p><a href="http://bugcommunity.com/wiki/index.php/Upgrade_your_BUG_memory_card">Typos and minor bugs in the R1.4 Root FS upgrade procedure:</a></p>
+<ul><li>on the Mac, e2fsck and resize2fs are in /usr/local/sbin</li></ul>
+<h2>Here's what the GPS is showing</h2>
+<p>command is:</p>
+<p><strong>cat /dev/ttymxc/1</strong></p>
+<div>(since GPS is in slot 1)</div>
+<p>("V" on the GPGLL lines mans "void" i.e no GPS FIX AFAIK!) - Antenna is pointing out the window which means it should get a fix since my other GPSes i.e. E71 and LD-4W have no problem getting a fix there!)</p>
+<p>$GPGLL,,,,,081149.577,V*18</p>
+<p>$GPGSA,A,1,,,,,,,,,,,,,,,*1E</p>
+<p>$GPGSV,3,1,12,11,89,179,27,24,76,162,,08,57,214,,27,32,183,*72</p>
+<p>$GPGSV,3,2,12,07,28,280,,19,28,046,,28,24,317,,03,17,062,*74</p>
+<p>$GPGSV,3,3,12,20,17,150,,13,03,220,,23,-1,196,,29,-1,293,*77</p>
+<p>$GPRMC,081149.577,V,,,,,,,170309,,*23</p>
+<p>$GPVTG,,T,,M,,N,,K*4E</p>
+<p>$GPGGA,081150.577,,,,,0,00,,,M,0.0,M,,0000*5E</p>
+<p>$GPGLL,,,,,081150.577,V*10</p>
+<p>$GPGSA,A,1,,,,,,,,,,,,,,,*1E</p>
+<p>$GPGSV,3,1,12,11,89,179,27,24,76,162,,08,57,214,,27,32,183,*72</p>
+<p>$GPGSV,3,2,12,07,28,280,,19,28,046,,28,24,317,,03,17,062,*74</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>

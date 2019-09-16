@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2016/11/22/p1-R-faceted-ggplot-custom-colours-no-legend-no-label/">
+    <link rel="canonical" href="http://localhost:4000/2016/11/22/p1-R-faceted-ggplot-custom-colours-no-legend-no-label/">
 </head>
 
 
@@ -62,15 +62,16 @@
   </header>
 
   <article class="post-content">
-    <p>tl;dr: 
-<code>theme_void()+theme(legend.position = &#39;none&#39;+
+    <p>tl;dr:
+<code class="highlighter-rouge">theme_void()+theme(legend.position = 'none'+
 theme(strip.background = element_blank(),strip.text.x = element_blank())+ #turn off facet labels
-scale_fill_manual(values=c(&quot;purple&quot;, &quot;pink&quot;)) #hard code colours</code></p>
+scale_fill_manual(values=c("purple", "pink")) #hard code colours</code></p>
 
-<h2>Full code from github</h2>
+<h2 id="full-code-from-github">Full code from github</h2>
 
 <p><a href="https://github.com/rtanglao/rt-ff48-rust/blob/master/plot-rust-ff48-commits-insertions-deletions.R">The code</a> is on github and the full details are in the <a href="https://github.com/rtanglao/rt-ff48-rust#november-22-2016">README</a>:</p>
-<div class="highlight"><pre><code class="language-R" data-lang="R"><span class="n">library</span><span class="p">(</span><span class="n">ggplot2</span><span class="p">)</span><span class="w">
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">ggplot2</span><span class="p">)</span><span class="w">
 </span><span class="n">data22nov2016</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">read.csv</span><span class="p">(</span><span class="n">file</span><span class="o">=</span><span class="s2">"rust-ff48-deletions-insertions.csv"</span><span class="p">,</span><span class="w"> 
     </span><span class="n">stringsAsFactors</span><span class="o">=</span><span class="nb">F</span><span class="p">)</span><span class="w">
 
@@ -88,7 +89,8 @@ scale_fill_manual(values=c(&quot;purple&quot;, &quot;pink&quot;)) #hard code col
   </span><span class="n">p</span><span class="p">,</span><span class="w"> </span><span class="n">width</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">29.1666666667</span><span class="p">,</span><span class="o">+</span><span class="w"> 
   </span><span class="n">height</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">25</span><span class="p">,</span><span class="w"> </span><span class="n">dpi</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">72</span><span class="p">,</span><span class="w"> </span><span class="n">limitsize</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">FALSE</span><span class="p">,</span><span class="o">+</span><span class="w">
   </span><span class="n">bg</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"transparent"</span><span class="p">)</span><span class="w"> </span><span class="c1">#2100x1800 for zazzle</span><span class="w">
-</span></code></pre></div>
+</span></code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

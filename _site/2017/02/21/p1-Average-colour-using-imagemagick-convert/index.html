@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2017/02/21/p1-Average-colour-using-imagemagick-convert/">
+    <link rel="canonical" href="http://localhost:4000/2017/02/21/p1-Average-colour-using-imagemagick-convert/">
 </head>
 
 
@@ -62,21 +62,28 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
-<h3>1 Scaling to 1x1</h3>
-<div class="highlight"><pre><code class="language-sh" data-lang="sh">convert rose: <span class="nt">-scale</span> 1x1 <span class="se">\</span>
+<h3 id="1-scaling-to-1x1">1 Scaling to 1x1</h3>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>convert rose: <span class="nt">-scale</span> 1x1 <span class="se">\</span>
 <span class="nt">-format</span> <span class="s1">'%[fx:int(255*r+.5)],%[fx:int(255*g+.5)],%[fx:int(255*b+.5)]'</span><span class="se">\</span>
 info:-
-</code></pre></div>
-<h3>Output</h3>
-<div class="highlight"><pre><code class="language-sh" data-lang="sh">146,89,80
-</code></pre></div>
-<h3>2 Histogram</h3>
-<div class="highlight"><pre><code class="language-sh" data-lang="sh">convert rose:  <span class="nt">-fordepth</span> 8  histogram:info:- | <span class="nb">sort</span> <span class="nt">-r</span> | <span class="nb">head</span>
-</code></pre></div>
-<h3>Output</h3>
-<div class="highlight"><pre><code class="language-sh" data-lang="sh">21: <span class="o">(</span>255,255,255<span class="o">)</span> <span class="c">#FFFFFF white</span>
+</code></pre></div></div>
+
+<h3 id="output">Output</h3>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>146,89,80
+</code></pre></div></div>
+
+<h3 id="2-histogram">2 Histogram</h3>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>convert rose:  <span class="nt">-fordepth</span> 8  histogram:info:- | <span class="nb">sort</span> <span class="nt">-r</span> | <span class="nb">head</span>
+</code></pre></div></div>
+
+<h3 id="output-1">Output</h3>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>21: <span class="o">(</span>255,255,255<span class="o">)</span> <span class="c">#FFFFFF white</span>
 14: <span class="o">(</span>254,254,252<span class="o">)</span> <span class="c">#FEFEFC srgb(254,254,252)</span>
 10: <span class="o">(</span>104,101, 86<span class="o">)</span> <span class="c">#686556 srgb(104,101,86)</span>
  9: <span class="o">(</span>105, 96, 81<span class="o">)</span> <span class="c">#696051 srgb(105,96,81)</span>
@@ -86,7 +93,9 @@ info:-
  5: <span class="o">(</span>255,255,254<span class="o">)</span> <span class="c">#FFFFFE srgb(255,255,254)</span>
  5: <span class="o">(</span>105,102, 87<span class="o">)</span> <span class="c">#696657 srgb(105,102,87)</span>
  5: <span class="o">(</span>104, 99, 83<span class="o">)</span> <span class="c">#686353 srgb(104,99,83)</span>
-</code></pre></div>
+</code></pre></div></div>
+
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

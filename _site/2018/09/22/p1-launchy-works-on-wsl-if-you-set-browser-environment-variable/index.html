@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2018/09/22/p1-launchy-works-on-wsl-if-you-set-browser-environment-variable/">
+    <link rel="canonical" href="http://localhost:4000/2018/09/22/p1-launchy-works-on-wsl-if-you-set-browser-environment-variable/">
 </head>
 
 
@@ -62,15 +62,17 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li>I was wrong when I wrote: <a href="http://rolandtanglao.com/2018/09/09/p1-still-cannot-launch-firefox-from-wsl-without-lots-of-yakshaving/">Still can&#39;t launch Firefox from Windows Subystem From Linux without a Selenium server and some hacks that nobody has working (Chrome works though)</a> back on September 9, 2018.</li>
-<li>It&#39;s easy to use the <code>Launchy</code> ruby gem</li>
-<li>Just set the <code>BROWSER</code> enviroment variable and the Launchy just works:</li>
+  <li>I was wrong when I wrote: <a href="http://rolandtanglao.com/2018/09/09/p1-still-cannot-launch-firefox-from-wsl-without-lots-of-yakshaving/">Still can’t launch Firefox from Windows Subystem From Linux without a Selenium server and some hacks that nobody has working (Chrome works though)</a> back on September 9, 2018.</li>
+  <li>It’s easy to use the <code class="highlighter-rouge">Launchy</code> ruby gem</li>
+  <li>Just set the <code class="highlighter-rouge">BROWSER</code> enviroment variable and the Launchy just works:</li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">export </span><span class="nv">BROWSER</span><span class="o">=</span><span class="s1">'/mnt/c/Program\ Files/Mozilla\ Firefox/firefox.exe'</span>
-</code></pre></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">export </span><span class="nv">BROWSER</span><span class="o">=</span><span class="s1">'/mnt/c/Program\ Files/Mozilla\ Firefox/firefox.exe'</span>
+</code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2016/09/05/p1-fixed-waffle-function-that-handles-more-than-25-levels/">
+    <link rel="canonical" href="http://localhost:4000/2016/09/05/p1-fixed-waffle-function-that-handles-more-than-25-levels/">
 </head>
 
 
@@ -62,17 +62,19 @@
   </header>
 
   <article class="post-content">
-    <h2>Untested solution which I believe should work!</h2>
-<div class="highlight"><pre><code class="language-R" data-lang="R"><span class="n">letters658</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">make.unique</span><span class="p">(</span><span class="nf">rep</span><span class="p">(</span><span class="nb">letters</span><span class="p">,</span><span class="w"> </span><span class="n">length.out</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">658</span><span class="p">),</span><span class="w"> </span><span class="n">sep</span><span class="o">=</span><span class="s1">''</span><span class="p">)</span><span class="w"> </span><span class="c1">#use letters658 instead of LETTERS R constant</span><span class="w">
-</span></code></pre></div>
-<p>The above code makes up for the R constant <code>LETTERS</code> only having 26 levels when R has 657 colours (add 1 since
-waffle() starts at &#39;B&#39; instead of &#39;A&#39;). So having 657 letters will allow all R colours to be plotted safely instead of any colour beyond the 
-first 26 being turned into &#39;not a number&#39; i.e. <code>NA</code>.</p>
+    <h2 id="untested-solution-which-i-believe-should-work">Untested solution which I believe should work!</h2>
 
-<h2>Tested Solution</h2>
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">letters658</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">make.unique</span><span class="p">(</span><span class="nf">rep</span><span class="p">(</span><span class="nb">letters</span><span class="p">,</span><span class="w"> </span><span class="n">length.out</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">658</span><span class="p">),</span><span class="w"> </span><span class="n">sep</span><span class="o">=</span><span class="s1">''</span><span class="p">)</span><span class="w"> </span><span class="c1">#use letters658 instead of LETTERS R constant</span><span class="w">
+</span></code></pre></div></div>
 
+<p>The above code makes up for the R constant <code class="highlighter-rouge">LETTERS</code> only having 26 levels when R has 657 colours (add 1 since
+waffle() starts at ‘B’ instead of ‘A’). So having 657 letters will allow all R colours to be plotted safely instead of any colour beyond the 
+first 26 being turned into ‘not a number’ i.e. <code class="highlighter-rouge">NA</code>.</p>
+
+<h2 id="tested-solution">Tested Solution</h2>
 <p>waffle(), the R function to compute square bar charts, fails when there are more than 25 levels. Herewith my fixed version!</p>
-<div class="highlight"><pre><code class="language-R" data-lang="R"><span class="n">printf</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="k">function</span><span class="p">(</span><span class="n">...</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">printf</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="k">function</span><span class="p">(</span><span class="n">...</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
   </span><span class="nf">invisible</span><span class="p">(</span><span class="n">print</span><span class="p">(</span><span class="n">sprintf</span><span class="p">(</span><span class="n">...</span><span class="p">)))</span><span class="w">
 </span><span class="p">}</span><span class="w">
 </span><span class="n">myletters</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="k">function</span><span class="p">(</span><span class="n">n</span><span class="p">)</span><span class="w">
@@ -220,7 +222,8 @@ first 26 being turned into &#39;not a number&#39; i.e. <code>NA</code>.</p>
     </span><span class="n">gg</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">gg</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">theme</span><span class="p">(</span><span class="n">legend.position</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">legend_pos</span><span class="p">)</span><span class="w">
     </span><span class="n">gg</span><span class="w">
   </span><span class="p">}</span><span class="w">
-</span></code></pre></div>
+</span></code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

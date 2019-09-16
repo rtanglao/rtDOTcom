@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2017/06/19/p1-hello-world-works-but-geolocation-example-fails-lost-connection-device-while-installing/">
+    <link rel="canonical" href="http://localhost:4000/2017/06/19/p1-hello-world-works-but-geolocation-example-fails-lost-connection-device-while-installing/">
 </head>
 
 
@@ -62,12 +62,12 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
-
+    <h2 id="pontifications">Pontifications</h2>
 <ul>
-<li>After upgrading to the API level for Android 7.1.1 on the Pixel XL, the <a href="http://android.processing.org/tutorials/getting_started/index.html">Hello World works from the Android processing getting started tutorial</a>! Code:</li>
+  <li>After upgrading to the API level for Android 7.1.1 on the Pixel XL, the <a href="http://android.processing.org/tutorials/getting_started/index.html">Hello World works from the Android processing getting started tutorial</a>! Code:</li>
 </ul>
-<div class="highlight"><pre><code class="language-processing" data-lang="processing">
+
+<pre><code class="language-processing">
 void setup() {
   fullScreen();
   noStroke();
@@ -84,11 +84,12 @@ void draw() {
     }
   }
 }
-</code></pre></div>
+</code></pre>
 <ul>
-<li>But the Geo-location example from <a href="https://www.mobileprocessing.org/">Android Processing aka Rapid Android Development</a> doesn&#39;t work. First I got <code>Lost connection with device while installing - Try again</code>! I fixed that by moving the code to the default sketches folder but then I got <code>Caused by: android.system.ErrnoException: android_getaddrinfo failed: EACCES (Permission denied)</code> so I added Internet and access fine locations permissions and it worked! Code: </li>
+  <li>But the Geo-location example from <a href="https://www.mobileprocessing.org/">Android Processing aka Rapid Android Development</a> doesn’t work. First I got <code class="highlighter-rouge">Lost connection with device while installing - Try again</code>! I fixed that by moving the code to the default sketches folder but then I got <code class="highlighter-rouge">Caused by: android.system.ErrnoException: android_getaddrinfo failed: EACCES (Permission denied)</code> so I added Internet and access fine locations permissions and it worked! Code:</li>
 </ul>
-<div class="highlight"><pre><code class="language-Java" data-lang="Java">/**
+
+<pre><code class="language-Java">/**
  * &lt;p&gt;Ketai Sensor Library for Android: http://ketai.org&lt;/p&gt;
  *
  * &lt;p&gt;KetaiLocation Features:
@@ -203,7 +204,8 @@ void onOrientationEvent(float x, float y, float z, long time, int accuracy)
   // Range: 0 to 359 degrees
   // 0=North, 90=East, 180=South, 270=West
 }
-</code></pre></div>
+</code></pre>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

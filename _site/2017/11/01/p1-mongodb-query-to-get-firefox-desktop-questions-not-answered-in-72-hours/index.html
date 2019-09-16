@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2017/11/01/p1-mongodb-query-to-get-firefox-desktop-questions-not-answered-in-72-hours/">
+    <link rel="canonical" href="http://localhost:4000/2017/11/01/p1-mongodb-query-to-get-firefox-desktop-questions-not-answered-in-72-hours/">
 </head>
 
 
@@ -62,15 +62,17 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li>1. MongoDB query to get Firefox unanswered questions into a CSV file (I used 3T MongoChef to run the query and export to CSV; you can also export to JSON), result is in <a href="https://github.com/rtanglao/sumo-questions/blob/master/firefox_desktop_only_not_answered_in_72hours_id_created.csv">firefox_desktop_only_not_answered_in_72hours_id_created.csv</a> :</li>
+  <li>1. MongoDB query to get Firefox unanswered questions into a CSV file (I used 3T MongoChef to run the query and export to CSV; you can also export to JSON), result is in <a href="https://github.com/rtanglao/sumo-questions/blob/master/firefox_desktop_only_not_answered_in_72hours_id_created.csv">firefox_desktop_only_not_answered_in_72hours_id_created.csv</a> :</li>
 </ul>
-<div class="highlight"><pre><code class="language-mongo" data-lang="mongo">db.questions.find(
+
+<pre><code class="language-mongo">db.questions.find(
 {"product_id":1, "answered_in_72_hours":false},
  {"id":1, "created":1, "_id":0})
-</code></pre></div>
+</code></pre>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

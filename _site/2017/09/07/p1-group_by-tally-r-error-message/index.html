@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2017/09/07/p1-group_by-tally-r-error-message/">
+    <link rel="canonical" href="http://localhost:4000/2017/09/07/p1-group_by-tally-r-error-message/">
 </head>
 
 
@@ -62,23 +62,25 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
-<div class="highlight"><pre><code class="language-R" data-lang="R"><span class="n">sept072017_colourname_n</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> 
+    <h2 id="pontifications">Pontifications</h2>
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">sept072017_colourname_n</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> 
   </span><span class="n">sept042017_int_colour_ig_van_june2016_average_colour</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
 </span><span class="o">+</span><span class="n">roup_by</span><span class="p">(</span><span class="n">colourname</span><span class="w"> </span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
 </span><span class="o">+</span><span class="n">tally</span><span class="p">()</span><span class="w">
-</span></code></pre></div>
-<p>Error message:
-<code>
-Using `n` as weighting variable
+</span></code></pre></div></div>
+
+<p>Error message:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Using `n` as weighting variable
 Warning message:
 Grouping rowwise data frame strips rowwise nature 
-</code></p>
+</code></pre></div></div>
 
 <ul>
-<li>Why? The result is fine!</li>
+  <li>Why? The result is fine!</li>
 </ul>
-<div class="highlight"><pre><code class="language-" data-lang="">&gt; sept072017_colourname_n
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; sept072017_colourname_n
 # A tibble: 173 x 2
     colourname    nn
          &lt;chr&gt; &lt;int&gt;
@@ -93,7 +95,8 @@ Grouping rowwise data frame strips rowwise nature
  9       brown  6392
 10      brown3   725
 # ... with 163 more rows
-</code></pre></div>
+</code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

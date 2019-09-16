@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2017/11/03/p1-plot-Firefox-desktop-sumo-unanswered-questions/">
+    <link rel="canonical" href="http://localhost:4000/2017/11/03/p1-plot-Firefox-desktop-sumo-unanswered-questions/">
 </head>
 
 
@@ -62,12 +62,13 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li>1. Using the CSV file from <a href="http://rolandtanglao.com/2017/11/01/p1-mongodb-query-to-get-firefox-desktop-questions-not-answered-in-72-hours/">the last blog post, MongoDB query to export Firefox unanswered questions into a CSV file,</a>:</li>
+  <li>1. Using the CSV file from <a href="http://rolandtanglao.com/2017/11/01/p1-mongodb-query-to-get-firefox-desktop-questions-not-answered-in-72-hours/">the last blog post, MongoDB query to export Firefox unanswered questions into a CSV file,</a>:</li>
 </ul>
-<div class="highlight"><pre><code class="language-R" data-lang="R"><span class="c1"># Plot unanswered after 72 hours Firefox Desktop Questions April-October 2017 by day of week</span><span class="w">
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Plot unanswered after 72 hours Firefox Desktop Questions April-October 2017 by day of week</span><span class="w">
 </span><span class="n">csv_url</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"https://raw.githubusercontent.com/rtanglao/sumo-questions/master/firefox_desktop_only_not_answered_in_72hours_id_created.csv"</span><span class="w">
 </span><span class="n">unanswered_desktop_april_october_2017</span><span class="w"> </span><span class="o">=</span><span class="w"> 
   </span><span class="n">read_csv</span><span class="p">(</span><span class="n">csv_url</span><span class="p">)</span><span class="w">
@@ -81,10 +82,11 @@
 </span><span class="n">p</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ggplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">daynumber_of_week_abbrevDayName_hour</span><span class="p">,</span><span class="w"> </span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">hour</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w">
   </span><span class="n">geom_bar</span><span class="p">(</span><span class="n">stat</span><span class="o">=</span><span class="s2">"count"</span><span class="p">)</span><span class="o">+</span><span class="w">
   </span><span class="n">facet_wrap</span><span class="p">(</span><span class="o">~</span><span class="w"> </span><span class="n">daynumber_abbrevDayName</span><span class="p">)</span><span class="w">
-</span></code></pre></div>
-<h3>Output</h3>
+</span></code></pre></div></div>
 
-<p><a data-flickr-embed="true"  href="https://www.flickr.com/photos/roland/38067187296/in/dateposted-public/" title="absolute-number-SUMO-unanswered-questions-after72hours-per-hour-per-day"><img src="https://farm5.staticflickr.com/4576/38067187296_9c4050da5d.jpg" width="500" height="500" alt="absolute-number-SUMO-unanswered-questions-after72hours-per-hour-per-day"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+<h3 id="output">Output</h3>
+
+<p><a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/38067187296/in/dateposted-public/" title="absolute-number-SUMO-unanswered-questions-after72hours-per-hour-per-day"><img src="https://farm5.staticflickr.com/4576/38067187296_9c4050da5d.jpg" width="500" height="500" alt="absolute-number-SUMO-unanswered-questions-after72hours-per-hour-per-day" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>

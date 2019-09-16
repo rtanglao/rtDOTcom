@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2016/12/25/p1-how-i-made-my-makevancouver-shirt/">
+    <link rel="canonical" href="http://localhost:4000/2016/12/25/p1-how-i-made-my-makevancouver-shirt/">
 </head>
 
 
@@ -62,19 +62,19 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
-<p>(UPDATE: Here&#39;s <a href="http://rolandtanglao.com/2016/12/29/p1-make-vancouver-shirt-result-fab/">the followup blog post with the actual shirt</a>!)</p>
+<p>(UPDATE: Here’s <a href="http://rolandtanglao.com/2016/12/29/p1-make-vancouver-shirt-result-fab/">the followup blog post with the actual shirt</a>!)</p>
 
-<p>(<a href="http://rolandtanglao.com/2016/12/23/p1-happy-holidays-2016/">I know I said I wouldn&#39;t blog until 2017</a> but I could resist :-) !)
+<p>(<a href="http://rolandtanglao.com/2016/12/23/p1-happy-holidays-2016/">I know I said I wouldn’t blog until 2017</a> but I could resist :-) !)
 <a href="https://github.com/rtanglao/makevancouver-flickr-2004-2012">Check out the repo for full details</a>:</p>
 
 <ul>
-<li>Make Vancouver&#39;s help info requests 16&quot; by 12&quot; at 200dpi i.e. a 3200x2400  png: therefore using 10x10 thumbnails: 320*240=76800 thumbnails</li>
-<li><code>cd 10x10; ls -1 | head -76800 &gt;1st76800pngs.txt</code></li>
-<li><code>gm montage -verbose -adjoin -tile 320x240 +frame +shadow +label -adjoin -geometry &#39;10x10+0+0&lt;&#39; @1st76800pngs.txt montage320x240-flickr-2004-2012-1st76800-10x10.png</code></li>
-<li>upload montage320x240-flickr-2004-2012-1st76800-10x10.png to <a href="https://www.makevancouver.com/">make</a>, add it to 1x Unisex Adult American Apparel Mighty Print T-Shirt - M / Front  and change background colour to pink and done! I&#39;ll post a blog post as a followup!</li>
-<li>back to scheduled holiday non blogging :-)</li>
+  <li>Make Vancouver’s help info requests 16” by 12” at 200dpi i.e. a 3200x2400  png: therefore using 10x10 thumbnails: 320*240=76800 thumbnails</li>
+  <li><code class="highlighter-rouge">cd 10x10; ls -1 | head -76800 &gt;1st76800pngs.txt</code></li>
+  <li><code class="highlighter-rouge">gm montage -verbose -adjoin -tile 320x240 +frame +shadow +label -adjoin -geometry '10x10+0+0&lt;' @1st76800pngs.txt montage320x240-flickr-2004-2012-1st76800-10x10.png</code></li>
+  <li>upload montage320x240-flickr-2004-2012-1st76800-10x10.png to <a href="https://www.makevancouver.com/">make</a>, add it to 1x Unisex Adult American Apparel Mighty Print T-Shirt - M / Front  and change background colour to pink and done! I’ll post a blog post as a followup!</li>
+  <li>back to scheduled holiday non blogging :-)</li>
 </ul>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>

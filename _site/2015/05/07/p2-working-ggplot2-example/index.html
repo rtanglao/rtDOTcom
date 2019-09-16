@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2015/05/07/p2-working-ggplot2-example/">
+    <link rel="canonical" href="http://localhost:4000/2015/05/07/p2-working-ggplot2-example/">
 </head>
 
 
@@ -63,14 +63,16 @@
 
   <article class="post-content">
     <p>Working R code with labels (<a href="https://www.dropbox.com/s/pn3wnnxbdwm8xos/ig-vancouver-2014-topcolour-all-ggplot2-Rplot46.pdf?dl=0">pdf file of the graphic</a>):</p>
-<div class="highlight"><pre><code class="language-" data-lang="">ggplot(sorted,aes(x=colorname,y=count))+
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ggplot(sorted,aes(x=colorname,y=count))+
 geom_bar(colour=colour_hex_strings_all,  
 stat=“identity”,fill=colour_hex_strings_all,width=1,position=
 position_dodge(width = 0.005))+scale_x_discrete(limits=
 sorted$colorname)+
 theme(axis.text.x  = element_text(angle=90, hjust=1,
 vjust=0.5,size=1))                                                                                                                                                                                             
-</code></pre></div>
+</code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

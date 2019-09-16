@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2017/07/24/p1-ggjoy-plot-not-working/">
+    <link rel="canonical" href="http://localhost:4000/2017/07/24/p1-ggjoy-plot-not-working/">
 </head>
 
 
@@ -62,18 +62,21 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li>1. <a href="https://github.com/rtanglao/2016-r-rtgram/blob/master/average-colour-by-hour-ggjoy-from-csv.R">average-colour-by-hour-ggjoy-from-csv.R not working</a></li>
+  <li>1. <a href="https://github.com/rtanglao/2016-r-rtgram/blob/master/average-colour-by-hour-ggjoy-from-csv.R">average-colour-by-hour-ggjoy-from-csv.R not working</a></li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">Rscript ../average-colour-by-hour-ggjoy-from-csv.R 31-january2016-ig-van-avgcolour-id-mf-month-day-daynum-unixtime-hour.csv 
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Rscript ../average-colour-by-hour-ggjoy-from-csv.R 31-january2016-ig-van-avgcolour-id-mf-month-day-daynum-unixtime-hour.csv 
 Error <span class="k">in </span>FUN<span class="o">(</span>X[[i]], ...<span class="o">)</span> : need at least 2 data points
 Calls: main ... &lt;Anonymous&gt; -&gt; f -&gt; &lt;Anonymous&gt; -&gt; f -&gt; vapply -&gt; FUN
 Execution halted
-</code></pre></div>
-<p>Here&#39;s the code:</p>
-<div class="highlight"><pre><code class="language-R" data-lang="R"><span class="n">library</span><span class="p">(</span><span class="n">ggplot2</span><span class="p">)</span><span class="w">
+</code></pre></div></div>
+
+<p>Here’s the code:</p>
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">ggplot2</span><span class="p">)</span><span class="w">
 </span><span class="n">library</span><span class="p">(</span><span class="n">plotrix</span><span class="p">)</span><span class="w">
 </span><span class="n">library</span><span class="p">(</span><span class="n">plyr</span><span class="p">)</span><span class="w">
 </span><span class="n">library</span><span class="p">(</span><span class="n">ggjoy</span><span class="p">)</span><span class="w">
@@ -129,7 +132,7 @@ Execution halted
          </span><span class="n">height</span><span class="w"> </span><span class="o">=</span><span class="m">10.666666667</span><span class="p">,</span><span class="w">
          </span><span class="n">dpi</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">72</span><span class="p">,</span><span class="w">
          </span><span class="n">limitsize</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">FALSE</span><span class="p">)</span><span class="w"> </span><span class="c1">#multiply height and width by dpi to get px</span><span class="w">
-
+  
 </span><span class="p">}</span><span class="w">
 
 </span><span class="n">sink</span><span class="p">(</span><span class="s2">"log.txt"</span><span class="p">)</span><span class="w">
@@ -138,11 +141,13 @@ Execution halted
 
 </span><span class="n">sink</span><span class="p">()</span><span class="w">
 
-</span></code></pre></div>
+</span></code></pre></div></div>
+
 <ul>
-<li>2.But I have two data points! namely for example the first 6 rows I have 3 rows with <code>indianred4</code></li>
+  <li>2.But I have two data points! namely for example the first 6 rows I have 3 rows with <code class="highlighter-rouge">indianred4</code></li>
 </ul>
-<div class="highlight"><pre><code class="language-" data-lang=""> colour                             id dayofweek.month.dayofmonth daynumber   unixtime  hour colourname
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> colour                             id dayofweek.month.dayofmonth daynumber   unixtime  hour colourname
     &lt;chr&gt;                          &lt;chr&gt;                      &lt;chr&gt;     &lt;int&gt;      &lt;int&gt; &lt;int&gt;      &lt;chr&gt;
 1 #546363 1174465369140103047_2176611536                   SunJan31        31 1454227203     0     gray37
 2 #ACA8A8 1174465451560169285_2137478482                   SunJan31        31 1454227213     0   darkgray
@@ -150,7 +155,8 @@ Execution halted
 4 #4B3E3E  1174465565628114803_177763144                   SunJan31        31 1454227227     0     gray26
 5 #803A3A  1174465617924150379_361059564                   SunJan31        31 1454227233     0 indianred4
 6 #704141 1174465676122308807_1537167607                   SunJan31        31 1454227240     0 indianred4
-</code></pre></div>
+</code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

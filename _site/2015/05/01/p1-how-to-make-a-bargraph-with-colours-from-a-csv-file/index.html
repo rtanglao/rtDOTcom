@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2015/05/01/p1-how-to-make-a-bargraph-with-colours-from-a-csv-file/">
+    <link rel="canonical" href="http://localhost:4000/2015/05/01/p1-how-to-make-a-bargraph-with-colours-from-a-csv-file/">
 </head>
 
 
@@ -65,14 +65,17 @@
     <p>R is horrible :-) but powerful and you don’t need for loops almost never! (the type system is horrible, the error messages are horrible, etc)</p>
 
 <p>Copying from a <a href="https://gist.github.com/rtanglao/e0a183170ac2710cb5ef">github gist</a> (which are also horrible since github will eventually turn e*il and destroy all our gists):</p>
-<div class="highlight"><pre><code class="language-" data-lang="">sorted = read.csv(“/Users/rolandtanglao/Dropbox/PHOTOS/instagram-top10-vancouver-2014/sorted-ig-van-2014-top-colour-names.csv”)
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sorted = read.csv(“/Users/rolandtanglao/Dropbox/PHOTOS/instagram-top10-vancouver-2014/sorted-ig-van-2014-top-colour-names.csv”)
 counts3 = head(sorted[,2],200)
 colours3 = head(sorted[,1],200)
 barplot(counts3, main=“Colour Distribution”,
 col=colours3,
 xlab=“Top Colours”,
 ylab=“Colour Counts”)
-</code></pre></div>
+</code></pre></div></div>
+
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

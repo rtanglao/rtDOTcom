@@ -1,0 +1,32 @@
+I"C<h2 id="pontifications">Pontifications</h2>
+<ul>
+  <li>In order to programmatically get to the showfor.json for each language, you have to use javascript. The solution below uses ruby, mechanize and nokogiri and can’t do javascript. (for javascript you need one or more of: <a href="https://blog.ouseful.info/2015/12/15/grabbing-screenshots-of-folium-produced-choropleth-leaflet-maps-using-selenium/">selenium</a>, <a href="https://en.wikipedia.org/wiki/Watir">Watir</a>, <a href="http://rolandtanglao.com/2017/04/17/p1-marionette-to-test-in-product-urls-from-firefox-chrome/">Mozilla Marionette</a>)</li>
+  <li>So you have to do it 1 showfor.json at a time (1 for each area of the KB, i.e. once for English, once for German, once for traditional Chinese, etc). With javascript you could programmatically</li>
+  <li>From <a href="https://github.com/rtanglao/rt-showfor.json#12june2017">June 12, 2017 rt-showfor.json on github</a>:</li>
+</ul>
+
+<h3 id="june-12-2017">June 12, 2017</h3>
+
+<ul>
+  <li>1. sample <a href="https://github.com/rtanglao/rt-showfor.json/blob/master/paste-showfor.json.rb">paste-showfor.json.rb</a> run to update top level german i.e. <code class="highlighter-rouge">Mozilla Support Community</code> -&gt; <code class="highlighter-rouge">Mozilla Hilfe - Deutsch</code> (stderr is the value BEFORE paste, stdout is the value being pasted e.g. in this example <a href="showfor.json">https://github.com/rtanglao/rt-showfor.json/blob/master/showfor.json</a>), <code class="highlighter-rouge">ARGV0</code> is the URL of the Lithium showfor category e.g. <a href="https://hwsfp35778.lithium.com/t5/bizapps/bizappspage/tab/community%3Aadmin%3Asystem%3Asettings-list-editor/node-display-id/category%3Ade">german top level is https://hwsfp35778.lithium.com/t5/bizapps/bizappspage/tab/community%3Aadmin%3Asystem%3Asettings-list-editor/node-display-id/category%3Ade</a> <code class="highlighter-rouge">ARGV1</code> is the minified showfor.json file:</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./paste-showfor.json.rb <span class="se">\</span>
+https://hwsfp35778.lithium.com/t5/bizapps/bizappspage/tab/community%3Aadmin%3Asystem%3Asettings-list-editor/node-display-id/category%3Ade<span class="se">\</span>
+showfor.json
+</code></pre></div></div>
+<ul>
+  <li>2. read what we just changed i.e. <code class="highlighter-rouge">Mozilla Support Community</code> -&gt; <code class="highlighter-rouge">Mozilla Hilfe - Deutsch</code></li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./print-showfor.json.rb <span class="se">\ </span>
+https://hwsfp35778.lithium.com/t5/bizapps/bizappspage/tab/community%3Aadmin%3Asystem%3Asettings-list-editor/node-display-id/category%3Ade <span class="se">\</span>
+<span class="o">&gt;</span>german.json
+</code></pre></div></div>
+<ul>
+  <li>3. it should be what we passed in and it is!</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>diff <span class="nt">-w</span> german.json showfor.json
+</code></pre></div></div>
+:ET

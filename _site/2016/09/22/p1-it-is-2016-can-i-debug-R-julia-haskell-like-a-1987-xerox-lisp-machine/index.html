@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2016/09/22/p1-it-is-2016-can-i-debug-R-julia-haskell-like-a-1987-xerox-lisp-machine/">
+    <link rel="canonical" href="http://localhost:4000/2016/09/22/p1-it-is-2016-can-i-debug-R-julia-haskell-like-a-1987-xerox-lisp-machine/">
 </head>
 
 
@@ -62,12 +62,12 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li>I don&#39;t want to use print statements or separate debuggers like xdb or gdb or <a href="http://robert.ocallahan.org/2014/03/introducing-rr.html">rr</a>. I just want to be able to go backwards and forwards, change variables, stop the execution, change the code and the values of variables and continue backwards and forwards just like we did in my AI course at the University of Waterloo on a Xerox Lisp Work station in 1987! How hard can it be :-) ?</li>
-<li>I will settle for being able to debug R when passing command line arguments in! Can&#39;t believe <a href="https://support.rstudio.com/hc/en-us/articles/205612627-Debugging-with-RStudio">R Studio doesn&#39;t support that</a>!!!!!!!</li>
-<li>You have to call <code>system(&quot;Rscript yourscript.R arg1 arg2&quot;)</code> or some other such <a href="http://stackoverflow.com/a/25148513">kludgery</a> and you end up debugging outside R Studio!</li>
+  <li>I don’t want to use print statements or separate debuggers like xdb or gdb or <a href="http://robert.ocallahan.org/2014/03/introducing-rr.html">rr</a>. I just want to be able to go backwards and forwards, change variables, stop the execution, change the code and the values of variables and continue backwards and forwards just like we did in my AI course at the University of Waterloo on a Xerox Lisp Work station in 1987! How hard can it be :-) ?</li>
+  <li>I will settle for being able to debug R when passing command line arguments in! Can’t believe <a href="https://support.rstudio.com/hc/en-us/articles/205612627-Debugging-with-RStudio">R Studio doesn’t support that</a>!!!!!!!</li>
+  <li>You have to call <code class="highlighter-rouge">system("Rscript yourscript.R arg1 arg2")</code> or some other such <a href="http://stackoverflow.com/a/25148513">kludgery</a> and you end up debugging outside R Studio!</li>
 </ul>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>

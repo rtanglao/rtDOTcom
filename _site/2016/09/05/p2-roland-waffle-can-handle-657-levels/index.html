@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2016/09/05/p2-roland-waffle-can-handle-657-levels/">
+    <link rel="canonical" href="http://localhost:4000/2016/09/05/p2-roland-waffle-can-handle-657-levels/">
 </head>
 
 
@@ -62,24 +62,24 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontification :-)</h2>
+    <h2 id="pontification--">Pontification :-)</h2>
 
 <p>TIL (<a href="http://rolandtanglao.com/2016/09/05/p1-fixed-waffle-function-that-handles-more-than-25-levels/">as alluded to previously</a>):</p>
 
 <ul>
-<li>Again check the data, if the data isn&#39;t clean or has <code>NA</code> aka &quot;not a number&quot; you&#39;ve got a problem.</li>
-<li>I need to figure out a way to write tests :-)</li>
-<li>I guess it&#39;s time to <a href="https://github.com/hrbrmstr/waffle">file a github issue and/or submit a pull request with the waffle() folks</a> although I don&#39;t think most data scientists will agree with the use-case of having more than 26 elements in the vector passed to waffle() :-) Then again most data scientists aren&#39;t making art for tshirts LOL!</li>
-<li>Sometimes R Studio gets out of sync with R and you have to restart R.</li>
-<li>Sometimes R Studio&#39;s file browser aka the &quot;Files sub-pane&quot;gets out of sync and you have to force refresh it by clicking on the refresh arrow.</li>
+  <li>Again check the data, if the data isn’t clean or has <code class="highlighter-rouge">NA</code> aka “not a number” you’ve got a problem.</li>
+  <li>I need to figure out a way to write tests :-)</li>
+  <li>I guess it’s time to <a href="https://github.com/hrbrmstr/waffle">file a github issue and/or submit a pull request with the waffle() folks</a> although I don’t think most data scientists will agree with the use-case of having more than 26 elements in the vector passed to waffle() :-) Then again most data scientists aren’t making art for tshirts LOL!</li>
+  <li>Sometimes R Studio gets out of sync with R and you have to restart R.</li>
+  <li>Sometimes R Studio’s file browser aka the “Files sub-pane”gets out of sync and you have to force refresh it by clicking on the refresh arrow.</li>
 </ul>
 
-<h2>roland_waffle()</h2>
+<h2 id="roland_waffle">roland_waffle()</h2>
+<p><a href="https://github.com/rtanglao/2016-r-rtgram/blob/master/file-numphotos-square-piechart.R">Herewith the code</a> (tl;dr change <code class="highlighter-rouge">LETTERS</code> (which fails after 25 colours) to <code class="highlighter-rouge">levels658</code> (which can handle 657 colours) where:</p>
 
-<p><a href="https://github.com/rtanglao/2016-r-rtgram/blob/master/file-numphotos-square-piechart.R">Herewith the code</a> (tl;dr change <code>LETTERS</code> (which fails after 25 colours) to <code>levels658</code> (which can handle 657 colours) where:</p>
+<p><code class="highlighter-rouge">letters658 = make.unique(rep(letters, length.out = 658), sep='')</code></p>
 
-<p><code>letters658 = make.unique(rep(letters, length.out = 658), sep=&#39;&#39;)</code></p>
-<div class="highlight"><pre><code class="language-R" data-lang="R"><span class="n">library</span><span class="p">(</span><span class="n">ggplot2</span><span class="p">)</span><span class="w">
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">ggplot2</span><span class="p">)</span><span class="w">
 </span><span class="n">library</span><span class="p">(</span><span class="n">plotrix</span><span class="p">)</span><span class="w">
 </span><span class="n">library</span><span class="p">(</span><span class="n">plyr</span><span class="p">)</span><span class="w">
 </span><span class="n">library</span><span class="p">(</span><span class="n">waffle</span><span class="p">)</span><span class="w">
@@ -259,17 +259,17 @@
   </span><span class="n">numphotos</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">as.integer</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="m">2</span><span class="p">])</span><span class="w">
   </span><span class="n">print</span><span class="p">(</span><span class="n">numphotos</span><span class="p">)</span><span class="w">
   </span><span class="n">data3</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">head</span><span class="p">(</span><span class="n">data3</span><span class="p">,</span><span class="w"> </span><span class="n">numphotos</span><span class="p">)</span><span class="w">
-
+  
   </span><span class="n">data3</span><span class="o">$</span><span class="n">colourname</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">sapply</span><span class="p">(</span><span class="n">data3</span><span class="o">$</span><span class="n">colour</span><span class="p">,</span><span class="w"> </span><span class="n">tc</span><span class="p">)</span><span class="w">
-
+  
   </span><span class="n">countcolourname</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">count</span><span class="p">(</span><span class="n">data3</span><span class="p">,</span><span class="w"> </span><span class="s2">"colourname"</span><span class="p">)</span><span class="w">
   </span><span class="n">countcolourname</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">countcolourname</span><span class="p">[</span><span class="n">order</span><span class="p">(</span><span class="o">-</span><span class="n">countcolourname</span><span class="o">$</span><span class="n">freq</span><span class="p">),</span><span class="w"> </span><span class="p">]</span><span class="w">
-
+  
   </span><span class="n">colour_vector2</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">setNames</span><span class="p">(</span><span class="n">countcolourname</span><span class="o">$</span><span class="n">freq</span><span class="p">,</span><span class="w"> </span><span class="n">countcolourname</span><span class="o">$</span><span class="n">colourname</span><span class="p">)</span><span class="w">
   </span><span class="n">print</span><span class="p">(</span><span class="n">colour_vector2</span><span class="p">)</span><span class="w">
   </span><span class="n">print</span><span class="p">(</span><span class="nf">sum</span><span class="p">(</span><span class="n">colour_vector2</span><span class="p">))</span><span class="w">
   </span><span class="n">magic_row_size_number</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">100</span><span class="w">
-
+  
   </span><span class="n">numrows</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">numphotos</span><span class="w"> </span><span class="o">%/%</span><span class="w"> </span><span class="n">magic_row_size_number</span><span class="w">
   </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">numrows</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="m">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
     </span><span class="n">numrows</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="w">
@@ -285,7 +285,7 @@
     </span><span class="n">size</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1.0</span><span class="p">,</span><span class="w">
     </span><span class="n">colors</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">countcolourname</span><span class="o">$</span><span class="n">colourname</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
     </span><span class="n">theme</span><span class="p">(</span><span class="n">legend.position</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"none"</span><span class="p">)</span><span class="w"> 
-
+  
   </span><span class="n">filename</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sprintf</span><span class="p">(</span><span class="s2">"%4.4d-%s"</span><span class="p">,</span><span class="w"> </span><span class="n">numphotos</span><span class="p">,</span><span class="w"> </span><span class="n">gsub</span><span class="p">(</span><span class="s2">"csv"</span><span class="p">,</span><span class="w"> </span><span class="s2">"png"</span><span class="p">,</span><span class="w"> </span><span class="n">basename</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="m">1</span><span class="p">])))</span><span class="w">
   </span><span class="n">ggsave</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span><span class="w">
          </span><span class="n">p</span><span class="p">,</span><span class="w">
@@ -300,7 +300,8 @@
 </span><span class="n">main</span><span class="p">()</span><span class="w">
 
 </span><span class="n">sink</span><span class="p">()</span><span class="w">
-</span></code></pre></div>
+</span></code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

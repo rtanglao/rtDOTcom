@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2019/04/14/p1-firefox-analyst-notes-checkvist-api-sql-lite-datasette/">
+    <link rel="canonical" href="http://localhost:4000/2019/04/14/p1-firefox-analyst-notes-checkvist-api-sql-lite-datasette/">
 </head>
 
 
@@ -62,18 +62,18 @@
   </header>
 
   <article class="post-content">
-    <h1>Pontifications</h1>
+    <h1 id="pontifications">Pontifications</h1>
 
 <ul>
-<li>Using Checkvist, I&#39;m tagging and taking Firefox desktop user feedback with notes and notes (e.g. see <a href="https://checkvist.com/p/Z6DzuEp5M8FvHr87DRij1w">Checkvist SUMO notes and tags for Firefox 66</a>)</li>
-<li>Checkvist is great but it&#39;s not a searchable database and it&#39;s not something others can query.</li>
-<li>So my idea is to use the Checkvist API, and some software (hah! but easy since I&#39;ve done this countless times with MongoDB) and convert to JSON, store the JSON in SQLite and host the SQLite via datasette (see <a href="https://gist.github.com/simonw/eb5ad8e55d75bbc3003dd9e5d6eb438b">How to turn a list of JSON objects into a Datasette</a>) in the cloud. That way other folks who don&#39;t want to work with outlines and don&#39;t know to work with outlines but do know SQL can easily query using SQL or <a href="https://datasette.readthedocs.io/en/stable/json_api.html">JSON API</a>.</li>
-<li>Previously relevant: 
-
-<ul>
-<li><a href="http://rolandtanglao.com/2018/11/29/p1-checkvist-api-for-collapsible-html/">checkvist has a nice open api for making expandible/collapsible html from checkvist outlines</a></li>
-<li><a href="http://rolandtanglao.com/2017/12/08/p1-Convert-CSV-files-into-a-SQLite-database-prequel-to-datasette/">cvss-to-sqlite Prequel to blog post about Datasette: Convert CSV files into a SQLite database. Browse and publish that SQLite database with Datasette</a></li>
-</ul></li>
+  <li>Using Checkvist, I’m tagging and taking Firefox desktop user feedback with notes and notes (e.g. see <a href="https://checkvist.com/p/Z6DzuEp5M8FvHr87DRij1w">Checkvist SUMO notes and tags for Firefox 66</a>)</li>
+  <li>Checkvist is great but it’s not a searchable database and it’s not something others can query.</li>
+  <li>So my idea is to use the Checkvist API, and some software (hah! but easy since I’ve done this countless times with MongoDB) and convert to JSON, store the JSON in SQLite and host the SQLite via datasette (see <a href="https://gist.github.com/simonw/eb5ad8e55d75bbc3003dd9e5d6eb438b">How to turn a list of JSON objects into a Datasette</a>) in the cloud. That way other folks who don’t want to work with outlines and don’t know to work with outlines but do know SQL can easily query using SQL or <a href="https://datasette.readthedocs.io/en/stable/json_api.html">JSON API</a>.</li>
+  <li>Previously relevant:
+    <ul>
+      <li><a href="http://rolandtanglao.com/2018/11/29/p1-checkvist-api-for-collapsible-html/">checkvist has a nice open api for making expandible/collapsible html from checkvist outlines</a></li>
+      <li><a href="http://rolandtanglao.com/2017/12/08/p1-Convert-CSV-files-into-a-SQLite-database-prequel-to-datasette/">cvss-to-sqlite Prequel to blog post about Datasette: Convert CSV files into a SQLite database. Browse and publish that SQLite database with Datasette</a></li>
+    </ul>
+  </li>
 </ul>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>

@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2018/12/10/p1-kennedy-space-center-tshirt-howto/">
+    <link rel="canonical" href="http://localhost:4000/2018/12/10/p1-kennedy-space-center-tshirt-howto/">
 </head>
 
 
@@ -62,64 +62,78 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li>Following up on my <a href="http://rolandtanglao.com/2018/12/09/p1-blown-away-again-by-kennedy-space-center/">Mozlando 2018 Kennedy Space Center amazement</a>, here&#39;s how I designed my t-shirt (tl;dr use <a href="https://www.flickr.com/photos/roland/albums/72157704451096864">this flickr set</a> and then imagemagick and kludge the 1.16 to 1 image aspect ratio using preview.app on mac os x; maybe in the future I should crop to 1.16 to 1 each individual image OR do 11 across and 10 down to make it closer to the 1800x2100px ideal ratio for dazzle?):</li>
+  <li>Following up on my <a href="http://rolandtanglao.com/2018/12/09/p1-blown-away-again-by-kennedy-space-center/">Mozlando 2018 Kennedy Space Center amazement</a>, here’s how I designed my t-shirt (tl;dr use <a href="https://www.flickr.com/photos/roland/albums/72157704451096864">this flickr set</a> and then imagemagick and kludge the 1.16 to 1 image aspect ratio using preview.app on mac os x; maybe in the future I should crop to 1.16 to 1 each individual image OR do 11 across and 10 down to make it closer to the 1800x2100px ideal ratio for dazzle?):</li>
 </ul>
 
-<h3>How To make a Dazzle Graphic out out of photos</h3>
+<h3 id="how-to-make-a-dazzle-graphic-out-out-of-photos">How To make a Dazzle Graphic out out of photos</h3>
 
 <ul>
-<li>1. resize</li>
+  <li>1. resize</li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cd</span> /home/rtanglao/GIT/rt-mozlando2018-ksc/FIFTYPERCENT
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> /home/rtanglao/GIT/rt-mozlando2018-ksc/FIFTYPERCENT
 convert <span class="s1">'../ORIGINALS/*.jpg'</span> <span class="nt">-resize</span> 50% <span class="nt">-set</span> filename:area <span class="s1">'%wx%h'</span> <span class="s1">'ksc-%03d-size-%[filename:area].png'</span> <span class="c">#originals come from flickr set and i deleted the vertical ones !</span>
-</code></pre></div>
+</code></pre></div></div>
+
 <ul>
-<li>2. get 120 files</li>
+  <li>2. get 120 files</li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">ls</span> <span class="nt">-d1</span> <span class="nv">$PWD</span>/<span class="k">*</span> | <span class="nb">head</span> <span class="nt">-120</span> <span class="o">&gt;</span>1st-120files.txt
-</code></pre></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">ls</span> <span class="nt">-d1</span> <span class="nv">$PWD</span>/<span class="k">*</span> | <span class="nb">head</span> <span class="nt">-120</span> <span class="o">&gt;</span>1st-120files.txt
+</code></pre></div></div>
+
 <ul>
-<li><p>3. make montage in 2100x1800 approx 1.2 to 1
-<code>bash
-montage -verbose -adjoin -tile 12x10 +frame +shadow +label -adjoin -geometry &#39;2304x1728+0+0&lt;&#39; @FIFTYPERCENT/1st-120files.txt mozlando-ksc-12x10.png
-% ls -lh mozlando-ksc-12x10.png
--rw-rw-rw- 1 rtanglao rtanglao 578M Dec  9 22:54 mozlando-ksc-12x10.png
-</code></p></li>
-<li><p>4. the above makes a huge 578M image so try 25%</p></li>
+  <li>3. make montage in 2100x1800 approx 1.2 to 1
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>montage <span class="nt">-verbose</span> <span class="nt">-adjoin</span> <span class="nt">-tile</span> 12x10 +frame +shadow +label <span class="nt">-adjoin</span> <span class="nt">-geometry</span> <span class="s1">'2304x1728+0+0&lt;'</span> @FIFTYPERCENT/1st-120files.txt mozlando-ksc-12x10.png
+% <span class="nb">ls</span> <span class="nt">-lh</span> mozlando-ksc-12x10.png
+<span class="nt">-rw-rw-rw-</span> 1 rtanglao rtanglao 578M Dec  9 22:54 mozlando-ksc-12x10.png
+</code></pre></div>    </div>
+  </li>
+  <li>4. the above makes a huge 578M image so try 25%</li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cd</span> /home/rtanglao/GIT/rt-mozlando2018-ksc/TWENTYFIVEPERCENT
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> /home/rtanglao/GIT/rt-mozlando2018-ksc/TWENTYFIVEPERCENT
 convert <span class="s1">'../ORIGINALS/*.jpg'</span> <span class="nt">-resize</span> 25% <span class="nt">-set</span> filename:area <span class="s1">'%wx%h'</span> <span class="s1">'ksc-%03d-size-%[filename:area].png'</span>
 <span class="nb">ls</span> <span class="nt">-d1</span> <span class="nv">$PWD</span>/<span class="k">*</span> | <span class="nb">head</span> <span class="nt">-120</span> <span class="o">&gt;</span>1st-120files.txt
 <span class="nb">cd</span> ..
 montage <span class="nt">-verbose</span> <span class="nt">-adjoin</span> <span class="nt">-tile</span> 12x10 +frame +shadow +label <span class="nt">-adjoin</span> <span class="nt">-geometry</span> <span class="s1">'1152x864+0+0&lt;'</span> @TWENTYFIVEPERCENT/1st-120files.txt 25percent-mozlando-ksc-12x10.png
-</code></pre></div>
+</code></pre></div></div>
+
 <ul>
-<li>5. still over 100MB, let&#39;s try 19%</li>
+  <li>5. still over 100MB, let’s try 19%</li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cd</span> /home/rtanglao/GIT/rt-mozlando2018-ksc/TENPERCENT
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> /home/rtanglao/GIT/rt-mozlando2018-ksc/TENPERCENT
 convert <span class="s1">'../ORIGINALS/*.jpg'</span> <span class="nt">-resize</span> 10% <span class="nt">-set</span> filename:area <span class="s1">'%wx%h'</span> <span class="s1">'ksc-%03d-size-%[filename:area].png'</span>
 <span class="nb">ls</span> <span class="nt">-d1</span> <span class="nv">$PWD</span>/<span class="k">*</span> | <span class="nb">head</span> <span class="nt">-120</span> <span class="o">&gt;</span>1st-120files.txt
 <span class="nb">cd</span> ..
 montage <span class="nt">-verbose</span> <span class="nt">-adjoin</span> <span class="nt">-tile</span> 12x10 +frame +shadow +label <span class="nt">-adjoin</span> <span class="nt">-geometry</span> <span class="s1">'461x346+0+0&lt;'</span> @TENPERCENT/1st-120files.txt ten-percent-mozlando-ksc-12x10.png
-</code></pre></div>
+</code></pre></div></div>
+
 <ul>
-<li>6. 12x10 seems to be wrong, let&#39;s try 10x12</li>
-</ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">montage <span class="nt">-verbose</span> <span class="nt">-adjoin</span> <span class="nt">-tile</span> 10x12 +frame +shadow +label <span class="nt">-adjoin</span> <span class="nt">-geometry</span> <span class="s1">'461x346+0+0&lt;'</span> @TENPERCENT/1st-120files.txt ten-percent-mozlando-ksc-10x12.png
-</code></pre></div>
-<ul>
-<li><p>7. resized graphic in preview.app on OS X to <strong>1800x2100 300dpi</strong></p></li>
-<li><p>8. order your #Mozlando2018 Kennedy Space Center tshirt here :-) :</p></li>
+  <li>6. 12x10 seems to be wrong, let’s try 10x12</li>
 </ul>
 
-<p><a href="https://www.zazzle.com/z/16oru?rf=238729664665771966">www.zazzle.com/z/16oru?rf=238729664665771966</a></a></p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>montage <span class="nt">-verbose</span> <span class="nt">-adjoin</span> <span class="nt">-tile</span> 10x12 +frame +shadow +label <span class="nt">-adjoin</span> <span class="nt">-geometry</span> <span class="s1">'461x346+0+0&lt;'</span> @TENPERCENT/1st-120files.txt ten-percent-mozlando-ksc-10x12.png
+</code></pre></div></div>
 
-<h3>Output</h3>
+<ul>
+  <li>
+    <p>7. resized graphic in preview.app on OS X to <strong>1800x2100 300dpi</strong></p>
+  </li>
+  <li>
+    <p>8. order your #Mozlando2018 Kennedy Space Center tshirt here :-) :</p>
+  </li>
+</ul>
 
-<p><a data-flickr-embed="true"  href="https://www.flickr.com/photos/roland/45537349384/in/datetaken-ff/" title="For Zazzle Tshirt - distorted :-) in previw to 1800x2100 300dpi 1800x2100-ten-percent-mozlando-ksc-10x12"><img src="https://farm5.staticflickr.com/4858/45537349384_ff274fb60d_z.jpg" width="549" height="640" alt="For Zazzle Tshirt - distorted :-) in previw to 1800x2100 300dpi 1800x2100-ten-percent-mozlando-ksc-10x12"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+<p><a href="https://www.zazzle.com/z/16oru?rf=238729664665771966">www.zazzle.com/z/16oru?rf=238729664665771966</a>&lt;/a&gt;</p>
+
+<h3 id="output">Output</h3>
+
+<p><a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/45537349384/in/datetaken-ff/" title="For Zazzle Tshirt - distorted :-) in previw to 1800x2100 300dpi 1800x2100-ten-percent-mozlando-ksc-10x12"><img src="https://farm5.staticflickr.com/4858/45537349384_ff274fb60d_z.jpg" width="549" height="640" alt="For Zazzle Tshirt - distorted :-) in previw to 1800x2100 300dpi 1800x2100-ten-percent-mozlando-ksc-10x12" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>

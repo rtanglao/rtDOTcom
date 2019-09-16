@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2019/03/11/p1-how-to-move-files-newer-than-60-minutes-ago-to-another-directory-using-find/">
+    <link rel="canonical" href="http://localhost:4000/2019/03/11/p1-how-to-move-files-newer-than-60-minutes-ago-to-another-directory-using-find/">
 </head>
 
 
@@ -62,13 +62,15 @@
   </header>
 
   <article class="post-content">
-    <h1>Pontifications</h1>
+    <h1 id="pontifications">Pontifications</h1>
 
 <ul>
-<li>See <a href="https://serverfault.com/questions/505949/move-files-to-another-directory-which-are-older-than-a-date">Move files to another directory which are older than a date</a></li>
+  <li>See <a href="https://serverfault.com/questions/505949/move-files-to-another-directory-which-are-older-than-a-date">Move files to another directory which are older than a date</a></li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">find <span class="nb">.</span>  <span class="nt">-maxdepth</span> 1 <span class="nt">-mmin</span> <span class="nt">-60</span> <span class="nt">-name</span> <span class="s1">'*.jpg'</span> <span class="nt">-exec</span> <span class="nb">mv</span> <span class="s2">"{}"</span> ../NEON2_ORIGINALS <span class="se">\;</span>
-</code></pre></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>find <span class="nb">.</span>  <span class="nt">-maxdepth</span> 1 <span class="nt">-mmin</span> <span class="nt">-60</span> <span class="nt">-name</span> <span class="s1">'*.jpg'</span> <span class="nt">-exec</span> <span class="nb">mv</span> <span class="s2">"{}"</span> ../NEON2_ORIGINALS <span class="se">\;</span>
+</code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

@@ -1,0 +1,10 @@
+I"q<p>Say you want to sort by some column in a datatable. Sample code below is from <a href="https://github.com/rtanglao/2016-r-rtgram/blob/master/colourname-void-square-piechart-from-csv.R">colourname-void-square-piechart-from-csv.R</a>. Note the hilarious <code class="highlighter-rouge">,]</code> which makes me laugh whenever I encounter it. Not a disrespectful laugh but a this is not the “C/C++/ruby/python/php syntax” you are looking for laugh :-) !</p>
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># "-" means descending sort order</span><span class="w">
+</span><span class="n">samedatatable</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">somedatatable</span><span class="p">[</span><span class="n">order</span><span class="p">(</span><span class="o">-</span><span class="n">somedatatable</span><span class="o">$</span><span class="n">name_of_count_field</span><span class="p">),]</span><span class="w">
+</span><span class="c1"># e.g. </span><span class="w">
+</span><span class="n">countcolourname</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">countcolourname</span><span class="p">[</span><span class="n">order</span><span class="p">(</span><span class="o">-</span><span class="n">countcolourname</span><span class="o">$</span><span class="n">freq</span><span class="p">),]</span><span class="w">
+</span><span class="c1"># easy peasy right? as if :-)</span><span class="w">
+</span><span class="c1"># inch by inch</span><span class="w">
+</span></code></pre></div></div>
+:ET

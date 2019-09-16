@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2016/11/05/p1-How-to-make-animated-gif-average-colour-barcode-from-lots-of-photos/">
+    <link rel="canonical" href="http://localhost:4000/2016/11/05/p1-How-to-make-animated-gif-average-colour-barcode-from-lots-of-photos/">
 </head>
 
 
@@ -62,44 +62,69 @@
   </header>
 
   <article class="post-content">
-    <p>tl;dr: it&#39;s not hard, you just need some photos :-)</p>
+    <p>tl;dr: it’s not hard, you just need some photos :-)</p>
 
-<h2>Pontifications</h2>
+<h2 id="pontifications">Pontifications</h2>
 
 <p>(side note: I use bullet lists because numerical lists are too hard to use with explanatory material ; the list element number gets reset and other issues!)</p>
 
-<p>The animated GIF is for twitter so we&#39;ll see if the as of this writing current maximum twitter resolution 1024x512 will be less than 15MB the twitter maximum file size.</p>
+<p>The animated GIF is for twitter so we’ll see if the as of this writing current maximum twitter resolution 1024x512 will be less than 15MB the twitter maximum file size.</p>
 
 <p>(All the source code including the file with the average colors, the 1024 line files, the 1024 x 512 line files, the raw RGB files, the PNG files and the animated gifs can be found on github at: <a href="https://github.com/rtanglao/rt-animated-gifs/tree/master/2016-11-03">https://github.com/rtanglao/rt-animated-gifs/tree/master/2016-11-03</a></p>
 
 <ul>
-<li><p>#1 Get the photos (I got mine from my flickr stream 2004-2012 using the &quot;easy&quot; to use flickr API (if you can figure out how to do an HTTP GET in your favorite computer language it&#39;s &quot;easy&quot;; at least far easier and better documented than most APIs :-) )</p></li>
-<li><p>#2 Convert 2004-2012 roland flickr thumbnails to one file with 1 average colour RGB hex value per line using imagemagick scaling 10 1px by 1 px (another aside: which is better graphicsmagick or imagemagick?) <br />
-<code>./printAverageColourHexValueFromDirectory.rb /Users/rtanglao/Dropbox/Public/CCC/DATASETS/09April2012-ROLAND-103K-75x75-FLICKR-PHOTOS/75X75/FILES_SYM_LINKED_SEQUENTIALLY/ &gt; flickr-roland-2004-12-avgcolour.txt</code> </p></li>
-<li><p>#3 Split into files 1024 lines long (since we intend to make 1024 pixel wide &#39;barcodes&#39; <br />
-<code>-a3</code> means 3 digits e.g. 001 and then 002, <code>-l 1024</code> means 1024 line chunks, <code>--numeric-suffixes=1</code> means start the file numbering at 1 instead of 0 <br />
-<code>gsplit -a3 -l 1024 --numeric-suffixes=1  flickr-roland-2004-12-avgcolour.txt 1024line-chunks-flickr-roland-2004-12-avgcolour-</code> (<a href="http://rolandtanglao.com/2016/11/06/p1-linux-core-utilities-instead-of-osx-bsd-utilities/">more info on split/gsplit and GNU utilities on OS X</a>)</p></li>
-<li><p>#4 move into a separate directory to make things easier and cleaner <br />
-<code>mkdir 1024FILES; cd !$; mv ../1024line-ch* .</code></p></li>
-<li><p>#5 create a separate directory for images and working files <br />
-<code>mkdir 1024x512</code></p></li>
-<li><p>#6 Change the 1024 pixel file into a 1024x512 pixel file <br />
-<code>parallel &quot;for i in {1..512};do cat {} &gt;&gt;1024x512/{.}.txt; done&quot; ::: 1024line-chunks-flickr-roland-2004-12*</code></p></li>
-<li><p>#7 <code>cd 1024x512</code></p></li>
-<li><p>#8 Turn the files of pixel colours into raw RGB files<br />
-<code>parallel &quot;xxd -r -p {} {.}.rgb&quot; ::: 1024line-chunks-flickr-roland-2004-12-avgcolour-*.txt</code></p></li>
-<li><p>#9 Convert the RGB raw files into PNG files:  <br />
-<code>parallel &quot;gm convert -depth 8  -size 1024x512 {} {.}.png&quot; ::: 1024line-chunks-flickr-roland-2004-12-avgcolour-*.rgb</code></p></li>
-<li><p>#10 This is what we want but unfortunately it&#39;s 45MB! Too big for twitter <br />
-<code>gm convert -loop 50 -delay 20 *.png flickr2004-12-roland-avg-colour-barcode.gif</code> </p></li>
-<li><p>#11 Halve the resolution from 1024x512 to 512x256 and then you get a nice 9MB file<br />
-<code>gm convert -loop 50 -delay 20 -scale 512x256 *.png 512x256-flickr2004-12-roland-avg-colour-barcode.gif</code></p></li>
-<li><p>#12 do a little dance done :-)</p></li>
+  <li>
+    <p>#1 Get the photos (I got mine from my flickr stream 2004-2012 using the “easy” to use flickr API (if you can figure out how to do an HTTP GET in your favorite computer language it’s “easy”; at least far easier and better documented than most APIs :-) )</p>
+  </li>
+  <li>
+    <p>#2 Convert 2004-2012 roland flickr thumbnails to one file with 1 average colour RGB hex value per line using imagemagick scaling 10 1px by 1 px (another aside: which is better graphicsmagick or imagemagick?) <br />
+<code class="highlighter-rouge">./printAverageColourHexValueFromDirectory.rb /Users/rtanglao/Dropbox/Public/CCC/DATASETS/09April2012-ROLAND-103K-75x75-FLICKR-PHOTOS/75X75/FILES_SYM_LINKED_SEQUENTIALLY/ &gt; flickr-roland-2004-12-avgcolour.txt</code></p>
+  </li>
+  <li>
+    <p>#3 Split into files 1024 lines long (since we intend to make 1024 pixel wide ‘barcodes’ <br />
+<code class="highlighter-rouge">-a3</code> means 3 digits e.g. 001 and then 002, <code class="highlighter-rouge">-l 1024</code> means 1024 line chunks, <code class="highlighter-rouge">--numeric-suffixes=1</code> means start the file numbering at 1 instead of 0 <br />
+ <code class="highlighter-rouge">gsplit -a3 -l 1024 --numeric-suffixes=1  flickr-roland-2004-12-avgcolour.txt 1024line-chunks-flickr-roland-2004-12-avgcolour-</code> (<a href="http://rolandtanglao.com/2016/11/06/p1-linux-core-utilities-instead-of-osx-bsd-utilities/">more info on split/gsplit and GNU utilities on OS X</a>)</p>
+  </li>
+  <li>
+    <p>#4 move into a separate directory to make things easier and cleaner <br />
+<code class="highlighter-rouge">mkdir 1024FILES; cd !$; mv ../1024line-ch* .</code></p>
+  </li>
+  <li>
+    <p>#5 create a separate directory for images and working files <br />
+<code class="highlighter-rouge">mkdir 1024x512</code></p>
+  </li>
+  <li>
+    <p>#6 Change the 1024 pixel file into a 1024x512 pixel file <br />
+<code class="highlighter-rouge">parallel "for i in {1..512};do cat {} &gt;&gt;1024x512/{.}.txt; done" ::: 1024line-chunks-flickr-roland-2004-12*</code></p>
+  </li>
+  <li>
+    <p>#7 <code class="highlighter-rouge">cd 1024x512</code></p>
+  </li>
+  <li>
+    <p>#8 Turn the files of pixel colours into raw RGB files<br />
+<code class="highlighter-rouge">parallel "xxd -r -p {} {.}.rgb" ::: 1024line-chunks-flickr-roland-2004-12-avgcolour-*.txt</code></p>
+  </li>
+  <li>
+    <p>#9 Convert the RGB raw files into PNG files:  <br />
+<code class="highlighter-rouge">parallel "gm convert -depth 8  -size 1024x512 {} {.}.png" ::: 1024line-chunks-flickr-roland-2004-12-avgcolour-*.rgb</code></p>
+  </li>
+  <li>
+    <p>#10 This is what we want but unfortunately it’s 45MB! Too big for twitter <br />
+<code class="highlighter-rouge">gm convert -loop 50 -delay 20 *.png flickr2004-12-roland-avg-colour-barcode.gif</code></p>
+  </li>
+  <li>
+    <p>#11 Halve the resolution from 1024x512 to 512x256 and then you get a nice 9MB file<br />
+<code class="highlighter-rouge">gm convert -loop 50 -delay 20 -scale 512x256 *.png 512x256-flickr2004-12-roland-avg-colour-barcode.gif</code></p>
+  </li>
+  <li>
+    <p>#12 do a little dance done :-)</p>
+  </li>
 </ul>
 
-<h2>Output</h2>
+<h2 id="output">Output</h2>
 
-<p><img src="https://c2.staticflickr.com/6/5629/30170047903_3d6757bd08_o_d.gif" alt="animated GIF of roland&#39;s flickr average colour barcode 2004-2012" title="animated GIF of roland&#39;s flickr average colour barcode 2004-2012"></p>
+<p><img src="https://c2.staticflickr.com/6/5629/30170047903_3d6757bd08_o_d.gif" alt="animated GIF of roland's flickr average colour barcode 2004-2012" title="animated GIF of roland's flickr average colour barcode 2004-2012" /></p>
+
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>

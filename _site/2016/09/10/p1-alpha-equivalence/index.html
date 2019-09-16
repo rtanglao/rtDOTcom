@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2016/09/10/p1-alpha-equivalence/">
+    <link rel="canonical" href="http://localhost:4000/2016/09/10/p1-alpha-equivalence/">
 </head>
 
 
@@ -64,23 +64,25 @@
   <article class="post-content">
     <p>From page 45 of <a href="http://rolandtanglao.com/2016/09/09/p1-learning-me-a-haskell/">Haskell Programming from first Principles by Christopher Allen and Julie Moronuki</a>:</p>
 
-<h2>Update 11 September 2016 screenshot of desktop for mobile users!</h2>
+<h2 id="update-11-september-2016-screenshot-of-desktop-for-mobile-users">Update 11 September 2016 screenshot of desktop for mobile users!</h2>
 
-<p><a data-flickr-embed="true"  href="https://www.flickr.com/photos/roland/29520118621/in/dateposted-ff/" title="alpha equivalence in lambda calculus 20160911_005625"><img src="https://c6.staticflickr.com/9/8485/29520118621_cfd34ea977.jpg" width="500" height="500" alt="alpha equivalence in lambda calculus 20160911_005625"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+<p><a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/29520118621/in/dateposted-ff/" title="alpha equivalence in lambda calculus 20160911_005625"><img src="https://c6.staticflickr.com/9/8485/29520118621_cfd34ea977.jpg" width="500" height="500" alt="alpha equivalence in lambda calculus 20160911_005625" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
 
-<h2>Exercise</h2>
-<div class="highlight"><pre><code class="language-" data-lang="">3. 𝜆𝑥𝑦𝑧.𝑧𝑥
+<h2 id="exercise">Exercise</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>3. 𝜆𝑥𝑦𝑧.𝑧𝑥
 a) 𝜆𝑥.(𝜆𝑦.(𝜆𝑧.𝑧)) 
 b) 𝜆𝑡𝑜𝑠.𝑠𝑡
 c) 𝜆𝑚𝑛𝑝.𝑚𝑛
-</code></pre></div>
-<p>Which is correct? </p>
+</code></pre></div></div>
+<p>Which is correct?</p>
 
-<p>I believe the answer is b). </p>
+<p>I believe the answer is b).</p>
 
-<p>Not a) because a) omits <code>x</code>. </p>
+<p>Not a) because a) omits <code class="highlighter-rouge">x</code>.</p>
 
-<p>Not c) because c) should be <code>𝜆𝑚𝑛𝑝.𝑝𝑚</code> NOT<code>𝜆𝑚𝑛𝑝.𝑚𝑛</code></p>
+<p>Not c) because c) should be <code class="highlighter-rouge">𝜆𝑚𝑛𝑝.𝑝𝑚</code> NOT<code class="highlighter-rouge">𝜆𝑚𝑛𝑝.𝑚𝑛</code></p>
+
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>

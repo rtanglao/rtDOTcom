@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2017/03/29/p1-how-to-check-6000-redirects/">
+    <link rel="canonical" href="http://localhost:4000/2017/03/29/p1-how-to-check-6000-redirects/">
 </head>
 
 
@@ -62,18 +62,18 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
-
+    <h2 id="pontifications">Pontifications</h2>
 <ul>
-<li>URLS URLS URLS</li>
-<li>URL encoding is <code>%xx</code> NOT <code>%xxx</code> for non roman character sets</li>
+  <li>URLS URLS URLS</li>
+  <li>URL encoding is <code class="highlighter-rouge">%xx</code> NOT <code class="highlighter-rouge">%xxx</code> for non roman character sets</li>
 </ul>
 
-<h3>Code</h3>
+<h3 id="code">Code</h3>
 
-<p><a href="https://github.com/rtanglao/rt-li-sumo-redirects/blob/master/README.md#29march2017">Here&#39;s how I used it to check redirects for 6000 urls</a>.
+<p><a href="https://github.com/rtanglao/rt-li-sumo-redirects/blob/master/README.md#29march2017">Here’s how I used it to check redirects for 6000 urls</a>.
 From <a href="https://github.com/rtanglao/rt-li-sumo-redirects/blob/master/test6000-redirects.rb">test6000-redirects.rb</a>:</p>
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1">#!/usr/bin/env ruby</span>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/env ruby</span>
 <span class="nb">require</span> <span class="s1">'rubygems'</span>
 <span class="c1"># http://stackoverflow.com/questions/13822555/how-to-do-basic-authentication-over-https-in-ruby</span>
 <span class="c1"># see also: rest-client</span>
@@ -86,7 +86,7 @@ From <a href="https://github.com/rtanglao/rt-li-sumo-redirects/blob/master/test6
 <span class="n">stage_config</span> <span class="o">=</span> <span class="no">ParseConfig</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="s1">'stage.conf'</span><span class="p">).</span><span class="nf">params</span>
 <span class="n">userid</span> <span class="o">=</span> <span class="n">stage_config</span><span class="p">[</span><span class="s1">'userid'</span><span class="p">]</span>
 <span class="n">password</span> <span class="o">=</span> <span class="n">stage_config</span><span class="p">[</span><span class="s1">'password'</span><span class="p">]</span>
-
+                        
 <span class="n">header</span> <span class="o">=</span> <span class="kp">true</span>
 <span class="no">Ccsv</span><span class="p">.</span><span class="nf">foreach</span><span class="p">(</span><span class="no">ARGV</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="k">do</span> <span class="o">|</span><span class="n">values</span><span class="o">|</span>
   <span class="k">if</span> <span class="n">header</span> <span class="o">==</span> <span class="kp">true</span>
@@ -110,7 +110,8 @@ From <a href="https://github.com/rtanglao/rt-li-sumo-redirects/blob/master/test6
     <span class="k">end</span>
   <span class="k">end</span>
 <span class="k">end</span>
-</code></pre></div>
+</code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

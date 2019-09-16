@@ -4,165 +4,173 @@
     <title>Roland Tanglao</title>
     <description>flickr.com/roland, twitter.com/rtanglao #firefox #thunderbird
 </description>
-    <link>http://rolandtanglao.com/</link>
-    <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 15 Sep 2019 12:15:54 -0700</pubDate>
-    <lastBuildDate>Sun, 15 Sep 2019 12:15:54 -0700</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 15 Sep 2019 18:34:58 -0700</pubDate>
+    <lastBuildDate>Sun, 15 Sep 2019 18:34:58 -0700</lastBuildDate>
+    <generator>Jekyll v4.0.0</generator>
     
       <item>
         <title>RSS club makes me laugh :-) Also WSL2 max_user_watches is hilarious</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;I learned about &lt;a href=&quot;https://daverupert.com/rss-club/&quot;&gt;RSS Club&lt;/a&gt; :-) from &lt;a href=&quot;https://www.zylstra.org/blog/2019/09/joining-rss-club-as-an-experiment/&quot;&gt;Ton&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;I&amp;#39;ll probably run into the &lt;a href=&quot;https://daverupert.com/2019/07/a-lament-for-max-user-watches/&quot;&gt;WSL2\ max_user_watches problem&lt;/a&gt; in the future too (the blogger who blogged this is part of RSS club; I of course subscribed to the &lt;a href=&quot;https://daverupert.com/atom.xml&quot;&gt;RSS feed&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;I learned about &lt;a href=&quot;https://daverupert.com/rss-club/&quot;&gt;RSS Club&lt;/a&gt; :-) from &lt;a href=&quot;https://www.zylstra.org/blog/2019/09/joining-rss-club-as-an-experiment/&quot;&gt;Ton&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I’ll probably run into the &lt;a href=&quot;https://daverupert.com/2019/07/a-lament-for-max-user-watches/&quot;&gt;WSL2 max_user_watches problem&lt;/a&gt; in the future too (the blogger who blogged this is part of RSS club; I of course subscribed to the &lt;a href=&quot;https://daverupert.com/atom.xml&quot;&gt;RSS feed&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 15 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/09/15/p1-wsl2-max-user-watches-rss-club/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/15/p1-wsl2-max-user-watches-rss-club/</guid>
+        <link>http://localhost:4000/2019/09/15/p1-wsl2-max-user-watches-rss-club/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/09/15/p1-wsl2-max-user-watches-rss-club/</guid>
         
         
       </item>
     
       <item>
         <title>True experts are authors i.e. they can write down explanations and explain it to non experts</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;A true expert is also an author (not necessarily a book length author!) ---&amp;gt; Read &lt;a href=&quot;https://withoutbullshit.com/blog/5-hurdles-that-distinguish-authors-from-experts&quot;&gt;5 hurdles that distinguish authors from experts&lt;/a&gt; for more&lt;/li&gt;
+  &lt;li&gt;A true expert is also an author (not necessarily a book length author!) —&amp;gt; Read &lt;a href=&quot;https://withoutbullshit.com/blog/5-hurdles-that-distinguish-authors-from-experts&quot;&gt;5 hurdles that distinguish authors from experts&lt;/a&gt; for more&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 14 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/09/14/p1-true-experts-are-authors-who-can-write-it-down-and-explain-it-to-others/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/14/p1-true-experts-are-authors-who-can-write-it-down-and-explain-it-to-others/</guid>
+        <link>http://localhost:4000/2019/09/14/p1-true-experts-are-authors-who-can-write-it-down-and-explain-it-to-others/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/09/14/p1-true-experts-are-authors-who-can-write-it-down-and-explain-it-to-others/</guid>
         
         
       </item>
     
       <item>
         <title>Javascript and the DOM are too complicated for beginners</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;I 100% agree with this Computing Education Research Blog post: &lt;a href=&quot;https://computinged.wordpress.com/2019/09/09/where-a-notional-machine-doesnt-help-javascript-and-the-dom/&quot;&gt;Where a Notional Machine Doesn’t Help: JavaScript and the DOM&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I 100% agree with this Computing Education Research Blog post: &lt;a href=&quot;https://computinged.wordpress.com/2019/09/09/where-a-notional-machine-doesnt-help-javascript-and-the-dom/&quot;&gt;Where a Notional Machine Doesn’t Help: JavaScript and the DOM&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 </description>
         <pubDate>Thu, 12 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/09/12/p1-javascript-and-the-dom-are-too-complicated-for-beginners/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/12/p1-javascript-and-the-dom-are-too-complicated-for-beginners/</guid>
+        <link>http://localhost:4000/2019/09/12/p1-javascript-and-the-dom-are-too-complicated-for-beginners/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/09/12/p1-javascript-and-the-dom-are-too-complicated-for-beginners/</guid>
         
         
       </item>
     
       <item>
         <title>Where was I on September 11, 2001?</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://twitter.com/rtanglao/status/1171908277262643200&quot;&gt;I was rollerblading in Stanley Park 630am before our severance meeting (Nortel laid me &amp;amp; dozens of folks off on Sept 10, 2001). Somebody told us about it &amp;amp; I dismissed it as &amp;quot;yet another small plane&amp;quot;. Wrong! I remember watching plane after plane landing at YVR from Prata-man restaurant.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/rtanglao/status/1171908277262643200&quot;&gt;I was rollerblading in Stanley Park 630am before our severance meeting (Nortel laid me &amp;amp; dozens of folks off on Sept 10, 2001). Somebody told us about it &amp;amp; I dismissed it as “yet another small plane”. Wrong! I remember watching plane after plane landing at YVR from Prata-man restaurant.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 </description>
         <pubDate>Wed, 11 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/09/11/p2-september-11-2001-where-was-i/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/11/p2-september-11-2001-where-was-i/</guid>
+        <link>http://localhost:4000/2019/09/11/p2-september-11-2001-where-was-i/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/09/11/p2-september-11-2001-where-was-i/</guid>
         
         
       </item>
     
       <item>
         <title>WSL1 runs fine from cmd.exe, the windows command line, but not from the Windows 10 GUI(tap the Windows key, type 'u' and click on Ubuntu)</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Thanks to &lt;a href=&quot;https://twitter.com/benhillis/status/1171973767729278976&quot;&gt;a suggestion from @benhillis on twitter&lt;/a&gt;, I found out today  that WSL1 runs fine from cmd.exe, the windows command line, but not from the Windows 10 GUI (tap the Windows key, type &amp;#39;u&amp;#39; and click on Ubuntu). &amp;lt;-- following up from yesterday&amp;#39;s &lt;a href=&quot;http://rolandtanglao.com/2019/09/10/p1-wsl1-broke-on-arm64-windows10-build18975-cannot-install-wsl2/&quot;&gt;Windows 10 build 18975 on the Fast Insider Ring on ARM64 Windows 10 Lenovo C630 broke WSL1 and I cannot install WSL2&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Thanks to &lt;a href=&quot;https://twitter.com/benhillis/status/1171973767729278976&quot;&gt;a suggestion from @benhillis on twitter&lt;/a&gt;, I found out today  that WSL1 runs fine from cmd.exe, the windows command line, but not from the Windows 10 GUI (tap the Windows key, type ‘u’ and click on Ubuntu). &amp;lt;– following up from yesterday’s &lt;a href=&quot;http://rolandtanglao.com/2019/09/10/p1-wsl1-broke-on-arm64-windows10-build18975-cannot-install-wsl2/&quot;&gt;Windows 10 build 18975 on the Fast Insider Ring on ARM64 Windows 10 Lenovo C630 broke WSL1 and I cannot install WSL2&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
+
 </description>
         <pubDate>Wed, 11 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/09/11/p1-wsl-runs-fine-from-windows-command-line-but-not-from-windows-gui/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/11/p1-wsl-runs-fine-from-windows-command-line-but-not-from-windows-gui/</guid>
+        <link>http://localhost:4000/2019/09/11/p1-wsl-runs-fine-from-windows-command-line-but-not-from-windows-gui/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/09/11/p1-wsl-runs-fine-from-windows-command-line-but-not-from-windows-gui/</guid>
         
         
       </item>
     
       <item>
         <title>Windows 10 build 18975 on the Fast Insider Ring on ARM64 Windows 10 Lenovo C630 broke WSL1 and I cannot install WSL2</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Title says it all. Haven&amp;#39;t had time to debug!&lt;/li&gt;
+  &lt;li&gt;Title says it all. Haven’t had time to debug!&lt;/li&gt;
 &lt;/ul&gt;
+
 </description>
         <pubDate>Tue, 10 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/09/10/p1-wsl1-broke-on-arm64-windows10-build18975-cannot-install-wsl2/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/10/p1-wsl1-broke-on-arm64-windows10-build18975-cannot-install-wsl2/</guid>
+        <link>http://localhost:4000/2019/09/10/p1-wsl1-broke-on-arm64-windows10-build18975-cannot-install-wsl2/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/09/10/p1-wsl1-broke-on-arm64-windows10-build18975-cannot-install-wsl2/</guid>
         
         
       </item>
     
       <item>
         <title>Got my Samsung Note 8 Update for August on September 6- one month delayed</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2019/08/09/p1-android-security-update-came-out-05august2019-when-fido-note8/&quot;&gt;The Samsung Note 8 Security Update Delay for August 2019 is 1 month
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2019/08/09/p1-android-security-update-came-out-05august2019-when-fido-note8/&quot;&gt;The Samsung Note 8 Security Update Delay for August 2019 is 1 month
 and 1 day&lt;/a&gt;s&lt;/li&gt;
-&lt;li&gt;Seems to be about a one month delay every month.&lt;a href=&quot;http://rolandtanglao.com/2019/07/09/p1-samsung-note-8-received-may-june-2019-android-security-update-06july2019/&quot;&gt; Sometimes two
+  &lt;li&gt;Seems to be about a one month delay every month.&lt;a href=&quot;http://rolandtanglao.com/2019/07/09/p1-samsung-note-8-received-may-june-2019-android-security-update-06july2019/&quot;&gt; Sometimes two
 months&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;This is all fine until you get hacked :-)&lt;/li&gt;
+  &lt;li&gt;This is all fine until you get hacked :-)&lt;/li&gt;
 &lt;/ul&gt;
+
 </description>
         <pubDate>Mon, 09 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/09/09/p1-note8-fido-august-update-september6/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/09/p1-note8-fido-august-update-september6/</guid>
+        <link>http://localhost:4000/2019/09/09/p1-note8-fido-august-update-september6/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/09/09/p1-note8-fido-august-update-september6/</guid>
         
         
       </item>
     
       <item>
         <title>Learning ethics (the real ethics not the STV100) version should be mandatory for all starting high school</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Learning ethics, the real ethics  that my son is learning in high school not the &lt;a href=&quot;https://uwflow.com/course/stv100&quot;&gt;STV100&lt;/a&gt; version, should be mandatory for all starting high school&lt;/li&gt;
-&lt;li&gt;Disclaimer: I took the first offering of STV100 at the University of Waterloo back in the 80s and though I learned lots,  in retrospect, really learning ethics from the philosophy ground up to its application to technology would have been better than STV100&amp;#39;s much more superficial treatment.&lt;/li&gt;
+  &lt;li&gt;Learning ethics, the real ethics  that my son is learning in high school not the &lt;a href=&quot;https://uwflow.com/course/stv100&quot;&gt;STV100&lt;/a&gt; version, should be mandatory for all starting high school&lt;/li&gt;
+  &lt;li&gt;Disclaimer: I took the first offering of STV100 at the University of Waterloo back in the 80s and though I learned lots,  in retrospect, really learning ethics from the philosophy ground up to its application to technology would have been better than STV100’s much more superficial treatment.&lt;/li&gt;
 &lt;/ul&gt;
+
 </description>
         <pubDate>Sun, 08 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/09/08/p1-ethics-is-not-easy-but-should-be-mandatory/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/08/p1-ethics-is-not-easy-but-should-be-mandatory/</guid>
+        <link>http://localhost:4000/2019/09/08/p1-ethics-is-not-easy-but-should-be-mandatory/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/09/08/p1-ethics-is-not-easy-but-should-be-mandatory/</guid>
         
         
       </item>
     
       <item>
         <title>The 2 Erics are at it again with pixaver: Google Photos backups made easy, reminds me of shoeboxapp</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://pixaver.com/&quot;&gt;pixaver&lt;/a&gt; seems similar to recently defunct &lt;a href=&quot;https://shoeboxapp.com/&quot;&gt;shoeboxapp&lt;/a&gt; but hopefully more sustainable longterm&lt;/li&gt;
-&lt;li&gt;go 2-&lt;a href=&quot;http://www.smashlab.com/&quot;&gt;smashlab&lt;/a&gt;-erics go :-)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pixaver.com/&quot;&gt;pixaver&lt;/a&gt; seems similar to recently defunct &lt;a href=&quot;https://shoeboxapp.com/&quot;&gt;shoeboxapp&lt;/a&gt; but hopefully more sustainable longterm&lt;/li&gt;
+  &lt;li&gt;go 2-&lt;a href=&quot;http://www.smashlab.com/&quot;&gt;smashlab&lt;/a&gt;-erics go :-)&lt;/li&gt;
 &lt;/ul&gt;
+
 </description>
         <pubDate>Fri, 06 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/09/06/p1-karj-two-erics-pixaver-google-photos-backup-made-easy/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/06/p1-karj-two-erics-pixaver-google-photos-backup-made-easy/</guid>
+        <link>http://localhost:4000/2019/09/06/p1-karj-two-erics-pixaver-google-photos-backup-made-easy/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/09/06/p1-karj-two-erics-pixaver-google-photos-backup-made-easy/</guid>
         
         
       </item>
     
       <item>
         <title>ggpointdensity would probably make some awesome tshirt graphics</title>
-        <description>&lt;h1&gt;Pontifications&lt;/h1&gt;
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Must try &lt;a href=&quot;https://github.com/LKremer/ggpointdensity&quot;&gt;ggpointdensity&lt;/a&gt; and make some tshirts :-)&lt;/li&gt;
+  &lt;li&gt;Must try &lt;a href=&quot;https://github.com/LKremer/ggpointdensity&quot;&gt;ggpointdensity&lt;/a&gt; and make some tshirts :-)&lt;/li&gt;
 &lt;/ul&gt;
+
 </description>
         <pubDate>Wed, 04 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/09/04/p1-ggpointdensity-would-probably-make-some-awesome-tshirt-graphics/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/04/p1-ggpointdensity-would-probably-make-some-awesome-tshirt-graphics/</guid>
+        <link>http://localhost:4000/2019/09/04/p1-ggpointdensity-would-probably-make-some-awesome-tshirt-graphics/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/09/04/p1-ggpointdensity-would-probably-make-some-awesome-tshirt-graphics/</guid>
         
         
       </item>

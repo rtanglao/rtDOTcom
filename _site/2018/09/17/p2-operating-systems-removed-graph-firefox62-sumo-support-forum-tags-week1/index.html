@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2018/09/17/p2-operating-systems-removed-graph-firefox62-sumo-support-forum-tags-week1/">
+    <link rel="canonical" href="http://localhost:4000/2018/09/17/p2-operating-systems-removed-graph-firefox62-sumo-support-forum-tags-week1/">
 </head>
 
 
@@ -62,14 +62,15 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li>see <a href="http://rolandtanglao.com/2018/09/17/p1-the-graph-firefox62-sumo-support-forum-tags-week1/">previous post</a> for the code that this builds on </li>
+  <li>see <a href="http://rolandtanglao.com/2018/09/17/p1-the-graph-firefox62-sumo-support-forum-tags-week1/">previous post</a> for the code that this builds on</li>
 </ul>
 
-<h3>code with all the operating system tags removed</h3>
-<div class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">tags_gt10_remove_common_tags</span><span class="w"> </span><span class="o">&lt;-</span><span class="w">
+<h3 id="code-with-all-the-operating-system-tags-removed">code with all the operating system tags removed</h3>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">tags_gt10_remove_common_tags</span><span class="w"> </span><span class="o">&lt;-</span><span class="w">
 </span><span class="n">tags_count_gt_10</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
   </span><span class="n">filter</span><span class="p">(</span><span class="n">tag</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s2">"desktop"</span><span class="w"> </span><span class="o">&amp;</span><span class="w">
     </span><span class="n">tag</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s2">"escalate"</span><span class="w"> </span><span class="o">&amp;</span><span class="w">
@@ -94,14 +95,15 @@
 </span><span class="n">p</span><span class="m">3</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">p</span><span class="m">3</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">geom_bar</span><span class="p">(</span><span class="n">stat</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"identity"</span><span class="p">)</span><span class="w">
 </span><span class="n">p</span><span class="m">3</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">p</span><span class="m">3</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">theme</span><span class="p">(</span><span class="n">axis.text.x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">element_text</span><span class="p">(</span><span class="n">angle</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">90</span><span class="p">,</span><span class="w"> </span><span class="n">hjust</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="p">))</span><span class="w">
 </span><span class="n">p</span><span class="m">3</span><span class="w">
-</span></code></pre></div>
-<h3>graph with all the operating system tags removed</h3>
+</span></code></pre></div></div>
+
+<h3 id="graph-with-all-the-operating-system-tags-removed">graph with all the operating system tags removed</h3>
 
 <ul>
-<li>The graph from yesterday&#39;s <a href="http://rolandtanglao.com/2018/09/16/p1-firefox62-sumo-support-forum-tags-week1/">Firefox 62 Desktop SUMO Support Forums Week 1 tags - September 5-11, 2018</a>:</li>
+  <li>The graph from yesterday’s <a href="http://rolandtanglao.com/2018/09/16/p1-firefox62-sumo-support-forum-tags-week1/">Firefox 62 Desktop SUMO Support Forums Week 1 tags - September 5-11, 2018</a>:</li>
 </ul>
 
-<p><img src="https://github.com/rtanglao/rt-kitsune-api/raw/master/FF62_WEEK1/linux-removed-Operating%20System%20tags%20removed%20for%20the%20first%20week%20of%20Firefox%20Desktop%2062%20i.e.%20September%205-11Rplot02.png" alt="Operating system tags (linux, mac, windows) removed for the first week of Firefox Desktop 62 i.e. September 5-11, 2018"></p>
+<p><img src="https://github.com/rtanglao/rt-kitsune-api/raw/master/FF62_WEEK1/linux-removed-Operating%20System%20tags%20removed%20for%20the%20first%20week%20of%20Firefox%20Desktop%2062%20i.e.%20September%205-11Rplot02.png" alt="Operating system tags (linux, mac, windows) removed for the first week of Firefox Desktop 62 i.e. September 5-11, 2018" /></p>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>

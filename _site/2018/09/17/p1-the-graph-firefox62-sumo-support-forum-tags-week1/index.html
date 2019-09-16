@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2018/09/17/p1-the-graph-firefox62-sumo-support-forum-tags-week1/">
+    <link rel="canonical" href="http://localhost:4000/2018/09/17/p1-the-graph-firefox62-sumo-support-forum-tags-week1/">
 </head>
 
 
@@ -62,10 +62,11 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
-<h3>code with all the tags with great than 10 occurences</h3>
-<div class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">library</span><span class="p">(</span><span class="n">ggplot2</span><span class="p">)</span><span class="w">
+<h3 id="code-with-all-the-tags-with-great-than-10-occurences">code with all the tags with great than 10 occurences</h3>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">ggplot2</span><span class="p">)</span><span class="w">
 </span><span class="n">tags</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">read.csv</span><span class="p">(</span><span class="n">file</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"https://raw.githubusercontent.com/rtanglao/rt-kitsune-api/master/FF62_WEEK1/16september2018-tags-5-11september2018.csv"</span><span class="p">,</span><span class="w"> </span><span class="n">stringsAsFactors</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">F</span><span class="p">)</span><span class="w">
 
 </span><span class="n">p</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ggplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">tags</span><span class="p">,</span><span class="w"> </span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">tag</span><span class="p">))</span><span class="w">
@@ -84,14 +85,15 @@
 </span><span class="n">p</span><span class="m">2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">p</span><span class="m">2</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">geom_bar</span><span class="p">(</span><span class="n">stat</span><span class="o">=</span><span class="s2">"identity"</span><span class="p">)</span><span class="w">
 </span><span class="n">p</span><span class="m">2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">p</span><span class="m">2</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">theme</span><span class="p">(</span><span class="n">axis.text.x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">element_text</span><span class="p">(</span><span class="n">angle</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">90</span><span class="p">,</span><span class="w"> </span><span class="n">hjust</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="p">))</span><span class="w">
 </span><span class="n">p</span><span class="m">2</span><span class="w">
-</span></code></pre></div>
-<h3>graph with all the tags with greater than 10 occurences</h3>
+</span></code></pre></div></div>
+
+<h3 id="graph-with-all-the-tags-with-greater-than-10-occurences">graph with all the tags with greater than 10 occurences</h3>
 
 <ul>
-<li>The graph from yesterday&#39;s <a href="http://rolandtanglao.com/2018/09/16/p1-firefox62-sumo-support-forum-tags-week1/">Firefox 62 Desktop SUMO Support Forums Week 1 tags - September 5-11, 2018</a>:</li>
+  <li>The graph from yesterday’s <a href="http://rolandtanglao.com/2018/09/16/p1-firefox62-sumo-support-forum-tags-week1/">Firefox 62 Desktop SUMO Support Forums Week 1 tags - September 5-11, 2018</a>:</li>
 </ul>
 
-<p><img src="https://github.com/rtanglao/rt-kitsune-api/raw/master/FF62_WEEK1/sumo-firefox-desktop-62-week1-05-11september2018-all-tags-count-gt-10-Rplot02.png" alt="All tags for the first week of Firefox Desktop 62 i.e. September 5-11, 2018"></p>
+<p><img src="https://github.com/rtanglao/rt-kitsune-api/raw/master/FF62_WEEK1/sumo-firefox-desktop-62-week1-05-11september2018-all-tags-count-gt-10-Rplot02.png" alt="All tags for the first week of Firefox Desktop 62 i.e. September 5-11, 2018" /></p>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>

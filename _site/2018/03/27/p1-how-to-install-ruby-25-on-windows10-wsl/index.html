@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2018/03/27/p1-how-to-install-ruby-25-on-windows10-wsl/">
+    <link rel="canonical" href="http://localhost:4000/2018/03/27/p1-how-to-install-ruby-25-on-windows10-wsl/">
 </head>
 
 
@@ -62,10 +62,11 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
-<p>From <a href="https://gorails.com/setup/ubuntu/16.04">Setup Ruby On Rails on Ubuntu 16.04 Xenial Xerus</a>, here&#39;s how I installed ruby 2.5.0 on Windows 10 (I couldn&#39;t get rbenv to work and the CSV gem wouldn&#39;t work on <a href="http://rolandtanglao.com/2018/02/27/p1-jekyll-surge-windows/">ruby 2.3 which is what I installed before</a> )</p>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cd
+<p>From <a href="https://gorails.com/setup/ubuntu/16.04">Setup Ruby On Rails on Ubuntu 16.04 Xenial Xerus</a>, here’s how I installed ruby 2.5.0 on Windows 10 (I couldn’t get rbenv to work and the CSV gem wouldn’t work on <a href="http://rolandtanglao.com/2018/02/27/p1-jekyll-surge-windows/">ruby 2.3 which is what I installed before</a> )</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd
 </span>wget http://ftp.ruby-lang.org/pub/ruby/2.5/ruby-2.5.0.tar.gz
 <span class="nb">tar</span> <span class="nt">-xzvf</span> ruby-2.5.0.tar.gz
 <span class="nb">cd </span>ruby-2.5.0/
@@ -73,7 +74,8 @@
 make
 <span class="nb">sudo </span>make <span class="nb">install
 </span>ruby <span class="nt">-v</span>
-</code></pre></div>
+</code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

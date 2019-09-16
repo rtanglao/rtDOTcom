@@ -1,0 +1,17 @@
+I"1<p>Gotta try this,  It looks like a wonderful public service and set of PHP routines.
+(Via a  trackback to <a href="http://www.rolandtanglao.com/archives/2004/05/25/microsoft_gets_bottom_up_collaboration_including_blogs_does_your_company">my blog post about Microsoft and bottom up collaboration</a>) - <a href="http://jade.mcli.dist.maricopa.edu/feed/">So What is “Feed to JavaScript”?</a>:</p>
+<p><strong>QUOTE</strong></p>
+<blockquote>An RSS Feed is a dynamically generated summary (in XML format) of information or news published on other web sites. It is a rather simple technology that allows you, the humble web page designer, to have this content displayed in your own web page, without having to know a lick about XML!
+
+Think of it as a box you define on your web page that is able to update itself, whenever the source of the information changes, your web page does too, without you having to do a single thing to it. Check out some of the examples where ordinary people are already using this.
+
+This Feed2JS web site provides you a free service that can do all the hard work for you-- in 3 easy steps:
+
+Find the RSS source, the web address for the feed.
+
+Use our simple tool to build the JavaScript command that will display it
+
+Optionally style it up to look pretty.</blockquote>
+<p><strong>UNQUOTE</strong></p>
+
+:ET

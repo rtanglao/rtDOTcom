@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2017/11/20/p1-TIL-scraping-javascript-sites-with-ruby-and-watir-is-harder-than-it-should-be/">
+    <link rel="canonical" href="http://localhost:4000/2017/11/20/p1-TIL-scraping-javascript-sites-with-ruby-and-watir-is-harder-than-it-should-be/">
 </head>
 
 
@@ -62,23 +62,24 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li>I&#39;m just trying to scrape the London Drug&#39;s photowebsite to download all photos at a time instead of laboriously one at at time.</li>
-<li>Watir and Ruby and Selenium are hard.</li>
-<li>But scraping an Angular site like LD&#39;s photo website is a nightmare.</li>
-<li>Firefox developer tools:
-
-<ul>
-<li><code>Right Click</code>-&gt;<code>Inspect Element</code> and <code>copy</code>-&gt;<code>Xpath</code> is your friend</li>
-</ul></li>
+  <li>I’m just trying to scrape the London Drug’s photowebsite to download all photos at a time instead of laboriously one at at time.</li>
+  <li>Watir and Ruby and Selenium are hard.</li>
+  <li>But scraping an Angular site like LD’s photo website is a nightmare.</li>
+  <li>Firefox developer tools:
+    <ul>
+      <li><code class="highlighter-rouge">Right Click</code>-&gt;<code class="highlighter-rouge">Inspect Element</code> and <code class="highlighter-rouge">copy</code>-&gt;<code class="highlighter-rouge">Xpath</code> is your friend</li>
+    </ul>
+  </li>
 </ul>
 
-<h3>Code</h3>
+<h3 id="code">Code</h3>
 
 <p>Here is my non working code that only gets 32 out of 37 photos:</p>
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1">#!/usr/bin/env ruby</span>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/env ruby</span>
 <span class="nb">require</span> <span class="s1">'rubygems'</span>
 <span class="nb">require</span> <span class="s1">'watir'</span>
 <span class="nb">require</span> <span class="s1">'watir-scroll'</span>
@@ -131,7 +132,8 @@
     <span class="n">pp</span> <span class="n">original_url</span>
   <span class="k">end</span>
 <span class="k">end</span>
-</code></pre></div>
+</code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

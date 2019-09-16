@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2019/02/10/p1-users-dont-know-antivirus-is-breaking-firefox-and-it-not-obvious-when-it-does/">
+    <link rel="canonical" href="http://localhost:4000/2019/02/10/p1-users-dont-know-antivirus-is-breaking-firefox-and-it-not-obvious-when-it-does/">
 </head>
 
 
@@ -62,16 +62,17 @@
   </header>
 
   <article class="post-content">
-    <h1>Pontifications</h1>
+    <h1 id="pontifications">Pontifications</h1>
 
 <ul>
-<li>The following plot  of AVG and Avast mentions in the first week of Firefox 58-65 (we know that in the first week of Firefox 65 that Avast broke Firefox and that several support questions were about Avast/Avg yet it&#39;s hardly mentioned more in 65 than other releases) release shows that users don&#39;t know when their antivirus breaks Firefox and it&#39;s not obvious to them so they don&#39;t mention it in their support requests:</li>
+  <li>The following plot  of AVG and Avast mentions in the first week of Firefox 58-65 (we know that in the first week of Firefox 65 that Avast broke Firefox and that several support questions were about Avast/Avg yet it’s hardly mentioned more in 65 than other releases) release shows that users don’t know when their antivirus breaks Firefox and it’s not obvious to them so they don’t mention it in their support requests:</li>
 </ul>
 
-<p><a data-flickr-embed="true"  href="https://www.flickr.com/photos/roland/46333828794/in/dateposted-ff/" title="firefox58-65-mentions-of-avg-avast-week1-of-release"><img src="https://farm8.staticflickr.com/7884/46333828794_bd87a153b5.jpg" width="500" height="313" alt="firefox58-65-mentions-of-avg-avast-week1-of-release"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+<p><a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/46333828794/in/dateposted-ff/" title="firefox58-65-mentions-of-avg-avast-week1-of-release"><img src="https://farm8.staticflickr.com/7884/46333828794_bd87a153b5.jpg" width="500" height="313" alt="firefox58-65-mentions-of-avg-avast-week1-of-release" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
 
-<h2>Code:</h2>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cd</span> ~/GIT/rt-kitsune-api/VISUALIZATIONS/WEEK1
+<h2 id="code">Code:</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> ~/GIT/rt-kitsune-api/VISUALIZATIONS/WEEK1
 ../../print-csv-ff-desktop-questions-id-content-created-product-tags-title-topic-firefoxversion-1releaseweek.rb 2018 1 23 58 1
 ../../print-csv-ff-desktop-questions-id-content-created-product-tags-title-topic-firefoxversion-1releaseweek.rb 2018 3 13 59 1
 ../../print-csv-ff-desktop-questions-id-content-created-product-tags-title-topic-firefoxversion-1releaseweek.rb 2018 5 9 60 1
@@ -81,19 +82,24 @@
 ../../print-csv-ff-desktop-questions-id-content-created-product-tags-title-topic-firefoxversion-1releaseweek.rb 2018 12 11 64 1
 ../../print-csv-ff-desktop-questions-id-content-created-product-tags-title-topic-firefoxversion-1releaseweek.rb 2019 1 29 65 1
 mlr <span class="nt">--csv</span> <span class="nb">cut</span> <span class="nt">-x</span> <span class="nt">-f</span>  <span class="s1">'product,topic,tags'</span>  firefox<span class="k">*</span>.csv <span class="o">&gt;</span> ff58-65-id-created-title-content-firefoxversion-1streleaseweek-day.csv
-</code></pre></div>
+</code></pre></div></div>
+
 <ul>
-<li>and then run the r script in debug mode:</li>
+  <li>and then run the r script in debug mode:</li>
 </ul>
-<div class="highlight"><pre><code class="language-r" data-lang="r"><span class="n">commandArgs</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="k">function</span><span class="p">(</span><span class="n">...</span><span class="p">)</span><span class="w"> </span><span class="nf">return</span><span class="p">(</span><span class="nf">c</span><span class="p">(</span><span class="s2">"WEEK1/ff58-65-id-created-title-content-firefoxversion-1streleaseweek-day.csv"</span><span class="p">,</span><span class="w"> </span><span class="s2">"no"</span><span class="p">))</span><span class="w">
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">commandArgs</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="k">function</span><span class="p">(</span><span class="n">...</span><span class="p">)</span><span class="w"> </span><span class="nf">return</span><span class="p">(</span><span class="nf">c</span><span class="p">(</span><span class="s2">"WEEK1/ff58-65-id-created-title-content-firefoxversion-1streleaseweek-day.csv"</span><span class="p">,</span><span class="w"> </span><span class="s2">"no"</span><span class="p">))</span><span class="w">
 </span><span class="n">debugSource</span><span class="p">(</span><span class="s2">"plot-avg-and-avast-mentions-1st-week.r"</span><span class="p">)</span><span class="w">
 </span><span class="n">rm</span><span class="p">(</span><span class="n">commandArgs</span><span class="p">)</span><span class="w">
-</span></code></pre></div>
+</span></code></pre></div></div>
+
 <ul>
-<li>or from the bash command line run <a href="https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/plot-avg-and-avast-mentions-1st-week.r">plot-avg-and-avast-mentions-1st-week.r</a></li>
+  <li>or from the bash command line run <a href="https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/plot-avg-and-avast-mentions-1st-week.r">plot-avg-and-avast-mentions-1st-week.r</a></li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">Rscript plot-avg-and-avast-mentions-1st-week.r WEEK1/ff58-65-id-created-title-content-firefoxversion-1streleaseweek-day.csv no
-</code></pre></div>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Rscript plot-avg-and-avast-mentions-1st-week.r WEEK1/ff58-65-id-created-title-content-firefoxversion-1streleaseweek-day.csv no
+</code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

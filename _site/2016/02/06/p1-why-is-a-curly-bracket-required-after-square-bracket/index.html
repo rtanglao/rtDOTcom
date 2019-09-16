@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2016/02/06/p1-why-is-a-curly-bracket-required-after-square-bracket/">
+    <link rel="canonical" href="http://localhost:4000/2016/02/06/p1-why-is-a-curly-bracket-required-after-square-bracket/">
 </head>
 
 
@@ -62,36 +62,41 @@
   </header>
 
   <article class="post-content">
-    <p>Why is a curly bracket required before the &quot;$divide” in the following? Is it because of the square bracket? Is it because of a mongodb bug?</p>
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">red_green_blue_divide_by_100_and_pow</span> <span class="o">=</span> <span class="p">{</span> 
-    <span class="s1">'$project'</span> <span class="o">=&gt;</span>
-    <span class="p">{</span>
-        <span class="s2">"red_pow"</span> <span class="o">=&gt;</span> <span class="p">{</span> <span class="s2">"$pow"</span> <span class="o">=&gt;</span>
-        <span class="p">[{</span><span class="s2">"$divide"</span> <span class="o">=&gt;</span> <span class="p">[</span><span class="s2">"$top_colour.red"</span><span class="p">,</span> <span class="mf">255.0</span><span class="p">]},</span> <span class="mf">2.2</span><span class="p">]},</span>
-        <span class="s2">"green_pow"</span> <span class="o">=&gt;</span> <span class="p">{</span> <span class="s2">"$pow"</span> <span class="o">=&gt;</span> <span class="p">[</span>
-            <span class="p">{</span><span class="s2">"$divide"</span> <span class="o">=&gt;</span> <span class="p">[</span><span class="s2">"$top_colour.green"</span><span class="p">,</span> <span class="mf">255.0</span><span class="p">]},</span> <span class="mf">2.2</span><span class="p">]},</span>
-        <span class="s2">"blue_pow"</span> <span class="o">=&gt;</span> <span class="p">{</span> <span class="s2">"$pow"</span> <span class="o">=&gt;</span> <span class="p">[</span>
-            <span class="p">{</span><span class="s2">"$divide"</span> <span class="o">=&gt;</span> <span class="p">[</span><span class="s2">"$top_colour.blue"</span><span class="p">,</span> <span class="mf">255.0</span><span class="p">]},</span> <span class="mf">2.2</span><span class="p">]}</span>
+    <p>Why is a curly bracket required before the “$divide” in the following? Is it because of the square bracket? Is it because of a mongodb bug?</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">red_green_blue_divide_by_100_and_pow</span> <span class="o">=</span> <span class="p">{</span> 
+	<span class="s1">'$project'</span> <span class="o">=&gt;</span>
+	<span class="p">{</span>
+		<span class="s2">"red_pow"</span> <span class="o">=&gt;</span> <span class="p">{</span> <span class="s2">"$pow"</span> <span class="o">=&gt;</span>
+		<span class="p">[{</span><span class="s2">"$divide"</span> <span class="o">=&gt;</span> <span class="p">[</span><span class="s2">"$top_colour.red"</span><span class="p">,</span> <span class="mf">255.0</span><span class="p">]},</span> <span class="mf">2.2</span><span class="p">]},</span>
+		<span class="s2">"green_pow"</span> <span class="o">=&gt;</span> <span class="p">{</span> <span class="s2">"$pow"</span> <span class="o">=&gt;</span> <span class="p">[</span>
+			<span class="p">{</span><span class="s2">"$divide"</span> <span class="o">=&gt;</span> <span class="p">[</span><span class="s2">"$top_colour.green"</span><span class="p">,</span> <span class="mf">255.0</span><span class="p">]},</span> <span class="mf">2.2</span><span class="p">]},</span>
+		<span class="s2">"blue_pow"</span> <span class="o">=&gt;</span> <span class="p">{</span> <span class="s2">"$pow"</span> <span class="o">=&gt;</span> <span class="p">[</span>
+			<span class="p">{</span><span class="s2">"$divide"</span> <span class="o">=&gt;</span> <span class="p">[</span><span class="s2">"$top_colour.blue"</span><span class="p">,</span> <span class="mf">255.0</span><span class="p">]},</span> <span class="mf">2.2</span><span class="p">]}</span>
       <span class="p">}</span>
     <span class="p">}</span>
-</code></pre></div>
-<p>But not before the &quot;$pow&quot; in the following:</p>
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">red_green_blue_float_avg</span> <span class="o">=</span> <span class="p">{</span> 
-    <span class="s1">'$project'</span> <span class="o">=&gt;</span>
+</code></pre></div></div>
+
+<p>But not before the “$pow” in the following:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">red_green_blue_float_avg</span> <span class="o">=</span> <span class="p">{</span> 
+	<span class="s1">'$project'</span> <span class="o">=&gt;</span>
   <span class="p">{</span>
-        <span class="s2">"_id"</span> <span class="o">=&gt;</span> <span class="mi">0</span><span class="p">,</span>
+		<span class="s2">"_id"</span> <span class="o">=&gt;</span> <span class="mi">0</span><span class="p">,</span>
     <span class="s2">"red_float_avg"</span> <span class="o">=&gt;</span> <span class="p">{</span>
-          <span class="s2">"$multiply"</span> <span class="o">=&gt;</span>
-          <span class="p">[</span><span class="mf">255.0</span><span class="p">,</span> <span class="s2">"$pow"</span> <span class="o">=&gt;</span> <span class="p">[</span><span class="s2">"$red_linear_avg"</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">/</span><span class="mf">2.2</span><span class="p">]]},</span>
+		  <span class="s2">"$multiply"</span> <span class="o">=&gt;</span>
+	      <span class="p">[</span><span class="mf">255.0</span><span class="p">,</span> <span class="s2">"$pow"</span> <span class="o">=&gt;</span> <span class="p">[</span><span class="s2">"$red_linear_avg"</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">/</span><span class="mf">2.2</span><span class="p">]]},</span>
     <span class="s2">"green_float_avg"</span> <span class="o">=&gt;</span> <span class="p">{</span>
       <span class="s2">"$multiply"</span> <span class="o">=&gt;</span>
-          <span class="p">[</span><span class="mf">255.0</span><span class="p">,</span> <span class="s2">"$pow"</span> <span class="o">=&gt;</span> <span class="p">[</span><span class="s2">"$green_linear_avg"</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">/</span><span class="mf">2.2</span><span class="p">]]},</span>
+	      <span class="p">[</span><span class="mf">255.0</span><span class="p">,</span> <span class="s2">"$pow"</span> <span class="o">=&gt;</span> <span class="p">[</span><span class="s2">"$green_linear_avg"</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">/</span><span class="mf">2.2</span><span class="p">]]},</span>
     <span class="s2">"blue_float_avg"</span> <span class="o">=&gt;</span> <span class="p">{</span>
-          <span class="s2">"$multiply"</span> <span class="o">=&gt;</span>
-          <span class="p">[</span><span class="mf">255.0</span><span class="p">,</span> <span class="s2">"$pow"</span> <span class="o">=&gt;</span> <span class="p">[</span><span class="s2">"$blue_linear_avg"</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">/</span><span class="mf">2.2</span><span class="p">]]}</span>
+		  <span class="s2">"$multiply"</span> <span class="o">=&gt;</span>
+	      <span class="p">[</span><span class="mf">255.0</span><span class="p">,</span> <span class="s2">"$pow"</span> <span class="o">=&gt;</span> <span class="p">[</span><span class="s2">"$blue_linear_avg"</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">/</span><span class="mf">2.2</span><span class="p">]]}</span>
   <span class="p">}</span>
     <span class="p">}</span>
-</code></pre></div>
+</code></pre></div></div>
+
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

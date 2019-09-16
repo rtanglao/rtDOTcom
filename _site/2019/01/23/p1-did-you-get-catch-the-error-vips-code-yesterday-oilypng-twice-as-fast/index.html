@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2019/01/23/p1-did-you-get-catch-the-error-vips-code-yesterday-oilypng-twice-as-fast/">
+    <link rel="canonical" href="http://localhost:4000/2019/01/23/p1-did-you-get-catch-the-error-vips-code-yesterday-oilypng-twice-as-fast/">
 </head>
 
 
@@ -62,14 +62,15 @@
   </header>
 
   <article class="post-content">
-    <h1>Pontifications</h1>
+    <h1 id="pontifications">Pontifications</h1>
 
 <ul>
-<li>Did you catch the bug in  <a href="http://rolandtanglao.com/2019/01/22/p1-which-is-faster-at-creating-png-images-imagemagick-convert-oilypng-ruby-vips/">yesterday&#39;s vips code to create random 5x5 images from my Mozlando Space Shuttle Atlantis pics</a>, <a href="https://github.com/rtanglao/rt-mozlando2018-ksc/blob/master/vips-create5x5-zazzle-leg.rb">vips-create5x5-zazzle-leg.rb</a>? It was the <code>x+=5</code> line!</li>
-<li>The bug will cause only every 5th pixel to be written out, so I will let it run without fixing the bug, might be a nice pattern.</li>
-<li>Here is today&#39;s code, <a href="https://github.com/rtanglao/rt-mozlando2018-ksc/blob/master/oily-5px-zazzle-leg.rb">oily-5px-zazzle-leg.rb</a></li>
+  <li>Did you catch the bug in  <a href="http://rolandtanglao.com/2019/01/22/p1-which-is-faster-at-creating-png-images-imagemagick-convert-oilypng-ruby-vips/">yesterday’s vips code to create random 5x5 images from my Mozlando Space Shuttle Atlantis pics</a>, <a href="https://github.com/rtanglao/rt-mozlando2018-ksc/blob/master/vips-create5x5-zazzle-leg.rb">vips-create5x5-zazzle-leg.rb</a>? It was the <code class="highlighter-rouge">x+=5</code> line!</li>
+  <li>The bug will cause only every 5th pixel to be written out, so I will let it run without fixing the bug, might be a nice pattern.</li>
+  <li>Here is today’s code, <a href="https://github.com/rtanglao/rt-mozlando2018-ksc/blob/master/oily-5px-zazzle-leg.rb">oily-5px-zazzle-leg.rb</a></li>
 </ul>
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1">#!/usr/bin/env ruby</span>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/env ruby</span>
 <span class="nb">require</span> <span class="s1">'json'</span>
 <span class="nb">require</span> <span class="s1">'rubygems'</span>
 <span class="nb">require</span> <span class="s1">'awesome_print'</span>
@@ -133,7 +134,8 @@
 <span class="k">end</span>
 <span class="n">output_png</span><span class="p">.</span><span class="nf">save</span> <span class="s2">"oily-out.png"</span><span class="p">,</span> <span class="ss">:interlace</span> <span class="o">=&gt;</span> <span class="kp">true</span>
 
-</code></pre></div>
+</code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2017/07/21/p1-ggjoy-example-nebraska-temps/">
+    <link rel="canonical" href="http://localhost:4000/2017/07/21/p1-ggjoy-example-nebraska-temps/">
 </head>
 
 
@@ -62,29 +62,30 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <p>Yay for fab example code!</p>
 
 <ul>
-<li>The <a href="https://cran.r-project.org/web/packages/ggjoy/vignettes/introduction.html">ggjoy vignette</a> has this modified Lincoln Nebraska ggjoy() example (from <a href="http://austinwehrwein.com/data-visualization/it-brings-me-ggjoy/">original blog post by Austin Wehrwein</a> )</li>
+  <li>The <a href="https://cran.r-project.org/web/packages/ggjoy/vignettes/introduction.html">ggjoy vignette</a> has this modified Lincoln Nebraska ggjoy() example (from <a href="http://austinwehrwein.com/data-visualization/it-brings-me-ggjoy/">original blog post by Austin Wehrwein</a> )</li>
 </ul>
-<div class="highlight"><pre><code class="language-R" data-lang="R"><span class="n">ggplot</span><span class="p">(</span><span class="n">lincoln_weather</span><span class="p">,</span><span class="w"> </span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">`Mean Temperature [F]`</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">`Month`</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w">
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">ggplot</span><span class="p">(</span><span class="n">lincoln_weather</span><span class="p">,</span><span class="w"> </span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">`Mean Temperature [F]`</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">`Month`</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w">
   </span><span class="n">geom_joy</span><span class="p">(</span><span class="n">scale</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">3</span><span class="p">,</span><span class="w"> </span><span class="n">rel_min_height</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0.01</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
   </span><span class="n">scale_x_continuous</span><span class="p">(</span><span class="n">expand</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="m">0.01</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w">
   </span><span class="n">scale_y_discrete</span><span class="p">(</span><span class="n">expand</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="m">0.01</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w">
   </span><span class="n">labs</span><span class="p">(</span><span class="n">title</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'Temperatures in Lincoln NE'</span><span class="p">,</span><span class="w">
        </span><span class="n">subtitle</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'Mean temperatures (Fahrenheit) by month for 2016\nData: Original CSV from the Weather Underground'</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
   </span><span class="n">theme_joy</span><span class="p">(</span><span class="n">font_size</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">13</span><span class="p">,</span><span class="w"> </span><span class="n">grid</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">T</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">theme</span><span class="p">(</span><span class="n">axis.title.y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">element_blank</span><span class="p">())</span><span class="w">
-</span></code></pre></div>
+</span></code></pre></div></div>
 <ul>
-<li>I just have to (easy peasy right :-) ?):
-
-<ul>
-<li> change the months to colours</li>
-<li>change the fill colour to the colours</li>
-<li>change the &quot;mean temperature&quot; to 24 counts of the colours (1 count / hour)</li>
-</ul></li>
+  <li>I just have to (easy peasy right :-) ?):
+    <ul>
+      <li>change the months to colours</li>
+      <li>change the fill colour to the colours</li>
+      <li>change the “mean temperature” to 24 counts of the colours (1 count / hour)</li>
+    </ul>
+  </li>
 </ul>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>

@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2019/04/15/p1-sqlite-does-not-have-array-types/">
+    <link rel="canonical" href="http://localhost:4000/2019/04/15/p1-sqlite-does-not-have-array-types/">
 </head>
 
 
@@ -62,18 +62,18 @@
   </header>
 
   <article class="post-content">
-    <h1>Pontifications</h1>
+    <h1 id="pontifications">Pontifications</h1>
 
 <ul>
-<li>Today I learned that <a href="https://stackoverflow.com/questions/3005231/how-to-store-array-in-one-column-in-sqlite3">SQLite doesn&#39;t have array types</a>; just <a href="https://www.sqlite.org/datatype3.html">NULL, INTEGER, REAL, TEXT, BLOB</a>.</li>
-<li>Therefore if I want to store json with arrays, I can
-
-<ul>
-<li>a) store the JSON in a blog</li>
-<li>b) put the arrays in a separate table</li>
-<li>c) flatten the arrays into a string or some such kludge</li>
-</ul></li>
-<li>I&#39;ll probably do c) first and then b) later for my <a href="http://rolandtanglao.com/2019/04/14/p1-firefox-analyst-notes-checkvist-api-sql-lite-datasette/">Firefox support analyst notes</a> </li>
+  <li>Today I learned that <a href="https://stackoverflow.com/questions/3005231/how-to-store-array-in-one-column-in-sqlite3">SQLite doesn’t have array types</a>; just <a href="https://www.sqlite.org/datatype3.html">NULL, INTEGER, REAL, TEXT, BLOB</a>.</li>
+  <li>Therefore if I want to store json with arrays, I can
+    <ul>
+      <li>a) store the JSON in a blog</li>
+      <li>b) put the arrays in a separate table</li>
+      <li>c) flatten the arrays into a string or some such kludge</li>
+    </ul>
+  </li>
+  <li>I’ll probably do c) first and then b) later for my <a href="http://rolandtanglao.com/2019/04/14/p1-firefox-analyst-notes-checkvist-api-sql-lite-datasette/">Firefox support analyst notes</a></li>
 </ul>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>

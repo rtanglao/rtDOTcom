@@ -1,0 +1,32 @@
+I"�<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>Here’s how to use the  <a href="https://imagemagick.org/script/command-line-options.php#vignette">Imagemagick V7 -vignette option</a> to make a circular crop of an image (via Stack Overflow::ImageMagick: <a href="https://stackoverflow.com/questions/41314498/imagemagick-how-can-i-cut-out-round-from-image">How can I cut out round from image?</a>):</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>magick input.png <span class="nt">-vignette</span> 0x0+0+0 output.png
+</code></pre></div></div>
+
+<ul>
+  <li>This assumes a square input image, but if it isn’t you use the <code class="highlighter-rouge">-vignette</code> geometry parameter.</li>
+  <li>This is simpler than my previous post from <a href="http://rolandtanglao.com/2019/08/15/p1-how-to-use-imagemagick-circular-crop/">August 15, HowTo: Circular Crop with ImageMagick</a></li>
+</ul>
+
+<h2 id="how-to-install-imagemagick-v7">How To Install Imagemagick V7</h2>
+
+<ul>
+  <li>from <a href="https://linuxconfig.org/how-to-install-imagemagick-7-on-ubuntu-18-04-linux">https://linuxconfig.org/how-to-install-imagemagick-7-on-ubuntu-18-04-linux</a> ; installed on Lenovo ARM64 C630</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd
+</span>wget https://www.imagemagick.org/download/ImageMagick.tar.gz
+<span class="nb">tar </span>xf ImageMagick.tar.gz
+<span class="nb">cd </span>ImageMagick-7.0.8-61/
+./configure
+make
+<span class="nb">sudo </span>make <span class="nb">install
+sudo </span>ldconfig /usr/local/lib
+identify <span class="nt">-version</span>
+magick <span class="nt">-version</span>
+</code></pre></div></div>
+:ET

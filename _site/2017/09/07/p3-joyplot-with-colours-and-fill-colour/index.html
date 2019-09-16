@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2017/09/07/p3-joyplot-with-colours-and-fill-colour/">
+    <link rel="canonical" href="http://localhost:4000/2017/09/07/p3-joyplot-with-colours-and-fill-colour/">
 </head>
 
 
@@ -62,23 +62,25 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li>Colorized and filled with with colourname! <a href="http://rolandtanglao.com/2017/09/07/p2-first-successful-joyplot/">See previous blog post</a>.</li>
+  <li>Colorized and filled with with colourname! <a href="http://rolandtanglao.com/2017/09/07/p2-first-successful-joyplot/">See previous blog post</a>.</li>
 </ul>
 
-<h2>with fill and colour: average colour instagram vancouver jauary 2016 aes-x-hour-y-colourname, geom_joy-scale16</h2>
-<div class="highlight"><pre><code class="language-R" data-lang="R"><span class="n">ggplot</span><span class="p">(</span><span class="n">average_colour_ig_van_jan2016</span><span class="p">,</span><span class="w"> 
+<h2 id="with-fill-and-colour-average-colour-instagram-vancouver-jauary-2016-aes-x-hour-y-colourname-geom_joy-scale16">with fill and colour: average colour instagram vancouver jauary 2016 aes-x-hour-y-colourname, geom_joy-scale16</h2>
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">ggplot</span><span class="p">(</span><span class="n">average_colour_ig_van_jan2016</span><span class="p">,</span><span class="w"> 
   </span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">hour</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="o">=</span><span class="w"> </span><span class="n">colourname</span><span class="w"> </span><span class="p">,</span><span class="w"> </span><span class="n">height</span><span class="o">=</span><span class="n">..density..</span><span class="p">))</span><span class="o">+</span><span class="w">
   </span><span class="n">geom_joy</span><span class="p">(</span><span class="n">scale</span><span class="o">=</span><span class="m">16</span><span class="p">,</span><span class="w"> 
   </span><span class="n">aes</span><span class="p">(</span><span class="n">colour</span><span class="o">=</span><span class="n">colour_named_vector</span><span class="p">,</span><span class="w"> </span><span class="n">fill</span><span class="o">=</span><span class="n">colour_named_vector</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w">
   </span><span class="n">scale_colour_manual</span><span class="p">(</span><span class="n">values</span><span class="o">=</span><span class="n">colour_named_vector</span><span class="p">)</span><span class="o">+</span><span class="w">
   </span><span class="n">scale_fill_manual</span><span class="p">(</span><span class="n">values</span><span class="o">=</span><span class="n">colour_named_vector</span><span class="p">)</span><span class="w">
-</span></code></pre></div>
-<h3>Output</h3>
+</span></code></pre></div></div>
 
-<p><a data-flickr-embed="true"  href="https://www.flickr.com/photos/roland/36956193351/in/datetaken-public/" title="with-fill-with-colours-07sept207-ggplot-average_colour_ig_van_jan2016-aes-x-hour-y-colourname-geom_joy-scale-16"><img src="https://farm5.staticflickr.com/4343/36956193351_f69a77cfe8.jpg" width="500" height="310" alt="with-fill-with-colours-07sept207-ggplot-average_colour_ig_van_jan2016-aes-x-hour-y-colourname-geom_joy-scale-16"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+<h3 id="output">Output</h3>
+
+<p><a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/36956193351/in/datetaken-public/" title="with-fill-with-colours-07sept207-ggplot-average_colour_ig_van_jan2016-aes-x-hour-y-colourname-geom_joy-scale-16"><img src="https://farm5.staticflickr.com/4343/36956193351_f69a77cfe8.jpg" width="500" height="310" alt="with-fill-with-colours-07sept207-ggplot-average_colour_ig_van_jan2016-aes-x-hour-y-colourname-geom_joy-scale-16" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>

@@ -1,0 +1,7 @@
+I"Ë<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>Had to Reboot my Surface Book 2 again to get WiFi working, <a href="http://rolandtanglao.com/2018/04/12/p1-had-to-reboot-to-get-wifi-working-on-surface-book2/">just like April 12, 2018</a></li>
+  <li>I need to try the  <code class="highlighter-rouge">ipconfig /release</code> and then <code class="highlighter-rouge">ipconfig /renew</code> powershell dance next time like I did back in 2018!</li>
+</ul>
+:ET

@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2018/04/09/p1-no-unique-identifier-in-google-play-supported-devices-csv-file/">
+    <link rel="canonical" href="http://localhost:4000/2018/04/09/p1-no-unique-identifier-in-google-play-supported-devices-csv-file/">
 </head>
 
 
@@ -62,21 +62,23 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li>Hilariously bad :-) : No unique identifier in Google Play&#39;s CSV file of supported devices</li>
-<li>Maybe Google has it but doesn&#39;t want to export it or maybe Android just doesn&#39;t have it due to a bad design decision at the beginning of Android? Maybe something else :-) ?!?</li>
-<li>Anyhow if I hash together all 4 fields: Retail Branding, Marketing Name, Device and Model, I do get something unique, hooray</li>
-<li>Here&#39;s the code from: <a href="https://github.com/rtanglao/rt-fennec-gplay/blob/master/synthetic_add_device_branding_marketing_model.rb">synthetic_add_device_branding_marketing_model.rb</a>  :</li>
+  <li>Hilariously bad :-) : No unique identifier in Google Play’s CSV file of supported devices</li>
+  <li>Maybe Google has it but doesn’t want to export it or maybe Android just doesn’t have it due to a bad design decision at the beginning of Android? Maybe something else :-) ?!?</li>
+  <li>Anyhow if I hash together all 4 fields: Retail Branding, Marketing Name, Device and Model, I do get something unique, hooray</li>
+  <li>Here’s the code from: <a href="https://github.com/rtanglao/rt-fennec-gplay/blob/master/synthetic_add_device_branding_marketing_model.rb">synthetic_add_device_branding_marketing_model.rb</a>  :</li>
 </ul>
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">id_hashstr</span> <span class="o">=</span> <span class="s2">""</span>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">id_hashstr</span> <span class="o">=</span> <span class="s2">""</span>
 <span class="n">id_hashstr</span> <span class="o">+=</span>  <span class="n">d1</span><span class="p">[</span><span class="s2">"Retail Branding"</span><span class="p">]</span> <span class="k">if</span> <span class="o">!</span><span class="n">d1</span><span class="p">[</span><span class="s2">"Retail Branding"</span><span class="p">].</span><span class="nf">nil?</span>
 <span class="n">id_hashstr</span> <span class="o">+=</span>  <span class="n">d1</span><span class="p">[</span><span class="s2">"Marketing Name"</span><span class="p">]</span> <span class="k">if</span> <span class="o">!</span><span class="n">d1</span><span class="p">[</span><span class="s2">"Marketing Name"</span><span class="p">].</span><span class="nf">nil?</span>
 <span class="n">id_hashstr</span> <span class="o">+=</span>  <span class="n">d1</span><span class="p">[</span><span class="s2">"Device"</span><span class="p">]</span> <span class="k">if</span> <span class="o">!</span><span class="n">d1</span><span class="p">[</span><span class="s2">"Device"</span><span class="p">].</span><span class="nf">nil?</span>
 <span class="n">id_hashstr</span> <span class="o">+=</span>  <span class="n">d1</span><span class="p">[</span><span class="s2">"Model"</span><span class="p">]</span> <span class="k">if</span> <span class="o">!</span><span class="n">d1</span><span class="p">[</span><span class="s2">"Model"</span><span class="p">].</span><span class="nf">nil?</span>
 <span class="n">d1</span><span class="p">[</span><span class="s2">"id"</span><span class="p">]</span> <span class="o">=</span> <span class="no">Digest</span><span class="o">::</span><span class="no">SHA2</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="mi">256</span><span class="p">).</span><span class="nf">hexdigest</span><span class="p">(</span><span class="n">id_hashstr</span><span class="p">)</span>
-</code></pre></div>
+</code></pre></div></div>
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

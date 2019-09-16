@@ -1,0 +1,21 @@
+I"¶<h2 id="pontifications">Pontifications</h2>
+
+<p>Apparently thereâ€™s an easier way from cmvan that I have checkout!</p>
+
+<ul>
+  <li>Login to developer.oculus.com</li>
+  <li>Go to <code class="highlighter-rouge">Oculus Go ADB Drivers</code></li>
+  <li>right click on <code class="highlighter-rouge">android_winusb</code> and then <code class="highlighter-rouge">Install</code></li>
+  <li>Go to https://github.com/mozillareality/FirefoxReality</li>
+  <li>click on <code class="highlighter-rouge">Build Results</code> which takes you to for example:
+    <ul>
+      <li>https://tools.taskcluster.net/groups/WFVLzRTLTJCf1lkt5nIEeA/tasks/WFVLzRTLTJCf1lkt5nIEeA/details</li>
+    </ul>
+  </li>
+  <li>click on the <code class="highlighter-rouge">Run Artifacts</code> tab and download the apk</li>
+  <li>https://developer.android.com/studio/#downloads scroll to <code class="highlighter-rouge">Command line tools only</code></li>
+  <li>https://developer.android.com/studio/releases/platform-tools</li>
+  <li>put the Oculus Go headset on, click ok once maybe twice</li>
+  <li><code class="highlighter-rouge">adb install -r C:\Users\rtang\Downloads\FirefoxReality-oculusvr-release-signed-aligned.apk</code></li>
+</ul>
+:ET

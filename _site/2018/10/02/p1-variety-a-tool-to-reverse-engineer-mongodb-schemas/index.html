@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2018/10/02/p1-variety-a-tool-to-reverse-engineer-mongodb-schemas/">
+    <link rel="canonical" href="http://localhost:4000/2018/10/02/p1-variety-a-tool-to-reverse-engineer-mongodb-schemas/">
 </head>
 
 
@@ -62,16 +62,19 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li><a href="https://github.com/variety/variety">Variety</a>, is an excellent tool (yay open source developers scratching an itch :-) !) to traverse mongodb i.e. reverse engineer schemas (found via Stack Overflow: <a href="https://stackoverflow.com/questions/2298870/get-names-of-all-keys-in-the-collection">Get names of all keys in the collection</a> ) </li>
-<li>Sample usage and output:</li>
+  <li><a href="https://github.com/variety/variety">Variety</a>, is an excellent tool (yay open source developers scratching an itch :-) !) to traverse mongodb i.e. reverse engineer schemas (found via Stack Overflow: <a href="https://stackoverflow.com/questions/2298870/get-names-of-all-keys-in-the-collection">Get names of all keys in the collection</a> )</li>
+  <li>Sample usage and output:</li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"> mongo ff62questions <span class="nt">--eval</span> <span class="s2">"var collection = 'questions', maxDepth=1, lastValue = true"</span> variety.js
-</code></pre></div>
-<h3>Output</h3>
-<div class="highlight"><pre><code class="language-" data-lang="">+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> mongo ff62questions <span class="nt">--eval</span> <span class="s2">"var collection = 'questions', maxDepth=1, lastValue = true"</span> variety.js
+</code></pre></div></div>
+
+<h3 id="output">Output</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | key                 | types                    | occurrences | percents | lastValue                                                                                                                                               |
 | ------------------- | ------------------------ | ----------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | _id                 | ObjectId                 |        1866 |    100.0 | 5baf13e01cb741f05c219400                                                                                                                                |
@@ -104,7 +107,9 @@
 | updated             | String                   |        1866 |    100.0 | 2018-09-25T21:16:47Z                                                                                                                                    |
 | updated_by          | null (1722),Object (144) |        1866 |    100.0 | [null]                                                                                                                                                  |
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-</code></pre></div>
+</code></pre></div></div>
+
+
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>
 

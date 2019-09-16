@@ -1,0 +1,38 @@
+I"t<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>use <code class="highlighter-rouge">group_by()</code> and <code class="highlighter-rouge">count()</code> as in:</li>
+</ul>
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">one_two_star_day</span><span class="w"> </span><span class="o">&lt;-</span><span class="w">
+  </span><span class="n">one_and_two_star_with_date</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+  </span><span class="n">group_by</span><span class="p">(</span><span class="n">date_updated</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+   </span><span class="n">count</span><span class="p">()</span><span class="w">
+</span></code></pre></div></div>
+<h3 id="full-code">Full code</h3>
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span><span class="w">
+</span><span class="n">reviews</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">read.csv</span><span class="p">(</span><span class="s2">"20april2018-01nov2017-18april2018-mongo-export-reviews.csv"</span><span class="p">)</span><span class="w">
+</span><span class="n">one_and_two_star_reviews</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">reviews</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+</span><span class="n">filter</span><span class="p">(</span><span class="n">star_rating</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="m">3</span><span class="p">)</span><span class="w">
+</span><span class="n">one_and_two_star_with_date</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">one_and_two_star_reviews</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+</span><span class="n">mutate</span><span class="p">(</span><span class="n">date_updated</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">as.Date</span><span class="p">(</span><span class="n">review_last_updated_time</span><span class="p">))</span><span class="w">
+
+</span><span class="n">one_two_star_day</span><span class="w"> </span><span class="o">&lt;-</span><span class="w">
+  </span><span class="n">one_and_two_star_with_date</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+  </span><span class="n">group_by</span><span class="p">(</span><span class="n">date_updated</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+   </span><span class="n">count</span><span class="p">()</span><span class="w">
+
+</span><span class="n">p</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ggplot</span><span class="p">(</span><span class="w">
+  </span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="n">one_two_star_day</span><span class="p">,</span><span class="w">
+           </span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">date_updated</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="o">=</span><span class="n">n</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w">
+  </span><span class="n">geom_line</span><span class="p">(</span><span class="n">stat</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"identity"</span><span class="p">)</span><span class="o">+</span><span class="w">
+  </span><span class="n">theme</span><span class="p">(</span><span class="n">axis.text.x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">element_text</span><span class="p">(</span><span class="n">angle</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">90</span><span class="p">,</span><span class="w"> </span><span class="n">hjust</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w">
+  </span><span class="n">scale_fill_brewer</span><span class="p">(</span><span class="n">palette</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"Set1"</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="output">Output</h3>
+
+<p><a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/41795849951/in/dateposted-public/" title="line chart of 1 and 2 star reviews nov 1, 2017  - april 18, 2018"><img src="https://farm1.staticflickr.com/977/41795849951_af5a0c8d6e_n.jpg" width="320" height="213" alt="line chart of 1 and 2 star reviews nov 1, 2017  - april 18, 2018" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+
+:ET

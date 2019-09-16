@@ -1,0 +1,12 @@
+I"9<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li><a href="http://ruby-doc.org/core-2.1.3/Range.html">Ranges constructed using .. run from the beginning to the end inclusively. Those created using … exclude the end value. </a></li>
+  <li>It’s not like C! <code class="highlighter-rouge">variable[0,n]</code> is the same as ruby’s <code class="highlighter-rouge">variable[0..n]</code>. In ruby <code class="highlighter-rouge">variable[x,n]</code> means starting at position x, return n elements. Learned this the hard way in <a href="https://github.com/rtanglao/rt-li-sumo-redirects/blob/master/production-test-797-redirects.rb">production-test-797-redirects.rb</a></li>
+</ul>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#using ranges. The end position is included with two periods but not with three</span>
+<span class="n">array_four</span><span class="p">[</span><span class="mi">0</span><span class="o">..</span><span class="mi">1</span><span class="p">]</span>              <span class="c1"># =&gt; ["a", "b"]</span>
+<span class="n">array_four</span><span class="p">[</span><span class="mi">0</span><span class="o">...</span><span class="mi">1</span><span class="p">]</span>             <span class="c1"># =&gt; ["a"]</span>
+</code></pre></div></div>
+:ET

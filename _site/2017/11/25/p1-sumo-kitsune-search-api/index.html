@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2017/11/25/p1-sumo-kitsune-search-api/">
+    <link rel="canonical" href="http://localhost:4000/2017/11/25/p1-sumo-kitsune-search-api/">
 </head>
 
 
@@ -62,22 +62,25 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li><a href="http://kitsune.readthedocs.io/en/latest/api.html">Unofficial Search API for support.mozilla.org&#39;s Kitsune platform</a>   that may go away at any day :-) to search for the word videos</li>
+  <li><a href="http://kitsune.readthedocs.io/en/latest/api.html">Unofficial Search API for support.mozilla.org’s Kitsune platform</a>   that may go away at any day :-) to search for the word videos</li>
 </ul>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">curl <span class="nt">-i</span> <span class="s2">"https://support.mozilla.org/api/2/search/suggest/"</span>      <span class="nt">-H</span> <span class="s2">"Content-Type: application/json"</span>      <span class="nt">-d</span> <span class="s1">'
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="nt">-i</span> <span class="s2">"https://support.mozilla.org/api/2/search/suggest/"</span>      <span class="nt">-H</span> <span class="s2">"Content-Type: application/json"</span>      <span class="nt">-d</span> <span class="s1">'
 {
    "q": "videos",
    "max_documents": 3,
    "max_questions": 0
 }'</span>
-</code></pre></div>
+</code></pre></div></div>
+
 <ul>
-<li>response from server is:</li>
+  <li>response from server is:</li>
 </ul>
-<div class="highlight"><pre><code class="language-" data-lang="">HTTP/1.1 200 OK
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>HTTP/1.1 200 OK
 Server: Apache
 X-Backend-Server: support4.webapp.phx1.mozilla.com
 Vary: X-Mobile,User-Agent
@@ -99,8 +102,9 @@ X-Cache-Info: not cacheable; request wasn't a GET or HEAD
 
 {"documents":[{"id":15114,"title":"Download music, photos and videos","slug":"download-music-photos-and-videos","url":"/en-US/
 ...
-</code></pre></div>
+</code></pre></div></div>
 <p>etc</p>
+
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>

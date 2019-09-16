@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2016/10/12/p1-animated-gif-1st3000photos-avg-colour-instagram-vancouver-1-31january2016/">
+    <link rel="canonical" href="http://localhost:4000/2016/10/12/p1-animated-gif-1st3000photos-avg-colour-instagram-vancouver-1-31january2016/">
 </head>
 
 
@@ -62,26 +62,26 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <p>This animated GIF thing is fun, a fine way to repurpose and promote my instagram Vancouver visualizations :-) !</p>
 
 <p>Full context see <a href="https://github.com/rtanglao/rt-animated-gifs">my animated GIF git repo and scroll down to October 12, 2016</a>:</p>
 
 <ul>
-<li><code>mkdir 2016-10-12</code></li>
-<li><code>cd !$</code></li>
-<li><code>convert -loop 50 -delay 20  @3000photos.txt 3000firstphotos-01-31January2016-avg-colour-per-hour.gif</code></li>
-<li>OOOPS that makes an 1024x768 animated GIF we want 2:1 and maximum dimensions of 1024x512. Therefore, we use the <code>-scale</code> option to get that 2:1 ratio and get the height down to 512.
-
-<ul>
-<li><code>convert -loop 50 -delay 20  -scale 1024x512 @3000photos.txt 1024x512-scaled-3000firstphotos-01-31January2016-avg-colour-per-hour.gif</code></li>
-</ul></li>
+  <li><code class="highlighter-rouge">mkdir 2016-10-12</code></li>
+  <li><code class="highlighter-rouge">cd !$</code></li>
+  <li><code class="highlighter-rouge">convert -loop 50 -delay 20  @3000photos.txt 3000firstphotos-01-31January2016-avg-colour-per-hour.gif</code></li>
+  <li>OOOPS that makes an 1024x768 animated GIF we want 2:1 and maximum dimensions of 1024x512. Therefore, we use the <code class="highlighter-rouge">-scale</code> option to get that 2:1 ratio and get the height down to 512.
+    <ul>
+      <li><code class="highlighter-rouge">convert -loop 50 -delay 20  -scale 1024x512 @3000photos.txt 1024x512-scaled-3000firstphotos-01-31January2016-avg-colour-per-hour.gif</code></li>
+    </ul>
+  </li>
 </ul>
 
-<h3>Output</h3>
+<h3 id="output">Output</h3>
 
-<p><img src="https://c2.staticflickr.com/8/7771/29661313004_98ffe1a6df_o_d.gif" alt="twitter size 01-31January2016-1st3000photos-avg-colour-per-hour" title="twitter size 01-31January2016-1st3000photos-avg-colour-per-hour"></p>
+<p><img src="https://c2.staticflickr.com/8/7771/29661313004_98ffe1a6df_o_d.gif" alt="twitter size 01-31January2016-1st3000photos-avg-colour-per-hour" title="twitter size 01-31January2016-1st3000photos-avg-colour-per-hour" /></p>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>

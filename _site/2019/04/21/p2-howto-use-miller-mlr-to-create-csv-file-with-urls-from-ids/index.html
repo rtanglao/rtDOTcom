@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2019/04/21/p2-howto-use-miller-mlr-to-create-csv-file-with-urls-from-ids/">
+    <link rel="canonical" href="http://localhost:4000/2019/04/21/p2-howto-use-miller-mlr-to-create-csv-file-with-urls-from-ids/">
 </head>
 
 
@@ -62,21 +62,23 @@
   </header>
 
   <article class="post-content">
-    <h1>Pontifications</h1>
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">mlr <span class="nt">--csv</span> <span class="nt">--implicit-csv-header</span> label <span class="nb">id</span><span class="se">\</span>
+    <h1 id="pontifications">Pontifications</h1>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mlr <span class="nt">--csv</span> <span class="nt">--implicit-csv-header</span> label <span class="nb">id</span><span class="se">\</span>
 offtopic-and-duplicates-removed-01january2019-18january2019-2fa-sumo-forum-question-ids.txt<span class="se">\</span>
 | mlr <span class="nt">--csv</span> <span class="se">\</span>
 put <span class="s1">'$url = "https://support.mozilla.org/questions/"\
 . $id'</span><span class="se">\</span>
 <span class="o">&gt;</span> urls_offtopic-and-duplicates-removed-01january2019-18january2019-2fa-sumo-forum-question-ids.csv 
-</code></pre></div>
+</code></pre></div></div>
+
 <ul>
-<li><code>offtopic-and-duplicates-removed-01january2019-18january2019-2fa-sumo-forum-question-ids.txt</code> is just a file of 1 <code>id</code> per line</li>
-<li><code>mlr --csv --implicit-csv-header label id</code> outputs a CSV file with one column name <code>id</code></li>
-<li><code>mlr --csv put &#39;$url = &quot;https://support.mozilla.org/&quot; . $id</code> adds the <code>url</code> column</li>
-<li><code>.</code> is the string concatenation operator in miller which wasn&#39;t clear to me from the docs &lt;--- all i could find in the docs was: &quot;<a href="http://johnkerl.org/miller/doc/reference.html#String_literals">If the regular expression is a more complex
-expression, including string concatenation using <code>.</code>,</a>&quot;</li>
-<li>output is <a href="https://github.com/rtanglao/rt-kitsune-api/blob/master/urls_offtopic-and-duplicates-removed-01january2019-18january2019-2fa-sumo-forum-question-ids.csv">https://github.com/rtanglao/rt-kitsune-api/blob/master/urls_offtopic-and-duplicates-removed-01january2019-18january2019-2fa-sumo-forum-question-ids.csv</a></li>
+  <li><code class="highlighter-rouge">offtopic-and-duplicates-removed-01january2019-18january2019-2fa-sumo-forum-question-ids.txt</code> is just a file of 1 <code class="highlighter-rouge">id</code> per line</li>
+  <li><code class="highlighter-rouge">mlr --csv --implicit-csv-header label id</code> outputs a CSV file with one column name <code class="highlighter-rouge">id</code></li>
+  <li><code class="highlighter-rouge">mlr --csv put '$url = "https://support.mozilla.org/" . $id</code> adds the <code class="highlighter-rouge">url</code> column</li>
+  <li><code class="highlighter-rouge">.</code> is the string concatenation operator in miller which wasn’t clear to me from the docs &lt;— all i could find in the docs was: “<a href="http://johnkerl.org/miller/doc/reference.html#String_literals">If the regular expression is a more complex
+expression, including string concatenation using <code class="highlighter-rouge">.</code>,</a>”</li>
+  <li>output is <a href="https://github.com/rtanglao/rt-kitsune-api/blob/master/urls_offtopic-and-duplicates-removed-01january2019-18january2019-2fa-sumo-forum-question-ids.csv">https://github.com/rtanglao/rt-kitsune-api/blob/master/urls_offtopic-and-duplicates-removed-01january2019-18january2019-2fa-sumo-forum-question-ids.csv</a></li>
 </ul>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>

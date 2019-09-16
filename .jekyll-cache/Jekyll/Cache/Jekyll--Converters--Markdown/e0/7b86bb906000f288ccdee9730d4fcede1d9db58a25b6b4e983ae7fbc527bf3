@@ -1,0 +1,31 @@
+I";	<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>From <a href="https://stackoverflow.com/questions/21818181/applying-a-function-to-every-row-of-a-table-using-dplyr/24728107#24728107">Applying a function to every row of a table using dplyr?</a>:</li>
+</ul>
+
+<blockquote>
+As of dplyr 0.2 (I think) rowwise() is implemented, so the answer to this problem becomes:
+</blockquote>
+
+<ul>
+  <li>abstract code:</li>
+</ul>
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">tibble_to_apply_function_to</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
+</span><span class="n">rowwise</span><span class="p">()</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
+</span><span class="n">mutate</span><span class="p">(</span><span class="n">new_column</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">some_function</span><span class="p">(</span><span class="w">
+</span><span class="n">some_column</span><span class="p">(</span><span class="n">s</span><span class="p">)</span><span class="err">_</span><span class="n">of_tibble_to_apply_function_to</span><span class="p">))</span><span class="w">
+</span></code></pre></div></div>
+
+<ul>
+  <li>real code from <a href="https://github.com/rtanglao/2016-r-rtgram/blob/master/part2-create-csv-ig-van-average-colour-jan2016.R">https://github.com/rtanglao/2016-r-rtgram/blob/master/part2-create-csv-ig-van-average-colour-jan2016.R</a> :</li>
+</ul>
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">average_colour_ig_van_jan2016_with_colourname</span><span class="w"> </span><span class="o">=</span><span class="w">  
+  </span><span class="n">average_colour_ig_van_jan2016</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
+    </span><span class="n">rowwise</span><span class="p">()</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
+       </span><span class="n">mutate</span><span class="p">(</span><span class="n">colourname</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">tc</span><span class="p">(</span><span class="n">colour</span><span class="p">))</span><span class="w">
+</span></code></pre></div></div>
+
+:ET

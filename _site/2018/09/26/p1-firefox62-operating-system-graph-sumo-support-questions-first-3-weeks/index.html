@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2018/09/26/p1-firefox62-operating-system-graph-sumo-support-questions-first-3-weeks/">
+    <link rel="canonical" href="http://localhost:4000/2018/09/26/p1-firefox62-operating-system-graph-sumo-support-questions-first-3-weeks/">
 </head>
 
 
@@ -62,12 +62,13 @@
   </header>
 
   <article class="post-content">
-    <h2>Pontifications</h2>
+    <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-<li><a href="https://github.com/rtanglao/rt-kitsune-api/blob/master/FF62_WEEK1_TO_3/ff62-desktop-operating-system-first-3-weeks.r">Here&#39;s the R code</a>:</li>
+  <li><a href="https://github.com/rtanglao/rt-kitsune-api/blob/master/FF62_WEEK1_TO_3/ff62-desktop-operating-system-first-3-weeks.r">Here’s the R code</a>:</li>
 </ul>
-<div class="highlight"><pre><code class="language-r" data-lang="r"><span class="c1"># the following code was run in R Studio</span><span class="w">
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># the following code was run in R Studio</span><span class="w">
 </span><span class="c1"># and the output png from R Studio is here:</span><span class="w">
 </span><span class="c1"># https://github.com/rtanglao/rt-kitsune-api/blob/master/FF62_WEEK1_TO_3/operating-systems-ff62-desktop-first3weeks-5-25september2018.png</span><span class="w">
 </span><span class="n">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span><span class="w">
@@ -86,11 +87,13 @@
 </span><span class="n">week1_to_week3_os_plot</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">week1_to_week3_os_plot</span><span class="w"> </span><span class="o">+</span><span class="w"> 
   </span><span class="n">geom_bar</span><span class="p">(</span><span class="n">stat</span><span class="o">=</span><span class="s2">"bin"</span><span class="p">,</span><span class="w"> </span><span class="n">bins</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">3</span><span class="p">,</span><span class="w">
   </span><span class="n">position</span><span class="o">=</span><span class="s2">"dodge"</span><span class="p">)</span><span class="w">
-</span></code></pre></div>
+</span></code></pre></div></div>
 <ul>
-<li><p>Here&#39;s the output:</p>
+  <li>
+    <p>Here’s the output:</p>
 
-<p><a data-flickr-embed="true"  href="https://www.flickr.com/photos/roland/43130978440/in/dateposted-public/" title="operating-systems-ff62-desktop-first3weeks-5-25september2018"><img src="https://farm2.staticflickr.com/1913/43130978440_03052a289e_n.jpg" width="243" height="320" alt="operating-systems-ff62-desktop-first3weeks-5-25september2018"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p></li>
+    <p><a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/43130978440/in/dateposted-public/" title="operating-systems-ff62-desktop-first3weeks-5-25september2018"><img src="https://farm2.staticflickr.com/1913/43130978440_03052a289e_n.jpg" width="243" height="320" alt="operating-systems-ff62-desktop-first3weeks-5-25september2018" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+  </li>
 </ul>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>

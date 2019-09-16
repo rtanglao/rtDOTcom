@@ -1,0 +1,20 @@
+I"�<h2 id="pontifications">Pontifications</h2>
+
+<p>Too many choices!</p>
+
+<ul>
+  <li>my favourite: <a href="https://stackoverflow.com/questions/35434760/sparklines-in-ggplot2">Sparklines in ggplot2</a></li>
+  <li><a href="https://leonawicz.github.io/HtmlWidgetExamples/ex_dt_sparkline.html">Combining data tables and sparklines</a> &lt;—- htmlwidget hacks! nice compact format, could be used to summarize firefox desktop metrics:
+    <ul>
+      <li>os, keywords, sentiment, language</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/htmlwidgets/sparkline">jQuery Sparkline HTML Widget for R</a></li>
+  <li><a href="https://cran.r-project.org/web/packages/microplot/index.html">microplot: Microplots (Sparklines) in ‘LaTeX’, ‘Word’, ‘HTML’, ‘Excel’</a> &lt;— not really designed for ggplot2
+    <ul>
+      <li>further tutorial: <a href="https://cran.r-project.org/web/packages/microplot/vignettes/rmhPoster.pdf">R Microplots in Tables with the latex() Function</a></li>
+    </ul>
+  </li>
+</ul>
+
+:ET
