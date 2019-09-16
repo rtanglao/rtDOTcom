@@ -4,10 +4,10 @@
     <title>Roland Tanglao</title>
     <description>flickr.com/roland, twitter.com/rtanglao #firefox #thunderbird
 </description>
-    <link>http://rolandtanglao.com/</link>
-    <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 15 Sep 2019 20:42:37 -0700</pubDate>
-    <lastBuildDate>Sun, 15 Sep 2019 20:42:37 -0700</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 15 Sep 2019 20:56:04 -0700</pubDate>
+    <lastBuildDate>Sun, 15 Sep 2019 20:56:04 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -15,7 +15,7 @@
         <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Very easy!&lt;/li&gt;
+  &lt;li&gt;Very easy! (&lt;a href=&quot;https://jekyllrb.com/docs/upgrading/3-to-4/&quot;&gt;official docs for upgrading from jekyll 3 to 4)&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;
     &lt;ol&gt;
       &lt;li&gt;Updated the jekyll gem &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo gem update jekyll&lt;/code&gt;&lt;/li&gt;
@@ -23,10 +23,11 @@
     &lt;/ol&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
+
 </description>
         <pubDate>Sun, 15 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/09/15/p2-upgraded-to-jekyll-4-just-had-to-change-config-yml-to-kramdown-from-redcarpet/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/15/p2-upgraded-to-jekyll-4-just-had-to-change-config-yml-to-kramdown-from-redcarpet/</guid>
+        <link>http://localhost:4000/2019/09/15/p2-upgraded-to-jekyll-4-just-had-to-change-config-yml-to-kramdown-from-redcarpet/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/09/15/p2-upgraded-to-jekyll-4-just-had-to-change-config-yml-to-kramdown-from-redcarpet/</guid>
         
         
       </item>
@@ -41,8 +42,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 15 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/09/15/p1-wsl2-max-user-watches-rss-club/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/15/p1-wsl2-max-user-watches-rss-club/</guid>
+        <link>http://localhost:4000/2019/09/15/p1-wsl2-max-user-watches-rss-club/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/09/15/p1-wsl2-max-user-watches-rss-club/</guid>
         
         
       </item>
@@ -56,8 +57,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 14 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/09/14/p1-true-experts-are-authors-who-can-write-it-down-and-explain-it-to-others/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/14/p1-true-experts-are-authors-who-can-write-it-down-and-explain-it-to-others/</guid>
+        <link>http://localhost:4000/2019/09/14/p1-true-experts-are-authors-who-can-write-it-down-and-explain-it-to-others/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/09/14/p1-true-experts-are-authors-who-can-write-it-down-and-explain-it-to-others/</guid>
         
         
       </item>
@@ -72,8 +73,8 @@
 
 </description>
         <pubDate>Thu, 12 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/09/12/p1-javascript-and-the-dom-are-too-complicated-for-beginners/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/12/p1-javascript-and-the-dom-are-too-complicated-for-beginners/</guid>
+        <link>http://localhost:4000/2019/09/12/p1-javascript-and-the-dom-are-too-complicated-for-beginners/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/09/12/p1-javascript-and-the-dom-are-too-complicated-for-beginners/</guid>
         
         
       </item>
@@ -88,8 +89,8 @@
 
 </description>
         <pubDate>Wed, 11 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/09/11/p2-september-11-2001-where-was-i/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/11/p2-september-11-2001-where-was-i/</guid>
+        <link>http://localhost:4000/2019/09/11/p2-september-11-2001-where-was-i/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/09/11/p2-september-11-2001-where-was-i/</guid>
         
         
       </item>
@@ -104,8 +105,8 @@
 
 </description>
         <pubDate>Wed, 11 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/09/11/p1-wsl-runs-fine-from-windows-command-line-but-not-from-windows-gui/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/11/p1-wsl-runs-fine-from-windows-command-line-but-not-from-windows-gui/</guid>
+        <link>http://localhost:4000/2019/09/11/p1-wsl-runs-fine-from-windows-command-line-but-not-from-windows-gui/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/09/11/p1-wsl-runs-fine-from-windows-command-line-but-not-from-windows-gui/</guid>
         
         
       </item>
@@ -120,8 +121,8 @@
 
 </description>
         <pubDate>Tue, 10 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/09/10/p1-wsl1-broke-on-arm64-windows10-build18975-cannot-install-wsl2/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/10/p1-wsl1-broke-on-arm64-windows10-build18975-cannot-install-wsl2/</guid>
+        <link>http://localhost:4000/2019/09/10/p1-wsl1-broke-on-arm64-windows10-build18975-cannot-install-wsl2/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/09/10/p1-wsl1-broke-on-arm64-windows10-build18975-cannot-install-wsl2/</guid>
         
         
       </item>
@@ -140,8 +141,8 @@ months&lt;/a&gt;.&lt;/li&gt;
 
 </description>
         <pubDate>Mon, 09 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/09/09/p1-note8-fido-august-update-september6/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/09/p1-note8-fido-august-update-september6/</guid>
+        <link>http://localhost:4000/2019/09/09/p1-note8-fido-august-update-september6/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/09/09/p1-note8-fido-august-update-september6/</guid>
         
         
       </item>
@@ -157,8 +158,8 @@ months&lt;/a&gt;.&lt;/li&gt;
 
 </description>
         <pubDate>Sun, 08 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/09/08/p1-ethics-is-not-easy-but-should-be-mandatory/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/08/p1-ethics-is-not-easy-but-should-be-mandatory/</guid>
+        <link>http://localhost:4000/2019/09/08/p1-ethics-is-not-easy-but-should-be-mandatory/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/09/08/p1-ethics-is-not-easy-but-should-be-mandatory/</guid>
         
         
       </item>
@@ -174,8 +175,8 @@ months&lt;/a&gt;.&lt;/li&gt;
 
 </description>
         <pubDate>Fri, 06 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/09/06/p1-karj-two-erics-pixaver-google-photos-backup-made-easy/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/06/p1-karj-two-erics-pixaver-google-photos-backup-made-easy/</guid>
+        <link>http://localhost:4000/2019/09/06/p1-karj-two-erics-pixaver-google-photos-backup-made-easy/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/09/06/p1-karj-two-erics-pixaver-google-photos-backup-made-easy/</guid>
         
         
       </item>

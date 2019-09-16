@@ -1,7 +1,7 @@
-I"Ê<h1 id="pontifications">Pontifications</h1>
+I"6<h1 id="pontifications">Pontifications</h1>
 
 <ul>
-  <li>Very easy!</li>
+  <li>Very easy! (<a href="https://jekyllrb.com/docs/upgrading/3-to-4/">official docs for upgrading from jekyll 3 to 4)</a></li>
   <li>
     <ol>
       <li>Updated the jekyll gem <code class="highlighter-rouge">sudo gem update jekyll</code></li>
@@ -9,4 +9,5 @@
     </ol>
   </li>
 </ul>
+
 :ET
