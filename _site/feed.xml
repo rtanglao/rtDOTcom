@@ -6,9 +6,24 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 15 Sep 2019 20:56:04 -0700</pubDate>
-    <lastBuildDate>Sun, 15 Sep 2019 20:56:04 -0700</lastBuildDate>
+    <pubDate>Sun, 15 Sep 2019 21:25:31 -0700</pubDate>
+    <lastBuildDate>Sun, 15 Sep 2019 21:25:31 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>WSL2 doesn't work on ARM 64 Windows 10 because you can't enable the hypervisor in the BIOS</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;See &lt;a href=&quot;https://github.com/MicrosoftDocs/WSL/issues/488&quot;&gt;wsl 2 on arm linux on build18980.1 WSL github issue #488&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 15 Sep 2019 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2019/09/15/p3-wsl2-does-not-work-on-arm64-because-you-cannot-enable-the-hypervisor-in-the-bios/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/09/15/p3-wsl2-does-not-work-on-arm64-because-you-cannot-enable-the-hypervisor-in-the-bios/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Upgraded this blog to jekyll 4</title>
@@ -160,23 +175,6 @@ months&lt;/a&gt;.&lt;/li&gt;
         <pubDate>Sun, 08 Sep 2019 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/2019/09/08/p1-ethics-is-not-easy-but-should-be-mandatory/</link>
         <guid isPermaLink="true">http://localhost:4000/2019/09/08/p1-ethics-is-not-easy-but-should-be-mandatory/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>The 2 Erics are at it again with pixaver: Google Photos backups made easy, reminds me of shoeboxapp</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://pixaver.com/&quot;&gt;pixaver&lt;/a&gt; seems similar to recently defunct &lt;a href=&quot;https://shoeboxapp.com/&quot;&gt;shoeboxapp&lt;/a&gt; but hopefully more sustainable longterm&lt;/li&gt;
-  &lt;li&gt;go 2-&lt;a href=&quot;http://www.smashlab.com/&quot;&gt;smashlab&lt;/a&gt;-erics go :-)&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Fri, 06 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2019/09/06/p1-karj-two-erics-pixaver-google-photos-backup-made-easy/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/09/06/p1-karj-two-erics-pixaver-google-photos-backup-made-easy/</guid>
         
         
       </item>
