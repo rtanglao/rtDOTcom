@@ -4,10 +4,10 @@
     <title>Roland Tanglao</title>
     <description>flickr.com/roland, twitter.com/rtanglao #firefox #thunderbird
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 15 Sep 2019 22:41:53 -0700</pubDate>
-    <lastBuildDate>Sun, 15 Sep 2019 22:41:53 -0700</lastBuildDate>
+    <link>http://rolandtanglao.com/</link>
+    <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 16 Sep 2019 06:32:05 -0700</pubDate>
+    <lastBuildDate>Mon, 16 Sep 2019 06:32:05 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -19,8 +19,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 15 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2019/09/15/p4-eleventy-static-site-generator-node-javascript/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/09/15/p4-eleventy-static-site-generator-node-javascript/</guid>
+        <link>http://rolandtanglao.com/2019/09/15/p4-eleventy-static-site-generator-node-javascript/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/15/p4-eleventy-static-site-generator-node-javascript/</guid>
         
         
       </item>
@@ -34,8 +34,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 15 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2019/09/15/p3-wsl2-does-not-work-on-arm64-because-you-cannot-enable-the-hypervisor-in-the-bios/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/09/15/p3-wsl2-does-not-work-on-arm64-because-you-cannot-enable-the-hypervisor-in-the-bios/</guid>
+        <link>http://rolandtanglao.com/2019/09/15/p3-wsl2-does-not-work-on-arm64-because-you-cannot-enable-the-hypervisor-in-the-bios/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/15/p3-wsl2-does-not-work-on-arm64-because-you-cannot-enable-the-hypervisor-in-the-bios/</guid>
         
         
       </item>
@@ -56,8 +56,8 @@
 
 </description>
         <pubDate>Sun, 15 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2019/09/15/p2-upgraded-to-jekyll-4-just-had-to-change-config-yml-to-kramdown-from-redcarpet/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/09/15/p2-upgraded-to-jekyll-4-just-had-to-change-config-yml-to-kramdown-from-redcarpet/</guid>
+        <link>http://rolandtanglao.com/2019/09/15/p2-upgraded-to-jekyll-4-just-had-to-change-config-yml-to-kramdown-from-redcarpet/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/15/p2-upgraded-to-jekyll-4-just-had-to-change-config-yml-to-kramdown-from-redcarpet/</guid>
         
         
       </item>
@@ -72,8 +72,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 15 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2019/09/15/p1-wsl2-max-user-watches-rss-club/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/09/15/p1-wsl2-max-user-watches-rss-club/</guid>
+        <link>http://rolandtanglao.com/2019/09/15/p1-wsl2-max-user-watches-rss-club/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/15/p1-wsl2-max-user-watches-rss-club/</guid>
         
         
       </item>
@@ -87,8 +87,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 14 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2019/09/14/p1-true-experts-are-authors-who-can-write-it-down-and-explain-it-to-others/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/09/14/p1-true-experts-are-authors-who-can-write-it-down-and-explain-it-to-others/</guid>
+        <link>http://rolandtanglao.com/2019/09/14/p1-true-experts-are-authors-who-can-write-it-down-and-explain-it-to-others/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/14/p1-true-experts-are-authors-who-can-write-it-down-and-explain-it-to-others/</guid>
         
         
       </item>
@@ -103,8 +103,8 @@
 
 </description>
         <pubDate>Thu, 12 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2019/09/12/p1-javascript-and-the-dom-are-too-complicated-for-beginners/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/09/12/p1-javascript-and-the-dom-are-too-complicated-for-beginners/</guid>
+        <link>http://rolandtanglao.com/2019/09/12/p1-javascript-and-the-dom-are-too-complicated-for-beginners/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/12/p1-javascript-and-the-dom-are-too-complicated-for-beginners/</guid>
         
         
       </item>
@@ -119,8 +119,8 @@
 
 </description>
         <pubDate>Wed, 11 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2019/09/11/p2-september-11-2001-where-was-i/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/09/11/p2-september-11-2001-where-was-i/</guid>
+        <link>http://rolandtanglao.com/2019/09/11/p2-september-11-2001-where-was-i/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/11/p2-september-11-2001-where-was-i/</guid>
         
         
       </item>
@@ -135,8 +135,8 @@
 
 </description>
         <pubDate>Wed, 11 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2019/09/11/p1-wsl-runs-fine-from-windows-command-line-but-not-from-windows-gui/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/09/11/p1-wsl-runs-fine-from-windows-command-line-but-not-from-windows-gui/</guid>
+        <link>http://rolandtanglao.com/2019/09/11/p1-wsl-runs-fine-from-windows-command-line-but-not-from-windows-gui/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/11/p1-wsl-runs-fine-from-windows-command-line-but-not-from-windows-gui/</guid>
         
         
       </item>
@@ -151,8 +151,8 @@
 
 </description>
         <pubDate>Tue, 10 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2019/09/10/p1-wsl1-broke-on-arm64-windows10-build18975-cannot-install-wsl2/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/09/10/p1-wsl1-broke-on-arm64-windows10-build18975-cannot-install-wsl2/</guid>
+        <link>http://rolandtanglao.com/2019/09/10/p1-wsl1-broke-on-arm64-windows10-build18975-cannot-install-wsl2/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/10/p1-wsl1-broke-on-arm64-windows10-build18975-cannot-install-wsl2/</guid>
         
         
       </item>
@@ -171,8 +171,8 @@ months&lt;/a&gt;.&lt;/li&gt;
 
 </description>
         <pubDate>Mon, 09 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2019/09/09/p1-note8-fido-august-update-september6/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/09/09/p1-note8-fido-august-update-september6/</guid>
+        <link>http://rolandtanglao.com/2019/09/09/p1-note8-fido-august-update-september6/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/09/p1-note8-fido-august-update-september6/</guid>
         
         
       </item>
