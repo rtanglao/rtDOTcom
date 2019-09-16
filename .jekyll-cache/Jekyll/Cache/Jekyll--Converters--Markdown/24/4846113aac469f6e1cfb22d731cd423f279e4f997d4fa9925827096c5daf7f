@@ -1,4 +1,4 @@
-I"Ò<h2 id="pontifications">Pontifications</h2>
+I"â<h2 id="pontifications">Pontifications</h2>
 
 <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">result</span> <span class="o">=</span> 
   <span class="n">reviewsColl</span><span class="p">.</span><span class="nf">find</span><span class="p">({</span> <span class="s1">'id'</span> <span class="o">=&gt;</span> <span class="n">r1</span><span class="p">[</span><span class="s2">"id"</span><span class="p">]</span> <span class="p">}).</span><span class="nf">update_one</span><span class="p">(</span>
@@ -12,15 +12,15 @@
 
 <h3 id="update">update:</h3>
 
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">documents</span><span class="o">=</span><span class="p">[{</span><span class="s2">"n"</span><span class="o">=&gt;</span><span class="mi">1</span><span class="p">,</span> <span class="s2">"nModified"</span><span class="o">=&gt;</span><span class="mi">1</span><span class="p">,</span> <span class="s2">"ok"</span><span class="o">=&gt;</span><span class="mf">1.0</span><span class="p">}]</span><span class="s2">"
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">documents</span><span class="o">=</span><span class="p">[{</span><span class="dl">"</span><span class="s2">n</span><span class="dl">"</span><span class="o">=&gt;</span><span class="mi">1</span><span class="p">,</span> <span class="dl">"</span><span class="s2">nModified</span><span class="dl">"</span><span class="o">=&gt;</span><span class="mi">1</span><span class="p">,</span> <span class="dl">"</span><span class="s2">ok</span><span class="dl">"</span><span class="o">=&gt;</span><span class="mf">1.0</span><span class="p">}]</span><span class="dl">"</span><span class="s2">
 </span></code></pre></div></div>
 
 <h3 id="insert">insert:</h3>
 
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">documents</span><span class="o">=</span><span class="p">[{</span><span class="s2">"n"</span><span class="o">=&gt;</span><span class="mi">1</span><span class="p">,</span>
-    <span class="s2">"nModified"</span><span class="o">=&gt;</span><span class="mi">0</span><span class="p">,</span> <span class="s2">"upserted"</span><span class="o">=&gt;</span><span class="p">[{</span><span class="s2">"index"</span><span class="o">=&gt;</span><span class="mi">0</span><span class="p">,</span>
-    <span class="s2">"_id"</span><span class="o">=&gt;</span><span class="na">BSON</span><span class="p">::</span><span class="nx">ObjectId</span><span class="p">(</span><span class="s1">'5ad4dda1e8bdbe30ca37f700'</span><span class="p">)}],</span> 
-    <span class="s2">"ok"</span><span class="o">=&gt;</span><span class="mf">1.0</span><span class="p">}]</span><span class="s2">"
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">documents</span><span class="o">=</span><span class="p">[{</span><span class="dl">"</span><span class="s2">n</span><span class="dl">"</span><span class="o">=&gt;</span><span class="mi">1</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">nModified</span><span class="dl">"</span><span class="o">=&gt;</span><span class="mi">0</span><span class="p">,</span> <span class="dl">"</span><span class="s2">upserted</span><span class="dl">"</span><span class="o">=&gt;</span><span class="p">[{</span><span class="dl">"</span><span class="s2">index</span><span class="dl">"</span><span class="o">=&gt;</span><span class="mi">0</span><span class="p">,</span>
+    <span class="dl">"</span><span class="s2">_id</span><span class="dl">"</span><span class="o">=&gt;</span><span class="na">BSON</span><span class="p">::</span><span class="nx">ObjectId</span><span class="p">(</span><span class="dl">'</span><span class="s1">5ad4dda1e8bdbe30ca37f700</span><span class="dl">'</span><span class="p">)}],</span> 
+    <span class="dl">"</span><span class="s2">ok</span><span class="dl">"</span><span class="o">=&gt;</span><span class="mf">1.0</span><span class="p">}]</span><span class="dl">"</span><span class="s2">
 </span></code></pre></div></div>
 
 :ET

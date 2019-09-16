@@ -90,7 +90,7 @@
 </span><span class="c1">#Canadian S8+ SM-G955W (dream2qltecan)</span><span class="w">
 </span><span class="c1">#Australian Galaxy S8 SCV36</span><span class="w">
 
-</span><span class="n">s</span><span class="m">8</span><span class="err">_</span><span class="n">family_bug_1450793_p</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">year_month_day_device_all_languages_unreplied_one_and_two_star_reviews_star_last_updated_language</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
+</span><span class="n">s8_family_bug_1450793_p</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">year_month_day_device_all_languages_unreplied_one_and_two_star_reviews_star_last_updated_language</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
     </span><span class="n">filter</span><span class="p">(</span><span class="w">
       </span><span class="p">(</span><span class="n">Device</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">"dreamqlteue"</span><span class="p">)</span><span class="w"> </span><span class="o">|</span><span class="w">
       </span><span class="p">(</span><span class="n">Device</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">"dream2qlteue"</span><span class="p">)</span><span class="w"> </span><span class="o">|</span><span class="w"> 
@@ -101,7 +101,7 @@
     </span><span class="p">)</span><span class="w">
 </span><span class="n">p_count_pink_s8_family_device</span><span class="w"> </span><span class="o">=</span><span class="w"> 
   </span><span class="n">ggplot</span><span class="p">(</span><span class="w">
-    </span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">s</span><span class="m">8</span><span class="err">_</span><span class="n">family_bug_1450793_p</span><span class="p">,</span><span class="w">
+    </span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">s8_family_bug_1450793_p</span><span class="p">,</span><span class="w">
     </span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">yyyy_mm_dd</span><span class="p">,</span><span class="w"> </span><span class="n">fill</span><span class="o">=</span><span class="s2">"pink"</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w">
   </span><span class="n">geom_bar</span><span class="p">(</span><span class="n">stat</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"count"</span><span class="p">)</span><span class="o">+</span><span class="w">
   </span><span class="n">theme</span><span class="p">(</span><span class="n">axis.text.x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">element_text</span><span class="p">(</span><span class="n">angle</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">90</span><span class="p">,</span><span class="w"> </span><span class="n">hjust</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w"> 

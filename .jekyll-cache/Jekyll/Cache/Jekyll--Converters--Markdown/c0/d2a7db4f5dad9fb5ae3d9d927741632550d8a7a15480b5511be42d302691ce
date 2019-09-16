@@ -1,4 +1,4 @@
-I"^<h2 id="pontifications">Pontifications</h2>
+I"�<h2 id="pontifications">Pontifications</h2>
 
 <p>aka how i recorded <a href="http://roland.micro.blog/2018/08/15/this-ones-for.html">this one’s for pat</a></p>
 
@@ -13,7 +13,7 @@
   <li>here’s the ffmpeg command to convert WAV to mp3:</li>
 </ul>
 
-<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> C:\Users\rtang\Documents\ffmpeg-20180815-4f8e65c-win64-static\bin\ffmpeg.exe -i D:\IST_0007.wav -f <span class="nb">mp
-</span>3 hellopat.mp3
-</code></pre></div></div>
+<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="w"> </span><span class="nf">C:\Users\rtang\Documents\ffmpeg-20180815-4f8e65c-win64-static\bin\ffmpeg.exe</span><span class="w"> </span><span class="nt">-i</span><span class="w"> </span><span class="nx">D:\IST_0007.wav</span><span class="w"> </span><span class="nt">-f</span><span class="w"> </span><span class="nx">mp</span><span class="w">
+</span><span class="mi">3</span><span class="w"> </span><span class="nf">hellopat.mp3</span><span class="w">
+</span></code></pre></div></div>
 :ET

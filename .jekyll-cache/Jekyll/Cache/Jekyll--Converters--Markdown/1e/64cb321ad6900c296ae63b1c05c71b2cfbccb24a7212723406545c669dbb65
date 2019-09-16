@@ -1,0 +1,11 @@
+I"L<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li><code class="highlighter-rouge">jekyll serve</code> broke my RSS feed (which <a href="https://www.zylstra.org/blog/2019/09/9069/">Ton discovered,</a> thanks)</li>
+  <li>The solution is to use the ruby bundler in production mode (after setting jekyll up with bunler as per the official docs: <a href="https://jekyllrb.com/tutorials/using-jekyll-with-bundler/">Using Jekyll with Bundler</a>):
+    <ul>
+      <li>namely <code class="highlighter-rouge">JEKYLL_ENV=production bundle exec jekyll serve</code></li>
+    </ul>
+  </li>
+</ul>
+:ET

@@ -1,4 +1,4 @@
-I"ŠV<h2 id="pontifications">Pontifications</h2>
+I"úˆ<h2 id="pontifications">Pontifications</h2>
 
 <ul>
   <li>The devices collection (see <a href="http://rolandtanglao.com/2018/04/09/p1-no-unique-identifier-in-google-play-supported-devices-csv-file/">previous post about Google Play supported devices</a> ) is created as follows using <a href="https://github.com/rtanglao/rt-fennec-gplay/blob/master/synthetic_add_device_branding_marketing_model.rb">synthetic_add_device_branding_marketing_model.rb</a>  and <a href="https://github.com/rtanglao/rt-fennec-gplay/blob/master/utf_8_reviews_reviews_org.mozilla.firefox_201801.csv">utf8_supported_devices.csv</a>  :</li>
@@ -10,8 +10,8 @@
 
 <h3 id="how-to-query-for-samung-s8">How to query for Samung S8</h3>
 <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span>
-  <span class="s2">"Retail Branding"</span> <span class="p">:</span> <span class="s2">"Samsung"</span><span class="p">,</span>
-  <span class="s2">"Marketing Name"</span> <span class="p">:</span> <span class="o">/</span><span class="p">.</span><span class="o">*</span><span class="nx">S8</span><span class="p">.</span><span class="o">*</span><span class="sr">/</span><span class="err">
+  <span class="dl">"</span><span class="s2">Retail Branding</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Marketing Name</span><span class="dl">"</span> <span class="p">:</span> <span class="o">/</span><span class="p">.</span><span class="o">*</span><span class="nx">S8</span><span class="p">.</span><span class="o">*</span><span class="sr">/</span><span class="err">
 </span><span class="p">}</span>
 </code></pre></div></div>
 
@@ -21,211 +21,211 @@
 
 <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/* 1 */</span>
 <span class="p">{</span>
-  <span class="s2">"_id"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="s2">"5acbc5561115a9a462b64d58"</span><span class="p">),</span>
-  <span class="s2">"Retail Branding"</span> <span class="p">:</span> <span class="s2">"Samsung"</span><span class="p">,</span>
-  <span class="s2">"Marketing Name"</span> <span class="p">:</span> <span class="s2">"Galaxy S8"</span><span class="p">,</span>
-  <span class="s2">"Device"</span> <span class="p">:</span> <span class="s2">"SC-02J"</span><span class="p">,</span>
-  <span class="s2">"Model"</span> <span class="p">:</span> <span class="s2">"SC-02J"</span><span class="p">,</span>
-  <span class="s2">"id"</span> <span class="p">:</span> <span class="s2">"36a69c3ac08ae64aeac8f17562b6a6cb651e91b26cf67c70078e45adf4c01c3e"</span><span class="p">,</span>
-  <span class="s2">"synthetic_branding_plus_marketing_name"</span> <span class="p">:</span> <span class="s2">"Samsung Galaxy S8"</span>
+  <span class="dl">"</span><span class="s2">_id</span><span class="dl">"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="dl">"</span><span class="s2">5acbc5561115a9a462b64d58</span><span class="dl">"</span><span class="p">),</span>
+  <span class="dl">"</span><span class="s2">Retail Branding</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Marketing Name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Galaxy S8</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Device</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">SC-02J</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Model</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">SC-02J</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">id</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">36a69c3ac08ae64aeac8f17562b6a6cb651e91b26cf67c70078e45adf4c01c3e</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">synthetic_branding_plus_marketing_name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung Galaxy S8</span><span class="dl">"</span>
 <span class="p">}</span>
 
 <span class="cm">/* 2 */</span>
 <span class="p">{</span>
-  <span class="s2">"_id"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="s2">"5acbc5561115a9a462b64d5a"</span><span class="p">),</span>
-  <span class="s2">"Retail Branding"</span> <span class="p">:</span> <span class="s2">"Samsung"</span><span class="p">,</span>
-  <span class="s2">"Marketing Name"</span> <span class="p">:</span> <span class="s2">"Galaxy S8"</span><span class="p">,</span>
-  <span class="s2">"Device"</span> <span class="p">:</span> <span class="s2">"SCV36"</span><span class="p">,</span>
-  <span class="s2">"Model"</span> <span class="p">:</span> <span class="s2">"SCV36"</span><span class="p">,</span>
-  <span class="s2">"id"</span> <span class="p">:</span> <span class="s2">"da81608366c90de4694996550d75822f32b60b25617798c89c68a131a50e09c7"</span><span class="p">,</span>
-  <span class="s2">"synthetic_branding_plus_marketing_name"</span> <span class="p">:</span> <span class="s2">"Samsung Galaxy S8"</span>
+  <span class="dl">"</span><span class="s2">_id</span><span class="dl">"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="dl">"</span><span class="s2">5acbc5561115a9a462b64d5a</span><span class="dl">"</span><span class="p">),</span>
+  <span class="dl">"</span><span class="s2">Retail Branding</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Marketing Name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Galaxy S8</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Device</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">SCV36</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Model</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">SCV36</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">id</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">da81608366c90de4694996550d75822f32b60b25617798c89c68a131a50e09c7</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">synthetic_branding_plus_marketing_name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung Galaxy S8</span><span class="dl">"</span>
 <span class="p">}</span>
 
 <span class="cm">/* 3 */</span>
 <span class="p">{</span>
-  <span class="s2">"_id"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="s2">"5acbc5561115a9a462b64d5c"</span><span class="p">),</span>
-  <span class="s2">"Retail Branding"</span> <span class="p">:</span> <span class="s2">"Samsung"</span><span class="p">,</span>
-  <span class="s2">"Marketing Name"</span> <span class="p">:</span> <span class="s2">"Galaxy S8"</span><span class="p">,</span>
-  <span class="s2">"Device"</span> <span class="p">:</span> <span class="s2">"dreamlte"</span><span class="p">,</span>
-  <span class="s2">"Model"</span> <span class="p">:</span> <span class="s2">"SM-G950F"</span><span class="p">,</span>
-  <span class="s2">"id"</span> <span class="p">:</span> <span class="s2">"f6ae0b8609c8b356132ed412db24e39f811a79e84a23abc599dbb8fe20049a17"</span><span class="p">,</span>
-  <span class="s2">"synthetic_branding_plus_marketing_name"</span> <span class="p">:</span> <span class="s2">"Samsung Galaxy S8"</span>
+  <span class="dl">"</span><span class="s2">_id</span><span class="dl">"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="dl">"</span><span class="s2">5acbc5561115a9a462b64d5c</span><span class="dl">"</span><span class="p">),</span>
+  <span class="dl">"</span><span class="s2">Retail Branding</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Marketing Name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Galaxy S8</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Device</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">dreamlte</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Model</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">SM-G950F</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">id</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">f6ae0b8609c8b356132ed412db24e39f811a79e84a23abc599dbb8fe20049a17</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">synthetic_branding_plus_marketing_name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung Galaxy S8</span><span class="dl">"</span>
 <span class="p">}</span>
 
 <span class="cm">/* 4 */</span>
 <span class="p">{</span>
-  <span class="s2">"_id"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="s2">"5acbc5561115a9a462b64d5e"</span><span class="p">),</span>
-  <span class="s2">"Retail Branding"</span> <span class="p">:</span> <span class="s2">"Samsung"</span><span class="p">,</span>
-  <span class="s2">"Marketing Name"</span> <span class="p">:</span> <span class="s2">"Galaxy S8"</span><span class="p">,</span>
-  <span class="s2">"Device"</span> <span class="p">:</span> <span class="s2">"dreamlteks"</span><span class="p">,</span>
-  <span class="s2">"Model"</span> <span class="p">:</span> <span class="s2">"SM-G950N"</span><span class="p">,</span>
-  <span class="s2">"id"</span> <span class="p">:</span> <span class="s2">"7623724acfa70804ebc209cdaa9cdb280f40f74a8e19cdc0162ad2c68c06170d"</span><span class="p">,</span>
-  <span class="s2">"synthetic_branding_plus_marketing_name"</span> <span class="p">:</span> <span class="s2">"Samsung Galaxy S8"</span>
+  <span class="dl">"</span><span class="s2">_id</span><span class="dl">"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="dl">"</span><span class="s2">5acbc5561115a9a462b64d5e</span><span class="dl">"</span><span class="p">),</span>
+  <span class="dl">"</span><span class="s2">Retail Branding</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Marketing Name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Galaxy S8</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Device</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">dreamlteks</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Model</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">SM-G950N</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">id</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">7623724acfa70804ebc209cdaa9cdb280f40f74a8e19cdc0162ad2c68c06170d</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">synthetic_branding_plus_marketing_name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung Galaxy S8</span><span class="dl">"</span>
 <span class="p">}</span>
 
 <span class="cm">/* 5 */</span>
 <span class="p">{</span>
-  <span class="s2">"_id"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="s2">"5acbc5561115a9a462b64d60"</span><span class="p">),</span>
-  <span class="s2">"Retail Branding"</span> <span class="p">:</span> <span class="s2">"Samsung"</span><span class="p">,</span>
-  <span class="s2">"Marketing Name"</span> <span class="p">:</span> <span class="s2">"Galaxy S8"</span><span class="p">,</span>
-  <span class="s2">"Device"</span> <span class="p">:</span> <span class="s2">"dreamqltecan"</span><span class="p">,</span>
-  <span class="s2">"Model"</span> <span class="p">:</span> <span class="s2">"SM-G950W"</span><span class="p">,</span>
-  <span class="s2">"id"</span> <span class="p">:</span> <span class="s2">"d64e8803fe9049476cb4274a2005425e8e5da01e8d2616d2ad57300de1c3fa5d"</span><span class="p">,</span>
-  <span class="s2">"synthetic_branding_plus_marketing_name"</span> <span class="p">:</span> <span class="s2">"Samsung Galaxy S8"</span>
+  <span class="dl">"</span><span class="s2">_id</span><span class="dl">"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="dl">"</span><span class="s2">5acbc5561115a9a462b64d60</span><span class="dl">"</span><span class="p">),</span>
+  <span class="dl">"</span><span class="s2">Retail Branding</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Marketing Name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Galaxy S8</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Device</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">dreamqltecan</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Model</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">SM-G950W</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">id</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">d64e8803fe9049476cb4274a2005425e8e5da01e8d2616d2ad57300de1c3fa5d</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">synthetic_branding_plus_marketing_name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung Galaxy S8</span><span class="dl">"</span>
 <span class="p">}</span>
 
 <span class="cm">/* 6 */</span>
 <span class="p">{</span>
-  <span class="s2">"_id"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="s2">"5acbc5561115a9a462b64d62"</span><span class="p">),</span>
-  <span class="s2">"Retail Branding"</span> <span class="p">:</span> <span class="s2">"Samsung"</span><span class="p">,</span>
-  <span class="s2">"Marketing Name"</span> <span class="p">:</span> <span class="s2">"Galaxy S8"</span><span class="p">,</span>
-  <span class="s2">"Device"</span> <span class="p">:</span> <span class="s2">"dreamqltechn"</span><span class="p">,</span>
-  <span class="s2">"Model"</span> <span class="p">:</span> <span class="s2">"SM-G9500"</span><span class="p">,</span>
-  <span class="s2">"id"</span> <span class="p">:</span> <span class="s2">"e968a7e35f41500d03ff0e5e33ac4aa141fad4785402c9a3aad0534cc2b85917"</span><span class="p">,</span>
-  <span class="s2">"synthetic_branding_plus_marketing_name"</span> <span class="p">:</span> <span class="s2">"Samsung Galaxy S8"</span>
+  <span class="dl">"</span><span class="s2">_id</span><span class="dl">"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="dl">"</span><span class="s2">5acbc5561115a9a462b64d62</span><span class="dl">"</span><span class="p">),</span>
+  <span class="dl">"</span><span class="s2">Retail Branding</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Marketing Name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Galaxy S8</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Device</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">dreamqltechn</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Model</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">SM-G9500</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">id</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">e968a7e35f41500d03ff0e5e33ac4aa141fad4785402c9a3aad0534cc2b85917</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">synthetic_branding_plus_marketing_name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung Galaxy S8</span><span class="dl">"</span>
 <span class="p">}</span>
 
 <span class="cm">/* 7 */</span>
 <span class="p">{</span>
-  <span class="s2">"_id"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="s2">"5acbc5561115a9a462b64d64"</span><span class="p">),</span>
-  <span class="s2">"Retail Branding"</span> <span class="p">:</span> <span class="s2">"Samsung"</span><span class="p">,</span>
-  <span class="s2">"Marketing Name"</span> <span class="p">:</span> <span class="s2">"Galaxy S8"</span><span class="p">,</span>
-  <span class="s2">"Device"</span> <span class="p">:</span> <span class="s2">"dreamqltecmcc"</span><span class="p">,</span>
-  <span class="s2">"Model"</span> <span class="p">:</span> <span class="s2">"SM-G9508"</span><span class="p">,</span>
-  <span class="s2">"id"</span> <span class="p">:</span> <span class="s2">"92df1ebcbc8ee1144b8c558aae27e073f4181605b80b74b694f7daeff150f099"</span><span class="p">,</span>
-  <span class="s2">"synthetic_branding_plus_marketing_name"</span> <span class="p">:</span> <span class="s2">"Samsung Galaxy S8"</span>
+  <span class="dl">"</span><span class="s2">_id</span><span class="dl">"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="dl">"</span><span class="s2">5acbc5561115a9a462b64d64</span><span class="dl">"</span><span class="p">),</span>
+  <span class="dl">"</span><span class="s2">Retail Branding</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Marketing Name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Galaxy S8</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Device</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">dreamqltecmcc</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Model</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">SM-G9508</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">id</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">92df1ebcbc8ee1144b8c558aae27e073f4181605b80b74b694f7daeff150f099</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">synthetic_branding_plus_marketing_name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung Galaxy S8</span><span class="dl">"</span>
 <span class="p">}</span>
 
 <span class="cm">/* 8 */</span>
 <span class="p">{</span>
-  <span class="s2">"_id"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="s2">"5acbc5561115a9a462b64d66"</span><span class="p">),</span>
-  <span class="s2">"Retail Branding"</span> <span class="p">:</span> <span class="s2">"Samsung"</span><span class="p">,</span>
-  <span class="s2">"Marketing Name"</span> <span class="p">:</span> <span class="s2">"Galaxy S8"</span><span class="p">,</span>
-  <span class="s2">"Device"</span> <span class="p">:</span> <span class="s2">"dreamqltesq"</span><span class="p">,</span>
-  <span class="s2">"Model"</span> <span class="p">:</span> <span class="s2">"SM-G950U"</span><span class="p">,</span>
-  <span class="s2">"id"</span> <span class="p">:</span> <span class="s2">"e780ca4a6917caad4c9f05cd61536ef32ff29c1064278503c77db0804078f108"</span><span class="p">,</span>
-  <span class="s2">"synthetic_branding_plus_marketing_name"</span> <span class="p">:</span> <span class="s2">"Samsung Galaxy S8"</span>
+  <span class="dl">"</span><span class="s2">_id</span><span class="dl">"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="dl">"</span><span class="s2">5acbc5561115a9a462b64d66</span><span class="dl">"</span><span class="p">),</span>
+  <span class="dl">"</span><span class="s2">Retail Branding</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Marketing Name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Galaxy S8</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Device</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">dreamqltesq</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Model</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">SM-G950U</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">id</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">e780ca4a6917caad4c9f05cd61536ef32ff29c1064278503c77db0804078f108</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">synthetic_branding_plus_marketing_name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung Galaxy S8</span><span class="dl">"</span>
 <span class="p">}</span>
 
 <span class="cm">/* 9 */</span>
 <span class="p">{</span>
-  <span class="s2">"_id"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="s2">"5acbc5561115a9a462b64d68"</span><span class="p">),</span>
-  <span class="s2">"Retail Branding"</span> <span class="p">:</span> <span class="s2">"Samsung"</span><span class="p">,</span>
-  <span class="s2">"Marketing Name"</span> <span class="p">:</span> <span class="s2">"Galaxy S8"</span><span class="p">,</span>
-  <span class="s2">"Device"</span> <span class="p">:</span> <span class="s2">"dreamqlteue"</span><span class="p">,</span>
-  <span class="s2">"Model"</span> <span class="p">:</span> <span class="s2">"SM-G950U1"</span><span class="p">,</span>
-  <span class="s2">"id"</span> <span class="p">:</span> <span class="s2">"0633f20073a12fcbfcf4e8dc5f7772885a7429e216ac25a6c74c3f71d96371fe"</span><span class="p">,</span>
-  <span class="s2">"synthetic_branding_plus_marketing_name"</span> <span class="p">:</span> <span class="s2">"Samsung Galaxy S8"</span>
+  <span class="dl">"</span><span class="s2">_id</span><span class="dl">"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="dl">"</span><span class="s2">5acbc5561115a9a462b64d68</span><span class="dl">"</span><span class="p">),</span>
+  <span class="dl">"</span><span class="s2">Retail Branding</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Marketing Name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Galaxy S8</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Device</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">dreamqlteue</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Model</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">SM-G950U1</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">id</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">0633f20073a12fcbfcf4e8dc5f7772885a7429e216ac25a6c74c3f71d96371fe</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">synthetic_branding_plus_marketing_name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung Galaxy S8</span><span class="dl">"</span>
 <span class="p">}</span>
 
 <span class="cm">/* 10 */</span>
 <span class="p">{</span>
-  <span class="s2">"_id"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="s2">"5acbc5561115a9a462b64d6a"</span><span class="p">),</span>
-  <span class="s2">"Retail Branding"</span> <span class="p">:</span> <span class="s2">"Samsung"</span><span class="p">,</span>
-  <span class="s2">"Marketing Name"</span> <span class="p">:</span> <span class="s2">"Galaxy S8 Active"</span><span class="p">,</span>
-  <span class="s2">"Device"</span> <span class="p">:</span> <span class="s2">"cruiserlteatt"</span><span class="p">,</span>
-  <span class="s2">"Model"</span> <span class="p">:</span> <span class="s2">"SM-G892A"</span><span class="p">,</span>
-  <span class="s2">"id"</span> <span class="p">:</span> <span class="s2">"e87439102c52f67ba059e6c28fcf7ab71f4d2402ce5e57753665f9d865a1e8b9"</span><span class="p">,</span>
-  <span class="s2">"synthetic_branding_plus_marketing_name"</span> <span class="p">:</span> <span class="s2">"Samsung Galaxy S8 Active"</span>
+  <span class="dl">"</span><span class="s2">_id</span><span class="dl">"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="dl">"</span><span class="s2">5acbc5561115a9a462b64d6a</span><span class="dl">"</span><span class="p">),</span>
+  <span class="dl">"</span><span class="s2">Retail Branding</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Marketing Name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Galaxy S8 Active</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Device</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">cruiserlteatt</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Model</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">SM-G892A</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">id</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">e87439102c52f67ba059e6c28fcf7ab71f4d2402ce5e57753665f9d865a1e8b9</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">synthetic_branding_plus_marketing_name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung Galaxy S8 Active</span><span class="dl">"</span>
 <span class="p">}</span>
 
 <span class="cm">/* 11 */</span>
 <span class="p">{</span>
-  <span class="s2">"_id"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="s2">"5acbc5561115a9a462b64d6c"</span><span class="p">),</span>
-  <span class="s2">"Retail Branding"</span> <span class="p">:</span> <span class="s2">"Samsung"</span><span class="p">,</span>
-  <span class="s2">"Marketing Name"</span> <span class="p">:</span> <span class="s2">"Galaxy S8 Active"</span><span class="p">,</span>
-  <span class="s2">"Device"</span> <span class="p">:</span> <span class="s2">"cruiserltesq"</span><span class="p">,</span>
-  <span class="s2">"Model"</span> <span class="p">:</span> <span class="s2">"SM-G892U"</span><span class="p">,</span>
-  <span class="s2">"id"</span> <span class="p">:</span> <span class="s2">"fc7a836fda56c519f6a16023c0c9c1824229a809661ed6e36dc2fcb9ec3dfe43"</span><span class="p">,</span>
-  <span class="s2">"synthetic_branding_plus_marketing_name"</span> <span class="p">:</span> <span class="s2">"Samsung Galaxy S8 Active"</span>
+  <span class="dl">"</span><span class="s2">_id</span><span class="dl">"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="dl">"</span><span class="s2">5acbc5561115a9a462b64d6c</span><span class="dl">"</span><span class="p">),</span>
+  <span class="dl">"</span><span class="s2">Retail Branding</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Marketing Name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Galaxy S8 Active</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Device</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">cruiserltesq</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Model</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">SM-G892U</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">id</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">fc7a836fda56c519f6a16023c0c9c1824229a809661ed6e36dc2fcb9ec3dfe43</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">synthetic_branding_plus_marketing_name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung Galaxy S8 Active</span><span class="dl">"</span>
 <span class="p">}</span>
 
 <span class="cm">/* 12 */</span>
 <span class="p">{</span>
-  <span class="s2">"_id"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="s2">"5acbc5561115a9a462b64d6e"</span><span class="p">),</span>
-  <span class="s2">"Retail Branding"</span> <span class="p">:</span> <span class="s2">"Samsung"</span><span class="p">,</span>
-  <span class="s2">"Marketing Name"</span> <span class="p">:</span> <span class="s2">"Galaxy S8+"</span><span class="p">,</span>
-  <span class="s2">"Device"</span> <span class="p">:</span> <span class="s2">"SC-03J"</span><span class="p">,</span>
-  <span class="s2">"Model"</span> <span class="p">:</span> <span class="s2">"SC-03J"</span><span class="p">,</span>
-  <span class="s2">"id"</span> <span class="p">:</span> <span class="s2">"0e6afea01a7b1b422fe8288ce9b3f94221da20a88d68c70e1f040c8d89f6311e"</span><span class="p">,</span>
-  <span class="s2">"synthetic_branding_plus_marketing_name"</span> <span class="p">:</span> <span class="s2">"Samsung Galaxy S8+"</span>
+  <span class="dl">"</span><span class="s2">_id</span><span class="dl">"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="dl">"</span><span class="s2">5acbc5561115a9a462b64d6e</span><span class="dl">"</span><span class="p">),</span>
+  <span class="dl">"</span><span class="s2">Retail Branding</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Marketing Name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Galaxy S8+</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Device</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">SC-03J</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Model</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">SC-03J</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">id</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">0e6afea01a7b1b422fe8288ce9b3f94221da20a88d68c70e1f040c8d89f6311e</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">synthetic_branding_plus_marketing_name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung Galaxy S8+</span><span class="dl">"</span>
 <span class="p">}</span>
 
 <span class="cm">/* 13 */</span>
 <span class="p">{</span>
-  <span class="s2">"_id"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="s2">"5acbc5561115a9a462b64d70"</span><span class="p">),</span>
-  <span class="s2">"Retail Branding"</span> <span class="p">:</span> <span class="s2">"Samsung"</span><span class="p">,</span>
-  <span class="s2">"Marketing Name"</span> <span class="p">:</span> <span class="s2">"Galaxy S8+"</span><span class="p">,</span>
-  <span class="s2">"Device"</span> <span class="p">:</span> <span class="s2">"SCV35"</span><span class="p">,</span>
-  <span class="s2">"Model"</span> <span class="p">:</span> <span class="s2">"SCV35"</span><span class="p">,</span>
-  <span class="s2">"id"</span> <span class="p">:</span> <span class="s2">"69fe32bb686caf9f3839e1b49a12d98106acc4762eb999b8a8df67f903f2ff4e"</span><span class="p">,</span>
-  <span class="s2">"synthetic_branding_plus_marketing_name"</span> <span class="p">:</span> <span class="s2">"Samsung Galaxy S8+"</span>
+  <span class="dl">"</span><span class="s2">_id</span><span class="dl">"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="dl">"</span><span class="s2">5acbc5561115a9a462b64d70</span><span class="dl">"</span><span class="p">),</span>
+  <span class="dl">"</span><span class="s2">Retail Branding</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Marketing Name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Galaxy S8+</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Device</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">SCV35</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Model</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">SCV35</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">id</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">69fe32bb686caf9f3839e1b49a12d98106acc4762eb999b8a8df67f903f2ff4e</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">synthetic_branding_plus_marketing_name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung Galaxy S8+</span><span class="dl">"</span>
 <span class="p">}</span>
 
 <span class="cm">/* 14 */</span>
 <span class="p">{</span>
-  <span class="s2">"_id"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="s2">"5acbc5561115a9a462b64d72"</span><span class="p">),</span>
-  <span class="s2">"Retail Branding"</span> <span class="p">:</span> <span class="s2">"Samsung"</span><span class="p">,</span>
-  <span class="s2">"Marketing Name"</span> <span class="p">:</span> <span class="s2">"Galaxy S8+"</span><span class="p">,</span>
-  <span class="s2">"Device"</span> <span class="p">:</span> <span class="s2">"dream2lte"</span><span class="p">,</span>
-  <span class="s2">"Model"</span> <span class="p">:</span> <span class="s2">"SM-G955F"</span><span class="p">,</span>
-  <span class="s2">"id"</span> <span class="p">:</span> <span class="s2">"86901934c29f144d82bb137164338a701432c6200ea66d80c7e6d0eb9f699c67"</span><span class="p">,</span>
-  <span class="s2">"synthetic_branding_plus_marketing_name"</span> <span class="p">:</span> <span class="s2">"Samsung Galaxy S8+"</span>
+  <span class="dl">"</span><span class="s2">_id</span><span class="dl">"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="dl">"</span><span class="s2">5acbc5561115a9a462b64d72</span><span class="dl">"</span><span class="p">),</span>
+  <span class="dl">"</span><span class="s2">Retail Branding</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Marketing Name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Galaxy S8+</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Device</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">dream2lte</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Model</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">SM-G955F</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">id</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">86901934c29f144d82bb137164338a701432c6200ea66d80c7e6d0eb9f699c67</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">synthetic_branding_plus_marketing_name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung Galaxy S8+</span><span class="dl">"</span>
 <span class="p">}</span>
 
 <span class="cm">/* 15 */</span>
 <span class="p">{</span>
-  <span class="s2">"_id"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="s2">"5acbc5561115a9a462b64d74"</span><span class="p">),</span>
-  <span class="s2">"Retail Branding"</span> <span class="p">:</span> <span class="s2">"Samsung"</span><span class="p">,</span>
-  <span class="s2">"Marketing Name"</span> <span class="p">:</span> <span class="s2">"Galaxy S8+"</span><span class="p">,</span>
-  <span class="s2">"Device"</span> <span class="p">:</span> <span class="s2">"dream2lteks"</span><span class="p">,</span>
-  <span class="s2">"Model"</span> <span class="p">:</span> <span class="s2">"SM-G955N"</span><span class="p">,</span>
-  <span class="s2">"id"</span> <span class="p">:</span> <span class="s2">"3728e521a686e2cc0c8f9f855d1a93d54383e99b403f907f0f00adf0782d59f7"</span><span class="p">,</span>
-  <span class="s2">"synthetic_branding_plus_marketing_name"</span> <span class="p">:</span> <span class="s2">"Samsung Galaxy S8+"</span>
+  <span class="dl">"</span><span class="s2">_id</span><span class="dl">"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="dl">"</span><span class="s2">5acbc5561115a9a462b64d74</span><span class="dl">"</span><span class="p">),</span>
+  <span class="dl">"</span><span class="s2">Retail Branding</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Marketing Name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Galaxy S8+</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Device</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">dream2lteks</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Model</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">SM-G955N</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">id</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">3728e521a686e2cc0c8f9f855d1a93d54383e99b403f907f0f00adf0782d59f7</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">synthetic_branding_plus_marketing_name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung Galaxy S8+</span><span class="dl">"</span>
 <span class="p">}</span>
 
 <span class="cm">/* 16 */</span>
 <span class="p">{</span>
-  <span class="s2">"_id"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="s2">"5acbc5561115a9a462b64d76"</span><span class="p">),</span>
-  <span class="s2">"Retail Branding"</span> <span class="p">:</span> <span class="s2">"Samsung"</span><span class="p">,</span>
-  <span class="s2">"Marketing Name"</span> <span class="p">:</span> <span class="s2">"Galaxy S8+"</span><span class="p">,</span>
-  <span class="s2">"Device"</span> <span class="p">:</span> <span class="s2">"dream2qltecan"</span><span class="p">,</span>
-  <span class="s2">"Model"</span> <span class="p">:</span> <span class="s2">"SM-G955W"</span><span class="p">,</span>
-  <span class="s2">"id"</span> <span class="p">:</span> <span class="s2">"c6288b00189ce68c80a3a8debefeae997aae96c1b53f78b72c42702d6ad7d4d4"</span><span class="p">,</span>
-  <span class="s2">"synthetic_branding_plus_marketing_name"</span> <span class="p">:</span> <span class="s2">"Samsung Galaxy S8+"</span>
+  <span class="dl">"</span><span class="s2">_id</span><span class="dl">"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="dl">"</span><span class="s2">5acbc5561115a9a462b64d76</span><span class="dl">"</span><span class="p">),</span>
+  <span class="dl">"</span><span class="s2">Retail Branding</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Marketing Name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Galaxy S8+</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Device</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">dream2qltecan</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Model</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">SM-G955W</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">id</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">c6288b00189ce68c80a3a8debefeae997aae96c1b53f78b72c42702d6ad7d4d4</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">synthetic_branding_plus_marketing_name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung Galaxy S8+</span><span class="dl">"</span>
 <span class="p">}</span>
 
 <span class="cm">/* 17 */</span>
 <span class="p">{</span>
-  <span class="s2">"_id"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="s2">"5acbc5561115a9a462b64d78"</span><span class="p">),</span>
-  <span class="s2">"Retail Branding"</span> <span class="p">:</span> <span class="s2">"Samsung"</span><span class="p">,</span>
-  <span class="s2">"Marketing Name"</span> <span class="p">:</span> <span class="s2">"Galaxy S8+"</span><span class="p">,</span>
-  <span class="s2">"Device"</span> <span class="p">:</span> <span class="s2">"dream2qltechn"</span><span class="p">,</span>
-  <span class="s2">"Model"</span> <span class="p">:</span> <span class="s2">"SM-G9550"</span><span class="p">,</span>
-  <span class="s2">"id"</span> <span class="p">:</span> <span class="s2">"3a7043894a443874ef824625214b18f611d80012a2becdcaa99eff94d05d22ba"</span><span class="p">,</span>
-  <span class="s2">"synthetic_branding_plus_marketing_name"</span> <span class="p">:</span> <span class="s2">"Samsung Galaxy S8+"</span>
+  <span class="dl">"</span><span class="s2">_id</span><span class="dl">"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="dl">"</span><span class="s2">5acbc5561115a9a462b64d78</span><span class="dl">"</span><span class="p">),</span>
+  <span class="dl">"</span><span class="s2">Retail Branding</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Marketing Name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Galaxy S8+</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Device</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">dream2qltechn</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Model</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">SM-G9550</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">id</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">3a7043894a443874ef824625214b18f611d80012a2becdcaa99eff94d05d22ba</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">synthetic_branding_plus_marketing_name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung Galaxy S8+</span><span class="dl">"</span>
 <span class="p">}</span>
 
 <span class="cm">/* 18 */</span>
 <span class="p">{</span>
-  <span class="s2">"_id"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="s2">"5acbc5561115a9a462b64d7a"</span><span class="p">),</span>
-  <span class="s2">"Retail Branding"</span> <span class="p">:</span> <span class="s2">"Samsung"</span><span class="p">,</span>
-  <span class="s2">"Marketing Name"</span> <span class="p">:</span> <span class="s2">"Galaxy S8+"</span><span class="p">,</span>
-  <span class="s2">"Device"</span> <span class="p">:</span> <span class="s2">"dream2qltesq"</span><span class="p">,</span>
-  <span class="s2">"Model"</span> <span class="p">:</span> <span class="s2">"SM-G955U"</span><span class="p">,</span>
-  <span class="s2">"id"</span> <span class="p">:</span> <span class="s2">"f63426e519ef3cb44d4968f97d765da78effaf4f2b8c9726ce7987b8f12229de"</span><span class="p">,</span>
-  <span class="s2">"synthetic_branding_plus_marketing_name"</span> <span class="p">:</span> <span class="s2">"Samsung Galaxy S8+"</span>
+  <span class="dl">"</span><span class="s2">_id</span><span class="dl">"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="dl">"</span><span class="s2">5acbc5561115a9a462b64d7a</span><span class="dl">"</span><span class="p">),</span>
+  <span class="dl">"</span><span class="s2">Retail Branding</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Marketing Name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Galaxy S8+</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Device</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">dream2qltesq</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Model</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">SM-G955U</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">id</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">f63426e519ef3cb44d4968f97d765da78effaf4f2b8c9726ce7987b8f12229de</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">synthetic_branding_plus_marketing_name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung Galaxy S8+</span><span class="dl">"</span>
 <span class="p">}</span>
 
 <span class="cm">/* 19 */</span>
 <span class="p">{</span>
-  <span class="s2">"_id"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="s2">"5acbc5561115a9a462b64d7c"</span><span class="p">),</span>
-  <span class="s2">"Retail Branding"</span> <span class="p">:</span> <span class="s2">"Samsung"</span><span class="p">,</span>
-  <span class="s2">"Marketing Name"</span> <span class="p">:</span> <span class="s2">"Galaxy S8+"</span><span class="p">,</span>
-  <span class="s2">"Device"</span> <span class="p">:</span> <span class="s2">"dream2qlteue"</span><span class="p">,</span>
-  <span class="s2">"Model"</span> <span class="p">:</span> <span class="s2">"SM-G955U1"</span><span class="p">,</span>
-  <span class="s2">"id"</span> <span class="p">:</span> <span class="s2">"6aa9b5c9fcb85dd84caf90141b2f75fc64575b59c0e6962e460fdb745169d0b7"</span><span class="p">,</span>
-  <span class="s2">"synthetic_branding_plus_marketing_name"</span> <span class="p">:</span> <span class="s2">"Samsung Galaxy S8+"</span>
+  <span class="dl">"</span><span class="s2">_id</span><span class="dl">"</span> <span class="p">:</span> <span class="nx">ObjectId</span><span class="p">(</span><span class="dl">"</span><span class="s2">5acbc5561115a9a462b64d7c</span><span class="dl">"</span><span class="p">),</span>
+  <span class="dl">"</span><span class="s2">Retail Branding</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Marketing Name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Galaxy S8+</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Device</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">dream2qlteue</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">Model</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">SM-G955U1</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">id</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">6aa9b5c9fcb85dd84caf90141b2f75fc64575b59c0e6962e460fdb745169d0b7</span><span class="dl">"</span><span class="p">,</span>
+  <span class="dl">"</span><span class="s2">synthetic_branding_plus_marketing_name</span><span class="dl">"</span> <span class="p">:</span> <span class="dl">"</span><span class="s2">Samsung Galaxy S8+</span><span class="dl">"</span>
 <span class="p">}</span>
 
 
