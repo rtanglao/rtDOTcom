@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 16 Sep 2019 15:06:25 -0700</pubDate>
-    <lastBuildDate>Mon, 16 Sep 2019 15:06:25 -0700</lastBuildDate>
+    <pubDate>Tue, 17 Sep 2019 17:34:52 -0700</pubDate>
+    <lastBuildDate>Tue, 17 Sep 2019 17:34:52 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Of course there are sample 11ty projects on glitch</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Check out &lt;a href=&quot;https://glitch.com/edit/#!/eleventy-glitch?path=README.md:1:0&quot;&gt;https://glitch.com/edit/#!/eleventy-glitch?path=README.md:1:0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Maybe this will be entry way into glitch finally :-)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 17 Sep 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/09/17/p1-of-course-there-are-sample-eleventy-projects-on-glitch/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/17/p1-of-course-there-are-sample-eleventy-projects-on-glitch/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Running jekyll serve broke my RSS fee; solution use ruby bundler in production mode</title>
@@ -157,22 +173,6 @@
         <pubDate>Wed, 11 Sep 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/09/11/p1-wsl-runs-fine-from-windows-command-line-but-not-from-windows-gui/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/09/11/p1-wsl-runs-fine-from-windows-command-line-but-not-from-windows-gui/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Windows 10 build 18975 on the Fast Insider Ring on ARM64 Windows 10 Lenovo C630 broke WSL1 and I cannot install WSL2</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Title says it all. Haven’t had time to debug!&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Tue, 10 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/09/10/p1-wsl1-broke-on-arm64-windows10-build18975-cannot-install-wsl2/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/10/p1-wsl1-broke-on-arm64-windows10-build18975-cannot-install-wsl2/</guid>
         
         
       </item>
