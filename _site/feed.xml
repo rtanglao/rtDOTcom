@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 18 Sep 2019 19:53:36 -0700</pubDate>
-    <lastBuildDate>Wed, 18 Sep 2019 19:53:36 -0700</lastBuildDate>
+    <pubDate>Wed, 18 Sep 2019 20:00:56 -0700</pubDate>
+    <lastBuildDate>Wed, 18 Sep 2019 20:00:56 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>MUST READ: Dave Demers: Vancouver's urban forest—a canary in the gold mine</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;MUST READ (depressing but reality bites :-) : &lt;a href=&quot;https://www.straight.com/news/1302376/dave-demers-vancouvers-urban-forest-canary-gold-mine&quot;&gt;Dave Demers: Vancouver’s urban forest—a canary in the gold mine&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 18 Sep 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/09/18/p1-must-read-about-vancouver=trees-global-climate-crisis/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/18/p1-must-read-about-vancouver=trees-global-climate-crisis/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Of course there are sample 11ty projects on glitch</title>
@@ -157,22 +173,6 @@
         <pubDate>Wed, 11 Sep 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/09/11/p2-september-11-2001-where-was-i/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/09/11/p2-september-11-2001-where-was-i/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>WSL1 runs fine from cmd.exe, the windows command line, but not from the Windows 10 GUI(tap the Windows key, type 'u' and click on Ubuntu)</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Thanks to &lt;a href=&quot;https://twitter.com/benhillis/status/1171973767729278976&quot;&gt;a suggestion from @benhillis on twitter&lt;/a&gt;, I found out today  that WSL1 runs fine from cmd.exe, the windows command line, but not from the Windows 10 GUI (tap the Windows key, type ‘u’ and click on Ubuntu). &amp;lt;– following up from yesterday’s &lt;a href=&quot;http://rolandtanglao.com/2019/09/10/p1-wsl1-broke-on-arm64-windows10-build18975-cannot-install-wsl2/&quot;&gt;Windows 10 build 18975 on the Fast Insider Ring on ARM64 Windows 10 Lenovo C630 broke WSL1 and I cannot install WSL2&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Wed, 11 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/09/11/p1-wsl-runs-fine-from-windows-command-line-but-not-from-windows-gui/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/11/p1-wsl-runs-fine-from-windows-command-line-but-not-from-windows-gui/</guid>
         
         
       </item>
