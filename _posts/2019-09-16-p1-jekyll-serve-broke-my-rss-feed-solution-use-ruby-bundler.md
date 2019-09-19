@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: "Running jekyll serve broke my RSS fee; solution use ruby bundler in production mode"
+title: "Running jekyll serve broke my RSS feed; solution use ruby bundler in production mode"
 ---
 
 # Pontifications
