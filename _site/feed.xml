@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 21 Sep 2019 22:55:50 -0700</pubDate>
-    <lastBuildDate>Sat, 21 Sep 2019 22:55:50 -0700</lastBuildDate>
+    <pubDate>Sun, 22 Sep 2019 19:43:15 -0700</pubDate>
+    <lastBuildDate>Sun, 22 Sep 2019 19:43:15 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>How to ask a question: what you did, what you expected, what happened, your requirements</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Always surprises me how many people ask vague questions on support forums, or on twitter, reddit, etc. Nobody can read your mind :-) !!!!&lt;/li&gt;
+  &lt;li&gt;What you did, what you expected, what happened, your requirements &amp;lt;—- if you can concisely state these things, then you are much more likely to get some response! and if not at least you have a more clarity around the issue which is always useful! &amp;lt;– See &lt;a href=&quot;http://scripting.com/stories/2010/06/30/writingGoodBugReports.html&quot;&gt;writing good bug reports&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I know this requires effort  but it’s 100% worth it! And yes not everything is a bug report or software requirements  but this is a great framework for questions on the internet in general and for software improvements&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 22 Sep 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/09/22/p1-requirements-what-you-did-what-you-expected-what-happened/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/22/p1-requirements-what-you-did-what-you-expected-what-happened/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Another great explainer from Victoria Drake: Knapsack problem algorithms for my real-life carry-on knapsack</title>
@@ -156,22 +173,6 @@
         <pubDate>Sun, 15 Sep 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/09/15/p2-upgraded-to-jekyll-4-just-had-to-change-config-yml-to-kramdown-from-redcarpet/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/09/15/p2-upgraded-to-jekyll-4-just-had-to-change-config-yml-to-kramdown-from-redcarpet/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>RSS club makes me laugh :-) Also WSL2 max_user_watches is hilarious</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;I learned about &lt;a href=&quot;https://daverupert.com/rss-club/&quot;&gt;RSS Club&lt;/a&gt; :-) from &lt;a href=&quot;https://www.zylstra.org/blog/2019/09/joining-rss-club-as-an-experiment/&quot;&gt;Ton&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;I’ll probably run into the &lt;a href=&quot;https://daverupert.com/2019/07/a-lament-for-max-user-watches/&quot;&gt;WSL2 max_user_watches problem&lt;/a&gt; in the future too (the blogger who blogged this is part of RSS club; I of course subscribed to the &lt;a href=&quot;https://daverupert.com/atom.xml&quot;&gt;RSS feed&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 15 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/09/15/p1-wsl2-max-user-watches-rss-club/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/15/p1-wsl2-max-user-watches-rss-club/</guid>
         
         
       </item>
