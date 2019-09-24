@@ -6,9 +6,36 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 22 Sep 2019 19:43:15 -0700</pubDate>
-    <lastBuildDate>Sun, 22 Sep 2019 19:43:15 -0700</lastBuildDate>
+    <pubDate>Mon, 23 Sep 2019 20:29:30 -0700</pubDate>
+    <lastBuildDate>Mon, 23 Sep 2019 20:29:30 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>It ain't easy to be a software platform vendor: just ask Apple, Twitter, Relive, Garmin and Strava</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;This thought has been in the back of my mind since July when relive was cut off: Strava cutting off relive as related in &lt;a href=&quot;https://www.dcrainmaker.com/2019/07/strava-relive-cc-app-platform-dispute.html#comments&quot;&gt;DC Rainmaker’s Strava cuts off Relive: Here’s what actually happened&lt;/a&gt; has happened time and time again. You can’t trust a platform vendor not to revoke your API access or to remove the  APIs your software depends on!&lt;/li&gt;
+  &lt;li&gt;Apple has done it umpteen times. So many times, I’m sure it’s not possible to get an accurate count!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2018/05/16/p1-remember-the-last-two-times-twitter-wrecked-their-api/&quot;&gt;Twitter has done it a least twice.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I still use Apple and Twitter (fortunately or unfortunately :-)  !)&lt;/li&gt;
+  &lt;li&gt;I think I’ll still use Strava even with relive.cc gone. I think I’ll post to relive from Garmin but yeah it s*cks.&lt;/li&gt;
+  &lt;li&gt;The only solution is to own your own data and to pass it directly to the silos like relive and strava that you trust, but who has time for that ? I just want to bicycle and get kudos from my friends LOL!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://scripting.com/davenet/1994/10/29/platformischinesehousehold.html&quot;&gt;This Dave quote from 1994&lt;/a&gt; seems relevant:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;Today, Macintosh is an empty loveless house. Not a home. 
+All the developers walked but left the babies behind. 
+Not because of market share, that can be fixed with 
+economic tweaks. We walked because Apple is a lousy lover.&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Mon, 23 Sep 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/09/23/p1-it-is-hard-to-be-a-platform-vendor-ask-apple-twitter-relive-strava-garmin/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/23/p1-it-is-hard-to-be-a-platform-vendor-ask-apple-twitter-relive-strava-garmin/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How to ask a question: what you did, what you expected, what happened, your requirements</title>
@@ -151,28 +178,6 @@
         <pubDate>Sun, 15 Sep 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/09/15/p3-wsl2-does-not-work-on-arm64-because-you-cannot-enable-the-hypervisor-in-the-bios/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/09/15/p3-wsl2-does-not-work-on-arm64-because-you-cannot-enable-the-hypervisor-in-the-bios/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Upgraded this blog to jekyll 4</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Very easy! (&lt;a href=&quot;https://jekyllrb.com/docs/upgrading/3-to-4/&quot;&gt;official docs for upgrading from jekyll 3 to 4)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;
-    &lt;ol&gt;
-      &lt;li&gt;Updated the jekyll gem &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo gem update jekyll&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;And then changed &lt;code class=&quot;highlighter-rouge&quot;&gt;redcarpet&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;kramdown&lt;/code&gt; in &lt;a href=&quot;https://github.com/rtanglao/rtDOTcom/commit/e296c834b8bdda4ae06bb0616b8f3ebe2ffaae72&quot;&gt;_config.yml&lt;/a&gt;&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sun, 15 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/09/15/p2-upgraded-to-jekyll-4-just-had-to-change-config-yml-to-kramdown-from-redcarpet/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/15/p2-upgraded-to-jekyll-4-just-had-to-change-config-yml-to-kramdown-from-redcarpet/</guid>
         
         
       </item>
