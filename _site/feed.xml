@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 23 Sep 2019 20:29:30 -0700</pubDate>
-    <lastBuildDate>Mon, 23 Sep 2019 20:29:30 -0700</lastBuildDate>
+    <pubDate>Tue, 24 Sep 2019 17:43:40 -0700</pubDate>
+    <lastBuildDate>Tue, 24 Sep 2019 17:43:40 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>In case you were wondering, I am not some random Roland :-) haha! I am the number one 'Roland Tanglao' on Google, google it :-)</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In case you were wondering, &lt;a href=&quot;https://roland.micro.blog/2019/09/24/i-am-not.html&quot;&gt;I am not some random Roland :-) haha! I am the number one ‘Roland Tanglao’ on Google, google it :-)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.instagram.com/p/B2uMq2qHlhs/&quot;&gt;And no having the Roland userid on instagram doesn’t give me hella exposure :-) dreamscapelofi  :-)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 24 Sep 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/09/24/p1-i-am-not-some-random-roland-i-am-number-one-roland-tanglao-on-google/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/24/p1-i-am-not-some-random-roland-i-am-number-one-roland-tanglao-on-google/</guid>
+        
+        
+      </item>
     
       <item>
         <title>It ain't easy to be a software platform vendor: just ask Apple, Twitter, Relive, Garmin and Strava</title>
@@ -163,21 +179,6 @@ economic tweaks. We walked because Apple is a lousy lover.&quot;
         <pubDate>Sun, 15 Sep 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/09/15/p4-eleventy-static-site-generator-node-javascript/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/09/15/p4-eleventy-static-site-generator-node-javascript/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>WSL2 doesn't work on ARM 64 Windows 10 because you can't enable the hypervisor in the BIOS</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;See &lt;a href=&quot;https://github.com/MicrosoftDocs/WSL/issues/488&quot;&gt;wsl 2 on arm linux on build18980.1 WSL github issue #488&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 15 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/09/15/p3-wsl2-does-not-work-on-arm64-because-you-cannot-enable-the-hypervisor-in-the-bios/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/15/p3-wsl2-does-not-work-on-arm64-because-you-cannot-enable-the-hypervisor-in-the-bios/</guid>
         
         
       </item>
