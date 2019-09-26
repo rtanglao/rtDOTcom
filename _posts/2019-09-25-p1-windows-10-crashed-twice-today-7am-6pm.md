@@ -1,12 +1,24 @@
 ---
 
 layout: post
-title: "Windows 10 ARM64 AARCH64 Lenovo C630 Insider Build Fast Ring crashed twice today: 7am and 6pm both times with VIDEO_SCHEDULER_INTERNAL_ERROR"
+title: "Windows 10 ARM64 AARCH64 Lenovo C630 Insider Build Fast Ring crashed twice today: 7am and 6pm both times with VIDEO_SCHEDULER_INTERNAL_ERROR Version 10.0.18990.1"
 ---
 
 # Pontifications
 
 * #ToLiveAndDieInTheFastRing :-)
+
+```
+Microsoft Windows [Version 10.0.18990.1]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\rtang>ver
+
+Microsoft Windows [Version 10.0.18990.1]
+
+C:\Users\rtang>
+```
+
 * 7:09 a.m.
 
 <a data-flickr-embed="true" data-header="true" data-footer="true"  href="https://www.flickr.com/photos/roland/48792994753/in/datetaken/" title="20190925_070955"><img src="https://live.staticflickr.com/65535/48792994753_7824f22f22.jpg" width="500" height="500" alt="20190925_070955"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
