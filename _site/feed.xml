@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 26 Sep 2019 07:05:06 -0700</pubDate>
-    <lastBuildDate>Thu, 26 Sep 2019 07:05:06 -0700</lastBuildDate>
+    <pubDate>Fri, 27 Sep 2019 18:54:21 -0700</pubDate>
+    <lastBuildDate>Fri, 27 Sep 2019 18:54:21 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>How to connect a Raspberry Pi Zero to a Mac for both power and WiFi &lt;--- how to do this on Windows?</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;See justinmiller.io’s &lt;a href=&quot;https://justinmiller.io/posts/2019/09/21/pi-gadget/&quot;&gt;An always-available, online-capable Raspberry Pi in your pocket&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;How do I do this on Windows or Linux? Should be easier on Linux, right? I don’t have a Linux laptop thought, just Windows!&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Fri, 27 Sep 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/09/27/p1-how-to-connect-raspbery-pi-zero-to-mac-so-that-it-can-get-power-wifi-from-the-mac/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/27/p1-how-to-connect-raspbery-pi-zero-to-mac-so-that-it-can-get-power-wifi-from-the-mac/</guid>
+        
+        
+      </item>
     
       <item>
         <title>For Kristina: Scott Hanselman: Good, Better, Best - creating the ultimate remote worker webcam setup on a budget</title>
@@ -181,22 +198,6 @@ economic tweaks. We walked because Apple is a lousy lover.&quot;
         <pubDate>Wed, 18 Sep 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/09/18/p1-must-read-about-vancouver=trees-global-climate-crisis/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/09/18/p1-must-read-about-vancouver=trees-global-climate-crisis/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Of course there are sample 11ty projects on glitch</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Check out &lt;a href=&quot;https://glitch.com/edit/#!/eleventy-glitch?path=README.md:1:0&quot;&gt;https://glitch.com/edit/#!/eleventy-glitch?path=README.md:1:0&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Maybe this will be my entry way into glitch finally :-)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 17 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/09/17/p1-of-course-there-are-sample-eleventy-projects-on-glitch/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/17/p1-of-course-there-are-sample-eleventy-projects-on-glitch/</guid>
         
         
       </item>
