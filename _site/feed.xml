@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 27 Sep 2019 18:57:40 -0700</pubDate>
-    <lastBuildDate>Fri, 27 Sep 2019 18:57:40 -0700</lastBuildDate>
+    <pubDate>Sun, 29 Sep 2019 20:07:40 -0700</pubDate>
+    <lastBuildDate>Sun, 29 Sep 2019 20:07:40 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Thomas Lin Pedersen ggforce - utilities for custom ggplot2 plots</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ggforce.data-imaginist.com/&quot;&gt;ggforce&lt;/a&gt; (&lt;a href=&quot;https://www.data-imaginist.com/2019/the-ggforce-awakens-again/&quot;&gt;ggforce announcement blog post&lt;/a&gt;) looks amazing as does its author’s blog, &lt;a href=&quot;https://www.data-imaginist.com/&quot;&gt;Data Imaginist  - Visualization and beyond…&lt;/a&gt; &amp;lt;– added it to my RSS reader&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 29 Sep 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/09/29/p1-ggforce-utilities-for-custom-plots-for-ggplot/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/29/p1-ggforce-utilities-for-custom-plots-for-ggplot/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How to connect a Raspberry Pi Zero to a Mac for both power and WiFi &lt;--- how to do this on Windows?</title>
@@ -182,22 +198,6 @@ economic tweaks. We walked because Apple is a lousy lover.&quot;
         <pubDate>Thu, 19 Sep 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/09/19/p1-victoria-drake-how-users-and-applications-stay-safe-on-the-internet-its-proxy-servers-all-the-way-down/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/09/19/p1-victoria-drake-how-users-and-applications-stay-safe-on-the-internet-its-proxy-servers-all-the-way-down/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>MUST READ: Dave Demers: Vancouver's urban forest—a canary in the gold mine</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;MUST READ (depressing but reality bites :-) : &lt;a href=&quot;https://www.straight.com/news/1302376/dave-demers-vancouvers-urban-forest-canary-gold-mine&quot;&gt;Dave Demers: Vancouver’s urban forest—a canary in the gold mine&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Wed, 18 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/09/18/p1-must-read-about-vancouver=trees-global-climate-crisis/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/18/p1-must-read-about-vancouver=trees-global-climate-crisis/</guid>
         
         
       </item>
