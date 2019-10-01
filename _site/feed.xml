@@ -6,9 +6,31 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 30 Sep 2019 07:33:49 -0700</pubDate>
-    <lastBuildDate>Mon, 30 Sep 2019 07:33:49 -0700</lastBuildDate>
+    <pubDate>Tue, 01 Oct 2019 06:38:45 -0700</pubDate>
+    <lastBuildDate>Tue, 01 Oct 2019 06:38:45 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Why JavaScript Tooling Sucks &lt;--- really isn't that truth that all our software tooling sucks in general not just JS?</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“&lt;em&gt;JavaScript Tooling Sucks because it wasn’t made for one target runtime&lt;/em&gt;:”&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;“JavaScript Tooling Sucks because it is bottom-up, not top-down&lt;/em&gt;”&lt;/li&gt;
+  &lt;li&gt;“&lt;em&gt;JavaScript Tooling Sucks because it is stacks on stacks of brittle abstraction&lt;/em&gt;”&lt;/li&gt;
+  &lt;li&gt;“&lt;em&gt;JavaScript Tooling Sucks because we don’t make them and we don’t treat people who make them like people&lt;/em&gt;”&lt;/li&gt;
+  &lt;li&gt;“&lt;em&gt;JavaScript Tooling Sucks because we are still learning how to make great free open source&lt;/em&gt;”&lt;/li&gt;
+  &lt;li&gt;“&lt;em&gt;JavaScript Tooling doesn’t all suck and is much better than we used to have!&lt;/em&gt;”&lt;/li&gt;
+  &lt;li&gt;Read the whole thing :-)  shawn swyx wang:&lt;a href=&quot;https://www.swyx.io/writing/js-tooling/&quot;&gt;Why JavaScript Tooling Sucks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 01 Oct 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/10/01/p1-javascript-tooling-sucks/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/10/01/p1-javascript-tooling-sucks/</guid>
+        
+        
+      </item>
     
       <item>
         <title>thomasp85: Palettes for R based on the Scientific Colour-Maps</title>
@@ -184,21 +206,6 @@ economic tweaks. We walked because Apple is a lousy lover.&quot;
         <pubDate>Sun, 22 Sep 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/09/22/p1-requirements-what-you-did-what-you-expected-what-happened/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/09/22/p1-requirements-what-you-did-what-you-expected-what-happened/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Another great explainer from Victoria Drake: Knapsack problem algorithms for my real-life carry-on knapsack</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://victoria.dev/verbose/knapsack-problem-algorithms-for-my-real-life-carry-on-knapsack/&quot;&gt;Knapsack problem algorithms for my real-life carry-on knapsack&lt;/a&gt; &amp;lt;— read it and learn :-) Thanks Victoria Drake!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 21 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/09/21/p1-victoria-drake-knapsack-problem-explainer/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/21/p1-victoria-drake-knapsack-problem-explainer/</guid>
         
         
       </item>
