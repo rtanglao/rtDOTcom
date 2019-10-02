@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 01 Oct 2019 06:38:45 -0700</pubDate>
-    <lastBuildDate>Tue, 01 Oct 2019 06:38:45 -0700</lastBuildDate>
+    <pubDate>Wed, 02 Oct 2019 06:58:52 -0700</pubDate>
+    <lastBuildDate>Wed, 02 Oct 2019 06:58:52 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Glitch is everywhere: tone.js demos</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Glitch is amazingly everywhere and these &lt;a href=&quot;https://tone-demos.glitch.me/&quot;&gt;tone.js demos from @mattdesl&lt;/a&gt; look great!&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 02 Oct 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/10/02/p1-tone-js-demos-on-glitch/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/10/02/p1-tone-js-demos-on-glitch/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Why JavaScript Tooling Sucks &lt;--- really isn't that truth that all our software tooling sucks in general not just JS?</title>
@@ -189,23 +205,6 @@ economic tweaks. We walked because Apple is a lousy lover.&quot;
         <pubDate>Mon, 23 Sep 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/09/23/p1-it-is-hard-to-be-a-platform-vendor-ask-apple-twitter-relive-strava-garmin/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/09/23/p1-it-is-hard-to-be-a-platform-vendor-ask-apple-twitter-relive-strava-garmin/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to ask a question: what you did, what you expected, what happened, your requirements</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Always surprises me how many people ask vague questions on support forums, or on twitter, reddit, etc. Nobody can read your mind :-) !!!!&lt;/li&gt;
-  &lt;li&gt;What you did, what you expected, what happened, your requirements &amp;lt;—- if you can concisely state these things, then you are much more likely to get some response! and if not at least you have a more clarity around the issue which is always useful! &amp;lt;– See &lt;a href=&quot;http://scripting.com/stories/2010/06/30/writingGoodBugReports.html&quot;&gt;writing good bug reports&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;I know this requires effort  but it’s 100% worth it! And yes not everything is a bug report or software requirements  but this is a great framework for questions on the internet in general and for software improvements&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 22 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/09/22/p1-requirements-what-you-did-what-you-expected-what-happened/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/22/p1-requirements-what-you-did-what-you-expected-what-happened/</guid>
         
         
       </item>
