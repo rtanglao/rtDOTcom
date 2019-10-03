@@ -6,8 +6,8 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 03 Oct 2019 06:55:54 -0700</pubDate>
-    <lastBuildDate>Thu, 03 Oct 2019 06:55:54 -0700</lastBuildDate>
+    <pubDate>Thu, 03 Oct 2019 07:09:10 -0700</pubDate>
+    <lastBuildDate>Thu, 03 Oct 2019 07:09:10 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -16,11 +16,7 @@
 
 &lt;ul&gt;
   &lt;li&gt;Lessons learned from &lt;a href=&quot;https://github.com/rtanglao/rt-kits-api2/blob/master/print-desktop-en-us-osx-increasing-ids-time-url-title-content.rb&quot;&gt;print-desktop-en-us-osx-increasing-ids-time-url-title-content.rb&lt;/a&gt;:&lt;/li&gt;
-  &lt;li&gt;
-    &lt;ol&gt;
-      &lt;li&gt;use &lt;code class=&quot;highlighter-rouge&quot;&gt;sort_by()&lt;/code&gt; to sort e.g.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
+  &lt;li&gt;1. use &lt;code class=&quot;highlighter-rouge&quot;&gt;sort_by()&lt;/code&gt; to sort  (&lt;a href=&quot;https://bugs.ruby-lang.org/issues/12648&quot;&gt;descending sort&lt;/a&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;enum.sort_by(:descend) {|e| e}&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;array.sort_by { |e| -e }&lt;/code&gt; ) e.g. for ascending sort:&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# ascending sort an array of arrays by the id which is the first element of each array&lt;/span&gt;
@@ -28,11 +24,7 @@
 &lt;span class=&quot;n&quot;&gt;id_time_url_title_content_tags_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;sort_by&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;ol&gt;
-      &lt;li&gt;multi-line regular expressions use &lt;code class=&quot;highlighter-rouge&quot;&gt;/&lt;/code&gt; and ````/x``` e.g.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
+  &lt;li&gt;2.  multi-line regular expressions use &lt;code class=&quot;highlighter-rouge&quot;&gt;/&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;/x&lt;/code&gt; e.g.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;osx_regexp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; 

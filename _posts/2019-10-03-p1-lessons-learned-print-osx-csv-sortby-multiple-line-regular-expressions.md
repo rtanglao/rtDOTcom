@@ -7,14 +7,14 @@ title: "Create CSV file from API Ruby Lessons learned: multiple line regular exp
 # Pontifications
 
 * Lessons learned from [print-desktop-en-us-osx-increasing-ids-time-url-title-content.rb](https://github.com/rtanglao/rt-kits-api2/blob/master/print-desktop-en-us-osx-increasing-ids-time-url-title-content.rb):
-* 1. use ```sort_by()``` to sort e.g.
+* 1\. use ```sort_by()``` to sort  ([descending sort](https://bugs.ruby-lang.org/issues/12648) ```enum.sort_by(:descend) {|e| e}``` or ```array.sort_by { |e| -e }``` ) e.g. for ascending sort:
 
 ```ruby
 # ascending sort an array of arrays by the id which is the first element of each array
 sorted_array =  
 id_time_url_title_content_tags_array.sort_by { |h| h[0] } 
 ```
-* 2.  multi-line regular expressions use ```/``` and ````/x``` e.g.
+* 2\.  multi-line regular expressions use ```/``` and ```/x``` e.g.
 
 ```ruby
 osx_regexp= 
