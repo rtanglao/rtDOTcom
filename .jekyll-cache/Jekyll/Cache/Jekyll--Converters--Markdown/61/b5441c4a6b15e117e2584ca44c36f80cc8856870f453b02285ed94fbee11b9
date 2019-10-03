@@ -1,0 +1,40 @@
+I"·<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>Lessons learned from <a href="https://github.com/rtanglao/rt-kits-api2/blob/master/print-desktop-en-us-osx-increasing-ids-time-url-title-content.rb">print-desktop-en-us-osx-increasing-ids-time-url-title-content.rb</a>:</li>
+  <li>
+    <ol>
+      <li>use <code class="highlighter-rouge">sort_by()</code> to sort e.g.</li>
+    </ol>
+  </li>
+</ul>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># ascending sort an array of arrays by the id which is the first element of each array</span>
+<span class="n">sorted_array</span> <span class="o">=</span>  
+<span class="n">id_time_url_title_content_tags_array</span><span class="p">.</span><span class="nf">sort_by</span> <span class="p">{</span> <span class="o">|</span><span class="n">h</span><span class="o">|</span> <span class="n">h</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="p">}</span> 
+</code></pre></div></div>
+<ul>
+  <li>
+    <ol>
+      <li>multi-line regular expressions use <code class="highlighter-rouge">/</code> and ````/x``` e.g.</li>
+    </ol>
+  </li>
+</ul>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">osx_regexp</span><span class="o">=</span> 
+<span class="sr">/
+  (os\sx|mojave|catalina|macos|elcapitan|osx|mac\sos|
+  	el\scapitan|sierra|yosemite|mavericks|
+    macbook|imac|powermac|macpro|mac\spro|macintosh)
+/x</span>
+</code></pre></div></div>
+
+<h3 id="how-to-use-the-above-script">How to use the above script</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>201907
+../get-questions-for-1-month.rb 2019 7
+../print-desktop-en-us-osx-increasing-ids-time-url-title-content.rb  <span class="se">\</span>
+2019-07-firefox-desktop-all-locales.csv  2&gt;/tmp/foo.txt
+</code></pre></div></div>
+
+:ET
