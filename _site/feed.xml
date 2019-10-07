@@ -6,9 +6,31 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 05 Oct 2019 08:32:12 -0700</pubDate>
-    <lastBuildDate>Sat, 05 Oct 2019 08:32:12 -0700</lastBuildDate>
+    <pubDate>Sun, 06 Oct 2019 20:56:00 -0700</pubDate>
+    <lastBuildDate>Sun, 06 Oct 2019 20:56:00 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Github flavoured markdown and most markdown implementations cannot handle newlines in tables: ruby solution: tr(&quot;\n&quot;, &quot;&quot;)</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Yesterday I learned Github flavour markdown and most markdown implementations cannot handle newlines: ruby solution: trim(“\n”, “’’)&lt;/li&gt;
+  &lt;li&gt;See &lt;a href=&quot;https://github.github.com/gfm/#tables-extension-&quot;&gt;https://github.github.com/gfm/#tables-extension-&lt;/a&gt; : “Block-level elements cannot
+be inserted in a table.”&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-kits-api2/blob/master/print-desktop-en-us-osx-increasing-ids-time-url-title-content.rb&quot;&gt;Solution&lt;/a&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;tr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Sun, 06 Oct 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/10/06/p1-github-flavoured-markdown-cannot-handle-newlines/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/10/06/p1-github-flavoured-markdown-cannot-handle-newlines/</guid>
+        
+        
+      </item>
     
       <item>
         <title>windows 10 aarch64 lenovo c630 crash 20191005_020848 last crash September 29</title>
@@ -269,22 +291,6 @@ Microsoft Windows [Version 10.0.18995.1]
         <pubDate>Fri, 27 Sep 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/09/27/p1-how-to-connect-raspbery-pi-zero-to-mac-so-that-it-can-get-power-wifi-from-the-mac/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/09/27/p1-how-to-connect-raspbery-pi-zero-to-mac-so-that-it-can-get-power-wifi-from-the-mac/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>For Kristina: Scott Hanselman: Good, Better, Best - creating the ultimate remote worker webcam setup on a budget</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;For Kristina: :-) Scott Hanselman: &lt;a href=&quot;https://www.hanselman.com/blog/GoodBetterBestCreatingTheUltimateRemoteWorkerWebcamSetupOnABudget.aspx&quot;&gt;Good, Better, Best - creating the ultimate remote worker webcam setup on a budget&lt;/a&gt;” &amp;lt;— $20 webcam and inexpensive ringlights and headset recommendations!&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Thu, 26 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/09/26/p1-scott-hanselman-webcam-headset-recommendations/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/26/p1-scott-hanselman-webcam-headset-recommendations/</guid>
         
         
       </item>
