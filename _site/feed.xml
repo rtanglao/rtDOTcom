@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 07 Oct 2019 07:04:21 -0700</pubDate>
-    <lastBuildDate>Mon, 07 Oct 2019 07:04:21 -0700</lastBuildDate>
+    <pubDate>Tue, 08 Oct 2019 06:17:01 -0700</pubDate>
+    <lastBuildDate>Tue, 08 Oct 2019 06:17:01 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>sweetmeat: How to Automatically Reindent Code With Sublime Text (and add a keyboard shortcut)</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;tl;dr: “&lt;code class=&quot;highlighter-rouge&quot;&gt;Edit &amp;gt; Line &amp;gt; Reindent&lt;/code&gt;. Select the text that you would like to reindent before using the menu item….. For Mac OSX, Linux, and Windows users, the keybindings settings file can be found in the menus &lt;code class=&quot;highlighter-rouge&quot;&gt;Preferences &amp;gt; Keybindings - User&lt;/code&gt;.  “ &amp;lt;— &lt;a href=&quot;http://sweetme.at/2013/10/04/how-to-automatically-reindent-code-with-sublime-text/&quot;&gt;read the whole thing: How to Automatically Reindent Code With Sublime Text&lt;/a&gt;  (and add a keyboard shortcut)&lt;/li&gt;
+  &lt;li&gt;Not sure why a keyboard shortcut isn’t built in ?&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 08 Oct 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/10/08/p1-how-to-autoreindent-code-sublime-keyboard-shortcut/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/10/08/p1-how-to-autoreindent-code-sublime-keyboard-shortcut/</guid>
+        
+        
+      </item>
     
       <item>
         <title>The Microsoft Surface X is like a Dynabook: tablet, stylus, great battery life, always connected via LTE, just missing Smalltalk</title>
@@ -275,22 +292,6 @@ Microsoft Windows [Version 10.0.18995.1]
         <pubDate>Sun, 29 Sep 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/09/29/p2-windows-10-crashed-today-8pm/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/09/29/p2-windows-10-crashed-today-8pm/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Thomas Lin Pedersen ggforce - utilities for custom ggplot2 plots</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://ggforce.data-imaginist.com/&quot;&gt;ggforce&lt;/a&gt; (&lt;a href=&quot;https://www.data-imaginist.com/2019/the-ggforce-awakens-again/&quot;&gt;ggforce announcement blog post&lt;/a&gt;) looks amazing as does its author’s blog, &lt;a href=&quot;https://www.data-imaginist.com/&quot;&gt;Data Imaginist  - Visualization and beyond…&lt;/a&gt; &amp;lt;– added it to my RSS reader&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sun, 29 Sep 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/09/29/p1-ggforce-utilities-for-custom-plots-for-ggplot/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/09/29/p1-ggforce-utilities-for-custom-plots-for-ggplot/</guid>
         
         
       </item>
