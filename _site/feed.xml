@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 10 Oct 2019 20:01:14 -0700</pubDate>
-    <lastBuildDate>Thu, 10 Oct 2019 20:01:14 -0700</lastBuildDate>
+    <pubDate>Fri, 11 Oct 2019 17:26:29 -0700</pubDate>
+    <lastBuildDate>Fri, 11 Oct 2019 17:26:29 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>I'll get a Surface Book X in late 2020 or early 2021 for work if it runs Zoom and WSL2 well and the reviews are good (assume printer drivers will work by then)</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Can’t wait for the Surface Book reviews in October!&lt;/li&gt;
+  &lt;li&gt;I’ll get a Surface Book X in late 2020 or early 2021 for work if it runs Zoom and WSL2 well and the reviews are good (assume printer drivers will work by then). I assume unfortunately that the &lt;a href=&quot;http://rolandtanglao.com/2019/10/10/p1-lenovo-arm64-aarch64-c630-yoga-latop-review-great-except-wsl2-zoom-usb-iawriter/&quot;&gt;Windows 10 AARCH64 Lenovo C630 Yoga&lt;/a&gt; will be orphaned! Hope I am wrong because it’s great; just needs software to be fixed!&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Fri, 11 Oct 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/10/11/p1-surface-x-in-late-2020-2021-if-zoom-works-wsl2-works-good-reviews/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/10/11/p1-surface-x-in-late-2020-2021-if-zoom-works-wsl2-works-good-reviews/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Anecdotal review of Lenovo C630 Yoga ARM64 / AARCH 64 Windows 10 laptop: great except for WSL2 not working, USB not working with Zoom</title>
@@ -279,28 +296,6 @@ Microsoft Windows [Version 10.0.18995.1]
         <pubDate>Wed, 02 Oct 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/10/02/p1-tone-js-demos-on-glitch/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/10/02/p1-tone-js-demos-on-glitch/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Why JavaScript Tooling Sucks &lt;--- really isn't that truth that all our software tooling sucks in general not just JS?</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;“&lt;em&gt;JavaScript Tooling Sucks because it wasn’t made for one target runtime&lt;/em&gt;:”&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;“JavaScript Tooling Sucks because it is bottom-up, not top-down&lt;/em&gt;”&lt;/li&gt;
-  &lt;li&gt;“&lt;em&gt;JavaScript Tooling Sucks because it is stacks on stacks of brittle abstraction&lt;/em&gt;”&lt;/li&gt;
-  &lt;li&gt;“&lt;em&gt;JavaScript Tooling Sucks because we don’t make them and we don’t treat people who make them like people&lt;/em&gt;”&lt;/li&gt;
-  &lt;li&gt;“&lt;em&gt;JavaScript Tooling Sucks because we are still learning how to make great free open source&lt;/em&gt;”&lt;/li&gt;
-  &lt;li&gt;“&lt;em&gt;JavaScript Tooling doesn’t all suck and is much better than we used to have!&lt;/em&gt;”&lt;/li&gt;
-  &lt;li&gt;Read the whole thing :-)  shawn swyx wang:&lt;a href=&quot;https://www.swyx.io/writing/js-tooling/&quot;&gt;Why JavaScript Tooling Sucks&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Tue, 01 Oct 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/10/01/p1-javascript-tooling-sucks/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/10/01/p1-javascript-tooling-sucks/</guid>
         
         
       </item>
