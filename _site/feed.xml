@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 11 Oct 2019 17:26:29 -0700</pubDate>
-    <lastBuildDate>Fri, 11 Oct 2019 17:26:29 -0700</lastBuildDate>
+    <pubDate>Sat, 12 Oct 2019 07:39:30 -0700</pubDate>
+    <lastBuildDate>Sat, 12 Oct 2019 07:39:30 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Brooklyn Zelenka: Haskell for Typescript Developers</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://haskellfortypescriptdevs.fission.codes/&quot;&gt;Brooklyn Zelenka: Haskell for Typescript Developers&lt;/a&gt; &amp;lt;— looks brilliant as per always for Brooklyn!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2018/10/09/p1-maybe-2019-is-the-year-i-learn-functional-programming/&quot;&gt;I keep trying to learn Haskell&lt;/a&gt; perhaps this will nudge me a wee bit forward :-)&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sat, 12 Oct 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/10/12/p1-brooklyn-zelenka-haskell-for-typescript-developers/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/10/12/p1-brooklyn-zelenka-haskell-for-typescript-developers/</guid>
+        
+        
+      </item>
     
       <item>
         <title>I'll get a Surface Book X in late 2020 or early 2021 for work if it runs Zoom and WSL2 well and the reviews are good (assume printer drivers will work by then)</title>
@@ -280,22 +297,6 @@ Microsoft Windows [Version 10.0.18995.1]
         <pubDate>Thu, 03 Oct 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/10/03/p1-lessons-learned-print-osx-csv-sortby-multiple-line-regular-expressions/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/10/03/p1-lessons-learned-print-osx-csv-sortby-multiple-line-regular-expressions/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Glitch is everywhere: tone.js demos</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Glitch is amazingly everywhere and these &lt;a href=&quot;https://tone-demos.glitch.me/&quot;&gt;tone.js demos from @mattdesl&lt;/a&gt; look great!&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Wed, 02 Oct 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/10/02/p1-tone-js-demos-on-glitch/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/10/02/p1-tone-js-demos-on-glitch/</guid>
         
         
       </item>
