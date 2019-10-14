@@ -6,8 +6,8 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 14 Oct 2019 08:22:10 -0700</pubDate>
-    <lastBuildDate>Mon, 14 Oct 2019 08:22:10 -0700</lastBuildDate>
+    <pubDate>Mon, 14 Oct 2019 08:29:47 -0700</pubDate>
+    <lastBuildDate>Mon, 14 Oct 2019 08:29:47 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -15,13 +15,13 @@
         <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Add R Studio  to the list of must have apps before &lt;a href=&quot;http://rolandtanglao.com/2019/10/11/p1-surface-x-in-late-2020-2021-if-zoom-works-wsl2-works-good-reviews/&quot;&gt;I get my Surface X in 2020 or 2021 in work&lt;/a&gt;. I’m confident this will happen, how hard can it be :-) ?  &lt;a href=&quot;https://rstudio.com/products/rstudio/download/&quot;&gt;R Studio is available for lots of platforms&lt;/a&gt; so it seems reasonable this will happen sometime  next year. Related links
+  &lt;li&gt;Add R Studio  to the list of must have apps before &lt;a href=&quot;http://rolandtanglao.com/2019/10/11/p1-surface-x-in-late-2020-2021-if-zoom-works-wsl2-works-good-reviews/&quot;&gt;I get my Surface X in 2020 or 2021 for work&lt;/a&gt;. I’m confident this will happen, how hard can it be :-) ?  &lt;a href=&quot;https://rstudio.com/products/rstudio/download/&quot;&gt;R Studio is available for lots of platforms&lt;/a&gt; so it seems reasonable this will happen sometime  next year. Related links
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;https://github.com/rstudio/rstudio/issues/4367&quot;&gt;Support RStudio Server on WSL #4367&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;In the meantime I am running &lt;a href=&quot;https://support.rstudio.com/hc/en-us/articles/206569407-Older-Versions-of-RStudio&quot;&gt;the last  32 bit version of R Studio&lt;/a&gt;  in the x86 emulator.&lt;/li&gt;
-  &lt;li&gt;And if I have some spare time, I’ll compile it myself :-). I mean other people got it working in ARM64 Ubuntu. R Studio Servers seems easier because then you can run R Studio in a normal Windows web browser like Firefox see:
+  &lt;li&gt;And if I have some spare time, I’ll compile it myself :-). I mean other people got it working in ARM64 Ubuntu. R Studio Server seems easier and better because then you can run R Studio in a normal Windows web browser like Firefox and then you don’t need X! See:
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;https://github.com/jrowen&quot;&gt;jrowen&lt;/a&gt;/&lt;strong&gt;&lt;a href=&quot;https://github.com/jrowen/ARM-rstudio-server&quot;&gt;ARM-rstudio-server&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;https://github.com/jrowen&quot;&gt;jrowen&lt;/a&gt;/&lt;strong&gt;&lt;a href=&quot;https://github.com/jrowen/ARM-RStudio&quot;&gt;ARM-RStudio&lt;/a&gt;&lt;/strong&gt;  forked from &lt;a href=&quot;https://github.com/dashaub/ARM-RStudio&quot;&gt;dashaub/ARM-RStudio&lt;/a&gt;&lt;/li&gt;
