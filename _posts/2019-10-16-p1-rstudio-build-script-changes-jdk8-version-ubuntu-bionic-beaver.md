@@ -9,6 +9,7 @@ title: "RStudio build script changes: changed from JDK7 to JDK 8, bionic from de
 * Regarding yesterday's [Successfully compiled ARM64 Windows 10 R Studio Server v1.2.5001 on Lenovo C630](http://rolandtanglao.com/2019/10/15/p1-compiled-rstudio-server-v1-2-5001-Lenovo-C630-ARM64-Windows-10/), here are the changes to the build script, [build_rstudio.sh](https://github.com/rtanglao/ARM-rstudio-server/blob/master/build_rstudio.sh):
 * 1. [changed version number](https://github.com/rtanglao/ARM-rstudio-server/blob/master/build_rstudio.sh#L9) to  `1.2.4001` i.e. `VERS=v1.2.5001`. This will have to change when others build RStudio because new versions come out all the time
   2. [changed to jdk 8](https://github.com/rtanglao/ARM-rstudio-server/blob/master/build_rstudio.sh#L19): i.e. `sudo apt-get install -y openjdk-8-jdk`
+     * because only java 8 is supported [https://github.com/rstudio/rstudio/issues/3157](https://github.com/rstudio/rstudio/issues/3157) ; see also: [https://github.com/rstudio/rstudio/wiki/Installing-RStudio-Dependencies](https://github.com/rstudio/rstudio/wiki/Installing-RStudio-Dependencies)
   3. [changed to use the ubuntu bionic install dependencies script](https://github.com/rtanglao/ARM-rstudio-server/blob/master/build_rstudio.sh#L21) i.e `./install-dependencies-bionic --exclude-qt-sdk`
 
 ## Code
