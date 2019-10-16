@@ -6,9 +6,57 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 14 Oct 2019 08:29:47 -0700</pubDate>
-    <lastBuildDate>Mon, 14 Oct 2019 08:29:47 -0700</lastBuildDate>
+    <pubDate>Tue, 15 Oct 2019 18:25:27 -0700</pubDate>
+    <lastBuildDate>Tue, 15 Oct 2019 18:25:27 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Successfully compiled ARM64 Windows 10 R Studio Server v1.2.5001 on Lenovo C630</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;From the &lt;a href=&quot;https://github.com/rtanglao/ARM-rstudio-server/blob/master/README.md&quot;&gt;README with the ARM64 Windows 10 build script&lt;/a&gt; on github:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;arm-rstudio-server&quot;&gt;ARM-rstudio-server&lt;/h1&gt;
+&lt;p&gt;Build script for rstudio-server on:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;ARM64 Windows 10&lt;/li&gt;
+  &lt;li&gt;Lenovo C630 Yoga&lt;/li&gt;
+  &lt;li&gt;Windows 10 Insider Build Fast Ring &lt;code class=&quot;highlighter-rouge&quot;&gt;Microsoft Windows [Version 10.0.18999.1]&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;WSL 1 (WSL 2 doesn’t work on Windows 10 ARM64 ! Except for I guess :-) The Samsung Book 2 and the future Surface X&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is built on the excellent work of &lt;a href=&quot;https://github.com/jrowen/ARM-rstudio-server&quot;&gt;jrowen/ARM-rstudio-server&lt;/a&gt; which was built on the excellent work of &lt;a href=&quot;https://github.com/dashaub/ARM-RStudio&quot;&gt;dashaub/ARM-RStudio&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;build&quot;&gt;Build&lt;/h2&gt;
+&lt;p&gt;This script has been used to successfully build RStudio Server 1.2.5001&lt;/p&gt;
+
+&lt;p&gt;The commands below can be used to build the server:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bash &lt;span class=&quot;nt&quot;&gt;-x&lt;/span&gt; build_rstudio.sh
+/usr/sbin/rstudio-server start
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;The build took about 2 hours to complete.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;VERS&lt;/code&gt; variable in the script can be updated to build different versions of the server.  The latest version number and be found on the rstudio server &lt;a href=&quot;https://www.rstudio.com/products/rstudio/download-server/&quot;&gt;download page&lt;/a&gt;, and note that this will likely differ from the latest desktop version.&lt;/p&gt;
+
+&lt;h2 id=&quot;launching-rstudio-server&quot;&gt;Launching RStudio Server&lt;/h2&gt;
+&lt;p&gt;After the server has been built and installed, the easiest way to start the server from a WSL  using the commands below:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo&lt;/span&gt;  /usr/sbin/rstudio-server start
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Finally, from a new Firefox (or Chrome :-)) tab navigate to &lt;code class=&quot;highlighter-rouge&quot;&gt;localhost:8787&lt;/code&gt; and log in using your WSL credentials.&lt;/p&gt;
+
+&lt;h2 id=&quot;contributions&quot;&gt;Contributions&lt;/h2&gt;
+&lt;p&gt;Please don’t hesitate to file an issue if you run into problems, and pull requests are welcome.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 15 Oct 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/10/15/p1-compiled-rstudio-server-v1-2-5001-Lenovo-C630-ARM64-Windows-10/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/10/15/p1-compiled-rstudio-server-v1-2-5001-Lenovo-C630-ARM64-Windows-10/</guid>
+        
+        
+      </item>
     
       <item>
         <title>No ARM64 version of RStudio for Windows 10</title>
@@ -188,33 +236,6 @@ be inserted in a table.”&lt;/li&gt;
         <pubDate>Sun, 06 Oct 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/10/06/p1-github-flavoured-markdown-cannot-handle-newlines/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/10/06/p1-github-flavoured-markdown-cannot-handle-newlines/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>windows 10 aarch64 lenovo c630 crash 20191005_020848 last crash September 29</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;windows 10 aarch64 lenovo c630 crash 20191005_020848 &lt;a href=&quot;http://rolandtanglao.com/2019/09/29/p2-windows-10-crashed-today-8pm/&quot;&gt;last crash September 29&lt;/a&gt; roughly 6 days ago&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; data-header=&quot;true&quot; data-footer=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/48846079041/in/dateposted-public/&quot; title=&quot;windows 10 aarch64 lenovo c630 crash 20191005_020848&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/48846079041_6e5c9991aa.jpg&quot; width=&quot;500&quot; height=&quot;500&quot; alt=&quot;windows 10 aarch64 lenovo c630 crash 20191005_020848&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Windows 10 Insider Build Fast Ring Version currently is:  10.0.18995.1&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;C:\Users\rtang&amp;gt;ver
-
-Microsoft Windows [Version 10.0.18995.1]
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-</description>
-        <pubDate>Sat, 05 Oct 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/10/05/p1-windows10-aarch64-lenovo-c630-crash-last-crash-29september/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/10/05/p1-windows10-aarch64-lenovo-c630-crash-last-crash-29september/</guid>
         
         
       </item>
