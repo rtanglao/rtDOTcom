@@ -1,0 +1,13 @@
+I"�<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>Regarding yesterday’s <a href="http://rolandtanglao.com/2019/10/15/p1-compiled-rstudio-server-v1-2-5001-Lenovo-C630-ARM64-Windows-10/">Successfully compiled ARM64 Windows 10 R Studio Server v1.2.5001 on Lenovo C630</a>, here are the changes to the build script, <a href="https://github.com/rtanglao/ARM-rstudio-server/blob/master/build_rstudio.sh">build_rstudio.sh</a>:</li>
+  <li>
+    <ol>
+      <li><a href="https://github.com/rtanglao/ARM-rstudio-server/blob/master/build_rstudio.sh#L9">changed version number</a> to  <code class="highlighter-rouge">1.2.4001</code> i.e. <code class="highlighter-rouge">VERS=v1.2.5001</code>. This will have to change when others build RStudio because new versions come out all the tim</li>
+      <li><a href="https://github.com/rtanglao/ARM-rstudio-server/blob/master/build_rstudio.sh#L19">changed to jdk 8</a>: i.e. ` sudo apt-get install -y openjdk-8-jdk `</li>
+      <li><a href="https://github.com/rtanglao/ARM-rstudio-server/blob/master/build_rstudio.sh#L21">changed to use the ubuntu bionic install dependencies script</a> i.e ` ./install-dependencies-bionic –exclude-qt-sdk `</li>
+    </ol>
+  </li>
+</ul>
+:ET
