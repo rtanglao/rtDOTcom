@@ -1,4 +1,4 @@
-I"&	<h1 id="pontifications">Pontifications</h1>
+I"D	<h1 id="pontifications">Pontifications</h1>
 
 <ul>
   <li>From the <a href="https://github.com/rtanglao/ARM-rstudio-server/blob/master/README.md">README with the ARM64 Windows 10 build script</a> on github:</li>
@@ -11,6 +11,7 @@
   <li>Lenovo C630 Yoga</li>
   <li>Windows 10 Insider Build Fast Ring <code class="highlighter-rouge">Microsoft Windows [Version 10.0.18999.1]</code></li>
   <li>WSL 1 (WSL 2 doesn’t work on Windows 10 ARM64 ! Except for I guess :-) The Samsung Book 2 and the future Surface X</li>
+  <li>Ubuntu 18.04.2 LTS</li>
 </ul>
 
 <p>This is built on the excellent work of <a href="https://github.com/jrowen/ARM-rstudio-server">jrowen/ARM-rstudio-server</a> which was built on the excellent work of <a href="https://github.com/dashaub/ARM-RStudio">dashaub/ARM-RStudio</a>.</p>

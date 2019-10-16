@@ -6,8 +6,8 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 15 Oct 2019 18:25:27 -0700</pubDate>
-    <lastBuildDate>Tue, 15 Oct 2019 18:25:27 -0700</lastBuildDate>
+    <pubDate>Tue, 15 Oct 2019 18:32:34 -0700</pubDate>
+    <lastBuildDate>Tue, 15 Oct 2019 18:32:34 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -25,6 +25,7 @@
   &lt;li&gt;Lenovo C630 Yoga&lt;/li&gt;
   &lt;li&gt;Windows 10 Insider Build Fast Ring &lt;code class=&quot;highlighter-rouge&quot;&gt;Microsoft Windows [Version 10.0.18999.1]&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;WSL 1 (WSL 2 doesn’t work on Windows 10 ARM64 ! Except for I guess :-) The Samsung Book 2 and the future Surface X&lt;/li&gt;
+  &lt;li&gt;Ubuntu 18.04.2 LTS&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;This is built on the excellent work of &lt;a href=&quot;https://github.com/jrowen/ARM-rstudio-server&quot;&gt;jrowen/ARM-rstudio-server&lt;/a&gt; which was built on the excellent work of &lt;a href=&quot;https://github.com/dashaub/ARM-RStudio&quot;&gt;dashaub/ARM-RStudio&lt;/a&gt;.&lt;/p&gt;
