@@ -6,9 +6,52 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 16 Oct 2019 07:21:03 -0700</pubDate>
-    <lastBuildDate>Wed, 16 Oct 2019 07:21:03 -0700</lastBuildDate>
+    <pubDate>Wed, 16 Oct 2019 21:22:38 -0700</pubDate>
+    <lastBuildDate>Wed, 16 Oct 2019 21:22:38 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>How to make cider work in project.clj: set dependencies to nrepl 0.6.0 and plugins for cider-nrepl to 0.21.1 </title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Here’s how I got cider to work in emacs as of today:
+    &lt;ul&gt;
+      &lt;li&gt;Set dependencies to nrepl 0.6.0:
+        &lt;ul&gt;
+          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;:dependencies [[org.clojure/clojure &quot;1.8.0&quot;] [nrepl &quot;0.6.0&quot;]]&lt;/code&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Set plugins to cider-nrepl 0.21.1:
+        &lt;ul&gt;
+          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;:plugins [[cider/cider-nrepl &quot;0.21.1&quot;]]&lt;/code&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;full-projclj&quot;&gt;Full proj.clj&lt;/h1&gt;
+
+&lt;div class=&quot;language-clojure highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;defproject&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;clojure-noob&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;0.1.0-SNAPSHOT&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;:description&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;FIXME: write description&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;:url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://example.com/FIXME&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;:license&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;:name&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Eclipse Public License&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+            &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;:url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://www.eclipse.org/legal/epl-v10.html&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;:dependencies&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;org.clojure/clojure&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1.8.0&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nrepl&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;0.6.0&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;:main&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;:skip-aot&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;clojure-noob.core&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;:target-path&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;target/%s&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;:plugins&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cider/cider-nrepl&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;0.21.1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;:profiles&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;:uberjar&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;:aot&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;:all&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}})&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Wed, 16 Oct 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/10/16/p2-howto-cider-make-cider-work-cider-nrepl-021-nrepl-060/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/10/16/p2-howto-cider-make-cider-work-cider-nrepl-021-nrepl-060/</guid>
+        
+        
+      </item>
     
       <item>
         <title>RStudio build script changes: changed from JDK7 to JDK 8, bionic from debian</title>
@@ -310,23 +353,6 @@ unzip compiler-latest.zip
         <pubDate>Tue, 08 Oct 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/10/08/p1-how-to-autoreindent-code-sublime-keyboard-shortcut/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/10/08/p1-how-to-autoreindent-code-sublime-keyboard-shortcut/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>The Microsoft Surface X is like a Dynabook: tablet, stylus, great battery life, always connected via LTE, just missing Smalltalk</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;It occurs to me &lt;a href=&quot;https://en.wikipedia.org/wiki/Microsoft_Surface&quot;&gt;Microsoft Surface Pro X&lt;/a&gt; is like a &lt;a href=&quot;https://en.wikipedia.org/wiki/Dynabook&quot;&gt;Dynabook&lt;/a&gt; (&lt;a href=&quot;https://history-computer.com/ModernComputer/Personal/Dynabook.html&quot;&gt;Alan Kay on the history-computer.com&lt;/a&gt; site; &lt;a href=&quot;https://www.quora.com/American-computer-pioneer-Alan-Kay-s-concept-the-Dynabook-was-published-in-1972-How-come-Steve-Jobs-and-Apple-iPad-get-the-credit-for-tablet-invention/answer/Alan-Kay-11&quot;&gt;Alan Kay on the Dynabook in Quora&lt;/a&gt; I’m sure this link will break in a year or two :-) ! ) : tablet,  keyboard, stylus, great battery life, always connected via LTE, just missing a great programmatic environment like Smalltalk but maybe webapps, Glitch, Scratch, R, etc are more than good enough?!? I think they are.&lt;/li&gt;
-  &lt;li&gt;Or h*ck maybe an iPad with stylus and keyboard is good enough? But of course the iPad doesn’t do R or Smalltalk.&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 07 Oct 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/10/07/p1-dynabook-surface-x-tablet-great-battery-life-tablet-stylus-just-missing-smalltalk/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/10/07/p1-dynabook-surface-x-tablet-great-battery-life-tablet-stylus-just-missing-smalltalk/</guid>
         
         
       </item>
