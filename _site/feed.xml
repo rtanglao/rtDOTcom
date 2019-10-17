@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 17 Oct 2019 06:16:04 -0700</pubDate>
-    <lastBuildDate>Thu, 17 Oct 2019 06:16:04 -0700</lastBuildDate>
+    <pubDate>Thu, 17 Oct 2019 06:32:57 -0700</pubDate>
+    <lastBuildDate>Thu, 17 Oct 2019 06:32:57 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Highly Recommended: Clojure for the brave and true</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Highly Recommended: &lt;a href=&quot;https://www.braveclojure.com/clojure-for-the-brave-and-true/&quot;&gt;Clojure for the brave and true&lt;/a&gt; for its delightful tone and great explanations.&lt;/li&gt;
+  &lt;li&gt;This book’s &lt;a href=&quot;https://www.braveclojure.com/basic-emacs/&quot;&gt;chapter on emacs&lt;/a&gt;  inspired &lt;a href=&quot;http://rolandtanglao.com/2019/10/16/p2-howto-cider-make-cider-work-cider-nrepl-021-nrepl-060/&quot;&gt;the previous post on how to get cider working in emacs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 17 Oct 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/10/17/p1-clojure-for-the-brave-and-true-highly-recommended/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/10/17/p1-clojure-for-the-brave-and-true-highly-recommended/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How to make cider work in project.clj: install lein 2.9.1, set dependencies to nrepl 0.6.0 and plugins for cider-nrepl to 0.21.1 </title>
@@ -337,23 +353,6 @@ unzip compiler-latest.zip
         <pubDate>Wed, 09 Oct 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/10/09/p1-how-to-type-angstrom-a-with-o-on-top-windows10-right-alt-w/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/10/09/p1-how-to-type-angstrom-a-with-o-on-top-windows10-right-alt-w/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>sweetmeat: How to Automatically Reindent Code With Sublime Text (and add a keyboard shortcut)</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;tl;dr: “&lt;code class=&quot;highlighter-rouge&quot;&gt;Edit &amp;gt; Line &amp;gt; Reindent&lt;/code&gt;. Select the text that you would like to reindent before using the menu item….. For Mac OSX, Linux, and Windows users, the keybindings settings file can be found in the menus &lt;code class=&quot;highlighter-rouge&quot;&gt;Preferences &amp;gt; Keybindings - User&lt;/code&gt;.  “ &amp;lt;— &lt;a href=&quot;http://sweetme.at/2013/10/04/how-to-automatically-reindent-code-with-sublime-text/&quot;&gt;read the whole thing: How to Automatically Reindent Code With Sublime Text&lt;/a&gt;  (and add a keyboard shortcut)&lt;/li&gt;
-  &lt;li&gt;Not sure why a keyboard shortcut isn’t built in ?&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Tue, 08 Oct 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/10/08/p1-how-to-autoreindent-code-sublime-keyboard-shortcut/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/10/08/p1-how-to-autoreindent-code-sublime-keyboard-shortcut/</guid>
         
         
       </item>
