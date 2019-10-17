@@ -6,17 +6,18 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 16 Oct 2019 21:22:38 -0700</pubDate>
-    <lastBuildDate>Wed, 16 Oct 2019 21:22:38 -0700</lastBuildDate>
+    <pubDate>Thu, 17 Oct 2019 06:16:04 -0700</pubDate>
+    <lastBuildDate>Thu, 17 Oct 2019 06:16:04 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
-        <title>How to make cider work in project.clj: set dependencies to nrepl 0.6.0 and plugins for cider-nrepl to 0.21.1 </title>
+        <title>How to make cider work in project.clj: install lein 2.9.1, set dependencies to nrepl 0.6.0 and plugins for cider-nrepl to 0.21.1 </title>
         <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Here’s how I got cider to work in emacs as of today:
     &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://leiningen.org/#install&quot;&gt;Install lein 2.9.1 manually&lt;/a&gt; after uininstalling the apt-get version since ubuntu installs 2.8 by default, hooray for out of date :-)&lt;/li&gt;
       &lt;li&gt;Set dependencies to nrepl 0.6.0:
         &lt;ul&gt;
           &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;:dependencies [[org.clojure/clojure &quot;1.8.0&quot;] [nrepl &quot;0.6.0&quot;]]&lt;/code&gt;&lt;/li&gt;

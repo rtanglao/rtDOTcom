@@ -1,12 +1,13 @@
 ---
 
 layout: post
-title: "How to make cider work in project.clj: set dependencies to nrepl 0.6.0 and plugins for cider-nrepl to 0.21.1 "
+title: "How to make cider work in project.clj: install lein 2.9.1, set dependencies to nrepl 0.6.0 and plugins for cider-nrepl to 0.21.1 "
 ---
 
 # Pontifications
 
 * Here's how I got cider to work in emacs as of today:
+  * [Install lein 2.9.1 manually](https://leiningen.org/#install) after uininstalling the apt-get version since ubuntu installs 2.8 by default, hooray for out of date :-)
   * Set dependencies to nrepl 0.6.0:
     *  `:dependencies [[org.clojure/clojure "1.8.0"] [nrepl "0.6.0"]]`
   * Set plugins to cider-nrepl 0.21.1:

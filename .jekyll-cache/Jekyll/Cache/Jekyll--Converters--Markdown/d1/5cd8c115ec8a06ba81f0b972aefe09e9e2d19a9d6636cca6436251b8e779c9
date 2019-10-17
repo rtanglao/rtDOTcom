@@ -1,9 +1,9 @@
-I"×
-<h1 id="pontifications">Pontifications</h1>
+I"˜<h1 id="pontifications">Pontifications</h1>
 
 <ul>
   <li>Hereâ€™s how I got cider to work in emacs as of today:
     <ul>
+      <li><a href="https://leiningen.org/#install">Install lein 2.9.1 manually</a> after uininstalling the apt-get version since ubuntu installs 2.8 by default, hooray for out of date :-)</li>
       <li>Set dependencies to nrepl 0.6.0:
         <ul>
           <li><code class="highlighter-rouge">:dependencies [[org.clojure/clojure "1.8.0"] [nrepl "0.6.0"]]</code></li>
