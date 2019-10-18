@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 17 Oct 2019 06:32:57 -0700</pubDate>
-    <lastBuildDate>Thu, 17 Oct 2019 06:32:57 -0700</lastBuildDate>
+    <pubDate>Fri, 18 Oct 2019 08:05:16 -0700</pubDate>
+    <lastBuildDate>Fri, 18 Oct 2019 08:05:16 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Also Highly Recommended: Getting Clojure</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Also Highly Recommended: &lt;a href=&quot;https://pragprog.com/book/roclojure/getting-clojure&quot;&gt;Getting Clojure&lt;/a&gt; by &lt;a href=&quot;http://russolsen.com/&quot;&gt;Russ Olsen&lt;/a&gt; because it clarifies theoretical aspects that the more hands on practical &lt;a href=&quot;http://rolandtanglao.com/2019/10/17/p1-clojure-for-the-brave-and-true-highly-recommended/&quot;&gt;Clojure for the brave and true&lt;/a&gt; doesn’t&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Fri, 18 Oct 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/10/18/p1-getting-clojure-highly-recommended/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/10/18/p1-getting-clojure-highly-recommended/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Highly Recommended: Clojure for the brave and true</title>
@@ -336,23 +352,6 @@ unzip compiler-latest.zip
         <pubDate>Thu, 10 Oct 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/10/10/p1-lenovo-arm64-aarch64-c630-yoga-latop-review-great-except-wsl2-zoom-usb-iawriter/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/10/10/p1-lenovo-arm64-aarch64-c630-yoga-latop-review-great-except-wsl2-zoom-usb-iawriter/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to type angstrom i.e.'a' with 'o' aka a with ring on top in Windows 10: switch to international keyboard and then type RightAlt W</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Switch to the &lt;a href=&quot;http://rolandtanglao.com/2019/05/02/p1-windows-english-international-keyboard-to-type-accented-characters/&quot;&gt;Windows 10 international keyboard&lt;/a&gt; and then &lt;code class=&quot;highlighter-rouge&quot;&gt;RightAlt W&lt;/code&gt; . Add shift for uppercase.&lt;/li&gt;
-  &lt;li&gt;Above from  &lt;a href=&quot;https://sites.psu.edu/symbolcodes/windows/codeint/&quot;&gt;International Keyboard Accent Codes (Windows)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Wed, 09 Oct 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/10/09/p1-how-to-type-angstrom-a-with-o-on-top-windows10-right-alt-w/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/10/09/p1-how-to-type-angstrom-a-with-o-on-top-windows10-right-alt-w/</guid>
         
         
       </item>
