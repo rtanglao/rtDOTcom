@@ -17,7 +17,7 @@ title: "More than 100  Firefox support questions in the SUMO Forum in a single d
 
 ## R Code to generate the above bar graph:
 
-I wrote an R script o do this, [plot-addon-incident-may1-31.R](https://github.com/rtanglao/rt-4-week-release-cycle/blob/master/plot-addon-incident-may1-31.R)
+I wrote an R script to do this, [plot-addon-incident-may1-31.R](https://github.com/rtanglao/rt-4-week-release-cycle/blob/master/plot-addon-incident-may1-31.R)
 
 And here it is, in case github dies :-)
 

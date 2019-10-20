@@ -6,8 +6,8 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 20 Oct 2019 16:11:18 -0700</pubDate>
-    <lastBuildDate>Sun, 20 Oct 2019 16:11:18 -0700</lastBuildDate>
+    <pubDate>Sun, 20 Oct 2019 16:16:42 -0700</pubDate>
+    <lastBuildDate>Sun, 20 Oct 2019 16:16:42 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -31,7 +31,7 @@
 
 &lt;h2 id=&quot;r-code-to-generate-the-above-bar-graph&quot;&gt;R Code to generate the above bar graph:&lt;/h2&gt;
 
-&lt;p&gt;I wrote an R script o do this, &lt;a href=&quot;https://github.com/rtanglao/rt-4-week-release-cycle/blob/master/plot-addon-incident-may1-31.R&quot;&gt;plot-addon-incident-may1-31.R&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I wrote an R script to do this, &lt;a href=&quot;https://github.com/rtanglao/rt-4-week-release-cycle/blob/master/plot-addon-incident-may1-31.R&quot;&gt;plot-addon-incident-may1-31.R&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;And here it is, in case github dies :-)&lt;/p&gt;
 
