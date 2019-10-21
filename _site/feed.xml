@@ -6,9 +6,42 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 21 Oct 2019 07:14:55 -0700</pubDate>
-    <lastBuildDate>Mon, 21 Oct 2019 07:14:55 -0700</lastBuildDate>
+    <pubDate>Mon, 21 Oct 2019 07:28:00 -0700</pubDate>
+    <lastBuildDate>Mon, 21 Oct 2019 07:28:00 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>A tale of 2 plots: Most Firefox desktop SUMO questions come in the first two weeks based on data from Firefox 65 to 69</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Based on the following two plots,  most Firefox desktop SUMO questions at support.mozilla.org  come in the first two weeks based on data from Firefox 65 to 69&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;plot-1-number-of-questions-faceted-by-firefox-release-iefirefox-65-to-69--release-week-1-to-4&quot;&gt;Plot 1: Number of questions faceted by Firefox release, i.e.Firefox 65 to 69  release week 1 to 4&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Code: &lt;a href=&quot;https://github.com/rtanglao/rt-4-week-release-cycle/blob/master/january-18october2019-plot-num-questions-release-weeks-1-4.R&quot;&gt;january-18october2019-plot-num-questions-release-weeks-1-4.R&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Plot:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; data-header=&quot;true&quot; data-footer=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/48930582641/in/dateposted-public/&quot; title=&quot;c7e3e94-desktopAAQ65-69-num-questions&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/48930582641_d1a532de47.jpg&quot; width=&quot;500&quot; height=&quot;339&quot; alt=&quot;c7e3e94-desktopAAQ65-69-num-questions&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;plot--2-number-of-questions-faceted-by-firefox-release-week--release-week-1--4--for-firefox-65-to-69&quot;&gt;Plot  2: Number of questions faceted by Firefox release week , release week 1 -4,  for Firefox 65 to 69&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Code: &lt;a href=&quot;https://github.com/rtanglao/rt-4-week-release-cycle/blob/master/facet-by-week-number-january-18october2019-plot-num-questions-release-weeks-1-4.R&quot;&gt;facet-by-week-number-january-18october2019-plot-num-questions-release-weeks-1-4.R&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Plot:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; data-header=&quot;true&quot; data-footer=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/48930767602/in/dateposted-public/&quot; title=&quot;25455ec-ff65-69-num-questions-faceted-by-release-week&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/48930767602_8c6013ae87.jpg&quot; width=&quot;500&quot; height=&quot;339&quot; alt=&quot;25455ec-ff65-69-num-questions-faceted-by-release-week&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 21 Oct 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/10/21/p1-most-firefox-desktop-questions-week1-week2/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/10/21/p1-most-firefox-desktop-questions-week1-week2/</guid>
+        
+        
+      </item>
     
       <item>
         <title>windows 10 aarch64 lenovo c630 crash 20191020_182618 last crash October 5</title>
@@ -541,30 +574,6 @@ unzip compiler-latest.zip
         <pubDate>Mon, 14 Oct 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/10/14/p1-no-windows10-arm64-rstudio/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/10/14/p1-no-windows10-arm64-rstudio/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Gene Kim: Love Letter To Clojure (Part 1) &amp; Ruby's chevron operator, '&lt;&lt;' mutates</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Blown out of the water by Gene Kim: &lt;a href=&quot;https://itrevolution.com/love-letter-to-clojure-part-1/&quot;&gt;Love Letter To Clojure (Part 1)&lt;/a&gt; &amp;lt;– READ THE WHOLE THING!&lt;/li&gt;
-  &lt;li&gt;I too didn’t realize that the “chevron” operator, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;&amp;lt;&lt;/code&gt; mutates the string!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;hello&quot;&lt;/span&gt; 
-&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;hello&quot;&lt;/span&gt; 
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;*&quot;&lt;/span&gt; 
-&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;hello*&quot;&lt;/span&gt; 	&lt;span class=&quot;c1&quot;&gt;# s value was mutated!!!!&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;hello&quot;&lt;/span&gt; 
-&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;false&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-</description>
-        <pubDate>Sun, 13 Oct 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/10/13/p1-gene-kim-love-letter-to-clojure-ruby-chevron-operator-modifies-software/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/10/13/p1-gene-kim-love-letter-to-clojure-ruby-chevron-operator-modifies-software/</guid>
         
         
       </item>
