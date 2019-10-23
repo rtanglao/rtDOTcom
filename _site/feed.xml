@@ -6,9 +6,44 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 21 Oct 2019 17:24:38 -0700</pubDate>
-    <lastBuildDate>Mon, 21 Oct 2019 17:24:38 -0700</lastBuildDate>
+    <pubDate>Tue, 22 Oct 2019 21:11:00 -0700</pubDate>
+    <lastBuildDate>Tue, 22 Oct 2019 21:11:00 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>R and Lubridate: How to add week number starting with Firefox release date i.e. Tuesday instead of Sunday or Monday to a dataframe so Tuesday October 22, 2019 - Monday October 28, 2019 is Firefox 70 week 1 and 29Oct-4Nov2019 is FF70 Week 2</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Very similar to this  previous blog post: &lt;a href=&quot;http://rolandtanglao.com/2019/01/08/p1-howto-use-r-lubridate-to-compute-arbitrary-daynumber-for-firefox-release/&quot;&gt;R and Lubridate: How to add daynumber starting with Firefox release date i.e. Tuesday instead of Sunday or Monday to a dataframe&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Again you could  also use lubridate &lt;code class=&quot;highlighter-rouge&quot;&gt;durations&lt;/code&gt;, but  durations aren’t accurate when you transition  from month to month or year to year so use lubridate &lt;code class=&quot;highlighter-rouge&quot;&gt;intervals&lt;/code&gt; instead&lt;/li&gt;
+  &lt;li&gt;Here’s the code from   &lt;a href=&quot;https://github.com/rtanglao/rt-4-week-release-cycle/blob/master/january-august2019-plot-num-questions-release-weeks-1-4.R&quot;&gt;january-august2019-plot-num-questions-release-weeks-1-4.R&lt;/a&gt; :&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;add_release_week_number&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df_release&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+           &lt;span class=&quot;n&quot;&gt;yyyy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+           &lt;span class=&quot;n&quot;&gt;mm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+           &lt;span class=&quot;n&quot;&gt;dd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;no&quot;&gt;START_DATE&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;make_datetime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;yyyy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                    &lt;span class=&quot;n&quot;&gt;tz&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;UTC&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df_release&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%&amp;gt;%
+              mutate(release_week_number =
+                       floor(interval(
+                         START_DATE, created
+                       ) / days(7)) + 1))
+  }
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Tue, 22 Oct 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/10/22/p1-add-weeknumber-starting-with-firefox-release-date-ie-week-starting-tuesday-instead-monday-sunday-dataframe/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/10/22/p1-add-weeknumber-starting-with-firefox-release-date-ie-week-starting-tuesday-instead-monday-sunday-dataframe/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Got my Fido Samsung Note 8 Android Security Update for October 2019 on October 21, 2019 - 20 days after Google released it on October 1, 2019</title>
@@ -513,55 +548,6 @@ unzip compiler-latest.zip
         <pubDate>Wed, 16 Oct 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/10/16/p1-rstudio-build-script-changes-jdk8-version-ubuntu-bionic-beaver/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/10/16/p1-rstudio-build-script-changes-jdk8-version-ubuntu-bionic-beaver/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Successfully compiled ARM64 Windows 10 R Studio Server v1.2.5001 on Lenovo C630</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;From the &lt;a href=&quot;https://github.com/rtanglao/ARM-rstudio-server/blob/master/README.md&quot;&gt;README with the ARM64 Windows 10 build script&lt;/a&gt; on github:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;arm-rstudio-server&quot;&gt;ARM-rstudio-server&lt;/h1&gt;
-&lt;p&gt;Build script for rstudio-server on:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;ARM64 Windows 10&lt;/li&gt;
-  &lt;li&gt;Lenovo C630 Yoga&lt;/li&gt;
-  &lt;li&gt;Windows 10 Insider Build Fast Ring &lt;code class=&quot;highlighter-rouge&quot;&gt;Microsoft Windows [Version 10.0.18999.1]&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;WSL 1 (WSL 2 doesn’t work on Windows 10 ARM64 ! Except for I guess :-) The Samsung Book 2 and the future Surface X&lt;/li&gt;
-  &lt;li&gt;Ubuntu 18.04.2 LTS&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This is built on the excellent work of &lt;a href=&quot;https://github.com/jrowen/ARM-rstudio-server&quot;&gt;jrowen/ARM-rstudio-server&lt;/a&gt; which was built on the excellent work of &lt;a href=&quot;https://github.com/dashaub/ARM-RStudio&quot;&gt;dashaub/ARM-RStudio&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;build&quot;&gt;Build&lt;/h2&gt;
-&lt;p&gt;This script has been used to successfully build RStudio Server 1.2.5001&lt;/p&gt;
-
-&lt;p&gt;The commands below can be used to build the server:&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bash &lt;span class=&quot;nt&quot;&gt;-x&lt;/span&gt; build_rstudio.sh
-/usr/sbin/rstudio-server start
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;The build took about 2 hours to complete.&lt;/p&gt;
-
-&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;VERS&lt;/code&gt; variable in the script can be updated to build different versions of the server.  The latest version number and be found on the rstudio server &lt;a href=&quot;https://www.rstudio.com/products/rstudio/download-server/&quot;&gt;download page&lt;/a&gt;, and note that this will likely differ from the latest desktop version.&lt;/p&gt;
-
-&lt;h2 id=&quot;launching-rstudio-server&quot;&gt;Launching RStudio Server&lt;/h2&gt;
-&lt;p&gt;After the server has been built and installed, the easiest way to start the server from a WSL  using the commands below:&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo&lt;/span&gt;  /usr/sbin/rstudio-server start
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Finally, from a new Firefox (or Chrome :-)) tab navigate to &lt;code class=&quot;highlighter-rouge&quot;&gt;localhost:8787&lt;/code&gt; and log in using your WSL credentials.&lt;/p&gt;
-
-&lt;h2 id=&quot;contributions&quot;&gt;Contributions&lt;/h2&gt;
-&lt;p&gt;Please don’t hesitate to file an issue if you run into problems, and pull requests are welcome.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 15 Oct 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/10/15/p1-compiled-rstudio-server-v1-2-5001-Lenovo-C630-ARM64-Windows-10/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/10/15/p1-compiled-rstudio-server-v1-2-5001-Lenovo-C630-ARM64-Windows-10/</guid>
         
         
       </item>
