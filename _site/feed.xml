@@ -6,9 +6,45 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 23 Oct 2019 19:00:58 -0700</pubDate>
-    <lastBuildDate>Wed, 23 Oct 2019 19:00:58 -0700</lastBuildDate>
+    <pubDate>Thu, 24 Oct 2019 07:05:22 -0700</pubDate>
+    <lastBuildDate>Thu, 24 Oct 2019 07:05:22 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Jill Wetzler: Disrupting Bias in Feedback</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Jill Wetzler: &lt;a href=&quot;https://www.jillwetzler.com/blog/2019/10/10/disrupting-bias-in-feedback&quot;&gt;Disrupting Bias in Feedback&lt;/a&gt; &amp;lt;—— Amazing writing. I continue  to have to learn these things over and over again!&lt;/li&gt;
+  &lt;li&gt;Juicy quote:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;
+...
+Would I tell a man to be more vocal or aggressive?
+...
+Am I placing unfair expectations on an introvert?
+...
+Is it irrefutable or actionable to tell someone 
+“You tend to be harsh in conversation with others”?
+...
+Maybe I need to tell a non-native English speaker to participate 
+more in team discussions, but I probably also want to tell others 
+to interrupt less and provide alternative ways to give feedback 
+on technical decisions. 
+&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.jillwetzler.com/blog/2019/10/10/disrupting-bias-in-feedback&quot;&gt;Read the whole thing!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 24 Oct 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/10/24/p1-jill-wetzler-disrupting-bias-feedback/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/10/24/p1-jill-wetzler-disrupting-bias-feedback/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Torie Bosch: The lines of code that changed everything</title>
@@ -407,50 +443,6 @@ Microsoft Windows [Version 10.0.18995.1]
         <pubDate>Thu, 17 Oct 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/10/17/p1-clojure-for-the-brave-and-true-highly-recommended/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/10/17/p1-clojure-for-the-brave-and-true-highly-recommended/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to make cider work in project.clj: install lein 2.9.1, set dependencies to nrepl 0.6.0 and plugins for cider-nrepl to 0.21.1 </title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Here’s how I got cider to work in emacs as of today:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://leiningen.org/#install&quot;&gt;Install lein 2.9.1 manually&lt;/a&gt; after uininstalling the apt-get version since ubuntu installs 2.8 by default, hooray for out of date :-)&lt;/li&gt;
-      &lt;li&gt;Set dependencies to nrepl 0.6.0:
-        &lt;ul&gt;
-          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;:dependencies [[org.clojure/clojure &quot;1.8.0&quot;] [nrepl &quot;0.6.0&quot;]]&lt;/code&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Set plugins to cider-nrepl 0.21.1:
-        &lt;ul&gt;
-          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;:plugins [[cider/cider-nrepl &quot;0.21.1&quot;]]&lt;/code&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;full-projclj&quot;&gt;Full proj.clj&lt;/h1&gt;
-
-&lt;div class=&quot;language-clojure highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;defproject&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;clojure-noob&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;0.1.0-SNAPSHOT&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;:description&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;FIXME: write description&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;:url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://example.com/FIXME&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;:license&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;:name&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Eclipse Public License&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-            &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;:url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://www.eclipse.org/legal/epl-v10.html&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;:dependencies&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;org.clojure/clojure&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1.8.0&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nrepl&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;0.6.0&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;:main&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;:skip-aot&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;clojure-noob.core&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;:target-path&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;target/%s&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;:plugins&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cider/cider-nrepl&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;0.21.1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;:profiles&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;:uberjar&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;:aot&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;:all&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}})&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-</description>
-        <pubDate>Wed, 16 Oct 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/10/16/p2-howto-cider-make-cider-work-cider-nrepl-021-nrepl-060/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/10/16/p2-howto-cider-make-cider-work-cider-nrepl-021-nrepl-060/</guid>
         
         
       </item>
