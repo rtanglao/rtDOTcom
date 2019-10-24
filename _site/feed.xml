@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 22 Oct 2019 21:11:00 -0700</pubDate>
-    <lastBuildDate>Tue, 22 Oct 2019 21:11:00 -0700</lastBuildDate>
+    <pubDate>Wed, 23 Oct 2019 19:00:58 -0700</pubDate>
+    <lastBuildDate>Wed, 23 Oct 2019 19:00:58 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Torie Bosch: The lines of code that changed everything</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing to see 36 great examples of code for better or for worse: &lt;a href=&quot;https://slate.com/technology/2019/10/consequential-computer-code-software-history.html&quot;&gt;Torie Bosch: The lines of code that changed everything&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 23 Oct 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/10/23/p1-torie-bosch-lines-of-code-that-changed-the-world/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/10/23/p1-torie-bosch-lines-of-code-that-changed-the-world/</guid>
+        
+        
+      </item>
     
       <item>
         <title>R and Lubridate: How to add week number starting with Firefox release date i.e. Tuesday instead of Sunday or Monday to a dataframe so Tuesday October 22, 2019 - Monday October 28, 2019 is Firefox 70 week 1 and 29Oct-4Nov2019 is FF70 Week 2</title>
@@ -436,118 +451,6 @@ Microsoft Windows [Version 10.0.18995.1]
         <pubDate>Wed, 16 Oct 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/10/16/p2-howto-cider-make-cider-work-cider-nrepl-021-nrepl-060/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/10/16/p2-howto-cider-make-cider-work-cider-nrepl-021-nrepl-060/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>RStudio build script changes: changed from JDK7 to JDK 8, bionic from debian</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Regarding yesterday’s &lt;a href=&quot;http://rolandtanglao.com/2019/10/15/p1-compiled-rstudio-server-v1-2-5001-Lenovo-C630-ARM64-Windows-10/&quot;&gt;Successfully compiled ARM64 Windows 10 R Studio Server v1.2.5001 on Lenovo C630&lt;/a&gt;, here are the changes to the build script, &lt;a href=&quot;https://github.com/rtanglao/ARM-rstudio-server/blob/master/build_rstudio.sh&quot;&gt;build_rstudio.sh&lt;/a&gt;:&lt;/li&gt;
-  &lt;li&gt;
-    &lt;ol&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/ARM-rstudio-server/blob/master/build_rstudio.sh#L9&quot;&gt;changed version number&lt;/a&gt; to  &lt;code class=&quot;highlighter-rouge&quot;&gt;1.2.4001&lt;/code&gt; i.e. &lt;code class=&quot;highlighter-rouge&quot;&gt;VERS=v1.2.5001&lt;/code&gt;. This will have to change when others build RStudio because new versions come out all the time&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/ARM-rstudio-server/blob/master/build_rstudio.sh#L19&quot;&gt;changed to jdk 8&lt;/a&gt;: i.e. &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt-get install -y openjdk-8-jdk&lt;/code&gt;
-        &lt;ul&gt;
-          &lt;li&gt;because only java 8 is supported &lt;a href=&quot;https://github.com/rstudio/rstudio/issues/3157&quot;&gt;https://github.com/rstudio/rstudio/issues/3157&lt;/a&gt; ; see also: &lt;a href=&quot;https://github.com/rstudio/rstudio/wiki/Installing-RStudio-Dependencies&quot;&gt;https://github.com/rstudio/rstudio/wiki/Installing-RStudio-Dependencies&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/ARM-rstudio-server/blob/master/build_rstudio.sh#L21&quot;&gt;changed to use the ubuntu bionic install dependencies script&lt;/a&gt; i.e &lt;code class=&quot;highlighter-rouge&quot;&gt;./install-dependencies-bionic --exclude-qt-sdk&lt;/code&gt;&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;code&quot;&gt;Code&lt;/h2&gt;
-
-&lt;p&gt;Here’s the full code in case github goes away :-)&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# This script installs R and builds RStudio Desktop for ARM Chromebooks running debian stretch&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;# Install R; Debian stretch has latest version&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; r-base r-base-dev
-
-&lt;span class=&quot;c&quot;&gt;# Set RStudio version&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;VERS&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;v1.2.5001
-
-&lt;span class=&quot;c&quot;&gt;# Download RStudio source&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ~/Downloads/
-wget &lt;span class=&quot;nt&quot;&gt;-O&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$VERS&lt;/span&gt; https://github.com/rstudio/rstudio/tarball/&lt;span class=&quot;nv&quot;&gt;$VERS&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;mkdir&lt;/span&gt; ~/Downloads/rstudio-&lt;span class=&quot;nv&quot;&gt;$VERS&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;tar &lt;/span&gt;xvf ~/Downloads/&lt;span class=&quot;nv&quot;&gt;$VERS&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-C&lt;/span&gt; ~/Downloads/rstudio-&lt;span class=&quot;nv&quot;&gt;$VERS&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--strip-components&lt;/span&gt; 1
-&lt;span class=&quot;nb&quot;&gt;rm&lt;/span&gt; ~/Downloads/&lt;span class=&quot;nv&quot;&gt;$VERS&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;# Run environment preparation scripts&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; openjdk-8-jdk
-&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ~/Downloads/rstudio-&lt;span class=&quot;nv&quot;&gt;$VERS&lt;/span&gt;/dependencies/linux/
-./install-dependencies-bionic &lt;span class=&quot;nt&quot;&gt;--exclude-qt-sdk&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;# Run common environment preparation scripts&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; git
-&lt;span class=&quot;c&quot;&gt;# No arm build for pandoc, so install outside of common script&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; pandoc
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; libcurl4-openssl-dev
-
-&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ~/Downloads/rstudio-&lt;span class=&quot;nv&quot;&gt;$VERS&lt;/span&gt;/dependencies/common/
-&lt;span class=&quot;c&quot;&gt;#./install-common&lt;/span&gt;
-./install-gwt
-./install-dictionaries
-./install-mathjax
-./install-boost
-&lt;span class=&quot;c&quot;&gt;#./install-pandoc&lt;/span&gt;
-./install-libclang
-./install-packages
-
-&lt;span class=&quot;c&quot;&gt;# Add pandoc folder to override build check&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;mkdir&lt;/span&gt; ~/Downloads/rstudio-&lt;span class=&quot;nv&quot;&gt;$VERS&lt;/span&gt;/dependencies/common/pandoc
-
-&lt;span class=&quot;c&quot;&gt;# Get Closure Compiler and replace compiler.jar&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ~/Downloads
-wget http://dl.google.com/closure-compiler/compiler-latest.zip
-unzip compiler-latest.zip
-&lt;span class=&quot;nb&quot;&gt;rm &lt;/span&gt;COPYING README.md compiler-latest.zip
-&lt;span class=&quot;nb&quot;&gt;sudo mv &lt;/span&gt;closure-compiler&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.jar ~/Downloads/rstudio-&lt;span class=&quot;nv&quot;&gt;$VERS&lt;/span&gt;/src/gwt/tools/compiler/compiler.jar
-
-&lt;span class=&quot;c&quot;&gt;# Configure cmake and build RStudio&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ~/Downloads/rstudio-&lt;span class=&quot;nv&quot;&gt;$VERS&lt;/span&gt;/
-&lt;span class=&quot;nb&quot;&gt;mkdir &lt;/span&gt;build
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;cmake &lt;span class=&quot;nt&quot;&gt;-DRSTUDIO_TARGET&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;Server &lt;span class=&quot;nt&quot;&gt;-DCMAKE_BUILD_TYPE&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;Release
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;make &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;# Additional install steps&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;useradd &lt;span class=&quot;nt&quot;&gt;-r&lt;/span&gt; rstudio-server
-&lt;span class=&quot;nb&quot;&gt;sudo cp&lt;/span&gt; /usr/local/lib/rstudio-server/extras/init.d/debian/rstudio-server /etc/init.d/rstudio-server
-&lt;span class=&quot;nb&quot;&gt;sudo chmod&lt;/span&gt; +x /etc/init.d/rstudio-server 
-&lt;span class=&quot;nb&quot;&gt;sudo ln&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt; /usr/local/lib/rstudio-server/bin/rstudio-server /usr/sbin/rstudio-server
-&lt;span class=&quot;nb&quot;&gt;sudo chmod &lt;/span&gt;777 &lt;span class=&quot;nt&quot;&gt;-R&lt;/span&gt; /usr/local/lib/R/site-library/
-
-&lt;span class=&quot;c&quot;&gt;# Setup locale&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; locales
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;DEBIAN_FRONTEND&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;noninteractive dpkg-reconfigure locales
-&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;LANG&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;en_US.UTF-8
-&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;LANGUAGE&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;en_US.UTF-8
-&lt;span class=&quot;c&quot;&gt;#echo 'export LANG=en_US.UTF-8' &amp;gt;&amp;gt; ~/.bashrc&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;#echo 'export LANGUAGE=en_US.UTF-8' &amp;gt;&amp;gt; ~/.bashrc&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;# Clean the system of packages used for building&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get autoremove &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; cabal-install ghc openjdk-8-jdk pandoc libboost-all-dev
-&lt;span class=&quot;nb&quot;&gt;sudo rm&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-r&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; ~/Downloads/rstudio-&lt;span class=&quot;nv&quot;&gt;$VERS&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get autoremove &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;# Start the server&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;rstudio-server start
-
-&lt;span class=&quot;c&quot;&gt;# Go to localhost:8787&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-</description>
-        <pubDate>Wed, 16 Oct 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/10/16/p1-rstudio-build-script-changes-jdk8-version-ubuntu-bionic-beaver/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/10/16/p1-rstudio-build-script-changes-jdk8-version-ubuntu-bionic-beaver/</guid>
         
         
       </item>
