@@ -1,0 +1,10 @@
+I"�<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>
+    <quote>`The professional field known variously as data analysis, visual analyt-ics, business intelligence, and more recently, data science, continues toexpand year over year. This interdisciplinary field requires its practition-ers to acquire diverse technical and mental skills, and be comfortableworking with ill-defined goals and uncertain outcomes. It is a challenge for software systems to meet the needs of these analysts, especiallywhen engaged in the exploratory stages of their work.Simultaneous with increasing interest in this field has been interest in the role ofexploration within the process of analysis. John Tukey famously described exploratory data analysis (EDA) —“looking at data to see what it seems to say” — in his 1977 book on the subject`</quote>
+    <p>&lt;—- read the whole thing: <a href="http://people.ischool.berkeley.edu/~hearst/papers/vast2018.pdf">Sara Alspaugh and Nava Zokaei and Andrea Liu and Cindy Jin and Marti A. Hearst: Futzing and Moseying:Interviews with Professional Data Analysts on Exploration Practices</a></p>
+  </li>
+  <li>It takes time and domain knowledge and knowledge of your data visualization environment and having a rich data visualization environment, one that can do a large variety of visualizations (like R, the various JS based visualiation environments and the many python visualization environments)</li>
+</ul>
+:ET
