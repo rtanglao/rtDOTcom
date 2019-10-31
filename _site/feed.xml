@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 29 Oct 2019 17:46:27 -0700</pubDate>
-    <lastBuildDate>Tue, 29 Oct 2019 17:46:27 -0700</lastBuildDate>
+    <pubDate>Wed, 30 Oct 2019 19:13:52 -0700</pubDate>
+    <lastBuildDate>Wed, 30 Oct 2019 19:13:52 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>How to Help Someone Use a Computer by Phil Agre</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A classic! &lt;a href=&quot;https://en.wikipedia.org/wiki/Philip_E._Agre&quot;&gt;Phil’ Agre’&lt;/a&gt;s TNO and Red Rock Eater News Service were so great back in the day!&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&quot; Whenever they start to blame themselves, blame the computer,no matter  how many times it takes, in a calm, authoritative tone of voice. If you  need to show off, show off your ability to criticize the bad interface.  When they get nailed by a false assumption about the computer’s  behavior, tell them their assumption was reasonable. Tell *yourself*  that it was reasonable. &quot;&lt;/code&gt; &amp;lt;— read the whole thing:  &lt;a href=&quot;https://www.librarian.net/stax/4965/how-to-help-someone-use-a-computer-by-phil-agre/&quot;&gt;How to Help Someone Use a Computer by Phil Agre&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 30 Oct 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/10/30/p1-phil-agre-how-to-help-someone-use-computer/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/10/30/p1-phil-agre-how-to-help-someone-use-computer/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How to make PCTV USB TV Stick 800e and 801e from 2010 work on Windows 10</title>
@@ -187,39 +204,6 @@ on technical decisions.
         <pubDate>Mon, 21 Oct 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/10/21/p2-got-my-october-2019-android-update-october21-20-day-delay/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/10/21/p2-got-my-october-2019-android-update-october21-20-day-delay/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>A tale of 2 plots: Most Firefox desktop SUMO questions come in the first two weeks based on data from Firefox 65 to 69</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Based on the following two plots,  most Firefox desktop SUMO questions at support.mozilla.org  come in the first two weeks based on data from Firefox 65 to 69&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;plot-1-number-of-questions-faceted-by-firefox-release-iefirefox-65-to-69--release-week-1-to-4&quot;&gt;Plot 1: Number of questions faceted by Firefox release, i.e.Firefox 65 to 69  release week 1 to 4&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Code: &lt;a href=&quot;https://github.com/rtanglao/rt-4-week-release-cycle/blob/master/january-18october2019-plot-num-questions-release-weeks-1-4.R&quot;&gt;january-18october2019-plot-num-questions-release-weeks-1-4.R&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Plot:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; data-header=&quot;true&quot; data-footer=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/48930582641/in/dateposted-public/&quot; title=&quot;c7e3e94-desktopAAQ65-69-num-questions&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/48930582641_d1a532de47.jpg&quot; width=&quot;500&quot; height=&quot;339&quot; alt=&quot;c7e3e94-desktopAAQ65-69-num-questions&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;plot--2-number-of-questions-faceted-by-firefox-release-week--release-week-1--4--for-firefox-65-to-69&quot;&gt;Plot  2: Number of questions faceted by Firefox release week , release week 1 -4,  for Firefox 65 to 69&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Code: &lt;a href=&quot;https://github.com/rtanglao/rt-4-week-release-cycle/blob/master/facet-by-week-number-january-18october2019-plot-num-questions-release-weeks-1-4.R&quot;&gt;facet-by-week-number-january-18october2019-plot-num-questions-release-weeks-1-4.R&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Plot:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; data-header=&quot;true&quot; data-footer=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/48930767602/in/dateposted-public/&quot; title=&quot;25455ec-ff65-69-num-questions-faceted-by-release-week&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/48930767602_8c6013ae87.jpg&quot; width=&quot;500&quot; height=&quot;339&quot; alt=&quot;25455ec-ff65-69-num-questions-faceted-by-release-week&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 21 Oct 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/10/21/p1-most-firefox-desktop-questions-week1-week2/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/10/21/p1-most-firefox-desktop-questions-week1-week2/</guid>
         
         
       </item>
