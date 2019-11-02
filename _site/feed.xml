@@ -6,9 +6,31 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 31 Oct 2019 20:02:40 -0700</pubDate>
-    <lastBuildDate>Thu, 31 Oct 2019 20:02:40 -0700</lastBuildDate>
+    <pubDate>Fri, 01 Nov 2019 20:29:19 -0700</pubDate>
+    <lastBuildDate>Fri, 01 Nov 2019 20:29:19 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Do you remember you first photo on instagram? Mine was launch day October 6, 2010</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I didn’t expect Instagram  to last or be popular :-) when I posted &lt;a href=&quot;https://en.wikipedia.org/wiki/Timeline_of_Instagram&quot;&gt;my first photo on Instagram launch day October 6, 2010&lt;/a&gt;!  What did you think?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;first-photo-on-instagram&quot;&gt;First Photo on Instagram&lt;/h2&gt;
+
+&lt;p&gt;You can scroll down on &lt;a href=&quot;https://www.instagram.com/roland/&quot;&gt;instagram @roland&lt;/a&gt; :-) or check it out below!&lt;/p&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; data-header=&quot;true&quot; data-footer=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/48998494618/in/dateposted-public/&quot; title=&quot;do you remember your first photo on instagram? mine was october 6, 2010 apparently the day they launched!&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/48998494618_bd471c6ba5.jpg&quot; width=&quot;281&quot; height=&quot;500&quot; alt=&quot;do you remember your first photo on instagram? mine was october 6, 2010 apparently the day they launched!&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 01 Nov 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/11/01/p1-first-photo-on-instagram-october-6-2010/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/01/p1-first-photo-on-instagram-october-6-2010/</guid>
+        
+        
+      </item>
     
       <item>
         <title>StaSh - Shell Like an Expert in Pythonista - will probably help me with GPS driven music on the iPhone</title>
@@ -170,41 +192,6 @@ on technical decisions.
         <pubDate>Wed, 23 Oct 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/10/23/p1-torie-bosch-lines-of-code-that-changed-the-world/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/10/23/p1-torie-bosch-lines-of-code-that-changed-the-world/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>R and Lubridate: How to add week number starting with Firefox release date i.e. Tuesday instead of Sunday or Monday to a dataframe so Tuesday October 22, 2019 - Monday October 28, 2019 is Firefox 70 week 1 and 29Oct-4Nov2019 is FF70 Week 2</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Very similar to this  previous blog post: &lt;a href=&quot;http://rolandtanglao.com/2019/01/08/p1-howto-use-r-lubridate-to-compute-arbitrary-daynumber-for-firefox-release/&quot;&gt;R and Lubridate: How to add daynumber starting with Firefox release date i.e. Tuesday instead of Sunday or Monday to a dataframe&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Again you could  also use lubridate &lt;code class=&quot;highlighter-rouge&quot;&gt;durations&lt;/code&gt;, but  durations aren’t accurate when you transition  from month to month or year to year so use lubridate &lt;code class=&quot;highlighter-rouge&quot;&gt;intervals&lt;/code&gt; instead&lt;/li&gt;
-  &lt;li&gt;Here’s the code from   &lt;a href=&quot;https://github.com/rtanglao/rt-4-week-release-cycle/blob/master/january-august2019-plot-num-questions-release-weeks-1-4.R&quot;&gt;january-august2019-plot-num-questions-release-weeks-1-4.R&lt;/a&gt; :&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;add_release_week_number&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df_release&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-           &lt;span class=&quot;n&quot;&gt;yyyy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-           &lt;span class=&quot;n&quot;&gt;mm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-           &lt;span class=&quot;n&quot;&gt;dd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;no&quot;&gt;START_DATE&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;make_datetime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;yyyy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                    &lt;span class=&quot;n&quot;&gt;tz&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;UTC&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df_release&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%&amp;gt;%
-              mutate(release_week_number =
-                       floor(interval(
-                         START_DATE, created
-                       ) / days(7)) + 1))
-  }
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-</description>
-        <pubDate>Tue, 22 Oct 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/10/22/p1-add-weeknumber-starting-with-firefox-release-date-ie-week-starting-tuesday-instead-monday-sunday-dataframe/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/10/22/p1-add-weeknumber-starting-with-firefox-release-date-ie-week-starting-tuesday-instead-monday-sunday-dataframe/</guid>
         
         
       </item>
