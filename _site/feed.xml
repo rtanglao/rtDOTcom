@@ -6,9 +6,30 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 03 Nov 2019 08:29:23 -0800</pubDate>
-    <lastBuildDate>Sun, 03 Nov 2019 08:29:23 -0800</lastBuildDate>
+    <pubDate>Sun, 03 Nov 2019 09:13:21 -0800</pubDate>
+    <lastBuildDate>Sun, 03 Nov 2019 09:13:21 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>My new 1 pager restaurant reviews site hosted on glitch using eleventy</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Currently at:  &lt;a href=&quot;https://unruly-spirit.glitch.me/&quot;&gt;https://unruly-spirit.glitch.me/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Reviews are currently at: &lt;a href=&quot;https://unruly-spirit.glitch.me/reviews/&quot;&gt;https://unruly-spirit.glitch.me/reviews/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Maybe I’ll move it to my own domain some day :-)&lt;/li&gt;
+  &lt;li&gt;Built with the  &lt;a href=&quot;https://www.11ty.io/&quot;&gt;eleventy&lt;/a&gt; static site generator&lt;/li&gt;
+  &lt;li&gt;Hosted on glitch at &lt;a href=&quot;https://glitch.com/edit/#!/unruly-spirit?path=src/reviews.md:6:0&quot;&gt;unruly-spirit&lt;/a&gt; :-)&lt;/li&gt;
+  &lt;li&gt;Forked from this glitch project: &lt;a href=&quot;https://glitch.com/edit/#!/eleventy-glitch?path=README.md:1:0&quot;&gt;eleventy-on-glitch&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Also on github at:  &lt;a href=&quot;https://github.com/rtanglao/restaurant-11ty-fun/blob/glitch/src/reviews.md&quot;&gt;https://github.com/rtanglao/restaurant-11ty-fun/blob/glitch/src/reviews.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 03 Nov 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/11/03/p2-new-food-review-1pager-site-using-11ty/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/03/p2-new-food-review-1pager-site-using-11ty/</guid>
+        
+        
+      </item>
     
       <item>
         <title>HOWTO: turn off clipping in R plots with ggpot2</title>
@@ -256,21 +277,6 @@
         <pubDate>Sat, 26 Oct 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/10/26/p1-i-do-not-support-facebook-news-and-brstaritbart/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/10/26/p1-i-do-not-support-facebook-news-and-brstaritbart/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>James Tyack: Why Your Engineering Teams Need Incident Commanders </title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;James Tyack: &lt;a href=&quot;https://www.pagerduty.com/eng/engineering-needs-incident-commanders/&quot;&gt;Why Your Engineering Teams Need Incident Commanders&lt;/a&gt; &amp;lt;—- this whole concept is new-ish to me! We’ve used it at work and it’s great to see others’ thoughts on this . And yes we need it and so do you if you have a software team.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 25 Oct 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/10/25/p1-why-your-engineering-teams-need-incident-commanders/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/10/25/p1-why-your-engineering-teams-need-incident-commanders/</guid>
         
         
       </item>
