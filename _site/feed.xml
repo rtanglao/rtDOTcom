@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 02 Nov 2019 15:04:07 -0700</pubDate>
-    <lastBuildDate>Sat, 02 Nov 2019 15:04:07 -0700</lastBuildDate>
+    <pubDate>Sun, 03 Nov 2019 08:29:23 -0800</pubDate>
+    <lastBuildDate>Sun, 03 Nov 2019 08:29:23 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>HOWTO: turn off clipping in R plots with ggpot2</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In order not to forget, need to call this out from yesterday’s post: &lt;a href=&quot;http://rolandtanglao.com/2019/11/02/p1-firefox-65-69-cumulative-sum-sumo-support-forum-questions/&quot;&gt;Firefox 65-69 Cumulative Sum Day 1-28 of Firefox Support Questions on support.mozilla.org&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;coord_cartesian(clip=&quot;off&quot;)&lt;/code&gt;  &amp;lt;–add that to your &lt;code class=&quot;highlighter-rouge&quot;&gt;ggplot()&lt;/code&gt; and done:-)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 03 Nov 2019 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2019/11/03/p1-ggplot2-how-to-turn-off-clipping/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/03/p1-ggplot2-how-to-turn-off-clipping/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Firefox 65-69 Cumulative Sum Day 1-28 of Firefox Support Questions on support.mozilla.org</title>
@@ -255,42 +271,6 @@
         <pubDate>Fri, 25 Oct 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/10/25/p1-why-your-engineering-teams-need-incident-commanders/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/10/25/p1-why-your-engineering-teams-need-incident-commanders/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Jill Wetzler: Disrupting Bias in Feedback</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Jill Wetzler: &lt;a href=&quot;https://www.jillwetzler.com/blog/2019/10/10/disrupting-bias-in-feedback&quot;&gt;Disrupting Bias in Feedback&lt;/a&gt; &amp;lt;—— Amazing writing. I continue  to have to learn these things over and over again!&lt;/li&gt;
-  &lt;li&gt;Juicy quote:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;
-...
-Would I tell a man to be more vocal or aggressive?
-...
-Am I placing unfair expectations on an introvert?
-...
-Is it irrefutable or actionable to tell someone 
-“You tend to be harsh in conversation with others”?
-...
-Maybe I need to tell a non-native English speaker to participate 
-more in team discussions, but I probably also want to tell others 
-to interrupt less and provide alternative ways to give feedback 
-on technical decisions. 
-&quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.jillwetzler.com/blog/2019/10/10/disrupting-bias-in-feedback&quot;&gt;Read the whole thing!&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 24 Oct 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/10/24/p1-jill-wetzler-disrupting-bias-feedback/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/10/24/p1-jill-wetzler-disrupting-bias-feedback/</guid>
         
         
       </item>
