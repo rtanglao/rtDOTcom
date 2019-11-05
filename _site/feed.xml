@@ -6,9 +6,31 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 03 Nov 2019 09:13:21 -0800</pubDate>
-    <lastBuildDate>Sun, 03 Nov 2019 09:13:21 -0800</lastBuildDate>
+    <pubDate>Mon, 04 Nov 2019 21:13:48 -0800</pubDate>
+    <lastBuildDate>Mon, 04 Nov 2019 21:13:48 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>R base graphics to audio: devoutaudio</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&quot;x position is mapped to audio channel position - points on the left of the plot are rendered mainly in the left channel of audio
+y position is mapped to frequency - the higher the point the higher the frequency
+size is mapped to duration - larger points have a longer sound&quot;
+&lt;/blockquote&gt;
+&lt;p&gt;—&amp;gt; Read the whole thing: &lt;a href=&quot;https://coolbutuseless.github.io/2019/10/04/introducing-devoutaudio-an-experimental-package-for-rendering-graphics-as-audio/&quot;&gt;Introducing {devoutaudio} - an experimental package for rendering graphics as audio&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Wow have to try this!&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 04 Nov 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/11/04/p1-devoutaudio-r-package-to-render-graphics-as-audio/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/04/p1-devoutaudio-r-package-to-render-graphics-as-audio/</guid>
+        
+        
+      </item>
     
       <item>
         <title>My new 1 pager restaurant reviews site hosted on glitch using eleventy</title>
@@ -262,21 +284,6 @@
         <pubDate>Sun, 27 Oct 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/10/27/p1-obscure-error-messages-in-r-studio-because-it-saves-your-environment/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/10/27/p1-obscure-error-messages-in-r-studio-because-it-saves-your-environment/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>I do not support F*cbook news and I do not support FB's partnership with Br*itbart</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;I do not support F*cbook news and I do not support FB’s partnership with Br*itbart (replace &lt;code class=&quot;highlighter-rouge&quot;&gt;sixfivethree&lt;/code&gt; with &lt;code class=&quot;highlighter-rouge&quot;&gt;653&lt;/code&gt; if you want to read the following link: &lt;a href=&quot;https://www.theverge.com/2019/10/25/20932sixfivethree&quot;&gt;https://www.theverge.com/2019/10/25/20932sixfivethree/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 26 Oct 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/10/26/p1-i-do-not-support-facebook-news-and-brstaritbart/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/10/26/p1-i-do-not-support-facebook-news-and-brstaritbart/</guid>
         
         
       </item>
