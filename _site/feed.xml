@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 05 Nov 2019 20:29:32 -0800</pubDate>
-    <lastBuildDate>Tue, 05 Nov 2019 20:29:32 -0800</lastBuildDate>
+    <pubDate>Wed, 06 Nov 2019 19:27:56 -0800</pubDate>
+    <lastBuildDate>Wed, 06 Nov 2019 19:27:56 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Simon Willison: Google Cloud Shell is a web-based terminal providing access to a VM with a persistent 5GB home directory. I believe anyone with a Google account who clicks this link will get a terminal</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/simonw/status/1190843705218846720&quot;&gt;Simon Willison on twitter: Google Cloud Shell is a web-based terminal providing access to a VM with a persistent 5GB home directory. I believe anyone with a Google account who clicks this link will get a terminal&lt;/a&gt; &amp;lt;—- wow!&lt;/li&gt;
+  &lt;li&gt;Check it out at: &lt;a href=&quot;https://ssh.cloud.google.com/cloudshell/editor&quot;&gt;https://ssh.cloud.google.com/cloudshell/editor&lt;/a&gt; (and &lt;a href=&quot;https://cloud.google.com/shell/docs/accessing-cloud-shell-with-gcloud&quot;&gt;Accessing Cloud Shell from the command line)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 06 Nov 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/11/06/p1-google-cloud-shell/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/06/p1-google-cloud-shell/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Firefox 70 Desktop looks to be a quiet release compared to FF65-69 based on the cumulative sum of the SUMO Forum questions in the first two weeks</title>
@@ -368,22 +385,6 @@
         <pubDate>Tue, 29 Oct 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/10/29/p1-pctv-usb-stick-800e-801e-windows-10-media-portal/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/10/29/p1-pctv-usb-stick-800e-801e-windows-10-media-portal/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Sara Alspaugh and Nava Zokaei and Andrea Liu and Cindy Jin and Marti A. Hearst: Futzing and Moseying:Interviews with Professional Data Analysts on Exploration Practices</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&amp;lt;quote&amp;gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;The professional field known variously as data analysis, visual analyt-ics, business intelligence, and more recently, data science, continues toexpand year over year. This interdisciplinary field requires its practition-ers to acquire diverse technical and mental skills, and be comfortableworking with ill-defined goals and uncertain outcomes. It is a challenge for software systems to meet the needs of these analysts, especiallywhen engaged in the exploratory stages of their work.Simultaneous with increasing interest in this field has been interest in the role ofexploration within the process of analysis. John Tukey famously described exploratory data analysis (EDA) —“looking at data to see what it seems to say” — in his 1977 book on the subject&lt;/code&gt;&amp;lt;/quote&amp;gt; &amp;lt;—- read the whole thing: &lt;a href=&quot;http://people.ischool.berkeley.edu/~hearst/papers/vast2018.pdf&quot;&gt;Sara Alspaugh and Nava Zokaei and Andrea Liu and Cindy Jin and Marti A. Hearst: Futzing and Moseying:Interviews with Professional Data Analysts on Exploration Practices&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;It takes time and domain knowledge and knowledge of your data visualization environment and having a rich data visualization environment, one that can do a large variety of visualizations (like R, the various JS based visualiation environments and the many python visualization environments)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 28 Oct 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/10/28/p1-futzing-moseying-interviews-professional-data-analysts-exploration-ractices/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/10/28/p1-futzing-moseying-interviews-professional-data-analysts-exploration-ractices/</guid>
         
         
       </item>

@@ -1,0 +1,7 @@
+I"x<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li><a href="https://twitter.com/simonw/status/1190843705218846720">Simon Willison on twitter: Google Cloud Shell is a web-based terminal providing access to a VM with a persistent 5GB home directory. I believe anyone with a Google account who clicks this link will get a terminal</a> &lt;—- wow!</li>
+  <li>Check it out at: <a href="https://ssh.cloud.google.com/cloudshell/editor">https://ssh.cloud.google.com/cloudshell/editor</a> (and <a href="https://cloud.google.com/shell/docs/accessing-cloud-shell-with-gcloud">Accessing Cloud Shell from the command line)</a></li>
+</ul>
+:ET
