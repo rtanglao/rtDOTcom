@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 06 Nov 2019 19:27:56 -0800</pubDate>
-    <lastBuildDate>Wed, 06 Nov 2019 19:27:56 -0800</lastBuildDate>
+    <pubDate>Thu, 07 Nov 2019 20:38:44 -0800</pubDate>
+    <lastBuildDate>Thu, 07 Nov 2019 20:38:44 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Hey Tyee Commenters! Scholars Studied You. Here’s What They Found &lt;-- leads me to believe there's something to 'de-ranting' i.e. only displaying ranting language to the 'original ranter', everybody else only sees the constructive language</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://thetyee.ca/Culture/2019/11/06/Tyee-Commenters-Assessed/&quot;&gt;Hey Tyee Commenters! Scholars Studied You. Here’s What They Found&lt;/a&gt; &amp;lt;– This leads me to believe there’s something to ‘de-ranting’ i.e. only displaying ranting language to the ‘original ranter’. See my post from  2018: &lt;a href=&quot;http://rolandtanglao.com/2018/06/27/p1-remove-insults-rants-non-constructive-feedback/&quot;&gt;De-ranting: Making non constructive feedback visible only to the person who posted it)&lt;/a&gt;, everybody else only sees the constructive language.&lt;/li&gt;
+  &lt;li&gt;Of course training a machine learning model to identify this non constructive ranting language is the only way to go for popular sites.&lt;/li&gt;
+  &lt;li&gt;Would de-ranting scale? Not sure! Especially if machine learning couldn’t be trained to help most of the time. I would love to experiment with this.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 07 Nov 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/11/07/p1-tyee-comments-no-insults-de-ranting/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/07/p1-tyee-comments-no-insults-de-ranting/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Simon Willison: Google Cloud Shell is a web-based terminal providing access to a VM with a persistent 5GB home directory. I believe anyone with a Google account who clicks this link will get a terminal</title>
@@ -367,24 +384,6 @@
         <pubDate>Wed, 30 Oct 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/10/30/p1-phil-agre-how-to-help-someone-use-computer/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/10/30/p1-phil-agre-how-to-help-someone-use-computer/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to make PCTV USB TV Stick 800e and 801e from 2010 work on Windows 10</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Control Panel &amp;gt; Hardware and Sound &amp;gt; Devices and Printers &amp;gt; PCTV 800E &amp;gt; Properties &amp;gt; Drivers&lt;/code&gt; and install the  latest driver which is from 2010.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.team-mediaportal.com/mediaportal-download&quot;&gt;Install Media Portal 2&lt;/a&gt; and then done!&lt;/li&gt;
-  &lt;li&gt;Not sure how to do this on Mac but I bet there is an equivalent!&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Tue, 29 Oct 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/10/29/p1-pctv-usb-stick-800e-801e-windows-10-media-portal/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/10/29/p1-pctv-usb-stick-800e-801e-windows-10-media-portal/</guid>
         
         
       </item>
