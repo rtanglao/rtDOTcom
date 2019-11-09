@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 08 Nov 2019 06:52:08 -0800</pubDate>
-    <lastBuildDate>Fri, 08 Nov 2019 06:52:08 -0800</lastBuildDate>
+    <pubDate>Sat, 09 Nov 2019 08:46:24 -0800</pubDate>
+    <lastBuildDate>Sat, 09 Nov 2019 08:46:24 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>What is the Strava endgame? Acquisition?</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read &lt;a href=&quot;https://www.outsideonline.com/2395489/strava-james-quarles&quot;&gt;Why Strava Is Getting More Social Than Ever&lt;/a&gt; (outsideonline)&lt;/li&gt;
+  &lt;li&gt;Strava claims they don’t want to be acquired but how many paying folks do they need to be viable long term? And how will they get them to pay?&lt;/li&gt;
+  &lt;li&gt;I like Strava; it’s fun :-) for the record. But I don’t pay (yet, I’ll probably start paying soon because I feel that it’s the only way to really support them and keep them viable)! To me it feels like flickr in 2005! Great community but unsuspectingly waiting to be usurped by the next big thing? Like Instagram usurped flickr?!?&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 09 Nov 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/11/09/p1-what-is-the-strava-endgame/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/09/p1-what-is-the-strava-endgame/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Pinboard -&gt; SQLite -&gt; datasette -&gt; glitch</title>
@@ -367,22 +384,6 @@
         <pubDate>Fri, 01 Nov 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/11/01/p1-first-photo-on-instagram-october-6-2010/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/11/01/p1-first-photo-on-instagram-october-6-2010/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>StaSh - Shell Like an Expert in Pythonista - will probably help me with GPS driven music on the iPhone</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/ywangd/stash&quot;&gt;StaSh - Shell Like an Expert in Pythonista&lt;/a&gt; - will probably help me with  my efforts to write &lt;a href=&quot;http://rolandtanglao.com/2018/05/06/p1-pythonista-script-to-get-gps-coordinates-on-ios/&quot;&gt;GPS driven music on the iPhone&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Thu, 31 Oct 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/10/31/p1-stash-bash-for-pythonista/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/10/31/p1-stash-bash-for-pythonista/</guid>
         
         
       </item>
