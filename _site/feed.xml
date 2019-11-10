@@ -6,9 +6,29 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 09 Nov 2019 08:46:24 -0800</pubDate>
-    <lastBuildDate>Sat, 09 Nov 2019 08:46:24 -0800</lastBuildDate>
+    <pubDate>Sun, 10 Nov 2019 07:46:26 -0800</pubDate>
+    <lastBuildDate>Sun, 10 Nov 2019 07:46:26 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>It's 2019: Windows is a viable choice for non developers and developers who can develop in the cloud or don't mind WSL's slowness; WSL is the gateway to Linux laptops</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I agree and disagree :-) with DHH’s &lt;a href=&quot;https://m.signalvnoise.com/back-to-windows-after-twenty-years/&quot;&gt;Back to windows after twenty years&lt;/a&gt;. I’ve been using Windows for work for about 2 years after using Macs for work from 2003-2017. In fact for work &lt;a href=&quot;http://rolandtanglao.com/2019/10/11/p1-surface-x-in-late-2020-2021-if-zoom-works-wsl2-works-good-reviews/&quot;&gt;I’ll probably double down and get an ARM64 Windows machine in 2020 or 2021 primarily for the battery life&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;It’s 2019: Windows is a viable choice for non developers and developers who can develop in the cloud or don’t mind WSL’s slowness (which is being improved weekly to M*crosoft’s credit)&lt;/li&gt;
+  &lt;li&gt;#ymmv of course especially if you depend on a Mac-only program. I miss Omni Outliner for example but that won’t cause me to switch  back (for work, if I’m paying my own $ I’d still buy a Mac).  &lt;a href=&quot;http://rolandtanglao.com/2018/11/25/p1-checkvist-webapp-for-outlining-good-so-far/&quot;&gt;Checkvist&lt;/a&gt; and other cross-platform web apps are fine replacements.&lt;/li&gt;
+  &lt;li&gt;#ymmv for video and photo editing as well but call me kr*zy but I prefer doing that on iPhone and iPad over desktop.&lt;/li&gt;
+  &lt;li&gt;And finally WSL is great but really isn’t it training 1000s of folks who do light weight development that Linux development is better than Windows or Mac development. i.e. WSL is the gateway to a real Linux laptops and desktops right?&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 10 Nov 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/11/10/p1-in-2019-windows-fine-for-non-developers-developers-who-can-work-in-the-cloud/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/10/p1-in-2019-windows-fine-for-non-developers-developers-who-can-work-in-the-cloud/</guid>
+        
+        
+      </item>
     
       <item>
         <title>What is the Strava endgame? Acquisition?</title>
@@ -362,28 +382,6 @@
         <pubDate>Sat, 02 Nov 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/11/02/p1-firefox-65-69-cumulative-sum-sumo-support-forum-questions/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/11/02/p1-firefox-65-69-cumulative-sum-sumo-support-forum-questions/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Do you remember you first photo on instagram? Mine was launch day October 6, 2010</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;I didn’t expect Instagram  to last or be popular :-) when I posted &lt;a href=&quot;https://en.wikipedia.org/wiki/Timeline_of_Instagram&quot;&gt;my first photo on Instagram launch day October 6, 2010&lt;/a&gt;!  What did you think?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;first-photo-on-instagram&quot;&gt;First Photo on Instagram&lt;/h2&gt;
-
-&lt;p&gt;You can scroll down on &lt;a href=&quot;https://www.instagram.com/roland/&quot;&gt;instagram @roland&lt;/a&gt; :-) or check it out below!&lt;/p&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; data-header=&quot;true&quot; data-footer=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/48998494618/in/dateposted-public/&quot; title=&quot;do you remember your first photo on instagram? mine was october 6, 2010 apparently the day they launched!&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/48998494618_bd471c6ba5.jpg&quot; width=&quot;281&quot; height=&quot;500&quot; alt=&quot;do you remember your first photo on instagram? mine was october 6, 2010 apparently the day they launched!&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 01 Nov 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/11/01/p1-first-photo-on-instagram-october-6-2010/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/01/p1-first-photo-on-instagram-october-6-2010/</guid>
         
         
       </item>
