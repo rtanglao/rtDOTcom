@@ -10,5 +10,5 @@ title: "It's 2019: Windows is a viable choice for non developers and developers 
 * It's 2019: Windows is a viable choice for non developers and developers who can develop in the cloud or don't mind WSL's slowness (which is being improved weekly to M*crosoft's credit)
 * #ymmv of course especially if you depend on a Mac-only program. I miss Omni Outliner for example but that won't cause me to switch  back (for work, if I'm paying my own $ I'd still buy a Mac).  [Checkvist](http://rolandtanglao.com/2018/11/25/p1-checkvist-webapp-for-outlining-good-so-far/) and other cross-platform web apps are fine replacements.
 * #ymmv for video and photo editing as well but call me kr*zy but I prefer doing that on iPhone and iPad over desktop.
-* And finally WSL is great but really isn't it training 1000s of folks who do light weight development that Linux development is better than Windows or Mac development. i.e. WSL is the gateway to a real Linux laptops and desktops right?
+* And finally WSL is great but really isn't it training 1000s of folks who do light weight development that Linux development is better than Windows or Mac development. i.e. WSL is the gateway to real Linux laptops and desktops right?
 
