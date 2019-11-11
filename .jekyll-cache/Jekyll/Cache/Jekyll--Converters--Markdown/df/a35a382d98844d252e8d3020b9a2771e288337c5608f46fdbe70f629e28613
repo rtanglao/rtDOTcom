@@ -1,0 +1,32 @@
+I"�	<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>See the current version of <a href="https://github.com/rtanglao/rt-kits-api2/blob/master/get-creator-answers-questions-for-arbitrary-time-period.rb">get-creator-answers-questions-for-arbitrary-time-period.rb</a> namely:</li>
+</ul>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="n">logger</span><span class="p">.</span><span class="nf">debug</span> <span class="s2">"created from API:"</span> <span class="o">+</span> <span class="n">q</span><span class="p">[</span><span class="s2">"created"</span><span class="p">]</span> <span class="o">+</span> <span class="s2">"&lt;-- this is PST not UTC despite the 'Z'"</span>
+    <span class="c1"># All times returned by the API are in PST not PDT and not UTC</span>
+    <span class="c1"># All URL parameters for time are also in PST not UTC</span>
+    <span class="c1"># See https://github.com/mozilla/kitsune/issues/3961 and</span>
+    <span class="c1"># https://github.com/mozilla/kitsune/issues/3946</span>
+    <span class="c1"># The above may change in the future if we migrate the Kitsune database to UTC</span>
+    <span class="n">created</span> <span class="o">=</span> <span class="no">Time</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">q</span><span class="p">[</span><span class="s2">"created"</span><span class="p">].</span><span class="nf">gsub</span><span class="p">(</span><span class="s2">"Z"</span><span class="p">,</span> <span class="s2">"PST"</span><span class="p">))</span> 
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p>and the associated issues, <a href="https://github.com/mozilla/kitsune/issues/3961">3961</a> and <a href="https://github.com/mozilla/kitsune/issues/3946">3946</a></p>
+  </li>
+  <li>
+    <p>And for posterity’s sake :-) here’s how the current way to use  the Kitsune API (al of my other scripts that use the API are currently broken; maybe someday I’ll fix them :-):</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> /home/rtanglao/GIT/rt-kits-api2/201911
+../get-creator-answers-questions-for-arbitrary-time-period.rb 2019 11 10 <span class="se">\</span>
+2019 11 10
+../print-desktop-en-us-all-oses-increasing-ids-time-url-title-content.rb <span class="se">\</span>
+2019-11-10-2019-11-10-firefox-creator-answers-desktop-all-locales.csv markdown
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+:ET
