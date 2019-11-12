@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 11 Nov 2019 09:17:42 -0800</pubDate>
-    <lastBuildDate>Mon, 11 Nov 2019 09:17:42 -0800</lastBuildDate>
+    <pubDate>Mon, 11 Nov 2019 15:53:20 -0800</pubDate>
+    <lastBuildDate>Mon, 11 Nov 2019 15:53:20 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>In 2019, unlike 2004, we write defensively and attenuate for the search and newsfeed algorithms</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Check out the podcast from the fab Anil Dash &lt;a href=&quot;https://anildash.com/2019/11/11/the-sound-of-your-voice/&quot;&gt;The internet we lost&lt;/a&gt; to learn more about how we write in 2019: unlike 2004, we write defensively and attenuate our voice for the search and newsfeed algorithms.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 11 Nov 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/11/11/p2-we-write-defensively-in-2019-and-write-attenuating-for-the-search-algorithms/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/11/p2-we-write-defensively-in-2019-and-write-attenuating-for-the-search-algorithms/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Timezone math is not my friend :-)</title>
@@ -293,22 +308,6 @@
         <pubDate>Sun, 03 Nov 2019 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2019/11/03/p2-new-food-review-1pager-site-using-11ty/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/11/03/p2-new-food-review-1pager-site-using-11ty/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>HOWTO: turn off clipping in R plots with ggpot2</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;In order not to forget, need to call this out from yesterday’s post: &lt;a href=&quot;http://rolandtanglao.com/2019/11/02/p1-firefox-65-69-cumulative-sum-sumo-support-forum-questions/&quot;&gt;Firefox 65-69 Cumulative Sum Day 1-28 of Firefox Support Questions on support.mozilla.org&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;coord_cartesian(clip=&quot;off&quot;)&lt;/code&gt;  &amp;lt;–add that to your &lt;code class=&quot;highlighter-rouge&quot;&gt;ggplot()&lt;/code&gt; and done:-)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 03 Nov 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/11/03/p1-ggplot2-how-to-turn-off-clipping/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/03/p1-ggplot2-how-to-turn-off-clipping/</guid>
         
         
       </item>
