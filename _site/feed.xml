@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 11 Nov 2019 15:53:20 -0800</pubDate>
-    <lastBuildDate>Mon, 11 Nov 2019 15:53:20 -0800</lastBuildDate>
+    <pubDate>Tue, 12 Nov 2019 20:52:29 -0800</pubDate>
+    <lastBuildDate>Tue, 12 Nov 2019 20:52:29 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>I must drop my own CSV into this bar chart race d3.js tutorial</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“The data for the race is a CSV with columns &lt;em&gt;date&lt;/em&gt; (in &lt;a href=&quot;https://www.ecma-international.org/ecma-262/9.0/index.html#sec-date-time-string-format&quot;&gt;YYYY-MM-DD format&lt;/a&gt;), &lt;em&gt;name&lt;/em&gt;, &lt;em&gt;value&lt;/em&gt; and optionally &lt;em&gt;category&lt;/em&gt; (which if present determines color). To replace the data, click the file icon  in the cell above. “&amp;lt; — BRAVO! Read the whole thing: Mike Bostock: &lt;a href=&quot;https://observablehq.com/@d3/bar-chart-race-explained&quot;&gt;Bar Chart Race, Explained&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Hmmm what can I make?!??! I have lots of CSVs in the above format!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 12 Nov 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/11/12/p1-bar-chart-race-in-d3-tutorial/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/12/p1-bar-chart-race-in-d3-tutorial/</guid>
+        
+        
+      </item>
     
       <item>
         <title>In 2019, unlike 2004, we write defensively and attenuate for the search and newsfeed algorithms</title>
@@ -287,27 +303,6 @@
         <pubDate>Mon, 04 Nov 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/11/04/p1-devoutaudio-r-package-to-render-graphics-as-audio/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/11/04/p1-devoutaudio-r-package-to-render-graphics-as-audio/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>My new 1 pager restaurant reviews site hosted on glitch using eleventy</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Currently at:  &lt;a href=&quot;https://unruly-spirit.glitch.me/&quot;&gt;https://unruly-spirit.glitch.me/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Reviews are currently at: &lt;a href=&quot;https://unruly-spirit.glitch.me/reviews/&quot;&gt;https://unruly-spirit.glitch.me/reviews/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Maybe I’ll move it to my own domain some day :-)&lt;/li&gt;
-  &lt;li&gt;Built with the  &lt;a href=&quot;https://www.11ty.io/&quot;&gt;eleventy&lt;/a&gt; static site generator&lt;/li&gt;
-  &lt;li&gt;Hosted on glitch at &lt;a href=&quot;https://glitch.com/edit/#!/unruly-spirit?path=src/reviews.md:6:0&quot;&gt;unruly-spirit&lt;/a&gt; :-)&lt;/li&gt;
-  &lt;li&gt;Forked from this glitch project: &lt;a href=&quot;https://glitch.com/edit/#!/eleventy-glitch?path=README.md:1:0&quot;&gt;eleventy-on-glitch&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Also on github at:  &lt;a href=&quot;https://github.com/rtanglao/restaurant-11ty-fun/blob/glitch/src/reviews.md&quot;&gt;https://github.com/rtanglao/restaurant-11ty-fun/blob/glitch/src/reviews.md&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 03 Nov 2019 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2019/11/03/p2-new-food-review-1pager-site-using-11ty/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/03/p2-new-food-review-1pager-site-using-11ty/</guid>
         
         
       </item>
