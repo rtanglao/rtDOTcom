@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 12 Nov 2019 20:52:29 -0800</pubDate>
-    <lastBuildDate>Tue, 12 Nov 2019 20:52:29 -0800</lastBuildDate>
+    <pubDate>Wed, 13 Nov 2019 20:36:58 -0800</pubDate>
+    <lastBuildDate>Wed, 13 Nov 2019 20:36:58 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Someday I'll wear an open source watch running my own software on my wrist perhaps a future version of DSTIKE ESP32 Watch DevKit</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Run my own software on my wrist with this: &lt;a href=&quot;https://www.tindie.com/products/lspoplove/dstike-esp32-watch-devkit/&quot;&gt;DSTIKE ESP32 Watch DevKit&lt;/a&gt; (via Kip)&lt;/li&gt;
+  &lt;li&gt;I figure this is a year or two out before it is viable and has decent battery life.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 13 Nov 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/11/13/p1-someday-i-will-have-open-source-watch-on-my-wrist/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/13/p1-someday-i-will-have-open-source-watch-on-my-wrist/</guid>
+        
+        
+      </item>
     
       <item>
         <title>I must drop my own CSV into this bar chart race d3.js tutorial</title>
@@ -276,33 +293,6 @@
         <pubDate>Tue, 05 Nov 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/11/05/p1-firefox-70-quiet-release-based-on-cumulative-sum-of-sumo-forum-questions/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/11/05/p1-firefox-70-quiet-release-based-on-cumulative-sum-of-sumo-forum-questions/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>R base graphics to audio: devoutaudio</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;“x position is mapped to audio channel position - points on the left of the plot are rendered mainly in the left channel of audio&lt;/li&gt;
-  &lt;li&gt;y position is mapped to frequency - the higher the point the higher the frequency&lt;/li&gt;
-  &lt;li&gt;size is mapped to duration - larger points have a longer sound”&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;—&amp;gt; Read the whole thing: &lt;a href=&quot;https://coolbutuseless.github.io/2019/10/04/introducing-devoutaudio-an-experimental-package-for-rendering-graphics-as-audio/&quot;&gt;Introducing {devoutaudio} - an experimental package for rendering graphics as audio&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Wow have to try this!&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 04 Nov 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/11/04/p1-devoutaudio-r-package-to-render-graphics-as-audio/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/04/p1-devoutaudio-r-package-to-render-graphics-as-audio/</guid>
         
         
       </item>

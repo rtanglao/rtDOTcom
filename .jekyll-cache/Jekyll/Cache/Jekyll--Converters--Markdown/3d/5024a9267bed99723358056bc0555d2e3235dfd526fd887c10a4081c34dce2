@@ -1,6 +1,0 @@
-I"3<h1 id="pontifications">Pontifications</h1>
-
-<ul>
-  <li>“The data for the race is a CSV with columns <em>date</em> (in <a href="https://www.ecma-international.org/ecma-262/9.0/index.html#sec-date-time-string-format">YYYY-MM-DD format</a>), <em>name</em>, <em>value</em> and optionally <em>category</em> (which if present determines color). To replace the data, click the file icon  in the cell above. “&lt; — bravo, read the whole thing: Mike Bostock: <a href="https://observablehq.com/@d3/bar-chart-race-explained">Bar Chart Race, Explained</a></li>
-</ul>
-:ET
