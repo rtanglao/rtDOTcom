@@ -6,9 +6,29 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 15 Nov 2019 20:55:37 -0800</pubDate>
-    <lastBuildDate>Fri, 15 Nov 2019 20:55:37 -0800</lastBuildDate>
+    <pubDate>Sat, 16 Nov 2019 08:54:54 -0800</pubDate>
+    <lastBuildDate>Sat, 16 Nov 2019 08:54:54 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>HowTo: Concat multiple CSV Files into one using head and sed</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Combining multiple CSV files with the same headers is easy using &lt;code class=&quot;highlighter-rouge&quot;&gt;head -1&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;sed 1d&lt;/code&gt;!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;head&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-1&lt;/span&gt; file1.csv &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; final.csv
+&lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;filename &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;ls &lt;/span&gt;file&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.csv&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sed &lt;/span&gt;1d &lt;span class=&quot;nv&quot;&gt;$filename&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; final.csv&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;done&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Sat, 16 Nov 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/11/16/p1-combining-multiple-csv-files-into-one/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/16/p1-combining-multiple-csv-files-into-one/</guid>
+        
+        
+      </item>
     
       <item>
         <title>In 2004 We In The Blogging World Didn’t Have Cynicism</title>
@@ -181,23 +201,6 @@
         <pubDate>Fri, 08 Nov 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/11/08/p1-pinboard-sqlite-glitch/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/11/08/p1-pinboard-sqlite-glitch/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Hey Tyee Commenters! Scholars Studied You. Here’s What They Found &lt;-- leads me to believe there's something to 'de-ranting' i.e. only displaying ranting language to the 'original ranter', everybody else only sees the constructive language</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://thetyee.ca/Culture/2019/11/06/Tyee-Commenters-Assessed/&quot;&gt;Hey Tyee Commenters! Scholars Studied You. Here’s What They Found&lt;/a&gt; &amp;lt;– This leads me to believe there’s something to ‘de-ranting’ i.e. only displaying ranting language to the ‘original ranter’. See my post from  2018: &lt;a href=&quot;http://rolandtanglao.com/2018/06/27/p1-remove-insults-rants-non-constructive-feedback/&quot;&gt;De-ranting: Making non constructive feedback visible only to the person who posted it)&lt;/a&gt;, everybody else only sees the constructive language.&lt;/li&gt;
-  &lt;li&gt;Of course training a machine learning model to identify this non constructive ranting language is the only way to go for popular sites.&lt;/li&gt;
-  &lt;li&gt;Would de-ranting scale? Not sure! Especially if machine learning couldn’t be trained to help most of the time. I would love to experiment with this.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 07 Nov 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/11/07/p1-tyee-comments-no-insults-de-ranting/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/07/p1-tyee-comments-no-insults-de-ranting/</guid>
         
         
       </item>
