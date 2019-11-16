@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 14 Nov 2019 22:50:40 -0800</pubDate>
-    <lastBuildDate>Thu, 14 Nov 2019 22:50:40 -0800</lastBuildDate>
+    <pubDate>Fri, 15 Nov 2019 20:55:37 -0800</pubDate>
+    <lastBuildDate>Fri, 15 Nov 2019 20:55:37 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>In 2004 We In The Blogging World Didn’t Have Cynicism</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Reflecting on &lt;a href=&quot;http://rolandtanglao.com/2019/11/14/p1-congrats-miss604-on-15-years-of-blogging/&quot;&gt;yesterday’s blogging gathering of “grey-beard” :-) bloggers from 2004 and beyond:&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.rolandmicroblog.com/2019/11/15/in-we-in.html&quot;&gt;In 2004 We In The Blogging World Didn’t Have Cynicism&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 15 Nov 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/11/15/p1-in-2004-we-in-the-blogging-world-did-not-have-cynicism/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/15/p1-in-2004-we-in-the-blogging-world-did-not-have-cynicism/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Congrats Miss 604 on 15 years of blogging!</title>
@@ -182,23 +198,6 @@
         <pubDate>Thu, 07 Nov 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/11/07/p1-tyee-comments-no-insults-de-ranting/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/11/07/p1-tyee-comments-no-insults-de-ranting/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Simon Willison: Google Cloud Shell is a web-based terminal providing access to a VM with a persistent 5GB home directory. I believe anyone with a Google account who clicks this link will get a terminal</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://twitter.com/simonw/status/1190843705218846720&quot;&gt;Simon Willison on twitter: Google Cloud Shell is a web-based terminal providing access to a VM with a persistent 5GB home directory. I believe anyone with a Google account who clicks this link will get a terminal&lt;/a&gt; &amp;lt;—- wow!&lt;/li&gt;
-  &lt;li&gt;Check it out at: &lt;a href=&quot;https://ssh.cloud.google.com/cloudshell/editor&quot;&gt;https://ssh.cloud.google.com/cloudshell/editor&lt;/a&gt; (and &lt;a href=&quot;https://cloud.google.com/shell/docs/accessing-cloud-shell-with-gcloud&quot;&gt;Accessing Cloud Shell from the command line)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Wed, 06 Nov 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/11/06/p1-google-cloud-shell/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/06/p1-google-cloud-shell/</guid>
         
         
       </item>
