@@ -6,9 +6,29 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 16 Nov 2019 08:54:54 -0800</pubDate>
-    <lastBuildDate>Sat, 16 Nov 2019 08:54:54 -0800</lastBuildDate>
+    <pubDate>Sun, 17 Nov 2019 09:03:29 -0800</pubDate>
+    <lastBuildDate>Sun, 17 Nov 2019 09:03:29 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Possible Berlin 2020 Mozilla All Hands Swag: Berlin circular cropped photos on the back, contributor infographic on the front</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;On the back: &lt;a href=&quot;http://rolandtanglao.com/2019/08/18/p1-use-imagemagick-vignette-to-do-circular-crop/&quot;&gt;use imagemagick to make a  circular crop&lt;/a&gt; of my &lt;a href=&quot;https://www.flickr.com/photos/roland/albums/72157709917594396&quot;&gt;Berlin July 2019 photos&lt;/a&gt; spelling out “Berlin 2020”.  Randomly select 75x75 patches and apply a” circular crop to them.&lt;/li&gt;
+  &lt;li&gt;On the front, make graphics from contributors’ &lt;a href=&quot;https://github.com/rtanglao/rt-kits-api2/blob/master/print-desktop-contributors.rb&quot;&gt;answers&lt;/a&gt; on SUMO spelling out “Firefox Support” or some such.
+    &lt;ul&gt;
+      &lt;li&gt;Perhaps a 26 colour infographic (do a &lt;code class=&quot;highlighter-rouge&quot;&gt;mod 26&lt;/code&gt; on each character of an answer?!?!)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 17 Nov 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/11/17/p1-berlin-infographic-2019-2020-for-mozilla-swag/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/17/p1-berlin-infographic-2019-2020-for-mozilla-swag/</guid>
+        
+        
+      </item>
     
       <item>
         <title>HowTo: Concat multiple CSV Files into one using head and sed</title>
@@ -185,22 +205,6 @@
         <pubDate>Sat, 09 Nov 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/11/09/p1-what-is-the-strava-endgame/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/11/09/p1-what-is-the-strava-endgame/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Pinboard -&gt; SQLite -&gt; datasette -&gt; glitch</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Data isn’t  as useful if other folks can’t use it.&lt;/li&gt;
-  &lt;li&gt;Therefore  &lt;a href=&quot;https://github.com/jacobian/pinboard-to-sqlite&quot;&gt;Jacob Kaplan- Moss’s Pinboard -&amp;gt; SQLite&lt;/a&gt; -&amp;gt; &lt;a href=&quot;http://rolandtanglao.com/2019/04/23/p1-datasette-on-glitch-has-a-future-but-seems-harder-than-zeit-now/&quot;&gt;datasette -&amp;gt; glitch&lt;/a&gt; sounds amazing to me because then I can query my bookmarks with SQL!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 08 Nov 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/11/08/p1-pinboard-sqlite-glitch/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/08/p1-pinboard-sqlite-glitch/</guid>
         
         
       </item>
