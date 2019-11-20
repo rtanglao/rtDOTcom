@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 19 Nov 2019 20:15:49 -0800</pubDate>
-    <lastBuildDate>Tue, 19 Nov 2019 20:15:49 -0800</lastBuildDate>
+    <pubDate>Wed, 20 Nov 2019 07:42:03 -0800</pubDate>
+    <lastBuildDate>Wed, 20 Nov 2019 07:42:03 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Ilya Kreymer's Client-Side Replay Technology: using service workers to emulate web servers in web browsers</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;But what if it were possible to ‘render’ an arbitrary web archive, directly in the browser, just as easily as it is to view a video or a PDF?&quot;&lt;/code&gt; &amp;lt;- from Guest post: DSHR’s Blog &lt;a href=&quot;https://blog.dshr.org/2019/10/guest-post-ilya-kreymers-client-side.html&quot;&gt;Ilya Kreymer’s Client-Side Replay Technology&lt;/a&gt;! Read the whole thing!&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 20 Nov 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/11/20/p1-client-side-replay-using-service-workers-to-emulate-web-servers-in-web-browsers/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/20/p1-client-side-replay-using-service-workers-to-emulate-web-servers-in-web-browsers/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Hannah Howard: Why do we only care about programmers?</title>
@@ -159,47 +175,6 @@
         <pubDate>Mon, 11 Nov 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/11/11/p2-we-write-defensively-in-2019-and-write-attenuating-for-the-search-algorithms/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/11/11/p2-we-write-defensively-in-2019-and-write-attenuating-for-the-search-algorithms/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Timezone math is not my friend :-)</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;See the current version of &lt;a href=&quot;https://github.com/rtanglao/rt-kits-api2/blob/master/get-creator-answers-questions-for-arbitrary-time-period.rb&quot;&gt;get-creator-answers-questions-for-arbitrary-time-period.rb&lt;/a&gt; namely:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    &lt;span class=&quot;n&quot;&gt;logger&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;debug&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;created from API:&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;created&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&amp;lt;-- this is PST not UTC despite the 'Z'&quot;&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# All times returned by the API are in PST not PDT and not UTC&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# All URL parameters for time are also in PST not UTC&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# See https://github.com/mozilla/kitsune/issues/3961 and&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# https://github.com/mozilla/kitsune/issues/3946&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;# The above may change in the future if we migrate the Kitsune database to UTC&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;created&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;parse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;created&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;gsub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Z&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;PST&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;and the associated issues, &lt;a href=&quot;https://github.com/mozilla/kitsune/issues/3961&quot;&gt;3961&lt;/a&gt; and &lt;a href=&quot;https://github.com/mozilla/kitsune/issues/3946&quot;&gt;3946&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;And for posterity’s sake :-) here’s the current way to use  the Kitsune API (all of my other scripts that use the API are currently broken; maybe someday I’ll fix them :-)  &amp;lt;— this may change if we find the time to make Kitsune all UTC):&lt;/p&gt;
-
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /home/rtanglao/GIT/rt-kits-api2/201911
-../get-creator-answers-questions-for-arbitrary-time-period.rb 2019 11 10 &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-2019 11 10
-../print-desktop-en-us-all-oses-increasing-ids-time-url-title-content.rb &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-2019-11-10-2019-11-10-firefox-creator-answers-desktop-all-locales.csv markdown
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 11 Nov 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/11/11/p1-timezone-math-is-not-my-friend/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/11/p1-timezone-math-is-not-my-friend/</guid>
         
         
       </item>
