@@ -6,16 +6,32 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 18 Nov 2019 23:21:09 -0800</pubDate>
-    <lastBuildDate>Mon, 18 Nov 2019 23:21:09 -0800</lastBuildDate>
+    <pubDate>Tue, 19 Nov 2019 20:15:49 -0800</pubDate>
+    <lastBuildDate>Tue, 19 Nov 2019 20:15:49 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Hannah Howard: Why do we only care about programmers?</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Though I’ve only been part of the programming class a short time, it’s hard for me not to recognize that most of the positions I’ve been employed in before were nonetheless quite privileged. While the retail store’s salaries were weak, the health benefits were amazing. When I inquired about the security guards who worked at the store, I learned they were subcontracted through another company and they didn’t get any of the benefits I got.&quot;&lt;/code&gt; &amp;lt;- from Hannah Howard’s &lt;a href=&quot;https://modelviewculture.com/pieces/why-do-we-only-care-about-programmers&quot;&gt;Why do we only care about programmers&lt;/a&gt;? Read the whole thing!&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 19 Nov 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/11/19/p1-why-do-we-only-care-about-programmers/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/19/p1-why-do-we-only-care-about-programmers/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Backed Bangle.js: the hackable Smart Watch</title>
         <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Backed: &lt;a href=&quot;https://www.kickstarter.com/projects/gfw/banglejs-the-hackable-smart-watch&quot;&gt;Bangle.js: the hackable Smart Watch&lt;/a&gt; (via &lt;a href=&quot;https://twitter.com/triagegirl/status/1194863036864987137&quot;&gt;Emma&lt;/a&gt;). It’s the same as the nodewatch which was given to 400 nodeconf eu attendees recenlty. And it’s open source!&lt;/li&gt;
+  &lt;li&gt;Backed: &lt;a href=&quot;https://www.kickstarter.com/projects/gfw/banglejs-the-hackable-smart-watch&quot;&gt;Bangle.js: the hackable Smart Watch&lt;/a&gt; (via &lt;a href=&quot;https://twitter.com/triagegirl/status/1194863036864987137&quot;&gt;Emma&lt;/a&gt;). It’s the same as the nodewatch which was given to 400 nodeconf eu attendees recently. And it’s open source!&lt;/li&gt;
   &lt;li&gt;It seems to have most  (except WiFi) of what I blogged about previously:  &lt;a href=&quot;http://rolandtanglao.com/2019/11/13/p1-someday-i-will-have-open-source-watch-on-my-wrist/&quot;&gt;Someday I’ll wear an open source watch running my own software on my wrist perhaps a future version of DSTIKE ESP32 Watch DevKit&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -184,26 +200,6 @@
         <pubDate>Mon, 11 Nov 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/11/11/p1-timezone-math-is-not-my-friend/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/11/11/p1-timezone-math-is-not-my-friend/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>It's 2019: Windows is a viable choice for non developers and developers who can develop in the cloud or don't mind WSL's slowness; WSL is the gateway to Linux laptops</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;I agree and disagree :-) with DHH’s &lt;a href=&quot;https://m.signalvnoise.com/back-to-windows-after-twenty-years/&quot;&gt;Back to windows after twenty years&lt;/a&gt;. I’ve been using Windows for work for about 2 years after using Macs for work from 2003-2017. In fact for work &lt;a href=&quot;http://rolandtanglao.com/2019/10/11/p1-surface-x-in-late-2020-2021-if-zoom-works-wsl2-works-good-reviews/&quot;&gt;I’ll probably double down and get an ARM64 Windows machine in 2020 or 2021 primarily for the battery life&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;It’s 2019: Windows is a viable choice for non developers and developers who can develop in the cloud or don’t mind WSL’s slowness (which is being improved weekly to M*crosoft’s credit)&lt;/li&gt;
-  &lt;li&gt;#ymmv of course especially if you depend on a Mac-only program. I miss Omni Outliner for example but that won’t cause me to switch  back (for work, if I’m paying my own $ I’d still buy a Mac).  &lt;a href=&quot;http://rolandtanglao.com/2018/11/25/p1-checkvist-webapp-for-outlining-good-so-far/&quot;&gt;Checkvist&lt;/a&gt; and other cross-platform web apps are fine replacements.&lt;/li&gt;
-  &lt;li&gt;#ymmv for video and photo editing as well but call me kr*zy but I prefer doing that on iPhone and iPad over desktop.&lt;/li&gt;
-  &lt;li&gt;And finally WSL is great but really isn’t it training 1000s of folks who do light weight development that Linux development is better than Windows or Mac development. i.e. WSL is the gateway to real Linux laptops and desktops right?&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sun, 10 Nov 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/11/10/p1-in-2019-windows-fine-for-non-developers-developers-who-can-work-in-the-cloud/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/10/p1-in-2019-windows-fine-for-non-developers-developers-who-can-work-in-the-cloud/</guid>
         
         
       </item>
