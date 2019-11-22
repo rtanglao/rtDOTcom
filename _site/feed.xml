@@ -6,9 +6,34 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 20 Nov 2019 07:42:03 -0800</pubDate>
-    <lastBuildDate>Wed, 20 Nov 2019 07:42:03 -0800</lastBuildDate>
+    <pubDate>Thu, 21 Nov 2019 07:59:35 -0800</pubDate>
+    <lastBuildDate>Thu, 21 Nov 2019 07:59:35 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>NICE TO HAVE: Kitsune questions and answers API tester</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;p&gt;Checker 1 of the Kitsune &lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/sample-question-api-result.md&quot;&gt;questions&lt;/a&gt; and &lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/answerTestAPI.rb&quot;&gt;answers&lt;/a&gt; API. Call the API  and then&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Check that every field is present and new fields haven’t been added or old fields deleted&lt;/li&gt;
+  &lt;li&gt;Check every field’s type is correct, string, date, integer&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Checker 2&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Check a specific question and specific answer and ensure all values are correct&lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+        <pubDate>Thu, 21 Nov 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/11/21/p1-kitsune-api-tester/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/21/p1-kitsune-api-tester/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Ilya Kreymer's Client-Side Replay Technology: using service workers to emulate web servers in web browsers</title>
@@ -160,21 +185,6 @@
         <pubDate>Tue, 12 Nov 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/11/12/p1-bar-chart-race-in-d3-tutorial/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/11/12/p1-bar-chart-race-in-d3-tutorial/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>In 2019, unlike 2004, we write defensively and attenuate for the search and newsfeed algorithms</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Check out the podcast from the fab Anil Dash &lt;a href=&quot;https://anildash.com/2019/11/11/the-sound-of-your-voice/&quot;&gt;The internet we lost&lt;/a&gt; to learn more about how we write in 2019: unlike 2004, we write defensively and attenuate our voice for the search and newsfeed algorithms.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 11 Nov 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/11/11/p2-we-write-defensively-in-2019-and-write-attenuating-for-the-search-algorithms/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/11/p2-we-write-defensively-in-2019-and-write-attenuating-for-the-search-algorithms/</guid>
         
         
       </item>
