@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 21 Nov 2019 07:59:35 -0800</pubDate>
-    <lastBuildDate>Thu, 21 Nov 2019 07:59:35 -0800</lastBuildDate>
+    <pubDate>Fri, 22 Nov 2019 21:34:46 -0800</pubDate>
+    <lastBuildDate>Fri, 22 Nov 2019 21:34:46 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Kitsune Questions and Answers API to CSV with tests</title>
+        <description>&lt;h1 id=&quot;pontification&quot;&gt;Pontification&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Following on from yesterday’s &lt;a href=&quot;http://rolandtanglao.com/2019/11/21/p1-kitsune-api-tester/&quot;&gt;NICE TO HAVE: Kitsune questions and answers API tester&lt;/a&gt;, the next logical step is something that reads the Kitsune API for questions and answers, converts it to CSV and has unit tests to insure it is working.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Fri, 22 Nov 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/11/22/p1-kitsune-question-answer-api-to-csv-with-tests/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/22/p1-kitsune-question-answer-api-to-csv-with-tests/</guid>
+        
+        
+      </item>
     
       <item>
         <title>NICE TO HAVE: Kitsune questions and answers API tester</title>
@@ -169,22 +185,6 @@
         <pubDate>Wed, 13 Nov 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/11/13/p1-someday-i-will-have-open-source-watch-on-my-wrist/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/11/13/p1-someday-i-will-have-open-source-watch-on-my-wrist/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>I must drop my own CSV into this bar chart race d3.js tutorial</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;“The data for the race is a CSV with columns &lt;em&gt;date&lt;/em&gt; (in &lt;a href=&quot;https://www.ecma-international.org/ecma-262/9.0/index.html#sec-date-time-string-format&quot;&gt;YYYY-MM-DD format&lt;/a&gt;), &lt;em&gt;name&lt;/em&gt;, &lt;em&gt;value&lt;/em&gt; and optionally &lt;em&gt;category&lt;/em&gt; (which if present determines color). To replace the data, click the file icon  in the cell above. “&amp;lt; — BRAVO! Read the whole thing: Mike Bostock: &lt;a href=&quot;https://observablehq.com/@d3/bar-chart-race-explained&quot;&gt;Bar Chart Race, Explained&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Hmmm what can I make?!??! I have lots of CSVs in the above format!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 12 Nov 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/11/12/p1-bar-chart-race-in-d3-tutorial/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/12/p1-bar-chart-race-in-d3-tutorial/</guid>
         
         
       </item>
