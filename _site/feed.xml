@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 22 Nov 2019 21:34:46 -0800</pubDate>
-    <lastBuildDate>Fri, 22 Nov 2019 21:34:46 -0800</lastBuildDate>
+    <pubDate>Sat, 23 Nov 2019 18:43:32 -0800</pubDate>
+    <lastBuildDate>Sat, 23 Nov 2019 18:43:32 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Ink and Switch - Local First Software</title>
+        <description>&lt;h1 id=&quot;pontification&quot;&gt;Pontification&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt; &quot;Today it is easy to create a web application in which the server takes  ownership of all the data. But it is too hard to build collaborative  software that respects users’ ownership and agency. In order to shift  the balance, we need to improve the tools for developing local-first  software.&quot;&lt;/code&gt;&amp;lt;—- Read the whole thing: &lt;a href=&quot;https://www.inkandswitch.com/local-first.html&quot;&gt;Ink and Switch - Local First Software&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sat, 23 Nov 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/11/23/p1-ink-and-switch-local-first-software/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/23/p1-ink-and-switch-local-first-software/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Kitsune Questions and Answers API to CSV with tests</title>
@@ -168,23 +184,6 @@
         <pubDate>Thu, 14 Nov 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/11/14/p1-congrats-miss604-on-15-years-of-blogging/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/11/14/p1-congrats-miss604-on-15-years-of-blogging/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Someday I'll wear an open source watch running my own software on my wrist perhaps a future version of DSTIKE ESP32 Watch DevKit</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Run my own software on my wrist with this: &lt;a href=&quot;https://www.tindie.com/products/lspoplove/dstike-esp32-watch-devkit/&quot;&gt;DSTIKE ESP32 Watch DevKit&lt;/a&gt; (via Kip)&lt;/li&gt;
-  &lt;li&gt;I figure this is a year or two out before it is viable and has decent battery life.&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Wed, 13 Nov 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/11/13/p1-someday-i-will-have-open-source-watch-on-my-wrist/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/13/p1-someday-i-will-have-open-source-watch-on-my-wrist/</guid>
         
         
       </item>
