@@ -6,9 +6,41 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 24 Nov 2019 20:25:10 -0800</pubDate>
-    <lastBuildDate>Sun, 24 Nov 2019 20:25:10 -0800</lastBuildDate>
+    <pubDate>Tue, 26 Nov 2019 05:31:40 -0800</pubDate>
+    <lastBuildDate>Tue, 26 Nov 2019 05:31:40 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Emma Humphries: Extracting a list from a webpage</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;You have a webpage with a list of things: values, prices, emails, or  links. And you want to copy that into a string you can use elsewhere  like a spreadsheet or data....There’s not an API you can use to fetch these. You know that you can  construct a CSS3 selector to get them all. So you can use the developer  view of the page (a.k.a. F12) and use JavaScript on the console tab as  your ‘API’.&lt;/code&gt;Read the whole fabulous thing: &lt;a href=&quot;https://emmas.site/blog/2019/09/10/extracting-a-list-from-a-webpage&quot;&gt;Extracting a list from a webpage&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Wouldn’t it be great if there was an easier way to do this? That normal people can use?&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 26 Nov 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/11/26/p1-zazzle-berlin-july-2019-info-graphic-circular-150-pixel-thumbnails/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/26/p1-zazzle-berlin-july-2019-info-graphic-circular-150-pixel-thumbnails/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Emma Humphries: Extracting a list from a webpage</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;You have a webpage with a list of things: values, prices, emails, or  links. And you want to copy that into a string you can use elsewhere  like a spreadsheet or data....There’s not an API you can use to fetch these. You know that you can  construct a CSS3 selector to get them all. So you can use the developer  view of the page (a.k.a. F12) and use JavaScript on the console tab as  your ‘API’.&lt;/code&gt;Read the whole fabulous thing: &lt;a href=&quot;https://emmas.site/blog/2019/09/10/extracting-a-list-from-a-webpage&quot;&gt;Extracting a list from a webpage&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Wouldn’t it be great if there was an easier way to do this? That normal people can use?&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 25 Nov 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/11/25/p1-howto-use-firefox-developer-tools-to-extract-list-from-webpage/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/25/p1-howto-use-firefox-developer-tools-to-extract-list-from-webpage/</guid>
+        
+        
+      </item>
     
       <item>
         <title>What is your happy non tech place? Mine is cross-country skiing, taking photos (not editing them), bicycling and walking with my family</title>
@@ -152,42 +184,6 @@
         <pubDate>Sun, 17 Nov 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/11/17/p1-berlin-infographic-2019-2020-for-mozilla-swag/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/11/17/p1-berlin-infographic-2019-2020-for-mozilla-swag/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>HowTo: Concat multiple CSV Files into one using head and sed</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Combining multiple CSV files with the same headers is easy using &lt;code class=&quot;highlighter-rouge&quot;&gt;head -1&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;sed 1d&lt;/code&gt;!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;head&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-1&lt;/span&gt; file1.csv &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; final.csv
-&lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;filename &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;ls &lt;/span&gt;file&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.csv&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sed &lt;/span&gt;1d &lt;span class=&quot;nv&quot;&gt;$filename&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; final.csv&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;done&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-</description>
-        <pubDate>Sat, 16 Nov 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/11/16/p1-combining-multiple-csv-files-into-one/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/16/p1-combining-multiple-csv-files-into-one/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>In 2004 We In The Blogging World Didn’t Have Cynicism</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Reflecting on &lt;a href=&quot;http://rolandtanglao.com/2019/11/14/p1-congrats-miss604-on-15-years-of-blogging/&quot;&gt;yesterday’s blogging gathering of “grey-beard” :-) bloggers from 2004 and beyond:&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.rolandmicroblog.com/2019/11/15/in-we-in.html&quot;&gt;In 2004 We In The Blogging World Didn’t Have Cynicism&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 15 Nov 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/11/15/p1-in-2004-we-in-the-blogging-world-did-not-have-cynicism/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/15/p1-in-2004-we-in-the-blogging-world-did-not-have-cynicism/</guid>
         
         
       </item>
