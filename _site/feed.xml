@@ -6,9 +6,48 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 26 Nov 2019 05:50:50 -0800</pubDate>
-    <lastBuildDate>Tue, 26 Nov 2019 05:50:50 -0800</lastBuildDate>
+    <pubDate>Wed, 27 Nov 2019 07:26:04 -0800</pubDate>
+    <lastBuildDate>Wed, 27 Nov 2019 07:26:04 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Zazzle infographic from Berlin July 2019 - 75 pixel circular thumbnail from 168 thumbnails (24x28 = 1800px2100px) (spot yesterday's bug: 'ls -1tr' instead of 'ls -1')</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Did you spot the typo from yesterday’s &lt;a href=&quot;http://rolandtanglao.com/2019/11/26/p1-zazzle-berlin-july-2019-info-graphic-circular-150-pixel-thumbnails/&quot;&gt;Zazzle infographic from Berlin July 2019 - 150px circular thumbnail from 168 thumbnails (12x14 = 1800px2100px)&lt;/a&gt;?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Yes &lt;code class=&quot;highlighter-rouge&quot;&gt;ls -1tr&lt;/code&gt; instead of &lt;code class=&quot;highlighter-rouge&quot;&gt;ls -1&lt;/code&gt; because the latter sorts by name instead of by time created which means yesterday’s infographic was chronologically sorted instead of randomly sorted. Obviously I prefer the randomly sorted :-) #ymmv&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;colophon&quot;&gt;Colophon&lt;/h2&gt;
+
+&lt;p&gt;From the &lt;a href=&quot;https://github.com/rtanglao/rt-berlin-july-2019/blob/master/README.md#november-26-2019&quot;&gt;README&lt;/a&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;mkdir &lt;/span&gt;75x75
+&lt;span class=&quot;c&quot;&gt;# set id is: 72157709917594396 which comes from the album url:&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# https://www.flickr.com/photos/roland/albums/72157709917594396&lt;/span&gt;
+./get-thumbnail-75-berlin-2019.rb 72157709917594396 2&amp;gt;/tmp/log.txt &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;berlin2019-url-75x75.txt
+&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;75x75
+&lt;span class=&quot;nb&quot;&gt;cat&lt;/span&gt; ../berlin2019-url-75x75.txt  | ../backup75x75.rb
+&lt;span class=&quot;c&quot;&gt;# 2100/75 = 28, 1800/75 = 24, 24 * 28 = 672&lt;/span&gt;
+find &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-type&lt;/span&gt; f | &lt;span class=&quot;nb&quot;&gt;shuf&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-n672&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; rt-berlin-july2019-672files.txt 
+&lt;span class=&quot;nb&quot;&gt;mkdir &lt;/span&gt;CIRCULAR
+&lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;rt-berlin-july2019-672files.txt | parallel magick &lt;span class=&quot;s1&quot;&gt;'{}'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-vignette&lt;/span&gt; 0x0+0+0 &lt;span class=&quot;s1&quot;&gt;'CIRCULAR/{}'&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;CIRCULAR
+&lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-1tr&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.jpg &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; 672jpgs.txt
+montage &lt;span class=&quot;nt&quot;&gt;-verbose&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-tile&lt;/span&gt; 24x28 +frame +shadow +label &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-geometry&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'75x75+0+0&amp;lt;'&lt;/span&gt; @672jpgs.txt rt-berlin-12-14-75x75.jpg
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Wed, 27 Nov 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/11/27/p1-zazzle-berlin-july-2019-info-graphic-circular-75-pixel-thumbnails/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/27/p1-zazzle-berlin-july-2019-info-graphic-circular-75-pixel-thumbnails/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Zazzle infographic from Berlin July 2019 - 150px circular thumbnail from 168 thumbnails (12x14 = 1800px2100px)</title>
@@ -343,26 +382,6 @@ montage &lt;span class=&quot;nt&quot;&gt;-verbose&lt;/span&gt; &lt;span class=&q
         <pubDate>Mon, 18 Nov 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/11/18/p1-nodewatch-banglejs-the-hackable-smart-watch/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/11/18/p1-nodewatch-banglejs-the-hackable-smart-watch/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Possible Berlin 2020 Mozilla All Hands Swag: Berlin circular cropped photos on the back, contributor infographic on the front</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;On the back: &lt;a href=&quot;http://rolandtanglao.com/2019/08/18/p1-use-imagemagick-vignette-to-do-circular-crop/&quot;&gt;use imagemagick to make a  circular crop&lt;/a&gt; of my &lt;a href=&quot;https://www.flickr.com/photos/roland/albums/72157709917594396&quot;&gt;Berlin July 2019 photos&lt;/a&gt; spelling out “Berlin 2020”.  Randomly select 75x75 patches and apply a” circular crop to them.&lt;/li&gt;
-  &lt;li&gt;On the front, make graphics from contributors’ &lt;a href=&quot;https://github.com/rtanglao/rt-kits-api2/blob/master/print-desktop-contributors.rb&quot;&gt;answers&lt;/a&gt; on SUMO spelling out “Firefox Support” or some such.
-    &lt;ul&gt;
-      &lt;li&gt;Perhaps a 26 colour infographic (do a &lt;code class=&quot;highlighter-rouge&quot;&gt;mod 26&lt;/code&gt; on each character of an answer?!?!)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 17 Nov 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/11/17/p1-berlin-infographic-2019-2020-for-mozilla-swag/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/17/p1-berlin-infographic-2019-2020-for-mozilla-swag/</guid>
         
         
       </item>
