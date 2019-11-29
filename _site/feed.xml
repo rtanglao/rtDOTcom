@@ -6,9 +6,27 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 27 Nov 2019 07:26:04 -0800</pubDate>
-    <lastBuildDate>Wed, 27 Nov 2019 07:26:04 -0800</lastBuildDate>
+    <pubDate>Thu, 28 Nov 2019 21:11:19 -0800</pubDate>
+    <lastBuildDate>Thu, 28 Nov 2019 21:11:19 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Carolyn Stransky: How to remove condescending language from documentation </title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'With documentation, it's rare for terms like &quot;easy&quot; to be intentionally condescending. Often times, writers use them to show that something isn't as intimidating as it sounds. If this is the case, think about what the docs are trying to communicate and replace the condescending language with word choices that better represent the intention'&lt;/code&gt; &amp;lt;- from Carolyn Stransky: &lt;a href=&quot;https://dev.to/meeshkan/how-to-remove-condescending-language-from-documentation-4a5p&quot;&gt;How to remove condescending language from documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Seems like a similar but less difficult version of &lt;a href=&quot;http://rolandtanglao.com/2019/11/07/p1-tyee-comments-no-insults-de-ranting/&quot;&gt;de-ranting&lt;/a&gt;. But I could be wrong about the level of difficulty.&lt;/li&gt;
+  &lt;li&gt;There are lessons here for asking support questions on the internet; most obviously that users being condescending towards support folks and to software designers and developers not only isn’t necessary but can be unhelpful and damaging.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Thu, 28 Nov 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/11/28/p1-howto-remove-condesceding-language-from-documentation/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/28/p1-howto-remove-condesceding-language-from-documentation/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Zazzle infographic from Berlin July 2019 - 75 pixel circular thumbnail from 168 thumbnails (24x28 = 1800px2100px) (spot yesterday's bug: 'ls -1tr' instead of 'ls -1')</title>
@@ -366,22 +384,6 @@ montage &lt;span class=&quot;nt&quot;&gt;-verbose&lt;/span&gt; &lt;span class=&q
         <pubDate>Tue, 19 Nov 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/11/19/p1-why-do-we-only-care-about-programmers/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/11/19/p1-why-do-we-only-care-about-programmers/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Backed Bangle.js: the hackable Smart Watch</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Backed: &lt;a href=&quot;https://www.kickstarter.com/projects/gfw/banglejs-the-hackable-smart-watch&quot;&gt;Bangle.js: the hackable Smart Watch&lt;/a&gt; (via &lt;a href=&quot;https://twitter.com/triagegirl/status/1194863036864987137&quot;&gt;Emma&lt;/a&gt;). It’s the same as the nodewatch which was given to 400 nodeconf eu attendees recently. And it’s open source!&lt;/li&gt;
-  &lt;li&gt;It seems to have most  (except WiFi) of what I blogged about previously:  &lt;a href=&quot;http://rolandtanglao.com/2019/11/13/p1-someday-i-will-have-open-source-watch-on-my-wrist/&quot;&gt;Someday I’ll wear an open source watch running my own software on my wrist perhaps a future version of DSTIKE ESP32 Watch DevKit&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 18 Nov 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/11/18/p1-nodewatch-banglejs-the-hackable-smart-watch/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/18/p1-nodewatch-banglejs-the-hackable-smart-watch/</guid>
         
         
       </item>
