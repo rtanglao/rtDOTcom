@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 28 Nov 2019 21:11:19 -0800</pubDate>
-    <lastBuildDate>Thu, 28 Nov 2019 21:11:19 -0800</lastBuildDate>
+    <pubDate>Fri, 29 Nov 2019 22:29:33 -0800</pubDate>
+    <lastBuildDate>Fri, 29 Nov 2019 22:29:33 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Inessential: This Feature Should Be Easy</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Avoid the word easy when it comes to features (or &lt;a href=&quot;http://rolandtanglao.com/2019/11/28/p1-howto-remove-condesceding-language-from-documentation/&quot;&gt;documentation&lt;/a&gt;) &amp;lt;— tl;dr from I&lt;a href=&quot;https://inessential.com/2019/11/03/this_feature_should_be_easy&quot;&gt;nessential: This Feature Should Be Easy&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Nothing is easy! Please continue to report bugs and ask for feature requests, just don’t use the words &lt;code class=&quot;highlighter-rouge&quot;&gt;easy&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;should&lt;/code&gt;!&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Fri, 29 Nov 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/11/29/p1-inessential-this-feature-should-be-easy/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/29/p1-inessential-this-feature-should-be-easy/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Carolyn Stransky: How to remove condescending language from documentation </title>
@@ -368,22 +385,6 @@ montage &lt;span class=&quot;nt&quot;&gt;-verbose&lt;/span&gt; &lt;span class=&q
         <pubDate>Wed, 20 Nov 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/11/20/p1-client-side-replay-using-service-workers-to-emulate-web-servers-in-web-browsers/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/11/20/p1-client-side-replay-using-service-workers-to-emulate-web-servers-in-web-browsers/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Hannah Howard: Why do we only care about programmers?</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Though I’ve only been part of the programming class a short time, it’s hard for me not to recognize that most of the positions I’ve been employed in before were nonetheless quite privileged. While the retail store’s salaries were weak, the health benefits were amazing. When I inquired about the security guards who worked at the store, I learned they were subcontracted through another company and they didn’t get any of the benefits I got.&quot;&lt;/code&gt; &amp;lt;- from Hannah Howard’s &lt;a href=&quot;https://modelviewculture.com/pieces/why-do-we-only-care-about-programmers&quot;&gt;Why do we only care about programmers&lt;/a&gt;? Read the whole thing!&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Tue, 19 Nov 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/11/19/p1-why-do-we-only-care-about-programmers/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/19/p1-why-do-we-only-care-about-programmers/</guid>
         
         
       </item>
