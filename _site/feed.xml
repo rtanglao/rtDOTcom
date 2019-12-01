@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 29 Nov 2019 22:29:33 -0800</pubDate>
-    <lastBuildDate>Fri, 29 Nov 2019 22:29:33 -0800</lastBuildDate>
+    <pubDate>Sun, 01 Dec 2019 08:10:03 -0800</pubDate>
+    <lastBuildDate>Sun, 01 Dec 2019 08:10:03 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Enjoying my bluetooth SmartMike+ from Kickstarter for recording podcasts to rolandmicroblog wirelessly</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Enjoying my bluetooth &lt;a href=&quot;https://www.kickstarter.com/projects/117828565/smartmike-revolutionary-wireless-mic-for-content-creators/&quot;&gt;SmartMike+&lt;/a&gt; from Kickstarter for recording podcasts to rolandmicroblog wirelessly&lt;/li&gt;
+  &lt;li&gt;eg.  &lt;a href=&quot;https://www.rolandmicroblog.com/2019/11/30/wann-wird-es.html&quot;&gt;Wann wird es endlich wieder Sommer?&lt;/a&gt; :-)&lt;/li&gt;
+  &lt;li&gt;Haven’t yet tried the repeater function with a second bluetooth SmartMike+ or tried recording two folks at once.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 01 Dec 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/12/01/p1-enjoying-smartmike-bluetooth-microphone-recording-podcasts-wirelessly/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/12/01/p1-enjoying-smartmike-bluetooth-microphone-recording-podcasts-wirelessly/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Inessential: This Feature Should Be Easy</title>
@@ -369,22 +386,6 @@ montage &lt;span class=&quot;nt&quot;&gt;-verbose&lt;/span&gt; &lt;span class=&q
         <pubDate>Thu, 21 Nov 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/11/21/p1-kitsune-api-tester/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/11/21/p1-kitsune-api-tester/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Ilya Kreymer's Client-Side Replay Technology: using service workers to emulate web servers in web browsers</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;But what if it were possible to ‘render’ an arbitrary web archive, directly in the browser, just as easily as it is to view a video or a PDF?&quot;&lt;/code&gt; &amp;lt;- from Guest post: DSHR’s Blog &lt;a href=&quot;https://blog.dshr.org/2019/10/guest-post-ilya-kreymers-client-side.html&quot;&gt;Ilya Kreymer’s Client-Side Replay Technology&lt;/a&gt;! Read the whole thing!&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Wed, 20 Nov 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/11/20/p1-client-side-replay-using-service-workers-to-emulate-web-servers-in-web-browsers/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/20/p1-client-side-replay-using-service-workers-to-emulate-web-servers-in-web-browsers/</guid>
         
         
       </item>
