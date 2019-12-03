@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 01 Dec 2019 08:10:03 -0800</pubDate>
-    <lastBuildDate>Sun, 01 Dec 2019 08:10:03 -0800</lastBuildDate>
+    <pubDate>Mon, 02 Dec 2019 21:06:54 -0800</pubDate>
+    <lastBuildDate>Mon, 02 Dec 2019 21:06:54 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Inessential: The best time to start a blog is 20 years ago. The second-best time is today :-)</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Old proverb: “The best time to start a blog is 20 years ago. The second-best time is today.” :) &lt;/code&gt; &amp;lt;— from inessential aka Brent Simmons: &lt;a href=&quot;https://inessential.com/2019/11/07/happy_20th_to_this_blog_&quot;&gt;Happy 20th to This Blog&lt;/a&gt;!&lt;/li&gt;
+  &lt;li&gt;#ymmv of course but &lt;a href=&quot;http://localhost:4000/2018/07/24/p1-daily-blogging-and-frequent-coding/&quot;&gt;daily writing publicly or even privately&lt;/a&gt; will help in the long run!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 02 Dec 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/12/02/p1-best-time-to-start-a-blog-20-yearsago-2nd-best-today/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/12/02/p1-best-time-to-start-a-blog-20-yearsago-2nd-best-today/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Enjoying my bluetooth SmartMike+ from Kickstarter for recording podcasts to rolandmicroblog wirelessly</title>
@@ -361,31 +377,6 @@ montage &lt;span class=&quot;nt&quot;&gt;-verbose&lt;/span&gt; &lt;span class=&q
         <pubDate>Fri, 22 Nov 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/11/22/p1-kitsune-question-answer-api-to-csv-with-tests/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/11/22/p1-kitsune-question-answer-api-to-csv-with-tests/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>NICE TO HAVE: Kitsune questions and answers API tester</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;p&gt;Checker 1 of the Kitsune &lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/sample-question-api-result.md&quot;&gt;questions&lt;/a&gt; and &lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-api/blob/master/answerTestAPI.rb&quot;&gt;answers&lt;/a&gt; API. Call the API  and then&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Check that every field is present and new fields haven’t been added or old fields deleted&lt;/li&gt;
-  &lt;li&gt;Check every field’s type is correct, string, date, integer&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Checker 2&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Check a specific question and specific answer and ensure all values are correct&lt;/li&gt;
-&lt;/ol&gt;
-
-</description>
-        <pubDate>Thu, 21 Nov 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/11/21/p1-kitsune-api-tester/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/21/p1-kitsune-api-tester/</guid>
         
         
       </item>
