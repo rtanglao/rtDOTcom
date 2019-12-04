@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 02 Dec 2019 21:06:54 -0800</pubDate>
-    <lastBuildDate>Mon, 02 Dec 2019 21:06:54 -0800</lastBuildDate>
+    <pubDate>Tue, 03 Dec 2019 22:28:13 -0800</pubDate>
+    <lastBuildDate>Tue, 03 Dec 2019 22:28:13 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Windows 10 keyboard shortcut: Control Shift End to select to end of line (and then delete to delete it)</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://answers.microsoft.com/en-us/msoffice/forum/all/ctrl-shift-end-and-ctrl-shift-home-suddenly-not/0e09e45a-2601-4066-b4fb-550cfb8e7884&quot;&gt;Control Shift End&lt;/a&gt; to select to end of line (and then delete to delete it)&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 03 Dec 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/12/03/p1-windows-10-keyboard-shortcut-control-shift-end-to-select-end-of-line/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/12/03/p1-windows-10-keyboard-shortcut-control-shift-end-to-select-end-of-line/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Inessential: The best time to start a blog is 20 years ago. The second-best time is today :-)</title>
@@ -361,22 +377,6 @@ montage &lt;span class=&quot;nt&quot;&gt;-verbose&lt;/span&gt; &lt;span class=&q
         <pubDate>Sat, 23 Nov 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/11/23/p1-ink-and-switch-local-first-software/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/11/23/p1-ink-and-switch-local-first-software/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Kitsune Questions and Answers API to CSV with tests</title>
-        <description>&lt;h1 id=&quot;pontification&quot;&gt;Pontification&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Following on from yesterday’s &lt;a href=&quot;http://rolandtanglao.com/2019/11/21/p1-kitsune-api-tester/&quot;&gt;NICE TO HAVE: Kitsune questions and answers API tester&lt;/a&gt;, the next logical step is something that reads the Kitsune API for questions and answers, converts it to CSV and has unit tests to insure it is working.&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Fri, 22 Nov 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/11/22/p1-kitsune-question-answer-api-to-csv-with-tests/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/22/p1-kitsune-question-answer-api-to-csv-with-tests/</guid>
         
         
       </item>
