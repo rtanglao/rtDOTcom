@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 03 Dec 2019 22:28:13 -0800</pubDate>
-    <lastBuildDate>Tue, 03 Dec 2019 22:28:13 -0800</lastBuildDate>
+    <pubDate>Wed, 04 Dec 2019 22:02:47 -0800</pubDate>
+    <lastBuildDate>Wed, 04 Dec 2019 22:02:47 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Carolyn Stransky: Life is hard and so is learning GraphQL at ReactJS Girls Conference</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://dev.to/carolstran/life-is-hard-and-so-is-learning-graphql-at-reactjs-girls-conference-4bg&quot;&gt;Life is hard and so is learning GraphQL at ReactJS Girls Conference&lt;/a&gt; -&amp;lt;- Gotta watch this! Sounds like a better way to do APIs. Maybe the Kitsune API could use this in the future!&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 04 Dec 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/12/04/p1-life-is-hardand-so-is-learning-graphql/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/12/04/p1-life-is-hardand-so-is-learning-graphql/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Windows 10 keyboard shortcut: Control Shift End to select to end of line (and then delete to delete it)</title>
@@ -361,22 +377,6 @@ montage &lt;span class=&quot;nt&quot;&gt;-verbose&lt;/span&gt; &lt;span class=&q
         <pubDate>Sun, 24 Nov 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/11/24/p1-what-is-your-happy-non-tech-place/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/11/24/p1-what-is-your-happy-non-tech-place/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Ink and Switch - Local First Software</title>
-        <description>&lt;h1 id=&quot;pontification&quot;&gt;Pontification&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt; &quot;Today it is easy to create a web application in which the server takes  ownership of all the data. But it is too hard to build collaborative  software that respects users’ ownership and agency. In order to shift  the balance, we need to improve the tools for developing local-first  software.&quot;&lt;/code&gt;&amp;lt;—- Read the whole thing: &lt;a href=&quot;https://www.inkandswitch.com/local-first.html&quot;&gt;Ink and Switch - Local First Software&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sat, 23 Nov 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/11/23/p1-ink-and-switch-local-first-software/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/23/p1-ink-and-switch-local-first-software/</guid>
         
         
       </item>
