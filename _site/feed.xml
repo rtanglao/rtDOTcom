@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 04 Dec 2019 22:02:47 -0800</pubDate>
-    <lastBuildDate>Wed, 04 Dec 2019 22:02:47 -0800</lastBuildDate>
+    <pubDate>Thu, 05 Dec 2019 22:37:55 -0800</pubDate>
+    <lastBuildDate>Thu, 05 Dec 2019 22:37:55 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Aaron Parecki: Tools and apps for home automation without relying on cloud services</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Here is a list of all the various home automation tools and apps I use. Overall, my main goal is to have everything running locally, without  relying on cloud services. This pretty much rules out all products by  Amazon and Google, and many others. It also means sometimes it's more  work to get things running, but it's worth it in the end.&lt;/code&gt; &amp;lt;- From &lt;a href=&quot;https://aaronparecki.com/home-automation/&quot;&gt;Home Automation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Not sure I want to do this with or without the cloud :-) Curmudgeon-ish I know :-)&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Thu, 05 Dec 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/12/05/p1-aaronparecki-home-automation-without-the-cloud/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/12/05/p1-aaronparecki-home-automation-without-the-cloud/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Carolyn Stransky: Life is hard and so is learning GraphQL at ReactJS Girls Conference</title>
@@ -356,27 +373,6 @@ montage &lt;span class=&quot;nt&quot;&gt;-verbose&lt;/span&gt; &lt;span class=&q
         <pubDate>Mon, 25 Nov 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/11/25/p1-howto-use-firefox-developer-tools-to-extract-list-from-webpage/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/11/25/p1-howto-use-firefox-developer-tools-to-extract-list-from-webpage/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>What is your happy non tech place? Mine is cross-country skiing, taking photos (not editing them), bicycling and walking with my family</title>
-        <description>&lt;h1 id=&quot;pontification&quot;&gt;Pontification&lt;/h1&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; data-header=&quot;true&quot; data-footer=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/49113371461/in/dateposted/&quot; title=&quot;IMG_20191123_124240_944&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/49113371461_3d10a4df6b.jpg&quot; width=&quot;500&quot; height=&quot;500&quot; alt=&quot;IMG_20191123_124240_944&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Cross-country skiing is such a happy place for me (and our entire family; so lucky to have found something we all love to do and to do together!&lt;/li&gt;
-  &lt;li&gt;So is taking photos (not editing them except for fast edits in RNI films )&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.flickr.com/photos/roland/tags/changeyourliferideabike&quot;&gt;Bicycling&lt;/a&gt; of course!&lt;/li&gt;
-  &lt;li&gt;And finally walking&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sun, 24 Nov 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/11/24/p1-what-is-your-happy-non-tech-place/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/24/p1-what-is-your-happy-non-tech-place/</guid>
         
         
       </item>
