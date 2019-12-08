@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 07 Dec 2019 20:32:49 -0800</pubDate>
-    <lastBuildDate>Sat, 07 Dec 2019 20:32:49 -0800</lastBuildDate>
+    <pubDate>Sun, 08 Dec 2019 08:24:15 -0800</pubDate>
+    <lastBuildDate>Sun, 08 Dec 2019 08:24:15 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Tomas Petricek: Analyzing and visualizing data with F#</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;There are a lot of languages and tools that can be used for data science. Why should you choose F#? A two-word answer to the question is type providers. However, there are other reasons.&quot;&lt;/code&gt; &amp;lt;- From Tomas Petricek: &lt;a href=&quot;https://www.oreilly.com/ideas/analyzing-and-visualizing-data-with-f-sharp&quot;&gt;Analyzing and visualizing data with F#&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;F#’s &lt;strong&gt;type providers&lt;/strong&gt; sound great!&lt;/li&gt;
+  &lt;li&gt;I’m intrigued by &lt;a href=&quot;https://fsharp.org/&quot;&gt;F#&lt;/a&gt; and the fact that there is a verified implementation of TLS in F# and &lt;a href=&quot;https://www.microsoft.com/en-us/research/project/f7-refinement-types-for-f/?from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fprojects%2Ff7%2F&quot;&gt;F7&lt;/a&gt;, &lt;a href=&quot;https://www.mitls.org/&quot;&gt;miTLS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 08 Dec 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/12/08/p1-tomas-petricek-analyzing-and-visualizing-data-with-f-sharp/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/12/08/p1-tomas-petricek-analyzing-and-visualizing-data-with-f-sharp/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Greg Wilson: Cutting Corners</title>
@@ -155,45 +172,6 @@
         <pubDate>Thu, 28 Nov 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/11/28/p1-howto-remove-condesceding-language-from-documentation/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/11/28/p1-howto-remove-condesceding-language-from-documentation/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Zazzle infographic from Berlin July 2019 - 75 pixel circular thumbnail from 168 thumbnails (24x28 = 1800px2100px) (spot yesterday's bug: 'ls -1tr' instead of 'ls -1')</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Did you spot the typo from yesterday’s &lt;a href=&quot;http://rolandtanglao.com/2019/11/26/p1-zazzle-berlin-july-2019-info-graphic-circular-150-pixel-thumbnails/&quot;&gt;Zazzle infographic from Berlin July 2019 - 150px circular thumbnail from 168 thumbnails (12x14 = 1800px2100px)&lt;/a&gt;?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Yes &lt;code class=&quot;highlighter-rouge&quot;&gt;ls -1tr&lt;/code&gt; instead of &lt;code class=&quot;highlighter-rouge&quot;&gt;ls -1&lt;/code&gt; because the latter sorts by name instead of by time created which means yesterday’s infographic was chronologically sorted instead of randomly sorted. Obviously I prefer the randomly sorted :-) #ymmv&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;colophon&quot;&gt;Colophon&lt;/h2&gt;
-
-&lt;p&gt;From the &lt;a href=&quot;https://github.com/rtanglao/rt-berlin-july-2019/blob/master/README.md#november-26-2019&quot;&gt;README&lt;/a&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;mkdir &lt;/span&gt;75x75
-&lt;span class=&quot;c&quot;&gt;# set id is: 72157709917594396 which comes from the album url:&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# https://www.flickr.com/photos/roland/albums/72157709917594396&lt;/span&gt;
-./get-thumbnail-75-berlin-2019.rb 72157709917594396 2&amp;gt;/tmp/log.txt &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;berlin2019-url-75x75.txt
-&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;75x75
-&lt;span class=&quot;nb&quot;&gt;cat&lt;/span&gt; ../berlin2019-url-75x75.txt  | ../backup75x75.rb
-&lt;span class=&quot;c&quot;&gt;# 2100/75 = 28, 1800/75 = 24, 24 * 28 = 672&lt;/span&gt;
-find &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-type&lt;/span&gt; f | &lt;span class=&quot;nb&quot;&gt;shuf&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-n672&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; rt-berlin-july2019-672files.txt 
-&lt;span class=&quot;nb&quot;&gt;mkdir &lt;/span&gt;CIRCULAR
-&lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;rt-berlin-july2019-672files.txt | parallel magick &lt;span class=&quot;s1&quot;&gt;'{}'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-vignette&lt;/span&gt; 0x0+0+0 &lt;span class=&quot;s1&quot;&gt;'CIRCULAR/{}'&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;CIRCULAR
-&lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-1tr&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.jpg &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; 672jpgs.txt
-montage &lt;span class=&quot;nt&quot;&gt;-verbose&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-tile&lt;/span&gt; 24x28 +frame +shadow +label &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-geometry&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'75x75+0+0&amp;lt;'&lt;/span&gt; @672jpgs.txt rt-berlin-12-14-75x75.jpg
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-</description>
-        <pubDate>Wed, 27 Nov 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/11/27/p1-zazzle-berlin-july-2019-info-graphic-circular-75-pixel-thumbnails/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/27/p1-zazzle-berlin-july-2019-info-graphic-circular-75-pixel-thumbnails/</guid>
         
         
       </item>
