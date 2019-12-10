@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 08 Dec 2019 08:24:15 -0800</pubDate>
-    <lastBuildDate>Sun, 08 Dec 2019 08:24:15 -0800</lastBuildDate>
+    <pubDate>Mon, 09 Dec 2019 20:56:43 -0800</pubDate>
+    <lastBuildDate>Mon, 09 Dec 2019 20:56:43 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Simon  Willison: Better presentations through story telling: AIM, Star (and bonus: sparklines)</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Every talk should start with an AIM: Audience, Intent, Message...Try to include at least one STAR moment—Something They’ll Always Remember. ... Presentations are most interesting if they are structured with contrasts. ... When giving a talk, position your audience as the hero. They start in position of comfort and safety. Your job is to call them to adventure&quot;&lt;/code&gt;&amp;lt;— Read the whole thing: &lt;a href=&quot;https://simonwillison.net/2019/Dec/10/better-presentations/&quot;&gt;Simon  Willison: Better presentations through story telling&lt;/a&gt; (and bonus: &lt;a href=&quot;https://www.duarte.com/presentation-skills-resources/creating-moments-of-impact-using-sparklines-for-strategic-conversations/&quot;&gt;Creating Moments of Impact: Using Sparklines for Strategic Conversations&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 09 Dec 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/12/09/p1-simon-williso-better-presentations-storytelling-sparklines/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/12/09/p1-simon-williso-better-presentations-storytelling-sparklines/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Tomas Petricek: Analyzing and visualizing data with F#</title>
@@ -154,24 +169,6 @@
         <pubDate>Fri, 29 Nov 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/11/29/p1-inessential-this-feature-should-be-easy/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/11/29/p1-inessential-this-feature-should-be-easy/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Carolyn Stransky: How to remove condescending language from documentation </title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;'With documentation, it's rare for terms like &quot;easy&quot; to be intentionally condescending. Often times, writers use them to show that something isn't as intimidating as it sounds. If this is the case, think about what the docs are trying to communicate and replace the condescending language with word choices that better represent the intention'&lt;/code&gt; &amp;lt;- from Carolyn Stransky: &lt;a href=&quot;https://dev.to/meeshkan/how-to-remove-condescending-language-from-documentation-4a5p&quot;&gt;How to remove condescending language from documentation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Seems like a similar but less difficult version of &lt;a href=&quot;http://rolandtanglao.com/2019/11/07/p1-tyee-comments-no-insults-de-ranting/&quot;&gt;de-ranting&lt;/a&gt;. But I could be wrong about the level of difficulty.&lt;/li&gt;
-  &lt;li&gt;There are lessons here for asking support questions on the internet; most obviously that users being condescending towards support folks and to software designers and developers not only isn’t necessary but can be unhelpful and damaging.&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Thu, 28 Nov 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/11/28/p1-howto-remove-condesceding-language-from-documentation/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/28/p1-howto-remove-condesceding-language-from-documentation/</guid>
         
         
       </item>
