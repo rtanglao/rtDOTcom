@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 09 Dec 2019 20:56:43 -0800</pubDate>
-    <lastBuildDate>Mon, 09 Dec 2019 20:56:43 -0800</lastBuildDate>
+    <pubDate>Tue, 10 Dec 2019 19:17:32 -0800</pubDate>
+    <lastBuildDate>Tue, 10 Dec 2019 19:17:32 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Greg Wilson: Allocating Responsibilities (rotating decomposition is my favourite)</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Finally, there is rotating decomposition: everyone does one task for a few weeks, then a different task for the new few, and so on. This is initially less productive in absolute terms than either of the preceding strategies, since the team has to pay for ramp-up several times over. In the long term, though, it outperforms the alternatives: it is more robust (having a team member drop out is less harmful), and if everyone on the team is familiar with every aspect of the software, they can all contribute to design and debugging sessions.&quot;&lt;/code&gt;&amp;lt;— Read the whole thing: &lt;a href=&quot;http://third-bit.com/2019/11/19/responsibilities.html&quot;&gt;Greg Wilson: Allocating Responsibilities&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 10 Dec 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/12/10/p1-greg-wilson-allocating-responsibilities/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/12/10/p1-greg-wilson-allocating-responsibilities/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Simon  Willison: Better presentations through story telling: AIM, Star (and bonus: sparklines)</title>
@@ -152,23 +167,6 @@
         <pubDate>Sun, 01 Dec 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/12/01/p1-enjoying-smartmike-bluetooth-microphone-recording-podcasts-wirelessly/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/12/01/p1-enjoying-smartmike-bluetooth-microphone-recording-podcasts-wirelessly/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Inessential: This Feature Should Be Easy</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Avoid the word easy when it comes to features (or &lt;a href=&quot;http://rolandtanglao.com/2019/11/28/p1-howto-remove-condesceding-language-from-documentation/&quot;&gt;documentation&lt;/a&gt;) &amp;lt;— tl;dr from I&lt;a href=&quot;https://inessential.com/2019/11/03/this_feature_should_be_easy&quot;&gt;nessential: This Feature Should Be Easy&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Nothing is easy! Please continue to report bugs and ask for feature requests, just don’t use the words &lt;code class=&quot;highlighter-rouge&quot;&gt;easy&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;should&lt;/code&gt;!&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Fri, 29 Nov 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/11/29/p1-inessential-this-feature-should-be-easy/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/11/29/p1-inessential-this-feature-should-be-easy/</guid>
         
         
       </item>

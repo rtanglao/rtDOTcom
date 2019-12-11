@@ -1,8 +1,0 @@
-I"�<h1 id="pontifications">Pontifications</h1>
-
-<ul>
-  <li><code class="highlighter-rouge">"There are a lot of languages and tools that can be used for data science. Why should you choose F#? A two-word answer to the question is type providers. However, there are other reasons."</code> &lt;- From Tomas Petricek: <a href="https://www.oreilly.com/ideas/analyzing-and-visualizing-data-with-f-sharp">Analyzing and visualizing data with F#</a></li>
-  <li>F#’s <strong>type providers</strong> sound great!</li>
-  <li>I’m intrigued by F# and the fact that there is a verified implementation of TLS in F#, <a href="https://www.mitls.org/">miTLS</a></li>
-</ul>
-:ET
