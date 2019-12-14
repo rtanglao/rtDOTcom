@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 11 Dec 2019 17:07:24 -0800</pubDate>
-    <lastBuildDate>Wed, 11 Dec 2019 17:07:24 -0800</lastBuildDate>
+    <pubDate>Fri, 13 Dec 2019 19:00:41 -0800</pubDate>
+    <lastBuildDate>Fri, 13 Dec 2019 19:00:41 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>scrcpy: Display and control your Android device </title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;This application provides display and control of Android devices connected on USB (or over TCP/IP). It does not require any root access. It works on GNU/Linux, Windows and macOS.&quot;&lt;/code&gt;&amp;lt;-  &lt;a href=&quot;https://github.com/Genymobile/scrcpy#get-the-app&quot;&gt;scrcpy&lt;/a&gt;:  Display and control your Android device &amp;lt;— gotta try this!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 13 Dec 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/12/13/p1-scrcpy-display-and-control-your-android-phone-on-your-computer/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/12/13/p1-scrcpy-display-and-control-your-android-phone-on-your-computer/</guid>
+        
+        
+      </item>
     
       <item>
         <title>OpenAPI to GraphQL looks great</title>
@@ -151,22 +166,6 @@
         <pubDate>Tue, 03 Dec 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/12/03/p1-windows-10-keyboard-shortcut-control-shift-end-to-select-end-of-line/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/12/03/p1-windows-10-keyboard-shortcut-control-shift-end-to-select-end-of-line/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Inessential: The best time to start a blog is 20 years ago. The second-best time is today :-)</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Old proverb: “The best time to start a blog is 20 years ago. The second-best time is today.” :) &lt;/code&gt; &amp;lt;— from inessential aka Brent Simmons: &lt;a href=&quot;https://inessential.com/2019/11/07/happy_20th_to_this_blog_&quot;&gt;Happy 20th to This Blog&lt;/a&gt;!&lt;/li&gt;
-  &lt;li&gt;#ymmv of course but &lt;a href=&quot;http://localhost:4000/2018/07/24/p1-daily-blogging-and-frequent-coding/&quot;&gt;daily writing publicly or even privately&lt;/a&gt; will help in the long run!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 02 Dec 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/12/02/p1-best-time-to-start-a-blog-20-yearsago-2nd-best-today/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/12/02/p1-best-time-to-start-a-blog-20-yearsago-2nd-best-today/</guid>
         
         
       </item>
