@@ -6,9 +6,31 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 13 Dec 2019 19:00:41 -0800</pubDate>
-    <lastBuildDate>Fri, 13 Dec 2019 19:00:41 -0800</lastBuildDate>
+    <pubDate>Sat, 14 Dec 2019 10:05:25 -0800</pubDate>
+    <lastBuildDate>Sat, 14 Dec 2019 10:05:25 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Satellite Studio: OpenStreetMap Haiku &lt;-- 'tis fabulous</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;To generate a haiku with map  based on where you are, &lt;a href=&quot;https://satellitestud.io/osm-haiku/app/#14/40.7237/-73.9819&quot;&gt;click on this link and then tap on “Locate me!”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;And then take a screenshot and post to wherever :-)&lt;/li&gt;
+  &lt;li&gt;The announcement: (&lt;a href=&quot;https://satellitestud.io/blog/post/openstreetmap-haiku/&quot;&gt;OpenStreetMap Haiku: Using OSM and Overpass  for generative poetry&lt;/a&gt; )from the developers, Satellite Studio, is delightful and informative about the Overpass API for OSM&lt;/li&gt;
+  &lt;li&gt;Found via flowing data: &lt;a href=&quot;https://flowingdata.com/2019/12/12/haikus-generated-based-on-your-map-location/&quot;&gt;Haikus generated based on your map location and OpenStreetMap data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;sample-gastown-haiku-and-map&quot;&gt;Sample Gastown Haiku and map&lt;/h2&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/49218614172/in/dateposted-public/&quot; title=&quot;A walk in the park From the tidal pool Not too crowded in Nuba :-)&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/49218614172_85a5d52ecd_w.jpg&quot; width=&quot;225&quot; height=&quot;400&quot; alt=&quot;A walk in the park From the tidal pool Not too crowded in Nuba :-)&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 14 Dec 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/12/14/p1-satellite-studio-openstreetmap-haiku/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/12/14/p1-satellite-studio-openstreetmap-haiku/</guid>
+        
+        
+      </item>
     
       <item>
         <title>scrcpy: Display and control your Android device </title>
@@ -150,22 +172,6 @@
         <pubDate>Wed, 04 Dec 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/12/04/p1-life-is-hardand-so-is-learning-graphql/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/12/04/p1-life-is-hardand-so-is-learning-graphql/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Windows 10 keyboard shortcut: Control Shift End to select to end of line (and then delete to delete it)</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://answers.microsoft.com/en-us/msoffice/forum/all/ctrl-shift-end-and-ctrl-shift-home-suddenly-not/0e09e45a-2601-4066-b4fb-550cfb8e7884&quot;&gt;Control Shift End&lt;/a&gt; to select to end of line (and then delete to delete it)&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Tue, 03 Dec 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/12/03/p1-windows-10-keyboard-shortcut-control-shift-end-to-select-end-of-line/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/12/03/p1-windows-10-keyboard-shortcut-control-shift-end-to-select-end-of-line/</guid>
         
         
       </item>
