@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 15 Dec 2019 07:58:59 -0800</pubDate>
-    <lastBuildDate>Sun, 15 Dec 2019 07:58:59 -0800</lastBuildDate>
+    <pubDate>Tue, 17 Dec 2019 18:16:59 -0800</pubDate>
+    <lastBuildDate>Tue, 17 Dec 2019 18:16:59 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>You are in a maze of twisty proprietary :-) email gmail silos all alike aka Create a mail merge using Gmail and Google Sheets</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developers.google.com/gsuite/solutions/mail-merge&quot;&gt;Create a mail merge using Gmail and Google Sheets&lt;/a&gt; &amp;lt;—- remember when we used to do this with Excel and Outlook :-) ? Neither do I :-) !&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 17 Dec 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/12/17/p1-you-are-maze-of-proprietary-email-gmail-silos-all-alike/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/12/17/p1-you-are-maze-of-proprietary-email-gmail-silos-all-alike/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Ivy Lee Method: Write down 6 tasks at end of day, then do the 1st one first, 2nd one second, etc</title>
@@ -172,23 +187,6 @@
         <pubDate>Fri, 06 Dec 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/12/06/p1-textpipe-clean-and-extra-metadata-from-text/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/12/06/p1-textpipe-clean-and-extra-metadata-from-text/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Aaron Parecki: Tools and apps for home automation without relying on cloud services</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Here is a list of all the various home automation tools and apps I use. Overall, my main goal is to have everything running locally, without  relying on cloud services. This pretty much rules out all products by  Amazon and Google, and many others. It also means sometimes it's more  work to get things running, but it's worth it in the end.&quot;&lt;/code&gt; &amp;lt;- From &lt;a href=&quot;https://aaronparecki.com/home-automation/&quot;&gt;Home Automation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Not sure I want to do this with or without the cloud :-) Curmudgeon-ish I know :-)&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Thu, 05 Dec 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/12/05/p1-aaronparecki-home-automation-without-the-cloud/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/12/05/p1-aaronparecki-home-automation-without-the-cloud/</guid>
         
         
       </item>
