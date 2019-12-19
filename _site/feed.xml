@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 17 Dec 2019 18:16:59 -0800</pubDate>
-    <lastBuildDate>Tue, 17 Dec 2019 18:16:59 -0800</lastBuildDate>
+    <pubDate>Wed, 18 Dec 2019 18:16:07 -0800</pubDate>
+    <lastBuildDate>Wed, 18 Dec 2019 18:16:07 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Operation Elop: The final years of Nokia's mobile phones</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@harrikiljander/operation-elop-6f2b043f52c5&quot;&gt;Operation Elop: The final years of Nokia’s mobile phones&lt;/a&gt; &amp;lt;- I printed the PDF and saved it privately in my Dropbox for later reading!&lt;/li&gt;
+  &lt;li&gt;I was a Nokia MVP and love their phones especially the N95, the 808 and the 7610 from 2004.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 18 Dec 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/12/18/p1-operation-elop-the-final-years-nokia-mobile-phones/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/12/18/p1-operation-elop-the-final-years-nokia-mobile-phones/</guid>
+        
+        
+      </item>
     
       <item>
         <title>You are in a maze of twisty proprietary :-) email gmail silos all alike aka Create a mail merge using Gmail and Google Sheets</title>
@@ -171,22 +187,6 @@
         <pubDate>Sat, 07 Dec 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/12/07/p1-greg-wilson-cutting-corners/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/12/07/p1-greg-wilson-cutting-corners/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>textpipe: clean and extract metadata from text</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;textpipe is a Python package for converting raw text in to clean, readable text and extracting metadata from that text. Its functionalities include transforming raw text into readable text by removing HTML tags and extracting metadata such as the number of words and named entities from the text.&quot;&lt;/code&gt; &amp;lt;- From python pip docs for &lt;a href=&quot;https://pypi.org/project/textpipe/&quot;&gt;textpipe&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Look like this could be useful for extracting tags from support forum questions!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 06 Dec 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/12/06/p1-textpipe-clean-and-extra-metadata-from-text/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/12/06/p1-textpipe-clean-and-extra-metadata-from-text/</guid>
         
         
       </item>
