@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 19 Dec 2019 23:45:40 -0800</pubDate>
-    <lastBuildDate>Thu, 19 Dec 2019 23:45:40 -0800</lastBuildDate>
+    <pubDate>Fri, 20 Dec 2019 21:48:54 -0800</pubDate>
+    <lastBuildDate>Fri, 20 Dec 2019 21:48:54 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Happy Holidays and Happy New Year. See you in 2020!</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The title says it all :-)&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Fri, 20 Dec 2019 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2019/12/20/p1-happy-holidays-happy-new-year-2020/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2019/12/20/p1-happy-holidays-happy-new-year-2020/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Raul: Granular Planning and Rule of Threes strategy: Break into thirds, do 3 things per day, budget 3 times the amount needed</title>
@@ -170,23 +186,6 @@
         <pubDate>Mon, 09 Dec 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/12/09/p1-simon-williso-better-presentations-storytelling-sparklines/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/12/09/p1-simon-williso-better-presentations-storytelling-sparklines/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Tomas Petricek: Analyzing and visualizing data with F#</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;There are a lot of languages and tools that can be used for data science. Why should you choose F#? A two-word answer to the question is type providers. However, there are other reasons.&quot;&lt;/code&gt; &amp;lt;- From Tomas Petricek: &lt;a href=&quot;https://www.oreilly.com/ideas/analyzing-and-visualizing-data-with-f-sharp&quot;&gt;Analyzing and visualizing data with F#&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;F#’s &lt;strong&gt;type providers&lt;/strong&gt; sound great!&lt;/li&gt;
-  &lt;li&gt;I’m intrigued by &lt;a href=&quot;https://fsharp.org/&quot;&gt;F#&lt;/a&gt; and the fact that there is a verified implementation of TLS in F# and &lt;a href=&quot;https://www.microsoft.com/en-us/research/project/f7-refinement-types-for-f/?from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fprojects%2Ff7%2F&quot;&gt;F7&lt;/a&gt;, &lt;a href=&quot;https://www.mitls.org/&quot;&gt;miTLS&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 08 Dec 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/12/08/p1-tomas-petricek-analyzing-and-visualizing-data-with-f-sharp/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/12/08/p1-tomas-petricek-analyzing-and-visualizing-data-with-f-sharp/</guid>
         
         
       </item>
