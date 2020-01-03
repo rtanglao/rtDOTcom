@@ -6,9 +6,28 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 02 Jan 2020 08:29:18 -0800</pubDate>
-    <lastBuildDate>Thu, 02 Jan 2020 08:29:18 -0800</lastBuildDate>
+    <pubDate>Thu, 02 Jan 2020 22:34:17 -0800</pubDate>
+    <lastBuildDate>Thu, 02 Jan 2020 22:34:17 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Probably Wrong Prediction: Zero non Zero Emission Vehicles in cities by 2029</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The title says it all :-) AND:&lt;/li&gt;
+  &lt;li&gt;It would be better if this happens before 2029 say by 2025&lt;/li&gt;
+  &lt;li&gt;And then only Zero EVs everywhere by 2029&lt;/li&gt;
+  &lt;li&gt;I can dream about it :-)&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Thu, 02 Jan 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/01/02/p2-no-non-zero-evs-in-cities-2029-probably-wrong-prediction/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/01/02/p2-no-non-zero-evs-in-cities-2029-probably-wrong-prediction/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Happy New Year 2020 / Einen guten Rutsch ins neue Jahr :-)!</title>
@@ -172,21 +191,6 @@
         <pubDate>Wed, 11 Dec 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/12/11/p1-openapi-complement-to-graphql/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/12/11/p1-openapi-complement-to-graphql/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Greg Wilson: Allocating Responsibilities (rotating decomposition is my favourite)</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;Finally, there is rotating decomposition: everyone does one task for a few weeks, then a different task for the new few, and so on. This is initially less productive in absolute terms than either of the preceding strategies, since the team has to pay for ramp-up several times over. In the long term, though, it outperforms the alternatives: it is more robust (having a team member drop out is less harmful), and if everyone on the team is familiar with every aspect of the software, they can all contribute to design and debugging sessions.&quot;&lt;/code&gt;&amp;lt;— Read the whole thing: &lt;a href=&quot;http://third-bit.com/2019/11/19/responsibilities.html&quot;&gt;Greg Wilson: Allocating Responsibilities&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 10 Dec 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/12/10/p1-greg-wilson-allocating-responsibilities/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/12/10/p1-greg-wilson-allocating-responsibilities/</guid>
         
         
       </item>
