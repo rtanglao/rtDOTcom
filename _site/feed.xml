@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 02 Jan 2020 22:34:17 -0800</pubDate>
-    <lastBuildDate>Thu, 02 Jan 2020 22:34:17 -0800</lastBuildDate>
+    <pubDate>Fri, 03 Jan 2020 06:50:18 -0800</pubDate>
+    <lastBuildDate>Fri, 03 Jan 2020 06:50:18 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>NPR: It's 2050 And This Is How We Stopped Climate Change</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I hope some of the ideas in NPR: &lt;a href=&quot;https://www.npr.org/sections/goatsandsoda/2019/03/11/688876374/its-2050-and-this-is-how-we-stopped-climate-change&quot;&gt;It’s 2050 And This Is How We Stopped Climate Change&lt;/a&gt; actually get implemented by 2029.&lt;/li&gt;
+  &lt;li&gt;e.g. “The Urbanization of Everything” which is happening in Canada with &amp;gt;80% of folks living in cities or the near suburbs&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Fri, 03 Jan 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/01/03/p1-how-we-stopped-climate-change-by-2050/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/01/03/p1-how-we-stopped-climate-change-by-2050/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Probably Wrong Prediction: Zero non Zero Emission Vehicles in cities by 2029</title>
@@ -174,23 +191,6 @@
         <pubDate>Fri, 13 Dec 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/12/13/p1-scrcpy-display-and-control-your-android-phone-on-your-computer/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/12/13/p1-scrcpy-display-and-control-your-android-phone-on-your-computer/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>OpenAPI to GraphQL looks great</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.openapis.org/&quot;&gt;OpenAPI&lt;/a&gt; looks great!&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developer.ibm.com/open/projects/openapi-to-graphql/&quot;&gt;OpenAPI to GraphQL&lt;/a&gt; looks even greater :-)&lt;/li&gt;
-  &lt;li&gt;Previously: &lt;a href=&quot;http://rolandtanglao.com/2019/12/04/p1-life-is-hardand-so-is-learning-graphql/&quot;&gt;Carolyn Stransky: Life is hard and so is learning GraphQL at ReactJS Girls Conference&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 11 Dec 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/12/11/p1-openapi-complement-to-graphql/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/12/11/p1-openapi-complement-to-graphql/</guid>
         
         
       </item>
