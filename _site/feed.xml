@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 07 Jan 2020 18:55:49 -0800</pubDate>
-    <lastBuildDate>Tue, 07 Jan 2020 18:55:49 -0800</lastBuildDate>
+    <pubDate>Wed, 08 Jan 2020 21:28:58 -0800</pubDate>
+    <lastBuildDate>Wed, 08 Jan 2020 21:28:58 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Ivan Lokhov of datawrapper.de: Let’s eat our way through Berlin</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.datawrapper.de/weekly-food-places-berlin/&quot;&gt;Let’s eat our way through Berlin&lt;/a&gt; &amp;lt;— good tutorial on using datawrapper and great list of restaurants and cafes :-) Reminds me of leaflet (initially from CloudMade) which I’ve used in the past (see &lt;a href=&quot;http://rolandtanglao.com/2011/05/20/das-blinkenlights-w-cloudmade-apis-of-vancouver-and-san-francisco-real-time-geotagged-flickr-photos-use-map-removeoverlay/&quot;&gt;Das Blinkenlights w/CloudMade APIs of Vancouver &amp;amp; San Francisco real-time geotagged flickr photos: use map.removeOverlay()&lt;/a&gt; ) .&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 08 Jan 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/01/08/p1-berlin-restaurants-cafes-from-datawrapper-lead-developer/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/01/08/p1-berlin-restaurants-cafes-from-datawrapper-lead-developer/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Vowe: A personal Kanban board needs four columns:Do, Doing, Do Not, Done</title>
@@ -155,21 +171,6 @@
         <pubDate>Wed, 18 Dec 2019 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2019/12/18/p1-operation-elop-the-final-years-nokia-mobile-phones/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2019/12/18/p1-operation-elop-the-final-years-nokia-mobile-phones/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>You are in a maze of twisty proprietary :-) email gmail silos all alike aka Create a mail merge using Gmail and Google Sheets</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.google.com/gsuite/solutions/mail-merge&quot;&gt;Create a mail merge using Gmail and Google Sheets&lt;/a&gt; &amp;lt;—- remember when we used to do this with Excel and Outlook :-) ? Neither do I :-) !&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 17 Dec 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/12/17/p1-you-are-maze-of-proprietary-email-gmail-silos-all-alike/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/12/17/p1-you-are-maze-of-proprietary-email-gmail-silos-all-alike/</guid>
         
         
       </item>
