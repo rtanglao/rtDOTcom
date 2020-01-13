@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 11 Jan 2020 22:35:26 -0800</pubDate>
-    <lastBuildDate>Sat, 11 Jan 2020 22:35:26 -0800</lastBuildDate>
+    <pubDate>Sun, 12 Jan 2020 20:30:53 -0800</pubDate>
+    <lastBuildDate>Sun, 12 Jan 2020 20:30:53 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Daniel Shiffman: ml5.js Pose Estimation with PoseNet aka Machine Learning: Photos to skeletons</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Daniel Shiffman: &lt;a href=&quot;https://www.youtube.com/watch?v=OIo-DIOkNVg&amp;amp;feature=emb_logo&quot;&gt;ml5.js Pose Estimation with PoseNet&lt;/a&gt; (via Der  Schockwelleneiter: &lt;a href=&quot;http://blog.schockwellenreiter.de/2020/01/2020011003.html&quot;&gt;Macht Figur mit JavaScript (P5.js und ml5.js&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;I watched the first few minutes. Very engaging tutorial!&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 12 Jan 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/01/12/p1-photos-of-people-to-skeletons-using-posenet-js/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/01/12/p1-photos-of-people-to-skeletons-using-posenet-js/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Allen Holub: What is Agile? The elevator pitch. </title>
@@ -162,22 +179,6 @@
         <pubDate>Thu, 02 Jan 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/01/02/p1-happy-new-year-2020/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/01/02/p1-happy-new-year-2020/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Happy Holidays and Happy New Year. See you in 2020!</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The title says it all :-)&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Fri, 20 Dec 2019 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2019/12/20/p1-happy-holidays-happy-new-year-2020/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2019/12/20/p1-happy-holidays-happy-new-year-2020/</guid>
         
         
       </item>
