@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 12 Jan 2020 20:30:53 -0800</pubDate>
-    <lastBuildDate>Sun, 12 Jan 2020 20:30:53 -0800</lastBuildDate>
+    <pubDate>Mon, 13 Jan 2020 22:29:07 -0800</pubDate>
+    <lastBuildDate>Mon, 13 Jan 2020 22:29:07 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Christoph Molnar: Interpretable Machine Learning A Guide for Making Black Box Models Explainable.</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“Machine learning has great potential for improving products, processes and research. But computers usually do not explain their predictions which is a barrier to the adoption of machine learning. This book is about making machine learning models and their decisions interpretable.” &amp;lt;– Read the whole thing :-) :  &lt;a href=&quot;https://christophm.github.io/interpretable-ml-book/&quot;&gt;Interpretable Machine Learning&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 13 Jan 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/01/13/p1-christoph-molnar-interpretable-machine-learning/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/01/13/p1-christoph-molnar-interpretable-machine-learning/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Daniel Shiffman: ml5.js Pose Estimation with PoseNet aka Machine Learning: Photos to skeletons</title>
@@ -163,22 +179,6 @@
         <pubDate>Thu, 02 Jan 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/01/02/p2-no-non-zero-evs-in-cities-2029-probably-wrong-prediction/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/01/02/p2-no-non-zero-evs-in-cities-2029-probably-wrong-prediction/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Happy New Year 2020 / Einen guten Rutsch ins neue Jahr :-)!</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The title says it all :-)&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Thu, 02 Jan 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/01/02/p1-happy-new-year-2020/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/01/02/p1-happy-new-year-2020/</guid>
         
         
       </item>
