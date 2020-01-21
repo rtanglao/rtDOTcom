@@ -6,9 +6,27 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 19 Jan 2020 15:26:46 -0800</pubDate>
-    <lastBuildDate>Sun, 19 Jan 2020 15:26:46 -0800</lastBuildDate>
+    <pubDate>Mon, 20 Jan 2020 23:43:21 -0800</pubDate>
+    <lastBuildDate>Mon, 20 Jan 2020 23:43:21 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>How to clear a field in a CSV file using miller aka mlr</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mlr &lt;span class=&quot;nt&quot;&gt;--csv&lt;/span&gt; put &lt;span class=&quot;s1&quot;&gt;'$tags=&quot;&quot;'&lt;/span&gt; ff70-1st-four-weeks-url-tags.csv  &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; ff70-1st-four-weeks-url-blank-tags.csv
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;The above miller / mlr command line clears the “tags” field&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 20 Jan 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/01/20/p1-how-to-clear-tags-field-in-csv-file-using-miller-aka-mlr/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/01/20/p1-how-to-clear-tags-field-in-csv-file-using-miller-aka-mlr/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Working with 4 University of Alberta Computer Science Students in the CANOSP program on a machine learning project to auto-tag Firefox desktop support questions based on a human trained dataset </title>
@@ -245,22 +263,6 @@
         <pubDate>Tue, 07 Jan 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/01/07/p1-personal-kanban-4-columns-do-doing-do-not-done/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/01/07/p1-personal-kanban-4-columns-do-doing-do-not-done/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Outrageous opinion: Government should take over transport starting with cities, then suburbs then the countryside then planes and replace with zero emission vehicles</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The title says it all :-) Corporations and the so-called “free market” certainly aren’t going to do it fast enough  i.e. before the end of 2029. Otherwise &lt;a href=&quot;http://rolandtanglao.com/2020/01/02/p2-no-non-zero-evs-in-cities-2029-probably-wrong-prediction/&quot;&gt;my probably wrong prediction will probably be wrong :-)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 06 Jan 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/01/06/p1-outrageous-opinion-government-should-take-over-transport-starting-with-cities-suburbs-planes-replace-with-zero-emission/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/01/06/p1-outrageous-opinion-government-should-take-over-transport-starting-with-cities-suburbs-planes-replace-with-zero-emission/</guid>
         
         
       </item>
