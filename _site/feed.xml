@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 20 Jan 2020 23:43:21 -0800</pubDate>
-    <lastBuildDate>Mon, 20 Jan 2020 23:43:21 -0800</lastBuildDate>
+    <pubDate>Tue, 21 Jan 2020 22:50:17 -0800</pubDate>
+    <lastBuildDate>Tue, 21 Jan 2020 22:50:17 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Anca Dumitrache: Truth in Disagreement: Crowdsourcing Labeled Data for Natural Language Processing</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Chapter 3 of this PhD thesis from late 2019 is well worth reading:  &lt;a href=&quot;http://ancad.ro/phd.pdf&quot;&gt;Anca Dumitrache: Truth in Disagreement: Crowdsourcing Labeled Data for Natural Language Processing&lt;/a&gt; &amp;lt;—- actually read chapter 4 too if you have time and read chapter 4 if you have even more time :-)&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 21 Jan 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/01/21/p1-anca-dumitrache-truth-disagreement-crowdsourcing-labeled-data-natural-language-processing/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/01/21/p1-anca-dumitrache-truth-disagreement-crowdsourcing-labeled-data-natural-language-processing/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How to clear a field in a CSV file using miller aka mlr</title>
@@ -247,22 +263,6 @@
         <pubDate>Wed, 08 Jan 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/01/08/p1-berlin-restaurants-cafes-from-datawrapper-lead-developer/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/01/08/p1-berlin-restaurants-cafes-from-datawrapper-lead-developer/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Vowe: A personal Kanban board needs four columns:Do, Doing, Do Not, Done</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The title says it all :-) From Volker Weber: &lt;a href=&quot;https://vowe.net/archives/018330.html&quot;&gt;Your personal Kanban board&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Tue, 07 Jan 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/01/07/p1-personal-kanban-4-columns-do-doing-do-not-done/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/01/07/p1-personal-kanban-4-columns-do-doing-do-not-done/</guid>
         
         
       </item>
