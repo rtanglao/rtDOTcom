@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 21 Jan 2020 22:50:17 -0800</pubDate>
-    <lastBuildDate>Tue, 21 Jan 2020 22:50:17 -0800</lastBuildDate>
+    <pubDate>Sat, 25 Jan 2020 13:29:47 -0800</pubDate>
+    <lastBuildDate>Sat, 25 Jan 2020 13:29:47 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>I'm in Zurich until Monday morning then Berlin until Saturday morning</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What can I say. The infrastructure works; things work in general (like they seem to in Japan although I’ve never been to Japan!)! Lots that we can learn from the Europeans about quality of life as I know from my 6 years of living in Europe 20 years ago and every visit I have to re-learn it! And of course no country or system is perfect!&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sat, 25 Jan 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/01/25/p1-in-berlin-zurich-berlin-europe-rocks/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/01/25/p1-in-berlin-zurich-berlin-europe-rocks/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Anca Dumitrache: Truth in Disagreement: Crowdsourcing Labeled Data for Natural Language Processing</title>
@@ -247,22 +263,6 @@
         <pubDate>Fri, 10 Jan 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/01/10/p1-exploring-velotopian-urban-imaginaries-le-corbusier-constant/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/01/10/p1-exploring-velotopian-urban-imaginaries-le-corbusier-constant/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Ivan Lokhov of datawrapper.de: Let’s eat our way through Berlin</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://blog.datawrapper.de/weekly-food-places-berlin/&quot;&gt;Let’s eat our way through Berlin&lt;/a&gt; &amp;lt;— good tutorial on using datawrapper and great list of restaurants and cafes :-) Reminds me of leaflet (initially from CloudMade) which I’ve used in the past (see &lt;a href=&quot;http://rolandtanglao.com/2011/05/20/das-blinkenlights-w-cloudmade-apis-of-vancouver-and-san-francisco-real-time-geotagged-flickr-photos-use-map-removeoverlay/&quot;&gt;Das Blinkenlights w/CloudMade APIs of Vancouver &amp;amp; San Francisco real-time geotagged flickr photos: use map.removeOverlay()&lt;/a&gt; ) .&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Wed, 08 Jan 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/01/08/p1-berlin-restaurants-cafes-from-datawrapper-lead-developer/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/01/08/p1-berlin-restaurants-cafes-from-datawrapper-lead-developer/</guid>
         
         
       </item>
