@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 25 Jan 2020 13:29:47 -0800</pubDate>
-    <lastBuildDate>Sat, 25 Jan 2020 13:29:47 -0800</lastBuildDate>
+    <pubDate>Sun, 02 Feb 2020 18:48:23 -0800</pubDate>
+    <lastBuildDate>Sun, 02 Feb 2020 18:48:23 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Federico Pereiro: 'S3 cost can be very significant; downloading a GB once currently costs 3-4x the cost of storing it for an entire month' - also cool stuff about backends using nginx, SSL, redis, node, etc</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;From Federico Pereiro’s very useful &lt;a href=&quot;https://github.com/fpereiro/backendlore&quot;&gt;backendlore&lt;/a&gt;  (good stuff about nginx, SSL, redis, node, etc) via &lt;a href=&quot;https://www.downes.ca/cgi-bin/page.cgi?post=70396&quot;&gt;Stephen Downes&lt;/a&gt;: “Cost - if your application potentially serves a lot of data, S3 cost can be very significant; downloading a GB once currently costs 3-4x the  cost of storing it for an entire month. What makes this worse is that it is hard to predict how much data you may use on a given month, so you  have an unlimited financial downside. An ideal service would not charge  for downloads, just for storage.” &amp;lt;— is this true? Sad face! I’d rather not have unlimited financial downside for personal websites and projects!&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 02 Feb 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/02/02/p1-s3-downloading-a-file-costs-three-times-storing-it/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/02/p1-s3-downloading-a-file-costs-three-times-storing-it/</guid>
+        
+        
+      </item>
     
       <item>
         <title>I'm in Zurich until Monday morning then Berlin until Saturday morning</title>
@@ -240,29 +256,6 @@
         <pubDate>Sat, 11 Jan 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/01/11/p1-what-is-agile/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/01/11/p1-what-is-agile/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Can bicycles save the world? -&gt; Nikolaeva and Nello-Deakin: Exploring velotopian urban imaginaries: where Le Corbusier meets Constant?</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;“Furthermore, we have identified a discourse that blends the Corbusian and Constantian ideals, seemingly offering the best of two worlds: time savings and excitement, productivity and fun. In alignment with a  number of scholars (e.g. Spinney &lt;a href=&quot;https://www.tandfonline.com/doi/full/10.1080/17450101.2019.1694300#&quot;&gt;2016&lt;/a&gt;; Duarte &lt;a href=&quot;https://www.tandfonline.com/doi/full/10.1080/17450101.2019.1694300#&quot;&gt;2016&lt;/a&gt;), we suggest that cycling may have become enrolled into discourses that  correspond to a neoliberal urban agenda with a tinge of greenwashing and a mobility politics in which the physical labour of delivering products and services is obscured by the imagery of fitness and adventure.&lt;/p&gt;
-
-    &lt;p&gt;As new mobility concepts, visions and technologies capture the imagination of policy-makers and general public, the place and content of  velotopian imaginaries within broader urban mobility discourses is  likely to continue to evolve. Will the bicycle eventually come to be  seen as a complementary add-on in the driverless car system, or as its  challenger? If the latter, will this challenge be on the grounds of  efficiency, speed and convenience, or on the grounds of a possibility of a life without hurry? Depending on the trajectory that is ultimately  taken, cycling may even lose its place on the streets entirely as it  once did in many cities around the world.” &amp;lt;– read the whole thing: &lt;a href=&quot;https://www.tandfonline.com/doi/full/10.1080/17450101.2019.1694300&quot;&gt;Exploring velotopian urban imaginaries: where Le Corbusier meets Constant?&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;I am not convinced that driverless cars are necessary (we have driverless trains already; just add buses and then done!) or  that self driving cars will work outside urban cores because software can’t be trusted to not kill people and to reliably drive cars.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Fri, 10 Jan 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/01/10/p1-exploring-velotopian-urban-imaginaries-le-corbusier-constant/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/01/10/p1-exploring-velotopian-urban-imaginaries-le-corbusier-constant/</guid>
         
         
       </item>
