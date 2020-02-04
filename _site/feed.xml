@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 02 Feb 2020 18:48:23 -0800</pubDate>
-    <lastBuildDate>Sun, 02 Feb 2020 18:48:23 -0800</lastBuildDate>
+    <pubDate>Mon, 03 Feb 2020 22:40:22 -0800</pubDate>
+    <lastBuildDate>Mon, 03 Feb 2020 22:40:22 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>CHI2020 paper, &quot;What is Wrong with Computational Notebooks? Pain Points, Needs, and Design Opportunities&quot; &lt;--- Difficult to use with Version control, crashes, difficult to reproduce and reuse, etc</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Via &lt;a href=&quot;https://www.downes.ca/cgi-bin/page.cgi?post=70384&quot;&gt;Stephen Downes&lt;/a&gt;:  “This article (&lt;a href=&quot;http://web.eecs.utk.edu/~azh/pubs/Chattopadhyay2020CHI_NotebookPainpoints.pdf&quot;&gt;12 page PDF&lt;/a&gt;) identifies the challenges and pain points of running things like data  analytics in things like Jupyter Notebooks. It’s good to see this sort  of article, because while some people (including myself) have touted  this sort of approach as a way to generate dynamic and interactive  learning resources, the actuality is that they are far from usable for  the average person.”&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 03 Feb 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/02/03/p1-what-is-wrong-with-computational-notebooks/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/03/p1-what-is-wrong-with-computational-notebooks/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Federico Pereiro: 'S3 cost can be very significant; downloading a GB once currently costs 3-4x the cost of storing it for an entire month' - also cool stuff about backends using nginx, SSL, redis, node, etc</title>
@@ -240,22 +256,6 @@
         <pubDate>Sun, 12 Jan 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/01/12/p1-photos-of-people-to-skeletons-using-posenet-js/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/01/12/p1-photos-of-people-to-skeletons-using-posenet-js/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Allen Holub: What is Agile? The elevator pitch. </title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://holub.com/what-is-agile-the-elevator-pitch/&quot;&gt;What is &lt;em&gt;Agile&lt;/em&gt;? The elevator pitch&lt;/a&gt; has many definitions of agile which are worth reading!&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sat, 11 Jan 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/01/11/p1-what-is-agile/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/01/11/p1-what-is-agile/</guid>
         
         
       </item>
