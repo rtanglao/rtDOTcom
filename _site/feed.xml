@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 06 Feb 2020 05:36:52 -0800</pubDate>
-    <lastBuildDate>Thu, 06 Feb 2020 05:36:52 -0800</lastBuildDate>
+    <pubDate>Fri, 07 Feb 2020 19:03:05 -0800</pubDate>
+    <lastBuildDate>Fri, 07 Feb 2020 19:03:05 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>hey.com - email reinvented by the Basecamp folks</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Having worked on Thunderbird as the support lead and used gmail since it was introduced, can’t wait to try &lt;a href=&quot;https://hey.com/&quot;&gt;hey.com&lt;/a&gt; email someday “real soon now” :-) in April 2020!&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Fri, 07 Feb 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/02/07/p1-hey-com-reinventing-email/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/07/p1-hey-com-reinventing-email/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Eleventy Love - Building a blog with tags</title>
@@ -251,22 +267,6 @@
         <pubDate>Thu, 16 Jan 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/01/16/p1-week1-firefox-70-71-72-cumulative-sum-support-questions/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/01/16/p1-week1-firefox-70-71-72-cumulative-sum-support-questions/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Rudy Rucker: The Lifebox, the Seashell, and the Soul</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;I’m skeptical :-)  that everything is computations but I’m willing to read &lt;a href=&quot;http://www.rudyrucker.com/lifebox/&quot;&gt;The Lifebox, the Seashell, and the Soul&lt;/a&gt; with an open mind (especially since &lt;a href=&quot;https://justagwailo.com/&quot;&gt;Richard&lt;/a&gt; recommended it!) !&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Tue, 14 Jan 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/01/14/p1-rudy-rucker-lifebox-seashell-soul/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/01/14/p1-rudy-rucker-lifebox-seashell-soul/</guid>
         
         
       </item>
