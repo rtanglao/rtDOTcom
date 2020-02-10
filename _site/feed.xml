@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 09 Feb 2020 09:15:11 -0800</pubDate>
-    <lastBuildDate>Sun, 09 Feb 2020 09:15:11 -0800</lastBuildDate>
+    <pubDate>Sun, 09 Feb 2020 17:53:05 -0800</pubDate>
+    <lastBuildDate>Sun, 09 Feb 2020 17:53:05 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>SQL Murder Mystery - learn SQL by solving a murder</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Clever idea: &lt;a href=&quot;https://mystery.knightlab.com/&quot;&gt;SQL Murder Mystery&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 09 Feb 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/02/09/p1-sql-murder-mystery-to-learn-mysql/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/09/p1-sql-murder-mystery-to-learn-mysql/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Jon Ippolito: The Art of Misuse  &lt;-- creative misuse is thinking outside of the box to stretch our minds to accommodate what's outside the box</title>
@@ -164,22 +180,6 @@
         <pubDate>Mon, 20 Jan 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/01/20/p1-how-to-clear-tags-field-in-csv-file-using-miller-aka-mlr/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/01/20/p1-how-to-clear-tags-field-in-csv-file-using-miller-aka-mlr/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Working with 4 University of Alberta Computer Science Students in the CANOSP program on a machine learning project to auto-tag Firefox desktop support questions based on a human trained dataset </title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Started off by sprinting in Edmonton 17-19January2020. Got continuous integration including tests and some promising data cleaning and preliminary results. Follow the action on our github repo: &lt;a href=&quot;https://github.com/mlopatka/CANOSP2020&quot;&gt;https://github.com/mlopatka/CANOSP2020&lt;/a&gt; (the repo will move to Mozilla’s github repos soon!)&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sun, 19 Jan 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/01/19/p1-canosp-firefox-support-question-tagging-project-machine-learning-university-alberta/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/01/19/p1-canosp-firefox-support-question-tagging-project-machine-learning-university-alberta/</guid>
         
         
       </item>
