@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 09 Feb 2020 17:53:05 -0800</pubDate>
-    <lastBuildDate>Sun, 09 Feb 2020 17:53:05 -0800</lastBuildDate>
+    <pubDate>Mon, 10 Feb 2020 21:35:55 -0800</pubDate>
+    <lastBuildDate>Mon, 10 Feb 2020 21:35:55 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Building The Analytics Team At Wish: Great insights about data pipelines, data warehouses and visualizations</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/wish-engineering/scaling-analytics-at-wish-619eacb97d16&quot;&gt;Building The Analytics Team At Wish&lt;/a&gt;  has some great insights about data pipelines, data warehouses and visualizations. I don’t understand it entirely of course :-) Amazing four part series, read the whole thing!&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 10 Feb 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/02/10/p1-building-analytics-team-at-wish/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/10/p1-building-analytics-team-at-wish/</guid>
+        
+        
+      </item>
     
       <item>
         <title>SQL Murder Mystery - learn SQL by solving a murder</title>
@@ -162,24 +178,6 @@
         <pubDate>Tue, 21 Jan 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/01/21/p1-anca-dumitrache-truth-disagreement-crowdsourcing-labeled-data-natural-language-processing/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/01/21/p1-anca-dumitrache-truth-disagreement-crowdsourcing-labeled-data-natural-language-processing/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to clear a field in a CSV file using miller aka mlr</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mlr &lt;span class=&quot;nt&quot;&gt;--csv&lt;/span&gt; put &lt;span class=&quot;s1&quot;&gt;'$tags=&quot;&quot;'&lt;/span&gt; ff70-1st-four-weeks-url-tags.csv  &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; ff70-1st-four-weeks-url-blank-tags.csv
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;The above miller / mlr command line clears the “tags” field&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 20 Jan 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/01/20/p1-how-to-clear-tags-field-in-csv-file-using-miller-aka-mlr/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/01/20/p1-how-to-clear-tags-field-in-csv-file-using-miller-aka-mlr/</guid>
         
         
       </item>
