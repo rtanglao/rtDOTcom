@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 11 Feb 2020 18:25:33 -0800</pubDate>
-    <lastBuildDate>Tue, 11 Feb 2020 18:25:33 -0800</lastBuildDate>
+    <pubDate>Wed, 12 Feb 2020 17:49:40 -0800</pubDate>
+    <lastBuildDate>Wed, 12 Feb 2020 17:49:40 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Visualizing Google Trends using ggplot2 and geom_area instead of ggridges</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;From &lt;a href=&quot;https://rud.is/b/2019/12/27/short-attention-span-theatre-reproducing-axios-1-big-thing-google-trends-2019-news-in-review-with-ggplot2/&quot;&gt;Short Attention Span Theatre: Reproducing Axios’ “1 Big Thing” Google Trends 2019 News In Review with {ggplot2}&lt;/a&gt;  I gather you can do &lt;a href=&quot;https://cran.r-project.org/web/packages/ggridges/vignettes/introduction.html&quot;&gt;ggridges&lt;/a&gt; fka &lt;code class=&quot;highlighter-rouge&quot;&gt;ggjoy&lt;/code&gt; (&lt;a href=&quot;http://rolandtanglao.com/2017/09/10/p1-faceted-daynumber-sixhundred-colurs-r-ggjoy-joyplot-with-colours-and-fill-colour/&quot;&gt;previous ggjoy blog post)&lt;/a&gt; with &lt;code class=&quot;highlighter-rouge&quot;&gt;geom_area&lt;/code&gt;! I had no idea!&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 12 Feb 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/02/12/p1-google-trends-2019-visualized-using-ggplot2-geom-area/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/12/p1-google-trends-2019-visualized-using-ggplot2-geom-area/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Execute Program is also excellent</title>
@@ -161,22 +177,6 @@
         <pubDate>Mon, 03 Feb 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/02/03/p1-what-is-wrong-with-computational-notebooks/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/02/03/p1-what-is-wrong-with-computational-notebooks/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Federico Pereiro: 'S3 cost can be very significant; downloading a GB once currently costs 3-4x the cost of storing it for an entire month' - also cool stuff about backends using nginx, SSL, redis, node, etc</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;From Federico Pereiro’s very useful &lt;a href=&quot;https://github.com/fpereiro/backendlore&quot;&gt;backendlore&lt;/a&gt;  (good stuff about nginx, SSL, redis, node, etc) via &lt;a href=&quot;https://www.downes.ca/cgi-bin/page.cgi?post=70396&quot;&gt;Stephen Downes&lt;/a&gt;: “Cost - if your application potentially serves a lot of data, S3 cost can be very significant; downloading a GB once currently costs 3-4x the  cost of storing it for an entire month. What makes this worse is that it is hard to predict how much data you may use on a given month, so you  have an unlimited financial downside. An ideal service would not charge  for downloads, just for storage.” &amp;lt;— is this true? Sad face! I’d rather not have unlimited financial downside for personal websites and projects!&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sun, 02 Feb 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/02/02/p1-s3-downloading-a-file-costs-three-times-storing-it/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/02/p1-s3-downloading-a-file-costs-three-times-storing-it/</guid>
         
         
       </item>

@@ -1,0 +1,6 @@
+I"P<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>From Short Attention Span Theatre: Reproducing Axios’ “1 Big Thing” Google Trends 2019 News In Review with {ggplot2}  I gather you can do <a href="https://cran.r-project.org/web/packages/ggridges/vignettes/introduction.html">ggridges</a> fka <code class="highlighter-rouge">ggjoy</code> (<a href="http://rolandtanglao.com/2017/09/10/p1-faceted-daynumber-sixhundred-colurs-r-ggjoy-joyplot-with-colours-and-fill-colour/">previous ggjoy blog post)</a> with <code class="highlighter-rouge">geom_area</code>! I had no idea!</li>
+</ul>
+:ET
