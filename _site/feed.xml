@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 12 Feb 2020 17:49:40 -0800</pubDate>
-    <lastBuildDate>Wed, 12 Feb 2020 17:49:40 -0800</lastBuildDate>
+    <pubDate>Fri, 14 Feb 2020 22:10:40 -0800</pubDate>
+    <lastBuildDate>Fri, 14 Feb 2020 22:10:40 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Parasite is a deeply disturbing yet great film</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Go see it!&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Fri, 14 Feb 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/02/14/p1-parasite-was-a-great-but-deeply-disturbing-film/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/14/p1-parasite-was-a-great-but-deeply-disturbing-film/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Visualizing Google Trends using ggplot2 and geom_area instead of ggridges</title>
@@ -161,22 +177,6 @@
         <pubDate>Wed, 05 Feb 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/02/05/p1-stowe-boyd-building-a-zettelkasten-typora/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/02/05/p1-stowe-boyd-building-a-zettelkasten-typora/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>CHI2020 paper, &quot;What is Wrong with Computational Notebooks? Pain Points, Needs, and Design Opportunities&quot; &lt;--- Difficult to use with Version control, crashes, difficult to reproduce and reuse, etc</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Via &lt;a href=&quot;https://www.downes.ca/cgi-bin/page.cgi?post=70384&quot;&gt;Stephen Downes&lt;/a&gt;:  “This article (&lt;a href=&quot;http://web.eecs.utk.edu/~azh/pubs/Chattopadhyay2020CHI_NotebookPainpoints.pdf&quot;&gt;12 page PDF&lt;/a&gt;) identifies the challenges and pain points of running things like data  analytics in things like Jupyter Notebooks. It’s good to see this sort  of article, because while some people (including myself) have touted  this sort of approach as a way to generate dynamic and interactive  learning resources, the actuality is that they are far from usable for  the average person.”&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 03 Feb 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/02/03/p1-what-is-wrong-with-computational-notebooks/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/03/p1-what-is-wrong-with-computational-notebooks/</guid>
         
         
       </item>
