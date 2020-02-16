@@ -6,9 +6,32 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 15 Feb 2020 17:12:05 -0800</pubDate>
-    <lastBuildDate>Sat, 15 Feb 2020 17:12:05 -0800</lastBuildDate>
+    <pubDate>Sun, 16 Feb 2020 13:19:12 -0800</pubDate>
+    <lastBuildDate>Sun, 16 Feb 2020 13:19:12 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Robin Sloan: An app can be a home-cooked meal</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Juicy quotes which I totally agree with:
+    &lt;ul&gt;
+      &lt;li&gt;“In a better world, I would have built this in a day using some kind  of modern, flexible HyperCard for iOS, exporting a sturdy, standalone  app that did exactly what I wanted and nothing else.”&lt;/li&gt;
+      &lt;li&gt;“In our actual world, I built it in about a week, and roughly half of  that time was spent wrestling with different kinds of code-signing and  identity provisioning and I don’t even know what. I waved some incense  and threw some stones and the gods of Xcode allowed me to pass”&lt;/li&gt;
+      &lt;li&gt;“I am the programming equivalent of a home cook.&lt;/li&gt;
+      &lt;li&gt;“And, when you free programming from the requirement to be general and professional and scalable, it becomes a different activity altogether, just as cooking at home is  really nothing like cooking in a commercial kitchen. I can report to  you: not only is this different activity rewarding in almost exactly the same way that cooking for someone you love is rewarding, there’s  another feeling, one that persists as you use the app together. I have  struggled with words for this, but/and I think it might be the crux of  the whole thing”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://www.robinsloan.com/notes/home-cooked-app/&quot;&gt;Robin Sloan: An app can be a home-cooked meal&lt;/a&gt;!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 16 Feb 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/02/16/p1-robin-sloan-an-app-home-cooked-meal/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/16/p1-robin-sloan-an-app-home-cooked-meal/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Max Woolf: How To Make Custom AI-Generated Text With GPT-2</title>
@@ -148,32 +171,6 @@
         <pubDate>Fri, 07 Feb 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/02/07/p1-hey-com-reinventing-email/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/02/07/p1-hey-com-reinventing-email/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Eleventy Love - Building a blog with tags</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Again via Stephen Downes, &lt;a href=&quot;https://www.downes.ca/cgi-bin/page.cgi?post=70372&quot;&gt;Eleventy Love&lt;/a&gt;, I found the following links:
-    &lt;ul&gt;
-      &lt;li&gt;Chris Coyier &lt;a href=&quot;https://css-tricks.com/eleventy-love/&quot;&gt;Eleventy Love&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;Chris links to two useful tutorials:
-        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;https://www.filamentgroup.com/lab/build-a-blog/&quot;&gt;Zach Leatherman: Build your own Blog from Scratch using Eleventy&lt;/a&gt; &amp;lt;— perhaps this will help me add tags to my restaurant review 1 pager site (see &lt;a href=&quot;http://rolandtanglao.com/2019/11/03/p2-new-food-review-1pager-site-using-11ty/&quot;&gt;My new 1 pager restaurant reviews site hosted on glitch using eleventy&lt;/a&gt;). It could also be out of date since it’s from 2018&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;https://rphunt.github.io/eleventy-walkthrough/&quot;&gt;Reginald Hunt: Eleventy Walkthrough&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Thu, 06 Feb 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/02/06/p1-eleventy-love-including-building-a-blog-with-tags/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/06/p1-eleventy-love-including-building-a-blog-with-tags/</guid>
         
         
       </item>
