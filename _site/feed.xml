@@ -6,9 +6,31 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 16 Feb 2020 13:19:12 -0800</pubDate>
-    <lastBuildDate>Sun, 16 Feb 2020 13:19:12 -0800</lastBuildDate>
+    <pubDate>Sun, 16 Feb 2020 14:46:02 -0800</pubDate>
+    <lastBuildDate>Sun, 16 Feb 2020 14:46:02 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>pup for HTML is like jq for JSON</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;“&lt;a href=&quot;https://github.com/ericchiang/pup&quot;&gt;pup&lt;/a&gt; is a command line tool for processing HTML. It reads from stdin, prints to stdout, and allows the user to filter parts of the page using &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors&quot;&gt;CSS selectors&lt;/a&gt;.&lt;/p&gt;
+
+    &lt;p&gt;Inspired by &lt;a href=&quot;http://stedolan.github.io/jq/&quot;&gt;jq&lt;/a&gt;, pup aims to be a fast and flexible way of exploring HTML from the terminal.”&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2017/06/20/p1-using-jq-to-minify-json/&quot;&gt;previous jq blog post&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 16 Feb 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/02/16/p2-pup-for-html-like-jq-for-json/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/16/p2-pup-for-html-like-jq-for-json/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Robin Sloan: An app can be a home-cooked meal</title>
@@ -155,22 +177,6 @@
         <pubDate>Sat, 08 Feb 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/02/08/p1-jon-ippolito-the-art-of-misuse/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/02/08/p1-jon-ippolito-the-art-of-misuse/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>hey.com - email reinvented by the Basecamp folks</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Having worked on Thunderbird as the support lead and used gmail since it was introduced, can’t wait to try &lt;a href=&quot;https://hey.com/&quot;&gt;hey.com&lt;/a&gt; email someday “real soon now” :-) in April 2020!&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Fri, 07 Feb 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/02/07/p1-hey-com-reinventing-email/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/07/p1-hey-com-reinventing-email/</guid>
         
         
       </item>
