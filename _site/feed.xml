@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 14 Feb 2020 22:10:40 -0800</pubDate>
-    <lastBuildDate>Fri, 14 Feb 2020 22:10:40 -0800</lastBuildDate>
+    <pubDate>Sat, 15 Feb 2020 17:12:05 -0800</pubDate>
+    <lastBuildDate>Sat, 15 Feb 2020 17:12:05 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Max Woolf: How To Make Custom AI-Generated Text With GPT-2</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://minimaxir.com/2019/09/howto-gpt2/&quot;&gt;How To Make Custom AI-Generated Text With GPT-2&lt;/a&gt;&amp;lt;— no sure i understand this :-) nor do I understand how much the GPU usage costs but looks simple enough to figure this out&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 15 Feb 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/02/15/p1-max-woolf-howto-custom-ai-generated-text-gpt-2/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/15/p1-max-woolf-howto-custom-ai-generated-text-gpt-2/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Parasite is a deeply disturbing yet great film</title>
@@ -159,24 +174,6 @@
         <pubDate>Thu, 06 Feb 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/02/06/p1-eleventy-love-including-building-a-blog-with-tags/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/02/06/p1-eleventy-love-including-building-a-blog-with-tags/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Stowe Boyd Building A Zettelkasten (notes that are: atomic, autonomous, linked, explain why, your own words, links to references) In Typora</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;I thought I had blogged about &lt;a href=&quot;https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125&quot;&gt;David Clear: Zettelkasten — How One German Scholar Was So Freakishly Productive&lt;/a&gt; but it turns out I hadn’t&lt;/li&gt;
-  &lt;li&gt;But anyway here’s Stowe Boyd’s synthesis:  &lt;a href=&quot;https://stoweboyd.com/post/190446627182/building-a-zettelkasten-in-typora&quot;&gt;Building A Zettelkasten In Typora&lt;/a&gt; which is where I surmised that &lt;a href=&quot;https://de.wikipedia.org/wiki/Zettelkasten&quot;&gt;Zettelkasten&lt;/a&gt; (&lt;a href=&quot;https://en.wikipedia.org/wiki/Personal_knowledge_base&quot;&gt;personal knowledge base&lt;/a&gt;) is: build a collection of notes that are: atomic, autonomous, linked to a previous note, explain why, in your own words, links to references.&lt;/li&gt;
-  &lt;li&gt;This is basically what I am doing on this blog without tags! How do I add tags to a jekyll blog?!?! Still haven’t figured that out.&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Wed, 05 Feb 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/02/05/p1-stowe-boyd-building-a-zettelkasten-typora/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/05/p1-stowe-boyd-building-a-zettelkasten-typora/</guid>
         
         
       </item>
