@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 17 Feb 2020 10:54:45 -0800</pubDate>
-    <lastBuildDate>Mon, 17 Feb 2020 10:54:45 -0800</lastBuildDate>
+    <pubDate>Wed, 19 Feb 2020 21:44:44 -0800</pubDate>
+    <lastBuildDate>Wed, 19 Feb 2020 21:44:44 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Imagemagick v7 is much faster than OilyPNG or VIPS for creating images, cropping them and montaging i.e. collaging them</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Forgot to mention 2 days ago in &lt;a href=&quot;http://rolandtanglao.com/2020/02/17/p1-how-i-made-art-of-where-tights-berlin/&quot;&gt;How I made Art of Where Tights from Berlin photos&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Imagemagick aka magick version 7 even on a “slow” ARM64 processor is much faster at cropping and montaging images (probably because it’s in C/C++) than ruby solutions like VIPS and OilyPNG/ChunkyPNG. See &lt;a href=&quot;http://rolandtanglao.com/2019/01/23/p1-did-you-get-catch-the-error-vips-code-yesterday-oilypng-twice-as-fast/&quot;&gt;Did you catch the bug in yesterday’s vips code? I’ve coded an oily_png version that is at least twice as fast!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Extra bonus about using magick is that you don’t have to write code. You just have to master its arcane syntax :-) which isn’t that bad!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 19 Feb 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/02/19/p1-magick-is-faster-than-vips-or-ruby-oilypng-chunkypng/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/19/p1-magick-is-faster-than-vips-or-ruby-oilypng-chunkypng/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How I made Art of Where Tights from Berlin photos</title>
@@ -282,22 +299,6 @@ parallel magick &lt;span class=&quot;s1&quot;&gt;'{}'&lt;/span&gt; &lt;span clas
         <pubDate>Mon, 10 Feb 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/02/10/p1-building-analytics-team-at-wish/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/02/10/p1-building-analytics-team-at-wish/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>SQL Murder Mystery - learn SQL by solving a murder</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Clever idea: &lt;a href=&quot;https://mystery.knightlab.com/&quot;&gt;SQL Murder Mystery&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sun, 09 Feb 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/02/09/p1-sql-murder-mystery-to-learn-mysql/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/09/p1-sql-murder-mystery-to-learn-mysql/</guid>
         
         
       </item>
