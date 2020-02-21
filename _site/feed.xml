@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 19 Feb 2020 21:44:44 -0800</pubDate>
-    <lastBuildDate>Wed, 19 Feb 2020 21:44:44 -0800</lastBuildDate>
+    <pubDate>Thu, 20 Feb 2020 23:03:58 -0800</pubDate>
+    <lastBuildDate>Thu, 20 Feb 2020 23:03:58 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Eugene Wallingford: Programming feels like home. &lt;-- To me it feels like a comfortable chesterfield :-) Ton's got a great take on it too #ymmv</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“Sloan reminds us that programming can be – is – more than a line on a  resume. It is something that everyone can do,  and want to do, for a lot of different reasons. It would  be great if programming “were marbled deeply into domesticity and comfort, nerdiness and curiosity, health and love” in  the way that cooking is. That is what makes Computing for All  &lt;strong&gt;really&lt;/strong&gt; worth doing.” &amp;lt;— read Eugene’s  &lt;a href=&quot;http://www.cs.uni.edu/~wallingf/blog/archives/monthly/2020-02.html#e2020-02-18T16_00_24.htm&quot;&gt;Programming Feels like home&lt;/a&gt; which is a fantastic riff on &lt;a href=&quot;http://rolandtanglao.com/2020/02/16/p1-robin-sloan-an-app-home-cooked-meal/&quot;&gt;Robin Sloan: An app can be a home-cooked meal&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;And like cooking you don’t have to cook and some don’t want to ever and that’s fine too (you can’t do everything but like cooking I think it’s worth a try at some point in your life)!&lt;/li&gt;
+  &lt;li&gt;Bonus take from Ton’s &lt;a href=&quot;https://www.zylstra.org/blog/2020/02/i-am-the-programming-equivalent-of-a-home-cook/&quot;&gt;I am the programming equivalent of a home cook&lt;/a&gt; “Eating better, more  affordably or in a specific way, translates to programming with the  purpose to hone the laptop as your tool of trade and adapt it to your  own personal workflows, making it support and work with your very own  quirks. “&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 20 Feb 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/02/20/p1-programming-feels-like-home-comfy-chesterfield/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/20/p1-programming-feels-like-home-comfy-chesterfield/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Imagemagick v7 is much faster than OilyPNG or VIPS for creating images, cropping them and montaging i.e. collaging them</title>
@@ -283,22 +300,6 @@ parallel magick &lt;span class=&quot;s1&quot;&gt;'{}'&lt;/span&gt; &lt;span clas
         <pubDate>Tue, 11 Feb 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/02/11/p1-you-dont-know-js-excellent/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/02/11/p1-you-dont-know-js-excellent/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Building The Analytics Team At Wish: Great insights about data pipelines, data warehouses and visualizations</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://medium.com/wish-engineering/scaling-analytics-at-wish-619eacb97d16&quot;&gt;Building The Analytics Team At Wish&lt;/a&gt;  has some great insights about data pipelines, data warehouses and visualizations. I don’t understand it entirely of course :-) Amazing four part series, read the whole thing!&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 10 Feb 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/02/10/p1-building-analytics-team-at-wish/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/10/p1-building-analytics-team-at-wish/</guid>
         
         
       </item>
