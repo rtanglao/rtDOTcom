@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 23 Feb 2020 16:33:49 -0800</pubDate>
-    <lastBuildDate>Sun, 23 Feb 2020 16:33:49 -0800</lastBuildDate>
+    <pubDate>Mon, 24 Feb 2020 20:11:39 -0800</pubDate>
+    <lastBuildDate>Mon, 24 Feb 2020 20:11:39 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>The good ole days at Bryght :-) 'Web 1.0' versus 'Web 2.0'</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Via &lt;a href=&quot;https://twitter.com/beanjammin/status/1232119216330899459&quot;&gt;Ben&lt;/a&gt; from from August 2004:  &lt;a href=&quot;https://web.archive.org/web/20041013212319/http://www.bryght.com/node/view/50&quot;&gt;Web 2.0 Websites - 1.0 just say NO!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Remember when the internet wasn’t a ‘miasma’ of lies and mis-information back in 2004? Neither do I :-) !&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 24 Feb 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/02/24/p1-the-good-ole-days-at-bryght/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/24/p1-the-good-ole-days-at-bryght/</guid>
+        
+        
+      </item>
     
       <item>
         <title>SQLite, JSON, CSV :-) the eternal golden braid of formats? so many tools for normal folks to grok them without programming e.g. sqlitebrowser</title>
@@ -292,22 +309,6 @@ parallel magick &lt;span class=&quot;s1&quot;&gt;'{}'&lt;/span&gt; &lt;span clas
         <pubDate>Fri, 14 Feb 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/02/14/p1-parasite-was-a-great-but-deeply-disturbing-film/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/02/14/p1-parasite-was-a-great-but-deeply-disturbing-film/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Visualizing Google Trends using ggplot2 and geom_area instead of ggridges</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;From &lt;a href=&quot;https://rud.is/b/2019/12/27/short-attention-span-theatre-reproducing-axios-1-big-thing-google-trends-2019-news-in-review-with-ggplot2/&quot;&gt;Short Attention Span Theatre: Reproducing Axios’ “1 Big Thing” Google Trends 2019 News In Review with {ggplot2}&lt;/a&gt;  I gather you can do &lt;a href=&quot;https://cran.r-project.org/web/packages/ggridges/vignettes/introduction.html&quot;&gt;ggridges&lt;/a&gt; fka &lt;code class=&quot;highlighter-rouge&quot;&gt;ggjoy&lt;/code&gt; (&lt;a href=&quot;http://rolandtanglao.com/2017/09/10/p1-faceted-daynumber-sixhundred-colurs-r-ggjoy-joyplot-with-colours-and-fill-colour/&quot;&gt;previous ggjoy blog post)&lt;/a&gt; with &lt;code class=&quot;highlighter-rouge&quot;&gt;geom_area&lt;/code&gt;! I had no idea!&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Wed, 12 Feb 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/02/12/p1-google-trends-2019-visualized-using-ggplot2-geom-area/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/12/p1-google-trends-2019-visualized-using-ggplot2-geom-area/</guid>
         
         
       </item>
