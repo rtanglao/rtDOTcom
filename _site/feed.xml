@@ -6,9 +6,29 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 25 Feb 2020 22:06:10 -0800</pubDate>
-    <lastBuildDate>Tue, 25 Feb 2020 22:06:10 -0800</lastBuildDate>
+    <pubDate>Wed, 26 Feb 2020 19:02:53 -0800</pubDate>
+    <lastBuildDate>Wed, 26 Feb 2020 19:02:53 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Fastpages from fastai I don't fully understand: you still need a server to render python notebooks for testing purposes, right? Altair Python Visualizations seem excellent &amp; Blogging via Word files is great though</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;This is why I love the premise of &lt;a href=&quot;https://alpha.iodide.io/&quot;&gt;iodide&lt;/a&gt; as I understand it :  you don’t need a server! Any web browser can run your notebook code just like any web browser can render your static web pages. No extra server required.&lt;/li&gt;
+  &lt;li&gt;Anyways,  I am probably over-thinking the need for a server. We will always need servers :-) ! It’s just that in my opinion every node even if it’s just a laptop or better yet phone running a browser should be a server as well as a client!&lt;/li&gt;
+  &lt;li&gt;Check out the intro post: &lt;a href=&quot;https://fastpages.fast.ai/fastpages/jupyter/2020/02/21/introducing-fastpages.html&quot;&gt;introducing fastpages&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;And then check out Stephen Downe’s attempt to clarify “introducing fastpages” :-) :  &lt;a href=&quot;https://halfanhour.blogspot.com/2020/02/how-to-use-fastpages.html&quot;&gt;How to Use Fastpages&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;All in all something I should try!&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 26 Feb 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/02/26/p1-fastpages-notebooks-good-altair-good-i-dont-understand-the-rest-still-need-server/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/26/p1-fastpages-notebooks-good-altair-good-i-dont-understand-the-rest-still-need-server/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How To: Fact Check the corona virus aka Covid-19 crisis </title>
@@ -294,21 +314,6 @@ parallel magick &lt;span class=&quot;s1&quot;&gt;'{}'&lt;/span&gt; &lt;span clas
         <pubDate>Sun, 16 Feb 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/02/16/p1-robin-sloan-an-app-home-cooked-meal/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/02/16/p1-robin-sloan-an-app-home-cooked-meal/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Max Woolf: How To Make Custom AI-Generated Text With GPT-2</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://minimaxir.com/2019/09/howto-gpt2/&quot;&gt;How To Make Custom AI-Generated Text With GPT-2&lt;/a&gt;&amp;lt;— no sure i understand this :-) nor do I understand how much the GPU usage costs but looks simple enough to figure this out&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 15 Feb 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/02/15/p1-max-woolf-howto-custom-ai-generated-text-gpt-2/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/15/p1-max-woolf-howto-custom-ai-generated-text-gpt-2/</guid>
         
         
       </item>
