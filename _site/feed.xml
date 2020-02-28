@@ -6,9 +6,45 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 26 Feb 2020 19:02:53 -0800</pubDate>
-    <lastBuildDate>Wed, 26 Feb 2020 19:02:53 -0800</lastBuildDate>
+    <pubDate>Fri, 28 Feb 2020 06:55:10 -0800</pubDate>
+    <lastBuildDate>Fri, 28 Feb 2020 06:55:10 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Use Transfer Learning from prior image models to generate tshirt graphics?</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;“Machine learning engineering is becoming a real ecosystem&lt;/p&gt;
+
+    &lt;p&gt;Looking at software engineering as a parallel, we typically see ecosystems “mature” in pretty standard patterns.&lt;/p&gt;
+
+    &lt;p&gt;A new programming language will emerge with some exciting features, and  people will use it for specialized use-cases, research projects, and  toys. At this stage, anyone who uses it has to build all their basic  utilities from scratch.&lt;/p&gt;
+
+    &lt;p&gt;Down the line, people within the community develop libraries and projects  that abstract common utilities away, until the tooling is capable and  stable enough to be used in production.&lt;/p&gt;
+
+    &lt;p&gt;…&lt;/p&gt;
+
+    &lt;p&gt;In this approach, a team takes a pre-trained model and removes/retrains  the last layers of the model to focus on a new, related task.&lt;/p&gt;
+
+    &lt;p&gt;” &amp;lt;— Read the whole thing:  “&lt;a href=&quot;https://towardsdatascience.com/deep-learning-isnt-hard-anymore-26db0d4749d7&quot;&gt;Deep learning isn’t hard anymore&lt;/a&gt; – At least, building software with deep learning isn’t”&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The above article links to: &lt;a href=&quot;https://ruder.io/transfer-learning/&quot;&gt;Transfer Learning - Machine Learning’s Next Frontier&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;I think it is and it isn’t. It is but as a newbie there are far too many choices. Hard to figure out where to start!&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Fri, 28 Feb 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/02/28/p1-use-transfer-learning-from-images-for-tshirt-graphics/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/28/p1-use-transfer-learning-from-images-for-tshirt-graphics/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Fastpages from fastai I don't fully understand: you still need a server to render python notebooks for testing purposes, right? Altair Python Visualizations seem excellent &amp; Blogging via Word files is great though</title>
@@ -291,29 +327,6 @@ parallel magick &lt;span class=&quot;s1&quot;&gt;'{}'&lt;/span&gt; &lt;span clas
         <pubDate>Sun, 16 Feb 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/02/16/p2-pup-for-html-like-jq-for-json/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/02/16/p2-pup-for-html-like-jq-for-json/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Robin Sloan: An app can be a home-cooked meal</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Juicy quotes which I totally agree with:
-    &lt;ul&gt;
-      &lt;li&gt;“In a better world, I would have built this in a day using some kind  of modern, flexible HyperCard for iOS, exporting a sturdy, standalone  app that did exactly what I wanted and nothing else.”&lt;/li&gt;
-      &lt;li&gt;“In our actual world, I built it in about a week, and roughly half of  that time was spent wrestling with different kinds of code-signing and  identity provisioning and I don’t even know what. I waved some incense  and threw some stones and the gods of Xcode allowed me to pass”&lt;/li&gt;
-      &lt;li&gt;“I am the programming equivalent of a home cook.&lt;/li&gt;
-      &lt;li&gt;“And, when you free programming from the requirement to be general and professional and scalable, it becomes a different activity altogether, just as cooking at home is  really nothing like cooking in a commercial kitchen. I can report to  you: not only is this different activity rewarding in almost exactly the same way that cooking for someone you love is rewarding, there’s  another feeling, one that persists as you use the app together. I have  struggled with words for this, but/and I think it might be the crux of  the whole thing”&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://www.robinsloan.com/notes/home-cooked-app/&quot;&gt;Robin Sloan: An app can be a home-cooked meal&lt;/a&gt;!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 16 Feb 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/02/16/p1-robin-sloan-an-app-home-cooked-meal/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/16/p1-robin-sloan-an-app-home-cooked-meal/</guid>
         
         
       </item>
