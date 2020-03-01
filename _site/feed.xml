@@ -6,9 +6,29 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 29 Feb 2020 22:00:44 -0800</pubDate>
-    <lastBuildDate>Sat, 29 Feb 2020 22:00:44 -0800</lastBuildDate>
+    <pubDate>Sun, 01 Mar 2020 14:57:42 -0800</pubDate>
+    <lastBuildDate>Sun, 01 Mar 2020 14:57:42 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>How to: retain selected fields and remove the rest in a CSV file using mlr aka miller</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The following miller aka &lt;code class=&quot;highlighter-rouge&quot;&gt;mlr&lt;/code&gt; script removes all fields except &lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt;and &lt;code class=&quot;highlighter-rouge&quot;&gt;content&lt;/code&gt;
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mlr &lt;span class=&quot;nt&quot;&gt;--csv&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;cut&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; title,content id-1279731-unixtime-1583100833-by-id-firefox-creator-answers-desktop-all-locales.csv 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;(previously blogged not as clearly: &lt;a href=&quot;http://rolandtanglao.com/2019/02/15/p1-using-miller-aka-mlr-to-combine-selected-fields-from-a-csv-file/&quot;&gt;Using mlr aka miller to combine selected fields from multiple CSV files&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 01 Mar 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/03/01/p1-howto-mlr-miller-remov-fields-from-csv/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/03/01/p1-howto-mlr-miller-remov-fields-from-csv/</guid>
+        
+        
+      </item>
     
       <item>
         <title>I want off Mr. Golang's Wild Ride: 'Go is a Bell Labs fantasy, and not a very good one at that' (kind of like C++ before it, am I right :-) ?)</title>
@@ -191,143 +211,6 @@
         <pubDate>Wed, 19 Feb 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/02/19/p1-magick-is-faster-than-vips-or-ruby-oilypng-chunkypng/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/02/19/p1-magick-is-faster-than-vips-or-ruby-oilypng-chunkypng/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How I made Art of Where Tights from Berlin photos</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Through a long and labourious process :-)&lt;/li&gt;
-  &lt;li&gt;Actually it’s just a mashup of what came before :-)  (white &lt;a href=&quot;http://rolandtanglao.com/2019/04/07/p1-white-pseudo-camo-artofwhere-tights-from-mozlando2018-ksc-hatched-photos/&quot;&gt;kennedy space center tights&lt;/a&gt;, &lt;a href=&quot;http://rolandtanglao.com/2019/01/20/p1-creating-one-leg-for-zazzle-tights-using-kennedy-space-center-photos-5x5-pixel-patches/&quot;&gt;5x5 patches from KSC&lt;/a&gt; which turned out to impractical so we went with &lt;a href=&quot;http://rolandtanglao.com/2019/01/25/p1-patchwork-quilt-effect-is-better-with-100-pixel-by-100-pixel-patches/&quot;&gt;100x100&lt;/a&gt;). The following is a modified version of  &lt;a href=&quot;https://github.com/rtanglao/rt-berlin-january-2020/blob/master/README.md&quot;&gt;https://github.com/rtanglao/rt-berlin-january-2020/blob/master/README.md&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Here’s how it looks:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/49549249887/in/dateposted-public/&quot; title=&quot;&amp;quot;Black-ish&amp;quot; high-quality-artofwhere-berlin2020-leggings&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/49549249887_76cbabcaf1_w.jpg&quot; width=&quot;400&quot; height=&quot;173&quot; alt=&quot;&amp;quot;Black-ish&amp;quot; high-quality-artofwhere-berlin2020-leggings&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;16february2020-artofwherecom-tights&quot;&gt;16february2020 artofwhere.com tights&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;1. create circular thumbnails&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;mkdir &lt;/span&gt;BLACK_CIRCULAR
-mlr &lt;span class=&quot;nt&quot;&gt;--csv&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--implicit-csv-header&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--headerless-csv-output&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;cut&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; 1 black-berlin-january2020.txt &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; just-black-files-berlin-january2020.txt
-&lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;just-black-files-berlin-january2020.txt | &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-parallel magick &lt;span class=&quot;s1&quot;&gt;'{}'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-vignette&lt;/span&gt; 0x0+0+0 &lt;span class=&quot;s1&quot;&gt;'BLACK_CIRCULAR/{/}'&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2. make artofwhere graphic
-    &lt;ul&gt;
-      &lt;li&gt;3400 / 75 px = 46 rows one way i.e. “horizontally”&lt;/li&gt;
-      &lt;li&gt;6400 / 75 px = 86 rows the other way “vertically”&lt;/li&gt;
-      &lt;li&gt;46 * 86 = 3956 circular thumbnails&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;BLACK_CIRCULAR
-&lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.jpg | &lt;span class=&quot;nb&quot;&gt;shuf&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; 3825 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; right-leg-shuffled-3825-black-jpgs.txt
-&lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.jpg | &lt;span class=&quot;nb&quot;&gt;shuf&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; 3825 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; left-leg-shuffled-3825-black-jpgs.txt
-montage &lt;span class=&quot;nt&quot;&gt;-verbose&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-tile&lt;/span&gt; 45x85 +frame +shadow +label &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;-geometry&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'75x75+0+0&amp;lt;'&lt;/span&gt; @right-leg-shuffled-3825-black-jpgs.txt &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-right-leg_artofwhere_berlin_jan_2020.png
-montage &lt;span class=&quot;nt&quot;&gt;-verbose&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-tile&lt;/span&gt; 45x85 +frame +shadow +label &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;-geometry&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'75x75+0+0&amp;lt;'&lt;/span&gt; @left-leg-shuffled-3825-black-jpgs.txt &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-left-leg_artofwhere_berlin_jan_2020.png
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h2 id=&quot;15february2020-get-average-color-of-patches&quot;&gt;15february2020 get average color of patches&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;1. get average color&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;a) first get filenames of the patches&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; /home/rtanglao/GIT/rt-berlin-january-2020/75PX_BY_75PX_PATCHES/&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.jpg  &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; berlin_jan2020_75x75_jpg_filenames.txt
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;b) then get average color of the patches&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;berlin_jan2020_75x75_jpg_filenames.txt  | &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-../print-file-colorname-hex-color.rb &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; berlin_jan2020_file_colorname_hexcolor.csv
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;c) to get an idea of the number of each colour, cut out the’file’ field which is unique&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mlr &lt;span class=&quot;nt&quot;&gt;--csv&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;cut&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-x&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'file'&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.csv | more
-&lt;span class=&quot;nb&quot;&gt;grep &lt;/span&gt;black  berlin_jan2020_file_colorname_hexcolor.csv &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; black-berlin-january2020.txt
-&lt;span class=&quot;nb&quot;&gt;grep &lt;/span&gt;red  berlin_jan2020_file_colorname_hexcolor.csv &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; red-berlin-january2020.txt
-&lt;span class=&quot;nb&quot;&gt;grep &lt;/span&gt;green  berlin_jan2020_file_colorname_hexcolor.csv &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; gren-berlin-january2020.txt
-&lt;span class=&quot;nb&quot;&gt;grep &lt;/span&gt;blue  berlin_jan2020_file_colorname_hexcolor.csv &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; blue-berlin-january2020.txt
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;d) create a file with just the red filenames, no colour or hex colour fields&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mlr &lt;span class=&quot;nt&quot;&gt;--csv&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--implicit-csv-header&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--headerless-csv-output&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;cut&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; 1 black-berlin-january2020.txt &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; just-blackfiles-berlin-january2020.txt
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;e) make black circular thumbnails&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;mkdir &lt;/span&gt;BKACK_CIRCULAR
-&lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;just-red-files-berlin-january2020.txt | &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-parallel magick &lt;span class=&quot;s1&quot;&gt;'{}'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-vignette&lt;/span&gt; 0x0+0+0 &lt;span class=&quot;s1&quot;&gt;'BLACK_CIRCULAR/{/}'&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;09february2020&quot;&gt;09february2020&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;1. how to crop an image to 75x75
-    &lt;ul&gt;
-      &lt;li&gt;2000, 2000 is the offset from top left (gleaned from &lt;a href=&quot;https://superuser.com/questions/1161340/how-to-crop-an-image-using-imagemagick-from-the-command-line&quot;&gt;How to crop an image using imagemagick from the command line?&lt;/a&gt;)&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;magick&lt;/code&gt; replaces &lt;code class=&quot;highlighter-rouge&quot;&gt;convert -crop&lt;/code&gt; in imagemagick 7&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;magick dsc_3671_49469147273_o.jpg &lt;span class=&quot;nt&quot;&gt;-crop&lt;/span&gt; 75x75+2000+2000 +repage croptest.jpg
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;2. use pixel_x_dimension and pixel_y_dimension from https://github.com/tonytonyjan/exif get width and height&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;3. use this file list:&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; /mnt/c/Users/rtang/Pictures/23-31JANUARY2020-BERLIN-ALL_HANDS/&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.jpg &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; berlin_jpg_filenames.txt
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;4. Create CSV file with max x and max y for 75 pixel by 75 pixel&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/print-file-width-length-max75-x-max75-y.rb berlin_jpg_filenames.txt &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; berlin-75px-75px-max-x-maxy.txt
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;5. Create 1000 75px by 75 px patches. Maybe do 1000 at a time for a total of 10,000 &amp;lt;— I actually did approximately 20,000&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;mkdir &lt;/span&gt;75PX_BY_75PX_PATCHES
-&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;
-../create-75px-75px-patches.rb ../berlin-75px-75px-max-x-maxy.txt 1000
-../create-75px-75px-patches.rb ../berlin-75px-75px-max-x-maxy.txt 9000
-../create-75px-75px-patches.rb ../berlin-75px-75px-max-x-maxy.txt 1000
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-</description>
-        <pubDate>Mon, 17 Feb 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/02/17/p1-how-i-made-art-of-where-tights-berlin/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/17/p1-how-i-made-art-of-where-tights-berlin/</guid>
         
         
       </item>
