@@ -6,9 +6,32 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 28 Feb 2020 06:55:10 -0800</pubDate>
-    <lastBuildDate>Fri, 28 Feb 2020 06:55:10 -0800</lastBuildDate>
+    <pubDate>Sat, 29 Feb 2020 22:00:44 -0800</pubDate>
+    <lastBuildDate>Sat, 29 Feb 2020 22:00:44 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>I want off Mr. Golang's Wild Ride: 'Go is a Bell Labs fantasy, and not a very good one at that' (kind of like C++ before it, am I right :-) ?)</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;“Computers, operating systems, networks are a hot mess. They’re barely manageable, even if you know a decent amount about what you’re doing. Nine out of ten software engineers agree: it’s a miracle anything works at all.&lt;/p&gt;
+
+    &lt;p&gt;So all the complexity is swept under the rug. Hidden from view, but not solved.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Go is a Bell Labs fantasy, and not a very good one at that.” &amp;lt;— not sure I recommend reading the very long thing LOL but if you want: &lt;a href=&quot;https://fasterthanli.me/blog/2020/i-want-off-mr-golangs-wild-ride/&quot;&gt;I want off Mr. Golang’s Wild Ride&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sat, 29 Feb 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/02/29/p1-go-bell-labs-fantasy-just-like-cplusplus/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/29/p1-go-bell-labs-fantasy-just-like-cplusplus/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Use Transfer Learning from prior image models to generate tshirt graphics?</title>
@@ -305,28 +328,6 @@ parallel magick &lt;span class=&quot;s1&quot;&gt;'{}'&lt;/span&gt; &lt;span clas
         <pubDate>Mon, 17 Feb 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/02/17/p1-how-i-made-art-of-where-tights-berlin/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/02/17/p1-how-i-made-art-of-where-tights-berlin/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>pup for HTML is like jq for JSON</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;“&lt;a href=&quot;https://github.com/ericchiang/pup&quot;&gt;pup&lt;/a&gt; is a command line tool for processing HTML. It reads from stdin, prints to stdout, and allows the user to filter parts of the page using &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors&quot;&gt;CSS selectors&lt;/a&gt;.&lt;/p&gt;
-
-    &lt;p&gt;Inspired by &lt;a href=&quot;http://stedolan.github.io/jq/&quot;&gt;jq&lt;/a&gt;, pup aims to be a fast and flexible way of exploring HTML from the terminal.”&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2017/06/20/p1-using-jq-to-minify-json/&quot;&gt;previous jq blog post&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 16 Feb 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/02/16/p2-pup-for-html-like-jq-for-json/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/16/p2-pup-for-html-like-jq-for-json/</guid>
         
         
       </item>
