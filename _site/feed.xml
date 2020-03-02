@@ -6,9 +6,67 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 01 Mar 2020 14:57:42 -0800</pubDate>
-    <lastBuildDate>Sun, 01 Mar 2020 14:57:42 -0800</lastBuildDate>
+    <pubDate>Mon, 02 Mar 2020 07:23:33 -0800</pubDate>
+    <lastBuildDate>Mon, 02 Mar 2020 07:23:33 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Firefox Support Question to CSV for tagging by Mechanical Turk Workflow</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;1. figure out which Firefox question ids you want to use perhaps using the linux &lt;code class=&quot;highlighter-rouge&quot;&gt;shuf&lt;/code&gt; command to get random ids and put them in a file e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;mturk-question-ids.txt&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;2.  get the content and title for those ids&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;mturk-question-ids.txt | ./get-by-id-creator-answers-questions.rb
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;which outputs sample file of the form &lt;code class=&quot;highlighter-rouge&quot;&gt;id-&amp;lt;first-id&amp;gt;-unixtime-&amp;lt;unixtime i.e. int-when-created&amp;gt;.csv&lt;/code&gt;:&lt;/p&gt;
+
+    &lt;p&gt;e.g. &lt;a href=&quot;https://github.com/rtanglao/rt-kits-api2/blob/master/id-1279731-unixtime-1583100833-by-id-firefox-creator-answers-desktop-all-locales.csv&quot;&gt;id-1279731-unixtime-1583100833-by-id-firefox-creator-answers-desktop-all-locales.csv&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;which still has HTML in the content field (see the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;p&amp;gt;&lt;/code&gt; tag in the following csv file output)&lt;/p&gt;
+
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mlr &lt;span class=&quot;nt&quot;&gt;--csv&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;cut&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; title,content id-1279731-unixtime-1583100833-by-id-firefox-creator-answers-desktop-all-locales.csv 
+title,content
+Restore session doesn&lt;span class=&quot;s1&quot;&gt;'t work after update,&quot;&amp;lt;p&amp;gt;I have a very high tab count, and when restoring Firefox I usually get the &quot;&quot;warning:unresponsive script&quot;&quot; pop up. I press continue, it pops up again, I press continue again, and my tabs are restored. All is well.
+However, when I restarted Firefox today, it updated, and rather than the unresponsive script box, I get a blank pop up. I cannot do anything, and my tabs cannot be restored.
+I tried a refresh and a clean install, but that does nothing.
+&amp;lt;/p&amp;gt;&quot;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;3. remove all the fields except title and content and parse out any HTML and create a CSV file with just title and content&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./print-all-questions-just-title-content.rb &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+id-1279731-unixtime-1583100833-by-id-firefox-creator-answers-desktop-all-locales.csv 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;which outputs a parsed csv file of form &lt;code class=&quot;highlighter-rouge&quot;&gt;title-parsed-content-&amp;lt;csv-filename&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-kits-api2/blob/master/title-parsed-content-id-1279731-unixtime-1583100833-by-id-firefox-creator-answers-desktop-all-locales.csv&quot;&gt;title-parsed-content-id-1279731-unixtime-1583100833-by-id-firefox-creator-answers-desktop-all-locales.csv&lt;/a&gt;
+:&lt;/p&gt;
+
+    &lt;pre&gt;&lt;code class=&quot;language-csv&quot;&gt;title,content
+Restore session doesn't work after update,&quot;I have a very high tab count, and when restoring Firefox I usually get the &quot;&quot;warning:unresponsive script&quot;&quot; pop up. I press continue, it pops up again, I press continue again, and my tabs are restored. All is well.
+However, when I restarted Firefox today, it updated, and rather than the unresponsive script box, I get a blank pop up. I cannot do anything, and my tabs cannot be restored.
+I tried a refresh and a clean install, but that does nothing.
+&quot;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 02 Mar 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/03/02/p1-firefox-support-question-to-mechanical-turk-tagging-workflow/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/03/02/p1-firefox-support-question-to-mechanical-turk-tagging-workflow/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How to: retain selected fields and remove the rest in a CSV file using mlr aka miller</title>
@@ -194,23 +252,6 @@
         <pubDate>Thu, 20 Feb 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/02/20/p1-programming-feels-like-home-comfy-chesterfield/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/02/20/p1-programming-feels-like-home-comfy-chesterfield/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Imagemagick v7 is much faster than OilyPNG or VIPS for creating images, cropping them and montaging i.e. collaging them</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Forgot to mention 2 days ago in &lt;a href=&quot;http://rolandtanglao.com/2020/02/17/p1-how-i-made-art-of-where-tights-berlin/&quot;&gt;How I made Art of Where Tights from Berlin photos&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Imagemagick aka magick version 7 even on a “slow” ARM64 processor is much faster at cropping and montaging images (probably because it’s in C/C++) than ruby solutions like VIPS and OilyPNG/ChunkyPNG. See &lt;a href=&quot;http://rolandtanglao.com/2019/01/23/p1-did-you-get-catch-the-error-vips-code-yesterday-oilypng-twice-as-fast/&quot;&gt;Did you catch the bug in yesterday’s vips code? I’ve coded an oily_png version that is at least twice as fast!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Extra bonus about using magick is that you don’t have to write code. You just have to master its arcane syntax :-) which isn’t that bad!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 19 Feb 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/02/19/p1-magick-is-faster-than-vips-or-ruby-oilypng-chunkypng/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/19/p1-magick-is-faster-than-vips-or-ruby-oilypng-chunkypng/</guid>
         
         
       </item>
