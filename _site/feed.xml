@@ -6,9 +6,36 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 02 Mar 2020 07:23:33 -0800</pubDate>
-    <lastBuildDate>Mon, 02 Mar 2020 07:23:33 -0800</lastBuildDate>
+    <pubDate>Wed, 04 Mar 2020 19:19:18 -0800</pubDate>
+    <lastBuildDate>Wed, 04 Mar 2020 19:19:18 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>How to install python 3.7 into a python virtualenv on WSL</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;This leaves the pre-installed python alone! And I think this will work on any Linux not just in a distro on WSL!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt update
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;software-properties-common
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;add-apt-repository ppa:deadsnakes/ppa
+
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;python3.7
+
+virtualenv &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; /usr/bin/python3.7 ~/PYTHON3.7/canosp_python_37
+&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;canosp_python_37/bin
+&lt;span class=&quot;nb&quot;&gt;source &lt;/span&gt;activate
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Wed, 04 Mar 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/03/04/p1-how-to-install-python-3-virtual-env-wsl/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/03/04/p1-how-to-install-python-3-virtual-env-wsl/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Firefox Support Question to CSV for tagging by Mechanical Turk Workflow</title>
@@ -235,23 +262,6 @@ I tried a refresh and a clean install, but that does nothing.
         <pubDate>Sat, 22 Feb 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/02/22/p1-payak-2020-slower-because-i-fell-3-times-in-first-5-mountain-view-climb-was-fast-klaebo-rules/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/02/22/p1-payak-2020-slower-because-i-fell-3-times-in-first-5-mountain-view-climb-was-fast-klaebo-rules/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Eugene Wallingford: Programming feels like home. &lt;-- To me it feels like a comfortable chesterfield :-) Ton's got a great take on it too #ymmv</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;“Sloan reminds us that programming can be – is – more than a line on a  resume. It is something that everyone can do,  and want to do, for a lot of different reasons. It would  be great if programming “were marbled deeply into domesticity and comfort, nerdiness and curiosity, health and love” in  the way that cooking is. That is what makes Computing for All  &lt;strong&gt;really&lt;/strong&gt; worth doing.” &amp;lt;— read Eugene’s  &lt;a href=&quot;http://www.cs.uni.edu/~wallingf/blog/archives/monthly/2020-02.html#e2020-02-18T16_00_24.htm&quot;&gt;Programming Feels like home&lt;/a&gt; which is a fantastic riff on &lt;a href=&quot;http://rolandtanglao.com/2020/02/16/p1-robin-sloan-an-app-home-cooked-meal/&quot;&gt;Robin Sloan: An app can be a home-cooked meal&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;And like cooking you don’t have to cook and some don’t want to ever and that’s fine too (you can’t do everything but like cooking I think it’s worth a try at some point in your life)!&lt;/li&gt;
-  &lt;li&gt;Bonus take from Ton’s &lt;a href=&quot;https://www.zylstra.org/blog/2020/02/i-am-the-programming-equivalent-of-a-home-cook/&quot;&gt;I am the programming equivalent of a home cook&lt;/a&gt; “Eating better, more  affordably or in a specific way, translates to programming with the  purpose to hone the laptop as your tool of trade and adapt it to your  own personal workflows, making it support and work with your very own  quirks. “&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 20 Feb 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/02/20/p1-programming-feels-like-home-comfy-chesterfield/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/20/p1-programming-feels-like-home-comfy-chesterfield/</guid>
         
         
       </item>
