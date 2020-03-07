@@ -6,9 +6,34 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 04 Mar 2020 19:19:18 -0800</pubDate>
-    <lastBuildDate>Wed, 04 Mar 2020 19:19:18 -0800</lastBuildDate>
+    <pubDate>Fri, 06 Mar 2020 20:13:14 -0800</pubDate>
+    <lastBuildDate>Fri, 06 Mar 2020 20:13:14 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Is there a word for missing-hanging-in-the-office-with-my-fab-colleagues-due-to-being-heavily-encouraged-to-work-at-home? :-) How about &quot;corona'd&quot; or &quot;so 2020&quot;?</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I asked this in slack and received the following responses:
+    &lt;ul&gt;
+      &lt;li&gt;“covid-19 vs cabin fever &lt;img src=&quot;https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-medium/1f914@2x.png&quot; alt=&quot;:thinking_face:&quot; /&gt;”&lt;/li&gt;
+      &lt;li&gt;“cabin fever-19?”&lt;/li&gt;
+      &lt;li&gt;“It’s like FOMO but you’re not actually missing anything because we’re all at home too?”&lt;/li&gt;
+      &lt;li&gt;“extrovert? &lt;img src=&quot;https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-medium/1f642@2x.png&quot; alt=&quot;:slightly_smiling_face:&quot; /&gt;”&lt;/li&gt;
+      &lt;li&gt;“corona’d?”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;What’s yours?&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Fri, 06 Mar 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/03/06/p1-word-missing-hanging-office-fab-colleagues-heavily-encouraged-work-home-so-2020/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/03/06/p1-word-missing-hanging-office-fab-colleagues-heavily-encouraged-work-home-so-2020/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How to install python 3.7 into a python virtualenv on WSL</title>
@@ -243,25 +268,6 @@ I tried a refresh and a clean install, but that does nothing.
         <pubDate>Sun, 23 Feb 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/02/23/p1-sqlite-csv-json-the-eternal-golden-braid-sqlitebrowser/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/02/23/p1-sqlite-csv-json-the-eternal-golden-braid-sqlitebrowser/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Payak 2020: 1:40 oops fell 3 times in the first 5km, but mountain view climb was fast because of the klaebo running up hill diagonal stride technique</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Payak &lt;a href=&quot;https://zone4.ca/race/2020-02-22/08c387e2/results/&quot;&gt;2020&lt;/a&gt; (on classic skins with fake skins): 1:40 (same time as &lt;a href=&quot;http://rolandtanglao.com/2018/02/26/p1-payak-2018-skate-skiing-140/&quot;&gt;2018&lt;/a&gt; on skate, slower than &lt;a href=&quot;https://www.strava.com/activities/payak-2019-10-minuten-schneller-super-fun-2170380303&quot;&gt;2019&lt;/a&gt; on skate) oops fell 3 times in the first 5km, but mountain view climb was fast because of the &lt;a href=&quot;http://www.xcskiforum.com/viewtopic.php?t=5087&quot;&gt;“klaebo running up hill diagonal stride”&lt;/a&gt; technique, so that’s something positive.&lt;/li&gt;
-  &lt;li&gt;Why did I fall so much? I fell on the downhills which is weird for me. I know one of the falls was due to skin sticking. Maybe it was due to the snow which was fast but sticky randomly and finally maybe it was due to the great waxing job the Swix folks did speeding up my downhills? Don’t know it was probably mostly me not having the same core and cardio and less time on classic skis (did a lot of skate on Mondays).&lt;/li&gt;
-  &lt;li&gt;I figure if I hadn’t fallen I would have been 5-10 minutes faster! Could have, should have, would have :-) Onwards to 2021!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;iframe height=&quot;405&quot; width=&quot;590&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; scrolling=&quot;no&quot; src=&quot;https://www.strava.com/activities/3123321178/embed/0c1b0cb6323732db26e51beb071b6652679c6d76&quot;&gt;&lt;/iframe&gt;
-</description>
-        <pubDate>Sat, 22 Feb 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/02/22/p1-payak-2020-slower-because-i-fell-3-times-in-first-5-mountain-view-climb-was-fast-klaebo-rules/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/22/p1-payak-2020-slower-because-i-fell-3-times-in-first-5-mountain-view-climb-was-fast-klaebo-rules/</guid>
         
         
       </item>
