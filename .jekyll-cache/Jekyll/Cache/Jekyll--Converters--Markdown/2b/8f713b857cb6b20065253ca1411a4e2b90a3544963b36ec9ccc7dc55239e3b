@@ -1,0 +1,18 @@
+I"�<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>“To be exact, after reading this book you will know:
+    <ul>
+      <li>How to train models that achieve state of the art results in:
+        <ul>
+          <li>Computer vision: Image classification (e.g. classify pet photos by  breed), and image localization and detection (e.g. find where the  animals in an image are)</li>
+          <li>Natural Language Processing (NLP): Document classification (e.g. movie review sentiment analysis), and language modelling</li>
+          <li>Tabular data (e.g. sales prediction) with categorical data, continuous data, and mixed data, including time series</li>
+          <li>Collaborative filtering (e.g. movie recommendation)</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>”&lt;— from: <a href="https://www.amazon.ca/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527">Howard and Gugger: Deep Learning for Coders with fastai and PyTorch: AI Applications Without a PhD</a> (<a href="https://book.fast.ai/">book website</a> includes GPU options and other Jupyter administrivia) &lt;— sounds too good to be true :-) but the <a href="https://github.com/fastai/fastbook">jupyter notebooks</a> sound great</li>
+</ul>
+:ET

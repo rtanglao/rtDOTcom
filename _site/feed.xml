@@ -6,9 +6,36 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 07 Mar 2020 18:39:27 -0800</pubDate>
-    <lastBuildDate>Sat, 07 Mar 2020 18:39:27 -0800</lastBuildDate>
+    <pubDate>Sun, 08 Mar 2020 18:15:54 -0700</pubDate>
+    <lastBuildDate>Sun, 08 Mar 2020 18:15:54 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Howard and Gugger: Deep Learning for Coders with fastai and PyTorch: AI Applications Without a PhD &lt;--- sounds too good to be true :-) but the jupyter notebooks sound great</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“To be exact, after reading this book you will know:
+    &lt;ul&gt;
+      &lt;li&gt;How to train models that achieve state of the art results in:
+        &lt;ul&gt;
+          &lt;li&gt;Computer vision: Image classification (e.g. classify pet photos by  breed), and image localization and detection (e.g. find where the  animals in an image are)&lt;/li&gt;
+          &lt;li&gt;Natural Language Processing (NLP): Document classification (e.g. movie review sentiment analysis), and language modelling&lt;/li&gt;
+          &lt;li&gt;Tabular data (e.g. sales prediction) with categorical data, continuous data, and mixed data, including time series&lt;/li&gt;
+          &lt;li&gt;Collaborative filtering (e.g. movie recommendation)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;”&amp;lt;— from: &lt;a href=&quot;https://www.amazon.ca/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527&quot;&gt;Howard and Gugger: Deep Learning for Coders with fastai and PyTorch: AI Applications Without a PhD&lt;/a&gt; (&lt;a href=&quot;https://book.fast.ai/&quot;&gt;book website&lt;/a&gt; includes GPU options and other Jupyter administrivia) &amp;lt;— sounds too good to be true :-) but the &lt;a href=&quot;https://github.com/fastai/fastbook&quot;&gt;jupyter notebooks&lt;/a&gt; sound great&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 08 Mar 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/03/08/p1-deep-learning-for-coders-with-fastai-python-pytorch/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/03/08/p1-deep-learning-for-coders-with-fastai-python-pytorch/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Firefox:The Product-Details JSON API, need to call this in my Firefox support questions scripts</title>
@@ -247,23 +274,6 @@ I tried a refresh and a clean install, but that does nothing.
         <pubDate>Tue, 25 Feb 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/02/25/p1-fact-checking-corona-virus/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/02/25/p1-fact-checking-corona-virus/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>The good ole days at Bryght :-) 'Web 1.0' versus 'Web 2.0'</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Via &lt;a href=&quot;https://twitter.com/beanjammin/status/1232119216330899459&quot;&gt;Ben&lt;/a&gt; from from August 2004:  &lt;a href=&quot;https://web.archive.org/web/20041013212319/http://www.bryght.com/node/view/50&quot;&gt;Web 2.0 Websites - 1.0 just say NO!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Remember when the internet wasn’t a ‘miasma’ of lies and mis-information back in 2004? Neither do I :-) !&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 24 Feb 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/02/24/p1-the-good-ole-days-at-bryght/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/24/p1-the-good-ole-days-at-bryght/</guid>
         
         
       </item>
