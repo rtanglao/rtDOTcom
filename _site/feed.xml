@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 08 Mar 2020 18:15:54 -0700</pubDate>
-    <lastBuildDate>Sun, 08 Mar 2020 18:15:54 -0700</lastBuildDate>
+    <pubDate>Mon, 09 Mar 2020 18:09:59 -0700</pubDate>
+    <lastBuildDate>Mon, 09 Mar 2020 18:09:59 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Daily updates from COVD-19 in British Columbia from Vancouver Coastal Health</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We are ok here in Vancouver, BC as of today. The only thing that has been hoarded is hand sanitizer; everything else is available in supermarkets; everything is up and running.&lt;/li&gt;
+  &lt;li&gt;Check out: &lt;a href=&quot;http://www.vch.ca/about-us/news/vancouver-coastal-health-statement-on-coronavirus&quot;&gt;Vancouver Coastal Health - Information on Coronavirus Disease (COVID-19)&lt;/a&gt;  for daily updates from Vancouver.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 09 Mar 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/03/09/p1-covid-19-daily-bc-updates/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/03/09/p1-covid-19-daily-bc-updates/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Howard and Gugger: Deep Learning for Coders with fastai and PyTorch: AI Applications Without a PhD &lt;--- sounds too good to be true :-) but the jupyter notebooks sound great</title>
@@ -258,22 +275,6 @@ I tried a refresh and a clean install, but that does nothing.
         <pubDate>Wed, 26 Feb 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/02/26/p1-fastpages-notebooks-good-altair-good-i-dont-understand-the-rest-still-need-server/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/02/26/p1-fastpages-notebooks-good-altair-good-i-dont-understand-the-rest-still-need-server/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How To: Fact Check the corona virus aka Covid-19 crisis </title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;“So often when news reaches us we act like we &lt;em&gt;must&lt;/em&gt; make a decision on &lt;em&gt;this particular&lt;/em&gt; tweet, or post, or website. But the web is abundant! If it’s a true  story there are likely many better sources than the one that happened to find you. And if it is a false one, maybe someone already looked into  that for you. “ &amp;lt;— read the whole thing from  &lt;a href=&quot;https://siftingthroughtheoutbreak.wordpress.com/2020/02/23/find-a-better-source/&quot;&gt;News Search cross-check&lt;/a&gt; on Mike Caulfield’s &lt;a href=&quot;https://siftingthroughtheoutbreak.wordpress.com/&quot;&gt;Sifting Through the Coronavirus Outbreak blog&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Tue, 25 Feb 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/02/25/p1-fact-checking-corona-virus/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/25/p1-fact-checking-corona-virus/</guid>
         
         
       </item>
