@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 09 Mar 2020 18:09:59 -0700</pubDate>
-    <lastBuildDate>Mon, 09 Mar 2020 18:09:59 -0700</lastBuildDate>
+    <pubDate>Tue, 10 Mar 2020 22:49:57 -0700</pubDate>
+    <lastBuildDate>Tue, 10 Mar 2020 22:49:57 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Day 2 of working at home! Really miss the office and most importantly my colleagues</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;And fast internet :-)&lt;/li&gt;
+  &lt;li&gt;Otherwise, it’s the right thing to do so I’ll keep doing it!&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 10 Mar 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/03/10/p1-it-is-day2-of-working-at-home-really-miss-hanging-at-the-office/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/03/10/p1-it-is-day2-of-working-at-home-really-miss-hanging-at-the-office/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Daily updates from COVD-19 in British Columbia from Vancouver Coastal Health</title>
@@ -255,26 +272,6 @@ I tried a refresh and a clean install, but that does nothing.
         <pubDate>Fri, 28 Feb 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/02/28/p1-use-transfer-learning-from-images-for-tshirt-graphics/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/02/28/p1-use-transfer-learning-from-images-for-tshirt-graphics/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Fastpages from fastai I don't fully understand: you still need a server to render python notebooks for testing purposes, right? Altair Python Visualizations seem excellent &amp; Blogging via Word files is great though</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;This is why I love the premise of &lt;a href=&quot;https://alpha.iodide.io/&quot;&gt;iodide&lt;/a&gt; as I understand it :  you don’t need a server! Any web browser can run your notebook code just like any web browser can render your static web pages. No extra server required.&lt;/li&gt;
-  &lt;li&gt;Anyways,  I am probably over-thinking the need for a server. We will always need servers :-) ! It’s just that in my opinion every node even if it’s just a laptop or better yet phone running a browser should be a server as well as a client!&lt;/li&gt;
-  &lt;li&gt;Check out the intro post: &lt;a href=&quot;https://fastpages.fast.ai/fastpages/jupyter/2020/02/21/introducing-fastpages.html&quot;&gt;introducing fastpages&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;And then check out Stephen Downe’s attempt to clarify “introducing fastpages” :-) :  &lt;a href=&quot;https://halfanhour.blogspot.com/2020/02/how-to-use-fastpages.html&quot;&gt;How to Use Fastpages&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;All in all something I should try!&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Wed, 26 Feb 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/02/26/p1-fastpages-notebooks-good-altair-good-i-dont-understand-the-rest-still-need-server/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/26/p1-fastpages-notebooks-good-altair-good-i-dont-understand-the-rest-still-need-server/</guid>
         
         
       </item>
