@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 11 Mar 2020 22:26:54 -0700</pubDate>
-    <lastBuildDate>Wed, 11 Mar 2020 22:26:54 -0700</lastBuildDate>
+    <pubDate>Fri, 13 Mar 2020 19:26:11 -0700</pubDate>
+    <lastBuildDate>Fri, 13 Mar 2020 19:26:11 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>I fully endorse the use of they</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read: &lt;a href=&quot;https://www.nationalreview.com/magazine/2020/02/10/on-the-new-uses-of-they/&quot;&gt;On the New Uses of ‘They&lt;/a&gt;’&lt;/li&gt;
+  &lt;li&gt;Juicy quote: “What remains to be seen is how the new uses of &lt;em&gt;they&lt;/em&gt; will play  out in Standard Written English. How much ambiguity will it cause? How  often will pronoun references become unclear? To take the most extreme  instance, how will criminal statutes be drafted? &lt;em&gt;A person is guilty of conspiracy if, together with one or more others, they&lt;/em&gt; . . . Does that &lt;em&gt;they&lt;/em&gt; refer to the single person or to the people acting together? Hundreds  of thousands of statutes and regulations might need to be rewritten if  the singular &lt;em&gt;they&lt;/em&gt; becomes a preferred policy.” &amp;lt;— I am sure we’ll figure this out!&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Fri, 13 Mar 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/03/13/p1-i-fully-endorse-the-use-of-they/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/03/13/p1-i-fully-endorse-the-use-of-they/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Will we have to go through the Kübler-Ross five stages of grief for our pre-pandemic lifestyle? I am an optimist therefore I don't think so!</title>
@@ -228,29 +245,6 @@ I tried a refresh and a clean install, but that does nothing.
         <pubDate>Sun, 01 Mar 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/03/01/p1-howto-mlr-miller-remov-fields-from-csv/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/03/01/p1-howto-mlr-miller-remov-fields-from-csv/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>I want off Mr. Golang's Wild Ride: 'Go is a Bell Labs fantasy, and not a very good one at that' (kind of like C++ before it, am I right :-) ?)</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;“Computers, operating systems, networks are a hot mess. They’re barely manageable, even if you know a decent amount about what you’re doing. Nine out of ten software engineers agree: it’s a miracle anything works at all.&lt;/p&gt;
-
-    &lt;p&gt;So all the complexity is swept under the rug. Hidden from view, but not solved.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Go is a Bell Labs fantasy, and not a very good one at that.” &amp;lt;— not sure I recommend reading the very long thing LOL but if you want: &lt;a href=&quot;https://fasterthanli.me/blog/2020/i-want-off-mr-golangs-wild-ride/&quot;&gt;I want off Mr. Golang’s Wild Ride&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sat, 29 Feb 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/02/29/p1-go-bell-labs-fantasy-just-like-cplusplus/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/02/29/p1-go-bell-labs-fantasy-just-like-cplusplus/</guid>
         
         
       </item>
