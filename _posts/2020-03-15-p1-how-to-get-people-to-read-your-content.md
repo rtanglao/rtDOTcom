@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Josh Bernoff: You’resharing essential content. Here’s how to get colleagues to read it."
+title: "Josh Bernoff: You’re sharing essential content. Here’s how to get colleagues to read it."
 ---
 
 # Pontifications
