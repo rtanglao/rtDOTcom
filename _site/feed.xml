@@ -6,9 +6,30 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 13 Mar 2020 19:26:11 -0700</pubDate>
-    <lastBuildDate>Fri, 13 Mar 2020 19:26:11 -0700</lastBuildDate>
+    <pubDate>Sun, 15 Mar 2020 09:02:54 -0700</pubDate>
+    <lastBuildDate>Sun, 15 Mar 2020 09:02:54 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Josh Bernoff: You’resharing essential content. Here’s how to get colleagues to read it.</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;“1 Clarify your Audience 2 Communicate less frequently and with more relevance 3 Improve your titles 5 Write Shorter  6 Bottom Line up Front “ Read the whole thing: &lt;a href=&quot;https://withoutbullshit.com/blog/youre-sharing-essential-content-heres-how-to-get-colleagues-to-read-it&quot;&gt;You’re sharing essential content. Here’s how to get colleagues to read it.&lt;/a&gt;!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Better yet subscribe to &lt;a href=&quot;https://withoutbullshit.com/blog/&quot;&gt;Josh’s blog&lt;/a&gt; via &lt;a href=&quot;https://withoutbullshit.com/?feed=rss2&quot;&gt;RSS&lt;/a&gt; , or email!&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 15 Mar 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/03/15/p1-how-to-get-people-to-read-your-content/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/03/15/p1-how-to-get-people-to-read-your-content/</guid>
+        
+        
+      </item>
     
       <item>
         <title>I fully endorse the use of they</title>
@@ -225,26 +246,6 @@ I tried a refresh and a clean install, but that does nothing.
         <pubDate>Mon, 02 Mar 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/03/02/p1-firefox-support-question-to-mechanical-turk-tagging-workflow/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/03/02/p1-firefox-support-question-to-mechanical-turk-tagging-workflow/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to: retain selected fields and remove the rest in a CSV file using mlr aka miller</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The following miller aka &lt;code class=&quot;highlighter-rouge&quot;&gt;mlr&lt;/code&gt; script removes all fields except &lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt;and &lt;code class=&quot;highlighter-rouge&quot;&gt;content&lt;/code&gt;
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mlr &lt;span class=&quot;nt&quot;&gt;--csv&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;cut&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; title,content id-1279731-unixtime-1583100833-by-id-firefox-creator-answers-desktop-all-locales.csv 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;(previously blogged not as clearly: &lt;a href=&quot;http://rolandtanglao.com/2019/02/15/p1-using-miller-aka-mlr-to-combine-selected-fields-from-a-csv-file/&quot;&gt;Using mlr aka miller to combine selected fields from multiple CSV files&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sun, 01 Mar 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/03/01/p1-howto-mlr-miller-remov-fields-from-csv/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/03/01/p1-howto-mlr-miller-remov-fields-from-csv/</guid>
         
         
       </item>
