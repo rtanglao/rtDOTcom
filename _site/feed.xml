@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 16 Mar 2020 21:52:59 -0700</pubDate>
-    <lastBuildDate>Mon, 16 Mar 2020 21:52:59 -0700</lastBuildDate>
+    <pubDate>Wed, 18 Mar 2020 17:55:26 -0700</pubDate>
+    <lastBuildDate>Wed, 18 Mar 2020 17:55:26 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Peace and Love from Vancouver. Wash your hands. Socially isolate if you can. Be kind</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.rolandmicroblog.com/2020/03/17/peace-and-love.html&quot;&gt;Peace and Love from Vancouver - click for voice :-)&lt;/a&gt;. Wash your hands. Socially isolate if you can. Be kind. Create stuff to de-stress. Eat well, etc etc&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 18 Mar 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/03/18/p1-peace-and-love-from-vancouver-wash-your-hands-socially-isolate-be-kind/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/03/18/p1-peace-and-love-from-vancouver-wash-your-hands-socially-isolate-be-kind/</guid>
+        
+        
+      </item>
     
       <item>
         <title>The Basecamp Guide to Internal Communication</title>
@@ -177,33 +193,6 @@
         <pubDate>Fri, 06 Mar 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/03/06/p1-word-missing-hanging-office-fab-colleagues-heavily-encouraged-work-home-so-2020/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/03/06/p1-word-missing-hanging-office-fab-colleagues-heavily-encouraged-work-home-so-2020/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to install python 3.7 into a python virtualenv on WSL</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;This leaves the pre-installed python alone! And I think this will work on any Linux not just in a distro on WSL!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt update
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;software-properties-common
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;add-apt-repository ppa:deadsnakes/ppa
-
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;python3.7
-
-virtualenv &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; /usr/bin/python3.7 ~/PYTHON3.7/canosp_python_37
-&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;canosp_python_37/bin
-&lt;span class=&quot;nb&quot;&gt;source &lt;/span&gt;activate
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-</description>
-        <pubDate>Wed, 04 Mar 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/03/04/p1-how-to-install-python-3-virtual-env-wsl/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/03/04/p1-how-to-install-python-3-virtual-env-wsl/</guid>
         
         
       </item>
