@@ -6,9 +6,27 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 19 Mar 2020 22:13:05 -0700</pubDate>
-    <lastBuildDate>Thu, 19 Mar 2020 22:13:05 -0700</lastBuildDate>
+    <pubDate>Fri, 20 Mar 2020 21:27:28 -0700</pubDate>
+    <lastBuildDate>Fri, 20 Mar 2020 21:27:28 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Litt and Jackson: Wildcard: Spreadsheet-Driven Customization of Web Applications</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“Many Web applications do not meet the precise needs of their users.  Browser extensions offer a way to customize web applications, but most  people do not have the programming skills to implement their own  extensions.” &amp;lt;—- &lt;a href=&quot;https://www.geoffreylitt.com/wildcard/salon2020/&quot;&gt;read the whole thing&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;“Programming skills” ==== We in the computer industry have made it unnecessarily difficult to make powerful apps and to customize and tinker with apps. Nobody should need “programming skills”. Just the ability to break down a problem into smaller steps and a system that allows them to customize it using this ability! Programming for everybody!&lt;/li&gt;
+  &lt;li&gt;See April 2018 &lt;a href=&quot;http://rolandtanglao.com/2018/04/26/p1-everybody-who-writes-formulas-or-uses-pivot-tables-in-a-spreadsheet-is-a-programmer/&quot;&gt;Everybody who writes formulas and/or uses pivot tables in a spreadsheet is a programmer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Fri, 20 Mar 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/03/20/p1-wildcard-spreadsheet-driven-customizations-web-apps/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/03/20/p1-wildcard-spreadsheet-driven-customizations-web-apps/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Chris Corrigan: Sense-making in real time: Observe; look for patterns; inquire; what keeps the patterns in place?</title>
@@ -168,22 +186,6 @@
         <pubDate>Sun, 08 Mar 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/03/08/p1-deep-learning-for-coders-with-fastai-python-pytorch/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/03/08/p1-deep-learning-for-coders-with-fastai-python-pytorch/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Firefox:The Product-Details JSON API, need to call this in my Firefox support questions scripts</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The &lt;a href=&quot;https://wiki.mozilla.org/Release_Management/Product_details&quot;&gt;Product-Details JSON API from Firefox&lt;/a&gt; needs to be incorporated into my Firefox support questions scripts (e.g. &lt;a href=&quot;https://github.com/rtanglao/rt-kits-api2&quot;&gt;rt-kits-api2&lt;/a&gt;, &lt;a href=&quot;https://github.com/rtanglao/rt-4-week-release-cycle&quot;&gt;https://github.com/rtanglao/rt-4-week-release-cycle&lt;/a&gt;, &lt;a href=&quot;https://github.com/rtanglao/rt-sumo-forum-report&quot;&gt;https://github.com/rtanglao/rt-sumo-forum-report&lt;/a&gt; )&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sat, 07 Mar 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/03/07/p1-firefox-product-details-json-api/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/03/07/p1-firefox-product-details-json-api/</guid>
         
         
       </item>
