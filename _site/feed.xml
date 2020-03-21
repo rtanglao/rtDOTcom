@@ -6,9 +6,35 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 20 Mar 2020 21:27:28 -0700</pubDate>
-    <lastBuildDate>Fri, 20 Mar 2020 21:27:28 -0700</lastBuildDate>
+    <pubDate>Sat, 21 Mar 2020 13:34:03 -0700</pubDate>
+    <lastBuildDate>Sat, 21 Mar 2020 13:34:03 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Glitch for remote work and gratuitous :-) WFH advice from me to you</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Glitch is recommended always even if you aren’t working from home (WFH)!&lt;/li&gt;
+  &lt;li&gt;Glitch’s guide: &lt;a href=&quot;https://glitch.com/remote/&quot;&gt;Glitch for remote work&lt;/a&gt; is also  highly recommended&lt;/li&gt;
+  &lt;li&gt;I’ve worked from home on and off over the last 15 years (usually only for 1 or 2 early or late meetings) but mostly at an office.&lt;/li&gt;
+  &lt;li&gt;Zoom is fantastic and so is slack and matrix, much better than irc and skype&lt;/li&gt;
+  &lt;li&gt;Whatever the toolset is, I can add the following (but others like &lt;a href=&quot;https://www.hanselman.com/blog/LoveInATimeOfCoronaVirusTipsTricksAndBestPracticesForWorkingRemotely.aspx&quot;&gt;Scott Hanselman&lt;/a&gt;, &lt;a href=&quot;https://andyabramson.blogs.com/working_anywhere/&quot;&gt;Andy Abramson&lt;/a&gt; and many others have far more comprehensive WFH advice):
+    &lt;ul&gt;
+      &lt;li&gt;Assume positive intent!!!!&lt;/li&gt;
+      &lt;li&gt;Get a great microphone (USB wired headset form Plantronics or Logitech is my recommendation since they are rock solid or if you must wireless than fancy bluetooth like AirPods; I don’t use AirPods but many colleagues do and their audio quality is much better than the cheapie bluetooth headsets&lt;/li&gt;
+      &lt;li&gt;Don’t use the wired headset that comes with your iPhone or Android phone (if you do test it weekly because they fail silently!)!!!!!!&lt;/li&gt;
+      &lt;li&gt;Get into an “office” routine: e.g. shower, change, put on your office badge, and go into “office” mode.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 21 Mar 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/03/21/p1-glitch-working-remote/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/03/21/p1-glitch-working-remote/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Litt and Jackson: Wildcard: Spreadsheet-Driven Customization of Web Applications</title>
@@ -159,33 +185,6 @@
         <pubDate>Mon, 09 Mar 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/03/09/p1-covid-19-daily-bc-updates/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/03/09/p1-covid-19-daily-bc-updates/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Howard and Gugger: Deep Learning for Coders with fastai and PyTorch: AI Applications Without a PhD &lt;--- sounds too good to be true :-) but the jupyter notebooks sound great</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;“To be exact, after reading this book you will know:
-    &lt;ul&gt;
-      &lt;li&gt;How to train models that achieve state of the art results in:
-        &lt;ul&gt;
-          &lt;li&gt;Computer vision: Image classification (e.g. classify pet photos by  breed), and image localization and detection (e.g. find where the  animals in an image are)&lt;/li&gt;
-          &lt;li&gt;Natural Language Processing (NLP): Document classification (e.g. movie review sentiment analysis), and language modelling&lt;/li&gt;
-          &lt;li&gt;Tabular data (e.g. sales prediction) with categorical data, continuous data, and mixed data, including time series&lt;/li&gt;
-          &lt;li&gt;Collaborative filtering (e.g. movie recommendation)&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;”&amp;lt;— from: &lt;a href=&quot;https://www.amazon.ca/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527&quot;&gt;Howard and Gugger: Deep Learning for Coders with fastai and PyTorch: AI Applications Without a PhD&lt;/a&gt; (&lt;a href=&quot;https://book.fast.ai/&quot;&gt;book website&lt;/a&gt; includes GPU options and other Jupyter administrivia) &amp;lt;— sounds too good to be true :-) but the &lt;a href=&quot;https://github.com/fastai/fastbook&quot;&gt;jupyter notebooks&lt;/a&gt; sound great&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 08 Mar 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/03/08/p1-deep-learning-for-coders-with-fastai-python-pytorch/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/03/08/p1-deep-learning-for-coders-with-fastai-python-pytorch/</guid>
         
         
       </item>
