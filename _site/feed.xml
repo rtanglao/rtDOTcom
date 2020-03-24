@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 22 Mar 2020 16:43:56 -0700</pubDate>
-    <lastBuildDate>Sun, 22 Mar 2020 16:43:56 -0700</lastBuildDate>
+    <pubDate>Mon, 23 Mar 2020 18:46:33 -0700</pubDate>
+    <lastBuildDate>Mon, 23 Mar 2020 18:46:33 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Kieran Healy: Get Your Epidemiology from Epidemiologists &lt;--- awesome documented R code</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Please check out Kieran Healy: &lt;a href=&quot;https://kieranhealy.org/blog/archives/2020/03/21/covid-19-tracking/&quot;&gt;Get Your Epidemiology from Epidemiologists&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;R code completely documented and in a &lt;a href=&quot;https://github.com/kjhealy/covid&quot;&gt;covid-19 github repo&lt;/a&gt;! Yes! Thanks!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 23 Mar 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/03/23/p1-kieran-healy-get-your-epidemiology-from-epidemiologists/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/03/23/p1-kieran-healy-get-your-epidemiology-from-epidemiologists/</guid>
+        
+        
+      </item>
     
       <item>
         <title>COVID-19 checkvist list of links</title>
@@ -167,23 +183,6 @@
         <pubDate>Wed, 11 Mar 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/03/11/p1-k%C3%BCbler-ross-five-stages-of-grief/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/03/11/p1-k%C3%BCbler-ross-five-stages-of-grief/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Day 2 of working at home! Really miss the office and most importantly my colleagues</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;And fast internet :-)&lt;/li&gt;
-  &lt;li&gt;Otherwise, it’s the right thing to do so I’ll keep doing it!&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Tue, 10 Mar 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/03/10/p1-it-is-day2-of-working-at-home-really-miss-hanging-at-the-office/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/03/10/p1-it-is-day2-of-working-at-home-really-miss-hanging-at-the-office/</guid>
         
         
       </item>
