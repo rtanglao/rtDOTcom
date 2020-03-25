@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 23 Mar 2020 18:46:33 -0700</pubDate>
-    <lastBuildDate>Mon, 23 Mar 2020 18:46:33 -0700</lastBuildDate>
+    <pubDate>Wed, 25 Mar 2020 12:50:24 -0700</pubDate>
+    <lastBuildDate>Wed, 25 Mar 2020 12:50:24 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Jens von Bergmann: Canada COVID-19 interactive growth rate explorer</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Jens does it again, updated hourly! &lt;a href=&quot;https://mountainmath.ca/shiny/canada_covid-19/&quot;&gt;Canada COVID-19 interactive growth rate explorer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 25 Mar 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/03/25/p1-jens-von-bergmann-canada-covid-19-interactive-growth-rate-explorer/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/03/25/p1-jens-von-bergmann-canada-covid-19-interactive-growth-rate-explorer/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Kieran Healy: Get Your Epidemiology from Epidemiologists &lt;--- awesome documented R code</title>
@@ -168,21 +184,6 @@
         <pubDate>Fri, 13 Mar 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/03/13/p1-i-fully-endorse-the-use-of-they/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/03/13/p1-i-fully-endorse-the-use-of-they/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Will we have to go through the Kübler-Ross five stages of grief for our pre-pandemic lifestyle? I am an optimist therefore I don't think so!</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;See &lt;a href=&quot;https://en.wikipedia.org/wiki/K%C3%BCbler-Ross_model&quot;&gt;&lt;strong&gt;Kübler-Ross model&lt;/strong&gt;, or the &lt;strong&gt;five stages of grief&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 11 Mar 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/03/11/p1-k%C3%BCbler-ross-five-stages-of-grief/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/03/11/p1-k%C3%BCbler-ross-five-stages-of-grief/</guid>
         
         
       </item>
