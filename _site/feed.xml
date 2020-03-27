@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 26 Mar 2020 07:08:11 -0700</pubDate>
-    <lastBuildDate>Thu, 26 Mar 2020 07:08:11 -0700</lastBuildDate>
+    <pubDate>Fri, 27 Mar 2020 10:04:27 -0700</pubDate>
+    <lastBuildDate>Fri, 27 Mar 2020 10:04:27 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>jscher's Printable Extension for Firefox</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;jscher’s amazing &lt;a href=&quot;https://www.jeffersonscher.com/ext/printable.html&quot;&gt;Printable Extension for Firefox&lt;/a&gt; (&lt;a href=&quot;https://addons.mozilla.org/firefox/addon/printable-the-print-doctor/&quot;&gt;AMO Listing&lt;/a&gt;) &amp;lt;– “Printable was created to address my own frustrations, but judging by  the growing number of users, other people are finding it useful as well.” &amp;lt;– It fixes or at least tries to fix  &lt;code class=&quot;highlighter-rouge&quot;&gt;display: flex&lt;/code&gt;, custom fonts, fixed position elements and more&lt;/li&gt;
+  &lt;li&gt;Printing is and will always be problematic. My workaround is to save as PDF and print in Preview on OS X which isn’t a workaround if you don’t have a Mac (I have both Windows and Mac)&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Fri, 27 Mar 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/03/27/p1-jscher-printable-print-firefox-add-on/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/03/27/p1-jscher-printable-print-firefox-add-on/</guid>
+        
+        
+      </item>
     
       <item>
         <title>That Discomfort You’re Feeling Is Grief - Elisabeth Kübler-Ross's five stages of grief updated with a sixth: find meaning </title>
@@ -164,27 +181,6 @@
         <pubDate>Mon, 16 Mar 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/03/16/p1-how-basecamp-does-internal-communication/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/03/16/p1-how-basecamp-does-internal-communication/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Josh Bernoff: You’re sharing essential content. Here’s how to get colleagues to read it.</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;“1 Clarify your Audience 2 Communicate less frequently and with more relevance 3 Improve your titles 5 Write Shorter  6 Bottom Line up Front “ Read the whole thing: &lt;a href=&quot;https://withoutbullshit.com/blog/youre-sharing-essential-content-heres-how-to-get-colleagues-to-read-it&quot;&gt;You’re sharing essential content. Here’s how to get colleagues to read it.&lt;/a&gt;!&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Better yet subscribe to &lt;a href=&quot;https://withoutbullshit.com/blog/&quot;&gt;Josh’s blog&lt;/a&gt; via &lt;a href=&quot;https://withoutbullshit.com/?feed=rss2&quot;&gt;RSS&lt;/a&gt; , or email!&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sun, 15 Mar 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/03/15/p1-how-to-get-people-to-read-your-content/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/03/15/p1-how-to-get-people-to-read-your-content/</guid>
         
         
       </item>
