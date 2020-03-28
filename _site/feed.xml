@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 27 Mar 2020 10:04:27 -0700</pubDate>
-    <lastBuildDate>Fri, 27 Mar 2020 10:04:27 -0700</lastBuildDate>
+    <pubDate>Sat, 28 Mar 2020 08:18:15 -0700</pubDate>
+    <lastBuildDate>Sat, 28 Mar 2020 08:18:15 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Kieran Healy - A COVID Small Multiple in R with ggplot2</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Just can’t get enough of well commented R ggplot2 code: see &lt;a href=&quot;https://kieranhealy.org/blog/archives/2020/03/27/a-covid-small-multiple/&quot;&gt;Kieran Healy A COVID Small Multiple&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;See my previous blog post also on Kieran’s code: &lt;a href=&quot;http://rolandtanglao.com/2020/03/23/p1-kieran-healy-get-your-epidemiology-from-epidemiologists/&quot;&gt;Kieran Healy: Get Your Epidemiology from Epidemiologists &amp;lt;— awesome documented R code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sat, 28 Mar 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/03/28/p1-kieran-healy-covid-19-r-ggplot2-mal-multiple/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/03/28/p1-kieran-healy-covid-19-r-ggplot2-mal-multiple/</guid>
+        
+        
+      </item>
     
       <item>
         <title>jscher's Printable Extension for Firefox</title>
@@ -165,22 +182,6 @@
         <pubDate>Wed, 18 Mar 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/03/18/p1-peace-and-love-from-vancouver-wash-your-hands-socially-isolate-be-kind/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/03/18/p1-peace-and-love-from-vancouver-wash-your-hands-socially-isolate-be-kind/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>The Basecamp Guide to Internal Communication</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://basecamp.com/guides/how-we-communicate&quot;&gt;The Basecamp Guide to Internal Communication&lt;/a&gt; has 30 rules of thumb and more. My favourite is #1 “You can not not communicate. Not discussing the elephant in the room is  communicating. Few things are as important to study, practice, and  perfect as clear communication.”. &lt;a href=&quot;https://basecamp.com/guides/how-we-communicate&quot;&gt;Read the whole thing&lt;/a&gt;!&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 16 Mar 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/03/16/p1-how-basecamp-does-internal-communication/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/03/16/p1-how-basecamp-does-internal-communication/</guid>
         
         
       </item>
