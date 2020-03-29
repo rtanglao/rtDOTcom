@@ -6,9 +6,32 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 28 Mar 2020 08:18:15 -0700</pubDate>
-    <lastBuildDate>Sat, 28 Mar 2020 08:18:15 -0700</lastBuildDate>
+    <pubDate>Sun, 29 Mar 2020 09:38:48 -0700</pubDate>
+    <lastBuildDate>Sun, 29 Mar 2020 09:38:48 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Everest Pipkin: Open source, experimental, and tiny tools roundup </title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;My favourite part of this is:&lt;/p&gt;
+
+    &lt;p&gt;“Tiny/weirdo game engines:&lt;/p&gt;
+
+    &lt;p&gt;Game engines that let you make a full game, but  often within a particular style, ethos, framework, or with other  limitations. Generally quick to pick up and work with, made for accessibility.” 
+&amp;lt;— Read the whole thing: &lt;a href=&quot;https://everest-pipkin.com/&quot;&gt;Everest Pipkin&lt;/a&gt;: &lt;a href=&quot;http://everest-pipkin.com/teaching/tools.html&quot;&gt;Open source, experimental, and tiny tools roundup&lt;/a&gt;  &amp;lt;– Google Docs Version. There is also an &lt;a href=&quot;http://tools.odie.us/&quot;&gt;HTML version&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 29 Mar 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/03/29/p1-open-source-experimental-weirdo-tiny-tools-game-engines/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/03/29/p1-open-source-experimental-weirdo-tiny-tools-game-engines/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Kieran Healy - A COVID Small Multiple in R with ggplot2</title>
@@ -166,22 +189,6 @@
         <pubDate>Thu, 19 Mar 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/03/19/p1-chris-corrigan-sense-making-in-real-time/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/03/19/p1-chris-corrigan-sense-making-in-real-time/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Peace and Love from Vancouver. Wash your hands. Socially isolate if you can. Be kind</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.rolandmicroblog.com/2020/03/17/peace-and-love.html&quot;&gt;Peace and Love from Vancouver - click for voice :-)&lt;/a&gt;. Wash your hands. Socially isolate if you can. Be kind. Create stuff to de-stress. Eat well, etc etc&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Wed, 18 Mar 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/03/18/p1-peace-and-love-from-vancouver-wash-your-hands-socially-isolate-be-kind/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/03/18/p1-peace-and-love-from-vancouver-wash-your-hands-socially-isolate-be-kind/</guid>
         
         
       </item>
