@@ -6,9 +6,28 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 30 Mar 2020 11:31:56 -0700</pubDate>
-    <lastBuildDate>Mon, 30 Mar 2020 11:31:56 -0700</lastBuildDate>
+    <pubDate>Tue, 31 Mar 2020 22:46:42 -0700</pubDate>
+    <lastBuildDate>Tue, 31 Mar 2020 22:46:42 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Ribbonfarm: Aainst waldenponding aka against unplugging for self-care aka instead become part of the giant social computer in the cloud (GSCITC)</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“Premise: FOMO is good. Being plugged in is good. There is valuable info  at all levels from twitter gossip to philosophy books. You should stay  plugged in. You can manage anxiety and beat the House without resorting  to shaming social platforms into managing attention for you. That’s a  terrible yielding of agency.”&lt;/li&gt;
+  &lt;li&gt;“What the “unplug for self-care” crowd doesn’t get is that you are part  of a Giant Social Computer in the Cloud (GSCITC) computing the future.  The level and latency at which you consume information and act on it  determines your “job” in the social computer.”&lt;/li&gt;
+  &lt;li&gt;“The reason the unplugging doesn’t work for most people is not that the  Evil Platform Companies are trying to hack your attention and turn you  into a helpless addict (though they are) but because you rationally  realize &lt;em&gt;you need a job in the GSCITC.&lt;/em&gt;”&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mailchi.mp/ribbonfarm/against-waldenponding&quot;&gt;Read the whole thing&lt;/a&gt;. It’s long but worth it!&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 31 Mar 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/03/31/ribbonfarm-against-waldenponding-or-against-unplug-for-self-care-giant-social-computer-in-the-cloud/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/03/31/ribbonfarm-against-waldenponding-or-against-unplug-for-self-care-giant-social-computer-in-the-cloud/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Take Firefox questions in CSV and convert to SQL lite using Simon Willison's csvs-to-sqlite which I guess uses the sqlite3 import command underneath? </title>
@@ -171,24 +190,6 @@
         <pubDate>Sat, 21 Mar 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/03/21/p1-glitch-working-remote/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/03/21/p1-glitch-working-remote/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Litt and Jackson: Wildcard: Spreadsheet-Driven Customization of Web Applications</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;“Many Web applications do not meet the precise needs of their users.  Browser extensions offer a way to customize web applications, but most  people do not have the programming skills to implement their own  extensions.” &amp;lt;—- &lt;a href=&quot;https://www.geoffreylitt.com/wildcard/salon2020/&quot;&gt;read the whole thing&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;“Programming skills” ==== We in the computer industry have made it unnecessarily difficult to make powerful apps and to customize and tinker with apps. Nobody should need “programming skills”. Just the ability to break down a problem into smaller steps and a system that allows them to customize it using this ability! Programming for everybody!&lt;/li&gt;
-  &lt;li&gt;See April 2018 &lt;a href=&quot;http://rolandtanglao.com/2018/04/26/p1-everybody-who-writes-formulas-or-uses-pivot-tables-in-a-spreadsheet-is-a-programmer/&quot;&gt;Everybody who writes formulas and/or uses pivot tables in a spreadsheet is a programmer&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Fri, 20 Mar 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/03/20/p1-wildcard-spreadsheet-driven-customizations-web-apps/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/03/20/p1-wildcard-spreadsheet-driven-customizations-web-apps/</guid>
         
         
       </item>
