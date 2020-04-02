@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ribbonfarm: Aainst waldenponding aka against unplugging for self-care aka instead become part of the giant social computer in the cloud (GSCITC)"
+title: "Ribbonfarm: Against waldenponding aka against unplugging for self-care aka instead become part of the giant social computer in the cloud (GSCITC)"
 ---
 
 # Pontifications
