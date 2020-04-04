@@ -6,16 +6,33 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 02 Apr 2020 20:58:50 -0700</pubDate>
-    <lastBuildDate>Thu, 02 Apr 2020 20:58:50 -0700</lastBuildDate>
+    <pubDate>Fri, 03 Apr 2020 21:23:50 -0700</pubDate>
+    <lastBuildDate>Fri, 03 Apr 2020 21:23:50 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>REMINDER: rolandmicroblog.com is my truly random podcast with no ads and no bumpers and hopefully will make you smile always :-)</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;REMINDER: &lt;a href=&quot;https://www.rolandmicroblog.com/&quot;&gt;rolandmicroblog.com&lt;/a&gt; is my truly random podcast with no ads and no bumpers and hopefully will make you smile always :-)&lt;/li&gt;
+  &lt;li&gt;I might even throw in an &lt;a href=&quot;https://www.rolandmicroblog.com/2019/12/29/over-in-vancouver.html&quot;&gt;over 40 in Vancouver episode&lt;/a&gt; now and then :-)&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Fri, 03 Apr 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/04/03/p1-reminder-of-my-rolandmicroblog-random-podcast/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/04/03/p1-reminder-of-my-rolandmicroblog-random-podcast/</guid>
+        
+        
+      </item>
     
       <item>
         <title>recent iPad + Airpods + mount = best combo for Zoom? &lt;-  From Several grumpy opinions about remote work at Tailscale</title>
         <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Read the whole thing to learn about Notion, Keybase, Streak CRM, slack etc in addition to useful advice about videconferencing with Zoom and other products: &lt;a href=&quot;https://apenwarr.ca/log/20200309&quot;&gt;Several grumpy opinions about remote work at Tailscale&lt;/a&gt; and or check out these quotes:&lt;/li&gt;
+  &lt;li&gt;Read the whole thing to learn about Notion, Keybase, Streak CRM, slack etc in addition to useful advice about videoconferencing with Zoom and other products: &lt;a href=&quot;https://apenwarr.ca/log/20200309&quot;&gt;Several grumpy opinions about remote work at Tailscale&lt;/a&gt; and or check out these quotes:&lt;/li&gt;
   &lt;li&gt;“The very latest 2019 iPad Pro  has a pretty great front-facing camera that works in low light (the best  kind of light), so that’s what I use now.”&lt;/li&gt;
   &lt;li&gt;“Airpods (when connected to iPhones or iPads) have very low latency, not  detectable by humans.”&lt;/li&gt;
   &lt;li&gt;“I mounted my iPad above my monitor, at the so-called “selfie angle,” using  a &lt;a href=&quot;https://www.amazon.ca/dp/B06WGNP9HD/ref=pe_3034960_233709270_TE_item&quot;&gt;$40   iPad mount I bought from Amazon&lt;/a&gt;. Mounting it this way has two  advantages: I look slightly up at the person I’m talking to rather than  down, and when I type notes into my computer, it doesn’t look like I’m off  to the side.”&lt;/li&gt;
@@ -173,22 +190,6 @@
         <pubDate>Wed, 25 Mar 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/03/25/p1-jens-von-bergmann-canada-covid-19-interactive-growth-rate-explorer/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/03/25/p1-jens-von-bergmann-canada-covid-19-interactive-growth-rate-explorer/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Kieran Healy: Get Your Epidemiology from Epidemiologists &lt;--- awesome documented R code</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Please check out Kieran Healy: &lt;a href=&quot;https://kieranhealy.org/blog/archives/2020/03/21/covid-19-tracking/&quot;&gt;Get Your Epidemiology from Epidemiologists&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;R code completely documented and in a &lt;a href=&quot;https://github.com/kjhealy/covid&quot;&gt;covid-19 github repo&lt;/a&gt;! Yes! Thanks!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 23 Mar 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/03/23/p1-kieran-healy-get-your-epidemiology-from-epidemiologists/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/03/23/p1-kieran-healy-get-your-epidemiology-from-epidemiologists/</guid>
         
         
       </item>
