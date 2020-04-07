@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 05 Apr 2020 20:21:04 -0700</pubDate>
-    <lastBuildDate>Sun, 05 Apr 2020 20:21:04 -0700</lastBuildDate>
+    <pubDate>Mon, 06 Apr 2020 18:47:29 -0700</pubDate>
+    <lastBuildDate>Mon, 06 Apr 2020 18:47:29 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>David Crawshaw: Remembering the LAN &lt;- Amen! Programming should be fun, not combat against dark forces on the internet :-)</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“Third, I need to help new programmers who never got to experience simple, pleasurable programming in a safe environment understand that programming can be fun. You can set up your environment so you can focus on being creative. Writing a web service for use by your friends should not be a form of combat, where you spend your days worrying about XSS attacks or buffer overflows. You should be focused on creating something new and wonderful in a place without bad people hounding you.” &amp;lt;— Read the whole thing: David Crawshaw: &lt;a href=&quot;https://crawshaw.io/blog/remembering-the-lan&quot;&gt;Remembering the LAN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 06 Apr 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/04/06/p1-david-crawshaw-remembering-the-lan/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/04/06/p1-david-crawshaw-remembering-the-lan/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Thank you to all front line workers</title>
@@ -199,23 +215,6 @@
         <pubDate>Sat, 28 Mar 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/03/28/p1-kieran-healy-covid-19-r-ggplot2-mal-multiple/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/03/28/p1-kieran-healy-covid-19-r-ggplot2-mal-multiple/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>jscher's Printable Extension for Firefox</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;jscher’s amazing &lt;a href=&quot;https://www.jeffersonscher.com/ext/printable.html&quot;&gt;Printable Extension for Firefox&lt;/a&gt; (&lt;a href=&quot;https://addons.mozilla.org/firefox/addon/printable-the-print-doctor/&quot;&gt;AMO Listing&lt;/a&gt;) &amp;lt;– “Printable was created to address my own frustrations, but judging by  the growing number of users, other people are finding it useful as well.” &amp;lt;– It fixes or at least tries to fix  &lt;code class=&quot;highlighter-rouge&quot;&gt;display: flex&lt;/code&gt;, custom fonts, fixed position elements and more&lt;/li&gt;
-  &lt;li&gt;Printing is and will always be problematic. My workaround is to save as PDF and print in Preview on OS X which isn’t a workaround if you don’t have a Mac (I have both Windows and Mac)&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Fri, 27 Mar 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/03/27/p1-jscher-printable-print-firefox-add-on/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/03/27/p1-jscher-printable-print-firefox-add-on/</guid>
         
         
       </item>
