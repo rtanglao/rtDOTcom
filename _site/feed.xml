@@ -6,9 +6,32 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 08 Apr 2020 16:14:09 -0700</pubDate>
-    <lastBuildDate>Wed, 08 Apr 2020 16:14:09 -0700</lastBuildDate>
+    <pubDate>Thu, 09 Apr 2020 21:28:09 -0700</pubDate>
+    <lastBuildDate>Thu, 09 Apr 2020 21:28:09 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>RR: Record and Replay Go Backwards in Time in C++ on Linux with GDB</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;“Robert O’Callahan: Actually, the funny thing is, while we designed rr to capture test and automation, it’s &lt;em&gt;mostly&lt;/em&gt; being used now for other things—primarily for ordinary debugging, in  fact. On top of record-and-replay, you can simulate reverse execution by taking checkpoints of the program as it executes forward, and then  rolling back to a previous checkpoint and executing forward to any  desired state. When you combine that with hardware data watchpoints, you can see where some state in your program isn’t correct and then roll  back to look at the code responsible for that. Especially with C and C++ code, I think that almost amounts to a programming superpower.&lt;/p&gt;
+
+    &lt;p&gt;Once people discovered that, they started using it and found there  were some other benefits. That’s when rr really started catching on. At  this point, there’s a fair number of people, both at Mozilla and  elsewhere, who have taken to using it for basically all their debugging.” &amp;lt;— Read the whole thing &lt;a href=&quot;https://queue.acm.org/detail.cfm?id=3391621&quot;&gt;To Catch a Failure: The Record-and-Replay Approach to Debugging&lt;/a&gt; and check out &lt;a href=&quot;https://rr-project.org/&quot;&gt;rr&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Previously: &lt;a href=&quot;http://rolandtanglao.com/2016/09/22/p1-it-is-2016-can-i-debug-R-julia-haskell-like-a-1987-xerox-lisp-machine/&quot;&gt;It’s 2016, can I please debug Javascript, R, Julia and Haskell like a 1987 Xerox Lisp Machine?&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Thu, 09 Apr 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/04/09/p1-rr-record-and-reply-go-backwards-in-time/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/04/09/p1-rr-record-and-reply-go-backwards-in-time/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Against Waldenponding II</title>
@@ -206,22 +229,6 @@
         <pubDate>Tue, 31 Mar 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/03/31/ribbonfarm-against-waldenponding-or-against-unplug-for-self-care-giant-social-computer-in-the-cloud/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/03/31/ribbonfarm-against-waldenponding-or-against-unplug-for-self-care-giant-social-computer-in-the-cloud/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Take Firefox questions in CSV and convert to SQL lite using Simon Willison's csvs-to-sqlite which I guess uses the sqlite3 import command underneath? </title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Take Firefox questions in CSV e.g. all the questions from &lt;a href=&quot;https://github.com/rtanglao/rt-kits-api2/blob/master/202003/2020-03-21-2020-03-21-firefox-creator-answers-desktop-all-locales.csv&quot;&gt;March 21, 2020&lt;/a&gt;  and convert to SQL lite using &lt;a href=&quot;https://github.com/simonw/csvs-to-sqlite&quot;&gt;Simon Willison’s csvs-to-sqlite&lt;/a&gt; which I guess uses the &lt;a href=&quot;https://www.sqlitetutorial.net/sqlite-import-csv/&quot;&gt;sqlite3 import command&lt;/a&gt; underneath?&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 30 Mar 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/03/30/p1-take-firefox-questions-csv-convert-sqlite-csvs-to-sqlite-sqlite-import-csv/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/03/30/p1-take-firefox-questions-csv-convert-sqlite-csvs-to-sqlite-sqlite-import-csv/</guid>
         
         
       </item>

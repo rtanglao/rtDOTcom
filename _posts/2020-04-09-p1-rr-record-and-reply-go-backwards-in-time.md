@@ -1,0 +1,13 @@
+---
+layout: post
+title: "RR: Record and Replay Go Backwards in Time in C++ on Linux with GDB"
+---
+
+# Pontifications
+
+* "Robert O'Callahan: Actually, the funny thing is, while we designed rr to capture test and automation, it's *mostly* being used now for other things—primarily for ordinary debugging, in  fact. On top of record-and-replay, you can simulate reverse execution by taking checkpoints of the program as it executes forward, and then  rolling back to a previous checkpoint and executing forward to any  desired state. When you combine that with hardware data watchpoints, you can see where some state in your program isn't correct and then roll  back to look at the code responsible for that. Especially with C and C++ code, I think that almost amounts to a programming superpower.
+
+  Once people discovered that, they started using it and found there  were some other benefits. That's when rr really started catching on. At  this point, there's a fair number of people, both at Mozilla and  elsewhere, who have taken to using it for basically all their debugging." <--- Read the whole thing [To Catch a Failure: The Record-and-Replay Approach to Debugging](https://queue.acm.org/detail.cfm?id=3391621) and check out [rr](https://rr-project.org/)
+  
+* Previously: [It's 2016, can I please debug Javascript, R, Julia and Haskell like a 1987 Xerox Lisp Machine?](http://rolandtanglao.com/2016/09/22/p1-it-is-2016-can-i-debug-R-julia-haskell-like-a-1987-xerox-lisp-machine/)
+
