@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Vancouver physically distanced bicycle rides during the pandemic: stay away from popular routes, beware of intersesctions with pedestrian paths"
+title: "Vancouver physically distanced bicycle rides during the pandemic: stay away from popular routes, beware of intersections with pedestrian paths"
 ---
 
 # Pontifications
