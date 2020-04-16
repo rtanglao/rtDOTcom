@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 13 Apr 2020 18:15:58 -0700</pubDate>
-    <lastBuildDate>Mon, 13 Apr 2020 18:15:58 -0700</lastBuildDate>
+    <pubDate>Wed, 15 Apr 2020 21:45:33 -0700</pubDate>
+    <lastBuildDate>Wed, 15 Apr 2020 21:45:33 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Free ebook: Crafting Interpreters by Robert Nystrom sounds great</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://craftinginterpreters.com/&quot;&gt;Crafting Interpreters by Robert Nystrom&lt;/a&gt; sounds great &amp;lt;— love how each chapter is a &lt;a href=&quot;https://journal.stuffwithstuff.com/2020/04/05/crafting-crafting-interpreters/&quot;&gt;“complete incrementally built on the last chapter” interpreter&lt;/a&gt;: “This was the real technical challenge of writing the book – how do I take two implementations of the same language, and break them into incremental pieces that I can build up a chapter at a time?”&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 15 Apr 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/04/15/p1-crafting-interpreters/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/04/15/p1-crafting-interpreters/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Garret's rebuttal to chuq's blogging is dead</title>
@@ -231,48 +246,6 @@
         <pubDate>Sun, 05 Apr 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/04/05/thank-you-front-line-workers/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/04/05/thank-you-front-line-workers/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Margo Aaron: Coronavirus Is Serious, But Panic Is Optional</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Read the whole thing:&lt;a href=&quot;https://www.thatseemsimportant.com/mental-health/headlines-media-panic-pandemic/&quot;&gt;Margo Aaron: Coronavirus Is Serious, But Panic Is Optional&lt;/a&gt; but if don’t want to :-) here are some great quotes:&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;“Disconnect Yourself From Outrage Culture”&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;“&lt;strong&gt;Put effort into your consumption of information.&lt;/strong&gt;&lt;/p&gt;
-
-        &lt;p&gt;Don’t assume the numbers, quotes, or experts are correct. Make our Founding  Fathers’ proud by doing what they meant when they said a republic needs a well-informed citizenry: question authority. Don’t take things at face  value. Ask hard questions. &lt;strong&gt;Make your brain do work.&lt;/strong&gt;&lt;/p&gt;
-
-        &lt;p&gt;I believe, sincerely, that many people behind the crappy headlines are  also afraid. Afraid of losing their jobs or being unable to feed their  kids. Afraid, at the moment, of maybe dying.&lt;/p&gt;
-
-        &lt;p&gt;&lt;a href=&quot;https://www.thatseemsimportant.com/psychology/wealth-and-power/&quot;&gt;Making money isn’t evil.&lt;/a&gt; What’s evil is emotionally exploiting people in order to do it. Which is precisely what these headlines are doing.&lt;/p&gt;
-
-        &lt;p&gt;&lt;strong&gt;You can fill your brain with information without feeling terror, panic, worry, or fear.&lt;/strong&gt;”&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;“The media has failed in its responsibilities to the public, but you  don’t have to fail in your responsibilities as a citizen. Do not let  fear hijack your brain.&lt;/p&gt;
-
-        &lt;p&gt;Coronavirus is serious, but panic, worry, and terror are optional.&lt;/p&gt;
-
-        &lt;p&gt;Choose a better option.”&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sat, 04 Apr 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/04/04/p1-coronavirus-serious-panic-optional/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/04/04/p1-coronavirus-serious-panic-optional/</guid>
         
         
       </item>
