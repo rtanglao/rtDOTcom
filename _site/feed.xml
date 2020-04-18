@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 16 Apr 2020 21:43:41 -0700</pubDate>
-    <lastBuildDate>Thu, 16 Apr 2020 21:43:41 -0700</lastBuildDate>
+    <pubDate>Fri, 17 Apr 2020 22:09:47 -0700</pubDate>
+    <lastBuildDate>Fri, 17 Apr 2020 22:09:47 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Glean:chutten: How much does that data cost</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;To learn about Firefox telemetry costs using &lt;a href=&quot;https://docs.telemetry.mozilla.org/concepts/glean/glean.html&quot;&gt;glean&lt;/a&gt;, read &lt;a href=&quot;https://chuttenblog.wordpress.com/2020/04/15/this-week-in-glean-how-much-does-that-data-cost/&quot;&gt;This Week in Glean: How Much Does That Data Cost?&lt;/a&gt; &amp;lt;—- fascinating stuff if you are interested in telemetry!&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Fri, 17 Apr 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/04/17/p1-how-much-data-cost-glean-firefox-telemetry/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/04/17/p1-how-much-data-cost-glean-firefox-telemetry/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Die Kurve ist flacher geworden. Go Germany Go! Go Germany Helping The Rest Of Europe Go!</title>
@@ -227,22 +243,6 @@
         <pubDate>Tue, 07 Apr 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/04/07/p1-blogs-and-rss-are-dead-but-since-nothing-to-sell-no-email-newsletter/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/04/07/p1-blogs-and-rss-are-dead-but-since-nothing-to-sell-no-email-newsletter/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>David Crawshaw: Remembering the LAN &lt;- Amen! Programming should be fun, not combat against dark forces on the internet :-)</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;“Third, I need to help new programmers who never got to experience simple, pleasurable programming in a safe environment understand that programming can be fun. You can set up your environment so you can focus on being creative. Writing a web service for use by your friends should not be a form of combat, where you spend your days worrying about XSS attacks or buffer overflows. You should be focused on creating something new and wonderful in a place without bad people hounding you.” &amp;lt;— Read the whole thing: David Crawshaw: &lt;a href=&quot;https://crawshaw.io/blog/remembering-the-lan&quot;&gt;Remembering the LAN&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 06 Apr 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/04/06/p1-david-crawshaw-remembering-the-lan/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/04/06/p1-david-crawshaw-remembering-the-lan/</guid>
         
         
       </item>
