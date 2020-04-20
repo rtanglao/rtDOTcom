@@ -9,9 +9,7 @@ title: "Use hugo server --renderToDisk to force your Hugo posts to be rendered t
 
 * The full command line to run the local server is:
 
-  ```bash
-  hugo server --buildDrafts --disableFastRender --renderToDisk &
-  ```
-
-  
-
+```bash
+hugo server --buildDrafts --disableFastRender --renderToDisk &
+```
+* See [How I created RollingRoland.com using hugo, hover.com DNS and surge.sh](http://rolandtanglao.com/2016/10/28/p1-how-i-made-rollingroland/) which referred to an earlier version of Hugo that didn't require `renderToDisk`
