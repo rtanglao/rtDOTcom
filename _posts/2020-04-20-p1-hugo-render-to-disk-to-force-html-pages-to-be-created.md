@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Use hugo server --renderToDisk to force your Hugo posts to be rendered to disk instead of RAM which is the current default"
+---
+
+# Pontifications
+
+* Use `--renderToDisk` or there will be nothing rendered. i.e. no HTML web pages just cached versions in RAM.  [renderToDisk](https://kodify.net/hugo/config/command-flags-options/) doesn't seem be much slower then rendering to RAM!
+
+* The full command line to run the local server is:
+
+  ```bash
+  hugo server --buildDrafts --disableFastRender --renderToDisk &
+  ```
+
+  
+

@@ -6,9 +6,33 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 19 Apr 2020 00:33:16 -0700</pubDate>
-    <lastBuildDate>Sun, 19 Apr 2020 00:33:16 -0700</lastBuildDate>
+    <pubDate>Mon, 20 Apr 2020 14:21:06 -0700</pubDate>
+    <lastBuildDate>Mon, 20 Apr 2020 14:21:06 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Use hugo server --renderToDisk to force your Hugo posts to be rendered to disk instead of RAM which is the current default</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;--renderToDisk&lt;/code&gt; or there will be nothing rendered. i.e. no HTML web pages just cached versions in RAM.  &lt;a href=&quot;https://kodify.net/hugo/config/command-flags-options/&quot;&gt;renderToDisk&lt;/a&gt; doesn’t seem be much slower then rendering to RAM!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The full command line to run the local server is:&lt;/p&gt;
+
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;hugo server &lt;span class=&quot;nt&quot;&gt;--buildDrafts&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--disableFastRender&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--renderToDisk&lt;/span&gt; &amp;amp;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 20 Apr 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/04/20/p1-hugo-render-to-disk-to-force-html-pages-to-be-created/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/04/20/p1-hugo-render-to-disk-to-force-html-pages-to-be-created/</guid>
+        
+        
+      </item>
     
       <item>
         <title>What's the first self indulgent thing you're going to do after things go &quot;back to normal&quot;? I'm going to @revolver_coffee. You?</title>
@@ -212,23 +236,6 @@
         <pubDate>Thu, 09 Apr 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/04/09/p1-rr-record-and-reply-go-backwards-in-time/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/04/09/p1-rr-record-and-reply-go-backwards-in-time/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Against Waldenponding II</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;“In the last few years, a seemingly banal question of lifestyle hygiene  – how much time, attention, and energy to devote to the screens of our  digital devices – has somehow become overloaded with all sorts of  angsty philosophical baggage. In those same few years, I’ve become an  increasingly vocal critic of a particular reaction to that angst that  I’ve labeled &lt;a href=&quot;https://mailchi.mp/ribbonfarm/against-waldenponding&quot;&gt;waldenponding&lt;/a&gt;, a broad tendency to retreat from, and artificially limit, digital life. I’ve gone from thinking of it as an annoying but mostly harmless  tendency to viewing it as an actively dangerous one.” &amp;lt;— read the whole thing &lt;a href=&quot;https://us1.campaign-archive.com/?u=78cbbb7f2882629a5157fa593&amp;amp;id=098f100576&quot;&gt;Against Waldenponding II&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Previously: &lt;a href=&quot;http://rolandtanglao.com/2020/03/31/ribbonfarm-against-waldenponding-or-against-unplug-for-self-care-giant-social-computer-in-the-cloud/&quot;&gt;Ribbonfarm: Against waldenponding aka against  unplugging for self-care aka instead become part of the giant social  computer in the cloud (GSCITC)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Wed, 08 Apr 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/04/08/p1-waldenponding-part2/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/04/08/p1-waldenponding-part2/</guid>
         
         
       </item>
