@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 20 Apr 2020 14:52:00 -0700</pubDate>
-    <lastBuildDate>Mon, 20 Apr 2020 14:52:00 -0700</lastBuildDate>
+    <pubDate>Wed, 22 Apr 2020 22:23:19 -0700</pubDate>
+    <lastBuildDate>Wed, 22 Apr 2020 22:23:19 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Over 40 In Vancouver: Life during the Pandemic #2 Mundanity For @sillygwailo Artichokes in Burnaby @bigheadtaco ?</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.rolandmicroblog.com/2020/04/22/over-in-vancouver.html&quot;&gt;Over 40 In Vancouver: Life during the Pandemic #2 Mundanity For @sillygwailo Artichokes in Burnaby @bigheadtaco ?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;We talk about 1 awesome thing; indeed it s*cks mostly :-)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 22 Apr 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/04/22/p1-over40invancouver-life-during-the-pandemic-episode2/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/04/22/p1-over40invancouver-life-during-the-pandemic-episode2/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Use hugo server --renderToDisk to force your Hugo posts to be rendered to disk instead of RAM which is the current default</title>
@@ -215,29 +231,6 @@
         <pubDate>Fri, 10 Apr 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/04/10/p1-emma-humphries-wontfix/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/04/10/p1-emma-humphries-wontfix/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>RR: Record and Replay Go Backwards in Time in C++ on Linux with GDB</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;“Robert O’Callahan: Actually, the funny thing is, while we designed rr to capture test and automation, it’s &lt;em&gt;mostly&lt;/em&gt; being used now for other things—primarily for ordinary debugging, in  fact. On top of record-and-replay, you can simulate reverse execution by taking checkpoints of the program as it executes forward, and then  rolling back to a previous checkpoint and executing forward to any  desired state. When you combine that with hardware data watchpoints, you can see where some state in your program isn’t correct and then roll  back to look at the code responsible for that. Especially with C and C++ code, I think that almost amounts to a programming superpower.&lt;/p&gt;
-
-    &lt;p&gt;Once people discovered that, they started using it and found there  were some other benefits. That’s when rr really started catching on. At  this point, there’s a fair number of people, both at Mozilla and  elsewhere, who have taken to using it for basically all their debugging.” &amp;lt;— Read the whole thing &lt;a href=&quot;https://queue.acm.org/detail.cfm?id=3391621&quot;&gt;To Catch a Failure: The Record-and-Replay Approach to Debugging&lt;/a&gt; and check out &lt;a href=&quot;https://rr-project.org/&quot;&gt;rr&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Previously: &lt;a href=&quot;http://rolandtanglao.com/2016/09/22/p1-it-is-2016-can-i-debug-R-julia-haskell-like-a-1987-xerox-lisp-machine/&quot;&gt;It’s 2016, can I please debug Javascript, R, Julia and Haskell like a 1987 Xerox Lisp Machine?&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Thu, 09 Apr 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/04/09/p1-rr-record-and-reply-go-backwards-in-time/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/04/09/p1-rr-record-and-reply-go-backwards-in-time/</guid>
         
         
       </item>
