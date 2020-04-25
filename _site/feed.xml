@@ -6,9 +6,29 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 23 Apr 2020 22:02:06 -0700</pubDate>
-    <lastBuildDate>Thu, 23 Apr 2020 22:02:06 -0700</lastBuildDate>
+    <pubDate>Fri, 24 Apr 2020 21:02:18 -0700</pubDate>
+    <lastBuildDate>Fri, 24 Apr 2020 21:02:18 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Venkatesh Rao: How What and Where to Build</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“In which I shamelessly draft off Marc Andreessen’s &lt;a href=&quot;https://a16z.com/2020/04/18/its-time-to-build/&quot;&gt;It’s Time to Build&lt;/a&gt; essay and suggest an approach to &lt;em&gt;how&lt;/em&gt;, &lt;em&gt;what&lt;/em&gt;, and &lt;em&gt;where&lt;/em&gt; to do the building. I also have a framework I call the builder’s cone to think about it in a useful historical context.” &amp;lt;— Read the whole thing: &lt;a href=&quot;https://breakingsmart.substack.com/p/how-what-and-where-to-build&quot;&gt;Venkatesh Rao: How What and Where to Build&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;I don’t agree with Marc that government can’t build great things but yes it is time to build things that are helpful for ALL of humanity! Venatesh’s riff on Marc resonates more than Marc’s original essay for me!&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Previously also by Venkatesh: &lt;a href=&quot;http://rolandtanglao.com/2020/03/31/ribbonfarm-against-waldenponding-or-against-unplug-for-self-care-giant-social-computer-in-the-cloud/&quot;&gt;Ribbonfarm: Against waldenponding aka against  unplugging for self-care aka instead become part of the giant social  computer in the cloud (GSCITC)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 24 Apr 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/04/24/p1-venkatesh-rao-how-what-where-to-build/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/04/24/p1-venkatesh-rao-how-what-where-to-build/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Let's Build a Simple Database - Writing a sqlite clone from scratch in C</title>
@@ -163,68 +183,6 @@
         <pubDate>Sun, 12 Apr 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/04/12/p1-comeback-of-the-week-skype-really/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/04/12/p1-comeback-of-the-week-skype-really/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Vancouver physically distanced bicycle rides during the pandemic: stay away from popular routes, beware of intersections with pedestrian paths</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Vancouver has a whole set of traffic calmed streets which are not nearly as good as AAA, physically separated bicycle paths but far better than nothing especially for low intensity slower rides and safer now if you are as always paranoid and don’t try to race everywhere.&lt;/li&gt;
-  &lt;li&gt;Beware of intersections with walking paths (e.g. 37th and Fraser) because pedestrians or folks with dogs don’t keep their distance! I am not sure why? is it because they have no concept of distance, are oblivious or just don’t care?&lt;/li&gt;
-  &lt;li&gt;Avoid (except on rainy days or early in the morning i.e. before 8a.m.) and in no particular order
-    &lt;ul&gt;
-      &lt;li&gt;Woodland&lt;/li&gt;
-      &lt;li&gt;10th&lt;/li&gt;
-      &lt;li&gt;Ontario&lt;/li&gt;
-      &lt;li&gt;QE Park&lt;/li&gt;
-      &lt;li&gt;Stanley Park (it’s closed to cars but now you have to contend with the swervers and the wobblers; people please just bicycle in a straight predictable line)&lt;/li&gt;
-      &lt;li&gt;37th near QE Park&lt;/li&gt;
-      &lt;li&gt;Arbutus Greenway (way too crowded before and just kr*zy now)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Empty because people don’t know about them?!?
-    &lt;ul&gt;
-      &lt;li&gt;Lakewood (because it’s a hill?)&lt;/li&gt;
-      &lt;li&gt;Slocan (Kaslo is great too but only on weekends since there’s no traffic lights at 1st and Broadway)&lt;/li&gt;
-      &lt;li&gt;Masumi Mitsui Greenway (Upland Drive, 58th Avenue and 59th Avenue between Vivian Drive and Angus Drive. Previously called the North Arm Trail Greenway)&lt;/li&gt;
-      &lt;li&gt;Angus&lt;/li&gt;
-      &lt;li&gt;37th except for the part near QE Park&lt;/li&gt;
-      &lt;li&gt;19th Avenue east of Main, 18th Avenue West of Main&lt;/li&gt;
-      &lt;li&gt;Gladstone&lt;/li&gt;
-      &lt;li&gt;Prince Edward&lt;/li&gt;
-      &lt;li&gt;Dumfries&lt;/li&gt;
-      &lt;li&gt;Inverness&lt;/li&gt;
-      &lt;li&gt;Midtown&lt;/li&gt;
-      &lt;li&gt;Ridgeway&lt;/li&gt;
-      &lt;li&gt;45th&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;sample-bicycle-rides&quot;&gt;Sample Bicycle rides&lt;/h1&gt;
-&lt;h2 id=&quot;woodland-watch-out-for-people-wall-kaslo-only-suitable-on-weekends-on-weekdays-take-slocan-instead&quot;&gt;Woodland (watch out for people), Wall, Kaslo (only suitable on weekends, on weekdays take Slocan instead)&lt;/h2&gt;
-
-&lt;iframe height=&quot;405&quot; width=&quot;590&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; scrolling=&quot;no&quot; src=&quot;https://www.strava.com/activities/3286671492/embed/e078e08bba8e3327c6f2485fbd249f1d8ce77f40&quot;&gt;&lt;/iframe&gt;
-
-&lt;h2 id=&quot;gladstone-masumi-mitsui-ridgeway&quot;&gt;Gladstone Masumi Mitsui Ridgeway:&lt;/h2&gt;
-
-&lt;iframe height=&quot;405&quot; width=&quot;590&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; scrolling=&quot;no&quot; src=&quot;https://www.strava.com/activities/3281862239/embed/348451c6cf05acb3c69181dbbac9a55da58e5b78&quot;&gt;&lt;/iframe&gt;
-
-&lt;h2 id=&quot;19th-18th-heather-37th-angus-masumi-mitsui-ridgeway-38th-gladstone&quot;&gt;19th-&amp;gt;18th-&amp;gt;Heather-&amp;gt;37th-&amp;gt;Angus-&amp;gt;Masumi Mitsui-&amp;gt;Ridgeway-&amp;gt;38th-&amp;gt;Gladstone&lt;/h2&gt;
-
-&lt;iframe height=&quot;405&quot; width=&quot;590&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; scrolling=&quot;no&quot; src=&quot;https://www.strava.com/activities/3269026494/embed/90a5f46871afd5a0685c4fcda4c842c9d7ecdd37&quot;&gt;&lt;/iframe&gt;
-
-&lt;h2 id=&quot;19th---heather---oakridge-going-slow-or-fat-tires-recommended-due-to-construction---45th---masumi-mitsui---angus---37th-you-might-encounter-hard-to-bicycle-around-folks-near-qe-park&quot;&gt;19th -&amp;gt; Heather -&amp;gt; Oakridge (going slow or fat tires recommended due to construction) -&amp;gt; 45th -&amp;gt; Masumi Mitsui -&amp;gt; Angus -&amp;gt; 37th (you might encounter hard to bicycle around folks near QE park)&lt;/h2&gt;
-
-&lt;iframe height=&quot;405&quot; width=&quot;590&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; scrolling=&quot;no&quot; src=&quot;https://www.strava.com/activities/3260765758/embed/8e1533a9d5feb230a986591adaf5c1d544dac179&quot;&gt;&lt;/iframe&gt;
-
-</description>
-        <pubDate>Sat, 11 Apr 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/04/11/p1-stay-away-from-popular-vancouver-bicycle-routes-intersections-bad/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/04/11/p1-stay-away-from-popular-vancouver-bicycle-routes-intersections-bad/</guid>
         
         
       </item>
