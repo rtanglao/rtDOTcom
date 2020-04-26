@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 24 Apr 2020 21:02:18 -0700</pubDate>
-    <lastBuildDate>Fri, 24 Apr 2020 21:02:18 -0700</lastBuildDate>
+    <pubDate>Sat, 25 Apr 2020 19:23:19 -0700</pubDate>
+    <lastBuildDate>Sat, 25 Apr 2020 19:23:19 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>How to import JSON data into Google Sheets to create a live COVID-19 chart &quot;in 5 minutes without code&quot; well actually  :-) there is some code and it's called: importJSON</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.datawrapper.de/live-json-in-google-sheets/&quot;&gt;How to import JSON data into Google Sheets to create a live COVID-19 chart “in 5 minutes without code”&lt;/a&gt; well actually :-) there is some code and it’s called: importJSON; it’s just not your code :-)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 25 Apr 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/04/25/p1-how-to-json-data-google-sheets-to-create-live-covid19-chart-without-code/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/04/25/p1-how-to-json-data-google-sheets-to-create-live-covid19-chart-without-code/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Venkatesh Rao: How What and Where to Build</title>
@@ -167,22 +182,6 @@
         <pubDate>Mon, 13 Apr 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/04/13/p1-garret-blogging-is-dead/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/04/13/p1-garret-blogging-is-dead/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>vowe:Comeback der Woche :: Skype &lt;--- really?!? wirklich?!? Meet Now is awesome?!? </title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;I used skype a lot in the Bryght days!&lt;/li&gt;
-  &lt;li&gt;Hope vowe is right, goodness knows he’s not often wrong ! Read the whole thing if you can read German: &lt;a href=&quot;https://vowe.net/archives/018474.html&quot;&gt;Comeback der Woche :: Skype&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 12 Apr 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/04/12/p1-comeback-of-the-week-skype-really/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/04/12/p1-comeback-of-the-week-skype-really/</guid>
         
         
       </item>
