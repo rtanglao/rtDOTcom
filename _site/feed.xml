@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 26 Apr 2020 19:54:52 -0700</pubDate>
-    <lastBuildDate>Sun, 26 Apr 2020 19:54:52 -0700</lastBuildDate>
+    <pubDate>Mon, 27 Apr 2020 22:27:16 -0700</pubDate>
+    <lastBuildDate>Mon, 27 Apr 2020 22:27:16 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Apparently socks work as microphone pop filters?!?</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;My tests (&lt;a href=&quot;https://www.rolandmicroblog.com/2020/04/27/no-pop-filter.html&quot;&gt;test with no socks&lt;/a&gt;, &lt;a href=&quot;https://www.rolandmicroblog.com/2020/04/27/sock-pop-filter.html&quot;&gt;test with one sock&lt;/a&gt;, &lt;a href=&quot;https://www.rolandmicroblog.com/2020/04/27/191724.html&quot;&gt;test with two socks&lt;/a&gt;) seem to agree with &lt;a href=&quot;https://www.youtube.com/watch?v=GN03wwXiS3k&quot;&gt;this YouTube video that socks do work as pop filters&lt;/a&gt;! Who’d have thunk it :-) ?!?&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 27 Apr 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/04/27/apparently-socks-work-as-microphone-pop-filters/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/04/27/apparently-socks-work-as-microphone-pop-filters/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Adrian Daub: There Is No Alternativelessness - What's been hiding Germany's hidden crisis?  </title>
@@ -166,21 +182,6 @@
         <pubDate>Thu, 16 Apr 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/04/16/p1-die-kurve-flacher-geworden-angelika-merkel-germany/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/04/16/p1-die-kurve-flacher-geworden-angelika-merkel-germany/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Free ebook: Crafting Interpreters by Robert Nystrom sounds great</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://craftinginterpreters.com/&quot;&gt;Crafting Interpreters by Robert Nystrom&lt;/a&gt; sounds great &amp;lt;— love how each chapter is a &lt;a href=&quot;https://journal.stuffwithstuff.com/2020/04/05/crafting-crafting-interpreters/&quot;&gt;“complete incrementally built on the last chapter” interpreter&lt;/a&gt;: “This was the real technical challenge of writing the book – how do I take two implementations of the same language, and break them into incremental pieces that I can build up a chapter at a time?”&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 15 Apr 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/04/15/p1-crafting-interpreters/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/04/15/p1-crafting-interpreters/</guid>
         
         
       </item>
