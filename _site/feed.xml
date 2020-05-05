@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 02 May 2020 17:21:12 -0700</pubDate>
-    <lastBuildDate>Sat, 02 May 2020 17:21:12 -0700</lastBuildDate>
+    <pubDate>Mon, 04 May 2020 21:01:34 -0700</pubDate>
+    <lastBuildDate>Mon, 04 May 2020 21:01:34 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Post Corona: The Cosmic Opportunity - Be a better person</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“The pandemic has created variance and a meaningful chance to lap the  competition. And it’s given us a profound, maybe once-in-a-lifetime  opportunity to be the man or woman our kids think we are, and our  parents hoped we’d be.” &amp;lt;– read the whole thing &lt;a href=&quot;https://www.profgalloway.com/post-corona-the-cosmic-opportunity&quot;&gt;Scott Galloway Post Corona: The Cosmic Opportunity&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 04 May 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/05/04/p1-scott-galloway-post-corona-cosmic-opportunity/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/05/04/p1-scott-galloway-post-corona-cosmic-opportunity/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Losing Lena is well worth watching! A doc which discusses the exclusion of women from tech through the story of a woman whose Playboy centerfold became the basis of the modern JPEG </title>
@@ -162,32 +178,6 @@
         <pubDate>Wed, 22 Apr 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/04/22/p1-over40invancouver-life-during-the-pandemic-episode2/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/04/22/p1-over40invancouver-life-during-the-pandemic-episode2/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Use hugo server --renderToDisk to force your Hugo posts to be rendered to disk instead of RAM which is the current default</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;--renderToDisk&lt;/code&gt; or there will be nothing rendered. i.e. no HTML web pages just cached versions in RAM.  &lt;a href=&quot;https://kodify.net/hugo/config/command-flags-options/&quot;&gt;renderToDisk&lt;/a&gt; doesn’t seem be much slower then rendering to RAM!&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The full command line to run the local server is:&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;hugo server &lt;span class=&quot;nt&quot;&gt;--buildDrafts&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--disableFastRender&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--renderToDisk&lt;/span&gt; &amp;amp;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;See &lt;a href=&quot;http://rolandtanglao.com/2016/10/28/p1-how-i-made-rollingroland/&quot;&gt;How I created RollingRoland.com using hugo, hover.com DNS and surge.sh&lt;/a&gt; which referred to an earlier version of Hugo that didn’t require &lt;code class=&quot;highlighter-rouge&quot;&gt;renderToDisk&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 20 Apr 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/04/20/p1-hugo-render-to-disk-to-force-html-pages-to-be-created/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/04/20/p1-hugo-render-to-disk-to-force-html-pages-to-be-created/</guid>
         
         
       </item>
