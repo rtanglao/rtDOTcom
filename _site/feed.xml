@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 05 May 2020 23:46:21 -0700</pubDate>
-    <lastBuildDate>Tue, 05 May 2020 23:46:21 -0700</lastBuildDate>
+    <pubDate>Wed, 06 May 2020 20:48:53 -0700</pubDate>
+    <lastBuildDate>Wed, 06 May 2020 20:48:53 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Michael L. Forman: Kapampangan Dictionary and Kapampangan Grammar Notes - Two books I'll probably never read :-)</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Michael L. Forman: &lt;a href=&quot;https://scholarspace.manoa.hawaii.edu/handle/10125/62884&quot;&gt;Kapampangan Dictionary&lt;/a&gt; and &lt;a href=&quot;https://scholarspace.manoa.hawaii.edu/handle/10125/62885&quot;&gt;Kapampangan Grammar Notes&lt;/a&gt; - Two books I’ll probably never read :-) &amp;lt;— Maybe when I retire :-) ?!?!&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 06 May 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/05/06/p1-michael-l-forman-kapampangan-grammar-dictionary-two-books-i-wont-read/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/05/06/p1-michael-l-forman-kapampangan-grammar-dictionary-two-books-i-wont-read/</guid>
+        
+        
+      </item>
     
       <item>
         <title>We Need a New Science of Progress - Humanity needs to get better at knowing how to get better</title>
@@ -161,22 +177,6 @@
         <pubDate>Fri, 24 Apr 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/04/24/p1-venkatesh-rao-how-what-where-to-build/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/04/24/p1-venkatesh-rao-how-what-where-to-build/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Let's Build a Simple Database - Writing a sqlite clone from scratch in C</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://cstack.github.io/db_tutorial/&quot;&gt;Let’s Build a Simple Database - Writing a sqlite clone from scratch in C&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;I love these tutorials with “toy” systems&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 23 Apr 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/04/23/p1-build-simple-database-sqlite-clone-in-c/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/04/23/p1-build-simple-database-sqlite-clone-in-c/</guid>
         
         
       </item>
