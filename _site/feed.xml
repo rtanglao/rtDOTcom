@@ -6,9 +6,35 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 07 May 2020 20:38:52 -0700</pubDate>
-    <lastBuildDate>Thu, 07 May 2020 20:38:52 -0700</lastBuildDate>
+    <pubDate>Fri, 08 May 2020 21:23:02 -0700</pubDate>
+    <lastBuildDate>Fri, 08 May 2020 21:23:02 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Revised workflow for rollingroland.com</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;You need to use “hugo” without &lt;code class=&quot;highlighter-rouge&quot;&gt;server&lt;/code&gt; to render the site correctly for production i.e. non localhost&lt;/p&gt;
+
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;hugo server &lt;span class=&quot;nt&quot;&gt;--buildDrafts&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--disableFastRender&lt;/span&gt;  &lt;span class=&quot;nt&quot;&gt;--renderToDisk&lt;/span&gt; &amp;amp;
+hugo new post/2020-05-08-p1-vancouver-crossings.md
+&lt;span class=&quot;c&quot;&gt;# check it out at localhost:1313&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# When you are happy render and push to server&lt;/span&gt;
+hugo &lt;span class=&quot;nt&quot;&gt;--buildDrafts&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#render&lt;/span&gt;
+surge public &lt;span class=&quot;nt&quot;&gt;--domain&lt;/span&gt; rollingroland.com &lt;span class=&quot;c&quot;&gt;#push to server&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Fri, 08 May 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/05/08/p1-revised-rolling-roland-hugo/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/05/08/p1-revised-rolling-roland-hugo/</guid>
+        
+        
+      </item>
     
       <item>
         <title>om: Productivity: what is it good for? Me: Absolutely nothing. Being kind and useful and creative and helping the world move forward is much better</title>
@@ -162,21 +188,6 @@
         <pubDate>Sun, 26 Apr 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/04/26/p1-adrian-daub-no-alternativelessness-hiding-germany-hidden-crisis/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/04/26/p1-adrian-daub-no-alternativelessness-hiding-germany-hidden-crisis/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to import JSON data into Google Sheets to create a live COVID-19 chart &quot;in 5 minutes without code&quot; well actually  :-) there is some code and it's called: importJSON</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://blog.datawrapper.de/live-json-in-google-sheets/&quot;&gt;How to import JSON data into Google Sheets to create a live COVID-19 chart “in 5 minutes without code”&lt;/a&gt; well actually :-) there is some code and it’s called: importJSON; it’s just not your code :-)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 25 Apr 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/04/25/p1-how-to-json-data-google-sheets-to-create-live-covid19-chart-without-code/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/04/25/p1-how-to-json-data-google-sheets-to-create-live-covid19-chart-without-code/</guid>
         
         
       </item>
