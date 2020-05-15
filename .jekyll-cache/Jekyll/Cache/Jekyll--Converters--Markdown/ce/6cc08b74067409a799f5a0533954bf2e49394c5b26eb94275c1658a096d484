@@ -1,9 +1,0 @@
-I"Ð<h1 id="pontifications">Pontifications</h1>
-
-<ul>
-  <li>It works great on x86 Windows 10!</li>
-  <li>Maybe this is related to <a href="http://rolandtanglao.com/2019/05/30/p2-accessing-wsl-files-from-file-explorer-using-wsl-file-explorer-arm64-windows10-build-1903/">Accessing WSL files from File Explorer using  \wsl$\Ubuntu appears to be broken in ARM64 Windows 10 Builds on Windows  10 Build 1903</a></li>
-  <li>Again, perhaps some kind of P9 issue?</li>
-</ul>
-
-:ET

@@ -1,7 +1,0 @@
-I"e<h1 id="pontifications">Pontifications</h1>
-
-<ul>
-  <li><a href="https://github.com/rtanglao/rt-kits-api2">rt-kits-api2</a> is the second version of my KITSUNE API code (first version was <a href="https://github.com/rtanglao/rt-kitsune-api/">https://github.com/rtanglao/rt-kitsune-api/</a> )</li>
-  <li>Instead of MongoDB,  I’ll use one CSV file per UTC day (daily CSV files for: <a href="https://github.com/rtanglao/rt-kits-api2/tree/master/201906">June 2019</a>, <a href="https://github.com/rtanglao/rt-kits-api2/tree/master/201905">May 2019</a>) which will allow easy importing into R, SQLite etc</li>
-</ul>
-:ET

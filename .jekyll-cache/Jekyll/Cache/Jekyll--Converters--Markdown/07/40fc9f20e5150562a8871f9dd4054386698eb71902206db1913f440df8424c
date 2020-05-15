@@ -1,9 +1,0 @@
-I"Ø<h2 id="pontifications">Pontifications</h2>
-<ul>
-  <li>How to minify JSON using jq on OS X or Linux:</li>
-  <li>From <a href="https://nelsonslog.wordpress.com/2016/08/19/using-jq-to-minify-json/">Using jq to minify JSON</a></li>
-</ul>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jq <span class="nt">-c</span> <span class="nb">.</span> &lt; input.json <span class="o">&gt;</span>minified.json
-</code></pre></div></div>
-:ET

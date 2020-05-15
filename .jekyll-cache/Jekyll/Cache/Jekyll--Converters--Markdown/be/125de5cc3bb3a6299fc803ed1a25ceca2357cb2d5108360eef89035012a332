@@ -1,7 +1,0 @@
-I"�<h2 id="pontifications">Pontifications</h2>
-
-<ul>
-  <li>I am going to run  <a href="http://rolandtanglao.com/2017/09/21/p1-null-array-error-check-ruby-version-of-add-neighbourhood-aka-woename-to-lat-lon-copy/">“Null array error check added to: Ruby version of getting neighbourhood aka woe_name from lat/lon of instagram 2015 data”</a> on the <a href="http://rolandtanglao.com/2017/09/05/p1-how-to-make-bluetooth-work-gpd-pocket-ubuntu/">GPD pocket</a> since it is going to take days and then I won’t have to deal with closing the lid, opening the lid</li>
-  <li>Shouldn’t be that hard right :-) ? Install ruby, clone <a href="https://github.com/rtanglao/ig-ggmap">my ig-ggmap github repo</a>, create a config file with the flickr api key, done!</li>
-</ul>
-:ET

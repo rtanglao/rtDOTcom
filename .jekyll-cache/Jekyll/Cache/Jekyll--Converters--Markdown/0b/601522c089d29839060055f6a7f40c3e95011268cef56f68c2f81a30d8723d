@@ -1,18 +1,0 @@
-I"ã<p>Amen, brother Stephen!</p>
-
-<p>From <a href="http://www.itdl.org/Journal/Nov_04/invited01.htm">The Buntine Oration: Learning Networks
- - Stephen Downes</a>.:</p>
-<p><b>QUOTE</b></p>
-<blockquote><p>Rich Site Summary, or RSS, was a technology created by Netscape. The idea of RSS was that a content provider &#8211; such as a newspaper or magazine &#8211; could list the new items on its website in a machine readable XML format so that Netscape&rsquo;s own program could retrieve that listing &#8211; a process called &lsquo;harvesting&rsquo; &#8211; and use it to design personalized pages on its NetCenter website. Users would create a NetCenter account, and then subscribe to those content providers they wished to read, and in so doing, design their own personal NetCenter page.
-</p>
-<p>NetCenter did not, as Netscape had hoped, save the company, and they removed the NetCenter page, and even removed the RSS specification from its website. But by then a group of devotees &#8211; including myself &#8211; had taken hold of the idea, and RSS was reborn as an unsanctioned, unsponsored, unfunded and (for the most part) unused branch of XML, living on only in discussion lists that eventually became the &lsquo;Syndication&rsquo; and &lsquo;RSS-Dev&rsquo; groups at Yahoo Groups.
-</p>
-<p>It was to this technology I referred explicitly when I wrote my paper &lsquo;Content Syndication and Online Learning&rsquo;, promoting the idea that RSS could be used to syndicate learning resources into an online learning environment. Based on this idea, I built such an environment in a site called MuniMall. Designed as a knowledge, learning and information resource for the municipal sector in Alberta, MuniMall was not a course, was not structured, was not ordered. It was &#8211; and is, since it is now an indispensable part of that community &#8211; an open-ended learning environment, and is probably more like the future of online learning than anything we&rsquo;ll see in a learning management system.
-</p>
-<p>RSS is the semantic web. It is not the official semantic web &#8211; as I said, it is not sanctioned by any standards body or organization whatsoever. But RSS is what has emerged as the de facto description of online content, used by more than four million sites already worldwide, used to describe not only resources, but people, places, objects, calendar entries, and in my way of thinking, learning resources and learning objects.
-</p>
-<p>What makes RSS work is that it approaches search a lot more like Google and a lot less like the Federated search described above. Metadata moves freely about the internet, is aggregated not by one but by many sources, is recombined, and fed forward. RSS is now used to describe the content of blogs, and when aggregated, is the combining of blog posts into new and novel forms. Sites like Technorati and Bloglines, Popdex and Blog Digger are just exploring this potential. RSS is the new syntax, and the people using it have found a voice.</p>
-&#160;</blockquote>
-<p><b>UNQUOTE</b></p>
-
-:ET

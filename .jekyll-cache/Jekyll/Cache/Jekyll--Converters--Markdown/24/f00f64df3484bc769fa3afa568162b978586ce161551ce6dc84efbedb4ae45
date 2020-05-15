@@ -1,8 +1,0 @@
-I"U<h1 id="pontifications">Pontifications</h1>
-
-<ul>
-  <li>Forgot to mention 2 days ago in <a href="http://rolandtanglao.com/2020/02/17/p1-how-i-made-art-of-where-tights-berlin/">How I made Art of Where Tights from Berlin photos</a></li>
-  <li>Imagemagick aka magick version 7 even on a “slow” ARM64 processor is much faster at cropping and montaging images (probably because it’s in C/C++) than ruby solutions like VIPS and OilyPNG/ChunkyPNG. See <a href="http://rolandtanglao.com/2019/01/23/p1-did-you-get-catch-the-error-vips-code-yesterday-oilypng-twice-as-fast/">Did you catch the bug in yesterday’s vips code? I’ve coded an oily_png version that is at least twice as fast!</a></li>
-  <li>Extra bonus about using magick is that you don’t have to write code. You just have to master its arcane syntax :-) which isn’t that bad!</li>
-</ul>
-:ET

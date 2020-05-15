@@ -1,7 +1,0 @@
-I"{<h1 id="pontification">Pontification</h1>
-
-<ul>
-  <li>Following on from yesterday’s <a href="http://rolandtanglao.com/2019/11/21/p1-kitsune-api-tester/">NICE TO HAVE: Kitsune questions and answers API tester</a>, the next logical step is something that reads the Kitsune API for questions and answers, converts it to CSV and has unit tests to insure it is working.</li>
-</ul>
-
-:ET

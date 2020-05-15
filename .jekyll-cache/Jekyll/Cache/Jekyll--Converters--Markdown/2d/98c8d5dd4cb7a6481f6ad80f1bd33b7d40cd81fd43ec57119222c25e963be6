@@ -1,8 +1,0 @@
-I"Ÿ<h2 id="pontifications">Pontifications</h2>
-<ul>
-  <li>My ruby scripts <a href="https://github.com/rtanglao/2016-rtgram">e.g.my instagram scripts</a> log errors to standard err aka stderr and output to standard output aka stdout</li>
-  <li>Which allows me to chain things together on OS X and Linux</li>
-  <li>And not worry about logging.</li>
-  <li>I should probably use some sort of logging package :P</li>
-</ul>
-:ET

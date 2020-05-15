@@ -1,6 +1,0 @@
-I"¥<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>tc &lt;-
-function(x) {
-return (head(color.id(x),n=1))
-}
-</code></pre></div></div>
-:ET

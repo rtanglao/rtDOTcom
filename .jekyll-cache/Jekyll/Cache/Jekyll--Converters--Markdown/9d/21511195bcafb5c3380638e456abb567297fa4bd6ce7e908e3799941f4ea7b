@@ -1,9 +1,0 @@
-I"&<h2 id="pontifications">Pontifications</h2>
-
-<ul>
-  <li>My guess: yes! But like flickr it will make mistakes?! i.e. tags will be wrong sometime</li>
-  <li>Maybe we just need to train the auto-tagger on about 100-500 posts per release? (and say 1000 from previous releases)</li>
-  <li>Maybe this article will help: <a href="https://cloud.google.com/blog/products/gcp/intro-to-text-classification-with-keras-automatically-tagging-stack-overflow-posts">Intro to text classification with Keras: automatically tagging Stack Overflow posts</a></li>
-</ul>
-
-:ET

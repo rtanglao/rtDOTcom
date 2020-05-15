@@ -1,18 +1,0 @@
-I"<p>If you want to operate on 9600 1 pixel by 1 pixel files at a time to form HD-width frames (i.e. 1920px wide) with GraphicsMagick (1920 pixels per row *5rows = 9600), here’s a <a href="https://github.com/rtanglao/rtgram/blob/gh-pages/IG-VANCOUVER_2014/RENUMBERED/TOP10/TOPCOLOUR/make1920By5PixelPNG.sh">bash script</a>:</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
-<span class="nv">files</span><span class="o">=(</span><span class="k">*</span>.jpg <span class="o">)</span>
-<span class="nv">frame</span><span class="o">=</span>0
-<span class="k">for</span> <span class="o">((</span><span class="nv">i</span><span class="o">=</span>0<span class="p">;</span> i&lt;<span class="k">${#</span><span class="nv">files</span><span class="p">[*]</span><span class="k">}</span><span class="p">;</span> i+<span class="o">=</span>9600<span class="o">))</span><span class="p">;</span> <span class="k">do
-  </span><span class="nb">let</span> “frame++”
-  gm montage <span class="nt">-verbose</span> <span class="nt">-tile</span> 1920x5 +frame +shadow +label <span class="se">\</span>
-  <span class="nt">-geometry</span> 1x1+0+0 “<span class="k">${</span><span class="nv">files</span><span class="p">[@]</span>:i:9600<span class="k">}</span>”<span class="se">\</span>
-  <span class="sb">`</span><span class="nb">printf</span> “frame-%5.5u.png” “<span class="nv">$frame</span>”<span class="sb">`</span>
-<span class="k">done</span>
-</code></pre></div></div>
-
-<ol>
-  <li>Why not just do this with ruby? Because bash is lighter weight</li>
-  <li>Why do so few and split up into “frames”? Because graphicsmagick takes up lots of memory and runs slowly when you try to do all files in 1 big command line invocation.</li>
-</ol>
-:ET

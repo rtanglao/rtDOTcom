@@ -1,9 +1,0 @@
-I"%<h2 id="pontifications">Pontifications</h2>
-
-<ul>
-  <li>IA Writer for Windows: Control K for links doesn’t work. Steps to reproduce: copy something to the clipboard with Control C. Highlight some text. Control K. Highlighted text gets deleted and replaced with link text</li>
-  <li>Major bug :-)</li>
-  <li>Luckily doesn’t seem to be something that is hard to fix.</li>
-  <li>If this bug ever gets fixed, IA Writer for Windows will be just as good as <a href="http://rolandtanglao.com/2015/10/14/p2-love-ia-writer/">IA Writer Mac</a></li>
-</ul>
-:ET

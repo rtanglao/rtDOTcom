@@ -1,7 +1,0 @@
-I"¡<h2 id="pontifications">Pontifications</h2>
-
-<ul>
-  <li>Learn R and statistics the hard way alert :-) aka dâ€™oh! Kamyar told me that density plots only apply to continuous variables not variables like string colournames which are discrete variables, oops!</li>
-  <li>Back to the drawing board, I will just convert the colournames back to 24 bit integer values and we will be back in business, I think :-)</li>
-</ul>
-:ET

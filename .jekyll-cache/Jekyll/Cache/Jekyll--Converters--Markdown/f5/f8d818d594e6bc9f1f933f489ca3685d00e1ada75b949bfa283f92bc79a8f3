@@ -1,7 +1,0 @@
-I"Þ<h2 id="pontifications">Pontifications</h2>
-
-<ul>
-  <li><a href="https://www.dshkol.com/2018/vancouver-mayor-race-twitter/">Dmitry Shkolnik: A look at the Vancouver mayoral race twitter picture</a> using R packages: <a href="https://cran.r-project.org/web/packages/textfeatures/index.html">textfeatures</a>, tidytext, <a href="https://cran.r-project.org/package=syuzhet">syuzhet</a>, and <a href="https://rtweet.info/">rtweet</a> is about <a href="https://github.com/dshkol/scratchpad/blob/master/content/post/2018-10-01-a-look-at-the-vancouver-mayor-twitter-picture.Rmd">200 lines of code</a>. Amazing, must dig into this post and the book about tidytext, <a href="https://www.tidytextmining.com/">Text Mining with R</a></li>
-</ul>
-
-:ET
