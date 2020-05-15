@@ -6,9 +6,35 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 13 May 2020 21:42:34 -0700</pubDate>
-    <lastBuildDate>Wed, 13 May 2020 21:42:34 -0700</lastBuildDate>
+    <pubDate>Thu, 14 May 2020 21:43:21 -0700</pubDate>
+    <lastBuildDate>Thu, 14 May 2020 21:43:21 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>How To get all Firefox Desktop SUMO KB Articles using pup</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;How To get all Firefox Desktop SUMO KB Articles using &lt;a href=&quot;http://rolandtanglao.com/2020/02/16/p2-pup-for-html-like-jq-for-json/&quot;&gt;pup&lt;/a&gt; (disclaimer this could break at any time :-)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Get the web page using &lt;code class=&quot;highlighter-rouge&quot;&gt;curl&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Parse the HTML :-) and find the links using &lt;code class=&quot;highlighter-rouge&quot;&gt;pup&lt;/code&gt; (i couldn’t figure out how to get the actual link from &lt;code class=&quot;highlighter-rouge&quot;&gt;href&lt;/code&gt; so I punted and used &lt;code class=&quot;highlighter-rouge&quot;&gt;grep&lt;/code&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;s2&quot;&gt;&quot;https://support.mozilla.org/en-US/contributors/kb-overview?product=firefox&quot;&lt;/span&gt; |&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+pup &lt;span class=&quot;s1&quot;&gt;'#kb-overview-table tbody tr td:nth-child(1) a[href*=&quot;/en-US/kb/&quot;]\
+['&lt;/span&gt;href&lt;span class=&quot;s1&quot;&gt;']'&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'/en-US/[^\&quot;]*'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; all_relative_desktop_urls.html
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Thu, 14 May 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/05/14/p1-how-to-get-all-firefox-desktop-urls-using-pup/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/05/14/p1-how-to-get-all-firefox-desktop-urls-using-pup/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Chris Corrigan: Constraints that enable emergence</title>
@@ -185,21 +211,6 @@ surge public &lt;span class=&quot;nt&quot;&gt;--domain&lt;/span&gt; rollingrolan
         <pubDate>Mon, 04 May 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/05/04/p1-scott-galloway-post-corona-cosmic-opportunity/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/05/04/p1-scott-galloway-post-corona-cosmic-opportunity/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Losing Lena is well worth watching! A doc which discusses the exclusion of women from tech through the story of a woman whose Playboy centerfold became the basis of the modern JPEG </title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.losinglena.com/&quot;&gt;Losing Lena&lt;/a&gt;, a short documentary,  is well worth watching! A doc which to use &lt;a href=&quot;https://maddiezug.com/&quot;&gt;Maddie Zug&lt;/a&gt;’s words: “discusses the exclusion of women from tech through the story of a woman whose Playboy centerfold became the basis of the modern JPEG”. I agree with Maddie that we need to stop using the image in classrooms (&lt;a href=&quot;https://www.washingtonpost.com/opinions/a-playboy-centerfold-does-not-belong-in-tj-classrooms/2015/04/24/76e87fa4-e47a-11e4-81ea-0649268f729e_story.html&quot;&gt;Maddie’s Washington Post OpEd&lt;/a&gt; which is unfortunately paywalled)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 02 May 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/05/02/p1-losing-lena-documentary/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/05/02/p1-losing-lena-documentary/</guid>
         
         
       </item>
