@@ -1,0 +1,40 @@
+I"D	<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>From the <a href="https://github.com/rtanglao/ARM-rstudio-server/blob/master/README.md">README with the ARM64 Windows 10 build script</a> on github:</li>
+</ul>
+
+<h1 id="arm-rstudio-server">ARM-rstudio-server</h1>
+<p>Build script for rstudio-server on:</p>
+<ul>
+  <li>ARM64 Windows 10</li>
+  <li>Lenovo C630 Yoga</li>
+  <li>Windows 10 Insider Build Fast Ring <code class="highlighter-rouge">Microsoft Windows [Version 10.0.18999.1]</code></li>
+  <li>WSL 1 (WSL 2 doesn’t work on Windows 10 ARM64 ! Except for I guess :-) The Samsung Book 2 and the future Surface X</li>
+  <li>Ubuntu 18.04.2 LTS</li>
+</ul>
+
+<p>This is built on the excellent work of <a href="https://github.com/jrowen/ARM-rstudio-server">jrowen/ARM-rstudio-server</a> which was built on the excellent work of <a href="https://github.com/dashaub/ARM-RStudio">dashaub/ARM-RStudio</a>.</p>
+
+<h2 id="build">Build</h2>
+<p>This script has been used to successfully build RStudio Server 1.2.5001</p>
+
+<p>The commands below can be used to build the server:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash <span class="nt">-x</span> build_rstudio.sh
+/usr/sbin/rstudio-server start
+</code></pre></div></div>
+<p>The build took about 2 hours to complete.</p>
+
+<p>The <code class="highlighter-rouge">VERS</code> variable in the script can be updated to build different versions of the server.  The latest version number and be found on the rstudio server <a href="https://www.rstudio.com/products/rstudio/download-server/">download page</a>, and note that this will likely differ from the latest desktop version.</p>
+
+<h2 id="launching-rstudio-server">Launching RStudio Server</h2>
+<p>After the server has been built and installed, the easiest way to start the server from a WSL  using the commands below:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo</span>  /usr/sbin/rstudio-server start
+</code></pre></div></div>
+<p>Finally, from a new Firefox (or Chrome :-)) tab navigate to <code class="highlighter-rouge">localhost:8787</code> and log in using your WSL credentials.</p>
+
+<h2 id="contributions">Contributions</h2>
+<p>Please don’t hesitate to file an issue if you run into problems, and pull requests are welcome.</p>
+:ET

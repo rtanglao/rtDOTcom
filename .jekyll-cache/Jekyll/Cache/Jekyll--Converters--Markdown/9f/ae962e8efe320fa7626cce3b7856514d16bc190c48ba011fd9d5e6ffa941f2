@@ -1,0 +1,27 @@
+I"�<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>
+    <p>“Machine learning engineering is becoming a real ecosystem</p>
+
+    <p>Looking at software engineering as a parallel, we typically see ecosystems “mature” in pretty standard patterns.</p>
+
+    <p>A new programming language will emerge with some exciting features, and  people will use it for specialized use-cases, research projects, and  toys. At this stage, anyone who uses it has to build all their basic  utilities from scratch.</p>
+
+    <p>Down the line, people within the community develop libraries and projects  that abstract common utilities away, until the tooling is capable and  stable enough to be used in production.</p>
+
+    <p>…</p>
+
+    <p>In this approach, a team takes a pre-trained model and removes/retrains  the last layers of the model to focus on a new, related task.</p>
+
+    <p>” &lt;— Read the whole thing:  “<a href="https://towardsdatascience.com/deep-learning-isnt-hard-anymore-26db0d4749d7">Deep learning isn’t hard anymore</a> – At least, building software with deep learning isn’t”</p>
+  </li>
+  <li>
+    <p>The above article links to: <a href="https://ruder.io/transfer-learning/">Transfer Learning - Machine Learning’s Next Frontier</a></p>
+  </li>
+  <li>
+    <p>I think it is and it isn’t. It is but as a newbie there are far too many choices. Hard to figure out where to start!</p>
+  </li>
+</ul>
+
+:ET

@@ -1,0 +1,38 @@
+I"Ó<h2 id="pontifications">Pontifications</h2>
+<p>The <a href="https://github.com/weppos/publicsuffix-ruby">Public Suffix</a> ruby gem by a Simone Carletti  gets me the domain name! yay! Thanks! <a href="https://simonecarletti.com/blog/2010/06/public-suffix-list-library-for-ruby/">Public Suffix blog post</a>!</p>
+
+<h3 id="code">Code</h3>
+
+<p><a href="https://github.com/rtanglao/rt-csp/blob/master/README.md#22march2017">Hereâ€™s how I used it to get domain names from URLs for Mozilla Lithium CSP</a>.
+From <a href="https://github.com/rtanglao/rt-csp/blob/master/print-domain.rb">print-domain.rb</a>:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/env ruby</span>
+<span class="nb">require</span> <span class="s1">'rubygems'</span>
+<span class="nb">require</span> <span class="s1">'ccsv'</span>
+<span class="nb">require</span> <span class="s1">'uri'</span>
+<span class="nb">require</span> <span class="s1">'public_suffix'</span>
+
+<span class="n">header</span> <span class="o">=</span> <span class="kp">true</span>
+<span class="no">Ccsv</span><span class="p">.</span><span class="nf">foreach</span><span class="p">(</span><span class="no">ARGV</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="k">do</span> <span class="o">|</span><span class="n">values</span><span class="o">|</span>
+  <span class="vg">$stderr</span><span class="p">.</span><span class="nf">puts</span><span class="p">(</span><span class="n">values</span><span class="p">)</span>
+  <span class="k">if</span> <span class="n">header</span> <span class="o">==</span> <span class="kp">true</span>
+    <span class="n">header</span> <span class="o">=</span> <span class="kp">false</span>
+    <span class="k">next</span>
+  <span class="k">end</span>
+  <span class="n">field2</span> <span class="o">=</span> <span class="n">values</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+  <span class="vg">$stderr</span><span class="p">.</span><span class="nf">printf</span><span class="p">(</span><span class="s2">"2nd record:%s</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span><span class="n">field2</span><span class="p">)</span> <span class="c1"># values[2] to get the URI</span>
+  <span class="k">if</span> <span class="n">field2</span><span class="p">.</span><span class="nf">index</span><span class="p">(</span><span class="s2">"https://"</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="n">field2</span><span class="p">.</span><span class="nf">index</span><span class="p">(</span><span class="s2">"http://"</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">0</span>
+    <span class="vg">$stderr</span><span class="p">.</span><span class="nf">printf</span><span class="p">(</span><span class="s2">"SKIPPING non HTTP and non HTTP FIELD2:%s; FIELD3:%s</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="n">field2</span><span class="p">,</span> <span class="n">values</span><span class="p">[</span><span class="mi">3</span><span class="p">])</span>
+    <span class="k">next</span>
+  <span class="k">end</span>
+  <span class="n">uri</span> <span class="o">=</span> <span class="no">URI</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">values</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+  <span class="k">begin</span>
+    <span class="n">domain</span> <span class="o">=</span> <span class="no">PublicSuffix</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">uri</span><span class="p">.</span><span class="nf">host</span><span class="p">)</span>
+    <span class="nb">puts</span> <span class="n">domain</span><span class="p">.</span><span class="nf">domain</span>
+  <span class="k">rescue</span> <span class="no">PublicSuffix</span><span class="o">::</span><span class="no">DomainNotAllowed</span>
+    <span class="vg">$stderr</span><span class="p">.</span><span class="nf">printf</span><span class="p">(</span><span class="s2">"PublicSuffix::DomainNotAllowed^^^ URI:%s</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="n">uri</span><span class="p">.</span><span class="nf">host</span><span class="p">)</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+
+</code></pre></div></div>
+:ET

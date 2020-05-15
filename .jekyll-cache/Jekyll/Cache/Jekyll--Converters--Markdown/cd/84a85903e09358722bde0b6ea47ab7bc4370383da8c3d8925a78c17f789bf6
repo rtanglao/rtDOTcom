@@ -1,0 +1,20 @@
+I"�<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>Following up on <a href="http://rolandtanglao.com/2017/07/14/p1-joyplot-example-reverse-engineering-part4-need-to-figure-out-tidyverse-lubridate-transmute/">Reverse Engineering R joyplot code part 4 - Need to figure out what “%&gt;%” really means and what tidyverse and transmute() do</a>, here’s what <code class="highlighter-rouge">transmute()</code> does!</li>
+  <li>From <a href="http://r4ds.had.co.nz/transform.html#add-new-variables-with-mutate">R for Data Science - 5.5  Add new variables with mutate()</a>:</li>
+</ul>
+
+<p><strong>QUOTE</strong></p>
+
+<blockquote>
+
+"Besides selecting sets of existing columns, it’s often useful to add new columns that are functions of existing columns. That’s the job of mutate()<br /><br />
+...<br /><br />
+If you only want to keep the new variables, use transmute()"
+
+</blockquote>
+
+<p><strong>END QUOTE</strong></p>
+
+:ET

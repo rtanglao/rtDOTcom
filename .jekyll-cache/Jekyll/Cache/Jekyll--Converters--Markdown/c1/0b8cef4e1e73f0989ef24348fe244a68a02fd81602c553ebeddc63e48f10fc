@@ -1,0 +1,12 @@
+I"�<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>Usually it’s just the metadata!</li>
+  <li>from <a href="https://stackoverflow.com/questions/3937387/rotating-videos-with-ffmpeg">SO:Rotating videos with FFmpeg</a>, here’s how to change the metadata from 90 to 0</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+ffmpeg <span class="nt">-i</span> ~/Downloads/45620789954.mp4 <span class="nt">-map_metadata</span> 0 <span class="nt">-metadata</span>:s:v <span class="nv">rotate</span><span class="o">=</span><span class="s2">"0"</span> <span class="nt">-codec</span> copy 16dec2018-cypress-powerline-xc-rotated.mp4 <span class="c"># preserves metadata</span>
+
+</code></pre></div></div>
+:ET

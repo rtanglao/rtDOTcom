@@ -1,0 +1,18 @@
+I"*<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>See <a href="https://stackoverflow.com/questions/41959355/how-can-i-combine-these-commands-to-achieve-circular-crop-in-imagemagick">How can I combine these commands to achieve circular crop in ImageMagick?</a></li>
+  <li>Gotta try this with <a href="https://www.flickr.com/photos/roland/albums/72157709917594396">my Berlin July 2019 photos</a> and then make a collage of these circular crops!</li>
+</ul>
+
+<h2 id="code">Code</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>convert <span class="nt">-size</span> 200x200 xc:Black <span class="nt">-fill</span> White <span class="nt">-draw</span> <span class="s1">'circle 100 100 100 1'</span> <span class="nt">-alpha</span> Copy mask.png
+
+<span class="k">for </span>f <span class="k">in</span> <span class="si">$(</span><span class="nb">ls</span> <span class="k">*</span>.jpg<span class="si">)</span>
+<span class="k">do
+  </span>convert <span class="nv">$f</span> <span class="nt">-gravity</span> Center mask.png <span class="nt">-compose</span> CopyOpacity <span class="nt">-composite</span> <span class="nt">-trim</span> <span class="k">${</span><span class="nv">f</span><span class="k">}</span>_output.png
+<span class="k">done</span>
+</code></pre></div></div>
+
+:ET

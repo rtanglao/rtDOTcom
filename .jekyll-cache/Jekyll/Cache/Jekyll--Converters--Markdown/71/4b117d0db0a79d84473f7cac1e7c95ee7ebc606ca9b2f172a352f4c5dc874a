@@ -1,0 +1,10 @@
+I"Õ<h2 id="pontifications">Pontifications</h2>
+<ul>
+  <li>Use <a href="http://rolandtanglao.com/2016/09/12/p1-parallel-to-use-all-your-cpu-cores/">GNU Parallel</a> instead of xargs to run a script on wildcards and a file that is a list of files (<a href="https://github.com/rtanglao/rt-showfor.json/blob/master/last22locales.txt">you can find last22locales.txt on github</a>)</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cat </span>last22locales.txt | <span class="se">\</span>
+parallel <span class="nt">-N</span> 1 <span class="se">\</span>
+./paste-Firefox-showfor-for-a-locale.rb <span class="o">{}</span> showfor.json
+</code></pre></div></div>
+:ET

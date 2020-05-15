@@ -1,0 +1,16 @@
+I"X<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>User review of Firefox for Android –&gt; “Every few weeks my pinned sites &amp; bookmarks disappear into thin air replaced with Amazon links” &lt;– 99.99999% Firefox for Android doesn’t do this nor does Chrome or any other browser on Android</li>
+  <li>So what’s causing this you ask?</li>
+  <li>Good Question :-)</li>
+  <li>Wild guesses but it’s probably one or more of the following:
+    <ul>
+      <li>anti-virus</li>
+      <li>an errant Firefox for Android add-on (unlikely but possible)</li>
+      <li>your WiFi or 3G or 4G provider</li>
+    </ul>
+  </li>
+  <li>All software including Chrome, Firefox, or any piece of software on any phone or tablet or computer will continue to have sad bugs like this until <a href="http://rolandtanglao.com/2018/05/24/p1-computer-software-full-of-bugs-hard-modify-create/">we build secure reliable components at every software layer in a safe language like Rust</a>, Haskell or some such (not C++, not Javascript, not Python, not Ruby, not Fortran :-), not Cobol, not C, not BASIC etc etc)</li>
+</ul>
+:ET

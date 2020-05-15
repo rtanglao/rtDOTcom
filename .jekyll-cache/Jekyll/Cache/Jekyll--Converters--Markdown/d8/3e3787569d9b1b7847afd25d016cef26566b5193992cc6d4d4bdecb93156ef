@@ -1,0 +1,7 @@
+I"±<p><iframe src="https://www.flickr.com/photos/roland/14986133102/in/photolist-/player/" frameborder="0" width="320" height="180"></iframe></p>
+<p>Somehow <a href="http://uk.farnell.com/">Element 14</a>'s UK PR found me and asked me about doing a hardware project with their hardware which they would send me in return for blogging about it. So here's my project:</p>
+<p>FlickrBicyclePi! What is it? It's custom device that is mounted on my Bicycle and takes photos every minute while the bicycle is in motion and geoetags them and posts them to flickr.</p>
+<p>What hardware will I use (Bold stuff is supplied by Element 14 UK thanks, rest is on my dime)?</p>
+<ol><li><strong>Raspberry PI</strong></li><li><strong>Raspbery PI Camera Module</strong></li><li>GPS</li><li><strong>WiFi</strong></li><li><strong>Accelerometer to detect when the bicycle is in motion</strong></li><li>some sort of case TBD</li><li>SD Card</li><li>Battery</li><li>Power Supply to handle the Battery</li><li>a small matter of programming in Python :-)</li></ol>
+<p>Wish me luck. This will take lots of help from cool folks like Kip. Want to help? <strong>Twitter me. @rtanglao or email roland at rolandtanglao.com</strong></p>
+:ET

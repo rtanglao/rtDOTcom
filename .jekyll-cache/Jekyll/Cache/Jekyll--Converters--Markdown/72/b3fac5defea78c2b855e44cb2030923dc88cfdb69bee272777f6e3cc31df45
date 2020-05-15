@@ -1,0 +1,16 @@
+I"ú<h2 id="pontifications">Pontifications</h2>
+<ul>
+  <li>change <code class="highlighter-rouge">0.41</code> to whatever the current version of Hugo is</li>
+  <li>From <a href="https://github.com/rtanglao/rt-making-wsl-and-windows-work-for-me/blob/master/README.md#04june2018-hugo">https://github.com/rtanglao/rt-making-wsl-and-windows-work-for-me/blob/master/README.md#04june2018-hugo</a></li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget <span class="nt">-O</span> /tmp/hugo_0.41_Linux-64bit.deb https://github.com/spf13/hugo/releases/download/v0.41/hugo_0.41_Linux-64bit.deb
+<span class="nb">sudo </span>apt <span class="nb">install</span> /tmp/hugo_0.41_Linux-64bit.deb
+hugo version
+Hugo Static Site Generator v0.41 linux/amd64 BuildDate: 2018-05-25T16:57:20Z
+<span class="c"># cd to your hugo site top directory</span>
+<span class="nb">cd </span>themes
+git clone https://github.com/halogenica/beautifulhugo.git beautifulhugo
+</code></pre></div></div>
+
+:ET

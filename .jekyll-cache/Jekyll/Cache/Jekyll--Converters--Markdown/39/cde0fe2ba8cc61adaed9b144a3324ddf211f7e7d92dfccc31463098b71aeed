@@ -1,0 +1,11 @@
+I"I<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>Combining multiple CSV files with the same headers is easy using <code class="highlighter-rouge">head -1</code> and <code class="highlighter-rouge">sed 1d</code>!</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">head</span> <span class="nt">-1</span> file1.csv <span class="o">&gt;</span> final.csv
+<span class="k">for </span>filename <span class="k">in</span> <span class="si">$(</span><span class="nb">ls </span>file<span class="k">*</span>.csv<span class="si">)</span><span class="p">;</span> <span class="k">do </span><span class="nb">sed </span>1d <span class="nv">$filename</span> <span class="o">&gt;&gt;</span> final.csv<span class="p">;</span> <span class="k">done</span>
+</code></pre></div></div>
+
+:ET

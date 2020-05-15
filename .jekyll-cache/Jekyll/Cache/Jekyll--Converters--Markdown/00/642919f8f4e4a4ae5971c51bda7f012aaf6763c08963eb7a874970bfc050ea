@@ -1,0 +1,119 @@
+I"�*<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>The hunspell vector function can be found in <a href="https://fivethirtyeight-r.netlify.com/articles/trump_twitter.html">an article on T*ump tweets from fivethirtyeight.com</a></li>
+  <li>from <a href="https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/hunspell-ff60-ff61-ff62-1st-three-weeks-common-words.R">hunspell-ff60-ff61-ff62-1st-three-weeks-common-words.R</a></li>
+</ul>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span>
+<span class="n">library</span><span class="p">(</span><span class="n">stringr</span><span class="p">)</span>
+<span class="n">library</span><span class="p">(</span><span class="n">tokenizers</span><span class="p">)</span>
+<span class="n">library</span><span class="p">(</span><span class="n">tidytext</span><span class="p">)</span>
+<span class="n">library</span><span class="p">(</span><span class="n">textclean</span><span class="p">)</span>
+<span class="n">library</span><span class="p">(</span><span class="n">hunspell</span><span class="p">)</span>
+<span class="n">my_hunspell_stem</span> <span class="o">&lt;-</span> <span class="n">function</span><span class="p">(</span><span class="n">token</span><span class="p">)</span> <span class="p">{</span>
+  <span class="n">stem_token</span> <span class="o">&lt;-</span> <span class="n">hunspell_stem</span><span class="p">(</span><span class="n">token</span><span class="p">)[[</span><span class="mi">1</span><span class="p">]]</span>
+  <span class="k">if</span> <span class="p">(</span><span class="n">length</span><span class="p">(</span><span class="n">stem_token</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="k">return</span><span class="p">(</span><span class="n">token</span><span class="p">)</span> <span class="k">else</span> <span class="k">return</span><span class="p">(</span><span class="n">stem_token</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+<span class="p">}</span>
+<span class="n">vec_hunspell_stem</span> <span class="o">&lt;-</span> <span class="no">Vectorize</span><span class="p">(</span><span class="n">my_hunspell_stem</span><span class="p">,</span> <span class="s2">"token"</span><span class="p">)</span>
+<span class="c1"># start of function</span>
+<span class="n">tidy_count</span> <span class="o">&lt;-</span> <span class="n">function</span><span class="p">(</span><span class="n">csv_url</span><span class="p">)</span> <span class="p">{</span>
+  <span class="n">first3weeks</span> <span class="o">=</span>
+    <span class="n">read_csv</span><span class="p">(</span><span class="n">csv_url</span><span class="p">)</span>
+  <span class="n">first3weeks_title_content_concatenated</span> <span class="o">&lt;-</span>
+    <span class="n">first3weeks</span> <span class="sx">%&gt;%
+    unite(text, title, content, sep = " ")
+  first3weeks_title_content_concatenated &lt;-
+    first3weeks_title_content_concatenated %&gt;</span><span class="o">%</span>
+    <span class="n">mutate</span><span class="p">(</span><span class="n">text</span> <span class="o">=</span> <span class="n">replace_html</span><span class="p">(</span><span class="n">text</span><span class="p">))</span>
+  <span class="n">tidy_first3weeks</span> <span class="o">&lt;-</span>
+    <span class="n">first3weeks_title_content_concatenated</span> <span class="sx">%&gt;%
+    unnest_tokens(word, text) %&gt;</span><span class="o">%</span>
+    <span class="n">mutate</span><span class="p">(</span><span class="n">word</span> <span class="o">=</span> <span class="n">vec_hunspell_stem</span><span class="p">(</span><span class="n">word</span><span class="p">))</span>
+  <span class="n">data</span><span class="p">(</span><span class="n">stop_words</span><span class="p">)</span>
+  <span class="n">tidy_first3weeks</span> <span class="o">&lt;-</span>
+    <span class="n">tidy_first3weeks</span> <span class="sx">%&gt;%
+    anti_join(stop_words)
+  df &lt;-
+    tidy_first3weeks %&gt;</span><span class="o">%</span>
+    <span class="n">count</span><span class="p">(</span><span class="n">word</span><span class="p">,</span> <span class="n">sort</span> <span class="o">=</span> <span class="no">TRUE</span><span class="p">)</span>
+  <span class="k">return</span> <span class="p">(</span><span class="n">df</span><span class="p">)</span>
+<span class="p">}</span>
+<span class="c1"># end of function</span>
+<span class="n">ff62_count</span> <span class="o">&lt;-</span>
+  <span class="n">tidy_count</span><span class="p">(</span>
+    <span class="s2">"https://raw.githubusercontent.com/rtanglao/rt-kitsune-api/master/created21october2018-ff62-5-25september-2018-questions-id-content-created-product-tags-topic-firefoxversion.csv"</span>
+  <span class="p">)</span>
+
+<span class="n">ff62_count</span> <span class="o">&lt;-</span>
+  <span class="n">ff62_count</span> <span class="sx">%&gt;%
+  filter(n &gt;</span> <span class="mi">100</span><span class="p">)</span> <span class="o">%&gt;%</span>
+  <span class="n">filter</span><span class="p">(</span><span class="o">!</span><span class="n">str_detect</span><span class="p">(</span>
+    <span class="n">word</span><span class="p">,</span>
+    <span class="s2">"firefox|1|2|3|4|5|mozilla|7|8|9|ff|https|browser|computer"</span>
+  <span class="p">))</span> <span class="o">%&gt;%</span>
+  <span class="n">mutate</span><span class="p">(</span><span class="n">word</span> <span class="o">=</span> <span class="n">reorder</span><span class="p">(</span><span class="n">word</span><span class="p">,</span> <span class="n">n</span><span class="p">))</span>
+<span class="n">ff62_count</span> <span class="o">&lt;-</span>
+  <span class="n">ff62_count</span> <span class="sx">%&gt;%
+  mutate(firefoxversion = 62)
+
+# start of Firefox 60
+
+ff60_count &lt;- tidy_count(
+    "https://raw.githubusercontent.com/rtanglao/rt-kitsune-api/master/created21october2018-ff60-9-29may2018-questions-id-content-created-product-tags-topic-firefoxversion.csv")
+ff60_count &lt;-
+  ff60_count %&gt;</span><span class="o">%</span>
+  <span class="n">filter</span><span class="p">(</span><span class="n">n</span> <span class="o">&gt;</span> <span class="mi">100</span><span class="p">)</span> <span class="o">%&gt;%</span>
+  <span class="n">filter</span><span class="p">(</span><span class="o">!</span><span class="n">str_detect</span><span class="p">(</span>
+    <span class="n">word</span><span class="p">,</span>
+    <span class="s2">"firefox|1|2|3|4|5|6|mozilla|7|8|9|ff|https|browser|computer"</span>
+  <span class="p">))</span> <span class="o">%&gt;%</span>
+  <span class="n">mutate</span><span class="p">(</span><span class="n">word</span> <span class="o">=</span> <span class="n">reorder</span><span class="p">(</span><span class="n">word</span><span class="p">,</span> <span class="n">n</span><span class="p">))</span>
+<span class="n">ff60_count</span> <span class="o">&lt;-</span>
+  <span class="n">ff60_count</span> <span class="sx">%&gt;%
+  mutate(firefoxversion = 60)
+# end of Firefox 60
+
+# start of Firefox 61
+ff61_count &lt;- 
+  tidy_count(
+    "https://raw.githubusercontent.com/rtanglao/rt-kitsune-api/master/created21october2018-ff61-26june-16july-2018-questions-id-content-created-product-tags-topic-firefoxversion.csv")
+ff61_count &lt;-
+  ff61_count %&gt;</span><span class="o">%</span>
+  <span class="n">filter</span><span class="p">(</span><span class="n">n</span> <span class="o">&gt;</span> <span class="mi">100</span><span class="p">)</span> <span class="o">%&gt;%</span>
+  <span class="n">filter</span><span class="p">(</span><span class="o">!</span><span class="n">str_detect</span><span class="p">(</span>
+    <span class="n">word</span><span class="p">,</span>
+    <span class="s2">"firefox|1|2|3|4|5|mozilla|7|8|9|ff|https|browser|computer"</span>
+  <span class="p">))</span> <span class="o">%&gt;%</span>
+  <span class="n">mutate</span><span class="p">(</span><span class="n">word</span> <span class="o">=</span> <span class="n">reorder</span><span class="p">(</span><span class="n">word</span><span class="p">,</span> <span class="n">n</span><span class="p">))</span>
+<span class="n">ff61_count</span> <span class="o">&lt;-</span>
+  <span class="n">ff61_count</span> <span class="sx">%&gt;%
+  mutate(firefoxversion = 61)
+# end of Firefox 61
+ff60_61_62 &lt;- 
+  ff60_count %&gt;</span><span class="o">%</span> 
+  <span class="n">bind_rows</span><span class="p">(</span><span class="n">ff61_count</span><span class="p">)</span> <span class="o">%&gt;%</span> 
+  <span class="n">bind_rows</span><span class="p">(</span><span class="n">ff62_count</span><span class="p">)</span> <span class="o">%&gt;%</span> 
+  <span class="n">mutate</span><span class="p">(</span><span class="n">word</span> <span class="o">=</span> <span class="n">reorder</span><span class="p">(</span><span class="n">word</span><span class="p">,</span> <span class="n">n</span><span class="p">))</span>
+  
+<span class="n">ggplot</span><span class="p">(</span><span class="n">ff60_61_62</span><span class="p">,</span> <span class="n">aes</span><span class="p">(</span><span class="n">word</span><span class="p">,</span> <span class="n">n</span><span class="p">))</span> <span class="o">+</span>
+  <span class="n">geom_col</span><span class="p">()</span> <span class="o">+</span>
+  <span class="n">xlab</span><span class="p">(</span><span class="no">NULL</span><span class="p">)</span> <span class="o">+</span>
+  <span class="n">coord_flip</span><span class="p">()</span> <span class="o">+</span>
+  <span class="n">facet_wrap</span><span class="p">(</span><span class="o">~</span> <span class="n">firefoxversion</span><span class="p">)</span>
+
+</code></pre></div></div>
+
+<h2 id="output">Output</h2>
+
+<ul>
+  <li>See <a href="https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/hunspell-ff60-ff61-ff62-1st-three-weeks-common-words.png">https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/hunspell-ff60-ff61-ff62-1st-three-weeks-common-words.png</a>
+    <ul>
+      <li><strong>Note that the hunwell destemmer isn’t perfect</strong>: it creates pseudo words from stems like “stall” (is that install), “aft”, “ha” (is that hang?), etc</li>
+      <li>Note also that stemmers (or is it the tokenizer) can’t handle hyphenated words: “add-ons” gets converted to “add” and “ons”</li>
+    </ul>
+
+    <p><a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/43713318990/in/dateposted-ff/" title="hunspell-ff60-ff61-ff62-1st-three-weeks-common-words"><img src="https://farm2.staticflickr.com/1974/43713318990_6f58bb1cf3.jpg" width="335" height="500" alt="hunspell-ff60-ff61-ff62-1st-three-weeks-common-words" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+  </li>
+</ul>
+:ET

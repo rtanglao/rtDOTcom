@@ -1,0 +1,7 @@
+I"-<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>Official ggplot2 <code class="highlighter-rouge">geom_density()</code> docs: <a href="http://ggplot2.tidyverse.org/reference/geom_density.html">Smoothed density estimates aka density plots</a> aka <code class="highlighter-rouge">geom_density()</code></li>
+  <li>R Cookbook: <a href="http://www.cookbook-r.com/Graphs/Plotting_distributions_(ggplot2)/">Plotting Distributions</a> (why not density :-) ? I guess because density plots are distribution plots?!?). Complete with sample data set!</li>
+</ul>
+:ET

@@ -1,0 +1,3 @@
+I"ñ<p>The Bug Labs asynchronous GPS API that we can't get working (mentioned in the <a href="http://rolandtanglao.com/archives/2009/09/14/bug-labs-release-142-asynchronous-gps-api-broken-synchronoous-works-requires-pol">previous blog post</a>) with Simon's identicon program is: <a href="http://bugcommunity.com/development/javadoc/r1.4/bug/com/buglabs/bug/module/gps/pub/IPositionSubscriber.html">IPositionSubscriber</a></p>
+<p>I'll report this in the Bug Labs forums and then update this post.</p>
+:ET

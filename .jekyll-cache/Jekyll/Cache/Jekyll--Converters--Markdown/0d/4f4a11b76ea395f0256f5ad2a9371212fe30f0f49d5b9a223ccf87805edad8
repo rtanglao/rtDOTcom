@@ -1,0 +1,7 @@
+I"6<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>From Federico Pereiro’s very useful <a href="https://github.com/fpereiro/backendlore">backendlore</a>  (good stuff about nginx, SSL, redis, node, etc) via <a href="https://www.downes.ca/cgi-bin/page.cgi?post=70396">Stephen Downes</a>: “Cost - if your application potentially serves a lot of data, S3 cost can be very significant; downloading a GB once currently costs 3-4x the  cost of storing it for an entire month. What makes this worse is that it is hard to predict how much data you may use on a given month, so you  have an unlimited financial downside. An ideal service would not charge  for downloads, just for storage.” &lt;— is this true? Sad face! I’d rather not have unlimited financial downside for personal websites and projects!</li>
+</ul>
+
+:ET

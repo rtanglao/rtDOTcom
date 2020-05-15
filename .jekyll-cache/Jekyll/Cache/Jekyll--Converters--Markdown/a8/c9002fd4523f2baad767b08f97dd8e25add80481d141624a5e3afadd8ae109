@@ -1,0 +1,20 @@
+I"ì<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>
+    <p>tl;dr saveGIF from the <a href="https://cran.r-project.org/web/packages/animation/animation.pdf">animation</a> package, the <a href="https://github.com/dgrtwo/gganimate">gganimate</a> package for <code class="highlighter-rouge">ggplot2</code> plots and <a href="https://ezgif.com/maker">online-animated-gif-maker</a></p>
+  </li>
+  <li>
+    <p>Cool <a href="https://simplystatistics.org/2017/08/08/code-for-my-educational-gifs/">animated GIF tutorial in R: Code for my educational gifs by Rafael Irizarry</a></p>
+  </li>
+</ul>
+
+<p><strong>QUOTE</strong></p>
+
+<blockquote>
+"All these gifs are paginated R plots. You will see in the code that I used different approaches to converting individual plots to animated gifs. The first (not recommended) was to save files then do a system call to the ImageMagick convert tool. Through a simplystats comment, from Yihui Xie, I learned about the saveGIF function from the animation package, which is what I now use when the plots are made in R base. When using ggplot I use David Robinsonâ€™s gganimate package. Finally, if I want to add special effects, like phasing, I use the online Animated GIF maker."
+</blockquote>
+
+<p><strong>END QUOTE</strong></p>
+
+:ET

@@ -1,0 +1,9 @@
+I"€<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>Use an HTML parser instead of regular expressions</li>
+  <li>Use a parser if you need a parser. Regular expression are not for your Domain Specific Language :-) !</li>
+  <li>Use your languageâ€™s built-in string search functions.</li>
+  <li>As a last resort, <a href="https://blog.codinghorror.com/regular-expressions-now-you-have-two-problems/">if you must use regexes, turn off white space significance and comment your regular expressions</a> (and test them on an online regular expression checker or some tool like <a href="http://www.regexbuddy.com/">RegexBuddy</a>).</li>
+</ul>
+:ET

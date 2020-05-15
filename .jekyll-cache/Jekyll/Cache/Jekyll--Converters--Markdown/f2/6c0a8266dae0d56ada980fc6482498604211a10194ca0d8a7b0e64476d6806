@@ -1,0 +1,10 @@
+I"<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>For X11 I followed: <a href="https://solarianprogrammer.com/2017/04/16/windows-susbsystem-for-linux-xfce-4/">Using the Windows Subsystem for Linux with Xfce 4</a></li>
+  <li>For emacs I followed: <a href="https://solarianprogrammer.com/2017/05/18/emacs-windows-subsystem-linux/">Emacs 25 on Windows Subsystem for Linux</a></li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>xfce4-session
+</code></pre></div></div>
+:ET

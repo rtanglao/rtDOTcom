@@ -1,0 +1,27 @@
+I"ã<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>tl;dr install ubuntu desktop!!! and dbus and turn off multi-process(not sure this will work long-term!)</li>
+</ul>
+
+<h1 id="details-on-how-to-make-firefox-work-on-wsl">Details on how to make Firefox work on WSL</h1>
+
+<h2 id="fix-fonts-make-dbus-work">fix fonts, make dbus work</h2>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt-get <span class="nb">install </span>dbus-x11
+<span class="nb">sudo </span>service dbus start
+<span class="nb">sudo </span>apt-get <span class="nb">install </span>ubuntu-desktop
+</code></pre></div></div>
+
+<h2 id="turn-off-multi-proces">turn off multi-proces</h2>
+<ul>
+  <li>in firefox turn off multi-process from corel (thanks!), UNSUPPORTED!!! ( from <a href="https://support.mozilla.org/nl/questions/1167673">https://support.mozilla.org/nl/questions/1167673</a>)</li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>You can disable multi-process windows in Firefox by setting these prefs to false on the about:config page.
+
+   browser.tabs.remote.autostart = false
+   
+   browser.tabs.remote.autostart.2 = false 
+</code></pre></div></div>
+
+:ET

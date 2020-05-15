@@ -1,0 +1,14 @@
+I"Ü<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>forgot to blog this: <a href="https://github.com/rtanglao/rt-making-r-and-rstudio-work-for-me#07january2019-how-to-calculate-time-differences-for-support">07January2019 how to calculate time differences in hours for support using R and lubridate</a></li>
+</ul>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">interval</span><span class="p">(</span><span class="n">ymd_hms</span><span class="p">(</span><span class="s2">"2019-01-04 18:40:00"</span><span class="p">,</span><span class="w"> 
+  </span><span class="n">tz</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"America/Vancouver"</span><span class="p">),</span><span class="w"> 
+  </span><span class="n">ymd_hms</span><span class="p">(</span><span class="s2">"2019-01-07 12:59:00"</span><span class="p">,</span><span class="w"> 
+    </span><span class="n">tz</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"America/Vancouver"</span><span class="p">))</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">hours</span><span class="p">(</span><span class="m">1</span><span class="p">)</span><span class="w">
+</span><span class="p">[</span><span class="m">1</span><span class="p">]</span><span class="w"> </span><span class="m">66.31667</span><span class="w">
+</span></code></pre></div></div>
+
+:ET

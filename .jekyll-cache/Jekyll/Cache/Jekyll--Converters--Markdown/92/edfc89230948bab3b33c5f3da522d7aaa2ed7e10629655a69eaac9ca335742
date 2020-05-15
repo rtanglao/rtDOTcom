@@ -1,0 +1,9 @@
+I"1<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>From <a href="https://stackoverflow.com/questions/7363813/changing-color-of-density-plots-in-ggplot2">Changing color of density plots in ggplot2</a> the tl;dr is:</li>
+</ul>
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">m</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">scale_fill_manual</span><span class="p">(</span><span class="w"> </span><span class="n">values</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="s2">"red"</span><span class="p">,</span><span class="s2">"blue"</span><span class="p">))</span><span class="w">
+</span></code></pre></div></div>
+:ET

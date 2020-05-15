@@ -1,0 +1,18 @@
+I"
+	<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>Following up on <a href="http://rolandtanglao.com/2017/07/14/p1-joyplot-example-reverse-engineering-part4-need-to-figure-out-tidyverse-lubridate-transmute/">Reverse Engineering R joyplot code part 4 - Need to figure out what “%&gt;%” really means and what tidyverse and transmute() do</a>, why bother reverse engineering when there’s an R library for joyplots called <code class="highlighter-rouge">ggjoy</code>?!?</li>
+  <li>I kid, I think I will still try reverse engineering that code</li>
+  <li>In the meantime feast on this awesomeness:</li>
+</ul>
+
+<p>From <a href="https://simplystatistics.org/2017/07/13/the-joy-of-no-more-violin-plots/">The joy of no more violin plots</a>:</p>
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">ggjoy</span><span class="p">)</span><span class="w">
+</span><span class="n">dat</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> </span><span class="n">mutate</span><span class="p">(</span><span class="n">group</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">reorder</span><span class="p">(</span><span class="n">group</span><span class="p">,</span><span class="w"> </span><span class="n">value</span><span class="p">,</span><span class="w"> </span><span class="n">median</span><span class="p">))</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+  </span><span class="n">ggplot</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">value</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="o">=</span><span class="n">group</span><span class="p">,</span><span class="w"> </span><span class="n">height</span><span class="o">=</span><span class="n">..density..</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w">
+  </span><span class="n">geom_joy</span><span class="p">(</span><span class="n">scale</span><span class="o">=</span><span class="m">0.85</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+:ET

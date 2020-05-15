@@ -1,0 +1,14 @@
+I"`<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>Department of I might need this someday :-) —&gt; <a href="http://eusebeia.dyndns.org/mfc7220">From CUPS and the Brother MFC-7220 USB printer</a>:</li>
+</ul>
+
+<p><strong>QUOTE</strong></p>
+
+<blockquote>
+After a long, frustrating search, I finally found a clue in an obscure post somewhere in the Ubuntu forums, hinting that CUPS actually comes with a driver that works with the MFC-7220. It appears that the printer part of MFC-7220 is identical to Brother's HL-2060 printer; so all I had to do, was to uninstall the MFC-7220 drivers, delete the printer from the CUPS web interface, and then re-add the printer and select the HL-2060 driver for the printer. After this very non-obvious choice of printer driver, the printer started to work perfectly again.
+</blockquote>
+
+<p><strong>END QUOTE</strong></p>
+:ET

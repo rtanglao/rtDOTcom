@@ -1,0 +1,23 @@
+I"¬<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>Just in time for the <a href="https://tidbits.com/2019/03/14/flickr-vows-to-not-delete-creative-commons-images-or-those-of-deceased-members/">big March 12, 2019 deletion by flickr of non CC photos on free accounts and any non CC photos over 1000 on free accounts which I fully support :-) #ymmv</a></li>
+  <li>See the original (or biggest available if the originals arenâ€™t available) photos here: <a href="https://github.com/rtanglao/neon-for-stephanie/tree/master/NEON1_ORIGINALS">NEON 1</a>, <a href="https://github.com/rtanglao/neon-for-stephanie/tree/master/NEON2_ORIGINALS">NEON2</a></li>
+  <li>And the software:
+    <ul>
+      <li><a href="https://github.com/rtanglao/neon-for-stephanie/blob/master/add-synthetic-galleryid-get-gallery-photo-metadata.rb">add-synthetic-galleryid-get-gallery-photo-metadata.rb</a></li>
+      <li><a href="https://github.com/rtanglao/neon-for-stephanie/blob/master/backup-biggest-by-galleryid.rb">backup-biggest-by-galleryid.rb</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="colophon">Colophon</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./add-synthetic-galleryid-get-gallery-photo-metadata.rb 72157675774023387 2&gt;neon2-add-galleryid-stderr.out &amp;
+./add-synthetic-galleryid-get-gallery-photo-metadata.rb 72157675752554377 2&gt;neon1-add-galleryid-stderr.out &amp;
+<span class="nb">cd</span> /home/roland/GIT/neon-for-stephanie/NEON1_ORIGINALS
+../backup-biggest-by-galleryid.rb  72157675752554377
+<span class="nb">cd</span> /home/roland/GIT/neon-for-stephanie/NEON2_ORIGINALS
+../backup-biggest-by-galleryid.rb  72157675774023387
+</code></pre></div></div>
+:ET

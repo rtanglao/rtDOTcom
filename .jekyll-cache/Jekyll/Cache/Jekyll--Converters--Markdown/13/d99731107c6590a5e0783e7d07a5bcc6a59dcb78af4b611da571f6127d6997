@@ -1,0 +1,92 @@
+I"j/<h2 id="pontifications">Pontifications</h2>
+<p>[<a href="http://rolandtanglao.com/2017/03/29/p1-how-to-check-6000-redirects/">compare and contrast with version 1.0</a> and laugh !]</p>
+
+<ul>
+  <li>Distributed systems fail and therefore checking for network problems adds lots of ugly code.</li>
+  <li>procedural programming sucks :-)</li>
+  <li>It shouldn’t be this hard in 2017, maybe use selenium or a higher level ruby library like <a href="https://github.com/rest-client/rest-client">rest-client</a>?!?</li>
+</ul>
+
+<h3 id="code">Code</h3>
+
+<p><a href="https://github.com/rtanglao/rt-li-sumo-redirects/blob/master/README.md#29march2017">Here’s how I used it to check redirects for 6000 urls as of Wednesday April 5, 2017</a>.
+From <a href="https://github.com/rtanglao/rt-li-sumo-redirects/blob/master/test6000-redirects.rb">test6000-redirects.rb</a>:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/env ruby</span>
+<span class="nb">require</span> <span class="s1">'rubygems'</span>
+<span class="c1"># http://stackoverflow.com/questions/13822555/how-to-do-basic-authentication-over-https-in-ruby</span>
+<span class="c1"># see also: rest-client</span>
+
+<span class="nb">require</span> <span class="s1">'net/http'</span>
+<span class="nb">require</span> <span class="s1">'parseconfig'</span>
+<span class="nb">require</span> <span class="s1">'pp'</span>
+<span class="nb">require</span> <span class="s1">'ccsv'</span>
+<span class="nb">require</span> <span class="s1">'openssl'</span>
+
+<span class="n">stage_config</span> <span class="o">=</span> <span class="no">ParseConfig</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="s1">'stage.conf'</span><span class="p">).</span><span class="nf">params</span>
+<span class="n">userid</span> <span class="o">=</span> <span class="n">stage_config</span><span class="p">[</span><span class="s1">'userid'</span><span class="p">]</span>
+<span class="n">password</span> <span class="o">=</span> <span class="n">stage_config</span><span class="p">[</span><span class="s1">'password'</span><span class="p">]</span>
+
+<span class="no">OpenSSL</span><span class="o">::</span><span class="no">SSL</span><span class="o">::</span><span class="no">VERIFY_PEER</span> <span class="o">=</span> <span class="no">OpenSSL</span><span class="o">::</span><span class="no">SSL</span><span class="o">::</span><span class="no">VERIFY_NONE</span>
+                        
+<span class="n">header</span> <span class="o">=</span> <span class="kp">true</span>
+<span class="no">Ccsv</span><span class="p">.</span><span class="nf">foreach</span><span class="p">(</span><span class="no">ARGV</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="k">do</span> <span class="o">|</span><span class="n">values</span><span class="o">|</span>
+  <span class="k">if</span> <span class="n">header</span> <span class="o">==</span> <span class="kp">true</span>
+    <span class="n">header</span> <span class="o">=</span> <span class="kp">false</span>
+    <span class="k">next</span>
+  <span class="k">end</span>
+  <span class="n">fromuri</span> <span class="o">=</span> <span class="n">values</span><span class="p">[</span><span class="mi">3</span><span class="p">].</span><span class="nf">gsub</span><span class="p">(</span><span class="s2">"support.mozilla.org"</span><span class="p">,</span> <span class="s2">"support-stage.allizom.org"</span><span class="p">)</span> <span class="c1"># column D</span>
+  <span class="n">from_uri</span><span class="o">=</span> <span class="no">URI</span><span class="p">(</span><span class="n">fromuri</span><span class="p">)</span>
+  <span class="n">touri</span> <span class="o">=</span> <span class="n">values</span><span class="p">[</span><span class="mi">6</span><span class="p">].</span><span class="nf">gsub</span><span class="p">(</span><span class="s2">"support.mozilla.org"</span><span class="p">,</span> <span class="s2">"support-stage.allizom.org"</span><span class="p">)</span> <span class="c1">#column G</span>
+  <span class="n">guid_str</span> <span class="o">=</span> <span class="n">touri</span><span class="p">[</span><span class="n">touri</span><span class="p">.</span><span class="nf">rindex</span><span class="p">(</span><span class="s2">"/"</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">touri</span><span class="p">.</span><span class="nf">length</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span>
+  <span class="n">anchor_pos</span> <span class="o">=</span>  <span class="n">guid_str</span><span class="p">.</span><span class="nf">rindex</span><span class="p">(</span><span class="s2">"#"</span><span class="p">)</span>
+  <span class="c1">#unless anchor_pos.nil?</span>
+  <span class="c1">#  guid_str = guid_str[0, anchor_pos - 1]</span>
+  <span class="c1">#end</span>
+  <span class="n">touri</span> <span class="o">=</span> <span class="s2">"https://support-stage.allizom.org/t5/-/-/ta-p/"</span> <span class="o">+</span> <span class="n">guid_str</span>
+  <span class="n">to_uri</span> <span class="o">=</span> <span class="no">URI</span><span class="p">(</span><span class="n">touri</span><span class="p">)</span>
+  <span class="n">try_count</span> <span class="o">=</span> <span class="mi">0</span>
+  <span class="k">begin</span> 
+    <span class="no">Net</span><span class="o">::</span><span class="no">HTTP</span><span class="p">.</span><span class="nf">start</span><span class="p">(</span><span class="n">from_uri</span><span class="p">.</span><span class="nf">host</span><span class="p">,</span> <span class="n">from_uri</span><span class="p">.</span><span class="nf">port</span><span class="p">,</span>
+                    <span class="ss">:use_ssl</span> <span class="o">=&gt;</span> <span class="n">from_uri</span><span class="p">.</span><span class="nf">scheme</span> <span class="o">==</span> <span class="s1">'https'</span><span class="p">,</span>
+                    <span class="ss">:ssl_verify_mode</span> <span class="o">=&gt;</span> <span class="no">OpenSSL</span><span class="o">::</span><span class="no">SSL</span><span class="o">::</span><span class="no">VERIFY_NONE</span><span class="p">)</span> <span class="k">do</span> <span class="o">|</span><span class="n">http</span><span class="o">|</span>
+      <span class="n">http</span><span class="p">.</span><span class="nf">verify_mode</span> <span class="o">=</span> <span class="no">OpenSSL</span><span class="o">::</span><span class="no">SSL</span><span class="o">::</span><span class="no">VERIFY_NONE</span>
+      <span class="n">request</span> <span class="o">=</span> <span class="no">Net</span><span class="o">::</span><span class="no">HTTP</span><span class="o">::</span><span class="no">Get</span><span class="p">.</span><span class="nf">new</span> <span class="n">from_uri</span><span class="p">.</span><span class="nf">request_uri</span>
+      <span class="n">request</span><span class="p">.</span><span class="nf">basic_auth</span> <span class="n">userid</span><span class="p">,</span> <span class="n">password</span>
+      <span class="n">response</span> <span class="o">=</span> <span class="n">http</span><span class="p">.</span><span class="nf">request</span> <span class="n">request</span> <span class="c1"># Net::HTTPResponse object</span>
+      <span class="k">if</span> <span class="n">response</span><span class="p">.</span><span class="nf">code</span> <span class="o">==</span> <span class="s2">"301"</span>
+        <span class="vg">$stderr</span><span class="p">.</span><span class="nf">puts</span><span class="p">(</span><span class="s2">"in first 301"</span><span class="p">)</span>
+        <span class="vg">$stderr</span><span class="p">.</span><span class="nf">puts</span> <span class="n">response</span><span class="p">[</span><span class="s1">'location'</span><span class="p">]</span>
+        <span class="vg">$stderr</span><span class="p">.</span><span class="nf">puts</span> <span class="n">touri</span>
+        <span class="n">response_uri</span> <span class="o">=</span> <span class="n">response</span><span class="p">[</span><span class="s1">'location'</span><span class="p">]</span>
+      <span class="k">else</span>
+        <span class="n">response_uri</span> <span class="o">=</span> <span class="s2">""</span>
+      <span class="k">end</span>        
+      <span class="k">if</span>  <span class="n">response_uri</span> <span class="o">==</span> <span class="n">touri</span>
+        <span class="nb">printf</span><span class="p">(</span><span class="s2">"PASS,%d,%s,%s</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="n">response</span><span class="p">.</span><span class="nf">code</span><span class="p">,</span> <span class="n">fromuri</span><span class="p">,</span> <span class="n">touri</span><span class="p">)</span>
+      <span class="k">else</span>
+        <span class="nb">printf</span><span class="p">(</span><span class="s2">"FAIL,%d,%s,%s</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="n">response</span><span class="p">.</span><span class="nf">code</span><span class="p">,</span> <span class="n">fromuri</span><span class="p">,</span> <span class="n">response_uri</span><span class="p">)</span>
+      <span class="k">end</span>
+    <span class="k">end</span>
+  <span class="k">rescue</span> <span class="no">Errno</span><span class="o">::</span><span class="no">ECONNRESET</span><span class="p">,</span> <span class="no">Errno</span><span class="o">::</span><span class="no">ECONNREFUSED</span><span class="p">,</span> <span class="no">Net</span><span class="o">::</span><span class="no">ReadTimeout</span><span class="p">,</span> <span class="no">Net</span><span class="o">::</span><span class="no">OpenTimeout</span><span class="p">,</span>
+         <span class="c1"># added SocketError based on:</span>
+         <span class="c1"># http://stackoverflow.com/questions/3946814/handling-nethttp-get-failures</span>
+         <span class="c1"># http://stackoverflow.com/questions/12358682/rails-post-socketerror-getaddrinfo-temporary-failure-in-name-resolution-on</span>
+         <span class="c1"># consider adding in the future:</span>
+         <span class="c1"># https://docs.ruby-lang.org/en/2.2.0/Resolv/DNS.html</span>
+         <span class="no">SocketError</span> <span class="o">=&gt;</span> <span class="n">e</span>
+    <span class="n">try_count</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">if</span> <span class="n">try_count</span> <span class="o">&lt;</span> <span class="mi">6</span>
+      <span class="vg">$stderr</span><span class="p">.</span><span class="nf">printf</span><span class="p">(</span><span class="s2">"%s exception, message:%s, retry:%d</span><span class="se">\n</span><span class="s2">"</span><span class="p">,\</span>
+                     <span class="n">e</span><span class="p">.</span><span class="nf">class</span><span class="p">,</span> <span class="n">e</span><span class="p">.</span><span class="nf">message</span><span class="p">,</span> <span class="n">try_count</span><span class="p">)</span>
+      <span class="nb">sleep</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+      <span class="k">retry</span>
+    <span class="k">else</span>
+      <span class="vg">$stderr</span><span class="p">.</span><span class="nf">printf</span><span class="p">(</span><span class="s2">"%s exception, message:%s, RETRY FAILED</span><span class="se">\n</span><span class="s2">"</span><span class="p">,\</span>
+                     <span class="n">e</span><span class="p">.</span><span class="nf">class</span><span class="p">,</span> <span class="n">e</span><span class="p">.</span><span class="nf">message</span><span class="p">)</span>
+      <span class="k">raise</span> <span class="n">e</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div></div>
+:ET

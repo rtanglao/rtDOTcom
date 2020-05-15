@@ -1,0 +1,11 @@
+I"v<h2 id="pontifications">Pontifications</h2>
+<p>I am sure the following is me “stuck in my procedural programming mindset” but they are real limitations of spreadsheets (and the best way to solve them for “normal” folks is probably declarative / functional /something other than crazy text based languages like what computer folks use (C, Python, Perl, R, Smalltalk, etc etc):</p>
+
+<ul>
+  <li>Following on from yesterday’s tweet storm about <a href="http://rolandtanglao.com/2017/03/23/p1-programming-beyond-google-docs-and-spreadsheets/">“why can’t we do better than spreadsheets for “programming for the people?”</a></li>
+  <li>Spreadsheets have no revision control - You can’t learn from your past mistakes because you can’t see them!</li>
+  <li>Spreadsheets have no map reduce. All you can do is create a new sheet or a new column or row, no real way to reduce.</li>
+  <li>Spreadsheets have no debugger or the equivalent of a REPL so you can’t kick the tires just to learn</li>
+  <li>Spreadsheet have no exception handling so you can’t backtrack and programmatically fix things when you have an error.</li>
+</ul>
+:ET

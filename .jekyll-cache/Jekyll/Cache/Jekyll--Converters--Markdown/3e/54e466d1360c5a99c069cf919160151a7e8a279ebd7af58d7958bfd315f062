@@ -1,0 +1,37 @@
+I"|<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li><a href="http://rolandtanglao.com/2017/08/07/p1-mpg-scatterplot-average-colour-instagram-r-data-science/">Part 1</a></li>
+  <li>I realized that adding the colourname on 100K rows is an expensive i.e. slow operation. Therefore instead of creating a visualization with the colournames in part 2, in part 2  I am really just going to create a CSV file with the colournames added as an additional column that I can reuse for many visualizations without having to repeat the expensive colourname lookup operation.</li>
+  <li>Here’s the relevant code from <a href="https://github.com/rtanglao/2016-r-rtgram/blob/master/part2-create-csv-ig-van-average-colour-jan2016.R">https://github.com/rtanglao/2016-r-rtgram/blob/master/part2-create-csv-ig-van-average-colour-jan2016.R</a>:</li>
+</ul>
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">tc</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="k">function</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="n">return</span><span class="w"> </span><span class="p">(</span><span class="n">head</span><span class="p">(</span><span class="n">color.id</span><span class="p">(</span><span class="n">x</span><span class="p">),</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="p">))</span><span class="w">
+</span><span class="p">}</span><span class="w">
+ </span><span class="n">csv_url</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"https://raw.githubusercontent.com/rtanglao/2016-r-rtgram/master/JANUARY2016/january2016-ig-van-avgcolour-id-mf-month-day-daynum-unixtime-hour.csv"</span><span class="w">
+    </span><span class="n">average_colour_ig_van_jan2016</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">read_csv</span><span class="p">(</span><span class="n">csv_url</span><span class="p">)</span><span class="w">
+    </span><span class="n">print</span><span class="p">(</span><span class="n">average_colour_ig_van_jan2016</span><span class="p">)</span><span class="w">
+    </span><span class="c1"># the following line of code doesn't work because mutate just does the first value of the column</span><span class="w">
+    </span><span class="c1"># average_colour_ig_van_jan2016_with_colourname = mutate(average_colour_ig_van_jan2016, colourname = tc(colour))</span><span class="w">
+   </span><span class="n">average_colour_ig_van_jan2016_with_colourname</span><span class="w"> </span><span class="o">=</span><span class="w">  </span><span class="n">average_colour_ig_van_jan2016</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
+       </span><span class="n">rowwise</span><span class="p">()</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
+       </span><span class="n">mutate</span><span class="p">(</span><span class="n">colourname</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">tc</span><span class="p">(</span><span class="n">colour</span><span class="p">))</span><span class="w">
+    </span><span class="n">write_csv</span><span class="p">(</span><span class="n">average_colour_ig_van_jan2016_with_colourname</span><span class="p">,</span><span class="w">
+              </span><span class="s2">"january2016-ig-van-avgcolour-id-mf-month-day-daynum-unixtime-hour-colourname.csv"</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+<ul>
+  <li><code class="highlighter-rouge">%&gt;%</code> is like the unix pipe operator</li>
+  <li><code class="highlighter-rouge">rowwise()</code> is required to repeat the function call on each row, without <code class="highlighter-rouge">rowwise()</code> you’ll just repeat it row 1 repeatedly i.e. get the same value each time, the value of <code class="highlighter-rouge">tc</code> applied to the first row !</li>
+  <li><code class="highlighter-rouge">mutate</code> adds the <code class="highlighter-rouge">colourname</code> column by computing the colourname from the hexadecimal colour using the <code class="highlighter-rouge">color.id</code> function from the <code class="highlighter-rouge">plotrix</code> package</li>
+  <li>This RScript was invoked as follows:</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>JANUARY2016
+Rscript ../part2-create-csv-ig-van-average-colour-jan2016.R
+</code></pre></div></div>
+
+<ul>
+  <li>In <a href="http://rolandtanglao.com/2017/08/07/p3-part3-create-naive-scatterplot-with-colournames/">Part 3</a>, we’ll create a visualization using the colour names.</li>
+</ul>
+:ET

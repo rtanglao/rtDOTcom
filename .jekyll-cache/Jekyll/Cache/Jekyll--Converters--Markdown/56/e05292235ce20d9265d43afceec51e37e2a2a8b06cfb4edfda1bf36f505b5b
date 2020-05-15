@@ -1,0 +1,25 @@
+I"˜<p>Itâ€™s easier to find this on the internet if I post it here. Really should be part of <a href="http://rolandtanglao.com/2016/09/24/p1-rolandex-for-my-personal-wiki/">my forthcoming wiki</a>.</p>
+
+<h2 id="rolandtanglaocom">rolandtanglao.com</h2>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> /Users/rtanglao/Dropbox/ROLANDTANGLAO-DOT-COM-SURGE
+<span class="c"># edit posts in _posts</span>
+jekyll build <span class="c"># --incremental after you add an entry</span>
+surge _site <span class="nt">--domain</span> rolandtanglao.com
+</code></pre></div></div>
+
+<h2 id="biketoworkshopcom">biketoworkshop.com</h2>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hugo server <span class="nt">--theme</span><span class="o">=</span>redlounge <span class="nt">--buildDrafts</span> <span class="nt">--watch</span> &amp;
+hugo <span class="nt">--theme</span><span class="o">=</span>redlounge  <span class="nt">--buildDrafts</span>
+surge public <span class="nt">--domain</span> biketoworkshop.com
+</code></pre></div></div>
+
+<h2 id="rolandoutlinescom">rolandoutlines.com</h2>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> /Users/rtanglao/DROPBOX/ROLAND-OUTLINES
+<span class="c"># export to subdirectory using dynamic HTML to SURGE from Omni Outliner e.g. notes-roland-haskell_programming.oo</span>
+<span class="nb">mv </span>SURGE/notes-roland-haskell_programming.html/ SURGE/notes-roland-haskell_programming
+surge SURGE  <span class="nt">--domain</span> rolandoutlines.com
+</code></pre></div></div>
+:ET

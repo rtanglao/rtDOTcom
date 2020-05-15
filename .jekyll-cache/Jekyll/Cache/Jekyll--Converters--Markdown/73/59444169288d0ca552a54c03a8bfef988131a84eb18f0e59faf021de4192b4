@@ -1,0 +1,25 @@
+I"<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>1. Setup magic_cloud, from <a href="https://stackoverflow.com/questions/22715738/imagemagick-error">https://stackoverflow.com/questions/22715738/imagemagick-error</a> :</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://stackoverflow.com/questions/22715738/imagemagick-error
+brew uninstall imagemagick@6 
+brew <span class="nb">install </span>imagemagick@6 
+<span class="nv">PKG_CONFIG_PATH</span><span class="o">=</span>/usr/local/opt/imagemagick@6/lib/pkgconfig gem <span class="nb">install </span>rmagick
+</code></pre></div></div>
+
+<ul>
+  <li>2. make word cloud</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>../print-out-words-from-questions-questions.rb ff55-56-question_questions.csv <span class="o">&gt;</span>ff55-ff56-unanswered-questions.txt
+magic_cloud <span class="nt">--textfile</span> ff55-ff56-unanswered-questions.txt <span class="nt">-f</span> naive-ff55-ff56.jpg
+</code></pre></div></div>
+
+<ul>
+  <li>3. Output
+<img src="https://raw.githubusercontent.com/rtanglao/sumo-questions/master/SUMO-QUESTIONS_MYSQL_20OCT2017/naive-ff55-ff56.jpg" alt="Naive 55-56 wordcloud" /></li>
+</ul>
+:ET

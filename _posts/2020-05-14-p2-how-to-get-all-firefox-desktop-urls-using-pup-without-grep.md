@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How To get all Firefox Desktop SUMO KB Articles using pup WITHOTU using grep" 
+title: "How To get all Firefox Desktop SUMO KB Articles using pup WITHOUT using grep" 
 ---
 
 # Pontifications

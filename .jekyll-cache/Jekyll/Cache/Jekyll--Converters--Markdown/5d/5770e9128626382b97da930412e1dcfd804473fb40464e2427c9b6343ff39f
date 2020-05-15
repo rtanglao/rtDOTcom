@@ -1,0 +1,9 @@
+I"><h2 id="pontifications">Pontifications</h2>
+
+<p>(<a href="http://rolandtanglao.com/2017/07/10/p1-joyplot-r-reverse-engineering-part1/">Part 1</a>, <a href="http://rolandtanglao.com/2017/07/11/reverse-engineering-r-joyplot-code-part2-activity-tsv/">Part 2</a>)</p>
+
+<ul>
+  <li>atussum.csv, atusact.csv can be found at the kaggle page: <a href="https://www.kaggle.com/bls/american-time-use-survey">https://www.kaggle.com/bls/american-time-use-survey</a></li>
+  <li>In part 4 we’ll dig into how <code class="highlighter-rouge">p</code> is computed using this data</li>
+</ul>
+:ET

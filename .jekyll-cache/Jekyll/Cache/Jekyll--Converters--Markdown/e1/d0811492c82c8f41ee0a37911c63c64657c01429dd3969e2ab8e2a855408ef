@@ -1,0 +1,9 @@
+I"²<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>See <a href="https://serverfault.com/questions/505949/move-files-to-another-directory-which-are-older-than-a-date">Move files to another directory which are older than a date</a></li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>find <span class="nb">.</span>  <span class="nt">-maxdepth</span> 1 <span class="nt">-mmin</span> <span class="nt">-60</span> <span class="nt">-name</span> <span class="s1">'*.jpg'</span> <span class="nt">-exec</span> <span class="nb">mv</span> <span class="s2">"{}"</span> ../NEON2_ORIGINALS <span class="se">\;</span>
+</code></pre></div></div>
+:ET

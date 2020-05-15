@@ -1,0 +1,103 @@
+I"�<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>Regarding yesterday’s <a href="http://rolandtanglao.com/2019/10/15/p1-compiled-rstudio-server-v1-2-5001-Lenovo-C630-ARM64-Windows-10/">Successfully compiled ARM64 Windows 10 R Studio Server v1.2.5001 on Lenovo C630</a>, here are the changes to the build script, <a href="https://github.com/rtanglao/ARM-rstudio-server/blob/master/build_rstudio.sh">build_rstudio.sh</a>:</li>
+  <li>
+    <ol>
+      <li><a href="https://github.com/rtanglao/ARM-rstudio-server/blob/master/build_rstudio.sh#L9">changed version number</a> to  <code class="highlighter-rouge">1.2.4001</code> i.e. <code class="highlighter-rouge">VERS=v1.2.5001</code>. This will have to change when others build RStudio because new versions come out all the time</li>
+      <li><a href="https://github.com/rtanglao/ARM-rstudio-server/blob/master/build_rstudio.sh#L19">changed to jdk 8</a>: i.e. <code class="highlighter-rouge">sudo apt-get install -y openjdk-8-jdk</code>
+        <ul>
+          <li>because only java 8 is supported <a href="https://github.com/rstudio/rstudio/issues/3157">https://github.com/rstudio/rstudio/issues/3157</a> ; see also: <a href="https://github.com/rstudio/rstudio/wiki/Installing-RStudio-Dependencies">https://github.com/rstudio/rstudio/wiki/Installing-RStudio-Dependencies</a></li>
+        </ul>
+      </li>
+      <li><a href="https://github.com/rtanglao/ARM-rstudio-server/blob/master/build_rstudio.sh#L21">changed to use the ubuntu bionic install dependencies script</a> i.e <code class="highlighter-rouge">./install-dependencies-bionic --exclude-qt-sdk</code></li>
+    </ol>
+  </li>
+</ul>
+
+<h2 id="code">Code</h2>
+
+<p>Here’s the full code in case github goes away :-)</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
+<span class="c"># This script installs R and builds RStudio Desktop for ARM Chromebooks running debian stretch</span>
+
+<span class="c"># Install R; Debian stretch has latest version</span>
+<span class="nb">sudo </span>apt-get update
+<span class="nb">sudo </span>apt-get <span class="nb">install</span> <span class="nt">-y</span> r-base r-base-dev
+
+<span class="c"># Set RStudio version</span>
+<span class="nv">VERS</span><span class="o">=</span>v1.2.5001
+
+<span class="c"># Download RStudio source</span>
+<span class="nb">cd</span> ~/Downloads/
+wget <span class="nt">-O</span> <span class="nv">$VERS</span> https://github.com/rstudio/rstudio/tarball/<span class="nv">$VERS</span>
+<span class="nb">mkdir</span> ~/Downloads/rstudio-<span class="nv">$VERS</span>
+<span class="nb">tar </span>xvf ~/Downloads/<span class="nv">$VERS</span> <span class="nt">-C</span> ~/Downloads/rstudio-<span class="nv">$VERS</span> <span class="nt">--strip-components</span> 1
+<span class="nb">rm</span> ~/Downloads/<span class="nv">$VERS</span>
+
+<span class="c"># Run environment preparation scripts</span>
+<span class="nb">sudo </span>apt-get <span class="nb">install</span> <span class="nt">-y</span> openjdk-8-jdk
+<span class="nb">cd</span> ~/Downloads/rstudio-<span class="nv">$VERS</span>/dependencies/linux/
+./install-dependencies-bionic <span class="nt">--exclude-qt-sdk</span>
+
+<span class="c"># Run common environment preparation scripts</span>
+<span class="nb">sudo </span>apt-get <span class="nb">install</span> <span class="nt">-y</span> git
+<span class="c"># No arm build for pandoc, so install outside of common script</span>
+<span class="nb">sudo </span>apt-get <span class="nb">install</span> <span class="nt">-y</span> pandoc
+<span class="nb">sudo </span>apt-get <span class="nb">install</span> <span class="nt">-y</span> libcurl4-openssl-dev
+
+<span class="nb">cd</span> ~/Downloads/rstudio-<span class="nv">$VERS</span>/dependencies/common/
+<span class="c">#./install-common</span>
+./install-gwt
+./install-dictionaries
+./install-mathjax
+./install-boost
+<span class="c">#./install-pandoc</span>
+./install-libclang
+./install-packages
+
+<span class="c"># Add pandoc folder to override build check</span>
+<span class="nb">mkdir</span> ~/Downloads/rstudio-<span class="nv">$VERS</span>/dependencies/common/pandoc
+
+<span class="c"># Get Closure Compiler and replace compiler.jar</span>
+<span class="nb">cd</span> ~/Downloads
+wget http://dl.google.com/closure-compiler/compiler-latest.zip
+unzip compiler-latest.zip
+<span class="nb">rm </span>COPYING README.md compiler-latest.zip
+<span class="nb">sudo mv </span>closure-compiler<span class="k">*</span>.jar ~/Downloads/rstudio-<span class="nv">$VERS</span>/src/gwt/tools/compiler/compiler.jar
+
+<span class="c"># Configure cmake and build RStudio</span>
+<span class="nb">cd</span> ~/Downloads/rstudio-<span class="nv">$VERS</span>/
+<span class="nb">mkdir </span>build
+<span class="nb">sudo </span>cmake <span class="nt">-DRSTUDIO_TARGET</span><span class="o">=</span>Server <span class="nt">-DCMAKE_BUILD_TYPE</span><span class="o">=</span>Release
+<span class="nb">sudo </span>make <span class="nb">install</span>
+
+<span class="c"># Additional install steps</span>
+<span class="nb">sudo </span>useradd <span class="nt">-r</span> rstudio-server
+<span class="nb">sudo cp</span> /usr/local/lib/rstudio-server/extras/init.d/debian/rstudio-server /etc/init.d/rstudio-server
+<span class="nb">sudo chmod</span> +x /etc/init.d/rstudio-server 
+<span class="nb">sudo ln</span> <span class="nt">-f</span> <span class="nt">-s</span> /usr/local/lib/rstudio-server/bin/rstudio-server /usr/sbin/rstudio-server
+<span class="nb">sudo chmod </span>777 <span class="nt">-R</span> /usr/local/lib/R/site-library/
+
+<span class="c"># Setup locale</span>
+<span class="nb">sudo </span>apt-get <span class="nb">install</span> <span class="nt">-y</span> locales
+<span class="nb">sudo </span><span class="nv">DEBIAN_FRONTEND</span><span class="o">=</span>noninteractive dpkg-reconfigure locales
+<span class="nb">export </span><span class="nv">LANG</span><span class="o">=</span>en_US.UTF-8
+<span class="nb">export </span><span class="nv">LANGUAGE</span><span class="o">=</span>en_US.UTF-8
+<span class="c">#echo 'export LANG=en_US.UTF-8' &gt;&gt; ~/.bashrc</span>
+<span class="c">#echo 'export LANGUAGE=en_US.UTF-8' &gt;&gt; ~/.bashrc</span>
+
+<span class="c"># Clean the system of packages used for building</span>
+<span class="nb">sudo </span>apt-get autoremove <span class="nt">-y</span> cabal-install ghc openjdk-8-jdk pandoc libboost-all-dev
+<span class="nb">sudo rm</span> <span class="nt">-r</span> <span class="nt">-f</span> ~/Downloads/rstudio-<span class="nv">$VERS</span>
+<span class="nb">sudo </span>apt-get autoremove <span class="nt">-y</span>
+
+<span class="c"># Start the server</span>
+<span class="nb">sudo </span>rstudio-server start
+
+<span class="c"># Go to localhost:8787</span>
+
+</code></pre></div></div>
+
+:ET

@@ -1,0 +1,6 @@
+I"W<h2 id="pontifications">Pontifications</h2>
+<p>From <a href="https://askubuntu.com/questions/60401/batch-processing-tif-images-converting-tif-to-jpeg">stack overflow Batch Processing tif images? Converting .tif to .jpeg</a>, I modified <code class="highlighter-rouge">jpg</code> to be <code class="highlighter-rouge">png</code>. This uses <code class="highlighter-rouge">imagemagick</code> but I believe if you add <code class="highlighter-rouge">gm</code> in front of convert you can use <code class="highlighter-rouge">graphicsmagick</code></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">mkdir </span>PNG<span class="p">;</span> convert <span class="k">*</span>.TIF <span class="nt">-set</span> filename: <span class="s2">"%t"</span> PNG/%[filename:].png
+</code></pre></div></div>
+:ET

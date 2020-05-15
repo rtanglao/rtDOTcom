@@ -1,0 +1,4 @@
+I"Ö<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gm montage -mode concatenate -tile 1x10 frame*.png\
+ig-vancouver-2014-top10-colours-tiled-vertically.png
+</code></pre></div></div>
+:ET

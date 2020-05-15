@@ -1,0 +1,18 @@
+I"<p>Joel totally nails it. Why should developers learn proprietary Microsoft (or Apple ) APIs when they can write web apps with free tools like PHP,Perl, Python, MySQL, Apache, etc that are “good enough” for most people and work with all clients and all platforms.  Especially when the Microsoft APIs keep changing and it’s not clear which one to use.</p>
+
+<p>From <a href="http://www.joelonsoftware.com/articles/APIWar.html">Joel on Software - How Microsoft Lost the API War</a>:</p>
+<p><strong>QUOTE</strong></p>
+<blockquote>Microsoft Lost the Backwards Compatibility Religion
+
+Inside Microsoft, the MSDN Magazine Camp has won the battle.
+
+The first big win was making Visual Basic.NET not backwards-compatible with VB 6.0. This was literally the first time in living memory that when you bought an upgrade to a Microsoft product, your old data (i.e. the code you had written in VB6) could not be imported perfectly and silently. It was the first time a Microsoft upgrade did not respect the work that users did using the previous version of a product.
+
+And the sky didn't seem to fall, not inside Microsoft. VB6 developers were up in arms, but they were disappearing anyway, because most of them were corporate developers who were migrating to web development anyway. The real long term damage was hidden.
+
+With this major victory under their belts, the MSDN Magazine Camp took over. Suddenly it was OK to change things. IIS 6.0 came out with a different threading model that broke some old applications. I was shocked to discover that our customers with Windows Server 2003 were having trouble running FogBugz. Then .NET 1.1 was not perfectly backwards compatible with 1.0. And now that the cat was out of the bag, the OS team got into the spirit and decided that instead of adding features to the Windows API, they were going to completely replace it. Instead of Win32, we are told, we should now start getting ready for WinFX: the next generation Windows API. All different. Based on .NET with managed code. XAML. Avalon. Yes, vastly superior to Win32, I admit it. But not an upgrade: a break with the past.
+
+Outside developers, who were never particularly happy with the complexity of Windows development, have defected from the Microsoft platform en-masse and are now developing for the web. Paul Graham, who created Yahoo! Stores in the early days of the dotcom boom,&#160;summarized it eloquently: "There is all the more reason for startups to write Web-based software now, because writing desktop software has become a lot less fun. If you want to write desktop software now you do it on Microsoft's terms, calling their APIs and working around their buggy OS. And if you manage to write something that takes off, you may find that you were merely doing market research for Microsoft.</blockquote>
+<p><strong>UNQUOTE</strong></p>
+
+:ET

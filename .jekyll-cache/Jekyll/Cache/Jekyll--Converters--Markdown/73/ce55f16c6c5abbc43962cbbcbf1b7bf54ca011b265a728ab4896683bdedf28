@@ -1,0 +1,18 @@
+I"R<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>over 3.5 months 0.4 % of SUMO Firefox desktop questions were about losing 2FA codes (22 out of 5539)</li>
+</ul>
+
+<h2 id="colophon">Colophon</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./print-2fa-sumo-questions.rb 2019 1 1 2019 4 18 2&gt;01jan2019-18january-2fa-stderr-out.txt<span class="se">\</span>
+<span class="o">&gt;</span>01january2019-18january2019-2fa-sumo-forum-question-ids.txt
+<span class="nb">cat </span>01january2019-18january2019-2fa-sumo-forum-question-ids.txt | ./open-ids-in-browser.rb
+<span class="c"># which leads to 33 questions, some of which are off topic and duplicates</span>
+</code></pre></div></div>
+<ul>
+  <li>manually remove duplicates and off topic and you end up with 22 questions in 4.5 months:
+<a href="https://github.com/rtanglao/rt-kitsune-api/blob/master/offtopic-and-duplicates-removed-01january2019-18january2019-2fa-sumo-forum-question-ids.txt">offtopic-and-duplicates-removed-01january2019-18january2019-2fa-sumo-forum-question-ids.txt</a></li>
+</ul>
+:ET

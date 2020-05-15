@@ -1,0 +1,16 @@
+I"{<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>Should have read this <a href="https://ia.net/writer/support/windows/frequently-asked-questions">IA Writer Windows Support FAQ</a>  back when <a href="http://rolandtanglao.com/2018/07/30/p1-ia-writer-windows-does-not-startup/">I complained about IA Writer on July 30th</a> !</li>
+</ul>
+
+<p><strong>QUOTE</strong></p>
+
+<blockquote>
+
+We would also recommend deleting the user settings file for iA Writer when performing a reinstall. To do so, please delete the following folder: C:\Users\{your user name}\AppData\Roaming\iA Writer
+
+</blockquote>
+
+<p><strong>END QUOTE</strong></p>
+:ET

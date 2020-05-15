@@ -1,0 +1,6 @@
+I"<p>Since <a href="https://github.com/rtanglao/rtgram/blob/gh-pages/IG-VANCOUVER_2014/RENUMBERED/TOP10/createTopColour.rb">I couldn’t get the mini_magick ruby gem</a> to work (file not found aka the ‘identify’ command couldn’t recognize jpeg files for some strange reason), i resorted to good ‘ole xargs:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>find . -maxdepth 1 -name ‘*.jpg’ -print0 | \
+xargs -0 -I file gm convert -crop 1x1+0+0 file TOPCOLOUR/file
+</code></pre></div></div>
+:ET

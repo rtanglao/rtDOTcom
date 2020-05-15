@@ -1,0 +1,13 @@
+I"r<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>Of all the silos I use, Flickr has had the best run at not breaking things. Their API works but little things have broken over time like their datetaken dateuploaded urls, embedding has changed, etc</li>
+  <li>How best to prepare for the coming github breakage :-) ? No disrespect intended to github but it’s a fact, it will happen!
+    <ul>
+      <li>For github pages you are covered since you have the files in git on your computer or in a cloud you control.</li>
+      <li>For gists, I would say copy and paste the code into a blog post on your domain.</li>
+      <li>For links to code like <a href="http://rolandtanglao.com/2018/10/21/p1-unite-concatenates-two-columns-in-tidyverse/">yesterday</a>, I would copy and paste the entire code here and again make sure your git repo is backed up!</li>
+    </ul>
+  </li>
+</ul>
+:ET

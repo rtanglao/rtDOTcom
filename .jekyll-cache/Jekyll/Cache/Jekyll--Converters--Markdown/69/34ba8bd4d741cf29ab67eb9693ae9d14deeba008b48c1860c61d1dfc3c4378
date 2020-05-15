@@ -1,0 +1,8 @@
+I"“<!-- 4Z111a7T8a76nR7 -->
+<p> [Cross posted from <a href="http://forum.shozu.com/showthread.php?tid=390">ShoZu support Forum</a> ] </p>
+<p> <a href="http://www.flickr.com/photos/roland/300325087/" title="Hung medmanshozu process - ShoZu hangs after approx. 40 photos"><img src="http://static.flickr.com/116/300325087_6e19dc2076_m.jpg" alt="Hung medmanshozu process - ShoZu hangs after approx. 40 photos - 18112006108" width="240" height="180" /></a> </p>
+<p> I am running Shozu 3.0 on a Nokia N73 with firmware 2.0628.0.0.3 (which I know is NOT the latest; I will upgrade next week when I have access to a Windows box). My phone is on Canada&#39;s Fido roaming to its sister network Rogers using EDGE. </p>
+<p> After taking about 40 photos, ShoZu hangs. If I look at the tasks by holding down the &quot;menu&quot; key, I see 3 &quot;medmanshozu&quot; processes. I tried to kill these processes using the &quot;C&quot; key but that didn&#39;t work. </p>
+<p> The only way I could get ShoZu to work again was to reboot the phone. </p>
+<p> Is this problem fixed with the latest firmware which I think is Version 3.0638.0.0.1? Or is this a ShoZu or Symbian OS S60 v3 bug? </p>
+:ET
