@@ -6,9 +6,32 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 15 May 2020 23:05:33 -0700</pubDate>
-    <lastBuildDate>Fri, 15 May 2020 23:05:33 -0700</lastBuildDate>
+    <pubDate>Sat, 16 May 2020 23:15:39 -0700</pubDate>
+    <lastBuildDate>Sat, 16 May 2020 23:15:39 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Twitter images can embed 1K in alt text like R code or a PGP Key</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;–&amp;gt; I caught &lt;a href=&quot;https://twitter.com/edent/status/1260843046553387009&quot;&gt;this tweet&lt;/a&gt; by Terence Eden about using Twitter image alt-text to “PGP sign” tweet  and my mind immediately went to “how can I abuse this for covert  communications, malicious command-and-control, and embedding R code in  tweets?”.&lt;/p&gt;
+
+    &lt;p&gt;When you paste or upload an image to tweet (web interface, at least)  you have an opportunity to add “alt” text which is — in theory  — supposed to help communicate the content of the image to folks using  assistive technology. Terence figured out the alt-text limit on Twitter  is large (~1K) which is &lt;em&gt;plenty&lt;/em&gt; of room for useful R code &amp;lt;– &lt;strong&gt;END QUOTE&lt;/strong&gt; &amp;lt;— Read the whole thing: &lt;a href=&quot;http://twitter.com/hrbrmstr&quot;&gt;@hrbrmstr&lt;/a&gt;: &lt;a href=&quot;https://rud.is/b/2020/05/16/attach-your-r-code-to-charts-you-tweet-for-reproducible-r-tweets/&quot;&gt;Attach Your R Code To Charts You Tweet For Reproducible R Tweets!&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Cool stuff until Twitter shuts this down :-)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sat, 16 May 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/05/16/p1-twitter-images-can-embed-1k-data-like-pgp-key-r-code/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/05/16/p1-twitter-images-can-embed-1k-data-like-pgp-key-r-code/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Matt Webb: How about hyperlocal pandemic forecasting</title>
@@ -208,22 +231,6 @@ surge public &lt;span class=&quot;nt&quot;&gt;--domain&lt;/span&gt; rollingrolan
         <pubDate>Thu, 07 May 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/05/07/p1-om-productivity-what-is-it-good-for-me-absolutely-nothing/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/05/07/p1-om-productivity-what-is-it-good-for-me-absolutely-nothing/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Michael L. Forman: Kapampangan Dictionary and Kapampangan Grammar Notes - Two books I'll probably never read :-)</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Michael L. Forman: &lt;a href=&quot;https://scholarspace.manoa.hawaii.edu/handle/10125/62884&quot;&gt;Kapampangan Dictionary&lt;/a&gt; and &lt;a href=&quot;https://scholarspace.manoa.hawaii.edu/handle/10125/62885&quot;&gt;Kapampangan Grammar Notes&lt;/a&gt; - Two books I’ll probably never read :-) &amp;lt;— Maybe when I retire :-) ?!?!&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Wed, 06 May 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/05/06/p1-michael-l-forman-kapampangan-grammar-dictionary-two-books-i-wont-read/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/05/06/p1-michael-l-forman-kapampangan-grammar-dictionary-two-books-i-wont-read/</guid>
         
         
       </item>
