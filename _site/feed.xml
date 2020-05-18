@@ -6,9 +6,29 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 16 May 2020 23:15:39 -0700</pubDate>
-    <lastBuildDate>Sat, 16 May 2020 23:15:39 -0700</lastBuildDate>
+    <pubDate>Sun, 17 May 2020 21:33:24 -0700</pubDate>
+    <lastBuildDate>Sun, 17 May 2020 21:33:24 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Carbon.now.sh beautiful code formatting for twitter and moar</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;QUOTE–&amp;gt;&lt;/strong&gt; Carbon lets you create and share beautiful images of your source code&lt;/p&gt;
+
+    &lt;p&gt;You know all of those code screenshots you see on Twitter? Although the  code’s usually impressive, we thought there was room for improvement in  the aesthetic department. So what are you waiting for? Go try it out and impress all your developer and designer friends. &amp;lt;— &lt;strong&gt;END QUOTE&lt;/strong&gt;&amp;lt;— from &lt;a href=&quot;https://carbon.now.sh/about&quot;&gt;carbon.now.sh’s about page&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 17 May 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/05/17/p1-carbon-sh-beautiful-code-formatting-for-twitter/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/05/17/p1-carbon-sh-beautiful-code-formatting-for-twitter/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Twitter images can embed 1K in alt text like R code or a PGP Key</title>
@@ -211,26 +231,6 @@ surge public &lt;span class=&quot;nt&quot;&gt;--domain&lt;/span&gt; rollingrolan
         <pubDate>Fri, 08 May 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/05/08/p1-revised-rolling-roland-hugo/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/05/08/p1-revised-rolling-roland-hugo/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>om: Productivity: what is it good for? Me: Absolutely nothing. Being kind and useful and creative and helping the world move forward is much better</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://om.co/2020/05/07/productivity-what-is-it-good-for/&quot;&gt;om: Productivity: what is it good for&lt;/a&gt;? Me: Absolutely nothing. Being kind and useful and creative and helping the world move forward is much better
-    &lt;ul&gt;
-      &lt;li&gt;The reference of course is to the great &lt;a href=&quot;https://www.youtube.com/watch?v=01-2pNCZiNk&quot;&gt;War song from Edwin Starr from 1969 (youtube video)&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Thu, 07 May 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/05/07/p1-om-productivity-what-is-it-good-for-me-absolutely-nothing/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/05/07/p1-om-productivity-what-is-it-good-for-me-absolutely-nothing/</guid>
         
         
       </item>
