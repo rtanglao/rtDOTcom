@@ -6,9 +6,48 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 17 May 2020 21:33:24 -0700</pubDate>
-    <lastBuildDate>Sun, 17 May 2020 21:33:24 -0700</lastBuildDate>
+    <pubDate>Mon, 18 May 2020 22:15:55 -0700</pubDate>
+    <lastBuildDate>Mon, 18 May 2020 22:15:55 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Create a SQLite database from a kitsune question CSV file</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;from the repo: &lt;a href=&quot;https://github.com/rtanglao/rt-kitsune-sqlite/blob/master/README.md&quot;&gt;rt-kitsune-sqlite&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;1. get the questions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl https://raw.githubusercontent.com/rtanglao/rt-kits-api2/master/2020BYMONTH/sorted-all-desktop-en-us-2020-04-01-2020-04-30-firefox-creator-answers-desktop-all-locales.csv&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+ &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; april2020-ff-desktop-aaq-questions.csv
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2. &lt;del&gt;use a text editor and change ‘ -0800’ to ‘-0800’ (remove space)&lt;/del&gt; - actually you don’t need to do this, just add “ %Z” in step 3&lt;/li&gt;
+  &lt;li&gt;3. generate the database
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;csvs-to-sqlite &lt;span class=&quot;nt&quot;&gt;-dt&lt;/span&gt; created &lt;span class=&quot;nt&quot;&gt;-df&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;%Y-%m-%d %H:%M:%S %Z&quot;&lt;/span&gt; april2020-ff-desktop-aaq-questions.csv april2020-ff-desktop-aaq-questions.db
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;4. do a sample query&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;sqlite3&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;april2020&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ff&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;desktop&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;aaq&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;questions&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;csv&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;april2020&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ff&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;desktop&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;aaq&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;questions&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;db&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;&quot;april2020-ff-desktop-aaq-questions&quot;&lt;/span&gt; 
+&lt;span class=&quot;k&quot;&gt;where&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;created&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'2020-04-02T00:00:01-00:00'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;&quot;april2020-ff-desktop-aaq-questions&quot;&lt;/span&gt; 
+&lt;span class=&quot;k&quot;&gt;where&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;content&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;like&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;&quot;%sync%&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;OR&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;like&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;&quot;%sync%&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;OR&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;tags&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;like&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;&quot;%sync%&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;LIMIT&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;50000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Mon, 18 May 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/05/18/p1-kitsune-questions-csv-to-sqlite/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/05/18/p1-kitsune-questions-csv-to-sqlite/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Carbon.now.sh beautiful code formatting for twitter and moar</title>
@@ -205,32 +244,6 @@ pup &lt;span class=&quot;s1&quot;&gt;'#kb-overview-table tbody tr td:nth-child(1
         <pubDate>Sat, 09 May 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/05/09/p1-over40-in-vancouver-pandemic-3-dale-tests-negative-covid-19/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/05/09/p1-over40-in-vancouver-pandemic-3-dale-tests-negative-covid-19/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Revised workflow for rollingroland.com</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;You need to use “hugo” without &lt;code class=&quot;highlighter-rouge&quot;&gt;server&lt;/code&gt; to render the site correctly for production i.e. non localhost&lt;/p&gt;
-
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;hugo server &lt;span class=&quot;nt&quot;&gt;--buildDrafts&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--disableFastRender&lt;/span&gt;  &lt;span class=&quot;nt&quot;&gt;--renderToDisk&lt;/span&gt; &amp;amp;
-hugo new post/2020-05-08-p1-vancouver-crossings.md
-&lt;span class=&quot;c&quot;&gt;# check it out at localhost:1313&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# When you are happy render and push to server&lt;/span&gt;
-hugo &lt;span class=&quot;nt&quot;&gt;--buildDrafts&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#render&lt;/span&gt;
-surge public &lt;span class=&quot;nt&quot;&gt;--domain&lt;/span&gt; rollingroland.com &lt;span class=&quot;c&quot;&gt;#push to server&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Fri, 08 May 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/05/08/p1-revised-rolling-roland-hugo/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/05/08/p1-revised-rolling-roland-hugo/</guid>
         
         
       </item>
