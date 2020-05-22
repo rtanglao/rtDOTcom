@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 20 May 2020 20:35:43 -0700</pubDate>
-    <lastBuildDate>Wed, 20 May 2020 20:35:43 -0700</lastBuildDate>
+    <pubDate>Thu, 21 May 2020 22:15:44 -0700</pubDate>
+    <lastBuildDate>Thu, 21 May 2020 22:15:44 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>hauntsaninja via simon willison: pyp: Easily run Python at the shell</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;QUOTE&lt;/strong&gt; –&amp;gt;   Fascinating little CLI utility which uses some deeply clever AST  introspection to enable little Python one-liners that act as  replacements for all manner of pipe-oriented unix utilities. Took me a  while to understand how it works from the README, but then I looked at  the code and the entire thing is only 380 lines long. There’s also a  useful –explain option which outputs the Python source code that it  would execute for a given command. &lt;strong&gt;END QUOTE&lt;/strong&gt; &amp;lt;— Read &lt;a href=&quot;https://simonwillison.net/2020/May/9/pyp/&quot;&gt;Simon Willison’s blog post&lt;/a&gt; and check out &lt;a href=&quot;https://github.com/hauntsaninja/pyp&quot;&gt;hauntsaninja’s pyp&lt;/a&gt; which is “Magical, but never mysterious.” &amp;lt;— Right as if introspection and the AST is never both magical and mysterious :-)&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Thu, 21 May 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/05/21/p1-pyp-hauntsaninja-easily-run-python-from-the-shell/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/05/21/p1-pyp-hauntsaninja-easily-run-python-from-the-shell/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Dave Pollard: There must be a better way</title>
@@ -229,21 +245,6 @@ pup &lt;span class=&quot;s1&quot;&gt;'#kb-overview-table tbody tr td:nth-child(1
         <pubDate>Mon, 11 May 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/05/11/p1-replier-app-for-gmail-basecamp-slack/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/05/11/p1-replier-app-for-gmail-basecamp-slack/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Can't wait for Lev Manovich's Cultural Analytics which should be 100% applicable to my hobby of making tshirts and leggings from flickr data</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;“In &lt;em&gt;Cultural Analytics&lt;/em&gt;, Lev Manovich presents concepts and methods  for computational analysis of cultural data, with a particular focus on  visual media. Drawing on more than a decade of research and projects  from his own lab, Manovich—the founder of the field of cultural  analytics—offers a gentle, nontechnical introduction to selected key  concepts of data science and discusses the ways that our society uses  data and algorithms.” &amp;lt; —– Can’t wait for &lt;a href=&quot;https://mitpress.mit.edu/books/cultural-analytics&quot;&gt;Lev Manovich’s Cultural Analytics&lt;/a&gt; which should be 100% applicable to my hobby of making tshirts and leggings from flickr data&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 10 May 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/05/10/p1-lev-manovich-cultural-analytics/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/05/10/p1-lev-manovich-cultural-analytics/</guid>
         
         
       </item>
