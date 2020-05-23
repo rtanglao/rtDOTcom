@@ -6,9 +6,31 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 21 May 2020 22:15:44 -0700</pubDate>
-    <lastBuildDate>Thu, 21 May 2020 22:15:44 -0700</lastBuildDate>
+    <pubDate>Fri, 22 May 2020 22:37:48 -0700</pubDate>
+    <lastBuildDate>Fri, 22 May 2020 22:37:48 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Maarten Lambrechts: How to Make Animated Histograms in R, with ggplot and gganimate</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt; –&amp;gt; Animating a ggplot visualization with gganimate can be as simple as  adding one gganimate function. Even more complex visualisations, with  multiple geoms and facetting for example, are no problem for gganimate.&lt;/p&gt;
+
+    &lt;p&gt;But if you want to animate between multiple states, you need to  provide data for the intermediate states, which might mean reshaping  your data.&lt;/p&gt;
+
+    &lt;p&gt;This tutorial only scratched the surface of what gganimate is capable of. &amp;lt;– &lt;strong&gt;END QUOTE&lt;/strong&gt; –&amp;gt; Read the whole thing: &lt;a href=&quot;https://flowingdata.com/2020/05/13/animated-histograms-ggplot-gganimate/&quot;&gt;Maarten Lambrechts: How to Make Animated Histograms in R, with ggplot and gganimate&lt;/a&gt; &amp;lt;— a fantastic tutorial well worth the $10/month subscription fee&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Fri, 22 May 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/05/22/p1-maarten-lambrechts-howto-animated-histograms-r-ggplot-gganimate/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/05/22/p1-maarten-lambrechts-howto-animated-histograms-r-ggplot-gganimate/</guid>
+        
+        
+      </item>
     
       <item>
         <title>hauntsaninja via simon willison: pyp: Easily run Python at the shell</title>
@@ -215,36 +237,6 @@ pup &lt;span class=&quot;s1&quot;&gt;'#kb-overview-table tbody tr td:nth-child(1
         <pubDate>Wed, 13 May 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/05/13/p1-chris-corrigan-constraints-enable-emergence/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/05/13/p1-chris-corrigan-constraints-enable-emergence/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>jackywinter: introducing replier.app for basecamp, slack and gmail</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;“1) Copy and paste communication to Replier from any platform.&lt;/p&gt;
-
-    &lt;p&gt;2) Hover and click to select the pieces of communication that need to be responded to. Use the plus icon to select multiple lines of text.&lt;/p&gt;
-
-    &lt;p&gt;3) Respond to the pieces of communication and re-order and and delete if needed.&lt;/p&gt;
-
-    &lt;p&gt;4) Add an intro or outro.&lt;/p&gt;
-
-    &lt;p&gt;5) Export to your clipboard back to your platform of choice.  Currently supported is Gmail, Basecamp and Slack*, with Outlook and  Teams coming soon.&lt;/p&gt;
-
-    &lt;p&gt;6) Paste your bottom-posted communication in a cleanly formatted, easy to read reply.”&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;^— read the whole thing: &lt;a href=&quot;https://jackywinter.com/homeroom/introducing-replier&quot;&gt;Introducing Replier!&lt;/a&gt; and then &lt;a href=&quot;https://www.replier.app/&quot;&gt;check out replier!&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 11 May 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/05/11/p1-replier-app-for-gmail-basecamp-slack/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/05/11/p1-replier-app-for-gmail-basecamp-slack/</guid>
         
         
       </item>
