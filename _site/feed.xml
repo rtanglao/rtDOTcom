@@ -6,9 +6,55 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 25 May 2020 21:13:17 -0700</pubDate>
-    <lastBuildDate>Mon, 25 May 2020 21:13:17 -0700</lastBuildDate>
+    <pubDate>Mon, 25 May 2020 21:45:49 -0700</pubDate>
+    <lastBuildDate>Mon, 25 May 2020 21:45:49 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>HowTo: SQLite SQL query to get all May 1-25, 2020 Firefox desktop en-us questions that contain sync in title, content or tags columns</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Here’s the &lt;a href=&quot;https://roland-ds1.glitch.me/data?sql=select%0D%0A++created%2C%0D%0A++url%2C%0D%0A++title%2C%0D%0A++content%2C%0D%0A++tags%0D%0Afrom%0D%0A++%5Bsorted-all-desktop-en-us-2020-01-01-2020-05-25-firefox-creator-answers-desktop-all-locales%5D%0D%0Awhere%0D%0A++%22created%22+%3E%3D+%3Ap2%0D%0A++and+%22created%22+%3C+%3Ap3%0D%0A++AND+%28+%22content%22+like+%3Ap0%0D%0A++or+%22tags%22+like+%3Ap4%0D%0A++or+%22title%22+like+%3Ap6%29%0D%0Aorder+by%0D%0A++rowid%0D%0Alimit%0D%0A++1000&amp;amp;p2=2020-04-30+16%3A00%3A00&amp;amp;p3=2020-05-26+00%3A00%3A00&amp;amp;p0=%25sync%25&amp;amp;p4=%25sync%25&amp;amp;p6=%25sync%25&quot;&gt;SQL query&lt;/a&gt; from roland-ds1.glitch.me from the previous post, &lt;a href=&quot;http://rolandtanglao.com/2020/05/25/p2-glitch-datasette-firefox-desktop-support-january1-may25-2020/&quot;&gt;HowTo: Datasette on Glitch for Firefox Desktop support questions January 1 to May 25, 2020&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;created&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;tags&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;from&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sorted&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;all&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;desktop&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;en&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;us&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2020&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;01&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;01&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2020&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;05&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;firefox&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;creator&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;desktop&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;all&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;locales&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;where&lt;/span&gt;
+  &lt;span class=&quot;nv&quot;&gt;&quot;created&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p2&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;&quot;created&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p3&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;AND&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;&quot;content&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;like&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p0&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;&quot;tags&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;like&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p4&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;&quot;title&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;like&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;order&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;by&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;rowid&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;limit&lt;/span&gt;
+  &lt;span class=&quot;mi&quot;&gt;1000&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;where:&lt;/p&gt;
+
+&lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;p2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2020&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;04&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;00&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;00&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;p3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2020&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;05&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;26&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;00&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;00&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;00&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;p0&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sync&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;p4&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sync&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;p6&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sync&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And here’s the &lt;a href=&quot;https://docs.google.com/spreadsheets/d/18UUsBqoOk3GphPqUXQmRm98mIjX8Ut4ggatxDPZimGA/edit?usp=sharing&quot;&gt;CSV file&lt;/a&gt; (as a Google Spreadsheet)&lt;/p&gt;
+</description>
+        <pubDate>Mon, 25 May 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/05/25/p3-sqlite-sql-query-to-get-all-questions-01may2020-25may2020-title-tag-content-contain-sync/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/05/25/p3-sqlite-sql-query-to-get-all-questions-01may2020-25may2020-title-tag-content-contain-sync/</guid>
+        
+        
+      </item>
     
       <item>
         <title>HowTo: Datasette on Glitch for Firefox Desktop support questions January 1 to May 25, 2020</title>
@@ -210,34 +256,6 @@
         <pubDate>Fri, 15 May 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/05/15/p1-matt-webb-how-about-hyperlocal-pandemic-forecasting/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/05/15/p1-matt-webb-how-about-hyperlocal-pandemic-forecasting/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How To get all Firefox Desktop SUMO KB Articles using pup WITHOUT using grep by using 'attr{href}'</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;How To get all Firefox Desktop SUMO KB Articles using &lt;a href=&quot;http://rolandtanglao.com/2020/02/16/p2-pup-for-html-like-jq-for-json/&quot;&gt;pup&lt;/a&gt; (disclaimer this could break at any time :-)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Get the web page using &lt;code class=&quot;highlighter-rouge&quot;&gt;curl&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Parse the HTML :-) and find the links using &lt;code class=&quot;highlighter-rouge&quot;&gt;pup&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;s2&quot;&gt;&quot;https://support.mozilla.org/en-US/contributors/kb-overview?product=firefox&quot;&lt;/span&gt; |&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-pup &lt;span class=&quot;s1&quot;&gt;'#kb-overview-table tbody tr td:nth-child(1) a[href*=&quot;/en-US/kb/&quot;]\
-attr{href}'&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; all_relative_desktop_urls.html
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;See the earlier, grep version: &lt;a href=&quot;http://rolandtanglao.com/2020/05/14/p1-how-to-get-all-firefox-desktop-urls-using-pup/&quot;&gt;How To get all Firefox Desktop SUMO KB Articles using pup&lt;/a&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 14 May 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/05/14/p2-how-to-get-all-firefox-desktop-urls-using-pup-without-grep/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/05/14/p2-how-to-get-all-firefox-desktop-urls-using-pup-without-grep/</guid>
         
         
       </item>
