@@ -6,9 +6,47 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 25 May 2020 12:41:25 -0700</pubDate>
-    <lastBuildDate>Mon, 25 May 2020 12:41:25 -0700</lastBuildDate>
+    <pubDate>Mon, 25 May 2020 21:13:17 -0700</pubDate>
+    <lastBuildDate>Mon, 25 May 2020 21:13:17 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>HowTo: Datasette on Glitch for Firefox Desktop support questions January 1 to May 25, 2020</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;HowTo put the Firefox support questions on glitch from January 1-May 25, 2020&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;1. get the questions in CSV format into a file called sorted-all-desktop-en-us-2020-01-01-2020-05-25-firefox-creator-answers-desktop-all-locales into a file called &lt;a href=&quot;https://github.com/rtanglao/rt-kits-api2/blob/master/2020BYMONTH/sorted-all-desktop-en-us-2020-01-01-2020-05-25-firefox-creator-answers-desktop-all-locales.csv&quot;&gt;sorted-all-desktop-en-us-2020-01-01-2020-05-25-firefox-creator-answers-desktop-all-locales.csv&lt;/a&gt; :&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /home/roland/GIT/rt-kits-api2/2020BYMONTH
+../get-creator-answers-questions-for-arbitrary-time-period.rb 2020 1 1 &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+2020 5 25
+../print-desktop-en-us-all-oses-increasing-ids-time-url-title-content.rb &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+2020-01-01-2020-05-25-firefox-creator-answers-desktop-all-locales.csv csv
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2.  Per &lt;a href=&quot;https://simonwillison.net/2019/Apr/23/datasette-glitch/&quot;&gt;Running Datasette on glitch&lt;/a&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;“visit https://glitch.com/edit/#!/remix/datasette-csvs right now, drag-and-drop in a CSV file and watch it get served by Datasette on Glitch just a few seconds later.”&lt;/li&gt;
+      &lt;li&gt;In my case I dragged and dropped  &lt;a href=&quot;https://github.com/rtanglao/rt-kits-api2/blob/master/2020BYMONTH/sorted-all-desktop-en-us-2020-01-01-2020-05-25-firefox-creator-answers-desktop-all-locales.csv&quot;&gt;sorted-all-desktop-en-us-2020-01-01-2020-05-25-firefox-creator-answers-desktop-all-locales.csv&lt;/a&gt; into my cloned glitch instance and renamed it: &lt;a href=&quot;https://roland-ds1.glitch.me/&quot;&gt;https://roland-ds1.glitch.me/&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;And then you can do all your SQL queries goodness :-)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 25 May 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/05/25/p2-glitch-datasette-firefox-desktop-support-january1-may25-2020/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/05/25/p2-glitch-datasette-firefox-desktop-support-january1-may25-2020/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Cúagilákv Jess Housty: Find Your Pod in in The Tyee</title>
@@ -200,32 +238,6 @@ attr{href}'&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; 
         <pubDate>Thu, 14 May 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/05/14/p2-how-to-get-all-firefox-desktop-urls-using-pup-without-grep/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/05/14/p2-how-to-get-all-firefox-desktop-urls-using-pup-without-grep/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How To get all Firefox Desktop SUMO KB Articles using pup</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;How To get all Firefox Desktop SUMO KB Articles using &lt;a href=&quot;http://rolandtanglao.com/2020/02/16/p2-pup-for-html-like-jq-for-json/&quot;&gt;pup&lt;/a&gt; (disclaimer this could break at any time :-)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Get the web page using &lt;code class=&quot;highlighter-rouge&quot;&gt;curl&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Parse the HTML :-) and find the links using &lt;code class=&quot;highlighter-rouge&quot;&gt;pup&lt;/code&gt; (i couldn’t figure out how to get the actual link from &lt;code class=&quot;highlighter-rouge&quot;&gt;href&lt;/code&gt; so I punted and used &lt;code class=&quot;highlighter-rouge&quot;&gt;grep&lt;/code&gt;)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;s2&quot;&gt;&quot;https://support.mozilla.org/en-US/contributors/kb-overview?product=firefox&quot;&lt;/span&gt; |&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-pup &lt;span class=&quot;s1&quot;&gt;'#kb-overview-table tbody tr td:nth-child(1) a[href*=&quot;/en-US/kb/&quot;]\
-['&lt;/span&gt;href&lt;span class=&quot;s1&quot;&gt;']'&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'/en-US/[^\&quot;]*'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; all_relative_desktop_urls.html
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-</description>
-        <pubDate>Thu, 14 May 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/05/14/p1-how-to-get-all-firefox-desktop-urls-using-pup/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/05/14/p1-how-to-get-all-firefox-desktop-urls-using-pup/</guid>
         
         
       </item>
