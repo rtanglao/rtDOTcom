@@ -1,0 +1,16 @@
+I"S<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>Here’s how to open a random 25% of support questions using <code class="highlighter-rouge">shuf</code> and <code class="highlighter-rouge">awk</code> and <code class="highlighter-rouge">wsl-open</code></li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">grep</span> <span class="nt">-o</span> <span class="s1">'https*://support.mozilla.org/questions/[^)]*'</span> <span class="se">\</span>
+sorted-all-desktop-en-us-2020-05-26-2020-05-26-firefox-creator-answers-desktop-all-locales.md | <span class="nb">shuf</span> | <span class="nb">awk</span> <span class="s1">'NR % 4 == 0'</span> | xargs <span class="nt">-n</span> 1 wsl-open
+</code></pre></div></div>
+<ul>
+  <li><code class="highlighter-rouge">grep -o</code> just return the matching text</li>
+  <li><code class="highlighter-rouge">https*://support.mozilla.org/questions/[^)]*</code> since we’re matching markdown links match until you encounter a <code class="highlighter-rouge">)</code></li>
+  <li><code class="highlighter-rouge">%4 == 0</code> every 4th, isn’t awk wonderful :-) ?</li>
+  <li><code class="highlighter-rouge">xargs -n 1</code> run the next command which in this case is <code class="highlighter-rouge">wsl-open</code> with 1 argument at a time</li>
+</ul>
+:ET

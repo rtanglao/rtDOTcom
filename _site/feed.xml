@@ -6,9 +6,36 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 25 May 2020 21:45:49 -0700</pubDate>
-    <lastBuildDate>Mon, 25 May 2020 21:45:49 -0700</lastBuildDate>
+    <pubDate>Wed, 27 May 2020 07:00:59 -0700</pubDate>
+    <lastBuildDate>Wed, 27 May 2020 07:00:59 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>HowTo: Open a random 25% of support questions using shuf and awk and wsl-open</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Here’s how to open a random 25% of support questions using &lt;code class=&quot;highlighter-rouge&quot;&gt;shuf&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;awk&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;wsl-open&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'https*://support.mozilla.org/questions/[^)]*'&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+super-long-file-name-of-firefox-desktop-support-questions.md&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+| &lt;span class=&quot;nb&quot;&gt;shuf&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;awk&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'NR % 4 == 0'&lt;/span&gt; | xargs &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; 1 wsl-open
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;super-long-file-name-of-firefox-desktop-support-questions.md&lt;/code&gt; is:&lt;code class=&quot;highlighter-rouge&quot;&gt;sorted-all-desktop-en-us-2020-05-26-2020-05-26-firefox-creator-answers-desktop-all-locales.md&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;grep -o&lt;/code&gt; just return the matching text&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;https*://support.mozilla.org/questions/[^)]*&lt;/code&gt; since we’re matching markdown links match until you encounter a &lt;code class=&quot;highlighter-rouge&quot;&gt;)&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;%4 == 0&lt;/code&gt; every 4th, isn’t awk wonderful :-) ?&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;xargs -n 1&lt;/code&gt; run the next command which in this case is &lt;code class=&quot;highlighter-rouge&quot;&gt;wsl-open&lt;/code&gt; with 1 argument at a time&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 27 May 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/05/27/p1-howto-open-random-25-percent-of-support-questions/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/05/27/p1-howto-open-random-25-percent-of-support-questions/</guid>
+        
+        
+      </item>
     
       <item>
         <title>HowTo: SQLite SQL query to get all May 1-25, 2020 Firefox desktop en-us questions that contain sync in title, content or tags columns</title>
@@ -240,22 +267,6 @@
         <pubDate>Sat, 16 May 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/05/16/p1-twitter-images-can-embed-1k-data-like-pgp-key-r-code/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/05/16/p1-twitter-images-can-embed-1k-data-like-pgp-key-r-code/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Matt Webb: How about hyperlocal pandemic forecasting</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;“Maybe your phone could track your location and give you a live exposure number over the day, like a badge? &lt;strong&gt;It’s 2pm and you’re at 40 co-rads today. We recommend you leave before rush  hour and take this 20 co-rad route home, also WASH YOUR HANDS.&lt;/strong&gt;” &amp;lt;— Intrigued! Not sure about privacy but maybe it’s worth it to stay healthy?!? Read the whole thing: &lt;a href=&quot;http://interconnected.org/home/2020/05/12/pandemic_mirror_worlds&quot;&gt;Matt Webb: How about hyperlocal pandemic forecasting&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Fri, 15 May 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/05/15/p1-matt-webb-how-about-hyperlocal-pandemic-forecasting/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/05/15/p1-matt-webb-how-about-hyperlocal-pandemic-forecasting/</guid>
         
         
       </item>
