@@ -6,9 +6,42 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 27 May 2020 07:00:59 -0700</pubDate>
-    <lastBuildDate>Wed, 27 May 2020 07:00:59 -0700</lastBuildDate>
+    <pubDate>Thu, 28 May 2020 21:53:53 -0700</pubDate>
+    <lastBuildDate>Thu, 28 May 2020 21:53:53 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>HowTo: Open support questions tagged escalate</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Here’s how to open  support questions tagged &lt;code class=&quot;highlighter-rouge&quot;&gt;escalate&lt;/code&gt; in your browser&lt;/li&gt;
+  &lt;li&gt;First, get the questions by updated time i.e. updated may 28, 2020 and then open them in wsl&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;../get-by-updated-time-question-url-answers-for-arbitrary-time-period.rb 2020 5 28 2020 5 28 
+&lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;escalate;&quot;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+updated-2020-05-28-2020-05-28-ff-desktop-creator-answers-desktop-all-locales.csv&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+| &lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'^[0-9]*'&lt;/span&gt; |&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+xargs &lt;span class=&quot;nt&quot;&gt;-I&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{}&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; 1 wsl-open &lt;span class=&quot;s2&quot;&gt;&quot;https://support.mozilla.org/questions/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;where:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;xargs -I {&lt;/code&gt;} save the string passed in as &lt;code class=&quot;highlighter-rouge&quot;&gt;{}&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;^[0-9]*'&lt;/code&gt; is a regular expression meaning match numbers at the beginning of the line  until a non number is reached i.e. the &lt;code class=&quot;highlighter-rouge&quot;&gt;id&lt;/code&gt; field which is an integer and is the first field&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;related post from yesterday: &lt;a href=&quot;http://rolandtanglao.com/2020/05/27/p1-howto-open-random-25-percent-of-support-questions/&quot;&gt;HowTo: Open a random 25% of support questions using shuf and awk and wsl-open&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 28 May 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/05/28/p1-howto-open-recently-updated-questions-with-escalate-tag/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/05/28/p1-howto-open-recently-updated-questions-with-escalate-tag/</guid>
+        
+        
+      </item>
     
       <item>
         <title>HowTo: Open a random 25% of support questions using shuf and awk and wsl-open</title>
@@ -244,29 +277,6 @@ super-long-file-name-of-firefox-desktop-support-questions.md&lt;span class=&quot
         <pubDate>Sun, 17 May 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/05/17/p1-carbon-sh-beautiful-code-formatting-for-twitter/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/05/17/p1-carbon-sh-beautiful-code-formatting-for-twitter/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Twitter images can embed 1K in alt text like R code or a PGP Key</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;–&amp;gt; I caught &lt;a href=&quot;https://twitter.com/edent/status/1260843046553387009&quot;&gt;this tweet&lt;/a&gt; by Terence Eden about using Twitter image alt-text to “PGP sign” tweet  and my mind immediately went to “how can I abuse this for covert  communications, malicious command-and-control, and embedding R code in  tweets?”.&lt;/p&gt;
-
-    &lt;p&gt;When you paste or upload an image to tweet (web interface, at least)  you have an opportunity to add “alt” text which is — in theory  — supposed to help communicate the content of the image to folks using  assistive technology. Terence figured out the alt-text limit on Twitter  is large (~1K) which is &lt;em&gt;plenty&lt;/em&gt; of room for useful R code &amp;lt;– &lt;strong&gt;END QUOTE&lt;/strong&gt; &amp;lt;— Read the whole thing: &lt;a href=&quot;http://twitter.com/hrbrmstr&quot;&gt;@hrbrmstr&lt;/a&gt;: &lt;a href=&quot;https://rud.is/b/2020/05/16/attach-your-r-code-to-charts-you-tweet-for-reproducible-r-tweets/&quot;&gt;Attach Your R Code To Charts You Tweet For Reproducible R Tweets!&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Cool stuff until Twitter shuts this down :-)&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sat, 16 May 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/05/16/p1-twitter-images-can-embed-1k-data-like-pgp-key-r-code/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/05/16/p1-twitter-images-can-embed-1k-data-like-pgp-key-r-code/</guid>
         
         
       </item>
