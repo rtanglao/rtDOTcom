@@ -6,9 +6,36 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 28 May 2020 21:53:53 -0700</pubDate>
-    <lastBuildDate>Thu, 28 May 2020 21:53:53 -0700</lastBuildDate>
+    <pubDate>Fri, 29 May 2020 20:45:55 -0700</pubDate>
+    <lastBuildDate>Fri, 29 May 2020 20:45:55 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>HTML parsing for pup - Using the pup tool to more sanely extract data from HTML files (Stanford Journalism Computational Methods in the Civic Sphere)</title>
+        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;–&amp;gt;While &lt;a href=&quot;http://www.compciv.org/recipes/grep/basic-of-grep&quot;&gt;grep&lt;/a&gt; and &lt;a href=&quot;http://www.compciv.org/recipes/grep/basic-regex&quot;&gt;regular expressions&lt;/a&gt; are a powerful way to search raw text, when text files already have &lt;em&gt;structure&lt;/em&gt; – such as comma-delimited files, or raw HTML – we want to take  advantage of programs specifically designed to exploit that structure.  With HTML, especially, finding a pattern &lt;em&gt;regular&lt;/em&gt; enough (nevermind simple) that a regex can exploit is madness.&lt;/p&gt;
+
+    &lt;p&gt;So this is &lt;a href=&quot;https://github.com/ericchiang/pup&quot;&gt;why we’re using pup&lt;/a&gt;, which works from the command-line. Every other parsing library (&lt;a href=&quot;http://www.crummy.com/software/BeautifulSoup/bs4/doc/&quot;&gt;such as Python and BeautifulSoup&lt;/a&gt;) you use will pretty much act the same as pup.&lt;/p&gt;
+
+    &lt;p&gt;I recommend just trying out pup, as described in the rest of this guide. The &lt;em&gt;arguments&lt;/em&gt; it takes are &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors&quot;&gt;CSS Selectors&lt;/a&gt;, which you may be familiar with if you’ve ever used &lt;a href=&quot;http://api.jquery.com/category/selectors/&quot;&gt;JQuery&lt;/a&gt;.&lt;/p&gt;
+
+    &lt;p&gt;However, you don’t have to &lt;em&gt;know&lt;/em&gt; CSS (i.e. how to style webpages) to do HTML parsing. You just have to understand how &lt;strong&gt;CSS Selectors&lt;/strong&gt; are used to &lt;em&gt;target&lt;/em&gt; specific HTML elements. Instead of &lt;em&gt;styling&lt;/em&gt; these HTML elements, we will be grabbing the &lt;em&gt;text&lt;/em&gt; inside them. Different purpose, but same process and syntax of &lt;em&gt;selection&lt;/em&gt;. &amp;lt;– &lt;strong&gt;END QUOTE&lt;/strong&gt; —&amp;gt; Read the whole thing &lt;a href=&quot;http://www.compciv.org/recipes/cli/pup-for-parsing-html/&quot;&gt;HTML parsing for pup - Using the pup tool to more sanely extract data from HTML files&lt;/a&gt; (Stanford Journalism Computational Methods in the Civic Sphere) &amp;lt;— fantastic HOWTO&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Previously: &lt;a href=&quot;http://rolandtanglao.com/2020/02/16/p2-pup-for-html-like-jq-for-json/&quot;&gt;pup for HTML is like jq for JSON&lt;/a&gt;, &lt;a href=&quot;http://rolandtanglao.com/2020/05/14/p2-how-to-get-all-firefox-desktop-urls-using-pup-without-grep/&quot;&gt;How To get all Firefox Desktop SUMO KB Articles using pup WITHOUT using grep by using ‘attr{href}’&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Fri, 29 May 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/05/29/p1-html-parsing-for-pup=stanford-journalism-computational-methods-in-the-civic-sphere/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/05/29/p1-html-parsing-for-pup=stanford-journalism-computational-methods-in-the-civic-sphere/</guid>
+        
+        
+      </item>
     
       <item>
         <title>HowTo: Open support questions tagged escalate</title>
@@ -257,26 +284,6 @@ super-long-file-name-of-firefox-desktop-support-questions.md&lt;span class=&quot
         <pubDate>Mon, 18 May 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/05/18/p1-kitsune-questions-csv-to-sqlite/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/05/18/p1-kitsune-questions-csv-to-sqlite/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Carbon.now.sh beautiful code formatting for twitter and moar</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;QUOTE–&amp;gt;&lt;/strong&gt; Carbon lets you create and share beautiful images of your source code&lt;/p&gt;
-
-    &lt;p&gt;You know all of those code screenshots you see on Twitter? Although the  code’s usually impressive, we thought there was room for improvement in  the aesthetic department. So what are you waiting for? Go try it out and impress all your developer and designer friends. &amp;lt;— &lt;strong&gt;END QUOTE&lt;/strong&gt;&amp;lt;— from &lt;a href=&quot;https://carbon.now.sh/about&quot;&gt;carbon.now.sh’s about page&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sun, 17 May 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/05/17/p1-carbon-sh-beautiful-code-formatting-for-twitter/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/05/17/p1-carbon-sh-beautiful-code-formatting-for-twitter/</guid>
         
         
       </item>

@@ -1,0 +1,15 @@
+I"�<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>
+    <p><strong>QUOTE</strong>–&gt;While <a href="http://www.compciv.org/recipes/grep/basic-of-grep">grep</a> and <a href="http://www.compciv.org/recipes/grep/basic-regex">regular expressions</a> are a powerful way to search raw text, when text files already have <em>structure</em> – such as comma-delimited files, or raw HTML – we want to take  advantage of programs specifically designed to exploit that structure.  With HTML, especially, finding a pattern <em>regular</em> enough (nevermind simple) that a regex can exploit is madness.</p>
+
+    <p>So this is <a href="https://github.com/ericchiang/pup">why we’re using pup</a>, which works from the command-line. Every other parsing library (<a href="http://www.crummy.com/software/BeautifulSoup/bs4/doc/">such as Python and BeautifulSoup</a>) you use will pretty much act the same as pup.</p>
+
+    <p>I recommend just trying out pup, as described in the rest of this guide. The <em>arguments</em> it takes are <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors">CSS Selectors</a>, which you may be familiar with if you’ve ever used <a href="http://api.jquery.com/category/selectors/">JQuery</a>.</p>
+
+    <p>However, you don’t have to <em>know</em> CSS (i.e. how to style webpages) to do HTML parsing. You just have to understand how <strong>CSS Selectors</strong> are used to <em>target</em> specific HTML elements. Instead of <em>styling</em> these HTML elements, we will be grabbing the <em>text</em> inside them. Different purpose, but same process and syntax of <em>selection</em>. &lt;– <strong>END QUOTE</strong> —&gt; Read the whole thing <a href="http://www.compciv.org/recipes/cli/pup-for-parsing-html/">HTML parsing for pup - Using the pup tool to more sanely extract data from HTML files</a> (Stanford Journalism Computational Methods in the Civic Sphere) &lt;— fantastic HOWTO</p>
+  </li>
+</ul>
+
+:ET
