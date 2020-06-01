@@ -1,0 +1,65 @@
+I"<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>Here are the tights I made! Want to order your own? Please <a href="https://artofwhere.com/artists/roland-tanglao/clothing/leggings/3502475">click this link to order the leggings from Art of Where in Montréal</a>):</li>
+</ul>
+
+<p><a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/49958727272/in/dateposted-public/" title="vancouver-pink-petal-2020-aow-tights-social-media-15909812586846654058"><img src="https://live.staticflickr.com/65535/49958727272_bc9dc91645.jpg" width="500" height="446" alt="vancouver-pink-petal-2020-aow-tights-social-media-15909812586846654058" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+
+<ul>
+  <li>Here is the mask  I made! Want to order your own? Please <a href="https://artofwhere.com/artists/roland-tanglao/accessories/face-covering/3502516">click this link to order a mask from Art of Where in Montréal</a>:</li>
+</ul>
+
+<p><a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/49957949818/in/dateposted-public/" title="vancouver-pink-petal-2020-mask-15909828343118069753"><img src="https://live.staticflickr.com/65535/49957949818_2397f59b2c.jpg" width="500" height="446" alt="vancouver-pink-petal-2020-mask-15909828343118069753" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+
+<ul>
+  <li>
+    <p>You can find the source images at:</p>
+
+    <ul>
+      <li><a href="https://www.flickr.com/photos/roland/albums/72157714184799381">https://www.flickr.com/photos/roland/albums/72157714184799381</a></li>
+    </ul>
+
+    <h2 id="31may2020-create-the-left-and-right-leg-graphics">31may2020 create the left and right leg graphics</h2>
+
+    <ul>
+      <li>1. 3825 jpegs per leg (and then upload to artofwhere.com)</li>
+    </ul>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">ls</span> <span class="nt">-1</span> <span class="k">*</span>.jpg | <span class="nb">shuf</span> <span class="nt">-n</span> 3825 <span class="o">&gt;</span> right-leg-shuffled-3825-pink-petal-jpgs.txt
+<span class="nb">ls</span> <span class="nt">-1</span> <span class="k">*</span>.jpg | <span class="nb">shuf</span> <span class="nt">-n</span> 3825 <span class="o">&gt;</span> left-leg-shuffled-3825-pink-petal-jpgs.txt
+montage <span class="nt">-verbose</span> <span class="nt">-adjoin</span> <span class="nt">-tile</span> 45x85 +frame +shadow +label <span class="nt">-adjoin</span> <span class="se">\</span>
+<span class="nt">-geometry</span> <span class="s1">'75x75+0+0&lt;'</span> @right-leg-shuffled-3825-pink-petal-jpgs.txt <span class="se">\</span>
+right-leg_artofwhere-pink-petal-2020.png
+montage <span class="nt">-verbose</span> <span class="nt">-adjoin</span> <span class="nt">-tile</span> 45x85 +frame +shadow +label <span class="nt">-adjoin</span> <span class="se">\</span>
+<span class="nt">-geometry</span> <span class="s1">'75x75+0+0&lt;'</span> @left-leg-shuffled-3825-pink-petal-jpgs.txt <span class="se">\</span>
+left-leg_artofwhere-pink-petal-2020.png
+</code></pre></div>    </div>
+
+    <h2 id="31may2020-create-the--thumbnails">31may2020 create the  thumbnails</h2>
+    <p>as per: <a href="http://rolandtanglao.com/2020/02/17/p1-how-i-made-art-of-where-tights-berlin/">http://rolandtanglao.com/2020/02/17/p1-how-i-made-art-of-where-tights-berlin/</a></p>
+
+    <ul>
+      <li>1. get the filenames
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">ls</span> <span class="nt">-d</span> /home/roland/GIT/rt-pink-petal-power/ORIGINALS/<span class="k">*</span>.jpg <span class="o">&gt;</span> pink_petal_power_jpg_filenames.txt
+</code></pre></div>        </div>
+      </li>
+      <li>2.get the maximum number of 75x75 positions in each original file
+        <ul>
+          <li>i am lazy so i just copied in https://github.com/rtanglao/rt-berlin-january-2020/blob/master/print-file-width-length-max75-x-max75-y.rb to this directory
+            <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./print-file-width-length-max75-x-max75-y.rb pink_petal_power_jpg_filenames.txt <span class="se">\</span>
+<span class="o">&gt;</span> pink-petal-power-75px-75px-max-x-maxy.txt
+</code></pre></div>            </div>
+          </li>
+        </ul>
+      </li>
+      <li>3. make the 75x75 pixel thumbnails</li>
+    </ul>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">mkdir </span>75PX_BY_75PX_PATCHES
+<span class="nb">cd</span> <span class="o">!</span><span class="err">$</span>
+../create-75px-75px-patches.rb ../pink-petal-power-75px-75px-max-x-maxy.txt 10000
+</code></pre></div>    </div>
+  </li>
+</ul>
+:ET
