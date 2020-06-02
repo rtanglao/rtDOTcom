@@ -6,9 +6,20 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 31 May 2020 21:04:28 -0700</pubDate>
-    <lastBuildDate>Sun, 31 May 2020 21:04:28 -0700</lastBuildDate>
+    <pubDate>Mon, 01 Jun 2020 21:31:47 -0700</pubDate>
+    <lastBuildDate>Mon, 01 Jun 2020 21:31:47 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Black lives matter</title>
+        <description>
+</description>
+        <pubDate>Mon, 01 Jun 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/06/01/p1-black-lives-matter/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/06/01/p1-black-lives-matter/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How I made Art of Where Tights aka leggings and mask from Vancouver 2020 Pink Petal photos</title>
@@ -303,22 +314,6 @@ super-long-file-name-of-firefox-desktop-support-questions.md&lt;span class=&quot
         <pubDate>Fri, 22 May 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/05/22/p1-maarten-lambrechts-howto-animated-histograms-r-ggplot-gganimate/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/05/22/p1-maarten-lambrechts-howto-animated-histograms-r-ggplot-gganimate/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>hauntsaninja via simon willison: pyp: Easily run Python at the shell</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;QUOTE&lt;/strong&gt; –&amp;gt;   Fascinating little CLI utility which uses some deeply clever AST  introspection to enable little Python one-liners that act as  replacements for all manner of pipe-oriented unix utilities. Took me a  while to understand how it works from the README, but then I looked at  the code and the entire thing is only 380 lines long. There’s also a  useful –explain option which outputs the Python source code that it  would execute for a given command. &lt;strong&gt;END QUOTE&lt;/strong&gt; &amp;lt;— Read &lt;a href=&quot;https://simonwillison.net/2020/May/9/pyp/&quot;&gt;Simon Willison’s blog post&lt;/a&gt; and check out &lt;a href=&quot;https://github.com/hauntsaninja/pyp&quot;&gt;hauntsaninja’s pyp&lt;/a&gt; which is “Magical, but never mysterious.” &amp;lt;— Right as if introspection and the AST is never both magical and mysterious :-)&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Thu, 21 May 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/05/21/p1-pyp-hauntsaninja-easily-run-python-from-the-shell/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/05/21/p1-pyp-hauntsaninja-easily-run-python-from-the-shell/</guid>
         
         
       </item>
