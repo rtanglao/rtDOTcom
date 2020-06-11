@@ -6,9 +6,20 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 01 Jun 2020 21:31:47 -0700</pubDate>
-    <lastBuildDate>Mon, 01 Jun 2020 21:31:47 -0700</lastBuildDate>
+    <pubDate>Wed, 10 Jun 2020 19:20:19 -0700</pubDate>
+    <lastBuildDate>Wed, 10 Jun 2020 19:20:19 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Please donate to the Hogan's Alley Society</title>
+        <description>&lt;p&gt;Please &lt;a href=&quot;https://www.hogansalleysociety.org/donations/696/&quot;&gt;donate&lt;/a&gt; to the &lt;a href=&quot;https://www.hogansalleysociety.org/&quot;&gt;Hogan’s Alley Society&lt;/a&gt; and learn about what happened at Hogan’s Alley.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 10 Jun 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/06/10/p1-please-donate-to-hogans-alley-societ/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/06/10/p1-please-donate-to-hogans-alley-societ/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Black lives matter</title>
@@ -292,28 +303,6 @@ super-long-file-name-of-firefox-desktop-support-questions.md&lt;span class=&quot
         <pubDate>Mon, 25 May 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/05/25/p1-c%C3%BAagil%C3%A1kv-jess-housty-the-pod-the-tyee/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/05/25/p1-c%C3%BAagil%C3%A1kv-jess-housty-the-pod-the-tyee/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Maarten Lambrechts: How to Make Animated Histograms in R, with ggplot and gganimate</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt; –&amp;gt; Animating a ggplot visualization with gganimate can be as simple as  adding one gganimate function. Even more complex visualisations, with  multiple geoms and facetting for example, are no problem for gganimate.&lt;/p&gt;
-
-    &lt;p&gt;But if you want to animate between multiple states, you need to  provide data for the intermediate states, which might mean reshaping  your data.&lt;/p&gt;
-
-    &lt;p&gt;This tutorial only scratched the surface of what gganimate is capable of. &amp;lt;– &lt;strong&gt;END QUOTE&lt;/strong&gt; –&amp;gt; Read the whole thing: &lt;a href=&quot;https://flowingdata.com/2020/05/13/animated-histograms-ggplot-gganimate/&quot;&gt;Maarten Lambrechts: How to Make Animated Histograms in R, with ggplot and gganimate&lt;/a&gt; &amp;lt;— a fantastic tutorial well worth the $10/month subscription fee&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Fri, 22 May 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/05/22/p1-maarten-lambrechts-howto-animated-histograms-r-ggplot-gganimate/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/05/22/p1-maarten-lambrechts-howto-animated-histograms-r-ggplot-gganimate/</guid>
         
         
       </item>
