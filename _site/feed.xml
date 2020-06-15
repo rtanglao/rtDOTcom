@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 12 Jun 2020 21:24:03 -0700</pubDate>
-    <lastBuildDate>Fri, 12 Jun 2020 21:24:03 -0700</lastBuildDate>
+    <pubDate>Sun, 14 Jun 2020 18:18:37 -0700</pubDate>
+    <lastBuildDate>Sun, 14 Jun 2020 18:18:37 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Watch all 6:45 of Kimberly Latrice Jones's video 'How Can We Win' on racism preventing ownership and thriving in society</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://twitter.com/kimlatricejones/status/1269733575374647303&quot;&gt;Watch all 6:45 of Kimberly Latrice Jones’s How Can We Win video on racism preventing ownership and thriving in society&lt;/a&gt; (&lt;a href=&quot;https://www.youtube.com/watch?v=sb9_qGOa9Go&quot;&gt;How Can We Win: youtube link&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;Also: &lt;a href=&quot;https://twitter.com/matthewacherry/status/1269044021969600513?s=21&quot;&gt;Here’s the entire interview with @kimlatricejones
+and David Jones Media. Take a second to watch the whole thing because she makes even greater points throughout the entire interview than she does in the viral clip that is circulating. Her Monopoly comparison is spot on.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And finally: Support Kimberly Latrice Jones book “I’m Not Dying With You Tonight” &lt;a href=&quot;https://www.kimjoneswrites.com/&quot;&gt;https://www.kimjoneswrites.com/&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 14 Jun 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/06/14/p1-kimberly-latrice-jones-epic-video-blog-post-about-not-being-allowed-to-own-anything-or-thrive-in-general/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/06/14/p1-kimberly-latrice-jones-epic-video-blog-post-about-not-being-allowed-to-own-anything-or-thrive-in-general/</guid>
+        
+        
+      </item>
     
       <item>
         <title>So You Want to Talk About Race by Ijeoma Oluo</title>
@@ -229,52 +246,6 @@ super-long-file-name-of-firefox-desktop-support-questions.md&lt;span class=&quot
         <pubDate>Wed, 27 May 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/05/27/p1-howto-open-random-25-percent-of-support-questions/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/05/27/p1-howto-open-random-25-percent-of-support-questions/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>HowTo: SQLite SQL query to get all May 1-25, 2020 Firefox desktop en-us questions that contain sync in title, content or tags columns</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Here’s the &lt;a href=&quot;https://roland-ds1.glitch.me/data?sql=select%0D%0A++created%2C%0D%0A++url%2C%0D%0A++title%2C%0D%0A++content%2C%0D%0A++tags%0D%0Afrom%0D%0A++%5Bsorted-all-desktop-en-us-2020-01-01-2020-05-25-firefox-creator-answers-desktop-all-locales%5D%0D%0Awhere%0D%0A++%22created%22+%3E%3D+%3Ap2%0D%0A++and+%22created%22+%3C+%3Ap3%0D%0A++AND+%28+%22content%22+like+%3Ap0%0D%0A++or+%22tags%22+like+%3Ap4%0D%0A++or+%22title%22+like+%3Ap6%29%0D%0Aorder+by%0D%0A++rowid%0D%0Alimit%0D%0A++1000&amp;amp;p2=2020-04-30+16%3A00%3A00&amp;amp;p3=2020-05-26+00%3A00%3A00&amp;amp;p0=%25sync%25&amp;amp;p4=%25sync%25&amp;amp;p6=%25sync%25&quot;&gt;SQL query&lt;/a&gt; from roland-ds1.glitch.me from the previous post, &lt;a href=&quot;http://rolandtanglao.com/2020/05/25/p2-glitch-datasette-firefox-desktop-support-january1-may25-2020/&quot;&gt;HowTo: Datasette on Glitch for Firefox Desktop support questions January 1 to May 25, 2020&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;created&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;tags&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;from&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sorted&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;all&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;desktop&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;en&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;us&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2020&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;01&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;01&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2020&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;05&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;25&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;firefox&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;creator&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;answers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;desktop&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;all&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;locales&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;where&lt;/span&gt;
-  &lt;span class=&quot;nv&quot;&gt;&quot;created&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p2&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;&quot;created&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p3&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;AND&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;&quot;content&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;like&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p0&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;&quot;tags&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;like&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p4&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;&quot;title&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;like&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;order&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;by&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;rowid&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;limit&lt;/span&gt;
-  &lt;span class=&quot;mi&quot;&gt;1000&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;where:&lt;/p&gt;
-
-&lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;p2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2020&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;04&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;16&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;00&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;00&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;p3&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2020&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;05&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;26&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;00&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;00&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;00&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;p0&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sync&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;p4&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sync&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;p6&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sync&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;And here’s the &lt;a href=&quot;https://docs.google.com/spreadsheets/d/18UUsBqoOk3GphPqUXQmRm98mIjX8Ut4ggatxDPZimGA/edit?usp=sharing&quot;&gt;CSV file&lt;/a&gt; (as a Google Spreadsheet)&lt;/p&gt;
-</description>
-        <pubDate>Mon, 25 May 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/05/25/p3-sqlite-sql-query-to-get-all-questions-01may2020-25may2020-title-tag-content-contain-sync/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/05/25/p3-sqlite-sql-query-to-get-all-questions-01may2020-25may2020-title-tag-content-contain-sync/</guid>
         
         
       </item>
