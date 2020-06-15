@@ -6,9 +6,23 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 14 Jun 2020 18:18:37 -0700</pubDate>
-    <lastBuildDate>Sun, 14 Jun 2020 18:18:37 -0700</lastBuildDate>
+    <pubDate>Sun, 14 Jun 2020 18:30:29 -0700</pubDate>
+    <lastBuildDate>Sun, 14 Jun 2020 18:30:29 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Stephanie Allen: Fight the power: Redressing displacement and building a just city for Black lives in Vancouver</title>
+        <description>&lt;p&gt;Read: &lt;a href=&quot;https://summit.sfu.ca/item/19420&quot;&gt;Stephanie Allen: Fight the power: Redressing displacement and building a just city for Black lives in Vancouver&lt;/a&gt; via &lt;a href=&quot;https://twitter.com/BuiltJustice/status/1272011427440496646&quot;&gt;Stephanie Allen’s tweet: You can read my thesis for free for this and more history of the former Black community aka Hogan’s Alley&lt;/a&gt; &lt;a href=&quot;https://summit.sfu.ca/item/19420&quot;&gt;https://summit.sfu.ca/item/19420&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Abstract: “Past and present planning practices impacting Black people in Canada are brought into focus in this master’s project that traces Hogan’s Alley, a Black community that existed in Vancouver’s Strathcona neighbourhood  and that was displaced through a series of racially-motivated decisions  spanning decades.  The project documents the efforts made by the  contemporary Black community to seek redress for the past displacement,  and how the City of Vancouver reacted to those efforts.  Engaging  critical race analysis along with justice-based planning theory, the  project uses auto-ethnography to document the specific justice-based  interventions made by the author and other members of the Black  community, including the proposal for affordable housing and a  non-profit community land trust on the former Hogan’s Alley site.  This  work expands urban studies scholarship by including the histories and  perspectives of Black communities, foregrounding the way race influences the ordering of cities and how city planning pedagogy, policy, and  practice maintain white colonial hegemony”&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 14 Jun 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/06/14/p2-stephanie-allen-fight-power-redressing-displacement-building-just-city-black-lives-vancouver-hogans-alley/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/06/14/p2-stephanie-allen-fight-power-redressing-displacement-building-just-city-black-lives-vancouver-hogans-alley/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Watch all 6:45 of Kimberly Latrice Jones's video 'How Can We Win' on racism preventing ownership and thriving in society</title>
@@ -219,33 +233,6 @@ xargs &lt;span class=&quot;nt&quot;&gt;-I&lt;/span&gt; &lt;span class=&quot;o&qu
         <pubDate>Thu, 28 May 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/05/28/p1-howto-open-recently-updated-questions-with-escalate-tag/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/05/28/p1-howto-open-recently-updated-questions-with-escalate-tag/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>HowTo: Open a random 25% of support questions using shuf and awk and wsl-open</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Here’s how to open a random 25% of support questions using &lt;code class=&quot;highlighter-rouge&quot;&gt;shuf&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;awk&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;wsl-open&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'https*://support.mozilla.org/questions/[^)]*'&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-super-long-file-name-of-firefox-desktop-support-questions.md&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-| &lt;span class=&quot;nb&quot;&gt;shuf&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;awk&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'NR % 4 == 0'&lt;/span&gt; | xargs &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; 1 wsl-open
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;super-long-file-name-of-firefox-desktop-support-questions.md&lt;/code&gt; is:&lt;code class=&quot;highlighter-rouge&quot;&gt;sorted-all-desktop-en-us-2020-05-26-2020-05-26-firefox-creator-answers-desktop-all-locales.md&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;grep -o&lt;/code&gt; just return the matching text&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;https*://support.mozilla.org/questions/[^)]*&lt;/code&gt; since we’re matching markdown links match until you encounter a &lt;code class=&quot;highlighter-rouge&quot;&gt;)&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;%4 == 0&lt;/code&gt; every 4th, isn’t awk wonderful :-) ?&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;xargs -n 1&lt;/code&gt; run the next command which in this case is &lt;code class=&quot;highlighter-rouge&quot;&gt;wsl-open&lt;/code&gt; with 1 argument at a time&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 27 May 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/05/27/p1-howto-open-random-25-percent-of-support-questions/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/05/27/p1-howto-open-random-25-percent-of-support-questions/</guid>
         
         
       </item>
