@@ -6,9 +6,23 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 14 Jun 2020 18:30:29 -0700</pubDate>
-    <lastBuildDate>Sun, 14 Jun 2020 18:30:29 -0700</lastBuildDate>
+    <pubDate>Mon, 15 Jun 2020 22:58:13 -0700</pubDate>
+    <lastBuildDate>Mon, 15 Jun 2020 22:58:13 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Dave Pollard: The perpetual growth machine</title>
+        <description>&lt;p&gt;Read: &lt;a href=&quot;https://howtosavetheworld.ca/2020/06/15/the-perpetual-growth-machine/&quot;&gt;Dave Pollard: The perpetual growth machine&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Juicy Quote: “&lt;em&gt;This is a bit of a Straw Man thought  experiment. It suggests that economic collapse might only occur when we  can no longer keep generating more and more cheap energy, rather than  when we realize that the current global mountain of debts can never be  repaid, or that profits cannot possibly increase forever. It is probably a deeply flawed argument, and I’d love to hear what economists think  about it.&lt;/em&gt;”&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 15 Jun 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/06/15/p1-dave-pollard-the-perpetual-growth-machine/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/06/15/p1-dave-pollard-the-perpetual-growth-machine/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Stephanie Allen: Fight the power: Redressing displacement and building a just city for Black lives in Vancouver</title>
@@ -200,39 +214,6 @@ left-leg_artofwhere-pink-petal-2020.png
         <pubDate>Fri, 29 May 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/05/29/p1-html-parsing-for-pup=stanford-journalism-computational-methods-in-the-civic-sphere/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/05/29/p1-html-parsing-for-pup=stanford-journalism-computational-methods-in-the-civic-sphere/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>HowTo: Open support questions tagged escalate</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Here’s how to open  support questions tagged &lt;code class=&quot;highlighter-rouge&quot;&gt;escalate&lt;/code&gt; in your browser&lt;/li&gt;
-  &lt;li&gt;First, get the questions by updated time i.e. updated may 28, 2020 and then open them in wsl&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;../get-by-updated-time-question-url-answers-for-arbitrary-time-period.rb 2020 5 28 2020 5 28 
-&lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;escalate;&quot;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-updated-2020-05-28-2020-05-28-ff-desktop-creator-answers-desktop-all-locales.csv&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-| &lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'^[0-9]*'&lt;/span&gt; |&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-xargs &lt;span class=&quot;nt&quot;&gt;-I&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{}&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; 1 wsl-open &lt;span class=&quot;s2&quot;&gt;&quot;https://support.mozilla.org/questions/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;where:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;xargs -I {&lt;/code&gt;} save the string passed in as &lt;code class=&quot;highlighter-rouge&quot;&gt;{}&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;^[0-9]*'&lt;/code&gt; is a regular expression meaning match numbers at the beginning of the line  until a non number is reached i.e. the &lt;code class=&quot;highlighter-rouge&quot;&gt;id&lt;/code&gt; field which is an integer and is the first field&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;related post from yesterday: &lt;a href=&quot;http://rolandtanglao.com/2020/05/27/p1-howto-open-random-25-percent-of-support-questions/&quot;&gt;HowTo: Open a random 25% of support questions using shuf and awk and wsl-open&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 28 May 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/05/28/p1-howto-open-recently-updated-questions-with-escalate-tag/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/05/28/p1-howto-open-recently-updated-questions-with-escalate-tag/</guid>
         
         
       </item>
