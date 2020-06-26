@@ -6,9 +6,32 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 23 Jun 2020 20:47:51 -0700</pubDate>
-    <lastBuildDate>Tue, 23 Jun 2020 20:47:51 -0700</lastBuildDate>
+    <pubDate>Thu, 25 Jun 2020 23:05:08 -0700</pubDate>
+    <lastBuildDate>Thu, 25 Jun 2020 23:05:08 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>How To get a list of escalated Firefox Desktop Support Questions</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;From the &lt;a href=&quot;https://github.com/rtanglao/rt-kits-api2#25june2020-add-titles-to-email-escalation-report&quot;&gt;rt-kits-api2 README&lt;/a&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;202006
+../get-by-updated-time-question-url-answers-for-arbitrary-time-period.rb &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+2020 6 22 2020 6 25
+&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ..
+&lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;escalate;&quot;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+202006/updated-2020-06-22-2020-06-25-ff-desktop-creator-answers-desktop-all-locales.csv&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+| ./with-title-email-escalations.rb
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Thu, 25 Jun 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/06/25/p1-how-to-email-list-of-escalated-firefox-support-issues/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/06/25/p1-how-to-email-list-of-escalated-firefox-support-issues/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Algorithms of Oppression: How Search Engines Reinforce Racism By Safiya Umoja Noble: Racism is the fundamental API of the Internet</title>
@@ -121,80 +144,6 @@ Monday, June 1, 2020 &lt;a href=&quot;https://youtu.be/frqac_nEeQ4&quot;&gt;http
         <pubDate>Mon, 01 Jun 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/06/01/p1-black-lives-matter/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/06/01/p1-black-lives-matter/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How I made Art of Where Tights aka leggings and mask from Vancouver 2020 Pink Petal photos</title>
-        <description>&lt;h1 id=&quot;pontifications&quot;&gt;Pontifications&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Here are the tights I made! Want to order your own? Please &lt;a href=&quot;https://artofwhere.com/artists/roland-tanglao/clothing/leggings/3502475&quot;&gt;click this link to order the leggings from Art of Where in Montréal&lt;/a&gt;):&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/49958727272/in/dateposted-public/&quot; title=&quot;vancouver-pink-petal-2020-aow-tights-social-media-15909812586846654058&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/49958727272_bc9dc91645.jpg&quot; width=&quot;500&quot; height=&quot;446&quot; alt=&quot;vancouver-pink-petal-2020-aow-tights-social-media-15909812586846654058&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Here is the mask  I made! Want to order your own? Please &lt;a href=&quot;https://artofwhere.com/artists/roland-tanglao/accessories/face-covering/3502516&quot;&gt;click this link to order a mask from Art of Where in Montréal&lt;/a&gt;:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/49957949818/in/dateposted-public/&quot; title=&quot;vancouver-pink-petal-2020-mask-15909828343118069753&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/49957949818_2397f59b2c.jpg&quot; width=&quot;500&quot; height=&quot;446&quot; alt=&quot;vancouver-pink-petal-2020-mask-15909828343118069753&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;You can find the source images at:&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.flickr.com/photos/roland/albums/72157714184799381&quot;&gt;https://www.flickr.com/photos/roland/albums/72157714184799381&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;h2 id=&quot;31may2020-create-the-left-and-right-leg-graphics&quot;&gt;31may2020 create the left and right leg graphics&lt;/h2&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;1. 3825 jpegs per leg (and then upload to artofwhere.com)&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.jpg | &lt;span class=&quot;nb&quot;&gt;shuf&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; 3825 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; right-leg-shuffled-3825-pink-petal-jpgs.txt
-&lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.jpg | &lt;span class=&quot;nb&quot;&gt;shuf&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; 3825 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; left-leg-shuffled-3825-pink-petal-jpgs.txt
-montage &lt;span class=&quot;nt&quot;&gt;-verbose&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-tile&lt;/span&gt; 45x85 +frame +shadow +label &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;-geometry&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'75x75+0+0&amp;lt;'&lt;/span&gt; @right-leg-shuffled-3825-pink-petal-jpgs.txt &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-right-leg_artofwhere-pink-petal-2020.png
-montage &lt;span class=&quot;nt&quot;&gt;-verbose&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-tile&lt;/span&gt; 45x85 +frame +shadow +label &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;-geometry&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'75x75+0+0&amp;lt;'&lt;/span&gt; @left-leg-shuffled-3825-pink-petal-jpgs.txt &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-left-leg_artofwhere-pink-petal-2020.png
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-
-    &lt;h2 id=&quot;31may2020-create-the--thumbnails&quot;&gt;31may2020 create the  thumbnails&lt;/h2&gt;
-    &lt;p&gt;as per: &lt;a href=&quot;http://rolandtanglao.com/2020/02/17/p1-how-i-made-art-of-where-tights-berlin/&quot;&gt;http://rolandtanglao.com/2020/02/17/p1-how-i-made-art-of-where-tights-berlin/&lt;/a&gt;&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;1. get the filenames
-        &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; /home/roland/GIT/rt-pink-petal-power/ORIGINALS/&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.jpg &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; pink_petal_power_jpg_filenames.txt
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-      &lt;/li&gt;
-      &lt;li&gt;2.get the maximum number of 75x75 positions in each original file
-        &lt;ul&gt;
-          &lt;li&gt;i am lazy so i just copied in https://github.com/rtanglao/rt-berlin-january-2020/blob/master/print-file-width-length-max75-x-max75-y.rb to this directory
-            &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./print-file-width-length-max75-x-max75-y.rb pink_petal_power_jpg_filenames.txt &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; pink-petal-power-75px-75px-max-x-maxy.txt
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;            &lt;/div&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;3. make the 75x75 pixel thumbnails&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;mkdir &lt;/span&gt;75PX_BY_75PX_PATCHES
-&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;
-../create-75px-75px-patches.rb ../pink-petal-power-75px-75px-max-x-maxy.txt 10000
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 31 May 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/05/31/p1-how-to-make-leggings-masks-artofwhere-from-vancouver-pink-petal-photos/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/05/31/p1-how-to-make-leggings-masks-artofwhere-from-vancouver-pink-petal-photos/</guid>
         
         
       </item>

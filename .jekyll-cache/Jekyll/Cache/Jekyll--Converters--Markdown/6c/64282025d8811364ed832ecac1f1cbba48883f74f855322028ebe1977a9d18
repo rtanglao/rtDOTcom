@@ -1,0 +1,14 @@
+I"À<ul>
+  <li>From the <a href="https://github.com/rtanglao/rt-kits-api2#25june2020-add-titles-to-email-escalation-report">rt-kits-api2 README</a>:</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>202006
+../get-by-updated-time-question-url-answers-for-arbitrary-time-period.rb <span class="se">\</span>
+2020 6 22 2020 6 25
+<span class="nb">cd</span> ..
+<span class="nb">grep</span> <span class="s2">"escalate;"</span> <span class="se">\</span>
+202006/updated-2020-06-22-2020-06-25-ff-desktop-creator-answers-desktop-all-locales.csv<span class="se">\</span>
+| ./with-title-email-escalations.rb
+</code></pre></div></div>
+
+:ET
