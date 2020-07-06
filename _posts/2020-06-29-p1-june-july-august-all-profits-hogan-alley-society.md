@@ -2,7 +2,8 @@
 layout: post
 title: "June-August 2020: 100% of my profits from Art of Where tights and masks will be donated to the Hogan's Alley Society"
 ---
-* For June-August 2020: 100% of my profits from Art of Where tights (approx $CDN 14) and masks (approx $CDN 10) will be [donated](https://www.hogansalleysociety.org/donations/696/) to the [Hogan's Alley Society](https://www.hogansalleysociety.org/)
+* **Edit July 5, 2020. Profit for masks is actually $CDN 5 not CDN $10. Thanks to the two folks who bought a mask in June!**
+* For June-August 2020: 100% of my profits from Art of Where tights (approx $CDN 14) and masks (approx $CDN 5<del>10</del>del) will be [donated](https://www.hogansalleysociety.org/donations/696/) to the [Hogan's Alley Society](https://www.hogansalleysociety.org/)
 
 # ORDER TODAY!
 
