@@ -6,9 +6,23 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 29 Jul 2020 07:31:39 -0700</pubDate>
-    <lastBuildDate>Wed, 29 Jul 2020 07:31:39 -0700</lastBuildDate>
+    <pubDate>Fri, 31 Jul 2020 23:28:05 -0700</pubDate>
+    <lastBuildDate>Fri, 31 Jul 2020 23:28:05 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Computing Education Research Blog: Proposal #3 to Change CS Education to Reduce Inequity: Call a truce on academic misconduct cases for programming assignments and it is not necessary to have to struggle to learn</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://computinged.wordpress.com/2020/07/30/proposal-3-to-change-cs-education-to-reduce-inequity-call-a-truce-on-academic-misconduct-cases-on-programming-assignments/&quot;&gt;Proposal #3 to Change CS Education to Reduce Inequity: Call a truce on academic misconduct cases for programming assignments&lt;/a&gt; &amp;lt;– “defund the cheating police” !!! aka just because you enjoyed the  process of discovery doesn’t mean that’s the best way to learn –&amp;gt;  “Learning requires challenge, but too much cognitive load reduces  learning. My guess is that we believe in the power of struggle because  it’s how many of us learned computing. We struggled to figure out  undocumented systems, to make things work, and to figure out why they  worked. We come away with a rationalization that the process of  discovery, without a teacher or guidance, is what led to our learning.  The problem is that for experts and high-ability/highly-motivated  learners, we like to learn that way. We want to figure it out for  ourselves. There is a motivational (affective) value for discovery.  However, the available evidence suggests that our belief in discovery is a mirage, a cognitive illusion, a trick we play on ourselves. We don’t  learn best by discovery.”&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://computinged.wordpress.com/2020/07/30/proposal-3-to-change-cs-education-to-reduce-inequity-call-a-truce-on-academic-misconduct-cases-on-programming-assignments/&quot;&gt;READ THE WHOLE THING&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 31 Jul 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/07/31/p1-defund-the-cheating-police-and-improve-computer-science-education/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/07/31/p1-defund-the-cheating-police-and-improve-computer-science-education/</guid>
+        
+        
+      </item>
     
       <item>
         <title>BlogThis! A checkvist list of links to blog</title>
@@ -189,29 +203,6 @@ My intersectionality will have weirdoes or it will be bullshit&lt;/a&gt; (via &l
         <pubDate>Mon, 29 Jun 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/06/29/p1-june-july-august-all-profits-hogan-alley-society/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/06/29/p1-june-july-august-all-profits-hogan-alley-society/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How To get a list of escalated Firefox Desktop Support Questions</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;From the &lt;a href=&quot;https://github.com/rtanglao/rt-kits-api2#25june2020-add-titles-to-email-escalation-report&quot;&gt;rt-kits-api2 README&lt;/a&gt;:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;202006
-../get-by-updated-time-question-url-answers-for-arbitrary-time-period.rb &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-2020 6 22 2020 6 25
-&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ..
-&lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;escalate;&quot;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-202006/updated-2020-06-22-2020-06-25-ff-desktop-creator-answers-desktop-all-locales.csv&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-| ./with-title-email-escalations.rb
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-</description>
-        <pubDate>Thu, 25 Jun 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/06/25/p1-how-to-email-list-of-escalated-firefox-support-issues/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/06/25/p1-how-to-email-list-of-escalated-firefox-support-issues/</guid>
         
         
       </item>
