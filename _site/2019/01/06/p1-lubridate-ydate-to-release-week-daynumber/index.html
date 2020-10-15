@@ -66,9 +66,9 @@
 
 <ul>
   <li>Using R and lubridate, I don’t know how to reset the start of the year to be an arbitrary day of the year i.e. the day Firefox is released which is usually a Tuesday and sometimes Wednesday.</li>
-  <li>It would be cool if there was something analogous to <code class="highlighter-rouge">lubridate.week.start</code> e.g. something like <code class="highlighter-rouge">lubridate.year.start</code></li>
+  <li>It would be cool if there was something analogous to <code class="language-plaintext highlighter-rouge">lubridate.week.start</code> e.g. something like <code class="language-plaintext highlighter-rouge">lubridate.year.start</code></li>
   <li>For now I kludged (this doesn’t work if the first 3 weeks of the release spans years e.g. dec 2018-2019 or if there is a leap year) it in <a href="https://github.com/rtanglao/rt-kitsune-api/blob/master/VISUALIZATIONS/plot-antivirus-mentions-by-week.r">plot-antivirus-mentions-by-week.R</a> by subtracting the day of the year and adding 1:</li>
-  <li>e.g. in the following code, if Firefox 62 was released on September 5, 2018 which is yday 248 let’s call it <code class="highlighter-rouge">release_yday</code>, then the days since September 5th is <code class="highlighter-rouge">yday - release_yday + 1</code></li>
+  <li>e.g. in the following code, if Firefox 62 was released on September 5, 2018 which is yday 248 let’s call it <code class="language-plaintext highlighter-rouge">release_yday</code>, then the days since September 5th is <code class="language-plaintext highlighter-rouge">yday - release_yday + 1</code></li>
 </ul>
 
 <div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">base_yday</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">yday</span><span class="p">(</span><span class="n">one_day_of_data_from_mongo</span><span class="p">[</span><span class="m">1</span><span class="p">,</span><span class="s2">"created"</span><span class="p">])</span><span class="w"> 

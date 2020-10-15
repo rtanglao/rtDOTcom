@@ -1,4 +1,4 @@
-I"} <p>tl;dr <a href="http://www.zazzle.com/pd/spp/pt-zazzle_shirt?dz=0520de75-0e70-4233-96ea-7a9fff542a61&amp;clone=true&amp;pending=true&amp;design.areas=%5Bzazzle_shirt_10x12_back%2Czazzle_shirt_10x12_front%5D&amp;color=white&amp;size=a_m&amp;style=champion_mens_premium_mesh_tshirt_t205&amp;CMPN=shareicon&amp;lang=en&amp;social=true&amp;view=113300311085901507&amp;rf=238204589039311962">Click here to see the t-shirt i made on zazzle.com</a></p>
+I"Ô <p>tl;dr <a href="http://www.zazzle.com/pd/spp/pt-zazzle_shirt?dz=0520de75-0e70-4233-96ea-7a9fff542a61&amp;clone=true&amp;pending=true&amp;design.areas=%5Bzazzle_shirt_10x12_back%2Czazzle_shirt_10x12_front%5D&amp;color=white&amp;size=a_m&amp;style=champion_mens_premium_mesh_tshirt_t205&amp;CMPN=shareicon&amp;lang=en&amp;social=true&amp;view=113300311085901507&amp;rf=238204589039311962">Click here to see the t-shirt i made on zazzle.com</a></p>
 
 <h2 id="things-to-consider-for-the-next-graphic">Things to consider for the next graphic</h2>
 
@@ -12,12 +12,12 @@
 <ul>
   <li>1. copy the average hex colour file from
 https://github.com/rtanglao/rt-animated-gifs/blob/master/2016-11-03/flickr-roland-2004-12-avgcolour.txt
-to here: <code class="highlighter-rouge">cp ../rt-animated-gifs/2016-11-03/flickr-roland-2004-12-avgcolour.txt .</code></li>
-  <li>2. <code class="highlighter-rouge">mv flickr-roland-2004-12-avgcolour.txt flickr-roland-2004-12-avgcolour.csv</code> and add line 1 with ‚Äúcolour‚Äù</li>
-  <li>3. <code class="highlighter-rouge">Rscript zazzle-tshirt-flickr2004-12-square-pie-chart.R flickr-roland-2004-12-avgcolour.csv</code></li>
-  <li>4. <code class="highlighter-rouge">head -40000 flickr-roland-2004-12-avgcolour.csv &gt;1st40000-flickr-roland-2004-12-avgcolour.csv</code></li>
-  <li>5. <code class="highlighter-rouge">Rscript zazzle-tshirt-flickr2004-12-square-pie-chart.R 1st40000-flickr-roland-2004-12-avgcolour.csv</code></li>
-  <li>6. <code class="highlighter-rouge">mv r-png-1st40000-flickr-roland-2004-12-avgcolour.png 200-rows-16800x14400-r-png-1st40000-flickr-roland-2004-12-avgcolour.png</code> go to zazzle .com and make tshirts with this graphic, it seems to resize to 2100x1800 from 16800 x 14400</li>
+to here: <code class="language-plaintext highlighter-rouge">cp ../rt-animated-gifs/2016-11-03/flickr-roland-2004-12-avgcolour.txt .</code></li>
+  <li>2. <code class="language-plaintext highlighter-rouge">mv flickr-roland-2004-12-avgcolour.txt flickr-roland-2004-12-avgcolour.csv</code> and add line 1 with ‚Äúcolour‚Äù</li>
+  <li>3. <code class="language-plaintext highlighter-rouge">Rscript zazzle-tshirt-flickr2004-12-square-pie-chart.R flickr-roland-2004-12-avgcolour.csv</code></li>
+  <li>4. <code class="language-plaintext highlighter-rouge">head -40000 flickr-roland-2004-12-avgcolour.csv &gt;1st40000-flickr-roland-2004-12-avgcolour.csv</code></li>
+  <li>5. <code class="language-plaintext highlighter-rouge">Rscript zazzle-tshirt-flickr2004-12-square-pie-chart.R 1st40000-flickr-roland-2004-12-avgcolour.csv</code></li>
+  <li>6. <code class="language-plaintext highlighter-rouge">mv r-png-1st40000-flickr-roland-2004-12-avgcolour.png 200-rows-16800x14400-r-png-1st40000-flickr-roland-2004-12-avgcolour.png</code> go to zazzle .com and make tshirts with this graphic, it seems to resize to 2100x1800 from 16800 x 14400</li>
 </ul>
 
 <h3 id="04december2016-output">04December2016 Output</h3>

@@ -1,7 +1,7 @@
-I"Y<h2 id="pontifications">Pontifications</h2>
+I"<h2 id="pontifications">Pontifications</h2>
 <ul>
   <li>URLS URLS URLS</li>
-  <li>URL encoding is <code class="highlighter-rouge">%xx</code> NOT <code class="highlighter-rouge">%xxx</code> for non roman character sets</li>
+  <li>URL encoding is <code class="language-plaintext highlighter-rouge">%xx</code> NOT <code class="language-plaintext highlighter-rouge">%xxx</code> for non roman character sets</li>
 </ul>
 
 <h3 id="code">Code</h3>

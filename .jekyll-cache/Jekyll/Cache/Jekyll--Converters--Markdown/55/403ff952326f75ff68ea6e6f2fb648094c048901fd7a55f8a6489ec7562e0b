@@ -1,4 +1,4 @@
-I"¥<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>tc &lt;-
+I"¸<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>tc &lt;-
 function(x) {
 return (head(color.id(x),n=1))
 }

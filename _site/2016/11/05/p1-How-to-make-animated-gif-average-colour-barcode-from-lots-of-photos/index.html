@@ -78,43 +78,43 @@
   </li>
   <li>
     <p>#2 Convert 2004-2012 roland flickr thumbnails to one file with 1 average colour RGB hex value per line using imagemagick scaling 10 1px by 1 px (another aside: which is better graphicsmagick or imagemagick?) <br />
-<code class="highlighter-rouge">./printAverageColourHexValueFromDirectory.rb /Users/rtanglao/Dropbox/Public/CCC/DATASETS/09April2012-ROLAND-103K-75x75-FLICKR-PHOTOS/75X75/FILES_SYM_LINKED_SEQUENTIALLY/ &gt; flickr-roland-2004-12-avgcolour.txt</code></p>
+<code class="language-plaintext highlighter-rouge">./printAverageColourHexValueFromDirectory.rb /Users/rtanglao/Dropbox/Public/CCC/DATASETS/09April2012-ROLAND-103K-75x75-FLICKR-PHOTOS/75X75/FILES_SYM_LINKED_SEQUENTIALLY/ &gt; flickr-roland-2004-12-avgcolour.txt</code></p>
   </li>
   <li>
     <p>#3 Split into files 1024 lines long (since we intend to make 1024 pixel wide ‘barcodes’ <br />
-<code class="highlighter-rouge">-a3</code> means 3 digits e.g. 001 and then 002, <code class="highlighter-rouge">-l 1024</code> means 1024 line chunks, <code class="highlighter-rouge">--numeric-suffixes=1</code> means start the file numbering at 1 instead of 0 <br />
- <code class="highlighter-rouge">gsplit -a3 -l 1024 --numeric-suffixes=1  flickr-roland-2004-12-avgcolour.txt 1024line-chunks-flickr-roland-2004-12-avgcolour-</code> (<a href="http://rolandtanglao.com/2016/11/06/p1-linux-core-utilities-instead-of-osx-bsd-utilities/">more info on split/gsplit and GNU utilities on OS X</a>)</p>
+<code class="language-plaintext highlighter-rouge">-a3</code> means 3 digits e.g. 001 and then 002, <code class="language-plaintext highlighter-rouge">-l 1024</code> means 1024 line chunks, <code class="language-plaintext highlighter-rouge">--numeric-suffixes=1</code> means start the file numbering at 1 instead of 0 <br />
+ <code class="language-plaintext highlighter-rouge">gsplit -a3 -l 1024 --numeric-suffixes=1  flickr-roland-2004-12-avgcolour.txt 1024line-chunks-flickr-roland-2004-12-avgcolour-</code> (<a href="http://rolandtanglao.com/2016/11/06/p1-linux-core-utilities-instead-of-osx-bsd-utilities/">more info on split/gsplit and GNU utilities on OS X</a>)</p>
   </li>
   <li>
     <p>#4 move into a separate directory to make things easier and cleaner <br />
-<code class="highlighter-rouge">mkdir 1024FILES; cd !$; mv ../1024line-ch* .</code></p>
+<code class="language-plaintext highlighter-rouge">mkdir 1024FILES; cd !$; mv ../1024line-ch* .</code></p>
   </li>
   <li>
     <p>#5 create a separate directory for images and working files <br />
-<code class="highlighter-rouge">mkdir 1024x512</code></p>
+<code class="language-plaintext highlighter-rouge">mkdir 1024x512</code></p>
   </li>
   <li>
     <p>#6 Change the 1024 pixel file into a 1024x512 pixel file <br />
-<code class="highlighter-rouge">parallel "for i in {1..512};do cat {} &gt;&gt;1024x512/{.}.txt; done" ::: 1024line-chunks-flickr-roland-2004-12*</code></p>
+<code class="language-plaintext highlighter-rouge">parallel "for i in {1..512};do cat {} &gt;&gt;1024x512/{.}.txt; done" ::: 1024line-chunks-flickr-roland-2004-12*</code></p>
   </li>
   <li>
-    <p>#7 <code class="highlighter-rouge">cd 1024x512</code></p>
+    <p>#7 <code class="language-plaintext highlighter-rouge">cd 1024x512</code></p>
   </li>
   <li>
     <p>#8 Turn the files of pixel colours into raw RGB files<br />
-<code class="highlighter-rouge">parallel "xxd -r -p {} {.}.rgb" ::: 1024line-chunks-flickr-roland-2004-12-avgcolour-*.txt</code></p>
+<code class="language-plaintext highlighter-rouge">parallel "xxd -r -p {} {.}.rgb" ::: 1024line-chunks-flickr-roland-2004-12-avgcolour-*.txt</code></p>
   </li>
   <li>
     <p>#9 Convert the RGB raw files into PNG files:  <br />
-<code class="highlighter-rouge">parallel "gm convert -depth 8  -size 1024x512 {} {.}.png" ::: 1024line-chunks-flickr-roland-2004-12-avgcolour-*.rgb</code></p>
+<code class="language-plaintext highlighter-rouge">parallel "gm convert -depth 8  -size 1024x512 {} {.}.png" ::: 1024line-chunks-flickr-roland-2004-12-avgcolour-*.rgb</code></p>
   </li>
   <li>
     <p>#10 This is what we want but unfortunately it’s 45MB! Too big for twitter <br />
-<code class="highlighter-rouge">gm convert -loop 50 -delay 20 *.png flickr2004-12-roland-avg-colour-barcode.gif</code></p>
+<code class="language-plaintext highlighter-rouge">gm convert -loop 50 -delay 20 *.png flickr2004-12-roland-avg-colour-barcode.gif</code></p>
   </li>
   <li>
     <p>#11 Halve the resolution from 1024x512 to 512x256 and then you get a nice 9MB file<br />
-<code class="highlighter-rouge">gm convert -loop 50 -delay 20 -scale 512x256 *.png 512x256-flickr2004-12-roland-avg-colour-barcode.gif</code></p>
+<code class="language-plaintext highlighter-rouge">gm convert -loop 50 -delay 20 -scale 512x256 *.png 512x256-flickr2004-12-roland-avg-colour-barcode.gif</code></p>
   </li>
   <li>
     <p>#12 do a little dance done :-)</p>

@@ -1,7 +1,7 @@
-I"®<h1 id="things-to-note">Things to note:</h1>
+I"Á<h1 id="things-to-note">Things to note:</h1>
 
 <ol>
-  <li>There is a 1 line change to <a href="http://rolandtanglao.com/2016/07/31/p1-simplest-ggplot2-bar-chart-with-colors-as-bar-values/">the previous blog post about the simplest possible bar chart</a> to make the bar cart a pie chart. Just add: <code class="highlighter-rouge">p = p + coord_polar(theta="y", start=0)</code>.</li>
+  <li>There is a 1 line change to <a href="http://rolandtanglao.com/2016/07/31/p1-simplest-ggplot2-bar-chart-with-colors-as-bar-values/">the previous blog post about the simplest possible bar chart</a> to make the bar cart a pie chart. Just add: <code class="language-plaintext highlighter-rouge">p = p + coord_polar(theta="y", start=0)</code>.</li>
   <li>This results in a legend-less pie chart. See <a href="http://rolandtanglao.com/2016/07/31/p3-simplest-ggplot2-pie-chart-with-colors-as-bar-values-and-a-legend/">How to make the simplest possible literal colour as value piechart with a legend</a>.</li>
 </ol>
 

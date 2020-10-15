@@ -1,7 +1,7 @@
-I"�<h1 id="pontifications">Pontifications</h1>
+I"<h1 id="pontifications">Pontifications</h1>
 
 <ul>
-  <li>From <a href="https://rud.is/b/2019/12/27/short-attention-span-theatre-reproducing-axios-1-big-thing-google-trends-2019-news-in-review-with-ggplot2/">Short Attention Span Theatre: Reproducing Axios’ “1 Big Thing” Google Trends 2019 News In Review with {ggplot2}</a>  I gather you can do <a href="https://cran.r-project.org/web/packages/ggridges/vignettes/introduction.html">ggridges</a> fka <code class="highlighter-rouge">ggjoy</code> (<a href="http://rolandtanglao.com/2017/09/10/p1-faceted-daynumber-sixhundred-colurs-r-ggjoy-joyplot-with-colours-and-fill-colour/">previous ggjoy blog post)</a> with <code class="highlighter-rouge">geom_area</code>! I had no idea!</li>
+  <li>From <a href="https://rud.is/b/2019/12/27/short-attention-span-theatre-reproducing-axios-1-big-thing-google-trends-2019-news-in-review-with-ggplot2/">Short Attention Span Theatre: Reproducing Axios’ “1 Big Thing” Google Trends 2019 News In Review with {ggplot2}</a>  I gather you can do <a href="https://cran.r-project.org/web/packages/ggridges/vignettes/introduction.html">ggridges</a> fka <code class="language-plaintext highlighter-rouge">ggjoy</code> (<a href="http://rolandtanglao.com/2017/09/10/p1-faceted-daynumber-sixhundred-colurs-r-ggjoy-joyplot-with-colours-and-fill-colour/">previous ggjoy blog post)</a> with <code class="language-plaintext highlighter-rouge">geom_area</code>! I had no idea!</li>
 </ul>
 
 :ET

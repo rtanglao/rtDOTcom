@@ -1,4 +1,4 @@
-I"#<h2 id="pontifications">Pontifications</h2>
+I"K#<h2 id="pontifications">Pontifications</h2>
 
 <ul>
   <li>See <a href="http://rolandtanglao.com/2017/09/19/p1-ruby-version-of-add-neighbourhood-aka-woename-to-lat-lon/">“Ruby version of getting neighbourhood aka woe_name from lat/lon of instagram 2015 data”</a>.</li>
@@ -29,10 +29,10 @@
 
 <ul>
   <li>
-    <p><code class="highlighter-rouge">~/Downloads/13March2016-instagram-vancouver-top-colour-lat-long-date-2015.csv</code> is the unzipped version of: <a href="https://github.com/rtanglao/rtgram/blob/master/13March2016-instagram-vancouver-top-colour-lat-long-date-2015.csv.gz">https://github.com/rtanglao/rtgram/blob/master/13March2016-instagram-vancouver-top-colour-lat-long-date-2015.csv.gz</a></p>
+    <p><code class="language-plaintext highlighter-rouge">~/Downloads/13March2016-instagram-vancouver-top-colour-lat-long-date-2015.csv</code> is the unzipped version of: <a href="https://github.com/rtanglao/rtgram/blob/master/13March2016-instagram-vancouver-top-colour-lat-long-date-2015.csv.gz">https://github.com/rtanglao/rtgram/blob/master/13March2016-instagram-vancouver-top-colour-lat-long-date-2015.csv.gz</a></p>
   </li>
   <li>
-    <p>and <code class="highlighter-rouge">api_key</code> is <code class="highlighter-rouge">Key:</code> from: <a href="https://www.flickr.com/services/apps/72157622539864558/key/">https://www.flickr.com/services/apps/72157622539864558/key/</a></p>
+    <p>and <code class="language-plaintext highlighter-rouge">api_key</code> is <code class="language-plaintext highlighter-rouge">Key:</code> from: <a href="https://www.flickr.com/services/apps/72157622539864558/key/">https://www.flickr.com/services/apps/72157622539864558/key/</a></p>
   </li>
 </ul>
 

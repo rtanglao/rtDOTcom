@@ -1,4 +1,4 @@
-I"œ<h2 id="pontifications">Pontifications</h2>
+I"¯<h2 id="pontifications">Pontifications</h2>
 
 <p>From <a href="https://github.com/rtanglao/rt-fennec-gplay/blob/master/read-reviews-replies.rb">read-reviews-replies.rb</a> :</p>
 
@@ -7,5 +7,5 @@
 <span class="k">end</span>
 </code></pre></div></div>
 
-<p>where: <code class="highlighter-rouge">rb</code> is read, binary (utf16 files are not text files!)</p>
+<p>where: <code class="language-plaintext highlighter-rouge">rb</code> is read, binary (utf16 files are not text files!)</p>
 :ET

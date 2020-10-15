@@ -1,8 +1,8 @@
-I"Ã<h1 id="pontifications">Pontifications</h1>
+I"é<h1 id="pontifications">Pontifications</h1>
 
 <ul>
   <li>Very similar to this  previous blog post: <a href="http://rolandtanglao.com/2019/01/08/p1-howto-use-r-lubridate-to-compute-arbitrary-daynumber-for-firefox-release/">R and Lubridate: How to add daynumber starting with Firefox release date i.e. Tuesday instead of Sunday or Monday to a dataframe</a></li>
-  <li>Again you could  also use lubridate <code class="highlighter-rouge">durations</code>, but  durations arenâ€™t accurate when you transition  from month to month or year to year so use lubridate <code class="highlighter-rouge">intervals</code> instead</li>
+  <li>Again you could  also use lubridate <code class="language-plaintext highlighter-rouge">durations</code>, but  durations arenâ€™t accurate when you transition  from month to month or year to year so use lubridate <code class="language-plaintext highlighter-rouge">intervals</code> instead</li>
   <li>Hereâ€™s the code from   <a href="https://github.com/rtanglao/rt-4-week-release-cycle/blob/master/january-august2019-plot-num-questions-release-weeks-1-4.R">january-august2019-plot-num-questions-release-weeks-1-4.R</a> :</li>
 </ul>
 

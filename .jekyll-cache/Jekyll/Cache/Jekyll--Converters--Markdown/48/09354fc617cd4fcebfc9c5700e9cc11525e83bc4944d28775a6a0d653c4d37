@@ -1,11 +1,11 @@
-I"��<h2 id="untested-solution-which-i-believe-should-work">Untested solution which I believe should work!</h2>
+I"۟<h2 id="untested-solution-which-i-believe-should-work">Untested solution which I believe should work!</h2>
 
 <div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">letters658</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">make.unique</span><span class="p">(</span><span class="nf">rep</span><span class="p">(</span><span class="nb">letters</span><span class="p">,</span><span class="w"> </span><span class="n">length.out</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">658</span><span class="p">),</span><span class="w"> </span><span class="n">sep</span><span class="o">=</span><span class="s1">''</span><span class="p">)</span><span class="w"> </span><span class="c1">#use letters658 instead of LETTERS R constant</span><span class="w">
 </span></code></pre></div></div>
 
-<p>The above code makes up for the R constant <code class="highlighter-rouge">LETTERS</code> only having 26 levels when R has 657 colours (add 1 since
+<p>The above code makes up for the R constant <code class="language-plaintext highlighter-rouge">LETTERS</code> only having 26 levels when R has 657 colours (add 1 since
 waffle() starts at ‘B’ instead of ‘A’). So having 657 letters will allow all R colours to be plotted safely instead of any colour beyond the 
-first 26 being turned into ‘not a number’ i.e. <code class="highlighter-rouge">NA</code>.</p>
+first 26 being turned into ‘not a number’ i.e. <code class="language-plaintext highlighter-rouge">NA</code>.</p>
 
 <h2 id="tested-solution">Tested Solution</h2>
 <p>waffle(), the R function to compute square bar charts, fails when there are more than 25 levels. Herewith my fixed version!</p>

@@ -1,15 +1,15 @@
-I"Ö<h2 id="pontifications">Pontifications</h2>
+I"ü<h2 id="pontifications">Pontifications</h2>
 <p>The following is just a thought experiment:</p>
 
 <ul>
-  <li>DM a bot to ask for reviews to reply e.g. <code class="highlighter-rouge">/review</code>
+  <li>DM a bot to ask for reviews to reply e.g. <code class="language-plaintext highlighter-rouge">/review</code>
     <ul>
       <li>maybe you get 5-10 reviews</li>
       <li>emoji for skip, emoji for spam, emoji for nonsense reviews</li>
       <li>reply to a review via slackâ€™s reply feature</li>
     </ul>
   </li>
-  <li>DM the same bot to ask for reviews to moderate e.g. <code class="highlighter-rouge">/moderate</code></li>
+  <li>DM the same bot to ask for reviews to moderate e.g. <code class="language-plaintext highlighter-rouge">/moderate</code></li>
   <li>emoji for skip, emjoi for thumbs up, emoji for thumbs down, can, maybe have a command for editing, a review reply</li>
 </ul>
 

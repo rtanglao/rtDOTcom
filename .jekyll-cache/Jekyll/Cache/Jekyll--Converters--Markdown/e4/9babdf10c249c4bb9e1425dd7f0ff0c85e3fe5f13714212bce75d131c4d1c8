@@ -1,4 +1,4 @@
-I"à<h1 id="pontifications">Pontifications</h1>
+I"ó<h1 id="pontifications">Pontifications</h1>
 
 <ul>
   <li>Following up from yesterdayâ€™s <a href="title:" title="R and Lubridate: How to add daynumber starting with Firefox release date i.e. Tuesday to a dataframe">R and Lubridate: Calculating Time Differences in R using intervals aka a better way to compute daynumber starting from arbitrary day of the week</a></li>
@@ -31,7 +31,7 @@
 
 <ul>
   <li>The above ^^^^ is the most accurate and the best way to compute <a href="http://rolandtanglao.com/2019/01/06/p1-lubridate-ydate-to-release-week-daynumber/">daynumber starting at an arbitrary day of the week e.g. Tuesday for Firefox releases</a>! 
-You can also use lubridate <code class="highlighter-rouge">durations</code>, but 
+You can also use lubridate <code class="language-plaintext highlighter-rouge">durations</code>, but 
 durations arenâ€™t accurate when you transition 
 from month to month or year to year</li>
 </ul>

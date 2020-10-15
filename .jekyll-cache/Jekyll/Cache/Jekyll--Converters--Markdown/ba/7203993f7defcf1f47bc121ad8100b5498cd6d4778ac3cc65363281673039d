@@ -1,9 +1,9 @@
-I"n<h2 id="pontifications">Pontifications</h2>
+I"�<h2 id="pontifications">Pontifications</h2>
 
 <ul>
-  <li><code class="highlighter-rouge">gm identify -format "%w %h\n" 0000001-flickr-roland-2004-12-avgcolour.png</code> or if you only have imagemagick then:</li>
-  <li><code class="highlighter-rouge">identify -format "%w %h\n" 0000001-flickr-roland-2004-12-avgcolour.png</code></li>
-  <li>some of the documentation implies that you can format it like printf using something like <code class="highlighter-rouge">%03w</code> to force zero padding with 3 zeroes but I couldn’t get it to work (i tried using imagemagick 6.9, maybe it’s fixed in 7):
+  <li><code class="language-plaintext highlighter-rouge">gm identify -format "%w %h\n" 0000001-flickr-roland-2004-12-avgcolour.png</code> or if you only have imagemagick then:</li>
+  <li><code class="language-plaintext highlighter-rouge">identify -format "%w %h\n" 0000001-flickr-roland-2004-12-avgcolour.png</code></li>
+  <li>some of the documentation implies that you can format it like printf using something like <code class="language-plaintext highlighter-rouge">%03w</code> to force zero padding with 3 zeroes but I couldn’t get it to work (i tried using imagemagick 6.9, maybe it’s fixed in 7):
     <ul>
       <li><a href="https://www.imagemagick.org/Usage/files/">https://www.imagemagick.org/Usage/files/</a></li>
       <li><a href="http://www.imagemagick.org/Usage/files/#save_escapes">http://www.imagemagick.org/Usage/files/#save_escapes</a></li>

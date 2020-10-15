@@ -1,5 +1,5 @@
-I"<p>tl;dr:
-<code class="highlighter-rouge">theme_void()+theme(legend.position = 'none'+
+I")<p>tl;dr:
+<code class="language-plaintext highlighter-rouge">theme_void()+theme(legend.position = 'none'+
 theme(strip.background = element_blank(),strip.text.x = element_blank())+ #turn off facet labels
 scale_fill_manual(values=c("purple", "pink")) #hard code colours</code></p>
 

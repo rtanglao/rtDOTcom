@@ -1,8 +1,8 @@
-I"U<h1 id="pontifications">Pontifications</h1>
+I"h<h1 id="pontifications">Pontifications</h1>
 
 <ul>
   <li>
-    <p>You need to use “hugo” without <code class="highlighter-rouge">server</code> to render the site correctly for production i.e. non localhost</p>
+    <p>You need to use “hugo” without <code class="language-plaintext highlighter-rouge">server</code> to render the site correctly for production i.e. non localhost</p>
 
     <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hugo server <span class="nt">--buildDrafts</span> <span class="nt">--disableFastRender</span>  <span class="nt">--renderToDisk</span> &amp;
 hugo new post/2020-05-08-p1-vancouver-crossings.md

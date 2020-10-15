@@ -1,4 +1,4 @@
-I"Ë<h2 id="pontifications">Pontifications</h2>
+I"Þ<h2 id="pontifications">Pontifications</h2>
 
 <ul>
   <li><a href="http://r4ds.had.co.nz/data-visualisation.html">R for Data Science has the following example in Chapter 1.First</a> Steps.The mpg Data Frame.Creating a ggplot (page 5 of the First Edition):</li>
@@ -20,7 +20,7 @@
 </span></code></pre></div></div>
 <ul>
   <li>[1] I believe you can read from a URL (on github or anywhere!) directly so the following should work too:
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>file = 
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>file = 
 "https://raw.githubusercontent.com/rtanglao/2016-r-rtgram/master/JANUARY2016/january2016-ig-van-avgcolour-id-mf-month-day-daynum-unixtime-hour.csv"
 </code></pre></div>    </div>
   </li>

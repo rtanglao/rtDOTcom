@@ -1,4 +1,4 @@
-I"�<h2 id="pontifications">Pontifications</h2>
+I".<h2 id="pontifications">Pontifications</h2>
 
 <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">result</span> <span class="o">=</span> 
   <span class="n">reviewsColl</span><span class="p">.</span><span class="nf">find</span><span class="p">({</span> <span class="s1">'id'</span> <span class="o">=&gt;</span> <span class="n">r1</span><span class="p">[</span><span class="s2">"id"</span><span class="p">]</span> <span class="p">}).</span><span class="nf">update_one</span><span class="p">(</span>
@@ -7,7 +7,7 @@
 </code></pre></div></div>
 
 <ul>
-  <li>The above code for MongoDB 3.6 with latest ruby driver <code class="highlighter-rouge">upsert</code> doesn’t return <a href="https://stackoverflow.com/questions/13955212/check-if-mongodb-upsert-did-an-insert-or-an-update/13955778">updatedExisting</a> boolean instead it returns <code class="highlighter-rouge">nModified</code>: <code class="highlighter-rouge">1</code> for update, <code class="highlighter-rouge">0</code> for insert</li>
+  <li>The above code for MongoDB 3.6 with latest ruby driver <code class="language-plaintext highlighter-rouge">upsert</code> doesn’t return <a href="https://stackoverflow.com/questions/13955212/check-if-mongodb-upsert-did-an-insert-or-an-update/13955778">updatedExisting</a> boolean instead it returns <code class="language-plaintext highlighter-rouge">nModified</code>: <code class="language-plaintext highlighter-rouge">1</code> for update, <code class="language-plaintext highlighter-rouge">0</code> for insert</li>
 </ul>
 
 <h3 id="update">update:</h3>

@@ -1,4 +1,4 @@
-I"½<h1 id="pontifications">Pontifications</h1>
+I"Ð<h1 id="pontifications">Pontifications</h1>
 
 <ul>
   <li>windows 10 aarch64 lenovo c630 crash 20191020_182618 <a href="http://rolandtanglao.com/2019/10/05/p1-windows10-aarch64-lenovo-c630-crash-last-crash-29september/">last crash October 5</a> roughly 15 days ago</li>
@@ -10,7 +10,7 @@
   <li>Windows 10 Insider Build Fast Ring Version currently is:  <strong>Version 10.0.19002.1002</strong></li>
 </ul>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C:\Users\rtang&gt;ver
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C:\Users\rtang&gt;ver
 
 Microsoft Windows [Version 10.0.18995.1]
 </code></pre></div></div>

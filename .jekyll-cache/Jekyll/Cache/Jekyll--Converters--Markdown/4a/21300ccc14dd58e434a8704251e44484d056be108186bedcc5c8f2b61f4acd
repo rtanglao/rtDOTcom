@@ -1,4 +1,4 @@
-I"n<h2 id="pontifications">Pontifications</h2>
+I"<h2 id="pontifications">Pontifications</h2>
 
 <p>tl;dr Slack is the ultimate “stream tool”; but it’s not a great “garden” tool (<a href="http://rolandtanglao.com/2016/09/24/p1-rolandex-for-my-personal-wiki/">streams versus gardens</a>). But you need conventions and How Tos like <a href="https://slackhq.com/slack-101-onboarding-247454704155#.94g7wqkfn">Slack 101</a>, <a href="https://slackhq.com/slack-102-staying-focused-on-the-right-things-908c154aa6e6#.oibbmx4ok">102</a>, <a href="https://slackhq.com/slack-103-communication-and-culture-c129cd970e78#.16oc6xy7j">103</a> and <a href="https://slackhq.com/how-to-search-in-slack-608536bc7878#.upnshbvis">how to search Slack</a> if you want to go beyond late 1980s chat. It’s not great for accumulating knowledge like a gardening tool e.g. a wiki.</p>
 
@@ -12,7 +12,7 @@ Unlike email, you don’t need to remember who sent what, when, or exactly what 
   <li>“If what you’re looking for is in your current channel, hit command/control + F to pre-populate search to just that channel. Once you find a message, click “Jump” to go back in time and view it with full context.”</li>
   <li>
     <ul>
-      <li>“Use stars to keep track of important messages or files you may want to look back on, and search <code class="highlighter-rouge">has:star</code> “</li>
+      <li>“Use stars to keep track of important messages or files you may want to look back on, and search <code class="language-plaintext highlighter-rouge">has:star</code> “</li>
     </ul>
   </li>
 </ul>
@@ -25,7 +25,7 @@ Unlike email, you don’t need to remember who sent what, when, or exactly what 
 
 <ul>
   <li>use channel naming conventions for: announcements regional and national, new GA features, new internal only features, teams, triages, feature launches, software launches and help</li>
-  <li>search! don’t forget to use  <code class="highlighter-rouge">has:star, has:(reaction emoji name)</code></li>
+  <li>search! don’t forget to use  <code class="language-plaintext highlighter-rouge">has:star, has:(reaction emoji name)</code></li>
   <li>mark important messages with a star</li>
   <li>mark important people with a star</li>
   <li>emoji are frosting not cake, i.e. sentences should be comprehensible if folks don’t understand the emoji</li>
@@ -39,7 +39,7 @@ Unlike email, you don’t need to remember who sent what, when, or exactly what 
   <li>customize highlight words for not so important channels</li>
   <li>make sure your mobile notifications settings are correct</li>
   <li>“For your most vital channels, you’ll want to set custom notification levels to the highest setting. For example, my fellow writers at Slack all sit in #team-editorial and I am notified on any activity because that’s where our most important discussions take place.”</li>
-  <li>mute <code class="highlighter-rouge">random</code> :-) “On the flip side, feel free to mute any channels you feel are important enough to periodically check, but not so important that you need them to pop up as unread in your sidebar. “</li>
+  <li>mute <code class="language-plaintext highlighter-rouge">random</code> :-) “On the flip side, feel free to mute any channels you feel are important enough to periodically check, but not so important that you need them to pop up as unread in your sidebar. “</li>
   <li>use the keyboard shortcuts: “The other combo worth knowing is ⌘-[ to go back in your channel history and ⌘-] to go forward (cntrl-[ and cntrl-] on Windows and Linux). They operate just like back/forward buttons in web browsers. “</li>
   <li><a href="https://get.slack.help/hc/en-us/articles/201259356-Slash-commands">Use reminders and other slash commands</a></li>
 </ul>
@@ -50,10 +50,10 @@ Unlike email, you don’t need to remember who sent what, when, or exactly what 
 
 <ul>
   <li>Default to communicate in public channels</li>
-  <li>Minimize <code class="highlighter-rouge">@everyone</code>, <code class="highlighter-rouge">@channel</code>, and <code class="highlighter-rouge">@here</code></li>
-  <li>“in busy channels to <code class="highlighter-rouge">search before you ask.</code> “</li>
+  <li>Minimize <code class="language-plaintext highlighter-rouge">@everyone</code>, <code class="language-plaintext highlighter-rouge">@channel</code>, and <code class="language-plaintext highlighter-rouge">@here</code></li>
+  <li>“in busy channels to <code class="language-plaintext highlighter-rouge">search before you ask.</code> “</li>
   <li>“Our rule of thumb is if you need to send a message outside of the recipient’s normal working hours, there is no expectation of an immediate reply.”</li>
-  <li>” We use the term “raccoon” (and an associated custom emoji) to denote when a discussion should take place in another channel. “ I love the idea of a raccooning when you are on the wrong channel e.g. <code class="highlighter-rouge">Let's raccoon to #triage-ops</code></li>
+  <li>” We use the term “raccoon” (and an associated custom emoji) to denote when a discussion should take place in another channel. “ I love the idea of a raccooning when you are on the wrong channel e.g. <code class="language-plaintext highlighter-rouge">Let's raccoon to #triage-ops</code></li>
 </ul>
 
 :ET

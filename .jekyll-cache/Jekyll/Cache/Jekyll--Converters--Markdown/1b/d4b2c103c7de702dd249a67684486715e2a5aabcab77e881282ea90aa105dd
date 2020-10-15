@@ -1,12 +1,12 @@
-I"	 <h2 id="combinator-exercise-page-48-and-49">Combinator Exercise page 48 and 49:</h2>
+I""<h2 id="combinator-exercise-page-48-and-49">Combinator Exercise page 48 and 49:</h2>
 
 <ul>
-  <li>1) <code class="highlighter-rouge">𝜆𝑥.𝑥𝑥𝑥</code> - yes this is a combinator</li>
-  <li>2) <code class="highlighter-rouge">𝜆𝑥𝑦.𝑧𝑥</code> - NOT a combinator since <code class="highlighter-rouge">z</code> is a free variable</li>
+  <li>1) <code class="language-plaintext highlighter-rouge">𝜆𝑥.𝑥𝑥𝑥</code> - yes this is a combinator</li>
+  <li>2) <code class="language-plaintext highlighter-rouge">𝜆𝑥𝑦.𝑧𝑥</code> - NOT a combinator since <code class="language-plaintext highlighter-rouge">z</code> is a free variable</li>
   <li>3) Yes this is a combinator:</li>
 </ul>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>𝜆xyz.xy(zx)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>𝜆xyz.xy(zx)
 𝜆x.𝜆y.𝜆z.xy(zx)
 [x := zx]𝜆y.𝜆z.xy
 𝜆y.𝜆z.zxxy
@@ -16,7 +16,7 @@
   <li>4) Yes this is a combinator:</li>
 </ul>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>𝜆xyz.xy(zxy)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>𝜆xyz.xy(zxy)
 𝜆x.𝜆y.𝜆z.xy(zxy)
 [x := zxy]𝜆y.𝜆z.xy
 𝜆y.𝜆z.zxyxy
@@ -26,7 +26,7 @@
   <li>5) NOT  a a combinator (lesson learned: <strong>you have to look at what’s passed in to see if it’s a combinator</strong>):</li>
 </ul>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>𝜆xy.xy(zxy)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>𝜆xy.xy(zxy)
 𝜆x.𝜆y.xy(zxy)
 [x := zxy]𝜆y.xy
 𝜆y.zxyy
@@ -39,7 +39,7 @@
 <h2 id="normal-form-or-diverge-page-49">Normal form or diverge? page 49</h2>
 
 <ul>
-  <li>1) <code class="highlighter-rouge">𝜆X.XXX</code> - normal form because it stabilizes at the value of whatever input value is passed in repeated 3 times e.g. <code class="highlighter-rouge">3</code> becomes <code class="highlighter-rouge">333</code> and stays <code class="highlighter-rouge">333</code></li>
+  <li>1) <code class="language-plaintext highlighter-rouge">𝜆X.XXX</code> - normal form because it stabilizes at the value of whatever input value is passed in repeated 3 times e.g. <code class="language-plaintext highlighter-rouge">3</code> becomes <code class="language-plaintext highlighter-rouge">333</code> and stays <code class="language-plaintext highlighter-rouge">333</code></li>
   <li>2) Diverges!</li>
 </ul>
 
@@ -47,7 +47,7 @@
 (𝜆Y.YY)(𝜆Y.YY)
 </code></pre>
 <ul>
-  <li>3) <code class="highlighter-rouge">(𝜆x.xxx)z</code> -normal form because this evaluates to <code class="highlighter-rouge">zzz</code></li>
+  <li>3) <code class="language-plaintext highlighter-rouge">(𝜆x.xxx)z</code> -normal form because this evaluates to <code class="language-plaintext highlighter-rouge">zzz</code></li>
 </ul>
 
 <h3 id="if-you-are-on-mobile-heres-a-screenshot-1">If you are on mobile, here’s a screenshot:</h3>
@@ -57,10 +57,10 @@
 <h2 id="beta-reduce-page-49">Beta Reduce page 49</h2>
 
 <ul>
-  <li>1)  final value: <code class="highlighter-rouge">z</code></li>
+  <li>1)  final value: <code class="language-plaintext highlighter-rouge">z</code></li>
 </ul>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(𝜆abc.cba)zz(𝜆wv.w) 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(𝜆abc.cba)zz(𝜆wv.w) 
 (𝜆a.𝜆b.𝜆c.cba)(z)z(𝜆w.𝜆v.w) # first z becomes argument
 [a := z] (𝜆b.𝜆c.cba) z (𝜆w.𝜆v.w)
 (𝜆b.𝜆c.cbz) (z) (𝜆w.𝜆v.w)
@@ -75,10 +75,10 @@ z
 </code></pre></div></div>
 
 <ul>
-  <li>2) final value: <code class="highlighter-rouge">bb</code></li>
+  <li>2) final value: <code class="language-plaintext highlighter-rouge">bb</code></li>
 </ul>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(𝜆x.𝜆y.xyy)(𝜆a.a)b
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(𝜆x.𝜆y.xyy)(𝜆a.a)b
 [x := (𝜆a.a)]𝜆y.xyyb
 𝜆y.(𝜆a.a)yy(b)
 [y := b](𝜆a.a)yy
@@ -87,10 +87,10 @@ z
 bb
 </code></pre></div></div>
 <ul>
-  <li>3) final value:<code class="highlighter-rouge">qq</code></li>
+  <li>3) final value:<code class="language-plaintext highlighter-rouge">qq</code></li>
 </ul>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(𝜆y.y)(𝜆x.xx)(𝜆z.zq)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(𝜆y.y)(𝜆x.xx)(𝜆z.zq)
 [y := (𝜆x.xx)]y(𝜆z.zq)
 (𝜆x.xx)(𝜆z.zq)
 [x := (𝜆z.zq)]xx
@@ -101,13 +101,13 @@ bb
 qq
 </code></pre></div></div>
 <ul>
-  <li>4) <code class="highlighter-rouge">(𝜆z.z)(𝜆z.zz)(𝜆z.zy)</code>
-Hint: alpha equivalence. If i follow the hint let’s try: <code class="highlighter-rouge">(𝜆z.z)(𝜆a.aa)(𝜆b.bc)</code>
-This reduces to final value: <code class="highlighter-rouge">cc</code>
+  <li>4) <code class="language-plaintext highlighter-rouge">(𝜆z.z)(𝜆z.zz)(𝜆z.zy)</code>
+Hint: alpha equivalence. If i follow the hint let’s try: <code class="language-plaintext highlighter-rouge">(𝜆z.z)(𝜆a.aa)(𝜆b.bc)</code>
+This reduces to final value: <code class="language-plaintext highlighter-rouge">cc</code>
 Here is the reduction:</li>
 </ul>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(𝜆z.z)(𝜆a.aa)(𝜆b.bc)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(𝜆z.z)(𝜆a.aa)(𝜆b.bc)
 [z := (𝜆a.aa)]z(𝜆b.bc)
 (𝜆a.aa)(𝜆b.bc)
 [a := (𝜆b.bc)]aa
@@ -119,11 +119,11 @@ cc
 </code></pre></div></div>
 
 <ul>
-  <li>5)  final value: <code class="highlighter-rouge">yy</code>
+  <li>5)  final value: <code class="language-plaintext highlighter-rouge">yy</code>
 detailed reduction:</li>
 </ul>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(𝜆x.𝜆y.xyy)(𝜆y.y)y
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(𝜆x.𝜆y.xyy)(𝜆y.y)y
 [x := (𝜆y.y)]𝜆y.xyy(y)
 (𝜆y.(𝜆y.y)yy)(y)
 [y := y](𝜆y.y)y(y)
@@ -132,11 +132,11 @@ detailed reduction:</li>
 yy
 </code></pre></div></div>
 <ul>
-  <li>6) final value: <code class="highlighter-rouge">b(𝜆a.ba)c</code>
+  <li>6) final value: <code class="language-plaintext highlighter-rouge">b(𝜆a.ba)c</code>
 detailed reduction:</li>
 </ul>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(𝜆a.aa)(𝜆b.ba)c
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(𝜆a.aa)(𝜆b.ba)c
 [a := (𝜆b.ba)]aac
 (𝜆b.ba)(𝜆b.ba)c
 [b := (𝜆b.ba)]bac
@@ -145,11 +145,11 @@ detailed reduction:</li>
 aac
 </code></pre></div></div>
 <ul>
-  <li>7) final value: <code class="highlighter-rouge">(𝜆z1.za)</code>
+  <li>7) final value: <code class="language-plaintext highlighter-rouge">(𝜆z1.za)</code>
 detailed reduction:</li>
 </ul>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(𝜆xyz.xz(yz))(𝜆x.z)(𝜆x.a)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(𝜆xyz.xz(yz))(𝜆x.z)(𝜆x.a)
 (𝜆x.𝜆y.𝜆z.xz(yz))(𝜆x.z)(𝜆x.a) # rename z to z1 before substituting in next step for less confusion
 [x := (𝜆x.z)]𝜆y.𝜆z1.xz(yz1)(𝜆x.a)
 (𝜆y.𝜆z1.(𝜆x.z)z1(yz1)(𝜆x.a)

@@ -1,4 +1,4 @@
-I"q0<h2 id="pontifications">Pontifications</h2>
+I"�0<h2 id="pontifications">Pontifications</h2>
 
 <ul>
   <li>See <a href="http://rolandtanglao.com/2017/09/08/p1-faceted-r-ggjoy-joyplot-with-colours-and-fill-colour/">previous blog post using string colour name</a> (colour name starting with ‘a’ on bottom and ‘w’ on top i.e. ‘w’ for white</li>
@@ -13,7 +13,7 @@
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> /Users/rtanglao/Dropbox/GIT/2016-r-rtgram/JANUARY2016
 Rscript ../sixhundred-colour-int-makeZazzleGraphic-ig-van-jan2016-avg-colour-ggjoy.R 
 </code></pre></div></div>
-<p>(output is: <code class="highlighter-rouge">&lt;unix_time_in_seconds&gt;-sixhundred-colour-int-makeZazzleGraphic-ig-van-jan2016-avg-colour-ggjoy.png</code>)</p>
+<p>(output is: <code class="language-plaintext highlighter-rouge">&lt;unix_time_in_seconds&gt;-sixhundred-colour-int-makeZazzleGraphic-ig-van-jan2016-avg-colour-ggjoy.png</code>)</p>
 
 <p>From <a href="https://github.com/rtanglao/2016-r-rtgram/blob/master/sixhundred-colour-int-makeZazzleGraphic-ig-van-jan2016-avg-colour-ggjoy.R">https://github.com/rtanglao/2016-r-rtgram/blob/master/sixhundred-colour-int-makeZazzleGraphic-ig-van-jan2016-avg-colour-ggjoy.R</a></p>
 

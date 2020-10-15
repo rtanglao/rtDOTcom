@@ -1,6 +1,6 @@
-I"ï<p>Saving for later:</p>
+I"<p>Saving for later:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a = Hash.new(0)
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a = Hash.new(0)
 a[4]=2
 a[1]=3
 a[555] = 20

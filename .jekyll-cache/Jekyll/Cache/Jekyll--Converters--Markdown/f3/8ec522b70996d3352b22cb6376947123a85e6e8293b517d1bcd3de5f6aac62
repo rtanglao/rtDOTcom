@@ -1,9 +1,9 @@
-I"Ð&<h2 id="pontifications">Pontifications</h2>
+I"ö&<h2 id="pontifications">Pontifications</h2>
 
 <ul>
   <li>one krazy idea would be to plot number of support questions by hour and day by operating system and send an alert if they vary say by more than plus/minus 20% than the previous day&lt;â€” i did this on a daily basis for Thunderbird back in 2010 for email providers</li>
   <li>Donâ€™t know how I ended up at <a href="https://stackoverflow.com/questions/29357612/plot-labels-at-ends-of-lines">Plot labels from ends of lines on stackoverflow</a>  but from it I learned that the R package <a href="http://directlabels.r-forge.r-project.org/">directlabels</a>  allows you label end of lines in ggplot2</li>
-  <li>And <code class="highlighter-rouge">group_by()</code> allows you to group by multiple variables e.g. <code class="highlighter-rouge">group_by(os, week)</code> allows you to group by operating system and week which is how you plot by OS and week</li>
+  <li>And <code class="language-plaintext highlighter-rouge">group_by()</code> allows you to group by multiple variables e.g. <code class="language-plaintext highlighter-rouge">group_by(os, week)</code> allows you to group by operating system and week which is how you plot by OS and week</li>
   <li>This allows me to make <a href="http://rolandtanglao.com/2018/09/27/p1-firefox62-operating-system-line-graph-sumo-support-questions-first-3-weeks/">last weekâ€™s FF62 operating system plot</a> more legible by labelling the OS lines individually.</li>
 </ul>
 

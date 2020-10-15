@@ -1,9 +1,9 @@
-I"�<h2 id="pontifications">Pontifications</h2>
+I"�<h2 id="pontifications">Pontifications</h2>
 
 <ul>
-  <li><strong>UPDATE</strong>: I think I figured it out. I need to remove <code class="highlighter-rouge">n&lt;=5</code> over each 1 hour period of the 24 hour period not over the entire 24 hour time period of the data set.</li>
+  <li><strong>UPDATE</strong>: I think I figured it out. I need to remove <code class="language-plaintext highlighter-rouge">n&lt;=5</code> over each 1 hour period of the 24 hour period not over the entire 24 hour time period of the data set.</li>
   <li>Not statistically valid :-) again :-) again :-)</li>
-  <li>I don’t like this version aesthetically, I envisioned 24 versions of <a href="http://rolandtanglao.com/2017/09/02/p2-0.0012version-is-better-density-plot-corrupted-for-art/">the previous blog post aka y axis limited to <code class="highlighter-rouge">0.0012</code> for hour 0</a> but I tried to use 0.0012 and it didn’t look good.</li>
+  <li>I don’t like this version aesthetically, I envisioned 24 versions of <a href="http://rolandtanglao.com/2017/09/02/p2-0.0012version-is-better-density-plot-corrupted-for-art/">the previous blog post aka y axis limited to <code class="language-plaintext highlighter-rouge">0.0012</code> for hour 0</a> but I tried to use 0.0012 and it didn’t look good.</li>
   <li>I guess I need to look at a real density plot :-) somehow</li>
 </ul>
 

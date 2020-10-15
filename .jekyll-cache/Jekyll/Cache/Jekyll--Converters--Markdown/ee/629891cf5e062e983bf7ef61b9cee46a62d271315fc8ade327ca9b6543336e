@@ -1,4 +1,4 @@
-I"Ð<h2 id="pontifications">Pontifications</h2>
+I"ö<h2 id="pontifications">Pontifications</h2>
 
 <ul>
   <li><a href="http://rolandtanglao.com/2017/08/07/p1-mpg-scatterplot-average-colour-instagram-r-data-science/">Part 1</a>, <a href="http://rolandtanglao.com/2017/08/07/p2-part2-create-csv-files-with-plotrix-colour-names/">Part 2</a>, <a href="http://rolandtanglao.com/2017/08/07/p3-part3-create-naive-scatterplot-with-colournames/">Part 3</a>, <a href="http://rolandtanglao.com/2017/08/07/p4-part4-ig-van-jan2016-colour-the-dots-with-the-right-colour-name/">part 4</a></li>
@@ -23,7 +23,7 @@
 </span></code></pre></div></div>
 
 <ul>
-  <li>Hereâ€™s the code to remove the chrome: <code class="highlighter-rouge">theme_void</code>and <code class="highlighter-rouge">theme(legend.position = 'none') +
+  <li>Hereâ€™s the code to remove the chrome: <code class="language-plaintext highlighter-rouge">theme_void</code>and <code class="language-plaintext highlighter-rouge">theme(legend.position = 'none') +
 theme(strip.background = element_blank(),strip.text.x = element_blank())</code></li>
   <li>This RScript was invoked as follows:</li>
 </ul>

@@ -1,11 +1,11 @@
-I"Ú<h2 id="pontifications">Pontifications</h2>
+I"í<h2 id="pontifications">Pontifications</h2>
 
 <ul>
   <li>Beyond <a href="http://rolandtanglao.com/2018/09/22/p1-launchy-works-on-wsl-if-you-set-browser-environment-variable/">mere opening Firefox tabs from WSL</a>, You can launch Firefox using Geckodriver from WSL, hereâ€™s a chat about <a href="https://twitter.com/hwine">Hal Wine</a> â€˜s code.</li>
   <li>Hal wrote in chat:</li>
 </ul>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>I did a python module to login to GitHub with 2FA: 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>I did a python module to login to GitHub with 2FA: 
 https://github.com/mozilla/GitHub_Selenium/blob/master/github_selenium/__init__.py
 
 which is called from: 

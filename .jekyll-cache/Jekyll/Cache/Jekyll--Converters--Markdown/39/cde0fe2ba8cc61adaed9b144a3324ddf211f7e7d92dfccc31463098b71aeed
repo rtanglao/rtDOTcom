@@ -1,7 +1,7 @@
-I"I<h1 id="pontifications">Pontifications</h1>
+I"o<h1 id="pontifications">Pontifications</h1>
 
 <ul>
-  <li>Combining multiple CSV files with the same headers is easy using <code class="highlighter-rouge">head -1</code> and <code class="highlighter-rouge">sed 1d</code>!</li>
+  <li>Combining multiple CSV files with the same headers is easy using <code class="language-plaintext highlighter-rouge">head -1</code> and <code class="language-plaintext highlighter-rouge">sed 1d</code>!</li>
 </ul>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">head</span> <span class="nt">-1</span> file1.csv <span class="o">&gt;</span> final.csv

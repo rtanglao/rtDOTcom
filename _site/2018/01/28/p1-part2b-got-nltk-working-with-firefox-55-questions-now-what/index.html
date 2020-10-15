@@ -83,8 +83,8 @@
 <span class="kn">from</span> <span class="nn">nltk</span> <span class="kn">import</span> <span class="n">bigrams</span><span class="p">,</span> <span class="n">trigrams</span>
 <span class="kn">import</span> <span class="nn">fileinput</span>
 <span class="n">raw</span> <span class="o">=</span> <span class="s">""</span>
-<span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">fileinput</span><span class="o">.</span><span class="nb">input</span><span class="p">():</span>
-    <span class="n">raw</span> <span class="o">+=</span> <span class="n">line</span><span class="o">.</span><span class="n">rstrip</span><span class="p">()</span>
+<span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">fileinput</span><span class="p">.</span><span class="nb">input</span><span class="p">():</span>
+    <span class="n">raw</span> <span class="o">+=</span> <span class="n">line</span><span class="p">.</span><span class="n">rstrip</span><span class="p">()</span>
     <span class="n">raw</span> <span class="o">+=</span> <span class="s">' '</span>
 <span class="n">tokens</span> <span class="o">=</span> <span class="n">word_tokenize</span><span class="p">(</span><span class="n">raw</span><span class="p">)</span>
 <span class="n">tokens_bigrams</span> <span class="o">=</span> <span class="n">bigrams</span><span class="p">(</span><span class="n">tokens</span><span class="p">)</span>

@@ -1,4 +1,4 @@
-I"E)<h2 id="pontifications">Pontifications</h2>
+I"�)<h2 id="pontifications">Pontifications</h2>
 
 <ul>
   <li>I’m just trying to scrape the London Drug’s photowebsite to download all photos at a time instead of laboriously one at at time.</li>
@@ -6,7 +6,7 @@
   <li>But scraping an Angular site like LD’s photo website is a nightmare.</li>
   <li>Firefox developer tools:
     <ul>
-      <li><code class="highlighter-rouge">Right Click</code>-&gt;<code class="highlighter-rouge">Inspect Element</code> and <code class="highlighter-rouge">copy</code>-&gt;<code class="highlighter-rouge">Xpath</code> is your friend</li>
+      <li><code class="language-plaintext highlighter-rouge">Right Click</code>-&gt;<code class="language-plaintext highlighter-rouge">Inspect Element</code> and <code class="language-plaintext highlighter-rouge">copy</code>-&gt;<code class="language-plaintext highlighter-rouge">Xpath</code> is your friend</li>
     </ul>
   </li>
 </ul>

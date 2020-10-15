@@ -1,4 +1,4 @@
-I"v<h2 id="pontifications">Pontifications</h2>
+I"‰<h2 id="pontifications">Pontifications</h2>
 
 <ul>
   <li>Like the <a href="http://rolandtanglao.com/2018/09/12/p1-kitsune-answer-api/">answer API</a> this was discovered in <a href="https://github.com/jscher2000/My-SuMo-Questions/blob/master/myq.html">jscher2000â€™s myq.html code</a>!</li>
@@ -7,7 +7,7 @@
       <li>sample question API json response: <a href="https://github.com/rtanglao/rt-kitsune-api/blob/master/sample-question-api-result.md">https://github.com/rtanglao/rt-kitsune-api/blob/master/sample-question-api-result.md</a></li>
     </ul>
   </li>
-  <li>API is:<code class="highlighter-rouge">https://support.mozilla.org/api/2/question/?format=json&amp;product=firefox&amp;locale=en-US</code></li>
+  <li>API is:<code class="language-plaintext highlighter-rouge">https://support.mozilla.org/api/2/question/?format=json&amp;product=firefox&amp;locale=en-US</code></li>
 </ul>
 
 :ET

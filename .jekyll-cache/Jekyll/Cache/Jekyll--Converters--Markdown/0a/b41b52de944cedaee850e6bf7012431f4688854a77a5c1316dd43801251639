@@ -1,11 +1,11 @@
-I"	<h1 id="pontifications">Pontifications</h1>
+I"@	<h1 id="pontifications">Pontifications</h1>
 
 <ul>
   <li>
     <p>Did you spot the typo from yesterday’s <a href="http://rolandtanglao.com/2019/11/26/p1-zazzle-berlin-july-2019-info-graphic-circular-150-pixel-thumbnails/">Zazzle infographic from Berlin July 2019 - 150px circular thumbnail from 168 thumbnails (12x14 = 1800px2100px)</a>?</p>
   </li>
   <li>
-    <p>Yes <code class="highlighter-rouge">ls -1tr</code> instead of <code class="highlighter-rouge">ls -1</code> because the latter sorts by name instead of by time created which means yesterday’s infographic was chronologically sorted instead of randomly sorted. Obviously I prefer the randomly sorted :-) #ymmv</p>
+    <p>Yes <code class="language-plaintext highlighter-rouge">ls -1tr</code> instead of <code class="language-plaintext highlighter-rouge">ls -1</code> because the latter sorts by name instead of by time created which means yesterday’s infographic was chronologically sorted instead of randomly sorted. Obviously I prefer the randomly sorted :-) #ymmv</p>
   </li>
 </ul>
 

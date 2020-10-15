@@ -66,12 +66,12 @@
 
 <ul>
   <li>Followup from <a href="http://rolandtanglao.com/2017/09/15/p1-ggmap-to-show-blank-spots-for-other-neighbourhoods/">R ggmap faceted by vancouver neighborhoods, just need lat/lon to Vancouver neighborhood function</a>:</li>
-  <li>The following YQL and REST queries gives me WOEID from lat, long, e.g. <code class="highlighter-rouge">23405270</code></li>
+  <li>The following YQL and REST queries gives me WOEID from lat, long, e.g. <code class="language-plaintext highlighter-rouge">23405270</code></li>
   <li>Then <a href="https://www.flickr.com/services/api/explore/flickr.places.getInfo">find the neighborhood name from the WOEID</a> using this query:
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://api.flickr.com/services/rest/?method=flickr.places.getInfo&amp;api_key=&lt;api_key&gt;&amp;woe_id=23405270&amp;format=json
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://api.flickr.com/services/rest/?method=flickr.places.getInfo&amp;api_key=&lt;api_key&gt;&amp;woe_id=23405270&amp;format=json
 </code></pre></div>    </div>
   </li>
-  <li>which in this case for <code class="highlighter-rouge">23405270</code> is <code class="highlighter-rouge">place" -&gt;"woe_name":</code>West End```:</li>
+  <li>which in this case for <code class="language-plaintext highlighter-rouge">23405270</code> is <code class="language-plaintext highlighter-rouge">place" -&gt;"woe_name":</code>West End```:</li>
 </ul>
 
 <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">jsonFlickrApi(</span><span class="p">{</span><span class="w"> </span><span class="nl">"place"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nl">"place_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"EPQ.yiVTUb7YazWQlg"</span><span class="p">,</span><span class="w"> </span><span class="nl">"woeid"</span><span class="p">:</span><span class="w"> </span><span class="s2">"23405270"</span><span class="p">,</span><span class="w"> </span><span class="nl">"latitude"</span><span class="p">:</span><span class="w"> </span><span class="mf">49.284</span><span class="p">,</span><span class="w"> </span><span class="nl">"longitude"</span><span class="p">:</span><span class="w"> </span><span class="mf">-123.135</span><span class="p">,</span><span class="w"> </span><span class="nl">"place_url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"</span><span class="se">\/</span><span class="s2">Canada</span><span class="se">\/</span><span class="s2">British+Columbia</span><span class="se">\/</span><span class="s2">Vancouver</span><span class="se">\/</span><span class="s2">West+End"</span><span class="p">,</span><span class="w"> </span><span class="nl">"place_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"neighbourhood"</span><span class="p">,</span><span class="w"> </span><span class="nl">"place_type_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">22</span><span class="p">,</span><span class="w"> </span><span class="nl">"timezone"</span><span class="p">:</span><span class="w"> </span><span class="s2">"America</span><span class="se">\/</span><span class="s2">Vancouver"</span><span class="p">,</span><span class="w"> </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"West End, Vancouver, BC, CA, Canada"</span><span class="p">,</span><span class="w"> </span><span class="nl">"woe_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"West End"</span><span class="p">,</span><span class="w"> 
@@ -91,17 +91,17 @@
 
 <h3 id="yql">YQL</h3>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://developer.yahoo.com/yql/console/#h=select+place.woeid+from+flickr.places+where+api_key+%3D++%22&lt;api_key&gt;%22++and+lat%3D49.285648+and+lon%3D-123.139954
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://developer.yahoo.com/yql/console/#h=select+place.woeid+from+flickr.places+where+api_key+%3D++%22&lt;api_key&gt;%22++and+lat%3D49.285648+and+lon%3D-123.139954
 </code></pre></div></div>
 
-<p>where <code class="highlighter-rouge">api_key</code> is the <code class="highlighter-rouge">key</code> found at: <a href="https://www.flickr.com/services/apps/72157622539864558/key/">https://www.flickr.com/services/apps/72157622539864558/key/</a></p>
+<p>where <code class="language-plaintext highlighter-rouge">api_key</code> is the <code class="language-plaintext highlighter-rouge">key</code> found at: <a href="https://www.flickr.com/services/apps/72157622539864558/key/">https://www.flickr.com/services/apps/72157622539864558/key/</a></p>
 
 <h3 id="rest">REST</h3>
 
 <p>(or <a href="https://www.flickr.com/services/api/explore/flickr.places.findByLatLon">https://www.flickr.com/services/api/explore/flickr.places.findByLatLon</a> )</p>
 
 <p>https://query.yahooapis.com/v1/public/yql?q=select%20place.woeid%20from%20flickr.places%20where%20api_key%20%3D%20%20%22&lt;api_key%22%20%20and%20lat%3D49.285648%20and%20lon%3D-123.139954&amp;format=json&amp;diagnostics=true&amp;callback=</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
 ### Result
 
 ```json

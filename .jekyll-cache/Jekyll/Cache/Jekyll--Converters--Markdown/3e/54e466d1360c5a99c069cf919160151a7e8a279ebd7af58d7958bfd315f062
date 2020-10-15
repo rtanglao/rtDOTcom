@@ -1,4 +1,4 @@
-I"|<h2 id="pontifications">Pontifications</h2>
+I"<h2 id="pontifications">Pontifications</h2>
 
 <ul>
   <li><a href="http://rolandtanglao.com/2017/08/07/p1-mpg-scatterplot-average-colour-instagram-r-data-science/">Part 1</a></li>
@@ -21,9 +21,9 @@
               </span><span class="s2">"january2016-ig-van-avgcolour-id-mf-month-day-daynum-unixtime-hour-colourname.csv"</span><span class="p">)</span><span class="w">
 </span></code></pre></div></div>
 <ul>
-  <li><code class="highlighter-rouge">%&gt;%</code> is like the unix pipe operator</li>
-  <li><code class="highlighter-rouge">rowwise()</code> is required to repeat the function call on each row, without <code class="highlighter-rouge">rowwise()</code> you’ll just repeat it row 1 repeatedly i.e. get the same value each time, the value of <code class="highlighter-rouge">tc</code> applied to the first row !</li>
-  <li><code class="highlighter-rouge">mutate</code> adds the <code class="highlighter-rouge">colourname</code> column by computing the colourname from the hexadecimal colour using the <code class="highlighter-rouge">color.id</code> function from the <code class="highlighter-rouge">plotrix</code> package</li>
+  <li><code class="language-plaintext highlighter-rouge">%&gt;%</code> is like the unix pipe operator</li>
+  <li><code class="language-plaintext highlighter-rouge">rowwise()</code> is required to repeat the function call on each row, without <code class="language-plaintext highlighter-rouge">rowwise()</code> you’ll just repeat it row 1 repeatedly i.e. get the same value each time, the value of <code class="language-plaintext highlighter-rouge">tc</code> applied to the first row !</li>
+  <li><code class="language-plaintext highlighter-rouge">mutate</code> adds the <code class="language-plaintext highlighter-rouge">colourname</code> column by computing the colourname from the hexadecimal colour using the <code class="language-plaintext highlighter-rouge">color.id</code> function from the <code class="language-plaintext highlighter-rouge">plotrix</code> package</li>
   <li>This RScript was invoked as follows:</li>
 </ul>
 

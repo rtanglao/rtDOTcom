@@ -1,8 +1,8 @@
-I"U<h2 id="pontifications">Pontifications</h2>
+I"{<h2 id="pontifications">Pontifications</h2>
 
 <ul>
   <li>Had to Reboot my Surface Book 2 again (twice in two weeks) to get WiFi working</li>
-  <li>The <code class="highlighter-rouge">ipconfig /release</code> and then <code class="highlighter-rouge">ipconfig /renew</code>  <a href="http://rolandtanglao.com/2018/03/25/p1-having-surface-book-2-80211ac-wifi-issues-ipconfig-release-renew-seems-to-fix-it/">powershell dance</a>  didn’t work after a week!</li>
+  <li>The <code class="language-plaintext highlighter-rouge">ipconfig /release</code> and then <code class="language-plaintext highlighter-rouge">ipconfig /renew</code>  <a href="http://rolandtanglao.com/2018/03/25/p1-having-surface-book-2-80211ac-wifi-issues-ipconfig-release-renew-seems-to-fix-it/">powershell dance</a>  didn’t work after a week!</li>
   <li>Other than this major :-) complaint, really like the computer and Windows 10 especially the Windows Subsystem for Linux.</li>
 </ul>
 

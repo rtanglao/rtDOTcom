@@ -1,16 +1,16 @@
-I"Œ<h1 id="pontifications">Pontifications</h1>
+I"Ø<h1 id="pontifications">Pontifications</h1>
 
 <ul>
   <li>Regarding yesterdayâ€™s <a href="http://rolandtanglao.com/2019/10/15/p1-compiled-rstudio-server-v1-2-5001-Lenovo-C630-ARM64-Windows-10/">Successfully compiled ARM64 Windows 10 R Studio Server v1.2.5001 on Lenovo C630</a>, here are the changes to the build script, <a href="https://github.com/rtanglao/ARM-rstudio-server/blob/master/build_rstudio.sh">build_rstudio.sh</a>:</li>
   <li>
     <ol>
-      <li><a href="https://github.com/rtanglao/ARM-rstudio-server/blob/master/build_rstudio.sh#L9">changed version number</a> to  <code class="highlighter-rouge">1.2.4001</code> i.e. <code class="highlighter-rouge">VERS=v1.2.5001</code>. This will have to change when others build RStudio because new versions come out all the time</li>
-      <li><a href="https://github.com/rtanglao/ARM-rstudio-server/blob/master/build_rstudio.sh#L19">changed to jdk 8</a>: i.e. <code class="highlighter-rouge">sudo apt-get install -y openjdk-8-jdk</code>
+      <li><a href="https://github.com/rtanglao/ARM-rstudio-server/blob/master/build_rstudio.sh#L9">changed version number</a> to  <code class="language-plaintext highlighter-rouge">1.2.4001</code> i.e. <code class="language-plaintext highlighter-rouge">VERS=v1.2.5001</code>. This will have to change when others build RStudio because new versions come out all the time</li>
+      <li><a href="https://github.com/rtanglao/ARM-rstudio-server/blob/master/build_rstudio.sh#L19">changed to jdk 8</a>: i.e. <code class="language-plaintext highlighter-rouge">sudo apt-get install -y openjdk-8-jdk</code>
         <ul>
           <li>because only java 8 is supported <a href="https://github.com/rstudio/rstudio/issues/3157">https://github.com/rstudio/rstudio/issues/3157</a> ; see also: <a href="https://github.com/rstudio/rstudio/wiki/Installing-RStudio-Dependencies">https://github.com/rstudio/rstudio/wiki/Installing-RStudio-Dependencies</a></li>
         </ul>
       </li>
-      <li><a href="https://github.com/rtanglao/ARM-rstudio-server/blob/master/build_rstudio.sh#L21">changed to use the ubuntu bionic install dependencies script</a> i.e <code class="highlighter-rouge">./install-dependencies-bionic --exclude-qt-sdk</code></li>
+      <li><a href="https://github.com/rtanglao/ARM-rstudio-server/blob/master/build_rstudio.sh#L21">changed to use the ubuntu bionic install dependencies script</a> i.e <code class="language-plaintext highlighter-rouge">./install-dependencies-bionic --exclude-qt-sdk</code></li>
     </ol>
   </li>
 </ul>

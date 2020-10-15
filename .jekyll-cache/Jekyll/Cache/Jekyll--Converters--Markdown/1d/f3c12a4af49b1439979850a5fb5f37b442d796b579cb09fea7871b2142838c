@@ -1,6 +1,6 @@
-I"<p>The following (hmmm jekyll won’t render my html tag correctly; until I get it fixed, you can find the <a href="https://dl.dropboxusercontent.com/u/361757/R_JUPYTER_NOTEBOOKS/How%20to%20load%20the%20top%20colour%20instagram%202014%20dataset.html">proper html rendering of the notebook here</a>) is an Jupiter(fka iPython) notebook showing how to download and install <a href="http://rolandtanglao.com/2015/05/03/p1-instagram-vancouver.2014-topcolour-dataset-now-on-cran/">my instagram Vancouver 2014 top colour dataset</a> in R</p>
+I"'<p>The following (hmmm jekyll won’t render my html tag correctly; until I get it fixed, you can find the <a href="https://dl.dropboxusercontent.com/u/361757/R_JUPYTER_NOTEBOOKS/How%20to%20load%20the%20top%20colour%20instagram%202014%20dataset.html">proper html rendering of the notebook here</a>) is an Jupiter(fka iPython) notebook showing how to download and install <a href="http://rolandtanglao.com/2015/05/03/p1-instagram-vancouver.2014-topcolour-dataset-now-on-cran/">my instagram Vancouver 2014 top colour dataset</a> in R</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>r = getOption(“repos”) # hard code the UK repo for CRAN
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>r = getOption(“repos”) # hard code the UK repo for CRAN
 r[“CRAN”] = “http://cran.uk.r-project.org”
 options(repos = r)
 rm(r)

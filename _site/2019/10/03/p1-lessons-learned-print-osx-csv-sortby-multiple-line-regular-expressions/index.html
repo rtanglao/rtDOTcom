@@ -66,7 +66,7 @@
 
 <ul>
   <li>Lessons learned from <a href="https://github.com/rtanglao/rt-kits-api2/blob/master/print-desktop-en-us-osx-increasing-ids-time-url-title-content.rb">print-desktop-en-us-osx-increasing-ids-time-url-title-content.rb</a>:</li>
-  <li>1. use <code class="highlighter-rouge">sort_by()</code> to sort  (<a href="https://bugs.ruby-lang.org/issues/12648">descending sort</a> <code class="highlighter-rouge">enum.sort_by(:descend) {|e| e}</code> or <code class="highlighter-rouge">array.sort_by { |e| -e }</code> ) e.g. for ascending sort:</li>
+  <li>1. use <code class="language-plaintext highlighter-rouge">sort_by()</code> to sort  (<a href="https://bugs.ruby-lang.org/issues/12648">descending sort</a> <code class="language-plaintext highlighter-rouge">enum.sort_by(:descend) {|e| e}</code> or <code class="language-plaintext highlighter-rouge">array.sort_by { |e| -e }</code> ) e.g. for ascending sort:</li>
 </ul>
 
 <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># ascending sort an array of arrays by the id which is the first element of each array</span>
@@ -74,7 +74,7 @@
 <span class="n">id_time_url_title_content_tags_array</span><span class="p">.</span><span class="nf">sort_by</span> <span class="p">{</span> <span class="o">|</span><span class="n">h</span><span class="o">|</span> <span class="n">h</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="p">}</span> 
 </code></pre></div></div>
 <ul>
-  <li>2.  multi-line regular expressions use <code class="highlighter-rouge">/</code> and <code class="highlighter-rouge">/x</code> e.g.</li>
+  <li>2.  multi-line regular expressions use <code class="language-plaintext highlighter-rouge">/</code> and <code class="language-plaintext highlighter-rouge">/x</code> e.g.</li>
 </ul>
 
 <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">osx_regexp</span><span class="o">=</span> 

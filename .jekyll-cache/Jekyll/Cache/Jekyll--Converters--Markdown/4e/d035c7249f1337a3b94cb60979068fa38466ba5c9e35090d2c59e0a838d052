@@ -1,8 +1,7 @@
-I"
-	<h2 id="pontifications">Pontifications</h2>
+I"	<h2 id="pontifications">Pontifications</h2>
 
 <ul>
-  <li>Following up on <a href="http://rolandtanglao.com/2017/07/14/p1-joyplot-example-reverse-engineering-part4-need-to-figure-out-tidyverse-lubridate-transmute/">Reverse Engineering R joyplot code part 4 - Need to figure out what “%&gt;%” really means and what tidyverse and transmute() do</a>, why bother reverse engineering when there’s an R library for joyplots called <code class="highlighter-rouge">ggjoy</code>?!?</li>
+  <li>Following up on <a href="http://rolandtanglao.com/2017/07/14/p1-joyplot-example-reverse-engineering-part4-need-to-figure-out-tidyverse-lubridate-transmute/">Reverse Engineering R joyplot code part 4 - Need to figure out what “%&gt;%” really means and what tidyverse and transmute() do</a>, why bother reverse engineering when there’s an R library for joyplots called <code class="language-plaintext highlighter-rouge">ggjoy</code>?!?</li>
   <li>I kid, I think I will still try reverse engineering that code</li>
   <li>In the meantime feast on this awesomeness:</li>
 </ul>

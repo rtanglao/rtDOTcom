@@ -1,4 +1,4 @@
-I"�<h2 id="pontifications">Pontifications</h2>
+I"<h2 id="pontifications">Pontifications</h2>
 
 <ul>
   <li>see <a href="http://rolandtanglao.com/2018/09/17/p1-the-graph-firefox62-sumo-support-forum-tags-week1/">previous post</a> for the code that this builds on</li>
@@ -7,7 +7,7 @@
 <h3 id="code-with--just-the-operating-system-tags">code with  just the operating system tags</h3>
 
 <ul>
-  <li><code class="highlighter-rouge">read_csv</code> is better because it doesn’t require any arguments and it’s faster</li>
+  <li><code class="language-plaintext highlighter-rouge">read_csv</code> is better because it doesn’t require any arguments and it’s faster</li>
   <li>code from <a href="https://github.com/tdsmith">Tim Smith</a>, thanks Tim!</li>
 </ul>
 

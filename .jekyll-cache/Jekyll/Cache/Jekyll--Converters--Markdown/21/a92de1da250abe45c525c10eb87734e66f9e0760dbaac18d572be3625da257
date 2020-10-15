@@ -1,8 +1,8 @@
-I"š<h2 id="pontifications">Pontifications</h2>
+I"­<h2 id="pontifications">Pontifications</h2>
 
 <p>Not sure I understand all of <a href="http://graydon.livejournal.com/239070.html">what Graydon wrote about sub-Turing languages</a> but it seems like:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"timed automata and visibly-pushdown automata" + 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"timed automata and visibly-pushdown automata" + 
 "a kind of extension of interface definition languages\
  to cover (branching) sequences of permitted calls and returns." + 
 "formulae in temporal logics that range over possible\

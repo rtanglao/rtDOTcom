@@ -65,7 +65,7 @@
     <h2 id="why-does-the-following-r-program-using-ggplot2-work">Why does the following R program using ggplot2 work?</h2>
 <p>Answer: because aes MAPS values and geom SETS values!</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>getnumericColour &lt;-
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>getnumericColour &lt;-
 function(colorname) {
 colour_matrix=col2rgb(colorname)
 return(as.numeric(colour_matrix[1,1]) * 65536 +

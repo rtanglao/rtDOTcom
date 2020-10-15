@@ -1,6 +1,6 @@
-I"Ã<h2 id="pontifications">Pontifications</h2>
+I"ü<h2 id="pontifications">Pontifications</h2>
 <ul>
-  <li>Following on from yesterdayâ€™s <a href="http://rolandtanglao.com/2017/05/31/p1-convert-tif-to-jpg-using-graphicsmagick-imagemagick/">How to convert all TIFFs to PNGs in a separate sub directory using ImageMagick / GraphicsMagick</a>, actually <code class="highlighter-rouge">mogrify</code> or <code class="highlighter-rouge">convert</code> one at a time in a for loop works better! A bug in batch <code class="highlighter-rouge">convert</code> perhaps?!?</li>
+  <li>Following on from yesterdayâ€™s <a href="http://rolandtanglao.com/2017/05/31/p1-convert-tif-to-jpg-using-graphicsmagick-imagemagick/">How to convert all TIFFs to PNGs in a separate sub directory using ImageMagick / GraphicsMagick</a>, actually <code class="language-plaintext highlighter-rouge">mogrify</code> or <code class="language-plaintext highlighter-rouge">convert</code> one at a time in a for loop works better! A bug in batch <code class="language-plaintext highlighter-rouge">convert</code> perhaps?!?</li>
   <li>example:</li>
 </ul>
 

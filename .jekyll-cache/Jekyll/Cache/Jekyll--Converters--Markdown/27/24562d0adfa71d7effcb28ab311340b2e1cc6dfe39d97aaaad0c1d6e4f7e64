@@ -1,4 +1,4 @@
-I"’"<h1 id="pontifications">Pontifications</h1>
+I"¸"<h1 id="pontifications">Pontifications</h1>
 
 <ul>
   <li>Through a long and labourious process :-)</li>
@@ -87,7 +87,7 @@ parallel magick <span class="s1">'{}'</span> <span class="nt">-vignette</span> 0
   <li>1. how to crop an image to 75x75
     <ul>
       <li>2000, 2000 is the offset from top left (gleaned from <a href="https://superuser.com/questions/1161340/how-to-crop-an-image-using-imagemagick-from-the-command-line">How to crop an image using imagemagick from the command line?</a>)</li>
-      <li><code class="highlighter-rouge">magick</code> replaces <code class="highlighter-rouge">convert -crop</code> in imagemagick 7</li>
+      <li><code class="language-plaintext highlighter-rouge">magick</code> replaces <code class="language-plaintext highlighter-rouge">convert -crop</code> in imagemagick 7</li>
     </ul>
   </li>
 </ul>

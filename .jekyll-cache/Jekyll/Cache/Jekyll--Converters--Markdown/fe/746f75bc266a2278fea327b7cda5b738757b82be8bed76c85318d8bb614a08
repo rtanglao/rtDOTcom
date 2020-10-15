@@ -1,10 +1,10 @@
-I"�<h2 id="pontifications">Pontifications</h2>
+I"<h2 id="pontifications">Pontifications</h2>
 
 <p>The following example is from the R language but I’ve found misleading error messages in every computer language and operating system I’ve ever used.</p>
 
 <ul>
-  <li><code class="highlighter-rouge">In if (is.na(col)) col &lt;- par("col") : the condition has length &gt; 1 and only the first element will be used</code></li>
-  <li>What was this error message from? It was from col being multiple element valued i.e. an array instead of single valued variable. Would it be possible for the error message to be something more helpful like <code class="highlighter-rouge">col was expected to be an integer or color name single element variable instead of a 360 length array</code></li>
+  <li><code class="language-plaintext highlighter-rouge">In if (is.na(col)) col &lt;- par("col") : the condition has length &gt; 1 and only the first element will be used</code></li>
+  <li>What was this error message from? It was from col being multiple element valued i.e. an array instead of single valued variable. Would it be possible for the error message to be something more helpful like <code class="language-plaintext highlighter-rouge">col was expected to be an integer or color name single element variable instead of a 360 length array</code></li>
 </ul>
 
 :ET

@@ -1,8 +1,8 @@
-I"�<h2 id="pontifications">Pontifications</h2>
+I"<h2 id="pontifications">Pontifications</h2>
 
 <ul>
   <li>For some strange reason (bug? “roland” aka user error :-) ?!?), all the Android N for Nougat Apps had their geolocation permission set to off and I had to manually set the geolocation permission on, here’s how I did it for Lenka, BlackCamPro, etc on the Google Pixel XL:</li>
-  <li><code class="highlighter-rouge">Settings</code>-&gt; <code class="highlighter-rouge">Apps</code> -&gt; select your app e.g. <code class="highlighter-rouge">BlackCam Pro</code> -&gt; <code class="highlighter-rouge">Permissions</code>  -&gt; toggle <code class="highlighter-rouge">Location</code> to the right i.e. <code class="highlighter-rouge">ON</code></li>
+  <li><code class="language-plaintext highlighter-rouge">Settings</code>-&gt; <code class="language-plaintext highlighter-rouge">Apps</code> -&gt; select your app e.g. <code class="language-plaintext highlighter-rouge">BlackCam Pro</code> -&gt; <code class="language-plaintext highlighter-rouge">Permissions</code>  -&gt; toggle <code class="language-plaintext highlighter-rouge">Location</code> to the right i.e. <code class="language-plaintext highlighter-rouge">ON</code></li>
   <li>Screenshot:</li>
 </ul>
 

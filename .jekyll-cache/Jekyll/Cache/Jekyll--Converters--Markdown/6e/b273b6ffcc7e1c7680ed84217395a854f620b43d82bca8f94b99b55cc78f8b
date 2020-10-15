@@ -1,8 +1,9 @@
-I"�<h1 id="pontifications">Pontifications</h1>
+I"
+<h1 id="pontifications">Pontifications</h1>
 
 <ul>
   <li>
-    <p>Use <code class="highlighter-rouge">--renderToDisk</code> or there will be nothing rendered. i.e. no HTML web pages just cached versions in RAM.  <a href="https://kodify.net/hugo/config/command-flags-options/">renderToDisk</a> doesn’t seem be much slower then rendering to RAM!</p>
+    <p>Use <code class="language-plaintext highlighter-rouge">--renderToDisk</code> or there will be nothing rendered. i.e. no HTML web pages just cached versions in RAM.  <a href="https://kodify.net/hugo/config/command-flags-options/">renderToDisk</a> doesn’t seem be much slower then rendering to RAM!</p>
   </li>
   <li>
     <p>The full command line to run the local server is:</p>
@@ -12,6 +13,6 @@
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hugo server <span class="nt">--buildDrafts</span> <span class="nt">--disableFastRender</span> <span class="nt">--renderToDisk</span> &amp;
 </code></pre></div></div>
 <ul>
-  <li>See <a href="http://rolandtanglao.com/2016/10/28/p1-how-i-made-rollingroland/">How I created RollingRoland.com using hugo, hover.com DNS and surge.sh</a> which referred to an earlier version of Hugo that didn’t require <code class="highlighter-rouge">renderToDisk</code></li>
+  <li>See <a href="http://rolandtanglao.com/2016/10/28/p1-how-i-made-rollingroland/">How I created RollingRoland.com using hugo, hover.com DNS and surge.sh</a> which referred to an earlier version of Hugo that didn’t require <code class="language-plaintext highlighter-rouge">renderToDisk</code></li>
 </ul>
 :ET

@@ -1,9 +1,9 @@
-I"ù<p><strong>tl;dr</strong> Browser based see + cloud storage + simple web hosting for that cloud storage = 21st websites for everyone!</p>
+I"√<p><strong>tl;dr</strong> Browser based see + cloud storage + simple web hosting for that cloud storage = 21st websites for everyone!</p>
 
 <h2 id="pontifications">Pontifications</h2>
 
 <ul>
-  <li>This site, rolandtanglao,com, uses a command line static website generator called <code class="highlighter-rouge">jekyll</code> written in ruby which generates HTML which I then upload to the free static website hosting service <code class="highlighter-rouge">surge.sh</code></li>
+  <li>This site, rolandtanglao,com, uses a command line static website generator called <code class="language-plaintext highlighter-rouge">jekyll</code> written in ruby which generates HTML which I then upload to the free static website hosting service <code class="language-plaintext highlighter-rouge">surge.sh</code></li>
   <li>This is great <strong>for me</strong>. Since command lines, ruby et al are my friends since 1984 :-) ! (i first used the Unix command line in 1984 or maybe a year or 2 earlier not sure!)</li>
   <li>But it‚Äôs dumb, why couldn‚Äôt I do this in a web browser?</li>
   <li>Make it so lazy web :-)</li>

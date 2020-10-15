@@ -1,4 +1,4 @@
-I"�<h1 id="pontifications">Pontifications</h1>
+I"�<h1 id="pontifications">Pontifications</h1>
 
 <ul>
   <li>I think it’s worth pulling out the <a href="https://github.com/johnkerl/miller">miller aka mlr</a> bits from <a href="http://rolandtanglao.com/2019/02/10/p1-users-dont-know-antivirus-is-breaking-firefox-and-it-not-obvious-when-it-does/">Users don’t know when their antivirus breaks Firefox and it’s not obvious to them so they don’t mention it in their support requests</a> because combining selected fields CSV files is a common thing to do:</li>
@@ -10,7 +10,7 @@
 <p>where:</p>
 
 <ul>
-  <li><code class="highlighter-rouge">product, topic, tags</code> are the fields to cut out</li>
-  <li><code class="highlighter-rouge">firefox*.csv</code> are the CSV files to combine</li>
+  <li><code class="language-plaintext highlighter-rouge">product, topic, tags</code> are the fields to cut out</li>
+  <li><code class="language-plaintext highlighter-rouge">firefox*.csv</code> are the CSV files to combine</li>
 </ul>
 :ET

@@ -1,4 +1,4 @@
-I"ä<h2 id="pontifications">Pontifications</h2>
+I"÷<h2 id="pontifications">Pontifications</h2>
 
 <ul>
   <li>Just one command from <a href="https://stackoverflow.com/questions/45925964/how-to-use-git-credential-store-on-wsl-ubuntu-on-windows">How to use Git credential store on WSL (Ubuntu on Windows)?</a>:</li>
@@ -11,7 +11,7 @@
   <li>I didnâ€™t have to change the timeout in ~/.gitconfig but just in case hereâ€™s the line to add</li>
 </ul>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[credential]
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[credential]
         helper = cache --timeout=144000
 </code></pre></div></div>
 :ET

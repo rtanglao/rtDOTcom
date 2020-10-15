@@ -1,7 +1,7 @@
-I"B<h1 id="pontifications">Pontifications</h1>
+I"<h1 id="pontifications">Pontifications</h1>
 
 <ul>
-  <li>Here’s how to open a random 25% of support questions using <code class="highlighter-rouge">shuf</code> and <code class="highlighter-rouge">awk</code> and <code class="highlighter-rouge">wsl-open</code></li>
+  <li>Here’s how to open a random 25% of support questions using <code class="language-plaintext highlighter-rouge">shuf</code> and <code class="language-plaintext highlighter-rouge">awk</code> and <code class="language-plaintext highlighter-rouge">wsl-open</code></li>
 </ul>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">grep</span> <span class="nt">-o</span> <span class="s1">'https*://support.mozilla.org/questions/[^)]*'</span> <span class="se">\</span>
@@ -9,10 +9,10 @@ super-long-file-name-of-firefox-desktop-support-questions.md<span class="se">\</
 | <span class="nb">shuf</span> | <span class="nb">awk</span> <span class="s1">'NR % 4 == 0'</span> | xargs <span class="nt">-n</span> 1 wsl-open
 </code></pre></div></div>
 <ul>
-  <li><code class="highlighter-rouge">super-long-file-name-of-firefox-desktop-support-questions.md</code> is:<code class="highlighter-rouge">sorted-all-desktop-en-us-2020-05-26-2020-05-26-firefox-creator-answers-desktop-all-locales.md</code></li>
-  <li><code class="highlighter-rouge">grep -o</code> just return the matching text</li>
-  <li><code class="highlighter-rouge">https*://support.mozilla.org/questions/[^)]*</code> since we’re matching markdown links match until you encounter a <code class="highlighter-rouge">)</code></li>
-  <li><code class="highlighter-rouge">%4 == 0</code> every 4th, isn’t awk wonderful :-) ?</li>
-  <li><code class="highlighter-rouge">xargs -n 1</code> run the next command which in this case is <code class="highlighter-rouge">wsl-open</code> with 1 argument at a time</li>
+  <li><code class="language-plaintext highlighter-rouge">super-long-file-name-of-firefox-desktop-support-questions.md</code> is:<code class="language-plaintext highlighter-rouge">sorted-all-desktop-en-us-2020-05-26-2020-05-26-firefox-creator-answers-desktop-all-locales.md</code></li>
+  <li><code class="language-plaintext highlighter-rouge">grep -o</code> just return the matching text</li>
+  <li><code class="language-plaintext highlighter-rouge">https*://support.mozilla.org/questions/[^)]*</code> since we’re matching markdown links match until you encounter a <code class="language-plaintext highlighter-rouge">)</code></li>
+  <li><code class="language-plaintext highlighter-rouge">%4 == 0</code> every 4th, isn’t awk wonderful :-) ?</li>
+  <li><code class="language-plaintext highlighter-rouge">xargs -n 1</code> run the next command which in this case is <code class="language-plaintext highlighter-rouge">wsl-open</code> with 1 argument at a time</li>
 </ul>
 :ET

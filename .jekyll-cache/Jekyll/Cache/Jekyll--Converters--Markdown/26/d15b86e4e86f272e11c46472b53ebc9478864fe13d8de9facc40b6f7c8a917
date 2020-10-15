@@ -12,7 +12,7 @@
   <li>but the following does work</li>
 </ul>
 
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="dl">"</span><span class="s2">Developer Reply Text</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span><span class="nl">$ne</span><span class="p">:</span> <span class="kc">null</span><span class="p">},</span> <span class="dl">'</span><span class="s1">developer_last_updated_time</span><span class="dl">'</span><span class="p">:</span> <span class="p">{</span><span class="nl">$gte</span><span class="p">:</span> <span class="p">{</span> <span class="nl">$date</span><span class="p">:</span> <span class="dl">"</span><span class="s2">2018-05-16T00:00:00Z</span><span class="dl">"</span><span class="p">}</span> <span class="p">}}</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="dl">"</span><span class="s2">Developer Reply Text</span><span class="dl">"</span><span class="p">:</span> <span class="p">{</span><span class="nl">$ne</span><span class="p">:</span> <span class="kc">null</span><span class="p">},</span> <span class="dl">'</span><span class="s1">developer_last_updated_time</span><span class="dl">'</span><span class="p">:</span> <span class="p">{</span><span class="nl">$gte</span><span class="p">:</span> <span class="p">{</span> <span class="na">$date</span><span class="p">:</span> <span class="dl">"</span><span class="s2">2018-05-16T00:00:00Z</span><span class="dl">"</span><span class="p">}</span> <span class="p">}}</span>
 </code></pre></div></div>
 
 <ul>

@@ -1,6 +1,6 @@
-I"8<p>If you cannot install RMagick using brew on Yosemite 10.10.2, then for the 3 of you who care, here’s how to do that (copied and pasted from: <a href="http://stackoverflow.com/questions/28247947/fail-to-install-rmagick-on-mac-10-9-5">Stack Overflow</a>):</p>
+I"K<p>If you cannot install RMagick using brew on Yosemite 10.10.2, then for the 3 of you who care, here’s how to do that (copied and pasted from: <a href="http://stackoverflow.com/questions/28247947/fail-to-install-rmagick-on-mac-10-9-5">Stack Overflow</a>):</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git clone -b RMagick_2-13-4 git://github.com/gemhome/rmagick.git
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git clone -b RMagick_2-13-4 git://github.com/gemhome/rmagick.git
 
 Merged the fix code (replace related code in ext/RMagick/rmmain.c) .
 #if defined(HAVE_GETMAGICKFEATURES)

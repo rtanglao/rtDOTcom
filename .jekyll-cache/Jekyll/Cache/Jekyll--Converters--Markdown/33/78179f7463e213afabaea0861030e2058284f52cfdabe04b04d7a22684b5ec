@@ -1,4 +1,4 @@
-I"D<h2 id="pontifications">Pontifications</h2>
+I"�<h2 id="pontifications">Pontifications</h2>
 
 <ul>
   <li><a href="http://rolandtanglao.com/2017/08/07/p1-mpg-scatterplot-average-colour-instagram-r-data-science/">Part 1</a>, <a href="http://rolandtanglao.com/2017/08/07/p2-part2-create-csv-files-with-plotrix-colour-names/">Part 2</a>, <a href="http://rolandtanglao.com/2017/08/07/p3-part3-create-naive-scatterplot-with-colournames/">Part 3</a></li>
@@ -20,7 +20,7 @@
 
 <ul>
   <li>All the dots are now the correct colour!</li>
-  <li>If you put the <code class="highlighter-rouge">colour=average_colour_ig_van_jan2016_colourname$colourname</code> in the <code class="highlighter-rouge">mapping = aes</code> section instead of the <code class="highlighter-rouge">geom_point</code> section the colours will be <strong>mapped</strong> to levels and the actual color names won’t be used!</li>
+  <li>If you put the <code class="language-plaintext highlighter-rouge">colour=average_colour_ig_van_jan2016_colourname$colourname</code> in the <code class="language-plaintext highlighter-rouge">mapping = aes</code> section instead of the <code class="language-plaintext highlighter-rouge">geom_point</code> section the colours will be <strong>mapped</strong> to levels and the actual color names won’t be used!</li>
   <li>This RScript was invoked as follows:</li>
 </ul>
 
@@ -29,6 +29,6 @@ Rscript ../part4-create-colourname-with-colourname-aesthetic-scatterplot-hour.R
 </code></pre></div></div>
 
 <ul>
-  <li>In <a href="http://rolandtanglao.com/2017/08/07/p5-part5-ig-van-jan2016-chromeless-big-dots/">Part 5</a>, we’ll try and create “art” :-)  by adding <code class="highlighter-rouge">theme_void()</code> and removing all chrome from the plot!</li>
+  <li>In <a href="http://rolandtanglao.com/2017/08/07/p5-part5-ig-van-jan2016-chromeless-big-dots/">Part 5</a>, we’ll try and create “art” :-)  by adding <code class="language-plaintext highlighter-rouge">theme_void()</code> and removing all chrome from the plot!</li>
 </ul>
 :ET

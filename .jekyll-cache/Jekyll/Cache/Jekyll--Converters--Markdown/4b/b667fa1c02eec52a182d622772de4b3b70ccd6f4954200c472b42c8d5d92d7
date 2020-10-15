@@ -1,9 +1,9 @@
-I"‡<h2 id="pontifications">Pontifications</h2>
+I"š<h2 id="pontifications">Pontifications</h2>
 
 <p>(<a href="http://rolandtanglao.com/2017/07/10/p1-joyplot-r-reverse-engineering-part1/">Part 1</a>)</p>
 
 <ul>
-  <li>Maybe I should believe this comment :-) <code class="highlighter-rouge">1_gen_data.R generates the activity.tsv file that is used in here</code></li>
+  <li>Maybe I should believe this comment :-) <code class="language-plaintext highlighter-rouge">1_gen_data.R generates the activity.tsv file that is used in here</code></li>
   <li>Looking at <a href="https://github.com/halhen/viz-pub/blob/master/sports-time-of-day/1_gen_data.R">1_gen_data.R</a>:</li>
 </ul>
 

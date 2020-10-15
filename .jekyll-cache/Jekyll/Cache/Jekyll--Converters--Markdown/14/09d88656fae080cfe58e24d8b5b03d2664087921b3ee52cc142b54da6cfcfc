@@ -1,4 +1,4 @@
-I"<h2 id="pontifications">Pontifications</h2>
+I"<h2 id="pontifications">Pontifications</h2>
 
 <ul>
   <li><a href="http://kitsune.readthedocs.io/en/latest/api.html">Unofficial Search API for support.mozilla.org’s Kitsune platform</a>   that may go away at any day :-) to search for the word videos</li>
@@ -16,7 +16,7 @@
   <li>response from server is:</li>
 </ul>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>HTTP/1.1 200 OK
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>HTTP/1.1 200 OK
 Server: Apache
 X-Backend-Server: support4.webapp.phx1.mozilla.com
 Vary: X-Mobile,User-Agent

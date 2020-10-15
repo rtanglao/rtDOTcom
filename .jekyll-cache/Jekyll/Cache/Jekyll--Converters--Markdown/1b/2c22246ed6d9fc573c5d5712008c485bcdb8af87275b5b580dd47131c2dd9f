@@ -1,12 +1,12 @@
-I"�<h1 id="pontifications">Pontifications</h1>
+I"�<h1 id="pontifications">Pontifications</h1>
 
 <ul>
   <li><a href="http://code.flickr.net/2008/08/19/standard-photos-response-apis-for-civilized-age/">When you get a flickr photo using the search API or the photoset API, you can’t determine which photoset the photo is by setting a field in extras</a></li>
-  <li>Therefore I think it’s best to add a field e.g. <code class="highlighter-rouge">synthetic_photos_sets_array</code> which is an array of photoset ids that this photo belongs to.</li>
+  <li>Therefore I think it’s best to add a field e.g. <code class="language-plaintext highlighter-rouge">synthetic_photos_sets_array</code> which is an array of photoset ids that this photo belongs to.</li>
   <li>Interestingly enough , the certificate for code.flickr.net is broken so here is the 2008 (! still works in 2019!) blog post content for posterity’s sake (and when the cert 100% breaks)</li>
 </ul>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Funny story. I went to write a blog post and when the time came to link to the documentation of our standard “standard photos response” structure, I found we had never documented it!
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Funny story. I went to write a blog post and when the time came to link to the documentation of our standard “standard photos response” structure, I found we had never documented it!
 
 Okay. Maybe that wasn’t so funny.
 

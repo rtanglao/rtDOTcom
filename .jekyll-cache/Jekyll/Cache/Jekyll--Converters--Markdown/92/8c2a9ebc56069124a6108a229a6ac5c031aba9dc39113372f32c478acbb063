@@ -1,4 +1,4 @@
-I"n<h2 id="pontifications">Pontifications</h2>
+I"�<h2 id="pontifications">Pontifications</h2>
 <ul>
   <li>After upgrading to the API level for Android 7.1.1 on the Pixel XL, the <a href="http://android.processing.org/tutorials/getting_started/index.html">Hello World works from the Android processing getting started tutorial</a>! Code:</li>
 </ul>
@@ -22,7 +22,7 @@ void draw() {
 }
 </code></pre>
 <ul>
-  <li>But the Geo-location example from <a href="https://www.mobileprocessing.org/">Android Processing aka Rapid Android Development</a> doesn’t work. First I got <code class="highlighter-rouge">Lost connection with device while installing - Try again</code>! I fixed that by moving the code to the default sketches folder but then I got <code class="highlighter-rouge">Caused by: android.system.ErrnoException: android_getaddrinfo failed: EACCES (Permission denied)</code> so I added Internet and access fine locations permissions and it worked! Code:</li>
+  <li>But the Geo-location example from <a href="https://www.mobileprocessing.org/">Android Processing aka Rapid Android Development</a> doesn’t work. First I got <code class="language-plaintext highlighter-rouge">Lost connection with device while installing - Try again</code>! I fixed that by moving the code to the default sketches folder but then I got <code class="language-plaintext highlighter-rouge">Caused by: android.system.ErrnoException: android_getaddrinfo failed: EACCES (Permission denied)</code> so I added Internet and access fine locations permissions and it worked! Code:</li>
 </ul>
 
 <pre><code class="language-Java">/**

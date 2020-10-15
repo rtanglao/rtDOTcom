@@ -1,10 +1,10 @@
-I"9#<h2 id="pontifications">Pontifications</h2>
+I"_#<h2 id="pontifications">Pontifications</h2>
 
 <ul>
   <li>Juicy code excerpts from: <a href="https://github.com/rtanglao/sumo-questions/blob/master/get_firefox_desktop_words_by_start_stop_date.rb">get_firefox_desktop_words_by_start_stop_date.rb</a>
     <ul>
-      <li>for querying by date, see in the Code section below <code class="highlighter-rouge"># [1]</code></li>
-      <li>for querying by integer scalar value see <code class="highlighter-rouge"># [2]</code></li>
+      <li>for querying by date, see in the Code section below <code class="language-plaintext highlighter-rouge"># [1]</code></li>
+      <li>for querying by integer scalar value see <code class="language-plaintext highlighter-rouge"># [2]</code></li>
     </ul>
   </li>
 </ul>

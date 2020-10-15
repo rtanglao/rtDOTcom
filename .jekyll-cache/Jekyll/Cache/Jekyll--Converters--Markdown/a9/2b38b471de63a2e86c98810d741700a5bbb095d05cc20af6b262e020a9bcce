@@ -1,4 +1,4 @@
-I"c<p>Following on from <a href="http://rolandtanglao.com/2016/11/15/p1-compositing-only-works-with-transparent-pngs/">yesterday’s thrilling post :-)</a></p>
+I"v<p>Following on from <a href="http://rolandtanglao.com/2016/11/15/p1-compositing-only-works-with-transparent-pngs/">yesterday’s thrilling post :-)</a></p>
 
 <h2 id="pontifications">Pontifications</h2>
 
@@ -12,7 +12,7 @@ gm convert <span class="nt">-loop</span> 50 <span class="nt">-delay</span> 10 <s
 </code></pre></div></div>
 
 <ul>
-  <li>Why <code class="highlighter-rouge">-scale 256x256</code> ? To limit the file size to 256 so it can fit in Twitter’s 15MB limit</li>
+  <li>Why <code class="language-plaintext highlighter-rouge">-scale 256x256</code> ? To limit the file size to 256 so it can fit in Twitter’s 15MB limit</li>
   <li><a href="http://pomax.github.io/">Pomax</a> writes: <a href="https://twitter.com/TheRealPomax/status/798768593575952385">neat! can you make the edges opacity-faded so it blends?</a> Anybody know how to do that in imagemagick? If so email me: roland at rolandtanglao.com or tweet @rtanglao</li>
 </ul>
 

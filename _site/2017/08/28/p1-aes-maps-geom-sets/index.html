@@ -68,7 +68,7 @@
   <li>As an aid to debugging the density plot with spikes of 1.0, I wanted to set the colours.</li>
   <li>I tried aes but that doesn’t work!</li>
   <li><a href="http://rolandtanglao.com/2015/05/07/p1-aes-maps-geom-sets/">AES maps but doesn’t SET part 8888</a> :-) the colour instead it maps the variable, in this case colourname, to a set of levels and the levels are mapped to a default colour palette i.e. the plot shows up not in the colours of colourname but in the default colour palette! Code:
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ggplot(average_colour_ig_van_jan2016_colourname,
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ggplot(average_colour_ig_van_jan2016_colourname,
 aes(colourname, colour=colourname)) + geom_density()
 </code></pre></div>    </div>
   </li>

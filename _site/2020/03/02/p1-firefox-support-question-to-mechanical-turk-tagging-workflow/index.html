@@ -66,7 +66,7 @@
 
 <ul>
   <li>
-    <p>1. figure out which Firefox question ids you want to use perhaps using the linux <code class="highlighter-rouge">shuf</code> command to get random ids and put them in a file e.g. <code class="highlighter-rouge">mturk-question-ids.txt</code></p>
+    <p>1. figure out which Firefox question ids you want to use perhaps using the linux <code class="language-plaintext highlighter-rouge">shuf</code> command to get random ids and put them in a file e.g. <code class="language-plaintext highlighter-rouge">mturk-question-ids.txt</code></p>
   </li>
   <li>
     <p>2.  get the content and title for those ids</p>
@@ -75,11 +75,11 @@
     <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cat </span>mturk-question-ids.txt | ./get-by-id-creator-answers-questions.rb
 </code></pre></div>    </div>
 
-    <p>which outputs sample file of the form <code class="highlighter-rouge">id-&lt;first-id&gt;-unixtime-&lt;unixtime i.e. int-when-created&gt;.csv</code>:</p>
+    <p>which outputs sample file of the form <code class="language-plaintext highlighter-rouge">id-&lt;first-id&gt;-unixtime-&lt;unixtime i.e. int-when-created&gt;.csv</code>:</p>
 
     <p>e.g. <a href="https://github.com/rtanglao/rt-kits-api2/blob/master/id-1279731-unixtime-1583100833-by-id-firefox-creator-answers-desktop-all-locales.csv">id-1279731-unixtime-1583100833-by-id-firefox-creator-answers-desktop-all-locales.csv</a></p>
 
-    <p>which still has HTML in the content field (see the <code class="highlighter-rouge">&lt;p&gt;</code> tag in the following csv file output)</p>
+    <p>which still has HTML in the content field (see the <code class="language-plaintext highlighter-rouge">&lt;p&gt;</code> tag in the following csv file output)</p>
 
     <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mlr <span class="nt">--csv</span> <span class="nb">cut</span> <span class="nt">-f</span> title,content id-1279731-unixtime-1583100833-by-id-firefox-creator-answers-desktop-all-locales.csv 
 title,content
@@ -97,7 +97,7 @@ I tried a refresh and a clean install, but that does nothing.
 id-1279731-unixtime-1583100833-by-id-firefox-creator-answers-desktop-all-locales.csv 
 </code></pre></div>    </div>
 
-    <p>which outputs a parsed csv file of form <code class="highlighter-rouge">title-parsed-content-&lt;csv-filename&gt;</code></p>
+    <p>which outputs a parsed csv file of form <code class="language-plaintext highlighter-rouge">title-parsed-content-&lt;csv-filename&gt;</code></p>
 
     <p><a href="https://github.com/rtanglao/rt-kits-api2/blob/master/title-parsed-content-id-1279731-unixtime-1583100833-by-id-firefox-creator-answers-desktop-all-locales.csv">title-parsed-content-id-1279731-unixtime-1583100833-by-id-firefox-creator-answers-desktop-all-locales.csv</a>
 :</p>

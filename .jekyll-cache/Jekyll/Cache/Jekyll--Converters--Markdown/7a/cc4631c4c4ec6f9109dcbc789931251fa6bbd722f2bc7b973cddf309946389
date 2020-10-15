@@ -1,7 +1,7 @@
-I"w <h1 id="pontifications">Pontifications</h1>
+I"� <h1 id="pontifications">Pontifications</h1>
 
 <ul>
-  <li>Did you catch the bug in  <a href="http://rolandtanglao.com/2019/01/22/p1-which-is-faster-at-creating-png-images-imagemagick-convert-oilypng-ruby-vips/">yesterday’s vips code to create random 5x5 images from my Mozlando Space Shuttle Atlantis pics</a>, <a href="https://github.com/rtanglao/rt-mozlando2018-ksc/blob/master/vips-create5x5-zazzle-leg.rb">vips-create5x5-zazzle-leg.rb</a>? It was the <code class="highlighter-rouge">x+=5</code> line!</li>
+  <li>Did you catch the bug in  <a href="http://rolandtanglao.com/2019/01/22/p1-which-is-faster-at-creating-png-images-imagemagick-convert-oilypng-ruby-vips/">yesterday’s vips code to create random 5x5 images from my Mozlando Space Shuttle Atlantis pics</a>, <a href="https://github.com/rtanglao/rt-mozlando2018-ksc/blob/master/vips-create5x5-zazzle-leg.rb">vips-create5x5-zazzle-leg.rb</a>? It was the <code class="language-plaintext highlighter-rouge">x+=5</code> line!</li>
   <li>The bug will cause only every 5th pixel to be written out, so I will let it run without fixing the bug, might be a nice pattern.</li>
   <li>Here is today’s code, <a href="https://github.com/rtanglao/rt-mozlando2018-ksc/blob/master/oily-5px-zazzle-leg.rb">oily-5px-zazzle-leg.rb</a></li>
 </ul>

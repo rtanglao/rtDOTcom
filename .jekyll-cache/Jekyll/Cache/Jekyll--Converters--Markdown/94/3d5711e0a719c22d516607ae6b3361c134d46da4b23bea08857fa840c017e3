@@ -1,4 +1,4 @@
-I"<h1 id="pontifications">Pontifications</h1>
+I"(<h1 id="pontifications">Pontifications</h1>
 
 <p>(see Earlier post: <a href="http://rolandtanglao.com/2019/01/11/p1-artofwhere-tights-using-space-shuttle-atlantis-5x5-pixels/">Next Art of Where Tights 3325px x 6358px for one leg : 5x5 random pixels from Space Shuttle Atlantis photos</a>)</p>
 
@@ -13,7 +13,7 @@
     </ul>
   </li>
   <li>which means the script needs to pick 847210 (665 * 1274) random 5px x 5x patches</li>
-  <li>use the imagemagick <code class="highlighter-rouge">crop</code> commmand with the <code class="highlighter-rouge">+repage</code> option 
+  <li>use the imagemagick <code class="language-plaintext highlighter-rouge">crop</code> commmand with the <code class="language-plaintext highlighter-rouge">+repage</code> option 
 see: <a href="http://www.imagemagick.org/Usage/crop/#crop_repage">http://www.imagemagick.org/Usage/crop/#crop_repage</a>
 e.g.</li>
 </ul>

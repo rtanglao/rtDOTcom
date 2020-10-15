@@ -1,4 +1,4 @@
-I"i<h1 id="pontifications">Pontifications</h1>
+I"|<h1 id="pontifications">Pontifications</h1>
 
 <ul>
   <li>the following is from <a href="https://github.com/rtanglao/rt-making-r-and-rstudio-work-for-me#07-january-2019-how-to-calculate-time-differences-for-support">my new repo about r and r studio tips and tricks</a></li>
@@ -13,7 +13,7 @@
 
 <ul>
   <li>The above ^^^^ is the most accurate and the best way to compute <a href="http://rolandtanglao.com/2019/01/06/p1-lubridate-ydate-to-release-week-daynumber/">daynumber starting at an arbitrary day of the week e.g. Tuesday for Firefox releases</a>! 
-You can also use lubridate <code class="highlighter-rouge">durations</code>, but 
+You can also use lubridate <code class="language-plaintext highlighter-rouge">durations</code>, but 
 durations aren’t accurate when you transition 
 from month to month or year to year</li>
 </ul>

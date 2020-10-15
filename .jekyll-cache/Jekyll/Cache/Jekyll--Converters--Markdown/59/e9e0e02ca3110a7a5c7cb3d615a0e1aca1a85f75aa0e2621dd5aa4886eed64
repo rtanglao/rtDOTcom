@@ -1,7 +1,7 @@
-I"»<h2 id="pontifications">Pontifications</h2>
+I"Î<h2 id="pontifications">Pontifications</h2>
 
 <ul>
-  <li>use <code class="highlighter-rouge">scale_y_continuous()</code> (from <a href="https://github.com/rtanglao/rt-fennec-gplay/blob/master/30april2018-r-scratch.R">https://github.com/rtanglao/rt-fennec-gplay/blob/master/30april2018-r-scratch.R</a> )</li>
+  <li>use <code class="language-plaintext highlighter-rouge">scale_y_continuous()</code> (from <a href="https://github.com/rtanglao/rt-fennec-gplay/blob/master/30april2018-r-scratch.R">https://github.com/rtanglao/rt-fennec-gplay/blob/master/30april2018-r-scratch.R</a> )</li>
   <li>found the above on Stack Overflow somewhere :-) i.e.  <a href="https://stackoverflow.com/questions/15622001/how-to-display-only-integer-values-on-an-axis-using-ggplot2/39877048#39877048">How to display only integer values on an axis using ggplot2</a></li>
 </ul>
 

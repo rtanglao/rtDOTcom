@@ -1,4 +1,4 @@
-I"/%<h2 id="pontifications">Pontifications</h2>
+I"U%<h2 id="pontifications">Pontifications</h2>
 
 <ul>
   <li>1. <a href="http://rolandtanglao.com/2017/10/12/p1-maps-of-vancouver-neighourhoods-average-colour-instagram/">From the last post</a>, I found out that Chinatown map was blank:</li>
@@ -7,7 +7,7 @@
 <p><a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/36957069814/in/dateposted-public/" title="Chinatown-instagram-vancouver-2015-average-colour-overplotted"><img src="https://farm5.staticflickr.com/4480/36957069814_cb04b5afc3.jpg" width="500" height="303" alt="with-outliers-Chinatown-instagram-vancouver-2015-average-colour-overplotted" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
 
 <ul>
-  <li>2. So <a href="https://github.com/rtanglao/ig-ggmap/blob/master/remove-outliers-chinatown.rb">I wrote some code called remove-outliers-chinatown.rb[1]</a> to remove anything that isn’t in woeid  <code class="highlighter-rouge">91977405</code> because apparently there’s another woeid for another Vancouver Chinatown :-) (there is only one Chinatown!). This other wooed is a subwoeid of Strathcona.</li>
+  <li>2. So <a href="https://github.com/rtanglao/ig-ggmap/blob/master/remove-outliers-chinatown.rb">I wrote some code called remove-outliers-chinatown.rb[1]</a> to remove anything that isn’t in woeid  <code class="language-plaintext highlighter-rouge">91977405</code> because apparently there’s another woeid for another Vancouver Chinatown :-) (there is only one Chinatown!). This other wooed is a subwoeid of Strathcona.</li>
   <li>3. Here’s how I invoked it</li>
 </ul>
 
@@ -28,7 +28,7 @@ WITH_NEIGHBOURHOOD_CSV_FILES_FOR_GGMAP_2015/CHROMELESS_MAPS_FOR_EACH_NEIGHBOURHO
 
 <ul>
   <li>4. Next up is plotting:
-<code class="highlighter-rouge">with\__91977405_chinatown_ig_van_2015.csv</code> (which due to a bug or a network timeout only goes from Jan 1, 2015 until December 5, 2015)</li>
+<code class="language-plaintext highlighter-rouge">with\__91977405_chinatown_ig_van_2015.csv</code> (which due to a bug or a network timeout only goes from Jan 1, 2015 until December 5, 2015)</li>
 </ul>
 
 <h3 id="1-remove-outliers-chinatownrb">[1] remove-outliers-chinatown.rb</h3>

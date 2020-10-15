@@ -1,4 +1,4 @@
-I"- <h2 id="pontifications">Pontifications</h2>
+I"@ <h2 id="pontifications">Pontifications</h2>
 
 <ul>
   <li><a href="https://github.com/variety/variety">Variety</a>, is an excellent tool (yay open source developers scratching an itch :-) !) to traverse mongodb i.e. reverse engineer schemas (found via Stack Overflow: <a href="https://stackoverflow.com/questions/2298870/get-names-of-all-keys-in-the-collection">Get names of all keys in the collection</a> )</li>
@@ -10,7 +10,7 @@
 
 <h3 id="output">Output</h3>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | key                 | types                    | occurrences | percents | lastValue                                                                                                                                               |
 | ------------------- | ------------------------ | ----------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | _id                 | ObjectId                 |        1866 |    100.0 | 5baf13e01cb741f05c219400                                                                                                                                |

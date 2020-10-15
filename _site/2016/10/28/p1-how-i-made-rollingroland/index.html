@@ -82,19 +82,19 @@ surge public <span class="nt">--domain</span> rollingroland.com
 <p>Install hugo using brew on Mac OS X or your favourite linux package manager.</p>
 
 <ul>
-  <li><code class="highlighter-rouge">cd /Users/rtanglao/Dropbox/ROLLINGROLAND.COM_SURGE</code></li>
-  <li>Create fresh blog post: <code class="highlighter-rouge">hugo new post/hello.md</code> and edit in your favourite markdown editor e.g. IA writer</li>
-  <li><code class="highlighter-rouge">cd themes ; git clone https://github.com/halogenica/Hugo/BeautifulHugo.git beautifulhugo ; cd ..</code></li>
-  <li><code class="highlighter-rouge">hugo server --buildDrafts --theme=beautifulhugo</code></li>
+  <li><code class="language-plaintext highlighter-rouge">cd /Users/rtanglao/Dropbox/ROLLINGROLAND.COM_SURGE</code></li>
+  <li>Create fresh blog post: <code class="language-plaintext highlighter-rouge">hugo new post/hello.md</code> and edit in your favourite markdown editor e.g. IA writer</li>
+  <li><code class="language-plaintext highlighter-rouge">cd themes ; git clone https://github.com/halogenica/Hugo/BeautifulHugo.git beautifulhugo ; cd ..</code></li>
+  <li><code class="language-plaintext highlighter-rouge">hugo server --buildDrafts --theme=beautifulhugo</code></li>
   <li>Change draft in hello.md to “draft = false” when happy</li>
-  <li>render the pages to the <code class="highlighter-rouge">public</code> subdirectory:  <code class="highlighter-rouge">hugo --theme=beautifulhugo</code>`</li>
+  <li>render the pages to the <code class="language-plaintext highlighter-rouge">public</code> subdirectory:  <code class="language-plaintext highlighter-rouge">hugo --theme=beautifulhugo</code>`</li>
 </ul>
 
 <h3 id="hovercom---dns-changes">hover.com - DNS changes</h3>
 
 <ul>
-  <li>create an A record: <code class="highlighter-rouge">@ A 192.241.214.148</code></li>
-  <li>create a CNAME record: <code class="highlighter-rouge">www CNAME	na-west1.surge.sh.</code></li>
+  <li>create an A record: <code class="language-plaintext highlighter-rouge">@ A 192.241.214.148</code></li>
+  <li>create a CNAME record: <code class="language-plaintext highlighter-rouge">www CNAME	na-west1.surge.sh.</code></li>
 </ul>
 
 <h3 id="surgesh---hosting-the-rendered-pages">surge.sh - hosting the rendered pages</h3>
@@ -102,7 +102,7 @@ surge public <span class="nt">--domain</span> rollingroland.com
 <p>The following command posts the rendered pages to the <a href="http://surge.sh/">fabulous static hosting service surge.sh</a>:</p>
 
 <ul>
-  <li><code class="highlighter-rouge">surge public --domain rollingroland.com</code></li>
+  <li><code class="language-plaintext highlighter-rouge">surge public --domain rollingroland.com</code></li>
 </ul>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>

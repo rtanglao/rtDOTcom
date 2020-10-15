@@ -1,4 +1,4 @@
-I"ç<h1 id="pontifications">Pontifications</h1>
+I"ú<h1 id="pontifications">Pontifications</h1>
 
 <ul>
   <li>Hereâ€™s how to use the  <a href="https://imagemagick.org/script/command-line-options.php#vignette">Imagemagick V7 -vignette option</a> to make a circular crop of an image (via Stack Overflow::ImageMagick: <a href="https://stackoverflow.com/questions/41314498/imagemagick-how-can-i-cut-out-round-from-image">How can I cut out round from image?</a>):</li>
@@ -8,7 +8,7 @@
 </code></pre></div></div>
 
 <ul>
-  <li>This assumes a square input image, but if it isnâ€™t you use the <code class="highlighter-rouge">-vignette</code> geometry parameter.</li>
+  <li>This assumes a square input image, but if it isnâ€™t you use the <code class="language-plaintext highlighter-rouge">-vignette</code> geometry parameter.</li>
   <li>This is simpler than my previous post from <a href="http://rolandtanglao.com/2019/08/15/p1-how-to-use-imagemagick-circular-crop/">August 15, HowTo: Circular Crop with ImageMagick</a></li>
 </ul>
 
