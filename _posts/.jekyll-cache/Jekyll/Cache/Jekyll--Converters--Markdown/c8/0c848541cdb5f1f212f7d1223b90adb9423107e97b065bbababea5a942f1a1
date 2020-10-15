@@ -1,0 +1,4 @@
+I"™<h2 id="pontifications">Pontifications</h2>
+
+<p>Ran into a weird problem today with Lithium where <code class="language-plaintext highlighter-rouge">true</code> was changed to <code class="language-plaintext highlighter-rouge">!0</code> in a JSON file! Anybody know how that could happen? Full details on my <a href="https://github.com/rtanglao/rt-showfor.json#march-2-2017">showfor.json github repo</a>.</p>
+:ET

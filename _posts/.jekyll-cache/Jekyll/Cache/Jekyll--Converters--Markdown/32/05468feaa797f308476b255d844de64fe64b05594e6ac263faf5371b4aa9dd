@@ -1,0 +1,29 @@
+I"�<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>
+    <p>HowTo put the Firefox support questions on glitch from January 1-May 25, 2020</p>
+  </li>
+  <li>
+    <p>1. get the questions in CSV format into a file called sorted-all-desktop-en-us-2020-01-01-2020-05-25-firefox-creator-answers-desktop-all-locales into a file called <a href="https://github.com/rtanglao/rt-kits-api2/blob/master/2020BYMONTH/sorted-all-desktop-en-us-2020-01-01-2020-05-25-firefox-creator-answers-desktop-all-locales.csv">sorted-all-desktop-en-us-2020-01-01-2020-05-25-firefox-creator-answers-desktop-all-locales.csv</a> :</p>
+  </li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> /home/roland/GIT/rt-kits-api2/2020BYMONTH
+../get-creator-answers-questions-for-arbitrary-time-period.rb 2020 1 1 <span class="se">\</span>
+2020 5 25
+../print-desktop-en-us-all-oses-increasing-ids-time-url-title-content.rb <span class="se">\</span>
+2020-01-01-2020-05-25-firefox-creator-answers-desktop-all-locales.csv csv
+</code></pre></div></div>
+
+<ul>
+  <li>2.  Per <a href="https://simonwillison.net/2019/Apr/23/datasette-glitch/">Running Datasette on glitch</a>:
+    <ul>
+      <li>“visit https://glitch.com/edit/#!/remix/datasette-csvs right now, drag-and-drop in a CSV file and watch it get served by Datasette on Glitch just a few seconds later.”</li>
+      <li>In my case I dragged and dropped  <a href="https://github.com/rtanglao/rt-kits-api2/blob/master/2020BYMONTH/sorted-all-desktop-en-us-2020-01-01-2020-05-25-firefox-creator-answers-desktop-all-locales.csv">sorted-all-desktop-en-us-2020-01-01-2020-05-25-firefox-creator-answers-desktop-all-locales.csv</a> into my cloned glitch instance and renamed it: <a href="https://roland-ds1.glitch.me/">https://roland-ds1.glitch.me/</a></li>
+      <li>And then you can do all your SQL queries goodness :-)</li>
+    </ul>
+  </li>
+</ul>
+
+:ET

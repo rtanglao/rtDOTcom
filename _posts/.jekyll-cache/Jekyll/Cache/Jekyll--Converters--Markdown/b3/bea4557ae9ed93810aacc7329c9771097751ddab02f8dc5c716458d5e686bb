@@ -1,0 +1,99 @@
+I"C<p>tl;dr: 1500x1500px square or even more pixels if you got ‘em JPEG CMYK</p>
+
+<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>Here’s what Yo Shirt wrote to me:</li>
+</ul>
+
+<blockquote>
+  <p>Hi Roland,</p>
+
+  <p>JPEG is best, and there is no limit to the
+resolution…but after your order, please leave your
+app open for a few minutes to allow the larger file
+to upload.</p>
+</blockquote>
+
+<blockquote>
+  <p>Thanks for your business!</p>
+</blockquote>
+
+<ul>
+  <li>Here’s what I wrote to them:</li>
+</ul>
+
+<blockquote>
+  <p>Nov 25, 11:20 PST
+Hi YoShirt Support</p>
+</blockquote>
+
+<blockquote>
+  <p>https://yoshirt.zendesk.com/hc/en-us/articles/205915418-What-type-of-file-should-I-use-</p>
+
+  <p>says</p>
+
+  <p>”</p>
+
+  <p><em>In order to ensure the highest quality printing,
+please submit art with
+:a minimum of 1500px square and 1MB.** The higher
+resolution you submit,
+the better.</em></p>
+</blockquote>
+
+<blockquote>
+
+**
+
+*A bit more about designing...*
+
+**
+
+*There are 2 different spectrums of color, one for things that are
+viewed on a screen (RGB) and one for things that are actually printed
+into the real world (CMYK). Not every color on the RGB scale is
+available on the CMYK scale. When designing on the computer/iPhone you
+must make sure you are using colors that are on the CMYK scale. Please
+keep this in mind when submitting photos.*
+
+"
+</blockquote>
+
+<blockquote>
+  <p>Any other clues :-) ? limits?</p>
+</blockquote>
+
+<blockquote>
+  <p>My specific questions:</p>
+</blockquote>
+
+<blockquote>
+  <ol>
+    <li>best file format is PNG? JPEG? TIFF?</li>
+  </ol>
+</blockquote>
+
+<blockquote>
+  <ol>
+    <li>maximum resolution ?can i do 3000x3000 for 
+example? or 6000x6000x I
+am generating the yoshirt graphic using ruby and R &gt;scripts so i can make
+it any resolution in any colour space but I will do &gt;CMYK as recommend!
+you tell me what is best please!</li>
+  </ol>
+</blockquote>
+
+<blockquote>
+  <p>Thanks!</p>
+</blockquote>
+
+<blockquote>
+  <p>…Roland Tanglao</p>
+</blockquote>
+
+<blockquote>
+  <p>p.s. love your stuff i’ve ordered at least 4 or 5
+custom shirts!</p>
+</blockquote>
+:ET

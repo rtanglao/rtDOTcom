@@ -1,0 +1,8 @@
+I"¨<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>Fixed jekyll default theme <code class="language-plaintext highlighter-rouge">font-weight</code> bug by changing from <code class="language-plaintext highlighter-rouge">font-weight</code> from <code class="language-plaintext highlighter-rouge">300</code> to <code class="language-plaintext highlighter-rouge">400</code> in <code class="language-plaintext highlighter-rouge">_sass/_base.scss</code>, still might be a Firefox bug as per <a href="https://github.com/jekyll/jekyll/issues/4042#issuecomment-170397990">this comment on jekyll issue 4042</a></li>
+  <li>Still might be a Firefox bug as per my previous blog post <a href="http://rolandtanglao.com/2018/03/06/p1-firefox-font-weight-bug-on-windows-and-linux/">Possible font-weight bug in Windows and Linux?!?</a>. If I can write a test case that doesnâ€™t have jekyll in it, then it probably is a bug in Firefox.</li>
+</ul>
+
+:ET

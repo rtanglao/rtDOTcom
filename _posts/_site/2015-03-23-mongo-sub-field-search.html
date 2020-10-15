@@ -1,8 +1,0 @@
-<p>From
-<a href="https://github.com/rtanglao/rtgram/blob/gh-pages/reTryNonJpg.rb">reTryNoJpg.rb</a>
-(to search for the url subfield using a url fragment):</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>query = {"images.thumbnail.url" =&gt; /#{url_fragment}/i}
-photo = photosColl.find_one(query, :fields =&gt; ["images"])
-</code></pre>
-</div>

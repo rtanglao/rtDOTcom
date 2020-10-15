@@ -1,0 +1,14 @@
+I"<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>Today I learned that <a href="https://stackoverflow.com/questions/3005231/how-to-store-array-in-one-column-in-sqlite3">SQLite doesn’t have array types</a>; just <a href="https://www.sqlite.org/datatype3.html">NULL, INTEGER, REAL, TEXT, BLOB</a>.</li>
+  <li>Therefore if I want to store json with arrays, I can
+    <ul>
+      <li>a) store the JSON in a blog</li>
+      <li>b) put the arrays in a separate table</li>
+      <li>c) flatten the arrays into a string or some such kludge</li>
+    </ul>
+  </li>
+  <li>I’ll probably do c) first and then b) later for my <a href="http://rolandtanglao.com/2019/04/14/p1-firefox-analyst-notes-checkvist-api-sql-lite-datasette/">Firefox support analyst notes</a></li>
+</ul>
+:ET

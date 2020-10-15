@@ -1,0 +1,30 @@
+I"@	<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>
+    <p>Did you spot the typo from yesterday’s <a href="http://rolandtanglao.com/2019/11/26/p1-zazzle-berlin-july-2019-info-graphic-circular-150-pixel-thumbnails/">Zazzle infographic from Berlin July 2019 - 150px circular thumbnail from 168 thumbnails (12x14 = 1800px2100px)</a>?</p>
+  </li>
+  <li>
+    <p>Yes <code class="language-plaintext highlighter-rouge">ls -1tr</code> instead of <code class="language-plaintext highlighter-rouge">ls -1</code> because the latter sorts by name instead of by time created which means yesterday’s infographic was chronologically sorted instead of randomly sorted. Obviously I prefer the randomly sorted :-) #ymmv</p>
+  </li>
+</ul>
+
+<h2 id="colophon">Colophon</h2>
+
+<p>From the <a href="https://github.com/rtanglao/rt-berlin-july-2019/blob/master/README.md#november-26-2019">README</a>:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">mkdir </span>75x75
+<span class="c"># set id is: 72157709917594396 which comes from the album url:</span>
+<span class="c"># https://www.flickr.com/photos/roland/albums/72157709917594396</span>
+./get-thumbnail-75-berlin-2019.rb 72157709917594396 2&gt;/tmp/log.txt <span class="o">&gt;</span>berlin2019-url-75x75.txt
+<span class="nb">cd </span>75x75
+<span class="nb">cat</span> ../berlin2019-url-75x75.txt  | ../backup75x75.rb
+<span class="c"># 2100/75 = 28, 1800/75 = 24, 24 * 28 = 672</span>
+find <span class="nb">.</span> <span class="nt">-type</span> f | <span class="nb">shuf</span> <span class="nt">-n672</span> <span class="o">&gt;</span> rt-berlin-july2019-672files.txt 
+<span class="nb">mkdir </span>CIRCULAR
+<span class="nb">cat </span>rt-berlin-july2019-672files.txt | parallel magick <span class="s1">'{}'</span> <span class="nt">-vignette</span> 0x0+0+0 <span class="s1">'CIRCULAR/{}'</span>
+<span class="nb">cd </span>CIRCULAR
+<span class="nb">ls</span> <span class="nt">-1tr</span> <span class="k">*</span>.jpg <span class="o">&gt;</span> 672jpgs.txt
+montage <span class="nt">-verbose</span> <span class="nt">-adjoin</span> <span class="nt">-tile</span> 24x28 +frame +shadow +label <span class="nt">-adjoin</span> <span class="nt">-geometry</span> <span class="s1">'75x75+0+0&lt;'</span> @672jpgs.txt rt-berlin-12-14-75x75.jpg
+</code></pre></div></div>
+:ET

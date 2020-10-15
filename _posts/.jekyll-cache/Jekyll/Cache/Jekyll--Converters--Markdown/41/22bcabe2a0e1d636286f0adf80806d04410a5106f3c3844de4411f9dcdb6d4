@@ -1,0 +1,41 @@
+I"�<h2 id="pontifications">Pontifications</h2>
+<ul>
+  <li>1. only works with <code class="language-plaintext highlighter-rouge">begin</code>…<code class="language-plaintext highlighter-rouge">end</code> not <code class="language-plaintext highlighter-rouge">{</code>…<code class="language-plaintext highlighter-rouge">}</code> blocks</li>
+</ul>
+
+<p>e.g. from multiple-statements-in-a-block.rb:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/env ruby</span>
+<span class="nb">require</span> <span class="s1">'rubygems'</span>
+
+<span class="n">x</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="k">begin</span> <span class="nb">puts</span> <span class="s2">"1"</span> <span class="p">;</span> <span class="nb">puts</span> <span class="s2">"2"</span> <span class="k">end</span> <span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">1</span>
+<span class="c1"># note this doesn't work: { puts "1" ; puts "2" } if x == 1</span>
+<span class="c1"># Why doesn't it work? probably because {} returns a value</span>
+
+</code></pre></div></div>
+
+<p>output:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ruby multiple-statements-in-a-block.rb 
+1
+2
+</code></pre></div></div>
+
+<ul>
+  <li>2. explanation from <a href="https://www.sitepoint.com/learn-ruby-on-rails-2/">Interacting with Ruby Objects</a>:</li>
+</ul>
+
+<blockquote>
+
+Chaining Statements Together<br /><br />
+
+Ruby doesn’t require us to use any character to separate commands, unless we want to chain multiple statements together on a single line. In this case, a semicolon (;) is used as the separator. However, if you put every statement on its own line (as we’ve been doing until now), the semicolon is completely optional.<br /><br />
+
+If you chain multiple statements together in the interactive shell, only the output of the last command that was executed will be displayed to the screen:
+</blockquote>
+
+<ul>
+  <li>3. See also: <a href="https://mixandgo.com/blog/mastering-ruby-blocks-in-less-than-5-minutes">Mastering ruby blocks in less than 5 minutes</a></li>
+</ul>
+:ET

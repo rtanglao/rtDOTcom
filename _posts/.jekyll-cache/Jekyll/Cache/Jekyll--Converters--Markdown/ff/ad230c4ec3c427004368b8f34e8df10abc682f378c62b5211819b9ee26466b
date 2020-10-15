@@ -1,0 +1,10 @@
+I"�<p>The following is in addition/complementary for Yosemite to the nice recipe at <a href="http://www.datascienceriot.com/?p=589">How to Install R kernel for IPython Jupyter on Mac OS X Yosemite</a>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>install_github(‘IRkernel/repr’) # inside R before installing the R display package
+brew install wget
+wget https://raw.githubusercontent.com/zeromq/cppzmq/master/zmq.hpp
+mv zmq.hpp /usr/local/include/
+ipython kernel spec install —replace —name ir —user /usr/local/Cellar/r/3.2.0/R.framework/Versions/3.2/Resources/library/IRkernel/kernelspec
+</code></pre></div></div>
+
+:ET

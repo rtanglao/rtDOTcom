@@ -1,0 +1,18 @@
+I"�<p>If you want to operate on 9600 1 pixel by 1 pixel files at a time to form HD-width frames (i.e. 1920px wide) with GraphicsMagick (1920 pixels per row *5rows = 9600), here’s a <a href="https://github.com/rtanglao/rtgram/blob/gh-pages/IG-VANCOUVER_2014/RENUMBERED/TOP10/TOPCOLOUR/make1920By5PixelPNG.sh">bash script</a>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#!/bin/bash
+files=(*.jpg )
+frame=0
+for ((i=0; i&lt;${#files[*]}; i+=9600)); do
+  let “frame++”
+  gm montage -verbose -tile 1920x5 +frame +shadow +label \
+  -geometry 1x1+0+0 “${files[@]:i:9600}”\
+  `printf “frame-%5.5u.png” “$frame”`
+done
+</code></pre></div></div>
+
+<ol>
+  <li>Why not just do this with ruby? Because bash is lighter weight</li>
+  <li>Why do so few and split up into “frames”? Because graphicsmagick takes up lots of memory and runs slowly when you try to do all files in 1 big command line invocation.</li>
+</ol>
+:ET

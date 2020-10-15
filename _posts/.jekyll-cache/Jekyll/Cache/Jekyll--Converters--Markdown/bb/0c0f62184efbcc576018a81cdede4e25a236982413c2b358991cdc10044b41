@@ -1,0 +1,19 @@
+I"3<p>tl;dr if the PNGs are not transparent then you can’t overlay / composite!</p>
+
+<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li><a href="https://github.com/rtanglao/rt-animated-gifs/commit/02cf7f14db59de2ee75b2d0748bca734b5af7d15">Generate Transparent GIF files in R using <code class="language-plaintext highlighter-rouge">bg = "transparent"</code>:</a> (I learned this from <a href="http://stackoverflow.com/questions/7455046/how-to-make-graphics-with-transparent-background-in-r-using-ggplot2">a stack overflow question on ggplot2 transparency</a>; <a href="https://stat.ethz.ch/R-manual/R-devel/library/grDevices/html/png.html">official png() docs</a>)<br /> <code class="language-plaintext highlighter-rouge">png(file=filename, width=1024, height=1024, res=72, bg = "transparent")</code></li>
+  <li>Then everything works:</li>
+</ul>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>convert 0000001-first360-flickr-roland-2004-12-avgcolour.png 0000002-first360-flickr-roland-2004-12-avgcolour.png<span class="se">\ </span>
+<span class="nt">-composite</span> 1-2.png
+convert 1-2.png 0000003-first360-flickr-roland-2004-12-avgcolour.png<span class="se">\ </span>
+<span class="nt">-composite</span> 1-2-3.png
+convert 1-2-3.png 0000004-first360-flickr-roland-2004-12-avgcolour.png<span class="se">\ </span>
+<span class="nt">-composite</span> 1-2-3-4.png
+convert 1-2-3-4.png 0000005-first360-flickr-roland-2004-12-avgcolour.png<span class="se">\ </span>
+<span class="nt">-composite</span> 1-2-3-4-5.png
+</code></pre></div></div>
+:ET

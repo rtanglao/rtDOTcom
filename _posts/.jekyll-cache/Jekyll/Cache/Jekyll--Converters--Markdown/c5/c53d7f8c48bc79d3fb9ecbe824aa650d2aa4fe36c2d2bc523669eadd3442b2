@@ -1,0 +1,105 @@
+I"ðP<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>I learned that you have to do <code class="language-plaintext highlighter-rouge">ungroup()</code> before calling <code class="language-plaintext highlighter-rouge">cumsum()</code></li>
+  <li>I also learned that we had an unusually large number of support questions in Firefox 65 at the beginning which might have been due to Firefox 65 causing   unsupported pre-FF65 hacks for tabs on bottom to stop working?</li>
+</ul>
+
+<h2 id="plot-firefox-65-69-cumulative-sum-day-1-28-ie-weeks-1-4--of-firefox-support-questions-on-supportmozillaorg">Plot: Firefox 65-69 Cumulative Sum Day 1-28 i.e. weeks 1-4  of Firefox Support Questions on support.mozilla.org</h2>
+
+<p><a data-flickr-embed="true" data-header="true" data-footer="true" href="https://www.flickr.com/photos/roland/49002306373/in/dateposted-public/" title="02a333b-cumulative-sum-unfaceted-january-18october2019-plot-num-questions-release-day-1-28"><img src="https://live.staticflickr.com/65535/49002306373_45f1cb65c8.jpg" width="500" height="361" alt="02a333b-cumulative-sum-unfaceted-january-18october2019-plot-num-questions-release-day-1-28" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+
+<h2 id="code-cumulative-sum-unfaceted-january-18october2019-plot-num-questions-release-day-1-28r">Code cumulative-sum-unfaceted-january-18october2019-plot-num-questions-release-day-1-28.R</h2>
+
+<ul>
+  <li><a href="https://github.com/rtanglao/rt-4-week-release-cycle/blob/master/cumulative-sum-unfaceted-january-18october2019-plot-num-questions-release-day-1-28.R">cumulative-sum-unfaceted-january-18october2019-plot-num-questions-release-day-1-28.R</a></li>
+</ul>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">lubridate</span><span class="p">)</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">directlabels</span><span class="p">)</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">RColorBrewer</span><span class="p">)</span><span class="w">
+</span><span class="n">add_release_day_number</span><span class="w"> </span><span class="o">&lt;-</span><span class="w">
+  </span><span class="k">function</span><span class="p">(</span><span class="n">df_release</span><span class="p">,</span><span class="w">
+           </span><span class="n">yyyy</span><span class="p">,</span><span class="w">
+           </span><span class="n">mm</span><span class="p">,</span><span class="w">
+           </span><span class="n">dd</span><span class="p">)</span><span class="w">
+  </span><span class="p">{</span><span class="w">
+    </span><span class="n">START_DATE</span><span class="w"> </span><span class="o">&lt;-</span><span class="w">
+      </span><span class="n">make_datetime</span><span class="p">(</span><span class="n">yyyy</span><span class="p">,</span><span class="w"> </span><span class="n">mm</span><span class="p">,</span><span class="w"> </span><span class="n">dd</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="m">0</span><span class="p">,</span><span class="w">
+                    </span><span class="n">tz</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"UTC"</span><span class="p">)</span><span class="w">
+    
+    </span><span class="n">return</span><span class="w"> </span><span class="p">(</span><span class="n">df_release</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+              </span><span class="n">mutate</span><span class="p">(</span><span class="n">release_day_number</span><span class="w"> </span><span class="o">=</span><span class="w">
+                       </span><span class="p">(</span><span class="nf">floor</span><span class="p">(</span><span class="n">interval</span><span class="p">(</span><span class="w">
+                         </span><span class="n">START_DATE</span><span class="p">,</span><span class="w"> </span><span class="n">created</span><span class="w">
+                       </span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="n">days</span><span class="p">(</span><span class="m">1</span><span class="p">)))</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="m">1</span><span class="p">))</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+
+</span><span class="n">create_desktop_df_release_week_num_questions</span><span class="w"> </span><span class="o">&lt;-</span><span class="w">
+  </span><span class="k">function</span><span class="p">(</span><span class="n">df</span><span class="p">,</span><span class="w"> </span><span class="n">release</span><span class="p">,</span><span class="w"> </span><span class="n">yyyy</span><span class="p">,</span><span class="w"> </span><span class="n">mm</span><span class="p">,</span><span class="w"> </span><span class="n">dd</span><span class="p">)</span><span class="w">
+  </span><span class="p">{</span><span class="w">
+    </span><span class="c1"># df is CSV with date time, release is "65"</span><span class="w">
+    </span><span class="c1"># yyyy, mm, dd are integers e.g. 2019, 1, 29</span><span class="w">
+    </span><span class="c1"># remove all questions before january 29, 2019</span><span class="w">
+    </span><span class="n">ymd_str</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">sprintf</span><span class="p">(</span><span class="s2">"%d-%d-%d"</span><span class="p">,</span><span class="w"> </span><span class="n">yyyy</span><span class="p">,</span><span class="w"> </span><span class="n">mm</span><span class="p">,</span><span class="w"> </span><span class="n">dd</span><span class="p">)</span><span class="w">
+    </span><span class="n">release_start</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">ymd</span><span class="p">(</span><span class="n">ymd_str</span><span class="p">,</span><span class="w"> </span><span class="n">tz</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"UTC"</span><span class="p">)</span><span class="w">
+    </span><span class="n">release_end</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">release_start</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">weeks</span><span class="p">(</span><span class="m">4</span><span class="p">)</span><span class="w">
+    </span><span class="n">release_questions</span><span class="w"> </span><span class="o">&lt;-</span><span class="w">
+      </span><span class="n">df</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
+      </span><span class="n">filter</span><span class="p">(</span><span class="n">created</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="n">release_start</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="n">created</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">release_end</span><span class="p">)</span><span class="w">
+    </span><span class="c1"># add day of release week i.e, 1, 2, 3, 4, 5,6, 7..28</span><span class="w">
+    </span><span class="n">release_questions</span><span class="w"> </span><span class="o">&lt;-</span><span class="w">
+      </span><span class="n">add_release_day_number</span><span class="p">(</span><span class="n">release_questions</span><span class="p">,</span><span class="w"> </span><span class="n">yyyy</span><span class="p">,</span><span class="w"> </span><span class="n">mm</span><span class="p">,</span><span class="w"> </span><span class="n">dd</span><span class="p">)</span><span class="w">
+    </span><span class="n">release_questions</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">release_questions</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
+      </span><span class="n">group_by</span><span class="p">(</span><span class="n">release_day_number</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
+      </span><span class="n">count</span><span class="p">()</span><span class="w">
+    </span><span class="n">release_questions</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">add_column</span><span class="p">(</span><span class="n">release_questions</span><span class="p">,</span><span class="w"> </span><span class="n">release</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">release</span><span class="p">)</span><span class="w">
+    </span><span class="n">return</span><span class="w"> </span><span class="p">(</span><span class="w">
+      </span><span class="n">release_questions</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
+      </span><span class="n">ungroup</span><span class="p">()</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
+      </span><span class="n">dplyr</span><span class="o">::</span><span class="n">mutate</span><span class="p">(</span><span class="n">cumulutive_sum</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">cumsum</span><span class="p">(</span><span class="n">n</span><span class="p">)))</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="n">jan_18oct_2019_questions</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> 
+  </span><span class="c1">#read_csv("https://raw.githubusercontent.com/rtanglao/rt-kits-api2/master/sorted-all-desktop-en-us-2019-01-01-2019-10-18-firefox-desktop-all-locales.csv")</span><span class="w">
+  </span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"https://github.com/rtanglao/rt-kits-api2/blob/master/ARBITRARY_TIME_PERIOD/2019-01-01-2019-10-18-firefox-desktop-all-locales.csv?raw=true"</span><span class="p">)</span><span class="w">
+</span><span class="c1"># change created unix time to r time UTC using as_datetime()</span><span class="w">
+</span><span class="n">jan_18oct_2019_questions</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> 
+  </span><span class="n">jan_18oct_2019_questions</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+  </span><span class="n">mutate</span><span class="p">(</span><span class="w">
+    </span><span class="n">created</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">as_datetime</span><span class="p">(</span><span class="n">created</span><span class="p">,</span><span class="w"> </span><span class="n">tz</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"UTC"</span><span class="p">)</span><span class="w">
+    </span><span class="p">)</span><span class="w">
+
+</span><span class="n">ff65_questions</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">create_desktop_df_release_week_num_questions</span><span class="p">(</span><span class="w">
+  </span><span class="n">jan_18oct_2019_questions</span><span class="p">,</span><span class="w"> </span><span class="s2">"65"</span><span class="p">,</span><span class="w"> </span><span class="m">2019</span><span class="p">,</span><span class="w"> </span><span class="m">1</span><span class="p">,</span><span class="w"> </span><span class="m">29</span><span class="p">)</span><span class="w">
+</span><span class="n">ff66_questions</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">create_desktop_df_release_week_num_questions</span><span class="p">(</span><span class="w">
+  </span><span class="n">jan_18oct_2019_questions</span><span class="p">,</span><span class="w"> </span><span class="s2">"66"</span><span class="p">,</span><span class="w"> </span><span class="m">2019</span><span class="p">,</span><span class="w"> </span><span class="m">3</span><span class="p">,</span><span class="w"> </span><span class="m">19</span><span class="p">)</span><span class="w">
+</span><span class="n">ff67_questions</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">create_desktop_df_release_week_num_questions</span><span class="p">(</span><span class="w">
+  </span><span class="n">jan_18oct_2019_questions</span><span class="p">,</span><span class="w"> </span><span class="s2">"67"</span><span class="p">,</span><span class="w"> </span><span class="m">2019</span><span class="p">,</span><span class="w"> </span><span class="m">5</span><span class="p">,</span><span class="w"> </span><span class="m">21</span><span class="p">)</span><span class="w">
+</span><span class="n">ff68_questions</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">create_desktop_df_release_week_num_questions</span><span class="p">(</span><span class="w">
+  </span><span class="n">jan_18oct_2019_questions</span><span class="p">,</span><span class="w"> </span><span class="s2">"68"</span><span class="p">,</span><span class="w"> </span><span class="m">2019</span><span class="p">,</span><span class="w"> </span><span class="m">7</span><span class="p">,</span><span class="w"> </span><span class="m">9</span><span class="p">)</span><span class="w">
+</span><span class="n">ff69_questions</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">create_desktop_df_release_week_num_questions</span><span class="p">(</span><span class="w">
+  </span><span class="n">jan_18oct_2019_questions</span><span class="p">,</span><span class="w"> </span><span class="s2">"69"</span><span class="p">,</span><span class="w"> </span><span class="m">2019</span><span class="p">,</span><span class="w"> </span><span class="m">9</span><span class="p">,</span><span class="w"> </span><span class="m">3</span><span class="p">)</span><span class="w">
+</span><span class="n">jan_18oct_2019_questions_by_release_week</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> 
+  </span><span class="n">bind_rows</span><span class="p">(</span><span class="n">ff65_questions</span><span class="p">,</span><span class="w"> </span><span class="n">ff66_questions</span><span class="p">,</span><span class="w"> </span><span class="n">ff67_questions</span><span class="p">,</span><span class="w"> 
+            </span><span class="n">ff68_questions</span><span class="p">,</span><span class="w"> </span><span class="n">ff69_questions</span><span class="p">)</span><span class="w">
+
+</span><span class="n">jan_18oct_2019_plot</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> 
+  </span><span class="n">ggplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">jan_18oct_2019_questions_by_release_week</span><span class="p">,</span><span class="w"> 
+         </span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">release_day_number</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="o">=</span><span class="n">cumulutive_sum</span><span class="p">,</span><span class="w"> </span><span class="n">group</span><span class="o">=</span><span class="n">release</span><span class="p">,</span><span class="w"> 
+             </span><span class="n">colour</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">factor</span><span class="p">(</span><span class="n">release</span><span class="p">)))</span><span class="w">
+</span><span class="n">x_axis</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sprintf</span><span class="p">(</span><span class="s2">"%d"</span><span class="p">,</span><span class="w"> </span><span class="n">seq</span><span class="p">(</span><span class="m">1</span><span class="o">:</span><span class="m">28</span><span class="p">))</span><span class="w">
+
+</span><span class="n">jan_18oct_2019_plot</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">jan_18oct_2019_plot</span><span class="w"> </span><span class="o">+</span><span class="w">
+  </span><span class="n">geom_line</span><span class="p">(</span><span class="n">stat</span><span class="o">=</span><span class="s2">"identity"</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> 
+  </span><span class="n">labs</span><span class="p">(</span><span class="n">color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'Release Week 1-4'</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
+  </span><span class="n">scale_x_discrete</span><span class="p">(</span><span class="n">limits</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">x_axis</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
+  </span><span class="n">coord_cartesian</span><span class="p">(</span><span class="n">clip</span><span class="o">=</span><span class="s2">"off"</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
+  </span><span class="n">labs</span><span class="p">(</span><span class="n">color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'DesktopAAQ65-69'</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
+  </span><span class="n">geom_dl</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">label</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">release</span><span class="p">),</span><span class="w"> </span><span class="n">method</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">list</span><span class="p">(</span><span class="n">dl.trans</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="m">0.2</span><span class="p">),</span><span class="w"> </span><span class="s2">"last.points"</span><span class="p">,</span><span class="w"> </span><span class="n">cex</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0.8</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w">
+  </span><span class="n">geom_dl</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">label</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">release</span><span class="p">),</span><span class="w"> </span><span class="n">method</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">list</span><span class="p">(</span><span class="n">dl.trans</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="m">0.2</span><span class="p">),</span><span class="w"> </span><span class="s2">"first.points"</span><span class="p">,</span><span class="w"> </span><span class="n">cex</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0.8</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w">
+  </span><span class="n">scale_color_brewer</span><span class="p">(</span><span class="n">palette</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"Dark2"</span><span class="p">)</span><span class="w">
+
+</span></code></pre></div></div>
+
+:ET

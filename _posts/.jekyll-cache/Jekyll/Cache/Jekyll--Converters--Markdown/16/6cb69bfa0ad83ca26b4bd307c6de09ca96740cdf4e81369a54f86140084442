@@ -1,0 +1,17 @@
+I"í<h2 id="pontifications">Pontifications</h2>
+<ul>
+  <li>Apropos to yesterdayâ€™s <a href="http://rolandtanglao.com/2017/06/07/p1-login-to-lithium-as-admin-paste-in-showfor.json/">Login to Lithium as Admin, paste in showfor.json</a>, it looks like you can go directly to the url:
+    <ol>
+      <li>Login</li>
+      <li>Go to the community admin url e.g. <a href="https://hwsfp35778.lithium.com/t5/bizapps/bizappspage/tab/community%3Aadmin%3Asystem%3Asettings-list-editor/node-display-id/tkb-board%3APersonalizeFirefox">https://hwsfp35778.lithium.com/t5/bizapps/bizappspage/tab/community%3Aadmin%3Asystem%3Asettings-list-editor/node-display-id/tkb-board%3APersonalizeFirefox</a> i.e. <code class="language-plaintext highlighter-rouge">Mozilla Support English</code> -&gt; <code class="language-plaintext highlighter-rouge">Firefox</code> -&gt; <code class="language-plaintext highlighter-rouge">Personalize Firefox</code></li>
+      <li>Paste in <a href="https://github.com/rtanglao/rt-showfor.json/blob/master/showfor.json">showfor.json</a> here and submit the form</li>
+    </ol>
+  </li>
+  <li>So all we need is a a script that takes 2 parameters:
+    <ul>
+      <li>1. URL like <a href="https://hwsfp35778.lithium.com/t5/bizapps/bizappspage/tab/community%3Aadmin%3Asystem%3Asettings-list-editor/node-display-id/tkb-board%3APersonalizeFirefox">https://hwsfp35778.lithium.com/t5/bizapps/bizappspage/tab/community%3Aadmin%3Asystem%3Asettings-list-editor/node-display-id/tkb-board%3APersonalizeFirefox</a></li>
+      <li>2. showfor.json filename (could be tailored to the product e.g. thunderbird only articles should probably only have showfor.json with thunderbird in it? no need for firefox for android and mac and win and desktop for example)</li>
+    </ul>
+  </li>
+</ul>
+:ET

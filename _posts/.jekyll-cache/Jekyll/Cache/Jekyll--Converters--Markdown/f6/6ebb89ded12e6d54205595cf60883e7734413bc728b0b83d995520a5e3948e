@@ -1,0 +1,7 @@
+I"�<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>e.g. if you reference variable <code class="language-plaintext highlighter-rouge">x</code> and then rename it to  <code class="language-plaintext highlighter-rouge">y</code> but  forget to rename all instances of <code class="language-plaintext highlighter-rouge">x</code> to <code class="language-plaintext highlighter-rouge">y</code> then you won’t get an undefined error for the remaining references to  <code class="language-plaintext highlighter-rouge">x</code></li>
+  <li>I guess you can avoid this by using R Studio’s code editor renaming functions which I’ve never used.</li>
+</ul>
+:ET

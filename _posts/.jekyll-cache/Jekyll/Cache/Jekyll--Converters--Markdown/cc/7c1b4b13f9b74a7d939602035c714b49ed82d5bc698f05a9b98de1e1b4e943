@@ -1,0 +1,9 @@
+I"a<p>The cool folks from <a href="http://www.cognima.com/">Cognima</a> have told me a little about how <a href="http://www.rolandtanglao.com/archives/2005/10/26/hello_shozu_goodbye_lifeblog">Shozu</a> works:</p>
+<ul><li>As I suspected, Shozu doesn't control the camera probably because on most phones except for brand new Sony Ericsson and Nokia S40 phones you <a href="http://www.rolandtanglao.com/archives/2005/07/20/forget_java_on_mobile_phones_its_too_crippled_to_do_anything_worthwhile">can't access full resolution photos nor take full full resolution pictures from Java</a>.</li>
+<li>On Series 60 phones, Shozu is written in C++
+</li>
+<li>On newer Series 40 phones with <a href="http://www.jcp.org/aboutJava/communityprocess/final/jsr075/">JSR 75</a> (access to native file system), Shozu is in Java but again it doesn't take full res pictures from Java, just accesses pictures taken from the C/C++ camera app.</li>
+
+<li>Shozu has a cool proxy server in the middle which the Shozu communicates with over a socket. This enables the cool resume feature when you lose mobile connectivity (GPRS or 3G or ...)</li></ul>
+
+:ET

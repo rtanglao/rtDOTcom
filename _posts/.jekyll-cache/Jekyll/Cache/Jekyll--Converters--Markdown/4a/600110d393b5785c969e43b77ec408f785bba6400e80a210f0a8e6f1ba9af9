@@ -1,0 +1,7 @@
+I"]<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">"textpipe is a Python package for converting raw text in to clean, readable text and extracting metadata from that text. Its functionalities include transforming raw text into readable text by removing HTML tags and extracting metadata such as the number of words and named entities from the text."</code> &lt;- From python pip docs for <a href="https://pypi.org/project/textpipe/">textpipe</a></li>
+  <li>Look like this could be useful for extracting tags from support forum questions!</li>
+</ul>
+:ET

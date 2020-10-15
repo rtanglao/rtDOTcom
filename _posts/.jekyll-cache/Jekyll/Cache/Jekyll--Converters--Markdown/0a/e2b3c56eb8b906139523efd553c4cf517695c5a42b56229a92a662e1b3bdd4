@@ -1,0 +1,8 @@
+I"<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>Perhaps I should have stayed on the previous build :-) ?!!? <code class="language-plaintext highlighter-rouge">\\wsl$\Ubuntu</code> seems to work fine on my Surface Book 2 running the intel build 1903.</li>
+  <li>Haven’t been able to find the same issue on github but  <a href="https://github.com/microsoft/WSL/issues/4027">P9 Explorer Integration not working #4027</a>  appears closest although I have the P9 DLL and the correct P9 registry keys!</li>
+</ul>
+
+:ET

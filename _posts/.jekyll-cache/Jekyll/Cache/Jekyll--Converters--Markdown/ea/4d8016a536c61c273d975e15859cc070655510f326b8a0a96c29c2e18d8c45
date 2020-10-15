@@ -1,0 +1,19 @@
+I"O<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>How To get all Firefox Desktop SUMO KB Articles using <a href="http://rolandtanglao.com/2020/02/16/p2-pup-for-html-like-jq-for-json/">pup</a> (disclaimer this could break at any time :-)</li>
+</ul>
+
+<ol>
+  <li>Get the web page using <code class="language-plaintext highlighter-rouge">curl</code></li>
+  <li>Parse the HTML :-) and find the links using <code class="language-plaintext highlighter-rouge">pup</code></li>
+</ol>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="s2">"https://support.mozilla.org/en-US/contributors/kb-overview?product=firefox"</span> |<span class="se">\</span>
+pup <span class="s1">'#kb-overview-table tbody tr td:nth-child(1) a[href*="/en-US/kb/"]\
+attr{href}'</span>  <span class="o">&gt;</span> all_relative_desktop_urls.html
+</code></pre></div></div>
+
+<p>See the earlier, grep version: <a href="http://rolandtanglao.com/2020/05/14/p1-how-to-get-all-firefox-desktop-urls-using-pup/">How To get all Firefox Desktop SUMO KB Articles using pup</a></p>
+
+:ET

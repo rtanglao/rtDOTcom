@@ -1,0 +1,31 @@
+I"�<p>tl;dr: narrate your work using README.md, a github repo, and emacs aka <code class="language-plaintext highlighter-rouge">control-X VV</code> is your friend</p>
+
+<h2 id="pontifications">Pontifications</h2>
+
+<p>(the following assumes you have a Linux or Mac computer and have installed git and emacs (I use <a href="http://aquamacs.org/">Aquamacs</a>); if you have Windows I’m sorry :-) perhaps someday the Windows Unix subsystem will work; in fact that day won’t be long from now)</p>
+
+<p>git and github repos aren’t just for software development, you can use them for blogging :-) ! and narrating your work!</p>
+
+<p>Narrate (<a href="http://rolandtanglao.com/2016/11/11/p1-document-your-work-and-your-facts-using-html-and-markdown/">can’t believe I used document instead of narrate in my blog post</a>) <strong>as you work, not after</strong>! Because you will forget if you do it after!</p>
+
+<ul>
+  <li>1. <a href="https://github.com/new">create a github repo with a README.md</a>  (make sure you have checked <code class="language-plaintext highlighter-rouge">Initialize this repository with a README</code>)</li>
+  <li>2. <a href="https://help.github.com/articles/cloning-a-repository/">clone it on your computer</a></li>
+  <li>3. edit README.md; my conventions (<a href="https://github.com/rtanglao/rt-animated-gifs">sample README.md with examples of the following conventions</a>) are:
+    <ul>
+      <li>second level heading i.e. <code class="language-plaintext highlighter-rouge">##</code> for the date e.g. November 15, 2016 - Then you have a permalink for the date.</li>
+      <li>bullet list for your what you did whether it’s code or writing or whatever using <code class="language-plaintext highlighter-rouge">*</code>.</li>
+      <li>if it gets complicated create subsections using h3 i.e. <code class="language-plaintext highlighter-rouge">###</code></li>
+      <li>if your README.md gets complicated, then use emacs to fold i.e. hide the other days (position your curser at the column 0  of the line you want to hide and then <code class="language-plaintext highlighter-rouge">Markdown Menu -&gt; Show/Hide -&gt; Cycle visibility</code> to toggle hiding and showing the lines below the cursor)</li>
+    </ul>
+  </li>
+  <li>4. commit your changes (using emacs it’s as simple as <code class="language-plaintext highlighter-rouge">control-XVV</code>, type your commit reason and then <code class="language-plaintext highlighter-rouge">control-CCC</code> and then git pull ; easy :-) !)</li>
+  <li>5. <code class="language-plaintext highlighter-rouge">git push</code></li>
+</ul>
+
+<h2 id="wow-thats-hopelessly-complicated-and-geeky">Wow that’s hopelessly complicated and geeky?!?</h2>
+
+<p>Yes it is :-) but once you figure it out it is quite powerful and your README.md becomes your blog (with the url of your github repo being the homepage) and you can make changes quickly.</p>
+
+<p>Yes I know you can make a github.io sites but that is even more complicated :-) !</p>
+:ET

@@ -1,0 +1,186 @@
+I"�R<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>Recall that <a href="http://rolandtanglao.com/2016/11/25/p1-zazzle-custom-tshirt-graphic-size/">Zazzle’s tshirt graphic size is 1800 pixels by 2100 pixels</a></li>
+  <li>The  <a href="https://github.com/rtanglao/rt-berlin-july-2019/blob/master/get-thumbnail-150-berlin-2019.rb">get-thumbnail-150-berlin-2019.rb</a> script is a re-do of  g<a href="https://github.com/rtanglao/neon-for-stephanie/blob/master/get-gallery-photo-metadata.rb">et-gallery-photo-metadata.rb</a> with <code class="language-plaintext highlighter-rouge">photosets</code> instead of flickr <code class="language-plaintext highlighter-rouge">galleries</code> and without  <code class="language-plaintext highlighter-rouge">mongodb</code> and just getting 150 pixel by 150 px thumbnails which in the flickr API is <code class="language-plaintext highlighter-rouge">url_q</code></li>
+  <li>The backup script, <a href="https://github.com/rtanglao/rt-berlin-july-2019/blob/master/backup150x150.rb">backup150x150.rb</a> is straightforward adaptation of what I’ve done before e.g. <a href="https://github.com/rtanglao/neon-for-stephanie/blob/master/backup-originals.rb">backup-originals.rb</a> but again without <code class="language-plaintext highlighter-rouge">mongodb</code></li>
+</ul>
+
+<h2 id="get-thumbnail-150-berlin-2019rb">get-thumbnail-150-berlin-2019.rb</h2>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/env ruby</span>
+<span class="nb">require</span> <span class="s1">'rubygems'</span>
+<span class="nb">require</span> <span class="s1">'json'</span>
+<span class="nb">require</span> <span class="s1">'pp'</span>
+<span class="nb">require</span> <span class="s1">'time'</span>
+<span class="nb">require</span> <span class="s1">'date'</span>
+<span class="nb">require</span> <span class="s1">'parseconfig'</span>
+<span class="nb">require</span> <span class="s1">'typhoeus'</span>
+<span class="nb">require</span> <span class="s1">'awesome_print'</span>
+
+<span class="n">flickr_config</span> <span class="o">=</span> <span class="no">ParseConfig</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="s1">'flickr.conf'</span><span class="p">).</span><span class="nf">params</span>
+<span class="n">api_key</span> <span class="o">=</span> <span class="n">flickr_config</span><span class="p">[</span><span class="s1">'api_key'</span><span class="p">]</span>
+
+<span class="k">if</span> <span class="no">ARGV</span><span class="p">.</span><span class="nf">length</span> <span class="o">&lt;</span> <span class="mi">1</span>
+  <span class="nb">puts</span> <span class="s2">"usage: </span><span class="si">#{</span><span class="vg">$0</span><span class="si">}</span><span class="s2"> [setid]"</span>
+  <span class="nb">exit</span>
+<span class="k">end</span>
+
+<span class="k">def</span> <span class="nf">getFlickrResponse</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">params</span><span class="p">,</span> <span class="n">logger</span><span class="p">)</span>
+  <span class="n">url</span> <span class="o">=</span> <span class="s2">"https://api.flickr.com/"</span> <span class="o">+</span> <span class="n">url</span>
+  <span class="n">try_count</span> <span class="o">=</span> <span class="mi">0</span>
+  <span class="k">begin</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="no">Typhoeus</span><span class="o">::</span><span class="no">Request</span><span class="p">.</span><span class="nf">get</span><span class="p">(</span><span class="n">url</span><span class="p">,</span>
+                                 <span class="ss">:params</span> <span class="o">=&gt;</span> <span class="n">params</span> <span class="p">)</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">.</span><span class="nf">body</span><span class="p">)</span>
+<span class="n">logger</span><span class="p">.</span><span class="nf">debug</span> <span class="n">x</span><span class="p">.</span><span class="nf">ai</span>
+   <span class="c1">#logger.debug x["photos"].ai</span>
+  <span class="k">rescue</span> <span class="no">JSON</span><span class="o">::</span><span class="no">ParserError</span> <span class="o">=&gt;</span> <span class="n">e</span>
+    <span class="n">try_count</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">if</span> <span class="n">try_count</span> <span class="o">&lt;</span> <span class="mi">4</span>
+      <span class="vg">$stderr</span><span class="p">.</span><span class="nf">printf</span><span class="p">(</span><span class="s2">"JSON::ParserError exception, retry:%d</span><span class="se">\n</span><span class="s2">"</span><span class="p">,\</span>
+                     <span class="n">try_count</span><span class="p">)</span>
+      <span class="nb">sleep</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+      <span class="k">retry</span>
+    <span class="k">else</span>
+      <span class="vg">$stderr</span><span class="p">.</span><span class="nf">printf</span><span class="p">(</span><span class="s2">"JSON::ParserError exception, retrying FAILED</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+      <span class="n">x</span> <span class="o">=</span> <span class="kp">nil</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+  <span class="k">return</span> <span class="n">x</span>
+<span class="k">end</span>
+
+<span class="n">logger</span> <span class="o">=</span> <span class="no">Logger</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="no">STDERR</span><span class="p">)</span>
+<span class="n">logger</span><span class="p">.</span><span class="nf">level</span> <span class="o">=</span> <span class="no">Logger</span><span class="o">::</span><span class="no">DEBUG</span>
+
+
+<span class="n">extras_str</span> <span class="o">=</span> <span class="s2">"url_q"</span>
+
+<span class="no">SET_ID</span> <span class="o">=</span> <span class="no">ARGV</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+
+<span class="n">search_url</span> <span class="o">=</span> <span class="s2">"services/rest/"</span>
+
+<span class="n">first_page</span> <span class="o">=</span> <span class="kp">true</span>
+<span class="n">photos_per_page</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">page</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">photo_number</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="k">while</span> <span class="kp">true</span>
+  <span class="n">url_params</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="ss">:method</span> <span class="o">=&gt;</span> <span class="s2">"flickr.photosets.getPhotos"</span><span class="p">,</span>
+    <span class="ss">:api_key</span> <span class="o">=&gt;</span> <span class="n">api_key</span><span class="p">,</span>
+    <span class="ss">:format</span> <span class="o">=&gt;</span> <span class="s2">"json"</span><span class="p">,</span>
+    <span class="ss">:nojsoncallback</span> <span class="o">=&gt;</span> <span class="s2">"1"</span><span class="p">,</span>
+    <span class="ss">:per_page</span>     <span class="o">=&gt;</span> <span class="s2">"500"</span><span class="p">,</span>
+    <span class="ss">:photoset_id</span> <span class="o">=&gt;</span> <span class="no">SET_ID</span><span class="p">,</span>
+    <span class="ss">:extras</span> <span class="o">=&gt;</span>  <span class="n">extras_str</span><span class="p">,</span>
+    <span class="ss">:sort</span> <span class="o">=&gt;</span> <span class="s2">"date-taken-asc"</span><span class="p">,</span>
+    <span class="ss">:page</span> <span class="o">=&gt;</span> <span class="n">page</span><span class="p">.</span><span class="nf">to_s</span>
+  <span class="p">}</span>
+  <span class="n">photos_on_this_page</span> <span class="o">=</span> <span class="n">getFlickrResponse</span><span class="p">(</span><span class="n">search_url</span><span class="p">,</span> <span class="n">url_params</span><span class="p">,</span> <span class="n">logger</span><span class="p">)</span>
+  <span class="k">if</span> <span class="n">first_page</span>
+    <span class="n">first_page</span> <span class="o">=</span> <span class="kp">false</span>
+    <span class="n">logger</span><span class="p">.</span><span class="nf">debug</span> <span class="n">photos_on_this_page</span><span class="p">[</span><span class="s2">"photoset"</span><span class="p">][</span><span class="s2">"pages"</span><span class="p">]</span>
+    <span class="n">number_of_pages_to_retrieve</span> <span class="o">=</span> <span class="n">photos_on_this_page</span><span class="p">[</span><span class="s2">"photoset"</span><span class="p">][</span><span class="s2">"pages"</span><span class="p">]</span>
+  <span class="k">end</span>
+  <span class="n">page</span> <span class="o">+=</span> <span class="mi">1</span>
+  <span class="k">if</span> <span class="n">page</span> <span class="o">&gt;</span> <span class="n">number_of_pages_to_retrieve</span>
+    <span class="k">break</span>
+  <span class="k">end</span>
+  <span class="vg">$stderr</span><span class="p">.</span><span class="nf">printf</span><span class="p">(</span><span class="s2">"STATUS from flickr API:%s retrieved page:%d of:%d</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="n">photos_on_this_page</span><span class="p">[</span><span class="s2">"stat"</span><span class="p">],</span>
+    <span class="n">photos_on_this_page</span><span class="p">[</span><span class="s2">"photoset"</span><span class="p">][</span><span class="s2">"page"</span><span class="p">],</span> <span class="n">photos_on_this_page</span><span class="p">[</span><span class="s2">"total"</span><span class="p">].</span><span class="nf">to_i</span><span class="p">)</span>
+  <span class="n">photos_on_this_page</span><span class="p">[</span><span class="s2">"photoset"</span><span class="p">][</span><span class="s2">"photo"</span><span class="p">].</span><span class="nf">each</span> <span class="k">do</span><span class="o">|</span><span class="n">photo</span><span class="o">|</span>
+    <span class="n">photo</span><span class="p">[</span><span class="s2">"id"</span><span class="p">]</span> <span class="o">=</span> <span class="n">photo</span><span class="p">[</span><span class="s2">"id"</span><span class="p">].</span><span class="nf">to_i</span>
+    <span class="nb">id</span> <span class="o">=</span> <span class="n">photo</span><span class="p">[</span><span class="s2">"id"</span><span class="p">]</span>
+    <span class="n">logger</span><span class="p">.</span><span class="nf">debug</span> <span class="s2">"PHOTO id:"</span> <span class="o">+</span> <span class="nb">id</span><span class="p">.</span><span class="nf">to_s</span>
+    <span class="n">logger</span><span class="p">.</span><span class="nf">debug</span> <span class="n">photo</span><span class="p">.</span><span class="nf">ai</span>
+    <span class="n">photo_number</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="n">logger</span><span class="p">.</span><span class="nf">debug</span> <span class="s2">"PHOTO number:"</span> <span class="o">+</span> <span class="n">photo_number</span><span class="p">.</span><span class="nf">to_s</span>
+    <span class="nb">puts</span><span class="p">(</span><span class="n">photo</span><span class="p">[</span><span class="s2">"url_q"</span><span class="p">])</span>   
+  <span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<h2 id="backup150x150rb">backup150x150.rb</h2>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/env ruby</span>
+<span class="nb">require</span> <span class="s1">'rubygems'</span>
+<span class="nb">require</span> <span class="s1">'json'</span>
+<span class="nb">require</span> <span class="s1">'curb'</span>
+<span class="nb">require</span> <span class="s1">'pp'</span>
+<span class="nb">require</span> <span class="s1">'time'</span>
+<span class="nb">require</span> <span class="s1">'date'</span>
+<span class="nb">require</span> <span class="s1">'uri'</span>
+
+
+<span class="k">def</span> <span class="nf">fetch_1_at_a_time</span><span class="p">(</span><span class="n">urls_filenames</span><span class="p">)</span>
+
+  <span class="n">easy</span> <span class="o">=</span> <span class="no">Curl</span><span class="o">::</span><span class="no">Easy</span><span class="p">.</span><span class="nf">new</span>
+  <span class="n">easy</span><span class="p">.</span><span class="nf">follow_location</span> <span class="o">=</span> <span class="kp">true</span>
+
+  <span class="n">urls_filenames</span><span class="p">.</span><span class="nf">each</span> <span class="k">do</span><span class="o">|</span><span class="n">url_fn</span><span class="o">|</span>
+    <span class="n">easy</span><span class="p">.</span><span class="nf">url</span> <span class="o">=</span> <span class="n">url_fn</span><span class="p">[</span><span class="s2">"url"</span><span class="p">]</span>
+    <span class="n">filename</span> <span class="o">=</span> <span class="n">url_fn</span><span class="p">[</span><span class="s2">"filename"</span><span class="p">]</span>
+    <span class="vg">$stderr</span><span class="p">.</span><span class="nf">print</span> <span class="s2">"filename:'</span><span class="si">#{</span><span class="n">filename</span><span class="si">}</span><span class="s2">'"</span>
+    <span class="vg">$stderr</span><span class="p">.</span><span class="nf">print</span> <span class="s2">"url:'</span><span class="si">#{</span><span class="n">url_fn</span><span class="p">[</span><span class="s2">"url"</span><span class="p">]</span><span class="si">}</span><span class="s2">'"</span>
+    <span class="k">if</span> <span class="no">File</span><span class="p">.</span><span class="nf">exist?</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+      <span class="vg">$stderr</span><span class="p">.</span><span class="nf">printf</span><span class="p">(</span><span class="s2">"skipping EXISTING filename:%s</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="n">filename</span><span class="p">)</span>
+      <span class="k">next</span>
+    <span class="k">end</span>
+    <span class="n">try_count</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">begin</span>
+      <span class="no">File</span><span class="p">.</span><span class="nf">open</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="s1">'wb'</span><span class="p">)</span> <span class="k">do</span><span class="o">|</span><span class="n">f</span><span class="o">|</span>
+        <span class="n">easy</span><span class="p">.</span><span class="nf">on_progress</span> <span class="p">{</span><span class="o">|</span><span class="n">dl_total</span><span class="p">,</span> <span class="n">dl_now</span><span class="p">,</span> <span class="n">ul_total</span><span class="p">,</span> <span class="n">ul_now</span><span class="o">|</span> <span class="vg">$stderr</span><span class="p">.</span><span class="nf">print</span> <span class="s2">"="</span><span class="p">;</span> <span class="kp">true</span> <span class="p">}</span>
+        <span class="n">easy</span><span class="p">.</span><span class="nf">on_body</span> <span class="p">{</span><span class="o">|</span><span class="n">data</span><span class="o">|</span> <span class="n">f</span> <span class="o">&lt;&lt;</span> <span class="n">data</span><span class="p">;</span> <span class="n">data</span><span class="p">.</span><span class="nf">size</span> <span class="p">}</span>
+        <span class="n">easy</span><span class="p">.</span><span class="nf">perform</span>
+        <span class="vg">$stderr</span><span class="p">.</span><span class="nf">puts</span> <span class="s2">"=&gt; '</span><span class="si">#{</span><span class="n">filename</span><span class="si">}</span><span class="s2">'"</span>
+      <span class="k">end</span>
+    <span class="k">rescue</span> <span class="no">Curl</span><span class="o">::</span><span class="no">Err</span><span class="o">::</span><span class="no">ConnectionFailedError</span> <span class="o">=&gt;</span> <span class="n">e</span>
+      <span class="n">try_count</span> <span class="o">+=</span> <span class="mi">1</span>
+      <span class="k">if</span> <span class="n">try_count</span> <span class="o">&lt;</span> <span class="mi">4</span>
+        <span class="vg">$stderr</span><span class="p">.</span><span class="nf">printf</span><span class="p">(</span><span class="s2">"Curl:ConnectionFailedError exception, retry:%d</span><span class="se">\n</span><span class="s2">"</span><span class="p">,\</span>
+                       <span class="n">try_count</span><span class="p">)</span>
+        <span class="nb">sleep</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+        <span class="k">retry</span>
+      <span class="k">else</span>
+        <span class="vg">$stderr</span><span class="p">.</span><span class="nf">printf</span><span class="p">(</span><span class="s2">"Curl:ConnectionFailedError exception, retrying FAILED</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+        <span class="k">raise</span> <span class="n">e</span>
+      <span class="k">end</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+
+<span class="n">urls_filenames</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="n">i</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="no">ARGF</span><span class="p">.</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">url</span><span class="o">|</span>
+  <span class="n">url</span> <span class="o">=</span> <span class="n">url</span><span class="p">.</span><span class="nf">chomp</span> 
+  <span class="n">filename</span> <span class="o">=</span> <span class="nb">sprintf</span><span class="p">(</span><span class="s2">"%4.4d-rt-berlin-july2019-150x-150x.jpg"</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span>
+  <span class="k">next</span> <span class="k">if</span> <span class="n">url</span><span class="p">.</span><span class="nf">nil?</span>
+  <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+  <span class="n">urls_filenames</span><span class="p">.</span><span class="nf">push</span><span class="p">({</span><span class="s2">"url"</span><span class="o">=&gt;</span> <span class="n">url</span><span class="p">,</span> <span class="s2">"filename"</span> <span class="o">=&gt;</span> <span class="n">filename</span><span class="p">})</span> 
+<span class="k">end</span>
+
+<span class="vg">$stderr</span><span class="p">.</span><span class="nf">printf</span><span class="p">(</span><span class="s2">"FETCHING:%d originals</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span> <span class="n">urls_filenames</span><span class="p">.</span><span class="nf">length</span><span class="p">)</span>
+
+<span class="n">fetch_1_at_a_time</span><span class="p">(</span><span class="n">urls_filenames</span><span class="p">)</span>
+
+</code></pre></div></div>
+<h2 id="bash-session">Bash Session</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">mkdir </span>150x150
+<span class="nb">cd </span>150x150
+<span class="c"># set id is: 72157709917594396 which comes from the album url:</span>
+<span class="c"># https://www.flickr.com/photos/roland/albums/72157709917594396</span>
+./get-thumbnail-150-berlin-2019.rb 72157709917594396 2&gt;/tmp/log.txt <span class="o">&gt;</span>berlin2019-url-150x150.txt
+<span class="nb">cat</span> ../berlin2019-url-150x150.txt  | ../backup150x150.rb
+<span class="c"># 2100/150 = 14, 1800.150 = 12, 12* 14 = 168</span>
+find <span class="nb">.</span> <span class="nt">-type</span> f | <span class="nb">shuf</span> <span class="nt">-n168</span> <span class="o">&gt;</span> rt-berlin-july2019-168files.txt 
+<span class="nb">mkdir </span>CIRCULAR
+<span class="nb">cat </span>rt-berlin-july2019-168files.txt | parallel magick <span class="s1">'{}'</span> <span class="nt">-vignette</span> 0x0+0+0 <span class="s1">'CIRCULAR/{}'</span>
+<span class="nb">cd </span>CIRCULAR
+<span class="nb">ls</span> <span class="nt">-1</span> <span class="k">*</span>.jpg <span class="o">&gt;</span> 168jpgs.txt
+montage <span class="nt">-verbose</span> <span class="nt">-adjoin</span> <span class="nt">-tile</span> 12x14 +frame +shadow +label <span class="nt">-adjoin</span> <span class="nt">-geometry</span> <span class="s1">'150x150+0+0&lt;'</span> @168jpgs.txt rt-berlin-12-14-150x150.jpg
+</code></pre></div></div>
+
+:ET

@@ -1,0 +1,17 @@
+I"�<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>Just one command from <a href="https://stackoverflow.com/questions/45925964/how-to-use-git-credential-store-on-wsl-ubuntu-on-windows">How to use Git credential store on WSL (Ubuntu on Windows)?</a>:</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config <span class="nt">--global</span> credential.helper cache
+</code></pre></div></div>
+
+<ul>
+  <li>I didn’t have to change the timeout in ~/.gitconfig but just in case here’s the line to add</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[credential]
+        helper = cache --timeout=144000
+</code></pre></div></div>
+:ET

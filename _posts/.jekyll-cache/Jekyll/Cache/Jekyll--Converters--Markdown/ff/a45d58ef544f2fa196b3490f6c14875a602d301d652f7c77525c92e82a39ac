@@ -1,0 +1,34 @@
+I"�<h2 id="pontifications">Pontifications</h2>
+
+<p><a href="http://rolandtanglao.com/2018/09/22/p1-launchy-works-on-wsl-if-you-set-browser-environment-variable/"><strong>UPDATE September 22, 2018: Just set the <code class="language-plaintext highlighter-rouge">BROWSER</code> environment variable!</strong></a></p>
+
+<ul>
+  <li>Still can’t launch Firefox from Windows Subystem From Linux without a Selenium server and some hacks that nobody has w	working (Chrome works though)
+    <ul>
+      <li>above according to <a href="https://gist.github.com/danwhitston/5cea26ae0861ce1520695cff3c2c3315">browser_testing_on_wsl by danwhitston</a>:</li>
+    </ul>
+  </li>
+</ul>
+
+<blockquote>
+	
+	The problem with browser testing in WSL is that it relies on opening and controlling a web browser, and browsers don’t work on WSL at present as it deliberately doesn’t include X Windows or some other GUI manager - it’s meant to be command line after all. So while you can apt-get firefox, trying to actually run it isn’t going to work.<br /><br />
+	
+	...<br /><br />
+	
+	For Firefox (incomplete)<br /><br />
+
+    Install geckodriver on Windows. Note that the modern webdriver for Firefox is now known as Marionette, but that, if I understand correctly, the old webdriver is used for remote connections such as the one we're setting up.<br /><br />
+
+    Try something similar to the Chrome code below, but with :firefox instead of :chrome<br /><br />
+
+    Get errors such as 'Selenium::WebDriver::Error::UnknownError: The path to the driver executable must be set by the webdriver.gecko.driver system property' and try Chrome instead<br /><br />
+
+</blockquote>
+
+<ul>
+  <li>Oh well maybe I’ll eventually find the time to make it work with Firefox!</li>
+  <li>In the meantime I wrote <a href="https://github.com/rtanglao/rt-kitsune-api/blob/master/open-day-in-browser.rb">open-day-in-browser.rb</a> which only works on Mac and not on WSL! Someday!</li>
+</ul>
+
+:ET

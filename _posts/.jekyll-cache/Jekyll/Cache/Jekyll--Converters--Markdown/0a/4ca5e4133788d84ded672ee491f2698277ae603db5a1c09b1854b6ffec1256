@@ -1,0 +1,7 @@
+I"–<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li><a href="https://github.com/rtanglao/rt-csp">more CSP and regular expression fun</a></li>
+  <li>I also learned that gnugrep aka <code class="language-plaintext highlighter-rouge">ggrep</code> perl regular expressions using the <code class="language-plaintext highlighter-rouge">-P</code> flag are more reliable than OS X non perl regexes!</li>
+</ul>
+:ET

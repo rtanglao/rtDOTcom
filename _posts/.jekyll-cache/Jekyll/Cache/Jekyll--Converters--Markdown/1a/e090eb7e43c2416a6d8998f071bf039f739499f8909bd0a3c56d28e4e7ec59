@@ -1,0 +1,25 @@
+I"Î<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>Basically the same as <a href="https://github.com/rtanglao/rt-making-wsl-and-windows-work-for-me/blob/master/README.md#17december2018-after-re-install-of-windows-10-install-ruby-253">ruby 2.5.3</a> but I changed <code class="language-plaintext highlighter-rouge">2.5.3</code> to <code class="language-plaintext highlighter-rouge">2.6.1</code> and installed <code class="language-plaintext highlighter-rouge">libreadline-dev</code></li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt-get update
+<span class="nb">sudo </span>apt <span class="nb">install</span> <span class="nt">-y</span> libreadline-dev
+<span class="nb">sudo </span>apt-get <span class="nb">install </span>build-essential
+<span class="nb">cd
+</span>wget http://ftp.ruby-lang.org/pub/ruby/2.6/ruby-2.6.1.tar.gz
+<span class="nb">tar</span> <span class="nt">-xzvf</span> ruby-2.6.1.tar.gz
+<span class="nb">cd </span>ruby-2.6.1/
+<span class="nb">sudo </span>apt-get <span class="nb">install </span>zlib1g-dev
+<span class="nb">sudo </span>apt-get update <span class="nt">-y</span> <span class="o">&amp;&amp;</span> <span class="nb">sudo </span>apt-get upgrade <span class="nt">-y</span>
+<span class="nb">sudo </span>apt-get <span class="nb">install </span>libssl-dev
+./configure
+make
+<span class="nb">sudo </span>make <span class="nb">install
+</span>ruby <span class="nt">-v</span>
+<span class="nb">sudo </span>gem update <span class="nt">--system</span>
+<span class="nb">sudo </span>gem <span class="nb">install </span>jekyll bundler
+<span class="nb">sudo </span>gem <span class="nb">install </span>redcarpet
+</code></pre></div></div>
+:ET

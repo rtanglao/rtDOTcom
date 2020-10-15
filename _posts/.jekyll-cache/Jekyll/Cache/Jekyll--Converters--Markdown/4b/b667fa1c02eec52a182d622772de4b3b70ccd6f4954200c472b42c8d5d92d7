@@ -1,0 +1,26 @@
+I"š<h2 id="pontifications">Pontifications</h2>
+
+<p>(<a href="http://rolandtanglao.com/2017/07/10/p1-joyplot-r-reverse-engineering-part1/">Part 1</a>)</p>
+
+<ul>
+  <li>Maybe I should believe this comment :-) <code class="language-plaintext highlighter-rouge">1_gen_data.R generates the activity.tsv file that is used in here</code></li>
+  <li>Looking at <a href="https://github.com/halhen/viz-pub/blob/master/sports-time-of-day/1_gen_data.R">1_gen_data.R</a>:</li>
+</ul>
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">lubridate</span><span class="p">)</span><span class="w">
+
+</span><span class="c1"># Load data; see https://www.kaggle.com/bls/american-time-use-survey</span><span class="w">
+
+</span><span class="n">df.act</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">read_csv</span><span class="p">(</span><span class="s1">'~henrik/private/vizyns/data/atus/atusact.csv'</span><span class="p">)</span><span class="w">
+</span><span class="n">df.sum</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">read_csv</span><span class="p">(</span><span class="s1">'~henrik/private/vizyns/data/atus/atussum.csv'</span><span class="p">)</span><span class="w">
+
+
+</span><span class="c1"># Get a data frame with activity (trcodep), observation weight (tufnwgtp)</span><span class="w">
+</span><span class="c1"># and interval for doing (start - end)</span><span class="w">
+</span></code></pre></div></div>
+
+<ul>
+  <li>Therefore I guess itâ€™s time to look at <a href="https://www.kaggle.com/bls/american-time-use-survey">https://www.kaggle.com/bls/american-time-use-survey</a> That will be part 3 :-) !</li>
+</ul>
+:ET

@@ -1,0 +1,7 @@
+I"<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>Take Firefox questions in CSV e.g. all the questions from <a href="https://github.com/rtanglao/rt-kits-api2/blob/master/202003/2020-03-21-2020-03-21-firefox-creator-answers-desktop-all-locales.csv">March 21, 2020</a>  and convert to SQL lite using <a href="https://github.com/simonw/csvs-to-sqlite">Simon Willison’s csvs-to-sqlite</a> which I guess uses the <a href="https://www.sqlitetutorial.net/sqlite-import-csv/">sqlite3 import command</a> underneath?</li>
+</ul>
+
+:ET

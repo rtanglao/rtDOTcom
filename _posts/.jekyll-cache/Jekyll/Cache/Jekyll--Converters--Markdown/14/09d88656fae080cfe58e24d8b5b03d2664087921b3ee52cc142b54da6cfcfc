@@ -1,0 +1,44 @@
+I"<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li><a href="http://kitsune.readthedocs.io/en/latest/api.html">Unofficial Search API for support.mozilla.org’s Kitsune platform</a>   that may go away at any day :-) to search for the word videos</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="nt">-i</span> <span class="s2">"https://support.mozilla.org/api/2/search/suggest/"</span>      <span class="nt">-H</span> <span class="s2">"Content-Type: application/json"</span>      <span class="nt">-d</span> <span class="s1">'
+{
+   "q": "videos",
+   "max_documents": 3,
+   "max_questions": 0
+}'</span>
+</code></pre></div></div>
+
+<ul>
+  <li>response from server is:</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>HTTP/1.1 200 OK
+Server: Apache
+X-Backend-Server: support4.webapp.phx1.mozilla.com
+Vary: X-Mobile,User-Agent
+Cache-Control: no-cache, must-revalidate
+Content-Type: application/json
+Strict-Transport-Security: max-age=31536000
+Public-Key-Pins: max-age=1296000; pin-sha256="r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E="; pin-sha256="WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=";
+Date: Wed, 22 Nov 2017 23:07:54 GMT
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+Transfer-Encoding: chunked
+X-Content-Type-Options: nosniff
+X-Robots-Tag: noodp
+Set-Cookie: multidb_pin_writes=y; expires=Wed, 22-Nov-2017 23:08:09 GMT; httponly; Max-Age=15; Path=/
+Allow: POST, OPTIONS, GET
+X-Frame-Options: DENY
+X-Cache-Info: not cacheable; request wasn't a GET or HEAD
+
+{"documents":[{"id":15114,"title":"Download music, photos and videos","slug":"download-music-photos-and-videos","url":"/en-US/
+...
+</code></pre></div></div>
+<p>etc</p>
+
+:ET

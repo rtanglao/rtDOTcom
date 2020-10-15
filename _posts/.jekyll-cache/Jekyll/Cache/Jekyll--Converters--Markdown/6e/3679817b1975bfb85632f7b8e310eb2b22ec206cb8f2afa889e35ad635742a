@@ -1,0 +1,19 @@
+I"�<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>Just to clarify <a href="http://rolandtanglao.com/2018/09/13/kitsune-question-api/">Kitsune aka support.mozilla.org question API</a>
+    <ul>
+      <li>product=’<code class="language-plaintext highlighter-rouge">firefox</code>’ is Firefox for desktop e.g. sample API is:
+        <ul>
+          <li><code class="language-plaintext highlighter-rouge">https://support.mozilla.org/api/2/question/?format=json&amp;product=firefox&amp;locale=en-US</code></li>
+        </ul>
+      </li>
+      <li>product=’<code class="language-plaintext highlighter-rouge">mobile</code>’ is Firefox for Android e.g. sample API is:
+        <ul>
+          <li><code class="language-plaintext highlighter-rouge">https://support.mozilla.org/api/2/question/?format=json&amp;product=mobile&amp;locale=en-US</code></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+:ET

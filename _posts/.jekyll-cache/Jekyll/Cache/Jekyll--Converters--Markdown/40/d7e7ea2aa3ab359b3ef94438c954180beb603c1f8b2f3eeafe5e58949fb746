@@ -1,0 +1,17 @@
+I"­<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>To the <a href="http://rolandtanglao.com/2017/08/20/p1-naive-density-plot-instagram-vancouver-average-colour-january-2016/">previous naive density plot</a>, I changed to <code class="language-plaintext highlighter-rouge">theme_void()</code> and made it 21000 pixel wide: <a href="https://github.com/rtanglao/2016-r-rtgram/commit/3aab373eb4d8c46f2a420014ca9687d717f39921">plot on github</a></li>
+  <li>Still have issues with 1.0 spikes which shouldnâ€™t happen, everything should be less than 1.0! I will investigate, error in the dataset? (I noticed that azure might be problematic?)</li>
+  <li>Here is the R code that I ran in R Studio</li>
+</ul>
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">csv_url</span><span class="w"> </span><span class="o">=</span><span class="w"> 
+</span><span class="s2">"https://raw.githubusercontent.com/rtanglao/2016-r-rtgram/master/JANUARY2016/january2016-ig-van-avgcolour-id-mf-month-day-daynum-unixtime-hour-colourname.csv"</span><span class="w">
+</span><span class="n">average_colour_ig_van_jan2016_colourname</span><span class="w"> </span><span class="o">=</span><span class="w"> 
+  </span><span class="n">read_csv</span><span class="p">(</span><span class="n">csv_url</span><span class="p">)</span><span class="w">
+</span><span class="n">ggplot</span><span class="p">(</span><span class="n">average_colour_ig_van_jan2016_colourname</span><span class="p">,</span><span class="w">
+ </span><span class="n">aes</span><span class="p">(</span><span class="n">colourname</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">geom_density</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">theme_void</span><span class="p">()</span><span class="w">
+
+</span></code></pre></div></div>
+:ET

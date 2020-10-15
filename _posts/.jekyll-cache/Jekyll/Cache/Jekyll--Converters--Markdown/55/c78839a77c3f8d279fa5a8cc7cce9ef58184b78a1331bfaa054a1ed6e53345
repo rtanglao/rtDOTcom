@@ -1,0 +1,44 @@
+I"<
+<h2 id="update-tldr">UPDATE tl;dr</h2>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> /Users/rtanglao/Dropbox/ROLLINGROLAND.COM_SURGE/rollingroland
+hugo new post/2017-01-09-p1-snowmaggedon2016-7.md
+<span class="c"># edit in IA Writer or other markdown editor:  content/post/2017-01-09-p1-snowmaggedon2016-7.md</span>
+hugo <span class="nt">--theme</span><span class="o">=</span>beautifulhugo <span class="nt">--buildDrafts</span>
+surge public <span class="nt">--domain</span> rollingroland.com
+</code></pre></div></div>
+
+<h2 id="pontifications">Pontifications</h2>
+
+<p>Since I’m sure I’ll forget, here’s how I created my new rollingroland.com blog using surge.sh and hugo and hover’s DNS.</p>
+
+<p>Step 0 is of course to buy the domain name. I recommend <a href="https://www.hover.com/">hover</a>!</p>
+
+<h3 id="hugo---the-blog-engine-aka-static-site-generator-written-in-go">hugo - the blog engine aka static site generator written in go</h3>
+
+<p>Install hugo using brew on Mac OS X or your favourite linux package manager.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">cd /Users/rtanglao/Dropbox/ROLLINGROLAND.COM_SURGE</code></li>
+  <li>Create fresh blog post: <code class="language-plaintext highlighter-rouge">hugo new post/hello.md</code> and edit in your favourite markdown editor e.g. IA writer</li>
+  <li><code class="language-plaintext highlighter-rouge">cd themes ; git clone https://github.com/halogenica/Hugo/BeautifulHugo.git beautifulhugo ; cd ..</code></li>
+  <li><code class="language-plaintext highlighter-rouge">hugo server --buildDrafts --theme=beautifulhugo</code></li>
+  <li>Change draft in hello.md to “draft = false” when happy</li>
+  <li>render the pages to the <code class="language-plaintext highlighter-rouge">public</code> subdirectory:  <code class="language-plaintext highlighter-rouge">hugo --theme=beautifulhugo</code>`</li>
+</ul>
+
+<h3 id="hovercom---dns-changes">hover.com - DNS changes</h3>
+
+<ul>
+  <li>create an A record: <code class="language-plaintext highlighter-rouge">@ A 192.241.214.148</code></li>
+  <li>create a CNAME record: <code class="language-plaintext highlighter-rouge">www CNAME	na-west1.surge.sh.</code></li>
+</ul>
+
+<h3 id="surgesh---hosting-the-rendered-pages">surge.sh - hosting the rendered pages</h3>
+
+<p>The following command posts the rendered pages to the <a href="http://surge.sh/">fabulous static hosting service surge.sh</a>:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">surge public --domain rollingroland.com</code></li>
+</ul>
+:ET

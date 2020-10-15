@@ -1,0 +1,7 @@
+I"~<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li><strong>QUOTE</strong> –&gt;   Fascinating little CLI utility which uses some deeply clever AST  introspection to enable little Python one-liners that act as  replacements for all manner of pipe-oriented unix utilities. Took me a  while to understand how it works from the README, but then I looked at  the code and the entire thing is only 380 lines long. There’s also a  useful –explain option which outputs the Python source code that it  would execute for a given command. <strong>END QUOTE</strong> &lt;— Read <a href="https://simonwillison.net/2020/May/9/pyp/">Simon Willison’s blog post</a> and check out <a href="https://github.com/hauntsaninja/pyp">hauntsaninja’s pyp</a> which is “Magical, but never mysterious.” &lt;— Right as if introspection and the AST is never both magical and mysterious :-)</li>
+</ul>
+
+:ET

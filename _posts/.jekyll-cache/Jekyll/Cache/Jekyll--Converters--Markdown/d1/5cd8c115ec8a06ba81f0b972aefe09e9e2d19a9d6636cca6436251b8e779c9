@@ -1,0 +1,35 @@
+I"¾<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>Hereâ€™s how I got cider to work in emacs as of today:
+    <ul>
+      <li><a href="https://leiningen.org/#install">Install lein 2.9.1 manually</a> after uininstalling the apt-get version since ubuntu installs 2.8 by default, hooray for out of date :-)</li>
+      <li>Set dependencies to nrepl 0.6.0:
+        <ul>
+          <li><code class="language-plaintext highlighter-rouge">:dependencies [[org.clojure/clojure "1.8.0"] [nrepl "0.6.0"]]</code></li>
+        </ul>
+      </li>
+      <li>Set plugins to cider-nrepl 0.21.1:
+        <ul>
+          <li><code class="language-plaintext highlighter-rouge">:plugins [[cider/cider-nrepl "0.21.1"]]</code></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="full-projclj">Full proj.clj</h1>
+
+<div class="language-clojure highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="nf">defproject</span><span class="w"> </span><span class="n">clojure-noob</span><span class="w"> </span><span class="s">"0.1.0-SNAPSHOT"</span><span class="w">
+  </span><span class="no">:description</span><span class="w"> </span><span class="s">"FIXME: write description"</span><span class="w">
+  </span><span class="no">:url</span><span class="w"> </span><span class="s">"http://example.com/FIXME"</span><span class="w">
+  </span><span class="no">:license</span><span class="w"> </span><span class="p">{</span><span class="no">:name</span><span class="w"> </span><span class="s">"Eclipse Public License"</span><span class="w">
+            </span><span class="no">:url</span><span class="w"> </span><span class="s">"http://www.eclipse.org/legal/epl-v10.html"</span><span class="p">}</span><span class="w">
+  </span><span class="no">:dependencies</span><span class="w"> </span><span class="p">[[</span><span class="n">org.clojure/clojure</span><span class="w"> </span><span class="s">"1.8.0"</span><span class="p">]</span><span class="w"> </span><span class="p">[</span><span class="n">nrepl</span><span class="w"> </span><span class="s">"0.6.0"</span><span class="p">]]</span><span class="w">
+  </span><span class="no">:main</span><span class="w"> </span><span class="o">^</span><span class="no">:skip-aot</span><span class="w"> </span><span class="n">clojure-noob.core</span><span class="w">
+  </span><span class="no">:target-path</span><span class="w"> </span><span class="s">"target/%s"</span><span class="w">
+  </span><span class="no">:plugins</span><span class="w"> </span><span class="p">[[</span><span class="n">cider/cider-nrepl</span><span class="w"> </span><span class="s">"0.21.1"</span><span class="p">]]</span><span class="w">
+  </span><span class="no">:profiles</span><span class="w"> </span><span class="p">{</span><span class="no">:uberjar</span><span class="w"> </span><span class="p">{</span><span class="no">:aot</span><span class="w"> </span><span class="no">:all</span><span class="p">}})</span><span class="w">
+</span></code></pre></div></div>
+
+:ET

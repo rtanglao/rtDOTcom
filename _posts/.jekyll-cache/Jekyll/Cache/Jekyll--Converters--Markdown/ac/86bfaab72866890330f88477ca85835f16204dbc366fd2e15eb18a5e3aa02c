@@ -1,0 +1,11 @@
+I"9<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>On the back: <a href="http://rolandtanglao.com/2019/08/18/p1-use-imagemagick-vignette-to-do-circular-crop/">use imagemagick to make a  circular crop</a> of my <a href="https://www.flickr.com/photos/roland/albums/72157709917594396">Berlin July 2019 photos</a> spelling out “Berlin 2020”.  Randomly select 75x75 patches and apply a” circular crop to them.</li>
+  <li>On the front, make graphics from contributors’ <a href="https://github.com/rtanglao/rt-kits-api2/blob/master/print-desktop-contributors.rb">answers</a> on SUMO spelling out “Firefox Support” or some such.
+    <ul>
+      <li>Perhaps a 26 colour infographic (do a <code class="language-plaintext highlighter-rouge">mod 26</code> on each character of an answer?!?!)</li>
+    </ul>
+  </li>
+</ul>
+:ET

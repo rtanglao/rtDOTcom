@@ -1,0 +1,13 @@
+I"m<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>
+    <p><strong>QUOTE</strong> –&gt; Animating a ggplot visualization with gganimate can be as simple as  adding one gganimate function. Even more complex visualisations, with  multiple geoms and facetting for example, are no problem for gganimate.</p>
+
+    <p>But if you want to animate between multiple states, you need to  provide data for the intermediate states, which might mean reshaping  your data.</p>
+
+    <p>This tutorial only scratched the surface of what gganimate is capable of. &lt;– <strong>END QUOTE</strong> –&gt; Read the whole thing: <a href="https://flowingdata.com/2020/05/13/animated-histograms-ggplot-gganimate/">Maarten Lambrechts: How to Make Animated Histograms in R, with ggplot and gganimate</a> &lt;— a fantastic tutorial well worth the $10/month subscription fee</p>
+  </li>
+</ul>
+
+:ET

@@ -1,0 +1,28 @@
+I"�<p><strong>tl;dr</strong> Browser based see + cloud storage + simple web hosting for that cloud storage = 21st websites for everyone!</p>
+
+<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>This site, rolandtanglao,com, uses a command line static website generator called <code class="language-plaintext highlighter-rouge">jekyll</code> written in ruby which generates HTML which I then upload to the free static website hosting service <code class="language-plaintext highlighter-rouge">surge.sh</code></li>
+  <li>This is great <strong>for me</strong>. Since command lines, ruby et al are my friends since 1984 :-) ! (i first used the Unix command line in 1984 or maybe a year or 2 earlier not sure!)</li>
+  <li>But it’s dumb, why couldn’t I do this in a web browser?</li>
+  <li>Make it so lazy web :-)</li>
+  <li>Anyhow this isn’t an original idea.</li>
+  <li>Dave Winer’s been riffing on this for ages and <a href="http://scripting.com/2017/01/05/itsTimeToThinkOfTheUsers.html">here’s a quote from his most recent thinking on browser static site generation plus uploading to static site cloud hosting</a>:</li>
+</ul>
+
+<p><strong>QUOTE</strong></p>
+
+<blockquote>
+
+Here's a sketch of how the service would work.<br />
+
+   1. Start with a user-facing service like Dropbox, Google Drive, Amazon Cloud Drive. <br />
+    
+   2. Add an API that allows a JavaScript app running in the browser to write into a folder in a user's space. The user grants access via oAuth, as they do with Twitter, Facebook, etc. <br />
+    
+   3. Connect to a registrar to allow a user to associate a domain name with a folder. Or map a domain they register elsewhere. A revenue opportunity.
+</blockquote>
+
+<p><strong>END QUOTE</strong></p>
+:ET

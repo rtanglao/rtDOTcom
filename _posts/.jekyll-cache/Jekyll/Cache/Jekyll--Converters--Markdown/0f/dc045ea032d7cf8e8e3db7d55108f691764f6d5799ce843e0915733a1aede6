@@ -1,0 +1,12 @@
+I"|<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>If you want integer values don’t use something that returns strings :-) and then cast (or rely on casting) them to integers.</li>
+  <li>In particular don’t use <code class="language-plaintext highlighter-rouge">strftime</code> to get the integer day of the year like I did originally in <a href="https://github.com/rtanglao/rt-ff48-rust/commit/7d5d03d03f8effed95606c53c1c986b2352d6585">addDayOfTheyYear.rb</a> instead use the integer API e.g. in <a href="https://github.com/rtanglao/rt-ff48-rust/blob/master/addDayOfTheyYear.rb">addDayOfTheyYear.rb</a> :</li>
+</ul>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">t</span> <span class="o">=</span> <span class="no">Time</span><span class="p">.</span><span class="nf">at</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="mi">1</span><span class="p">].</span><span class="nf">to_i</span><span class="p">)</span>
+<span class="n">s</span> <span class="o">=</span> <span class="n">t</span><span class="p">.</span><span class="nf">yday</span> <span class="c1">#not strftime !!!!!</span>
+<span class="n">year</span> <span class="o">=</span> <span class="n">t</span><span class="p">.</span><span class="nf">year</span> <span class="c1">#not strftime !!!!!!!!!</span>
+</code></pre></div></div>
+:ET

@@ -1,0 +1,9 @@
+I"�<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>New to me but available since <a href="https://github.com/mozilla/kitsune/issues/3481">March in the fix to issue 3481</a>: New SUMO Kitsune questions API: created and updated less than and greater than. Previously:  <a href="http://rolandtanglao.com/2019/03/19/p1-kitsune-questions-aaq-api-product-firefox-desktop-product-mobile-firefox-for-android/">Kitsune Questions aka AAQ API, product == ‘firefox’ is desktop, ‘mobile’ is Firefox for android</a></li>
+  <li>See it in action in <a href="https://github.com/rtanglao/rt-kits-api2/blob/master/get-questions-for-1-day.rb">my code</a></li>
+  <li>Or in <a href="https://github.com/mozilla-it/sumo/blob/master/Kitsune/get_kitsune_data.py">Nancy’s code:</a> search for <code class="language-plaintext highlighter-rouge">updated_lt</code> and <code class="language-plaintext highlighter-rouge">updated_gt</code></li>
+</ul>
+
+:ET

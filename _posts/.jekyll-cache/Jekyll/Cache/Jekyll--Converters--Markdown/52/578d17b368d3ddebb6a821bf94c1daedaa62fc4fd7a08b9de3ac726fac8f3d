@@ -1,0 +1,37 @@
+I"�<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>Here’s the <a href="https://roland-ds1.glitch.me/data?sql=select%0D%0A++created%2C%0D%0A++url%2C%0D%0A++title%2C%0D%0A++content%2C%0D%0A++tags%0D%0Afrom%0D%0A++%5Bsorted-all-desktop-en-us-2020-01-01-2020-05-25-firefox-creator-answers-desktop-all-locales%5D%0D%0Awhere%0D%0A++%22created%22+%3E%3D+%3Ap2%0D%0A++and+%22created%22+%3C+%3Ap3%0D%0A++AND+%28+%22content%22+like+%3Ap0%0D%0A++or+%22tags%22+like+%3Ap4%0D%0A++or+%22title%22+like+%3Ap6%29%0D%0Aorder+by%0D%0A++rowid%0D%0Alimit%0D%0A++1000&amp;p2=2020-04-30+16%3A00%3A00&amp;p3=2020-05-26+00%3A00%3A00&amp;p0=%25sync%25&amp;p4=%25sync%25&amp;p6=%25sync%25">SQL query</a> from roland-ds1.glitch.me from the previous post, <a href="http://rolandtanglao.com/2020/05/25/p2-glitch-datasette-firefox-desktop-support-january1-may25-2020/">HowTo: Datasette on Glitch for Firefox Desktop support questions January 1 to May 25, 2020</a></li>
+</ul>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">select</span>
+  <span class="n">created</span><span class="p">,</span>
+  <span class="n">url</span><span class="p">,</span>
+  <span class="n">title</span><span class="p">,</span>
+  <span class="n">content</span><span class="p">,</span>
+  <span class="n">tags</span>
+<span class="k">from</span>
+  <span class="p">[</span><span class="n">sorted</span><span class="o">-</span><span class="k">all</span><span class="o">-</span><span class="n">desktop</span><span class="o">-</span><span class="n">en</span><span class="o">-</span><span class="n">us</span><span class="o">-</span><span class="mi">2020</span><span class="o">-</span><span class="mi">01</span><span class="o">-</span><span class="mi">01</span><span class="o">-</span><span class="mi">2020</span><span class="o">-</span><span class="mi">05</span><span class="o">-</span><span class="mi">25</span><span class="o">-</span><span class="n">firefox</span><span class="o">-</span><span class="n">creator</span><span class="o">-</span><span class="n">answers</span><span class="o">-</span><span class="n">desktop</span><span class="o">-</span><span class="k">all</span><span class="o">-</span><span class="n">locales</span><span class="p">]</span>
+<span class="k">where</span>
+  <span class="nv">"created"</span> <span class="o">&gt;=</span> <span class="p">:</span><span class="n">p2</span>
+  <span class="k">and</span> <span class="nv">"created"</span> <span class="o">&lt;</span> <span class="p">:</span><span class="n">p3</span>
+  <span class="k">AND</span> <span class="p">(</span> <span class="nv">"content"</span> <span class="k">like</span> <span class="p">:</span><span class="n">p0</span>
+  <span class="k">or</span> <span class="nv">"tags"</span> <span class="k">like</span> <span class="p">:</span><span class="n">p4</span>
+  <span class="k">or</span> <span class="nv">"title"</span> <span class="k">like</span> <span class="p">:</span><span class="n">p6</span><span class="p">)</span>
+<span class="k">order</span> <span class="k">by</span>
+  <span class="n">rowid</span>
+<span class="k">limit</span>
+  <span class="mi">1000</span>
+</code></pre></div></div>
+
+<p>where:</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">p2</span> <span class="o">=</span> <span class="mi">2020</span><span class="o">-</span><span class="mi">04</span><span class="o">-</span><span class="mi">30</span> <span class="mi">16</span><span class="p">:</span><span class="mi">00</span><span class="p">:</span><span class="mi">00</span>
+<span class="n">p3</span> <span class="o">=</span> <span class="mi">2020</span><span class="o">-</span><span class="mi">05</span><span class="o">-</span><span class="mi">26</span> <span class="mi">00</span><span class="p">:</span><span class="mi">00</span><span class="p">:</span><span class="mi">00</span>
+<span class="n">p0</span> <span class="o">=</span> <span class="o">%</span><span class="n">sync</span><span class="o">%</span>
+<span class="n">p4</span> <span class="o">=</span> <span class="o">%</span><span class="n">sync</span><span class="o">%</span>
+<span class="n">p6</span> <span class="o">=</span> <span class="o">%</span><span class="n">sync</span><span class="o">%</span>
+</code></pre></div></div>
+
+<p>And here’s the <a href="https://docs.google.com/spreadsheets/d/18UUsBqoOk3GphPqUXQmRm98mIjX8Ut4ggatxDPZimGA/edit?usp=sharing">CSV file</a> (as a Google Spreadsheet)</p>
+:ET

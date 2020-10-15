@@ -1,0 +1,19 @@
+I"�<h2 id="pontifications">Pontifications</h2>
+
+<p><a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/32551494173/" title="%OS% can be WINNT or Darwin or Linux..."><img src="https://c1.staticflickr.com/4/3866/32551494173_b5798be2c4_n.jpg" width="320" height="81" alt="%OS% can be WINNT or Darwin or Linux..." /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+
+<ul>
+  <li>On Firefox for OS X, I when I select <code class="language-plaintext highlighter-rouge">Help-&gt;Firefox Help</code> I see a url with <code class="language-plaintext highlighter-rouge">Darwin</code> in it momentarily and then the “real” url after the redirect, same with <code class="language-plaintext highlighter-rouge">WINNT</code> on Windows</li>
+  <li>The <code class="language-plaintext highlighter-rouge">%OS%</code> values are:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">Darwin</code> for OSX</li>
+      <li><code class="language-plaintext highlighter-rouge">WINNT</code> for Windows</li>
+      <li><code class="language-plaintext highlighter-rouge">Linux</code> for Linux</li>
+      <li>not sure what it is for Android (maybe <code class="language-plaintext highlighter-rouge">Android</code>?)</li>
+    </ul>
+  </li>
+  <li>nsIURLFormatter https://dxr.mozilla.org/mozilla-central/source/toolkit/components/urlformatter/nsURLFormatter.js</li>
+  <li>The pref is <code class="language-plaintext highlighter-rouge">app.support.baseURL</code> and the value of that is passed to formatURL in nsURLFormatter.js</li>
+  <li>all of the values inside <code class="language-plaintext highlighter-rouge">%NAME%</code> are replaced at run time when creating the url</li>
+</ul>
+:ET

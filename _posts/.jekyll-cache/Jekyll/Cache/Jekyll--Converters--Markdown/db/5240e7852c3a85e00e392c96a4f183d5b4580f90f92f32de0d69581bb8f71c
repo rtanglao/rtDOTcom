@@ -1,0 +1,22 @@
+I"�
+<h2 id="pontifications">Pontifications</h2>
+<p>(Step 2 is to remove those &gt;100 occurrences whose neighborhoods aren’t in the city of Vancouver, like North Vancouver, Whistler, Squamish, Burnaby, etc)</p>
+
+<ul>
+  <li>Step 1 of <a href="http://rolandtanglao.com/2017/10/07/p1-2015-instagram-vancouver-lat-long-to-neighbourhood-flickr-api-done-next-remove-non-vancouver-hoods/">instagram vancouver 2015 neighbourhood data cleaning</a>: We’ll derive <a href="https://github.com/rtanglao/ig-ggmap/blob/master/WITH_NEIGHBOURHOOD_CSV_FILES_FOR_GGMAP_2015/count_ig_van_2015-colour-lat-long-date-neighborhood.csv">count_ig_van_2015-colour-lat-long-date-neighborhood.csv</a> as follows:
+    <ul>
+      <li>Using the data from the last post, <a href="http://rolandtanglao.com/2017/10/09/p1-one-csv-file-neighbourhood-instagram-vancouver-average-colour-2015/">One CSV File with instagram Vancouver 2015 neighborhood using lappl(y) to read the CSV file and then bind_rows() to combine the rows of the CSV files</a>, and <code class="language-plaintext highlighter-rouge">add_count()</code> and <code class="language-plaintext highlighter-rouge">filter()</code> we’ll remove all rows whose neighborhood occurs less than 101 times using the following R code:</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">count_ig_van_neighbourhood_2015</span><span class="w">  </span><span class="o">&lt;-</span><span class="w">
+  </span><span class="n">ig_van_neighbourhood_2015</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
+  </span><span class="n">add_count</span><span class="p">(</span><span class="n">neighbourhood</span><span class="p">,</span><span class="w"> </span><span class="n">sort</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">TRUE</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
+  </span><span class="n">filter</span><span class="p">(</span><span class="n">n</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="m">100</span><span class="p">)</span><span class="w">
+
+</span><span class="n">write.csv</span><span class="p">(</span><span class="n">count_ig_van_neighbourhood_2015</span><span class="p">,</span><span class="w"> 
+          </span><span class="n">file</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"count_ig_van_2015-colour-lat-long-date-neighborhood.csv"</span><span class="p">,</span><span class="w">
+          </span><span class="n">row.names</span><span class="o">=</span><span class="kc">FALSE</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+:ET

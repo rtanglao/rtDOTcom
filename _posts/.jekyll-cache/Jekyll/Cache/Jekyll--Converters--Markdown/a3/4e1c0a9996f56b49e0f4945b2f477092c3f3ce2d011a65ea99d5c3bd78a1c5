@@ -1,0 +1,9 @@
+I"�<h1 id="pontifications">Pontifications</h1>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mlr <span class="nt">--csv</span> put <span class="s1">'$tags=""'</span> ff70-1st-four-weeks-url-tags.csv  <span class="o">&gt;</span> ff70-1st-four-weeks-url-blank-tags.csv
+</code></pre></div></div>
+<ul>
+  <li>The above miller / mlr command line clears the “tags” field</li>
+</ul>
+
+:ET

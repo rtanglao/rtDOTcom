@@ -1,0 +1,21 @@
+I"j
+<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>Using <code class="language-plaintext highlighter-rouge">bind_rows()</code> and <code class="language-plaintext highlighter-rouge">lapply()</code>, I combined the <a href="http://rolandtanglao.com/2017/10/08/p1-2015-instagram-vancouver-lat-long-to-neighbourhood-csv/">6 neighborhood CSV files</a> made with <a href="https://github.com/rtanglao/ig-ggmap/blob/7e8b30d967b61f8e10f75491f4427125b8605714/add-neightbourhood-to-csv.rb">add-neightbourhood-to-csv.rb</a> for instagram vancouver 2015 into 1 file  called <a href="https://github.com/rtanglao/ig-ggmap/blob/master/WITH_NEIGHBOURHOOD_CSV_FILES_FOR_GGMAP_2015/ig_van_2015-colour-lat-long-date-neighborhood.csv">ig_van_2015-colour-lat-long-date-neighborhood.csv</a> using the following R code:</li>
+</ul>
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># https://stackoverflow.com/questions/30242065/trying-to-merge-multiple-csv-files-in-r</span><span class="w">
+
+</span><span class="n">ig_van_neighbourhood_2015</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">list.files</span><span class="p">(</span><span class="w">
+  </span><span class="s2">"/Users/rtanglao/Dropbox/GIT/ig-ggmap/WITH_NEIGHBOURHOOD_CSV_FILES_FOR_GGMAP_2015"</span><span class="p">,</span><span class="w"> 
+  </span><span class="n">pattern</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"[[:print:]]*neighbourhood[[:print:]]*.csv"</span><span class="p">,</span><span class="w">
+  </span><span class="n">full.names</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">TRUE</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
+  </span><span class="n">lapply</span><span class="p">(</span><span class="n">read_csv</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
+  </span><span class="n">bind_rows</span><span class="w">
+  
+  </span><span class="n">write.csv</span><span class="p">(</span><span class="n">ig_van_neighbourhood_2015</span><span class="p">,</span><span class="w"> 
+          </span><span class="n">file</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"ig_van_2015-colour-lat-long-date-neighborhood.csv"</span><span class="p">,</span><span class="w">
+          </span><span class="n">row.names</span><span class="o">=</span><span class="kc">FALSE</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+:ET

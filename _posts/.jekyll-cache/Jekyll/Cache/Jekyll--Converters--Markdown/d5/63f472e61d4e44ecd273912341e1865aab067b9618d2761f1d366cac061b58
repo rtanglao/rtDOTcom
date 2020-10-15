@@ -1,0 +1,34 @@
+I"®<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>Key point for bar graphs with negative values that are on the y axis: <a href="http://stackoverflow.com/questions/19481634/ggplot2-warning-stacking-not-well-defined-when-ymin-0">add <code class="language-plaintext highlighter-rouge">position="identity"</code></a> to <code class="language-plaintext highlighter-rouge">geom_bar()</code> arguments</li>
+  <li>I donâ€™t know why we need this <code class="language-plaintext highlighter-rouge">position="identity"</code> :-) Probably more proof I need to understand statistics and the grammar of graphics more!</li>
+</ul>
+
+<h3 id="code">Code</h3>
+
+<p><a href="https://github.com/rtanglao/rt-ff48-rust/blob/master/plot-rust-ff48-commits-insertions-negative-deletions.R">From plot-rust-ff48-commits-insertions-negative-deletions.R</a>:</p>
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">ggplot2</span><span class="p">)</span><span class="w">
+</span><span class="n">data22nov2016</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">read.csv</span><span class="p">(</span><span class="n">file</span><span class="o">=</span><span class="s2">"rust-ff48-negative-deletions-insertions.csv"</span><span class="p">,</span><span class="w"> 
+    </span><span class="n">stringsAsFactors</span><span class="o">=</span><span class="nb">F</span><span class="p">)</span><span class="w">
+
+</span><span class="n">p</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ggplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">data22nov2016</span><span class="p">,</span><span class="w"> </span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">commit</span><span class="p">,</span><span class="w">
+  </span><span class="n">y</span><span class="o">=</span><span class="n">number_of_lines</span><span class="p">,</span><span class="w"> </span><span class="n">fill</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">type</span><span class="p">))</span><span class="o">+</span><span class="w">
+  </span><span class="n">geom_bar</span><span class="p">(</span><span class="n">position</span><span class="o">=</span><span class="s2">"identity"</span><span class="p">,</span><span class="w">
+  </span><span class="n">stat</span><span class="o">=</span><span class="s2">"identity"</span><span class="p">,</span><span class="w"> </span><span class="n">width</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1</span><span class="p">)</span><span class="o">+</span><span class="w">
+  </span><span class="n">theme_void</span><span class="p">()</span><span class="o">+</span><span class="w"> 
+  </span><span class="n">theme</span><span class="p">(</span><span class="n">legend.position</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'none'</span><span class="p">)</span><span class="o">+</span><span class="w"> 
+  </span><span class="n">theme</span><span class="p">(</span><span class="n">strip.background</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">element_blank</span><span class="p">(),</span><span class="w">
+  </span><span class="n">strip.text.x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">element_blank</span><span class="p">())</span><span class="o">+</span><span class="w">
+  </span><span class="n">scale_fill_manual</span><span class="p">(</span><span class="n">values</span><span class="o">=</span><span class="nf">c</span><span class="p">(</span><span class="s2">"red"</span><span class="p">,</span><span class="w"> </span><span class="s2">"green"</span><span class="p">))</span><span class="w"> 
+  
+</span><span class="n">ggsave</span><span class="p">(</span><span class="s2">"rust-mp4-ff48-sorted-commits-insertion-negative-deletion.png"</span><span class="p">,</span><span class="w">
+  </span><span class="n">p</span><span class="p">,</span><span class="w"> </span><span class="n">width</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">29.1666666667</span><span class="p">,</span><span class="w">
+  </span><span class="n">height</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">25</span><span class="p">,</span><span class="w"> </span><span class="n">dpi</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">72</span><span class="p">,</span><span class="w"> 
+  </span><span class="n">limitsize</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">FALSE</span><span class="p">,</span><span class="w"> 
+  </span><span class="n">bg</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"transparent"</span><span class="p">)</span><span class="w"> 
+  </span><span class="c1">#2100x1800 for zazzle</span><span class="w">
+</span></code></pre></div></div>
+
+:ET

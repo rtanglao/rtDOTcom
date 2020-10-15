@@ -1,0 +1,14 @@
+I"ë<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>Write it in Markdown on github</li>
+  <li>Use commit hook to post it to leanpub</li>
+  <li>PDF is always available for free, all funds go to charity e.g Union Gospel Mission.</li>
+  <li>Rough outline:
+    <ul>
+      <li>Chapter 1: Take a pre-supplied January 1-31, 2016 instagram Vancouver 2016 dataset and generate a Tshirt</li>
+      <li>Subsequent Chapters: soups to nuts from instagram API to a tshirt</li>
+    </ul>
+  </li>
+</ul>
+:ET

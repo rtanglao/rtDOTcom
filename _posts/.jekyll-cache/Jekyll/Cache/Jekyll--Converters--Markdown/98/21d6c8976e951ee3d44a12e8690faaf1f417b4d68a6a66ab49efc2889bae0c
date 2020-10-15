@@ -1,0 +1,38 @@
+I"<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>see <a href="http://rolandtanglao.com/2018/09/17/p1-the-graph-firefox62-sumo-support-forum-tags-week1/">previous post</a> for the code that this builds on</li>
+</ul>
+
+<h3 id="code-with--just-the-operating-system-tags">code with  just the operating system tags</h3>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">read_csv</code> is better because it doesn’t require any arguments and it’s faster</li>
+  <li>code from <a href="https://github.com/tdsmith">Tim Smith</a>, thanks Tim!</li>
+</ul>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">os_tags</span><span class="w"> </span><span class="o">&lt;-</span><span class="w">
+</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"https://raw.githubusercontent.com/rtanglao/rt-kitsune-api/master/FF62_WEEK1/16september2018-tags-5-11september2018.csv"</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+</span><span class="n">filter</span><span class="p">(</span><span class="w">
+</span><span class="n">grepl</span><span class="p">(</span><span class="s2">"^windows-"</span><span class="p">,</span><span class="w"> </span><span class="n">tag</span><span class="p">)</span><span class="w"> </span><span class="o">|</span><span class="w">
+</span><span class="p">(</span><span class="n">tag</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">"mac-os"</span><span class="p">)</span><span class="w"> </span><span class="o">|</span><span class="w">
+</span><span class="p">(</span><span class="n">tag</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">"linux"</span><span class="p">))</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+</span><span class="n">mutate</span><span class="p">(</span><span class="n">os</span><span class="o">=</span><span class="n">ifelse</span><span class="p">(</span><span class="n">grepl</span><span class="p">(</span><span class="s2">"^windows-"</span><span class="p">,</span><span class="w"> </span><span class="n">tag</span><span class="p">),</span><span class="w"> </span><span class="s2">"windows"</span><span class="p">,</span><span class="w"> </span><span class="n">tag</span><span class="p">))</span><span class="w">
+</span><span class="n">os_tags_with_counts</span><span class="w"> </span><span class="o">&lt;-</span><span class="w">
+  </span><span class="n">os_tags</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+  </span><span class="n">group_by</span><span class="p">(</span><span class="n">os</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+  </span><span class="n">count</span><span class="p">()</span><span class="w">
+</span><span class="n">os_plot</span><span class="w"> </span><span class="o">&lt;-</span><span class="w">
+  </span><span class="n">ggplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">os_tags_with_counts</span><span class="p">,</span><span class="w"> </span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">os</span><span class="p">,</span><span class="n">y</span><span class="o">=</span><span class="n">n</span><span class="p">))</span><span class="w">
+</span><span class="n">os_plot</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">os_plot</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">geom_bar</span><span class="p">(</span><span class="n">stat</span><span class="o">=</span><span class="s2">"identity"</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="graph-with-just-operating-systems">graph with just operating systems</h3>
+
+<ul>
+  <li>The graph from yesterday’s <a href="http://rolandtanglao.com/2018/09/16/p1-firefox62-sumo-support-forum-tags-week1/">Firefox 62 Desktop SUMO Support Forums Week 1 tags - September 5-11, 2018</a>:</li>
+  <li><strong>clearly shows that Windows is the operating system for the vast majority of user support questions (at least on SUMO but probably elsewhere)</strong></li>
+</ul>
+
+<p><img src="https://github.com/rtanglao/rt-kitsune-api/raw/master/FF62_WEEK1/osplot-week1-ff62-desktop.md.png" alt="Just Operating system tags (linux, mac, windows)  for the first week of Firefox Desktop 62 i.e. September 5-11, 2018" /></p>
+:ET

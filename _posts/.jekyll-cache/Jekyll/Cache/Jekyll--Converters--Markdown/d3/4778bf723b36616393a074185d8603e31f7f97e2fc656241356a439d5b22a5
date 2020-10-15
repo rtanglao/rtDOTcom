@@ -1,0 +1,16 @@
+I"�<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>Noticed some Waze bugs on Android 8, Note 8, in our PEI and Nova Scotia Trip:
+    <ul>
+      <li>At least twice Waze crashed and / or was stuck at turn right onto main street. Fixed by rebooting the phone!</li>
+      <li>Almost every start of trip, it would have the very first 1 or two turns wrong i.e. it would get disoriented; if you knew you had to turn left at the main road for example it wouldn’t say  turn left! Instead it would say turn right or do something else. The workaround was to consult the Waze directions over WiFi before starting and memorize that and follow that onto the main road and then all would be OK once the main road was reached and turned onto successfully.
+        <ul>
+          <li>I don’t think dedicated GPS units have this problem.</li>
+          <li>Is this a Waze bug or something due to the nature of cell phone GPS?</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+:ET

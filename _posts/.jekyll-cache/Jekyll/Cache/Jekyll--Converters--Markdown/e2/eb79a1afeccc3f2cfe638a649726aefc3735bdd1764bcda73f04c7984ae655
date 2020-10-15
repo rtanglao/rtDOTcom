@@ -1,0 +1,17 @@
+I"h<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>
+    <p>You need to use “hugo” without <code class="language-plaintext highlighter-rouge">server</code> to render the site correctly for production i.e. non localhost</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hugo server <span class="nt">--buildDrafts</span> <span class="nt">--disableFastRender</span>  <span class="nt">--renderToDisk</span> &amp;
+hugo new post/2020-05-08-p1-vancouver-crossings.md
+<span class="c"># check it out at localhost:1313</span>
+<span class="c"># When you are happy render and push to server</span>
+hugo <span class="nt">--buildDrafts</span> <span class="c">#render</span>
+surge public <span class="nt">--domain</span> rollingroland.com <span class="c">#push to server</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+:ET

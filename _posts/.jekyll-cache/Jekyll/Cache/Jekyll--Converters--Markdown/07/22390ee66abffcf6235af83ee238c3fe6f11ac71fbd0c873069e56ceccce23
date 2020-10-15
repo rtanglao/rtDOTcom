@@ -1,0 +1,10 @@
+I"Ü<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>See <a href="https://github.com/rrthomas/recode/">recode github</a> site! And <a href="https://stackoverflow.com/questions/5929492/bash-script-to-convert-from-html-entities-to-characters">a recode question on stack overflow</a> where i learned the following incantation :-)</li>
+</ul>
+
+<p>```bash
+cat try2-2116-27may2019-test-api-stdout.txt | <br />
+recode html..ascii  &gt; try2-2116-27may2019-test-api-stdout.html</p>
+:ET

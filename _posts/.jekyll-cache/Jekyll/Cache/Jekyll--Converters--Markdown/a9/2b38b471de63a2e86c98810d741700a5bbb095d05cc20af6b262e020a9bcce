@@ -1,0 +1,22 @@
+I"v<p>Following on from <a href="http://rolandtanglao.com/2016/11/15/p1-compositing-only-works-with-transparent-pngs/">yesterday’s thrilling post :-)</a></p>
+
+<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>Here are the magic commands (<a href="https://github.com/rtanglao/rt-animated-gifs#november-15-2016">full details</a>) to make the animated gif:<br /></li>
+</ul>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">ls</span> <span class="nt">-1</span> 000<span class="k">*</span>.png <span class="o">&gt;</span>roland-1st360-flickr-average-colour.txt
+./convert-create-composite-gifs-from-file-list.rb roland-1st360-flickr-average-colour.txt
+gm convert <span class="nt">-loop</span> 50 <span class="nt">-delay</span> 10 <span class="nt">-scale</span> 256x256 convert-composite<span class="k">*</span>.png convert-composite256-first360-flickr-roland-2004-12-avgcolour.gif
+</code></pre></div></div>
+
+<ul>
+  <li>Why <code class="language-plaintext highlighter-rouge">-scale 256x256</code> ? To limit the file size to 256 so it can fit in Twitter’s 15MB limit</li>
+  <li><a href="http://pomax.github.io/">Pomax</a> writes: <a href="https://twitter.com/TheRealPomax/status/798768593575952385">neat! can you make the edges opacity-faded so it blends?</a> Anybody know how to do that in imagemagick? If so email me: roland at rolandtanglao.com or tweet @rtanglao</li>
+</ul>
+
+<h3 id="animated-gif-output">Animated GIF output</h3>
+
+<p><img src="https://c2.staticflickr.com/6/5529/31006323266_e4674046ca_o_d.gif" alt="animated gif first 360 average color's of roland's flickr 2004" /></p>
+:ET

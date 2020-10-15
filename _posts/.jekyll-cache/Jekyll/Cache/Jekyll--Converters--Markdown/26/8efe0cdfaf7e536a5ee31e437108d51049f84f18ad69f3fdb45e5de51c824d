@@ -1,0 +1,25 @@
+I"®<p>
+Fascinating, should have blogged this sooner.  I truly hope that when Atom finally gets standardized and released that this kind of innovation will occur.  Bring it on!
+</p>
+<p>
+From <a href="http://interconnected.org/home/2004/08/16/this_is_about_atom">this is about atom (16 August 2004, Interconnected)</a>:
+</p>
+<p>
+<strong>QUOTE</strong>
+</p>
+<blockquote>
+What Atom says is: If you want to afford these behaviours, then you have to be weblog-like in this respect and editor-like in this respect, and it doesn't matter what else you do, but those are the shapes we require.
+&lt;/p&gt;<p>
+And because Atom demands this certain minimum set of data, which has been decided by experience and thought, you can use [will be able to use] any editor, any weblog system that accepts posts, any templating system. What I'm describing here is the loosely coupled architecture, and what the benefit is, is evolvability.
+</p><p>
+We've had a lack of innovation in the weblog space because there aren't decent abstraction layers. You can inject posts, that's it, but bound together are: the datastore, templating, display, editing, permissions, commenting and so on. Occassionally there's some innovation -- there was a website that sold Blogger templates for a while, I believe, and MovableType plugins extend the templating and display systems wonderfully. But the applications themselves are still monolithic.
+</p><p>
+Atom says: Given everything else is in flux, here's our one fixed point. The post. The metadata of the post. The relationships between posts. That's it.
+</p><p>
+Out of that single abstraction everything else can crystalise.
+&lt;/blockquote&gt;<p>
+<strong>UNQUOTE</strong>
+</p>
+
+</p></blockquote>
+:ET

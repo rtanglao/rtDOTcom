@@ -1,0 +1,8 @@
+I"w<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>The <a href="https://itunes.apple.com/us/app/velocity-music-volume-controlled-by-your-speed/id1042222781?mt=8">VeloCity iOS app</a> (speed controlled music volume) automatically changes iOS volume - higher speed = higher volume which is great for not blasting music from my bluetooth speaker when I am parked (and you can set min and max volume as well as min and max speed)</li>
+  <li>Seems silly that this has to be an app with UI.</li>
+  <li>Maybe I can hardcode a “UI-less” app to do this in <a href="http://www.rubymotion.com/">RubyMotion</a> or similar?</li>
+</ul>
+:ET

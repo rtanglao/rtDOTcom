@@ -1,0 +1,11 @@
+I"¶<h2 id="pontifications">Pontifications</h2>
+<p>Thanks to Kamyar I re-learned :-) the following today:</p>
+
+<ul>
+  <li>e.g. if you have 200 lines with 1 variable say <code class="language-plaintext highlighter-rouge">colourvalue</code> as an integer :-)
+    <ul>
+      <li>Then density <code class="language-plaintext highlighter-rouge">y</code> value for a particular integer <code class="language-plaintext highlighter-rouge">colourvalue</code> = #of times that particular integer <code class="language-plaintext highlighter-rouge">colourvalue</code> occurs/sum of i.e. sigma(all <code class="language-plaintext highlighter-rouge">colourvalues</code> occurrences)</li>
+    </ul>
+  </li>
+</ul>
+:ET

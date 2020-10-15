@@ -1,0 +1,13 @@
+I"k<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>Yesterday I learned Github flavour markdown and most markdown implementations cannot handle newlines: ruby solution: trim(“\n”, “’’)</li>
+  <li>See <a href="https://github.github.com/gfm/#tables-extension-">https://github.github.com/gfm/#tables-extension-</a> : “Block-level elements cannot
+be inserted in a table.”</li>
+  <li><a href="https://github.com/rtanglao/rt-kits-api2/blob/master/print-desktop-en-us-osx-increasing-ids-time-url-title-content.rb">Solution</a>:</li>
+</ul>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">tr</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">,</span><span class="s2">""</span><span class="p">)</span>
+</code></pre></div></div>
+
+:ET

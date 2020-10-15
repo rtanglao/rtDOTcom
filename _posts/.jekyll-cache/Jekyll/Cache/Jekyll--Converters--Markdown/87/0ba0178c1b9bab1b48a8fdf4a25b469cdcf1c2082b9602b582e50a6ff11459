@@ -1,0 +1,14 @@
+I"F<h2 id="pontifications">Pontifications</h2>
+
+<p>From <a href="https://gorails.com/setup/ubuntu/16.04">Setup Ruby On Rails on Ubuntu 16.04 Xenial Xerus</a>, here’s how I installed ruby 2.5.0 on Windows 10 (I couldn’t get rbenv to work and the CSV gem wouldn’t work on <a href="http://rolandtanglao.com/2018/02/27/p1-jekyll-surge-windows/">ruby 2.3 which is what I installed before</a> )</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd
+</span>wget http://ftp.ruby-lang.org/pub/ruby/2.5/ruby-2.5.0.tar.gz
+<span class="nb">tar</span> <span class="nt">-xzvf</span> ruby-2.5.0.tar.gz
+<span class="nb">cd </span>ruby-2.5.0/
+./configure
+make
+<span class="nb">sudo </span>make <span class="nb">install
+</span>ruby <span class="nt">-v</span>
+</code></pre></div></div>
+:ET

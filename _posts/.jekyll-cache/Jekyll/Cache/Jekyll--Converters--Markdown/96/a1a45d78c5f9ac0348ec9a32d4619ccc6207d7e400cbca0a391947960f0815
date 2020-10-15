@@ -1,0 +1,37 @@
+I"�<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>Same as yesterday with 8x <a href="https://www.rdocumentation.org/packages/webshot/versions/0.4.1">zoom</a> using <code class="language-plaintext highlighter-rouge">webshot</code></li>
+  <li>Critical code (marked with “A)” )is:</li>
+</ul>
+
+<div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">html_print</span><span class="p">(</span><span class="w">
+    </span><span class="n">streamgraph</span><span class="p">(</span><span class="w"> </span><span class="n">groupedby_date_sixhundred_colourint</span><span class="p">,</span><span class="w">
+                </span><span class="s2">"sixhundred_colourint"</span><span class="p">,</span><span class="w"> </span><span class="s2">"n"</span><span class="p">,</span><span class="w"> </span><span class="s2">"date"</span><span class="p">,</span><span class="w">
+                </span><span class="n">interactive</span><span class="o">=</span><span class="kc">FALSE</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
+    </span><span class="n">sg_fill_manual</span><span class="p">(</span><span class="n">values</span><span class="o">=</span><span class="n">colour_named_vector</span><span class="p">),</span><span class="w">
+    </span><span class="n">viewer</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">NULL</span><span class="w">
+</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+    </span><span class="n">normalizePath</span><span class="p">(</span><span class="n">.</span><span class="p">,</span><span class="n">winslash</span><span class="o">=</span><span class="s2">"/"</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+    </span><span class="n">gsub</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">.</span><span class="p">,</span><span class="n">pattern</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">":/"</span><span class="p">,</span><span class="n">replacement</span><span class="o">=</span><span class="s2">"://"</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+    </span><span class="n">paste0</span><span class="p">(</span><span class="s2">"file:///"</span><span class="p">,</span><span class="n">.</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+    </span><span class="n">webshot</span><span class="p">(</span><span class="w">
+        </span><span class="n">file</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"8x-zoom-artofwhere-headless-streamgraph.png"</span><span class="p">,</span><span class="w"> </span><span class="n">delay</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">10</span><span class="p">,</span><span class="w">
+        </span><span class="n">selector</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">".streamgraph"</span><span class="p">,</span><span class="w">
+        </span><span class="n">zoom</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">8</span><span class="w"> </span><span class="c1"># A) https://www.rdocumentation.org/packages/webshot/versions/0.4.1</span><span class="w">
+        </span><span class="p">)</span><span class="w">  
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h2 id="800-zoom-of-streamgraph-of-600-int-colours-of-string-colourname--average-colour-instagram-vancouver-january-2016-aes-x-hour-y-colourname-invoked-as">800% zoom of Streamgraph of 600 int colours of string Colourname : average colour instagram vancouver january 2016 aes-x-hour-y-colourname* Invoked as:</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> /Users/rtanglao/Dropbox/GIT/2016-r-rtgram/JANUARY2016
+Rscript ../leggings-artofwhere-streamgraph-600colour-int-ig-van-jan2016-avgcolour.R
+</code></pre></div></div>
+
+<p>Code:  <a href="https://github.com/rtanglao/2016-r-rtgram/blob/master/leggings-artofwhere-streamgraph-600colour-int-ig-van-jan2016-avgcolour.R">https://github.com/rtanglao/2016-r-rtgram/blob/master/leggings-artofwhere-streamgraph-600colour-int-ig-van-jan2016-avgcolour.R</a></p>
+
+<h3 id="output">Output</h3>
+
+<p><a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/36384524243/in/datetaken-public/" title="8x-zoom-artofwhere-headless-streamgraph"><img src="https://farm5.staticflickr.com/4403/36384524243_2fe7038f2c.jpg" width="500" height="260" alt="8x-zoom-artofwhere-headless-streamgraph" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+:ET

@@ -1,0 +1,6 @@
+I"š<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li><a href="https://github.com/simonw/csvs-to-sqlite">cvss-to-sqlite</a>: Prequel to<a href="http://rolandtanglao.com/2017/11/30/p1-simon-willison-Datasette-instantly-create-publish-API-SQLite-databases/"> my previous blog post about Datasette</a>: Convert CSV files into a SQLite database. Browse and publish that SQLite database with Datasette</li>
+</ul>
+:ET

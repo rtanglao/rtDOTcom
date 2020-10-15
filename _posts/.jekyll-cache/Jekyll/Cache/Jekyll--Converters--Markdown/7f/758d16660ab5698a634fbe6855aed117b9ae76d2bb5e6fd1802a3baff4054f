@@ -1,0 +1,7 @@
+I"�<h1 id="pontifications">Pontifications</h1>
+
+<ul>
+  <li>OMG I didn’t know about <code class="language-plaintext highlighter-rouge">remove-appxpackage</code></li>
+  <li>Read the whole thing: <a href="https://vowe.net/archives/017656.html">Setting up a new Windows 10 machine</a> &lt;— tl;dr <code class="language-plaintext highlighter-rouge">Get-AppxPackage|? name -like *Xbox*|remove-appxpackage</code></li>
+</ul>
+:ET

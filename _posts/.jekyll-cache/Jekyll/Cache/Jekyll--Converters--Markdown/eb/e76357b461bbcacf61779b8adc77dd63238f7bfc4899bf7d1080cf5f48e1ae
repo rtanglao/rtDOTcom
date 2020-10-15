@@ -1,0 +1,17 @@
+I"<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li><a href="https://arxiv.org/abs/1801.00631">Gary Marcus: deep learning a critical appraisal</a> (<a href="https://arxiv.org/pdf/1801.00631">PDF of paper</a>) via <a href="https://twitter.com/GaryMarcus/status/948364570120335363">Gary’s tweet</a>, some juicy headings from the paper:
+    <ul>
+      <li>Is deep learning approaching a wall?</li>
+      <li>Deep learning thus far is shallow and has limited capacity for transfer</li>
+      <li>Deep learning thus far has no natural way to deal with hierarchical structure</li>
+      <li>Deep learning thus far cannot inherently distinguish causation from correlation</li>
+      <li>Deep learning presumes a largely stable world, in ways that may be problematic</li>
+      <li>Deep learning thus far works well as an approximation, but its answers often cannot be fully trusted</li>
+      <li>What would be better?</li>
+      <li><a href="https://arxiv.org/pdf/1801.00631">Read the whole thing</a></li>
+    </ul>
+  </li>
+</ul>
+:ET

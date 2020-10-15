@@ -1,0 +1,16 @@
+I"c<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>Like the <a href="http://rolandtanglao.com/2018/09/13/kitsune-question-api/">kitsune question API</a>, this was discovered by me in <a href="https://github.com/jscher2000/My-SuMo-Questions/blob/master/myq.html">jscher2000’s myq.html code</a>! Couldn’t find any official docs but maybe there are some docs?!?!</li>
+  <li>sample answer API code: <a href="https://github.com/rtanglao/rt-kitsune-api/blob/master/answerTestAPI.rb">https://github.com/rtanglao/rt-kitsune-api/blob/master/answerTestAPI.rb</a>
+    <ul>
+      <li>sample API json response: <a href="https://github.com/rtanglao/rt-kitsune-api/blob/master/sampleAnswerTestAPIoutput.md">https://github.com/rtanglao/rt-kitsune-api/blob/master/sampleAnswerTestAPIoutput.md</a></li>
+    </ul>
+  </li>
+  <li>API is:<code class="language-plaintext highlighter-rouge">https://support.mozilla.org/api/2/answer/?format=json&amp;id=&lt;question_id&gt;</code>
+    <ul>
+      <li>where <code class="language-plaintext highlighter-rouge">&lt;question_id&gt;</code> is an integer question id!</li>
+    </ul>
+  </li>
+</ul>
+:ET

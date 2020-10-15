@@ -1,0 +1,8 @@
+I"�<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>I don’t want to use print statements or separate debuggers like xdb or gdb or <a href="http://robert.ocallahan.org/2014/03/introducing-rr.html">rr</a>. I just want to be able to go backwards and forwards, change variables, stop the execution, change the code and the values of variables and continue backwards and forwards just like we did in my AI course at the University of Waterloo on a Xerox Lisp Work station in 1987! How hard can it be :-) ?</li>
+  <li>I will settle for being able to debug R when passing command line arguments in! Can’t believe <a href="https://support.rstudio.com/hc/en-us/articles/205612627-Debugging-with-RStudio">R Studio doesn’t support that</a>!!!!!!!</li>
+  <li>You have to call <code class="language-plaintext highlighter-rouge">system("Rscript yourscript.R arg1 arg2")</code> or some other such <a href="http://stackoverflow.com/a/25148513">kludgery</a> and you end up debugging outside R Studio!</li>
+</ul>
+:ET

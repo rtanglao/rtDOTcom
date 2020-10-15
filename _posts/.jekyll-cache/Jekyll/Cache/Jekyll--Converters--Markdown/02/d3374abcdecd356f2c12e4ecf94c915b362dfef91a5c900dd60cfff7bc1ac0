@@ -1,0 +1,19 @@
+I"j<h2 id="pontifications">Pontifications</h2>
+
+<ul>
+  <li>Turn off Windows Defender for Windows Subystem for Linux to speed up your command line scripting! It’s at least twice as fast!</li>
+  <li>From <a href="https://medium.com/@leandrw/speeding-up-wsl-i-o-up-than-5x-fast-saving-a-lot-of-battery-life-cpu-usage-c3537dd03c74">@leandrw: Speeding up WSL I/O up than 5x fast + saving a lot of battery life &amp; CPU usage</a>:</li>
+</ul>
+
+<p><strong>QUOTE</strong></p>
+
+<blockquote>
+So, to do so, first get the UbuntuOnLinux (or your distro of choice) installation path going to <i>%USERPROFILE%\AppData\Local\Packages</i> and lookup for something like :<br /><b>CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc.</b><br /><br />
+
+Copy the entire path from Explorer.exe address bar, then go to <br /><i>Settings &gt; Update &amp; Security &gt; Windows Defender &gt; Open Windows Defender Security Central &gt; Protection Against Viruses &amp; Threats &gt; Advanced Config… &gt; Exclusions &gt; Add or Remove &gt; Add &gt; Folder</i> and finally: paste the previous copied path
+
+</blockquote>
+
+<p><strong>END QUOTE</strong></p>
+
+:ET
