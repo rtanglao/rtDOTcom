@@ -6,15 +6,43 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 16 Oct 2020 22:05:30 -0700</pubDate>
-    <lastBuildDate>Fri, 16 Oct 2020 22:05:30 -0700</lastBuildDate>
+    <pubDate>Sun, 18 Oct 2020 00:29:02 -0700</pubDate>
+    <lastBuildDate>Sun, 18 Oct 2020 00:29:02 -0700</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Github Actions are super powerful and yaml is super confusing</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;(refer to my previous post: &lt;a href=&quot;http://rolandtanglao.com/2020/10/16/p1-simon-willison-git-scraping-how-to-use-github-actions-to-call-an-api-every-20-minutes/&quot;&gt;Simon Willison:Git scraping: track changes over  time by scraping to a Git repository aka how to use github actions to  call an API every 20 minutes&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;I want to read Firefox Desktop support questions every 15 minutes roughly so I can generate infographics every hour. To do this:
+    &lt;ul&gt;
+      &lt;li&gt;I modified my trusty &lt;a href=&quot;https://github.com/rtanglao/rt-kits-api3/blob/main/get-creator-answers-questions-for-arbitrary-time-period.rb&quot;&gt;get-creator-answers-questions-for-arbitrary-time-period.rb&lt;/a&gt;  (compare with api2’s &lt;a href=&quot;https://github.com/rtanglao/rt-kits-api2/blob/master/get-creator-answers-questions-for-arbitrary-time-period.rb&quot;&gt;get-creator-answers-questions-for-arbitrary-time-period.rb&lt;/a&gt; ) as follows:
+        &lt;ul&gt;
+          &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;awesome_print&lt;/code&gt; is no longer maintained but there is a fork called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;amazing_print&lt;/code&gt; which I switched to.&lt;/li&gt;
+          &lt;li&gt;Fixed two long standing bugs that I just discovered : 1. &lt;a href=&quot;https://github.com/mozilla/kitsune/issues/3686&quot;&gt;Kitsune issue 3686&lt;/a&gt; didn’t work for both PST and PDT so I wrote &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;KludgeTimeFromBogusZtoUTC(pst_in_utc_str)&lt;/code&gt; 2. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;updated&lt;/code&gt; was wrongly using the uncorrected time!&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Created a github action, &lt;a href=&quot;https://github.com/rtanglao/rt-kits-api3/blob/main/.github/workflows/getffquestions.yml&quot;&gt;getffquestions.yml&lt;/a&gt; to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;get-creator-answers-questions-for-arbitrary-time-period.rb&lt;/code&gt; every 15 minutes and create a CSV file using Ruby 2.7&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;In the process I found out that like Heroku in 2007 :-), you can create servers at will with Github actions and those servers can basically run anything on Windows, Mac or Linux!&lt;/li&gt;
+  &lt;li&gt;I also learned that I dislike YAML :-) Too loosey goosey! For a good time try and figure out what &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;|-&lt;/code&gt; means. This is just one of the many things that are vexing!&lt;/li&gt;
+  &lt;li&gt;Next thing to do: create a second github action to create infographics using R or Ruby every hour&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 18 Oct 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/10/18/p1-github-actions-super-great-yaml-is-super-confusing/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/10/18/p1-github-actions-super-great-yaml-is-super-confusing/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Simon Willison:Git scraping: track changes over time by scraping to a Git repository aka how to use github actions to call an API every 20 minutes</title>
         <description>&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://simonwillison.net/2020/Oct/9/git-scraping/&quot;&gt;Git scraping: track changes over time by scraping to a Git repository&lt;/a&gt; aka how to use github actions to call an API every 20 minutes; the git action is a Linux cron job that calls curl to get the data and if it has changed to commit to github ; see also t&lt;a href=&quot;https://twitter.com/simonw/status/1314654153646383104&quot;&gt;his Hacker News thread for more examples&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;My next post will be on how I used this for Firefox Support questions!&lt;/li&gt;
+  &lt;li&gt;My &lt;a href=&quot;http://rolandtanglao.com/2020/10/18/p1-github-actions-super-great-yaml-is-super-confusing/&quot;&gt;next post will be on how I used this for Firefox Support questions&lt;/a&gt;!&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -162,21 +190,6 @@
         <pubDate>Tue, 21 Jul 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/07/21/p1-yiibu-regulate-the-web/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/07/21/p1-yiibu-regulate-the-web/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>this is aaronland: i like dots &lt;-- cheap and cheerful e-ink displays for museums and other applications</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;As always aaron in &lt;a href=&quot;https://www.aaronland.info/weblog/2020/07/20/dots/#easy&quot;&gt;i like dot&lt;/a&gt;s has something well worth reading!&lt;/li&gt;
-  &lt;li&gt;e-ink + raspberry pi = amazing displays for museums and many other things! (aaron was part of the early pre-yahoo vancouver flickr crew in 2005 and that’s when i met him and i’ve been following him and the other flickr folks ever since)&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 20 Jul 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/07/20/p1-aaronland-dots-cheap-and-cheerful-eink-displays-for-museums/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/07/20/p1-aaronland-dots-cheap-and-cheerful-eink-displays-for-museums/</guid>
         
         
       </item>

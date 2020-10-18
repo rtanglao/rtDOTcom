@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Simon Willison:Git scraping: track changes over time by scraping to a Git repository aka how to use github actions to call an API every 20 minutes</title>
+    <title>Github Actions are super powerful and yaml is super confusing</title>
     <meta name="description" content="flickr.com/roland, twitter.com/rtanglao #firefox #thunderbird
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2020/10/16/p1-simon-willison-git-scraping-how-to-use-github-actions-to-call-an-api-every-20-minutes/">
+    <link rel="canonical" href="http://rolandtanglao.com/2020/10/18/p1-github-actions-super-great-yaml-is-super-confusing/">
 </head>
 
 
@@ -57,14 +57,27 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Simon Willison:Git scraping: track changes over time by scraping to a Git repository aka how to use github actions to call an API every 20 minutes</h1>
-    <p class="post-meta">Oct 16, 2020</p>
+    <h1 class="post-title">Github Actions are super powerful and yaml is super confusing</h1>
+    <p class="post-meta">Oct 18, 2020</p>
   </header>
 
   <article class="post-content">
     <ul>
-  <li><a href="https://simonwillison.net/2020/Oct/9/git-scraping/">Git scraping: track changes over time by scraping to a Git repository</a> aka how to use github actions to call an API every 20 minutes; the git action is a Linux cron job that calls curl to get the data and if it has changed to commit to github ; see also t<a href="https://twitter.com/simonw/status/1314654153646383104">his Hacker News thread for more examples</a>.</li>
-  <li>My <a href="http://rolandtanglao.com/2020/10/18/p1-github-actions-super-great-yaml-is-super-confusing/">next post will be on how I used this for Firefox Support questions</a>!</li>
+  <li>(refer to my previous post: <a href="http://rolandtanglao.com/2020/10/16/p1-simon-willison-git-scraping-how-to-use-github-actions-to-call-an-api-every-20-minutes/">Simon Willison:Git scraping: track changes over  time by scraping to a Git repository aka how to use github actions to  call an API every 20 minutes</a>)</li>
+  <li>I want to read Firefox Desktop support questions every 15 minutes roughly so I can generate infographics every hour. To do this:
+    <ul>
+      <li>I modified my trusty <a href="https://github.com/rtanglao/rt-kits-api3/blob/main/get-creator-answers-questions-for-arbitrary-time-period.rb">get-creator-answers-questions-for-arbitrary-time-period.rb</a>  (compare with api2’s <a href="https://github.com/rtanglao/rt-kits-api2/blob/master/get-creator-answers-questions-for-arbitrary-time-period.rb">get-creator-answers-questions-for-arbitrary-time-period.rb</a> ) as follows:
+        <ul>
+          <li><code class="language-plaintext highlighter-rouge">awesome_print</code> is no longer maintained but there is a fork called <code class="language-plaintext highlighter-rouge">amazing_print</code> which I switched to.</li>
+          <li>Fixed two long standing bugs that I just discovered : 1. <a href="https://github.com/mozilla/kitsune/issues/3686">Kitsune issue 3686</a> didn’t work for both PST and PDT so I wrote <code class="language-plaintext highlighter-rouge">KludgeTimeFromBogusZtoUTC(pst_in_utc_str)</code> 2. <code class="language-plaintext highlighter-rouge">updated</code> was wrongly using the uncorrected time!</li>
+        </ul>
+      </li>
+      <li>Created a github action, <a href="https://github.com/rtanglao/rt-kits-api3/blob/main/.github/workflows/getffquestions.yml">getffquestions.yml</a> to run <code class="language-plaintext highlighter-rouge">get-creator-answers-questions-for-arbitrary-time-period.rb</code> every 15 minutes and create a CSV file using Ruby 2.7</li>
+    </ul>
+  </li>
+  <li>In the process I found out that like Heroku in 2007 :-), you can create servers at will with Github actions and those servers can basically run anything on Windows, Mac or Linux!</li>
+  <li>I also learned that I dislike YAML :-) Too loosey goosey! For a good time try and figure out what <code class="language-plaintext highlighter-rouge">|-</code> means. This is just one of the many things that are vexing!</li>
+  <li>Next thing to do: create a second github action to create infographics using R or Ruby every hour</li>
 </ul>
 
 
