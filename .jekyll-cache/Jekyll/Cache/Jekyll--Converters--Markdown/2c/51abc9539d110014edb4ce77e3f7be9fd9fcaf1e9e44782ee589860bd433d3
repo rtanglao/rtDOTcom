@@ -1,0 +1,11 @@
+I"ú<ul>
+  <li>(refer to my previous post: <a href="http://rolandtanglao.com/2020/10/18/p1-github-actions-super-great-yaml-is-super-confusing/">Github Actions are super powerful and yaml is super confusing</a>  )</li>
+  <li>My current thought is something easy!</li>
+  <li>For each question
+    <ul>
+      <li>create a pink stripe for Windows, green for macOS, blue for Linux</li>
+      <li>create a stripe whose colour is a hash value computed from the question title and content</li>
+    </ul>
+  </li>
+</ul>
+:ET

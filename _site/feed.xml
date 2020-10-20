@@ -6,9 +6,29 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 18 Oct 2020 00:29:02 -0700</pubDate>
-    <lastBuildDate>Sun, 18 Oct 2020 00:29:02 -0700</lastBuildDate>
+    <pubDate>Mon, 19 Oct 2020 21:19:29 -0700</pubDate>
+    <lastBuildDate>Mon, 19 Oct 2020 21:19:29 -0700</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>What infographics should I make from hourly FF support questions? Barcode with a stripe for Operating System, and a stripe for hash of the question?</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;(refer to my previous post: &lt;a href=&quot;http://rolandtanglao.com/2020/10/18/p1-github-actions-super-great-yaml-is-super-confusing/&quot;&gt;Github Actions are super powerful and yaml is super confusing&lt;/a&gt;  )&lt;/li&gt;
+  &lt;li&gt;My current thought is something easy!&lt;/li&gt;
+  &lt;li&gt;For each question
+    &lt;ul&gt;
+      &lt;li&gt;create a pink stripe for Windows, green for macOS, blue for Linux&lt;/li&gt;
+      &lt;li&gt;create a stripe whose colour is a hash value computed from the question title and content&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 19 Oct 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/10/19/p1-hourly-infographics-from-firefox-questions/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/10/19/p1-hourly-infographics-from-firefox-questions/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Github Actions are super powerful and yaml is super confusing</title>
@@ -176,20 +196,6 @@
         <pubDate>Wed, 29 Jul 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Regulate the web by yiibu: 'start challenging the assumption that the future of our online spaces can only consist of a more centralized, optimized, and sanitized version of our present'</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1Nmc5ZlbO3nQf8DRmUIa4lxzFR4woeaFv0OIQMF8QcDo/edit?pli=1#slide=id.g809e2812ce_0_269&quot;&gt;Regulate the web by yiibu&lt;/a&gt;: ‘start challenging the assumption that the future of our online spaces can only consist of a more centralized, optimized, and sanitized version of our present’ &amp;lt;— read the whole thing and  comment, it’s a public google slides document!&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Tue, 21 Jul 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/07/21/p1-yiibu-regulate-the-web/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/07/21/p1-yiibu-regulate-the-web/</guid>
         
         
       </item>
