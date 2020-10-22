@@ -1,0 +1,18 @@
+I"n<ul>
+  <li>(please refer to my previous post:  <a href="http://rolandtanglao.com/2020/10/20/p1-barcode-ggplot2-kludge/">R and ggplot2 pseudo code for barcode of Firefox questions</a>)</li>
+  <li>Here’s the actual code from <a href="https://github.com/rtanglao/rt-r-ggplot2-ruby-experiments/blob/main/simplest-possible-ff-question-barcode.R">simplest-possible-ff-question-barcode.R</a> with a kludgy <code class="language-plaintext highlighter-rouge">for</code> loop (I think it will be better without a <code class="language-plaintext highlighter-rouge">for</code> loop, but that will have to wait for the next post :-) !):</li>
+</ul>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">p</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ggplot</span><span class="p">()</span><span class="w"> 
+
+</span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">question</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="n">questions</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="n">xintercept</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">xintercept</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="m">0.15</span><span class="w">
+  </span><span class="c1"># set os_colour_of_bar to pink if windows, blue if macOS, green if linux, purple if unknown OS</span><span class="w">
+  </span><span class="n">p</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">p</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">geom_vline</span><span class="p">(</span><span class="n">col</span><span class="o">=</span><span class="n">os_colour_of_bar</span><span class="p">,</span><span class="w"> </span><span class="n">xintercept</span><span class="o">=</span><span class="n">xintercept</span><span class="p">)</span><span class="w">
+  </span><span class="n">xintercept</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">xintercept</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="m">0.15</span><span class="w">
+ </span><span class="n">colour_of_bar</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">abs</span><span class="p">(</span><span class="n">digest</span><span class="o">::</span><span class="n">digest2int</span><span class="p">(</span><span class="n">question</span><span class="p">))</span><span class="w"> </span><span class="o">%%</span><span class="w"> </span><span class="m">657</span><span class="w"> </span><span class="c1"># 657 colors in r</span><span class="w">
+  </span><span class="n">p</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">p</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">geom_vline</span><span class="p">(</span><span class="n">col</span><span class="o">=</span><span class="n">colour_of_bar</span><span class="p">,</span><span class="w"> </span><span class="n">xintercept</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">xintercept</span><span class="p">)</span><span class="w">
+  </span><span class="c1"># just keep incrementing the xintercept by 0.15 and changing colour_of_bar</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+:ET
