@@ -6,8 +6,8 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 23 Oct 2020 21:33:10 -0700</pubDate>
-    <lastBuildDate>Fri, 23 Oct 2020 21:33:10 -0700</lastBuildDate>
+    <pubDate>Fri, 23 Oct 2020 21:36:05 -0700</pubDate>
+    <lastBuildDate>Fri, 23 Oct 2020 21:36:05 -0700</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -19,7 +19,7 @@
   &lt;li&gt;More optimizations:
     &lt;ul&gt;
       &lt;li&gt;i)  added &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;case_when()&lt;/code&gt; which resulted in the deletion of 3 lines of code&lt;/li&gt;
-      &lt;li&gt;ii) used &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;map2()&lt;/code&gt; which eliminated the lines of code concatenate &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;title&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;content&lt;/code&gt; and gets around the problem that a dataframe when passed to a map function is passed column wise not rowwise&lt;/li&gt;
+      &lt;li&gt;ii) used &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;map2()&lt;/code&gt; which eliminated the lines of code that concatenate &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;title&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;content&lt;/code&gt; and gets around the problem that a dataframe when passed to a map function is passed columnwise not rowwise&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;

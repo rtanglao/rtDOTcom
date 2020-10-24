@@ -6,7 +6,7 @@ title: "R and ggplot2 barcode of Firefox questions using no for loop - more opti
 
 * More optimizations:
   *  i)  added ```case_when()``` which resulted in the deletion of 3 lines of code
-  *  ii) used ```map2()``` which eliminated the lines of code concatenate `title` and `content` and gets around the problem that a dataframe when passed to a map function is passed column wise not rowwise
+  *  ii) used ```map2()``` which eliminated the lines of code that concatenate `title` and `content` and gets around the problem that a dataframe when passed to a map function is passed columnwise not rowwise
   
 * How it works:
 
