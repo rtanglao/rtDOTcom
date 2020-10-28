@@ -1,0 +1,164 @@
+I"7`<ul>
+  <li>
+    <p>Please refer to my previous post: <a href="http://rolandtanglao.com/2020/10/23/p1-barcode-ggplot2-case-when-map2/">R and ggplot2 barcode of Firefox questions using no for loop - more optimizations, case…when, map2 and how it works</a></p>
+  </li>
+  <li>
+    <p>I took <a href="https://github.com/rtanglao/rt-r-ggplot2-ruby-experiments/blob/main/no-for-loop-ff-question-barcode.R">no-for-loop-ff-question-barcode.R</a> and made an hourly version that takes as an input the daily question file and the hour (0-23) and called it,  <a href="">hourly-ff-question-barcode.R</a>  and here is the code:</p>
+  </li>
+</ul>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/env Rscript</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">tibbletime</span><span class="p">)</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">lubridate</span><span class="p">)</span><span class="w">
+
+</span><span class="n">colours_array</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">colours</span><span class="p">()</span><span class="w">
+
+</span><span class="n">getOSColour</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="k">function</span><span class="p">(</span><span class="n">.x</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> 
+  </span><span class="n">case_when</span><span class="p">(</span><span class="w">
+    </span><span class="n">str_detect</span><span class="p">(</span><span class="n">.x</span><span class="p">,</span><span class="w"> </span><span class="s2">"mac-os|os-x|osx|macos"</span><span class="p">)</span><span class="w"> </span><span class="o">~</span><span class="w"> </span><span class="s2">"blue"</span><span class="p">,</span><span class="w">
+    </span><span class="n">str_detect</span><span class="p">(</span><span class="n">.x</span><span class="p">,</span><span class="w"> </span><span class="s2">"linux|ubuntu|redhat|debian"</span><span class="p">)</span><span class="w"> </span><span class="o">~</span><span class="w"> </span><span class="s2">"green"</span><span class="p">,</span><span class="w">
+    </span><span class="n">str_detect</span><span class="p">(</span><span class="n">.x</span><span class="p">,</span><span class="w"> </span><span class="s2">"windows-7|windows-8|windows-10"</span><span class="p">)</span><span class="w"> </span><span class="o">~</span><span class="w"> </span><span class="s2">"hotpink"</span><span class="p">,</span><span class="w">
+    </span><span class="kc">TRUE</span><span class="w"> </span><span class="o">~</span><span class="w"> </span><span class="s2">"purple"</span><span class="p">)</span><span class="w">
+</span><span class="p">}</span><span class="w">
+
+</span><span class="n">initial.options</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">commandArgs</span><span class="p">(</span><span class="n">trailingOnly</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">FALSE</span><span class="p">)</span><span class="w">
+</span><span class="n">file.arg.name</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="s2">"--file="</span><span class="w">
+</span><span class="n">script.name</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">sub</span><span class="p">(</span><span class="n">file.arg.name</span><span class="p">,</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w"> </span><span class="n">initial.options</span><span class="p">[</span><span class="n">grep</span><span class="p">(</span><span class="n">file.arg.name</span><span class="p">,</span><span class="w"> </span><span class="n">initial.options</span><span class="p">)])</span><span class="w">
+</span><span class="n">script.basename</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">dirname</span><span class="p">(</span><span class="n">script.name</span><span class="p">)</span><span class="w">
+
+</span><span class="n">args</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">commandArgs</span><span class="p">(</span><span class="kc">TRUE</span><span class="p">)</span><span class="w">
+</span><span class="n">year</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">as.integer</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="m">1</span><span class="p">])</span><span class="w">
+</span><span class="n">month</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">as.integer</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="m">2</span><span class="p">])</span><span class="w">
+</span><span class="n">day</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">as.integer</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="m">3</span><span class="p">])</span><span class="w">
+</span><span class="n">hour</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">as.integer</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="m">4</span><span class="p">])</span><span class="w">
+
+</span><span class="c1">## Default setting when no arguments passed</span><span class="w">
+</span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nf">length</span><span class="p">(</span><span class="n">args</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="m">4</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="n">args</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="s2">"--help"</span><span class="p">)</span><span class="w">
+</span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">hour</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="m">0</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="n">hour</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="m">23</span><span class="w"> </span><span class="o">||</span><span class="w"> 
+      </span><span class="n">year</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="m">2010</span><span class="w"> </span><span class="o">||</span><span class="w"> 
+      </span><span class="n">month</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="m">0</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="n">month</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="m">12</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="n">args</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="s2">"--help"</span><span class="p">)</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+                  
+</span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="s2">"--help"</span><span class="w"> </span><span class="o">%in%</span><span class="w"> </span><span class="n">args</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="n">cat</span><span class="p">(</span><span class="w">
+    </span><span class="s2">"
+    Arguments:
+    year
+    month
+    day
+    hour (0-23)
+    --help              - print this text
+    Example:"</span><span class="p">)</span><span class="w">
+    </span><span class="n">cat</span><span class="p">(</span><span class="n">paste</span><span class="p">(</span><span class="s2">"Rscript"</span><span class="p">,</span><span class="w"> </span><span class="n">script.name</span><span class="p">,</span><span class="w"> </span><span class="s2">"2020 10 20 23\n\n"</span><span class="p">))</span><span class="w">
+  </span><span class="n">q</span><span class="p">(</span><span class="n">save</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"no"</span><span class="p">)</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span><span class="n">print</span><span class="p">(</span><span class="n">script.name</span><span class="p">)</span><span class="w">
+
+</span><span class="n">main</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="k">function</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="n">filename</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">sprintf</span><span class="p">(</span><span class="w">
+  </span><span class="s2">"%4.4d-%2.2d-%2.2d-%4.4d-%2.2d-%2.2d-firefox-creator-answers-desktop-all-locales.csv"</span><span class="p">,</span><span class="w">
+  </span><span class="n">year</span><span class="p">,</span><span class="w"> </span><span class="n">month</span><span class="p">,</span><span class="w"> </span><span class="n">day</span><span class="p">,</span><span class="w"> </span><span class="n">year</span><span class="p">,</span><span class="w"> </span><span class="n">month</span><span class="p">,</span><span class="w"> </span><span class="n">day</span><span class="p">)</span><span class="w">
+
+  </span><span class="n">csv</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">read_csv</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span><span class="w">
+  </span><span class="c1"># data frame needs to be in ascending order instead of descending</span><span class="w">
+  </span><span class="n">reverse_csv</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">csv</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> </span><span class="n">map_df</span><span class="p">(</span><span class="n">rev</span><span class="p">)</span><span class="w">
+  </span><span class="n">csv_time</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">reverse_csv</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+    </span><span class="n">mutate</span><span class="p">(</span><span class="n">created_time</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">parse_date_time</span><span class="p">(</span><span class="n">created</span><span class="p">,</span><span class="w"> </span><span class="n">orders</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"ymdHMSz"</span><span class="p">))</span><span class="w">
+  </span><span class="n">csv_tt</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">as_tbl_time</span><span class="p">(</span><span class="n">csv_time</span><span class="p">,</span><span class="w"> </span><span class="n">index</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">created_time</span><span class="p">)</span><span class="w">
+  </span><span class="n">time_filter_str</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">paste0</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="m">1</span><span class="p">],</span><span class="w"> </span><span class="s2">"-"</span><span class="p">,</span><span class="w"> </span><span class="n">args</span><span class="p">[</span><span class="m">2</span><span class="p">],</span><span class="w"> </span><span class="s2">"-"</span><span class="p">,</span><span class="w"> </span><span class="n">args</span><span class="p">[</span><span class="m">3</span><span class="p">],</span><span class="w"> </span><span class="s2">" "</span><span class="p">,</span><span class="w"> </span><span class="n">args</span><span class="p">[</span><span class="m">4</span><span class="p">])</span><span class="w">
+  </span><span class="n">hourly_csv</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">csv_tt</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w">
+    </span><span class="n">filter_time</span><span class="p">(</span><span class="n">time_filter_str</span><span class="w"> </span><span class="o">~</span><span class="w"> </span><span class="n">time_filter_str</span><span class="p">)</span><span class="w">
+
+  </span><span class="n">length</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">nrow</span><span class="p">(</span><span class="n">hourly_csv</span><span class="p">)</span><span class="w">
+  </span><span class="n">options</span><span class="p">(</span><span class="n">tibble.width</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">Inf</span><span class="p">)</span><span class="w">
+  </span><span class="n">print</span><span class="p">(</span><span class="n">hourly_csv</span><span class="p">)</span><span class="w">
+  </span><span class="n">xintercept</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">seq.int</span><span class="p">(</span><span class="n">by</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">10</span><span class="p">,</span><span class="w">
+                        </span><span class="n">length</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">length</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="m">2</span><span class="p">,</span><span class="w">
+                        </span><span class="n">from</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">)</span><span class="w">
+  </span><span class="n">size</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">rep</span><span class="p">(</span><span class="nf">c</span><span class="p">(</span><span class="m">4</span><span class="p">,</span><span class="w"> </span><span class="m">2</span><span class="p">),</span><span class="w"> </span><span class="n">length</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">length</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="m">2</span><span class="p">)</span><span class="w">
+  </span><span class="n">os_colours_vector</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">map_chr</span><span class="p">(</span><span class="n">hourly_csv</span><span class="o">$</span><span class="n">tags</span><span class="p">,</span><span class="w"> </span><span class="n">getOSColour</span><span class="p">)</span><span class="w">
+  </span><span class="n">question_colours_vector</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">map2_chr</span><span class="p">(</span><span class="n">hourly_csv</span><span class="o">$</span><span class="n">title</span><span class="p">,</span><span class="w">
+                                      </span><span class="n">hourly_csv</span><span class="o">$</span><span class="n">content</span><span class="p">,</span><span class="w">
+                                      </span><span class="o">~</span><span class="w"> </span><span class="p">{</span><span class="w">
+                                        </span><span class="n">colours_array</span><span class="p">[(</span><span class="nf">abs</span><span class="p">(</span><span class="n">digest</span><span class="o">::</span><span class="n">digest2int</span><span class="p">(</span><span class="n">paste</span><span class="p">(</span><span class="n">.x</span><span class="p">,</span><span class="w"> </span><span class="n">.y</span><span class="p">)))</span><span class="w"> </span><span class="o">%%</span><span class="w"> </span><span class="m">657</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="m">1</span><span class="p">]</span><span class="w">
+                                      </span><span class="p">})</span><span class="w">
+  </span><span class="n">colours_vector</span><span class="w"> </span><span class="o">&lt;-</span><span class="w">
+    </span><span class="nf">c</span><span class="p">(</span><span class="n">rbind</span><span class="p">(</span><span class="n">os_colours_vector</span><span class="p">,</span><span class="w"> </span><span class="n">question_colours_vector</span><span class="p">))</span><span class="w">
+  </span><span class="n">p</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">ggplot</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">theme_void</span><span class="p">()</span><span class="w">
+  </span><span class="n">p</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">p</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">geom_vline</span><span class="p">(</span><span class="n">col</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">colours_vector</span><span class="p">,</span><span class="w">
+                      </span><span class="n">xintercept</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">xintercept</span><span class="p">,</span><span class="w">
+                      </span><span class="n">size</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">size</span><span class="p">)</span><span class="w">
+  </span><span class="n">png_filename</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">sprintf</span><span class="p">(</span><span class="w">
+    </span><span class="s2">"hour-%2.2d-%4.4d-%2.2d-%2.2d-firefox-desktop-all-locales.png"</span><span class="p">,</span><span class="w">
+    </span><span class="n">hour</span><span class="p">,</span><span class="w"> </span><span class="n">year</span><span class="p">,</span><span class="w"> </span><span class="n">month</span><span class="p">,</span><span class="w"> </span><span class="n">day</span><span class="p">,</span><span class="w"> </span><span class="n">year</span><span class="p">,</span><span class="w"> </span><span class="n">month</span><span class="p">,</span><span class="w"> </span><span class="n">day</span><span class="p">)</span><span class="w">
+  </span><span class="n">ggsave</span><span class="p">(</span><span class="n">png_filename</span><span class="p">,</span><span class="w"> </span><span class="n">p</span><span class="p">,</span><span class="w"> </span><span class="n">width</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">3.555555556</span><span class="p">,</span><span class="w"> </span><span class="n">height</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">3.555555556</span><span class="p">,</span><span class="w"> 
+         </span><span class="n">dpi</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">72</span><span class="p">,</span><span class="w"> </span><span class="n">limitsize</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">FALSE</span><span class="p">)</span><span class="w"> </span><span class="c1"># 3.555555556 = 256/72dpi</span><span class="w">
+  </span><span class="n">warnings</span><span class="p">()</span><span class="w">
+
+</span><span class="p">}</span><span class="w">
+
+</span><span class="n">sink</span><span class="p">(</span><span class="s2">"log.txt"</span><span class="p">)</span><span class="w">
+</span><span class="n">main</span><span class="p">()</span><span class="w">
+</span><span class="n">sink</span><span class="p">()</span><span class="w">
+
+</span></code></pre></div></div>
+
+<ul>
+  <li>Then I ran it for all 24 hours of October 20, 2020 as follows:
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for </span>h <span class="k">in</span> <span class="o">{</span>0..23<span class="o">}</span> <span class="k">do 
+</span>Rscript ../hourly-ff-question-barcode.R 2020 10 20 <span class="nv">$h</span> 
+<span class="k">done</span>
+</code></pre></div>    </div>
+  </li>
+  <li>This produced these files (see <a href="https://github.com/rtanglao/rt-r-ggplot2-ruby-experiments/blob/main/INFOGRAPHICS/20october2020hour-files.txt">20october2020hour-files.txt</a>):
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hour-00-2020-10-20-firefox-desktop-all-locales.png
+hour-01-2020-10-20-firefox-desktop-all-locales.png
+hour-02-2020-10-20-firefox-desktop-all-locales.png
+hour-03-2020-10-20-firefox-desktop-all-locales.png
+hour-04-2020-10-20-firefox-desktop-all-locales.png
+hour-05-2020-10-20-firefox-desktop-all-locales.png
+hour-06-2020-10-20-firefox-desktop-all-locales.png
+hour-07-2020-10-20-firefox-desktop-all-locales.png
+hour-08-2020-10-20-firefox-desktop-all-locales.png
+hour-09-2020-10-20-firefox-desktop-all-locales.png
+hour-10-2020-10-20-firefox-desktop-all-locales.png
+hour-11-2020-10-20-firefox-desktop-all-locales.png
+hour-12-2020-10-20-firefox-desktop-all-locales.png
+hour-13-2020-10-20-firefox-desktop-all-locales.png
+hour-14-2020-10-20-firefox-desktop-all-locales.png
+hour-15-2020-10-20-firefox-desktop-all-locales.png
+hour-16-2020-10-20-firefox-desktop-all-locales.png
+hour-17-2020-10-20-firefox-desktop-all-locales.png
+hour-18-2020-10-20-firefox-desktop-all-locales.png
+hour-19-2020-10-20-firefox-desktop-all-locales.png
+hour-20-2020-10-20-firefox-desktop-all-locales.png
+hour-21-2020-10-20-firefox-desktop-all-locales.png
+hour-22-2020-10-20-firefox-desktop-all-locales.png
+hour-23-2020-10-20-firefox-desktop-all-locales.png
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Which I then collaged/montaged into 2x12: row 1 is 0-12, row 2 is 13-23 as follows:</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> magick montage <span class="nt">-verbose</span> <span class="nt">-adjoin</span> <span class="nt">-tile</span> 12x2 +frame +shadow +label <span class="nt">-adjoin</span> <span class="nt">-geometry</span> <span class="s2">"256x256+0+0&lt;"</span> @20october2020hour-files.txt 20october2020-ff-questions-by-hour.png
+</code></pre></div>    </div>
+  </li>
+  <li>Which results in the following output:</li>
+</ul>
+
+<p><a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/50539241276/in/datetaken-public/" title="20october2020-ff-questions-by-hour"><img src="https://live.staticflickr.com/65535/50539241276_a276ba3710_w.jpg" width="400" height="67" alt="20october2020-ff-questions-by-hour" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+
+<ul>
+  <li>
+    <p>This would make a super cool graphic for tshirts and what not if I ran it for all 365 days of 2020 right?</p>
+  </li>
+  <li>
+    <p>Or even 2019?</p>
+  </li>
+</ul>
+:ET
