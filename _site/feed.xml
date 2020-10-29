@@ -6,9 +6,22 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 27 Oct 2020 22:21:46 -0700</pubDate>
-    <lastBuildDate>Tue, 27 Oct 2020 22:21:46 -0700</lastBuildDate>
+    <pubDate>Wed, 28 Oct 2020 22:14:49 -0700</pubDate>
+    <lastBuildDate>Wed, 28 Oct 2020 22:14:49 -0700</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>How to install R 4.0.3 on Raspberry Pi 4 8GB RAM Debian 10 Buster</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Follow the directions for &lt;a href=&quot;https://stackoverflow.com/questions/57023388/cant-install-r-3-6-in-raspberry-pi-3-b-in-raspbian-stretch&quot;&gt;Can’t install R 3.6 in Raspberry pi 3 B in raspbian stretch&lt;/a&gt; but change &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3.6&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;4.0.3&lt;/code&gt; (and don’t forget to install PCRE2 first)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 28 Oct 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/10/28/p1-how-to-install-r-403-raspberry-pi4-debian10/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/10/28/p1-how-to-install-r-403-raspberry-pi4-debian10/</guid>
+        
+        
+      </item>
     
       <item>
         <title>R and ggplot2 barcode (pink: Windows, blue: macOS, green:Linux, purple: unknown/other) of Firefox questions by hour arranged in a 2x12 collage makes an interesting graphic, what if I did that for all of 2020? </title>
@@ -493,34 +506,6 @@ hour-23-2020-10-20-firefox-desktop-all-locales.png
         <pubDate>Mon, 19 Oct 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/10/19/p1-hourly-infographics-from-firefox-questions/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/10/19/p1-hourly-infographics-from-firefox-questions/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Github Actions are super powerful and yaml is super confusing</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;(refer to my previous post: &lt;a href=&quot;http://rolandtanglao.com/2020/10/16/p1-simon-willison-git-scraping-how-to-use-github-actions-to-call-an-api-every-20-minutes/&quot;&gt;Simon Willison:Git scraping: track changes over  time by scraping to a Git repository aka how to use github actions to  call an API every 20 minutes&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;I want to read Firefox Desktop support questions every 15 minutes roughly so I can generate infographics every hour. To do this:
-    &lt;ul&gt;
-      &lt;li&gt;I modified my trusty &lt;a href=&quot;https://github.com/rtanglao/rt-kits-api3/blob/main/get-creator-answers-questions-for-arbitrary-time-period.rb&quot;&gt;get-creator-answers-questions-for-arbitrary-time-period.rb&lt;/a&gt;  (compare with api2’s &lt;a href=&quot;https://github.com/rtanglao/rt-kits-api2/blob/master/get-creator-answers-questions-for-arbitrary-time-period.rb&quot;&gt;get-creator-answers-questions-for-arbitrary-time-period.rb&lt;/a&gt; ) as follows:
-        &lt;ul&gt;
-          &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;awesome_print&lt;/code&gt; is no longer maintained but there is a fork called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;amazing_print&lt;/code&gt; which I switched to.&lt;/li&gt;
-          &lt;li&gt;Fixed two long standing bugs that I just discovered : 1. &lt;a href=&quot;https://github.com/mozilla/kitsune/issues/3686&quot;&gt;Kitsune issue 3686&lt;/a&gt; didn’t work for both PST and PDT so I wrote &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;KludgeTimeFromBogusZtoUTC(pst_in_utc_str)&lt;/code&gt; 2. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;updated&lt;/code&gt; was wrongly using the uncorrected time!&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Created a github action, &lt;a href=&quot;https://github.com/rtanglao/rt-kits-api3/blob/main/.github/workflows/getffquestions.yml&quot;&gt;getffquestions.yml&lt;/a&gt; to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;get-creator-answers-questions-for-arbitrary-time-period.rb&lt;/code&gt; every 15 minutes and create a CSV file using Ruby 2.7&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;In the process I found out that like Heroku in 2007 :-), you can create servers at will with Github actions and those servers can basically run anything on Windows, Mac or Linux!&lt;/li&gt;
-  &lt;li&gt;I also learned that I dislike YAML :-) Too loosey goosey! For a good time try and figure out what &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;|-&lt;/code&gt; means. This is just one of the many things that are vexing!&lt;/li&gt;
-  &lt;li&gt;Next thing to do: create a second github action to create infographics using R or Ruby every hour&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sun, 18 Oct 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/10/18/p1-github-actions-super-great-yaml-is-super-confusing/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/10/18/p1-github-actions-super-great-yaml-is-super-confusing/</guid>
         
         
       </item>

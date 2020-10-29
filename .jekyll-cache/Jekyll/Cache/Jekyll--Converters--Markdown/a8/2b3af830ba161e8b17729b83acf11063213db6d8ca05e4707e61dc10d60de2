@@ -1,0 +1,4 @@
+I"�<ul>
+  <li>Follow the directions for <a href="https://stackoverflow.com/questions/57023388/cant-install-r-3-6-in-raspberry-pi-3-b-in-raspbian-stretch">Can’t install R 3.6 in Raspberry pi 3 B in raspbian stretch</a> but change <code class="language-plaintext highlighter-rouge">3.6</code> to <code class="language-plaintext highlighter-rouge">4.0.3</code> (and don’t forget to install PCRE2 first)</li>
+</ul>
+:ET
