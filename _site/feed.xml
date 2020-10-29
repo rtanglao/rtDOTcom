@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 28 Oct 2020 22:14:49 -0700</pubDate>
-    <lastBuildDate>Wed, 28 Oct 2020 22:14:49 -0700</lastBuildDate>
+    <pubDate>Wed, 28 Oct 2020 22:50:08 -0700</pubDate>
+    <lastBuildDate>Wed, 28 Oct 2020 22:50:08 -0700</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Cannot compile RStudio server on Raspberry Pi 4 8GB RAM Debian 10 Buster</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;I tried to follow the directions in &lt;a href=&quot;https://community.rstudio.com/t/setting-up-your-own-shiny-server-rstudio-server-on-a-raspberry-pi-3b/18982&quot;&gt;Setting up your own shiny-server / rstudio-server on a Raspberry Pi 3B+&lt;/a&gt; but failed&lt;/li&gt;
+  &lt;li&gt;My theory is that Debian Buster is too new. If I downgrade to Ubuntu Bionic or Debian Stretch 9 then it would probably work since there are dependency scripts for the older operating systems e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;install-dependencies-stretch&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;What can I do?  Hack the script to make it work ? I tried that and failed :-)&lt;/li&gt;
+  &lt;li&gt;Or more likely just wait until somebody else does it or the R Studio folks do it!&lt;/li&gt;
+  &lt;li&gt;Anyhow I can use R Studio Server on Mac or Windows and just &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;scp&lt;/code&gt; things over for now.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 28 Oct 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/10/28/p2-cannot-compile-rstudio-server-debian-buster-raspberry-pi4-debian10/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/10/28/p2-cannot-compile-rstudio-server-debian-buster-raspberry-pi4-debian10/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How to install R 4.0.3 on Raspberry Pi 4 8GB RAM Debian 10 Buster</title>
@@ -486,26 +503,6 @@ hour-23-2020-10-20-firefox-desktop-all-locales.png
         <pubDate>Tue, 20 Oct 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/10/20/p1-barcode-ggplot2-kludge/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/10/20/p1-barcode-ggplot2-kludge/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>What infographics should I make from hourly FF support questions? Barcode with a stripe for Operating System, and a stripe for hash of the question?</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;(refer to my previous post: &lt;a href=&quot;http://rolandtanglao.com/2020/10/18/p1-github-actions-super-great-yaml-is-super-confusing/&quot;&gt;Github Actions are super powerful and yaml is super confusing&lt;/a&gt;  )&lt;/li&gt;
-  &lt;li&gt;My current thought is something easy!&lt;/li&gt;
-  &lt;li&gt;For each question
-    &lt;ul&gt;
-      &lt;li&gt;create a pink stripe for Windows, green for macOS, blue for Linux&lt;/li&gt;
-      &lt;li&gt;create a stripe whose colour is a hash value computed from the question title and content&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 19 Oct 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/10/19/p1-hourly-infographics-from-firefox-questions/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/10/19/p1-hourly-infographics-from-firefox-questions/</guid>
         
         
       </item>
