@@ -1,0 +1,29 @@
+I"P
+<ul>
+  <li>Please refer to previous post:  <a href="http://rolandtanglao.com/2020/10/28/p2-cannot-compile-rstudio-server-debian-buster-raspberry-pi4-debian10/">Cannot compile RStudio server on Raspberry Pi 4 8GB RAM Debian 10 Buster</a></li>
+  <li>I switched to Ubuntu Server Bionic Berver in order to be able to compile RStudio (Buster is not a supported OS for RStudio).</li>
+  <li>First you need to compile SOCI with <code class="language-plaintext highlighter-rouge">CMAKE_CXX_STANDARD</code> set to <code class="language-plaintext highlighter-rouge">11</code>
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">cmake -G "Unix Makefiles" -DWITH_BOOST=ON -DWITH_ORACLE=OFF -DCMAKE_CXX_STANDARD=11</code></li>
+    </ul>
+  </li>
+  <li>Here’s how to compile RStudio itself:
+    <ul>
+      <li>Follow <a href="https://community.rstudio.com/t/setting-up-your-own-shiny-server-rstudio-server-on-a-raspberry-pi-3b/18982">Setting up your own shiny-server / rstudio-server on a Raspberry Pi 3B+</a> and do the following extra steps:</li>
+      <li><code class="language-plaintext highlighter-rouge">cp</code> libraries to <code class="language-plaintext highlighter-rouge">/usr/lib</code> from <code class="language-plaintext highlighter-rouge">/usr/local/lib64</code></li>
+      <li>set <code class="language-plaintext highlighter-rouge">RSTUDIO_USE_SYSTEM_SOCI</code> to <code class="language-plaintext highlighter-rouge">ON</code>; see issue <a href="https://github.com/rstudio/rstudio/issues/6533">6533</a></li>
+      <li><code class="language-plaintext highlighter-rouge">cmake .. -DRSTUDIO_TARGET=Server -DCMAKE_BUILD_TYPE=Release -DRSTUDIO_USE_SYSTEM_SOCI=ON</code></li>
+      <li>install libntirpc-dev,  see <a href="https://github.com/rstudio/rstudio/issues/2023">build fails if libntirpc-dev is missing #2023</a></li>
+    </ul>
+  </li>
+  <li>And it’s working except that plots don’t work in R Studio which is a major loss of functionality, since it’s nice to see the plots running on the same machine. Sad face but still hopeful: here is the error message:
+<code class="language-plaintext highlighter-rouge">&gt; p
+Error in RStudioGD() : 
+Shadow graphics device error: r error 4 (R code execution error)
+In addition: Warning message:
+In grDevices:::png("/tmp/RtmpY0wRLe/26bdb48e96ab4a4b9ab8e49c79b53183.png",  :
+unable to open connection to X11 display ''  
+</code></li>
+  <li>PNGs also don’t work unless you add <code class="language-plaintext highlighter-rouge">type=cairo</code> or use <code class="language-plaintext highlighter-rouge">xvfb-run</code> to run with a Virtual X11 frame buffer.</li>
+</ul>
+:ET

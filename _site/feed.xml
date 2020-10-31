@@ -6,9 +6,46 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 29 Oct 2020 07:33:05 -0700</pubDate>
-    <lastBuildDate>Thu, 29 Oct 2020 07:33:05 -0700</lastBuildDate>
+    <pubDate>Fri, 30 Oct 2020 23:56:51 -0700</pubDate>
+    <lastBuildDate>Fri, 30 Oct 2020 23:56:51 -0700</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Switched from Buster to Ubuntu Server Bionic Beaver and compiled RStudio Server and it all works except for plots, need type='cairo' and or xvfb-run</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Please refer to previous post:  &lt;a href=&quot;http://rolandtanglao.com/2020/10/28/p2-cannot-compile-rstudio-server-debian-buster-raspberry-pi4-debian10/&quot;&gt;Cannot compile RStudio server on Raspberry Pi 4 8GB RAM Debian 10 Buster&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I switched to Ubuntu Server Bionic Beaver in order to be able to compile RStudio (Debian Buster is not a supported OS for RStudio as of this writing. But Bionic is!).&lt;/li&gt;
+  &lt;li&gt;First you need to compile SOCI with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CMAKE_CXX_STANDARD&lt;/code&gt; set to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;11&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cmake -G &quot;Unix Makefiles&quot; -DWITH_BOOST=ON -DWITH_ORACLE=OFF -DCMAKE_CXX_STANDARD=11&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Here’s how to compile RStudio itself:
+    &lt;ul&gt;
+      &lt;li&gt;Follow &lt;a href=&quot;https://community.rstudio.com/t/setting-up-your-own-shiny-server-rstudio-server-on-a-raspberry-pi-3b/18982&quot;&gt;Setting up your own shiny-server / rstudio-server on a Raspberry Pi 3B+&lt;/a&gt; and do the following extra steps:&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cp&lt;/code&gt; libraries to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/usr/lib&lt;/code&gt; from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/usr/local/lib64&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RSTUDIO_USE_SYSTEM_SOCI&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ON&lt;/code&gt;; see issue &lt;a href=&quot;https://github.com/rstudio/rstudio/issues/6533&quot;&gt;6533&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cmake .. -DRSTUDIO_TARGET=Server -DCMAKE_BUILD_TYPE=Release -DRSTUDIO_USE_SYSTEM_SOCI=ON&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;install libntirpc-dev,  see &lt;a href=&quot;https://github.com/rstudio/rstudio/issues/2023&quot;&gt;build fails if libntirpc-dev is missing #2023&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;And it’s working except that plots don’t work in R Studio which is a major loss of functionality, since it’s nice to see the plots running on the same machine. Sad face but still hopeful: here is the error message:
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;gt; p
+Error in RStudioGD() : 
+Shadow graphics device error: r error 4 (R code execution error)
+In addition: Warning message:
+In grDevices:::png(&quot;/tmp/RtmpY0wRLe/26bdb48e96ab4a4b9ab8e49c79b53183.png&quot;,  :
+unable to open connection to X11 display ''  
+&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;PNGs also don’t work unless you add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;type=cairo&lt;/code&gt; or use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xvfb-run&lt;/code&gt; to run with a Virtual X11 frame buffer.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 30 Oct 2020 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2020/10/30/p1-switched-to-ubuntu-server-bionic-compiled-rstudio-but-plots-do-not-work/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/10/30/p1-switched-to-ubuntu-server-bionic-compiled-rstudio-but-plots-do-not-work/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Cannot compile RStudio server on Raspberry Pi 4 8GB RAM Debian 10 Buster</title>
@@ -478,32 +515,6 @@ hour-23-2020-10-20-firefox-desktop-all-locales.png
         <pubDate>Wed, 21 Oct 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/10/21/p1-barcode-ggplot2-for-loop-kludge/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/10/21/p1-barcode-ggplot2-for-loop-kludge/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>R and ggplot2 pseudo code for barcode of Firefox questions</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;(please refer to my previous post:  &lt;a href=&quot;http://rolandtanglao.com/2020/10/19/p1-hourly-infographics-from-firefox-questions/&quot;&gt;What  infographics should I make from hourly FF support questions? Barcode  with a stripe for Operating System, and a stripe for hash of the  question?&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ggplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
-
-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;question&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;questions&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xintercept&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xintercept&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0.15&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# set os_colour_of_bar to pink if windows, blue if macOS, green if linux, purple if unknown OS&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;geom_vline&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;col&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;os_colour_of_bar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xintercept&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xintercept&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xintercept&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xintercept&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0.15&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
- &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;colour_of_bar&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;abs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;digest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;digest2int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;question&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;657&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# 657 colors in r&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;geom_vline&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;col&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;colour_of_bar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xintercept&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xintercept&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# just keep incrementing the xintercept by 0.15 and changing colour_of_bar&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-</description>
-        <pubDate>Tue, 20 Oct 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/10/20/p1-barcode-ggplot2-kludge/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/10/20/p1-barcode-ggplot2-kludge/</guid>
         
         
       </item>
