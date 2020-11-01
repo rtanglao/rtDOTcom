@@ -1,8 +1,0 @@
-I"|<ul>
-  <li>I tried to follow the directions in <a href="https://community.rstudio.com/t/setting-up-your-own-shiny-server-rstudio-server-on-a-raspberry-pi-3b/18982">Setting up your own shiny-server / rstudio-server on a Raspberry Pi 3B+</a> but failed</li>
-  <li>My theory is that Debian Buster is too new. If I downgrade to Ubuntu Bionic or Debian Stretch 9 then it would probably work since there are dependency scripts for the older operating systems e.g. <code class="language-plaintext highlighter-rouge">install-dependencies-stretch</code></li>
-  <li>What can I do?  Hack the script to make it work ? I tried that and failed :-)</li>
-  <li>Or more likely just wait until somebody else does it or the R Studio folks do it!</li>
-  <li>Anyhow I can use R Studio Server on Mac or Windows and just <code class="language-plaintext highlighter-rouge">scp</code> things over for now.</li>
-</ul>
-:ET

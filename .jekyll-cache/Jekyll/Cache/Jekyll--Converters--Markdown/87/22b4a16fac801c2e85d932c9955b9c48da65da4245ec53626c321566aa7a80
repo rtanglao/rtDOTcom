@@ -1,7 +1,7 @@
-I"j
-<ul>
+I"�<ul>
+  <li>UPDATE: 31October2020, the problem with X11 and shadow graphics driver was fixed, see the next post:  <a href="http://rolandtanglao.com/2020/10/31/p1-recompiled-r-to-use-cairo-and-not-use-x11-and-now-graphics-work-in-r/">Recompiled R 4.0.3 to not use X11 and to use cairo and now png() works without an X11 error and without a shadow graphics error</a></li>
   <li>Please refer to previous post:  <a href="http://rolandtanglao.com/2020/10/28/p2-cannot-compile-rstudio-server-debian-buster-raspberry-pi4-debian10/">Cannot compile RStudio server on Raspberry Pi 4 8GB RAM Debian 10 Buster</a></li>
-  <li>I switched to Ubuntu Server Bionic Beaver in order to be able to compile RStudio (Debian Buster is not a supported OS for RStudio as of this writing).</li>
+  <li>I switched to Ubuntu Server Bionic Beave 18.0.4.4 in order to be able to compile RStudio (Debian Buster is not a supported OS for RStudio as of this writing. But Bionic is!). And it was easy thanks to <a href="https://github.com/TheRemote/Ubuntu-Server-raspi4-unofficial">Ubuntu-Server-raspi4-unofficial</a>. Thanks James Chambers!!!!!</li>
   <li>First you need to compile SOCI with <code class="language-plaintext highlighter-rouge">CMAKE_CXX_STANDARD</code> set to <code class="language-plaintext highlighter-rouge">11</code>
     <ul>
       <li><code class="language-plaintext highlighter-rouge">cmake -G "Unix Makefiles" -DWITH_BOOST=ON -DWITH_ORACLE=OFF -DCMAKE_CXX_STANDARD=11</code></li>
@@ -24,6 +24,6 @@ In addition: Warning message:
 In grDevices:::png("/tmp/RtmpY0wRLe/26bdb48e96ab4a4b9ab8e49c79b53183.png",  :
 unable to open connection to X11 display ''  
 </code></li>
-  <li>PNGs also don’t work unless you add <code class="language-plaintext highlighter-rouge">type=cairo</code> or use <code class="language-plaintext highlighter-rouge">xvfb-run</code> to run with a Virtual X11 frame buffer.</li>
+  <li>PNGs also don’t work unless you add <code class="language-plaintext highlighter-rouge">type="cairo"</code> or use <code class="language-plaintext highlighter-rouge">xvfb-run</code> to run with a Virtual X11 frame buffer.</li>
 </ul>
 :ET
