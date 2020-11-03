@@ -1,0 +1,13 @@
+I"<ul>
+  <li>Please refer to previous post: <a href="http://rolandtanglao.com/2020/05/18/p1-kitsune-questions-csv-to-sqlite/">Create a SQLite database from a kitsune question CSV file</a></li>
+  <li>From <a href="https://stackoverflow.com/questions/42609943/what-is-the-use-case-for-pip-install-e">What is the use case for <code class="language-plaintext highlighter-rouge">pip install -e</code></a> I successfully installed <a href="https://github.com/simonw/csvs-to-sqlite">csvs-to-sqlite</a> from Simon Willison by changing the pandas dependency to be just <code class="language-plaintext highlighter-rouge">pandas</code> instead of <code class="language-plaintext highlighter-rouge">pandas~=0.25.0</code> in <a href="https://github.com/simonw/csvs-to-sqlite/blob/master/setup.py">setup.py</a> as follows:
+    <ul>
+      <li>from github, download the latest tar file of csvs-to-sqlite and untar it</li>
+      <li>edit setup.py to remove the pandas version</li>
+      <li>cd to the directory with the unzipped tar file</li>
+      <li><code class="language-plaintext highlighter-rouge">pip install -e .</code></li>
+    </ul>
+  </li>
+  <li>I filed issue 73 for this: <a href="https://github.com/simonw/csvs-to-sqlite/issues/73">outdated pandas dependency in setup.py? #73</a></li>
+</ul>
+:ET
