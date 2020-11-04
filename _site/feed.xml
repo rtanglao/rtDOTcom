@@ -6,9 +6,29 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 02 Nov 2020 17:59:50 -0800</pubDate>
-    <lastBuildDate>Mon, 02 Nov 2020 17:59:50 -0800</lastBuildDate>
+    <pubDate>Wed, 04 Nov 2020 08:01:39 -0800</pubDate>
+    <lastBuildDate>Wed, 04 Nov 2020 08:01:39 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>csvs-to-sqlite, pandas dependency in setup.py issue 73 fixed thanks Simon Willison!</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Please refer to previous post:  &lt;a href=&quot;http://rolandtanglao.com/2020/11/02/p1-fixed-csvs-to-sqlite-pandas-dependency-probem-by-removing-version-in-setup-py-issue-73/&quot;&gt;csvs-to-sqlite, outdated pandas dependency in setup.py? issue 73&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Simon Willison the awesome maintainer fixed this issue: &lt;a href=&quot;https://github.com/simonw/csvs-to-sqlite/issues/73&quot;&gt;outdated pandas dependency in setup.py? #73&lt;/a&gt; as follows:
+    &lt;ul&gt;
+      &lt;li&gt;Changed pandas setup.py dependency to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pandas&amp;gt;=1.0&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Open source can and often :-) works !!! Thanks!&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 04 Nov 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/11/04/p1-csvs-to-sqlite-pandas-dependency-problem-issue-73-fixed/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/11/04/p1-csvs-to-sqlite-pandas-dependency-problem-issue-73-fixed/</guid>
+        
+        
+      </item>
     
       <item>
         <title>csvs-to-sqlite, outdated pandas dependency in setup.py? issue 73</title>
@@ -402,39 +422,6 @@ hour-23-2020-10-20-firefox-desktop-all-locales.png
         <pubDate>Fri, 23 Oct 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/10/23/p1-barcode-ggplot2-case-when-map2/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/10/23/p1-barcode-ggplot2-case-when-map2/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>My joyful obsessions includes fun with software development as well as non tech happy places like cross-country skiing, taking photos (not editing them), bicycling and walking with my family</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;(please refer to my previous post: &lt;a href=&quot;http://rolandtanglao.com/2019/11/24/p1-what-is-your-happy-non-tech-place/&quot;&gt;What  is your happy non tech place? Mine is cross-country skiing, taking  photos (not editing them), bicycling and walking with my family&lt;/a&gt;)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;And also please refer to: &lt;a href=&quot;https://om.co/2020/10/20/infatuation/&quot;&gt;om.co’s Infatuation post&lt;/a&gt;:&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  For Shri, for something to count as a mini-obsession:
-
-  1. It has to be multilayered, complicated, and can you into a deep dark dive. 
-  2. And these objects are modestly priced. 
-
-  I liked her post because I have been a long proponent of small joys
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;I am not into things :-) but writing software for fun that creates things like fun infographics that become real objects like tshirts is my current mini-obsession and in fact my software tinkering for fun is a life long obsession! What’s yours?&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 22 Oct 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/10/22/p2-joyful-obsessions-software-development-fun-cross-country-skiing-taking-photos-bicycling-walking/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/10/22/p2-joyful-obsessions-software-development-fun-cross-country-skiing-taking-photos-bicycling-walking/</guid>
         
         
       </item>

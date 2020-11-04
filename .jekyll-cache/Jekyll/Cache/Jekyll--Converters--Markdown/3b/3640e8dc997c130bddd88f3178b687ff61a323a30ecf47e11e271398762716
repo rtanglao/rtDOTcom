@@ -1,0 +1,10 @@
+I"<ul>
+  <li>Please refer to previous post:  <a href="http://rolandtanglao.com/2020/11/02/p1-fixed-csvs-to-sqlite-pandas-dependency-probem-by-removing-version-in-setup-py-issue-73/">csvs-to-sqlite, outdated pandas dependency in setup.py? issue 73</a></li>
+  <li>Simon Willison the awesome maintainer fixed this issue: <a href="https://github.com/simonw/csvs-to-sqlite/issues/73">outdated pandas dependency in setup.py? #73</a> as follows:
+    <ul>
+      <li>Changed pandas setup.py dependency to <code class="language-plaintext highlighter-rouge">pandas&gt;=1.0</code></li>
+    </ul>
+  </li>
+  <li>Open source can and often :-) works !!! Thanks!</li>
+</ul>
+:ET
