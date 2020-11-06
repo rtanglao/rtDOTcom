@@ -1,0 +1,134 @@
+I"¼a<ul>
+  <li>
+    <p>Please refer to my previous post:  <a href="http://rolandtanglao.com/2020/10/27/p1-barcode-ggplot2-by-hour-concatenated-2by12/">R  and ggplot2 barcode (pink: Windows, blue: macOS, green:Linux, purple:  unknown/other) of Firefox questions by hour arranged in a 2x12 collage  makes an interesting graphic, what if I did that for all of 2020? </a> and <a href="http://rolandtanglao.com/2020/10/26/p1-cultural-analytics-lev-manovich-reading-notes/">Reading Notes - Cultural Analytics - Lev Manovich</a></p>
+  </li>
+  <li>
+    <p>Instead of converting the text to a colour, I just tokenized it and picked 5 random tokens See <a href="https://github.com/rtanglao/rt-r-ggplot2-ruby-experiments/blob/main/sqlite-text-hourly-ff-question-barcode.R">sqlite-text-hourly-ff-question-barcode.R</a>  and here is the code:</p>
+  </li>
+</ul>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/env Rscript</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">DBI</span><span class="p">)</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">RSQLite</span><span class="p">)</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">rvest</span><span class="p">)</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">stopwords</span><span class="p">)</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">tokenizers</span><span class="p">)</span><span class="w">
+</span><span class="n">set.seed</span><span class="p">(</span><span class="m">888</span><span class="p">)</span><span class="w">
+
+</span><span class="n">getOSColour</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="k">function</span><span class="p">(</span><span class="n">.x</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> 
+  </span><span class="n">case_when</span><span class="p">(</span><span class="w">
+    </span><span class="n">str_detect</span><span class="p">(</span><span class="n">.x</span><span class="p">,</span><span class="w"> </span><span class="s2">"mac-os|os-x|osx|macos"</span><span class="p">)</span><span class="w"> </span><span class="o">~</span><span class="w"> </span><span class="s2">"blue"</span><span class="p">,</span><span class="w">
+    </span><span class="n">str_detect</span><span class="p">(</span><span class="n">.x</span><span class="p">,</span><span class="w"> </span><span class="s2">"linux|ubuntu|redhat|debian"</span><span class="p">)</span><span class="w"> </span><span class="o">~</span><span class="w"> </span><span class="s2">"green"</span><span class="p">,</span><span class="w">
+    </span><span class="n">str_detect</span><span class="p">(</span><span class="n">.x</span><span class="p">,</span><span class="w"> </span><span class="s2">"windows-7|windows-8|windows-10"</span><span class="p">)</span><span class="w"> </span><span class="o">~</span><span class="w"> </span><span class="s2">"hotpink"</span><span class="p">,</span><span class="w">
+    </span><span class="kc">TRUE</span><span class="w"> </span><span class="o">~</span><span class="w"> </span><span class="s2">"purple"</span><span class="p">)</span><span class="w">
+</span><span class="p">}</span><span class="w">
+
+</span><span class="n">getRandomQuestionText</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="k">function</span><span class="p">(</span><span class="n">.x</span><span class="p">,</span><span class="w"> </span><span class="n">.y</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="c1"># pick a random index between 1 and 80</span><span class="w">
+  </span><span class="c1"># and then get the next 79 characters of text from that index</span><span class="w">
+  </span><span class="n">tplusc</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">paste</span><span class="p">(</span><span class="n">.x</span><span class="p">,</span><span class="w"> </span><span class="n">html_text</span><span class="p">(</span><span class="n">read_html</span><span class="p">(</span><span class="n">.y</span><span class="p">)))</span><span class="w">
+  </span><span class="n">tplusc_tokens</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">unlist</span><span class="p">(</span><span class="n">tokenize_words</span><span class="p">(</span><span class="n">tplusc</span><span class="p">,</span><span class="w"> </span><span class="n">stopwords</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">stopwords</span><span class="o">::</span><span class="n">stopwords</span><span class="p">(</span><span class="s2">"en"</span><span class="p">)))</span><span class="w">
+  </span><span class="n">token_length</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">length</span><span class="p">(</span><span class="n">tplusc_tokens</span><span class="p">)</span><span class="w">
+  </span><span class="n">num_tokens</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="k">if</span><span class="p">(</span><span class="n">token_length</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="m">5</span><span class="p">)</span><span class="w"> </span><span class="m">5</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="n">token_length</span><span class="w">
+
+  </span><span class="n">index</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">sort</span><span class="p">(</span><span class="n">sample</span><span class="p">(</span><span class="m">1</span><span class="o">:</span><span class="nf">length</span><span class="p">(</span><span class="n">tplusc_tokens</span><span class="p">),</span><span class="w"> </span><span class="n">num_tokens</span><span class="p">))</span><span class="w">
+  
+  </span><span class="n">tokenstring</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">paste</span><span class="p">(</span><span class="w">
+    </span><span class="n">tplusc_tokens</span><span class="p">[</span><span class="n">index</span><span class="p">[</span><span class="m">1</span><span class="p">]],</span><span class="w"> </span><span class="n">tplusc_tokens</span><span class="p">[</span><span class="n">index</span><span class="p">[</span><span class="m">2</span><span class="p">]],</span><span class="w"> 
+    </span><span class="n">tplusc_tokens</span><span class="p">[</span><span class="n">index</span><span class="p">[</span><span class="m">3</span><span class="p">]],</span><span class="w"> </span><span class="n">tplusc_tokens</span><span class="p">[</span><span class="n">index</span><span class="p">[</span><span class="m">4</span><span class="p">]],</span><span class="w"> 
+    </span><span class="n">tplusc_tokens</span><span class="p">[</span><span class="n">index</span><span class="p">[</span><span class="m">5</span><span class="p">]])</span><span class="w">
+  </span><span class="n">paste0</span><span class="p">(</span><span class="s2">"bold(\""</span><span class="p">,</span><span class="w"> </span><span class="n">tokenstring</span><span class="p">,</span><span class="w"> </span><span class="s2">"\")"</span><span class="p">)</span><span class="w">
+</span><span class="p">}</span><span class="w">
+
+</span><span class="n">initial.options</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">commandArgs</span><span class="p">(</span><span class="n">trailingOnly</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">FALSE</span><span class="p">)</span><span class="w">
+</span><span class="n">file.arg.name</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="s2">"--file="</span><span class="w">
+</span><span class="n">script.name</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">sub</span><span class="p">(</span><span class="n">file.arg.name</span><span class="p">,</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w"> </span><span class="n">initial.options</span><span class="p">[</span><span class="n">grep</span><span class="p">(</span><span class="n">file.arg.name</span><span class="p">,</span><span class="w"> </span><span class="n">initial.options</span><span class="p">)])</span><span class="w">
+</span><span class="n">script.basename</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">dirname</span><span class="p">(</span><span class="n">script.name</span><span class="p">)</span><span class="w">
+
+</span><span class="n">args</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">commandArgs</span><span class="p">(</span><span class="kc">TRUE</span><span class="p">)</span><span class="w">
+</span><span class="n">year</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">as.integer</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="m">1</span><span class="p">])</span><span class="w">
+</span><span class="n">month</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">as.integer</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="m">2</span><span class="p">])</span><span class="w">
+</span><span class="n">day</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">as.integer</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="m">3</span><span class="p">])</span><span class="w">
+</span><span class="n">hour</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">as.integer</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="m">4</span><span class="p">])</span><span class="w">
+
+</span><span class="c1">## Default setting when no arguments passed</span><span class="w">
+</span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nf">length</span><span class="p">(</span><span class="n">args</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="m">4</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="n">args</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="s2">"--help"</span><span class="p">)</span><span class="w">
+</span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">hour</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="m">0</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="n">hour</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="m">23</span><span class="w"> </span><span class="o">||</span><span class="w"> 
+      </span><span class="n">year</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="m">2010</span><span class="w"> </span><span class="o">||</span><span class="w"> 
+      </span><span class="n">month</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="m">0</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="n">month</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="m">12</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="n">args</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="s2">"--help"</span><span class="p">)</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+                  
+</span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="s2">"--help"</span><span class="w"> </span><span class="o">%in%</span><span class="w"> </span><span class="n">args</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="n">cat</span><span class="p">(</span><span class="w">
+    </span><span class="s2">"
+    Arguments:
+    year
+    month
+    day
+    hour (0-23)
+    --help              - print this text
+    Example:"</span><span class="p">)</span><span class="w">
+    </span><span class="n">cat</span><span class="p">(</span><span class="n">paste</span><span class="p">(</span><span class="s2">"Rscript"</span><span class="p">,</span><span class="w"> </span><span class="n">script.name</span><span class="p">,</span><span class="w"> </span><span class="s2">"2020 10 20 23\n\n"</span><span class="p">))</span><span class="w">
+  </span><span class="n">q</span><span class="p">(</span><span class="n">save</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"no"</span><span class="p">)</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span><span class="n">print</span><span class="p">(</span><span class="n">script.name</span><span class="p">)</span><span class="w">
+
+</span><span class="n">main</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="k">function</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="n">base_name</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> 
+   </span><span class="n">sprintf</span><span class="p">(</span><span class="s2">"%4.4d-%2.2d-%2.2d-%4.4d-%2.2d-%2.2d-firefox-creator-answers-desktop-all-locales"</span><span class="p">,</span><span class="w">
+    </span><span class="n">year</span><span class="p">,</span><span class="w"> </span><span class="n">month</span><span class="p">,</span><span class="w"> </span><span class="n">day</span><span class="p">,</span><span class="w"> </span><span class="n">year</span><span class="p">,</span><span class="w"> </span><span class="n">month</span><span class="p">,</span><span class="w"> </span><span class="n">day</span><span class="p">)</span><span class="w">
+  </span><span class="n">db_filename</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">sprintf</span><span class="p">(</span><span class="s2">"%s.db"</span><span class="p">,</span><span class="w"> </span><span class="n">base_name</span><span class="p">)</span><span class="w">
+  </span><span class="n">date_str</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">sprintf</span><span class="p">(</span><span class="w">
+    </span><span class="s2">"%4.4d-%2.2d-%2.2d %2.2d"</span><span class="p">,</span><span class="n">year</span><span class="p">,</span><span class="w"> </span><span class="n">month</span><span class="p">,</span><span class="w"> </span><span class="n">day</span><span class="p">,</span><span class="w"> </span><span class="n">hour</span><span class="p">)</span><span class="w">
+
+  </span><span class="n">ffquestionsdb</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">dbConnect</span><span class="p">(</span><span class="n">RSQLite</span><span class="o">::</span><span class="n">SQLite</span><span class="p">(),</span><span class="w"> </span><span class="n">db_filename</span><span class="p">)</span><span class="w">  
+  </span><span class="n">query_str</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">sprintf</span><span class="p">(</span><span class="w">
+    </span><span class="s2">"select * from \"%s\" where (datetime(created) &gt;= datetime(\"%s:00:00\") AND
+    datetime(created) &lt;= datetime(\"%s:59:59\"));"</span><span class="p">,</span><span class="w">
+    </span><span class="n">base_name</span><span class="p">,</span><span class="w"> </span><span class="n">date_str</span><span class="p">,</span><span class="w"> </span><span class="n">date_str</span><span class="w">
+  </span><span class="p">)</span><span class="w">
+  </span><span class="n">sqlitedf</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">dbGetQuery</span><span class="p">(</span><span class="n">ffquestionsdb</span><span class="p">,</span><span class="w"> </span><span class="n">query_str</span><span class="p">)</span><span class="w">
+  </span><span class="n">reverse_df</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">sqlitedf</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> </span><span class="n">map_df</span><span class="p">(</span><span class="n">rev</span><span class="p">)</span><span class="w">
+  </span><span class="n">length</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">nrow</span><span class="p">(</span><span class="n">reverse_df</span><span class="p">)</span><span class="w">
+  </span><span class="n">options</span><span class="p">(</span><span class="n">tibble.width</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">Inf</span><span class="p">)</span><span class="w">
+  </span><span class="n">print</span><span class="p">(</span><span class="n">reverse_df</span><span class="p">)</span><span class="w">
+  </span><span class="n">y</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">seq.int</span><span class="p">(</span><span class="n">by</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">5</span><span class="p">,</span><span class="n">length</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">length</span><span class="p">,</span><span class="w"> </span><span class="n">from</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">)</span><span class="w">
+  </span><span class="n">x</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">integer</span><span class="p">(</span><span class="n">length</span><span class="p">)</span><span class="w">
+  
+  </span><span class="n">os_colours_vector</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">map_chr</span><span class="p">(</span><span class="n">reverse_df</span><span class="o">$</span><span class="n">tags</span><span class="p">,</span><span class="w"> </span><span class="n">getOSColour</span><span class="p">)</span><span class="w">
+  </span><span class="n">question_text</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">map2_chr</span><span class="p">(</span><span class="w">
+    </span><span class="n">reverse_df</span><span class="o">$</span><span class="n">title</span><span class="p">,</span><span class="w">
+    </span><span class="n">reverse_df</span><span class="o">$</span><span class="n">content</span><span class="p">,</span><span class="w"> </span><span class="n">getRandomQuestionText</span><span class="p">)</span><span class="w">
+
+  </span><span class="n">p</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">ggplot</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">theme_void</span><span class="p">()</span><span class="w">
+  </span><span class="n">p</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">p</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">annotate</span><span class="p">(</span><span class="w">
+    </span><span class="s2">"text"</span><span class="p">,</span><span class="w"> </span><span class="n">label</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">question_text</span><span class="p">,</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="o">=</span><span class="n">y</span><span class="p">,</span><span class="w"> 
+    </span><span class="n">color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">os_colours_vector</span><span class="p">,</span><span class="w"> </span><span class="n">parse</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">TRUE</span><span class="p">)</span><span class="w">
+  </span><span class="n">png_filename</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">sprintf</span><span class="p">(</span><span class="w">
+    </span><span class="s2">"text-hour-%2.2d-%s.png"</span><span class="p">,</span><span class="w">
+    </span><span class="n">hour</span><span class="p">,</span><span class="w"> </span><span class="n">base_name</span><span class="p">)</span><span class="w">
+  </span><span class="n">ggsave</span><span class="p">(</span><span class="n">png_filename</span><span class="p">,</span><span class="w"> </span><span class="n">p</span><span class="p">,</span><span class="w"> </span><span class="n">width</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">3.555555556</span><span class="p">,</span><span class="w"> </span><span class="n">height</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">3.555555556</span><span class="p">,</span><span class="w"> 
+         </span><span class="n">dpi</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">72</span><span class="p">,</span><span class="w"> </span><span class="n">limitsize</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">FALSE</span><span class="p">)</span><span class="w"> </span><span class="c1"># 3.555555556 = 256/72dpi</span><span class="w">
+  </span><span class="n">warnings</span><span class="p">()</span><span class="w">
+</span><span class="p">}</span><span class="w">
+
+</span><span class="n">sink</span><span class="p">(</span><span class="s2">"log.txt"</span><span class="p">)</span><span class="w">
+</span><span class="n">main</span><span class="p">()</span><span class="w">
+</span><span class="n">sink</span><span class="p">()</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="output">Output</h3>
+<p><a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/50568907451/in/photolist-2k3ASoF-2k3AyPn-2jZYPEU-2jZYxYK-2jZXNVe-2jZYxYe-2jZYxYu-2jZU6Er-2jZU6Eg-2jZYxXx-2jZXNU7-2jZYxXh-2jZXNTA-2jZU6DV-2jZXNTR-2jZYxVU-2jZU6D9-2jZU6Dj-2jZU6Cc-2jZXNSo-2jZYxUg-2jZYxUr-2jZXNRM-2jZXNR6-2jZYxVJ-2jZXNQp-2jZXNQ9-2jYaS4r-2jXRqcc-2juDA3H-2jhftLc-2jhdvnH-2jhhAVH-2j7CH3o-2j7Fx5L-2ivrkMc-2ivoMB1-2iuuRHR-2itPBJA-2ifGD5o-2jm8iaS-2j9Qhia-2j7GJWV-2j7BxYo-2iAhjzA-2hRHaPU-2hR6M1b-2hFv3Gf-2hEaCtg-2hxMftz" title="with indexing bug fix! text-20october2020-ff-questions-by-hour"><img src="https://live.staticflickr.com/65535/50568907451_581f8513a5_w.jpg" width="400" height="67" alt="with indexing bug fix! text-20october2020-ff-questions-by-hour" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+
+<h3 id="next-steps">Next Steps</h3>
+
+<ul>
+  <li>Add logos for the operating systems i.e. a logo for macOS, Windows, Linux and other, should make it interesting</li>
+  <li>Also perhaps change it so the x coordinate is a function of  the minute and second of the question in the hour? Instead of using the y coordinate which is what the current script does!</li>
+</ul>
+:ET
