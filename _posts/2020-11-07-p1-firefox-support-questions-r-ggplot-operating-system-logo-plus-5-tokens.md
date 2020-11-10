@@ -4,7 +4,7 @@ title: "R and ggplot2: As per Cultural Analytics: Firefox Support Questions for 
 ---
 * Please refer to my previous post:  [R  and ggplot2: What if, as recommended by Cultural Analytics, I used the  actual text to make the graphic instead of converting the text to  numbers i.e. colours  ](http://rolandtanglao.com/2020/11/05/p1-use-the-actual-text-in-an-infographic-instead-of-converting-it-to-numbers/)        
 
-* As per Cultural Analytics recommendations not to convert text to num,bers: Firefox Support Questions for an hour with x axis the minute, logo plus 5 tokens from the question See [sqlite-logo-text-hourly-ff-question-barcode.R](https://github.com/rtanglao/rt-r-ggplot2-ruby-experiments/blob/main/sqlite-logo-text-hourly-ff-question-barcode.R)  and here is the code:
+* As per Cultural Analytics recommendations not to convert text to numbers: Firefox Support Questions for an hour with x axis the minute, logo plus 5 tokens from the question See [sqlite-logo-text-hourly-ff-question-barcode.R](https://github.com/rtanglao/rt-r-ggplot2-ruby-experiments/blob/main/sqlite-logo-text-hourly-ff-question-barcode.R)  and here is the code:
 
 ```r
 #!/usr/bin/env Rscript

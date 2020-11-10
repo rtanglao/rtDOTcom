@@ -6,8 +6,8 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 09 Nov 2020 20:53:40 -0800</pubDate>
-    <lastBuildDate>Mon, 09 Nov 2020 20:53:40 -0800</lastBuildDate>
+    <pubDate>Mon, 09 Nov 2020 23:47:14 -0800</pubDate>
+    <lastBuildDate>Mon, 09 Nov 2020 23:47:14 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -37,7 +37,7 @@
     &lt;p&gt;Please refer to my previous post:  &lt;a href=&quot;http://rolandtanglao.com/2020/11/05/p1-use-the-actual-text-in-an-infographic-instead-of-converting-it-to-numbers/&quot;&gt;R  and ggplot2: What if, as recommended by Cultural Analytics, I used the  actual text to make the graphic instead of converting the text to  numbers i.e. colours  &lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;As per Cultural Analytics recommendations not to convert text to num,bers: Firefox Support Questions for an hour with x axis the minute, logo plus 5 tokens from the question See &lt;a href=&quot;https://github.com/rtanglao/rt-r-ggplot2-ruby-experiments/blob/main/sqlite-logo-text-hourly-ff-question-barcode.R&quot;&gt;sqlite-logo-text-hourly-ff-question-barcode.R&lt;/a&gt;  and here is the code:&lt;/p&gt;
+    &lt;p&gt;As per Cultural Analytics recommendations not to convert text to numbers: Firefox Support Questions for an hour with x axis the minute, logo plus 5 tokens from the question See &lt;a href=&quot;https://github.com/rtanglao/rt-r-ggplot2-ruby-experiments/blob/main/sqlite-logo-text-hourly-ff-question-barcode.R&quot;&gt;sqlite-logo-text-hourly-ff-question-barcode.R&lt;/a&gt;  and here is the code:&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
