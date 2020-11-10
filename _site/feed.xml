@@ -6,9 +6,29 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 07 Nov 2020 17:12:17 -0800</pubDate>
-    <lastBuildDate>Sat, 07 Nov 2020 17:12:17 -0800</lastBuildDate>
+    <pubDate>Mon, 09 Nov 2020 20:53:40 -0800</pubDate>
+    <lastBuildDate>Mon, 09 Nov 2020 20:53:40 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Cultural Analytics page 197 Visualization without reduction aka Direct visualization</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Please refer to my previous post: &lt;a href=&quot;http://rolandtanglao.com/2020/11/05/p1-use-the-actual-text-in-an-infographic-instead-of-converting-it-to-numbers/&quot;&gt;R and ggplot2: What if, as recommended by Cultural Analytics, I used the actual text to make the graphic instead of converting the text to numbers i.e. colours  &lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;From &lt;a href=&quot;http://rolandtanglao.com/2020/10/26/p1-cultural-analytics-lev-manovich-reading-notes/&quot;&gt;Cultural Analytics&lt;/a&gt; (&lt;a href=&quot;https://mitpress.mit.edu/books/cultural-analytics&quot;&gt;book website&lt;/a&gt;) page 197-198:
+    &lt;ul&gt;
+      &lt;li&gt;“Although these techniques and projects are commonly discussed as information visualization, is it possible that they represent something else … a new broad visualization method for which we do not yet have an adequate name.”&lt;/li&gt;
+      &lt;li&gt;“Images remain images; text remains text. …we can also call this method &lt;em&gt;direct visualization&lt;/em&gt; or &lt;em&gt;visualization without reduction&lt;/em&gt;.”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Direct Visualization is what I created in: &lt;a href=&quot;http://rolandtanglao.com/2020/11/07/p1-firefox-support-questions-r-ggplot-operating-system-logo-plus-5-tokens/&quot;&gt;R  and ggplot2: As per Cultural Analytics: Firefox Support Questions for  an hour with x set to the minute the question was asked, logo plus 5  tokens from the question&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 09 Nov 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/11/09/p1-cultural-analytics-page-197-visualization-without-reduction/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/11/09/p1-cultural-analytics-page-197-visualization-without-reduction/</guid>
+        
+        
+      </item>
     
       <item>
         <title>R and ggplot2: As per Cultural Analytics: Firefox Support Questions for an hour with x set to the minute the question was asked, logo plus 5 tokens from the question</title>
@@ -645,24 +665,6 @@ hour-23-2020-10-20-firefox-desktop-all-locales.png
         <pubDate>Tue, 27 Oct 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/10/27/p1-barcode-ggplot2-by-hour-concatenated-2by12/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/10/27/p1-barcode-ggplot2-by-hour-concatenated-2by12/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Reading Notes - Cultural Analytics - Lev Manovich</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;See my previous post: &lt;a href=&quot;http://rolandtanglao.com/2020/05/10/p1-lev-manovich-cultural-analytics/&quot;&gt;Can’t wait for Lev Manovich’s Cultural Analytics  which should be 100% applicable to my hobby of making tshirts and  leggings from flickr data&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Introduction How to see 1 billion images  &amp;lt;— On a smaller scale, perhaps we should also learn how to see the 1000s of images that most of us take with our cameraphones and that others take of the neighbourhoods we live, work and play in.&lt;/li&gt;
-  &lt;li&gt;The above note comes from my checkvist outline: &lt;a href=&quot;https://checkvist.com/p/wnqw1vukO7eInCigqIq5IL&quot;&gt;Reading Notes - Cultural Analytics - Lev Manovich&lt;/a&gt; where I plan on taking notes as I read the book. You can check the link out or bookmark this post,;here’s the embed:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;iframe src=&quot;https://checkvist.com/p/wnqw1vukO7eInCigqIq5IL&quot; scrolling=&quot;auto&quot; width=&quot;400&quot; height=&quot;400&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
-
-</description>
-        <pubDate>Mon, 26 Oct 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/10/26/p1-cultural-analytics-lev-manovich-reading-notes/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/10/26/p1-cultural-analytics-lev-manovich-reading-notes/</guid>
         
         
       </item>
