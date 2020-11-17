@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 14 Nov 2020 21:25:54 -0800</pubDate>
-    <lastBuildDate>Sat, 14 Nov 2020 21:25:54 -0800</lastBuildDate>
+    <pubDate>Mon, 16 Nov 2020 17:39:58 -0800</pubDate>
+    <lastBuildDate>Mon, 16 Nov 2020 17:39:58 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Simon Willison: Personal Data Warehouses: Reclaiming Your Data</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Please refer to my previous post:   &lt;a href=&quot;http://rolandtanglao.com/2017/11/30/p1-simon-willison-Datasette-instantly-create-publish-API-SQLite-databases/&quot;&gt;Simon Willison - Datasette: instantly create and publish a read-only API for your SQLite databases&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Simon Willison: &lt;a href=&quot;https://simonwillison.net/2020/Nov/14/personal-data-warehouses/&quot;&gt;Personal Data Warehouses: Reclaiming Your Data&lt;/a&gt; &amp;lt;– I attended the live talk which was given as a webinar and organized by github. Inspirational! Hope to have my own personal data warehouse someday with my flickr data, my tweets, my scraped instagram (since there’s no API), flickr vancouver data) and perhaps even scraped facebook data (since there’s no API surprise :-) NOT!)&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 16 Nov 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/11/16/p1-simon-willison-personal-data-warehouses-reclaiming-your-data/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/11/16/p1-simon-willison-personal-data-warehouses-reclaiming-your-data/</guid>
+        
+        
+      </item>
     
       <item>
         <title>R and ggplot2: ggrepel positions labels so they do not overlap</title>
@@ -651,44 +666,6 @@
         <pubDate>Sat, 31 Oct 2020 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2020/10/31/p1-recompiled-r-to-use-cairo-and-not-use-x11-and-now-graphics-work-in-r/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/10/31/p1-recompiled-r-to-use-cairo-and-not-use-x11-and-now-graphics-work-in-r/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Switched from Buster to Ubuntu Server Bionic Beaver 18.04.4 and compiled RStudio Server and it all works except for plots, need type='cairo' and or xvfb-run</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;UPDATE: 31October2020, the problem with X11 and shadow graphics device driver was fixed, see the next post:  &lt;a href=&quot;http://rolandtanglao.com/2020/10/31/p1-recompiled-r-to-use-cairo-and-not-use-x11-and-now-graphics-work-in-r/&quot;&gt;Recompiled R 4.0.3 to not use X11 and to use cairo and now png() works without an X11 error and without a shadow graphics error&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Please refer to previous post:  &lt;a href=&quot;http://rolandtanglao.com/2020/10/28/p2-cannot-compile-rstudio-server-debian-buster-raspberry-pi4-debian10/&quot;&gt;Cannot compile RStudio server on Raspberry Pi 4 8GB RAM Debian 10 Buster&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;I switched to Ubuntu Server Bionic Beave 18.0.4.4 in order to be able to compile RStudio (Debian Buster is not a supported OS for RStudio as of this writing. But Bionic is!). And it was easy thanks to &lt;a href=&quot;https://github.com/TheRemote/Ubuntu-Server-raspi4-unofficial&quot;&gt;Ubuntu-Server-raspi4-unofficial&lt;/a&gt;. Thanks James Chambers!!!!!&lt;/li&gt;
-  &lt;li&gt;First you need to compile SOCI with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CMAKE_CXX_STANDARD&lt;/code&gt; set to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;11&lt;/code&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cmake -G &quot;Unix Makefiles&quot; -DWITH_BOOST=ON -DWITH_ORACLE=OFF -DCMAKE_CXX_STANDARD=11&lt;/code&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Here’s how to compile RStudio itself:
-    &lt;ul&gt;
-      &lt;li&gt;Follow &lt;a href=&quot;https://community.rstudio.com/t/setting-up-your-own-shiny-server-rstudio-server-on-a-raspberry-pi-3b/18982&quot;&gt;Setting up your own shiny-server / rstudio-server on a Raspberry Pi 3B+&lt;/a&gt; and do the following extra steps:&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cp&lt;/code&gt; libraries to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/usr/lib&lt;/code&gt; from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/usr/local/lib64&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RSTUDIO_USE_SYSTEM_SOCI&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ON&lt;/code&gt;; see issue &lt;a href=&quot;https://github.com/rstudio/rstudio/issues/6533&quot;&gt;6533&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cmake .. -DRSTUDIO_TARGET=Server -DCMAKE_BUILD_TYPE=Release -DRSTUDIO_USE_SYSTEM_SOCI=ON&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;install libntirpc-dev,  see &lt;a href=&quot;https://github.com/rstudio/rstudio/issues/2023&quot;&gt;build fails if libntirpc-dev is missing #2023&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;And it’s working except that plots don’t work in R Studio which is a major loss of functionality, since it’s nice to see the plots running on the same machine. Sad face but still hopeful: here is the error message:
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;gt; p
-Error in RStudioGD() : 
-Shadow graphics device error: r error 4 (R code execution error)
-In addition: Warning message:
-In grDevices:::png(&quot;/tmp/RtmpY0wRLe/26bdb48e96ab4a4b9ab8e49c79b53183.png&quot;,  :
-unable to open connection to X11 display ''  
-&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;PNGs also don’t work unless you add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;type=&quot;cairo&quot;&lt;/code&gt; or use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xvfb-run&lt;/code&gt; to run with a Virtual X11 frame buffer.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 30 Oct 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/10/30/p1-switched-to-ubuntu-server-bionic-compiled-rstudio-but-plots-do-not-work/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/10/30/p1-switched-to-ubuntu-server-bionic-compiled-rstudio-but-plots-do-not-work/</guid>
         
         
       </item>
