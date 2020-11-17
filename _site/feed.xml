@@ -6,9 +6,29 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 16 Nov 2020 17:39:58 -0800</pubDate>
-    <lastBuildDate>Mon, 16 Nov 2020 17:39:58 -0800</lastBuildDate>
+    <pubDate>Tue, 17 Nov 2020 11:13:32 -0800</pubDate>
+    <lastBuildDate>Tue, 17 Nov 2020 11:13:32 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Jay Rosen Two paths forward for the American press; applies to the Canadian press too</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pressthink.org/2020/11/two-paths-forward-for-the-american-press/&quot;&gt;Jay Rosen Two paths forward for the American press&lt;/a&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;“When democracy is under threat, objective reporters protect it as the basis upon which they can continue to discharge their professional obligations. That is the breakthrough American journalists had during the 2020 election. And it wasn’t the crew at any one network or newsroom”&lt;/li&gt;
+      &lt;li&gt;“To continue with its moment of breakthrough, the American press will  need new leadership. It will have to find a way to become pro-truth,  pro-voting, and aggressively pro-democracy. It will have to cast its lot with those in both parties who are reality-based. It will have to learn to distinguish bad actors with propagandistic intent from normal  speakers making their case. And there’s one more thing.”&lt;/li&gt;
+      &lt;li&gt;“In his New York Times &lt;a href=&quot;https://www.nytimes.com/2020/11/01/business/media/ben-smith-election.html&quot;&gt;column on the media business after Trump&lt;/a&gt;, Ben Smith talks to the current editor of the Los Angeles Times, Norm  Pearlstine, who is thinking of retiring after the election. Pearlstine  says the old top-down newsroom management is a thing of the past:  “Consent of the governed is something you have to take pretty  seriously.” In other words, democracy begins at home. If newsrooms  themselves become more democratic — more representive, diverse, and  differently led — that could keep the breakthrough going”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;This applies to the Canadian press which also has to choose democracy over “balance”, needs to be pro-democracy and be diverse! &lt;a href=&quot;https://pressthink.org/2020/11/two-paths-forward-for-the-american-press/&quot;&gt;Read the whole thing!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 17 Nov 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/11/17/p1-jay-rosen-two-paths-forward-american-press-canadian-press-also/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/11/17/p1-jay-rosen-two-paths-forward-american-press-canadian-press-also/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Simon Willison: Personal Data Warehouses: Reclaiming Your Data</title>
@@ -641,31 +661,6 @@
         <pubDate>Mon, 02 Nov 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/11/02/p1-fixed-csvs-to-sqlite-pandas-dependency-probem-by-removing-version-in-setup-py-issue-73/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/11/02/p1-fixed-csvs-to-sqlite-pandas-dependency-probem-by-removing-version-in-setup-py-issue-73/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Recompiled R 4.0.3 to not use X11 and to use cairo and now png() works without an X11 error and without a shadow graphics error</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Please refer to previous post:  &lt;a href=&quot;http://rolandtanglao.com/2020/10/30/p1-switched-to-ubuntu-server-bionic-compiled-rstudio-but-plots-do-not-work/&quot;&gt;Switched  from Buster to Ubuntu Server Bionic Beaver and compiled RStudio Server  and it all works except for plots, need type=’cairo’ and or xvfb-run&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Recompiled R 4.0.3 to not use X11 and to use cairo and now png() works without an X11 error and without a “shadow device graphics error”.  Here’s the  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;configure&lt;/code&gt; command which I discovered from &lt;a href=&quot;https://community.rstudio.com/t/setting-up-your-own-shiny-server-rstudio-server-on-a-raspberry-pi-3b/18982/39&quot;&gt;straychild01’s comment&lt;/a&gt; on &lt;a href=&quot;https://community.rstudio.com/t/setting-up-your-own-shiny-server-rstudio-server-on-a-raspberry-pi-3b/18982&quot;&gt;Setting up your own shiny-server / rstudio-server on a Raspberry Pi 3B+ &lt;/a&gt; on the R Studio Community Forum&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./configure &lt;span class=&quot;nt&quot;&gt;--with-x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;no &lt;span class=&quot;nt&quot;&gt;--with-cairo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;yes&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--with-libpng&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;yes&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--enable-R-shlib&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;This also means &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xvfb-run&lt;/code&gt; is not required to start up RStudio server.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 31 Oct 2020 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2020/10/31/p1-recompiled-r-to-use-cairo-and-not-use-x11-and-now-graphics-work-in-r/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/10/31/p1-recompiled-r-to-use-cairo-and-not-use-x11-and-now-graphics-work-in-r/</guid>
         
         
       </item>

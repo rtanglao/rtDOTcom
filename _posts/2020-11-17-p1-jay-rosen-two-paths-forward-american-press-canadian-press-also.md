@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Jay Rosen Two paths forward for the American press; applies to the Canadian press too"
+---
+*  [Jay Rosen Two paths forward for the American press](https://pressthink.org/2020/11/two-paths-forward-for-the-american-press/):
+    * "When democracy is under threat, objective reporters protect it as the basis upon which they can continue to discharge their professional obligations. That is the breakthrough American journalists had during the 2020 election. And it wasn’t the crew at any one network or newsroom"
+    * "To continue with its moment of breakthrough, the American press will  need new leadership. It will have to find a way to become pro-truth,  pro-voting, and aggressively pro-democracy. It will have to cast its lot with those in both parties who are reality-based. It will have to learn to distinguish bad actors with propagandistic intent from normal  speakers making their case. And there’s one more thing."
+    * "In his New York Times [column on the media business after Trump](https://www.nytimes.com/2020/11/01/business/media/ben-smith-election.html), Ben Smith talks to the current editor of the Los Angeles Times, Norm  Pearlstine, who is thinking of retiring after the election. Pearlstine  says the old top-down newsroom management is a thing of the past:  “Consent of the governed is something you have to take pretty  seriously.” In other words, democracy begins at home. If newsrooms  themselves become more democratic — more representive, diverse, and  differently led — that could keep the breakthrough going"
+* This applies to the Canadian press which also has to choose democracy over "balance", needs to be pro-democracy and be diverse! [Read the whole thing!](https://pressthink.org/2020/11/two-paths-forward-for-the-american-press/)
