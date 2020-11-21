@@ -6,17 +6,35 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 19 Nov 2020 23:42:36 -0800</pubDate>
-    <lastBuildDate>Thu, 19 Nov 2020 23:42:36 -0800</lastBuildDate>
+    <pubDate>Fri, 20 Nov 2020 21:46:13 -0800</pubDate>
+    <lastBuildDate>Fri, 20 Nov 2020 21:46:13 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Matt Webb: Social Team Cursors built into operating systems and virtual clothing like The Three Body Problem</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://interconnected.org/home/2020/11/20/social_os&quot;&gt;Matt Webb:Multiplayer docs, webcam fashion, noisy icons: three ideas&lt;/a&gt;&amp;lt;– great ideas/provocations, social “team” cursors in the OS is my  favourite:
+    &lt;ul&gt;
+      &lt;li&gt;“Every application window should be thought of as a room. Tap on a window, open the door, and see cursors swarm, text get edited, and comments stream in. (Different cursors for different windows,  naturally.) And one of those team members? An artificial intelligence assistant.”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;And of course Matt also brings up programmable clothing like in the Three Body Problem to address the personal presentation problem in online video conferencing!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://interconnected.org/home/2020/11/20/social_os&quot;&gt;Read the whole thing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 20 Nov 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/11/20/p1-matt-webb-multi-player-social-team-cursors-everywhere/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/11/20/p1-matt-webb-multi-player-social-team-cursors-everywhere/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Via Ton: A Handy Firefox add-on to get markdown from a web page</title>
         <description>&lt;ul&gt;
   &lt;li&gt;Nov 18, 2020 &lt;a href=&quot;https://www.zylstra.org/blog/2020/11/15394/&quot;&gt;Ton&lt;/a&gt;: &lt;a href=&quot;https://www.zylstra.org/blog/2020/11/15394/&quot;&gt;This is a handy little webclipper that grabs a page and downloads it in markdown.&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Everything in Markdown! (or HTML or some text file of some sort, see &lt;a href=&quot;https://graydon2.dreamwidth.org/193447.html&quot;&gt;Graydon’s Always bet on Text from 2014&lt;/a&gt; )&lt;/li&gt;
+  &lt;li&gt;Everything in Markdown! (or HTML or some text file of some sort, see &lt;a href=&quot;https://graydon2.dreamwidth.org/193447.html&quot;&gt;Graydon’s Always bet on Text from 2014&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
 </description>
         <pubDate>Thu, 19 Nov 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/11/19/p1-firefox-add-on-to-get-markdown-from-a-webpage/</link>
@@ -633,26 +651,6 @@
         <pubDate>Thu, 05 Nov 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/11/05/p1-use-the-actual-text-in-an-infographic-instead-of-converting-it-to-numbers/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/11/05/p1-use-the-actual-text-in-an-infographic-instead-of-converting-it-to-numbers/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>csvs-to-sqlite, pandas dependency in setup.py issue 73 fixed thanks Simon Willison!</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Please refer to previous post:  &lt;a href=&quot;http://rolandtanglao.com/2020/11/02/p1-fixed-csvs-to-sqlite-pandas-dependency-probem-by-removing-version-in-setup-py-issue-73/&quot;&gt;csvs-to-sqlite, outdated pandas dependency in setup.py? issue 73&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Simon Willison the awesome maintainer fixed this issue: &lt;a href=&quot;https://github.com/simonw/csvs-to-sqlite/issues/73&quot;&gt;outdated pandas dependency in setup.py? #73&lt;/a&gt; as follows:
-    &lt;ul&gt;
-      &lt;li&gt;Changed pandas setup.py dependency to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pandas&amp;gt;=1.0&lt;/code&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Open source can and often :-) works !!! Thanks!&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Wed, 04 Nov 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/11/04/p1-csvs-to-sqlite-pandas-dependency-problem-issue-73-fixed/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/11/04/p1-csvs-to-sqlite-pandas-dependency-problem-issue-73-fixed/</guid>
         
         
       </item>
