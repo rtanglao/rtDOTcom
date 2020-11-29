@@ -6,9 +6,36 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 26 Nov 2020 20:45:14 -0800</pubDate>
-    <lastBuildDate>Thu, 26 Nov 2020 20:45:14 -0800</lastBuildDate>
+    <pubDate>Sat, 28 Nov 2020 23:45:53 -0800</pubDate>
+    <lastBuildDate>Sat, 28 Nov 2020 23:45:53 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Tim Ottinger: 7 code Virtues Explained </title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;I discovered this Sep 25, 2020 and updated my &lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;checkvist Blog This! Outline&lt;/a&gt; but haven’t blogged it until now :-) :
+    &lt;ul&gt;
+      &lt;li&gt;Sep 25, 2020. &lt;a href=&quot;https://www.industriallogic.com/blog/code-virtues-explained/?utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed%3A+IndustrialBlogic+(Industrial+Blogic)&quot;&gt;7 Code Virtues Explained&lt;/a&gt; &amp;lt;— good code smells :-) :
+        &lt;ul&gt;
+          &lt;li&gt;Working&lt;/li&gt;
+          &lt;li&gt;Unique&lt;/li&gt;
+          &lt;li&gt;Simple&lt;/li&gt;
+          &lt;li&gt;Clear&lt;/li&gt;
+          &lt;li&gt;Easy&lt;/li&gt;
+          &lt;li&gt;Developed&lt;/li&gt;
+          &lt;li&gt;Brief&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 28 Nov 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/11/28/p1-tim-ottinger-7-code-virtues-explained/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/11/28/p1-tim-ottinger-7-code-virtues-explained/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Spanish Empire 'legibility': Filipinos were instructed by the decree of November 21, 1849 to take on permanent Hispanic surnames</title>
@@ -354,24 +381,6 @@
         <pubDate>Wed, 11 Nov 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/11/11/p1-ggplot2-set-literal-colour_values_with_scale_colour_identity/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/11/11/p1-ggplot2-set-literal-colour_values_with_scale_colour_identity/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Derek Jones: Evidence-based software engineering: book released </title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://shape-of-code.coding-guidelines.com/2020/11/08/evidence-based-software-engineering-book-released/&quot;&gt;Derek Jones: Evidence-based software engineering: book released&lt;/a&gt; &amp;lt;— complete with R code and data! &amp;lt;— “This &lt;a href=&quot;http://www.knosof.co.uk/ESEUR/ESEUR.pdf&quot;&gt;book&lt;/a&gt; discusses what is currently known about software engineering, based on an analysis of all the &lt;a href=&quot;https://github.com/Derek-Jones/ESEUR-code-data&quot;&gt;publicly available data&lt;/a&gt;.  This aim is not as ambitious as it sounds, because there is not a great deal of data publicly available.”&lt;/li&gt;
-  &lt;li&gt;Juicy quote (sounds like reading &lt;a href=&quot;http://www.knosof.co.uk/ESEUR/&quot;&gt;the whole book&lt;/a&gt; is very worthwhile! in order to move beyond “anecdata” :-) about software engineering to facts:
-    &lt;ul&gt;
-      &lt;li&gt;“Is software development shifting from being a sellers market to a buyers market? In a competitive market for development work and staff, paying people to learn from mistakes that have already been made by many others is an unaffordable luxury; an engineering approach, derived from evidence, is a lot more cost-effective than craft development.”&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 10 Nov 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/11/10/p1-derek-jones-evidence-based-software-engineering-bok-released/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/11/10/p1-derek-jones-evidence-based-software-engineering-bok-released/</guid>
         
         
       </item>
