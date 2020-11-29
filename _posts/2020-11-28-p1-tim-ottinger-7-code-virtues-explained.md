@@ -9,5 +9,5 @@ title: "Tim Ottinger: 7 code Virtues Explained "
         *   Simple
         *   Clear
         *   Easy
-        *    Developed
-        *    Brief
+        *   Developed
+        *   Brief
