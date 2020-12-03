@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 01 Dec 2020 21:06:23 -0800</pubDate>
-    <lastBuildDate>Tue, 01 Dec 2020 21:06:23 -0800</lastBuildDate>
+    <pubDate>Wed, 02 Dec 2020 20:58:42 -0800</pubDate>
+    <lastBuildDate>Wed, 02 Dec 2020 20:58:42 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Clown by clartaq: An outlining app with notes for each headline. Written in Clojure and ClojureScript. </title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;I discovered this Dec 1, 2020 and updated my &lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;checkvist Blog This! Outline&lt;/a&gt; but haven’t blogged it until now :-) :
+    &lt;ul&gt;
+      &lt;li&gt;Dec 1, 2020. &lt;a href=&quot;https://github.com/clartaq/clown&quot;&gt;clown&lt;/a&gt; Clown is an outliner with notes. It is written in Clojure and ClojureScript.  &amp;lt;—– hmmmmaybe i’ll finally learn Clojure through this ?!?! Nah :-)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 02 Dec 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/12/02/p1-clown-outliner-clojure-clojurescript/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/12/02/p1-clown-outliner-clojure-clojurescript/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Stewart and the slack team: congrats on the Saleforce acquisition</title>
@@ -236,26 +253,6 @@
         <pubDate>Thu, 19 Nov 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/11/19/p1-firefox-add-on-to-get-markdown-from-a-webpage/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/11/19/p1-firefox-add-on-to-get-markdown-from-a-webpage/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Jay Rosen Two paths forward for the American press; applies to the Canadian press too</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://pressthink.org/2020/11/two-paths-forward-for-the-american-press/&quot;&gt;Jay Rosen Two paths forward for the American press&lt;/a&gt;:
-    &lt;ul&gt;
-      &lt;li&gt;“When democracy is under threat, objective reporters protect it as the basis upon which they can continue to discharge their professional obligations. That is the breakthrough American journalists had during the 2020 election. And it wasn’t the crew at any one network or newsroom”&lt;/li&gt;
-      &lt;li&gt;“To continue with its moment of breakthrough, the American press will  need new leadership. It will have to find a way to become pro-truth,  pro-voting, and aggressively pro-democracy. It will have to cast its lot with those in both parties who are reality-based. It will have to learn to distinguish bad actors with propagandistic intent from normal  speakers making their case. And there’s one more thing.”&lt;/li&gt;
-      &lt;li&gt;“In his New York Times &lt;a href=&quot;https://www.nytimes.com/2020/11/01/business/media/ben-smith-election.html&quot;&gt;column on the media business after Trump&lt;/a&gt;, Ben Smith talks to the current editor of the Los Angeles Times, Norm  Pearlstine, who is thinking of retiring after the election. Pearlstine  says the old top-down newsroom management is a thing of the past:  “Consent of the governed is something you have to take pretty  seriously.” In other words, democracy begins at home. If newsrooms  themselves become more democratic — more representive, diverse, and  differently led — that could keep the breakthrough going”&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;This applies to the Canadian press which also has to choose democracy over “balance”, needs to be pro-democracy and be diverse! &lt;a href=&quot;https://pressthink.org/2020/11/two-paths-forward-for-the-american-press/&quot;&gt;Read the whole thing!&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 17 Nov 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/11/17/p1-jay-rosen-two-paths-forward-american-press-canadian-press-also/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/11/17/p1-jay-rosen-two-paths-forward-american-press-canadian-press-also/</guid>
         
         
       </item>
