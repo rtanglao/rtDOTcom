@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 02 Dec 2020 20:58:42 -0800</pubDate>
-    <lastBuildDate>Wed, 02 Dec 2020 20:58:42 -0800</lastBuildDate>
+    <pubDate>Thu, 03 Dec 2020 18:51:56 -0800</pubDate>
+    <lastBuildDate>Thu, 03 Dec 2020 18:51:56 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Stowe Boyd: Paradoxes of Engagement: Less Communication Is More</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;I discovered this Nov 28, 2020 and updated my &lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;checkvist Blog This! Outline&lt;/a&gt; but haven’t blogged it until now :-) :
+    &lt;ul&gt;
+      &lt;li&gt;Nov 28, 2020. Stowe Boyd: &lt;a href=&quot;https://stoweboyd.medium.com/paradoxes-of-engagement-less-communication-is-more-7f1ef2b7573c&quot;&gt;Paradoxes of Engagement: Less Communication Is More&lt;/a&gt; via Stowe’s &lt;a href=&quot;https://twitter.com/stoweboyd/status/1330953148157071362&quot;&gt;tweet&lt;/a&gt; which links to Dropbox’s &lt;a href=&quot;https://blog.dropbox.com/collections/virtual-first-toolkit&quot;&gt;Virtual First Toolkit&lt;/a&gt; &amp;lt;– “Minimizing hours for synchronous communication makes us more productive” &amp;lt;— I say:  YES amount of synch comms minimum varies by role and by project AND AMEN :-) !&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 03 Dec 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/12/03/p1-stowe-boyd-paradox-engagement-less-commnication-is-more/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/12/03/p1-stowe-boyd-paradox-engagement-less-commnication-is-more/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Clown by clartaq: An outlining app with notes for each headline. Written in Clojure and ClojureScript. </title>
@@ -239,20 +256,6 @@
         <pubDate>Fri, 20 Nov 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/11/20/p1-matt-webb-multi-player-social-team-cursors-everywhere/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/11/20/p1-matt-webb-multi-player-social-team-cursors-everywhere/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Via Ton: A Handy Firefox add-on to get markdown from a web page</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Nov 18, 2020 &lt;a href=&quot;https://www.zylstra.org/blog/2020/11/15394/&quot;&gt;Ton&lt;/a&gt;: &lt;a href=&quot;https://www.zylstra.org/blog/2020/11/15394/&quot;&gt;This is a handy little webclipper that grabs a page and downloads it in markdown.&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Everything in Markdown! (or HTML or some text file of some sort, see &lt;a href=&quot;https://graydon2.dreamwidth.org/193447.html&quot;&gt;Graydon’s Always bet on Text from 2014&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 19 Nov 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/11/19/p1-firefox-add-on-to-get-markdown-from-a-webpage/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/11/19/p1-firefox-add-on-to-get-markdown-from-a-webpage/</guid>
         
         
       </item>
