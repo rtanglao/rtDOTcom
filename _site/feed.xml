@@ -6,9 +6,36 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 06 Dec 2020 22:02:01 -0800</pubDate>
-    <lastBuildDate>Sun, 06 Dec 2020 22:02:01 -0800</lastBuildDate>
+    <pubDate>Tue, 08 Dec 2020 20:22:34 -0800</pubDate>
+    <lastBuildDate>Tue, 08 Dec 2020 20:22:34 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Mark Guzdial:Computing Education Research Blog:Dijkstra’s Truths about Computing Education Aren’t: The many kinds of programming</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;See my previous related posts which are basically Mark Guzdial again :-) :&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/31/p1-defund-the-cheating-police-and-improve-computer-science-education/&quot;&gt;Computing  Education Research Blog: Proposal #3 to Change CS Education to Reduce  Inequity: Call a truce on academic misconduct cases for programming  assignments and it is not necessary to have to struggle to learn&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2019/08/08/p1-people-are-not-dumb-programming-languages-are-hard/&quot;&gt;Computing Education Research Blog:Task-specific programming languages: People aren’t dumb. Programming is hard.&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://computinged.wordpress.com/2020/12/07/dijkstras-truths-about-computing-education-are-mostly-wrong/&quot;&gt;Dijkstra’s Truths about Computing Education Aren’t The many kinds of programming&lt;/a&gt;:  &amp;lt;– “Of course, there are innate differences between people, but that fact  doesn’t have to limit who can program. Computers are the most flexible  medium that humans have ever created. To argue that only a small  percentage of people can “groove with programming” or that learning a  specific programming language “mentally mutilates” is to define  programming in a very narrow way. There are &lt;em&gt;lots&lt;/em&gt; of activities that are programming” &amp;lt;– AMEN!&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 08 Dec 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/12/08/p1-dijkstra-wrong-about-how-teach-programming-right-about-computer-science/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/12/08/p1-dijkstra-wrong-about-how-teach-programming-right-about-computer-science/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Charlie Schick:@molecularist The miracle of mundane</title>
@@ -215,20 +242,6 @@
         <pubDate>Thu, 26 Nov 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/11/26/p1-filipino-surname-legibility-spanish-empire/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/11/26/p1-filipino-surname-legibility-spanish-empire/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Eugene Wei: Seeing Like an Algorithm: legibility and the TikTok For You Page</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;I came across this on Sep 20, 2020. “TikTok’s design makes its videos, users, and user preferences legible to its For You Page algorithm. The app design fulfills one of its primary responsibilities: “seeing like an algorithm.” &amp;lt;— read the whole thing Eugene Wei: &lt;a href=&quot;https://www.eugenewei.com/blog/2020/9/18/seeing-like-an-algorithm&quot;&gt;Seeing Like an Algorithm&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Tue, 24 Nov 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/11/24/p1-eugene-wei-seeing-like-an-algorithm/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/11/24/p1-eugene-wei-seeing-like-an-algorithm/</guid>
         
         
       </item>
