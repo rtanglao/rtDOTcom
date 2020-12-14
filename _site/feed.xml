@@ -6,9 +6,29 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 12 Dec 2020 22:49:53 -0800</pubDate>
-    <lastBuildDate>Sat, 12 Dec 2020 22:49:53 -0800</lastBuildDate>
+    <pubDate>Sun, 13 Dec 2020 20:40:04 -0800</pubDate>
+    <lastBuildDate>Sun, 13 Dec 2020 20:40:04 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Tom Jarrett: Designing Branch: Sustainable Interaction Design Principles</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Dec 12, 2020: &lt;a href=&quot;https://branch.climateaction.tech/2020/10/15/designing-branch-sustainable-interaction-design-principles/&quot;&gt;Designing Branch: Sustainable Interaction Design Principles&lt;/a&gt; &amp;lt;— ecologically sustainable websites via Boris who got it from &lt;a href=&quot;https://floss.social/@alcinnz/105357811956073662&quot;&gt;Adrian Cochrane&lt;/a&gt;. Some quotes:
+    &lt;ul&gt;
+      &lt;li&gt;” One of the ways we can do this is by lowering the energy demand of the  digital products and services we’re designing, making it more accessible to people with slower internet connections or on older devices. For &lt;em&gt;Branch&lt;/em&gt; we wanted to design something that still looked designed, and worked at a low bandwidth environment, but didn’t end up looking too anodyne.”&lt;/li&gt;
+      &lt;li&gt;“&lt;em&gt;Branch&lt;/em&gt; was also designed to be ‘Demand Responsive’ to adapt to  and reflect the physical infrastructure of the internet and the energy  behind it. Utilising data from a grid intensity API and the user’s  location, &lt;em&gt;Branch&lt;/em&gt; has different interface designs that are shown dependent on the current energy demand and fossil fuels on the grid  where the user is.  “&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://branch.climateaction.tech/2020/10/15/designing-branch-sustainable-interaction-design-principles/&quot;&gt;Read the whole thing&lt;/a&gt; please :-)&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 13 Dec 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/12/13/p1-branch-ecologically-sustainable-websites/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/12/13/p1-branch-ecologically-sustainable-websites/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Matt Webb: Is the internet of things more efficient or transformative because it contains the world? e.g. a crown in 90 minutes is more efficient&lt;-- need to ask my dentist about this </title>
@@ -223,21 +243,6 @@
         <pubDate>Mon, 30 Nov 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/11/30/p1-learn-about-microaggressions-by-playing-killing-me-softly/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/11/30/p1-learn-about-microaggressions-by-playing-killing-me-softly/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>YouTube Music has issues that Google Play Music didn't: can't reliably play downloaded playlists, etc</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://twitter.com/rtanglao/status/1332959866915233792&quot;&gt;i tried to switch from google play music to youtube music but oddly :-) it doesn’t reliably play my downloaded 1077 song playlist unlike google play music on my iPhone SE 2020 using the latest iOS 14.x&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/weAllMakeShttySoftware&quot;&gt;#weAllMakeShttySoftware&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;“Every pixel isn’t sacred (TM)”  :-) so I won’t complain about the different UX just for the sake of complaining :-) If I think of something substantial to complain about I’ll tweet and blog it.&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sun, 29 Nov 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/11/29/p1-every-pixel-is-not-sacred-hope-youtube-music-improves/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/11/29/p1-every-pixel-is-not-sacred-hope-youtube-music-improves/</guid>
         
         
       </item>
