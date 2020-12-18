@@ -1,0 +1,14 @@
+I"e<ul>
+  <li>“<a href="https://funkwhale.audio/">Funkwhale</a> is a community-driven project that lets you listen and share music and audio within a decentralized, open network - Instances can be federated with the ActivityPub protocol.” Super cool, started 4 years ago roughly i.e. sometime in 2017!</li>
+  <li>From the founder’s <a href="https://www.reddit.com/r/opensource/comments/fkvah3/funkwhale_a_freeopensource_musicaudio_server_ive/">Reddit AMA 9 months ago</a>:
+    <ul>
+      <li>“<strong>In a nutshell, you can use Funkwhale to build your own, private Spotify</strong>. Once the Funkwhale server (a.k.a. pod) <a href="https://docs.funkwhale.audio/installation/">is deployed</a>, you can upload your music on it (or import it from the server through a command-line interface), build playlists, favorites, search within your collection, etc. You can also invite other people on your pod so they  can enjoy the service.”</li>
+      <li>“While you can definitely use Funkwhale to listen to music and audio created by others (this is the core use case), <strong>you can also use it as an alternative to SoundCloud, to publish your own work.</strong>”</li>
+    </ul>
+  </li>
+  <li>Would love to have the time to run my own instance in the cloud!</li>
+  <li>Grooveshark died in 2015. RIP I loved it!</li>
+  <li>Found via a demo last week at element.io</li>
+</ul>
+
+:ET

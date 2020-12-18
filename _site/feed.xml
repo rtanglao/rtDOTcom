@@ -6,9 +6,32 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 15 Dec 2020 22:57:19 -0800</pubDate>
-    <lastBuildDate>Tue, 15 Dec 2020 22:57:19 -0800</lastBuildDate>
+    <pubDate>Thu, 17 Dec 2020 19:31:51 -0800</pubDate>
+    <lastBuildDate>Thu, 17 Dec 2020 19:31:51 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Funkwhale - grooveshark inspired decentralized music</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;“&lt;a href=&quot;https://funkwhale.audio/&quot;&gt;Funkwhale&lt;/a&gt; is a community-driven project that lets you listen and share music and audio within a decentralized, open network - Instances can be federated with the ActivityPub protocol.” Super cool, started 4 years ago roughly i.e. sometime in 2017!&lt;/li&gt;
+  &lt;li&gt;From the founder’s &lt;a href=&quot;https://www.reddit.com/r/opensource/comments/fkvah3/funkwhale_a_freeopensource_musicaudio_server_ive/&quot;&gt;Reddit AMA 9 months ago&lt;/a&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;“&lt;strong&gt;In a nutshell, you can use Funkwhale to build your own, private Spotify&lt;/strong&gt;. Once the Funkwhale server (a.k.a. pod) &lt;a href=&quot;https://docs.funkwhale.audio/installation/&quot;&gt;is deployed&lt;/a&gt;, you can upload your music on it (or import it from the server through a command-line interface), build playlists, favorites, search within your collection, etc. You can also invite other people on your pod so they  can enjoy the service.”&lt;/li&gt;
+      &lt;li&gt;“While you can definitely use Funkwhale to listen to music and audio created by others (this is the core use case), &lt;strong&gt;you can also use it as an alternative to SoundCloud, to publish your own work.&lt;/strong&gt;”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Would love to have the time to run my own instance in the cloud!&lt;/li&gt;
+  &lt;li&gt;Grooveshark died in 2015. RIP I loved it!&lt;/li&gt;
+  &lt;li&gt;Found via a demo last week at element.io&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Thu, 17 Dec 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/12/17/p1-funkwhale-decentralized-grooveshark-inspired/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/12/17/p1-funkwhale-decentralized-grooveshark-inspired/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Meeting Recovery Syndrome - goto to a happy place for a speedy recovery (written before the pandemic)</title>
@@ -172,77 +195,6 @@
         <pubDate>Wed, 02 Dec 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/12/02/p1-clown-outliner-clojure-clojurescript/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/12/02/p1-clown-outliner-clojure-clojurescript/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Stewart and the slack team: congrats on the Saleforce acquisition</title>
-        <description>&lt;h2 id=&quot;tweets-about-slacks-acquisition-by-salesforce&quot;&gt;Tweets about slack’s acquisition by Salesforce&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;remember in the 2000s when a few folks including myself, yourself and&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://twitter.com/bmann&quot;&gt;@bmann&lt;/a&gt; used to go for tacos at that Vancouver restaurant run by a fab Brazilian ? Neither do I :-) Congrats&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://twitter.com/stewart&quot;&gt;@stewart&lt;/a&gt;  and the entire slack team! &lt;a href=&quot;https://twitter.com/rtanglao/status/1333954537615360000&quot;&gt;#&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;when i got laid off by Mozilla in August, I joked to  &lt;a href=&quot;https://twitter.com/dethe&quot;&gt;@dethe&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;that i would email  &lt;a href=&quot;https://twitter.com/stewart&quot;&gt;@stewart&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;a kr*zy job application w/no resume attached: “Hey Stewart: It’s Roland. I need a job. Hire me :-) Maraming Salamat Po …Roland”  Perhaps I should have :-) ROFL. JK! happy w/where I landed. &lt;a href=&quot;https://twitter.com/rtanglao/status/1333978560650899457&quot;&gt;#&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;just-for-fun-links-about-slack&quot;&gt;just for fun links: about slack&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;See 2019: &lt;a href=&quot;http://rolandtanglao.com/2019/08/19/p1-the-arc-of-collaboration-slack-as-else-statement/&quot;&gt;Kevin Kwok: The Arc of Collaboration/Slack as Else Statement&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;See 2016:  &lt;a href=&quot;http://rolandtanglao.com/2016/11/03/p1-slack-is-the-ultimate-stream-tool/&quot;&gt;Slack is the ultimate stream tool but you need HowTos to go beyond 1980s chat and it’s not a garden&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;just-for-fun-links-about-flickr&quot;&gt;Just for fun: links about flickr&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;See 2018:&lt;a href=&quot;http://rolandtanglao.com/2018/04/21/smugmug-buys-flickr-pledges-to-keep-api/&quot;&gt;SmugMug Buys Flickr and pledges to continue with flickr’s fab API, yay!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;See 2017: &lt;a href=&quot;http://rolandtanglao.com/2017/05/07/p1-cogdog-bet-flickr-api-broken-by-april-30-2018/&quot;&gt;By April 30, 2018, the flickr API will be broken — my bet with cog dog&lt;/a&gt;  &amp;lt;– LOST THAT BET :-)&lt;/li&gt;
-  &lt;li&gt;See  2016: &lt;a href=&quot;http://rolandtanglao.com/2016/11/20/p1-My-175K-flickr-photos-are-now-CC0-aka-public-domain/&quot;&gt;My 175K flickr photos are now CC0 aka public domain&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;See 2011: &lt;a href=&quot;http://rolandtanglao.com/2011/05/29/still-dont-have-real-time-geotagged-photo-web-in-2011-proof-lack-of-geotagged-vancouver-photos-on-flickr-after-vancouver-canucks-beat-the-san-jose-sharks/&quot;&gt;Still  don’t have real time geotagged photo web in 2011! Proof: lack of  geotagged Vancouver photos on flickr after Vancouver Canucks beat the  San Jose Sharks&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;See 2011: &lt;a href=&quot;http://rolandtanglao.com/2011/05/03/n8-video-and-flickr-not-working-symptomatic-of-both-flickr-and-nokia-irrelevance/&quot;&gt;N8 video &amp;amp; flickr not working - symptomatic of both Flickr &amp;amp; Nokia irrelevance?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;See 2010: &lt;a href=&quot;http://rolandtanglao.com/2010/10/17/hd-size-with-street-chrome-version-of-2010-mens-gold-medal-hockey-day-geotagged-pics-from-flickr/&quot;&gt;HD size with Street Chrome Version of 2010 Men’s Gold Medal Hockey Day Geotagged Pics from Flickr&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;See 2008:  &lt;a href=&quot;http://rolandtanglao.com/2008/11/20/eye-fis-wireless-memory-cards-for-digital-cameras-come-to-canada-best-way-to-get-your-family-photos-to-flickr/&quot;&gt;Eye-Fi’s Wireless Memory Cards for Digital Cameras Come to Canada. Best way to get your family photos to flickr!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;See 2008:  &lt;a href=&quot;http://rolandtanglao.com/2008/04/08/flickr-adds-video-interesting-that-most-of-my-videos-are-family-videos/&quot;&gt;Flickr adds video - interesting that most of my videos are family videos&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;See 2008: &lt;a href=&quot;http://rolandtanglao.com/2008/02/03/as-long-as-microsoft-doesnt-neuter-flickr-i-am-fine-with-them-buying-yahoo/&quot;&gt;As long as Microsoft doesn’t neuter flickr, I am fine with them buying Yahoo&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;See 2007: &lt;a href=&quot;http://rolandtanglao.com/2007/02/05/shozu-nokia-n-series-phone-flickr-wifi-least-painful-way-to-get-photos-online-today/&quot;&gt;ShoZu + Nokia N Series phone + flickr + WiFi = least painful way to get photos online today&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;See 2007:  &lt;a href=&quot;http://rolandtanglao.com/2007/01/02/youtube-is-not-the-flickr-of-video/&quot;&gt;YouTube is NOT the flickr of video&lt;/a&gt;        &amp;lt;— HAHA in retrospect!&lt;/li&gt;
-  &lt;li&gt;See 2006:  &lt;a href=&quot;http://rolandtanglao.com/2006/11/03/n93-review-part-1-nokia-web-browser-works-with-flickr/&quot;&gt;N93 Review Part 1 - Nokia Web Browser works with flickr!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;See 2005:  &lt;a href=&quot;http://rolandtanglao.com/2005/12/24/no-flickr-of-video-emerges-rolands-2006-predictions-part-5/&quot;&gt;No Flickr of video emerges - Roland’s 2006 Predictions Part 5&lt;/a&gt;        &amp;lt;—- hmmmm youtube :-) ?!?&lt;/li&gt;
-  &lt;li&gt;See 2005: &lt;a href=&quot;http://rolandtanglao.com/2005/11/07/idiom-of-the-day-flickr-of/&quot;&gt; Idiom of the day “flickr of…”&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;See 2005:   &lt;a href=&quot;http://rolandtanglao.com/2005/10/02/deploy-every-30-minutes-one-secret-behind-flickr-time-development/&quot;&gt; Deploy every 30 minutes: One secret behind Flickr time development&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;See 2005:  &lt;a href=&quot;http://rolandtanglao.com/2005/07/24/beware-of-bogus-long-tail-and-just-like-flickr-pitches/&quot;&gt; Beware of bogus ‘long tail and  ‘Just Like Flickr’ pitches&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;See 2005:  &lt;a href=&quot;http://rolandtanglao.com/2005/05/26/flickr-leaving-do-at-the-alibi-room-tonight/&quot;&gt; Flickr leaving do at the Alibi Room tonight&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;See 2005: &lt;a href=&quot;http://rolandtanglao.com/2005/05/22/to-get-a-flickr-for-maps-we-first-need-a-digital-camera-for-location/&quot;&gt;To get a ‘Flickr for maps’ we first need a ‘digital camera for location.’&lt;/a&gt; i.e. the iPhone :-)&lt;/li&gt;
-  &lt;li&gt;See 2005:  &lt;a href=&quot;http://rolandtanglao.com/2005/05/04/goodbye-flickr-team-we-miss-you-back-in-vancouver/&quot;&gt; Goodbye Flickr team! - We miss you back in Vancouver&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;See 2005:  &lt;a href=&quot;http://rolandtanglao.com/2005/04/05/flickr-is-more-social-than-blogging-its-a-social-photo-blog/&quot;&gt; Flickr is more social than blogging - it’s a social photo blog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;See 2005:  &lt;a href=&quot;http://rolandtanglao.com/2005/02/12/i-love-my-flickr-friends/&quot;&gt; I love my Flickr friends&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;See 2005: &lt;a href=&quot;http://rolandtanglao.com/2005/02/10/flickr-is-1-year-old-congrats/&quot;&gt; Flickr is 1 year old, congrats!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;See 2004:  &lt;a href=&quot;http://rolandtanglao.com/2004/12/20/flickr-is-a-social-photo-blogging-service-invented-from-the-outside-in/&quot;&gt; Flickr is a social photo blogging service invented from the outside in&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;See 2004: &lt;a href=&quot;http://rolandtanglao.com/2004/12/16/flickr-has-proven-that-rich-desktop-uniplatform-web-apps-are-obsolete-for-photo-sharing/&quot;&gt; Flickr has proven that Rich Desktop UniPlatform Web Apps are obsolete for photo sharing&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;See 2004: &lt;a href=&quot;http://rolandtanglao.com/2004/12/02/if-flickr-can-support-10mb-of-photos-month-for-free-accounts-why-cant-msn-spaces/&quot;&gt;If Flickr can support 10MB of photos/month for free accounts, why can’t MSN Spaces?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;See 2004: &lt;a href=&quot;http://rolandtanglao.com/2004/11/14/flickr-please-allow-me-to-pay-you-more-to-store-more-photos-when-i-upload-more-than-a-gigabyte-a-month/&quot;&gt; Flickr please allow me to pay you more to store more photos when I upload more than a gigabyte a month&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;See 2004:  &lt;a href=&quot;http://rolandtanglao.com/2004/10/01/flickr-pro-i-signed-up-for-2-years/&quot;&gt; Flickr Pro - I signed up for 2 years&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;See 2004:  &lt;a href=&quot;http://rolandtanglao.com/2004/05/30/stewart-butterfields-fcking-talk-on-flickr-design/&quot;&gt; Stewart Butterfield’s F*cking talk on Flickr Design&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;See 2004: &lt;a href=&quot;http://rolandtanglao.com/2004/05/11/stewart-to-discuss-flickr-lessons-learned-on-thu-march-27th-at-6p-m-at-vfs/&quot;&gt; Stewart to discuss Flickr lessons learned on Thu  March 27th at 6p.m. at VFS&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;See 2004:   &lt;a href=&quot;http://rolandtanglao.com/2004/04/23/nice-urls-on-flickr-are-free/&quot;&gt; Nice URLs on Flickr are free&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Tue, 01 Dec 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/12/01/p1-learn-congrats-stewart-slack-salesforce-acquisition/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/12/01/p1-learn-congrats-stewart-slack-salesforce-acquisition/</guid>
         
         
       </item>
