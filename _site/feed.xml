@@ -6,9 +6,23 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 17 Dec 2020 19:31:51 -0800</pubDate>
-    <lastBuildDate>Thu, 17 Dec 2020 19:31:51 -0800</lastBuildDate>
+    <pubDate>Sun, 20 Dec 2020 22:03:53 -0800</pubDate>
+    <lastBuildDate>Sun, 20 Dec 2020 22:03:53 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Completed the first 3 weeks of my new job as Support Engineer at element.io</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;From &lt;a href=&quot;https://twitter.com/rtanglao/status/1340111806631538689&quot;&gt;twitter&lt;/a&gt;: achievement unlocked: completed 1st 3 weeks at my new job   &lt;a href=&quot;https://twitter.com/element_hq&quot;&gt;@element_hq&lt;/a&gt; ! Celebrating with my fav: German wheat beer! Vielen Dank  &lt;a href=&quot;https://twitter.com/bmann&quot;&gt;bmann&lt;/a&gt; für das Geschenk  &lt;a href=&quot;https://twitter.com/hashtag/iLoveAllGermanWheatBeer?src=hashtag_click&quot;&gt;#iLoveAllGermanWheatBeer&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/LovingTheElementFirehoseSoFar?src=hashtag_click&quot;&gt;#LovingTheElementFirehoseSoFar&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/lucky?src=hashtag_click&quot;&gt;#lucky&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/thanks?src=hashtag_click&quot;&gt;#thanks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 20 Dec 2020 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2020/12/20/p1-started-my-new-job-element-io-november30/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2020/12/20/p1-started-my-new-job-element-io-november30/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Funkwhale - grooveshark inspired decentralized music</title>
@@ -178,23 +192,6 @@
         <pubDate>Thu, 03 Dec 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/12/03/p1-stowe-boyd-paradox-engagement-less-commnication-is-more/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/12/03/p1-stowe-boyd-paradox-engagement-less-commnication-is-more/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Clown by clartaq: An outlining app with notes for each headline. Written in Clojure and ClojureScript. </title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;I discovered this Dec 1, 2020 and updated my &lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;checkvist Blog This! Outline&lt;/a&gt; but haven’t blogged it until now :-) :
-    &lt;ul&gt;
-      &lt;li&gt;Dec 1, 2020. &lt;a href=&quot;https://github.com/clartaq/clown&quot;&gt;clown&lt;/a&gt; Clown is an outliner with notes. It is written in Clojure and ClojureScript.  &amp;lt;—– hmmmmaybe i’ll finally learn Clojure through this ?!?! Nah :-)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 02 Dec 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/12/02/p1-clown-outliner-clojure-clojurescript/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/12/02/p1-clown-outliner-clojure-clojurescript/</guid>
         
         
       </item>
