@@ -6,9 +6,22 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 29 Dec 2020 22:12:35 -0800</pubDate>
-    <lastBuildDate>Tue, 29 Dec 2020 22:12:35 -0800</lastBuildDate>
+    <pubDate>Sun, 03 Jan 2021 18:07:39 -0800</pubDate>
+    <lastBuildDate>Sun, 03 Jan 2021 18:07:39 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Reverse Engineering the source code of the BioNTech/Pfizer SARS-CoV-2 Vaccine</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Found&lt;/a&gt; on Dec 26, 2020.  &lt;a href=&quot;https://berthub.eu/articles/posts/reverse-engineering-source-code-of-the-biontech-pfizer-vaccine/&quot;&gt;Reverse Engineering the source code of the BioNTech/Pfizer SARS-CoV-2 Vaccine&lt;/a&gt; &amp;lt;— it’s just like digital file formats, NOT :-) The similarities that do exist are striking though.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 03 Jan 2021 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2021/01/03/p1-reverse-engineering-source-code-biontech-pfizer-sars-cov-2-vaccine/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/01/03/p1-reverse-engineering-source-code-biontech-pfizer-sars-cov-2-vaccine/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Matt Webb: There is no AFTER</title>
@@ -175,20 +188,6 @@
         <pubDate>Tue, 08 Dec 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/12/08/p1-dijkstra-wrong-about-how-teach-programming-right-about-computer-science/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/12/08/p1-dijkstra-wrong-about-how-teach-programming-right-about-computer-science/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Charlie Schick:@molecularist The miracle of mundane</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;See my previous related post:  &lt;a href=&quot;http://rolandtanglao.com/2020/04/22/p1-over40invancouver-life-during-the-pandemic-episode2/&quot;&gt;Over 40 In Vancouver: Life during the Pandemic #2 Mundanity For @sillygwailo Artichokes in Burnaby @bigheadtaco ?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Charlie Schick:&lt;a href=&quot;https://twitter.com/molecularist&quot;&gt;@molecularist&lt;/a&gt; &lt;a href=&quot;https://www.molecularist.com/2020/12/the-miracle-of-mundane.html&quot;&gt;The miracle of  mundane&lt;/a&gt; &amp;lt;– “There is no magic to connect to the mundane. Just be and do.”&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 06 Dec 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/12/06/p1-charlie-schick-the-miracle-of-mundane/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/12/06/p1-charlie-schick-the-miracle-of-mundane/</guid>
         
         
       </item>
