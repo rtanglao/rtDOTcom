@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 05 Jan 2021 18:45:58 -0800</pubDate>
-    <lastBuildDate>Tue, 05 Jan 2021 18:45:58 -0800</lastBuildDate>
+    <pubDate>Sat, 09 Jan 2021 22:26:46 -0800</pubDate>
+    <lastBuildDate>Sat, 09 Jan 2021 22:26:46 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Installed Ubuntu 20.04.1 Focal Fossa on my new for work Dell XPS13 9310</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://releases.ubuntu.com/20.04/&quot;&gt;Ubuntu 20.04.1 Focal Fossa &lt;/a&gt; installed over Windows  from an ISO on a USB drive built with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rufus&lt;/code&gt; USB stick image burner utility on my new for &lt;a href=&quot;http://rolandtanglao.com/2020/12/20/p1-started-my-new-job-element-io-november30/&quot;&gt;my element.io work&lt;/a&gt; Dell XPS13 9310.&lt;/li&gt;
+  &lt;li&gt;So far so good! Everything works including WiFi my 4K monitor at 60Hz, MX Keyboard, Mouse, Thunderbolt Dock.&lt;/li&gt;
+  &lt;li&gt;Fingers crossed it continues to work so smoothly!!!&lt;/li&gt;
+  &lt;li&gt;I look forward to all the Linux stuff including python, ruby, node working without WSL and OS X oddities.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 09 Jan 2021 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2021/01/09/p1-i-cant-believe-ubuntu-20-lts-installed-so-easily-on-dell-xps13-9310/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/01/09/p1-i-cant-believe-ubuntu-20-lts-installed-so-easily-on-dell-xps13-9310/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Post COVID, I am really looking forward to buying lunch for Cog Dog aka Alan Levine</title>
@@ -159,24 +175,6 @@
         <pubDate>Sat, 12 Dec 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/12/12/p1-matt-webb-a-crown-in-90-minutes/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/12/12/p1-matt-webb-a-crown-in-90-minutes/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Elvia Wilk:The World of Yesterday Waking from the cosmopolitan daydream</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;I discovered this Dec 7, 2020 and updated my &lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;checkvist Blog This! Outline&lt;/a&gt; but haven’t blogged it until now :-) :
-    &lt;ul&gt;
-      &lt;li&gt;Dec 7, 2020. Elvia Wilk: &lt;a href=&quot;https://thebaffler.com/salvos/the-world-of-yesterday-wilk&quot;&gt;The World of Yesterday Waking from the cosmopolitan daydream&lt;/a&gt; &amp;lt;—   “There is nothing inherently apolitical about travel; on the contrary. But we can’t defeat nationalism by traveling. If the mobile class continues trying to enact the abolition of borders of all kinds by simply crossing them ourselves, because we can, we will never realize that the last train is leaving until it’s too late. As long as borders exist, they can close. But neither can nationalism be defeated simply by staying put or exalting the romantic notion of the local for its own sake, which quickly spirals into NIMBYism. Curiously, being forced to stay in place for a while has created an opening for some to question the imperative to travel, which for a long time allowed us to ignore or neglect the true fronts of action and resistance.” &amp;lt;— it’s best to engage locally rather than get your engagement from travelling elsewhere otherwise why are you living where you are living?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Thu, 10 Dec 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/12/10/p1-elvia-wilk-world-yesterday-waking-cosmopolitan-daydream/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/12/10/p1-elvia-wilk-world-yesterday-waking-cosmopolitan-daydream/</guid>
         
         
       </item>
