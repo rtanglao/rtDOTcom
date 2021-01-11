@@ -1,0 +1,23 @@
+I"^<ul>
+  <li>
+    <p>Ryan Timpe: <a href="https://brickr.org/">brickr</a> R Tidyverse module to convert graphics to Lego Bricks sounds like a lot of fun! Must try it! Maybe generate chunky Lego mosaics  of my visualizations?!? Check out this quote:</p>
+
+    <ul>
+      <li>
+        <p>“<strong>brickr</strong> is a package for bringing the LEGO® experience into the R and <a href="https://www.tidyverse.org/">tidyverse</a> ecosystem.</p>
+
+        <p>The package is divided into 2 systems:</p>
+
+        <ul>
+          <li><a href="https://brickr.org/#mosaics"><strong>Mosaics</strong></a>: Convert image files into mosaics that could be built using LEGO bricks.</li>
+          <li><a href="https://brickr.org/#3d-models"><strong>3D Models</strong></a>: Build 3D LEGO models from data tables using <a href="https://CRAN.R-project.org/package=rgl">rgl</a>.</li>
+        </ul>
+
+        <p>brickr also includes tools help users create the Mosaics and 3D model output using real LEGO elements.</p>
+
+        <p>Check out <a href="http://brickr.org">brickr.org</a> for more detail!”</p>
+      </li>
+    </ul>
+  </li>
+</ul>
+:ET
