@@ -6,9 +6,27 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 10 Jan 2021 21:04:51 -0800</pubDate>
-    <lastBuildDate>Sun, 10 Jan 2021 21:04:51 -0800</lastBuildDate>
+    <pubDate>Wed, 13 Jan 2021 17:40:45 -0800</pubDate>
+    <lastBuildDate>Wed, 13 Jan 2021 17:40:45 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Nicholson Baker: The Lab-Leak Hypothesis (COVID leaked out of a lab?!?)</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Nicholson Baker: &lt;a href=&quot;https://nymag.com/intelligencer/article/coronavirus-lab-escape-theory.html&quot;&gt;The Lab-Leak Hypothesis&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;“For more than 15 years, coronavirologists strove to prove that the  threat of SARS was ever present and must be defended against, and they  proved it by showing how they could doctor the viruses they stored in  order to force them to jump species and go directly from bats to humans. More and more bat viruses came in from the field teams, and they were  sequenced and synthesized and “rewired,” to use a term that Baric likes. In this international potluck supper of genetic cookery, hundreds of  new variant diseases were invented and stored. And then one day,  perhaps, somebody messed up. It’s at least a reasonable, “parsimonious”  explanation of what might have happened.”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Not sure what to believe here, not convinced!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 13 Jan 2021 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2021/01/13/p1-nicholson-baker-lab-leak-hypothesis/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/01/13/p1-nicholson-baker-lab-leak-hypothesis/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Ryan Timpe: brickr R Tidyverse module to convert graphics to Lego Bricks</title>
@@ -163,26 +181,6 @@
         <pubDate>Tue, 15 Dec 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/12/15/p1-meeting-recovery-syndrome-written-before-covid-no-mention-of-zoom-fatigue/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/12/15/p1-meeting-recovery-syndrome-written-before-covid-no-mention-of-zoom-fatigue/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Tom Jarrett: Designing Branch: Sustainable Interaction Design Principles</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Dec 12, 2020: &lt;a href=&quot;https://branch.climateaction.tech/2020/10/15/designing-branch-sustainable-interaction-design-principles/&quot;&gt;Designing Branch: Sustainable Interaction Design Principles&lt;/a&gt; &amp;lt;— ecologically sustainable websites via Boris who got it from &lt;a href=&quot;https://floss.social/@alcinnz/105357811956073662&quot;&gt;Adrian Cochrane&lt;/a&gt;. Some quotes:
-    &lt;ul&gt;
-      &lt;li&gt;” One of the ways we can do this is by lowering the energy demand of the  digital products and services we’re designing, making it more accessible to people with slower internet connections or on older devices. For &lt;em&gt;Branch&lt;/em&gt; we wanted to design something that still looked designed, and worked at a low bandwidth environment, but didn’t end up looking too anodyne.”&lt;/li&gt;
-      &lt;li&gt;“&lt;em&gt;Branch&lt;/em&gt; was also designed to be ‘Demand Responsive’ to adapt to  and reflect the physical infrastructure of the internet and the energy  behind it. Utilising data from a grid intensity API and the user’s  location, &lt;em&gt;Branch&lt;/em&gt; has different interface designs that are shown dependent on the current energy demand and fossil fuels on the grid  where the user is.  “&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://branch.climateaction.tech/2020/10/15/designing-branch-sustainable-interaction-design-principles/&quot;&gt;Read the whole thing&lt;/a&gt; please :-)&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sun, 13 Dec 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/12/13/p1-branch-ecologically-sustainable-websites/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/12/13/p1-branch-ecologically-sustainable-websites/</guid>
         
         
       </item>
