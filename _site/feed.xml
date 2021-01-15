@@ -6,9 +6,22 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 13 Jan 2021 17:40:45 -0800</pubDate>
-    <lastBuildDate>Wed, 13 Jan 2021 17:40:45 -0800</lastBuildDate>
+    <pubDate>Thu, 14 Jan 2021 21:05:09 -0800</pubDate>
+    <lastBuildDate>Thu, 14 Jan 2021 21:05:09 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Climbing towards NLU:On Meaning, Form, and Understanding in the Age of Data</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Dec 30, 2020: &lt;a href=&quot;https://www.aclweb.org/anthology/2020.acl-main.463.pdf&quot;&gt;Climbing towards NLU:On Meaning, Form, and Understanding in the Age of Data&lt;/a&gt; &amp;lt;– “We argue that the language modeling task, because it only uses form as training data, cannot in principle lead to learning of meaning. We take the term language model to refer to any system trained only on the task of string prediction, whether it operates over characters, words or sentences, and sequentially or not. We take (linguistic) meaning to be the relation between a linguistic form and communicative intent.” &amp;lt;– my attempt at a summary: “natural language understanding” as implemented in GPT-3 and similar software is not AGI via &lt;a href=&quot;https://twitter.com/katherinebailey/status/1284944491464597505&quot;&gt;Katherine Bailey on twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 14 Jan 2021 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2021/01/14/p1-climbing-towards-natural-language-understanding-NLU-meaning-form-age-of-data/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/01/14/p1-climbing-towards-natural-language-understanding-NLU-meaning-form-age-of-data/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Nicholson Baker: The Lab-Leak Hypothesis (COVID leaked out of a lab?!?)</title>
@@ -167,20 +180,6 @@
         <pubDate>Thu, 17 Dec 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/12/17/p1-funkwhale-decentralized-grooveshark-inspired/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/12/17/p1-funkwhale-decentralized-grooveshark-inspired/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Meeting Recovery Syndrome - goto to a happy place for a speedy recovery (written before the pandemic)</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Found&lt;/a&gt; on Dec 8, 2020. Published November 2019: &lt;a href=&quot;https://www.bbc.com/worklife/article/20191111-blame-your-worthless-workdays-on-meeting-recovery-syndrome&quot;&gt;Blame your worthless workdays on ‘meeting recovery syndrome’&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;“While none of the counter-MRS ideas have been tested empirically yet,  Allen says one trick with promise is for employees to identify things  that quickly change their mood from negative to positive. As simple as  it sounds, finding a personal happy place, going there and then coming  straight back to work might key to expediting recovery time.” &amp;lt;— e.g. a bicycle ride, walk or trip to a cafe! This was written before COVID so it hilariously doesn’t mention Zoom or even video conferencing. Seems like ancient history! But MRS is a great acronym and still valid!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 15 Dec 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/12/15/p1-meeting-recovery-syndrome-written-before-covid-no-mention-of-zoom-fatigue/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/12/15/p1-meeting-recovery-syndrome-written-before-covid-no-mention-of-zoom-fatigue/</guid>
         
         
       </item>
