@@ -6,9 +6,22 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 18 Jan 2021 16:52:43 -0800</pubDate>
-    <lastBuildDate>Mon, 18 Jan 2021 16:52:43 -0800</lastBuildDate>
+    <pubDate>Wed, 20 Jan 2021 11:01:40 -0800</pubDate>
+    <lastBuildDate>Wed, 20 Jan 2021 11:01:40 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Go 46 era go! Fingers crossed!</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Fingers crossed for progress on all fronts.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 20 Jan 2021 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2021/01/20/go-era-of-46-go/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/01/20/go-era-of-46-go/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Linus aka @thesephist: The long future of artificial intelligence</title>
@@ -174,22 +187,6 @@
         <pubDate>Tue, 29 Dec 2020 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2020/12/29/p1-matt-webb-there-is-no-after/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2020/12/29/p1-matt-webb-there-is-no-after/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Happy Holidays, Happy New Year and Merry Christmas; my 2020-2021 holidays post</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;I realized I didn’t write a Thanksgiving post back in October. This will probably be my last post of 2020.&lt;/li&gt;
-  &lt;li&gt;Looking back, I am very thankful to family, friends, supporters, funders and those who have helped out when I was in need.&lt;/li&gt;
-  &lt;li&gt;So lucky to have family, health, a roof over our heads and food.&lt;/li&gt;
-  &lt;li&gt;Let’s continue to wear our masks, maintain 2 metre distance, stick to our bubbles and flatten the curve and get rid of COVID together in 2021.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 21 Dec 2020 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2020/12/21/p1-happy-holidays-thanks-friends-family-supporters-funders/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2020/12/21/p1-happy-holidays-thanks-friends-family-supporters-funders/</guid>
         
         
       </item>
