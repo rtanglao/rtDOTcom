@@ -6,9 +6,23 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 23 Jan 2021 21:09:28 -0800</pubDate>
-    <lastBuildDate>Sat, 23 Jan 2021 21:09:28 -0800</lastBuildDate>
+    <pubDate>Sun, 24 Jan 2021 11:42:31 -0800</pubDate>
+    <lastBuildDate>Sun, 24 Jan 2021 11:42:31 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Andrew Montalenti: Lucene: The Good Parts</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.parse.ly/post/1691/lucene/&quot;&gt;Lucene the Good Parts&lt;/a&gt; &amp;lt;— classic from 2015 but new to me. a great explanation of how unstructured search works&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 24 Jan 2021 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2021/01/24/p1-andrew-montalenti-lucene-the-good-parts/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/01/24/p1-andrew-montalenti-lucene-the-good-parts/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Command Line Interface Guidelines by Aanand Prasad, Ben Firshman, Carl Tashian and Eva Parish</title>
@@ -171,22 +185,6 @@
         <pubDate>Sat, 09 Jan 2021 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2021/01/09/p1-i-cant-believe-ubuntu-20-lts-installed-so-easily-on-dell-xps13-9310/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/01/09/p1-i-cant-believe-ubuntu-20-lts-installed-so-easily-on-dell-xps13-9310/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Post COVID, I am really looking forward to buying lunch for Cog Dog aka Alan Levine</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;See &lt;a href=&quot;http://rolandtanglao.com/2017/05/07/p1-cogdog-bet-flickr-api-broken-by-april-30-2018/&quot;&gt;By April 30, 2018, the flickr API will be broken — my bet with cog dog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Needless to say I lost the bet! Go flickr API forever!&lt;/li&gt;
-  &lt;li&gt;Alan explains our Flickr API bet and he wrote some cool code!  all in his best post evah :-) &lt;a href=&quot;https://cogdogblog.com/2021/01/countdown-to-countup/&quot;&gt;From Countdown to Countup&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Cog Dog er I mean Alan :-) &lt;a href=&quot;https://twitter.com/rtanglao/status/1346646722743656448&quot;&gt;I will buy you lunch with pleasure some day in 2022 or 2023? whenever it’s safe for us to do it even if it’s takeout and we have to eat outside (if that’s 2021 even better!)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 05 Jan 2021 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2021/01/05/p1-cannot-wait-until-i-buy-lunch-cogdog-vancouver/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/01/05/p1-cannot-wait-until-i-buy-lunch-cogdog-vancouver/</guid>
         
         
       </item>
