@@ -6,9 +6,22 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 22 Jan 2021 20:18:32 -0800</pubDate>
-    <lastBuildDate>Fri, 22 Jan 2021 20:18:32 -0800</lastBuildDate>
+    <pubDate>Sat, 23 Jan 2021 21:09:28 -0800</pubDate>
+    <lastBuildDate>Sat, 23 Jan 2021 21:09:28 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Command Line Interface Guidelines by Aanand Prasad, Ben Firshman, Carl Tashian and Eva Parish</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 5, 2020. &lt;a href=&quot;https://clig.dev/&quot;&gt;Command Line Interface Guidelines&lt;/a&gt;(&lt;a href=&quot;https://twitter.com/bfirsh/status/1334902269758693376&quot;&gt;via&lt;/a&gt;) Aanand Prasad, Ben Firshman, Carl Tashian and Eva Parish provide the missing manual for designing CLI tools in 2020 via &lt;a href=&quot;https://simonwillison.net/2020/Dec/4/command-line-interface-guidelines/&quot;&gt;Simon Willison&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 23 Jan 2021 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2021/01/23/p1-command-line-interface-guidelines/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/01/23/p1-command-line-interface-guidelines/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Guy Kawasaki's Art of Web Conferencing i.e. be perhaps too awesome for $USD1200</title>
@@ -174,19 +187,6 @@
         <pubDate>Tue, 05 Jan 2021 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2021/01/05/p1-cannot-wait-until-i-buy-lunch-cogdog-vancouver/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/01/05/p1-cannot-wait-until-i-buy-lunch-cogdog-vancouver/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Reverse Engineering the source code of the BioNTech/Pfizer SARS-CoV-2 Vaccine</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Found&lt;/a&gt; on Dec 26, 2020.  &lt;a href=&quot;https://berthub.eu/articles/posts/reverse-engineering-source-code-of-the-biontech-pfizer-vaccine/&quot;&gt;Reverse Engineering the source code of the BioNTech/Pfizer SARS-CoV-2 Vaccine&lt;/a&gt; &amp;lt;— it’s just like digital file formats, NOT :-) The similarities that do exist are striking though.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 03 Jan 2021 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2021/01/03/p1-reverse-engineering-source-code-biontech-pfizer-sars-cov-2-vaccine/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/01/03/p1-reverse-engineering-source-code-biontech-pfizer-sars-cov-2-vaccine/</guid>
         
         
       </item>
