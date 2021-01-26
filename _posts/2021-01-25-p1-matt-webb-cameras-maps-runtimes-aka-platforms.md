@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Maps and cameras are neglected app runtimes aka platforms"
+---
+* Matt Webb: [Maps and cameras are neglected app runtimes](http://interconnected.org/home/2021/01/20/runtimes)  "Going further. In-view camera functionality should be user-installable. Recognise the prefix on a particular QR code, and a mini app interface pops up. Imagine how useful this would be for taking inventory or machine maintenance: show the barcode sticker to the camera, and see when this parcel is due to be picked up, or the maintenance schedule of this particular bit of kit, right in the camera, and so on."
+  * 100% agree that maps and runtimes are effectively de facto platforms and runtimes and this should be made more explicit! By explicit I mean, add an app store (for add-ons like filters and other behaviour just like chat has an app store for stickers) and other affordances of a real platform!
+

@@ -6,9 +6,27 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 24 Jan 2021 11:42:31 -0800</pubDate>
-    <lastBuildDate>Sun, 24 Jan 2021 11:42:31 -0800</lastBuildDate>
+    <pubDate>Mon, 25 Jan 2021 17:42:13 -0800</pubDate>
+    <lastBuildDate>Mon, 25 Jan 2021 17:42:13 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Maps and cameras are neglected app runtimes aka platforms</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Matt Webb: &lt;a href=&quot;http://interconnected.org/home/2021/01/20/runtimes&quot;&gt;Maps and cameras are neglected app runtimes&lt;/a&gt;  “Going further. In-view camera functionality should be user-installable. Recognise the prefix on a particular QR code, and a mini app interface pops up. Imagine how useful this would be for taking inventory or machine maintenance: show the barcode sticker to the camera, and see when this parcel is due to be picked up, or the maintenance schedule of this particular bit of kit, right in the camera, and so on.”
+    &lt;ul&gt;
+      &lt;li&gt;100% agree that maps and runtimes are effectively de facto platforms and runtimes and this should be made more explicit! By explicit I mean, add an app store (for add-ons like filters and other behaviour just like chat has an app store for stickers) and other affordances of a real platform!&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 25 Jan 2021 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2021/01/25/p1-matt-webb-cameras-maps-runtimes-aka-platforms/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/01/25/p1-matt-webb-cameras-maps-runtimes-aka-platforms/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Andrew Montalenti: Lucene: The Good Parts</title>
@@ -169,22 +187,6 @@
         <pubDate>Sun, 10 Jan 2021 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2021/01/10/p1-ryan-timpe-brickr-images-to-lego-bricks/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/01/10/p1-ryan-timpe-brickr-images-to-lego-bricks/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Installed Ubuntu 20.04.1 Focal Fossa on my new for work Dell XPS13 9310</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://releases.ubuntu.com/20.04/&quot;&gt;Ubuntu 20.04.1 Focal Fossa &lt;/a&gt; installed over Windows  from an ISO on a USB drive built with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rufus&lt;/code&gt; USB stick image burner utility on my new for &lt;a href=&quot;http://rolandtanglao.com/2020/12/20/p1-started-my-new-job-element-io-november30/&quot;&gt;my element.io work&lt;/a&gt; Dell XPS13 9310.&lt;/li&gt;
-  &lt;li&gt;So far so good! Everything works including WiFi my 4K monitor at 60Hz, MX Keyboard, Mouse, Thunderbolt Dock.&lt;/li&gt;
-  &lt;li&gt;Fingers crossed it continues to work so smoothly!!!&lt;/li&gt;
-  &lt;li&gt;I look forward to all the Linux stuff including python, ruby, node working without WSL and OS X oddities.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 09 Jan 2021 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2021/01/09/p1-i-cant-believe-ubuntu-20-lts-installed-so-easily-on-dell-xps13-9310/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/01/09/p1-i-cant-believe-ubuntu-20-lts-installed-so-easily-on-dell-xps13-9310/</guid>
         
         
       </item>
