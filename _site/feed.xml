@@ -6,9 +6,23 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 25 Jan 2021 17:42:13 -0800</pubDate>
-    <lastBuildDate>Mon, 25 Jan 2021 17:42:13 -0800</lastBuildDate>
+    <pubDate>Tue, 26 Jan 2021 20:32:04 -0800</pubDate>
+    <lastBuildDate>Tue, 26 Jan 2021 20:32:04 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>@maggiecodes_: How I applied to a Tech Job using a POST request using Insomnia an open source REST API client</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: 08september2020 &lt;a href=&quot;https://twitter.com/maggiecodes_&quot;&gt;@maggiecodes_&lt;/a&gt;: &lt;a href=&quot;https://dev.to/maggiecodes_/how-i-applied-to-a-tech-job-using-a-post-request-193d&quot;&gt;How I applied to a Tech Job using a POST request&lt;/a&gt; &amp;lt;— geeky but i love it, the job was “technical support engineer”  at plaid, an online finance company “There are numerous API tools out on the market. I chose to use Insomnia, an open-source API client  application, to send my request” &amp;lt;— need to check out &lt;a href=&quot;https://insomnia.rest/&quot;&gt;Insomnia&lt;/a&gt; which sounds great!&lt;/li&gt;
+  &lt;li&gt;UPDATE: I’m using Insomnia for my &lt;a href=&quot;http://rolandtanglao.com/2020/12/20/p1-started-my-new-job-element-io-november30/&quot;&gt;element.io work&lt;/a&gt; with Matrix APIs and it is indeed great!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 26 Jan 2021 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2021/01/26/p1-insomnia-rest-client-applying-for-a-job-via-an-api/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/01/26/p1-insomnia-rest-client-applying-for-a-job-via-an-api/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Maps and cameras are neglected app runtimes aka platforms</title>
@@ -155,38 +169,6 @@
         <pubDate>Wed, 13 Jan 2021 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2021/01/13/p1-nicholson-baker-lab-leak-hypothesis/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/01/13/p1-nicholson-baker-lab-leak-hypothesis/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Ryan Timpe: brickr R Tidyverse module to convert graphics to Lego Bricks</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Ryan Timpe: &lt;a href=&quot;https://brickr.org/&quot;&gt;brickr&lt;/a&gt; R Tidyverse module to convert graphics to Lego Bricks sounds like a lot of fun! Must try it! Maybe generate chunky Lego mosaics  of my visualizations?!? Check out this quote:&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;“&lt;strong&gt;brickr&lt;/strong&gt; is a package for bringing the LEGO® experience into the R and &lt;a href=&quot;https://www.tidyverse.org/&quot;&gt;tidyverse&lt;/a&gt; ecosystem.&lt;/p&gt;
-
-        &lt;p&gt;The package is divided into 2 systems:&lt;/p&gt;
-
-        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;https://brickr.org/#mosaics&quot;&gt;&lt;strong&gt;Mosaics&lt;/strong&gt;&lt;/a&gt;: Convert image files into mosaics that could be built using LEGO bricks.&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;https://brickr.org/#3d-models&quot;&gt;&lt;strong&gt;3D Models&lt;/strong&gt;&lt;/a&gt;: Build 3D LEGO models from data tables using &lt;a href=&quot;https://CRAN.R-project.org/package=rgl&quot;&gt;rgl&lt;/a&gt;.&lt;/li&gt;
-        &lt;/ul&gt;
-
-        &lt;p&gt;brickr also includes tools help users create the Mosaics and 3D model output using real LEGO elements.&lt;/p&gt;
-
-        &lt;p&gt;Check out &lt;a href=&quot;http://brickr.org&quot;&gt;brickr.org&lt;/a&gt; for more detail!”&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 10 Jan 2021 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2021/01/10/p1-ryan-timpe-brickr-images-to-lego-bricks/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/01/10/p1-ryan-timpe-brickr-images-to-lego-bricks/</guid>
         
         
       </item>
