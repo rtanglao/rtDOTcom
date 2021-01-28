@@ -6,9 +6,23 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 26 Jan 2021 20:32:04 -0800</pubDate>
-    <lastBuildDate>Tue, 26 Jan 2021 20:32:04 -0800</lastBuildDate>
+    <pubDate>Wed, 27 Jan 2021 18:47:13 -0800</pubDate>
+    <lastBuildDate>Wed, 27 Jan 2021 18:47:13 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Anthony Shaw: Getting Started With Testing in Python &lt;-- I'd like to do TDD in python, ruby and R someday :-)</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 17, 2020. &lt;a href=&quot;https://realpython.com/python-testing/#choosing-a-test-runner&quot;&gt;Getting Started With Testing in Python&lt;/a&gt; &amp;lt;—- i would like to do Test Driven Development for my tshirt visualizations and in the future for scripting at work (not merely learn :-) !) in Python, Ruby and R . Two year old Python tutorial seems like a fine place to start.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 27 Jan 2021 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2021/01/27/p1-test-driven-development-python-tutorial-anthony-shaw/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/01/27/p1-test-driven-development-python-tutorial-anthony-shaw/</guid>
+        
+        
+      </item>
     
       <item>
         <title>@maggiecodes_: How I applied to a Tech Job using a POST request using Insomnia an open source REST API client</title>
@@ -151,24 +165,6 @@
         <pubDate>Thu, 14 Jan 2021 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2021/01/14/p1-climbing-towards-natural-language-understanding-NLU-meaning-form-age-of-data/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/01/14/p1-climbing-towards-natural-language-understanding-NLU-meaning-form-age-of-data/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Nicholson Baker: The Lab-Leak Hypothesis (COVID leaked out of a lab?!?)</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Nicholson Baker: &lt;a href=&quot;https://nymag.com/intelligencer/article/coronavirus-lab-escape-theory.html&quot;&gt;The Lab-Leak Hypothesis&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;“For more than 15 years, coronavirologists strove to prove that the  threat of SARS was ever present and must be defended against, and they  proved it by showing how they could doctor the viruses they stored in  order to force them to jump species and go directly from bats to humans. More and more bat viruses came in from the field teams, and they were  sequenced and synthesized and “rewired,” to use a term that Baric likes. In this international potluck supper of genetic cookery, hundreds of  new variant diseases were invented and stored. And then one day,  perhaps, somebody messed up. It’s at least a reasonable, “parsimonious”  explanation of what might have happened.”&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Not sure what to believe here, not convinced!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 13 Jan 2021 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2021/01/13/p1-nicholson-baker-lab-leak-hypothesis/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/01/13/p1-nicholson-baker-lab-leak-hypothesis/</guid>
         
         
       </item>
