@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Jeremiah Owyang-The Future of Social Audio: Startups, Roadmap, Business Models, and a Forecast <- will audio rival video by the end of 2020s? I don't think so but I'd love to be proven wrong since the human voice is amazing "
+---
+* Jeremiah Owyang: [The Future of Social Audio: Startups, Roadmap, Business Models, and a Forecast](https://web-strategist.com/blog/2021/01/30/the-future-of-social-audio-startups-roadmap-business-models-and-a-forecast/) <-- "I call this the “Goldilocks” medium for the 2020s: Text is not enough, and video is too much; social audio is just right. It represents the opportunity for social connection and empathy without the downsides of video" 
+  * I am not 100% convinced but hey we have so many really  bad videos now including mine :-) so why not a world of bad but fun audio :-) after all [There's nothing special about voice or podcasts, everybody should be able to publish what they: voice, audio, text, video whatever whenever they want to whomever they want](http://rolandtanglao.com/2019/03/16/p1-voice-is-just-a-content-type-everybody-should-publish-what-they-want-video-audio-text-whatever-to-whoever-they-want/)
+  * Good audio quality used to be hard to capture but maybe not anymore with the rise of AirPods and other high quality bluetooth headsets!?!?
+  * And I don't see the incentive; show me the money :-). What is the YouTube of audio? What is the TikTok of audio? Is it Clubhouse? Is it anchor.fm Not convinced but I am a gr*mpy old person who's been podcasting since 2004 so what do I know. 
+  * Gratuitous plug :-) : check out my "podcast" at [rolandmicroblog.com](https://www.rolandmicroblog.com/)
