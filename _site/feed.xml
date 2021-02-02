@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 01 Feb 2021 22:08:15 -0800</pubDate>
-    <lastBuildDate>Mon, 01 Feb 2021 22:08:15 -0800</lastBuildDate>
+    <pubDate>Tue, 02 Feb 2021 03:50:39 -0800</pubDate>
+    <lastBuildDate>Tue, 02 Feb 2021 03:50:39 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Greg Wilson: Software Tools in JavaScript</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stjs.tech/vol1/&quot;&gt;Greg Wilson: Software Tools in JavaScript&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;If I were to finally learn JavaScript :-) I’d probably start with this not too wordy, just right intro to JS.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 02 Feb 2021 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2021/02/02/p1-greg-wilson-software-tools-in-javascript/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/02/02/p1-greg-wilson-software-tools-in-javascript/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How Monopolies Slowed the Vaccine Roll-Out, and Small Business Sped it Up -  CVS and Walgreens didn't deliver. Local pharmacists did</title>
@@ -222,20 +239,6 @@
         <pubDate>Sat, 23 Jan 2021 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2021/01/23/p1-command-line-interface-guidelines/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/01/23/p1-command-line-interface-guidelines/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Guy Kawasaki's Art of Web Conferencing i.e. be perhaps too awesome for $USD1200</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 19, 2021.&lt;a href=&quot;https://docs.google.com/document/d/1tMx21Qf43tTwTnApt6WurzEoqQlmb44MnaaQ8YScZq8/edit&quot;&gt;The art of Web Conferencing&lt;/a&gt; &amp;lt;— exact equipment list for super super awesome streaming and web conferencing from Guy Kawasaki, just add a computer and streaming software via &lt;a href=&quot;http://scripting.com/2021/01/19.html#a205136&quot;&gt;Dave Winer&lt;/a&gt;, not sure I agree with the whole super expensive sony business, a micro 4/3 camera would do as well! And really I am starting to think this is overkill. Just get a logitech $99USD-ish web cam and a USB wired headset done! Do all of us or a significant minority of us really need to blur our background?!?!? (Bonus Link: Matt Mullenweg: &lt;a href=&quot;https://ma.tt/2020/05/ceo-video-streaming/&quot;&gt;Stream like a CEO&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Fri, 22 Jan 2021 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2021/01/22/guy-kawasaki-equipment-for-video-conferencing/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/01/22/guy-kawasaki-equipment-for-video-conferencing/</guid>
         
         
       </item>
