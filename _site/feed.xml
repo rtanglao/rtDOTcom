@@ -6,9 +6,23 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 02 Feb 2021 03:50:39 -0800</pubDate>
-    <lastBuildDate>Tue, 02 Feb 2021 03:50:39 -0800</lastBuildDate>
+    <pubDate>Wed, 03 Feb 2021 01:11:41 -0800</pubDate>
+    <lastBuildDate>Wed, 03 Feb 2021 01:11:41 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Darius Kazemi: How do you compose for infinity? Via Matt Webb: Filtered for lo-fi strange new worlds</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Jan 31, 2021.  &lt;a href=&quot;http://tinysubversions.com/&quot;&gt;Darius Kazemi&lt;/a&gt; So how do you compose for infinity? via Matt Webb Interconnected: &lt;a href=&quot;http://interconnected.org/home/2021/01/29/filtered&quot;&gt;Filtered for lo-fi strange new worlds&lt;/a&gt;  &amp;lt;— “A simple for loop can, in a few seconds, generate more information than a human being can consume in a lifetime. When we make art with code, we have to confront this fact. So how do you compose for infinity?”&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 03 Feb 2021 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2021/02/03/p1-darius-kazemi-how-do-you-compose-for-infinity-matt-webb-filtered-for-lo-fi-strange-new-worlds/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/02/03/p1-darius-kazemi-how-do-you-compose-for-infinity-matt-webb-filtered-for-lo-fi-strange-new-worlds/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Greg Wilson: Software Tools in JavaScript</title>
@@ -226,19 +240,6 @@
         <pubDate>Sun, 24 Jan 2021 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2021/01/24/p1-andrew-montalenti-lucene-the-good-parts/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/01/24/p1-andrew-montalenti-lucene-the-good-parts/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Command Line Interface Guidelines by Aanand Prasad, Ben Firshman, Carl Tashian and Eva Parish</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 5, 2020. &lt;a href=&quot;https://clig.dev/&quot;&gt;Command Line Interface Guidelines&lt;/a&gt;(&lt;a href=&quot;https://twitter.com/bfirsh/status/1334902269758693376&quot;&gt;via&lt;/a&gt;) Aanand Prasad, Ben Firshman, Carl Tashian and Eva Parish provide the missing manual for designing CLI tools in 2020 via &lt;a href=&quot;https://simonwillison.net/2020/Dec/4/command-line-interface-guidelines/&quot;&gt;Simon Willison&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 23 Jan 2021 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2021/01/23/p1-command-line-interface-guidelines/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/01/23/p1-command-line-interface-guidelines/</guid>
         
         
       </item>
