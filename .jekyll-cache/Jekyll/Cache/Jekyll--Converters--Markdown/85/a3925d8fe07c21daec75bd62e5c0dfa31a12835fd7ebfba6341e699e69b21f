@@ -1,0 +1,28 @@
+I"�<ul>
+  <li>Steps: 1. Switch to Insecure Boot as below 2. Download the <a href="https://files2.wavlink.com/drivers/PC-peripherals/RTL8153/RTL8153_Driver_Unix%20(Linux).zip">driver</a>  from the Wavlink site and <code class="language-plaintext highlighter-rouge">sudo make all</code></li>
+</ul>
+
+<h2 id="how-to-switch-to-insecure-boot-on-ubuntu">How to switch to Insecure Boot on Ubuntu</h2>
+
+<ul>
+  <li>Found on Ask Ubuntu:<a href="https://askubuntu.com/questions/1114867/operation-not-permitted-when-trying-to-modprobe-xpad">“Operation not permitted” when trying to <code class="language-plaintext highlighter-rouge">modprobe xpad</code></a> 
+The real fix of course is to sign the modules yourself using your own cert or a cert that may already exist for your driver: See <a href="https://wiki.ubuntu.com/UEFI/SecureBoot/DKMS">DKMS modules need to be configured to work with UEFI Secure Boot</a></li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>If you are facing this error modprobe: ERROR: could not insert 'rtl8723de': Operation not permitted
+
+  The solution is to disabled the Secure Boot. Firstly check if SecureBoot is enabled on Ubuntu.
+
+  Install mokutil "sudo apt-get install mokutil"
+
+  and check the status of SecureBoot "mokutil --sb-state"
+
+  In case it is enabled run command "sudo mokutil --disable-validation"
+
+  Now enter a temporary password between 8 to 16 digits. We will use this password later. Enter the same password again to confirm. Once it’s done reboot the system and press any key when you see the blue screen (MOK management). Select Change Secure Boot state. Enter the password you had selected before and press Enter. Select Yes to disable 
+</code></pre></div></div>
+
+<h2 id="error-messages-when-trying-to-install-the-driver-on-ubuntu-with-secure-boot">Error messages when trying to install the driver on Ubuntu with Secure Boot</h2>
+
+<p>```</p>
+:ET
