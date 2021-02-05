@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "How to upgrade the Wavlink UTD01 Thunderbolt 3 dock Ubuntu driver: switch to insecure boot; download, compile and install firmware from Wavlink's site"
+title: "How to upgrade the Wavlink UTD01A Thunderbolt 3 dock Ubuntu driver: switch to insecure boot; download, compile and install firmware from Wavlink's site"
 ---
-* Are you on Ubuntu and you see an  error message like the following when trying to install a driver? `modprobe: ERROR: could not insert 'r8152': Operation not permitted`
-Steps: 1. Switch to Insecure Boot as below 2. Download the [driver](https://files2.wavlink.com/drivers/PC-peripherals/RTL8153/RTL8153_Driver_Unix%20(Linux).zip)  from the Wavlink site and `sudo make all`
+* Are you on Ubuntu and you see an  error message like the following when trying to install a driver e.g. for the [UTD01A  Thunderdock SP/Thunderdock SP IV - Thunderbolt™ 3 4K Display Docking Station](https://www.wavlink.com/en_us/product/WL-UTD01_UTD01H.html) : `modprobe: ERROR: could not insert 'r8152': Operation not permitted`
+* Steps to fix this: 1. Switch to Insecure Boot as below 2. Download the [driver](https://files2.wavlink.com/drivers/PC-peripherals/RTL8153/RTL8153_Driver_Unix%20(Linux).zip)  from the Wavlink site and `sudo make all`
 * The real fix of course is to sign the modules yourself using your own cert or a cert that may already exist for your driver: See [DKMS modules need to be configured to work with UEFI Secure Boot](https://wiki.ubuntu.com/UEFI/SecureBoot/DKMS)
 
 ## How to switch to Insecure Boot on Ubuntu
@@ -29,7 +29,7 @@ If you are facing this error modprobe: ERROR: could not insert 'rtl8723de': Oper
 
 ## Error messages when trying to install the driver on Ubuntu with Secure Boot
 
-```
+```sh
 roland@roland-XPS-13-9310:~/Downloads/r8152-2.13.0$ sudo make all
 [sudo] password for roland: 
 make -C /lib/modules/5.6.0-1042-oem/build M=/home/roland/Downloads/r8152-2.13.0 clean

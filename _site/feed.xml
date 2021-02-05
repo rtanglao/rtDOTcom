@@ -6,15 +6,15 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 04 Feb 2021 14:43:30 -0800</pubDate>
-    <lastBuildDate>Thu, 04 Feb 2021 14:43:30 -0800</lastBuildDate>
+    <pubDate>Thu, 04 Feb 2021 18:22:36 -0800</pubDate>
+    <lastBuildDate>Thu, 04 Feb 2021 18:22:36 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
-        <title>How to upgrade the Wavlink UTD01 Thunderbolt 3 dock Ubuntu driver: switch to insecure boot; download, compile and install firmware from Wavlink's site</title>
+        <title>How to upgrade the Wavlink UTD01A Thunderbolt 3 dock Ubuntu driver: switch to insecure boot; download, compile and install firmware from Wavlink's site</title>
         <description>&lt;ul&gt;
-  &lt;li&gt;Are you on Ubuntu and you see an  error message like the following when trying to install a driver? &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;modprobe: ERROR: could not insert 'r8152': Operation not permitted&lt;/code&gt;
-Steps: 1. Switch to Insecure Boot as below 2. Download the &lt;a href=&quot;https://files2.wavlink.com/drivers/PC-peripherals/RTL8153/RTL8153_Driver_Unix%20(Linux).zip&quot;&gt;driver&lt;/a&gt;  from the Wavlink site and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo make all&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Are you on Ubuntu and you see an  error message like the following when trying to install a driver e.g. for the &lt;a href=&quot;https://www.wavlink.com/en_us/product/WL-UTD01_UTD01H.html&quot;&gt;UTD01A  Thunderdock SP/Thunderdock SP IV - Thunderbolt™ 3 4K Display Docking Station&lt;/a&gt; : &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;modprobe: ERROR: could not insert 'r8152': Operation not permitted&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Steps to fix this: 1. Switch to Insecure Boot as below 2. Download the &lt;a href=&quot;https://files2.wavlink.com/drivers/PC-peripherals/RTL8153/RTL8153_Driver_Unix%20(Linux).zip&quot;&gt;driver&lt;/a&gt;  from the Wavlink site and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo make all&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;The real fix of course is to sign the modules yourself using your own cert or a cert that may already exist for your driver: See &lt;a href=&quot;https://wiki.ubuntu.com/UEFI/SecureBoot/DKMS&quot;&gt;DKMS modules need to be configured to work with UEFI Secure Boot&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -42,33 +42,33 @@ Steps: 1. Switch to Insecure Boot as below 2. Download the &lt;a href=&quot;http
 
 &lt;h2 id=&quot;error-messages-when-trying-to-install-the-driver-on-ubuntu-with-secure-boot&quot;&gt;Error messages when trying to install the driver on Ubuntu with Secure Boot&lt;/h2&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;roland@roland-XPS-13-9310:~/Downloads/r8152-2.13.0$ sudo make all
-[sudo] password for roland: 
-make -C /lib/modules/5.6.0-1042-oem/build M=/home/roland/Downloads/r8152-2.13.0 clean
-make[1]: Entering directory '/usr/src/linux-headers-5.6.0-1042-oem'
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;roland@roland-XPS-13-9310:~/Downloads/r8152-2.13.0&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;make all
+&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; password &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;roland: 
+make &lt;span class=&quot;nt&quot;&gt;-C&lt;/span&gt; /lib/modules/5.6.0-1042-oem/build &lt;span class=&quot;nv&quot;&gt;M&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/home/roland/Downloads/r8152-2.13.0 clean
+make[1]: Entering directory &lt;span class=&quot;s1&quot;&gt;'/usr/src/linux-headers-5.6.0-1042-oem'&lt;/span&gt;
   CLEAN   /home/roland/Downloads/r8152-2.13.0/Module.symvers
-make[1]: Leaving directory '/usr/src/linux-headers-5.6.0-1042-oem'
-make -C /lib/modules/5.6.0-1042-oem/build M=/home/roland/Downloads/r8152-2.13.0 modules
-make[1]: Entering directory '/usr/src/linux-headers-5.6.0-1042-oem'
-  CC [M]  /home/roland/Downloads/r8152-2.13.0/r8152.o
+make[1]: Leaving directory &lt;span class=&quot;s1&quot;&gt;'/usr/src/linux-headers-5.6.0-1042-oem'&lt;/span&gt;
+make &lt;span class=&quot;nt&quot;&gt;-C&lt;/span&gt; /lib/modules/5.6.0-1042-oem/build &lt;span class=&quot;nv&quot;&gt;M&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/home/roland/Downloads/r8152-2.13.0 modules
+make[1]: Entering directory &lt;span class=&quot;s1&quot;&gt;'/usr/src/linux-headers-5.6.0-1042-oem'&lt;/span&gt;
+  CC &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;M]  /home/roland/Downloads/r8152-2.13.0/r8152.o
   MODPOST 1 modules
-  CC [M]  /home/roland/Downloads/r8152-2.13.0/r8152.mod.o
-  LD [M]  /home/roland/Downloads/r8152-2.13.0/r8152.ko
-make[1]: Leaving directory '/usr/src/linux-headers-5.6.0-1042-oem'
-make -C /lib/modules/5.6.0-1042-oem/build M=/home/roland/Downloads/r8152-2.13.0 INSTALL_MOD_DIR=kernel/drivers/net/usb modules_install
-make[1]: Entering directory '/usr/src/linux-headers-5.6.0-1042-oem'
+  CC &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;M]  /home/roland/Downloads/r8152-2.13.0/r8152.mod.o
+  LD &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;M]  /home/roland/Downloads/r8152-2.13.0/r8152.ko
+make[1]: Leaving directory &lt;span class=&quot;s1&quot;&gt;'/usr/src/linux-headers-5.6.0-1042-oem'&lt;/span&gt;
+make &lt;span class=&quot;nt&quot;&gt;-C&lt;/span&gt; /lib/modules/5.6.0-1042-oem/build &lt;span class=&quot;nv&quot;&gt;M&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/home/roland/Downloads/r8152-2.13.0 &lt;span class=&quot;nv&quot;&gt;INSTALL_MOD_DIR&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;kernel/drivers/net/usb modules_install
+make[1]: Entering directory &lt;span class=&quot;s1&quot;&gt;'/usr/src/linux-headers-5.6.0-1042-oem'&lt;/span&gt;
   INSTALL /home/roland/Downloads/r8152-2.13.0/r8152.ko
 At main.c:160:
 - SSL error:02001002:system library:fopen:No such file or directory: ../crypto/bio/bss_file.c:69
 - SSL error:2006D080:BIO routines:BIO_new_file:no such file: ../crypto/bio/bss_file.c:76
 sign-file: certs/signing_key.pem: No such file or directory
   DEPMOD  5.6.0-1042-oem
-Warning: modules_install: missing 'System.map' file. Skipping depmod.
-make[1]: Leaving directory '/usr/src/linux-headers-5.6.0-1042-oem'
+Warning: modules_install: missing &lt;span class=&quot;s1&quot;&gt;'System.map'&lt;/span&gt; file. Skipping depmod.
+make[1]: Leaving directory &lt;span class=&quot;s1&quot;&gt;'/usr/src/linux-headers-5.6.0-1042-oem'&lt;/span&gt;
 modprobe r8152
-modprobe: ERROR: could not insert 'r8152': Operation not permitted
-make: *** [Makefile:42: install] Error 1
-roland@roland-XPS-13-9310:~/Downloads/r8152-2.13.0$
+modprobe: ERROR: could not insert &lt;span class=&quot;s1&quot;&gt;'r8152'&lt;/span&gt;: Operation not permitted
+make: &lt;span class=&quot;k&quot;&gt;***&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Makefile:42: &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; Error 1
+roland@roland-XPS-13-9310:~/Downloads/r8152-2.13.0&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
         <pubDate>Thu, 04 Feb 2021 00:00:00 -0800</pubDate>
