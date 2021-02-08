@@ -6,9 +6,27 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 04 Feb 2021 18:22:36 -0800</pubDate>
-    <lastBuildDate>Thu, 04 Feb 2021 18:22:36 -0800</lastBuildDate>
+    <pubDate>Sun, 07 Feb 2021 17:06:33 -0800</pubDate>
+    <lastBuildDate>Sun, 07 Feb 2021 17:06:33 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Mon Feb1st, 2021 at 4pmish, I was robbed of my Canon EOS RP camera &amp; my Lumos Matrix helmet while bicycling on the Dunsmuir viaduct. Super weird &amp; random. Luckily I'm physically unharmed &amp; have insurance but I'll probably avoid that route unless there are lots of other riders!</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Originally on Twitter on Feb 2, 2021: &lt;a href=&quot;https://twitter.com/rtanglao/status/1356862249533546499&quot;&gt;Yesterday at 4pmish, I was robbed of my Canon EOS RP camera &amp;amp; my Lumos Matrix helmet while bicycling on the Dunsmuir viaduct. Super weird &amp;amp; random. Luckily I’m physically unharmed &amp;amp; have insurance but I’ll probably avoid that route unless there are lots of other riders!&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Nothing more to say really that hasn’t been said in that thread.&lt;/li&gt;
+      &lt;li&gt;Just blogging it here because in the end I don’t trust it to be saved for posterity :-) not that my blog will live forever either&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 07 Feb 2021 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2021/02/07/p1-robbed-february-7-2021-canon-eos-rp-lumos-matrix/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/02/07/p1-robbed-february-7-2021-canon-eos-rp-lumos-matrix/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How to upgrade the Wavlink UTD01A Thunderbolt 3 dock Ubuntu driver: switch to insecure boot; download, compile and install firmware from Wavlink's site</title>
@@ -276,24 +294,6 @@ roland@roland-XPS-13-9310:~/Downloads/r8152-2.13.0&lt;span class=&quot;err&quot;
         <pubDate>Tue, 26 Jan 2021 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2021/01/26/p1-insomnia-rest-client-applying-for-a-job-via-an-api/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/01/26/p1-insomnia-rest-client-applying-for-a-job-via-an-api/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Maps and cameras are neglected app runtimes aka platforms</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Matt Webb: &lt;a href=&quot;http://interconnected.org/home/2021/01/20/runtimes&quot;&gt;Maps and cameras are neglected app runtimes&lt;/a&gt;  “Going further. In-view camera functionality should be user-installable. Recognise the prefix on a particular QR code, and a mini app interface pops up. Imagine how useful this would be for taking inventory or machine maintenance: show the barcode sticker to the camera, and see when this parcel is due to be picked up, or the maintenance schedule of this particular bit of kit, right in the camera, and so on.”
-    &lt;ul&gt;
-      &lt;li&gt;100% agree that maps and runtimes are effectively de facto platforms and runtimes and this should be made more explicit! By explicit I mean, add an app store (for add-ons like filters and other behaviour just like chat has an app store for stickers) and other affordances of a real platform!&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 25 Jan 2021 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2021/01/25/p1-matt-webb-cameras-maps-runtimes-aka-platforms/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/01/25/p1-matt-webb-cameras-maps-runtimes-aka-platforms/</guid>
         
         
       </item>
