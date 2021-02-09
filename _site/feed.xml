@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 07 Feb 2021 17:06:33 -0800</pubDate>
-    <lastBuildDate>Sun, 07 Feb 2021 17:06:33 -0800</lastBuildDate>
+    <pubDate>Mon, 08 Feb 2021 19:05:54 -0800</pubDate>
+    <lastBuildDate>Mon, 08 Feb 2021 19:05:54 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>From 2018: Tobias Bernard: Banquets and Barbecues</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Discovered Feb 4, 2021 via &lt;a href=&quot;https://nad.is/&quot;&gt;Nad&lt;/a&gt;. &lt;a href=&quot;https://blogs.gnome.org/tbernard/2018/05/16/banquets-and-barbecues/&quot;&gt;Banquets and Barbecues&lt;/a&gt; “tl;dr: We’re splitting up Fractal into two separate apps: One to replace IRC, the other to replace Telegram.”
+    &lt;ul&gt;
+      &lt;li&gt;Makes sense to me! I wonder how much progress has been made in the last 3 years?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 08 Feb 2021 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2021/02/08/p1-banquets-barbecues-chat-clients-tobias-bernard/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/02/08/p1-banquets-barbecues-chat-clients-tobias-bernard/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Mon Feb1st, 2021 at 4pmish, I was robbed of my Canon EOS RP camera &amp; my Lumos Matrix helmet while bicycling on the Dunsmuir viaduct. Super weird &amp; random. Luckily I'm physically unharmed &amp; have insurance but I'll probably avoid that route unless there are lots of other riders!</title>
@@ -280,20 +297,6 @@ roland@roland-XPS-13-9310:~/Downloads/r8152-2.13.0&lt;span class=&quot;err&quot;
         <pubDate>Wed, 27 Jan 2021 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2021/01/27/p1-test-driven-development-python-tutorial-anthony-shaw/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/01/27/p1-test-driven-development-python-tutorial-anthony-shaw/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>@maggiecodes_: How I applied to a Tech Job using a POST request using Insomnia an open source REST API client</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: 08september2020 &lt;a href=&quot;https://twitter.com/maggiecodes_&quot;&gt;@maggiecodes_&lt;/a&gt;: &lt;a href=&quot;https://dev.to/maggiecodes_/how-i-applied-to-a-tech-job-using-a-post-request-193d&quot;&gt;How I applied to a Tech Job using a POST request&lt;/a&gt; &amp;lt;— geeky but i love it, the job was “technical support engineer”  at plaid, an online finance company “There are numerous API tools out on the market. I chose to use Insomnia, an open-source API client  application, to send my request” &amp;lt;— need to check out &lt;a href=&quot;https://insomnia.rest/&quot;&gt;Insomnia&lt;/a&gt; which sounds great!&lt;/li&gt;
-  &lt;li&gt;UPDATE: I’m using Insomnia for my &lt;a href=&quot;http://rolandtanglao.com/2020/12/20/p1-started-my-new-job-element-io-november30/&quot;&gt;element.io work&lt;/a&gt; with Matrix APIs and it is indeed great!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 26 Jan 2021 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2021/01/26/p1-insomnia-rest-client-applying-for-a-job-via-an-api/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/01/26/p1-insomnia-rest-client-applying-for-a-job-via-an-api/</guid>
         
         
       </item>
