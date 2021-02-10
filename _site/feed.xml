@@ -6,9 +6,30 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 08 Feb 2021 19:05:54 -0800</pubDate>
-    <lastBuildDate>Mon, 08 Feb 2021 19:05:54 -0800</lastBuildDate>
+    <pubDate>Tue, 09 Feb 2021 19:21:04 -0800</pubDate>
+    <lastBuildDate>Tue, 09 Feb 2021 19:21:04 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>From 2019: Tobias Bernard: There is no Linux platform - Oh really?</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Discovered Feb 4, 2021 There is no Linux platform &lt;a href=&quot;https://blogs.gnome.org/tbernard/2019/12/04/there-is-no-linux-platform-1/&quot;&gt;Part 1&lt;/a&gt; and &lt;a href=&quot;https://blogs.gnome.org/tbernard/2020/03/25/there-is-no-linux-platform-2/&quot;&gt;Part 2&lt;/a&gt; &amp;lt;– Except Elementary, really :-) ?!?
+    &lt;ul&gt;
+      &lt;li&gt;Even in 2021?&lt;/li&gt;
+      &lt;li&gt;Ubuntu is not a platform but Elementary is?!?&lt;/li&gt;
+      &lt;li&gt;I am not convinced.&lt;/li&gt;
+      &lt;li&gt;I am also not convinced there is a single  Android platform. There’s at least two: S*msung Android, G*ogle Android (and then add H*awei and all the rest! )&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 09 Feb 2021 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2021/02/09/p1-there-is-no-linux-platform-except-elementary-tobias-bernard/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/02/09/p1-there-is-no-linux-platform-except-elementary-tobias-bernard/</guid>
+        
+        
+      </item>
     
       <item>
         <title>From 2018: Tobias Bernard: Banquets and Barbecues</title>
@@ -283,20 +304,6 @@ roland@roland-XPS-13-9310:~/Downloads/r8152-2.13.0&lt;span class=&quot;err&quot;
         <pubDate>Thu, 28 Jan 2021 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2021/01/28/p1-kevin-montrose-cesil-overthinking-csv-introduction/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/01/28/p1-kevin-montrose-cesil-overthinking-csv-introduction/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Anthony Shaw: Getting Started With Testing in Python &lt;-- I'd like to do TDD in python, ruby and R someday :-)</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 17, 2020. &lt;a href=&quot;https://realpython.com/python-testing/#choosing-a-test-runner&quot;&gt;Getting Started With Testing in Python&lt;/a&gt; &amp;lt;—- i would like to do Test Driven Development for my tshirt visualizations and in the future for scripting at work (not merely learn :-) !) in Python, Ruby and R . Two year old Python tutorial seems like a fine place to start.&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Wed, 27 Jan 2021 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2021/01/27/p1-test-driven-development-python-tutorial-anthony-shaw/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/01/27/p1-test-driven-development-python-tutorial-anthony-shaw/</guid>
         
         
       </item>
