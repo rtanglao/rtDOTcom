@@ -6,9 +6,22 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 09 Feb 2021 19:21:04 -0800</pubDate>
-    <lastBuildDate>Tue, 09 Feb 2021 19:21:04 -0800</lastBuildDate>
+    <pubDate>Wed, 10 Feb 2021 21:08:04 -0800</pubDate>
+    <lastBuildDate>Wed, 10 Feb 2021 21:08:04 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>repl.it - The internet of Fun</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.repl.it/internet-of-fun&quot;&gt;The Internet of Fun&lt;/a&gt; “Yesterday, I accidentally built a chat app. Surprisingly, it wasn’t the first time it happened.” &amp;lt;– building a chat app collaboratively sounds wonderful!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 10 Feb 2021 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2021/02/10/p1-repl-it-internet-of-fun-chat-app/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/02/10/p1-repl-it-internet-of-fun-chat-app/</guid>
+        
+        
+      </item>
     
       <item>
         <title>From 2019: Tobias Bernard: There is no Linux platform - Oh really?</title>
@@ -279,31 +292,6 @@ roland@roland-XPS-13-9310:~/Downloads/r8152-2.13.0&lt;span class=&quot;err&quot;
         <pubDate>Sat, 30 Jan 2021 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2021/01/30/p1-ask-me-anything-bc-alliance-custom-merchandise/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/01/30/p1-ask-me-anything-bc-alliance-custom-merchandise/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Kevin Montrose: Overthinking CSV With Cesil: An Introduction. Also, github sponsors are few and far between</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Sep 25, 2020.  &lt;a href=&quot;https://kevinmontrose.com/2020/05/28/overthinking-csv-with-cesil-an-introduction/&quot;&gt;Overthinking CSV With Cesil: An Introduction&lt;/a&gt; - I don’t know C# but I love this “little” project and its series of explanatory blog posts. Love what he is “committed to” namely (especially love to learn about comprehensive test coverage for a useful but small project, see &lt;a href=&quot;http://rolandtanglao.com/2021/01/27/p1-test-driven-development-python-tutorial-anthony-shaw/&quot;&gt;Anthony Shaw: Getting Started With Testing in Python &amp;lt;– I’d like to do TDD in python, ruby and R someday :-)&lt;/a&gt; ) :
-    &lt;ul&gt;
-      &lt;li&gt;Async as a first class citizen&lt;/li&gt;
-      &lt;li&gt;Maximum consumer flexibility&lt;/li&gt;
-      &lt;li&gt;Extensive documentation&lt;/li&gt;
-      &lt;li&gt;Comprehensive test coverage&lt;/li&gt;
-      &lt;li&gt;Adopting C# 8 features&lt;/li&gt;
-      &lt;li&gt;Modern patterns and conventions&lt;/li&gt;
-      &lt;li&gt;Efficiency, especially in terms of allocations&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;See also:  &lt;a href=&quot;https://kevinmontrose.com/2020/09/24/overthinking-csv-with-cesil-open-source-update/&quot;&gt;Overthinking CSV With Cesil: Open Source Update&lt;/a&gt; &amp;lt;— “.First, the GitHub sponsors update – not a single one. I find this unsurprising, as I’m sure most readers do – honestly, it took some effort to not snark about the likely outcome in earlier posts … My big takeaway from this little sponsorship experiment is: things like GitHub Sponsors are tools you can use but creating a sustainable open source project is ultimately a job”&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Thu, 28 Jan 2021 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2021/01/28/p1-kevin-montrose-cesil-overthinking-csv-introduction/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/01/28/p1-kevin-montrose-cesil-overthinking-csv-introduction/</guid>
         
         
       </item>
