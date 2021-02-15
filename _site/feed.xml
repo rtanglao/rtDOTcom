@@ -6,9 +6,27 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 13 Feb 2021 20:39:39 -0800</pubDate>
-    <lastBuildDate>Sat, 13 Feb 2021 20:39:39 -0800</lastBuildDate>
+    <pubDate>Sun, 14 Feb 2021 18:15:55 -0800</pubDate>
+    <lastBuildDate>Sun, 14 Feb 2021 18:15:55 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Simon Phipps: The Rights-Ratchet Model</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Feb 2, 2021.Simon Phipps: &lt;a href=&quot;https://meshedinsights.com/2021/02/02/rights-ratchet/&quot;&gt;The Rights-Ratchet Model&lt;/a&gt; &amp;lt;– “ have yet to meet a sole-maintainer open source company following this model that demonstrates belief in any open source benefit apart from driving adoption. Once they have enough adoption to pivot, they don’t need any form of contribution apart from revenue. Whether they admit it or not they will abandon any peer community they may have had and instead treat “community” as a synonym for “customer”. Spot them as early as you can if you aren’t just another customer looking for a product.”
+    &lt;ul&gt;
+      &lt;li&gt;See SugarCRM, elastic and mongo?!?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 14 Feb 2021 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2021/02/14/p1-simon-phipps-rights-ratchet-model/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/02/14/p1-simon-phipps-rights-ratchet-model/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Dave Rupert: The web is something different &lt;--- imperfection is part of it, deal with it :-) </title>
@@ -215,24 +233,6 @@ roland@roland-XPS-13-9310:~/Downloads/r8152-2.13.0&lt;span class=&quot;err&quot;
         <pubDate>Tue, 02 Feb 2021 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2021/02/02/p1-greg-wilson-software-tools-in-javascript/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/02/02/p1-greg-wilson-software-tools-in-javascript/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How Monopolies Slowed the Vaccine Roll-Out, and Small Business Sped it Up -  CVS and Walgreens didn't deliver. Local pharmacists did</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://mattstoller.substack.com/p/how-monopolies-slowed-the-vaccine&quot;&gt;How Monopolies Slowed the Vaccine Roll-Out, and Small Business Sped it Up CVS and Walgreens didn’t deliver. Local pharmacists did&lt;/a&gt;. (via &lt;a href=&quot;https://twitter.com/timbray/status/1354500383679205378&quot;&gt;Tim Bray&lt;/a&gt;): “Last February, I wrote a piece called “How CVS Became a Health Care Tyrant,” showing how CVS bought its way to dominance. CVS’s strategy isn’t oriented around offering better service, but to become a bottleneck for health care the way that Google is a bottleneck for the internet. “
-    &lt;ul&gt;
-      &lt;li&gt;Sad but not surprising. Because c*pitalism s*cks :-) And so do all isms like s*cialism, c*mmunisim, and an*rchy&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 01 Feb 2021 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2021/02/01/p1-monopolies-slowed-covid-19-virus-rollout-small-business-sped-it-up-cvs-walgreens/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/02/01/p1-monopolies-slowed-covid-19-virus-rollout-small-business-sped-it-up-cvs-walgreens/</guid>
         
         
       </item>
