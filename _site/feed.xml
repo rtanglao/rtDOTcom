@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 16 Feb 2021 18:26:58 -0800</pubDate>
-    <lastBuildDate>Tue, 16 Feb 2021 18:26:58 -0800</lastBuildDate>
+    <pubDate>Wed, 17 Feb 2021 19:53:07 -0800</pubDate>
+    <lastBuildDate>Wed, 17 Feb 2021 19:53:07 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Cory Doctorow: 20 years a blogger aka How Cory blogs</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pluralistic.net/2021/01/13/two-decades/#hfbd&quot;&gt;20 years a blogger&lt;/a&gt; aka How Cory Doctorow blogs via Dries’s &lt;a href=&quot;https://dri.es/notes&quot;&gt;Notes&lt;/a&gt; (which don’t have permalinks?!?)&lt;/li&gt;
+  &lt;li&gt;Very interesting: tl;dr have a searchable archive of stuff and stuff online that you can link to. You can “McGyver” a complicated system but in the end it’s a bunch of searchable archived textual posts :-)&lt;/li&gt;
+  &lt;li&gt;I would like to put all my twitter links and blog posts, flickr photos and videos and pinboard bookmarks in &lt;a href=&quot;https://datasette.io/&quot;&gt;Datasette&lt;/a&gt; and then search them that way but until then &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grep&lt;/code&gt; and search work :-)&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 17 Feb 2021 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2021/02/17/p1-cory-doctorow-20-years-a-blogger-how-to-blog/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/02/17/p1-cory-doctorow-20-years-a-blogger-how-to-blog/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Kyle Mitchell:Righteous, Expedient, Wrong - OSI swings at Elastic, misses, and leaves a mess</title>
@@ -164,74 +180,6 @@
         <pubDate>Sun, 07 Feb 2021 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2021/02/07/p1-robbed-february-7-2021-canon-eos-rp-lumos-matrix/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/02/07/p1-robbed-february-7-2021-canon-eos-rp-lumos-matrix/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to upgrade the Wavlink UTD01A Thunderbolt 3 dock Ubuntu driver: switch to insecure boot; download, compile and install firmware from Wavlink's site</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Are you on Ubuntu and you see an  error message like the following when trying to install a driver e.g. for the &lt;a href=&quot;https://www.wavlink.com/en_us/product/WL-UTD01_UTD01H.html&quot;&gt;UTD01A  Thunderdock SP/Thunderdock SP IV - Thunderbolt™ 3 4K Display Docking Station&lt;/a&gt; : &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;modprobe: ERROR: could not insert 'r8152': Operation not permitted&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Steps to fix this: 1. Switch to Insecure Boot as below 2. Download the &lt;a href=&quot;https://files2.wavlink.com/drivers/PC-peripherals/RTL8153/RTL8153_Driver_Unix%20(Linux).zip&quot;&gt;driver&lt;/a&gt;  from the Wavlink site and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo make all&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;The real fix of course is to sign the modules yourself using your own cert or a cert that may already exist for your driver: See &lt;a href=&quot;https://wiki.ubuntu.com/UEFI/SecureBoot/DKMS&quot;&gt;DKMS modules need to be configured to work with UEFI Secure Boot&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;how-to-switch-to-insecure-boot-on-ubuntu&quot;&gt;How to switch to Insecure Boot on Ubuntu&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Found on Ask Ubuntu:&lt;a href=&quot;https://askubuntu.com/questions/1114867/operation-not-permitted-when-trying-to-modprobe-xpad&quot;&gt;“Operation not permitted” when trying to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;modprobe xpad&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;If you are facing this error modprobe: ERROR: could not insert ‘rtl8723de’: Operation not permitted&lt;/p&gt;
-
-&lt;p&gt;The solution is to disabled the Secure Boot. Firstly check if SecureBoot is enabled on Ubuntu.&lt;/p&gt;
-
-&lt;p&gt;Install mokutil “sudo apt-get install mokutil”&lt;/p&gt;
-
-&lt;p&gt;and check the status of SecureBoot “mokutil –sb-state”&lt;/p&gt;
-
-&lt;p&gt;In case it is enabled run command “sudo mokutil –disable-validation”&lt;/p&gt;
-
-&lt;p&gt;Now enter a temporary password between 8 to 16 digits. We will use this password later. Enter the same password again to confirm. Once it’s done reboot the system and press any key when you see the blue screen (MOK management). Select Change Secure Boot state. Enter the password you had selected before and press Enter. Select Yes to disable&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;error-messages-when-trying-to-install-the-driver-on-ubuntu-with-secure-boot&quot;&gt;Error messages when trying to install the driver on Ubuntu with Secure Boot&lt;/h2&gt;
-
-&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;roland@roland-XPS-13-9310:~/Downloads/r8152-2.13.0&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;make all
-&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; password &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;roland: 
-make &lt;span class=&quot;nt&quot;&gt;-C&lt;/span&gt; /lib/modules/5.6.0-1042-oem/build &lt;span class=&quot;nv&quot;&gt;M&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/home/roland/Downloads/r8152-2.13.0 clean
-make[1]: Entering directory &lt;span class=&quot;s1&quot;&gt;'/usr/src/linux-headers-5.6.0-1042-oem'&lt;/span&gt;
-  CLEAN   /home/roland/Downloads/r8152-2.13.0/Module.symvers
-make[1]: Leaving directory &lt;span class=&quot;s1&quot;&gt;'/usr/src/linux-headers-5.6.0-1042-oem'&lt;/span&gt;
-make &lt;span class=&quot;nt&quot;&gt;-C&lt;/span&gt; /lib/modules/5.6.0-1042-oem/build &lt;span class=&quot;nv&quot;&gt;M&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/home/roland/Downloads/r8152-2.13.0 modules
-make[1]: Entering directory &lt;span class=&quot;s1&quot;&gt;'/usr/src/linux-headers-5.6.0-1042-oem'&lt;/span&gt;
-  CC &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;M]  /home/roland/Downloads/r8152-2.13.0/r8152.o
-  MODPOST 1 modules
-  CC &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;M]  /home/roland/Downloads/r8152-2.13.0/r8152.mod.o
-  LD &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;M]  /home/roland/Downloads/r8152-2.13.0/r8152.ko
-make[1]: Leaving directory &lt;span class=&quot;s1&quot;&gt;'/usr/src/linux-headers-5.6.0-1042-oem'&lt;/span&gt;
-make &lt;span class=&quot;nt&quot;&gt;-C&lt;/span&gt; /lib/modules/5.6.0-1042-oem/build &lt;span class=&quot;nv&quot;&gt;M&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/home/roland/Downloads/r8152-2.13.0 &lt;span class=&quot;nv&quot;&gt;INSTALL_MOD_DIR&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;kernel/drivers/net/usb modules_install
-make[1]: Entering directory &lt;span class=&quot;s1&quot;&gt;'/usr/src/linux-headers-5.6.0-1042-oem'&lt;/span&gt;
-  INSTALL /home/roland/Downloads/r8152-2.13.0/r8152.ko
-At main.c:160:
-- SSL error:02001002:system library:fopen:No such file or directory: ../crypto/bio/bss_file.c:69
-- SSL error:2006D080:BIO routines:BIO_new_file:no such file: ../crypto/bio/bss_file.c:76
-sign-file: certs/signing_key.pem: No such file or directory
-  DEPMOD  5.6.0-1042-oem
-Warning: modules_install: missing &lt;span class=&quot;s1&quot;&gt;'System.map'&lt;/span&gt; file. Skipping depmod.
-make[1]: Leaving directory &lt;span class=&quot;s1&quot;&gt;'/usr/src/linux-headers-5.6.0-1042-oem'&lt;/span&gt;
-modprobe r8152
-modprobe: ERROR: could not insert &lt;span class=&quot;s1&quot;&gt;'r8152'&lt;/span&gt;: Operation not permitted
-make: &lt;span class=&quot;k&quot;&gt;***&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Makefile:42: &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; Error 1
-roland@roland-XPS-13-9310:~/Downloads/r8152-2.13.0&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-</description>
-        <pubDate>Thu, 04 Feb 2021 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2021/02/04/p1-how-to-upgrade-driver-wavlink-utd01a-thunderbolt3-dock-ubuntu/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/02/04/p1-how-to-upgrade-driver-wavlink-utd01a-thunderbolt3-dock-ubuntu/</guid>
         
         
       </item>
