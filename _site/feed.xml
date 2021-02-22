@@ -6,9 +6,27 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 20 Feb 2021 20:58:35 -0800</pubDate>
-    <lastBuildDate>Sat, 20 Feb 2021 20:58:35 -0800</lastBuildDate>
+    <pubDate>Sun, 21 Feb 2021 22:27:17 -0800</pubDate>
+    <lastBuildDate>Sun, 21 Feb 2021 22:27:17 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Everything in SQLite and Datasette and perhaps Glitch?</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;It occurs to me that I haven’t have blogged about my  current plan of putting all of my flickr data, all of my tweets, all my pinboard bookmarks, any data I use for data visulization like Firefox support questions,etc  in SQLite and then Datasette (and maybe even in gltich). Previously:
+    &lt;ul&gt;
+      &lt;li&gt;2020: &lt;a href=&quot;http://rolandtanglao.com/2020/05/25/p2-glitch-datasette-firefox-desktop-support-january1-may25-2020/&quot;&gt;HowTo: Datasette on Glitch for Firefox Desktop support questions January 1 to May 25, 2020&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;2019: &lt;a href=&quot;http://rolandtanglao.com/2019/11/08/p1-pinboard-sqlite-glitch/&quot;&gt;Pinboard -&amp;gt; SQLite -&amp;gt; datasette -&amp;gt; glitch&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 21 Feb 2021 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2021/02/21/p1-everything-in-sqlitite-and-glitch/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/02/21/p1-everything-in-sqlitite-and-glitch/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Michelle Thorne: A movment to green the web</title>
@@ -162,23 +180,6 @@
         <pubDate>Tue, 09 Feb 2021 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2021/02/09/p1-there-is-no-linux-platform-except-elementary-tobias-bernard/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/02/09/p1-there-is-no-linux-platform-except-elementary-tobias-bernard/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>From 2018: Tobias Bernard: Banquets and Barbecues</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Discovered Feb 4, 2021 via &lt;a href=&quot;https://nad.is/&quot;&gt;Nad&lt;/a&gt;. &lt;a href=&quot;https://blogs.gnome.org/tbernard/2018/05/16/banquets-and-barbecues/&quot;&gt;Banquets and Barbecues&lt;/a&gt; “tl;dr: We’re splitting up Fractal into two separate apps: One to replace IRC, the other to replace Telegram.”
-    &lt;ul&gt;
-      &lt;li&gt;Makes sense to me! I wonder how much progress has been made in the last 3 years?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 08 Feb 2021 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2021/02/08/p1-banquets-barbecues-chat-clients-tobias-bernard/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/02/08/p1-banquets-barbecues-chat-clients-tobias-bernard/</guid>
         
         
       </item>
