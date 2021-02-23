@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 21 Feb 2021 22:27:17 -0800</pubDate>
-    <lastBuildDate>Sun, 21 Feb 2021 22:27:17 -0800</lastBuildDate>
+    <pubDate>Mon, 22 Feb 2021 20:58:04 -0800</pubDate>
+    <lastBuildDate>Mon, 22 Feb 2021 20:58:04 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Checkvist now has crosslinks and backlinks - I couldn't get backlinks to work in my quick test</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Yes! As of January 31, 2021, Checkvist now has crosslinks and backlinks: see &lt;a href=&quot;https://blog.checkvist.com/post/641852489152544768/links-and-backlinks-part-i#disqus_thread&quot;&gt;Links and backlinks: part I&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I got cross links to work but couldn’t get backlinks to work in my quick 10 minute test. Need to test further to make sure I was doing it right!&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 22 Feb 2021 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2021/02/22/p1-checkvist-now-has-backlinks-crosslinks/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/02/22/p1-checkvist-now-has-backlinks-crosslinks/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Everything in SQLite and Datasette and perhaps Glitch?</title>
@@ -159,27 +174,6 @@
         <pubDate>Wed, 10 Feb 2021 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2021/02/10/p1-repl-it-internet-of-fun-chat-app/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/02/10/p1-repl-it-internet-of-fun-chat-app/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>From 2019: Tobias Bernard: There is no Linux platform - Oh really?</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Discovered Feb 4, 2021 There is no Linux platform &lt;a href=&quot;https://blogs.gnome.org/tbernard/2019/12/04/there-is-no-linux-platform-1/&quot;&gt;Part 1&lt;/a&gt; and &lt;a href=&quot;https://blogs.gnome.org/tbernard/2020/03/25/there-is-no-linux-platform-2/&quot;&gt;Part 2&lt;/a&gt; &amp;lt;– Except Elementary, really :-) ?!?
-    &lt;ul&gt;
-      &lt;li&gt;Even in 2021?&lt;/li&gt;
-      &lt;li&gt;Ubuntu is not a platform but Elementary is?!?&lt;/li&gt;
-      &lt;li&gt;I am not convinced.&lt;/li&gt;
-      &lt;li&gt;I am also not convinced there is a single  Android platform. There’s at least two: S*msung Android, G*ogle Android (and then add H*awei and all the rest! )&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Tue, 09 Feb 2021 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2021/02/09/p1-there-is-no-linux-platform-except-elementary-tobias-bernard/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/02/09/p1-there-is-no-linux-platform-except-elementary-tobias-bernard/</guid>
         
         
       </item>
