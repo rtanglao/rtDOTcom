@@ -1,0 +1,5 @@
+I"�<ul>
+  <li>Tom MacWright <a href="https://macwright.com/2021/02/23/one-way-to-represent-things.html">One way to represent things</a> “What if a simpler programming language had first-class representations of a lot more than strings and arrays? Of course this would rankle seasoned developers who want ultimate power and prefer tiny extensible systems. When developers think of advanced type systems, they think of things like Haskell’s scary-powerful primitives for creating new types, not of ecosystem-supported common types.” &lt;— YES….AND Both languages like Google Sheets/Excel/R/python should coexist and complement” lower” level “more flexible” languages like Rust and Haskell. There’s no such thing as a “seasoned” developer for every domain. More like in some domains some software developers don’t mind rolling their own low level abstractions. Most people don’t have the time or need for such things :-) they just want to solve a problem with software.</li>
+</ul>
+
+:ET

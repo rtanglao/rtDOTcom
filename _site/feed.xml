@@ -6,9 +6,23 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 22 Feb 2021 20:58:04 -0800</pubDate>
-    <lastBuildDate>Mon, 22 Feb 2021 20:58:04 -0800</lastBuildDate>
+    <pubDate>Tue, 23 Feb 2021 19:51:46 -0800</pubDate>
+    <lastBuildDate>Tue, 23 Feb 2021 19:51:46 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Tom MacWright: One way to represent things &lt;-- most don't want to roll their own level abstractions they just want to solve a problem with software</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Tom MacWright: &lt;a href=&quot;https://macwright.com/2021/02/23/one-way-to-represent-things.html&quot;&gt;One way to represent things&lt;/a&gt; “What if a simpler programming language had first-class representations of a lot more than strings and arrays? Of course this would rankle seasoned developers who want ultimate power and prefer tiny extensible systems. When developers think of advanced type systems, they think of things like Haskell’s scary-powerful primitives for creating new types, not of ecosystem-supported common types.” &amp;lt;— YES….AND Both languages with rich primitives like Google Sheets cells/Excel cells/R dataframes/python dataframes should coexist and complement” lower” level “more flexible” languages like Rust and Haskell. There’s no such thing as a “seasoned” developer for every domain. More like in some domains some software developers don’t mind rolling their own low level abstractions. Most people don’t have the time or need for such things :-) they just want to solve a problem with software.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 23 Feb 2021 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2021/02/23/p1-tom-macwright-one-way-to-represent-things-like-r-dataframe-python-pandas-spreadsheet-cells/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/02/23/p1-tom-macwright-one-way-to-represent-things-like-r-dataframe-python-pandas-spreadsheet-cells/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Checkvist now has crosslinks and backlinks - I couldn't get backlinks to work in my quick test</title>
@@ -161,19 +175,6 @@
         <pubDate>Thu, 11 Feb 2021 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2021/02/11/p1-stephen-downes-on-the-indie-web-should-not-have-to-pay-for-hosting-and-servers-to-publish/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/02/11/p1-stephen-downes-on-the-indie-web-should-not-have-to-pay-for-hosting-and-servers-to-publish/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>repl.it - The internet of Fun</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://blog.repl.it/internet-of-fun&quot;&gt;The Internet of Fun&lt;/a&gt; “Yesterday, I accidentally built a chat app. Surprisingly, it wasn’t the first time it happened.” &amp;lt;– building a chat app collaboratively sounds wonderful!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 10 Feb 2021 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2021/02/10/p1-repl-it-internet-of-fun-chat-app/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/02/10/p1-repl-it-internet-of-fun-chat-app/</guid>
         
         
       </item>
