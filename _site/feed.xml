@@ -6,9 +6,27 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 25 Feb 2021 21:43:19 -0800</pubDate>
-    <lastBuildDate>Thu, 25 Feb 2021 21:43:19 -0800</lastBuildDate>
+    <pubDate>Sat, 27 Feb 2021 21:19:30 -0800</pubDate>
+    <lastBuildDate>Sat, 27 Feb 2021 21:19:30 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Justine Tunney: cosmopolitan libc your build-once run-anywhere c library across x86 macOS, Windows 10 and Linux</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://storage.googleapis.com/justine/cosmopolitan/index.html&quot;&gt;Justine Tunney: cosmopolitan libc your build-once run-anywhere c library&lt;/a&gt; via &lt;a href=&quot;https://twitter.com/swartable/status/1365816281782386690&quot;&gt;Write once, run anywhere, in C&lt;/a&gt; &amp;lt;— truly portable command line C apps across x86 Linux, macOS and Windows 10. And probably ARM64 e.g. apple M1 in the near future. Just need a bit of glue code.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://twitter.com/rtanglao/status/1365882368662278150&quot;&gt;Sample Hello World&lt;/a&gt; that works on Linux, macOS and Windows 10 x86 64 bit&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sat, 27 Feb 2021 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2021/02/27/p1-justine-tunney-portable-c-command-line-apps-across-linux-macos-windows10-x86/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/02/27/p1-justine-tunney-portable-c-command-line-apps-across-linux-macos-windows10-x86/</guid>
+        
+        
+      </item>
     
       <item>
         <title>What's your conversational style? Are you a positive cooperative overlapper or interrupter? Can you handle it when others overlap or interrupt you?</title>
@@ -151,34 +169,6 @@
         <pubDate>Sun, 14 Feb 2021 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2021/02/14/p1-simon-phipps-rights-ratchet-model/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/02/14/p1-simon-phipps-rights-ratchet-model/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Dave Rupert: The web is something different &lt;--- imperfection is part of it, deal with it :-) </title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Feb 11, 2021. Dave Ruppert: &lt;a href=&quot;https://daverupert.com/2021/02/the-web-is-something-different/&quot;&gt;The web is something different&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Most excellent quotes:
-    &lt;ul&gt;
-      &lt;li&gt;“I’ve come to accept that if there are bugs on the web or if there’s a massive quality dip on a site you’re visiting… that is a sign the web  is working. It means some unqualified person was able to skip past the  gatekeepers and put something online. That’s a win for “The web is for  everyone.” A permissive web is not without its &lt;a href=&quot;https://daverupert.com/2016/08/hidden-expectations/&quot;&gt;performance, security, usability, and accessibility&lt;/a&gt; concerns, but all software lives in that tension and even native platforms get this wrong.&lt;/li&gt;
-      &lt;li&gt;The web is so much bigger than the little boxes we try to put it in.  The web is good at many things and not great (yet) at others. The web is a snowball rolling down hill, absorbing other technologies along the  way. The web is an interactive window across space and time, a near  instant connection to anyone on the planet. The web is something  different. I wish we’d see the web more for itself, not defined by its  nearest neighbor or navel-gazing over some hypothetical pathway we could have gone down decades ago.”&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Everybody thinks they are an expert on the following topics and most often they are wrong:
-    &lt;ul&gt;
-      &lt;li&gt;The Web&lt;/li&gt;
-      &lt;li&gt;COVID-19&lt;/li&gt;
-      &lt;li&gt;Cars and traffic laws&lt;/li&gt;
-      &lt;li&gt;apps and how easy it is to change the software behind apps&lt;/li&gt;
-      &lt;li&gt;Bicycling for transit and just for the fun of it without training in mind (usually the self proclaimed bicycling experts are car drivers or weekend warriors who don’t actually bicycle for practical purposes or just for non competitive fun)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 13 Feb 2021 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2021/02/13/p1-dave-rupert-the-web-is-something-different/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/02/13/p1-dave-rupert-the-web-is-something-different/</guid>
         
         
       </item>

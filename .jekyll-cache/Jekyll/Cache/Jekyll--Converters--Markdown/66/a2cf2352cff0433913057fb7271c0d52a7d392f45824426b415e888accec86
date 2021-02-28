@@ -1,0 +1,9 @@
+I"<ul>
+  <li>Feb 27, 2021.  <a href="https://storage.googleapis.com/justine/cosmopolitan/index.html">Justine Tunney: cosmopolitan libc your build-once run-anywhere c library</a> via <a href="https://twitter.com/swartable/status/1365816281782386690">Write once, run anywhere, in C</a> &lt;— truly portable command line C apps across x86 Linux, macOS and Windows 10. And probably ARM64 e.g. apple M1 in the near future. Just need a bit of glue code.
+    <ul>
+      <li><a href="https://twitter.com/rtanglao/status/1365882368662278150">Sample Hello World</a> that works on Linux, macOS and Windows 10 x86 64 bit</li>
+    </ul>
+  </li>
+</ul>
+
+:ET
