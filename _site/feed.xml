@@ -6,9 +6,28 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 27 Feb 2021 21:19:30 -0800</pubDate>
-    <lastBuildDate>Sat, 27 Feb 2021 21:19:30 -0800</lastBuildDate>
+    <pubDate>Sun, 28 Feb 2021 20:02:26 -0800</pubDate>
+    <lastBuildDate>Sun, 28 Feb 2021 20:02:26 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Oren Jay Sofer: Defending Against ‘Predatory Listening’</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; February 25, 2021. &lt;a href=&quot;https://www.tenpercent.com/meditationweeklyblog/defending-against-predatory-listening&quot;&gt;Defending Against ‘Predatory Listening’&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;“Predatory listening can take a variety of forms: listening with a narrow  focus to find fault or confront someone; lying in wait for something to  be offended by; deliberately trying to catch someone out; or listening  only to gather evidence for a rebuttal.”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Related: &lt;a href=&quot;http://rolandtanglao.com/2021/02/25/p1-conversational-style-overlapper-interrupter-can-you-handle-overlapping-interrupting/&quot;&gt;What’s your conversational style? Are you a  positive cooperative overlapper or interrupter? Can you handle it when  others overlap or interrupt you?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 28 Feb 2021 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2021/02/28/p1-oren-jay-sofer-defending-against-predatory-listening/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/02/28/p1-oren-jay-sofer-defending-against-predatory-listening/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Justine Tunney: cosmopolitan libc your build-once run-anywhere c library across x86 macOS, Windows 10 and Linux</title>
@@ -151,24 +170,6 @@
         <pubDate>Mon, 15 Feb 2021 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2021/02/15/p1-what-am-i-missing-about-sbstack/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/02/15/p1-what-am-i-missing-about-sbstack/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Simon Phipps: The Rights-Ratchet Model</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Feb 2, 2021.Simon Phipps: &lt;a href=&quot;https://meshedinsights.com/2021/02/02/rights-ratchet/&quot;&gt;The Rights-Ratchet Model&lt;/a&gt; &amp;lt;– “ have yet to meet a sole-maintainer open source company following this model that demonstrates belief in any open source benefit apart from driving adoption. Once they have enough adoption to pivot, they don’t need any form of contribution apart from revenue. Whether they admit it or not they will abandon any peer community they may have had and instead treat “community” as a synonym for “customer”. Spot them as early as you can if you aren’t just another customer looking for a product.”
-    &lt;ul&gt;
-      &lt;li&gt;See SugarCRM, elastic and mongo?!?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sun, 14 Feb 2021 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2021/02/14/p1-simon-phipps-rights-ratchet-model/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/02/14/p1-simon-phipps-rights-ratchet-model/</guid>
         
         
       </item>
