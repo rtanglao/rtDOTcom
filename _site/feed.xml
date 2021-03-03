@@ -6,9 +6,23 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 28 Feb 2021 20:02:26 -0800</pubDate>
-    <lastBuildDate>Sun, 28 Feb 2021 20:02:26 -0800</lastBuildDate>
+    <pubDate>Tue, 02 Mar 2021 22:09:01 -0800</pubDate>
+    <lastBuildDate>Tue, 02 Mar 2021 22:09:01 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Ben Welsh and the California Civic Data Coalition:First Python Notebook</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Feb 25, 2021. &lt;a href=&quot;https://www.firstpythonnotebook.org/index.html&quot;&gt;First Python Notebook&lt;/a&gt; “&lt;a href=&quot;https://twitter.com/palewire/status/1364616569494536193&quot;&gt;Together we will learn just enough Python to work with the pandas library, a popular open-source tool for analyzing data.&lt;/a&gt;”; “&lt;a href=&quot;https://twitter.com/palewire/status/1364616726160183299&quot;&gt;You will also learn how to record, remix and republish your analysis using the @ProjectJupyter notebook.&lt;/a&gt;” &amp;lt;— sounds amazing for newbies, i bet i’d learn stuff  too&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 02 Mar 2021 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2021/03/02/p1-ben-welsh-first-python-notebook/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/03/02/p1-ben-welsh-first-python-notebook/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Oren Jay Sofer: Defending Against ‘Predatory Listening’</title>
@@ -154,22 +168,6 @@
         <pubDate>Tue, 16 Feb 2021 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2021/02/16/p1-kemitchell-righteous-expedient-wrong-osi-swings-elastic-mess/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/02/16/p1-kemitchell-righteous-expedient-wrong-osi-swings-elastic-mess/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Podcast: What am I missing about S*bstack? Same selected people make money and control your content?!?</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Same old same old? Same folks getting $ through centralized silos nicht wahr?&lt;/li&gt;
-  &lt;li&gt;Uber with media creators as “drivers”?!?  Ok maybe the analogy doesn’t hold :-) !&lt;/li&gt;
-  &lt;li&gt;If you want, listen to my 1 minute 23 second podcast about it: &lt;a href=&quot;https://www.rolandmicroblog.com/2021/02/15/february-what-am.html&quot;&gt;15February2021 What Am I Missing About S*bstack?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 15 Feb 2021 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2021/02/15/p1-what-am-i-missing-about-sbstack/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/02/15/p1-what-am-i-missing-about-sbstack/</guid>
         
         
       </item>
