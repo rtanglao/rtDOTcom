@@ -6,9 +6,23 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 02 Mar 2021 22:09:01 -0800</pubDate>
-    <lastBuildDate>Tue, 02 Mar 2021 22:09:01 -0800</lastBuildDate>
+    <pubDate>Wed, 03 Mar 2021 20:01:02 -0800</pubDate>
+    <lastBuildDate>Wed, 03 Mar 2021 20:01:02 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Natalia Tepluhina: Six tips to improve your code review skills &lt;-- Test locally, ask questions, don't hesitate to praise, separate blocking/non blocking and use these categories: question, suggestion, nitpicking </title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Natalia Tepluhina: &lt;a href=&quot;https://dev.to/n_tepluhina/six-tips-to-improve-your-code-review-skills-95a&quot;&gt;Six tips to improve your code review skills&lt;/a&gt; &amp;lt;— good tips for feedback in general: not just for code reviews!  Test locally, ask questions, don’t hesitate to praise, separate blocking/non blocking and use these categories: question, suggestion, nitpicking&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 03 Mar 2021 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2021/03/03/p1-natalia-tepluhina-six-tips-improve-code-review-feedback-skills/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/03/03/p1-natalia-tepluhina-six-tips-improve-code-review-feedback-skills/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Ben Welsh and the California Civic Data Coalition:First Python Notebook</title>
@@ -154,20 +168,6 @@
         <pubDate>Wed, 17 Feb 2021 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2021/02/17/p1-cory-doctorow-20-years-a-blogger-how-to-blog/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/02/17/p1-cory-doctorow-20-years-a-blogger-how-to-blog/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Kyle Mitchell:Righteous, Expedient, Wrong - OSI swings at Elastic, misses, and leaves a mess</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Feb 2, 2021.&lt;a href=&quot;https://writing.kemitchell.com/2021/01/20/Righteous-Expedient-Wrong.html&quot;&gt;Righteous, Expedient, Wrong OSI swings at Elastic, misses, and leaves a mess&lt;/a&gt; counterpoint to &lt;a href=&quot;http://rolandtanglao.com/2021/02/14/p1-simon-phipps-rights-ratchet-model/&quot;&gt;The Rights-Ratchet Model&lt;/a&gt; from a few days ago.&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Tue, 16 Feb 2021 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2021/02/16/p1-kemitchell-righteous-expedient-wrong-osi-swings-elastic-mess/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/02/16/p1-kemitchell-righteous-expedient-wrong-osi-swings-elastic-mess/</guid>
         
         
       </item>
