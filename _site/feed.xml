@@ -6,9 +6,22 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 03 Mar 2021 20:01:02 -0800</pubDate>
-    <lastBuildDate>Wed, 03 Mar 2021 20:01:02 -0800</lastBuildDate>
+    <pubDate>Thu, 04 Mar 2021 20:35:17 -0800</pubDate>
+    <lastBuildDate>Thu, 04 Mar 2021 20:35:17 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Jay Graber: Decentralized Social Ecosystem Review</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Jay Graber:&lt;a href=&quot;https://ipfs.io/ipfs/QmdFrru4PyHzXGZztEPnYToBR3QovD7fkC1HSyty22LzfD&quot;&gt;decentralized social ecosystem review (protocols, applications, topics)&lt;/a&gt; (PDF) via &lt;a href=&quot;http://bmannconsulting.com/decentralized-social-ecosystem-review/&quot;&gt;Boris&lt;/a&gt; includes great summaries of ActivityPub, IPFS, Matrix, Diaspora, Mastadon, etc etc&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 04 Mar 2021 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2021/03/04/p1-jay-graber-decentralized-social-ecosystem-review/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/03/04/p1-jay-graber-decentralized-social-ecosystem-review/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Natalia Tepluhina: Six tips to improve your code review skills &lt;-- Test locally, ask questions, don't hesitate to praise, separate blocking/non blocking and use these categories: question, suggestion, nitpicking </title>
@@ -152,22 +165,6 @@
         <pubDate>Sat, 20 Feb 2021 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2021/02/20/p1-michelle-thorne-a-movement-green-the-web/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/02/20/p1-michelle-thorne-a-movement-green-the-web/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Cory Doctorow: 20 years a blogger aka How Cory blogs</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://pluralistic.net/2021/01/13/two-decades/#hfbd&quot;&gt;20 years a blogger&lt;/a&gt; aka How Cory Doctorow blogs via Dries’s &lt;a href=&quot;https://dri.es/notes&quot;&gt;Notes&lt;/a&gt; (which don’t have permalinks?!?)&lt;/li&gt;
-  &lt;li&gt;Very interesting: tl;dr have a searchable archive of stuff and stuff online that you can link to. You can “McGyver” a complicated system but in the end it’s a bunch of searchable archived textual posts :-)&lt;/li&gt;
-  &lt;li&gt;I would like to put all my twitter links and blog posts, flickr photos and videos and pinboard bookmarks in &lt;a href=&quot;https://datasette.io/&quot;&gt;Datasette&lt;/a&gt; and then search them that way but until then &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grep&lt;/code&gt; and search work :-)&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Wed, 17 Feb 2021 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2021/02/17/p1-cory-doctorow-20-years-a-blogger-how-to-blog/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/02/17/p1-cory-doctorow-20-years-a-blogger-how-to-blog/</guid>
         
         
       </item>
