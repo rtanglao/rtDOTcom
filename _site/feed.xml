@@ -6,9 +6,35 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 04 Mar 2021 20:35:17 -0800</pubDate>
-    <lastBuildDate>Thu, 04 Mar 2021 20:35:17 -0800</lastBuildDate>
+    <pubDate>Sun, 07 Mar 2021 20:57:06 -0800</pubDate>
+    <lastBuildDate>Sun, 07 Mar 2021 20:57:06 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Maarten Lambrechts: Mapping Geographic Data in R, with ggplot2</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Feb 23, 2021. Maarten Lambrechts: &lt;a href=&quot;https://twitter.com/flowingdata/status/1364266409434341377&quot;&gt;Mapping Geographic Data in R – with ggplot2! flowing data course  yes!&lt;/a&gt; &amp;lt;—-  oh yeah!: I have done maps with ggplot2 before but never had a nice looking course like this one. Hope to apply this a new map based information visualization soon!&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Previously: &lt;a href=&quot;http://rolandtanglao.com/2017/10/12/p1-maps-of-vancouver-neighourhoods-average-colour-instagram/&quot;&gt;http://rolandtanglao.com/2017/10/12/p1-maps-of-vancouver-neighourhoods-average-colour-instagram/&lt;/a&gt;&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/ig-ggmap/blob/master/create-overplotted-Vancouver-neighbourhood-map.R&quot;&gt;create-overplotted-Vancouver-neighbourhood-map.R&lt;/a&gt; in my &lt;a href=&quot;https://github.com/rtanglao/ig-ggmap&quot;&gt;ig-ggmap&lt;/a&gt; repo!&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 07 Mar 2021 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2021/03/07/p1-flowing-data-maarten-ambrechts-mapping-geographic-data-ggplot2/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/03/07/p1-flowing-data-maarten-ambrechts-mapping-geographic-data-ggplot2/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Jay Graber: Decentralized Social Ecosystem Review</title>
@@ -148,23 +174,6 @@
         <pubDate>Sun, 21 Feb 2021 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2021/02/21/p1-everything-in-sqlitite-and-glitch/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/02/21/p1-everything-in-sqlitite-and-glitch/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Michelle Thorne: A movment to green the web</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Feb 17, 2021. &lt;a href=&quot;https://michellethorne.cc/2021/02/a-movement-to-green-the-web/&quot;&gt;A movement to green the web&lt;/a&gt; &amp;lt;– check out how “green” your website is using &lt;a href=&quot;https://www.websitecarbon.com/&quot;&gt;Wholegrain Digital’s Website Carbon Calculator&lt;/a&gt;  &amp;lt;— climate change is real; everything especially software should be looked at through a climate change lens!!!!!!!!!!!!!
-    &lt;ul&gt;
-      &lt;li&gt;Previously: &lt;a href=&quot;http://rolandtanglao.com/2020/01/03/p1-how-we-stopped-climate-change-by-2050/&quot;&gt;NPR: It’s 2050 And This Is How We Stopped Climate Change&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 20 Feb 2021 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2021/02/20/p1-michelle-thorne-a-movement-green-the-web/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/02/20/p1-michelle-thorne-a-movement-green-the-web/</guid>
         
         
       </item>
