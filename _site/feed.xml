@@ -6,9 +6,28 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 07 Mar 2021 20:57:06 -0800</pubDate>
-    <lastBuildDate>Sun, 07 Mar 2021 20:57:06 -0800</lastBuildDate>
+    <pubDate>Tue, 09 Mar 2021 17:52:43 -0800</pubDate>
+    <lastBuildDate>Tue, 09 Mar 2021 17:52:43 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>Excel Never Dies The Spreadsheet That Launched A Million Companies &lt;-- The real 'programming for the people'</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Mar 9, 2021. &lt;a href=&quot;https://www.notboring.co/p/excel-never-dies&quot;&gt;Excel Never Dies The Spreadsheet That Launched A Million Companies&lt;/a&gt; - “Spreadsheets are the real “programming for the people”. “no code” is the best code for people not brainwashed :-) by “traditional” software  development using text editors and IDEs and blah blah :-)&lt;/li&gt;
+  &lt;li&gt;Previously:
+    &lt;ul&gt;
+      &lt;li&gt;April 2018 &lt;a href=&quot;http://rolandtanglao.com/2018/04/26/p1-everybody-who-writes-formulas-or-uses-pivot-tables-in-a-spreadsheet-is-a-programmer/&quot;&gt;Everybody who writes formulas and/or uses pivot tables in a spreadsheet is a programmer&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 09 Mar 2021 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2021/03/09/p1-excel-never-dies-the-spreadsheet-that-launched-a-million-companies/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/03/09/p1-excel-never-dies-the-spreadsheet-that-launched-a-million-companies/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Maarten Lambrechts: Mapping Geographic Data in R, with ggplot2</title>
@@ -156,24 +175,6 @@
         <pubDate>Mon, 22 Feb 2021 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2021/02/22/p1-checkvist-now-has-backlinks-crosslinks/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/02/22/p1-checkvist-now-has-backlinks-crosslinks/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Everything in SQLite and Datasette and perhaps Glitch?</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;It occurs to me that I haven’t have blogged about my  current plan of putting all of my flickr data, all of my tweets, all my pinboard bookmarks, any data I use for data visulization like Firefox support questions,etc  in SQLite and then Datasette (and maybe even in gltich). Previously:
-    &lt;ul&gt;
-      &lt;li&gt;2020: &lt;a href=&quot;http://rolandtanglao.com/2020/05/25/p2-glitch-datasette-firefox-desktop-support-january1-may25-2020/&quot;&gt;HowTo: Datasette on Glitch for Firefox Desktop support questions January 1 to May 25, 2020&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;2019: &lt;a href=&quot;http://rolandtanglao.com/2019/11/08/p1-pinboard-sqlite-glitch/&quot;&gt;Pinboard -&amp;gt; SQLite -&amp;gt; datasette -&amp;gt; glitch&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 21 Feb 2021 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2021/02/21/p1-everything-in-sqlitite-and-glitch/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/02/21/p1-everything-in-sqlitite-and-glitch/</guid>
         
         
       </item>
