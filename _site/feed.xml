@@ -6,9 +6,23 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 10 Mar 2021 18:18:12 -0800</pubDate>
-    <lastBuildDate>Wed, 10 Mar 2021 18:18:12 -0800</lastBuildDate>
+    <pubDate>Thu, 11 Mar 2021 19:59:49 -0800</pubDate>
+    <lastBuildDate>Thu, 11 Mar 2021 19:59:49 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>The Python Graph Gallery</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Mar 11, 2021. “&lt;a href=&quot;https://www.python-graph-gallery.com/&quot;&gt;Welcome to the Python Graph Gallery&lt;/a&gt;, a collection of hundreds of charts made with Python. Charts are organized in about 40 sections and always come with their associated reproducible code. They are mostly made with Matplotlib and Seaborn but other library like Plotly are sometimes used” &amp;lt;— So great! I  bet there is a similar site or sites for R and ggplot2 that i forgot  to blog about :-)&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Thu, 11 Mar 2021 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2021/03/11/p1-python-graph-gallery/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/03/11/p1-python-graph-gallery/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Gardner Campbell: Online Class meeting preshow</title>
@@ -160,20 +174,6 @@
         <pubDate>Thu, 25 Feb 2021 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2021/02/25/p1-conversational-style-overlapper-interrupter-can-you-handle-overlapping-interrupting/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/02/25/p1-conversational-style-overlapper-interrupter-can-you-handle-overlapping-interrupting/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Tom MacWright: One way to represent things &lt;-- most don't want to roll their own level abstractions they just want to solve a problem with software</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Tom MacWright: &lt;a href=&quot;https://macwright.com/2021/02/23/one-way-to-represent-things.html&quot;&gt;One way to represent things&lt;/a&gt; “What if a simpler programming language had first-class representations of a lot more than strings and arrays? Of course this would rankle seasoned developers who want ultimate power and prefer tiny extensible systems. When developers think of advanced type systems, they think of things like Haskell’s scary-powerful primitives for creating new types, not of ecosystem-supported common types.” &amp;lt;— YES….AND Both languages with rich primitives like Google Sheets cells/Excel cells/R dataframes/python dataframes should coexist and complement” lower” level “more flexible” languages like Rust and Haskell. There’s no such thing as a “seasoned” developer for every domain. More like in some domains some software developers don’t mind rolling their own low level abstractions. Most people don’t have the time or need for such things :-) they just want to solve a problem with software.&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Tue, 23 Feb 2021 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2021/02/23/p1-tom-macwright-one-way-to-represent-things-like-r-dataframe-python-pandas-spreadsheet-cells/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/02/23/p1-tom-macwright-one-way-to-represent-things-like-r-dataframe-python-pandas-spreadsheet-cells/</guid>
         
         
       </item>
