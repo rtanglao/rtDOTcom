@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 14 Mar 2021 21:45:53 -0700</pubDate>
-    <lastBuildDate>Sun, 14 Mar 2021 21:45:53 -0700</lastBuildDate>
+    <pubDate>Mon, 15 Mar 2021 20:51:04 -0700</pubDate>
+    <lastBuildDate>Mon, 15 Mar 2021 20:51:04 -0700</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>How To Vancouverite in the Rain: Always carry a plastic bag for outdoor coffee and doughnuts in the rain</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Just pour le fun :-)&lt;/li&gt;
+  &lt;li&gt;Always carry a plastic bag so you can have your coffee in the rain.&lt;/li&gt;
+  &lt;li&gt;Seriously it’s not that bad, there’s always some sort of rain shelter somewhere and if you are wearing appropriate rain gear and your back side is dry courtesy of the plastic bag, it’s fun to drink your coffee and eat your doughnut in the rain! And in COVID times there’s the bonus advantage of nobody else doing it :-) !&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 15 Mar 2021 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2021/03/15/p1-how-to-vancouverite-always-carry-a-plastic-bag-for-coffee-and-doughnuts-in-the-rain/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/03/15/p1-how-to-vancouverite-always-carry-a-plastic-bag-for-coffee-and-doughnuts-in-the-rain/</guid>
+        
+        
+      </item>
     
       <item>
         <title>On March 3, 2021 Github action in rt-kits-api3 to get Firefox support questions broke because ruby gem ffi-1.13.1 wasn't found, fix:change Gemfile ffi version to 1.15.0</title>
@@ -160,24 +176,6 @@
         <pubDate>Sun, 28 Feb 2021 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2021/02/28/p1-oren-jay-sofer-defending-against-predatory-listening/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/02/28/p1-oren-jay-sofer-defending-against-predatory-listening/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Justine Tunney: cosmopolitan libc your build-once run-anywhere c library across x86 macOS, Windows 10 and Linux</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://storage.googleapis.com/justine/cosmopolitan/index.html&quot;&gt;Justine Tunney: cosmopolitan libc your build-once run-anywhere c library&lt;/a&gt; via &lt;a href=&quot;https://twitter.com/swartable/status/1365816281782386690&quot;&gt;Write once, run anywhere, in C&lt;/a&gt; &amp;lt;— truly portable command line C apps across x86 Linux, macOS and Windows 10. And probably ARM64 e.g. apple M1 in the near future. Just need a bit of glue code.
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://twitter.com/rtanglao/status/1365882368662278150&quot;&gt;Sample Hello World&lt;/a&gt; that works on Linux, macOS and Windows 10 x86 64 bit&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sat, 27 Feb 2021 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2021/02/27/p1-justine-tunney-portable-c-command-line-apps-across-linux-macos-windows10-x86/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/02/27/p1-justine-tunney-portable-c-command-line-apps-across-linux-macos-windows10-x86/</guid>
         
         
       </item>
