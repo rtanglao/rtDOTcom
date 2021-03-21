@@ -2,7 +2,7 @@
 layout: post
 title: "Kim Stanley Robinson's: The Ministry for the Future: terrible novel but great ideas like giving $USD100K to everybody so highly recommended :-) !"
 ---
-* Probably mis-read:-)  it but I loved [Kim Stanley Robinson](https://www.kimstanleyrobinson.info/)'s: [The Ministry for the Future](https://www.goodreads.com/book/show/50998056-the-ministry-for-the-future): terrible novel but great ideas so highly recommended :-) I agree that we have enough and giving $USD100,000 to everybody would fix 99% of all our problems. #ymmv But think about it an dread the book before casting the notion aside.
+* Probably mis-read:-)  it but I loved [Kim Stanley Robinson](https://www.kimstanleyrobinson.info/)'s: [The Ministry for the Future](https://www.goodreads.com/book/show/50998056-the-ministry-for-the-future): terrible novel but great ideas so highly recommended :-) I agree that we have enough and giving $USD100,000 to everybody would fix 99% of all our problems. #ymmv But think about it and read the book before casting the notion aside.
 
   * "A rational response to an intractable problem. But  not really. There was scientifically supported evidence to show that if  the Earth’s available resources were divided up equally among all eight  billion humans, everyone would be fine. They would all be at adequacy,  and the scientific evidence very robustly supported the contention that  people living at adequacy, and confident they would stay there (a  crucial point), were healthier and thus happier than rich people. So the upshot of that equal division would be an improvement for all.
 
