@@ -6,9 +6,59 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 20 Mar 2021 22:50:56 -0700</pubDate>
-    <lastBuildDate>Sat, 20 Mar 2021 22:50:56 -0700</lastBuildDate>
+    <pubDate>Mon, 22 Mar 2021 20:35:50 -0700</pubDate>
+    <lastBuildDate>Mon, 22 Mar 2021 20:35:50 -0700</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>How To retrieve flickr photos meta data in a 2021 Stylee! Been doing this since September 2010! Now with Ruby 3.0 'except'</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;I started using the flickr API in September 2010: See &lt;a href=&quot;https://gist.github.com/rtanglao/571353&quot;&gt;getGastownPhotos&lt;/a&gt;.rb! 11 years can you believe it?!?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Here’s how I do it in 2021!&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Use &lt;a href=&quot;https://bigbinary.com/blog/ruby-3-adds-new-method-hash-except&quot;&gt;Ruby 3.0 with the new &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Hash#except&lt;/code&gt; method&lt;/a&gt; to exclude members of a hash table in order to &lt;a href=&quot;https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/backup-RolandsPublicPhotoMetaDataByYear.rb#L123&quot;&gt;flatten&lt;/a&gt; a json structure so it can be converted to CSV.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Output is CSV not mongodb so it can be used in R and converted to SQLite:&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;My &lt;a href=&quot;https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/2020-roland-flickr-metadata.csv&quot;&gt;2020 flickr photo metadata&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;My &lt;a href=&quot;https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/2019-roland-flickr-metadata.csv&quot;&gt;2019 flickrphoto metadata&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;some-technical-details&quot;&gt;Some technical details&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You will of course need your flickr api key which you can find at:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://www.flickr.com/services/apps/by/&amp;lt;yourid&amp;gt;&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/backup-RolandsPublicPhotoMetaDataByYear.rb&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;backup-RolandsPublicPhotoMetaDataByYear.rb&lt;/code&gt;&lt;/a&gt; flattens the JSON output from the flickr API. Luckily there’s only 1 thing that has to be flattened which is:&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;photo[&quot;description&quot;][&quot;_content&quot;]&lt;/code&gt; which is flattened to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;photo[&quot;description_content&quot;]&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle &lt;span class=&quot;nb&quot;&gt;install
+&lt;/span&gt;bundle &lt;span class=&quot;nb&quot;&gt;exec&lt;/span&gt; ./backup-RolandsPublicPhotoMetaDataByYear.rb 2020 &lt;span class=&quot;c&quot;&gt;# output: 2020-roland-flickr-metadata.csv&lt;/span&gt;
+bundle &lt;span class=&quot;nb&quot;&gt;exec&lt;/span&gt; ./backup-RolandsPublicPhotoMetaDataByYear.rb 2019 &lt;span class=&quot;c&quot;&gt;# output: 2019-roland-flickr-metadata.csv&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Mon, 22 Mar 2021 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2021/03/22/p1-getting-all-flickr-meta-data-2021-style-been-doing-this-since-2010/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/03/22/p1-getting-all-flickr-meta-data-2021-style-been-doing-this-since-2010/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Kim Stanley Robinson's: The Ministry for the Future: terrible novel but great ideas like giving $USD100K to everybody so highly recommended :-) !</title>
@@ -182,19 +232,6 @@
         <pubDate>Sun, 07 Mar 2021 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2021/03/07/p1-flowing-data-maarten-ambrechts-mapping-geographic-data-ggplot2/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/03/07/p1-flowing-data-maarten-ambrechts-mapping-geographic-data-ggplot2/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Jay Graber: Decentralized Social Ecosystem Review</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Jay Graber:&lt;a href=&quot;https://ipfs.io/ipfs/QmdFrru4PyHzXGZztEPnYToBR3QovD7fkC1HSyty22LzfD&quot;&gt;decentralized social ecosystem review (protocols, applications, topics)&lt;/a&gt; (PDF) via &lt;a href=&quot;http://bmannconsulting.com/decentralized-social-ecosystem-review/&quot;&gt;Boris&lt;/a&gt; includes great summaries of ActivityPub, IPFS, Matrix, Diaspora, Mastadon, etc etc&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 04 Mar 2021 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2021/03/04/p1-jay-graber-decentralized-social-ecosystem-review/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/03/04/p1-jay-graber-decentralized-social-ecosystem-review/</guid>
         
         
       </item>
