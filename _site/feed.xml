@@ -6,9 +6,64 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 22 Mar 2021 20:35:50 -0700</pubDate>
-    <lastBuildDate>Mon, 22 Mar 2021 20:35:50 -0700</lastBuildDate>
+    <pubDate>Fri, 26 Mar 2021 23:25:13 -0700</pubDate>
+    <lastBuildDate>Fri, 26 Mar 2021 23:25:13 -0700</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>My 2019 and 2020 flickr metadata: How To make a 1 table SQLite version</title>
+        <description>&lt;p&gt;See: &lt;a href=&quot;http://rolandtanglao.com/2021/03/24/p1-roland-flickr-metadata-2019-2020-sqlite/&quot;&gt;My 2019 and 2020 flickr data now available as a 2 table SQLite database. Next step:datasette real soon now :-)&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cp &lt;/span&gt;2019-roland-flickr-metadata.csv 2020-and-2019-roland-flickr-metadata.csv
+&lt;span class=&quot;nb&quot;&gt;tail&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; +2 2020-roland-flickr-metadata.csv &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 2020-and-2019-roland-flickr-metadata.csv
+csvs-to-sqlite 2020-and-2019-roland-flickr-metadata.csv &lt;span class=&quot;nt&quot;&gt;-dt&lt;/span&gt; datetaken &lt;span class=&quot;nt&quot;&gt;-dt&lt;/span&gt; dateupload&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;-dt&lt;/span&gt; lastupdate one-table-roland2019-2020.db
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Then upload to dropbox or some other cloud storage because github doesn’t like files larger than 50MB (the SQlite file is over 60MB)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 26 Mar 2021 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2021/03/26/p1-one-table-version-roland-flickr-metadata-2019-2020/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/03/26/p1-one-table-version-roland-flickr-metadata-2019-2020/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>My 2019 and 2020 flickr data now available as a 2 table SQLite database. Next step:datasette real soon now :-)</title>
+        <description>&lt;p&gt;Previously and for more context:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2021/03/22/p1-getting-all-flickr-meta-data-2021-style-been-doing-this-since-2010/&quot;&gt;How To retrieve flickr photos meta data in a 2021 Stylee! Been doing this since September 2010! Now with Ruby 3.0 ‘except’&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2021/02/21/p1-everything-in-sqlitite-and-glitch/&quot;&gt;Everything in SQLite and Datasette and perhaps Glitch&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/05/25/p2-glitch-datasette-firefox-desktop-support-january1-may25-2020/&quot;&gt;HowTo: Datasette on Glitch for Firefox Desktop support questions January 1 to May 25, 2020&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;first-i-created-a-two-table-sqlite-database-using-simon-willisons-csvs-to-sqlite&quot;&gt;First, I created a two table SQLite database using Simon Willison’s csvs-to-sqlite&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;one table for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2019-roland-flickr-metadata.csv&lt;/code&gt; and one table for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2020-roland-flickr-metadata.csv&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;csvs-to-sqlite &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.csv &lt;span class=&quot;nt&quot;&gt;-dt&lt;/span&gt; datetaken &lt;span class=&quot;nt&quot;&gt;-dt&lt;/span&gt; dateupload &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;-dt&lt;/span&gt; lastupdate roland2019-2020.db
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;then-i-uploaded-it-to-dropbox-because-at-67-megabytes-its-too-large-for-github&quot;&gt;Then, I uploaded it to Dropbox because at 67 Megabytes it’s too large for github&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;here is the home of the file on Dropbox: https://www.dropbox.com/s/6j10e2vohp2j5kf/roland2019-2020.db?dl=0&lt;/li&gt;
+  &lt;li&gt;I think a 1 table version that includes 2019 and 2020 in 1 table instead of two is probably better? so making that next&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 24 Mar 2021 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2021/03/24/p1-roland-flickr-metadata-2019-2020-sqlite/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/03/24/p1-roland-flickr-metadata-2019-2020-sqlite/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How To retrieve flickr photos meta data in a 2021 Stylee! Been doing this since September 2010! Now with Ruby 3.0 'except'</title>
@@ -187,51 +242,6 @@ bundle &lt;span class=&quot;nb&quot;&gt;exec&lt;/span&gt; ./backup-RolandsPublic
         <pubDate>Wed, 10 Mar 2021 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2021/03/10/p1-gardner-campbell-online-classs-meeting-preshow/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/03/10/p1-gardner-campbell-online-classs-meeting-preshow/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Excel Never Dies The Spreadsheet That Launched A Million Companies &lt;-- The real 'programming for the people'</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Mar 9, 2021. &lt;a href=&quot;https://www.notboring.co/p/excel-never-dies&quot;&gt;Excel Never Dies The Spreadsheet That Launched A Million Companies&lt;/a&gt; - “Spreadsheets are the real “programming for the people”. “no code” is the best code for people not brainwashed :-) by “traditional” software  development using text editors and IDEs and blah blah :-)&lt;/li&gt;
-  &lt;li&gt;Previously:
-    &lt;ul&gt;
-      &lt;li&gt;April 2018 &lt;a href=&quot;http://rolandtanglao.com/2018/04/26/p1-everybody-who-writes-formulas-or-uses-pivot-tables-in-a-spreadsheet-is-a-programmer/&quot;&gt;Everybody who writes formulas and/or uses pivot tables in a spreadsheet is a programmer&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Tue, 09 Mar 2021 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2021/03/09/p1-excel-never-dies-the-spreadsheet-that-launched-a-million-companies/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/03/09/p1-excel-never-dies-the-spreadsheet-that-launched-a-million-companies/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Maarten Lambrechts: Mapping Geographic Data in R, with ggplot2</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Feb 23, 2021. Maarten Lambrechts: &lt;a href=&quot;https://twitter.com/flowingdata/status/1364266409434341377&quot;&gt;Mapping Geographic Data in R – with ggplot2! flowing data course  yes!&lt;/a&gt; &amp;lt;—-  oh yeah!: I have done maps with ggplot2 before but never had a nice looking course like this one. Hope to apply this a new map based information visualization soon!&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;Previously: &lt;a href=&quot;http://rolandtanglao.com/2017/10/12/p1-maps-of-vancouver-neighourhoods-average-colour-instagram/&quot;&gt;http://rolandtanglao.com/2017/10/12/p1-maps-of-vancouver-neighourhoods-average-colour-instagram/&lt;/a&gt;&lt;/p&gt;
-
-        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/ig-ggmap/blob/master/create-overplotted-Vancouver-neighbourhood-map.R&quot;&gt;create-overplotted-Vancouver-neighbourhood-map.R&lt;/a&gt; in my &lt;a href=&quot;https://github.com/rtanglao/ig-ggmap&quot;&gt;ig-ggmap&lt;/a&gt; repo!&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sun, 07 Mar 2021 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2021/03/07/p1-flowing-data-maarten-ambrechts-mapping-geographic-data-ggplot2/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/03/07/p1-flowing-data-maarten-ambrechts-mapping-geographic-data-ggplot2/</guid>
         
         
       </item>

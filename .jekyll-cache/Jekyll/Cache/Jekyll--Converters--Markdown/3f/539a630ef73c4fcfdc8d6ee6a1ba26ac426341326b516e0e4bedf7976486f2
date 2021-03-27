@@ -1,0 +1,12 @@
+I"Ý<p>See: <a href="http://rolandtanglao.com/2021/03/24/p1-roland-flickr-metadata-2019-2020-sqlite/">My 2019 and 2020 flickr data now available as a 2 table SQLite database. Next step:datasette real soon now :-)</a></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cp </span>2019-roland-flickr-metadata.csv 2020-and-2019-roland-flickr-metadata.csv
+<span class="nb">tail</span> <span class="nt">-n</span> +2 2020-roland-flickr-metadata.csv <span class="o">&gt;&gt;</span> 2020-and-2019-roland-flickr-metadata.csv
+csvs-to-sqlite 2020-and-2019-roland-flickr-metadata.csv <span class="nt">-dt</span> datetaken <span class="nt">-dt</span> dateupload<span class="se">\</span>
+<span class="nt">-dt</span> lastupdate one-table-roland2019-2020.db
+</code></pre></div></div>
+
+<ul>
+  <li>Then upload to dropbox or some other cloud storage because github doesnâ€™t like files larger than 50MB (the SQlite file is over 60MB)</li>
+</ul>
+:ET
