@@ -20,5 +20,5 @@ csvs-to-sqlite *.csv -dt datetaken -dt dateupload \
 
 ## Then, I uploaded it to Dropbox because at 67 Megabytes it's too large for github
 
-* here is the home of the file on Dropbox: https://www.dropbox.com/s/6j10e2vohp2j5kf/roland2019-2020.db?dl=0
+* here is the home of the file on Dropbox: [https://www.dropbox.com/s/6j10e2vohp2j5kf/roland2019-2020.db?dl=0]( https://www.dropbox.com/s/6j10e2vohp2j5kf/roland2019-2020.db?dl=0)
 * I think a 1 table version that includes 2019 and 2020 in 1 table instead of two is probably better? so making that next

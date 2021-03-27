@@ -6,8 +6,8 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 26 Mar 2021 23:25:13 -0700</pubDate>
-    <lastBuildDate>Fri, 26 Mar 2021 23:25:13 -0700</lastBuildDate>
+    <pubDate>Fri, 26 Mar 2021 23:34:46 -0700</pubDate>
+    <lastBuildDate>Fri, 26 Mar 2021 23:34:46 -0700</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -54,7 +54,7 @@ csvs-to-sqlite 2020-and-2019-roland-flickr-metadata.csv &lt;span class=&quot;nt&
 &lt;h2 id=&quot;then-i-uploaded-it-to-dropbox-because-at-67-megabytes-its-too-large-for-github&quot;&gt;Then, I uploaded it to Dropbox because at 67 Megabytes it’s too large for github&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;here is the home of the file on Dropbox: https://www.dropbox.com/s/6j10e2vohp2j5kf/roland2019-2020.db?dl=0&lt;/li&gt;
+  &lt;li&gt;here is the home of the file on Dropbox: &lt;a href=&quot;https://www.dropbox.com/s/6j10e2vohp2j5kf/roland2019-2020.db?dl=0&quot;&gt;https://www.dropbox.com/s/6j10e2vohp2j5kf/roland2019-2020.db?dl=0&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;I think a 1 table version that includes 2019 and 2020 in 1 table instead of two is probably better? so making that next&lt;/li&gt;
 &lt;/ul&gt;
 </description>
