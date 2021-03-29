@@ -6,9 +6,29 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 26 Mar 2021 23:34:46 -0700</pubDate>
-    <lastBuildDate>Fri, 26 Mar 2021 23:34:46 -0700</lastBuildDate>
+    <pubDate>Mon, 29 Mar 2021 12:57:55 -0700</pubDate>
+    <lastBuildDate>Mon, 29 Mar 2021 12:57:55 -0700</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>My 2019 and 2020 flickr data 1 table SQLite and 1 file CSV version</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;one table SQLite&lt;a href=&quot;https://www.dropbox.com/s/zwlcxh6cd5na0ez/one-table-roland2019-2020.db?dl=0&quot;&gt;: one-table-roland2019-2020.db (~70MB)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;one huge CSV file: &lt;a href=&quot;https://www.dropbox.com/s/llkaiznbfpm85lt/2020-and-2019-roland-flickr-metadata.csv?dl=0&quot;&gt;2020-and-2019-roland-flickr-metadata.csv (~60MB&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Previously and for more context:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2021/03/26/p1-one-table-version-roland-flickr-metadata-2019-2020/&quot;&gt;My 2019 and 2020 flickr metadata: How To make a 1 table SQLite version&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 29 Mar 2021 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2021/03/29/p1-roland-flickr-metadata-2019-2020-one-table-sqlite-csv/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/03/29/p1-roland-flickr-metadata-2019-2020-one-table-sqlite-csv/</guid>
+        
+        
+      </item>
     
       <item>
         <title>My 2019 and 2020 flickr metadata: How To make a 1 table SQLite version</title>
@@ -228,20 +248,6 @@ bundle &lt;span class=&quot;nb&quot;&gt;exec&lt;/span&gt; ./backup-RolandsPublic
         <pubDate>Thu, 11 Mar 2021 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2021/03/11/p1-python-graph-gallery/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/03/11/p1-python-graph-gallery/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Gardner Campbell: Online Class meeting preshow</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Mar 9, 2021. &lt;a href=&quot;http://www.gardnercampbell.net/blog1/?p=3135&quot;&gt;Online Class meeting preshow&lt;/a&gt; &amp;lt;— “So I begin admitting students into the Zoom space only after I’ve shared a screen with the title slide for the day. I choose a background for the title slide to set the tone for the day, intellectually or emotionally or ideally both. I also play a song or two so there’s music playing as the students become present in the Zoom space. I start it all up two or three minutes (or more, depending on the length of the song) before the time scheduled for the meeting, so students enter the immersive world of our meeting with the world already in place.” &amp;lt;– genius idea, anything to ease people in!&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Wed, 10 Mar 2021 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2021/03/10/p1-gardner-campbell-online-classs-meeting-preshow/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/03/10/p1-gardner-campbell-online-classs-meeting-preshow/</guid>
         
         
       </item>
