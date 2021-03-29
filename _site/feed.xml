@@ -6,9 +6,35 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 29 Mar 2021 12:57:55 -0700</pubDate>
-    <lastBuildDate>Mon, 29 Mar 2021 12:57:55 -0700</lastBuildDate>
+    <pubDate>Mon, 29 Mar 2021 15:48:55 -0700</pubDate>
+    <lastBuildDate>Mon, 29 Mar 2021 15:48:55 -0700</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>2.9 times as many photos in 2020 versus 2019: Due to wordwrap/end of line issues, i took less photos than  i thought :-)</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;2.9 times as many photos in 2020 compared to 2019 (36911/12638 = 2.9)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;roland@Rolands-MacBook-Air THUMBS_75X75 % mlr &lt;span class=&quot;nt&quot;&gt;--csv&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;cut&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;,datetaken,url_sq &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+../../files_too_big_for_github_rt-flickr-sqlite-csv/2020-and-2019-roland-flickr-metadata.csv &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; /tmp/url_sq.txt
+roland@Rolands-MacBook-Air THUMBS_75X75 % &lt;span class=&quot;nb&quot;&gt;grep &lt;/span&gt;2020- /tmp/url_sq.txt| &lt;span class=&quot;nb&quot;&gt;wc&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt;
+36911
+roland@Rolands-MacBook-Air THUMBS_75X75 % &lt;span class=&quot;nb&quot;&gt;grep &lt;/span&gt;2019- /tmp/url_sq.txt| &lt;span class=&quot;nb&quot;&gt;wc&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt;
+12638
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;demonstrates how to cut fields out of a CSV file using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mlr&lt;/code&gt; aka &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;miller&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Previously wrong :-) on twitter:  &lt;a href=&quot;https://twitter.com/rtanglao/status/1373875361512001538&quot;&gt;I took triple the # of photos in 2020 compared to 2019! “Shutter Therapy” indeed!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 29 Mar 2021 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2021/03/29/p2-wordwrap-issues-2020-photographed-only-two-point-nine-photos-more-than-2019/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/03/29/p2-wordwrap-issues-2020-photographed-only-two-point-nine-photos-more-than-2019/</guid>
+        
+        
+      </item>
     
       <item>
         <title>My 2019 and 2020 flickr data 1 table SQLite and 1 file CSV version</title>
@@ -234,20 +260,6 @@ bundle &lt;span class=&quot;nb&quot;&gt;exec&lt;/span&gt; ./backup-RolandsPublic
         <pubDate>Sun, 14 Mar 2021 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2021/03/14/p1-github-actions-broke-ruby-dependency-no-local-debugging/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/03/14/p1-github-actions-broke-ruby-dependency-no-local-debugging/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>The Python Graph Gallery</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Mar 11, 2021. “&lt;a href=&quot;https://www.python-graph-gallery.com/&quot;&gt;Welcome to the Python Graph Gallery&lt;/a&gt;, a collection of hundreds of charts made with Python. Charts are organized in about 40 sections and always come with their associated reproducible code. They are mostly made with Matplotlib and Seaborn but other library like Plotly are sometimes used” &amp;lt;— So great! I  bet there is a similar site or sites for R and ggplot2 that i forgot  to blog about :-)&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Thu, 11 Mar 2021 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2021/03/11/p1-python-graph-gallery/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/03/11/p1-python-graph-gallery/</guid>
         
         
       </item>

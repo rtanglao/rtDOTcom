@@ -1,0 +1,17 @@
+I"�<ul>
+  <li>2.9 times as many photos in 2020 compared to 2019 (36911/12638 = 2.9)</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>roland@Rolands-MacBook-Air THUMBS_75X75 % mlr <span class="nt">--csv</span> <span class="nb">cut</span> <span class="nt">-f</span> <span class="nb">id</span>,datetaken,url_sq <span class="se">\</span>
+../../files_too_big_for_github_rt-flickr-sqlite-csv/2020-and-2019-roland-flickr-metadata.csv <span class="o">&gt;</span> /tmp/url_sq.txt
+roland@Rolands-MacBook-Air THUMBS_75X75 % <span class="nb">grep </span>2020- /tmp/url_sq.txt| <span class="nb">wc</span> <span class="nt">-l</span>
+36911
+roland@Rolands-MacBook-Air THUMBS_75X75 % <span class="nb">grep </span>2019- /tmp/url_sq.txt| <span class="nb">wc</span> <span class="nt">-l</span>
+12638
+</code></pre></div></div>
+
+<ul>
+  <li>demonstrates how to cut fields out of a CSV file using <code class="language-plaintext highlighter-rouge">mlr</code> aka <code class="language-plaintext highlighter-rouge">miller</code></li>
+  <li>Previously wrong :-) on twitter:  <a href="https://twitter.com/rtanglao/status/1373875361512001538">I took triple the # of photos in 2020 compared to 2019! “Shutter Therapy” indeed!</a></li>
+</ul>
+:ET
