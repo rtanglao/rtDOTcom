@@ -6,9 +6,38 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 29 Mar 2021 15:48:55 -0700</pubDate>
-    <lastBuildDate>Mon, 29 Mar 2021 15:48:55 -0700</lastBuildDate>
+    <pubDate>Tue, 30 Mar 2021 22:04:29 -0700</pubDate>
+    <lastBuildDate>Tue, 30 Mar 2021 22:04:29 -0700</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>What information visualizations and metrics should I create from my flickr photos and metadata from 2019 and 2020?</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Some ideas:
+    &lt;ul&gt;
+      &lt;li&gt;Make visualizations from the 250 odd web safe colours by mapping average colour to web safe colour&lt;/li&gt;
+      &lt;li&gt;Make visualizations from the 600 odd R colours by mapping average colour the R colours in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;plotrix&lt;/code&gt; package&lt;/li&gt;
+      &lt;li&gt;Make maps of the photos of Vancouver, Vancouver neighbourhoods&lt;/li&gt;
+      &lt;li&gt;Plot metrics of when photos were taken with average colour?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Previously:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2021/03/29/p2-wordwrap-issues-2020-photographed-only-two-point-nine-photos-more-than-2019/&quot;&gt;2.9 times as many photos in 2020 versus 2019: Due to wordwrap/end of line issues, i took less photos than  i thought :-)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2021/03/29/p1-roland-flickr-metadata-2019-2020-one-table-sqlite-csv/&quot;&gt;My 2019 and 2020 flickr data 1 table SQLite and 1 file CSV version&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2021/03/26/p1-one-table-version-roland-flickr-metadata-2019-2020/&quot;&gt;My 2019 and 2020 flickr metadata: How To make a 1 table SQLite version&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2021/03/24/p1-roland-flickr-metadata-2019-2020-sqlite/&quot;&gt;My 2019 and 2020 flickr data now available as a 2 table SQLite database. Next step:datasette real soon now :-)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2021/03/22/p1-getting-all-flickr-meta-data-2021-style-been-doing-this-since-2010/&quot;&gt;How To retrieve flickr photos meta data in a 2021 Stylee! Been doing this since September 2010! Now with Ruby 3.0 ‘except’&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 30 Mar 2021 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2021/03/30/p1-ideas-for-flickr-photo-metadata-visualizations-metrics/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/03/30/p1-ideas-for-flickr-photo-metadata-visualizations-metrics/</guid>
+        
+        
+      </item>
     
       <item>
         <title>2.9 times as many photos in 2020 versus 2019: Due to wordwrap/end of line issues, i took less photos than  i thought :-)</title>
@@ -239,27 +268,6 @@ bundle &lt;span class=&quot;nb&quot;&gt;exec&lt;/span&gt; ./backup-RolandsPublic
         <pubDate>Mon, 15 Mar 2021 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2021/03/15/p1-how-to-vancouverite-always-carry-a-plastic-bag-for-coffee-and-doughnuts-in-the-rain/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/03/15/p1-how-to-vancouverite-always-carry-a-plastic-bag-for-coffee-and-doughnuts-in-the-rain/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>On March 3, 2021 Github action in rt-kits-api3 to get Firefox support questions broke because ruby gem ffi-1.13.1 wasn't found, fix:change Gemfile ffi version to 1.15.0</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;On March 3, 2021 my github action to get Firefox desktop support questions &lt;a href=&quot;https://github.com/rtanglao/rt-kits-api3/runs/2022817162?check_suite_focus=true&quot;&gt;failed&lt;/a&gt; because the shared library for this &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ffi&lt;/code&gt; Ruby gem couldn’t be found!?!?
-    &lt;ul&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;LoadError: libffi.so.6: cannot open shared object file: No such file or directory - /home/runner/work/rt-kits-api3/rt-kits-api3/vendor/bundle/ruby/2.7.0/extensions/x86_64-linux/2.7.0/ffi-1.13.1/ffi_c.so&lt;/code&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Still not sure why?!?&lt;/li&gt;
-  &lt;li&gt;But the fix was to change the &lt;a href=&quot;https://github.com/rtanglao/rt-kits-api3/commit/f63e754fee491ea66a04a9dfd27e4b039fac921c&quot;&gt;Gemfile.lock version&lt;/a&gt; of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ffi&lt;/code&gt; to version &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1.15.0&lt;/code&gt; from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1.13.1&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;There doesn’t seem to be a way to test Github actions locally that is easy. A local testing utility called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;act&lt;/code&gt; exists but &lt;a href=&quot;https://twitter.com/rtanglao/status/1371274319121182720&quot;&gt;seems to have limitations&lt;/a&gt;. I don’t know since I haven’t tested it. I’ll take Pomax’s word for it :-)&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sun, 14 Mar 2021 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2021/03/14/p1-github-actions-broke-ruby-dependency-no-local-debugging/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/03/14/p1-github-actions-broke-ruby-dependency-no-local-debugging/</guid>
         
         
       </item>
