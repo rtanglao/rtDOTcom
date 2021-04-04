@@ -6,9 +6,40 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 30 Mar 2021 22:04:29 -0700</pubDate>
-    <lastBuildDate>Tue, 30 Mar 2021 22:04:29 -0700</lastBuildDate>
+    <pubDate>Sat, 03 Apr 2021 19:56:01 -0700</pubDate>
+    <lastBuildDate>Sat, 03 Apr 2021 19:56:01 -0700</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>How To Use Imagemagick Version 7 convert to to resize an image to get average colour</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ggrep&lt;/code&gt; because of OS X BSD  ridiculousness :-)
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;magick convert  2020-12-31-01-12-41-50781630447-IMG_4248.jpg &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;-resize&lt;/span&gt; 1x1 txt:- | ggrep &lt;span class=&quot;nt&quot;&gt;-Po&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;#[[:xdigit:]]{6}
+#58473A
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Previously:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;From Imagemagick pre-version 7, February, 2017:&lt;a href=&quot;http://rolandtanglao.com/2017/02/21/p1-Average-colour-using-imagemagick-convert/&quot;&gt;http://rolandtanglao.com/2017/02/21/p1-Average-colour-using-imagemagick-convert/&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;convert rose: &lt;span class=&quot;nt&quot;&gt;-scale&lt;/span&gt; 1x1 &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;-format&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'%[fx:int(255*r+.5)],%[fx:int(255*g+.5)],%[fx:int(255*b+.5)]'&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+info:-
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Sat, 03 Apr 2021 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2021/04/03/p1-imagemagick-version-7-average-colour-using-convert/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/04/03/p1-imagemagick-version-7-average-colour-using-convert/</guid>
+        
+        
+      </item>
     
       <item>
         <title>What information visualizations and metrics should I create from my flickr photos and metadata from 2019 and 2020?</title>
@@ -252,22 +283,6 @@ bundle &lt;span class=&quot;nb&quot;&gt;exec&lt;/span&gt; ./backup-RolandsPublic
         <pubDate>Tue, 16 Mar 2021 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2021/03/16/p1-how-to-vancouverite-always-carry-chopsticks-spoon-fork-knife-napkin-dining-rain/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/03/16/p1-how-to-vancouverite-always-carry-chopsticks-spoon-fork-knife-napkin-dining-rain/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How To Vancouverite in the Rain: Always carry a plastic bag for outdoor coffee and doughnuts in the rain</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Juste pour le fun :-)&lt;/li&gt;
-  &lt;li&gt;Always carry a plastic bag so you can have your coffee in the rain.&lt;/li&gt;
-  &lt;li&gt;Seriously it’s not that bad, there’s always some sort of rain shelter somewhere and if you are wearing appropriate rain gear and your back side is dry courtesy of the plastic bag, it’s fun to drink your coffee and eat your doughnut in the rain! And in COVID times there’s the bonus advantage of nobody else doing it :-) !&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 15 Mar 2021 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2021/03/15/p1-how-to-vancouverite-always-carry-a-plastic-bag-for-coffee-and-doughnuts-in-the-rain/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/03/15/p1-how-to-vancouverite-always-carry-a-plastic-bag-for-coffee-and-doughnuts-in-the-rain/</guid>
         
         
       </item>

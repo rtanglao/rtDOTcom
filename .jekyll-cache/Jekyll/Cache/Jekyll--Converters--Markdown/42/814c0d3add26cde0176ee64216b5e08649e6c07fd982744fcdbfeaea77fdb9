@@ -1,0 +1,22 @@
+I"a<ul>
+  <li><code class="language-plaintext highlighter-rouge">ggrep</code> because of OS X BSD  ridiculousness :-)
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>magick convert  2020-12-31-01-12-41-50781630447-IMG_4248.jpg <span class="se">\</span>
+<span class="nt">-resize</span> 1x1 txt:- | ggrep <span class="nt">-Po</span> <span class="s2">"#[[:xdigit:]]{6}
+#58473A
+</span></code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Previously:</p>
+
+    <ul>
+      <li>From Imagemagick pre-version 7, February, 2017:<a href="http://rolandtanglao.com/2017/02/21/p1-Average-colour-using-imagemagick-convert/">http://rolandtanglao.com/2017/02/21/p1-Average-colour-using-imagemagick-convert/</a></li>
+    </ul>
+  </li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>convert rose: <span class="nt">-scale</span> 1x1 <span class="se">\</span>
+<span class="nt">-format</span> <span class="s1">'%[fx:int(255*r+.5)],%[fx:int(255*g+.5)],%[fx:int(255*b+.5)]'</span><span class="se">\</span>
+info:-
+</code></pre></div></div>
+
+:ET
