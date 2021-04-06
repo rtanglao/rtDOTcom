@@ -1,9 +1,0 @@
-I"’<ul>
-  <li>I started using the flickr API in September 2010: See <a href="https://gist.github.com/rtanglao/571353">getGastownPhotos</a>.rb! 11 years can you believe it?!?</li>
-  <li>Hereâ€™s how I do it in 2021!
-    <ul>
-      <li>Use <a href="https://bigbinary.com/blog/ruby-3-adds-new-method-hash-except">Ruby 3.0 with the new <code class="language-plaintext highlighter-rouge">Hash#except</code> method</a> to exclude members of a hash table in order to <a href="https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/backup-RolandsPublicPhotoMetaDataByYear.rb#L123">flatten</a> a json structure so it can be converted to</li>
-    </ul>
-  </li>
-</ul>
-:ET
