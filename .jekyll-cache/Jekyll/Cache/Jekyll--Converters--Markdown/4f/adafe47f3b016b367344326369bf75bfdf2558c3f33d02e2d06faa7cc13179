@@ -1,0 +1,19 @@
+I"¼<ul>
+  <li>As per <a href="https://stackoverflow.com/questions/46310408/convert-raw-rgb32-file-to-jpeg-or-png-using-ffmpeg">Convert raw RGB32 file to JPEG or PNG using FFmpeg</a>, hereâ€™s how to convert a  <code class="language-plaintext highlighter-rouge">.raw</code> file of RGB values without a header to a PNG</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>xxd <span class="nt">-l</span> 49284 <span class="nt">-u</span> <span class="nt">-r</span> <span class="nt">-p</span> <span class="se">\</span>
+2020-and-2019-roland-flickr-imagemagick-average-colours.txt<span class="se">\</span>
+2020-and-2019-roland-flickr-imagemagick-average-colours.raw
+ ffmpeg <span class="nt">-f</span> rawvideo <span class="nt">-pixel_format</span> rgb24 <span class="nt">-video_size</span> 222x222 <span class="se">\</span>
+ <span class="nt">-i</span> 2020-and-2019-roland-flickr-imagemagick-average-colours.raw <span class="nt">-frames</span>:v 1 output.png
+ <span class="nb">mv </span>output.png ffmpeg-2020-and-2019-roland-flick-average-colour-output.png
+</code></pre></div></div>
+<ul>
+  <li>Untested but perhaps adding a header like the following will work?
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code></code></pre></div>    </div>
+  </li>
+  <li>See <a href="http://rolandtanglao.com/2021/04/05/p1-rename-file-from-rgb-to-raw-opened-photoshop-converted-to-png/">Average colour according to imagemagick resize of my flickr photos Jan 1, 2019 - Dec 31, 2020</a> where I document how to do it  with Photoshop and the <code class="language-plaintext highlighter-rouge">xxd</code> command to get the raw file</li>
+</ul>
+
+:ET
