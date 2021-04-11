@@ -6,31 +6,31 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 11 Apr 2021 12:07:07 -0700</pubDate>
-    <lastBuildDate>Sun, 11 Apr 2021 12:07:07 -0700</lastBuildDate>
+    <pubDate>Sun, 11 Apr 2021 12:16:32 -0700</pubDate>
+    <lastBuildDate>Sun, 11 Apr 2021 12:16:32 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
-        <title>Why do I need two extra bytes to make a 222x222 png using imagemagick (and why didn't this surface in 2016? 64 bit boundary issue? Padding issue? Little Endian? Big Endian?)</title>
+        <title>Why do I need two extra three byte values to make a 222x222 png using imagemagick (and why didn't this surface in 2016? 64 bit boundary issue? Padding issue? Little Endian? Big Endian?)</title>
         <description>&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Why do I need two extra bytes to make a 222x222 png using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;imagemagick&lt;/code&gt; ?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/README.md#10april2021-two-extra-bytes-fixes-it-i-am-not-sure-why&quot;&gt;Again&lt;/a&gt; :-) I don’t understand why since 222*222 = 49,284 so I shouldn’t need 49, 286 3 byte colour values right? Just 49 284 should be sufficient. What am I missing?&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Perhaps 64 bit boundary? Or little endian? big endian?&lt;/p&gt;
-
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;% &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;printf&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;P6&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;%d %d&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; 222 222 &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;1st-49284-2020-2019-roland-flickr-average-colours.rgb&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+  &lt;li&gt;Why do I need two extra three byte values to make a 222x222 png using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;imagemagick&lt;/code&gt; ?&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/README.md#10april2021-two-extra-bytes-fixes-it-i-am-not-sure-why&quot;&gt;Again&lt;/a&gt; :-) I don’t understand why since 222*222 = 49,284 so I shouldn’t need 49,286 three byte colour values right? Just 49,284 should be sufficient. What am I missing?&lt;/li&gt;
+  &lt;li&gt;Perhaps 64 bit boundary? Or little endian? big endian?
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;% &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;printf&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;P6&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;%d %d&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; 222 222 &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;1st-49284-2020-2019-roland-flickr-average-colours.rgb&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
 | magick  - image88.png
-magick: unable to &lt;span class=&quot;nb&quot;&gt;read &lt;/span&gt;image data &lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;/var/folders/h0/m31kq8415wb50xg_7kwk06h40000gn/T/magick-2mCuD6a8H66a7qb5_WpeXHJ3uph3P9pv&lt;span class=&quot;s1&quot;&gt;' @ error/pnm.c/ReadPNMImage/1442.
-% { printf &quot;P6\n%d %d\n255\n&quot; 222 222 ; cat 1st-49286-2020-2019-roland-flickr-average-colours.rgb} \
+magick: unable to &lt;span class=&quot;nb&quot;&gt;read &lt;/span&gt;image data&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;'/var/folders/h0/m31kq8415wb50xg_7kwk06h40000gn/T/\
+magick-2mCuD6a8H66a7qb5_WpeXHJ3uph3P9pv'&lt;/span&gt; @&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+error/pnm.c/ReadPNMImage/1442.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;% &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;printf&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;P6&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;%d %d&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; 222 222 &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;1st-49286-2020-2019-roland-flickr-average-colours.rgb&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
 | magick  - image88.png
-% # no error message i.e. it works!
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+% &lt;span class=&quot;c&quot;&gt;# no error message i.e. it works!&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;And why didn’t this surface in 2016’s blog post about this: &lt;a href=&quot;http://rolandtanglao.com/2016/01/25/p3-using-convert-to-make-a-png-from-rgb-file/&quot;&gt;How to make a PNG file from an RGB file of ASCII Hex Colours made using xxd&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
+  &lt;li&gt;And why didn’t this surface in 2016’s blog post about this: &lt;a href=&quot;http://rolandtanglao.com/2016/01/25/p3-using-convert-to-make-a-png-from-rgb-file/&quot;&gt;How to make a PNG file from an RGB file of ASCII Hex Colours made using xxd&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;And yes I am totally over-analyzing this :-) !&lt;/li&gt;
 &lt;/ul&gt;
 
