@@ -1,0 +1,13 @@
+I"¤<ul>
+  <li>As per <a href="https://stackoverflow.com/questions/62602215/converting-raw-images-without-headers">Converting raw images without headers</a> but in one step. No need to create an intermediate ppm file</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">{</span> <span class="nb">printf</span> <span class="s2">"P6</span><span class="se">\n</span><span class="s2">%d %d</span><span class="se">\n</span><span class="s2">255</span><span class="se">\n</span><span class="s2">"</span> WIDTH HEIGHT <span class="p">;</span> <span class="nb">cat </span>YOURFILE<span class="p">;</span> <span class="o">}</span> <span class="o">&gt;</span> result.ppm
+magick result.ppm result.png
+<span class="c"># &lt;-- 1 step and therefore better :-)</span>
+</code></pre></div></div>
+<ul>
+  <li>See previous post on how to do this with <code class="language-plaintext highlighter-rouge">ffmpeg</code>: <a href="http://rolandtanglao.com/2021/04/06/p1-ffmpeg-photoshop-convert-raw-rgb-file-without-headers-to-png/">Photoshop-less way using ffmpeg to convert an RGB file created by xxd without a header to a PNG</a></li>
+</ul>
+
+:ET

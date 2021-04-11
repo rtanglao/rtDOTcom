@@ -6,9 +6,37 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 08 Apr 2021 19:53:16 -0700</pubDate>
-    <lastBuildDate>Thu, 08 Apr 2021 19:53:16 -0700</lastBuildDate>
+    <pubDate>Sat, 10 Apr 2021 23:41:42 -0700</pubDate>
+    <lastBuildDate>Sat, 10 Apr 2021 23:41:42 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Photoshop-less way using printf and magick (imagemagick version 7) to convert an RGB file created by xxd without a header to a PNG</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;As per &lt;a href=&quot;https://stackoverflow.com/questions/62602215/converting-raw-images-without-headers&quot;&gt;Converting raw images without headers&lt;/a&gt; but in one step. No need to create an intermediate ppm file&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;printf&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;P6&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;%d %d&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; WIDTH HEIGHT &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;YOURFILE&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; result.ppm
+magick result.ppm result.png
+&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;printf&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;P6&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;%d %d&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; 222 222 &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;no-filetype-2020-and-2019-roland-flickr-imagemagick-average-colours&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+ | magick  - image88.png &lt;span class=&quot;c&quot;&gt;# &amp;lt;-- 1 step and therefore better :-)&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# or in imagemagick version 6:&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;printf&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;P6&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;%d %d&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; 222 222 &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;no-filetype-2020-and-2019-roland-flickr-imagemagick-average-colours&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+ | convert  - image88.png
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;See previous post on how to do this with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ffmpeg&lt;/code&gt;: &lt;a href=&quot;http://rolandtanglao.com/2021/04/06/p1-ffmpeg-photoshop-convert-raw-rgb-file-without-headers-to-png/&quot;&gt;Photoshop-less way using ffmpeg to convert an RGB file created by xxd without a header to a PNG&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sat, 10 Apr 2021 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2021/04/10/p1-photoshop-less-using-printf-header-magick-convert-xxd-rgb-png/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/04/10/p1-photoshop-less-using-printf-header-magick-convert-xxd-rgb-png/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Got my first dose of the Astra Zeneca Covid 19 vaccine today. Go science go!</title>
@@ -341,56 +369,6 @@ csvs-to-sqlite 2020-and-2019-roland-flickr-metadata.csv &lt;span class=&quot;nt&
         <pubDate>Wed, 24 Mar 2021 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2021/03/24/p1-roland-flickr-metadata-2019-2020-sqlite/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/03/24/p1-roland-flickr-metadata-2019-2020-sqlite/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How To retrieve flickr photos meta data in a 2021 Stylee! Been doing this since September 2010! Now with Ruby 3.0 'except'</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;I started using the flickr API in September 2010: See &lt;a href=&quot;https://gist.github.com/rtanglao/571353&quot;&gt;getGastownPhotos&lt;/a&gt;.rb! 11 years can you believe it?!?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Here’s how I do it in 2021!&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;Use &lt;a href=&quot;https://bigbinary.com/blog/ruby-3-adds-new-method-hash-except&quot;&gt;Ruby 3.0 with the new &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Hash#except&lt;/code&gt; method&lt;/a&gt; to exclude members of a hash table in order to &lt;a href=&quot;https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/backup-RolandsPublicPhotoMetaDataByYear.rb#L123&quot;&gt;flatten&lt;/a&gt; a json structure so it can be converted to CSV.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Output is CSV not mongodb so it can be used in R and converted to SQLite:&lt;/p&gt;
-
-        &lt;ul&gt;
-          &lt;li&gt;My &lt;a href=&quot;https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/2020-roland-flickr-metadata.csv&quot;&gt;2020 flickr photo metadata&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;My &lt;a href=&quot;https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/2019-roland-flickr-metadata.csv&quot;&gt;2019 flickrphoto metadata&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;some-technical-details&quot;&gt;Some technical details&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;You will of course need your flickr api key which you can find at:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://www.flickr.com/services/apps/by/&amp;lt;yourid&amp;gt;&lt;/code&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/backup-RolandsPublicPhotoMetaDataByYear.rb&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;backup-RolandsPublicPhotoMetaDataByYear.rb&lt;/code&gt;&lt;/a&gt; flattens the JSON output from the flickr API. Luckily there’s only 1 thing that has to be flattened which is:&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;photo[&quot;description&quot;][&quot;_content&quot;]&lt;/code&gt; which is flattened to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;photo[&quot;description_content&quot;]&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bundle &lt;span class=&quot;nb&quot;&gt;install
-&lt;/span&gt;bundle &lt;span class=&quot;nb&quot;&gt;exec&lt;/span&gt; ./backup-RolandsPublicPhotoMetaDataByYear.rb 2020 &lt;span class=&quot;c&quot;&gt;# output: 2020-roland-flickr-metadata.csv&lt;/span&gt;
-bundle &lt;span class=&quot;nb&quot;&gt;exec&lt;/span&gt; ./backup-RolandsPublicPhotoMetaDataByYear.rb 2019 &lt;span class=&quot;c&quot;&gt;# output: 2019-roland-flickr-metadata.csv&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-</description>
-        <pubDate>Mon, 22 Mar 2021 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2021/03/22/p1-getting-all-flickr-meta-data-2021-style-been-doing-this-since-2010/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/03/22/p1-getting-all-flickr-meta-data-2021-style-been-doing-this-since-2010/</guid>
         
         
       </item>
