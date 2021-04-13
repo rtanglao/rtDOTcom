@@ -6,9 +6,56 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 11 Apr 2021 12:16:32 -0700</pubDate>
-    <lastBuildDate>Sun, 11 Apr 2021 12:16:32 -0700</lastBuildDate>
+    <pubDate>Mon, 12 Apr 2021 20:24:20 -0700</pubDate>
+    <lastBuildDate>Mon, 12 Apr 2021 20:24:20 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Not an imagemagick bug but an unclean data problem: one of the rows is missing an average colour because there was no thumbnail in flickr</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Yesterday in &lt;a href=&quot;http://rolandtanglao.com/2021/04/11/p1-why-two-extra-bytes-to-make-222-222-png-using-imagemagick/&quot;&gt;Why do I need two extra three byte values to make a 222x222 png using  imagemagick (and why didn’t this surface in 2016? 64 bit boundary issue?  Padding issue? Little Endian? Big Endian?)&lt;/a&gt; I was wrong. Not an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;imagemagick&lt;/code&gt; issue it turns out but a an unclean data problem; one of the rows is missing an average colour because there was no thumbnail in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;flickr&lt;/code&gt;. No thumbnail  means nothing to compute the average colour of so the row is blank in the dataset! Fixed it by removing that one row using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grep&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;details&quot;&gt;Details&lt;/h1&gt;
+&lt;h2 id=&quot;12april2021-figured-it-out-its-my-non-clean-data--&quot;&gt;12april2021 figured it out, it’s my non clean data :-)&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;remove the one row i.e. row 19907 without a thumbnail and therefore without an average colour and then go from there!
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt;  &lt;span class=&quot;s2&quot;&gt;&quot;#&quot;&lt;/span&gt; 2020-and-2019-roland-flickr-imagemagick-average-colours.txt &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; missing-thumbnail-with-missing-avgcolour-removed-2020-and-2019-roland-flickr-imagemagick-average-colours.txt
+&lt;span class=&quot;nb&quot;&gt;head&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; 49284 missing-thumbnail-with-missing-avgcolour-removed-2020-and-2019-roland-flickr-imagemagick-average-colours.txt &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;49284-missing-thumbnail-with-missing-avgcolour-removed-2020-and-2019-roland-flickr-imagemagick-average-colours.txt
+xxd &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt; 49284 &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-r&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+49284-missing-thumbnail-with-missing-avgcolour-removed-2020-and-2019-roland-flickr-imagemagick-average-colours.txt &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; 49284-missing-thumbnail-with-missing-avgcolour-removed-2020-and-2019-roland-flickr-imagemagick-average-colours.rgb
+magick &lt;span class=&quot;nt&quot;&gt;-depth&lt;/span&gt; 8 &lt;span class=&quot;nt&quot;&gt;-size&lt;/span&gt; 222x222 &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+49284-missing-thumbnail-with-missing-avgcolour-removed-2020-and-2019-roland-flickr-imagemagick-average-colours.rgb &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+49284-missing-thumbnail-with-missing-avgcolour-removed-2020-and-2019-roland-flickr-imagemagick-average-colours.png
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;12april2021-probably-not-an-imagemagick-but-a-bug-in-my-data-aka-i-forgot-that-the-average-colour-is-missing-for-1-row&quot;&gt;12april2021 probably not an imagemagick but a bug in my data aka i forgot that the average colour is missing for 1 row!&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;row 19907 doesn’t have an average colour because flickr doesn’t have a thumbnail!
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;% &lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-C&lt;/span&gt; 3 &lt;span class=&quot;nt&quot;&gt;-vn&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;#&quot;&lt;/span&gt; 1st-49284-2020-2019-roland-flickr-average-colours.txt 
+19904-#333436
+19905-#AAABAD
+19906-#AFAFAF
+19907:
+19908-#A7A9AA
+19909-#B7B8B7
+19910-#B5B6B6
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 12 Apr 2021 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2021/04/12/p1-data-not-clean-problem-not-imagemagick-bug/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/04/12/p1-data-not-clean-problem-not-imagemagick-bug/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Why do I need two extra three byte values to make a 222x222 png using imagemagick (and why didn't this surface in 2016? 64 bit boundary issue? Padding issue? Little Endian? Big Endian?)</title>
@@ -346,27 +393,6 @@ roland@Rolands-MacBook-Air THUMBS_75X75 % &lt;span class=&quot;nb&quot;&gt;grep 
         <pubDate>Mon, 29 Mar 2021 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2021/03/29/p1-roland-flickr-metadata-2019-2020-one-table-sqlite-csv/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/03/29/p1-roland-flickr-metadata-2019-2020-one-table-sqlite-csv/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>My 2019 and 2020 flickr metadata: How To make a 1 table SQLite version</title>
-        <description>&lt;p&gt;See: &lt;a href=&quot;http://rolandtanglao.com/2021/03/24/p1-roland-flickr-metadata-2019-2020-sqlite/&quot;&gt;My 2019 and 2020 flickr data now available as a 2 table SQLite database. Next step:datasette real soon now :-)&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cp &lt;/span&gt;2019-roland-flickr-metadata.csv 2020-and-2019-roland-flickr-metadata.csv
-&lt;span class=&quot;nb&quot;&gt;tail&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; +2 2020-roland-flickr-metadata.csv &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 2020-and-2019-roland-flickr-metadata.csv
-csvs-to-sqlite 2020-and-2019-roland-flickr-metadata.csv &lt;span class=&quot;nt&quot;&gt;-dt&lt;/span&gt; datetaken &lt;span class=&quot;nt&quot;&gt;-dt&lt;/span&gt; dateupload&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;-dt&lt;/span&gt; lastupdate one-table-roland2019-2020.db
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Then upload to dropbox or some other cloud storage because github doesn’t like files larger than 50MB (the SQlite file is over 60MB)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 26 Mar 2021 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2021/03/26/p1-one-table-version-roland-flickr-metadata-2019-2020/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/03/26/p1-one-table-version-roland-flickr-metadata-2019-2020/</guid>
         
         
       </item>
