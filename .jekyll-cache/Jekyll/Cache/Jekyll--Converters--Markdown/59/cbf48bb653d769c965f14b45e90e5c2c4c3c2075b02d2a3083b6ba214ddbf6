@@ -1,4 +1,0 @@
-I"Z<ul>
-  <li>Yesterday in <a href="http://rolandtanglao.com/2021/04/11/p1-why-two-extra-bytes-to-make-222-222-png-using-imagemagick/">Wy  do I need two extra three byte values to make a 222x222 png using  imagemagick (and why didn’t this surface in 2016? 64 bit boundary issue?  Padding issue? Little Endian? Big Endian?)</a> I was wrong. Not an imagemagick issue it turns out but a an unclean data problem; one of the rows is missing an average colour because there was no thumbnail in flickr. No thumbnail  meansnothing to compute the average colour of so the row is blank in the dataset!</li>
-</ul>
-:ET
