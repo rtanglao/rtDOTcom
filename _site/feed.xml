@@ -6,9 +6,38 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 18 Apr 2021 13:09:00 -0700</pubDate>
-    <lastBuildDate>Sun, 18 Apr 2021 13:09:00 -0700</lastBuildDate>
+    <pubDate>Tue, 20 Apr 2021 22:33:20 -0700</pubDate>
+    <lastBuildDate>Tue, 20 Apr 2021 22:33:20 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>HowTo add the 657 built in R colors to the flickr dataset (you need rowwise())</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;the dataset withe R colors is on dropbox:
+https://www.dropbox.com/s/sfooyejehxus7rq/2020-and-2019-roland-flickr-filename-imavgcolour-plotrixavgcolour-metadata.csv?dl=0&lt;/li&gt;
+  &lt;li&gt;need &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rowwise()&lt;/code&gt; otherwise it computes the color of all the rows not row by row!
+    &lt;div class=&quot;language-R highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tidyverse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;plotrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read_csv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://www.dropbox.com/s/km9r94fz2ixknc7/2020-and-2019-roland-flickr-filename-imagemagick-avg-colour-metadata.csv?dl=1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df_with_plotrix_colour&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rowwise&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mutate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;synth_plotrixcolour&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
+         &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;if_else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;synth_75sqisvalid&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;color.id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;synth_75imaveragecolour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# Note, &quot;' gets converted to &quot;NA&quot; by write_csv() by default&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write_csv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df_with_plotrix_colour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/Users/roland/Documents/GIT/files_too_big_for_github_rt-flickr-sqlite-csv/2020-and-2019-roland-flickr-filename-imavgcolour-plotrixavgcolour-metadata.csv&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;na&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 20 Apr 2021 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2021/04/20/p1-howto-add-657-builtin-colours-to-the-flickr-dataset/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/04/20/p1-howto-add-657-builtin-colours-to-the-flickr-dataset/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Please help Vancouver restaurants by dining on their patios and getting takeout (do not use U*erats or S*ip the dishes if you can!)</title>
@@ -336,37 +365,6 @@ samplecolumn1value,samplecolumn2value
         <pubDate>Mon, 05 Apr 2021 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2021/04/05/p1-rename-file-from-rgb-to-raw-opened-photoshop-converted-to-png/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/04/05/p1-rename-file-from-rgb-to-raw-opened-photoshop-converted-to-png/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How To Use Imagemagick Version 7 convert to to resize an image to get average colour</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ggrep&lt;/code&gt; because of OS X BSD  ridiculousness :-)
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;magick convert  2020-12-31-01-12-41-50781630447-IMG_4248.jpg &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;-resize&lt;/span&gt; 1x1 txt:- | ggrep &lt;span class=&quot;nt&quot;&gt;-Po&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;#[[:xdigit:]]{6}
-#58473A
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Previously:&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;From Imagemagick pre-version 7, February, 2017:&lt;a href=&quot;http://rolandtanglao.com/2017/02/21/p1-Average-colour-using-imagemagick-convert/&quot;&gt;http://rolandtanglao.com/2017/02/21/p1-Average-colour-using-imagemagick-convert/&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;convert rose: &lt;span class=&quot;nt&quot;&gt;-scale&lt;/span&gt; 1x1 &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;-format&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'%[fx:int(255*r+.5)],%[fx:int(255*g+.5)],%[fx:int(255*b+.5)]'&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-info:-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-</description>
-        <pubDate>Sat, 03 Apr 2021 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2021/04/03/p1-imagemagick-version-7-average-colour-using-convert/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/04/03/p1-imagemagick-version-7-average-colour-using-convert/</guid>
         
         
       </item>

@@ -1,0 +1,20 @@
+I"F<ul>
+  <li>the dataset withe R colors is on dropbox:
+https://www.dropbox.com/s/sfooyejehxus7rq/2020-and-2019-roland-flickr-filename-imavgcolour-plotrixavgcolour-metadata.csv?dl=0</li>
+  <li>need <code class="language-plaintext highlighter-rouge">rowwise()</code> otherwise it computes the color of all the rows not row by row!
+    <div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">plotrix</span><span class="p">)</span><span class="w">
+</span><span class="n">df</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">read_csv</span><span class="p">(</span><span class="err">\</span><span class="w">
+</span><span class="s2">"https://www.dropbox.com/s/km9r94fz2ixknc7/2020-and-2019-roland-flickr-filename-imagemagick-avg-colour-metadata.csv?dl=1"</span><span class="p">)</span><span class="w">
+</span><span class="n">df_with_plotrix_colour</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">df</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
+</span><span class="n">rowwise</span><span class="p">()</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
+</span><span class="n">mutate</span><span class="p">(</span><span class="n">synth_plotrixcolour</span><span class="w"> </span><span class="o">=</span><span class="w"> 
+         </span><span class="n">if_else</span><span class="p">(</span><span class="n">synth_75sqisvalid</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w"> </span><span class="n">color.id</span><span class="p">(</span><span class="n">synth_75imaveragecolour</span><span class="p">)[</span><span class="m">1</span><span class="p">]))</span><span class="w">
+</span><span class="c1"># Note, "' gets converted to "NA" by write_csv() by default</span><span class="w">
+</span><span class="n">write_csv</span><span class="p">(</span><span class="n">df_with_plotrix_colour</span><span class="p">,</span><span class="w"> </span><span class="err">\</span><span class="w">
+</span><span class="s2">"/Users/roland/Documents/GIT/files_too_big_for_github_rt-flickr-sqlite-csv/2020-and-2019-roland-flickr-filename-imavgcolour-plotrixavgcolour-metadata.csv"</span><span class="err">\</span><span class="w">
+</span><span class="p">,</span><span class="w"> </span><span class="n">na</span><span class="o">=</span><span class="s2">""</span><span class="p">)</span><span class="w">
+</span></code></pre></div>    </div>
+  </li>
+</ul>
+:ET
