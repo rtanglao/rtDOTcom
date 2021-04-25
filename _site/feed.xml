@@ -6,9 +6,23 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 20 Apr 2021 22:33:20 -0700</pubDate>
-    <lastBuildDate>Tue, 20 Apr 2021 22:33:20 -0700</lastBuildDate>
+    <pubDate>Sat, 24 Apr 2021 20:24:42 -0700</pubDate>
+    <lastBuildDate>Sat, 24 Apr 2021 20:24:42 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Unpatent it, manufacture it, vaccinate the planet</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/rtanglao/status/1385412710028890112&quot;&gt;Unpatent it, manufacture it, vaccinate the planet!&lt;/a&gt; It’s the right thing to do!&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2021/04/24/p1-unpatent-it-manufacture-it-vaccinate-the-planet/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/04/24/p1-unpatent-it-manufacture-it-vaccinate-the-planet/</guid>
+        
+        
+      </item>
     
       <item>
         <title>HowTo add the 657 built in R colors to the flickr dataset (you need rowwise())</title>
@@ -238,133 +252,6 @@ ffmpeg &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; rawvideo &lt;span class=
         <pubDate>Tue, 06 Apr 2021 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2021/04/06/p1-ffmpeg-photoshop-convert-raw-rgb-file-without-headers-to-png/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/04/06/p1-ffmpeg-photoshop-convert-raw-rgb-file-without-headers-to-png/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Average colour according to imagemagick resize of my flickr photos Jan 1, 2019 - Dec 31, 2020</title>
-        <description>&lt;h1 id=&quot;tldr&quot;&gt;TL;dr&lt;/h1&gt;
-&lt;p&gt;I have average colour of my photos arranged chronologically January 1, 20219 - December 31, 2020. It may be wrong, need to double check :-) This is the output of photoshop in interleaved mode, 3 channels (R, G, B)&lt;/p&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/51097868917/in/datetaken-public/&quot; title=&quot;january 1, 2019, december 31, 2020-interlaced-2020-and-2019-roland-flickr-imagemagick-average-colours&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51097868917_20d09df39f_m.jpg&quot; width=&quot;222&quot; height=&quot;222&quot; alt=&quot;january 1, 2019, december 31, 2020-interlaced-2020-and-2019-roland-flickr-imagemagick-average-colours&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;extra-bonus-glitch-art&quot;&gt;Extra Bonus “glitch” art&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;when you don’t use interleave mode in Photoshop&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/51097868912/in/datetaken-public/&quot; title=&quot;wrong aka glitch art :-) 2020-and-2019-roland-flickr-imagemagick-average-colours&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51097868912_dcaff22a34_m.jpg&quot; width=&quot;222&quot; height=&quot;222&quot; alt=&quot;wrong aka glitch art :-) 2020-and-2019-roland-flickr-imagemagick-average-colours&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;details&quot;&gt;Details&lt;/h1&gt;
-
-&lt;h2 id=&quot;05april2021-still-not-sure-why-imagemagick-doesnt-work-maybe-because-the-header-is-missing-or-maybe-because-it-doesnt-end-with-raw&quot;&gt;05april2021 still not sure why imagemagick doesn’t work, maybe because the header is missing or maybe because it doesn’t end with ‘.raw’?&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;add the header as per this stack overflow question, &lt;a href=&quot;https://stackoverflow.com/questions/62602215/converting-raw-images-without-headers&quot;&gt;Converting raw images without headers&lt;/a&gt;?
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;printf&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;P6&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;%d %d&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; WIDTH HEIGHT &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;YOURFILE&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; result.ppm
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;or use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ffmpeg&lt;/code&gt; as per this stack overflow question, &lt;a href=&quot;https://stackoverflow.com/questions/46310408/convert-raw-rgb32-file-to-jpeg-or-png-using-ffmpeg&quot;&gt;Convert raw RGB32 file to JPEG or PNG using FFmpeg&lt;/a&gt;?
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ffmpeg &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; rawvideo &lt;span class=&quot;nt&quot;&gt;-pixel_format&lt;/span&gt; rgba &lt;span class=&quot;nt&quot;&gt;-video_size&lt;/span&gt; 320x240 &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; input.raw output.png &lt;span class=&quot;c&quot;&gt;#i would use rgb instead of rgba&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;05april2021-the-file-has-to-be-called-raw-to-be-opened-in-photoshop-in-interleaved-mode&quot;&gt;05april2021 the file has to be called .raw to be opened in photoshop in interleaved mode&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;renamed &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2020-and-2019-roland-flickr-imagemagick-average-colours.rgb&lt;/code&gt; to:
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2020-and-2019-roland-flickr-imagemagick-average-colours.raw&lt;/code&gt; and opened in photoshop in interleaved mode, 3 channels, 222x222pixels and it worked!&lt;/li&gt;
-  &lt;li&gt;here is the PNG which worked: &lt;a href=&quot;https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/THUMBS_75X75/interlaced-2020-and-2019-roland-flickr-imagemagick-average-colours.png&quot;&gt;https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/THUMBS_75X75/interlaced-2020-and-2019-roland-flickr-imagemagick-average-colours.png&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;if you select non interleaved mode, then it doesn’t work but you get glorious glitch art: &lt;a href=&quot;https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/THUMBS_75X75/2020-and-2019-roland-flickr-imagemagick-average-colours.png&quot;&gt;https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/THUMBS_75X75/2020-and-2019-roland-flickr-imagemagick-average-colours.png&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;03april2021-hilariously-gnuplot-works&quot;&gt;03april2021 hilariously gnuplot works&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;see &lt;a href=&quot;http://gnuplot.sourceforge.net/demo_4.4/image.1.gnu&quot;&gt;http://gnuplot.sourceforge.net/demo_4.4/image.1.gnu&lt;/a&gt; which is an example from: http://gnuplot.sourceforge.net/demo_4.4/image.html&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;plot '2020-and-2019-roland-flickr-imagemagick-average-colours.rgb' binary array=222x222 flipy format='%uchar' with rgbimage
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;output: &lt;a href=&quot;https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/THUMBS_75X75/gnuplot-2020-and-2019.png&quot;&gt;https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/THUMBS_75X75/gnuplot-2020-and-2019.png&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;03april2021-create-file-of-colours-and-then-raw-file-and-then-png&quot;&gt;03april2021 create file of colours and then raw file and then png&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;1. remove the one bad file which has &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;synth_75sqisvalid&lt;/code&gt; set to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0&lt;/code&gt; aka &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;false&lt;/code&gt;
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mlr &lt;span class=&quot;nt&quot;&gt;--csv&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;cut&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; synth_75imaveragecolour,synth_75sqisvalid &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-../../files_too_big_for_github_rt-flickr-sqlite-csv/2020-and-2019-roland-flickr-filename-imagemagick-avg-colour-metadata.csv&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-| &lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;,0&quot;&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;wc&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt;
-49549
-mlr &lt;span class=&quot;nt&quot;&gt;--csv&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;cut&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; synth_75imaveragecolour,synth_75sqisvalid &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-../../files_too_big_for_github_rt-flickr-sqlite-csv/2020-and-2019-roland-flickr-filename-imagemagick-avg-colour-metadata.csv&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; 2020-and-2019-roland-flickr-imagemagick-average-colours.csv
-mlr &lt;span class=&quot;nt&quot;&gt;--csv&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;cut&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; synth_75imaveragecolour &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;  2020-and-2019-roland-flickr-imagemagick-average-colours.csv&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;  | &lt;span class=&quot;nb&quot;&gt;tail&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; +2 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;2020-and-2019-roland-flickr-imagemagick-average-colours.txt
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2. create raw file
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#xxd -r -p 2020-and-2019-roland-flickr-imagemagick-average-colours.txt \&lt;/span&gt;
-2020-and-2019-roland-flickr-imagemagick-average-colours.rgb
-&lt;span class=&quot;c&quot;&gt;# 222 x 222 = 49284&lt;/span&gt;
-xxd &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt; 49284 &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-r&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-2020-and-2019-roland-flickr-imagemagick-average-colours.txt 2020-and-2019-roland-flickr-imagemagick-average-colours.rgb
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;3. create png&lt;/li&gt;
-  &lt;li&gt;square root of 49549 is approximately 222
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;magick convert &lt;span class=&quot;nt&quot;&gt;-depth&lt;/span&gt; 8  &lt;span class=&quot;nt&quot;&gt;-size&lt;/span&gt; 222x222 2020-and-2019-roland-flickr-imagemagick-average-colours.rgb&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
- 2020-and-2019-roland-flickr-imagemagick-average-colours.png
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;fails on ubuntu 20.04 with convert and on macOS catalina with magick:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;convert &lt;span class=&quot;nt&quot;&gt;-size&lt;/span&gt; 222x222 &lt;span class=&quot;nt&quot;&gt;-depth&lt;/span&gt; 8 RGB:2020-and-2019-roland-flickr-imagemagick-average-colours.rgb image.png
-convert-im6.q16: unexpected end-of-file &lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;2020-and-2019-roland-flickr-imagemagick-average-colours.rgb&lt;span class=&quot;s1&quot;&gt;': No such file or directory @ error/rgb.c/ReadRGBImage/242.
-convert-im6.q16: no images defined `image.png'&lt;/span&gt; @ error/convert.c/ConvertImageCommand/3258.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;03april2021-imagemagick-average-colour-worked&quot;&gt;03april2021 imagemagick average colour worked?!?&lt;/h2&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;roland@Rolands-MacBook-Air THUMBS_75X75 % bundle &lt;span class=&quot;nb&quot;&gt;exec&lt;/span&gt; ../get-filename-imagemagick-average-colour-from-75x75thumbnail.rb &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-../../files_too_big_for_github_rt-flickr-sqlite-csv/2020-and-2019-roland-flickr-metadata.csv &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-../../files_too_big_for_github_rt-flickr-sqlite-csv/2020-and-2019-roland-flickr-filename-imagemagick-avg-colour-metadata.csv
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;03april2021-current-plan&quot;&gt;03april2021 current plan&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;I don’t trust myself :-)  to take the 100% care needed to get &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;csvjoin&lt;/code&gt; to work, it’s easy to mess up&lt;/li&gt;
-  &lt;li&gt;so i will add the column from ruby and in fact have multiple columns
-    &lt;ul&gt;
-      &lt;li&gt;synth_75sqfilename (the filename of the 75x75 thumbnail)&lt;/li&gt;
-      &lt;li&gt;synth_75imaveragecolour (average colour by resizing to 1x1 in imagemagick)&lt;/li&gt;
-      &lt;li&gt;synth_75sqisvalid (in case the thumbnail is not a valid jpeg or png), 1 = valid, 0 = invalid (there’s only 1 invalid 75x75px thumbnail from all 45000 2019-2020 photos&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;03april2021-csvjoin-does-add-columns-like-i-want&quot;&gt;03april2021 csvjoin does add columns like i want&lt;/h2&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;roland@Rolands-MacBook-Air THUMBS_75X75 % &lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;testcsv.csv 
-column1
-samplecolumn1value
-roland@Rolands-MacBook-Air THUMBS_75X75 % &lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;column2.csv 
-column2
-samplecolumn2value
-roland@Rolands-MacBook-Air THUMBS_75X75 % csvjoin testcsv.csv column2.csv
-column1,column2
-samplecolumn1value,samplecolumn2value
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-</description>
-        <pubDate>Mon, 05 Apr 2021 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2021/04/05/p1-rename-file-from-rgb-to-raw-opened-photoshop-converted-to-png/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/04/05/p1-rename-file-from-rgb-to-raw-opened-photoshop-converted-to-png/</guid>
         
         
       </item>
