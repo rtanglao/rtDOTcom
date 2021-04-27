@@ -6,16 +6,48 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 24 Apr 2021 20:24:42 -0700</pubDate>
-    <lastBuildDate>Sat, 24 Apr 2021 20:24:42 -0700</lastBuildDate>
+    <pubDate>Mon, 26 Apr 2021 19:56:59 -0700</pubDate>
+    <lastBuildDate>Mon, 26 Apr 2021 19:56:59 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>How To install Imagemagick on Ubuntu 20.04 with JPG, PNG and TIFF support aka 'delegates'? Why isn't this in the default install?</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Why isn’t JPEG, PNG, and TIFF support part of the the default install?!?&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gist.github.com/nickferrando/fb0a44d707c8c3efd92dedd0f79d2911&quot;&gt;Install ImageMagick with JPG, PNG and TIFF Delegates - Ubuntu (20.04)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 26 Apr 2021 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2021/04/26/p1-how-to-install-imagemagick-ubuntu-2004-jpeg-png-tiff-delegates/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/04/26/p1-how-to-install-imagemagick-ubuntu-2004-jpeg-png-tiff-delegates/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Good 'ole emacs for bulk renaming using dired mode and query replace plus other renaming tools</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;I ended up using good ‘ole emacs for bulk renaming but perhaps these other tools will be more your style?!?
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Apr 21, 2021.Bulk renaming tools: &lt;a href=&quot;https://github.com/75lb/renamer&quot;&gt;renamer&lt;/a&gt; (in node); &lt;a href=&quot;https://ostechnix.com/how-to-rename-multiple-files-at-once-in-linux/&quot;&gt;6 Methods To Rename Multiple Files At Once In Linux&lt;/a&gt;(including emacs dired!); &lt;a href=&quot;https://www.tecmint.com/rename-multiple-files-in-linux/&quot;&gt;Rename – A Command Line Tool For Renaming Multiple Files in Linux&lt;/a&gt;; &lt;a href=&quot;https://stackoverflow.com/questions/417916/how-to-do-a-mass-rename&quot;&gt;mmv&lt;/a&gt;; &lt;a href=&quot;https://unix.stackexchange.com/questions/275254/why-is-the-rename-utility-on-debian-ubuntu-different-than-the-one-on-other-distr&quot;&gt;rename is different on Debian&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 25 Apr 2021 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2021/04/25/p1-bulk-rename-tools-for-linux-use-emacs-dired/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/04/25/p1-bulk-rename-tools-for-linux-use-emacs-dired/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Unpatent it, manufacture it, vaccinate the planet</title>
         <description>&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://twitter.com/rtanglao/status/1385412710028890112&quot;&gt;Unpatent it, manufacture it, vaccinate the planet!&lt;/a&gt; It’s the right thing to do!&lt;/li&gt;
 &lt;/ul&gt;
-
 </description>
         <pubDate>Sat, 24 Apr 2021 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2021/04/24/p1-unpatent-it-manufacture-it-vaccinate-the-planet/</link>
@@ -205,53 +237,6 @@ magick result.ppm result.png
         <pubDate>Sat, 10 Apr 2021 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2021/04/10/p1-photoshop-less-using-printf-header-magick-convert-xxd-rgb-png/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/04/10/p1-photoshop-less-using-printf-header-magick-convert-xxd-rgb-png/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Got my first dose of the Astra Zeneca Covid 19 vaccine today. Go science go!</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;It all went so smoothly. On April 1st, registered for waiting list at the Save On Pharmacy at King Edward and Kingsway. On April 5, got a text saying I should reserve an appointment. Made my appointment for April 8th and got vaccinated with no muss no fuss no glitches in the SaveOn online system. I expected some software bugs!&lt;/li&gt;
-  &lt;li&gt;Obligatory “we are so privileged” point that is all too easy to forget: unpatent, open source and let’s get every person in the world vaccinated ASAP!!!&lt;/li&gt;
-  &lt;li&gt;Obligatory photo certifying I got my “jab”:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/51103532552/&quot; title=&quot;AZ #1 done! Go science go!&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51103532552_31a5e373df_m.jpg&quot; width=&quot;240&quot; height=&quot;240&quot; alt=&quot;AZ #1 done! Go science go!&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 08 Apr 2021 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2021/04/08/p1-first-dose-astra-zeneca-covid-19-vaccine-go-science-go/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/04/08/p1-first-dose-astra-zeneca-covid-19-vaccine-go-science-go/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Photoshop-less way using ffmpeg to convert an RGB file created by xxd without a header to a PNG</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;As per &lt;a href=&quot;https://stackoverflow.com/questions/46310408/convert-raw-rgb32-file-to-jpeg-or-png-using-ffmpeg&quot;&gt;Convert raw RGB32 file to JPEG or PNG using FFmpeg&lt;/a&gt;, here’s how to convert a  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.raw&lt;/code&gt; file of RGB values without a header to a PNG&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;xxd &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt; 49284 &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-r&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-2020-and-2019-roland-flickr-imagemagick-average-colours.txt&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-2020-and-2019-roland-flickr-imagemagick-average-colours.raw
-ffmpeg &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; rawvideo &lt;span class=&quot;nt&quot;&gt;-pixel_format&lt;/span&gt; rgb24 &lt;span class=&quot;nt&quot;&gt;-video_size&lt;/span&gt; 222x222 &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; 2020-and-2019-roland-flickr-imagemagick-average-colours.raw &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;-frames&lt;/span&gt;:v 1 output.png
- &lt;span class=&quot;nb&quot;&gt;mv &lt;/span&gt;output.png ffmpeg-2020-and-2019-roland-flick-average-colour-output.png
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;Untested but perhaps adding a header like the following will work (as per &lt;a href=&quot;https://stackoverflow.com/questions/62602215/converting-raw-images-without-headers&quot;&gt;Converting raw images without headers&lt;/a&gt; (and then convert the ppm file to PNG using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;imagemagick&lt;/code&gt;)?
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;printf&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;P6&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;%d %d&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; WIDTH HEIGHT &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;YOURFILE&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; result.ppm
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;See &lt;a href=&quot;http://rolandtanglao.com/2021/04/05/p1-rename-file-from-rgb-to-raw-opened-photoshop-converted-to-png/&quot;&gt;Average colour according to imagemagick resize of my flickr photos Jan 1, 2019 - Dec 31, 2020&lt;/a&gt; where I document how to do it  with Photoshop and the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xxd&lt;/code&gt; command to get the raw file&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Tue, 06 Apr 2021 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2021/04/06/p1-ffmpeg-photoshop-convert-raw-rgb-file-without-headers-to-png/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/04/06/p1-ffmpeg-photoshop-convert-raw-rgb-file-without-headers-to-png/</guid>
         
         
       </item>
