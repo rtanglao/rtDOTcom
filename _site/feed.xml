@@ -6,9 +6,23 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 26 Apr 2021 19:56:59 -0700</pubDate>
-    <lastBuildDate>Mon, 26 Apr 2021 19:56:59 -0700</lastBuildDate>
+    <pubDate>Tue, 27 Apr 2021 19:30:11 -0700</pubDate>
+    <lastBuildDate>Tue, 27 Apr 2021 19:30:11 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>What3Words s*cks for emergency response?</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Apr 26, 2021. &lt;a href=&quot;https://twitter.com/isleofmandan/status/1386455377949122561&quot;&gt;What3Words s*cks for emergency response&lt;/a&gt;?!! Use plus codes instead?!?&lt;a href=&quot;https://github.com/google/open-location-code/wiki/Plus-codes-API&quot;&gt;Google has a free API for plus codes&lt;/a&gt;  Maybe I’ll add both What3Words and plus codes to my fllckr dataset!&lt;/li&gt;
+  &lt;li&gt;See previous post: &lt;a href=&quot;http://rolandtanglao.com/2021/04/17/p1-what3words-api/&quot;&gt;What3Words API - any location to 3 words that represents a 3 metre square&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 27 Apr 2021 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2021/04/27/p1-what3words-sucks-for-emergency-response/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/04/27/p1-what3words-sucks-for-emergency-response/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How To install Imagemagick on Ubuntu 20.04 with JPG, PNG and TIFF support aka 'delegates'? Why isn't this in the default install?</title>
@@ -209,34 +223,6 @@ error/pnm.c/ReadPNMImage/1442.
         <pubDate>Sun, 11 Apr 2021 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2021/04/11/p1-why-two-extra-bytes-to-make-222-222-png-using-imagemagick/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/04/11/p1-why-two-extra-bytes-to-make-222-222-png-using-imagemagick/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Photoshop-less way using printf and magick (imagemagick version 7) to convert an RGB file created by xxd without a header to a PNG</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;As per &lt;a href=&quot;https://stackoverflow.com/questions/62602215/converting-raw-images-without-headers&quot;&gt;Converting raw images without headers&lt;/a&gt; but in one step. No need to create an intermediate ppm file&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;printf&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;P6&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;%d %d&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; WIDTH HEIGHT &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;YOURFILE&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; result.ppm
-magick result.ppm result.png
-&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;printf&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;P6&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;%d %d&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; 222 222 &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;no-filetype-2020-and-2019-roland-flickr-imagemagick-average-colours&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
- | magick  - image88.png &lt;span class=&quot;c&quot;&gt;# &amp;lt;-- 1 step and therefore better :-)&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# or in imagemagick version 6:&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;printf&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;P6&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;%d %d&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; 222 222 &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;no-filetype-2020-and-2019-roland-flickr-imagemagick-average-colours&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
- | convert  - image88.png
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;See previous post on how to do this with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ffmpeg&lt;/code&gt;: &lt;a href=&quot;http://rolandtanglao.com/2021/04/06/p1-ffmpeg-photoshop-convert-raw-rgb-file-without-headers-to-png/&quot;&gt;Photoshop-less way using ffmpeg to convert an RGB file created by xxd without a header to a PNG&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sat, 10 Apr 2021 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2021/04/10/p1-photoshop-less-using-printf-header-magick-convert-xxd-rgb-png/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/04/10/p1-photoshop-less-using-printf-header-magick-convert-xxd-rgb-png/</guid>
         
         
       </item>
