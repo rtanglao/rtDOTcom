@@ -6,9 +6,23 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 27 Apr 2021 19:30:11 -0700</pubDate>
-    <lastBuildDate>Tue, 27 Apr 2021 19:30:11 -0700</lastBuildDate>
+    <pubDate>Fri, 30 Apr 2021 19:52:34 -0700</pubDate>
+    <lastBuildDate>Fri, 30 Apr 2021 19:52:34 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Three weeks since my first dose of the Astra Zeneca Covid 19 vaccine and I feel fine!</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;I was one of the lucky ones! No side effects, no chills, no “man-flu”-like :-) symptoms just a wee bit of stiffness and very faint headache for a few hours.&lt;/li&gt;
+  &lt;li&gt;See previous post: &lt;a href=&quot;http://rolandtanglao.com/2021/04/08/p1-first-dose-astra-zeneca-covid-19-vaccine-go-science-go/&quot;&gt;Got my first dose of the Astra Zeneca Covid 19 vaccine today. Go science go!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 30 Apr 2021 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2021/04/30/p1-three-weeks-since-astra-zeneca-vaccination-and-feel-fine/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/04/30/p1-three-weeks-since-astra-zeneca-vaccination-and-feel-fine/</guid>
+        
+        
+      </item>
     
       <item>
         <title>What3Words s*cks for emergency response?</title>
@@ -191,38 +205,6 @@ magick &lt;span class=&quot;nt&quot;&gt;-depth&lt;/span&gt; 8 &lt;span class=&qu
         <pubDate>Mon, 12 Apr 2021 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2021/04/12/p1-data-not-clean-problem-not-imagemagick-bug/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/04/12/p1-data-not-clean-problem-not-imagemagick-bug/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Why do I need two extra three byte values to make a 222x222 png using imagemagick (and why didn't this surface in 2016? 64 bit boundary issue? Padding issue? Little Endian? Big Endian?)</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Why do I need two extra three byte values to make a 222x222 png using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;imagemagick&lt;/code&gt; ?&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/README.md#10april2021-two-extra-bytes-fixes-it-i-am-not-sure-why&quot;&gt;Again&lt;/a&gt; :-) I don’t understand why since 222*222 = 49,284 so I shouldn’t need 49,286 three byte colour values right? Just 49,284 should be sufficient. What am I missing?&lt;/li&gt;
-  &lt;li&gt;Perhaps 64 bit boundary? Or little endian? big endian?
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;% &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;printf&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;P6&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;%d %d&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; 222 222 &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;1st-49284-2020-2019-roland-flickr-average-colours.rgb&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-| magick  - image88.png
-magick: unable to &lt;span class=&quot;nb&quot;&gt;read &lt;/span&gt;image data&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;s1&quot;&gt;'/var/folders/h0/m31kq8415wb50xg_7kwk06h40000gn/T/\
-magick-2mCuD6a8H66a7qb5_WpeXHJ3uph3P9pv'&lt;/span&gt; @&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-error/pnm.c/ReadPNMImage/1442.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;% &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;printf&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;P6&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;%d %d&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; 222 222 &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;1st-49286-2020-2019-roland-flickr-average-colours.rgb&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-| magick  - image88.png
-% &lt;span class=&quot;c&quot;&gt;# no error message i.e. it works!&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;And why didn’t this surface in 2016’s blog post about this: &lt;a href=&quot;http://rolandtanglao.com/2016/01/25/p3-using-convert-to-make-a-png-from-rgb-file/&quot;&gt;How to make a PNG file from an RGB file of ASCII Hex Colours made using xxd&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;And yes I am totally over-analyzing this :-) !&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sun, 11 Apr 2021 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2021/04/11/p1-why-two-extra-bytes-to-make-222-222-png-using-imagemagick/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/04/11/p1-why-two-extra-bytes-to-make-222-222-png-using-imagemagick/</guid>
         
         
       </item>
