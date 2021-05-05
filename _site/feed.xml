@@ -6,12 +6,30 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 02 May 2021 21:43:45 -0700</pubDate>
-    <lastBuildDate>Sun, 02 May 2021 21:43:45 -0700</lastBuildDate>
+    <pubDate>Tue, 04 May 2021 18:25:04 -0700</pubDate>
+    <lastBuildDate>Tue, 04 May 2021 18:25:04 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
-        <title>Just blog: I don't care whether you call it TILs or whether it's 188 characters or 5 pages</title>
+        <title>Old surge.sh DNS settings caused this blog not to update</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Fixed now! I was using super old settings!&lt;/li&gt;
+  &lt;li&gt;Using my DNS provider, namecheap.com set to the current recommended &lt;a href=&quot;https://surge.sh/help/adding-a-custom-domain&quot;&gt;surge.sh settings&lt;/a&gt;:
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;CNAME from @ to na-west1.surge.sh
+CNAME from www to na-west1.surge.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 04 May 2021 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2021/05/04/p1-old-surge-sh-dns-settings-caused-this-blog-not-to-update/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/05/04/p1-old-surge-sh-dns-settings-caused-this-blog-not-to-update/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Just blog; I do not care whether you call it TILs or whether it is 188 characters or 5 pages</title>
         <description>&lt;ul&gt;
   &lt;li&gt;Just blog: I don’t care whether you call it TILs (like Simon Willison’s TILs see &lt;a href=&quot;https://simonwillison.net/2021/May/2/one-year-of-tils/&quot;&gt;One year of TILs&lt;/a&gt;) or whether it is 188 characters or 5 pages. A cliché but true: Perfection is the enemy of the good. A regular habit of public writing that isn’t on e*il centralized platform like twitter or facebook is a good mental muscle!
     &lt;ul&gt;
@@ -32,8 +50,9 @@
         <title>Three weeks since my first dose of the Astra Zeneca Covid 19 vaccine and I feel fine!</title>
         <description>&lt;ul&gt;
   &lt;li&gt;I was one of the lucky ones! No side effects, no chills, no “man-flu”-like :-) symptoms just a wee bit of stiffness and very faint headache for a few hours.&lt;/li&gt;
-  &lt;li&gt;See previous post: &lt;a href=&quot;http://rolandtanglao.com/2021/04/08/p1-first-dose-astra-zeneca-covid-19-vaccine-go-science-go/&quot;&gt;Got my first dose of the Astra Zeneca Covid 19 vaccine today. Go science go!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;See my previous post: &lt;a href=&quot;http://rolandtanglao.com/2021/04/08/p1-first-dose-astra-zeneca-covid-19-vaccine-go-science-go/&quot;&gt;Got my first dose of the Astra Zeneca Covid 19 vaccine today. Go science go!&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 </description>
         <pubDate>Fri, 30 Apr 2021 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2021/04/30/p1-three-weeks-since-astra-zeneca-vaccination-and-feel-fine/</link>
@@ -163,19 +182,6 @@ https://www.dropbox.com/s/sfooyejehxus7rq/2020-and-2019-roland-flickr-filename-i
         <pubDate>Sat, 17 Apr 2021 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2021/04/17/p1-what3words-api/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/04/17/p1-what3words-api/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>The Data Journalism Handbook Towards A Critical Data Practice free PDF! or 49 EURO for the book</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Apr 8, 2021 &lt;a href=&quot;https://www.aup.nl/en/book/9789048542079/the-data-journalism-handbook&quot;&gt;The Data Journalism Handbook Towards A Critical Data Practice&lt;/a&gt; free PDF! or 49 EURO for the book&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 13 Apr 2021 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2021/04/13/p1-data-journalism-handbook/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/04/13/p1-data-journalism-handbook/</guid>
         
         
       </item>

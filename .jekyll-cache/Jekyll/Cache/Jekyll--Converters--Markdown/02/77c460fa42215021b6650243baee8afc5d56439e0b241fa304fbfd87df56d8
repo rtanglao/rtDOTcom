@@ -1,0 +1,9 @@
+I"¯<ul>
+  <li>Fixed now! I was using super old settings!</li>
+  <li>Using my DNS provider, namecheap.com set to the current recommended <a href="https://surge.sh/help/adding-a-custom-domain">surge.sh settings</a>:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>CNAME from @ to na-west1.surge.sh
+CNAME from www to na-west1.surge.sh
+</code></pre></div>    </div>
+  </li>
+</ul>
+:ET
