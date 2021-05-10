@@ -1,0 +1,11 @@
+I"�<ul>
+  <li>The following is me trying to convert my 2019 and 2020 flickr photos’ average colour to one of 657 R standard colours instead of the possible 256xx256x256 = 16777216  colours.</li>
+  <li>It’s probably my misunderstanding and a type issue R but not sure why the following never executes the <code class="language-plaintext highlighter-rouge">if</code> portion and always executes the <code class="language-plaintext highlighter-rouge">else</code> portion (full code is in <a href="">my repo over on github</a>):
+    <div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">if_else</span><span class="p">(</span><span class="n">synth_75imaveragecolour</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">"&lt;NA&gt;"</span><span class="p">,</span><span class="w"> </span><span class="n">as.hexmode</span><span class="p">(</span><span class="m">0</span><span class="p">),</span><span class="w"> </span><span class="n">getnumericColour</span><span class="p">(</span><span class="n">synth_plotrixcolour</span><span class="p">)))</span><span class="w">
+</span></code></pre></div>    </div>
+  </li>
+  <li>I also tried <code class="language-plaintext highlighter-rouge">is.na()</code> and <code class="language-plaintext highlighter-rouge">== ""</code> and neither of those worked</li>
+  <li>It’s probably my misunderstanding of the R type system!</li>
+</ul>
+
+:ET

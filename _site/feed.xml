@@ -6,9 +6,30 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 07 May 2021 20:50:23 -0700</pubDate>
-    <lastBuildDate>Fri, 07 May 2021 20:50:23 -0700</lastBuildDate>
+    <pubDate>Sun, 09 May 2021 21:58:22 -0700</pubDate>
+    <lastBuildDate>Sun, 09 May 2021 21:58:22 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Not sure why R's if_else() fails! Type system misunderstanding? Misunderstanding of NA?</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;The following is me trying to convert my 2019 and 2020 flickr photos’ average colour to one of 657 R standard colours instead of the possible 256xx256x256 = 16777216  colours.&lt;/li&gt;
+  &lt;li&gt;It’s probably my misunderstanding and a type issue R but not sure why the following never executes the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;if&lt;/code&gt; portion and always executes the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;else&lt;/code&gt; portion (full code is in &lt;a href=&quot;&quot;&gt;my repo over on github&lt;/a&gt;):
+    &lt;div class=&quot;language-R highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;if_else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;synth_75imaveragecolour&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&amp;lt;NA&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;as.hexmode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;getnumericColour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;synth_plotrixcolour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;I also tried &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;is.na()&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;== &quot;&quot;&lt;/code&gt; and neither of those worked&lt;/li&gt;
+  &lt;li&gt;It’s probably my misunderstanding of the R type system!&lt;/li&gt;
+  &lt;li&gt;I think I can diagnose this further by writing a loop (!) and printing out the values and the types&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 09 May 2021 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2021/05/09/p1-not-sure-why-r-ifelse-fails/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/05/09/p1-not-sure-why-r-ifelse-fails/</guid>
+        
+        
+      </item>
     
       <item>
         <title>My Mom died 8 years ago: May 5, 2013</title>
@@ -163,26 +184,6 @@ https://www.dropbox.com/s/sfooyejehxus7rq/2020-and-2019-roland-flickr-filename-i
         <pubDate>Tue, 20 Apr 2021 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2021/04/20/p1-howto-add-657-builtin-colours-to-the-flickr-dataset/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/04/20/p1-howto-add-657-builtin-colours-to-the-flickr-dataset/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Please help Vancouver restaurants by dining on their patios and getting takeout (do not use U*erats or S*ip the dishes if you can!)</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;First dim sum since march 2020 at &lt;a href=&quot;https://www.goldenseafoodvancouver.com/&quot;&gt;golden seafood&lt;/a&gt; at 2425 Nanaimo! #highlyrecommended If you have the $ recommend you get takeout or eat a local patio. We love &amp;amp; recommend: &lt;a href=&quot;https://shiok.ca/&quot;&gt;http://shiok.ca&lt;/a&gt;, &lt;a href=&quot;https://www.harukoreankitchen.com/&quot;&gt;haru korean kitchen&lt;/a&gt;, &lt;a href=&quot;https://www.gojocafe.com/&quot;&gt;gojo&lt;/a&gt; ethiopian, &lt;a href=&quot;https://la-pache-pizza-online-ordering.brygid.online/zgrid/themes/13349/intro/index.jsp&quot;&gt;la pache&lt;/a&gt;, &lt;a href=&quot;https://pizzeriabarbarella.com/&quot;&gt;barbarella&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Here’s a photo of Barb anticipating her dim sum at Golden Seafood:
-&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/51123240747/in/datetaken-public/&quot; title=&quot;first dim sum since march 2020 at golden seafood at 2425 Nanaimo!&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51123240747_a74daeacac_m.jpg&quot; width=&quot;240&quot; height=&quot;240&quot; alt=&quot;first dim sum since march 2020 at golden seafood at 2425 Nanaimo!&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Also &lt;a href=&quot;https://www.kishimotorestaurant.com/&quot;&gt;kishimoto&lt;/a&gt;, &lt;a href=&quot;https://www.facebook.com/sushibyyuji/&quot;&gt;sushi by yuji&lt;/a&gt;, &lt;a href=&quot;https://www.newtownbakery.ca/&quot;&gt;new town bakery&lt;/a&gt;, &lt;a href=&quot;https://www.facebook.com/TheBossBakeryandRestaurantChinatown&quot;&gt;the boss&lt;/a&gt;, &lt;a href=&quot;https://chinatownbbq.com/&quot;&gt;chinatown bbq&lt;/a&gt;, &lt;a href=&quot;https://pampangascuisine.ca/&quot;&gt;pampanga’s cuisine&lt;/a&gt;, &lt;a href=&quot;https://www.facebook.com/platofilipinoyvr/&quot;&gt;plato filipino,&lt;/a&gt; &lt;a href=&quot;https://www.moderneburger.com/&quot;&gt;moderne burger&lt;/a&gt; and more i’ve forgotten about. Got favs? Let me know and spend your hard earned $ if you can spare it!!&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sun, 18 Apr 2021 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2021/04/18/p1-help-restaurants-dine-patio-get-takeout/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/04/18/p1-help-restaurants-dine-patio-get-takeout/</guid>
         
         
       </item>
