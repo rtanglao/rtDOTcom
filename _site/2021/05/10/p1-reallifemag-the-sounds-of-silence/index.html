@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Not sure why R's if_else() fails! R type system misunderstanding? Misunderstanding of NA?</title>
+    <title>reallifemag: The Sounds of Silence</title>
     <meta name="description" content="flickr.com/roland, twitter.com/rtanglao #firefox #thunderbird
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2021/05/09/p1-not-sure-why-r-ifelse-fails/">
+    <link rel="canonical" href="http://rolandtanglao.com/2021/05/10/p1-reallifemag-the-sounds-of-silence/">
 </head>
 
 
@@ -57,20 +57,14 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Not sure why R's if_else() fails! R type system misunderstanding? Misunderstanding of NA?</h1>
-    <p class="post-meta">May 9, 2021</p>
+    <h1 class="post-title">reallifemag: The Sounds of Silence</h1>
+    <p class="post-meta">May 10, 2021</p>
   </header>
 
   <article class="post-content">
     <ul>
-  <li>The following is me trying to convert my 2019 and 2020 flickr photos’ average colour to one of 657 R standard colours instead of the possible 256xx256x256 = 16777216  colours.</li>
-  <li>It’s probably my misunderstanding and a type issue R but not sure why the following never executes the <code class="language-plaintext highlighter-rouge">if</code> portion and always executes the <code class="language-plaintext highlighter-rouge">else</code> portion (full code is in <a href="">my repo over on github</a>):
-    <div class="language-R highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">if_else</span><span class="p">(</span><span class="n">synth_75imaveragecolour</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">"&lt;NA&gt;"</span><span class="p">,</span><span class="w"> </span><span class="n">as.hexmode</span><span class="p">(</span><span class="m">0</span><span class="p">),</span><span class="w"> </span><span class="n">getnumericColour</span><span class="p">(</span><span class="n">synth_plotrixcolour</span><span class="p">)))</span><span class="w">
-</span></code></pre></div>    </div>
-  </li>
-  <li>I also tried <code class="language-plaintext highlighter-rouge">is.na()</code> and <code class="language-plaintext highlighter-rouge">== ""</code> and neither of those worked</li>
-  <li>It’s probably my misunderstanding of the R type system!</li>
-  <li>I think I can diagnose this further by writing a loop (!) and printing out the values and the types or by using a 2 row tibble to debug further.</li>
+  <li>May 10, 2021 <a href="https://reallifemag.com/the-sounds-of-silence/">The Sounds of Silence</a><code class="language-plaintext highlighter-rouge">Our relationship with technology, though, is a chaotic one; in fact all interaction is by definition chaotic. Any form of play that does not center this chaos — which instead envisages human-machine interaction as a seamless unbroken circuit — will always subordinate the human to the level of object, rather than elevating an object to the level of the human. In attempting to make the world more animate, we risk de-animating ourselves</code></li>
+  <li>Most definitely <a href="https://reallifemag.com/the-sounds-of-silence/">Read The Whole Thing</a> :-)</li>
 </ul>
 
 

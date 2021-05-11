@@ -6,12 +6,27 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 09 May 2021 21:58:22 -0700</pubDate>
-    <lastBuildDate>Sun, 09 May 2021 21:58:22 -0700</lastBuildDate>
+    <pubDate>Mon, 10 May 2021 19:29:16 -0700</pubDate>
+    <lastBuildDate>Mon, 10 May 2021 19:29:16 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
-        <title>Not sure why R's if_else() fails! Type system misunderstanding? Misunderstanding of NA?</title>
+        <title>reallifemag: The Sounds of Silence</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;May 10, 2021 &lt;a href=&quot;https://reallifemag.com/the-sounds-of-silence/&quot;&gt;The Sounds of Silence&lt;/a&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Our relationship with technology, though, is a chaotic one; in fact all interaction is by definition chaotic. Any form of play that does not center this chaos — which instead envisages human-machine interaction as a seamless unbroken circuit — will always subordinate the human to the level of object, rather than elevating an object to the level of the human. In attempting to make the world more animate, we risk de-animating ourselves&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Most definitely &lt;a href=&quot;https://reallifemag.com/the-sounds-of-silence/&quot;&gt;Read The Whole Thing&lt;/a&gt; :-)&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 10 May 2021 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2021/05/10/p1-reallifemag-the-sounds-of-silence/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/05/10/p1-reallifemag-the-sounds-of-silence/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Not sure why R's if_else() fails! R type system misunderstanding? Misunderstanding of NA?</title>
         <description>&lt;ul&gt;
   &lt;li&gt;The following is me trying to convert my 2019 and 2020 flickr photos’ average colour to one of 657 R standard colours instead of the possible 256xx256x256 = 16777216  colours.&lt;/li&gt;
   &lt;li&gt;It’s probably my misunderstanding and a type issue R but not sure why the following never executes the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;if&lt;/code&gt; portion and always executes the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;else&lt;/code&gt; portion (full code is in &lt;a href=&quot;&quot;&gt;my repo over on github&lt;/a&gt;):
@@ -20,7 +35,7 @@
   &lt;/li&gt;
   &lt;li&gt;I also tried &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;is.na()&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;== &quot;&quot;&lt;/code&gt; and neither of those worked&lt;/li&gt;
   &lt;li&gt;It’s probably my misunderstanding of the R type system!&lt;/li&gt;
-  &lt;li&gt;I think I can diagnose this further by writing a loop (!) and printing out the values and the types&lt;/li&gt;
+  &lt;li&gt;I think I can diagnose this further by writing a loop (!) and printing out the values and the types or by using a 2 row tibble to debug further.&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -155,35 +170,6 @@ CNAME from www to na-west1.surge.sh
         <pubDate>Sat, 24 Apr 2021 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2021/04/24/p1-unpatent-it-manufacture-it-vaccinate-the-planet/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/04/24/p1-unpatent-it-manufacture-it-vaccinate-the-planet/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>HowTo add the 657 built in R colors to the flickr dataset (you need rowwise())</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;the dataset withe R colors is on dropbox:
-https://www.dropbox.com/s/sfooyejehxus7rq/2020-and-2019-roland-flickr-filename-imavgcolour-plotrixavgcolour-metadata.csv?dl=0&lt;/li&gt;
-  &lt;li&gt;need &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rowwise()&lt;/code&gt; otherwise it computes the color of all the rows not row by row!
-    &lt;div class=&quot;language-R highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tidyverse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;plotrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read_csv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://www.dropbox.com/s/km9r94fz2ixknc7/2020-and-2019-roland-flickr-filename-imagemagick-avg-colour-metadata.csv?dl=1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df_with_plotrix_colour&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rowwise&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mutate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;synth_plotrixcolour&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
-         &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;if_else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;synth_75sqisvalid&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;color.id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;synth_75imaveragecolour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# Note, &quot;' gets converted to &quot;NA&quot; by write_csv() by default&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write_csv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df_with_plotrix_colour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/Users/roland/Documents/GIT/files_too_big_for_github_rt-flickr-sqlite-csv/2020-and-2019-roland-flickr-filename-imavgcolour-plotrixavgcolour-metadata.csv&quot;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;na&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 20 Apr 2021 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2021/04/20/p1-howto-add-657-builtin-colours-to-the-flickr-dataset/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/04/20/p1-howto-add-657-builtin-colours-to-the-flickr-dataset/</guid>
         
         
       </item>
