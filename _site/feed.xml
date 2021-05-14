@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 10 May 2021 19:29:16 -0700</pubDate>
-    <lastBuildDate>Mon, 10 May 2021 19:29:16 -0700</lastBuildDate>
+    <pubDate>Thu, 13 May 2021 18:41:54 -0700</pubDate>
+    <lastBuildDate>Thu, 13 May 2021 18:41:54 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Stratechery: Cloudflare Durable Objects exist on the edge where the user resides and can be easily moved anywhere</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; May 12, 2021. &lt;a href=&quot;https://stratechery.com/2021/cloudflare-on-the-edge/&quot;&gt;Cloudflare on the edge&lt;/a&gt; &amp;lt;— Durable objects exist in the user’s country and nowhere else i.e. A German user’s data resides in Germany “Durable Objects are not, in-and-of-themselves, going to kill the public clouds; what they represent, though, is an entirely new way of building infrastructure — from the edge in, as opposed to the data center out “&lt;/li&gt;
+  &lt;li&gt;Zones, we don’t need no stinkin’ zones or something :-)&lt;/li&gt;
+  &lt;li&gt;Data should reside where it should reside and other tautologies :-)&lt;/li&gt;
+  &lt;li&gt;Decentralized, movable data for the win!&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Thu, 13 May 2021 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2021/05/13/p1-cloudflare-durable-objects-exist-where-the-user-resides-and-can-be-easily-moved-anytime/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/05/13/p1-cloudflare-durable-objects-exist-where-the-user-resides-and-can-be-easily-moved-anytime/</guid>
+        
+        
+      </item>
     
       <item>
         <title>reallifemag: The Sounds of Silence</title>
@@ -157,19 +174,6 @@ CNAME from www to na-west1.surge.sh
         <pubDate>Sun, 25 Apr 2021 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2021/04/25/p1-bulk-rename-tools-for-linux-use-emacs-dired/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/04/25/p1-bulk-rename-tools-for-linux-use-emacs-dired/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Unpatent it, manufacture it, vaccinate the planet</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://twitter.com/rtanglao/status/1385412710028890112&quot;&gt;Unpatent it, manufacture it, vaccinate the planet!&lt;/a&gt; It’s the right thing to do!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 24 Apr 2021 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2021/04/24/p1-unpatent-it-manufacture-it-vaccinate-the-planet/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/04/24/p1-unpatent-it-manufacture-it-vaccinate-the-planet/</guid>
         
         
       </item>
