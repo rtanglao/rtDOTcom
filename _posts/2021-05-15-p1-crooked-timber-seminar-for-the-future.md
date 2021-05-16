@@ -2,7 +2,7 @@
 layout: post
 title: "Cory Doctorow: Crooked Timber's Ministry for the Future Seminar <-- must read essays on climate change"
 ---
-* Read the whole thing, [Crooked Timber's Ministry for the Future Seminar](https://pluralistic.net/2021/05/12/seminar-for-the-future/#imaginations),   especially the links to the essays on climate change
+* Read the whole thing, [Crooked Timber's Ministry for the Future Seminar](https://pluralistic.net/2021/05/12/seminar-for-the-future/#imaginations),   especially the links to the essays on climate change (see previous post: [Kim Stanley Robinson's: The Ministry for the  Future: terrible novel but great ideas like giving $USD100K to everybody so highly recommended :-)](http://rolandtanglao.com/2021/03/20/p1-kim-stanley-robinson-ministry-for-the-future-terrible-novel-great-ideas-like-100k-for-everybody/) )
 
 * QUOTE
 
