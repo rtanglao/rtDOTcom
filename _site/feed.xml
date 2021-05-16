@@ -6,9 +6,60 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 13 May 2021 18:41:54 -0700</pubDate>
-    <lastBuildDate>Thu, 13 May 2021 18:41:54 -0700</lastBuildDate>
+    <pubDate>Sat, 15 May 2021 23:00:08 -0700</pubDate>
+    <lastBuildDate>Sat, 15 May 2021 23:00:08 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Cory Doctorow: Crooked Timber's Ministry for the Future Seminar &lt;-- must read essays on climate change</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Read the whole thing, &lt;a href=&quot;https://pluralistic.net/2021/05/12/seminar-for-the-future/#imaginations&quot;&gt;Crooked Timber’s Ministry for the Future Seminar&lt;/a&gt;,   especially the links to the essays on climate change&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;QUOTE&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;“Kim Stanley Robinson’s 2020 novel “The Ministry for the Future,” is a fierce imaginative work. Robinson doesn’t just depict a future beyond  the climate emergency and capitalism itself, he depicts the specific,  wrenching transition that takes us there.&lt;/p&gt;
+
+        &lt;p&gt;&lt;a href=&quot;https://www.orbitbooks.net/orbit-excerpts/the-ministry-for-the-future/&quot;&gt;https://www.orbitbooks.net/orbit-excerpts/the-ministry-for-the-future/&lt;/a&gt;&lt;/p&gt;
+
+        &lt;p&gt;As I wrote in my review, the (variously attributed) maxim “It is  easier to imagine the end of the world than the end of capitalism,”  isn’t quite right. Imagining postcapitalism is an easy lift, but  imagining the path to that world is &lt;em&gt;very&lt;/em&gt; hard.&lt;/p&gt;
+
+        &lt;p&gt;&lt;a href=&quot;https://pluralistic.net/2020/12/03/ministry-for-the-future/#ksr&quot;&gt;https://pluralistic.net/2020/12/03/ministry-for-the-future/#ksr&lt;/a&gt;&lt;/p&gt;
+
+        &lt;p&gt;Robinson didn’t leap into this project – he’s been working up to it  for literally decades, at least since the publication of the “Three  California” books, which include one of the most uplifting novels I’ve  ever read, PACIFIC EDGE:&lt;/p&gt;
+
+        &lt;p&gt;&lt;a href=&quot;https://memex.craphound.com/2015/01/15/pacific-edge-the-most-uplifting-novel-in-my-library/&quot;&gt;https://memex.craphound.com/2015/01/15/pacific-edge-the-most-uplifting-novel-in-my-library/&lt;/a&gt;&lt;/p&gt;
+
+        &lt;p&gt;Meanwhile, his 2312/Aurora/New York 2140/Red Moon novels constitute a kind of rangefinding exercise, starting 300 years the future and then  walking his projection backwards to find a plausible route to get there.&lt;/p&gt;
+
+        &lt;p&gt;&lt;a href=&quot;https://memex.craphound.com/2017/03/18/new-york-2140-kim-stanley-robinson-dreams-vivid-about-weathering-climate-crisis/&quot;&gt;https://memex.craphound.com/2017/03/18/new-york-2140-kim-stanley-robinson-dreams-vivid-about-weathering-climate-crisis/&lt;/a&gt;&lt;/p&gt;
+
+        &lt;p&gt;But all these brilliant novels really seem to be warmup exercises for the main event, The Ministry for the Future, which depicts the  intermeshed systems of economics, politics, geoengineering,  streetfighting and tragedy that might rescue us from dying in our own  waste-gases.&lt;/p&gt;
+
+        &lt;p&gt;It’s urgent, frightening and hopeful, raising as many questions as it answers.&lt;/p&gt;
+
+        &lt;p&gt;These questions are now taken up in one of Crooked Timber’s  “seminars”: a series of interdisciplinary essays about the book,  culminating in the author’s response.&lt;/p&gt;
+
+        &lt;p&gt;&lt;a href=&quot;https://crookedtimber.org/2021/05/03/the-ministry-for-the-future-seminar/&quot;&gt;https://crookedtimber.org/2021/05/03/the-ministry-for-the-future-seminar/&lt;/a&gt;”&lt;/p&gt;
+
+        &lt;p&gt;”&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;END QUOTE&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 15 May 2021 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2021/05/15/p1-crooked-timber-seminar-for-the-future/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/05/15/p1-crooked-timber-seminar-for-the-future/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Stratechery: Cloudflare Durable Objects exist on the edge where the user resides and can be easily moved anywhere</title>
@@ -156,24 +207,6 @@ CNAME from www to na-west1.surge.sh
         <pubDate>Mon, 26 Apr 2021 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2021/04/26/p1-how-to-install-imagemagick-ubuntu-2004-jpeg-png-tiff-delegates/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/04/26/p1-how-to-install-imagemagick-ubuntu-2004-jpeg-png-tiff-delegates/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Good 'ole emacs for bulk renaming using dired mode and query replace plus other renaming tools</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;I ended up using good ‘ole emacs for bulk renaming but perhaps these other tools will be more your style?!?
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Apr 21, 2021.Bulk renaming tools: &lt;a href=&quot;https://github.com/75lb/renamer&quot;&gt;renamer&lt;/a&gt; (in node); &lt;a href=&quot;https://ostechnix.com/how-to-rename-multiple-files-at-once-in-linux/&quot;&gt;6 Methods To Rename Multiple Files At Once In Linux&lt;/a&gt;(including emacs dired!); &lt;a href=&quot;https://www.tecmint.com/rename-multiple-files-in-linux/&quot;&gt;Rename – A Command Line Tool For Renaming Multiple Files in Linux&lt;/a&gt;; &lt;a href=&quot;https://stackoverflow.com/questions/417916/how-to-do-a-mass-rename&quot;&gt;mmv&lt;/a&gt;; &lt;a href=&quot;https://unix.stackexchange.com/questions/275254/why-is-the-rename-utility-on-debian-ubuntu-different-than-the-one-on-other-distr&quot;&gt;rename is different on Debian&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sun, 25 Apr 2021 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2021/04/25/p1-bulk-rename-tools-for-linux-use-emacs-dired/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/04/25/p1-bulk-rename-tools-for-linux-use-emacs-dired/</guid>
         
         
       </item>
