@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 16 May 2021 11:16:26 -0700</pubDate>
-    <lastBuildDate>Sun, 16 May 2021 11:16:26 -0700</lastBuildDate>
+    <pubDate>Sun, 16 May 2021 19:10:45 -0700</pubDate>
+    <lastBuildDate>Sun, 16 May 2021 19:10:45 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Kim Stanley Robinson's Response to the Ministry for the Future Seminar</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;It is definitely worth your while to read all 9 essays linked to in yesterday’s  post: &lt;a href=&quot;http://rolandtanglao.com/2021/05/15/p1-crooked-timber-seminar-for-the-future/&quot;&gt;Cory Doctorow: Crooked Timber’s Ministry for the Future Seminar &amp;lt;– must read essays on climate change&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;But if you don’t have time at the moment, starting with &lt;a href=&quot;https://crookedtimber.org/2021/05/14/response-7/&quot;&gt;Kim Stanley Robinson’s Response to the Ministry for the Future Semina&lt;/a&gt;r and then reading the 9 linked essays also works :-)&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 16 May 2021 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2021/05/16/p1-kim-stanley-robison-response-to-seminar-for-the-future/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/05/16/p1-kim-stanley-robison-response-to-seminar-for-the-future/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Cory Doctorow: Crooked Timber's Ministry for the Future Seminar &lt;-- must read essays on climate change</title>
@@ -192,21 +207,6 @@ CNAME from www to na-west1.surge.sh
         <pubDate>Tue, 27 Apr 2021 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2021/04/27/p1-what3words-sucks-for-emergency-response/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/04/27/p1-what3words-sucks-for-emergency-response/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How To install Imagemagick on Ubuntu 20.04 with JPG, PNG and TIFF support aka 'delegates'? Why isn't this in the default install?</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Why isn’t JPEG, PNG, and TIFF support part of the the default install?!?&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gist.github.com/nickferrando/fb0a44d707c8c3efd92dedd0f79d2911&quot;&gt;Install ImageMagick with JPG, PNG and TIFF Delegates - Ubuntu (20.04)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 26 Apr 2021 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2021/04/26/p1-how-to-install-imagemagick-ubuntu-2004-jpeg-png-tiff-delegates/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/04/26/p1-how-to-install-imagemagick-ubuntu-2004-jpeg-png-tiff-delegates/</guid>
         
         
       </item>
