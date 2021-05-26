@@ -6,9 +6,29 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 23 May 2021 17:51:13 -0700</pubDate>
-    <lastBuildDate>Sun, 23 May 2021 17:51:13 -0700</lastBuildDate>
+    <pubDate>Tue, 25 May 2021 21:09:20 -0700</pubDate>
+    <lastBuildDate>Tue, 25 May 2021 21:09:20 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Links to help me make a small reproducible example for my if_else() tidyverse R issue</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;I would like to make a less than 10 line reproducible example for my &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;if_else()&lt;/code&gt; problem from my May 9, 2021 post: &lt;a href=&quot;http://rolandtanglao.com/2021/05/09/p1-not-sure-why-r-ifelse-fails/&quot;&gt;Not sure why R’s if_else() fails! R type system misunderstanding? Misunderstanding of NA?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I bet it’s my misunderstanding and not a tidyverse or R bug!&lt;/li&gt;
+  &lt;li&gt;Here are the links:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; May 24, 2021.&lt;a href=&quot;https://stackoverflow.com/questions/24459752/can-dplyr-package-be-used-for-conditional-mutating&quot;&gt;Stack Overflow:Can dplyr package be used for conditional mutating?&lt;/a&gt; &amp;lt;– case_when, if_else, ifelse, na_if, see also &lt;a href=&quot;https://stackoverflow.com/questions/42075721/handling-na-in-if-else-in-r&quot;&gt;handling NA in if_else in r&lt;/a&gt; and &lt;a href=&quot;https://stackoverflow.com/questions/50646133/dplyr-if-else-vs-base-r-ifelse&quot;&gt;dplyr if_else() vs base R ifelse()&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 25 May 2021 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2021/05/25/p1-links-for-if-else-small-reproducible-example-r-tidyverse/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/05/25/p1-links-for-if-else-small-reproducible-example-r-tidyverse/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Probably wrong prediction: We will have forgotten about outdoor dining by 2025 just like we forgot why steam radiators are so hot</title>
@@ -226,27 +246,6 @@
         <pubDate>Mon, 10 May 2021 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2021/05/10/p1-reallifemag-the-sounds-of-silence/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/05/10/p1-reallifemag-the-sounds-of-silence/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Not sure why R's if_else() fails! R type system misunderstanding? Misunderstanding of NA?</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;The following is me trying to convert my 2019 and 2020 flickr photos’ average colour to one of 657 R standard colours instead of the possible 256xx256x256 = 16777216  colours.&lt;/li&gt;
-  &lt;li&gt;It’s probably my misunderstanding and a type issue R but not sure why the following never executes the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;if&lt;/code&gt; portion and always executes the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;else&lt;/code&gt; portion (full code is in &lt;a href=&quot;&quot;&gt;my repo over on github&lt;/a&gt;):
-    &lt;div class=&quot;language-R highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;if_else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;synth_75imaveragecolour&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&amp;lt;NA&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;as.hexmode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;getnumericColour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;synth_plotrixcolour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;I also tried &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;is.na()&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;== &quot;&quot;&lt;/code&gt; and neither of those worked&lt;/li&gt;
-  &lt;li&gt;It’s probably my misunderstanding of the R type system!&lt;/li&gt;
-  &lt;li&gt;I think I can diagnose this further by writing a loop (!) and printing out the values and the types or by using a 2 row tibble to debug further.&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sun, 09 May 2021 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2021/05/09/p1-not-sure-why-r-ifelse-fails/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/05/09/p1-not-sure-why-r-ifelse-fails/</guid>
         
         
       </item>
