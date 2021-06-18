@@ -6,9 +6,46 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 13 Jun 2021 20:41:21 -0700</pubDate>
-    <lastBuildDate>Sun, 13 Jun 2021 20:41:21 -0700</lastBuildDate>
+    <pubDate>Thu, 17 Jun 2021 21:07:17 -0700</pubDate>
+    <lastBuildDate>Thu, 17 Jun 2021 21:07:17 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Walter Vannini: Coding is not ‘fun’, it’s technically and ethically complex &lt;-- like anything complex right?</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://aeon.co/ideas/coding-is-not-fun-it-s-technically-and-ethically-complex&quot;&gt;Coding is not ‘fun’, it’s technically and ethically complex&lt;/a&gt; &amp;lt;–  But so is anything worthwhile right? (via &lt;a href=&quot;scripting.com/2021/06/17.html#a135319&quot;&gt;Dave Winer&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;quotes&quot;&gt;Quotes&lt;/h3&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Coding isn’t the only job that demands intense focus. 
+But you’d never hear someone say that brain surgery is 
+‘fun’, or that structural engineering is ‘easy’. When 
+it comes to programming, why do policymakers and 
+technologists pretend otherwise?
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;In an ever-more intricate and connected world, where 
+software plays a larger and larger role in everyday 
+life, it’s irresponsible to speak of coding as a 
+lightweight activity. Software is not simply lines of 
+code, nor is it blandly technical. In just a few years, 
+understanding programming will be an indispensable 
+part of active citizenship. The idea that coding 
+offers an unproblematic path to social progress 
+and personal enhancement works to the advantage 
+of the growing techno-plutocracy that’s insulating 
+itself behind its own technology.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Thu, 17 Jun 2021 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2021/06/17/p1-coding-not-fun-technically-ethically-complex-like-anything-worthwhile/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/06/17/p1-coding-not-fun-technically-ethically-complex-like-anything-worthwhile/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Dave Winer's UserLand's Instant Outliner from the 2000s coming back in 2021? (bonus Jon Udell blog post about Instant Outliner)</title>
@@ -185,24 +222,6 @@
         <pubDate>Thu, 20 May 2021 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2021/05/20/p1-diverse-opera-out-there-and-universal/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/05/20/p1-diverse-opera-out-there-and-universal/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Simon Willison's github scraping is officially supported by Github who call it 'Flat Data'</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: May 19, 2021.&lt;a href=&quot;https://twitter.com/simonw/status/1394729289346519041&quot;&gt;Flat Data&lt;/a&gt;!  (&lt;a href=&quot;https://simonwillison.net/2021/May/19/flat-data/&quot;&gt;blog post)&lt;/a&gt; Simon Willison’s git scraping is now officially supported by Github who call it “Flat Data”! yes!
-    &lt;ul&gt;
-      &lt;li&gt;See my previous post from October 2020: &lt;a href=&quot;http://rolandtanglao.com/2020/10/16/p1-simon-willison-git-scraping-how-to-use-github-actions-to-call-an-api-every-20-minutes/&quot;&gt;Simon Willison:Git scraping: track changes over  time by scraping to a Git repository aka how to use github actions to  call an API every 20 minutes&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Wed, 19 May 2021 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2021/05/19/p1-simon-willison-github-scraping-official-supported-by-github-flat-data/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/05/19/p1-simon-willison-github-scraping-official-supported-by-github-flat-data/</guid>
         
         
       </item>
