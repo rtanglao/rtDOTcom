@@ -1,0 +1,5 @@
+I":<ul>
+  <li><a href="https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/">Hosting SQLite databases on Github Pages</a> via <a href="https://twitter.com/simonw/status/1388933092216164352">Simon Willison’s tweet:</a> “Hosting SQLite databases on Github Pages” is absolutely brilliant: it adds a virtual filesystem to SQLite-compiled-to-WebAssembly in order to fetch pages from the database using HTTP range requests` &lt;— from <a href="https://phiresky.github.io/blog/2021/host">https://phiresky.github.io/blog/2021/host</a></li>
+</ul>
+
+:ET

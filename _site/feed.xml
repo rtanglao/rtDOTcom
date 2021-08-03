@@ -6,9 +6,23 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 25 Jul 2021 20:31:51 -0700</pubDate>
-    <lastBuildDate>Sun, 25 Jul 2021 20:31:51 -0700</lastBuildDate>
+    <pubDate>Mon, 02 Aug 2021 20:45:56 -0700</pubDate>
+    <lastBuildDate>Mon, 02 Aug 2021 20:45:56 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Hosting SQLite databases on Github Pages using a virtual filesystem via Simon Willison</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/&quot;&gt;Hosting SQLite databases on Github Pages&lt;/a&gt; via &lt;a href=&quot;https://twitter.com/simonw/status/1388933092216164352&quot;&gt;Simon Willison’s tweet:&lt;/a&gt; “Hosting SQLite databases on Github Pages” is absolutely brilliant: it adds a virtual filesystem to SQLite-compiled-to-WebAssembly in order to fetch pages from the database using HTTP range requests` &amp;lt;— from &lt;a href=&quot;https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/&quot;&gt;https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 02 Aug 2021 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2021/08/02/p1-hosting-sqlite-databases-github-pages-virtual-filessystem-webassembly/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/08/02/p1-hosting-sqlite-databases-github-pages-virtual-filessystem-webassembly/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Robert Jago - Renaming places: how Canada is reexamining the map &lt;--- Rename BC to  S'ólh Téméxw?!?</title>
@@ -205,20 +219,6 @@
         <pubDate>Sat, 26 Jun 2021 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2021/06/26/p1-heat-dome-kim-stanley-robinson-ministry-for-the-future/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/06/26/p1-heat-dome-kim-stanley-robinson-ministry-for-the-future/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>June 21, 2021: Early Edition Special: Indigenous People's Day: CBC Vancouver Early Edition</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;I am not sure how long this will stay up on the internet but all of: &lt;a href=&quot;https://www.cbc.ca/listen/live-radio/1-91-the-early-edition&quot;&gt;June 21, 2021: Early Edition Special: Indigenous People’s Day: CBC Vancouver Early Edition&lt;/a&gt; is worth listening to. Food, history, language and so much more!&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 21 Jun 2021 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2021/06/21/p1-indigenous-peoples-day-cbc-vancouver-early-edition/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/06/21/p1-indigenous-peoples-day-cbc-vancouver-early-edition/</guid>
         
         
       </item>
