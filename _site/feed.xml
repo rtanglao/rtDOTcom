@@ -6,9 +6,23 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 02 Aug 2021 20:45:56 -0700</pubDate>
-    <lastBuildDate>Mon, 02 Aug 2021 20:45:56 -0700</lastBuildDate>
+    <pubDate>Tue, 03 Aug 2021 17:25:53 -0700</pubDate>
+    <lastBuildDate>Tue, 03 Aug 2021 17:25:53 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>jon undell's blog:: workbench:: A beautiful power tool to scrape, clean, and combine data &lt;--- uses jupyter and python underneath! Looks great! Better than tools like datawrapper that are proprietary right? what am I missing?!?</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;workbench::&lt;a href=&quot;https://blog.jonudell.net/2021/08/01/a-beautiful-power-tool-to-scrape-clean-and-combine-data/&quot;&gt;A beautiful power tool to scrape, clean, and combine data&lt;/a&gt;  &amp;lt;— uses jupyter and python underneath! Looks great! Better than tools like datawrapper that are proprietary right? what am I missing?!?&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 03 Aug 2021 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2021/08/03/p1-jupyter-hosted-service-tool-for-data-science/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/08/03/p1-jupyter-hosted-service-tool-for-data-science/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Hosting SQLite databases on Github Pages using a virtual filesystem via Simon Willison</title>
@@ -188,37 +202,6 @@
         <pubDate>Sun, 27 Jun 2021 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2021/06/27/p1-go-habs-go-go-carey-price-go/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/06/27/p1-go-habs-go-go-carey-price-go/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Heat Dome 2021 over BC is very much like what Kim Stanley Robinson predicted in Ministry for the Future</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Global News: &lt;a href=&quot;https://globalnews.ca/news/7983076/heat-wave-explained-bc-alberta/&quot;&gt;What you need to know about the ‘heat dome’ hovering above B.C., Alberta and territories&lt;/a&gt; &amp;lt;— sounds just like heat wave in India in &lt;a href=&quot;https://www.kimstanleyrobinson.info/content/ministry-future&quot;&gt;KSR’s Ministry for the Future&lt;/a&gt; (and global warming was predicted by many many other science fiction writers like John Brunner in &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Sheep_Look_Up&quot;&gt;The Sheep Look Up&lt;/a&gt;)&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;QUOTE&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A heat dome is caused by a strong ridge of high pressure that traps warm air underneath it. Although not a term commonly used by Environment  Canada scientists, the heat dome gets its name because the ridge acts  like a dome, allowing the sun to crank up the heat below and create a  heat wave that lasts at least a few days.&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;END QUOTE&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Previously:&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;May 16, 2021: &lt;a href=&quot;http://rolandtanglao.com/2021/05/16/p1-kim-stanley-robison-response-to-seminar-for-the-future/&quot;&gt;Kim Stanley Robinson’s Response to the Ministry for the Future Seminar&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;May 15, 2021: &lt;a href=&quot;http://rolandtanglao.com/2021/05/15/p1-crooked-timber-seminar-for-the-future/&quot;&gt;Cory Doctorow: Crooked Timber’s Ministry for the Future Seminar &amp;lt;– must read essays on climate change&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;March 20, 2021: &lt;a href=&quot;http://rolandtanglao.com/2021/03/20/p1-kim-stanley-robinson-ministry-for-the-future-terrible-novel-great-ideas-like-100k-for-everybody/&quot;&gt;Kim  Stanley Robinson’s: The Ministry for the Future: terrible novel but  great ideas like giving $USD100K to everybody so highly recommended :-) !&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sat, 26 Jun 2021 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2021/06/26/p1-heat-dome-kim-stanley-robinson-ministry-for-the-future/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/06/26/p1-heat-dome-kim-stanley-robinson-ministry-for-the-future/</guid>
         
         
       </item>
