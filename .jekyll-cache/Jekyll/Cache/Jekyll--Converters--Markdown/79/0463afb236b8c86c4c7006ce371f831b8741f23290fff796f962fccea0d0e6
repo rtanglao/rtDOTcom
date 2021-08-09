@@ -1,0 +1,24 @@
+I"-<ul>
+  <li>
+    <p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a> Jul 28, 2021. Tim Harford (via Simon Willison) The Tyranny of Spreadsheets &lt;— don’t use them in life and death situations &lt;— “When used by a trained accountant to carry out double-entry bookkeeping, a long-established system with inbuilt error detection, Excel is a perfectly professional tool. But when pressed into service by genetics researchers or contact tracers, it’s like using your Swiss Army Knife to fit a kitchen because it’s the tool you have closest at hand. Not impossible, but hardly advisable.` 
+AND</p>
+
+    <p>“<code class="language-plaintext highlighter-rouge">Fetzer and Graeber have calculated a conservative estimate of the number of people who died, unknown victims of the spreadsheet error. They think the death toll is at least 1,500 people.</code>”
+125000 infections means 1500 people died because of a spreadsheet?!?</p>
+  </li>
+  <li>
+    <p>I think the real moral of the story here is not to use anything in production without tests or some sort of inbuilt error detection.</p>
+  </li>
+  <li>
+    <p>Previously:</p>
+
+    <ul>
+      <li><a href="http://rolandtanglao.com/2021/03/09/p1-excel-never-dies-the-spreadsheet-that-launched-a-million-companies/">Excel Never Dies The Spreadsheet That Launched A Million Companies &lt;– The real ‘programming for the people’</a></li>
+      <li><a href="http://rolandtanglao.com/2018/04/26/p1-everybody-who-writes-formulas-or-uses-pivot-tables-in-a-spreadsheet-is-a-programmer/">Everybody who writes formulas and/or uses pivot tables in a spreadsheet is a programmer</a></li>
+      <li><a href="http://rolandtanglao.com/2017/04/26/p1-spreadsheet-developers-are-real-developers-too/">Spreadsheet developers are “real” developers too</a></li>
+      <li><a href="http://rolandtanglao.com/2017/03/24/p1-spreadsheet-cant-do-exceptions-and-map-reduce/">Spreadsheet Limitations – no revision control, no debugger, no map reduce, no exceptions</a></li>
+    </ul>
+  </li>
+</ul>
+
+:ET
