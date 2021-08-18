@@ -1,0 +1,10 @@
+I"6<ul>
+  <li><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a> Aug 13, 2021. <a href="https://blog.ouseful.info/2021/08/13/fragment-tools-of-production-ggalt/">Fragment: Tools of Production – ggalt and encircling scatterplot points in R and Python</a> &lt;— geom_encircle() looks great to circle photos average colour?!? also geom_lollipop and dumbell! both look useful! Must try more R ggplot2 plotting stuff!</li>
+  <li>My off the cuff idea is of course to plot the average colours of my flickr photos and Vancouver flickr photos over time and then encircle them with <code class="language-plaintext highlighter-rouge">geom_encircle()</code>
+    <ul>
+      <li>i.e. Circle the purple photos in purple, the blue photos in blue, etc :-)</li>
+    </ul>
+  </li>
+</ul>
+
+:ET

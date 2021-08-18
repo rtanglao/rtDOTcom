@@ -6,14 +6,33 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 09 Aug 2021 20:38:57 -0700</pubDate>
-    <lastBuildDate>Mon, 09 Aug 2021 20:38:57 -0700</lastBuildDate>
+    <pubDate>Tue, 17 Aug 2021 21:57:30 -0700</pubDate>
+    <lastBuildDate>Tue, 17 Aug 2021 21:57:30 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Fragment: Tools of Production – ggalt and encircling scatterplot points in R, ggplot2 and Python &lt;--- geom_encircle() looks great to circle photos average colour?!? also geom_lollipop and dumbell! both look useful</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Aug 13, 2021. &lt;a href=&quot;https://blog.ouseful.info/2021/08/13/fragment-tools-of-production-ggalt/&quot;&gt;Fragment: Tools of Production – ggalt and encircling scatterplot points in R and Python&lt;/a&gt; &amp;lt;— geom_encircle() looks great to circle photos average colour?!? also geom_lollipop and dumbell! both look useful! Must try more R ggplot2 plotting stuff!&lt;/li&gt;
+  &lt;li&gt;My off the cuff idea is of course to plot the average colours of my flickr photos and Vancouver flickr photos over time and then encircle them with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;geom_encircle()&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;i.e. Circle the purple photos in purple, the blue photos in blue, etc :-)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 17 Aug 2021 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2021/08/17/p1-fragment-ggalt-ggpolot2-scatterplot-geom-encircle-geom-lollipop-dumbell/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/08/17/p1-fragment-ggalt-ggpolot2-scatterplot-geom-encircle-geom-lollipop-dumbell/</guid>
+        
+        
+      </item>
     
       <item>
         <title>2017-12-13::apenwarr.ca::An epic treatise on scheduling, bug tracking, and triage</title>
         <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Aug 2, 2021.2017-12-13::apenwarr.ca::&lt;a href=&quot;https://apenwarr.ca/log/20171213#slide13&quot;&gt;An epic treatise on scheduling, bug tracking, and triage&lt;/a&gt; &amp;lt;— disagree about T*sla  because cars are tighly regulated for many safety reasons otherwise seems like a great common sense primer!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Aug 2, 2021.2017-12-13::apenwarr.ca::&lt;a href=&quot;https://apenwarr.ca/log/20171213#slide13&quot;&gt;An epic treatise on scheduling, bug tracking, and triage&lt;/a&gt; &amp;lt;— disagree about T*sla  because cars are tightly regulated for many safety reasons otherwise seems like a great common sense primer!&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -159,34 +178,6 @@ AND&lt;/p&gt;
         <pubDate>Sun, 18 Jul 2021 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2021/07/18/p1-how-to-improve-your-community-engagement-skills/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/07/18/p1-how-to-improve-your-community-engagement-skills/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>What Does the (node.js) Event Loop Sound Like? Music from code (like music from GPS I did back in 2010 with my N900)</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;.&lt;a href=&quot;https://medium.com/att-israel/what-does-the-event-loop-sound-like-b571abaa3562&quot;&gt;What Does the Event Loop Sound Like?&lt;/a&gt; &amp;lt;—- audio from running node.js scripts!&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Previously&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;2018: &lt;a href=&quot;http://rolandtanglao.com/2018/05/06/p1-pythonista-script-to-get-gps-coordinates-on-ios/&quot;&gt;Pythonista script to get GPS and text adapt to make music like my 2010 N900 gpsgamelan.py script?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;2010:&lt;a href=&quot;http://rolandtanglao.com/2010/07/06/gpsgamelan-py-is-ok-but-i-want-real-music-use-12-major-keys-with-10-chords/&quot;&gt;gpsgamelan.py is ok, but i want real music - use 12 major keys with 10 chords&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;
-        &lt;h5 id=&quot;video-from-2010-with-the-sound-of-gpsgamelanpy&quot;&gt;Video from 2010 with the sound of gpsgamelan.py:&lt;/h5&gt;
-
-        &lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/4764398655/in/photolist-8g1MJp&quot; title=&quot;07052010839&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/4101/4764398655_7ab3da72bc.jpg&quot; width=&quot;500&quot; height=&quot;375&quot; alt=&quot;07052010839&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 15 Jul 2021 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2021/07/15/p1-what-does-nodejs-sound-like-music-from-code/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/07/15/p1-what-does-nodejs-sound-like-music-from-code/</guid>
         
         
       </item>
