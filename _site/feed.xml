@@ -6,9 +6,28 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 22 Aug 2021 20:06:31 -0700</pubDate>
-    <lastBuildDate>Sun, 22 Aug 2021 20:06:31 -0700</lastBuildDate>
+    <pubDate>Tue, 24 Aug 2021 20:18:39 -0700</pubDate>
+    <lastBuildDate>Tue, 24 Aug 2021 20:18:39 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>More DIY COVID fan plus filter from @DavidElfstrom $CDN55 plus tax! We are all E12Ts now part 8888 or something :-) Bonus link: Michael Kalus's DIY fan setup</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Aug 24, 2021. @DavidElfstrom &lt;a href=&quot;https://twitter.com/DavidElfstrom/status/1429526273009889286&quot;&gt;FINAL OPTIMIZATION! Box fan single filter with 400 CFM measured at 120V. Estimated clean air delivery rate is 248 CFM CADR. Power is just 53 W, placing it well into Energy Star level for air cleaners. Room size: 384 sqft (8’ ceilings). Cost: $CDN55 plus some tape. /1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Bonus link: See also my friend Michael Kalus’s blog post on his DIY fan + filter setup: &lt;a href=&quot;https://michaelkalus.ca/improving-the-air-in-my-place/&quot;&gt;Improving the air in my place&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Previously:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2021/08/22/p1-diy-air-filters-covid/&quot;&gt;DIY  Air Filters For Classrooms? Experts Are Enthusiastic — And A Citizen  Scientist Makes It Easy &amp;lt;— we are all epidemiologists e12ts:-) now  via this tweet: Great article with Dean Richard Corsi @CorsIAQ on how to  build a cheap, effective air purifier. Included are instructions on how  to build an air purifier yourself. &amp;lt;– not sure this will be the  most effective but I bet something cheap and cheerful like this will  work well!&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 24 Aug 2021 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2021/08/24/p1-david-elfstrom-diy-covid-box-fan-filter/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/08/24/p1-david-elfstrom-diy-covid-box-fan-filter/</guid>
+        
+        
+      </item>
     
       <item>
         <title>DIY Air Filters For Classrooms? Experts Are Enthusiastic — And A Citizen Scientist Makes It Easy &lt;--- we are all epidemiologists e12ts:-) now via this tweet: Great article with Dean Richard Corsi @CorsIAQ on how to build a cheap, effective air purifier. Included are instructions on how to build an air purifier yourself. &lt;-- not sure this will be the most effective but I bet something cheap and cheerful like this will work well!</title>
@@ -170,28 +189,6 @@ AND&lt;/p&gt;
         <pubDate>Sun, 25 Jul 2021 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2021/07/25/p1-robert-jago-rename-places-how-canada-reexamining-map-bc-s%C3%B3lh-t%C3%A9m%C3%A9xw/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/07/25/p1-robert-jago-rename-places-how-canada-reexamining-map-bc-s%C3%B3lh-t%C3%A9m%C3%A9xw/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>(All) DNS Resource Records &lt;-- doesn't have ALIAS records?!? &lt;-- Alias records are a non standard way to alias apex domains</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.netmeister.org/blog/dns-rrs.html&quot;&gt;(All) DNS Resource Records&lt;/a&gt; &amp;lt;– doesn’t have ALIAS records?!?&lt;/li&gt;
-  &lt;li&gt;Apparently, ALIAS records are a non standard way to alias apex domains.
-    &lt;ul&gt;
-      &lt;li&gt;CloudFlare calls this &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CNAME flattening&lt;/code&gt;. See 2014 blog post: &lt;a href=&quot;https://blog.cloudflare.com/introducing-cname-flattening-rfc-compliant-cnames-at-a-domains-root/&quot;&gt;Introducing CNAME Flattening: RFC-Compliant CNAMEs at a Domain’s Root&lt;/a&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Traditionally, the root record of a domain needed to point to an IP  address (known as an A -- for &quot;address&quot; -- Record). While it may not  seem like a big deal, tying a service to an IP address can be extremely  limiting.&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/azure/dns/dns-alias&quot;&gt;Azure DNS alias records overvie&lt;/a&gt;w: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;As described previously, CNAME records aren't supported at the zone  apex. You can’t use a CNAME record to point contoso.com to your CDN  endpoint. Instead, you can use an alias record to point the zone apex to a CDN endpoint directly.&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-choosing-alias-non-alias.html&quot;&gt;AWS Route 53 Choosing between alias and non-alias records&lt;/a&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;You can't create a CNAME record that has the same name as the hosted  zone (the zone                              apex). This is  true both for hosted zones for domain names (example.com) and for hosted zones for  subdomains (zenith.example.com).&lt;/code&gt;                                                   `&lt;/li&gt;
-      &lt;li&gt;Namecheap: &lt;a href=&quot;https://www.namecheap.com/support/knowledgebase/article.aspx/10128/2237/how-to-create-an-alias-record/&quot;&gt;How to create an ALIAS record&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Thu, 22 Jul 2021 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2021/07/22/p1-all-dns-resource-records-alias=record-is-non-standard-for-apex-domains/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/07/22/p1-all-dns-resource-records-alias=record-is-non-standard-for-apex-domains/</guid>
         
         
       </item>
