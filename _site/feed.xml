@@ -6,16 +6,48 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 03 Sep 2021 19:46:40 -0700</pubDate>
-    <lastBuildDate>Fri, 03 Sep 2021 19:46:40 -0700</lastBuildDate>
+    <pubDate>Sat, 04 Sep 2021 22:28:25 -0700</pubDate>
+    <lastBuildDate>Sat, 04 Sep 2021 22:28:25 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>ggplot2 ggalt geom_encircle() sample plot of average colour</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Given a CSV file saved to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/Documents/sample-hour-count-colorname.csv&lt;/code&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-csv&quot;&gt;hour,count,colour
+1,5,red
+1,2,green
+2,10,red
+2,3,blue
+3,2,green
+3,5,red
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Then the following R code creates an encircled plot&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;hh&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read_csv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;~/Documents/sample-hour-count-colorname.csv&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gg&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ggplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hh&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;aes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gg&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;geom_encircle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;aes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;group&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;colour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;colour&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;I&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;colour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;geom_point&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;results in the following output graph&lt;/p&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/51425348981/in/datetaken-public/&quot; title=&quot;hour-count-colour-sample-plot-averagecolour&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51425348981_46dded81a9.jpg&quot; width=&quot;417&quot; height=&quot;500&quot; alt=&quot;hour-count-colour-sample-plot-averagecolour&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 04 Sep 2021 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2021/09/04/p1-ggalt-encircle/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/09/04/p1-ggalt-encircle/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Cypress Challenge 2021 - Tour de Cure 2021 160km 'century ride' formerly known as the Ride to Conquer Cancer - Bicycling as therapy and to fund cancer research</title>
         <description>&lt;ul&gt;
   &lt;li&gt;During this pandemic I have discovered that for me, bicycling and cross country skiing are great outlets and necessary outlets to lessen my blues and just to clear my mind. In addition they are super fun things I have been doing forever :-) Bicycling since I was 4 or 5, cross country skiing since I was 24!&lt;/li&gt;
   &lt;li&gt;This year both the &lt;a href=&quot;https://cyclingbc.net/event/glotman-simpson-cypress-challenge/&quot;&gt;Cypress Challenge for Pancreatic Cancer&lt;/a&gt; and the &lt;a href=&quot;https://tourdecure.ca/fundraiser/roland&quot;&gt;Tour de Cure&lt;/a&gt; were virtual. I love the longer rides and I love the charity rides. I don’t do non charity long rides so these are the biggest rides of the year for me. Thanks to the generous folks who sponsored me during this difficult time and when there are so many other worthy causes! During both rides I thought of my Mother who died of pancreatic cancer in 2013 and my Dad who died in 2015 of liver cancer. Pancreatic Cancer in particular is deadly and the Cypress Challenge is funding amazing research here in BC.&lt;/li&gt;
-  &lt;li&gt;I didn’t manage to complete the Cypress Challenge on the designated days due to smoke and other issues but did Cypress as part of my “Triple crown” on August 2nd. For the cycling nerds :-) here are my rides on Strava :-) : &lt;a href=&quot;https://www.strava.com/activities/5724054034&quot;&gt;Triple Crown August 2nd&lt;/a&gt; (including the route for the Cypress Challenge),  &lt;a href=&quot;https://www.strava.com/activities/5868953232&quot;&gt;Tour de Cure 2021&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I didn’t manage to complete the Cypress Challenge on the designated days due to smoke and other issues but did Cypress as part of my “Triple crown” on August 2nd. For the cycling nerds :-) here are my rides on Strava :-) : &lt;a href=&quot;https://www.strava.com/activities/5724054034&quot;&gt;Triple Crown August 2nd&lt;/a&gt; er August 1st (including the route for the Cypress Challenge),  &lt;a href=&quot;https://www.strava.com/activities/5868953232&quot;&gt;Tour de Cure 2021&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Thanks to &lt;a href=&quot;https://www.strava.com/activities/5724131315&quot;&gt;Sandra&lt;/a&gt;, &lt;a href=&quot;https://www.strava.com/activities/5724357971&quot;&gt;Jacqui&lt;/a&gt;, &lt;a href=&quot;https://www.strava.com/activities/5868943451&quot;&gt;Ben&lt;/a&gt; and &lt;a href=&quot;https://www.strava.com/activities/5869030557&quot;&gt;Andy&lt;/a&gt; for riding with me! You are all super great riding companions!&lt;/li&gt;
   &lt;li&gt;Powered by almond butter and banana sandwiches and gels and waffles :-) . Hat tip to Sandra for suggesting peanut butter and banana sandwiches! Works so well for me too. #ymmv&lt;/li&gt;
   &lt;li&gt;Thanks to the Lotus Road Bicycling club and Brite Coaching for the fantastic coaching. All those training sessions and tips and Saturday rides have made me a much more aware and better bicyclist whether I am on my road bicycle or not. Still much to learn about bicycling though! I really like the lifelong learning aspect of bicycling (and other sports, still much to learn about cross country skiing too!)! And I have met so many fantastic, inspirational bicycling folks of all ages and all abilities through Lotus.&lt;/li&gt;
@@ -182,20 +214,6 @@ AND&lt;/p&gt;
         <pubDate>Wed, 04 Aug 2021 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2021/08/04/p1-coast-salish-history-project/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/08/04/p1-coast-salish-history-project/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>jon undell's blog:: workbench:: A beautiful power tool to scrape, clean, and combine data &lt;--- uses jupyter and python underneath! Looks great! Better than tools like datawrapper that are proprietary right? what am I missing?!?</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;workbench::&lt;a href=&quot;https://blog.jonudell.net/2021/08/01/a-beautiful-power-tool-to-scrape-clean-and-combine-data/&quot;&gt;A beautiful power tool to scrape, clean, and combine data&lt;/a&gt;  &amp;lt;— uses jupyter and python underneath! Looks great! Better than tools like datawrapper that are proprietary right? what am I missing?!?&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Tue, 03 Aug 2021 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2021/08/03/p1-jupyter-hosted-service-tool-for-data-science/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/08/03/p1-jupyter-hosted-service-tool-for-data-science/</guid>
         
         
       </item>
