@@ -1,0 +1,26 @@
+I"'<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;</span><span class="w"> </span><span class="n">parse_date_time</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="s2">"%Y-%m-%d %H:%M:%s %z"</span><span class="p">)</span><span class="w">
+</span><span class="p">[</span><span class="m">1</span><span class="p">]</span><span class="w"> </span><span class="s2">"2019-01-01 22:16:19 UTC"</span><span class="w">
+</span></code></pre></div></div>
+
+<h2 id="unrecognized-timezone-bug-in-lubridate-174-to-179-when-trying-to-use-a--specific-timezone-fixed-in-issue-928-in-1710">Unrecognized timezone bug in Lubridate 1.7.4 to 1.7.9 when trying to use a  specific timezone, fixed in issue 928 in 1.7.10</h2>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;</span><span class="w"> </span><span class="n">lubridate</span><span class="o">::</span><span class="n">with_tz</span><span class="p">(</span><span class="n">Sys.time</span><span class="p">(),</span><span class="w"> </span><span class="s2">"America/Vancouver"</span><span class="p">)</span><span class="w">
+</span><span class="p">[</span><span class="m">1</span><span class="p">]</span><span class="w"> </span><span class="s2">"2021-09-07 17:00:52 PDT"</span><span class="w">
+</span><span class="n">Warning</span><span class="w"> </span><span class="n">message</span><span class="o">:</span><span class="w">
+</span><span class="n">In</span><span class="w"> </span><span class="n">with_tz</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">tz</span><span class="p">)</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">Unrecognized</span><span class="w"> </span><span class="n">time</span><span class="w"> </span><span class="n">zone</span><span class="w"> </span><span class="s1">'America/Vancouver'</span><span class="w">
+</span></code></pre></div></div>
+<ul>
+  <li>upgraded to 1.7.10 and it worked (bug was in 1.7.4 to 1.7.9 ), 
+<a href="https://github.com/tidyverse/lubridate/issues/928">Timezones not working since the update to R 4.0.3 #928</a>
+    <div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;</span><span class="w"> </span><span class="n">packageVersion</span><span class="p">(</span><span class="s2">"lubridate"</span><span class="p">)</span><span class="w">
+</span><span class="p">[</span><span class="m">1</span><span class="p">]</span><span class="w"> </span><span class="err">‘</span><span class="m">1.7.9</span><span class="err">’</span><span class="w">
+</span><span class="o">&gt;</span><span class="w"> </span><span class="n">remove.packages</span><span class="p">(</span><span class="s2">"lubridate"</span><span class="p">)</span><span class="w">
+</span><span class="o">&gt;</span><span class="w"> </span><span class="n">install.packages</span><span class="p">(</span><span class="s2">"lubridate"</span><span class="p">)</span><span class="w">
+</span><span class="o">&gt;</span><span class="w"> </span><span class="n">packageVersion</span><span class="p">(</span><span class="s2">"lubridate"</span><span class="p">)</span><span class="w">
+</span><span class="p">[</span><span class="m">1</span><span class="p">]</span><span class="w"> </span><span class="err">‘</span><span class="m">1.7.10</span><span class="err">’</span><span class="w">
+</span><span class="o">&gt;</span><span class="w"> </span><span class="n">lubridate</span><span class="o">::</span><span class="n">with_tz</span><span class="p">(</span><span class="n">Sys.time</span><span class="p">(),</span><span class="w"> </span><span class="s2">"America/Vancouver"</span><span class="p">)</span><span class="w">
+</span><span class="p">[</span><span class="m">1</span><span class="p">]</span><span class="w"> </span><span class="s2">"2021-09-07 17:29:23 PDT"</span><span class="w">
+</span></code></pre></div>    </div>
+  </li>
+</ul>
+:ET
