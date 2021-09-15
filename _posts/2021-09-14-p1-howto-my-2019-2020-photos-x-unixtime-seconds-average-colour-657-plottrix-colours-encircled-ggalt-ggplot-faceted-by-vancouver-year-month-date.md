@@ -4,9 +4,13 @@ title: "How to create an encircled plot of R's 657 plotrix colours of the averag
 ---
 * tl;dr running [theme-void-create-flickr-roland-2019-2020-average-colour-by-the-second-scale-free.R](https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/theme-void-create-flickr-roland-2019-2020-average-colour-by-the-second-scale-free.R) creates [8000px-flickr-roland-2019-2020-average-colour-by-the-second-scale-free.png](https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/OUTPUT_GRAPHICS/theme-void-8000px-flickr-roland-2019-2020-average-colour-by-the-second-scale-free.png)
 * As well as being in dropbox, the datasets are also on on github:
-    *  [2020-and-2019-roland-flickr-filename-integer-imavgcolour-plotrixavgcolour-metadata.csv](https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/LARGE_CSV_FILES/2020-and-2019-roland-flickr-filename-imavgcolour-plotrixavgcolour-metadata.csv)
-    *  dataset with unix time in seconds of data taken: [2020-and-2019-roland-flickr-filename-imavgcolour-plotrixavgcolour-unixtimedt.csv](https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/LARGE_CSV_FILES/2020-and-2019-roland-flickr-filename-imavgcolour-plotrixavgcolour-unixtimedt.csv)
-    *  These datasets are unwieldy since they are so large with lots of unneeded columns from the flickr API so the next post will be about smaller datasets that have just the data required.
+    * [2020-and-2019-roland-flickr-filename-integer-imavgcolour-plotrixavgcolour-metadata.csv](https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/LARGE_CSV_FILES/2020-and-2019-roland-flickr-filename-imavgcolour-plotrixavgcolour-metadata.csv)
+    
+    * dataset with unix time in seconds of data taken: [2020-and-2019-roland-flickr-filename-imavgcolour-plotrixavgcolour-unixtimedt.csv](https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/LARGE_CSV_FILES/2020-and-2019-roland-flickr-filename-imavgcolour-plotrixavgcolour-unixtimedt.csv)
+    
+    * These datasets are unwieldy since they are so large with lots of unneeded columns from the flickr API so please referr to the next post will be about smaller datasets that have just the data required:
+    
+      * [How to create a smaller dataset with just a flag  to indicate whether average colour is present, plotrix average colour,  date taken in unix time, yyyy-mm-dd](http://rolandtanglao.com/2021/09/14/p2-how-to-create-smaller-flickr-dataset-with-just-yyyy-mm-dd-unix-time-taken-plotrix-average-colour/)
 
 ## Previously
 
