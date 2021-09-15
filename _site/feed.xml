@@ -6,8 +6,8 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 14 Sep 2021 18:57:19 -0700</pubDate>
-    <lastBuildDate>Tue, 14 Sep 2021 18:57:19 -0700</lastBuildDate>
+    <pubDate>Tue, 14 Sep 2021 19:05:25 -0700</pubDate>
+    <lastBuildDate>Tue, 14 Sep 2021 19:05:25 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -64,7 +64,7 @@ pacific-yyyy-mm-dd-2020-and-2019-roland-flickr-filename-imavgcolour-plotrixavgco
         &lt;p&gt;dataset with unix time in seconds of data taken: &lt;a href=&quot;https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/LARGE_CSV_FILES/2020-and-2019-roland-flickr-filename-imavgcolour-plotrixavgcolour-unixtimedt.csv&quot;&gt;2020-and-2019-roland-flickr-filename-imavgcolour-plotrixavgcolour-unixtimedt.csv&lt;/a&gt;&lt;/p&gt;
       &lt;/li&gt;
       &lt;li&gt;
-        &lt;p&gt;These datasets are unwieldy since they are so large with lots of unneeded columns from the flickr API so please referr to the next post will be about smaller datasets that have just the data required:&lt;/p&gt;
+        &lt;p&gt;These datasets are unwieldy since they are so large with lots of unneeded columns from the flickr API so please refer to the next post will be about smaller datasets that have just the data required:&lt;/p&gt;
 
         &lt;ul&gt;
           &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2021/09/14/p2-how-to-create-smaller-flickr-dataset-with-just-yyyy-mm-dd-unix-time-taken-plotrix-average-colour/&quot;&gt;How to create a smaller dataset with just a flag  to indicate whether average colour is present, plotrix average colour,  date taken in unix time, yyyy-mm-dd&lt;/a&gt;&lt;/li&gt;
