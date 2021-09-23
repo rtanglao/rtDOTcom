@@ -6,12 +6,12 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 22 Sep 2021 19:32:52 -0700</pubDate>
-    <lastBuildDate>Wed, 22 Sep 2021 19:32:52 -0700</lastBuildDate>
+    <pubDate>Wed, 22 Sep 2021 19:35:35 -0700</pubDate>
+    <lastBuildDate>Wed, 22 Sep 2021 19:35:35 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
-        <title>How to create an ggrepel plot of R's 657 plotrix colours of the average colour of my 2019-2020 flickr photos, x axis is time in unix seconds since 1970 usingin R, y axis is the average colour using the plotrix colours</title>
+        <title>How to create an ggrepel plot of R's 657 plotrix colours of the average colour of my 2019-2020 flickr photos, x axis is time in unix seconds since 1970 using R, y axis is the average colour using the plotrix colours</title>
         <description>&lt;ul&gt;
   &lt;li&gt;tl;dr running &lt;a href=&quot;https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/segment-size-1.5-infinite-overlaps-bold-no_theme_no_caption_geom_point_ggrepl_roland_flickr_2019_2020.R&quot;&gt;segment-size-1.5-infinite-overlaps-bold-no_theme_no_caption_geom_point_ggrepl_roland_flickr_2019_2020.R&lt;/a&gt; creates &lt;a href=&quot;https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/OUTPUT_GRAPHICS/segment-size-1.5-infinite-overlaps-bold-no_theme_no_caption_geom_point_ggrepl_roland_flickr_2019_2020.png&quot;&gt;segment-size-1.5-infinite-overlaps-bold-no_theme_no_caption_geom_point_ggrepl_roland_flickr_2019_2020.png&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Repel means the labels ‘repel’ each other.&lt;/li&gt;

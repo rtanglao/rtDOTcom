@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to create an ggrepel plot of R's 657 plotrix colours of the average colour of my 2019-2020 flickr photos, x axis is time in unix seconds since 1970 usingin R, y axis is the average colour using the plotrix colours"
+title: "How to create an ggrepel plot of R's 657 plotrix colours of the average colour of my 2019-2020 flickr photos, x axis is time in unix seconds since 1970 using R, y axis is the average colour using the plotrix colours"
 ---
 * tl;dr running [segment-size-1.5-infinite-overlaps-bold-no_theme_no_caption_geom_point_ggrepl_roland_flickr_2019_2020.R](https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/segment-size-1.5-infinite-overlaps-bold-no_theme_no_caption_geom_point_ggrepl_roland_flickr_2019_2020.R) creates [segment-size-1.5-infinite-overlaps-bold-no_theme_no_caption_geom_point_ggrepl_roland_flickr_2019_2020.png](https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/OUTPUT_GRAPHICS/segment-size-1.5-infinite-overlaps-bold-no_theme_no_caption_geom_point_ggrepl_roland_flickr_2019_2020.png)
 * Repel means the labels 'repel' each other. 
