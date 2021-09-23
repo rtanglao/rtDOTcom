@@ -1,0 +1,38 @@
+I"�<ul>
+  <li>tl;dr running <a href="https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/segment-size-1.5-infinite-overlaps-bold-no_theme_no_caption_geom_point_ggrepl_roland_flickr_2019_2020.R">segment-size-1.5-infinite-overlaps-bold-no_theme_no_caption_geom_point_ggrepl_roland_flickr_2019_2020.R</a> creates <a href="https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/OUTPUT_GRAPHICS/segment-size-1.5-infinite-overlaps-bold-no_theme_no_caption_geom_point_ggrepl_roland_flickr_2019_2020.png">segment-size-1.5-infinite-overlaps-bold-no_theme_no_caption_geom_point_ggrepl_roland_flickr_2019_2020.png</a></li>
+  <li>Repel means the labels ‘repel’ each other.</li>
+  <li>The default segment thickness is 0.5mm. I changed it to 1.5mm in the hope of a more colourful plot. Not as dramatic as I would have liked.</li>
+  <li>Would be  cool to do this on a per day basis instead of faceted so I can control the layout precisely. e.g. do a monthly layout</li>
+</ul>
+
+<h2 id="previously">Previously</h2>
+
+<ul>
+  <li><a href="http://rolandtanglao.com/2021/09/14/p1-howto-my-2019-2020-photos-x-unixtime-seconds-average-colour-657-plottrix-colours-encircled-ggalt-ggplot-faceted-by-vancouver-year-month-date/">How  to create an encircled plot of R’s 657 plotrix colours of the average  colour of my 2019-2020 flickr photos, x axis is time in unix seconds  since 1970 using ggalt and ggplot in R, y axis is the average colour  using the plotrix colours</a></li>
+</ul>
+
+<h2 id="code-since-i-dont-trust-github-to-last-forever--">Code (since I don’t trust github to last forever :-)</h2>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">ggrepel</span><span class="p">)</span><span class="w">
+</span><span class="n">roland_f_2019_2020_narrow_dataset</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"https://media.githubusercontent.com/media/rtanglao/rt-flickr-sqlite-csv/main/LARGE_CSV_FILES/pacific-yyyy-mm-dd-2020-2019-roland-flickr-datetaken-synth_75sqisvalid-synth_plotrixcolour_unixtimedt.csv"</span><span class="p">)</span><span class="w">
+</span><span class="n">roland_flickr_20192020_average_colour_plot_colors_factor</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">ggplot</span><span class="p">(</span><span class="n">roland_f_2019_2020_narrow_dataset</span><span class="p">,</span><span class="w">  </span><span class="n">aes</span><span class="p">(</span><span class="n">unixtime_dt</span><span class="p">,</span><span class="n">synth_plotrixcolour</span><span class="p">))</span><span class="w">
+</span><span class="n">ggrepel_roland_flickr_20192020_average_colour_plot_colors_plot</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">roland_flickr_20192020_average_colour_plot_colors_factor</span><span class="w"> </span><span class="o">+</span><span class="w">
+</span><span class="n">geom_point</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">colour</span><span class="o">=</span><span class="n">I</span><span class="p">(</span><span class="n">synth_plotrixcolour</span><span class="p">)))</span><span class="w">  </span><span class="o">+</span><span class="w"> 
+</span><span class="n">geom_label_repel</span><span class="p">(</span><span class="n">aes</span><span class="p">(</span><span class="n">label</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">synth_plotrixcolour</span><span class="p">,</span><span class="w"> 
+  </span><span class="n">colour</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">I</span><span class="p">(</span><span class="n">synth_plotrixcolour</span><span class="p">)),</span><span class="w">
+  </span><span class="n">vjust</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"inward"</span><span class="p">,</span><span class="w"> </span><span class="n">hjust</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"inward"</span><span class="p">,</span><span class="w"> </span><span class="n">fontface</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"bold"</span><span class="p">,</span><span class="w">
+  </span><span class="n">max.overlaps</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">Inf</span><span class="p">,</span><span class="w">
+  </span><span class="n">nudge_y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">2.5</span><span class="p">,</span><span class="w"> </span><span class="n">nudge_x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">-8</span><span class="p">,</span><span class="w"> </span><span class="n">size</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">3</span><span class="p">,</span><span class="w"> </span><span class="n">segment.size</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1.5</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
+</span><span class="n">facet_wrap</span><span class="p">(</span><span class="o">~</span><span class="w"> </span><span class="n">pacific_ymd</span><span class="p">,</span><span class="w"> </span><span class="n">scales</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"free"</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w">
+</span><span class="n">theme_void</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w">
+</span><span class="n">theme</span><span class="p">(</span><span class="w">
+    </span><span class="n">strip.background</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">element_blank</span><span class="p">(),</span><span class="w">
+    </span><span class="n">strip.text.x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">element_blank</span><span class="p">()</span><span class="w">
+  </span><span class="p">)</span><span class="w">  
+</span></code></pre></div></div>
+
+<h2 id="output-flickr-embed-which-might-also-break">Output (flickr embed which might also break)</h2>
+
+<p><a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/51495129323/in/photolist-2msK71G-2msrZTi-2mrBsgN-2mqhG7M-2mpxABk-2mp6gJr-2kUADFT-2kRkWcX" title="segment-size-1.5-infinite-overlaps-bold-no_theme_no_caption_geom_point_ggrepl_roland_flickr_2019_2020"><img src="https://live.staticflickr.com/65535/51495129323_2926fcc164.jpg" width="417" height="500" alt="segment-size-1.5-infinite-overlaps-bold-no_theme_no_caption_geom_point_ggrepl_roland_flickr_2019_2020" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+:ET
