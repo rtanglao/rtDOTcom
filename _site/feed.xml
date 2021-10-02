@@ -6,9 +6,44 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 22 Sep 2021 19:35:35 -0700</pubDate>
-    <lastBuildDate>Wed, 22 Sep 2021 19:35:35 -0700</lastBuildDate>
+    <pubDate>Sat, 02 Oct 2021 16:54:06 -0700</pubDate>
+    <lastBuildDate>Sat, 02 Oct 2021 16:54:06 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>New informal rules: name the R script the same as the output graphic, post it to flickr and use a small dataset using red pink average colour example from 2019-2020 flickr average colour</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;1. name the png the same as the R script just change &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.R&lt;/code&gt;. to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.png&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;2. Use a small dataset. Not a large one that has lots of columns!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;3. Post the png to flickr and link to the R script&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;R script: &lt;a href=&quot;https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/red_pink_geomencircle_second_of_day_no_theme_no_caption_roland_flickr_2019_2020.R&quot;&gt;red_pink_geomencircle_second_of_day_no_theme_no_caption_roland_flickr_2019_2020.R&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;PNG file: &lt;a href=&quot;https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/OUTPUT_GRAPHICS/red_pink_geomencircle_second_of_day_no_theme_no_caption_roland_flickr_2019_2020.png&quot;&gt;red_pink_geomencircle_second_of_day_no_theme_no_caption_roland_flickr_2019_2020.png&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://flic.kr/p/2msK71G&quot;&gt;flickr&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;flickr-embed&quot;&gt;Flickr Embed&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;which could break :-)
+&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/51522498690/in/photolist-2muSgQW-2msK71G-2msrZTi-2mrBsgN-2mqhG7M-2mpxABk-2mp6gJr-2kUADFT-2kRkWcX-2kRkWcS-2k5ZzG1-2k5VM6Z-2k61d1p-2k61d2b-2k5VM87-2k61d3y-2k5VM8s-2k61d3o-2k61d3d-2k61d2M-2k5ZzFK-2k5ZzJL-2muugpo-2mureFZ-2mmhmBX-2k5VM7W-2k61d33-2k5ZzFE-2k61d2X-2k5VM9j-2k5ZzHi-2k61d3U-2k5ZzGm-2k5ZzHZ-2jZYPEU-2jZYxXx-2jZU6Eg-2jZYxVU-2jZXNQ9-2jZXNQp-2jZYxUr-2jZU6Cc-2jZYxYK-2k5VM4V-2k4aq1k-2k447zg-2k3ASoF-2k3AyPn&quot; title=&quot;red_pink_geomencircle_second_of_day_no_theme_no_caption_roland_flickr_2019_2020&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51522498690_18359d14e7.jpg&quot; width=&quot;417&quot; height=&quot;500&quot; alt=&quot;red_pink_geomencircle_second_of_day_no_theme_no_caption_roland_flickr_2019_2020&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 02 Oct 2021 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2021/10/02/p1-small-dataset-name-plot-same-as-r-script/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/10/02/p1-small-dataset-name-plot-same-as-r-script/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How to create an ggrepel plot of R's 657 plotrix colours of the average colour of my 2019-2020 flickr photos, x axis is time in unix seconds since 1970 using R, y axis is the average colour using the plotrix colours</title>
@@ -327,25 +362,6 @@ pacific-yyyy-mm-dd-2020-and-2019-roland-flickr-filename-imavgcolour-plotrixavgco
         <pubDate>Sun, 22 Aug 2021 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2021/08/22/p1-diy-air-filters-covid/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/08/22/p1-diy-air-filters-covid/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Fragment: Tools of Production – ggalt and encircling scatterplot points in R, ggplot2 and Python &lt;--- geom_encircle() looks great to circle photos average colour?!? also geom_lollipop and dumbell! both look useful</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Aug 13, 2021. &lt;a href=&quot;https://blog.ouseful.info/2021/08/13/fragment-tools-of-production-ggalt/&quot;&gt;Fragment: Tools of Production – ggalt and encircling scatterplot points in R and Python&lt;/a&gt; &amp;lt;— geom_encircle() looks great to circle photos average colour?!? also geom_lollipop and dumbell! both look useful! Must try more R ggplot2 plotting stuff!&lt;/li&gt;
-  &lt;li&gt;My off the cuff idea is of course to plot the average colours of my flickr photos and Vancouver flickr photos over time and then encircle them with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;geom_encircle()&lt;/code&gt;
-    &lt;ul&gt;
-      &lt;li&gt;i.e. Circle the purple photos in purple, the blue photos in blue, etc :-)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Tue, 17 Aug 2021 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2021/08/17/p1-fragment-ggalt-ggpolot2-scatterplot-geom-encircle-geom-lollipop-dumbell/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/08/17/p1-fragment-ggalt-ggpolot2-scatterplot-geom-encircle-geom-lollipop-dumbell/</guid>
         
         
       </item>
