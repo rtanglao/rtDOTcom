@@ -11,7 +11,7 @@ title: "New informal rules: name the R script the same as the output graphic, po
 ## Example
 * R script: [red_pink_geomencircle_second_of_day_no_theme_no_caption_roland_flickr_2019_2020.R](https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/red_pink_geomencircle_second_of_day_no_theme_no_caption_roland_flickr_2019_2020.R)
 * PNG file: [red_pink_geomencircle_second_of_day_no_theme_no_caption_roland_flickr_2019_2020.png](https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/OUTPUT_GRAPHICS/red_pink_geomencircle_second_of_day_no_theme_no_caption_roland_flickr_2019_2020.png)
-* [flickr](https://flic.kr/p/2msK71G)
+* [flickr: flic.kr/p/2muSgQW](https://flic.kr/p/2muSgQW)
 
 ## Flickr Embed
 
