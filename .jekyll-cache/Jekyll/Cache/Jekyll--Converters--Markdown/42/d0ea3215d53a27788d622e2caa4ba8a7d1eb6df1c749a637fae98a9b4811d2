@@ -1,0 +1,23 @@
+I"<ul>
+  <li>flickr: <a href="https://flic.kr/p/2mBwyYR">left leg</a>, <a href="https://flic.kr/p/2mBoYfV">right leg</a></li>
+  <li>It’s too white and not red/pink so overlay images on top of each other to get more colour, let’s try that next</li>
+</ul>
+
+<h2 id="imagemagick-fun">Imagemagick fun</h2>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>find <span class="nb">.</span> <span class="nt">-name</span> <span class="s1">'*.jpg'</span> <span class="nt">-print</span>  | <span class="nb">shuf</span> <span class="nt">-n</span> 3825 <span class="o">&gt;</span> right-leg-shuffled-3825-red-pink-2019-20-jpgs.txtls <span class="nt">-1</span> <span class="k">*</span>.jpg | <span class="nb">shuf</span> <span class="nt">-n</span> 3825 <span class="o">&gt;</span> left-leg-shuffled-3825-red-pink-2019-20-jpgs.txt
+find <span class="nb">.</span> <span class="nt">-name</span> <span class="s1">'*.jpg'</span> <span class="nt">-print</span>  | <span class="nb">shuf</span> <span class="nt">-n</span> 3825 <span class="o">&gt;</span> left-leg-shuffled-3825-red-pink-2019-20-jpgs.txt
+montage <span class="nt">-verbose</span> <span class="nt">-adjoin</span> <span class="nt">-tile</span> 45x85 +frame +shadow +label <span class="nt">-adjoin</span> <span class="se">\</span>
+<span class="nt">-geometry</span> <span class="s1">'75x75+0+0&lt;'</span> @right-leg-shuffled-3825-red-pink-2019-20-jpgs.txt <span class="se">\</span>
+right-leg_artofwhere-red-pink-2019-20.png
+montage <span class="nt">-verbose</span> <span class="nt">-adjoin</span> <span class="nt">-tile</span> 45x85 +frame +shadow +label <span class="nt">-adjoin</span> <span class="se">\</span>
+<span class="nt">-geometry</span> <span class="s1">'75x75+0+0&lt;'</span> @left-leg-shuffled-3825-red-pink-2019-20-jpgs.txt <span class="se">\</span>
+left-leg_artofwhere-red-pink-2019-20.png
+</code></pre></div></div>
+<h2 id="flickr-embed-left-leg">Flickr embed Left Leg</h2>
+
+<p><a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/51597869569/in/datetaken-public/" title="left-leg_artofwhere-red-pink-2019-20"><img src="https://live.staticflickr.com/65535/51597869569_c5134ff4f1.jpg" width="265" height="500" alt="left-leg_artofwhere-red-pink-2019-20" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+
+<h2 id="flickr-embed-right-leg">Flickr embed Right Leg</h2>
+
+<p><a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/51596386977/in/datetaken-public/" title="right-leg_artofwhere-red-pink-2019-20"><img src="https://live.staticflickr.com/65535/51596386977_1ec1564012.jpg" width="265" height="500" alt="right-leg_artofwhere-red-pink-2019-20" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+:ET

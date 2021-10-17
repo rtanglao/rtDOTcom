@@ -6,9 +6,41 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 02 Oct 2021 17:20:23 -0700</pubDate>
-    <lastBuildDate>Sat, 02 Oct 2021 17:20:23 -0700</lastBuildDate>
+    <pubDate>Sat, 16 Oct 2021 17:38:49 -0700</pubDate>
+    <lastBuildDate>Sat, 16 Oct 2021 17:38:49 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Make the legs for artofwhere tights using red pink flickr 2019-2020</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;flickr: &lt;a href=&quot;https://flic.kr/p/2mBwyYR&quot;&gt;left leg&lt;/a&gt;, &lt;a href=&quot;https://flic.kr/p/2mBoYfV&quot;&gt;right leg&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;It’s too white and not red/pink so overlay images on top of each other to get more colour, let’s try that next&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;imagemagick-fun&quot;&gt;Imagemagick fun&lt;/h2&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;find &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-name&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'*.jpg'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-print&lt;/span&gt;  | &lt;span class=&quot;nb&quot;&gt;shuf&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; 3825 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; right-leg-shuffled-3825-red-pink-2019-20-jpgs.txtls &lt;span class=&quot;nt&quot;&gt;-1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.jpg | &lt;span class=&quot;nb&quot;&gt;shuf&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; 3825 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; left-leg-shuffled-3825-red-pink-2019-20-jpgs.txt
+find &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-name&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'*.jpg'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-print&lt;/span&gt;  | &lt;span class=&quot;nb&quot;&gt;shuf&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; 3825 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; left-leg-shuffled-3825-red-pink-2019-20-jpgs.txt
+montage &lt;span class=&quot;nt&quot;&gt;-verbose&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-tile&lt;/span&gt; 45x85 +frame +shadow +label &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;-geometry&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'75x75+0+0&amp;lt;'&lt;/span&gt; @right-leg-shuffled-3825-red-pink-2019-20-jpgs.txt &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+right-leg_artofwhere-red-pink-2019-20.png
+montage &lt;span class=&quot;nt&quot;&gt;-verbose&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-tile&lt;/span&gt; 45x85 +frame +shadow +label &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;-geometry&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'75x75+0+0&amp;lt;'&lt;/span&gt; @left-leg-shuffled-3825-red-pink-2019-20-jpgs.txt &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+left-leg_artofwhere-red-pink-2019-20.png
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;flickr-embed-left-leg&quot;&gt;Flickr embed Left Leg&lt;/h2&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/51597869569/in/datetaken-public/&quot; title=&quot;left-leg_artofwhere-red-pink-2019-20&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51597869569_c5134ff4f1.jpg&quot; width=&quot;265&quot; height=&quot;500&quot; alt=&quot;left-leg_artofwhere-red-pink-2019-20&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;flickr-embed-right-leg&quot;&gt;Flickr embed Right Leg&lt;/h2&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/51596386977/in/datetaken-public/&quot; title=&quot;right-leg_artofwhere-red-pink-2019-20&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51596386977_1ec1564012.jpg&quot; width=&quot;265&quot; height=&quot;500&quot; alt=&quot;right-leg_artofwhere-red-pink-2019-20&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 16 Oct 2021 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2021/10/16/p1-roland-flickr-2019-2020-red=pink-artofwhere-tights/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/10/16/p1-roland-flickr-2019-2020-red=pink-artofwhere-tights/</guid>
+        
+        
+      </item>
     
       <item>
         <title>New informal rules: name the R script the same as the output graphic, post it to flickr and use a small dataset using red pink average colour example from 2019-2020 flickr average colour</title>
@@ -334,34 +366,6 @@ pacific-yyyy-mm-dd-2020-and-2019-roland-flickr-filename-imavgcolour-plotrixavgco
         <pubDate>Tue, 24 Aug 2021 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2021/08/24/p1-david-elfstrom-diy-covid-box-fan-filter/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/08/24/p1-david-elfstrom-diy-covid-box-fan-filter/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>DIY Air Filters For Classrooms? Experts Are Enthusiastic — And A Citizen Scientist Makes It Easy &lt;--- we are all epidemiologists e12ts:-) now via this tweet: Great article with Dean Richard Corsi @CorsIAQ on how to build a cheap, effective air purifier. Included are instructions on how to build an air purifier yourself. &lt;-- not sure this will be the most effective but I bet something cheap and cheerful like this will work well!</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Aug 19, 2021.&lt;a href=&quot;https://www.wgbh.org/news/local-news/2021/08/17/diy-air-filters-for-classrooms-experts-are-enthusiastic-and-a-citizen-scientist-makes-it-easy&quot;&gt;DIY Air Filters For Classrooms? Experts Are Enthusiastic — And A Citizen Scientist Makes It Easy&lt;/a&gt; &amp;lt;— we are all epidemiologists e12ts:-)  now via this tweet: &lt;a href=&quot;https://twitter.com/MCECSpdx/status/1428458829562322946&quot;&gt;Great article with Dean Richard Corsi @CorsIAQ on how to build a cheap, effective air purifier. Included are instructions on how to build an air purifier yourself.&lt;/a&gt; &amp;lt;– not sure this will be the most effective but I bet something cheap and cheerful like this will work well!&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Previously:&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;June 8, 2021&lt;a href=&quot;http://rolandtanglao.com/2021/06/08/p1-second-dose-astra-zeneca-covid19-vaccine-go-science-go/&quot;&gt;Got my 2nd dose of the Astra Zeneca Covid 19 vaccine today. Go science go!&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2021/04/30/p1-three-weeks-since-astra-zeneca-vaccination-and-feel-fine/&quot;&gt;Three weeks since my first dose of the Astra Zeneca Covid 19 vaccine and I feel fine!&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2021/04/08/p1-first-dose-astra-zeneca-covid-19-vaccine-go-science-go/&quot;&gt;Got my first dose of the Astra Zeneca Covid 19 vaccine today. Go science go!&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2021/01/13/p1-nicholson-baker-lab-leak-hypothesis/&quot;&gt;Nicholson Baker: The Lab-Leak Hypothesis (COVID leaked out of a lab?!?)&lt;/a&gt;  &amp;lt;– still not convinced!&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/05/09/p1-over40-in-vancouver-pandemic-3-dale-tests-negative-covid-19/&quot;&gt;Life during the Pandemic #3. @dale42 Tests Negative For COVID-19&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/02/25/p1-fact-checking-corona-virus/&quot;&gt;How To: Fact Check the corona virus aka Covid-19 crisis &lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;March 23, 2020  &lt;a href=&quot;http://rolandtanglao.com/2020/03/23/p1-kieran-healy-get-your-epidemiology-from-epidemiologists/&quot;&gt;Kieran Healy: Get Your Epidemiology from Epidemiologists &amp;lt;— awesome documented R code&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 22 Aug 2021 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2021/08/22/p1-diy-air-filters-covid/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/08/22/p1-diy-air-filters-covid/</guid>
         
         
       </item>
