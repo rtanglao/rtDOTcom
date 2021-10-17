@@ -6,9 +6,37 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 17 Oct 2021 13:22:50 -0700</pubDate>
-    <lastBuildDate>Sun, 17 Oct 2021 13:22:50 -0700</lastBuildDate>
+    <pubDate>Sun, 17 Oct 2021 13:36:28 -0700</pubDate>
+    <lastBuildDate>Sun, 17 Oct 2021 13:36:28 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>I made artofwhere leggings from my red-ish and pink-ish flickr photos 2019-2020</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;I took the left and right legs from the previous post : &lt;a href=&quot;http://rolandtanglao.com/2021/10/16/p1-roland-flickr-2019-2020-red=pink-artofwhere-tights/&quot;&gt;Make the legs for artofwhere tights using red pink flickr 2019-2020&lt;/a&gt; and overlaid them using imagemagick and then uoloaded the graphic as the left leg and cloned it to the right leg.&lt;/li&gt;
+  &lt;li&gt;You can order them from art of where here: &lt;a href=&quot;https://artofwhere.com/artists/roland-tanglao/clothing/leggings/5038278&quot;&gt;artofwhere.com/artists/roland-tanglao/clothing/leggings/5038278&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Here are the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;imagemagick&lt;/code&gt; commands from my &lt;a href=&quot;https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/README.md#17october20201-too-much-white-colour-so-overlay-to-make-a-more-colourful-leg&quot;&gt;github flickr sqlite repo&lt;/a&gt; I used to to do this:
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;magick convert right-leg_artofwhere-red-pink-2019-20.png &lt;span class=&quot;nt&quot;&gt;-transparent&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;#ffffff&quot;&lt;/span&gt; transparent-right-leg_artofwhere-red-pink-2019-20.png
+magick convert left-leg_artofwhere-red-pink-2019-20.png &lt;span class=&quot;nt&quot;&gt;-transparent&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;#ffffff&quot;&lt;/span&gt; transparent-left-leg_artofwhere-red-pink-2019-20.png
+magick convert &lt;span class=&quot;nt&quot;&gt;-background&lt;/span&gt; none &lt;span class=&quot;nt&quot;&gt;-layers&lt;/span&gt; flatten  transparent-right-leg_artofwhere-red-pink-2019-20.png transparent-left-leg_artofwhere-red-pink-2019-20.png transparent-artofwhere_left_and_right_overlaid-red-pink-2019-2020.png
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;art-of-where-3d-embed&quot;&gt;Art of Where 3D Embed&lt;/h2&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/51600971695/in/datetaken-public/&quot; title=&quot;3D artofwhere-flickr-2019-2020-red-pink-leggings&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51600971695_3985036063.jpg&quot; width=&quot;500&quot; height=&quot;446&quot; alt=&quot;3D artofwhere-flickr-2019-2020-red-pink-leggings&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;individual-leg-embed&quot;&gt;Individual Leg Embed&lt;/h2&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/51600665910/in/datetaken-public/&quot; title=&quot;transparent-artofwhere_left_and_right_overlaid-red-pink-2019-2020&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51600665910_dd799d49c3.jpg&quot; width=&quot;265&quot; height=&quot;500&quot; alt=&quot;transparent-artofwhere_left_and_right_overlaid-red-pink-2019-2020&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 17 Oct 2021 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2021/10/17/p1-overlaid-right-and-left-legs-to-make-artofwhere-legging-less-white/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/10/17/p1-overlaid-right-and-left-legs-to-make-artofwhere-legging-less-white/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Dave Winer's Drummer proves that the best way to blog is through an outliner</title>
@@ -347,20 +375,6 @@ pacific-yyyy-mm-dd-2020-and-2019-roland-flickr-filename-imavgcolour-plotrixavgco
         <pubDate>Fri, 03 Sep 2021 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2021/09/03/p1-cypress-challenge-tour-de-cure-bicycling-2021/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/09/03/p1-cypress-challenge-tour-de-cure-bicycling-2021/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Cory Doctorow :: August 25, 2020 :: How to destroy surveillance capitalism ; tl;dr break up the monopolies</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://onezero.medium.com/how-to-destroy-surveillance-capitalism-8135e6744d59&quot;&gt;How to destroy surveillance capitalism&lt;/a&gt; ; tl;dr break up the monopolies &amp;lt;— &lt;a href=&quot;https://bookshop.org/books/how-to-destroy-surveillance-capitalism/9781736205907&quot;&gt;now available as a paperback e-reader edition&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 30 Aug 2021 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2021/08/30/p1-cory-doctorow-how-to-destroy-surveillance-capitalism-break-up-the-monopolies/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/08/30/p1-cory-doctorow-how-to-destroy-surveillance-capitalism-break-up-the-monopolies/</guid>
         
         
       </item>
