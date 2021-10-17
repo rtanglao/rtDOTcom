@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "HTML tags &lt;details> and &lt;summmary> can be used for expand/collapse with disclosure triangles for 'collapsible HTML'"
+title: "HTML tags &lt;details> and &lt;summary> can be used for expand/collapse with disclosure triangles for 'collapsible HTML'"
 ---
 ## Pontifications
 
@@ -23,8 +23,8 @@ print("hello world!")
 </p>
 </details>
 ```
-  * sounds like I or somebody else could easily (ha! for some definition of easy!) write a script to take checkvist markdown and convert it to "collapsible html"
-  
+  * sounds like I or somebody else could easily (ha! for some definition of easy!) write a script to take checkvist markdown and convert it to "collapsible html" using the &lt;details> and &lt;summary> HTML tags
+
 ### Other links with potential clues
 
 * [https://github.com/dear-github/dear-github/issues/166](https://github.com/dear-github/dear-github/issues/166)
