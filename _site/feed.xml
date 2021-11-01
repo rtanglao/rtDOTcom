@@ -6,9 +6,42 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 23 Oct 2021 17:22:13 -0700</pubDate>
-    <lastBuildDate>Sat, 23 Oct 2021 17:22:13 -0700</lastBuildDate>
+    <pubDate>Sun, 31 Oct 2021 17:56:25 -0700</pubDate>
+    <lastBuildDate>Sun, 31 Oct 2021 17:56:25 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Greg Wilson: A Critical History of Logo and Constructionist Learning - 'I believe very strongly that we will only get through the next fifty years if we start to care about each other and our collective future more than we do right now'</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 24, 2021.19:46 &lt;a href=&quot;https://neverworkintheory.org/2021/10/11/a-critical-history-of-logo-and-constructionist-learning.html&quot;&gt;A Critical History of Logo and Constructionist Learning&lt;/a&gt; &amp;lt;– “ I was in my early thirties when I finally accepted that for most people, programming was and always would be a tax they had to pay in order to do whatever they actually cared about. Recursion, parallelism, and design patterns weren’t somehow worthier than gardening, brewing, or running marathons; by acting and speaking as though they were, I was alienating people and making computing less accessible.”  &amp;lt;–  I will reluctantly :-) concede that not everybody should learn to program in a traditional language like scheme or python but i still maintain that spreadsheet programming is real programming that EVERYBODY learns and therefore we should make spreadsheets and tools like them much better! e.g. somehow add version control, somehow add tests,etc&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;I believe very strongly that    we will only get through the next fifty years    if we start to care about each other and our collective future    more than we do right now.    I also believe that in order to do that,    we need to figure out why we *haven't* cared in the past.    The Internet and modern computing culture    aren't solely responsible for today's woes,    but they're responsible for enough of them    to be worth looking at much more critically than Silicon Valley chooses to &amp;lt;--- &lt;/code&gt; YES, we must learn how to co-operate and work together to secure our collective future if we are to survive climate change.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Previously:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2021/08/08/p1-spreadsheet-bugs-caused-1500-to-die-in-england-need-tests/&quot;&gt;Tim  Harford (via Simon Willison) The Tyranny of Spreadsheets &amp;lt;— don’t  use them in life and death situations &amp;lt;– 1500 people died in England  because of spreadsheets &amp;lt;— real moral of the story is don’t use  anything in production without tests?&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2021/03/09/p1-excel-never-dies-the-spreadsheet-that-launched-a-million-companies/&quot;&gt;Excel Never Dies The Spreadsheet That Launched A Million Companies &amp;lt;– The real ‘programming for the people’&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2019/04/30/p1-richard-gabriel-the-spreadsheet-was-something-never-seen-before/&quot;&gt;Richard  Gabriel: Nevertheless, the spreadsheet was something never seen before.  A chart indicating the 64 greatest events in accounting and business  history contains VisiCalc.&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2018/04/26/p1-everybody-who-writes-formulas-or-uses-pivot-tables-in-a-spreadsheet-is-a-programmer/&quot;&gt;Everybody who writes formulas and/or uses pivot tables in a spreadsheet is a programmer&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2017/04/26/p1-spreadsheet-developers-are-real-developers-too/&quot;&gt;Spreadsheet developers are “real” developers too&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2017/03/24/p1-spreadsheet-cant-do-exceptions-and-map-reduce&quot;&gt;Spreadsheet Limitations – no revision control, no debugger, no map reduce, no exceptions&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2017/03/23/p1-programming-beyond-google-docs-and-spreadsheets/&quot;&gt;Programming for normal people beyond Google Docs and Google Sheets?&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2015/04/16/google-spreadsheet-crashed-240000-line-csv-file/&quot;&gt;Google Spreadsheet crashed with a 240000 line csv file&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 31 Oct 2021 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2021/10/31/p1-critical-history-logo-constructionist-learning/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/10/31/p1-critical-history-logo-constructionist-learning/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Photography Off the Scale (edited by Tomáš Dvořák, Jussi Parikka) calls for a reconsideration of both scholarly and artistic approaches and concepts in the face of our contemporary image excess.</title>
@@ -345,45 +378,6 @@ pacific-yyyy-mm-dd-2020-and-2019-roland-flickr-filename-imavgcolour-plotrixavgco
         <pubDate>Wed, 08 Sep 2021 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2021/09/08/p1-howto-use-a-specific-timezone-lubridate-r/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/09/08/p1-howto-use-a-specific-timezone-lubridate-r/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ggplot2 ggalt geom_encircle() sample plot of average colour</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Given a CSV file saved to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/Documents/sample-hour-count-colorname.csv&lt;/code&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-csv&quot;&gt;hour,count,colour
-1,5,red
-1,2,green
-2,10,red
-2,3,blue
-3,2,green
-3,5,red
-&lt;/code&gt;&lt;/pre&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Then the following R code creates an encircled plot&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;hh&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read_csv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;~/Documents/sample-hour-count-colorname.csv&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gg&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ggplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hh&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;aes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gg&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;geom_encircle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;aes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;group&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;colour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;colour&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;I&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;colour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;geom_point&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;results in the following output graph&lt;/p&gt;
-
-&lt;h2 id=&quot;graph-has-flickr-embed-which-could-break-in-the-future&quot;&gt;Graph (has flickr embed which could break in the future)&lt;/h2&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/51425348981/in/datetaken-public/&quot; title=&quot;hour-count-colour-sample-plot-averagecolour&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51425348981_46dded81a9.jpg&quot; width=&quot;417&quot; height=&quot;500&quot; alt=&quot;hour-count-colour-sample-plot-averagecolour&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2021/08/17/p1-fragment-ggalt-ggpolot2-scatterplot-geom-encircle-geom-lollipop-dumbell/&quot;&gt;Fragment:  Tools of Production – ggalt and encircling scatterplot points in R,  ggplot2 and Python &amp;lt;— geom_encircle() looks great to circle photos  average colour?!? also geom_lollipop and dumbell! both look useful&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 04 Sep 2021 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2021/09/04/p1-ggalt-encircle/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/09/04/p1-ggalt-encircle/</guid>
         
         
       </item>
