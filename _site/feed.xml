@@ -6,9 +6,32 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 09 Nov 2021 18:23:54 -0800</pubDate>
-    <lastBuildDate>Tue, 09 Nov 2021 18:23:54 -0800</lastBuildDate>
+    <pubDate>Mon, 22 Nov 2021 20:14:15 -0800</pubDate>
+    <lastBuildDate>Mon, 22 Nov 2021 20:14:15 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>City of Vancouver Places to East Outside in the winter when it's not raining and when it IS raining</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Collecting these in &lt;a href=&quot;http://drummer.scripting.com/&quot;&gt;Drummer&lt;/a&gt;!&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://oldschool.scripting.com/rtanglao/2021/11/22/194155.html?title=cityOfVancouverPlacesToEastOutsideInTheWinterWhenItsNotRaining&quot;&gt;City of Vancouver Places to East Outside in the winter when it’s not raining&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://oldschool.scripting.com/rtanglao/2021/11/21/175754.html?title=cityOfVancouverPlacesToEatOutsideInTheRain&quot;&gt;City of Vancouver places to eat outside in the rain&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Previously:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2021/03/19/p1-how-to-vancouverite-always-carry-raingear/&quot;&gt;How to Vancouverite in the rain: Always carry raingear because we live in a temperate rainforest&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2021/03/16/p1-how-to-vancouverite-always-carry-chopsticks-spoon-fork-knife-napkin-dining-rain/&quot;&gt;How  To Vancouverite in the Rain: Always carry chopsticks, spoon, fork,  knife wrapped in a napkin since you never know when you’ll have a  hankering for adobo, pancit, mapo tofu, kimchi stew, chana masala or  sushi&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2021/03/15/p1-how-to-vancouverite-always-carry-a-plastic-bag-for-coffee-and-doughnuts-in-the-rain/&quot;&gt;How To Vancouverite in the Rain: Always carry a plastic bag for outdoor coffee and doughnuts in the rain&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 22 Nov 2021 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2021/11/22/p1-city-of-vancouver-places-to-eat-outside-when-rainy-and-when-not-rainy/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/11/22/p1-city-of-vancouver-places-to-eat-outside-when-rainy-and-when-not-rainy/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Jake Archibald: How to win at CORS</title>
@@ -262,47 +285,6 @@ left-leg_artofwhere-red-pink-2019-20.png
         <pubDate>Wed, 22 Sep 2021 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2021/09/22/p1-howto-my-2019-2020-photos-x-unixtime-seconds-average-colour-657-plottrix-colours-ggrepel-ggplot-faceted-by-vancouver-year-month-date/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/09/22/p1-howto-my-2019-2020-photos-x-unixtime-seconds-average-colour-657-plottrix-colours-ggrepel-ggplot-faceted-by-vancouver-year-month-date/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to create a smaller dataset with just a flag to indicate whether average colour is present, plotrix average colour, date taken in unix time, yyyy-mm-dd </title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;1. write a CSV file with pacific time zone yyyy-mm-dd
-    &lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;write_csv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pacific_df_with_plotrix_colour_unixtime_dt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/Users/roland/Documents/GIT/rt-flickr-sqlite-csv/LARGE_CSV_FILES/pacific-yyyy-mm-dd-2020-and-2019-roland-flickr-filename-imavgcolour-plotrixavgcolour-unixtimedt.csv&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;na&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2. write a CSV file with only the columns we need
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mlr &lt;span class=&quot;nt&quot;&gt;--csv&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;cut&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; datetaken,synth_plotrixcolour,synth_75sqisvalid,pacific_ymd &lt;span class=&quot;se&quot;&gt;\ &lt;/span&gt;                     
-pacific-yyyy-mm-dd-2020-and-2019-roland-flickr-filename-imavgcolour-plotrixavgcolour-unixtimedt.csv |&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;UTC,0,&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; pacific-yyyy-mm-dd-2020-2019-roland-flickr-datetaken-synth_75sqisvalid-synth_plotrixcolour.csv
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;3. ooops forgot unixtime_dt
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mlr &lt;span class=&quot;nt&quot;&gt;--csv&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;cut&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; datetaken,synth_plotrixcolour,synth_75sqisvalid,unixtime_dt,pacific_ymd&lt;span class=&quot;se&quot;&gt;\ &lt;/span&gt;                     
- pacific-yyyy-mm-dd-2020-and-2019-roland-flickr-filename-imavgcolour-plotrixavgcolour-unixtimedt.csv |&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;UTC,0,&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; pacific-yyyy-mm-dd-2020-2019-roland-flickr-datetaken-synth_75sqisvalid-synth_plotrixcolour_unixtimedt.csv
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;This smaller dataset is  on on github:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://media.githubusercontent.com/media/rtanglao/rt-flickr-sqlite-csv/main/LARGE_CSV_FILES/pacific-yyyy-mm-dd-2020-2019-roland-flickr-datetaken-synth_75sqisvalid-synth_plotrixcolour_unixtimedt.csv&quot;&gt;rt-flickr-sqlite-csv/main/LARGE_CSV_FILES/pacific-yyyy-mm-dd-2020-2019-roland-flickr-datetaken-synth_75sqisvalid-synth_plotrixcolour_unixtimedt.csv&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2021/09/14/p1-howto-my-2019-2020-photos-x-unixtime-seconds-average-colour-657-plottrix-colours-encircled-ggalt-ggplot-faceted-by-vancouver-year-month-date/&quot;&gt;How  to create an encircled plot of R’s 657 plotrix colours of the average  colour of my 2019-2020 flickr photos, x axis is time in unix seconds  since 1970 using ggalt and ggplot in R, y axis is the average colour  using the plotrix colours&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 14 Sep 2021 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2021/09/14/p2-how-to-create-smaller-flickr-dataset-with-just-yyyy-mm-dd-unix-time-taken-plotrix-average-colour/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/09/14/p2-how-to-create-smaller-flickr-dataset-with-just-yyyy-mm-dd-unix-time-taken-plotrix-average-colour/</guid>
         
         
       </item>
