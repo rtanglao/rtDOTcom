@@ -6,9 +6,27 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 05 Dec 2021 12:05:00 -0800</pubDate>
-    <lastBuildDate>Sun, 05 Dec 2021 12:05:00 -0800</lastBuildDate>
+    <pubDate>Sun, 12 Dec 2021 11:17:55 -0800</pubDate>
+    <lastBuildDate>Sun, 12 Dec 2021 11:17:55 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Zettelkasten — How One German Scholar Was So Freakishly Productive: One idea per post, and link to a previous post with context</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Re-&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;discovered&lt;/a&gt; Dec 4, 2021.12:53 &lt;a href=&quot;https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125&quot;&gt;Zettelkasten — How One German Scholar Was So Freakishly Productive&lt;/a&gt; &amp;lt;— I though I had blogged this but I guess I haven’t? This has always sounded like a link blog to me: one idea per link blog post; each link blog post links to another with some context for the link.&lt;/li&gt;
+  &lt;li&gt;See previously:
+    &lt;ul&gt;
+      &lt;li&gt;Actually I have blogged about this before in February 2020 ! But I buried the link and title in this post: &lt;a href=&quot;http://rolandtanglao.com/2020/02/05/p1-stowe-boyd-building-a-zettelkasten-typora/&quot;&gt;Stowe Boyd Building A Zettelkasten (notes that are: atomic, autonomous, linked, explain why, your own words, links to references) In Typora&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 11 Dec 2021 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2021/12/11/p1-zettelkasten-german-scholar-productivity-linked-notes/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/12/11/p1-zettelkasten-german-scholar-productivity-linked-notes/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Vancouver: The Good Parts</title>
@@ -154,7 +172,7 @@
         <title>Peter Welch from 2014: Programming Sucks&lt;--- it does until it doesn't :-) i.e. we get secure verified software for all layers and components and something better than spreadsheets for so-called 'non programmers'</title>
         <description>&lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 6, 2021 &lt;a href=&quot;https://www.stilldrinking.org/programming-sucks&quot;&gt;Programming Sucks&lt;/a&gt; &amp;lt;— it does until it doesn’t :-)&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 6, 2021 &lt;a href=&quot;https://www.stilldrinking.org/programming-sucks&quot;&gt;Programming Sucks&lt;/a&gt; &amp;lt;— it does until it doesn’t :-)&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Previously:&lt;/p&gt;
@@ -306,41 +324,6 @@ left-leg_artofwhere-red-pink-2019-20.png
         <pubDate>Sat, 16 Oct 2021 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2021/10/16/p1-roland-flickr-2019-2020-red=pink-artofwhere-tights/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/10/16/p1-roland-flickr-2019-2020-red=pink-artofwhere-tights/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>New informal rules: name the R script the same as the output graphic, post it to flickr and use a small dataset using red pink average colour example from 2019-2020 flickr average colour</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;1. name the png the same as the R script just change &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.R&lt;/code&gt;. to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.png&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;2. Use a small dataset. Not a large one that has lots of columns!&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;3. Post the png to flickr and link to the R script&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;example&quot;&gt;Example&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;R script: &lt;a href=&quot;https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/red_pink_geomencircle_second_of_day_no_theme_no_caption_roland_flickr_2019_2020.R&quot;&gt;red_pink_geomencircle_second_of_day_no_theme_no_caption_roland_flickr_2019_2020.R&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;PNG file: &lt;a href=&quot;https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/OUTPUT_GRAPHICS/red_pink_geomencircle_second_of_day_no_theme_no_caption_roland_flickr_2019_2020.png&quot;&gt;red_pink_geomencircle_second_of_day_no_theme_no_caption_roland_flickr_2019_2020.png&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://flic.kr/p/2muSgQW&quot;&gt;flickr: flic.kr/p/2muSgQW&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;flickr-embed&quot;&gt;Flickr Embed&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;which could break :-)
-&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/51522498690/in/photolist-2muSgQW-2msK71G-2msrZTi-2mrBsgN-2mqhG7M-2mpxABk-2mp6gJr-2kUADFT-2kRkWcX-2kRkWcS-2k5ZzG1-2k5VM6Z-2k61d1p-2k61d2b-2k5VM87-2k61d3y-2k5VM8s-2k61d3o-2k61d3d-2k61d2M-2k5ZzFK-2k5ZzJL-2muugpo-2mureFZ-2mmhmBX-2k5VM7W-2k61d33-2k5ZzFE-2k61d2X-2k5VM9j-2k5ZzHi-2k61d3U-2k5ZzGm-2k5ZzHZ-2jZYPEU-2jZYxXx-2jZU6Eg-2jZYxVU-2jZXNQ9-2jZXNQp-2jZYxUr-2jZU6Cc-2jZYxYK-2k5VM4V-2k4aq1k-2k447zg-2k3ASoF-2k3AyPn&quot; title=&quot;red_pink_geomencircle_second_of_day_no_theme_no_caption_roland_flickr_2019_2020&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51522498690_18359d14e7.jpg&quot; width=&quot;417&quot; height=&quot;500&quot; alt=&quot;red_pink_geomencircle_second_of_day_no_theme_no_caption_roland_flickr_2019_2020&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 02 Oct 2021 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2021/10/02/p1-small-dataset-name-plot-same-as-r-script/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/10/02/p1-small-dataset-name-plot-same-as-r-script/</guid>
         
         
       </item>
