@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 12 Dec 2021 11:17:55 -0800</pubDate>
-    <lastBuildDate>Sun, 12 Dec 2021 11:17:55 -0800</lastBuildDate>
+    <pubDate>Sun, 19 Dec 2021 22:08:26 -0800</pubDate>
+    <lastBuildDate>Sun, 19 Dec 2021 22:08:26 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Thej: Extract Data from HTML/XML/JSON using Xidel</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Dec 13, 2021.00:25 &lt;a href=&quot;https://thejeshgn.com/2021/11/15/extract-data-from-html-xml-json-using-xidel/&quot;&gt;Extract Data from HTML/XML/JSON using Xidel&lt;/a&gt;&amp;lt;— so many of these tools :-) but this one does json AND HTML and XML&lt;/li&gt;
+  &lt;li&gt;Related from Feb 16, 2020: &lt;a href=&quot;http://rolandtanglao.com/2020/02/16/p2-pup-for-html-like-jq-for-json/&quot;&gt;pup for HTML is like jq for JSON&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;and from June 20, 2017: &lt;a href=&quot;http://rolandtanglao.com/2017/06/20/p1-using-jq-to-minify-json/&quot;&gt;How to minify JSON using jq&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;and a similar tool for CSV files, mlr aka miller, from April 2019: &lt;a href=&quot;http://rolandtanglao.com/2019/04/21/p2-howto-use-miller-mlr-to-create-csv-file-with-urls-from-ids/&quot;&gt;How  to use mlr (miller) to create an id, url CSV file from a file of ids by  concatenating ‘support.mozilla.org/questions/’ to the id&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 19 Dec 2021 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2021/12/19/p1-thej-extract-data-html-json-xhtml-xidel/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2021/12/19/p1-thej-extract-data-html-json-xhtml-xidel/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Zettelkasten — How One German Scholar Was So Freakishly Productive: One idea per post, and link to a previous post with context</title>
@@ -292,38 +309,6 @@ magick convert &lt;span class=&quot;nt&quot;&gt;-background&lt;/span&gt; none &l
         <pubDate>Sat, 16 Oct 2021 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2021/10/16/p2-outliner-best-way-to-blog-dave-winer-drummer/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/10/16/p2-outliner-best-way-to-blog-dave-winer-drummer/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Make the legs for artofwhere tights using red pink flickr 2019-2020</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;flickr: &lt;a href=&quot;https://flic.kr/p/2mBwyYR&quot;&gt;left leg&lt;/a&gt;, &lt;a href=&quot;https://flic.kr/p/2mBoYfV&quot;&gt;right leg&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;It’s too white and not red/pink so overlay images on top of each other to get more colour, let’s try that next&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;imagemagick-fun&quot;&gt;Imagemagick fun&lt;/h2&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;find &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-name&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'*.jpg'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-print&lt;/span&gt;  | &lt;span class=&quot;nb&quot;&gt;shuf&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; 3825 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; right-leg-shuffled-3825-red-pink-2019-20-jpgs.txtls &lt;span class=&quot;nt&quot;&gt;-1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.jpg | &lt;span class=&quot;nb&quot;&gt;shuf&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; 3825 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; left-leg-shuffled-3825-red-pink-2019-20-jpgs.txt
-find &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-name&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'*.jpg'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-print&lt;/span&gt;  | &lt;span class=&quot;nb&quot;&gt;shuf&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; 3825 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; left-leg-shuffled-3825-red-pink-2019-20-jpgs.txt
-montage &lt;span class=&quot;nt&quot;&gt;-verbose&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-tile&lt;/span&gt; 45x85 +frame +shadow +label &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;-geometry&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'75x75+0+0&amp;lt;'&lt;/span&gt; @right-leg-shuffled-3825-red-pink-2019-20-jpgs.txt &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-right-leg_artofwhere-red-pink-2019-20.png
-montage &lt;span class=&quot;nt&quot;&gt;-verbose&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-tile&lt;/span&gt; 45x85 +frame +shadow +label &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;-geometry&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'75x75+0+0&amp;lt;'&lt;/span&gt; @left-leg-shuffled-3825-red-pink-2019-20-jpgs.txt &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-left-leg_artofwhere-red-pink-2019-20.png
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h2 id=&quot;flickr-embed-left-leg&quot;&gt;Flickr embed Left Leg&lt;/h2&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/51597869569/in/datetaken-public/&quot; title=&quot;left-leg_artofwhere-red-pink-2019-20&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51597869569_c5134ff4f1.jpg&quot; width=&quot;265&quot; height=&quot;500&quot; alt=&quot;left-leg_artofwhere-red-pink-2019-20&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;flickr-embed-right-leg&quot;&gt;Flickr embed Right Leg&lt;/h2&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/51596386977/in/datetaken-public/&quot; title=&quot;right-leg_artofwhere-red-pink-2019-20&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/51596386977_1ec1564012.jpg&quot; width=&quot;265&quot; height=&quot;500&quot; alt=&quot;right-leg_artofwhere-red-pink-2019-20&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 16 Oct 2021 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2021/10/16/p1-roland-flickr-2019-2020-red=pink-artofwhere-tights/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/10/16/p1-roland-flickr-2019-2020-red=pink-artofwhere-tights/</guid>
         
         
       </item>
