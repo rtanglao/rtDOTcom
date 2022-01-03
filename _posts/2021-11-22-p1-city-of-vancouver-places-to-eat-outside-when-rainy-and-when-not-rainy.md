@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "City of Vancouver Places to East Outside in the winter when it's not raining and when it IS raining"
+title:  "City of Vancouver Places to Eat Outside in the winter when it's not raining and when it IS raining"
 ---
 
 * Collecting these in [Drummer](http://drummer.scripting.com/)!
