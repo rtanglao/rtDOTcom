@@ -1,0 +1,30 @@
+I"3<ul>
+  <li>It appears the flickr search api has changed</li>
+  <li>The official <a href="https://www.flickr.com/services/api/flickr.photos.search.html">flickr.photos.search API docs</a> say <code class="language-plaintext highlighter-rouge">woe_id</code></li>
+  <li>And that is what I had working 12 years ago in this <a href="https://gist.github.com/rtanglao/571353#file-getgastownphotos-rb-L43">gist</a>
+    <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">search_url</span> <span class="o">=</span> <span class="s2">"/services/rest/?method=flickr.photos.search&amp;api_key="</span><span class="o">+</span><span class="n">api_key</span><span class="o">+</span>
+    <span class="s2">"&amp;format=json&amp;nojsoncallback=1&amp;content_type="</span><span class="o">+</span><span class="n">content_type</span><span class="o">+</span>      <span class="s2">"&amp;tags="</span><span class="o">+</span><span class="n">tags</span><span class="o">+</span><span class="s2">"&amp;woe_id="</span><span class="o">+</span><span class="n">woe_id</span><span class="o">+</span><span class="s2">"&amp;per_page="</span><span class="o">+</span><span class="n">per_page</span><span class="o">+</span><span class="s2">"&amp;user_id="</span><span class="o">+</span><span class="n">user_id</span><span class="o">+</span> <span class="s2">"&amp;extras="</span><span class="o">+</span><span class="n">extras</span><span class="o">+</span><span class="s2">"&amp;max_taken_date="</span><span class="o">+</span><span class="n">max_taken_date</span><span class="o">+</span><span class="s2">"&amp;page="</span><span class="o">+</span><span class="n">page</span><span class="p">.</span><span class="nf">to_s</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">woe_id</code> no longer works instead you have to use it without the underscore i.e. <code class="language-plaintext highlighter-rouge">woeid</code></p>
+  </li>
+  <li>From <a href="https://github.com/rtanglao/funwithtarry/blob/main/gastown-backup-revolvercoffee-by-date.rb">funwithtarry/…/gastown-backup-revolvercoffee-by-date.rb</a>
+    <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="n">url_params</span> <span class="o">=</span> <span class="p">{</span><span class="ss">:method</span> <span class="o">=&gt;</span> <span class="s2">"flickr.photos.search"</span><span class="p">,</span>
+    <span class="ss">:api_key</span> <span class="o">=&gt;</span> <span class="n">api_key</span><span class="p">,</span>
+    <span class="ss">:format</span> <span class="o">=&gt;</span> <span class="s2">"json"</span><span class="p">,</span>
+    <span class="ss">:nojsoncallback</span> <span class="o">=&gt;</span> <span class="s2">"1"</span><span class="p">,</span> 
+    <span class="ss">:woeid</span> <span class="o">=&gt;</span> <span class="s2">"26332810"</span><span class="p">,</span> <span class="c1"># gastown</span>
+    <span class="ss">:content_type</span> <span class="o">=&gt;</span> <span class="s2">"7"</span><span class="p">,</span> <span class="c1"># all: photos, videos, etc</span>
+    <span class="ss">:per_page</span>     <span class="o">=&gt;</span> <span class="s2">"250"</span><span class="p">,</span>
+    <span class="ss">:extras</span> <span class="o">=&gt;</span>  <span class="n">extras_str</span><span class="p">,</span>
+    <span class="ss">:sort</span> <span class="o">=&gt;</span> <span class="s2">"date-taken-asc"</span><span class="p">,</span> 
+    <span class="ss">:page</span> <span class="o">=&gt;</span> <span class="n">page</span><span class="p">.</span><span class="nf">to_s</span><span class="p">,</span>
+    <span class="ss">:min_taken_date</span> <span class="o">=&gt;</span> <span class="n">min_taken_date</span><span class="p">.</span><span class="nf">to_i</span><span class="p">.</span><span class="nf">to_s</span><span class="p">,</span>
+    <span class="ss">:max_taken_date</span> <span class="o">=&gt;</span> <span class="n">max_taken_date</span><span class="p">.</span><span class="nf">to_i</span><span class="p">.</span><span class="nf">to_s</span><span class="p">,</span>
+    <span class="ss">:tags</span> <span class="o">=&gt;</span> <span class="s2">"revolvercoffee"</span>
+  <span class="p">}</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+:ET

@@ -6,9 +6,54 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 02 Jan 2022 20:24:48 -0800</pubDate>
-    <lastBuildDate>Sun, 02 Jan 2022 20:24:48 -0800</lastBuildDate>
+    <pubDate>Mon, 03 Jan 2022 17:37:40 -0800</pubDate>
+    <lastBuildDate>Mon, 03 Jan 2022 17:37:40 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>flickr.photos.search API change? woe_id is now woeid?</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;It appears the flickr search api has changed&lt;/li&gt;
+  &lt;li&gt;The official &lt;a href=&quot;https://www.flickr.com/services/api/flickr.photos.search.html&quot;&gt;flickr.photos.search API docs&lt;/a&gt; say &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;woe_id&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;And that is what I had working 12 years ago in this &lt;a href=&quot;https://gist.github.com/rtanglao/571353#file-getgastownphotos-rb-L43&quot;&gt;gist&lt;/a&gt;
+    &lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;search_url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;/services/rest/?method=flickr.photos.search&amp;amp;api_key=&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;api_key&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&quot;&amp;amp;format=json&amp;amp;nojsoncallback=1&amp;amp;content_type=&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;content_type&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;      &lt;span class=&quot;s2&quot;&gt;&quot;&amp;amp;tags=&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&amp;amp;woe_id=&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;woe_id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&amp;amp;per_page=&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;per_page&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&amp;amp;user_id=&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;user_id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&amp;amp;extras=&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;extras&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&amp;amp;max_taken_date=&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;max_taken_date&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&amp;amp;page=&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_s&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;woe_id&lt;/code&gt; no longer works instead you have to use it without the underscore i.e. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;woeid&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;From &lt;a href=&quot;https://github.com/rtanglao/funwithtarry/blob/main/gastown-backup-revolvercoffee-by-date.rb&quot;&gt;funwithtarry/…/gastown-backup-revolvercoffee-by-date.rb&lt;/a&gt;
+    &lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;n&quot;&gt;url_params&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:method&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;flickr.photos.search&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;ss&quot;&gt;:api_key&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;api_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;ss&quot;&gt;:format&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;json&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;ss&quot;&gt;:nojsoncallback&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+    &lt;span class=&quot;ss&quot;&gt;:woeid&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;26332810&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# gastown&lt;/span&gt;
+    &lt;span class=&quot;ss&quot;&gt;:content_type&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;7&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# all: photos, videos, etc&lt;/span&gt;
+    &lt;span class=&quot;ss&quot;&gt;:per_page&lt;/span&gt;     &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;250&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;ss&quot;&gt;:extras&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;extras_str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;ss&quot;&gt;:sort&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;date-taken-asc&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
+    &lt;span class=&quot;ss&quot;&gt;:page&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;ss&quot;&gt;:min_taken_date&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;min_taken_date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;ss&quot;&gt;:max_taken_date&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;max_taken_date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;ss&quot;&gt;:tags&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;revolvercoffee&quot;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Previously:
+    &lt;ul&gt;
+      &lt;li&gt;October 2017 a post with Chinatown and Strathcona woeids: &lt;a href=&quot;http://rolandtanglao.com/2017/10/14/p1-trying-to-fix-chinatown-map-by-removing-the-woeid-that-is-subclass-of-strathcona/&quot;&gt;Trying  to fix Chinatown map that is only two points by removing outlier points  that are in the Chinatown woeid that’s a subclass of Strathcona&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;September 2017: (sadly YQL was decommissioned sometime between 2017and 2022): &lt;a href=&quot;http://rolandtanglao.com/2017/09/17/p1-trying-out-yql-for-vancouver-latitude-longitude/&quot;&gt;Trying out YQL and flickr API for Vancouver Latitude and Longitude -&amp;gt; WOEID-&amp;gt; neighborhood name e.g. ‘West End’&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 03 Jan 2022 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2022/01/03/p1-flickr-api-change-woeid-not-woe_id/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2022/01/03/p1-flickr-api-change-woeid-not-woe_id/</guid>
+        
+        
+      </item>
     
       <item>
         <title>What art should I make from the 25000 Firefox Support questions from 2021?</title>
@@ -280,31 +325,6 @@
         <pubDate>Sun, 31 Oct 2021 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2021/10/31/p1-critical-history-logo-constructionist-learning/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/10/31/p1-critical-history-logo-constructionist-learning/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Photography Off the Scale (edited by Tomáš Dvořák, Jussi Parikka) calls for a reconsideration of both scholarly and artistic approaches and concepts in the face of our contemporary image excess.</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Sep 21, 2021.21:29 &lt;a href=&quot;https://edinburghuniversitypress.com/book-photography-off-the-scale.html&quot;&gt;Photography Off the Scale Technologies and Theories of the Mass Image&lt;/a&gt;  &amp;lt;— I bought this and I will to blog a short review when I get this&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;These essays address the epistemological, aesthetic and 
-political implications of various forms of scaling in both 
-scholarly and artistic work. From the mass image in 
-vernacular culture to transformations of photography in 
-contexts of big data and artificial intelligence, they 
-explore the massification of photography. They propose a 
-shift into a fundamental re-evaluation of our theoretical 
-coordinates so as to understand the underpinning media 
-and culture of this change.&quot; 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-</description>
-        <pubDate>Sat, 23 Oct 2021 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2021/10/23/p1-photography-off-the-scale-dvo%C5%99%C3%A1k-parikka/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/10/23/p1-photography-off-the-scale-dvo%C5%99%C3%A1k-parikka/</guid>
         
         
       </item>
