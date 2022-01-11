@@ -6,9 +6,28 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 03 Jan 2022 17:37:40 -0800</pubDate>
-    <lastBuildDate>Mon, 03 Jan 2022 17:37:40 -0800</lastBuildDate>
+    <pubDate>Tue, 11 Jan 2022 09:37:38 -0800</pubDate>
+    <lastBuildDate>Tue, 11 Jan 2022 09:37:38 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Gina Apostol's Bibliolepsy - got to read this</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;How did I miss this? Have to read Gina Apostol’s Bibliolepsy.&lt;/li&gt;
+  &lt;li&gt;From &lt;a href=&quot;https://ginaapostol.wordpress.com/2021/12/31/bibliolepsy/&quot;&gt;Gina’s blog post about Bibliolepsy&lt;/a&gt;: `I began this book when I was nineteen: the year Ninoy Aquino was  murdered on the tarmac by Imelda Marcos’s goons. In a weird loop, a  circular pattern that mocks my own work’s ways of shaping time, this  book, my first novel, is out two-times-nineteen years later—two times  the length of my life when I began it. It marks the time I became a  writer. To see it in print beyond its home (it was first published in  the Philippines in 1997, winning the country’s National Book Award that  year) is for me a kind of grace. For personal reasons having nothing to  do with the novel, I never tried to sell &lt;em&gt;Bibliolepsy&lt;/em&gt; when I  ended up living in the United States. Its appearance now does not sum up my life (by no means), but it makes me glad. I’m glad to be  experiencing the happiness I had when the book first came out.&lt;/li&gt;
+  &lt;li&gt;Relevant previous posts:
+    &lt;ul&gt;
+      &lt;li&gt;Audio content from my microblog “podcast” :-) &lt;a href=&quot;https://www.rolandmicroblog.com/2019/09/01/america-is-not.html&quot;&gt;2019-09-01: America Is Not The Heart - Elaine Castillo - Highly Recommended! Must read if you are of Filipino heritage and don’t mind something both challenging and joyful!&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 11 Jan 2022 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2022/01/11/p1-gina-apostol-bibliolepsy/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2022/01/11/p1-gina-apostol-bibliolepsy/</guid>
+        
+        
+      </item>
     
       <item>
         <title>flickr.photos.search API change? woe_id is now woeid?</title>
@@ -292,39 +311,6 @@
         <pubDate>Sun, 07 Nov 2021 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2021/11/07/p1-programming-sucks-peter-welch-from-2014/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/11/07/p1-programming-sucks-peter-welch-from-2014/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Greg Wilson: A Critical History of Logo and Constructionist Learning - 'I believe very strongly that we will only get through the next fifty years if we start to care about each other and our collective future more than we do right now'</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 24, 2021.19:46 &lt;a href=&quot;https://neverworkintheory.org/2021/10/11/a-critical-history-of-logo-and-constructionist-learning.html&quot;&gt;A Critical History of Logo and Constructionist Learning&lt;/a&gt; &amp;lt;– “ I was in my early thirties when I finally accepted that for most people, programming was and always would be a tax they had to pay in order to do whatever they actually cared about. Recursion, parallelism, and design patterns weren’t somehow worthier than gardening, brewing, or running marathons; by acting and speaking as though they were, I was alienating people and making computing less accessible.”  &amp;lt;–  I will reluctantly :-) concede that not everybody should learn to program in a traditional language like scheme or python but i still maintain that spreadsheet programming is real programming that EVERYBODY learns and therefore we should make spreadsheets and tools like them much better! e.g. somehow add version control, somehow add tests, etc.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;I believe very strongly that    we will only get through the next fifty years    if we start to care about each other and our collective future    more than we do right now.    I also believe that in order to do that,    we need to figure out why we *haven't* cared in the past.    The Internet and modern computing culture    aren't solely responsible for today's woes,    but they're responsible for enough of them    to be worth looking at much more critically than Silicon Valley chooses to &amp;lt;--- &lt;/code&gt; YES, we must learn how to co-operate and work together to secure our collective future if we are to survive climate change.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Previously:&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2021/08/08/p1-spreadsheet-bugs-caused-1500-to-die-in-england-need-tests/&quot;&gt;Tim  Harford (via Simon Willison) The Tyranny of Spreadsheets &amp;lt;— don’t  use them in life and death situations &amp;lt;– 1500 people died in England  because of spreadsheets &amp;lt;— real moral of the story is don’t use  anything in production without tests?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2021/03/09/p1-excel-never-dies-the-spreadsheet-that-launched-a-million-companies/&quot;&gt;Excel Never Dies The Spreadsheet That Launched A Million Companies &amp;lt;– The real ‘programming for the people’&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2019/04/30/p1-richard-gabriel-the-spreadsheet-was-something-never-seen-before/&quot;&gt;Richard  Gabriel: Nevertheless, the spreadsheet was something never seen before.  A chart indicating the 64 greatest events in accounting and business  history contains VisiCalc.&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2018/04/26/p1-everybody-who-writes-formulas-or-uses-pivot-tables-in-a-spreadsheet-is-a-programmer/&quot;&gt;Everybody who writes formulas and/or uses pivot tables in a spreadsheet is a programmer&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2017/04/26/p1-spreadsheet-developers-are-real-developers-too/&quot;&gt;Spreadsheet developers are “real” developers too&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2017/03/24/p1-spreadsheet-cant-do-exceptions-and-map-reduce&quot;&gt;Spreadsheet Limitations – no revision control, no debugger, no map reduce, no exceptions&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2017/03/23/p1-programming-beyond-google-docs-and-spreadsheets/&quot;&gt;Programming for normal people beyond Google Docs and Google Sheets?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2015/04/16/google-spreadsheet-crashed-240000-line-csv-file/&quot;&gt;Google Spreadsheet crashed with a 240000 line csv file&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sun, 31 Oct 2021 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2021/10/31/p1-critical-history-logo-constructionist-learning/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/10/31/p1-critical-history-logo-constructionist-learning/</guid>
         
         
       </item>

@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Gina Apostol's Bibliolepsy - got to read this"
+---
+* How did I miss this? Have to read Gina Apostol's Bibliolepsy.
+* From [Gina's blog post about Bibliolepsy](https://ginaapostol.wordpress.com/2021/12/31/bibliolepsy/): `I began this book when I was nineteen: the year Ninoy Aquino was  murdered on the tarmac by Imelda Marcos’s goons. In a weird loop, a  circular pattern that mocks my own work’s ways of shaping time, this  book, my first novel, is out two-times-nineteen years later—two times  the length of my life when I began it. It marks the time I became a  writer. To see it in print beyond its home (it was first published in  the Philippines in 1997, winning the country’s National Book Award that  year) is for me a kind of grace. For personal reasons having nothing to  do with the novel, I never tried to sell *Bibliolepsy* when I  ended up living in the United States. Its appearance now does not sum up my life (by no means), but it makes me glad. I’m glad to be  experiencing the happiness I had when the book first came out. 
+* Relevant previous posts:
+  * Audio content from my microblog "podcast" :-) [2019-09-01: America Is Not The Heart - Elaine Castillo - Highly Recommended! Must read if you are of Filipino heritage and don’t mind something both challenging and joyful!](https://www.rolandmicroblog.com/2019/09/01/america-is-not.html)
