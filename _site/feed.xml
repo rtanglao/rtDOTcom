@@ -6,8 +6,8 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 11 Jan 2022 17:55:16 -0800</pubDate>
-    <lastBuildDate>Tue, 11 Jan 2022 17:55:16 -0800</lastBuildDate>
+    <pubDate>Tue, 11 Jan 2022 18:23:11 -0800</pubDate>
+    <lastBuildDate>Tue, 11 Jan 2022 18:23:11 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -16,6 +16,7 @@
   &lt;li&gt;For each question plot images on top of each other (os image at y  = 0, anti-virus image at y= 5 ,etc)&lt;/li&gt;
   &lt;li&gt;Previously:
     &lt;ul&gt;
+      &lt;li&gt;For the operating system logo, reuse &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;get_logo()&lt;/code&gt; with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;geom_image&lt;/code&gt; from November 14, 2020:           &lt;a href=&quot;http://rolandtanglao.com/2020/11/14/p1-r-ggplot2-ggrepel-positions-labels-so-they-do-not-overlap/&quot;&gt;R and ggplot2: ggrepel positions labels so they do not overlap&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;January 2, 2022: &lt;a href=&quot;http://rolandtanglao.com/2022/01/02/p1-how-should-i-make-art-from-25000-firefox-support-questions-from-2021/&quot;&gt;What art should I make from the 25000 Firefox Support questions from 2021?&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
