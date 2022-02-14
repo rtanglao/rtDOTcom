@@ -6,9 +6,27 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 07 Feb 2022 20:45:43 -0800</pubDate>
-    <lastBuildDate>Mon, 07 Feb 2022 20:45:43 -0800</lastBuildDate>
+    <pubDate>Sun, 13 Feb 2022 21:04:09 -0800</pubDate>
+    <lastBuildDate>Sun, 13 Feb 2022 21:04:09 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Why We Hate Your Security Reports aka Why your support questions are not detailed enough and written clearly enough for us to fix the problem quickly together</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Jan 25, 2022. 20:51 &lt;a href=&quot;https://halfelf.org/2021/why-we-hate-your-security-reports/&quot;&gt;Why We Hate Your Security Reports&lt;/a&gt; &amp;lt;– I think a better title is “Why your support questions are not detailed enough and written clearly enough for us to fix the problem quickly together”   because this applies to support questions  just as much as security reports.&lt;/li&gt;
+  &lt;li&gt;Previously:
+    &lt;ul&gt;
+      &lt;li&gt;September 22, 2019: &lt;a href=&quot;http://rolandtanglao.com/2019/09/22/p1-requirements-what-you-did-what-you-expected-what-happened/&quot;&gt;How to ask a question: what you did, what you expected, what happened, your requirements&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 13 Feb 2022 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2022/02/13/p1-why-your-support-questions-are-not-clear-enough-to-fix-your-problem-quickly-together/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2022/02/13/p1-why-your-support-questions-are-not-clear-enough-to-fix-your-problem-quickly-together/</guid>
+        
+        
+      </item>
     
       <item>
         <title>The Atlantic: The Plan to Stop Every Respiratory Virus at Once: 6 air changes / hour in every room</title>
@@ -241,23 +259,6 @@ the power plant that melts down.
         <pubDate>Tue, 28 Dec 2021 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2021/12/28/p1-happy-holidays-vaccinate-the-planet/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2021/12/28/p1-happy-holidays-vaccinate-the-planet/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Thej: Extract Data from HTML/XML/JSON using Xidel</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Dec 13, 2021.00:25 &lt;a href=&quot;https://thejeshgn.com/2021/11/15/extract-data-from-html-xml-json-using-xidel/&quot;&gt;Extract Data from HTML/XML/JSON using Xidel&lt;/a&gt;&amp;lt;— so many of these tools :-) but this one does json AND HTML and XML&lt;/li&gt;
-  &lt;li&gt;Related from Feb 16, 2020: &lt;a href=&quot;http://rolandtanglao.com/2020/02/16/p2-pup-for-html-like-jq-for-json/&quot;&gt;pup for HTML is like jq for JSON&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;and from June 20, 2017: &lt;a href=&quot;http://rolandtanglao.com/2017/06/20/p1-using-jq-to-minify-json/&quot;&gt;How to minify JSON using jq&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;and a similar tool for CSV files, mlr aka miller, from April 2019: &lt;a href=&quot;http://rolandtanglao.com/2019/04/21/p2-howto-use-miller-mlr-to-create-csv-file-with-urls-from-ids/&quot;&gt;How  to use mlr (miller) to create an id, url CSV file from a file of ids by  concatenating ‘support.mozilla.org/questions/’ to the id&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sun, 19 Dec 2021 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2021/12/19/p1-thej-extract-data-html-json-xhtml-xidel/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2021/12/19/p1-thej-extract-data-html-json-xhtml-xidel/</guid>
         
         
       </item>
