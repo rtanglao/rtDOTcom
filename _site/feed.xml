@@ -6,9 +6,42 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 27 Mar 2022 21:10:38 -0700</pubDate>
-    <lastBuildDate>Sun, 27 Mar 2022 21:10:38 -0700</lastBuildDate>
+    <pubDate>Mon, 28 Mar 2022 21:42:03 -0700</pubDate>
+    <lastBuildDate>Mon, 28 Mar 2022 21:42:03 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Firefox users should be able to keep the pre-Firefox 89 UI if they want but the reality is this isn't possible since we don't have proper layering and abstraction in all software not just Firefox</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Regarding yesterday’s post [1] :Any software user should be able to modify the UI or keep the old UI but that is currently impossible because since we don’t have proper layering and abstraction in all software not just Firefox.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;[1] &lt;a href=&quot;http://rolandtanglao.com/2022/03/27/p1-firefox-sumo-317-support-questions-2021-june4-firefox89-new-look-and-feel/&quot;&gt;2021  SUMO Firefox Desktop Support Questions in a SQLite file: 317 questions  on June 4, 2021 about Firefox look and feel changes in Firefox 89 (used  DB Browser for SQLite, csvstack, csvs-to-sqlite)&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;But I think we are getting closer :-) with components built on safer languages  like Rust. Give the industry 10 years or force us to work better through regulation !!!!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Previously:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;March 2019: &lt;a href=&quot;http://rolandtanglao.com/2019/03/22/p1-everybody-is-an-expert-on-webbrowsers-and-how-to-fix-improve-them-not/&quot;&gt;everybody thinks they’re an expert on fixing web  browser bugs and how easy it is to add web browser features because they use a web browser daily. I bicycle every day but don’t consider myself  an expert on bicycle design, repair and maintenance #ymmv&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;March 2017: &lt;a href=&quot;http://rolandtanglao.com/2017/03/01/p1-themes-like-uis-are-something-users-unfortunately-cant-really-control-without-secure-reliable-components/&quot;&gt;Software Themes like UIs will not be user controllable until we have secure components at all layers that users  can mix and match&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 28 Mar 2022 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2022/03/28/p1-firefox-users-should-be-able-keep-whatever-UI-they-want-but-cant-because-no-proper-abstractions-layers/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2022/03/28/p1-firefox-users-should-be-able-keep-whatever-UI-they-want-but-cant-because-no-proper-abstractions-layers/</guid>
+        
+        
+      </item>
     
       <item>
         <title>2021 SUMO Firefox Desktop Support Questions in a SQLite file: 317 questions on June 4, 2021 about Firefox look and feel changes in Firefox 89 (used DB Browser for SQLite, csvstack, csvs-to-sqlite)</title>
@@ -620,25 +653,6 @@ the power plant that melts down.
         <pubDate>Wed, 19 Jan 2022 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2022/01/19/p1-use-fontawesome-version-4.7-since-r-package-does-not-support-fontawesome-5-or-6/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2022/01/19/p1-use-fontawesome-version-4.7-since-r-package-does-not-support-fontawesome-5-or-6/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Firefox Support Question Art: Stack images for operating system, anti-virus, sync,email, gmail, cookies, certificates. bookmarks, javascript, addons, youtube, facebook, chrome, chromium, webrtc, zoom, duckduckgo, microsoft, google</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;For each question plot images on top of each other (os image at y  = 0, anti-virus image at y= 5 ,etc)&lt;/li&gt;
-  &lt;li&gt;Previously:
-    &lt;ul&gt;
-      &lt;li&gt;For the operating system logo, reuse &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;get_logo()&lt;/code&gt; with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;geom_image&lt;/code&gt; from November 14, 2020:           &lt;a href=&quot;http://rolandtanglao.com/2020/11/14/p1-r-ggplot2-ggrepel-positions-labels-so-they-do-not-overlap/&quot;&gt;R and ggplot2: ggrepel positions labels so they do not overlap&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;January 2, 2022: &lt;a href=&quot;http://rolandtanglao.com/2022/01/02/p1-how-should-i-make-art-from-25000-firefox-support-questions-from-2021/&quot;&gt;What art should I make from the 25000 Firefox Support questions from 2021?&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 11 Jan 2022 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2022/01/11/p2-stack-logos-os-antivirus-sync-email-gmail-cookies-certificates-bookmarks-javascript-addons-youtube-facebook-chrome-chromium-webrtc-zoom-duckduckgo-tags/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2022/01/11/p2-stack-logos-os-antivirus-sync-email-gmail-cookies-certificates-bookmarks-javascript-addons-youtube-facebook-chrome-chromium-webrtc-zoom-duckduckgo-tags/</guid>
         
         
       </item>
