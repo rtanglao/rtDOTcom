@@ -6,9 +6,22 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 28 Mar 2022 21:42:03 -0700</pubDate>
-    <lastBuildDate>Mon, 28 Mar 2022 21:42:03 -0700</lastBuildDate>
+    <pubDate>Sun, 03 Apr 2022 18:47:19 -0700</pubDate>
+    <lastBuildDate>Sun, 03 Apr 2022 18:47:19 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title> Stack Overflow: Can't use font awesome in R aka 'extra step to get fontawesome 4.7 to work', my previous blog post from January 9, 2022 about 4.7  won't work without it</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog&quot;&gt;Discovered Apr 3, 2022. 17:20&lt;/a&gt; SO:&lt;a href=&quot;https://stackoverflow.com/questions/46978992/cant-use-font-awesome-in-r&quot;&gt;Can’t use font awesome in R&lt;/a&gt; aka how to get fontawesome 4.7 to work&amp;lt;– From this SO question, I had to use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;load.fontawesome()&lt;/code&gt; to get my previous blog post to work: &lt;a href=&quot;http://rolandtanglao.com/2022/01/19/p1-use-fontawesome-version-4.7-since-r-package-does-not-support-fontawesome-5-or-6/&quot;&gt;Use fontawesome to display awesome characters for Firefox support tags (antivirus, operating system, certificates, addons, etc) but currently the R fontawesome package only supports fontawesome 4.7 even though the current version is version 5 and 6 is in beta&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 03 Apr 2022 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2022/04/03/p1-use-load.fontawesome-function-to-get-fontawesome-47-to-work/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2022/04/03/p1-use-load.fontawesome-function-to-get-fontawesome-47-to-work/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Firefox users should be able to keep the pre-Firefox 89 UI if they want but the reality is this isn't possible since we don't have proper layering and abstraction in all software not just Firefox</title>
@@ -619,40 +632,6 @@ the power plant that melts down.
         <pubDate>Sun, 23 Jan 2022 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2022/01/23/p1-paul-virilio-inventing-the-shipwreck-speed-politics-1977/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2022/01/23/p1-paul-virilio-inventing-the-shipwreck-speed-politics-1977/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Use fontawesome to display awesome characters for Firefox support tags (antivirus, operating system, certificates, addons, etc) but currently the R fontawesome package only supports fontawesome 4.7 even though the current version is version 5 and 6 is in beta</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/p/RjpwQvvwnw89WecevQFXxe&quot;&gt;Discovered&lt;/a&gt; Jan 16, 2022.23:04  &lt;a href=&quot;https://data-se.netlify.app/2019/11/25/pictogram-waffle-plot-using-emojifont/&quot;&gt;Pictogram waffle plot using emojifont&lt;/a&gt; &amp;lt;–links to the &lt;a href=&quot;https://fontawesome.com/v4.7/cheatsheet/&quot;&gt;fontawesome 4.7 cheatsheet&lt;/a&gt; which works unlike the v5 cheatsheet  which I linked to in the next bullet point!&lt;/li&gt;
-  &lt;li&gt;Jan 16, 2022.21:46  &lt;a href=&quot;https://fontawesome.com/v5/cheatsheet&quot;&gt;Refer to the fontawesome V5 cheatsheet&lt;/a&gt; to see all the possible nice font things.The following code using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;library(ragg)&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;library(fontawesome)&lt;/code&gt; works. I failed to get &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Arial Unicode MS&lt;/code&gt; to work&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;agg_png&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;wineglass.png&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;500&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;res&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;144&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ggplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mtcars&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;aes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mpg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;geom_text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;label&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fontawesome&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'fa-assistive-listening-systems'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)),&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-    &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;family&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'fontawesome-webfont'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;aes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;as.character&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gear&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)),&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-            &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;scale_color_discrete&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;gear&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;theme&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;element_text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;family&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;fontawesome-webfont&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;invisible&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dev.off&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;My guess is that I can load in the version 6 font of fontawesome using the R package &lt;a href=&quot;https://cran.r-project.org/web/packages/extrafont/README.html&quot;&gt;extrafonts&lt;/a&gt; but I haven’t had time to try that yet.&lt;/li&gt;
-  &lt;li&gt;Previously:
-    &lt;ul&gt;
-      &lt;li&gt;From January 11, 2022 use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;geom_image&lt;/code&gt; instead of fontawesome: &lt;a href=&quot;http://rolandtanglao.com/2022/01/11/p2-stack-logos-os-antivirus-sync-email-gmail-cookies-certificates-bookmarks-javascript-addons-youtube-facebook-chrome-chromium-webrtc-zoom-duckduckgo-tags/&quot;&gt;Firefox  Support Question Art: Stack images for operating system, anti-virus,  sync,email, gmail, cookies, certificates. bookmarks, javascript, addons,  youtube, facebook, chrome, chromium, webrtc, zoom, duckduckgo,  microsoft, google&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 19 Jan 2022 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2022/01/19/p1-use-fontawesome-version-4.7-since-r-package-does-not-support-fontawesome-5-or-6/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2022/01/19/p1-use-fontawesome-version-4.7-since-r-package-does-not-support-fontawesome-5-or-6/</guid>
         
         
       </item>
