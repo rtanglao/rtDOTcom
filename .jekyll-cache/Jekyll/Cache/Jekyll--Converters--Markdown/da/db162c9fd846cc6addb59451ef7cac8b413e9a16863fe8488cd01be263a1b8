@@ -1,0 +1,19 @@
+I"�<ul>
+  <li><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog">Discovered Apr 3, 2022. 17:20</a> SO:<a href="https://stackoverflow.com/questions/46978992/cant-use-font-awesome-in-r">Can’t use font awesome in R</a> aka how to get fontawesome 4.7 to work&lt;– From this SO question, I had to use <code class="language-plaintext highlighter-rouge">load.fontawesome()</code> to get my previous blog post to work: <a href="http://rolandtanglao.com/2022/01/19/p1-use-fontawesome-version-4.7-since-r-package-does-not-support-fontawesome-5-or-6/">Use fontawesome to display awesome characters for Firefox support tags (antivirus, operating system, certificates, addons, etc) but currently the R fontawesome package only supports fontawesome 4.7 even though the current version is version 5 and 6 is in beta</a></li>
+</ul>
+
+<h2 id="the-working-r-code">The working R Code</h2>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">library</span><span class="p">(</span><span class="n">ggplot2</span><span class="p">)</span><span class="w">
+</span><span class="n">library</span><span class="p">(</span><span class="n">emojifont</span><span class="p">)</span><span class="w">
+</span><span class="n">load.fontawesome</span><span class="p">()</span><span class="w">
+
+</span><span class="c1">## Generate some data</span><span class="w">
+</span><span class="n">DF</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">data.frame</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="m">1</span><span class="o">:</span><span class="m">5</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="o">=</span><span class="m">1</span><span class="o">:</span><span class="m">5</span><span class="p">)</span><span class="w">
+
+</span><span class="n">ggplot</span><span class="p">(</span><span class="n">DF</span><span class="p">,</span><span class="w"> </span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="o">=</span><span class="n">y</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w"> 
+     </span><span class="n">geom_text</span><span class="p">(</span><span class="n">label</span><span class="o">=</span><span class="n">fontawesome</span><span class="p">(</span><span class="nf">c</span><span class="p">(</span><span class="s1">'fa-check-circle'</span><span class="p">,</span><span class="w"> </span><span class="s1">'fa-linux'</span><span class="p">,</span><span class="w"> </span><span class="s1">'fa-meetup'</span><span class="p">,</span><span class="w"> </span><span class="s1">'fa-github'</span><span class="p">,</span><span class="w"> </span><span class="s1">'fa-eur'</span><span class="p">)),</span><span class="w"> 
+               </span><span class="n">family</span><span class="o">=</span><span class="s1">'fontawesome-webfont'</span><span class="p">,</span><span class="w"> 
+               </span><span class="n">size</span><span class="o">=</span><span class="n">seq</span><span class="p">(</span><span class="m">6</span><span class="p">,</span><span class="w"> </span><span class="m">14</span><span class="p">,</span><span class="w"> </span><span class="m">2</span><span class="p">))</span><span class="w">
+</span></code></pre></div></div>
+:ET
