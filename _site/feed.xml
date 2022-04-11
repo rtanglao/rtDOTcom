@@ -6,12 +6,35 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 03 Apr 2022 19:02:12 -0700</pubDate>
-    <lastBuildDate>Sun, 03 Apr 2022 19:02:12 -0700</lastBuildDate>
+    <pubDate>Sun, 10 Apr 2022 18:17:42 -0700</pubDate>
+    <lastBuildDate>Sun, 10 Apr 2022 18:17:42 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
-        <title> Stack Overflow: Can't use font awesome in R aka 'extra step to get fontawesome 4.7 to work', my previous blog post from January 9, 2022 about 4.7  won't work without it</title>
+        <title>The Untold Story of SQLite with Richard Hipp &lt;- with billions of tests</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered Mar 29, 2022. 08:43&lt;/a&gt; &lt;a href=&quot;https://corecursive.com/066-sqlite-with-richard-hipp/#&quot;&gt;The Untold Story of SQLite with Richard Hipp&lt;/a&gt; (including billions of tests, so cool!)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Previously:&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;March 27, 2022: &lt;a href=&quot;http://rolandtanglao.com/2022/03/27/p1-firefox-sumo-317-support-questions-2021-june4-firefox89-new-look-and-feel/&quot;&gt;2021  SUMO Firefox Desktop Support Questions in a SQLite file: 317 questions  on June 4, 2021 about Firefox look and feel changes in Firefox 89 (used  DB Browser for SQLite, csvstack, csvs-to-sqlite)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;March 29, 2021 &lt;a href=&quot;http://rolandtanglao.com/2021/03/29/p1-roland-flickr-metadata-2019-2020-one-table-sqlite-csv/&quot;&gt;My 2019 and 2020 flickr data 1 table SQLite and 1 file CSV version&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;February 20, 2021: &lt;a href=&quot;http://rolandtanglao.com/2021/02/21/p1-everything-in-sqlitite-and-glitch/&quot;&gt;Everything in SQLite and Datasette and perhaps Glitch?&lt;/a&gt;     &amp;lt;– add-on and everything in CSV too for non SQL people!&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 10 Apr 2022 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2022/04/10/p1-richard-hipp-sqlite-untold-story-billions-of-tests/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2022/04/10/p1-richard-hipp-sqlite-untold-story-billions-of-tests/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Stack Overflow: Can't use font awesome in R aka 'extra step to get fontawesome 4.7 to work', my previous blog post from January 9, 2022 about 4.7  won't work without it</title>
         <description>&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog&quot;&gt;Discovered Apr 3, 2022. 17:20&lt;/a&gt; SO:&lt;a href=&quot;https://stackoverflow.com/questions/46978992/cant-use-font-awesome-in-r&quot;&gt;Can’t use font awesome in R&lt;/a&gt; aka how to get fontawesome 4.7 to work&amp;lt;– From this SO question, I had to use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;load.fontawesome()&lt;/code&gt; to get my previous blog post to work: &lt;a href=&quot;http://rolandtanglao.com/2022/01/19/p1-use-fontawesome-version-4.7-since-r-package-does-not-support-fontawesome-5-or-6/&quot;&gt;Use fontawesome to display awesome characters for Firefox support tags (antivirus, operating system, certificates, addons, etc) but currently the R fontawesome package only supports fontawesome 4.7 even though the current version is version 5 and 6 is in beta&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -606,47 +629,6 @@ csvs-to-sqlite &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.csv &lt;span class
         <pubDate>Sun, 30 Jan 2022 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2022/01/30/p1-dont-look-up-movie-of-the-year-2021/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2022/01/30/p1-dont-look-up-movie-of-the-year-2021/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Paul Virilio: Inventing the Shipwreck - what future disasters are inherent in today's technologies? (e.g. the shipwreck was inherent in the invention of the ship)</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://checkvist.com/p/RjpwQvvwnw89WecevQFXxe&quot;&gt;Discovered&lt;/a&gt; Jan 13, 2022.22:36 &lt;a href=&quot;https://reallifemag.com/inventing-the-shipwreck/&quot;&gt;Inventing the Shipwreck&lt;/a&gt; &amp;lt;— “The work of Paul Virilio urges us to ask: What future disasters inhere in today’s technologies?” &amp;lt;– Speed and Politics from 1977 sounds amazing&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Unless we are deliberately forgetting the invention of 
-the shipwreck in the invention of the ship or the rail 
-accident in the advent of the train, we need to examine 
-the hidden face of new technologies, before that face 
-reveals itself in spite of us.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Few things reveal the extent of our reliance on a particular 
-technology quite like having that piece of technology suddenly 
-and unexpectedly stop working. And though our days are 
-punctuated by small and mildly annoying malfunctions, 
-there is always the risk of more serious technological 
-breakdowns, the sort that can truly turn our world upside 
-down: the plane that crashes, the ship that gets stuck in 
-the canal, the web platform outage that leaves us unsure 
-how to communicate with the people we care about, or 
-the power plant that melts down. 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sun, 23 Jan 2022 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2022/01/23/p1-paul-virilio-inventing-the-shipwreck-speed-politics-1977/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2022/01/23/p1-paul-virilio-inventing-the-shipwreck-speed-politics-1977/</guid>
         
         
       </item>
