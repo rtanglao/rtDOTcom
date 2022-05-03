@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 24 Apr 2022 16:49:09 -0700</pubDate>
-    <lastBuildDate>Sun, 24 Apr 2022 16:49:09 -0700</lastBuildDate>
+    <pubDate>Mon, 02 May 2022 18:16:57 -0700</pubDate>
+    <lastBuildDate>Mon, 02 May 2022 18:16:57 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Drummer by Dave Winer is my current favourite for twitter threads</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Why? Because you can blog the thread and proofread read it in Drummer before tweeting it!&lt;/li&gt;
+  &lt;li&gt;How to: Just create a top level heading in drummer and then select the heading and the heading and its sub elements will be tweeted as a thread. Example thread in Drummer: &lt;a href=&quot;http://oldschool.scripting.com/rtanglao/2022/04/29/211423.html?title=maplesyrupcurtainIfThePixyDroneWasAvailableToCanadiansIdBuyOneWhyReadOn&quot;&gt;#MapleSyrupCurtain If the Pixy Drone was available to Canadians I’d buy one. Why? Read on :-) ….&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/rtanglao/status/1520150351034388486&quot;&gt;the thread in twitter:&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/MapleSyrupCurtain?src=hashtag_click&quot;&gt;#MapleSyrupCurtain&lt;/a&gt; If the Pixy Drone was available to Canadians I’d buy one. Why? Read on :-) ….&lt;/li&gt;
+  &lt;li&gt;Previously: March 2017:  &lt;a href=&quot;http://rolandtanglao.com/2017/03/11/p1-Tweetstorms-with-Dave-Winer-electric-pork-aka-little-pork-chop-2.0/&quot;&gt;Mac users tweet storm your little hearts out with Dave Winer’s Electric Pork!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 02 May 2022 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2022/05/02/p1-drummer-dave-winer-best-way-to-do-twitter-threads/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2022/05/02/p1-drummer-dave-winer-best-way-to-do-twitter-threads/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Presentation tips to look more prepared and organized &lt;-- tl;dr Put up title slide before beginning; post slides online; have one photograph ready beautiful tl;dr slide; have a hashtag for your talk; post/tweet about just beforehand</title>
@@ -621,24 +636,6 @@ csvs-to-sqlite &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.csv &lt;span class
         <pubDate>Sun, 27 Feb 2022 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2022/02/27/p1-heather-hedden-taxonomies-accidental-taxonomist-blog-book/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2022/02/27/p1-heather-hedden-taxonomies-accidental-taxonomist-blog-book/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Why We Hate Your Security Reports aka Why your support questions are not detailed enough and written clearly enough for us to fix the problem quickly together</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Jan 25, 2022. 20:51 &lt;a href=&quot;https://halfelf.org/2021/why-we-hate-your-security-reports/&quot;&gt;Why We Hate Your Security Reports&lt;/a&gt; &amp;lt;– I think a better title is “Why your support questions are not detailed enough and written clearly enough for us to fix the problem quickly together”   because this applies to support questions  just as much as security reports.&lt;/li&gt;
-  &lt;li&gt;Previously:
-    &lt;ul&gt;
-      &lt;li&gt;September 22, 2019: &lt;a href=&quot;http://rolandtanglao.com/2019/09/22/p1-requirements-what-you-did-what-you-expected-what-happened/&quot;&gt;How to ask a question: what you did, what you expected, what happened, your requirements&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 13 Feb 2022 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2022/02/13/p1-why-your-support-questions-are-not-clear-enough-to-fix-your-problem-quickly-together/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2022/02/13/p1-why-your-support-questions-are-not-clear-enough-to-fix-your-problem-quickly-together/</guid>
         
         
       </item>
