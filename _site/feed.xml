@@ -6,9 +6,23 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 02 May 2022 18:16:57 -0700</pubDate>
-    <lastBuildDate>Mon, 02 May 2022 18:16:57 -0700</lastBuildDate>
+    <pubDate>Tue, 03 May 2022 17:27:23 -0700</pubDate>
+    <lastBuildDate>Tue, 03 May 2022 17:27:23 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title> Matt Webb: Interconnected:Apps are too complex so maybe features should be ownable and tradable &lt;-- give the people want they want: apps made out of secure composable configurable components</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; May 1, 2022. 11:52 Matt Webb: Interconnected:&lt;a href=&quot;https://interconnected.org/home/2022/04/29/adaptive_ui&quot;&gt;Apps are too complex so maybe features should be ownable and tradable&lt;/a&gt;  &amp;lt;– everything including and especially user interfaces should be composed of configurable composable components and then users can have whatever features they want!&lt;/li&gt;
+  &lt;li&gt;Previously: November 7, 2021: &lt;a href=&quot;http://rolandtanglao.com/2021/11/07/p1-programming-sucks-peter-welch-from-2014/&quot;&gt;Peter  Welch from 2014: Programming Sucks&amp;lt;— it does until it doesn’t :-)  i.e. we get secure verified software for all layers and components and  something better than spreadsheets for so-called ‘non programmers’&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 03 May 2022 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2022/05/03/p1-matt-webb-apps-too-complex-features-ownable-tradable/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2022/05/03/p1-matt-webb-apps-too-complex-features-ownable-tradable/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Drummer by Dave Winer is my current favourite for twitter threads</title>
@@ -616,26 +630,6 @@ csvs-to-sqlite &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.csv &lt;span class
         <pubDate>Sun, 27 Feb 2022 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2022/02/27/p2-ptin-sucks-war-sucks/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2022/02/27/p2-ptin-sucks-war-sucks/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Heather Hedden on Taxonomies: Taxonomy helps level the field and make more people good at searching (got to read her blog and book, The Accidental Taxonomist!)</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Feb 7, 2022. 19:20 &lt;a href=&quot;https://theinformed.life/2020/07/19/episode-40-heather-hedden/&quot;&gt;Heather Hedden on Taxonomies&lt;/a&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Some people are good at searching and some people are not so experienced. But having a taxonomy kind of levels it.&lt;/code&gt; See also The Accidental Taxonomist &lt;a href=&quot;http://accidental-taxonomist.blogspot.com/&quot;&gt;blog&lt;/a&gt; and &lt;a href=&quot;https://www.hedden-information.com/accidental-taxonomist/&quot;&gt;book&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Previously:
-    &lt;ul&gt;
-      &lt;li&gt;August 16, 2004: &lt;a href=&quot;http://rolandtanglao.com/2004/08/16/multifaceted-taxonomies-needed-to-help-make-sense-of-a-complex-world/&quot;&gt;Multifaceted taxonomies needed to help make sense of a complex world&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sun, 27 Feb 2022 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2022/02/27/p1-heather-hedden-taxonomies-accidental-taxonomist-blog-book/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2022/02/27/p1-heather-hedden-taxonomies-accidental-taxonomist-blog-book/</guid>
         
         
       </item>
