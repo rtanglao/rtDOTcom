@@ -1,0 +1,7 @@
+---
+layout: post
+title: "City of Vancouver accident data on Datasette lite at lite.datasette.io" 
+---
+
+* [Discovered](http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/) May 11, 2022. 20:09   [City of Vancouver accident data on lite.datasette.io](https://twitter.com/rtanglao/status/1524586942054100992) <-- Thanks again to @simonw for http://lite.datasette.io ! You can now query the city of vancouver accident data that somebody posted a few weeks ago. I converted it from TSV UTF16LE to CSV to SQLite & uploaded it to github pages for the CORS headers & Try it: [https://lite.datasette.io/?url=https%3A%2F%2Frtanglao.github.io%2Fvancouver-accident-location-data%2Fvancouver-accident-location-data-full-data.db#/vancouver-accident-location-data-full-data/vancouver-accident-location-data-full-data](https://lite.datasette.io/?url=https%3A%2F%2Frtanglao.github.io%2Fvancouver-accident-location-data%2Fvancouver-accident-location-data-full-data.db#/vancouver-accident-location-data-full-data/vancouver-accident-location-data-full-data)
+* Previously: May 8, 2022: [Thanks  to Simon Willison's lite.datasette.io you can now query any SQLite data  with CORS headers anywhere and share the query URL with others so it  can spread virally :-)!  (e.g. 2021 Firefox SUMO Support questions) on  any web browser including desktop, iOS and Android](http://rolandtanglao.com/2022/05/08/p1-query-my-firefox-201-sumo-support-data-from-your-web-browser-mobile-desktop-no-server-no-app-required/)            

@@ -6,9 +6,23 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 08 May 2022 12:28:11 -0700</pubDate>
-    <lastBuildDate>Sun, 08 May 2022 12:28:11 -0700</lastBuildDate>
+    <pubDate>Sun, 15 May 2022 16:57:38 -0700</pubDate>
+    <lastBuildDate>Sun, 15 May 2022 16:57:38 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>City of Vancouver accident data on Datasette lite at lite.datasette.io</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; May 11, 2022. 20:09   &lt;a href=&quot;https://twitter.com/rtanglao/status/1524586942054100992&quot;&gt;City of Vancouver accident data on lite.datasette.io&lt;/a&gt; &amp;lt;– Thanks again to @simonw for http://lite.datasette.io ! You can now query the city of vancouver accident data that somebody posted a few weeks ago. I converted it from TSV UTF16LE to CSV to SQLite &amp;amp; uploaded it to github pages for the CORS headers &amp;amp; Try it: &lt;a href=&quot;https://lite.datasette.io/?url=https%3A%2F%2Frtanglao.github.io%2Fvancouver-accident-location-data%2Fvancouver-accident-location-data-full-data.db#/vancouver-accident-location-data-full-data/vancouver-accident-location-data-full-data&quot;&gt;https://lite.datasette.io/?url=https%3A%2F%2Frtanglao.github.io%2Fvancouver-accident-location-data%2Fvancouver-accident-location-data-full-data.db#/vancouver-accident-location-data-full-data/vancouver-accident-location-data-full-data&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Previously: May 8, 2022: &lt;a href=&quot;http://rolandtanglao.com/2022/05/08/p1-query-my-firefox-201-sumo-support-data-from-your-web-browser-mobile-desktop-no-server-no-app-required/&quot;&gt;Thanks  to Simon Willison’s lite.datasette.io you can now query any SQLite data  with CORS headers anywhere and share the query URL with others so it  can spread virally :-)!  (e.g. 2021 Firefox SUMO Support questions) on  any web browser including desktop, iOS and Android&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 15 May 2022 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2022/05/15/p1-city-vancouverbc-accident-data-datasette-lite/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2022/05/15/p1-city-vancouverbc-accident-data-datasette-lite/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Thanks to Simon Willison's lite.datasette.io you can now query any SQLite data with CORS headers anywhere and share the query URL with others so it can spread virally :-)!  (e.g. 2021 Firefox SUMO Support questions) on any web browser including desktop, iOS and Android</title>
@@ -656,21 +670,6 @@ csvs-to-sqlite &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.csv &lt;span class
         <pubDate>Sun, 27 Mar 2022 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2022/03/27/p1-firefox-sumo-317-support-questions-2021-june4-firefox89-new-look-and-feel/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2022/03/27/p1-firefox-sumo-317-support-questions-2021-june4-firefox89-new-look-and-feel/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Free computing e.g. at github actions isn't free; free cloud computing considered harmful (because environment: see  Steven Gonzalez Monserrate January 27, 2022: The Cloud Is Material: On the Environmental Impacts of Computation and Data Storage via The Staggering Ecological Impacts of Computation and the Cloud via Kottke</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered: Mar 6, 2022. 09:10&lt;/a&gt; &lt;a href=&quot;https://mit-serc.pubpub.org/pub/the-cloud-is-material/release/1&quot;&gt;Steven Gonzalez Monserrate January 27, 2022: The Cloud Is Material: On the Environmental Impacts of Computation and Data Storage&lt;/a&gt; via &lt;a href=&quot;https://thereader.mitpress.mit.edu/the-staggering-ecological-impacts-of-computation-and-the-cloud/&quot;&gt;The Staggering Ecological Impacts of Computation and the Cloud&lt;/a&gt; via &lt;a href=&quot;https://twitter.com/kottke/status/1499780457201811462&quot;&gt;Kottke&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;We need to filter everything including free computing through an environmental lens and see if we really need it!!!!&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sun, 13 Mar 2022 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2022/03/13/p1-free-computing-considered-harmful-band-for-environment/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2022/03/13/p1-free-computing-considered-harmful-band-for-environment/</guid>
         
         
       </item>
