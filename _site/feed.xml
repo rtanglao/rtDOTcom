@@ -6,9 +6,56 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 23 May 2022 09:23:42 -0700</pubDate>
-    <lastBuildDate>Mon, 23 May 2022 09:23:42 -0700</lastBuildDate>
+    <pubDate>Sun, 29 May 2022 19:07:25 -0700</pubDate>
+    <lastBuildDate>Sun, 29 May 2022 19:07:25 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Tested positive for COVID 19 on May 16, tested negative on May 27, 2022, no fever, just headache and sore throat day 1, headache was gone day 2, sore throat took a week to go, felt tired</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Tested positive for COVID 19 on May 16, 2022&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Tested positive for Covid 19 on May 24, 2022&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Tested negative on May 27, 2022&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;No fever, just headache and sore throat day 1, headache was gone day 2, sore throat turned into a tickle after 3 days and took a week to go entirely, felt more tired than usual.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Didn’t work for 4.5 working days&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Was isolated at home from May 16-27th. Didn’t go out to meet other people or to cafes until May 28th.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Luckily Barb made me delicious food and we have enough space to easily isolate at home. Super fortunate!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Pretty sure my 3 vaccinations (2AZ and 1 Pfizer prevented it from being worse. Go science go!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Not sure where I got it but my guess is one of the two folks in my bubble were/are an asymptomatic carrier. (and I don’t blame them if that’s the case which I guess we’ll never know).I haven’t gone unmasked inside since October.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Previously:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;December 2021: &lt;a href=&quot;http://rolandtanglao.com/2021/12/28/p1-happy-holidays-vaccinate-the-planet/&quot;&gt;Happy Holidays 2021-22 Got my 3rd shot (Pfizer) on Dec 9 2021 #vaccinatetheplanet&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;June 8, 2021: &lt;a href=&quot;http://rolandtanglao.com/2021/06/08/p1-second-dose-astra-zeneca-covid19-vaccine-go-science-go/&quot;&gt;Got my 2nd dose of the Astra Zeneca Covid 19 vaccine today. Go science go!&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 29 May 2022 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2022/05/29/p1-covid-19-tested-positive-16-may-2022/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2022/05/29/p1-covid-19-tested-positive-16-may-2022/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Interactive Multiple File Search and Replace using fd aka fdfind and sad instead of sed; use sd for just stdin replacement; also check out diff-so-fancy</title>
@@ -253,39 +300,6 @@
         <pubDate>Sun, 03 Apr 2022 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2022/04/03/p1-use-load.fontawesome-function-to-get-fontawesome-47-to-work/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2022/04/03/p1-use-load.fontawesome-function-to-get-fontawesome-47-to-work/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Firefox users should be able to keep the pre-Firefox 89 UI if they want but the reality is this isn't possible since we don't have proper layering and abstraction in all software not just Firefox</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Regarding yesterday’s post [1] :Any software user should be able to modify the UI or keep the old UI but that is currently impossible because since we don’t have proper layering and abstraction in all software not just Firefox.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;[1] &lt;a href=&quot;http://rolandtanglao.com/2022/03/27/p1-firefox-sumo-317-support-questions-2021-june4-firefox89-new-look-and-feel/&quot;&gt;2021  SUMO Firefox Desktop Support Questions in a SQLite file: 317 questions  on June 4, 2021 about Firefox look and feel changes in Firefox 89 (used  DB Browser for SQLite, csvstack, csvs-to-sqlite)&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;But I think we are getting closer :-) with components built on safer languages  like Rust. Give the industry 10 years or force us to work better through regulation !!!!&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Previously:&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;March 2019: &lt;a href=&quot;http://rolandtanglao.com/2019/03/22/p1-everybody-is-an-expert-on-webbrowsers-and-how-to-fix-improve-them-not/&quot;&gt;everybody thinks they’re an expert on fixing web  browser bugs and how easy it is to add web browser features because they use a web browser daily. I bicycle every day but don’t consider myself  an expert on bicycle design, repair and maintenance #ymmv&lt;/a&gt;&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;March 2017: &lt;a href=&quot;http://rolandtanglao.com/2017/03/01/p1-themes-like-uis-are-something-users-unfortunately-cant-really-control-without-secure-reliable-components/&quot;&gt;Software Themes like UIs will not be user controllable until we have secure components at all layers that users  can mix and match&lt;/a&gt;&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 28 Mar 2022 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2022/03/28/p1-firefox-users-should-be-able-keep-whatever-UI-they-want-but-cant-because-no-proper-abstractions-layers/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2022/03/28/p1-firefox-users-should-be-able-keep-whatever-UI-they-want-but-cant-because-no-proper-abstractions-layers/</guid>
         
         
       </item>
