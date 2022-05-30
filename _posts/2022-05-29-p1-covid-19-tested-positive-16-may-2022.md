@@ -17,7 +17,7 @@ title: "Tested positive for COVID 19 on May 16, tested negative on May 27, 2022,
 
 * Luckily Barb made me delicious food and we have enough space to easily isolate at home. Super fortunate!
 
-* Pretty sure my 3 vaccinations (2AZ and 1 Pfizer prevented it from being worse. Go science go!
+* Pretty sure my 3 vaccinations (2AZ and 1 Pfizer) prevented it from being worse. Go science go!
 
 * Not sure where I got it but my guess is one of the two folks in my bubble were/are an asymptomatic carrier. (and I don't blame them if that's the case which I guess we'll never know).I haven't gone unmasked inside since October.
 
