@@ -6,9 +6,34 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 29 May 2022 19:11:22 -0700</pubDate>
-    <lastBuildDate>Sun, 29 May 2022 19:11:22 -0700</lastBuildDate>
+    <pubDate>Sun, 05 Jun 2022 19:42:22 -0700</pubDate>
+    <lastBuildDate>Sun, 05 Jun 2022 19:42:22 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Feed Firefox Support Questions to GPT-3 by following Simon Willison's HowTo and see what 'answers' it comes up with?</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;I will at some point do this :-) and Simon Willison’s tutorial, &lt;a href=&quot;https://simonwillison.net/2022/Jun/5/play-with-gpt3/&quot;&gt;How to play with the GPT-3 language model&lt;/a&gt; will be the steps I follow.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://twitter.com/rtanglao/status/1533505888828329984&quot;&gt;Tweet&lt;/a&gt;: is it silly to feed the GPT-3 API 1000 randomly chosen Firefox Support Questions from &lt;a href=&quot;https://t.co/MHHdeLUM0E&quot;&gt;https://github.com/rtanglao/rt-kits-api3/blob/main/YEARLY_CSV_FILES/2021-firefox-sumo-questions.db&lt;/a&gt; to see its “answers”?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Previously:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;February 2020: &lt;a href=&quot;http://rolandtanglao.com/2020/02/15/p1-max-woolf-howto-custom-ai-generated-text-gpt-2/&quot;&gt;Max Woolf: How To Make Custom AI-Generated Text With GPT-2&lt;/a&gt; &amp;lt;– I of course didn’t end up trying this :-) !&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 05 Jun 2022 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2022/06/05/p1-feed-firefox-support-questions-into-gpt-3/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2022/06/05/p1-feed-firefox-support-questions-into-gpt-3/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Tested positive for COVID 19 on May 16, tested negative on May 27, 2022, no fever, just headache and sore throat day 1, headache was gone day 2, sore throat took a week to go, felt tired</title>
@@ -272,34 +297,6 @@
         <pubDate>Sun, 10 Apr 2022 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2022/04/10/p1-richard-hipp-sqlite-untold-story-billions-of-tests/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2022/04/10/p1-richard-hipp-sqlite-untold-story-billions-of-tests/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Stack Overflow: Can't use font awesome in R aka 'extra step to get fontawesome 4.7 to work', my previous blog post from January 9, 2022 about 4.7  won't work without it</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog&quot;&gt;Discovered Apr 3, 2022. 17:20&lt;/a&gt; SO:&lt;a href=&quot;https://stackoverflow.com/questions/46978992/cant-use-font-awesome-in-r&quot;&gt;Can’t use font awesome in R&lt;/a&gt; aka how to get fontawesome 4.7 to work&amp;lt;– From this SO question, I had to use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;load.fontawesome()&lt;/code&gt; to get my previous blog post to work: &lt;a href=&quot;http://rolandtanglao.com/2022/01/19/p1-use-fontawesome-version-4.7-since-r-package-does-not-support-fontawesome-5-or-6/&quot;&gt;Use fontawesome to display awesome characters for Firefox support tags (antivirus, operating system, certificates, addons, etc) but currently the R fontawesome package only supports fontawesome 4.7 even though the current version is version 5 and 6 is in beta&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;the-working-r-code&quot;&gt;The working R Code&lt;/h2&gt;
-
-&lt;div class=&quot;language-r highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ggplot2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;emojifont&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;load.fontawesome&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-
-&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;## Generate some data&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DF&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data.frame&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ggplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DF&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;aes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
-     &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;geom_text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;label&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fontawesome&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'fa-check-circle'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'fa-linux'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'fa-meetup'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'fa-github'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'fa-eur'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)),&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
-               &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;family&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'fontawesome-webfont'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
-               &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;seq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;14&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-</description>
-        <pubDate>Sun, 03 Apr 2022 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2022/04/03/p1-use-load.fontawesome-function-to-get-fontawesome-47-to-work/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2022/04/03/p1-use-load.fontawesome-function-to-get-fontawesome-47-to-work/</guid>
         
         
       </item>
