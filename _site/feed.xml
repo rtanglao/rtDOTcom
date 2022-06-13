@@ -6,9 +6,39 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 05 Jun 2022 19:42:22 -0700</pubDate>
-    <lastBuildDate>Sun, 05 Jun 2022 19:42:22 -0700</lastBuildDate>
+    <pubDate>Sun, 12 Jun 2022 19:46:22 -0700</pubDate>
+    <lastBuildDate>Sun, 12 Jun 2022 19:46:22 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Megan Carpenter via Tara Robertson via Nancy White: Stop Assuming Good Intent; instead: I’ll give you grace if you give me effort</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog&quot;&gt;Discovered&lt;/a&gt;: May 24, 2022 19:17 &lt;a href=&quot;https://fullcirc.com/2022/05/24/stop-assuming-good-intent/&quot;&gt;Stop Assuming Good Intent :  Full Circle Associates&lt;/a&gt; &amp;lt;— &lt;a href=&quot;https://www.linkedin.com/pulse/get-wrong-me-what-i-need-from-allies-megan-carpenter/&quot;&gt;Megan Carpenter&lt;/a&gt;: “I’ll give you grace if you give me effort”&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Previously (and hopefully related :-) !):&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;July 2021: &lt;a href=&quot;http://rolandtanglao.com/2021/07/18/p1-how-to-improve-your-community-engagement-skills/&quot;&gt;How  To Improve Your Community Engagement Skills &amp;lt;– ‘Give this link a  read and let me know if you have any trouble getting the account  removed’ &amp;lt;— ‘Personalization, Friendly, Knowledge, Resolution (and  followup)’&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;July 2019: &lt;a href=&quot;http://rolandtanglao.com/2019/07/17/p1-what-archetype-do-you-want-to-be/&quot;&gt;Retired and happy, I’d be the super enthusiastic and welcoming true expert in an online open source  community&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;January 2006 &lt;a href=&quot;http://rolandtanglao.com/2006/01/18/there-is-an-open-source-community/&quot;&gt;There &lt;em&gt;is&lt;/em&gt; an open source community&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 12 Jun 2022 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2022/06/12/p1-megan-carpenter-stop-assuming-good-intent-i-will-give-you-grace-if-you-give-me-effort/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2022/06/12/p1-megan-carpenter-stop-assuming-good-intent-i-will-give-you-grace-if-you-give-me-effort/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Feed Firefox Support Questions to GPT-3 by following Simon Willison's HowTo and see what 'answers' it comes up with?</title>
@@ -274,29 +304,6 @@
         <pubDate>Sun, 17 Apr 2022 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2022/04/17/p1-pearl-leff-in-praise-of-memorization/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2022/04/17/p1-pearl-leff-in-praise-of-memorization/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>The Untold Story of SQLite with Richard Hipp &lt;- with billions of tests</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered Mar 29, 2022. 08:43&lt;/a&gt; &lt;a href=&quot;https://corecursive.com/066-sqlite-with-richard-hipp/#&quot;&gt;The Untold Story of SQLite with Richard Hipp&lt;/a&gt; (including billions of tests, so cool!)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Previously:&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;March 27, 2022: &lt;a href=&quot;http://rolandtanglao.com/2022/03/27/p1-firefox-sumo-317-support-questions-2021-june4-firefox89-new-look-and-feel/&quot;&gt;2021  SUMO Firefox Desktop Support Questions in a SQLite file: 317 questions  on June 4, 2021 about Firefox look and feel changes in Firefox 89 (used  DB Browser for SQLite, csvstack, csvs-to-sqlite)&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;March 29, 2021 &lt;a href=&quot;http://rolandtanglao.com/2021/03/29/p1-roland-flickr-metadata-2019-2020-one-table-sqlite-csv/&quot;&gt;My 2019 and 2020 flickr data 1 table SQLite and 1 file CSV version&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;February 20, 2021: &lt;a href=&quot;http://rolandtanglao.com/2021/02/21/p1-everything-in-sqlitite-and-glitch/&quot;&gt;Everything in SQLite and Datasette and perhaps Glitch?&lt;/a&gt;     &amp;lt;– add-on and everything in CSV too for non SQL people!&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 10 Apr 2022 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2022/04/10/p1-richard-hipp-sqlite-untold-story-billions-of-tests/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2022/04/10/p1-richard-hipp-sqlite-untold-story-billions-of-tests/</guid>
         
         
       </item>
