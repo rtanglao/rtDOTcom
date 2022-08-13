@@ -6,9 +6,42 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 31 Jul 2022 17:07:41 -0700</pubDate>
-    <lastBuildDate>Sun, 31 Jul 2022 17:07:41 -0700</lastBuildDate>
+    <pubDate>Sat, 13 Aug 2022 15:31:08 -0700</pubDate>
+    <lastBuildDate>Sat, 13 Aug 2022 15:31:08 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Cypress Challenge 2022: a few minutes slower than the last 'real' one in 2019 but happy!</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Last Sunday was the Cypress Challenge for 2022. According to the official results I was a 8 minutes slower in 2022 (&lt;a href=&quot;https://www.startlinetiming.com/en/races/2022/cypress/view/106&quot;&gt;1 hour and 9 minutes&lt;/a&gt;) than 2019 [(1 hour and 15 seconds)]https://www.startlinetiming.com/en/races/2019/cypress/view/173).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;But it was fun (and hot :-) !&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;$300K raised for Pancreatic Cancer research!&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;previously-from-2021&quot;&gt;Previously from 2021&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2021/09/03/p1-cypress-challenge-tour-de-cure-bicycling-2021/&quot;&gt;Cypress Challenge 2021 - Tour de Cure 2021 160km ‘century ride’ formerly known as the Ride to Conquer Cancer - Bicycling as therapy and to fund cancer research&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;strava-embed&quot;&gt;Strava Embed&lt;/h3&gt;
+
+&lt;div class=&quot;strava-embed-placeholder&quot; data-embed-type=&quot;activity&quot; data-embed-id=&quot;7600380573&quot;&gt;&lt;/div&gt;
+&lt;script src=&quot;https://strava-embeds.com/embed.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Sat, 13 Aug 2022 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2022/08/13/p1-cypress-challenge-2022-2022-08-07-a-few-minutes-slower/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2022/08/13/p1-cypress-challenge-2022-2022-08-07-a-few-minutes-slower/</guid>
+        
+        
+      </item>
     
       <item>
         <title>New tools for thought are a wee step forward from wikis and mindmapping because they are open source, easier to host and share unlike past tools like wikis</title>
@@ -305,20 +338,6 @@ support thinking, but I would suggest much of that could be applied to any techn
         <pubDate>Sun, 08 May 2022 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2022/05/08/p1-query-my-firefox-201-sumo-support-data-from-your-web-browser-mobile-desktop-no-server-no-app-required/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2022/05/08/p1-query-my-firefox-201-sumo-support-data-from-your-web-browser-mobile-desktop-no-server-no-app-required/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title> Matt Webb: Interconnected:Apps are too complex so maybe features should be ownable and tradable &lt;-- give the people want they want: apps made out of secure composable configurable components</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; May 1, 2022. 11:52 Matt Webb: Interconnected:&lt;a href=&quot;https://interconnected.org/home/2022/04/29/adaptive_ui&quot;&gt;Apps are too complex so maybe features should be ownable and tradable&lt;/a&gt;  &amp;lt;– everything including and especially user interfaces should be composed of configurable composable components and then users can have whatever features they want!&lt;/li&gt;
-  &lt;li&gt;Previously: November 7, 2021: &lt;a href=&quot;http://rolandtanglao.com/2021/11/07/p1-programming-sucks-peter-welch-from-2014/&quot;&gt;Peter  Welch from 2014: Programming Sucks&amp;lt;— it does until it doesn’t :-)  i.e. we get secure verified software for all layers and components and  something better than spreadsheets for so-called ‘non programmers’&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 03 May 2022 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2022/05/03/p1-matt-webb-apps-too-complex-features-ownable-tradable/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2022/05/03/p1-matt-webb-apps-too-complex-features-ownable-tradable/</guid>
         
         
       </item>
