@@ -2,11 +2,15 @@
 layout: post
 title: "Cypress Challenge 2022: a few minutes slower than the last 'real' one in 2019 but happy!"
 ---
-* Last Sunday was the Cypress Challenge for 2022. According to the official results I was a 8 minutes slower in 2022 ([1 hour and 9 minutes](https://www.startlinetiming.com/en/races/2022/cypress/view/106)) than 2019 [(1 hour and 15 seconds)]https://www.startlinetiming.com/en/races/2019/cypress/view/173).
+* Last Sunday was the Cypress Challenge for 2022. According to the official results I was a 8 minutes slower in 2022 ([1 hour and 9 minutes](https://www.startlinetiming.com/en/races/2022/cypress/view/106)) than 2019 [1 hour and 15 seconds](https://www.startlinetiming.com/en/races/2019/cypress/view/173).
 
 * But it was fun (and hot :-) !
 
 * $300K raised for Pancreatic Cancer research!
+
+* Thanks to [Sjors](https://www.facebook.com/people/Sjors-Liem/100008401188522/) for riding with me!
+
+* Thanks to those who sponsored me and our team [Sofia's Camera Club](https://donate.bccancerfoundation.com/site/TR/Events/CypressChallenge?team_id=25840&pg=team&fr_id=4125)! Pancreatic research benefits from your generous donations!!!
 
 ### Previously from 2021
 
