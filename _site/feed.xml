@@ -6,9 +6,30 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 14 Aug 2022 09:42:26 -0700</pubDate>
-    <lastBuildDate>Sun, 14 Aug 2022 09:42:26 -0700</lastBuildDate>
+    <pubDate>Sat, 27 Aug 2022 22:45:34 -0700</pubDate>
+    <lastBuildDate>Sat, 27 Aug 2022 22:45:34 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Free hosting from for profit companies like Heroku, Slack etc doesn't work. Don't depend on it! Only viable long term solution is for the UN Black Helicopters :-) i.e. the government to offer hosting</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/rtanglao/status/1563327476449054721&quot;&gt;My tweet about free doesn’t last forever to be fair H*roku’s free lasted 15 years!&lt;/a&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;i'm biased obvs so i won't comment on Sl*ck or H*roku but eventually you have to pay for free stuff. So if you can, it's better to use free open source stuff from day 1 since FOSS stuff almost always offers an export path from day 1 even if the FOSS stuff is harder at the start.&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/rtanglao/status/1563552664851742721&quot;&gt;My tweet about free hosting should be offered by the government&lt;/a&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Get off my lawn &quot;incomprehensible to oldsters like me&quot; &quot;dyno pricing model&quot; :-) I feel and am probably wrong as always :-) that governments and educational institutions should run &quot;simple&quot; :-) free hosting for open source and small hobby projects.&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Probably won’t happen but I can dream can’t I?&lt;/li&gt;
+  &lt;li&gt;Previously: April 2017: &lt;a href=&quot;http://rolandtanglao.com/2017/04/15/p1-mastodon-on-heroku/&quot;&gt;How to deploy mastodon on heroku - use the deploy button?!?&lt;/a&gt;  which had the following “great” :-) quotes
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;I still don’t understand Heroku’s pricing model.&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/tootsuite/documentation/blob/master/Running-Mastodon/Heroku-guide.md&quot;&gt;Official docs which state you can’t do reply mastodon  on free dynos&lt;/a&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Running on Heroku's hobby Dynos and free add-on tiers has limited testing purposes and is not recommended in production.&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 27 Aug 2022 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2022/08/27/p1-free-hosting-private-companies-heroku-slack-does-not-work-bring-on-the-un-black-helicopters-aka-free-government-hosting/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2022/08/27/p1-free-hosting-private-companies-heroku-slack-does-not-work-bring-on-the-un-black-helicopters-aka-free-government-hosting/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Vanbikes: Vancouver's Bicycle People &amp; the Fight for Transportation Change, 1986-2011 - Highly Recommended</title>
@@ -285,20 +306,6 @@ support thinking, but I would suggest much of that could be applied to any techn
         <pubDate>Mon, 23 May 2022 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2022/05/23/p1-interactive-multiple-file-search-replace-using-fdfind-sad-instead-of-sed/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2022/05/23/p1-interactive-multiple-file-search-replace-using-fdfind-sad-instead-of-sed/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>City of Vancouver accident data on Datasette lite at lite.datasette.io</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; May 11, 2022. 20:09   &lt;a href=&quot;https://twitter.com/rtanglao/status/1524586942054100992&quot;&gt;City of Vancouver accident data on lite.datasette.io&lt;/a&gt; &amp;lt;– Thanks again to @simonw for http://lite.datasette.io ! You can now query the city of vancouver accident data that somebody posted a few weeks ago. I converted it from TSV UTF16LE to CSV to SQLite &amp;amp; uploaded it to github pages for the CORS headers &amp;amp; Try it: &lt;a href=&quot;https://lite.datasette.io/?url=https%3A%2F%2Frtanglao.github.io%2Fvancouver-accident-location-data%2Fvancouver-accident-location-data-full-data.db#/vancouver-accident-location-data-full-data/vancouver-accident-location-data-full-data&quot;&gt;https://lite.datasette.io/?url=https%3A%2F%2Frtanglao.github.io%2Fvancouver-accident-location-data%2Fvancouver-accident-location-data-full-data.db#/vancouver-accident-location-data-full-data/vancouver-accident-location-data-full-data&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Previously: May 8, 2022: &lt;a href=&quot;http://rolandtanglao.com/2022/05/08/p1-query-my-firefox-201-sumo-support-data-from-your-web-browser-mobile-desktop-no-server-no-app-required/&quot;&gt;Thanks  to Simon Willison’s lite.datasette.io you can now query any SQLite data  with CORS headers anywhere and share the query URL with others so it  can spread virally :-)!  (e.g. 2021 Firefox SUMO Support questions) on  any web browser including desktop, iOS and Android&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 15 May 2022 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2022/05/15/p1-city-vancouverbc-accident-data-datasette-lite/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2022/05/15/p1-city-vancouverbc-accident-data-datasette-lite/</guid>
         
         
       </item>
