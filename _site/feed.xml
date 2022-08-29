@@ -6,9 +6,30 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 27 Aug 2022 23:10:05 -0700</pubDate>
-    <lastBuildDate>Sat, 27 Aug 2022 23:10:05 -0700</lastBuildDate>
+    <pubDate>Sun, 28 Aug 2022 17:10:12 -0700</pubDate>
+    <lastBuildDate>Sun, 28 Aug 2022 17:10:12 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>I have 3 laptops and 2 Raspberry Pis: one or more of them is always online, couldn't I use them as my own CDN to serve a static website?</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;As per my previous post, &lt;a href=&quot;http://rolandtanglao.com/2022/08/27/p1-free-hosting-private-companies-heroku-slack-does-not-work-bring-on-the-un-black-helicopters-aka-free-government-hosting/&quot;&gt;Free  hosting from for profit companies like Heroku, Slack etc doesn’t work.  Don’t depend on it! Only viable long term solution is for the UN Black  Helicopters :-) i.e. the government needs to offer hosting&lt;/a&gt;, I don’t really trust “the Cloud” especially “free” cloud sesrvices.&lt;/li&gt;
+  &lt;li&gt;I have 3 laptops and 2 Raspberry Pis: one or more of them is always online, couldn’t I use them as my own CDN to serve a static website?&lt;/li&gt;
+  &lt;li&gt;The whole notion of clients and servers is silly in 2022.&lt;/li&gt;
+  &lt;li&gt;Previously: June 6, 2006: &lt;a href=&quot;http://rolandtanglao.com/2006/06/06/my-n70-runs-raccoon-nokias-port-of-apache/&quot;&gt;My N70 runs raccoon, Nokia’s port of Apache&lt;/a&gt; with this juicy quote:
+    &lt;ul&gt;
+      &lt;li&gt;Check out my N70 running the &lt;a href=&quot;http://opensource.nokia.com/projects/mobile-web-server/index.html&quot;&gt;Nokia open source port of Apache&lt;/a&gt;, &lt;a href=&quot;http://sourceforge.net/project/showfiles.php?group_id=167580&quot;&gt;Raccoon&lt;/a&gt; at: 
+http://roland.tanglao.guest.at.openlaboratory.net/ &amp;lt;– too bad nothing came of it,  all computers are servers and clients in 2022 it seems to me! If a Nokia phone could run a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;server&lt;/code&gt; in 2022 than my laptops and Pis can run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;servers&lt;/code&gt; in 2022!!!!!!!!&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 28 Aug 2022 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2022/08/28/p1-my-own-cdn-with-my-3-laptops-raspberry-pis/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2022/08/28/p1-my-own-cdn-with-my-3-laptops-raspberry-pis/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Free hosting from for profit companies like Heroku, Slack etc doesn't work. Don't depend on it! Only viable long term solution is for the UN Black Helicopters :-) i.e. the government needs to offer hosting</title>
@@ -256,56 +277,6 @@ support thinking, but I would suggest much of that could be applied to any techn
         <pubDate>Sun, 29 May 2022 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2022/05/29/p1-covid-19-tested-positive-16-may-2022/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2022/05/29/p1-covid-19-tested-positive-16-may-2022/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Interactive Multiple File Search and Replace using fd aka fdfind and sad instead of sed; use sd for just stdin replacement; also check out diff-so-fancy</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;tl;dr:  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fdfind . | sad &quot;locale&quot; &quot;localBLAH&quot; --pager 'delta -s'&lt;/code&gt; &amp;lt;– use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tab&lt;/code&gt; to toggle select, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Y&lt;/code&gt; to execute, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;q&lt;/code&gt; to quit without doing anything, affected files are printed to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;stdout&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;details&quot;&gt;Details:&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fdfind&lt;/code&gt; is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fd&lt;/code&gt; on macOS and other Unix systems. Ubuntu already has an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fd&lt;/code&gt;command so the package is renamed on ubuntu:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/sharkdp/fd&quot;&gt;https://github.com/sharkdp/fd&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sad&lt;/code&gt;:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/ms-jpq/sad&quot;&gt;https://github.com/ms-jpq/sad&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;The inspiration for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sad&lt;/code&gt; was &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sd&lt;/code&gt; (“If you just want to edit the shell stream, I would recommend &lt;a href=&quot;https://github.com/chmln/sd&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sd&lt;/code&gt;&lt;/a&gt;, it uses the same concept, but its more for in stream edits. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sad&lt;/code&gt; was inspired by my initial usage of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sd&lt;/code&gt;.”:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/chmln/sd&quot;&gt;https://github.com/chmln/sd&lt;/a&gt; &amp;lt;– Unlike sad, sd is NOT interactive&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Love the diffs from diffs-so-fancy:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/so-fancy/diff-so-fancy&quot;&gt;https://github.com/so-fancy/diff-so-fancy&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;I have no idea how to use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vertico&lt;/code&gt; in emacs. See “Original Checkvist” below :-)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;original-checkvist&quot;&gt;Original Checkvist&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: May 22, 2022 18:48 &lt;a href=&quot;https://twitter.com/kjhealy/status/1528545478127779848&quot;&gt;Today in Command line Fun for Some Values of Fun™, combine &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fzf&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sad&lt;/code&gt; to switch out your venerable but somewhat perilous sed or perl one-liner that recursively finds &amp;amp; replaces texts in files with a thing with a diff viewer that lets you preview what’s going to happen.&lt;/a&gt; &amp;lt;– &lt;strong&gt;tl;dr&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fd &quot;blah*.rb&quot; | sad &quot;old text&quot; &quot;new text&quot; --pager s&lt;/code&gt; –&amp;gt; &lt;strong&gt;QUOTE&lt;/strong&gt; from followup tweet: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Side note to @ftrain: yes, OBVIOUSLY one should just do this in Emacs with vertico and C-c s p foo C-; E C-c C-p :%s/foo/bar/g RET Z Z&lt;/code&gt; –&amp;gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fdfind&lt;/code&gt; on ubuntu –&amp;gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fdfind . | sad &quot;locale&quot; &quot;localBLAH&quot; --pager 'delta -s'&lt;/code&gt; &amp;lt;– use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tab&lt;/code&gt; to toggle select, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Y&lt;/code&gt; to execute, affected files are printed to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;stdout&lt;/code&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;previously-and-maybe-even-related&quot;&gt;Previously and maybe even related&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;April 2017 &lt;a href=&quot;http://rolandtanglao.com/2017/04/10/p1-open-in-webbrowser-field2-first9lines/&quot;&gt;sed to print selected lines, cut to get second field, open to open in web browser like Firefox&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 23 May 2022 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2022/05/23/p1-interactive-multiple-file-search-replace-using-fdfind-sad-instead-of-sed/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2022/05/23/p1-interactive-multiple-file-search-replace-using-fdfind-sad-instead-of-sed/</guid>
         
         
       </item>
