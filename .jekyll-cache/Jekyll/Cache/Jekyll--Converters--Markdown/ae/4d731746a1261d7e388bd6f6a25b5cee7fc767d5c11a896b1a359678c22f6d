@@ -1,0 +1,14 @@
+I"<ul>
+  <li>Zack’s blog post: <a href="https://schollz.com/blog/croc6/">croc: Fast, simple, and secure file transfer between any two computers.</a></li>
+  <li>Code and docs: <a href="https://github.com/schollz/croc">https://github.com/schollz/croc</a></li>
+  <li>It requires a public relay server which is $40-50 a month. See this croc github issue: <a href="https://github.com/schollz/croc/issues/453">This project needs your help again #453</a></li>
+  <li>There are so many of these nifty command line tools! e.g. rg: grep in rust</li>
+  <li>Previously:
+    <ul>
+      <li><a href="http://rolandtanglao.com/2021/12/19/p1-thej-extract-data-html-json-xhtml-xidel/">Thej: Extract Data from HTML/XML/JSON using Xidel</a></li>
+      <li><a href="http://rolandtanglao.com/2022/05/23/p1-interactive-multiple-file-search-replace-using-fdfind-sad-instead-of-sed/">Interactive  Multiple File Search and Replace using fd aka fdfind and sad instead of  sed; use sd for just stdin replacement; also check out diff-so-fancy</a></li>
+    </ul>
+  </li>
+</ul>
+
+:ET
