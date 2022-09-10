@@ -6,9 +6,28 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 04 Sep 2022 17:45:35 -0700</pubDate>
-    <lastBuildDate>Sun, 04 Sep 2022 17:45:35 -0700</lastBuildDate>
+    <pubDate>Sat, 10 Sep 2022 13:12:26 -0700</pubDate>
+    <lastBuildDate>Sat, 10 Sep 2022 13:12:26 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Leah Elliott: Contra Chr*me – a webcomic – How G*ogle's browser became a threat to privacy and democracy, a 2019 re-do of Scott McCloud‘s 2008: G*ogle-commissioned Chr*me comic</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Sep 9, 2022 18:15  Leah Elliott: &lt;a href=&quot;https://contrachrome.com/&quot;&gt;Contra Chr*me – a webcomic – How G*ogle’s browser became a threat to privacy and democracy, a 2019 re-do of Scott McCloud‘s 2008: G*ogle-commissioned Chr*me comic &lt;/a&gt; &amp;lt;– a re-do in G*\ggle is e*il stylee :-) In German and French as well as English!&lt;/li&gt;
+  &lt;li&gt;Previously:
+    &lt;ul&gt;
+      &lt;li&gt;April 2005: &lt;a href=&quot;http://rolandtanglao.com/2005/04/30/google-jumps-the-shark-by-offering-ads-not-tied-to-keywords/&quot;&gt;G*ogle jumps the shark by offering ads not tied to keywords?&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;February 2005: &lt;a href=&quot;http://rolandtanglao.com/2005/02/08/google-becomes-bigco-and-terminates-blogger-for-being-too-transparent-and-exposing-what-could-be-viewed-as-their-evil/&quot;&gt;G*ogle becomes Bigco and terminates blogger for being too transparent and exposing what could be viewed as their “evil”&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 10 Sep 2022 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2022/09/10/p1-leah-elliott-contra-chrome-webcomic-google-browser-threat/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2022/09/10/p1-leah-elliott-contra-chrome-webcomic-google-browser-threat/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Zack Scholl: croc Fast, simple, and e2e encrypted file transfer between any two computers. &lt;- so many great CLI tools so little time. See 'Previously'</title>
@@ -228,31 +247,6 @@ support thinking, but I would suggest much of that could be applied to any techn
         <pubDate>Sun, 12 Jun 2022 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2022/06/12/p1-megan-carpenter-stop-assuming-good-intent-i-will-give-you-grace-if-you-give-me-effort/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2022/06/12/p1-megan-carpenter-stop-assuming-good-intent-i-will-give-you-grace-if-you-give-me-effort/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Feed Firefox Support Questions to GPT-3 by following Simon Willison's HowTo and see what 'answers' it comes up with?</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;I will at some point do this :-) and Simon Willison’s tutorial, &lt;a href=&quot;https://simonwillison.net/2022/Jun/5/play-with-gpt3/&quot;&gt;How to play with the GPT-3 language model&lt;/a&gt; will be the steps I follow.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://twitter.com/rtanglao/status/1533505888828329984&quot;&gt;Tweet&lt;/a&gt;: is it silly to feed the GPT-3 API 1000 randomly chosen Firefox Support Questions from &lt;a href=&quot;https://t.co/MHHdeLUM0E&quot;&gt;https://github.com/rtanglao/rt-kits-api3/blob/main/YEARLY_CSV_FILES/2021-firefox-sumo-questions.db&lt;/a&gt; to see its “answers”?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Previously:&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;February 2020: &lt;a href=&quot;http://rolandtanglao.com/2020/02/15/p1-max-woolf-howto-custom-ai-generated-text-gpt-2/&quot;&gt;Max Woolf: How To Make Custom AI-Generated Text With GPT-2&lt;/a&gt; &amp;lt;– I of course didn’t end up trying this :-) !&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 05 Jun 2022 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2022/06/05/p1-feed-firefox-support-questions-into-gpt-3/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2022/06/05/p1-feed-firefox-support-questions-into-gpt-3/</guid>
         
         
       </item>
