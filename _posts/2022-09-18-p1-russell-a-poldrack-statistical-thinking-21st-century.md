@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Russell A. Poldrack: Statistical Thinking for the 21st Century"
+---
+* [Discovered](http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/) Sep 6, 2022 20:48: [Russell A. Poldrack: Statistical Thinking for the 21st Century](https://statsthinking21.github.io/statsthinking21-core-site/)  [(main web site with R and Python companions](https://statsthinking21.org/)) <-- QUOTE: `The goal of this book is to the tell the story of statistics as it is used today by researchers around the world. It’s a different story than the one told in most introductory statistics books, which focus on teaching how to use a set of tools to achieve very specific goals. This book focuses on understanding the basic ideas of statistical thinking — a systematic way of thinking about how we describe the world and use data make decisions and predictions, all in the context of the inherent uncertainty that exists in the real world. It also brings to bear current methods that have only become feasible in light of the amazing increases in computational power that have happened in the last few decades. Analyses that would have taken years in the 1950’s can now be completed in a few seconds on a standard laptop computer, and this power unleashes the ability to use computer simulation to ask questions in new and powerful ways.`
+
+* From [section 1.1](https://statsthinking21.github.io/statsthinking21-core-site/introduction.html#what-is-statistical-thinking):
+
+>Statistical thinking is a way of understanding a complex world by describing it in relatively simple terms that nonetheless capture essential aspects of its structure or function, and that also provide us some idea of how uncertain we are about that knowledge. The foundations of statistical thinking come primarily from mathematics and statistics, but also from computer science, psychology, and other fields of study.
+
+>We can distinguish statistical thinking from other forms of thinking that are less likely to describe the world accurately. In particular, human intuition often tries to answer the same questions that we can answer using statistical thinking, but often gets the answer wrong. For example, in recent years most Americans have reported that they think that violent crime was worse compared to the previous year (Pew Research Center). However, a statistical analysis of the actual crime data shows that in fact violent crime has steadily decreased since the 1990’s. Intuition fails us because we rely upon best guesses (which psychologists refer to as heuristics) that can often get it wrong. For example, humans often judge the prevalence of some event (like violent crime) using an availability heuristic – that is, how easily can we think of an example of violent crime.
+
+### Previously
+
+* August 2017: [Really  enjoying: Modern Dive - An Introduction to Statistical and Data  Sciences via R -  really is a modern introduction to statistics, modern R  programming, ggplot2 and the tidyverse](http://rolandtanglao.com/2017/08/06/p1-modern-dive-really-is-a-modern-introduction-to-r/)        
