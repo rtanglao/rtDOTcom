@@ -1,0 +1,24 @@
+I"u<ul>
+  <li><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a> Sep 20, 2022 17:49 https://www.tadviewer.com/:  A fast viewer for <strong>CSV</strong> and <strong>Parquet</strong> files and <strong>SQLite</strong> and <strong>DuckDb</strong> databases that supports large files. (via <a href="https://twitter.com/antonycourtney/status/1572353401341771777">this tweet</a> from Antony Courtney which was in response to Simon W’s tweet: <a href="https://twitter.com/simonw/status/1572285367382061057">If someone gives you a CSV file with 100,000 rows in it, what tools do you use to start exploring and understanding that data</a>? )</li>
+</ul>
+
+<h3 id="previously">Previously</h3>
+
+<ul>
+  <li>
+    <p>March 2022: <a href="http://rolandtanglao.com/2022/03/27/p1-firefox-sumo-317-support-questions-2021-june4-firefox89-new-look-and-feel/">2021  SUMO Firefox Desktop Support Questions in a SQLite file: 317 questions  on June 4, 2021 about Firefox look and feel changes in Firefox 89 (used  DB Browser for SQLite, csvstack, csvs-to-sqlite)</a></p>
+  </li>
+  <li>
+    <p>February 2020: <a href="http://rolandtanglao.com/2020/02/23/p1-sqlite-csv-json-the-eternal-golden-braid-sqlitebrowser/">SQLite,  JSON, CSV :-) the eternal golden braid of formats? so many tools for  normal folks to grok them without programming e.g. sqlitebrowser</a></p>
+  </li>
+  <li>
+    <p>April 2019: <a href="http://rolandtanglao.com/2019/04/21/p2-howto-use-miller-mlr-to-create-csv-file-with-urls-from-ids/">How  to use mlr (miller) to create an id, url CSV file from a file of ids by  concatenating ‘support.mozilla.org/questions/’ to the id</a></p>
+  </li>
+  <li>
+    <p>October 2018:  <a href="http://rolandtanglao.com/2018/10/20/p1-csv-to-json-mr-data-converter/">Mr Data Converter converts CSV to JSON, HTML, JSON, XML, Python, ruby, etc</a></p>
+
+    <p>##</p>
+  </li>
+</ul>
+
+:ET
