@@ -1,0 +1,79 @@
+I"	<h3 id="csv-tools-summary-table">CSV Tools Summary Table</h3>
+
+<ul>
+  <li>
+    <p>New to me :-) CSV Tools (except for Tad which was documented yesterday) from the 1000 replies to Simon Willison’s tweet: <a href="https://twitter.com/simonw/status/1572285367382061057">If someone gives you a CSV file with 100,000 rows in it, what tools do you use to start exploring and understanding that data?</a></p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Tweet</th>
+          <th>Type</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
+<h3 id="programming-language-and-other-small-code-snippets">Programming language and other small code snippets</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Language/Tool</th>
+      <th>Tweet</th>
+      <th>Snippet</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Datasette on Mac / CLI on Windows</td>
+      <td><a href="https://twitter.com/simonw/status/1572295332767371265">#</a></td>
+      <td><code class="language-plaintext highlighter-rouge">sqlite-utils insert /tmp/data.db rows big.csv --csv  datasette /tmp/data.db</code> or open CSV in Dasette Mac Desktop app</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="previously">Previously</h3>
+
+<ul>
+  <li>Yesterday: <a href="http://rolandtanglao.com/2022/09/20/p1-tad-fast-viewer-csv-parquet-sqlite-datasette-alternative/">Tad:  A fast viewer for CSV and Parquet files and SQLite and DuckDb databases  that supports large files.  &lt;– Nice alternative to (in no order)  dirtylittlesql.com, graphext, knime, visidata, datasette, xsv, csvkit, R  tidyverse with arrow, python pandas / dask, as well as the traditional  grep / uniq / cut / sed / awk / sort / uniq etc   </a></li>
+</ul>
+
+:ET

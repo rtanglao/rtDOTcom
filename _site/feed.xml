@@ -6,9 +6,97 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 20 Sep 2022 18:09:32 -0700</pubDate>
-    <lastBuildDate>Tue, 20 Sep 2022 18:09:32 -0700</lastBuildDate>
+    <pubDate>Wed, 21 Sep 2022 20:17:49 -0700</pubDate>
+    <lastBuildDate>Wed, 21 Sep 2022 20:17:49 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>WIP: q, xsv, graphext, dirtylittlesql, Tools for handling large CSV files from Simon Willison's mega replied to thread</title>
+        <description>&lt;h3 id=&quot;csv-tools-summary-table&quot;&gt;CSV Tools Summary Table&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;New to me :-) CSV Tools (except for &lt;a href=&quot;http://rolandtanglao.com/2022/09/20/p1-tad-fast-viewer-csv-parquet-sqlite-datasette-alternative/&quot;&gt;Tad which was documented yesterday&lt;/a&gt;) from the 1000 replies to Simon Willison’s tweet: &lt;a href=&quot;https://twitter.com/simonw/status/1572285367382061057&quot;&gt;If someone gives you a CSV file with 100,000 rows in it, what tools do you use to start exploring and understanding that data?&lt;/a&gt;&lt;/p&gt;
+
+    &lt;table&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th&gt;Name&lt;/th&gt;
+          &lt;th&gt;Tweet&lt;/th&gt;
+          &lt;th&gt;Type&lt;/th&gt;
+          &lt;th&gt;Notes&lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Postgres&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&quot;https://twitter.com/fuzzychef/status/1572389081472208896&quot;&gt;[1]&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/fuzzychef/status/1572428556126556162&quot;&gt;[2]&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;Database&lt;/td&gt;
+          &lt;td&gt;* Use COPY command, CSV data wrapper which lets you do CSV operations without even copying them which is good for folders&lt;br /&gt;*&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;programming-language-and-other-small-code-snippets&quot;&gt;Programming language and other small code snippets&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Language/Tool&lt;/th&gt;
+      &lt;th&gt;Tweet&lt;/th&gt;
+      &lt;th&gt;Snippet&lt;/th&gt;
+      &lt;th&gt;Notes&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Datasette on Mac / CLI on Windows&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://twitter.com/simonw/status/1572295332767371265&quot;&gt;#&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sqlite-utils insert /tmp/data.db rows big.csv --csv  datasette /tmp/data.db&lt;/code&gt; or open CSV in Datasette Mac Desktop app&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Yesterday: &lt;a href=&quot;http://rolandtanglao.com/2022/09/20/p1-tad-fast-viewer-csv-parquet-sqlite-datasette-alternative/&quot;&gt;Tad:  A fast viewer for CSV and Parquet files and SQLite and DuckDb databases  that supports large files.  &amp;lt;– Nice alternative to (in no order)  dirtylittlesql.com, graphext, knime, visidata, datasette, xsv, csvkit, R  tidyverse with arrow, python pandas / dask, as well as the traditional  grep / uniq / cut / sed / awk / sort / uniq etc   &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 21 Sep 2022 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2022/09/21/p1-tools-for-large-csv-files-simon-willison/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2022/09/21/p1-tools-for-large-csv-files-simon-willison/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Tad: A fast viewer for CSV and Parquet files and SQLite and DuckDb databases that supports large files.  &lt;-- Nice alternative to (in no order) dirtylittlesql.com, graphext, knime, visidata, datasette, xsv, csvkit, R tidyverse with arrow, python pandas / dask, as well as the traditional grep / uniq / cut / sed / awk / sort / uniq etc   </title>
@@ -218,40 +306,6 @@ http://roland.tanglao.guest.at.openlaboratory.net/ &amp;lt;– too bad nothing c
         <pubDate>Sat, 13 Aug 2022 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2022/08/13/p1-cypress-challenge-2022-2022-08-07-a-few-minutes-slower/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2022/08/13/p1-cypress-challenge-2022-2022-08-07-a-few-minutes-slower/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>New tools for thought are a wee step forward from wikis and mindmapping because they are open source, easier to host and share unlike past tools like wikis</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Jul 26, 2022 18:32 &lt;a href=&quot;https://www.synesthesia.co.uk/2022/07/27/revisiting-the-power-of-context/&quot;&gt;Revisiting ‘The Power of Context’ | Synesthesia&lt;/a&gt; &amp;lt;— The power is that these tools for thought are more readily available, easier to share and easier to host. Wikis have historically  been not so simple to host (compare how many blog alternatives there are and how few wiki alternatives there were) and share.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;juicy---quote&quot;&gt;Juicy :-) Quote&lt;/h3&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;These days it seems we hear of “nothing but” the power of associative thinking 
-in the context of Zettelkasten or digital gardens, driven by the core principle 
-of breaking ideas down into atomic concepts to support re-combination and 
-serendipitous insight.
-
-However what many who focus on those current trends ignore (or are perhaps
-unaware of) is the very long history of tools that support this way of 
-working (e.g. wiki, 1995, mind-mapping, 1970 ).
-
-So what, exactly, is the new context added by digital gardens? I’m not sure I
-know yet at a technical level. One clear benefit at an information level is 
-that there is no shortage of discussion on how to use those tools to 
-support thinking, but I would suggest much of that could be applied to any technology.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h3 id=&quot;previously-from-june-2017&quot;&gt;Previously from June 2017:&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2017/06/09/p1-going-to-summarize-technical-topics/&quot;&gt;tl;dr tech stuff - Going to summarize tech stuff on my future wiki&lt;/a&gt;     &amp;lt;— 5 years later and I still haven’t setup my own wiki. Oops :-)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 31 Jul 2022 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2022/07/31/p1-new-digital-gardens-tools-for-thought-easy-to-update-personal-wiki/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2022/07/31/p1-new-digital-gardens-tools-for-thought-easy-to-update-personal-wiki/</guid>
         
         
       </item>
