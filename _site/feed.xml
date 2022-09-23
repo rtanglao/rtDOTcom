@@ -6,8 +6,8 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 21 Sep 2022 20:17:49 -0700</pubDate>
-    <lastBuildDate>Wed, 21 Sep 2022 20:17:49 -0700</lastBuildDate>
+    <pubDate>Thu, 22 Sep 2022 20:08:26 -0700</pubDate>
+    <lastBuildDate>Thu, 22 Sep 2022 20:08:26 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -17,6 +17,9 @@
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;New to me :-) CSV Tools (except for &lt;a href=&quot;http://rolandtanglao.com/2022/09/20/p1-tad-fast-viewer-csv-parquet-sqlite-datasette-alternative/&quot;&gt;Tad which was documented yesterday&lt;/a&gt;) from the 1000 replies to Simon Willison’s tweet: &lt;a href=&quot;https://twitter.com/simonw/status/1572285367382061057&quot;&gt;If someone gives you a CSV file with 100,000 rows in it, what tools do you use to start exploring and understanding that data?&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The github tables are much nicer! Until I get github flavoured markeown working here, check out &lt;a href=&quot;https://github.com/rtanglao/rtDOTcom/blob/master/_posts/2022-09-21-p1-tools-for-large-csv-files-simon-willison.md&quot;&gt;the tables in github&lt;/a&gt; which have thin lines around the table cells as they should!&lt;/p&gt;
 
     &lt;table&gt;
       &lt;thead&gt;
@@ -32,16 +35,58 @@
           &lt;td&gt;Postgres&lt;/td&gt;
           &lt;td&gt;&lt;a href=&quot;https://twitter.com/fuzzychef/status/1572389081472208896&quot;&gt;[1]&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/fuzzychef/status/1572428556126556162&quot;&gt;[2]&lt;/a&gt;&lt;/td&gt;
           &lt;td&gt;Database&lt;/td&gt;
-          &lt;td&gt;* Use COPY command, CSV data wrapper which lets you do CSV operations without even copying them which is good for folders&lt;br /&gt;*&lt;/td&gt;
+          &lt;td&gt;* Use COPY command, CSV data wrapper which lets you do CSV operations without even copying them which is good for folders&lt;br /&gt;&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
-          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt;awk, cut,  wc, grep, args,  etc&lt;/td&gt;
+          &lt;td&gt;[1]&lt;/td&gt;
+          &lt;td&gt;classic Unix CLI text tools&lt;/td&gt;
+          &lt;td&gt;* xargs &amp;amp; many classic tools don’t work with embedded commas e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1, &quot;1,2,3&quot;, 2&lt;/code&gt;&lt;br /&gt; * They also don’t work with unicode and other non classic ASCII character&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;q&lt;/td&gt;
           &lt;td&gt; &lt;/td&gt;
           &lt;td&gt; &lt;/td&gt;
           &lt;td&gt; &lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
+          &lt;td&gt;Tableau&lt;/td&gt;
+          &lt;td&gt;[&lt;a href=&quot;https://twitter.com/rajko_rad/status/1572346412091969538&quot;&gt;1&lt;/a&gt;]&lt;/td&gt;
+          &lt;td&gt;proprietary&lt;/td&gt;
+          &lt;td&gt;* for plotting&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;xsv&lt;/td&gt;
+          &lt;td&gt;[https://twitter.com/dancow/status/1572286228371841026]&lt;/td&gt;
+          &lt;td&gt;cli tool&lt;/td&gt;
+          &lt;td&gt;* &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xsv and csvkit, to get a sense of the size and cardinality and consistency of the data before I bother opening it up in Excel or sqlite&lt;/code&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;csvkit&lt;/td&gt;
           &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;pandas in Python&lt;/td&gt;
+          &lt;td&gt;[&lt;a href=&quot;https://twitter.com/gusthema/status/1572318946115592195&quot;&gt;1&lt;/a&gt;]&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt;* &lt;a href=&quot;https://twitter.com/gusthema/status/1456607188277936132&quot;&gt;thread from Gus about a 5.7GB CSV file&lt;/a&gt; (read_csv in batches)&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;visidata&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;dirtylittlesql&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;graphex&lt;/td&gt;
           &lt;td&gt; &lt;/td&gt;
           &lt;td&gt; &lt;/td&gt;
           &lt;td&gt; &lt;/td&gt;
@@ -70,9 +115,9 @@
       &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;Perl&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://twitter.com/adambroach/status/1572510566572498944&quot;&gt;#&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;* &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Use Parse::CSV rather than splitting on commas.&lt;/code&gt;&lt;/td&gt;
       &lt;td&gt; &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
