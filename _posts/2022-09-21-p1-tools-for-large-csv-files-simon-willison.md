@@ -20,6 +20,7 @@ title: "WIP: q, xsv, graphext, dirtylittlesql, Tools for handling large CSV file
   | visidata                        |                                                              |                             |                                                              |
   | dirtylittlesql                  |                                                              |                             |                                                              |
   | graphex                         |                                                              |                             |                                                              |
+  | Julia and Duck                         |                                                              |                             |                                                              |
 
 ### Programming language and other small code snippets
 
