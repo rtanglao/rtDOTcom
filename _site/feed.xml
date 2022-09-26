@@ -6,9 +6,43 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 25 Sep 2022 17:48:52 -0700</pubDate>
-    <lastBuildDate>Sun, 25 Sep 2022 17:48:52 -0700</lastBuildDate>
+    <pubDate>Sun, 25 Sep 2022 17:59:39 -0700</pubDate>
+    <lastBuildDate>Sun, 25 Sep 2022 17:59:39 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Use Super Collider to make music from photo geodata and average colour?</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;&quot;&gt;Discovered&lt;/a&gt; Sep 22, 2022 19:42 &lt;a href=&quot;https://github.com/schollz/ambulation&quot;&gt;schollz/ambulation: Two SuperCollider synth tutorials.&lt;/a&gt; &amp;lt;– QUOTE:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;This repo is designed to teach SuperCollider to beginners through 
+two self-styled tutorials that I've designed. The theme of these 
+workshops is ambulation - getting you to take your first steps to 
+walk on your own with SuperCollider. Both are offered as workshops 
+at Music Hackspace but all the materials are included here and 
+can be used as a self-guided workshop as well.
+
+What is SuperCollider? SuperCollider is a free platform for audio 
+synthesis and algorithm composition. It really excels at real-time 
+analysis, synthesis, sampling, and processing and provides a 
+framework for seamless combination of audio techniques like 
+additive and subtractive synthesis
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;July 15, 2021: &lt;a href=&quot;http://rolandtanglao.com/2021/07/15/p1-what-does-nodejs-sound-like-music-from-code/&quot;&gt;What Does the (node.js) Event Loop Sound Like? Music from code (like music from GPS I did back in 2010 with my N900)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;May 6, 2018: &lt;a href=&quot;http://rolandtanglao.com/2018/05/06/p1-pythonista-script-to-get-gps-coordinates-on-ios/&quot;&gt;Pythonista script to get GPS and text adapt to make music like my 2010 N900 gpsgamelan.py script?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;July 6, 2010: &lt;a href=&quot;http://rolandtanglao.com/2010/07/06/gpsgamelan-py-is-ok-but-i-want-real-music-use-12-major-keys-with-10-chords/&quot;&gt;gpsgamelan.py is ok, but i want real music - use 12 major keys with 10 chords&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 25 Sep 2022 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2022/09/25/p1-super-collider-to-make-music-from-photo-geodata-and-average-colour/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2022/09/25/p1-super-collider-to-make-music-from-photo-geodata-and-average-colour/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Got my 4th vaccination today: Moderna bivalent booster, go science go! #VaccinateThePlanet</title>
@@ -357,20 +391,6 @@ http://roland.tanglao.guest.at.openlaboratory.net/ &amp;lt;– too bad nothing c
         <pubDate>Sat, 27 Aug 2022 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2022/08/27/p1-free-hosting-private-companies-heroku-slack-does-not-work-bring-on-the-un-black-helicopters-aka-free-government-hosting/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2022/08/27/p1-free-hosting-private-companies-heroku-slack-does-not-work-bring-on-the-un-black-helicopters-aka-free-government-hosting/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Vanbikes: Vancouver's Bicycle People &amp; the Fight for Transportation Change, 1986-2011 - Highly Recommended</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;If you want to learn about Vancouver bicycling activism and activism in general and how it’s a long game full of amazing folks then please buy or borrow from the library (it’s at VPL!):  &lt;a href=&quot;https://www.vanbikes.ca/&quot;&gt;Vanbikes&lt;/a&gt;: Vancouver’s Bicycle People &amp;amp; the Fight for Transportation Change, 1986-2011 by Colin Stein! Highly recommended! &lt;a href=&quot;https://www.vanbikes.ca/store&quot;&gt;Order the book at Colin’s site&lt;/a&gt; if you have the $. $25 for the PDF, $50 for the book. I have a copy (and Barb and I are on page 310 :-), see if you can spot us!)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://twitter.com/colinmstein/status/1546197493762834437&quot;&gt;Colin has an amazing twitter thread&lt;/a&gt; that answers a lot of the questions you may have. Please check that out too!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 14 Aug 2022 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2022/08/14/p1-colin-stein-vanbikes-vancouvers-bicycle-people-fight-transportation-change-1986-2011/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2022/08/14/p1-colin-stein-vanbikes-vancouvers-bicycle-people-fight-transportation-change-1986-2011/</guid>
         
         
       </item>
