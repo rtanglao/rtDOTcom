@@ -4,7 +4,7 @@ title: "WIP: q, xsv, graphext, dirtylittlesql, Tools for handling large CSV file
 ---
 ### Probably wrong thought :-)
 
-[CSV is the universal data structure. Excel, Google Sheets & all those tools mentioned allow EVERYBODY  of all skill levels, software developers or not, to do what they want from simple analysis to full on visualization which is super great! #ProgrammingAndDataScienceForEveryBodyhttps://twitter.com/hashtag/ProgrammingAndDataScienceForEveryBody?src=hashtag_click!](https://twitter.com/rtanglao/status/1572659730111401989)
+[CSV is the universal data structure. Excel, Google Sheets & all those tools mentioned allow EVERYBODY  of all skill levels, software developers or not, to do what they want from simple analysis to full on visualization which is super great! #ProgrammingAndDataScienceForEveryBodyhttps://twitter.com/hashtag/ProgrammingAndDataScienceForEveryBody](https://twitter.com/rtanglao/status/1572659730111401989)
 
 ### CSV Tools Summary Table
 

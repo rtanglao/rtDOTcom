@@ -1,0 +1,13 @@
+I"<ul>
+  <li><a href="http://rolandtanglao.com/2022/09/25/p1-super-collider-to-make-music-from-photo-geodata-and-average-colour/">Discovered</a> Oct 6, 2022. 17:58  <a href="https://twitter.com/rtanglao/status/1578187282540277761">magick commands  in linux on WSL to make an animated GIF</a>:
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>parallel ~/bin/magick convert <span class="o">{}</span>  <span class="nt">-resize</span> 1200x675  small-<span class="o">{</span>/.<span class="o">}</span>.jpg <span class="se">\</span>
+:::  /mnt/c/Users/rolan/OneDrive/Pictures/BEES_04OCT_2022/<span class="k">*</span>.JPG
+~/bin/magick convert <span class="nt">-delay</span> 20 <span class="nt">-loop</span> 0 <span class="sb">`</span><span class="nb">ls</span> <span class="nt">-1</span> <span class="k">*</span>.jpg<span class="sb">`</span> 04oct2022beeflying.gif
+</code></pre></div>    </div>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">imagemagick</code> version 7 is accessed via the <code class="language-plaintext highlighter-rouge">magick</code> commands. Version 6 is accessed via <code class="language-plaintext highlighter-rouge">convert</code> directly
+    <h3 id="previously">Previously</h3>
+  </li>
+</ul>
+
+:ET

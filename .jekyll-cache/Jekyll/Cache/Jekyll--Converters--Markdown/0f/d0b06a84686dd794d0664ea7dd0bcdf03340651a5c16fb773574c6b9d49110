@@ -1,8 +1,15 @@
-I"�<h3 id="csv-tools-summary-table">CSV Tools Summary Table</h3>
+I"�<h3 id="probably-wrong-thought--">Probably wrong thought :-)</h3>
+
+<p><a href="https://twitter.com/rtanglao/status/1572659730111401989">CSV is the universal data structure. Excel, Google Sheets &amp; all those tools mentioned allow EVERYBODY  of all skill levels, software developers or not, to do what they want from simple analysis to full on visualization which is super great! #ProgrammingAndDataScienceForEveryBodyhttps://twitter.com/hashtag/ProgrammingAndDataScienceForEveryBody</a></p>
+
+<h3 id="csv-tools-summary-table">CSV Tools Summary Table</h3>
 
 <ul>
   <li>
     <p>New to me :-) CSV Tools (except for <a href="http://rolandtanglao.com/2022/09/20/p1-tad-fast-viewer-csv-parquet-sqlite-datasette-alternative/">Tad which was documented yesterday</a>) from the 1000 replies to Simon Willison’s tweet: <a href="https://twitter.com/simonw/status/1572285367382061057">If someone gives you a CSV file with 100,000 rows in it, what tools do you use to start exploring and understanding that data?</a></p>
+  </li>
+  <li>
+    <p>The github Markdown tables are much nicer! Until I get github flavoured markdown working here, check out <a href="https://github.com/rtanglao/rtDOTcom/blob/master/_posts/2022-09-21-p1-tools-for-large-csv-files-simon-willison.md">the tables in github</a> which have thin lines around the table cells as they should!</p>
 
     <table>
       <thead>
@@ -18,13 +25,13 @@
           <td>Postgres</td>
           <td><a href="https://twitter.com/fuzzychef/status/1572389081472208896">[1]</a>, <a href="https://twitter.com/fuzzychef/status/1572428556126556162">[2]</a></td>
           <td>Database</td>
-          <td>* Use COPY command, CSV data wrapper which lets you do CSV operations without even copying them which is good for folders<br />*</td>
+          <td>* Use COPY command, CSV data wrapper which lets you do CSV operations without even copying them which is good for folders<br /></td>
         </tr>
         <tr>
           <td>awk, cut,  wc, grep, args,  etc</td>
-          <td>[1]</td>
+          <td>[<a href="https://twitter.com/adambroach/status/1572512127629561856">1</a>]</td>
           <td>classic Unix CLI text tools</td>
-          <td>* xargs &amp; many classic tools don’t work with embedded commas e.g. <code class="language-plaintext highlighter-rouge">1, "1,2,3", 2</code><br /> * They also don’t work with unicode and other non classic ASCII character</td>
+          <td>* xargs &amp; many classic tools don’t work with embedded commas e.g. <code class="language-plaintext highlighter-rouge">1, "1,2,3", 2</code><br /> * They also don’t work with unicode and other non classic ASCII characters</td>
         </tr>
         <tr>
           <td>q</td>
@@ -40,7 +47,7 @@
         </tr>
         <tr>
           <td>xsv</td>
-          <td>[https://twitter.com/dancow/status/1572286228371841026]</td>
+          <td>[<a href="https://twitter.com/dancow/status/1572286228371841026">1</a>]</td>
           <td>cli tool</td>
           <td>* <code class="language-plaintext highlighter-rouge">xsv and csvkit, to get a sense of the size and cardinality and consistency of the data before I bother opening it up in Excel or sqlite</code></td>
         </tr>
@@ -57,22 +64,52 @@
           <td>* <a href="https://twitter.com/gusthema/status/1456607188277936132">thread from Gus about a 5.7GB CSV file</a> (read_csv in batches)</td>
         </tr>
         <tr>
-          <td> </td>
-          <td> </td>
-          <td> </td>
-          <td> </td>
-        </tr>
-        <tr>
-          <td> </td>
+          <td>visidata</td>
           <td> </td>
           <td> </td>
           <td> </td>
         </tr>
         <tr>
+          <td>dirtylittlesql</td>
           <td> </td>
           <td> </td>
           <td> </td>
+        </tr>
+        <tr>
+          <td>graphex</td>
           <td> </td>
+          <td> </td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>Julia and Duck</td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+        </tr>
+        <tr>
+          <td>MySQL and phpMyAdmin</td>
+          <td>[<a href="https://twitter.com/iamcal/status/1572332519927980034">1</a>]</td>
+          <td> </td>
+          <td>* from Carl Henderson who of course knows MySQL and PHP from flickr and many other things :-)</td>
+        </tr>
+        <tr>
+          <td>Excel, Access, etc</td>
+          <td> </td>
+          <td> </td>
+          <td>* Of course, not going to give any further details for these proprietary tools, left as an exercise to the reader :-)</td>
+        </tr>
+        <tr>
+          <td>Spotfire, Tableau and other BI Tools</td>
+          <td>[<a href="https://twitter.com/kimahlberg/status/1572330670374129667">1</a>]</td>
+          <td> </td>
+          <td>* Again not likely to use these tools :-)</td>
+        </tr>
+        <tr>
+          <td>dask for Python</td>
+          <td>[<a href="https://twitter.com/jc50000000/status/1572369962500587520">1</a>]</td>
+          <td>python library</td>
+          <td>* <code class="language-plaintext highlighter-rouge">How are there no mentions of dask? Like pandas but not shitty. Loads the data in chunks, doesn’t have to load it all into memory. Dask is the answer for all of them. [https://docs.dask.org/en/stable/](https://t.co/qB6GthUdco) If I can’t use python then redis on a high mem ec2 instance to do what i need and shutdown</code></td>
         </tr>
       </tbody>
     </table>
@@ -104,10 +141,16 @@
       <td> </td>
     </tr>
     <tr>
+      <td>Perl</td>
+      <td><a href="https://twitter.com/benmschmidt/status/1572296810898812928">#</a></td>
+      <td>Not sure what this does :-) : <code class="language-plaintext highlighter-rouge">perl -ne 'print if rand() &lt; 1e-3 filename.csv</code></td>
       <td> </td>
-      <td> </td>
-      <td> </td>
-      <td> </td>
+    </tr>
+    <tr>
+      <td>Postgres</td>
+      <td><a href="https://twitter.com/turicas/status/1572345043712720899">#</a></td>
+      <td><code class="language-plaintext highlighter-rouge">export DATABASE_URL="postgres://postgres:postgres@localhost:5432/postgres" rows pgimport --schema=:text: --input-encoding=utf-8 --dialect=excel myfile.csv[.gz</code></td>
+      <td>.xz</td>
     </tr>
   </tbody>
 </table>
