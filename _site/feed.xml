@@ -6,9 +6,35 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 09 Oct 2022 16:14:18 -0700</pubDate>
-    <lastBuildDate>Sun, 09 Oct 2022 16:14:18 -0700</lastBuildDate>
+    <pubDate>Mon, 10 Oct 2022 18:19:28 -0700</pubDate>
+    <lastBuildDate>Mon, 10 Oct 2022 18:19:28 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Probably Wrong Prediction: Autonomous Vehicle 'winter' is coming in less than 5 years for G*link and other AV companies</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/rtanglao/status/1579362845254635520&quot;&gt;“AI winter 2.0”will be “autonomous vehicle winter”, “machine learning winter”, etc, right? Who are the Symbolics, Lucid, Thinking Machines, etc of today?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/rtanglao/status/1579363465420234752&quot;&gt;Perhaps G*lik? -&amp;gt; “Loblaw Companies Ltd. in Ontario has partnered with Palo Alto startup G*lik to test five driverless delivery vehicles in the Toronto area&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;May 2021: &lt;a href=&quot;http://rolandtanglao.com/2021/05/23/p1-forgotten-about-outdoor-dining-by-2025/&quot;&gt;Probably  wrong prediction: We will have forgotten about outdoor dining by 2025  just like we forgot why steam radiators are so hot&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;January 2020: &lt;a href=&quot;http://rolandtanglao.com/2020/01/02/p2-no-non-zero-evs-in-cities-2029-probably-wrong-prediction/&quot;&gt;Probably Wrong Prediction: Zero non Zero Emission Vehicles in cities by 2029&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;August 2019: &lt;a href=&quot;http://rolandtanglao.com/2019/08/20/p1-wework-will-be-gone-before-2029/&quot;&gt;Probably Wrong Prediction:-) : WeWork will be gone before 2029&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;April 2019: &lt;a href=&quot;http://rolandtanglao.com/2019/04/27/p1-probably-wrong-prediction-no-gas-diesel-cars-for-sale-in-10-years/&quot;&gt;Probably Wrong Prediction :-) : No gas or diesel cars for sale in 2030&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;April 2019: &lt;a href=&quot;http://rolandtanglao.com/2019/04/25/p1-probably-wrong-prediction-no-x86-laptops-10-years/&quot;&gt;Probably Wrong Prediction :-) : No x86 laptops for sale in 10 years&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;April 2018  &lt;a href=&quot;http://rolandtanglao.com/2018/04/01/p1-probably-wrong-2029-prediction-no-self-driving-cars-outside-city-cores/&quot;&gt;Probably Wrong 2029 Prediction :-) : No self-driving cars and vehicles outside city cores&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;March 2018: &lt;a href=&quot;http://rolandtanglao.com/2018/03/31/p1-probably-wrong-prediction-no-restaurant-conversational-ai-by-2029/&quot;&gt;Probably Wrong 2029 Prediction :-) : No conversational speech recognition with a bot in a restaurant server situation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 10 Oct 2022 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2022/10/10/p1-autonomous-vehicle-winter-coming/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2022/10/10/p1-autonomous-vehicle-winter-coming/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How to resize images to Twitter animated GIF dimensions and then make an animated GIF using imagemagick</title>
@@ -95,7 +121,7 @@ additive and subtractive synthesis
       </item>
     
       <item>
-        <title>WIP: q, xsv, graphext, dirtylittlesql, Tools for handling large CSV files from Simon Willison's mega replied to thread</title>
+        <title>WIP: q, xsv, graphext, dirtylittlesql, Tools for handling large CSV files from Simon Willison's mega replied to thread; CSV the universal data structure</title>
         <description>&lt;h3 id=&quot;probably-wrong-thought--&quot;&gt;Probably wrong thought :-)&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/rtanglao/status/1572659730111401989&quot;&gt;CSV is the universal data structure. Excel, Google Sheets &amp;amp; all those tools mentioned allow EVERYBODY  of all skill levels, software developers or not, to do what they want from simple analysis to full on visualization which is super great! #ProgrammingAndDataScienceForEveryBodyhttps://twitter.com/hashtag/ProgrammingAndDataScienceForEveryBody&lt;/a&gt;&lt;/p&gt;
@@ -380,27 +406,6 @@ additive and subtractive synthesis
         <pubDate>Sun, 04 Sep 2022 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2022/09/04/p1-croc-fast-e2e-file-text-sharing-between-two-computers/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2022/09/04/p1-croc-fast-e2e-file-text-sharing-between-two-computers/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>I have 3 laptops and 2 Raspberry Pis: one or more of them is always online, couldn't I use them as my own CDN to serve a static website?</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;As per my previous post, &lt;a href=&quot;http://rolandtanglao.com/2022/08/27/p1-free-hosting-private-companies-heroku-slack-does-not-work-bring-on-the-un-black-helicopters-aka-free-government-hosting/&quot;&gt;Free  hosting from for profit companies like Heroku, Slack etc doesn’t work.  Don’t depend on it! Only viable long term solution is for the UN Black  Helicopters :-) i.e. the government needs to offer hosting&lt;/a&gt;, I don’t really trust “the Cloud” especially “free” cloud sesrvices.&lt;/li&gt;
-  &lt;li&gt;I have 3 laptops and 2 Raspberry Pis: one or more of them is always online, couldn’t I use them as my own CDN to serve a static website?&lt;/li&gt;
-  &lt;li&gt;The whole notion of clients and servers is silly in 2022.&lt;/li&gt;
-  &lt;li&gt;Previously: June 6, 2006: &lt;a href=&quot;http://rolandtanglao.com/2006/06/06/my-n70-runs-raccoon-nokias-port-of-apache/&quot;&gt;My N70 runs raccoon, Nokia’s port of Apache&lt;/a&gt; with this juicy quote:
-    &lt;ul&gt;
-      &lt;li&gt;Check out my N70 running the &lt;a href=&quot;http://opensource.nokia.com/projects/mobile-web-server/index.html&quot;&gt;Nokia open source port of Apache&lt;/a&gt;, &lt;a href=&quot;http://sourceforge.net/project/showfiles.php?group_id=167580&quot;&gt;Raccoon&lt;/a&gt; at: 
-http://roland.tanglao.guest.at.openlaboratory.net/ &amp;lt;– too bad nothing came of it,  all computers are servers and clients in 2022 it seems to me! If a Nokia phone could run a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;server&lt;/code&gt; in 2022 than my laptops and Pis can run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;servers&lt;/code&gt; in 2022!!!!!!!!&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 28 Aug 2022 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2022/08/28/p1-my-own-cdn-with-my-3-laptops-raspberry-pis/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2022/08/28/p1-my-own-cdn-with-my-3-laptops-raspberry-pis/</guid>
         
         
       </item>

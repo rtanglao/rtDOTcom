@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "WIP: q, xsv, graphext, dirtylittlesql, Tools for handling large CSV files from Simon Willison's mega replied to thread"
+title: "WIP: q, xsv, graphext, dirtylittlesql, Tools for handling large CSV files from Simon Willison's mega replied to thread; CSV the universal data structure"
 ---
 ### Probably wrong thought :-)
 
