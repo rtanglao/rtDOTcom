@@ -1,0 +1,16 @@
+I"�<ul>
+  <li><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a> Oct 12, 2022. 19:29</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~/bin/magick convert <span class="nt">-delay</span> 20 <span class="nt">-loop</span> 0 <span class="sb">`</span><span class="nb">ls</span> <span class="nt">-1</span> <span class="k">*</span>.JPG<span class="sb">`</span> <span class="se">\</span>
+<span class="nt">-resize</span> 1200x675 12oct2022beeflying.gif 
+</code></pre></div></div>
+
+<p>^^– resize and make animated gif in 1 step</p>
+
+<h3 id="previously">Previously</h3>
+
+<ul>
+  <li>October 9, 2022: <a href="http://rolandtanglao.com/2022/10/09/p1-how-to-resize-images-and-make-animated-gif-imagemagick/">How to resize images to Twitter animated GIF dimensions and then make an animated GIF using imagemagick</a> &lt;— 2 step process!</li>
+</ul>
+:ET

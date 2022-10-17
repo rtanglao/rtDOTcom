@@ -6,9 +6,34 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 10 Oct 2022 18:19:28 -0700</pubDate>
-    <lastBuildDate>Mon, 10 Oct 2022 18:19:28 -0700</lastBuildDate>
+    <pubDate>Sun, 16 Oct 2022 17:49:28 -0700</pubDate>
+    <lastBuildDate>Sun, 16 Oct 2022 17:49:28 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>How to resize images and make an animated GIF in one step using imagemagick</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Oct 12, 2022. 19:29&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~/bin/magick convert &lt;span class=&quot;nt&quot;&gt;-delay&lt;/span&gt; 20 &lt;span class=&quot;nt&quot;&gt;-loop&lt;/span&gt; 0 &lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.JPG&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;-resize&lt;/span&gt; 1200x675 12oct2022beeflying.gif 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;^^– resize and make animated gif in 1 step&lt;/p&gt;
+
+&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;October 9, 2022: &lt;a href=&quot;http://rolandtanglao.com/2022/10/09/p1-how-to-resize-images-and-make-animated-gif-imagemagick/&quot;&gt;How to resize images to Twitter animated GIF dimensions and then make an animated GIF using imagemagick&lt;/a&gt; &amp;lt;— 2 step process!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 16 Oct 2022 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2022/10/16/p1-imagemagick-animated-gif-resize-one-step/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2022/10/16/p1-imagemagick-animated-gif-resize-one-step/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Probably Wrong Prediction: Autonomous Vehicle 'winter' is coming in less than 5 years for G*link and other AV companies</title>
@@ -383,29 +408,6 @@ additive and subtractive synthesis
         <pubDate>Sat, 10 Sep 2022 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2022/09/10/p1-leah-elliott-contra-chrome-webcomic-google-browser-threat/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2022/09/10/p1-leah-elliott-contra-chrome-webcomic-google-browser-threat/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Zack Scholl: croc Fast, simple, and e2e encrypted file transfer between any two computers. &lt;- so many great CLI tools so little time. See 'Previously'</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Zack’s blog post: &lt;a href=&quot;https://schollz.com/blog/croc6/&quot;&gt;croc: Fast, simple, and secure file transfer between any two computers.&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Code and docs: &lt;a href=&quot;https://github.com/schollz/croc&quot;&gt;https://github.com/schollz/croc&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;It requires a public relay server which is $40-50 a month. See this croc github issue: &lt;a href=&quot;https://github.com/schollz/croc/issues/453&quot;&gt;This project needs your help again #453&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;There are so many of these nifty command line tools! e.g. rg: grep in rust&lt;/li&gt;
-  &lt;li&gt;Previously:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2021/12/19/p1-thej-extract-data-html-json-xhtml-xidel/&quot;&gt;Thej: Extract Data from HTML/XML/JSON using Xidel&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2022/05/23/p1-interactive-multiple-file-search-replace-using-fdfind-sad-instead-of-sed/&quot;&gt;Interactive  Multiple File Search and Replace using fd aka fdfind and sad instead of  sed; use sd for just stdin replacement; also check out diff-so-fancy&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sun, 04 Sep 2022 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2022/09/04/p1-croc-fast-e2e-file-text-sharing-between-two-computers/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2022/09/04/p1-croc-fast-e2e-file-text-sharing-between-two-computers/</guid>
         
         
       </item>
