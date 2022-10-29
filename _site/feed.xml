@@ -6,9 +6,36 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 16 Oct 2022 17:49:28 -0700</pubDate>
-    <lastBuildDate>Sun, 16 Oct 2022 17:49:28 -0700</lastBuildDate>
+    <pubDate>Sat, 29 Oct 2022 12:08:25 -0700</pubDate>
+    <lastBuildDate>Sat, 29 Oct 2022 12:08:25 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>imagemagick How To make a montage of images from average colour: 1st get average colour by downsizing to 1x1 ; 2nd upscale with a fixed size; this results in images in this case with 20x20 which at 80x24 leads to 1600x480k</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Oct 29, 2022 10:25  &lt;a href=&quot;https://legacy.imagemagick.org/discourse-server/viewtopic.php?t=24847&quot;&gt;How To make a montage of images from average colour: 1st get average colour by downsizing to 1x1 ; 2nd upscale with a fixed size; this results in images in this case with 20x20 which at 80x24 leads to 1600x480&lt;/a&gt;
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;magick montage &lt;span class=&quot;s1&quot;&gt;'/*.JPG[1x1]'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-tile&lt;/span&gt; 80x24  &lt;span class=&quot;nt&quot;&gt;-geometry&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'20x20+0+0'&lt;/span&gt; onestep.jpg
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;p&gt;^^^^— &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Resize images after they have all been read in before montage overlays them onto its canvas. It also defines the size and the spacing between the tiles into which the images are drawn. If no size is specified the images will not be resized.&lt;/code&gt; &amp;lt;– which leads me to my current idea of doing this for 1920 random vancouver image every day! (80x24 is the VT100 size :-) &amp;lt;– tweeted this: &lt;a href=&quot;https://twitter.com/rtanglao/status/1586412750091472897&quot;&gt;HowTo Montage from avgcolour: 1)get avg colour by downsizing to 1x1 2)upscale w/fixed size eg 20x20 @ 80x24 = 1600x480
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;magick montage '/*.JPG[1x1]' -tile 80x24  -geometry '20x20+0+0' onestep.jpg&lt;/code&gt; &amp;lt;– idea: Do this for 1920 random vancouver images daily! (80x24 is VT100 size :-)&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;September 2022: &lt;a href=&quot;http://rolandtanglao.com/2022/09/25/p1-super-collider-to-make-music-from-photo-geodata-and-average-colour/&quot;&gt;Use Super Collider to make music from photo geodata and average colour?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;September 2021: &lt;a href=&quot;http://rolandtanglao.com/2021/09/22/p1-howto-my-2019-2020-photos-x-unixtime-seconds-average-colour-657-plottrix-colours-ggrepel-ggplot-faceted-by-vancouver-year-month-date/&quot;&gt;How  to create an ggrepel plot of R’s 657 plotrix colours of the average  colour of my 2019-2020 flickr photos, x axis is time in unix seconds  since 1970 using R, y axis is the average colour using the plotrix  colours&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;April 2021: &lt;a href=&quot;http://rolandtanglao.com/2021/04/03/p1-imagemagick-version-7-average-colour-using-convert/&quot;&gt;How To Use Imagemagick Version 7 convert to to resize an image to get average colour&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;October 2017: &lt;a href=&quot;http://rolandtanglao.com/2017/10/12/p1-maps-of-vancouver-neighourhoods-average-colour-instagram/&quot;&gt;Maps of Vancouver Neighourhoods average colour over plotted&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 29 Oct 2022 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2022/10/29/p1-howto-imagemagick-montage-of-resized-1x1-average-colour/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2022/10/29/p1-howto-imagemagick-montage-of-resized-1x1-average-colour/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How to resize images and make an animated GIF in one step using imagemagick</title>
@@ -389,25 +416,6 @@ additive and subtractive synthesis
         <pubDate>Sun, 18 Sep 2022 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2022/09/18/p1-russell-a-poldrack-statistical-thinking-21st-century/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2022/09/18/p1-russell-a-poldrack-statistical-thinking-21st-century/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Leah Elliott: Contra Chr*me – a webcomic – How G*ogle's browser became a threat to privacy and democracy, a 2019 re-do of Scott McCloud‘s 2008: G*ogle-commissioned Chr*me comic</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Sep 9, 2022 18:15  Leah Elliott: &lt;a href=&quot;https://contrachrome.com/&quot;&gt;Contra Chr*me – a webcomic – How G*ogle’s browser became a threat to privacy and democracy, a 2019 re-do of Scott McCloud‘s 2008: G*ogle-commissioned Chr*me comic &lt;/a&gt; &amp;lt;– a re-do in G*\ggle is e*il stylee :-) In German and French as well as English!&lt;/li&gt;
-  &lt;li&gt;Previously:
-    &lt;ul&gt;
-      &lt;li&gt;April 2005: &lt;a href=&quot;http://rolandtanglao.com/2005/04/30/google-jumps-the-shark-by-offering-ads-not-tied-to-keywords/&quot;&gt;G*ogle jumps the shark by offering ads not tied to keywords?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;February 2005: &lt;a href=&quot;http://rolandtanglao.com/2005/02/08/google-becomes-bigco-and-terminates-blogger-for-being-too-transparent-and-exposing-what-could-be-viewed-as-their-evil/&quot;&gt;G*ogle becomes Bigco and terminates blogger for being too transparent and exposing what could be viewed as their “evil”&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 10 Sep 2022 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2022/09/10/p1-leah-elliott-contra-chrome-webcomic-google-browser-threat/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2022/09/10/p1-leah-elliott-contra-chrome-webcomic-google-browser-threat/</guid>
         
         
       </item>

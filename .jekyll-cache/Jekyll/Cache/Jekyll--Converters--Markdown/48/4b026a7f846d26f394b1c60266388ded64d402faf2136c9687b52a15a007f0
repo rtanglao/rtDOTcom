@@ -1,0 +1,19 @@
+I"�
+<ul>
+  <li><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a> Oct 29, 2022 10:25  <a href="https://legacy.imagemagick.org/discourse-server/viewtopic.php?t=24847">How To make a montage of images from average colour: 1st get average colour by downsizing to 1x1 ; 2nd upscale with a fixed size; this results in images in this case with 20x20 which at 80x24 leads to 1600x480</a>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>magick montage <span class="s1">'/*.JPG[1x1]'</span> <span class="nt">-tile</span> 80x24  <span class="nt">-geometry</span> <span class="s1">'20x20+0+0'</span> onestep.jpg
+</code></pre></div>    </div>
+    <p>^^^^— <code class="language-plaintext highlighter-rouge">Resize images after they have all been read in before montage overlays them onto its canvas. It also defines the size and the spacing between the tiles into which the images are drawn. If no size is specified the images will not be resized.</code> &lt;– which leads me to my current idea of doing this for 1920 random vancouver image every day! (80x24 is the VT100 size :-) &lt;– tweeted this: <a href="https://twitter.com/rtanglao/status/1586412750091472897">HowTo Montage from avgcolour: 1)get avg colour by downsizing to 1x1 2)upscale w/fixed size eg 20x20 @ 80x24 = 1600x480
+<code class="language-plaintext highlighter-rouge">magick montage '/*.JPG[1x1]' -tile 80x24  -geometry '20x20+0+0' onestep.jpg</code> &lt;– idea: Do this for 1920 random vancouver images daily! (80x24 is VT100 size :-)</a></p>
+  </li>
+</ul>
+
+<h3 id="previously">Previously</h3>
+
+<ul>
+  <li>September 2022: <a href="http://rolandtanglao.com/2022/09/25/p1-super-collider-to-make-music-from-photo-geodata-and-average-colour/">Use Super Collider to make music from photo geodata and average colour?</a></li>
+  <li>September 2021: <a href="http://rolandtanglao.com/2021/09/22/p1-howto-my-2019-2020-photos-x-unixtime-seconds-average-colour-657-plottrix-colours-ggrepel-ggplot-faceted-by-vancouver-year-month-date/">How  to create an ggrepel plot of R’s 657 plotrix colours of the average  colour of my 2019-2020 flickr photos, x axis is time in unix seconds  since 1970 using R, y axis is the average colour using the plotrix  colours</a></li>
+  <li>April 2021: <a href="http://rolandtanglao.com/2021/04/03/p1-imagemagick-version-7-average-colour-using-convert/">How To Use Imagemagick Version 7 convert to to resize an image to get average colour</a></li>
+  <li>October 2017: <a href="http://rolandtanglao.com/2017/10/12/p1-maps-of-vancouver-neighourhoods-average-colour-instagram/">Maps of Vancouver Neighourhoods average colour over plotted</a></li>
+</ul>
+:ET
