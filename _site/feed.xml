@@ -6,8 +6,8 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 30 Oct 2022 17:56:29 -0700</pubDate>
-    <lastBuildDate>Sun, 30 Oct 2022 17:56:29 -0700</lastBuildDate>
+    <pubDate>Mon, 31 Oct 2022 11:37:32 -0700</pubDate>
+    <lastBuildDate>Mon, 31 Oct 2022 11:37:32 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -33,7 +33,7 @@
         <title>imagemagick How To make a montage of images from average colour: 1st get average colour by downsizing to 1x1 ; 2nd upscale with a fixed size; this results in images in this case with 20x20 which at 80x24 leads to 1600x480</title>
         <description>&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Oct 29, 2022 10:25  &lt;a href=&quot;https://legacy.imagemagick.org/discourse-server/viewtopic.php?t=24847&quot;&gt;How To make a montage of images from average colour: 1st get average colour by downsizing to 1x1 ; 2nd upscale with a fixed size; this results in images in this case with 20x20 which at 80x24 leads to 1600x480&lt;/a&gt;
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;magick montage &lt;span class=&quot;s1&quot;&gt;'/*.JPG[1x1]'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-tile&lt;/span&gt; 80x24  &lt;span class=&quot;nt&quot;&gt;-geometry&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'20x20+0+0'&lt;/span&gt; onestep.jpg
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;magick montage &lt;span class=&quot;s1&quot;&gt;'*.JPG[1x1]'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-tile&lt;/span&gt; 80x24  &lt;span class=&quot;nt&quot;&gt;-geometry&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'20x20+0+0'&lt;/span&gt; onestep.jpg
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
     &lt;p&gt;^^^^— &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Resize images after they have all been read in before montage overlays them onto its canvas. It also defines the size and the spacing between the tiles into which the images are drawn. If no size is specified the images will not be resized.&lt;/code&gt; &amp;lt;– which leads me to my current idea of doing this for 1920 random vancouver image every day! (80x24 is the VT100 size :-) &amp;lt;– tweeted this: &lt;a href=&quot;https://twitter.com/rtanglao/status/1586412750091472897&quot;&gt;HowTo Montage from avgcolour: 1)get avg colour by downsizing to 1x1 2)upscale w/fixed size eg 20x20 @ 80x24 = 1600x480
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;magick montage '/*.JPG[1x1]' -tile 80x24  -geometry '20x20+0+0' onestep.jpg&lt;/code&gt; &amp;lt;– idea: Do this for 1920 random vancouver images daily! (80x24 is VT100 size :-)&lt;/a&gt;&lt;/p&gt;
