@@ -1,0 +1,10 @@
+I"¯<p>Sort of in order :-)</p>
+
+<ol>
+  <li><del>Download my twitter archive</del> - DONE!</li>
+  <li>Post my archive as a webpage or webpages and/or SQLite using datasette - DONE although I might make it more user friendly i.e. less unfriendly to non geeks. <a href="https://github.com/rtanglao/30october2022-twitter-archive/blob/main/05november2022-tweet-delete-tweets.csv">CSV</a>, <a href="https://lite.datasette.io/?csv=https%3A%2F%2Fraw.githubusercontent.com%2Frtanglao%2F30october2022-twitter-archive%2Fmain%2F05november2022-tweet-delete-tweets.csv#/data/05november2022-tweet-delete-tweets/2">datasette lite</a></li>
+  <li>Delete my tweets - 4000 more to go :-) I used tweetdelete.net to delete over 100Kof them and redact.dev to do 10000 or so and may have to write a script if i canâ€™t get those peskys 4000 remaining to delete with tweetdelete.net</li>
+  <li><del>Lock my account and or make it private</del> - DONE, locked</li>
+  <li>You can follow me at <a href="http://rolandtanglao.com/">rolandtanglao.com</a>  (<a href="http://rolandtanglao.com/feed.xml">RSS</a>), <a href="https://checkvist.com/p/RjpwQvvwnw89WecevQFXxe">checkvist for my draft blog posts and items of interest</a> (no RSS but i might hook one up someday), <a href="https://mastodon.social/@rtanglao">@rtanglao@mastodon.social</a>,  <a href="https://www.rolandmicroblog.com/">rolandmicroblog.com</a> (<a href="https://www.rolandmicroblog.com/feed.xml">RSS</a>), <a href="https://theoldreader.com/profile/roland">The Old Reader</a> aka google reader clone :-) (<a href="https://theoldreader.com/profile/roland.rss">RSS</a>), <a href="https://pinboard.in/u:rtanglao/">pinboard</a> for 8 million bookmarks (<a href="https://feeds.pinboard.in/rss/u:rtanglao/">RSS</a>), <a href="https://www.instagram.com/roland/">instagram</a>, https://www.linkedin.com/in/rtanglao/, <a href="https://facebook.com/rolandt">facebook</a>, <a href="https://www.flickr.com/roland">flickr</a>, etc :-)</li>
+</ol>
+:ET
