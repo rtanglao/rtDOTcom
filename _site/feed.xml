@@ -6,9 +6,32 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 06 Nov 2022 17:43:13 -0800</pubDate>
-    <lastBuildDate>Sun, 06 Nov 2022 17:43:13 -0800</lastBuildDate>
+    <pubDate>Sun, 13 Nov 2022 20:18:50 -0800</pubDate>
+    <lastBuildDate>Sun, 13 Nov 2022 20:18:50 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>I've set up my own personal mastodon instance at devdilettante.com, @roland@devdilettante.com is my handle</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;@&lt;a href=&quot;https://devdilettante.com/@roland&quot;&gt;roland@devdilettante.com&lt;/a&gt; is my my passport verify me :-)&lt;/li&gt;
+  &lt;li&gt;I’ve set it up on &lt;a href=&quot;https://cloudplane.org/&quot;&gt;cloudplane.org&lt;/a&gt;. Only 1 user for now, me :-)&lt;/li&gt;
+  &lt;li&gt;Let’s see if this scales &lt;a href=&quot;https://cloudplane.org/pricing&quot;&gt;EURO 6 / month 0.5 CPU, 0.5 GB of RAM&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;If not, no biggie, I’ll move elsewhere&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;November 6, 2022: &lt;a href=&quot;http://rolandtanglao.com/2022/11/06/p1-update-leaving-twitter-sort-of-current-plan/&quot;&gt;My ‘leaving’ Twitter update as if it matters really or anybody cares :-)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 13 Nov 2022 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2022/11/13/p1-devdilettante-mastodon-personal-instance/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2022/11/13/p1-devdilettante-mastodon-personal-instance/</guid>
+        
+        
+      </item>
     
       <item>
         <title>My 'leaving' Twitter update as if it matters really or anybody cares :-)</title>
@@ -379,29 +402,6 @@ additive and subtractive synthesis
         <pubDate>Wed, 21 Sep 2022 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2022/09/21/p1-tools-for-large-csv-files-simon-willison/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2022/09/21/p1-tools-for-large-csv-files-simon-willison/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Tad: A fast viewer for CSV and Parquet files and SQLite and DuckDb databases that supports large files.  &lt;-- Nice alternative to (in no order) dirtylittlesql.com, graphext, knime, visidata, datasette, xsv, csvkit, R tidyverse with arrow, python pandas / dask, as well as the traditional grep / uniq / cut / sed / awk / sort / uniq etc   </title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Sep 20, 2022 17:49 &lt;a href=&quot;https://www.tadviewer.com/&quot;&gt;Tad&lt;/a&gt;:  A fast viewer for &lt;strong&gt;CSV&lt;/strong&gt; and &lt;strong&gt;Parquet&lt;/strong&gt; files and &lt;strong&gt;SQLite&lt;/strong&gt; and &lt;strong&gt;DuckDb&lt;/strong&gt; databases that supports large files. (via &lt;a href=&quot;https://twitter.com/antonycourtney/status/1572353401341771777&quot;&gt;this tweet&lt;/a&gt; from Antony Courtney which was in response to Simon W’s tweet: &lt;a href=&quot;https://twitter.com/simonw/status/1572285367382061057&quot;&gt;If someone gives you a CSV file with 100,000 rows in it, what tools do you use to start exploring and understanding that data&lt;/a&gt;? )&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;March 2022: &lt;a href=&quot;http://rolandtanglao.com/2022/03/27/p1-firefox-sumo-317-support-questions-2021-june4-firefox89-new-look-and-feel/&quot;&gt;2021  SUMO Firefox Desktop Support Questions in a SQLite file: 317 questions  on June 4, 2021 about Firefox look and feel changes in Firefox 89 (used  DB Browser for SQLite, csvstack, csvs-to-sqlite)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;February 2020: &lt;a href=&quot;http://rolandtanglao.com/2020/02/23/p1-sqlite-csv-json-the-eternal-golden-braid-sqlitebrowser/&quot;&gt;SQLite,  JSON, CSV :-) the eternal golden braid of formats? so many tools for  normal folks to grok them without programming e.g. sqlitebrowser&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;April 2019: &lt;a href=&quot;http://rolandtanglao.com/2019/04/21/p2-howto-use-miller-mlr-to-create-csv-file-with-urls-from-ids/&quot;&gt;How  to use mlr (miller) to create an id, url CSV file from a file of ids by  concatenating ‘support.mozilla.org/questions/’ to the id&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;October 2018:  &lt;a href=&quot;http://rolandtanglao.com/2018/10/20/p1-csv-to-json-mr-data-converter/&quot;&gt;Mr Data Converter converts CSV to JSON, HTML, JSON, XML, Python, ruby, etc&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Tue, 20 Sep 2022 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2022/09/20/p1-tad-fast-viewer-csv-parquet-sqlite-datasette-alternative/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2022/09/20/p1-tad-fast-viewer-csv-parquet-sqlite-datasette-alternative/</guid>
         
         
       </item>
