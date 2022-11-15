@@ -6,9 +6,37 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 13 Nov 2022 20:18:50 -0800</pubDate>
-    <lastBuildDate>Sun, 13 Nov 2022 20:18:50 -0800</lastBuildDate>
+    <pubDate>Mon, 14 Nov 2022 20:30:26 -0800</pubDate>
+    <lastBuildDate>Mon, 14 Nov 2022 20:30:26 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Mastodon migration FROM @rtanglao@mastadon.social TO @roland@devdilettante.com was smooth, thanks developers!</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Steps:
+    &lt;ul&gt;
+      &lt;li&gt;set up an alias on the NEW Mastodon server (devdilettante.com)&lt;/li&gt;
+      &lt;li&gt;migrate from from OLD (mastadon.social) to NEW by logging into OLD&lt;/li&gt;
+      &lt;li&gt;export a CSV of followers from OLD&lt;/li&gt;
+      &lt;li&gt;import CSV of followers into NEW&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Continuing to have fun! Fingers crossed this fun :-) continues&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;November 13, 2022: &lt;a href=&quot;http://rolandtanglao.com/2022/11/13/p1-devdilettante-mastodon-personal-instance/&quot;&gt;I’ve set up my own personal mastodon instance at devdilettante.com, @roland@devdilettante.com is my handle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 14 Nov 2022 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2022/11/14/p1-mastodon-migration-mastodon-social-devdilettante-smooth/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2022/11/14/p1-mastodon-migration-mastodon-social-devdilettante-smooth/</guid>
+        
+        
+      </item>
     
       <item>
         <title>I've set up my own personal mastodon instance at devdilettante.com, @roland@devdilettante.com is my handle</title>
@@ -229,179 +257,6 @@ additive and subtractive synthesis
         <pubDate>Fri, 23 Sep 2022 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2022/09/23/p1-4th-vaccination-moderna-bivalent-booster-go-science-go/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2022/09/23/p1-4th-vaccination-moderna-bivalent-booster-go-science-go/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>WIP: q, xsv, graphext, dirtylittlesql, Tools for handling large CSV files from Simon Willison's mega replied to thread; CSV the universal data structure</title>
-        <description>&lt;h3 id=&quot;probably-wrong-thought--&quot;&gt;Probably wrong thought :-)&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://twitter.com/rtanglao/status/1572659730111401989&quot;&gt;CSV is the universal data structure. Excel, Google Sheets &amp;amp; all those tools mentioned allow EVERYBODY  of all skill levels, software developers or not, to do what they want from simple analysis to full on visualization which is super great! #ProgrammingAndDataScienceForEveryBodyhttps://twitter.com/hashtag/ProgrammingAndDataScienceForEveryBody&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;csv-tools-summary-table&quot;&gt;CSV Tools Summary Table&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;New to me :-) CSV Tools (except for &lt;a href=&quot;http://rolandtanglao.com/2022/09/20/p1-tad-fast-viewer-csv-parquet-sqlite-datasette-alternative/&quot;&gt;Tad which was documented yesterday&lt;/a&gt;) from the 1000 replies to Simon Willison’s tweet: &lt;a href=&quot;https://twitter.com/simonw/status/1572285367382061057&quot;&gt;If someone gives you a CSV file with 100,000 rows in it, what tools do you use to start exploring and understanding that data?&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The github Markdown tables are much nicer! Until I get github flavoured markdown working here, check out &lt;a href=&quot;https://github.com/rtanglao/rtDOTcom/blob/master/_posts/2022-09-21-p1-tools-for-large-csv-files-simon-willison.md&quot;&gt;the tables in github&lt;/a&gt; which have thin lines around the table cells as they should!&lt;/p&gt;
-
-    &lt;table&gt;
-      &lt;thead&gt;
-        &lt;tr&gt;
-          &lt;th&gt;Name&lt;/th&gt;
-          &lt;th&gt;Tweet&lt;/th&gt;
-          &lt;th&gt;Type&lt;/th&gt;
-          &lt;th&gt;Notes&lt;/th&gt;
-        &lt;/tr&gt;
-      &lt;/thead&gt;
-      &lt;tbody&gt;
-        &lt;tr&gt;
-          &lt;td&gt;Postgres&lt;/td&gt;
-          &lt;td&gt;&lt;a href=&quot;https://twitter.com/fuzzychef/status/1572389081472208896&quot;&gt;[1]&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/fuzzychef/status/1572428556126556162&quot;&gt;[2]&lt;/a&gt;&lt;/td&gt;
-          &lt;td&gt;Database&lt;/td&gt;
-          &lt;td&gt;* Use COPY command, CSV data wrapper which lets you do CSV operations without even copying them which is good for folders&lt;br /&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td&gt;awk, cut,  wc, grep, args,  etc&lt;/td&gt;
-          &lt;td&gt;[&lt;a href=&quot;https://twitter.com/adambroach/status/1572512127629561856&quot;&gt;1&lt;/a&gt;]&lt;/td&gt;
-          &lt;td&gt;classic Unix CLI text tools&lt;/td&gt;
-          &lt;td&gt;* xargs &amp;amp; many classic tools don’t work with embedded commas e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1, &quot;1,2,3&quot;, 2&lt;/code&gt;&lt;br /&gt; * They also don’t work with unicode and other non classic ASCII characters&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td&gt;q&lt;/td&gt;
-          &lt;td&gt; &lt;/td&gt;
-          &lt;td&gt; &lt;/td&gt;
-          &lt;td&gt; &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td&gt;Tableau&lt;/td&gt;
-          &lt;td&gt;[&lt;a href=&quot;https://twitter.com/rajko_rad/status/1572346412091969538&quot;&gt;1&lt;/a&gt;]&lt;/td&gt;
-          &lt;td&gt;proprietary&lt;/td&gt;
-          &lt;td&gt;* for plotting&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td&gt;xsv&lt;/td&gt;
-          &lt;td&gt;[&lt;a href=&quot;https://twitter.com/dancow/status/1572286228371841026&quot;&gt;1&lt;/a&gt;]&lt;/td&gt;
-          &lt;td&gt;cli tool&lt;/td&gt;
-          &lt;td&gt;* &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xsv and csvkit, to get a sense of the size and cardinality and consistency of the data before I bother opening it up in Excel or sqlite&lt;/code&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td&gt;csvkit&lt;/td&gt;
-          &lt;td&gt; &lt;/td&gt;
-          &lt;td&gt; &lt;/td&gt;
-          &lt;td&gt; &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td&gt;pandas in Python&lt;/td&gt;
-          &lt;td&gt;[&lt;a href=&quot;https://twitter.com/gusthema/status/1572318946115592195&quot;&gt;1&lt;/a&gt;]&lt;/td&gt;
-          &lt;td&gt; &lt;/td&gt;
-          &lt;td&gt;* &lt;a href=&quot;https://twitter.com/gusthema/status/1456607188277936132&quot;&gt;thread from Gus about a 5.7GB CSV file&lt;/a&gt; (read_csv in batches)&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td&gt;visidata&lt;/td&gt;
-          &lt;td&gt; &lt;/td&gt;
-          &lt;td&gt; &lt;/td&gt;
-          &lt;td&gt; &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td&gt;dirtylittlesql&lt;/td&gt;
-          &lt;td&gt; &lt;/td&gt;
-          &lt;td&gt; &lt;/td&gt;
-          &lt;td&gt; &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td&gt;graphex&lt;/td&gt;
-          &lt;td&gt; &lt;/td&gt;
-          &lt;td&gt; &lt;/td&gt;
-          &lt;td&gt; &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td&gt;Julia and Duck&lt;/td&gt;
-          &lt;td&gt; &lt;/td&gt;
-          &lt;td&gt; &lt;/td&gt;
-          &lt;td&gt; &lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td&gt;MySQL and phpMyAdmin&lt;/td&gt;
-          &lt;td&gt;[&lt;a href=&quot;https://twitter.com/iamcal/status/1572332519927980034&quot;&gt;1&lt;/a&gt;]&lt;/td&gt;
-          &lt;td&gt; &lt;/td&gt;
-          &lt;td&gt;* from Carl Henderson who of course knows MySQL and PHP from flickr and many other things :-)&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td&gt;Excel, Access, etc&lt;/td&gt;
-          &lt;td&gt; &lt;/td&gt;
-          &lt;td&gt; &lt;/td&gt;
-          &lt;td&gt;* Of course, not going to give any further details for these proprietary tools, left as an exercise to the reader :-)&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td&gt;Spotfire, Tableau and other BI Tools&lt;/td&gt;
-          &lt;td&gt;[&lt;a href=&quot;https://twitter.com/kimahlberg/status/1572330670374129667&quot;&gt;1&lt;/a&gt;]&lt;/td&gt;
-          &lt;td&gt; &lt;/td&gt;
-          &lt;td&gt;* Again not likely to use these tools :-)&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-          &lt;td&gt;dask for Python&lt;/td&gt;
-          &lt;td&gt;[&lt;a href=&quot;https://twitter.com/jc50000000/status/1572369962500587520&quot;&gt;1&lt;/a&gt;]&lt;/td&gt;
-          &lt;td&gt;python library&lt;/td&gt;
-          &lt;td&gt;* &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;How are there no mentions of dask? Like pandas but not shitty. Loads the data in chunks, doesn’t have to load it all into memory. Dask is the answer for all of them. [https://docs.dask.org/en/stable/](https://t.co/qB6GthUdco) If I can’t use python then redis on a high mem ec2 instance to do what i need and shutdown&lt;/code&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-      &lt;/tbody&gt;
-    &lt;/table&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;programming-language-and-other-small-code-snippets&quot;&gt;Programming language and other small code snippets&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Language/Tool&lt;/th&gt;
-      &lt;th&gt;Tweet&lt;/th&gt;
-      &lt;th&gt;Snippet&lt;/th&gt;
-      &lt;th&gt;Notes&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Datasette on Mac / CLI on Windows&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://twitter.com/simonw/status/1572295332767371265&quot;&gt;#&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sqlite-utils insert /tmp/data.db rows big.csv --csv  datasette /tmp/data.db&lt;/code&gt; or open CSV in Datasette Mac Desktop app&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Perl&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://twitter.com/adambroach/status/1572510566572498944&quot;&gt;#&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;* &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Use Parse::CSV rather than splitting on commas.&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Perl&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://twitter.com/benmschmidt/status/1572296810898812928&quot;&gt;#&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;Not sure what this does :-) : &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;perl -ne 'print if rand() &amp;lt; 1e-3 filename.csv&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Postgres&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://twitter.com/turicas/status/1572345043712720899&quot;&gt;#&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;export DATABASE_URL=&quot;postgres://postgres:postgres@localhost:5432/postgres&quot; rows pgimport --schema=:text: --input-encoding=utf-8 --dialect=excel myfile.csv[.gz&lt;/code&gt;&lt;/td&gt;
-      &lt;td&gt;.xz&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Yesterday: &lt;a href=&quot;http://rolandtanglao.com/2022/09/20/p1-tad-fast-viewer-csv-parquet-sqlite-datasette-alternative/&quot;&gt;Tad:  A fast viewer for CSV and Parquet files and SQLite and DuckDb databases  that supports large files.  &amp;lt;– Nice alternative to (in no order)  dirtylittlesql.com, graphext, knime, visidata, datasette, xsv, csvkit, R  tidyverse with arrow, python pandas / dask, as well as the traditional  grep / uniq / cut / sed / awk / sort / uniq etc   &lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Wed, 21 Sep 2022 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2022/09/21/p1-tools-for-large-csv-files-simon-willison/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2022/09/21/p1-tools-for-large-csv-files-simon-willison/</guid>
         
         
       </item>
