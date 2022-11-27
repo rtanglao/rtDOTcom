@@ -1,0 +1,11 @@
+I"<ul>
+  <li><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Nov 26, 2022 09:30 <a href="https://simonwillison.net/2022/Nov/26/productivity/">Massively increase your productivity on personal projects with comprehensive documentation and automated tests</a> &lt;– QUOTE: <code class="language-plaintext highlighter-rouge">With issue driven development you don’t have to remember anything about any of these projects at all. ...I’ve had issues where I did a bunch of design work in issue comments, then dropped it, then came back 12 months later and implemented that design—without having to rethink it. ...I’ve had projects where I forgot that the project existed entirely! But I’ve found it again, and there’s been an open issue, and I’ve been able to pick up work again.</code> &lt;– Love this issue driven approach, maybe i should adopt this for my personal hobbyist projects !!!! Seems like a lot of common sense that would apply to work software project, in particular failing tests if the docs aren’t written!</li>
+</ul>
+
+<h3 id="previously">Previously</h3>
+<ul>
+  <li>August 2021: <a href="http://rolandtanglao.com/2021/08/08/p1-spreadsheet-bugs-caused-1500-to-die-in-england-need-tests/">Tim  Harford (via Simon Willison) The Tyranny of Spreadsheets &lt;— don’t  use them in life and death situations &lt;– 1500 people died in England  because of spreadsheets &lt;— real moral of the story is don’t use  anything in production without tests?</a></li>
+  <li>January 2021: <a href="http://rolandtanglao.com/2021/01/27/p1-test-driven-development-python-tutorial-anthony-shaw/">Anthony Shaw: Getting Started With Testing in Python &lt;– I’d like to do TDD in python, ruby and R someday :-)</a></li>
+</ul>
+
+:ET

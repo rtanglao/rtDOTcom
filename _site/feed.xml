@@ -6,9 +6,29 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 20 Nov 2022 17:23:08 -0800</pubDate>
-    <lastBuildDate>Sun, 20 Nov 2022 17:23:08 -0800</lastBuildDate>
+    <pubDate>Sat, 26 Nov 2022 21:56:31 -0800</pubDate>
+    <lastBuildDate>Sat, 26 Nov 2022 21:56:31 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Simon Willison: Massively increase your productivity on personal projects with comprehensive documentation and automated tests aka issue oriented development including tests for documentation!</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 26, 2022 09:30 &lt;a href=&quot;https://simonwillison.net/2022/Nov/26/productivity/&quot;&gt;Massively increase your productivity on personal projects with comprehensive documentation and automated tests&lt;/a&gt; &amp;lt;– QUOTE: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;With issue driven development you don’t have to remember anything about any of these projects at all. ...I’ve had issues where I did a bunch of design work in issue comments, then dropped it, then came back 12 months later and implemented that design—without having to rethink it. ...I’ve had projects where I forgot that the project existed entirely! But I’ve found it again, and there’s been an open issue, and I’ve been able to pick up work again.&lt;/code&gt; &amp;lt;– Love this issue driven approach, maybe i should adopt this for my personal hobbyist projects !!!! Seems like a lot of common sense that would also apply to work software projects; in particular failing tests if the docs aren’t written!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;August 2021: &lt;a href=&quot;http://rolandtanglao.com/2021/08/08/p1-spreadsheet-bugs-caused-1500-to-die-in-england-need-tests/&quot;&gt;Tim  Harford (via Simon Willison) The Tyranny of Spreadsheets &amp;lt;— don’t  use them in life and death situations &amp;lt;– 1500 people died in England  because of spreadsheets &amp;lt;— real moral of the story is don’t use  anything in production without tests?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;January 2021: &lt;a href=&quot;http://rolandtanglao.com/2021/01/27/p1-test-driven-development-python-tutorial-anthony-shaw/&quot;&gt;Anthony Shaw: Getting Started With Testing in Python &amp;lt;– I’d like to do TDD in python, ruby and R someday :-)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sat, 26 Nov 2022 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2022/11/26/p1-simon-willison-issue-oriented-development-including-documentation-tests/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2022/11/26/p1-simon-willison-issue-oriented-development-including-documentation-tests/</guid>
+        
+        
+      </item>
     
       <item>
         <title>My bio: November 2022 for Mastodon</title>
@@ -223,40 +243,6 @@
         <pubDate>Sun, 09 Oct 2022 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2022/10/09/p1-how-to-resize-images-and-make-animated-gif-imagemagick/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2022/10/09/p1-how-to-resize-images-and-make-animated-gif-imagemagick/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Use Super Collider to make music from photo geodata and average colour?</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;&quot;&gt;Discovered&lt;/a&gt; Sep 22, 2022 19:42 &lt;a href=&quot;https://github.com/schollz/ambulation&quot;&gt;schollz/ambulation: Two SuperCollider synth tutorials.&lt;/a&gt; &amp;lt;– QUOTE:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;This repo is designed to teach SuperCollider to beginners through 
-two self-styled tutorials that I've designed. The theme of these 
-workshops is ambulation - getting you to take your first steps to 
-walk on your own with SuperCollider. Both are offered as workshops 
-at Music Hackspace but all the materials are included here and 
-can be used as a self-guided workshop as well.
-
-What is SuperCollider? SuperCollider is a free platform for audio 
-synthesis and algorithm composition. It really excels at real-time 
-analysis, synthesis, sampling, and processing and provides a 
-framework for seamless combination of audio techniques like 
-additive and subtractive synthesis
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;July 15, 2021: &lt;a href=&quot;http://rolandtanglao.com/2021/07/15/p1-what-does-nodejs-sound-like-music-from-code/&quot;&gt;What Does the (node.js) Event Loop Sound Like? Music from code (like music from GPS I did back in 2010 with my N900)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;May 6, 2018: &lt;a href=&quot;http://rolandtanglao.com/2018/05/06/p1-pythonista-script-to-get-gps-coordinates-on-ios/&quot;&gt;Pythonista script to get GPS and text adapt to make music like my 2010 N900 gpsgamelan.py script?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;July 6, 2010: &lt;a href=&quot;http://rolandtanglao.com/2010/07/06/gpsgamelan-py-is-ok-but-i-want-real-music-use-12-major-keys-with-10-chords/&quot;&gt;gpsgamelan.py is ok, but i want real music - use 12 major keys with 10 chords&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 25 Sep 2022 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2022/09/25/p1-super-collider-to-make-music-from-photo-geodata-and-average-colour/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2022/09/25/p1-super-collider-to-make-music-from-photo-geodata-and-average-colour/</guid>
         
         
       </item>
