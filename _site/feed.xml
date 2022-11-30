@@ -6,9 +6,65 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 26 Nov 2022 21:56:31 -0800</pubDate>
-    <lastBuildDate>Sat, 26 Nov 2022 21:56:31 -0800</lastBuildDate>
+    <pubDate>Tue, 29 Nov 2022 18:00:50 -0800</pubDate>
+    <lastBuildDate>Tue, 29 Nov 2022 18:00:50 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Make artofwhere tights with gray patches and pink aka adventures in issue oriented development </title>
+        <description>&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li&gt;
+    &lt;p&gt;See &lt;a href=&quot;https://github.com/rtanglao/rt-flickr-sqlite-csv/issues/1&quot;&gt;rt-flickr-sqlite-csv issue #1, Make artofwhere tights with gray patches and pink&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Copy and Pasted from github for future reference&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Make gray legs
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /Users/roland/Documents/GIT/rt-flickr-sqlite-csv/GRAY_ONLY_75PX_BY_75PX_PATCHES
+&lt;span class=&quot;nb&quot;&gt;mkdir &lt;/span&gt;GRAY_PATCHES_WITH_PINK_BACKGROUND 
+&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;GRAY_PATCHES_WITH_PINK_BACKGROUND
+find .. &lt;span class=&quot;nt&quot;&gt;-name&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'gray_only_geomencircle_second_of_day_no_theme_no_caption_roland_flickr_2019_2020.pn*.jpg'&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;-print&lt;/span&gt;  | &lt;span class=&quot;nb&quot;&gt;shuf&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; 3825 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; right-leg-shuffled-3825-gray-2019-20-jpgs.txt
+find .. &lt;span class=&quot;nt&quot;&gt;-name&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'gray_only_geomencircle_second_of_day_no_theme_no_caption_roland_flickr_2019_2020.pn*.jpg'&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;-print&lt;/span&gt;  | &lt;span class=&quot;nb&quot;&gt;shuf&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; 3825 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; left-leg-shuffled-3825-gray-2019-20-jpgs.txt
+montage &lt;span class=&quot;nt&quot;&gt;-verbose&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-tile&lt;/span&gt; 45x85 +frame +shadow +label &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;-geometry&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'75x75+0+0&amp;lt;'&lt;/span&gt; @right-leg-shuffled-3825-gray-2019-20-jpgs.txt &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+right-leg_artofwhere-gray-2019-20.png
+montage &lt;span class=&quot;nt&quot;&gt;-verbose&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-tile&lt;/span&gt; 45x85 +frame +shadow +label &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;-geometry&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'75x75+0+0&amp;lt;'&lt;/span&gt; @left-leg-shuffled-3825-gray-2019-20-jpgs.txt &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+left-leg_artofwhere-gray-2019-20.png
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Change the background colour to pink
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;magick right-leg_artofwhere-gray-2019-20.png &lt;span class=&quot;nt&quot;&gt;-fuzz&lt;/span&gt; 25% &lt;span class=&quot;nt&quot;&gt;-fill&lt;/span&gt; pink &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;-opaque&lt;/span&gt; white &lt;span class=&quot;nt&quot;&gt;-flatten&lt;/span&gt; pink-background-right-leg_artofwhere-gray-2019-20.png
+magick left-leg_artofwhere-gray-2019-20.png &lt;span class=&quot;nt&quot;&gt;-fuzz&lt;/span&gt; 25% &lt;span class=&quot;nt&quot;&gt;-fill&lt;/span&gt; pink &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;-opaque&lt;/span&gt; white &lt;span class=&quot;nt&quot;&gt;-flatten&lt;/span&gt; pink-background-left-leg_artofwhere-gray-2019-20.png
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Upload to Art of Where - DONE ! Order &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;du9w3h&lt;/code&gt;, GET YOURS TODAY :-) -&amp;gt; &lt;a href=&quot;https://artofwhere.com/artists/roland-tanglao/clothing/leggings/5819934&quot;&gt;https://artofwhere.com/artists/roland-tanglao/clothing/leggings/5819934&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;finished-graphics&quot;&gt;Finished Graphics:&lt;/h3&gt;
+
+&lt;p&gt;Left Leg:&lt;/p&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/52533121870/in/dateposted-public/&quot; title=&quot;pink-background-left-leg_artofwhere-gray-2019-20&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/52533121870_edb80f65e9_w.jpg&quot; width=&quot;212&quot; height=&quot;400&quot; alt=&quot;pink-background-left-leg_artofwhere-gray-2019-20&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Right Leg:&lt;/p&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/52532929359/in/dateposted-public/&quot; title=&quot;pink-background-right-leg_artofwhere-gray-2019-20&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/52532929359_8a48f3cda3_w.jpg&quot; width=&quot;212&quot; height=&quot;400&quot; alt=&quot;pink-background-right-leg_artofwhere-gray-2019-20&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;November 26, 2022: &lt;a href=&quot;http://rolandtanglao.com/2022/11/26/p1-simon-willison-issue-oriented-development-including-documentation-tests/&quot;&gt;Simon  Willison: Massively increase your productivity on personal projects  with comprehensive documentation and automated tests aka issue oriented  development including tests for documentation!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 29 Nov 2022 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2022/11/29/p1-make-art-of-wher-tights-with-gray-patches-and-pink-background/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2022/11/29/p1-make-art-of-wher-tights-with-gray-patches-and-pink-background/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Simon Willison: Massively increase your productivity on personal projects with comprehensive documentation and automated tests aka issue oriented development including tests for documentation!</title>
@@ -212,37 +268,6 @@
         <pubDate>Mon, 10 Oct 2022 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2022/10/10/p1-autonomous-vehicle-winter-coming/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2022/10/10/p1-autonomous-vehicle-winter-coming/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to resize images to Twitter animated GIF dimensions and then make an animated GIF using imagemagick</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2022/09/25/p1-super-collider-to-make-music-from-photo-geodata-and-average-colour/&quot;&gt;Discovered&lt;/a&gt; Oct 6, 2022. 17:58  &lt;a href=&quot;https://twitter.com/rtanglao/status/1578187282540277761&quot;&gt;magick commands  in linux on WSL to make an animated GIF&lt;/a&gt;:
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;parallel ~/bin/magick convert &lt;span class=&quot;o&quot;&gt;{}&lt;/span&gt;  &lt;span class=&quot;nt&quot;&gt;-resize&lt;/span&gt; 1200x675  small-&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;/.&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;.jpg &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-:::  /mnt/c/Users/rolan/OneDrive/Pictures/BEES_04OCT_2022/&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.JPG
-~/bin/magick convert &lt;span class=&quot;nt&quot;&gt;-delay&lt;/span&gt; 20 &lt;span class=&quot;nt&quot;&gt;-loop&lt;/span&gt; 0 &lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.jpg&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt; 04oct2022beeflying.gif
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;imagemagick&lt;/code&gt; version 7 is accessed via the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;magick&lt;/code&gt; commands. Version 6 is accessed via &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;convert&lt;/code&gt; directly.&lt;/li&gt;
-  &lt;li&gt;There’s probably a way to do this in 1 step using reading from stdin but I couldn’t figure it out :-)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;August 2021: &lt;a href=&quot;http://rolandtanglao.com/2021/04/26/p1-how-to-install-imagemagick-ubuntu-2004-jpeg-png-tiff-delegates/&quot;&gt;How  To install Imagemagick on Ubuntu 20.04 with JPG, PNG and TIFF support  aka ‘delegates’? Why isn’t this in the default install?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;April 2021: &lt;a href=&quot;http://rolandtanglao.com/2021/04/12/p1-data-not-clean-problem-not-imagemagick-bug/&quot;&gt;Not  an imagemagick bug but an unclean data problem: one of the rows is  missing an average colour because there was no thumbnail in flickr&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;April 2021:  &lt;a href=&quot;http://rolandtanglao.com/2021/04/10/p1-photoshop-less-using-printf-header-magick-convert-xxd-rgb-png/&quot;&gt;Photoshop-less  way using printf and magick (imagemagick version 7) to convert an RGB  file created by xxd without a header to a PNG&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;April 2021: &lt;a href=&quot;http://rolandtanglao.com/2021/04/05/p1-rename-file-from-rgb-to-raw-opened-photoshop-converted-to-png/&quot;&gt;Average colour according to imagemagick resize of my flickr photos Jan 1, 2019 - Dec 31, 2020&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;April 2021: &lt;a href=&quot;http://rolandtanglao.com/2021/04/03/p1-imagemagick-version-7-average-colour-using-convert/&quot;&gt;How To Use Imagemagick Version 7 convert to to resize an image to get average colour&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;February 2020: &lt;a href=&quot;http://rolandtanglao.com/2020/02/19/p1-magick-is-faster-than-vips-or-ruby-oilypng-chunkypng/&quot;&gt;Imagemagick v7 is much faster than OilyPNG or VIPS for creating images, cropping them and montaging i.e. collaging them&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;August 2019: &lt;a href=&quot;http://rolandtanglao.com/2019/08/15/p1-how-to-use-imagemagick-circular-crop/&quot;&gt;HowTo: Circular Crop with ImageMagick&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 09 Oct 2022 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2022/10/09/p1-how-to-resize-images-and-make-animated-gif-imagemagick/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2022/10/09/p1-how-to-resize-images-and-make-animated-gif-imagemagick/</guid>
         
         
       </item>
