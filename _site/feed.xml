@@ -6,9 +6,42 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 29 Nov 2022 18:00:50 -0800</pubDate>
-    <lastBuildDate>Tue, 29 Nov 2022 18:00:50 -0800</lastBuildDate>
+    <pubDate>Sat, 03 Dec 2022 17:20:15 -0800</pubDate>
+    <lastBuildDate>Sat, 03 Dec 2022 17:20:15 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>How To: Make libffi6 work with Github actions and Ubuntu 22.04 and Ubuntu 20.04</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-kits-api3/actions/runs/3584193643/jobs/6030554003&quot;&gt;A few days ago&lt;/a&gt; my Github Action for rt-kits-api3 broke because the default operating system for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ubuntu-latest&lt;/code&gt; changed to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;22.04.1&lt;/code&gt; from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;18.04&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;The easy way to fix this was to change &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ubuntu-latest&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ubuntu-18.04&lt;/code&gt; but that will break in April 2023.&lt;/li&gt;
+  &lt;li&gt;The proper way to fix it for now until the ruby &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ffi&lt;/code&gt; gem is fixed to work with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libffi7&lt;/code&gt; is to install &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libffi6&lt;/code&gt; (alongside 7l; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libffi6&lt;/code&gt; is not part of Ubuntu 22.04 and 20.04 by default) manually using the following yaml in the &lt;a href=&quot;https://github.com/rtanglao/rt-kits-api3/blob/main/.github/workflows/getffquestions.yml&quot;&gt;Github Actions file&lt;/a&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Install libffi6&lt;/span&gt;
+      &lt;span class=&quot;s&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;|-&lt;/span&gt;
+        &lt;span class=&quot;s&quot;&gt;curl -LO http://archive.ubuntu.com/ubuntu/pool/main/libf/libffi/libffi6_3.2.1-8_amd64.deb&lt;/span&gt;
+        &lt;span class=&quot;s&quot;&gt;sudo dpkg -i libffi6_3.2.1-8_amd64.deb&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;There has to  be a better way :-) but I couldn’t find one! Maybe upgrading to Ruby 3.x from 2.7.x would fix it?&lt;/li&gt;
+  &lt;li&gt;For full details, see: &lt;a href=&quot;https://github.com/rtanglao/rt-kits-api3/issues/2#top&quot;&gt;fix libffi7 issue before March 2023 when ubuntu 18.04 is deprecated #2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;March 13, 2022: &lt;a href=&quot;http://rolandtanglao.com/2022/03/13/p1-free-computing-considered-harmful-band-for-environment/&quot;&gt;Free  computing e.g. at github actions isn’t free; free cloud computing  considered harmful (because environment: see  Steven Gonzalez Monserrate  January 27, 2022: The Cloud Is Material: On the Environmental Impacts  of Computation and Data Storage via The Staggering Ecological Impacts of  Computation and the Cloud via Kottke&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;March 14, 2021:  &lt;a href=&quot;http://rolandtanglao.com/2021/03/14/p1-github-actions-broke-ruby-dependency-no-local-debugging/&quot;&gt;On  March 3, 2021 Github action in rt-kits-api3 to get Firefox support  questions broke because ruby gem ffi-1.13.1 wasn’t found, fix:change  Gemfile ffi version to 1.15.0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;October 18, 2020: &lt;a href=&quot;http://rolandtanglao.com/2020/10/18/p1-github-actions-super-great-yaml-is-super-confusing/&quot;&gt;Github Actions are super powerful and yaml is super confusing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 03 Dec 2022 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2022/12/03/p1-how-to-add-libffi6-to-github-actions/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2022/12/03/p1-how-to-add-libffi6-to-github-actions/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Make artofwhere tights with gray patches and pink aka adventures in issue oriented development </title>
@@ -242,32 +275,6 @@ magick left-leg_artofwhere-gray-2019-20.png &lt;span class=&quot;nt&quot;&gt;-fu
         <pubDate>Sun, 16 Oct 2022 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2022/10/16/p1-imagemagick-animated-gif-resize-one-step/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2022/10/16/p1-imagemagick-animated-gif-resize-one-step/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Probably Wrong Prediction: Autonomous Vehicle 'winter' is coming in less than 5 years for G*link and other AV companies</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://twitter.com/rtanglao/status/1579362845254635520&quot;&gt;“AI winter 2.0”will be “autonomous vehicle winter”, “machine learning winter”, etc, right? Who are the Symbolics, Lucid, Thinking Machines, etc of today?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://twitter.com/rtanglao/status/1579363465420234752&quot;&gt;Perhaps G*lik? -&amp;gt; “Loblaw Companies Ltd. in Ontario has partnered with Palo Alto startup G*lik to test five driverless delivery vehicles in the Toronto area&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;May 2021: &lt;a href=&quot;http://rolandtanglao.com/2021/05/23/p1-forgotten-about-outdoor-dining-by-2025/&quot;&gt;Probably  wrong prediction: We will have forgotten about outdoor dining by 2025  just like we forgot why steam radiators are so hot&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;January 2020: &lt;a href=&quot;http://rolandtanglao.com/2020/01/02/p2-no-non-zero-evs-in-cities-2029-probably-wrong-prediction/&quot;&gt;Probably Wrong Prediction: Zero non Zero Emission Vehicles in cities by 2029&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;August 2019: &lt;a href=&quot;http://rolandtanglao.com/2019/08/20/p1-wework-will-be-gone-before-2029/&quot;&gt;Probably Wrong Prediction:-) : WeWork will be gone before 2029&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;April 2019: &lt;a href=&quot;http://rolandtanglao.com/2019/04/27/p1-probably-wrong-prediction-no-gas-diesel-cars-for-sale-in-10-years/&quot;&gt;Probably Wrong Prediction :-) : No gas or diesel cars for sale in 2030&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;April 2019: &lt;a href=&quot;http://rolandtanglao.com/2019/04/25/p1-probably-wrong-prediction-no-x86-laptops-10-years/&quot;&gt;Probably Wrong Prediction :-) : No x86 laptops for sale in 10 years&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;April 2018  &lt;a href=&quot;http://rolandtanglao.com/2018/04/01/p1-probably-wrong-2029-prediction-no-self-driving-cars-outside-city-cores/&quot;&gt;Probably Wrong 2029 Prediction :-) : No self-driving cars and vehicles outside city cores&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;March 2018: &lt;a href=&quot;http://rolandtanglao.com/2018/03/31/p1-probably-wrong-prediction-no-restaurant-conversational-ai-by-2029/&quot;&gt;Probably Wrong 2029 Prediction :-) : No conversational speech recognition with a bot in a restaurant server situation&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 10 Oct 2022 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2022/10/10/p1-autonomous-vehicle-winter-coming/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2022/10/10/p1-autonomous-vehicle-winter-coming/</guid>
         
         
       </item>
