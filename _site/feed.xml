@@ -6,9 +6,29 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 03 Dec 2022 17:20:15 -0800</pubDate>
-    <lastBuildDate>Sat, 03 Dec 2022 17:20:15 -0800</lastBuildDate>
+    <pubDate>Sat, 10 Dec 2022 20:19:00 -0800</pubDate>
+    <lastBuildDate>Sat, 10 Dec 2022 20:19:00 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Tailscale Funnel is a reverse proxy service complete with TLS cert, DNS, public IP address and HTTPS server that seems perfect for small, experimental software on the internet like snac2</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 9, 2022 16:57 &lt;a href=&quot;https://tailscale.com/blog/introducing-tailscale-funnel/&quot;&gt;Introducing Tailscale Funnel · Tailscale&lt;/a&gt; &amp;lt;– OMG perfect, thanks! Now I really have to try Tailscale so I run experiments on localhost:randomport with a real cert and public address!!!!!!!!!! Thanks again! &amp;lt;– QUOTE: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;The second thing you can do is have your device’s Tailscale daemon itself terminate TLS. Then it can reverse proxy the HTTP requests to a local non-HTTPS webserver. That is, you run a webserver on localhost:8080 and we put it on the internet, complete with a public IP address, DNS, TLS cert, and HTTPS server. Now that’s a fun tunnel, if we do say so ourselves.&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Perfect for trying out something like &lt;a href=&quot;https://codeberg.org/grunfink/snac2&quot;&gt;snac2&lt;/a&gt;? (fab ActivityPub server in C) so I can learn enough to re-implement it in a “better” :-)  language like Haskell or Rust?!?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;April 2, 2020 &lt;a href=&quot;http://rolandtanglao.com/2020/04/02/p1-best-zoom-device-airpods-recent-ipad-remote-work-advice-tailscale/&quot;&gt;recent iPad + Airpods + mount = best combo for Zoom? &amp;lt;- From Several grumpy opinions about remote work at Tailscale&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 10 Dec 2022 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2022/12/10/p1-tailscale-funnel-ideal-for-home-hosted-experimental-software/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2022/12/10/p1-tailscale-funnel-ideal-for-home-hosted-experimental-software/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How To: Make libffi6 work with Github actions and Ubuntu 22.04 and Ubuntu 20.04</title>
@@ -250,31 +270,6 @@ magick left-leg_artofwhere-gray-2019-20.png &lt;span class=&quot;nt&quot;&gt;-fu
         <pubDate>Sat, 29 Oct 2022 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2022/10/29/p1-howto-imagemagick-montage-of-resized-1x1-average-colour/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2022/10/29/p1-howto-imagemagick-montage-of-resized-1x1-average-colour/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to resize images and make an animated GIF in one step using imagemagick</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Oct 12, 2022. 19:29&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~/bin/magick convert &lt;span class=&quot;nt&quot;&gt;-delay&lt;/span&gt; 20 &lt;span class=&quot;nt&quot;&gt;-loop&lt;/span&gt; 0 &lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.JPG&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;-resize&lt;/span&gt; 1200x675 12oct2022beeflying.gif 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;^^– resize and make animated gif in 1 step&lt;/p&gt;
-
-&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;October 9, 2022: &lt;a href=&quot;http://rolandtanglao.com/2022/10/09/p1-how-to-resize-images-and-make-animated-gif-imagemagick/&quot;&gt;How to resize images to Twitter animated GIF dimensions and then make an animated GIF using imagemagick&lt;/a&gt; &amp;lt;— 2 step process!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 16 Oct 2022 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2022/10/16/p1-imagemagick-animated-gif-resize-one-step/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2022/10/16/p1-imagemagick-animated-gif-resize-one-step/</guid>
         
         
       </item>
