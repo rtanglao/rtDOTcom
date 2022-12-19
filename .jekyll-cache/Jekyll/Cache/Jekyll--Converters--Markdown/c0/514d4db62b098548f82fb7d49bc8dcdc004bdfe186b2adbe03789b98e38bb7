@@ -1,0 +1,19 @@
+I"<ul>
+  <li>Discovered: Dec 18, 2022 18:21 <a href="https://third-bit.com/2022/12/18/sessioncasting/">Greg Wilson: Sessioncasting: Teaching Programming with Replay, Voiceover, and Branching · The Third Bit</a> &lt;– Sessioncasting is such a great idea! Much better than using videos to learn because you have relevant timecodes and can follow along and go backwards and forwards!  &lt;– QUOTE:
+```
+So let’s pull this together. What I want is a tool that:
+    <ol>
+      <li>Records my interactions with my desktop as a stream of logical events rather than as video.</li>
+      <li>Simultaneously, records what I’m saying.</li>
+      <li>Allows me to edit the combination in the way that Camtasia or OBS lets me edit screencasts.</li>
+      <li>Lets a learner replay the result in a sandbox VM on their computer or in the cloud.</li>
+      <li>Lets the learner stop the replay at any point and fork a new VM to play around in.</li>
+      <li>When she’s done, lets her throw away that VM and resume the lesson where she left off.<code class="language-plaintext highlighter-rouge">
+</code>``
+        <h3 id="previously">Previously</h3>
+      </li>
+    </ol>
+  </li>
+  <li>October 28, 2017: <a href="http://rolandtanglao.com/2017/10/28/p1-ideal-documentation-text-screenshots-tightly-edited-video/">My perfect software documentation: text with lots of examples and screenshots plus tightly edited short video, what’s yours?</a>&lt;– I think sessioncasting is better than what I wrote about in this blog post from 2017!</li>
+</ul>
+:ET

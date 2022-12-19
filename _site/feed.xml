@@ -6,9 +6,39 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 10 Dec 2022 20:19:00 -0800</pubDate>
-    <lastBuildDate>Sat, 10 Dec 2022 20:19:00 -0800</lastBuildDate>
+    <pubDate>Sun, 18 Dec 2022 18:35:44 -0800</pubDate>
+    <lastBuildDate>Sun, 18 Dec 2022 18:35:44 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Greg Wilson: Sessioncasting: Teaching Programming with Replay, Voiceover, and Branching</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 18, 2022 18:21 &lt;a href=&quot;https://third-bit.com/2022/12/18/sessioncasting/&quot;&gt;Greg Wilson: Sessioncasting: Teaching Programming with Replay, Voiceover, and Branching · The Third Bit&lt;/a&gt; &amp;lt;– Sessioncasting is such a great idea! Much better than using videos to learn because you have relevant timecodes and can follow along and go backwards and forwards!  &amp;lt;– QUOTE:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;So let’s pull this together. What I want is a tool that:&lt;/p&gt;
+  &lt;ol&gt;
+    &lt;li&gt;Records my interactions with my desktop as a stream of logical events rather than as video.&lt;/li&gt;
+    &lt;li&gt;Simultaneously, records what I’m saying.&lt;/li&gt;
+    &lt;li&gt;Allows me to edit the combination in the way that Camtasia or OBS lets me edit screencasts.&lt;/li&gt;
+    &lt;li&gt;Lets a learner replay the result in a sandbox VM on their computer or in the cloud.&lt;/li&gt;
+    &lt;li&gt;Lets the learner stop the replay at any point and fork a new VM to play around in.&lt;/li&gt;
+    &lt;li&gt;When she’s done, lets her throw away that VM and resume the lesson where she left off.&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;October 28, 2017: &lt;a href=&quot;http://rolandtanglao.com/2017/10/28/p1-ideal-documentation-text-screenshots-tightly-edited-video/&quot;&gt;My perfect software documentation: text with lots of examples and screenshots plus tightly edited short video, what’s yours?&lt;/a&gt;&amp;lt;– I think sessioncasting is better than what I wrote about in this blog post from 2017!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 18 Dec 2022 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2022/12/18/p1-sessioncasting-greg-wilson-howto-learn-programming-better-than-video/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2022/12/18/p1-sessioncasting-greg-wilson-howto-learn-programming-better-than-video/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Tailscale Funnel is a reverse proxy service complete with TLS cert, DNS, public IP address and HTTPS server that seems perfect for small, experimental software on the internet like snac2</title>
@@ -243,33 +273,6 @@ magick left-leg_artofwhere-gray-2019-20.png &lt;span class=&quot;nt&quot;&gt;-fu
         <pubDate>Sun, 30 Oct 2022 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2022/10/30/p1-leaving-twitter-sort-of-current-plan/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2022/10/30/p1-leaving-twitter-sort-of-current-plan/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>imagemagick How To make a montage of images from average colour: 1st get average colour by downsizing to 1x1 ; 2nd upscale with a fixed size; this results in images in this case with 20x20 which at 80x24 leads to 1600x480</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Oct 29, 2022 10:25  &lt;a href=&quot;https://legacy.imagemagick.org/discourse-server/viewtopic.php?t=24847&quot;&gt;How To make a montage of images from average colour: 1st get average colour by downsizing to 1x1 ; 2nd upscale with a fixed size; this results in images in this case with 20x20 which at 80x24 leads to 1600x480&lt;/a&gt;
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;magick montage &lt;span class=&quot;s1&quot;&gt;'*.JPG[1x1]'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-tile&lt;/span&gt; 80x24  &lt;span class=&quot;nt&quot;&gt;-geometry&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'20x20+0+0'&lt;/span&gt; onestep.jpg
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-    &lt;p&gt;^^^^— &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Resize images after they have all been read in before montage overlays them onto its canvas. It also defines the size and the spacing between the tiles into which the images are drawn. If no size is specified the images will not be resized.&lt;/code&gt; &amp;lt;– which leads me to my current idea of doing this for 1920 random vancouver image every day! (80x24 is the VT100 size :-) &amp;lt;– tweeted this: &lt;a href=&quot;https://twitter.com/rtanglao/status/1586412750091472897&quot;&gt;HowTo Montage from avgcolour: 1)get avg colour by downsizing to 1x1 2)upscale w/fixed size eg 20x20 @ 80x24 = 1600x480
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;magick montage '/*.JPG[1x1]' -tile 80x24  -geometry '20x20+0+0' onestep.jpg&lt;/code&gt; &amp;lt;– idea: Do this for 1920 random vancouver images daily! (80x24 is VT100 size :-)&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;September 2022: &lt;a href=&quot;http://rolandtanglao.com/2022/09/25/p1-super-collider-to-make-music-from-photo-geodata-and-average-colour/&quot;&gt;Use Super Collider to make music from photo geodata and average colour?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;September 2021: &lt;a href=&quot;http://rolandtanglao.com/2021/09/22/p1-howto-my-2019-2020-photos-x-unixtime-seconds-average-colour-657-plottrix-colours-ggrepel-ggplot-faceted-by-vancouver-year-month-date/&quot;&gt;How  to create an ggrepel plot of R’s 657 plotrix colours of the average  colour of my 2019-2020 flickr photos, x axis is time in unix seconds  since 1970 using R, y axis is the average colour using the plotrix  colours&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;April 2021: &lt;a href=&quot;http://rolandtanglao.com/2021/04/03/p1-imagemagick-version-7-average-colour-using-convert/&quot;&gt;How To Use Imagemagick Version 7 convert to to resize an image to get average colour&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;October 2017: &lt;a href=&quot;http://rolandtanglao.com/2017/10/12/p1-maps-of-vancouver-neighourhoods-average-colour-instagram/&quot;&gt;Maps of Vancouver Neighourhoods average colour over plotted&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 29 Oct 2022 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2022/10/29/p1-howto-imagemagick-montage-of-resized-1x1-average-colour/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2022/10/29/p1-howto-imagemagick-montage-of-resized-1x1-average-colour/</guid>
         
         
       </item>
