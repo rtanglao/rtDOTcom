@@ -6,9 +6,30 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 18 Dec 2022 18:35:44 -0800</pubDate>
-    <lastBuildDate>Sun, 18 Dec 2022 18:35:44 -0800</lastBuildDate>
+    <pubDate>Wed, 28 Dec 2022 01:30:13 -0800</pubDate>
+    <lastBuildDate>Wed, 28 Dec 2022 01:30:13 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Journalism is a public good. Let the public make it. - Columbia Journalism Review &lt;- We are all journalists and software developers</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 25, 2022 19:29 &lt;a href=&quot;https://www.cjr.org/special_report/journalism-power-public-good-community-infrastructure.php&quot;&gt;Journalism is a public good. Let the public make it. - Columbia Journalism Review&lt;/a&gt; &amp;lt;— everybody can and should be a journalist like everybody can should be a software developer using things like spreadsheets! –&amp;gt; QUOTE: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;The people of Rio de Janeiro have developed one of my favorite things: a simple solution to a complex problem. Here, we had a problem of monumental importance, that everyone enjoying the beach that day could understand but no one could have solved on their own. It wasn’t about the tall man playing the lead role, or the first person to start clapping, or the frantic parent. The best response to the crisis of a child lost on a beach is not to ask a few people to mount a search for a parent. It is simply to get more people involved, at a level at which everyone is willing and able to participate; it is to draw power from the crowd, rather than rely on a small group.&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;October 2018: &lt;a href=&quot;http://rolandtanglao.com/2018/10/05/p1-marriage-of-convenience-between-advertising-and-journalism-broken/&quot;&gt;Steve Yelvington: The marriage of convenience that has existed between journalism and advertising has been broken.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;October 2017: &lt;a href=&quot;http://rolandtanglao.com/2017/12/07/p1-Jay-Rosen-Erin-Millar-The-Correspondent-Discourse-Media/&quot;&gt;Future  of Journalism and Media: Erin Millar and Discourse (fund them now for  $250 by Dec 21, 2017), Jay Rosen of PressThink and The Correspondent  (future USA arm of Dutch De Correspondent)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;January 2007: &lt;a href=&quot;http://rolandtanglao.com/2007/01/08/instant-journalists-and-citizen-journalists-often-have-the-real-story-when-it-comes-to-technology/&quot;&gt; “Instant Journalists” and citizen journalists often have the real story when it comes to technology&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 28 Dec 2022 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2022/12/28/p1-journalism-public-good-lets-all-make-journalism-and-software/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2022/12/28/p1-journalism-public-good-lets-all-make-journalism-and-software/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Greg Wilson: Sessioncasting: Teaching Programming with Replay, Voiceover, and Branching</title>
@@ -65,7 +86,7 @@
         <description>&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-kits-api3/actions/runs/3584193643/jobs/6030554003&quot;&gt;A few days ago&lt;/a&gt; my Github Action for rt-kits-api3 broke because the default operating system for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ubuntu-latest&lt;/code&gt; changed to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;22.04.1&lt;/code&gt; from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;18.04&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;The easy way to fix this was to change &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ubuntu-latest&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ubuntu-18.04&lt;/code&gt; but that will break in April 2023.&lt;/li&gt;
-  &lt;li&gt;The proper way to fix it for now until the ruby &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ffi&lt;/code&gt; gem is fixed to work with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libffi7&lt;/code&gt; is to install &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libffi6&lt;/code&gt; (alongside 7l; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libffi6&lt;/code&gt; is not part of Ubuntu 22.04 and 20.04 by default) manually using the following yaml in the &lt;a href=&quot;https://github.com/rtanglao/rt-kits-api3/blob/main/.github/workflows/getffquestions.yml&quot;&gt;Github Actions file&lt;/a&gt;:&lt;/li&gt;
+  &lt;li&gt;The proper way to fix it for now until the ruby &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ffi&lt;/code&gt; gem is fixed to work with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libffi7&lt;/code&gt; is to install &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libffi6&lt;/code&gt; (alongside &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libffi7&lt;/code&gt;; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libffi6&lt;/code&gt; is not part of Ubuntu 22.04 and 20.04 by default) manually using the following yaml in the &lt;a href=&quot;https://github.com/rtanglao/rt-kits-api3/blob/main/.github/workflows/getffquestions.yml&quot;&gt;Github Actions file&lt;/a&gt;:&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Install libffi6&lt;/span&gt;
@@ -254,25 +275,6 @@ magick left-leg_artofwhere-gray-2019-20.png &lt;span class=&quot;nt&quot;&gt;-fu
         <pubDate>Sun, 06 Nov 2022 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2022/11/06/p1-update-leaving-twitter-sort-of-current-plan/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2022/11/06/p1-update-leaving-twitter-sort-of-current-plan/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>My current 'leaving' Twitter plan as if it matters really or anybody cares :-)</title>
-        <description>&lt;p&gt;Sort of in order :-)&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Download my twitter archive - DONE!&lt;/li&gt;
-  &lt;li&gt;Post my archive as a webpage or webpages and/or SQLite using datasette&lt;/li&gt;
-  &lt;li&gt;Delete my tweets&lt;/li&gt;
-  &lt;li&gt;Lock my account and or make it private&lt;/li&gt;
-  &lt;li&gt;You can follow me at &lt;a href=&quot;http://rolandtanglao.com/&quot;&gt;rolandtanglao.com&lt;/a&gt;  (&lt;a href=&quot;http://rolandtanglao.com/feed.xml&quot;&gt;RSS&lt;/a&gt;), &lt;a href=&quot;https://checkvist.com/p/RjpwQvvwnw89WecevQFXxe&quot;&gt;checkvist for my draft blog posts and items of interest&lt;/a&gt; (no RSS but i might hook one up someday), &lt;a href=&quot;https://www.rolandmicroblog.com/&quot;&gt;rolandmicroblog.com&lt;/a&gt; (&lt;a href=&quot;https://www.rolandmicroblog.com/feed.xml&quot;&gt;RSS&lt;/a&gt;), &lt;a href=&quot;https://theoldreader.com/profile/roland&quot;&gt;The Old Reader&lt;/a&gt; aka google reader clone :-) (&lt;a href=&quot;https://theoldreader.com/profile/roland.rss&quot;&gt;RSS&lt;/a&gt;), &lt;a href=&quot;https://pinboard.in/u:rtanglao/&quot;&gt;pinboard&lt;/a&gt; for 8 million bookmarks (&lt;a href=&quot;https://feeds.pinboard.in/rss/u:rtanglao/&quot;&gt;RSS&lt;/a&gt;), &lt;a href=&quot;https://www.instagram.com/roland/&quot;&gt;instagram&lt;/a&gt;, https://www.linkedin.com/in/rtanglao/, &lt;a href=&quot;https://facebook.com/rolandt&quot;&gt;facebook&lt;/a&gt;, &lt;a href=&quot;https://www.flickr.com/roland&quot;&gt;flickr&lt;/a&gt;, etc :-&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        <pubDate>Sun, 30 Oct 2022 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2022/10/30/p1-leaving-twitter-sort-of-current-plan/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2022/10/30/p1-leaving-twitter-sort-of-current-plan/</guid>
         
         
       </item>

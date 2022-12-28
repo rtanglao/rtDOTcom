@@ -4,7 +4,7 @@ title: "How To: Make libffi6 work with Github actions and Ubuntu 22.04 and Ubunt
 ---
 * [A few days ago](https://github.com/rtanglao/rt-kits-api3/actions/runs/3584193643/jobs/6030554003) my Github Action for rt-kits-api3 broke because the default operating system for `ubuntu-latest` changed to `22.04.1` from `18.04`
 * The easy way to fix this was to change `ubuntu-latest` to `ubuntu-18.04` but that will break in April 2023.
-* The proper way to fix it for now until the ruby `ffi` gem is fixed to work with `libffi7` is to install `libffi6` (alongside 7l; `libffi6` is not part of Ubuntu 22.04 and 20.04 by default) manually using the following yaml in the [Github Actions file](https://github.com/rtanglao/rt-kits-api3/blob/main/.github/workflows/getffquestions.yml):
+* The proper way to fix it for now until the ruby `ffi` gem is fixed to work with `libffi7` is to install `libffi6` (alongside `libffi7`; `libffi6` is not part of Ubuntu 22.04 and 20.04 by default) manually using the following yaml in the [Github Actions file](https://github.com/rtanglao/rt-kits-api3/blob/main/.github/workflows/getffquestions.yml):
 
 ```yaml
 - name: Install libffi6
