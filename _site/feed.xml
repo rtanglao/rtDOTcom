@@ -6,9 +6,30 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 28 Dec 2022 01:30:13 -0800</pubDate>
-    <lastBuildDate>Wed, 28 Dec 2022 01:30:13 -0800</lastBuildDate>
+    <pubDate>Fri, 30 Dec 2022 18:20:56 -0800</pubDate>
+    <lastBuildDate>Fri, 30 Dec 2022 18:20:56 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Happy New Year 2023 / Einen guten Rutsch ins neue Jahr :-)!</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;The title says it all :-)&lt;/li&gt;
+  &lt;li&gt;May you all be healthy! And prosperous!&lt;/li&gt;
+  &lt;li&gt;I hope we get a sterilizing COVID 19 vaccine that actually prevents the disease. I hope we come to our senses and make everybody test daily and/or N95 mask indoors and give people unlimited sick leave but I doubt it :-)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;January 2020:  &lt;a href=&quot;http://rolandtanglao.com/2020/01/02/p1-happy-new-year-2020/&quot;&gt;Happy New Year 2020 / Einen guten Rutsch ins neue Jahr :-)!&lt;/a&gt; &amp;lt;– ah the good ole prepandemic days&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 30 Dec 2022 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2022/12/30/p1-happy-new-year-2023/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2022/12/30/p1-happy-new-year-2023/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Journalism is a public good. Let the public make it. - Columbia Journalism Review &lt;- We are all journalists and software developers</title>
@@ -256,25 +277,6 @@ magick left-leg_artofwhere-gray-2019-20.png &lt;span class=&quot;nt&quot;&gt;-fu
         <pubDate>Sun, 13 Nov 2022 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2022/11/13/p1-devdilettante-mastodon-personal-instance/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2022/11/13/p1-devdilettante-mastodon-personal-instance/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>My 'leaving' Twitter update as if it matters really or anybody cares :-)</title>
-        <description>&lt;p&gt;Sort of in order :-)&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;del&gt;Download my twitter archive&lt;/del&gt; - DONE!&lt;/li&gt;
-  &lt;li&gt;Post my archive as a webpage or webpages and/or SQLite using datasette - DONE although I might make it more user friendly i.e. less unfriendly to non geeks. &lt;a href=&quot;https://github.com/rtanglao/30october2022-twitter-archive/blob/main/05november2022-tweet-delete-tweets.csv&quot;&gt;CSV&lt;/a&gt;, &lt;a href=&quot;https://lite.datasette.io/?csv=https%3A%2F%2Fraw.githubusercontent.com%2Frtanglao%2F30october2022-twitter-archive%2Fmain%2F05november2022-tweet-delete-tweets.csv#/data/05november2022-tweet-delete-tweets/2&quot;&gt;datasette lite&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Delete my tweets - 4000 more to go :-) I used tweetdelete.net to delete over 100Kof them and redact.dev to do 10000 or so and may have to write a script if i can’t get those pesky 4000 remaining to delete with tweetdelete.net&lt;/li&gt;
-  &lt;li&gt;&lt;del&gt;Lock my account and or make it private&lt;/del&gt; - DONE, locked&lt;/li&gt;
-  &lt;li&gt;You can follow me at &lt;a href=&quot;http://rolandtanglao.com/&quot;&gt;rolandtanglao.com&lt;/a&gt;  (&lt;a href=&quot;http://rolandtanglao.com/feed.xml&quot;&gt;RSS&lt;/a&gt;), &lt;a href=&quot;https://checkvist.com/p/RjpwQvvwnw89WecevQFXxe&quot;&gt;checkvist for my draft blog posts and items of interest&lt;/a&gt; (no RSS but i might hook one up someday), &lt;a href=&quot;https://mastodon.social/@rtanglao&quot;&gt;@rtanglao@mastodon.social&lt;/a&gt;,  &lt;a href=&quot;https://www.rolandmicroblog.com/&quot;&gt;rolandmicroblog.com&lt;/a&gt; (&lt;a href=&quot;https://www.rolandmicroblog.com/feed.xml&quot;&gt;RSS&lt;/a&gt;), &lt;a href=&quot;https://theoldreader.com/profile/roland&quot;&gt;The Old Reader&lt;/a&gt; aka google reader clone :-) (&lt;a href=&quot;https://theoldreader.com/profile/roland.rss&quot;&gt;RSS&lt;/a&gt;), &lt;a href=&quot;https://pinboard.in/u:rtanglao/&quot;&gt;pinboard&lt;/a&gt; for 8 million bookmarks (&lt;a href=&quot;https://feeds.pinboard.in/rss/u:rtanglao/&quot;&gt;RSS&lt;/a&gt;), &lt;a href=&quot;https://www.instagram.com/roland/&quot;&gt;instagram&lt;/a&gt;, https://www.linkedin.com/in/rtanglao/, &lt;a href=&quot;https://facebook.com/rolandt&quot;&gt;facebook&lt;/a&gt;, &lt;a href=&quot;https://www.flickr.com/roland&quot;&gt;flickr&lt;/a&gt;, etc :-)&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        <pubDate>Sun, 06 Nov 2022 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2022/11/06/p1-update-leaving-twitter-sort-of-current-plan/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2022/11/06/p1-update-leaving-twitter-sort-of-current-plan/</guid>
         
         
       </item>
