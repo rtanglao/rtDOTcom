@@ -6,16 +6,43 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 04 Jan 2023 22:04:23 -0800</pubDate>
-    <lastBuildDate>Wed, 04 Jan 2023 22:04:23 -0800</lastBuildDate>
+    <pubDate>Tue, 31 Jan 2023 22:32:10 -0800</pubDate>
+    <lastBuildDate>Tue, 31 Jan 2023 22:32:10 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>How To get ngrok working with SSH on WSL</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Having lots of fun testing ngrok.As of today, here’s how to get ngrok working with ssh from macOS to WSL&lt;/li&gt;
+  &lt;li&gt;1. Generate an SSH Key on your mac, let’s call it &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wsl2&lt;/code&gt;. This key must have a passphrase or it won’t work. Add it to the keychain.&lt;/li&gt;
+  &lt;li&gt;2. Copy the public key to the WSL machine e.g. using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;croc&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;croc ~/.ssh/wsl2.pub&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;3. Rename the nologin file to allow logins to WSL (Otherwise ssh will fail (it will be stuck on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Starting shell...&lt;/code&gt; ):
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo mv&lt;/span&gt; /var/run/nologin /var/run/2023-01-31-renamed-nologin
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;4. start ngrok &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ngrok tcp 22&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;5. SSH in e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ssh -i ~/.ssh/wsl2.pub roland@somehost.tcp.ngrok.io -p &amp;lt;someport&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Dec 2022: &lt;a href=&quot;http://rolandtanglao.com/2022/12/10/p1-tailscale-funnel-ideal-for-home-hosted-experimental-software/&quot;&gt;Tailscale Funnel is a reverse proxy service complete with TLS cert, DNS, public IP address and HTTPS server that seems perfect for small, experimental software on the internet like snac2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Sep 2022: &lt;a href=&quot;http://rolandtanglao.com/2022/09/04/p1-croc-fast-e2e-file-text-sharing-between-two-computers/&quot;&gt;Zack Scholl: croc Fast, simple, and e2e encrypted file transfer between any two computers. &amp;lt;- so many great CLI tools so little time. See ‘Previously’&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 31 Jan 2023 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2023/01/31/p1-ngrok-ssh-wsl-var-run-nogin/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2023/01/31/p1-ngrok-ssh-wsl-var-run-nogin/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Thank you Element! Leaving after being laid off after 2 years #ElementLifeboat</title>
         <description>&lt;ul&gt;
   &lt;li&gt;Back in December, I was one of the folks laid off by &lt;a href=&quot;https://element.io/blog/&quot;&gt;Element.io&lt;/a&gt; (see the brief mention in &lt;a href=&quot;https://matrix.org/blog/2022/12/25/the-matrix-holiday-update-2022&quot;&gt;The Matrix Holiday Update 2022&lt;/a&gt;). Thanks to the fine folks at Element. It was a pleasure to work with you all!&lt;/li&gt;
   &lt;li&gt;Where to next? No idea :-) But I’ve been super privileged to be paid to work on the Drupal, Mozilla and Matrix ecosystems. It would be fabulous to work on those ecosystems once more (always something to learn!) or to work on a different ecosystem. It would also be great to work on something that combines support with documentation and even social media (being the Chief Blogging Officer for Bryght back in 2004 was super fun) but I’m open to everything as usual :-) !&lt;/li&gt;
-  &lt;li&gt;Onwards! #thanks #lucky&lt;/li&gt;
+  &lt;li&gt;Onwards! #Thanks #Lucky&lt;/li&gt;
   &lt;li&gt;I’ll take a few more days off and then start my next.gig.search&lt;/li&gt;
   &lt;li&gt;I can be reached on linkedIn: &lt;a href=&quot;https://www.linkedin.com/in/rtanglao/&quot;&gt;rtanglao&lt;/a&gt;,  rolandt@gmail.com works too and you can contact me in matrix: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@positiveroland:matrix.org&lt;/code&gt;, also on mastodon &lt;a href=&quot;https://devdilettante.com/@roland&quot;&gt;@roland@devdilettante.com&lt;/a&gt; and &lt;a href=&quot;http://rolandtanglao.com/&quot;&gt;rolandtanglao.com&lt;/a&gt; and &lt;a href=&quot;https://www.flickr.com/photos/roland&quot;&gt;flickr.com/roland&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;And of course, coffee in Vancouver any time! First coffee/tea/mineral water  is on me :-) I’ve said this a million times but it would be great to meet with old friends and ex-colleagues in Vancouver in real life.&lt;/li&gt;
@@ -245,34 +272,6 @@ magick left-leg_artofwhere-gray-2019-20.png &lt;span class=&quot;nt&quot;&gt;-fu
         <pubDate>Sun, 20 Nov 2022 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2022/11/20/p1-my-bio-november-2022/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2022/11/20/p1-my-bio-november-2022/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Mastodon migration FROM @rtanglao@mastadon.social TO @roland@devdilettante.com was smooth, thanks developers!</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Steps:
-    &lt;ul&gt;
-      &lt;li&gt;set up an alias on the NEW Mastodon server (devdilettante.com)&lt;/li&gt;
-      &lt;li&gt;migrate from from OLD (mastadon.social) to NEW by logging into OLD&lt;/li&gt;
-      &lt;li&gt;export a CSV of followers from OLD&lt;/li&gt;
-      &lt;li&gt;import CSV of followers into NEW&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Continuing to have fun! Fingers crossed this fun :-) continues&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;November 13, 2022: &lt;a href=&quot;http://rolandtanglao.com/2022/11/13/p1-devdilettante-mastodon-personal-instance/&quot;&gt;I’ve set up my own personal mastodon instance at devdilettante.com, @roland@devdilettante.com is my handle&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 14 Nov 2022 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2022/11/14/p1-mastodon-migration-mastodon-social-devdilettante-smooth/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2022/11/14/p1-mastodon-migration-mastodon-social-devdilettante-smooth/</guid>
         
         
       </item>

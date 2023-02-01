@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Thank you Element! Leaving after being laid off after 2 years #ElementLifeboat</title>
+    <title>How To get ngrok working with SSH on WSL</title>
     <meta name="description" content="flickr.com/roland, twitter.com/rtanglao #firefox #thunderbird
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://rolandtanglao.com/2023/01/04/p1-thank-you-element-matrix/">
+    <link rel="canonical" href="http://rolandtanglao.com/2023/01/31/p1-ngrok-ssh-wsl-var-run-nogin/">
 </head>
 
 
@@ -57,20 +57,28 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Thank you Element! Leaving after being laid off after 2 years #ElementLifeboat</h1>
-    <p class="post-meta">Jan 4, 2023</p>
+    <h1 class="post-title">How To get ngrok working with SSH on WSL</h1>
+    <p class="post-meta">Jan 31, 2023</p>
   </header>
 
   <article class="post-content">
     <ul>
-  <li>Back in December, I was one of the folks laid off by <a href="https://element.io/blog/">Element.io</a> (see the brief mention in <a href="https://matrix.org/blog/2022/12/25/the-matrix-holiday-update-2022">The Matrix Holiday Update 2022</a>). Thanks to the fine folks at Element. It was a pleasure to work with you all!</li>
-  <li>Where to next? No idea :-) But I’ve been super privileged to be paid to work on the Drupal, Mozilla and Matrix ecosystems. It would be fabulous to work on those ecosystems once more (always something to learn!) or to work on a different ecosystem. It would also be great to work on something that combines support with documentation and even social media (being the Chief Blogging Officer for Bryght back in 2004 was super fun) but I’m open to everything as usual :-) !</li>
-  <li>Onwards! #Thanks #Lucky</li>
-  <li>I’ll take a few more days off and then start my next.gig.search</li>
-  <li>I can be reached on linkedIn: <a href="https://www.linkedin.com/in/rtanglao/">rtanglao</a>,  rolandt@gmail.com works too and you can contact me in matrix: <code class="language-plaintext highlighter-rouge">@positiveroland:matrix.org</code>, also on mastodon <a href="https://devdilettante.com/@roland">@roland@devdilettante.com</a> and <a href="http://rolandtanglao.com/">rolandtanglao.com</a> and <a href="https://www.flickr.com/photos/roland">flickr.com/roland</a></li>
-  <li>And of course, coffee in Vancouver any time! First coffee/tea/mineral water  is on me :-) I’ve said this a million times but it would be great to meet with old friends and ex-colleagues in Vancouver in real life.</li>
+  <li>Having lots of fun testing ngrok.As of today, here’s how to get ngrok working with ssh from macOS to WSL</li>
+  <li>1. Generate an SSH Key on your mac, let’s call it <code class="language-plaintext highlighter-rouge">wsl2</code>. This key must have a passphrase or it won’t work. Add it to the keychain.</li>
+  <li>2. Copy the public key to the WSL machine e.g. using <code class="language-plaintext highlighter-rouge">croc</code> <code class="language-plaintext highlighter-rouge">croc ~/.ssh/wsl2.pub</code></li>
+  <li>3. Rename the nologin file to allow logins to WSL (Otherwise ssh will fail (it will be stuck on <code class="language-plaintext highlighter-rouge">Starting shell...</code> ):
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo mv</span> /var/run/nologin /var/run/2023-01-31-renamed-nologin
+</code></pre></div>    </div>
+  </li>
+  <li>4. start ngrok <code class="language-plaintext highlighter-rouge">ngrok tcp 22</code></li>
+  <li>5. SSH in e.g. <code class="language-plaintext highlighter-rouge">ssh -i ~/.ssh/wsl2.pub roland@somehost.tcp.ngrok.io -p &lt;someport&gt;</code></li>
 </ul>
 
+<h3 id="previously">Previously</h3>
+<ul>
+  <li>Dec 2022: <a href="http://rolandtanglao.com/2022/12/10/p1-tailscale-funnel-ideal-for-home-hosted-experimental-software/">Tailscale Funnel is a reverse proxy service complete with TLS cert, DNS, public IP address and HTTPS server that seems perfect for small, experimental software on the internet like snac2</a></li>
+  <li>Sep 2022: <a href="http://rolandtanglao.com/2022/09/04/p1-croc-fast-e2e-file-text-sharing-between-two-computers/">Zack Scholl: croc Fast, simple, and e2e encrypted file transfer between any two computers. &lt;- so many great CLI tools so little time. See ‘Previously’</a></li>
+</ul>
 
     <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
   </article>

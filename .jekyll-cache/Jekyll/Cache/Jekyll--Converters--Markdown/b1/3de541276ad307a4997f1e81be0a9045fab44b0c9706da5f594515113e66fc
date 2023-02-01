@@ -1,0 +1,7 @@
+I"<ul>
+  <li>This will probaby change tomorrow but here’s how to get ngrok working with ssh from macOS to WSL</li>
+  <li>1. Generate an SSH Key on your mac, let’s call it <code class="language-plaintext highlighter-rouge">wsl2</code>. You need a passpharse</li>
+  <li>2. Copy the public key to the WSL machine e.g. using <code class="language-plaintext highlighter-rouge">croc</code> <code class="language-plaintext highlighter-rouge">croc ~/.ssh/wsl2.pub</code></li>
+  <li>3. Rename the nologin file to allow logins</li>
+</ul>
+:ET
