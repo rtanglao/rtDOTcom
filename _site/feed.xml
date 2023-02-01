@@ -6,9 +6,31 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 31 Jan 2023 23:08:29 -0800</pubDate>
-    <lastBuildDate>Tue, 31 Jan 2023 23:08:29 -0800</lastBuildDate>
+    <pubDate>Wed, 01 Feb 2023 07:44:19 -0800</pubDate>
+    <lastBuildDate>Wed, 01 Feb 2023 07:44:19 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>How I use ngrok over SSH on my MacBook Air to edit my blog on my Surface Book 2</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;This is straightforward. I just use the &lt;a href=&quot;https://code.visualstudio.com/docs/remote/ssh&quot;&gt;editing over ssh feature&lt;/a&gt; to enter the SSH connection command (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ssh -i ~/.ssh/wsl2.pub roland@somehost.tcp.ngrok.io -p &amp;lt;someport&amp;gt;&lt;/code&gt;) in Visual Studio Code (and of course I could always use emacs to edit over ssh which I’ve done for decades!).&lt;/li&gt;
+  &lt;li&gt;And I use the terminal feature to trigger a jekyll rebuild and then &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;surge&lt;/code&gt; to upload my blog and git all in Visual Studio Code’s terminal.&lt;/li&gt;
+  &lt;li&gt;Finally I have another ngrok tunnel running that maps port 4000 to port 80 to see the rendered draft version at: https://somejekyllsubdomainofmydraftblog.ngrok.io/&lt;/li&gt;
+  &lt;li&gt;Super geeky :-) but then I can edit on any of my 5 laptops (including my MacBook Air) because this recipe will work on any computer that runs Visual Studio Code.&lt;/li&gt;
+  &lt;li&gt;Question: Does Typora or any other nice SSH editor work over SSH? VS Code is fine but not nearly as nice as Typora!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;January 31, 2023: &lt;a href=&quot;http://rolandtanglao.com/2023/01/31/p1-ngrok-ssh-wsl-var-run-nogin/&quot;&gt;How To get ngrok working with SSH on WSL&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 01 Feb 2023 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2023/02/01/p1-ngrok-ssh-surfacebook2-edit-blog/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2023/02/01/p1-ngrok-ssh-surfacebook2-edit-blog/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How To get ngrok working with SSH on WSL</title>
@@ -253,25 +275,6 @@ magick left-leg_artofwhere-gray-2019-20.png &lt;span class=&quot;nt&quot;&gt;-fu
         <pubDate>Sat, 26 Nov 2022 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2022/11/26/p1-simon-willison-issue-oriented-development-including-documentation-tests/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2022/11/26/p1-simon-willison-issue-oriented-development-including-documentation-tests/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>My bio: November 2022 for Mastodon</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;#Introduction #ILovePeopleComputersFoodBicyclingXcskiingDancingMusic I love people &amp;amp; computers &amp;amp; many other things like bicycling @  18km/h or slower :-), cross country skiing, inexpensive food (Filipino,  Chinese &amp;amp; all Asian especially but all food in general), lindy hop  swing dancing, 80s music (CFNY forevah), etc. Pronouns: he/him.  Living  in “Vancouver” on the un-ceded lands of Squamish, Musqueam, and  Tsleil-Waututh (Burrard) peoples. I speak bad German, very bad French  and super bad Kapampangan &amp;amp; Tagalog food words :-). Go science  go! PET.BNR.bryght.mozilla.element I was right about blogs and cameraphones, wrong about most everything else :-)!  Blogging since 1999 etc. Love to make tshirts and tights from my flickr photos. &lt;a href=&quot;https://www.flickr.com/photos/roland/tags/rolandtanglaoinfoviz&quot;&gt;https://www.flickr.com/photos/roland/tags/rolandtanglaoinfoviz&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;See also the shorter 500 character version of this bio: &lt;a href=&quot;https://devdilettante.com/@roland/109379149320287208&quot;&gt;https://devdilettante.com/@roland/109379149320287208&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
-
-&lt;p&gt;See my about page: &lt;a href=&quot;http://rolandtanglao.com/about/&quot;&gt;http://rolandtanglao.com/about/&lt;/a&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 20 Nov 2022 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2022/11/20/p1-my-bio-november-2022/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2022/11/20/p1-my-bio-november-2022/</guid>
         
         
       </item>
