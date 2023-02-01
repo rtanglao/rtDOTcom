@@ -10,3 +10,4 @@ title: "How I use ngrok over SSH on my MacBook Air to edit my blog on my Surface
 
 ### Previously
 * January 31, 2023: [How To get ngrok working with SSH on WSL](http://rolandtanglao.com/2023/01/31/p1-ngrok-ssh-wsl-var-run-nogin/)
+* February 5, 2020: [Stowe Boyd Building A Zettelkasten (notes that are: atomic, autonomous, linked, explain why, your own words, links to references) In Typora](http://rolandtanglao.com/2020/02/05/p1-stowe-boyd-building-a-zettelkasten-typora/)
