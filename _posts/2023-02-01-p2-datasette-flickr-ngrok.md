@@ -8,6 +8,7 @@ ngrok http 8001 --subdomain ryt-ds-flickr \
 --basic-auth="someuserid:somepassword"
 ```
 (userid: `datasette` password: `rocks+2023` <-- remove the "+" sign :-) ) 
+* NB: I am not sure how long this will remain up (at least until mid February 2023) because I not sure I can afford to pay for ngrok but we’ll see :-)
 
 ### Previously
 * February 1, 2023: [How I use ngrok over SSH on my MacBook Air to edit my blog on my Surface Book 2](http://rolandtanglao.com/2023/02/01/p1-ngrok-ssh-surfacebook2-edit-blog/)
