@@ -6,9 +6,33 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 01 Feb 2023 19:07:31 -0800</pubDate>
-    <lastBuildDate>Wed, 01 Feb 2023 19:07:31 -0800</lastBuildDate>
+    <pubDate>Wed, 01 Feb 2023 20:01:42 -0800</pubDate>
+    <lastBuildDate>Wed, 01 Feb 2023 20:01:42 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>How I use ngrok to put datasette for my flickr 2020 photo metadata on the internet</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;This is even more straightforward than using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ngrok&lt;/code&gt; for SSH :-) !
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ngrok http 8001 &lt;span class=&quot;nt&quot;&gt;--subdomain&lt;/span&gt; ryt-ds-flickr &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;--basic-auth&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;someuserid:somepassword&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;p&gt;(userid: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;datasette&lt;/code&gt; password: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rocks+2023&lt;/code&gt; &amp;lt;– remove the “+” sign :-) )&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;February 1, 2023: &lt;a href=&quot;http://rolandtanglao.com/2023/02/01/p1-ngrok-ssh-surfacebook2-edit-blog/&quot;&gt;How I use ngrok over SSH on my MacBook Air to edit my blog on my Surface Book 2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;May 15, 2022: &lt;a href=&quot;http://rolandtanglao.com/2022/05/15/p1-city-vancouverbc-accident-data-datasette-lite/&quot;&gt;City of Vancouver accident data on Datasette lite at lite.datasette.io&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 01 Feb 2023 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2023/02/01/p2-datasette-flickr-ngrok/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2023/02/01/p2-datasette-flickr-ngrok/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How I use ngrok over SSH on my MacBook Air to edit my blog on my Surface Book 2</title>
@@ -256,26 +280,6 @@ magick left-leg_artofwhere-gray-2019-20.png &lt;span class=&quot;nt&quot;&gt;-fu
         <pubDate>Tue, 29 Nov 2022 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2022/11/29/p1-make-art-of-wher-tights-with-gray-patches-and-pink-background/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2022/11/29/p1-make-art-of-wher-tights-with-gray-patches-and-pink-background/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Simon Willison: Massively increase your productivity on personal projects with comprehensive documentation and automated tests aka issue oriented development including tests for documentation!</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 26, 2022 09:30 &lt;a href=&quot;https://simonwillison.net/2022/Nov/26/productivity/&quot;&gt;Massively increase your productivity on personal projects with comprehensive documentation and automated tests&lt;/a&gt; &amp;lt;– QUOTE: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;With issue driven development you don’t have to remember anything about any of these projects at all. ...I’ve had issues where I did a bunch of design work in issue comments, then dropped it, then came back 12 months later and implemented that design—without having to rethink it. ...I’ve had projects where I forgot that the project existed entirely! But I’ve found it again, and there’s been an open issue, and I’ve been able to pick up work again.&lt;/code&gt; &amp;lt;– Love this issue driven approach, maybe i should adopt this for my personal hobbyist projects !!!! Seems like a lot of common sense that would also apply to work software projects; in particular failing tests if the docs aren’t written!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;August 2021: &lt;a href=&quot;http://rolandtanglao.com/2021/08/08/p1-spreadsheet-bugs-caused-1500-to-die-in-england-need-tests/&quot;&gt;Tim  Harford (via Simon Willison) The Tyranny of Spreadsheets &amp;lt;— don’t  use them in life and death situations &amp;lt;– 1500 people died in England  because of spreadsheets &amp;lt;— real moral of the story is don’t use  anything in production without tests?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;January 2021: &lt;a href=&quot;http://rolandtanglao.com/2021/01/27/p1-test-driven-development-python-tutorial-anthony-shaw/&quot;&gt;Anthony Shaw: Getting Started With Testing in Python &amp;lt;– I’d like to do TDD in python, ruby and R someday :-)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sat, 26 Nov 2022 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2022/11/26/p1-simon-willison-issue-oriented-development-including-documentation-tests/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2022/11/26/p1-simon-willison-issue-oriented-development-including-documentation-tests/</guid>
         
         
       </item>
