@@ -64,12 +64,14 @@
   <article class="post-content">
     <ul>
   <li>This is even more straightforward than using <code class="language-plaintext highlighter-rouge">ngrok</code> for SSH :-) !
-    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ngrok http 8001 <span class="nt">--subdomain</span> ryt-ds-flickr <span class="se">\</span>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>datasette granian roland-flickr-2020.db
+<span class="c"># And then in another terminal tab:</span>
+ngrok http 8001 <span class="nt">--subdomain</span> ryt-ds-flickr <span class="se">\</span>
 <span class="nt">--basic-auth</span><span class="o">=</span><span class="s2">"someuserid:somepassword"</span>
 </code></pre></div>    </div>
     <p>(userid: <code class="language-plaintext highlighter-rouge">datasette</code> password: <code class="language-plaintext highlighter-rouge">rocks+2023</code> &lt;– remove the “+” sign :-) )</p>
   </li>
-  <li>NB: I am not sure how long this will remain up (at least until mid February 2023) because I not sure I can afford to pay for ngrok but we’ll see :-)</li>
+  <li>NB: I am not sure how long this will remain up (at least until mid February 2023) because I am not sure I can afford to pay for ngrok but we’ll see :-)</li>
 </ul>
 
 <h3 id="previously">Previously</h3>
