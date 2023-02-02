@@ -1,0 +1,18 @@
+I"�<ul>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Discovered Feb 2, 2023 09:40  [Software and its Discontents, Part 2: An Explosion of Complexity</td>
+          <td>Kellan Elliott-McCrea: Blog](https://laughingmeme.org/2023/01/23/software-and-its-discontents-part-2-complexity.html) &lt;– READ the WHOLE thing and of course parts 1, 3 and 4! tl;dr Every software teams builds a complex, custom stack out of open source parts so it’s super difficult for new people now matter how expert.  –&gt; QUOTE: <code class="language-plaintext highlighter-rouge">Anyone joining a company today is looking at a stack that is at least as bespoke as the worst Not-Invented-Here stacks of the previous era. Rails was Rails, LAMP was LAMP, and while Vercel is better than anything we built for ourselves during that earlier era, it comes with a full manual, and its own quirks...Not only is each stack novel to each new team member this cross product of complexity means we have fewer mavens and experts. At Etsy when we needed to scale PHP we could hire Rasmus. Very few teams these days can find that kind of expert, and fewer of those experts will have seen the relevant scale on that exact stack. </code></td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
+<h3 id="previously">Previously</h3>
+<ul>
+  <li>November 2021, <a href="http://rolandtanglao.com/2021/11/07/p1-programming-sucks-peter-welch-from-2014/">Peter Welch from 2014: Programming Sucks&lt;— it does until it doesn’t :-) i.e. we get secure verified software for all layers and components and something better than spreadsheets for so-called ‘non programmers’</a></li>
+</ul>
+:ET

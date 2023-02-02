@@ -6,9 +6,27 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 02 Feb 2023 09:49:44 -0800</pubDate>
-    <lastBuildDate>Thu, 02 Feb 2023 09:49:44 -0800</lastBuildDate>
+    <pubDate>Thu, 02 Feb 2023 10:46:56 -0800</pubDate>
+    <lastBuildDate>Thu, 02 Feb 2023 10:46:56 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Software and its Discontents, Part 2: An Explosion of Complexity | Kellan Elliott-McCrea &lt;-- we build custom, complex software stacks which makes it unnecessarily hard for new developers</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Feb 2, 2023 09:40  &lt;a href=&quot;https://laughingmeme.org/2023/01/23/software-and-its-discontents-part-2-complexity.html&quot;&gt;Software and its Discontents, Part 2: An Explosion of Complexity Kellan Elliott-McCrea&lt;/a&gt; &amp;lt;– READ the WHOLE thing and of course parts 1, 3 and 4! tl;dr Every software team builds a complex, custom stack out of open source parts so it’s super difficult for new people now matter how expert.  –&amp;gt; QUOTE: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Anyone joining a company today is looking at a stack that is at least as bespoke as the worst Not-Invented-Here stacks of the previous era. Rails was Rails, LAMP was LAMP, and while Vercel is better than anything we built for ourselves during that earlier era, it comes with a full manual, and its own quirks...Not only is each stack novel to each new team member this cross product of complexity means we have fewer mavens and experts. At Etsy when we needed to scale PHP we could hire Rasmus. Very few teams these days can find that kind of expert, and fewer of those experts will have seen the relevant scale on that exact stack. &lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;November 2021, &lt;a href=&quot;http://rolandtanglao.com/2021/11/07/p1-programming-sucks-peter-welch-from-2014/&quot;&gt;Peter Welch from 2014: Programming Sucks&amp;lt;— it does until it doesn’t :-) i.e. we get secure verified software for all layers and components and something better than spreadsheets for so-called ‘non programmers’&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 02 Feb 2023 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2023/02/02/p1-kellan-elliott-mccrea-software-and-its-scontents-part2-explosion-complexity/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2023/02/02/p1-kellan-elliott-mccrea-software-and-its-scontents-part2-explosion-complexity/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How I use ngrok to put datasette for my flickr 2020 photo metadata on the internet</title>
@@ -227,62 +245,6 @@ ngrok http 8001 &lt;span class=&quot;nt&quot;&gt;--subdomain&lt;/span&gt; ryt-ds
         <pubDate>Sat, 03 Dec 2022 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2022/12/03/p1-how-to-add-libffi6-to-github-actions/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2022/12/03/p1-how-to-add-libffi6-to-github-actions/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Make artofwhere tights with gray patches and pink aka adventures in issue oriented development </title>
-        <description>&lt;ul class=&quot;task-list&quot;&gt;
-  &lt;li&gt;
-    &lt;p&gt;See &lt;a href=&quot;https://github.com/rtanglao/rt-flickr-sqlite-csv/issues/1&quot;&gt;rt-flickr-sqlite-csv issue #1, Make artofwhere tights with gray patches and pink&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Copy and Pasted from github for future reference&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Make gray legs
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; /Users/roland/Documents/GIT/rt-flickr-sqlite-csv/GRAY_ONLY_75PX_BY_75PX_PATCHES
-&lt;span class=&quot;nb&quot;&gt;mkdir &lt;/span&gt;GRAY_PATCHES_WITH_PINK_BACKGROUND 
-&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;GRAY_PATCHES_WITH_PINK_BACKGROUND
-find .. &lt;span class=&quot;nt&quot;&gt;-name&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'gray_only_geomencircle_second_of_day_no_theme_no_caption_roland_flickr_2019_2020.pn*.jpg'&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;-print&lt;/span&gt;  | &lt;span class=&quot;nb&quot;&gt;shuf&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; 3825 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; right-leg-shuffled-3825-gray-2019-20-jpgs.txt
-find .. &lt;span class=&quot;nt&quot;&gt;-name&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'gray_only_geomencircle_second_of_day_no_theme_no_caption_roland_flickr_2019_2020.pn*.jpg'&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;-print&lt;/span&gt;  | &lt;span class=&quot;nb&quot;&gt;shuf&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; 3825 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; left-leg-shuffled-3825-gray-2019-20-jpgs.txt
-montage &lt;span class=&quot;nt&quot;&gt;-verbose&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-tile&lt;/span&gt; 45x85 +frame +shadow +label &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;-geometry&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'75x75+0+0&amp;lt;'&lt;/span&gt; @right-leg-shuffled-3825-gray-2019-20-jpgs.txt &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-right-leg_artofwhere-gray-2019-20.png
-montage &lt;span class=&quot;nt&quot;&gt;-verbose&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-tile&lt;/span&gt; 45x85 +frame +shadow +label &lt;span class=&quot;nt&quot;&gt;-adjoin&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;-geometry&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'75x75+0+0&amp;lt;'&lt;/span&gt; @left-leg-shuffled-3825-gray-2019-20-jpgs.txt &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-left-leg_artofwhere-gray-2019-20.png
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Change the background colour to pink
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;magick right-leg_artofwhere-gray-2019-20.png &lt;span class=&quot;nt&quot;&gt;-fuzz&lt;/span&gt; 25% &lt;span class=&quot;nt&quot;&gt;-fill&lt;/span&gt; pink &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;-opaque&lt;/span&gt; white &lt;span class=&quot;nt&quot;&gt;-flatten&lt;/span&gt; pink-background-right-leg_artofwhere-gray-2019-20.png
-magick left-leg_artofwhere-gray-2019-20.png &lt;span class=&quot;nt&quot;&gt;-fuzz&lt;/span&gt; 25% &lt;span class=&quot;nt&quot;&gt;-fill&lt;/span&gt; pink &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;-opaque&lt;/span&gt; white &lt;span class=&quot;nt&quot;&gt;-flatten&lt;/span&gt; pink-background-left-leg_artofwhere-gray-2019-20.png
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;Upload to Art of Where - DONE ! Order &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;du9w3h&lt;/code&gt;, GET YOURS TODAY :-) -&amp;gt; &lt;a href=&quot;https://artofwhere.com/artists/roland-tanglao/clothing/leggings/5819934&quot;&gt;https://artofwhere.com/artists/roland-tanglao/clothing/leggings/5819934&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;finished-graphics&quot;&gt;Finished Graphics:&lt;/h3&gt;
-
-&lt;p&gt;Left Leg:&lt;/p&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/52533121870/in/dateposted-public/&quot; title=&quot;pink-background-left-leg_artofwhere-gray-2019-20&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/52533121870_edb80f65e9_w.jpg&quot; width=&quot;212&quot; height=&quot;400&quot; alt=&quot;pink-background-left-leg_artofwhere-gray-2019-20&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;Right Leg:&lt;/p&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/52532929359/in/dateposted-public/&quot; title=&quot;pink-background-right-leg_artofwhere-gray-2019-20&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/52532929359_8a48f3cda3_w.jpg&quot; width=&quot;212&quot; height=&quot;400&quot; alt=&quot;pink-background-right-leg_artofwhere-gray-2019-20&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;November 26, 2022: &lt;a href=&quot;http://rolandtanglao.com/2022/11/26/p1-simon-willison-issue-oriented-development-including-documentation-tests/&quot;&gt;Simon  Willison: Massively increase your productivity on personal projects  with comprehensive documentation and automated tests aka issue oriented  development including tests for documentation!&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 29 Nov 2022 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2022/11/29/p1-make-art-of-wher-tights-with-gray-patches-and-pink-background/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2022/11/29/p1-make-art-of-wher-tights-with-gray-patches-and-pink-background/</guid>
         
         
       </item>
