@@ -9,7 +9,7 @@ datasette granian roland-flickr-2020.db
 ngrok http 8001 --subdomain ryt-ds-flickr \
 --basic-auth="someuserid:somepassword"
 ```
-(userid: `datasette` password: `rocks+2023` <-- remove the "+" sign :-) ) 
+* Here's the url for those who want to check it out: <https://ryt-ds-flickr.ngrok.io/> (userid: `datasette` password: `rocks+2023` <-- remove the "+" sign :-) ) 
 * NB: I am not sure how long this will remain up (at least until mid February 2023) because I am not sure I can afford to pay for ngrok but we’ll see :-)
 
 ### Previously

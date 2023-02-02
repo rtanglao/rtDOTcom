@@ -6,8 +6,8 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 02 Feb 2023 10:50:12 -0800</pubDate>
-    <lastBuildDate>Thu, 02 Feb 2023 10:50:12 -0800</lastBuildDate>
+    <pubDate>Thu, 02 Feb 2023 11:13:23 -0800</pubDate>
+    <lastBuildDate>Thu, 02 Feb 2023 11:13:23 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -37,8 +37,8 @@
 ngrok http 8001 &lt;span class=&quot;nt&quot;&gt;--subdomain&lt;/span&gt; ryt-ds-flickr &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;--basic-auth&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;someuserid:somepassword&quot;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-    &lt;p&gt;(userid: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;datasette&lt;/code&gt; password: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rocks+2023&lt;/code&gt; &amp;lt;– remove the “+” sign :-) )&lt;/p&gt;
   &lt;/li&gt;
+  &lt;li&gt;Here’s the url for those who want to check it out: &lt;a href=&quot;https://ryt-ds-flickr.ngrok.io/&quot;&gt;https://ryt-ds-flickr.ngrok.io/&lt;/a&gt; (userid: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;datasette&lt;/code&gt; password: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rocks+2023&lt;/code&gt; &amp;lt;– remove the “+” sign :-) )&lt;/li&gt;
   &lt;li&gt;NB: I am not sure how long this will remain up (at least until mid February 2023) because I am not sure I can afford to pay for ngrok but we’ll see :-)&lt;/li&gt;
 &lt;/ul&gt;
 
