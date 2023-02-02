@@ -6,14 +6,14 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 02 Feb 2023 10:46:56 -0800</pubDate>
-    <lastBuildDate>Thu, 02 Feb 2023 10:46:56 -0800</lastBuildDate>
+    <pubDate>Thu, 02 Feb 2023 10:50:12 -0800</pubDate>
+    <lastBuildDate>Thu, 02 Feb 2023 10:50:12 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
         <title>Software and its Discontents, Part 2: An Explosion of Complexity | Kellan Elliott-McCrea &lt;-- we build custom, complex software stacks which makes it unnecessarily hard for new developers</title>
         <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Feb 2, 2023 09:40  &lt;a href=&quot;https://laughingmeme.org/2023/01/23/software-and-its-discontents-part-2-complexity.html&quot;&gt;Software and its Discontents, Part 2: An Explosion of Complexity Kellan Elliott-McCrea&lt;/a&gt; &amp;lt;– READ the WHOLE thing and of course parts 1, 3 and 4! tl;dr Every software team builds a complex, custom stack out of open source parts so it’s super difficult for new people now matter how expert.  –&amp;gt; QUOTE: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Anyone joining a company today is looking at a stack that is at least as bespoke as the worst Not-Invented-Here stacks of the previous era. Rails was Rails, LAMP was LAMP, and while Vercel is better than anything we built for ourselves during that earlier era, it comes with a full manual, and its own quirks...Not only is each stack novel to each new team member this cross product of complexity means we have fewer mavens and experts. At Etsy when we needed to scale PHP we could hire Rasmus. Very few teams these days can find that kind of expert, and fewer of those experts will have seen the relevant scale on that exact stack. &lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Feb 2, 2023 09:40  &lt;a href=&quot;https://laughingmeme.org/2023/01/23/software-and-its-discontents-part-2-complexity.html&quot;&gt;Software and its Discontents, Part 2: An Explosion of Complexity Kellan Elliott-McCrea&lt;/a&gt; &amp;lt;– READ the WHOLE thing and of course parts 1, 3 and 4! tl;dr Every software team builds a complex, custom stack out of open source parts so it’s super difficult for new people no matter how expert.  –&amp;gt; QUOTE: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Anyone joining a company today is looking at a stack that is at least as bespoke as the worst Not-Invented-Here stacks of the previous era. Rails was Rails, LAMP was LAMP, and while Vercel is better than anything we built for ourselves during that earlier era, it comes with a full manual, and its own quirks...Not only is each stack novel to each new team member this cross product of complexity means we have fewer mavens and experts. At Etsy when we needed to scale PHP we could hire Rasmus. Very few teams these days can find that kind of expert, and fewer of those experts will have seen the relevant scale on that exact stack. &lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
