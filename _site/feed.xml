@@ -6,8 +6,8 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 02 Feb 2023 11:13:23 -0800</pubDate>
-    <lastBuildDate>Thu, 02 Feb 2023 11:13:23 -0800</lastBuildDate>
+    <pubDate>Sat, 04 Feb 2023 09:17:27 -0800</pubDate>
+    <lastBuildDate>Sat, 04 Feb 2023 09:17:27 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -82,6 +82,7 @@ ngrok http 8001 &lt;span class=&quot;nt&quot;&gt;--subdomain&lt;/span&gt; ryt-ds
         <title>How To get ngrok working with SSH on WSL</title>
         <description>&lt;ul&gt;
   &lt;li&gt;Having lots of fun testing ngrok. As of today, here’s how I was able to get ngrok working with ssh from macOS to WSL (DISCLAIMER: Step 3 may not be kosher :-) ! The following is unsupported and use at your own risk! Please be careful!):&lt;/li&gt;
+  &lt;li&gt;0. Start the ssh service in WSL e.g. on ubuntu &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo systemctl enable ssh&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;1. Generate an SSH Key on your mac (I used the github directions:&lt;a href=&quot;https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent&quot;&gt;Generating a new SSH key and adding it to the ssh-agent&lt;/a&gt; and of course used &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*.tcp.ngrok.io&lt;/code&gt; instead of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*.github.com&lt;/code&gt;), let’s call it &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wsl2&lt;/code&gt;. This key must have a passphrase or it won’t work. Add it to the keychain.&lt;/li&gt;
   &lt;li&gt;2. Copy the public key to the WSL machine e.g. using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;croc&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;croc ~/.ssh/wsl2.pub&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;3. Rename the nologin file to allow logins to WSL (Otherwise ssh will fail  with a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pam_nologin&lt;/code&gt; error):
