@@ -1,0 +1,12 @@
+I"�<ul>
+  <li>Discovered: Feb 5, 2023. 00:31 SoftCreatR’s<a href="https://github.com/SoftCreatR/imei/">imei</a> aka Imagemagick easy install fixed my jpeg delegate issues on debian bullseye Raspberry Pi 400 found via SO: <a href="https://askubuntu.com/questions/1216469/what-is-simplest-process-to-get-imagemagick-7-with-png-support-on-ubuntu">What is simplest process to get ImageMagick 7 with PNG support</a>. I just followed the <a href="https://github.com/SoftCreatR/imei/#one-step-automated-install">One Step Automated Install</a>, namely:
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">t</span><span class="o">=</span><span class="si">$(</span><span class="nb">mktemp</span><span class="si">)</span> <span class="o">&amp;&amp;</span> <span class="se">\</span>
+wget <span class="s1">'https://dist.1-2.dev/imei.sh'</span> <span class="nt">-qO</span> <span class="s2">"</span><span class="nv">$t</span><span class="s2">"</span> <span class="o">&amp;&amp;</span> <span class="se">\</span>
+bash <span class="s2">"</span><span class="nv">$t</span><span class="s2">"</span> <span class="o">&amp;&amp;</span> <span class="se">\</span>
+<span class="nb">rm</span> <span class="s2">"</span><span class="nv">$t</span><span class="s2">"</span>
+</code></pre></div>    </div>
+    <h3 id="previously">Previously</h3>
+  </li>
+  <li>April 26, 2021 <a href="http://rolandtanglao.com/2021/04/26/p1-how-to-install-imagemagick-ubuntu-2004-jpeg-png-tiff-delegates/">How To install Imagemagick on Ubuntu 20.04 with JPG, PNG and TIFF support aka ‘delegates’? Why isn’t this in the default install?</a> &lt;– This didn’t work for me on my Rapsberry Pi 400 running Debian bullseye in 2023!</li>
+</ul>
+:ET

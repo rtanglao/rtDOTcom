@@ -6,9 +6,30 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 04 Feb 2023 09:17:27 -0800</pubDate>
-    <lastBuildDate>Sat, 04 Feb 2023 09:17:27 -0800</lastBuildDate>
+    <pubDate>Sun, 05 Feb 2023 09:34:54 -0800</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2023 09:34:54 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>SoftCreatR's Imagemagick Easy install for Ubuntu and Debian aka 'imei' worked for me on my Raspberry Pi 400 running Debian bullseye</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Feb 5, 2023. 00:31 SoftCreatR’s &lt;a href=&quot;https://github.com/SoftCreatR/imei/&quot;&gt;imei&lt;/a&gt; aka &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Imagemagick easy install&lt;/code&gt; fixed my jpeg delegate issues on debian bullseye running on a Raspberry Pi 400. Found via Stack Overflow: &lt;a href=&quot;https://askubuntu.com/questions/1216469/what-is-simplest-process-to-get-imagemagick-7-with-png-support-on-ubuntu&quot;&gt;What is simplest process to get ImageMagick 7 with PNG support&lt;/a&gt;. I just followed the &lt;a href=&quot;https://github.com/SoftCreatR/imei/#one-step-automated-install&quot;&gt;One Step Automated Install&lt;/a&gt;, namely:
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;mktemp&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+wget &lt;span class=&quot;s1&quot;&gt;'https://dist.1-2.dev/imei.sh'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-qO&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$t&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+bash &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$t&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$t&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+  &lt;/li&gt;
+  &lt;li&gt;April 26, 2021 &lt;a href=&quot;http://rolandtanglao.com/2021/04/26/p1-how-to-install-imagemagick-ubuntu-2004-jpeg-png-tiff-delegates/&quot;&gt;How To install Imagemagick on Ubuntu 20.04 with JPG, PNG and TIFF support aka ‘delegates’? Why isn’t this in the default install?&lt;/a&gt; &amp;lt;– This didn’t work for me on my Rapsberry Pi 400 running Debian bullseye in 2023!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 05 Feb 2023 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2023/02/05/p1-softcreatr-imagemagick-easy-install-ubuntu-debian-how-to/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2023/02/05/p1-softcreatr-imagemagick-easy-install-ubuntu-debian-how-to/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Software and its Discontents, Part 2: An Explosion of Complexity | Kellan Elliott-McCrea &lt;-- we build custom, complex software stacks which makes it unnecessarily hard for new developers</title>
@@ -213,39 +234,6 @@ ngrok http 8001 &lt;span class=&quot;nt&quot;&gt;--subdomain&lt;/span&gt; ryt-ds
         <pubDate>Sat, 10 Dec 2022 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2022/12/10/p1-tailscale-funnel-ideal-for-home-hosted-experimental-software/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2022/12/10/p1-tailscale-funnel-ideal-for-home-hosted-experimental-software/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How To: Make libffi6 work with Github actions and Ubuntu 22.04 and Ubuntu 20.04</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-kits-api3/actions/runs/3584193643/jobs/6030554003&quot;&gt;A few days ago&lt;/a&gt; my Github Action for rt-kits-api3 broke because the default operating system for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ubuntu-latest&lt;/code&gt; changed to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;22.04.1&lt;/code&gt; from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;18.04&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;The easy way to fix this was to change &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ubuntu-latest&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ubuntu-18.04&lt;/code&gt; but that will break in April 2023.&lt;/li&gt;
-  &lt;li&gt;The proper way to fix it for now until the ruby &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ffi&lt;/code&gt; gem is fixed to work with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libffi7&lt;/code&gt; is to install &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libffi6&lt;/code&gt; (alongside &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libffi7&lt;/code&gt;; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libffi6&lt;/code&gt; is not part of Ubuntu 22.04 and 20.04 by default) manually using the following yaml in the &lt;a href=&quot;https://github.com/rtanglao/rt-kits-api3/blob/main/.github/workflows/getffquestions.yml&quot;&gt;Github Actions file&lt;/a&gt;:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Install libffi6&lt;/span&gt;
-      &lt;span class=&quot;s&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;|-&lt;/span&gt;
-        &lt;span class=&quot;s&quot;&gt;curl -LO http://archive.ubuntu.com/ubuntu/pool/main/libf/libffi/libffi6_3.2.1-8_amd64.deb&lt;/span&gt;
-        &lt;span class=&quot;s&quot;&gt;sudo dpkg -i libffi6_3.2.1-8_amd64.deb&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;There has to  be a better way :-) but I couldn’t find one! Maybe upgrading to Ruby 3.x from 2.7.x would fix it?&lt;/li&gt;
-  &lt;li&gt;For full details, see: &lt;a href=&quot;https://github.com/rtanglao/rt-kits-api3/issues/2#top&quot;&gt;fix libffi7 issue before March 2023 when ubuntu 18.04 is deprecated #2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;March 13, 2022: &lt;a href=&quot;http://rolandtanglao.com/2022/03/13/p1-free-computing-considered-harmful-band-for-environment/&quot;&gt;Free  computing e.g. at github actions isn’t free; free cloud computing  considered harmful (because environment: see  Steven Gonzalez Monserrate  January 27, 2022: The Cloud Is Material: On the Environmental Impacts  of Computation and Data Storage via The Staggering Ecological Impacts of  Computation and the Cloud via Kottke&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;March 14, 2021:  &lt;a href=&quot;http://rolandtanglao.com/2021/03/14/p1-github-actions-broke-ruby-dependency-no-local-debugging/&quot;&gt;On  March 3, 2021 Github action in rt-kits-api3 to get Firefox support  questions broke because ruby gem ffi-1.13.1 wasn’t found, fix:change  Gemfile ffi version to 1.15.0&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;October 18, 2020: &lt;a href=&quot;http://rolandtanglao.com/2020/10/18/p1-github-actions-super-great-yaml-is-super-confusing/&quot;&gt;Github Actions are super powerful and yaml is super confusing&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 03 Dec 2022 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2022/12/03/p1-how-to-add-libffi6-to-github-actions/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2022/12/03/p1-how-to-add-libffi6-to-github-actions/</guid>
         
         
       </item>
