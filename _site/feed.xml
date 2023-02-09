@@ -6,8 +6,8 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 07 Feb 2023 22:20:54 -0800</pubDate>
-    <lastBuildDate>Tue, 07 Feb 2023 22:20:54 -0800</lastBuildDate>
+    <pubDate>Wed, 08 Feb 2023 18:30:25 -0800</pubDate>
+    <lastBuildDate>Wed, 08 Feb 2023 18:30:25 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -58,8 +58,16 @@
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+
 &lt;ul&gt;
+  &lt;li&gt;See also:
+    &lt;ul&gt;
+      &lt;li&gt;SO: &lt;a href=&quot;https://stackoverflow.com/questions/1077041/refresh-image-with-a-new-one-at-the-same-url&quot;&gt;Refresh image with a new one at the same url&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;SO:&lt;a href=&quot;https://stackoverflow.com/questions/436411/where-should-i-put-script-tags-in-html-markup&quot;&gt;Where should I put &amp;lt;script&amp;gt; tags in HTML markup?&lt;/a&gt; &amp;lt;– if I understand the following quote: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Unlike async scripts, defer scripts are only executed after the entire document has been loaded&lt;/code&gt;, it looks like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;defer&lt;/code&gt; might be a better solution?!?
+        &lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;April 2011: &lt;a href=&quot;http://rolandtanglao.com/2011/04/25/penmachine-dodging-buses-barcode-video-and-html5-web-app/&quot;&gt;penmachine dodging buses barcode video &amp;amp; HTML5 Web App&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>

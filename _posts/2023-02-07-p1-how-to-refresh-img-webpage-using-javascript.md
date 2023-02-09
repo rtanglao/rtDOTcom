@@ -47,5 +47,9 @@ async function loop() {
 </body>
 </html>
 ```
+
+* See also:
+   * SO: [Refresh image with a new one at the same url](https://stackoverflow.com/questions/1077041/refresh-image-with-a-new-one-at-the-same-url)
+    * SO:[Where should I put &lt;script> tags in HTML markup?](https://stackoverflow.com/questions/436411/where-should-i-put-script-tags-in-html-markup) <-- if I understand the following quote: `Unlike async scripts, defer scripts are only executed after the entire document has been loaded`, it looks like `defer` might be a better solution?!?
 ### Previously
 * April 2011: [penmachine dodging buses barcode video & HTML5 Web App](http://rolandtanglao.com/2011/04/25/penmachine-dodging-buses-barcode-video-and-html5-web-app/)
