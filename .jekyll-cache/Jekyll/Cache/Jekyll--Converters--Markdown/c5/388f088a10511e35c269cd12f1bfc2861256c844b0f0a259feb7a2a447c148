@@ -1,0 +1,61 @@
+I"<ul>
+  <li>The <code class="language-plaintext highlighter-rouge">script</code> tag has to be after the <code class="language-plaintext highlighter-rouge">img</code> tag or this won’t work! Big thanks to <a href="https://yoric.github.io/">Yoric</a> and <a href="https://brendan.abolivier.bzh/">Brendan</a> for the code!</li>
+</ul>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!doctype html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+<span class="nt">&lt;head&gt;</span>
+<span class="nt">&lt;title&gt;</span>Worldwide Flickr Barcode<span class="nt">&lt;/title&gt;</span>
+<span class="nt">&lt;script&gt;</span>
+<span class="k">async</span> <span class="kd">function</span> <span class="nx">loop</span><span class="p">()</span> <span class="p">{</span>
+  <span class="c1">// Our `</span><span class="o">&lt;</span><span class="nx">img</span><span class="o">&gt;</span><span class="s2">`.
+  let img = document.getElementById("barcode");
+
+  // The url of the data that we download. Initially, we haven't downloaded any data,
+  // so `</span><span class="kc">null</span><span class="s2">`.
+  let objectURL = null;
+
+  while (true) {
+    // Wait 5 seconds.
+    await new Promise(resolve =&gt; setTimeout(resolve, 5000));
+
+    // Get the data.
+    let response = await fetch("https://rytbarcode.ngrok.io/barcode.png", { cache: 'no-cache' });
+
+    // For images, we want the response as a blob (Binary Large Object)
+    let blob = await response.blob();
+    if (objectURL) {
+      // If we already have data, clean up the memory.
+      URL.revokeObjectURL(objectURL);
+    }
+
+    // Convert the blob into a URL.
+    objectURL = URL.createObjectURL(blob);
+
+    // ...and point the `</span><span class="o">&lt;</span><span class="nx">img</span><span class="o">&gt;</span><span class="s2">` to this image.
+    img.setAttribute("src", objectURL); 
+  }
+}
+</span><span class="nt">&lt;/script&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+<span class="nt">&lt;img</span> <span class="na">id=</span><span class="s">"barcode"</span><span class="nt">/&gt;</span>
+<span class="nt">&lt;script&gt;</span><span class="nx">loop</span><span class="p">();</span><span class="nt">&lt;/script&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<ul>
+  <li>See also:
+    <ul>
+      <li>SO: <a href="https://stackoverflow.com/questions/1077041/refresh-image-with-a-new-one-at-the-same-url">Refresh image with a new one at the same url</a></li>
+      <li>SO:<a href="https://stackoverflow.com/questions/436411/where-should-i-put-script-tags-in-html-markup">Where should I put &lt;script&gt; tags in HTML markup?</a> &lt;– if I understand the following quote: <code class="language-plaintext highlighter-rouge">Unlike async scripts, defer scripts are only executed after the entire document has been loaded</code>, it looks like <code class="language-plaintext highlighter-rouge">defer</code> might be a better solution?!?</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="previously">Previously</h3>
+<ul>
+  <li>April 2011: <a href="http://rolandtanglao.com/2011/04/25/penmachine-dodging-buses-barcode-video-and-html5-web-app/">penmachine dodging buses barcode video &amp; HTML5 Web App</a></li>
+</ul>
+:ET
