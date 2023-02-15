@@ -6,9 +6,32 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 10 Feb 2023 07:39:38 -0800</pubDate>
-    <lastBuildDate>Fri, 10 Feb 2023 07:39:38 -0800</lastBuildDate>
+    <pubDate>Tue, 14 Feb 2023 17:30:48 -0800</pubDate>
+    <lastBuildDate>Tue, 14 Feb 2023 17:30:48 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>March 2, 2019: has the current podcast boom busted yet? Fast forward to February 13, 2023 and yes it has!</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://devdilettante.com/@roland/109861838400394346&quot;&gt;ME :-) “It’s March 2, 2019: has the current podcast boom busted yet?http://rolandtanglao.com/2019/03/02/p1-is-the-current-podcast-boom-over-yet/ Fast forward to February 13, 2023 and yes it has! https://www.semafor.com/article/02/12/2023/how-spotifys-podcast-bet-went-wrong” - Roland’s Mastodon&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.semafor.com/article/02/12/2023/how-spotifys-podcast-bet-went-wrong&quot;&gt;How Spotify’s podcast bet went wrong&lt;/a&gt; –&amp;gt; QUOTE: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Spotify was a one-company podcast bubble. Its drastic cuts have triggered a podcast winter, as the small studios it helped support consolidate and lavish narrative productions wane. But rivals from tech giants Amazon and Apple to the radio company iHeart have found better returns on more cautious bets. Spotify’s pivot has more in common with the recent cuts to Hollywood’s spending on streaming television.&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Spotify’s “podcasts” are not really podcasts but I think the collapse has started for sure.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;March 2, 2019: &lt;a href=&quot;http://rolandtanglao.com/2019/03/02/p1-is-the-current-podcast-boom-over-yet/&quot;&gt;It’s March 2, 2019: has the current podcast boom busted yet?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 14 Feb 2023 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2023/02/14/the-podcast-boom-has-busted-spotify/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2023/02/14/the-podcast-boom-has-busted-spotify/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Inspired by Darren and Derek, I created a real-time daily flickr worldwide barcode website using ruby, a rust static web server and ngrok</title>
@@ -517,27 +540,6 @@ ngrok http 8001 &lt;span class=&quot;nt&quot;&gt;--subdomain&lt;/span&gt; ryt-ds
         <pubDate>Fri, 30 Dec 2022 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2022/12/30/p1-happy-new-year-2023/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2022/12/30/p1-happy-new-year-2023/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Journalism is a public good. Let the public make it. - Columbia Journalism Review &lt;- We are all journalists and software developers</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 25, 2022 19:29 &lt;a href=&quot;https://www.cjr.org/special_report/journalism-power-public-good-community-infrastructure.php&quot;&gt;Journalism is a public good. Let the public make it. - Columbia Journalism Review&lt;/a&gt; &amp;lt;— everybody can and should be a journalist like everybody can should be a software developer using things like spreadsheets! –&amp;gt; QUOTE: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;The people of Rio de Janeiro have developed one of my favorite things: a simple solution to a complex problem. Here, we had a problem of monumental importance, that everyone enjoying the beach that day could understand but no one could have solved on their own. It wasn’t about the tall man playing the lead role, or the first person to start clapping, or the frantic parent. The best response to the crisis of a child lost on a beach is not to ask a few people to mount a search for a parent. It is simply to get more people involved, at a level at which everyone is willing and able to participate; it is to draw power from the crowd, rather than rely on a small group.&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;October 2018: &lt;a href=&quot;http://rolandtanglao.com/2018/10/05/p1-marriage-of-convenience-between-advertising-and-journalism-broken/&quot;&gt;Steve Yelvington: The marriage of convenience that has existed between journalism and advertising has been broken.&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;October 2017: &lt;a href=&quot;http://rolandtanglao.com/2017/12/07/p1-Jay-Rosen-Erin-Millar-The-Correspondent-Discourse-Media/&quot;&gt;Future  of Journalism and Media: Erin Millar and Discourse (fund them now for  $250 by Dec 21, 2017), Jay Rosen of PressThink and The Correspondent  (future USA arm of Dutch De Correspondent)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;January 2007: &lt;a href=&quot;http://rolandtanglao.com/2007/01/08/instant-journalists-and-citizen-journalists-often-have-the-real-story-when-it-comes-to-technology/&quot;&gt; “Instant Journalists” and citizen journalists often have the real story when it comes to technology&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 28 Dec 2022 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2022/12/28/p1-journalism-public-good-lets-all-make-journalism-and-software/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2022/12/28/p1-journalism-public-good-lets-all-make-journalism-and-software/</guid>
         
         
       </item>
