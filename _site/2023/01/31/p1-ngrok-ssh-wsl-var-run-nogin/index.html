@@ -65,7 +65,11 @@
     <ul>
   <li>Having lots of fun testing ngrok. As of today, here’s how I was able to get ngrok working with ssh from macOS to WSL (DISCLAIMER: Step 3 may not be kosher :-) ! The following is unsupported and use at your own risk! Please be careful!):</li>
   <li>0. Start the ssh service in WSL e.g. on ubuntu <code class="language-plaintext highlighter-rouge">sudo systemctl enable ssh</code></li>
-  <li>1. Generate an SSH Key on your mac (I used the github directions:<a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent">Generating a new SSH key and adding it to the ssh-agent</a> and of course used <code class="language-plaintext highlighter-rouge">*.tcp.ngrok.io</code> instead of <code class="language-plaintext highlighter-rouge">*.github.com</code>), let’s call it <code class="language-plaintext highlighter-rouge">wsl2</code>. This key must have a passphrase or it won’t work. Add it to the keychain.</li>
+  <li>1. Generate an SSH Key on your mac (I used the github directions:<a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent">Generating a new SSH key and adding it to the ssh-agent</a> and of course used <code class="language-plaintext highlighter-rouge">*.tcp.ngrok.io</code> instead of <code class="language-plaintext highlighter-rouge">*.github.com</code>), let’s call it <code class="language-plaintext highlighter-rouge">wsl2</code>. This key must have a passphrase or it won’t work.
+    <ul>
+      <li>Add it to the keychain: <code class="language-plaintext highlighter-rouge">ssh-add -K ~/.ssh/wsl2</code> &lt;- from SO: <a href="https://apple.stackexchange.com/questions/48502/how-can-i-permanently-add-my-ssh-private-key-to-keychain-so-it-is-automatically">How can I permanently add my SSH private key to Keychain so it is automatically available to ssh?</a></li>
+    </ul>
+  </li>
   <li>2. Copy the public key to the WSL machine e.g. using <code class="language-plaintext highlighter-rouge">croc</code> <code class="language-plaintext highlighter-rouge">croc ~/.ssh/wsl2.pub</code></li>
   <li>3. Rename the nologin file to allow logins to WSL (Otherwise ssh will fail  with a <code class="language-plaintext highlighter-rouge">pam_nologin</code> error):
     <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo mv</span> /var/run/nologin /var/run/2023-01-31-renamed-nologin
