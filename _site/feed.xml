@@ -6,12 +6,12 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 17 Feb 2023 17:14:57 -0800</pubDate>
-    <lastBuildDate>Fri, 17 Feb 2023 17:14:57 -0800</lastBuildDate>
+    <pubDate>Fri, 17 Feb 2023 17:18:35 -0800</pubDate>
+    <lastBuildDate>Fri, 17 Feb 2023 17:18:35 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
-        <title>How To label an image with an emoji using ruby rmagick with imagemagick? A: Use XML escape e.g. &amp;x1234;</title>
+        <title>How To label an image with an emoji using ruby rmagick with imagemagick? A: Use XML escape e.g. &amp;x1234; with the pango text renderer</title>
         <description>&lt;ul&gt;
   &lt;li&gt;For my 3 followers :-) who want to create images with  emojis with ruby :-).&lt;/li&gt;
   &lt;li&gt;Sadly copying and pasting the emoji doesn’t work.&lt;/li&gt;

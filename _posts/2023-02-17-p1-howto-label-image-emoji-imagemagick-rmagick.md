@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How To label an image with an emoji using ruby rmagick with imagemagick? A: Use XML escape e.g. &x1234;"
+title: "How To label an image with an emoji using ruby rmagick with imagemagick? A: Use XML escape e.g. &x1234; with the pango text renderer"
 ---
 * For my 3 followers :-) who want to create images with  emojis with ruby :-). 
 * Sadly copying and pasting the emoji doesn't work.
