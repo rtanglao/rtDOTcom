@@ -19,4 +19,4 @@ image.write('pango.png')
 <https://gist.github.com/rtanglao/0d0e9c5a9dbd7ffae7825acd5544140c>
 
 ### Previously
-* March 2, 2019: [It's March 2, 2019: has the current podcast boom busted yet?](http://rolandtanglao.com/2019/03/02/p1-is-the-current-podcast-boom-over-yet/)
+* January 2, 2022: [What art should I make from the 25000 Firefox Support questions from 2021?](http://rolandtanglao.com/2022/01/02/p1-how-should-i-make-art-from-25000-firefox-support-questions-from-2021/)
