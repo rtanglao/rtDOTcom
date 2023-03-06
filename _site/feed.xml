@@ -6,9 +6,42 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 04 Mar 2023 08:34:04 -0800</pubDate>
-    <lastBuildDate>Sat, 04 Mar 2023 08:34:04 -0800</lastBuildDate>
+    <pubDate>Mon, 06 Mar 2023 07:15:56 -0800</pubDate>
+    <lastBuildDate>Mon, 06 Mar 2023 07:15:56 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Darren, thank you for your creating compellingly constantly!</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Vancouver has lost one of its most compelling creators: &lt;a href=&quot;https://darrenbarefoot.com/&quot;&gt;Darren Barefoot&lt;/a&gt;. See his last blog post: &lt;a href=&quot;https://darrenbarefoot.com/2023/02/25/they-were-all-splendid/&quot;&gt;They were all splendid&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;We in the tech community in Vancouver, Ireland, and beyond were lucky to have intersected with Darren and his life and work.&lt;/li&gt;
+  &lt;li&gt;I was privileged enough to have hung out with DB (and fabulous partner Julie) at the Northern Voice blogging conference and to be a co-organizer and attend so many NV meetings with him. So many great memories, so many great DB blog posts and words. e.g. May 2, 2016: &lt;a href=&quot;https://capulet.com/2016/05/02/2016-5-2-why-marketers-need-to-become-inventors/&quot;&gt;Why marketers need to become inventors&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;“I like to think my friend Roland &lt;a href=&quot;http://rolandtanglao.com/2004/07/31/anil-its-not-about-seo-its-about-creating-compelling-content-constantly/&quot;&gt;invented content strategy&lt;/a&gt; in the early 2000’s when he described his Four C’s: create compelling content constantly. Content strategy has, of course, been added to our long list of online marketing activities — media relations, SEO, email marketing, social media and so forth — that everyone does. We have to do these things just to keep up with our competitors. I call these ongoing daily marketing activities “heartbeats,” because they’re constant, reliable and they keep an organization’s outreach alive.”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Thanks DB. I miss you!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;February 9, 2023: &lt;a href=&quot;http://rolandtanglao.com/2023/02/09/p1-worldwide-flickr-barcode/&quot;&gt;Inspired by Darren and Derek, I created a real-time daily flickr worldwide barcode website using ruby, a rust static web server and ngrok&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;bonus-db-links&quot;&gt;Bonus DB links&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;DB and J at the Bryght offices, July 25, 2006: &lt;a href=&quot;https://flic.kr/p/iwUYV&quot;&gt;https://flic.kr/p/iwUYV&lt;/a&gt;
+&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/198412021/in/photolist-n7Dax-98TB-4bbxcB-62f98b-91DP-5yuH-4iyzk-i3UUL-5Z59b-j3F57-n7EeX-n7C72-n7DjW-i4U8w-8ZMZ7-iwUYV-4bbzgk-n7CYq-aLKv5-n7DRy-n7Dtx-n7Ce1-n7E3b-98TT-2BiY8D-n7DED-j2Yd7-9FLqy&quot; title=&quot;Darren and Julie - Roland in Vancouver (172)&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/63/198412021_0ad839a567_n.jpg&quot; width=&quot;320&quot; height=&quot;240&quot; alt=&quot;Darren and Julie - Roland in Vancouver (172)&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/li&gt;
+  &lt;li&gt;DB Feb 20, 2009 video: &lt;a href=&quot;https://flic.kr/p/62f98b&quot;&gt;The Internet has changed my life by allowing me to work remotely in Malta&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 06 Mar 2023 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2023/03/06/p1-darren-barefoot-created-complellingly-constantly/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2023/03/06/p1-darren-barefoot-created-complellingly-constantly/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How To label an image with an emoji using ruby rmagick with imagemagick? A: Use an XML entity escape e.g. &amp;x1234; with the pango text renderer</title>
@@ -535,25 +568,6 @@ ngrok http 8001 &lt;span class=&quot;nt&quot;&gt;--subdomain&lt;/span&gt; ryt-ds
         <pubDate>Tue, 31 Jan 2023 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2023/01/31/p1-ngrok-ssh-wsl-var-run-nogin/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2023/01/31/p1-ngrok-ssh-wsl-var-run-nogin/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Thank you Element! Leaving after being laid off after 2 years #ElementLifeboat</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Back in December, I was one of the folks laid off by &lt;a href=&quot;https://element.io/blog/&quot;&gt;Element.io&lt;/a&gt; (see the brief mention in &lt;a href=&quot;https://matrix.org/blog/2022/12/25/the-matrix-holiday-update-2022&quot;&gt;The Matrix Holiday Update 2022&lt;/a&gt;). Thanks to the fine folks at Element. It was a pleasure to work with you all!&lt;/li&gt;
-  &lt;li&gt;Where to next? No idea :-) But I’ve been super privileged to be paid to work on the Drupal, Mozilla and Matrix ecosystems. It would be fabulous to work on those ecosystems once more (always something to learn!) or to work on a different ecosystem. It would also be great to work on something that combines support with documentation and even social media (being the Chief Blogging Officer for Bryght back in 2004 was super fun) but I’m open to everything as usual :-) !&lt;/li&gt;
-  &lt;li&gt;Onwards! #Thanks #Lucky&lt;/li&gt;
-  &lt;li&gt;I’ll take a few more days off and then start my next.gig.search&lt;/li&gt;
-  &lt;li&gt;I can be reached on linkedIn: &lt;a href=&quot;https://www.linkedin.com/in/rtanglao/&quot;&gt;rtanglao&lt;/a&gt;,  rolandt@gmail.com works too and you can contact me in matrix: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@positiveroland:matrix.org&lt;/code&gt;, also on mastodon &lt;a href=&quot;https://devdilettante.com/@roland&quot;&gt;@roland@devdilettante.com&lt;/a&gt; and &lt;a href=&quot;http://rolandtanglao.com/&quot;&gt;rolandtanglao.com&lt;/a&gt; and &lt;a href=&quot;https://www.flickr.com/photos/roland&quot;&gt;flickr.com/roland&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;And of course, coffee in Vancouver any time! First coffee/tea/mineral water  is on me :-) I’ve said this a million times but it would be great to meet with old friends and ex-colleagues in Vancouver in real life.&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Wed, 04 Jan 2023 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2023/01/04/p1-thank-you-element-matrix/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2023/01/04/p1-thank-you-element-matrix/</guid>
         
         
       </item>
