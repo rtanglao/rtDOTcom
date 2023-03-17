@@ -6,9 +6,37 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 06 Mar 2023 07:15:56 -0800</pubDate>
-    <lastBuildDate>Mon, 06 Mar 2023 07:15:56 -0800</lastBuildDate>
+    <pubDate>Thu, 16 Mar 2023 19:43:56 -0700</pubDate>
+    <lastBuildDate>Thu, 16 Mar 2023 19:43:56 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Payak 2023: I thought I was fastest evah but I wasn't. The cold (-8) and unwisely stopping just before the end for a drink (oops) made me slower</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Payak &lt;a href=&quot;https://zone4.ca/race/2023-02-25/3118c178/results&quot;&gt;2023&lt;/a&gt; on February 25, 2023 (skate)&lt;/li&gt;
+  &lt;li&gt;First time IRL since February 2020!&lt;/li&gt;
+  &lt;li&gt;It was cold but felt fast. The cold did slow me down, excuses excuses :-)&lt;/li&gt;
+  &lt;li&gt;Nice snow! Super fun!&lt;/li&gt;
+  &lt;li&gt;I only fell once and this was because somebody hit me from behind going downhill but I guess in retrospet I should haven’t done such a wide turn (dynamic “lalas” :-) as my old downhill ski instructor in Ottawa told me at Camp Fortune)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;strava-embed&quot;&gt;Strava Embed&lt;/h3&gt;
+
+&lt;div class=&quot;strava-embed-placeholder&quot; data-embed-type=&quot;activity&quot; data-embed-id=&quot;8621739175&quot;&gt;&lt;/div&gt;
+&lt;script src=&quot;https://strava-embeds.com/embed.js&quot;&gt;&lt;/script&gt;
+
+&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;February 22, 2020: &lt;a href=&quot;http://rolandtanglao.com/2020/02/22/p1-payak-2020-slower-because-i-fell-3-times-in-first-5-mountain-view-climb-was-fast-klaebo-rules/&quot;&gt;Payak 2020: 1:40 oops fell 3 times in the first 5km, but mountain view climb was fast because of the klaebo running up hill diagonal stride technique&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Thu, 16 Mar 2023 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2023/03/16/p1-payak-2023/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2023/03/16/p1-payak-2023/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Darren, thank you for your creating compellingly constantly!</title>
@@ -536,38 +564,6 @@ ngrok http 8001 &lt;span class=&quot;nt&quot;&gt;--subdomain&lt;/span&gt; ryt-ds
         <pubDate>Wed, 01 Feb 2023 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2023/02/01/p1-ngrok-ssh-surfacebook2-edit-blog/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2023/02/01/p1-ngrok-ssh-surfacebook2-edit-blog/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How To get ngrok working with SSH on WSL</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Having lots of fun testing ngrok. As of today, here’s how I was able to get ngrok working with ssh from macOS to WSL (DISCLAIMER: Step 3 may not be kosher :-) ! The following is unsupported and use at your own risk! Please be careful!):&lt;/li&gt;
-  &lt;li&gt;0. Start the ssh service in WSL e.g. on ubuntu &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo systemctl enable ssh&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;1. Generate an SSH Key on your mac (I used the github directions:&lt;a href=&quot;https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent&quot;&gt;Generating a new SSH key and adding it to the ssh-agent&lt;/a&gt; and of course used &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*.tcp.ngrok.io&lt;/code&gt; instead of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*.github.com&lt;/code&gt;), let’s call it &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wsl2&lt;/code&gt;. This key must have a passphrase or it won’t work.
-    &lt;ul&gt;
-      &lt;li&gt;Add it to the keychain: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ssh-add -K ~/.ssh/wsl2&lt;/code&gt; &amp;lt;- from SO: &lt;a href=&quot;https://apple.stackexchange.com/questions/48502/how-can-i-permanently-add-my-ssh-private-key-to-keychain-so-it-is-automatically&quot;&gt;How can I permanently add my SSH private key to Keychain so it is automatically available to ssh?&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2. Copy the public key to the WSL machine e.g. using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;croc&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;croc ~/.ssh/wsl2.pub&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;3. Rename the nologin file to allow logins to WSL (Otherwise ssh will fail  with a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pam_nologin&lt;/code&gt; error):
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo mv&lt;/span&gt; /var/run/nologin /var/run/2023-01-31-renamed-nologin
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;4. start ngrok &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ngrok tcp 22&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;5. SSH in e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ssh -i ~/.ssh/wsl2.pub roland@somehost.tcp.ngrok.io -p &amp;lt;someport&amp;gt;&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Dec 2022: &lt;a href=&quot;http://rolandtanglao.com/2022/12/10/p1-tailscale-funnel-ideal-for-home-hosted-experimental-software/&quot;&gt;Tailscale Funnel is a reverse proxy service complete with TLS cert, DNS, public IP address and HTTPS server that seems perfect for small, experimental software on the internet like snac2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Sep 2022: &lt;a href=&quot;http://rolandtanglao.com/2022/09/04/p1-croc-fast-e2e-file-text-sharing-between-two-computers/&quot;&gt;Zack Scholl: croc Fast, simple, and e2e encrypted file transfer between any two computers. &amp;lt;- so many great CLI tools so little time. See ‘Previously’&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 31 Jan 2023 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2023/01/31/p1-ngrok-ssh-wsl-var-run-nogin/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2023/01/31/p1-ngrok-ssh-wsl-var-run-nogin/</guid>
         
         
       </item>
