@@ -6,9 +6,30 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 16 Mar 2023 19:47:40 -0700</pubDate>
-    <lastBuildDate>Thu, 16 Mar 2023 19:47:40 -0700</lastBuildDate>
+    <pubDate>Sun, 09 Apr 2023 16:42:19 -0700</pubDate>
+    <lastBuildDate>Sun, 09 Apr 2023 16:42:19 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>I have rejoined Thunderbird</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;What goes around, comes around :-). As of April 3, 2023, I have re-joined Thunderbird as a support engineer!&lt;/li&gt;
+  &lt;li&gt;I plan on doing some of the things I didn’t get done during my last Thunderbird stint which was 2009-2012. And am excited by the future of Thunderbird including Thunderbird on Android!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;January 4, 2023:  &lt;a href=&quot;http://rolandtanglao.com/2023/01/04/p1-thank-you-element-matrix/&quot;&gt;Thank you Element! Leaving after being laid off after 2 years #ElementLifeboat&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 09 Apr 2023 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2023/04/09/p1-rejoined-thunderbird/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2023/04/09/p1-rejoined-thunderbird/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Payak 2023: I thought I was fastest evah but I wasn't. The cold (-8) and unwisely stopping just before the end for a drink (oops) made me slower</title>
@@ -541,29 +562,6 @@ ngrok http 8001 &lt;span class=&quot;nt&quot;&gt;--subdomain&lt;/span&gt; ryt-ds
         <pubDate>Wed, 01 Feb 2023 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2023/02/01/p2-datasette-flickr-ngrok/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2023/02/01/p2-datasette-flickr-ngrok/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How I use ngrok over SSH on my MacBook Air to edit my blog on my Surface Book 2</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;This is straightforward. I just use the &lt;a href=&quot;https://code.visualstudio.com/docs/remote/ssh&quot;&gt;editing over ssh feature&lt;/a&gt; to enter the SSH connection command (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ssh -i ~/.ssh/wsl2.pub roland@somehost.tcp.ngrok.io -p &amp;lt;someport&amp;gt;&lt;/code&gt;) in Visual Studio Code (and of course I could always use emacs to edit over ssh which I’ve done for decades!).&lt;/li&gt;
-  &lt;li&gt;And I use the terminal feature to trigger a jekyll rebuild and then &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;surge&lt;/code&gt; to upload my blog and git all in Visual Studio Code’s terminal.&lt;/li&gt;
-  &lt;li&gt;Finally I have another ngrok tunnel running that maps port 4000 to port 80 to see the rendered draft version at: https://rytjekyll.ngrok.io/ (userid: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;you&lt;/code&gt; password: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rock+2023&lt;/code&gt; &amp;lt;– remove the “+” sign :-) ) I am not sure how long this will remain up (at least until mid February 2023) because I am not sure I can afford to pay for ngrok but we’ll see :-)&lt;/li&gt;
-  &lt;li&gt;Super geeky :-) but then I can edit on any of my 3 laptops and 2 Raspberry Pis (including my MacBook Air) because this recipe will work on any computer that runs Visual Studio Code.&lt;/li&gt;
-  &lt;li&gt;Question: Does Typora or any other nice Markdown editor work over SSH? VS Code is fine but not nearly as nice as Typora! Maybe I should try my perennial favourite emacs’s Markdown mode?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;January 31, 2023: &lt;a href=&quot;http://rolandtanglao.com/2023/01/31/p1-ngrok-ssh-wsl-var-run-nogin/&quot;&gt;How To get ngrok working with SSH on WSL&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;February 5, 2020: &lt;a href=&quot;http://rolandtanglao.com/2020/02/05/p1-stowe-boyd-building-a-zettelkasten-typora/&quot;&gt;Stowe Boyd Building A Zettelkasten (notes that are: atomic, autonomous, linked, explain why, your own words, links to references) In Typora&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 01 Feb 2023 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2023/02/01/p1-ngrok-ssh-surfacebook2-edit-blog/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2023/02/01/p1-ngrok-ssh-surfacebook2-edit-blog/</guid>
         
         
       </item>
