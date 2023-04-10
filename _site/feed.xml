@@ -6,9 +6,29 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 09 Apr 2023 16:42:19 -0700</pubDate>
-    <lastBuildDate>Sun, 09 Apr 2023 16:42:19 -0700</lastBuildDate>
+    <pubDate>Sun, 09 Apr 2023 20:39:29 -0700</pubDate>
+    <lastBuildDate>Sun, 09 Apr 2023 20:39:29 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Emily Bender: you are not a stochastic parrot / Judith Butler, are we more actualized with AI -&gt; NY Magazine you are not a parrot</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;“On the Dangers of Stochastic Parrots” is not a write-up of original research. It’s a synthesis of LLM critiques that Bender and others have made: of the biases encoded in the models; the near impossibility of studying what’s in the training data, given the fact they can contain billions of words; the costs to the climate; the problems with building technology that freezes language in time and thus locks in the problems of the past.&lt;/code&gt; &lt;a href=&quot;https://nymag.com/intelligencer/article/ai-artificial-intelligence-chatbots-emily-m-bender.html&quot;&gt;Please read the whole thing: You Are Not a Parrot And a chatbot is not a human. And a linguist named Emily M. Bender is very worried what will happen when we forget this.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Judith Butler, UC Berkley: “Or that human potential — that’s the fascist idea — human potential is more fully actualized with AI than without it”. &lt;a href=&quot;https://nymag.com/intelligencer/article/ai-artificial-intelligence-chatbots-emily-m-bender.html&quot;&gt;AGAIN :-), please read the whole thing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;January 9, 2020:  &lt;a href=&quot;http://rolandtanglao.com/2020/01/19/p1-canosp-firefox-support-question-tagging-project-machine-learning-university-alberta/&quot;&gt;Working with 4 University of Alberta Computer Science Students in the CANOSP program on a machine learning project to auto-tag Firefox desktop support questions based on a human trained dataset&lt;/a&gt; &amp;lt;- in retrospect this seems like a primitive project now :-) Is this better with GPT-3 or 4?&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 09 Apr 2023 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2023/04/09/p2-are-humans-more-actualized-with-ai/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2023/04/09/p2-are-humans-more-actualized-with-ai/</guid>
+        
+        
+      </item>
     
       <item>
         <title>I have rejoined Thunderbird</title>
@@ -535,33 +555,6 @@ bash &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv
         <pubDate>Thu, 02 Feb 2023 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2023/02/02/p1-kellan-elliott-mccrea-software-and-its-scontents-part2-explosion-complexity/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2023/02/02/p1-kellan-elliott-mccrea-software-and-its-scontents-part2-explosion-complexity/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How I use ngrok to put datasette for my flickr 2020 photo metadata on the internet</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;This is even more straightforward than using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ngrok&lt;/code&gt; for SSH :-) !
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;datasette granian roland-flickr-2020.db
-&lt;span class=&quot;c&quot;&gt;# And then in another terminal tab:&lt;/span&gt;
-ngrok http 8001 &lt;span class=&quot;nt&quot;&gt;--subdomain&lt;/span&gt; ryt-ds-flickr &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;--basic-auth&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;someuserid:somepassword&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Here’s the url for those who want to check it out: &lt;a href=&quot;https://ryt-ds-flickr.ngrok.io/&quot;&gt;https://ryt-ds-flickr.ngrok.io/&lt;/a&gt; (userid: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;datasette&lt;/code&gt; password: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rocks+2023&lt;/code&gt; &amp;lt;– remove the “+” sign :-) )&lt;/li&gt;
-  &lt;li&gt;NB: I am not sure how long this will remain up (at least until mid February 2023) because I am not sure I can afford to pay for ngrok but we’ll see :-)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;February 1, 2023: &lt;a href=&quot;http://rolandtanglao.com/2023/02/01/p1-ngrok-ssh-surfacebook2-edit-blog/&quot;&gt;How I use ngrok over SSH on my MacBook Air to edit my blog on my Surface Book 2&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;May 15, 2022: &lt;a href=&quot;http://rolandtanglao.com/2022/05/15/p1-city-vancouverbc-accident-data-datasette-lite/&quot;&gt;City of Vancouver accident data on Datasette lite at lite.datasette.io&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 01 Feb 2023 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2023/02/01/p2-datasette-flickr-ngrok/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2023/02/01/p2-datasette-flickr-ngrok/</guid>
         
         
       </item>
