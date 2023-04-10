@@ -6,9 +6,29 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 09 Apr 2023 20:46:19 -0700</pubDate>
-    <lastBuildDate>Sun, 09 Apr 2023 20:46:19 -0700</lastBuildDate>
+    <pubDate>Sun, 09 Apr 2023 20:56:41 -0700</pubDate>
+    <lastBuildDate>Sun, 09 Apr 2023 20:56:41 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Simon Willison: ChatGPT lies. Me: so how can we trust its output to truly be helpful even if we are experts in the domain of discourse? And therefore know how to fact check it?</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Simon Willison writes: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ChatGPT lies to people. This is a serious bug that has so far resisted all attempts at a fix. We need to prioritize helping people understand this, not debating the most precise terminology to use to describe it.
+We accidentally invented computers that can lie to us&lt;/code&gt;. Read the whole thing: &lt;a href=&quot;https://simonwillison.net/2023/Apr/7/chatgpt-lies/&quot;&gt;We need to tell people ChatGPT will lie to them, not debate linguistics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;April 9, 2023 &lt;a href=&quot;http://rolandtanglao.com/2023/04/09/p2-are-humans-more-actualized-with-ai/&quot;&gt;Emily Bender: you are not a stochastic parrot / Judith Butler, are we more actualized with AI? from: NY Magazine you are not a parrot&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 09 Apr 2023 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2023/04/09/p3-simon-wilison-chatgpt-lies-so-how-can-we-trust-it/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2023/04/09/p3-simon-wilison-chatgpt-lies-so-how-can-we-trust-it/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Emily Bender: you are not a stochastic parrot / Judith Butler, are we more actualized with AI? from: NY Magazine you are not a parrot</title>
@@ -537,24 +557,6 @@ bash &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv
         <pubDate>Sun, 05 Feb 2023 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2023/02/05/p1-softcreatr-imagemagick-easy-install-ubuntu-debian-how-to/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2023/02/05/p1-softcreatr-imagemagick-easy-install-ubuntu-debian-how-to/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Software and its Discontents, Part 2: An Explosion of Complexity | Kellan Elliott-McCrea &lt;-- we build custom, complex software stacks which makes it unnecessarily hard for new developers</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Feb 2, 2023 09:40  &lt;a href=&quot;https://laughingmeme.org/2023/01/23/software-and-its-discontents-part-2-complexity.html&quot;&gt;Software and its Discontents, Part 2: An Explosion of Complexity Kellan Elliott-McCrea&lt;/a&gt; &amp;lt;– READ the WHOLE thing and of course parts 1, 3 and 4! tl;dr Every software team builds a complex, custom stack out of open source parts so it’s super difficult for new people no matter how expert.  –&amp;gt; QUOTE: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Anyone joining a company today is looking at a stack that is at least as bespoke as the worst Not-Invented-Here stacks of the previous era. Rails was Rails, LAMP was LAMP, and while Vercel is better than anything we built for ourselves during that earlier era, it comes with a full manual, and its own quirks...Not only is each stack novel to each new team member this cross product of complexity means we have fewer mavens and experts. At Etsy when we needed to scale PHP we could hire Rasmus. Very few teams these days can find that kind of expert, and fewer of those experts will have seen the relevant scale on that exact stack. &lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;November 2021, &lt;a href=&quot;http://rolandtanglao.com/2021/11/07/p1-programming-sucks-peter-welch-from-2014/&quot;&gt;Peter Welch from 2014: Programming Sucks&amp;lt;— it does until it doesn’t :-) i.e. we get secure verified software for all layers and components and something better than spreadsheets for so-called ‘non programmers’&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 02 Feb 2023 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2023/02/02/p1-kellan-elliott-mccrea-software-and-its-scontents-part2-explosion-complexity/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2023/02/02/p1-kellan-elliott-mccrea-software-and-its-scontents-part2-explosion-complexity/</guid>
         
         
       </item>
