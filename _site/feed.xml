@@ -6,9 +6,49 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 10 Apr 2023 20:05:51 -0700</pubDate>
-    <lastBuildDate>Mon, 10 Apr 2023 20:05:51 -0700</lastBuildDate>
+    <pubDate>Tue, 11 Apr 2023 07:36:55 -0700</pubDate>
+    <lastBuildDate>Tue, 11 Apr 2023 07:36:55 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Samantha Slade: Difficult Conversations and Talking Circles: A response for those longing for healthy team dynamics</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://medium.com/percolab-droplets/difficult-conversations-and-talking-circles-9fababc88e08&quot;&gt;Difficult Conversations and Talking Circles&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;QUOTE&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A talking circle is NOT an action taking or decision making process, nor a feedback method. Talking circles help to go into a topic with depth, to explore what is stirring underneath, to engage in the complexity together. Think of something that is rumbling right now in your group or team. Circle practice can help to go into this rumbling in a safe way. If you find yourself being pulled into side conversations about an issue going on, it might be time to call a circle. It helps those concerned to go into the issue together, constructively. Circle helps to step away from blame culture and to really listen to one another.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;Speak from the “I”.&lt;/li&gt;
+    &lt;li&gt;Speak to the center of the circle.&lt;/li&gt;
+    &lt;li&gt;Go around with a talking/listening piece&lt;/li&gt;
+    &lt;li&gt;Silence is healthy.&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;END QUOTE&lt;/p&gt;
+
+&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;June 12, 2022 &lt;a href=&quot;http://rolandtanglao.com/2022/06/12/p1-megan-carpenter-stop-assuming-good-intent-i-will-give-you-grace-if-you-give-me-effort/&quot;&gt;Megan Carpenter via Tara Robertson via Nancy White: Stop Assuming Good Intent; instead: I’ll give you grace if you give me effort&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 11 Apr 2023 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2023/04/11/p1-talking-circle/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2023/04/11/p1-talking-circle/</guid>
+        
+        
+      </item>
     
       <item>
         <title>The age of average aka kinfolk, airspace, five over ones, people's choice, wind tunnel cars, same type in media, same clothing everythere, etc everywhere</title>
@@ -520,76 +560,6 @@ We accidentally invented computers that can lie to us&lt;/code&gt;. Read the who
         <pubDate>Thu, 09 Feb 2023 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2023/02/09/p1-worldwide-flickr-barcode/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2023/02/09/p1-worldwide-flickr-barcode/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How To refresh an image in place on a web page using JavaScript</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;script&lt;/code&gt; tag has to be after the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;img&lt;/code&gt; tag or this won’t work! Big thanks to &lt;a href=&quot;https://yoric.github.io/&quot;&gt;Yoric&lt;/a&gt; and &lt;a href=&quot;https://brendan.abolivier.bzh/&quot;&gt;Brendan&lt;/a&gt; for the code!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Worldwide Flickr Barcode&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;loop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;c1&quot;&gt;// Our `&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;img&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;`.
-  let img = document.getElementById(&quot;barcode&quot;);
-
-  // The url of the data that we download. Initially, we haven't downloaded any data,
-  // so `&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;`.
-  let objectURL = null;
-
-  while (true) {
-    // Wait 5 seconds.
-    await new Promise(resolve =&amp;gt; setTimeout(resolve, 5000));
-
-    // Get the data.
-    let response = await fetch(&quot;https://rytbarcode.ngrok.io/barcode.png&quot;, { cache: 'no-cache' });
-
-    // For images, we want the response as a blob (Binary Large Object)
-    let blob = await response.blob();
-    if (objectURL) {
-      // If we already have data, clean up the memory.
-      URL.revokeObjectURL(objectURL);
-    }
-
-    // Convert the blob into a URL.
-    objectURL = URL.createObjectURL(blob);
-
-    // ...and point the `&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;img&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;` to this image.
-    img.setAttribute(&quot;src&quot;, objectURL); 
-  }
-}
-&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;barcode&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;loop&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;See also:
-    &lt;ul&gt;
-      &lt;li&gt;SO: &lt;a href=&quot;https://stackoverflow.com/questions/1077041/refresh-image-with-a-new-one-at-the-same-url&quot;&gt;Refresh image with a new one at the same url&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;SO:&lt;a href=&quot;https://stackoverflow.com/questions/436411/where-should-i-put-script-tags-in-html-markup&quot;&gt;Where should I put &amp;lt;script&amp;gt; tags in HTML markup?&lt;/a&gt; &amp;lt;– if I understand the following quote: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Unlike async scripts, defer scripts are only executed after the entire document has been loaded&lt;/code&gt;, it looks like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;defer&lt;/code&gt; might be a better solution?!?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;April 2011: &lt;a href=&quot;http://rolandtanglao.com/2011/04/25/penmachine-dodging-buses-barcode-video-and-html5-web-app/&quot;&gt;penmachine dodging buses barcode video &amp;amp; HTML5 Web App&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 07 Feb 2023 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2023/02/07/p1-how-to-refresh-img-webpage-using-javascript/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2023/02/07/p1-how-to-refresh-img-webpage-using-javascript/</guid>
         
         
       </item>
