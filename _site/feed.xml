@@ -6,9 +6,63 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 09 Apr 2023 20:56:41 -0700</pubDate>
-    <lastBuildDate>Sun, 09 Apr 2023 20:56:41 -0700</lastBuildDate>
+    <pubDate>Mon, 10 Apr 2023 20:05:51 -0700</pubDate>
+    <lastBuildDate>Mon, 10 Apr 2023 20:05:51 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>The age of average aka kinfolk, airspace, five over ones, people's choice, wind tunnel cars, same type in media, same clothing everythere, etc everywhere</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Do your own thing, do your own look and style, escape the bland hegemony :-)&lt;/li&gt;
+  &lt;li&gt;JUICY QUOTE (of course read the whole thing: &lt;a href=&quot;https://www.alexmurrell.co.uk/articles/the-age-of-average&quot;&gt;Alex Murrell: The age of average&lt;/a&gt;):&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;But it’s not all bad news.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I believe that the age of average is the age of opportunity.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;When every supermarket aisle looks like a sea of sameness, when every category abides by the same conventions, when every industry has converged on its own singular style, bold brands and courageous companies have the chance to chart a different course. To be different, distinctive and disruptive.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;So, this is your call to arms. Whether you’re in film or fashion, media or marketing, architecture, automotive or advertising, it doesn’t matter. Our visual culture is flatlining and the only cure is creativity.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It’s time to cast aside conformity. It’s time to exorcise the expected. It’s time to decline the indistinguishable.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For years the world has been moving in the same stylistic direction. And it’s time we reintroduced some originality.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Or as the ad agency BBH says.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;When the world zigs. Zag.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;END QUOTE&lt;/p&gt;
+
+&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;April 2, 2005 &lt;a href=&quot;http://rolandtanglao.com/2005/04/02/how-design-really-gets-done/&quot;&gt;How design really gets done&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 10 Apr 2023 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2023/04/10/p1-age-of-average-kinfolk-airspace-peoples-choice-five-over-ones-etc/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2023/04/10/p1-age-of-average-kinfolk-airspace-peoples-choice-five-over-ones-etc/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Simon Willison: ChatGPT lies. Me: so how can we trust its output to truly be helpful even if we are experts in the domain of discourse? And therefore know how to fact check it?</title>
@@ -536,27 +590,6 @@ We accidentally invented computers that can lie to us&lt;/code&gt;. Read the who
         <pubDate>Tue, 07 Feb 2023 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2023/02/07/p1-how-to-refresh-img-webpage-using-javascript/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2023/02/07/p1-how-to-refresh-img-webpage-using-javascript/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>SoftCreatR's Imagemagick Easy install for Ubuntu and Debian aka 'imei' worked for me on my Raspberry Pi 400 running Debian bullseye</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Feb 5, 2023. 00:31 SoftCreatR’s &lt;a href=&quot;https://github.com/SoftCreatR/imei/&quot;&gt;imei&lt;/a&gt; aka &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Imagemagick easy install&lt;/code&gt; fixed my jpeg delegate issues on debian bullseye running on a Raspberry Pi 400. Found via Stack Overflow: &lt;a href=&quot;https://askubuntu.com/questions/1216469/what-is-simplest-process-to-get-imagemagick-7-with-png-support-on-ubuntu&quot;&gt;What is simplest process to get ImageMagick 7 with PNG support&lt;/a&gt;. I just followed the &lt;a href=&quot;https://github.com/SoftCreatR/imei/#one-step-automated-install&quot;&gt;One Step Automated Install&lt;/a&gt;, namely:
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;mktemp&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-wget &lt;span class=&quot;s1&quot;&gt;'https://dist.1-2.dev/imei.sh'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-qO&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$t&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-bash &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$t&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$t&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-    &lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
-  &lt;/li&gt;
-  &lt;li&gt;April 26, 2021 &lt;a href=&quot;http://rolandtanglao.com/2021/04/26/p1-how-to-install-imagemagick-ubuntu-2004-jpeg-png-tiff-delegates/&quot;&gt;How To install Imagemagick on Ubuntu 20.04 with JPG, PNG and TIFF support aka ‘delegates’? Why isn’t this in the default install?&lt;/a&gt; &amp;lt;– This didn’t work for me on my Rapsberry Pi 400 running Debian bullseye in 2023!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 05 Feb 2023 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2023/02/05/p1-softcreatr-imagemagick-easy-install-ubuntu-debian-how-to/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2023/02/05/p1-softcreatr-imagemagick-easy-install-ubuntu-debian-how-to/</guid>
         
         
       </item>
