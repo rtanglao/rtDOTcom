@@ -1,0 +1,17 @@
+I"Š<ul>
+  <li>The WSL systemd <a href="https://github.com/rtanglao/rt-making-wsl-and-windows-work-for-me#19september2021-systemctl">kluge</a> is no longer needed so <strong>un-install</strong> it. Then, enable systemd by following <a href="https://devblogs.microsoft.com/commandline/systemd-support-is-now-available-in-wsl/">Microsoftâ€™s instructions</a>
+tl;dr: add the following lines to <code class="language-plaintext highlighter-rouge">/etc/wsl.conf</code>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[boot]
+systemd=true
+</code></pre></div>    </div>
+    <p>and then <code class="language-plaintext highlighter-rouge">wsl.exe --shutdown</code> from powershell
+and then install <code class="language-plaintext highlighter-rouge">bottle imp</code>, <a href="https://github.com/arkane-systems/bottle-imp">https://github.com/arkane-systems/bottle-imp</a> and then done :-)</p>
+  </li>
+</ul>
+
+<h3 id="previously">Previously</h3>
+
+<ul>
+  <li>September 19, 2021 <a href="https://github.com/rtanglao/rt-making-wsl-and-windows-work-for-me#19september2021-systemctl">19september2021 systemctl</a></li>
+</ul>
+:ET

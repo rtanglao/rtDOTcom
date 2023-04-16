@@ -1,0 +1,17 @@
+I"q<ul>
+  <li>The WSL systemd <a href="https://github.com/rtanglao/rt-making-wsl-and-windows-work-for-me#19september2021-systemctl">kluge</a> is no longer needed so install it. Then enable systemd by following <a href="https://devblogs.microsoft.com/commandline/systemd-support-is-now-available-in-wsl/">Microsoft’s instructions</a>
+tl;dr: add the following lines to <code class="language-plaintext highlighter-rouge">/etc/wsl.conf</code>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[boot]
+systemd=true
+</code></pre></div>    </div>
+    <p>and then <code class="language-plaintext highlighter-rouge">wsl.exe --shutdown</code> from powershell
+and then install <code class="language-plaintext highlighter-rouge">bottle imp</code>, <a href="https://github.com/arkane-systems/bottle-imp">https://github.com/arkane-systems/bottle-imp</a> and then done :-)</p>
+  </li>
+</ul>
+
+<h3 id="previously">Previously</h3>
+
+<ul>
+  <li>January 9, 2018 <a href="https://rytjekyll.ngrok.io/2018/01/09/p1-how-automattic-handles-2000-support-tickets-daily-communication-respect-for-team-and-customers/">How does Automattic handle 2000 support requests/day? With communication and respect for customers and respect for support folks</a> &lt;– sadly the following link is broken in 2023: https://blog.freshdesk.com/secret-sauce-wordpress-com/</li>
+</ul>
+:ET

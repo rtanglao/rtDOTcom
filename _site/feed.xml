@@ -6,9 +6,35 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 16 Apr 2023 09:11:29 -0700</pubDate>
-    <lastBuildDate>Sun, 16 Apr 2023 09:11:29 -0700</lastBuildDate>
+    <pubDate>Sun, 16 Apr 2023 11:17:38 -0700</pubDate>
+    <lastBuildDate>Sun, 16 Apr 2023 11:17:38 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>WSL systemd kluge no longer needed in Windows 11 because systemd is built-in</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;The WSL systemd &lt;a href=&quot;https://github.com/rtanglao/rt-making-wsl-and-windows-work-for-me#19september2021-systemctl&quot;&gt;kluge&lt;/a&gt; is no longer needed so &lt;strong&gt;un-install&lt;/strong&gt; it. Then, enable systemd by following &lt;a href=&quot;https://devblogs.microsoft.com/commandline/systemd-support-is-now-available-in-wsl/&quot;&gt;Microsoft’s instructions&lt;/a&gt;
+tl;dr: add the following lines to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/wsl.conf&lt;/code&gt;
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[boot]
+systemd=true
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;p&gt;and then &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wsl.exe --shutdown&lt;/code&gt; from powershell
+and then install &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bottle imp&lt;/code&gt;, &lt;a href=&quot;https://github.com/arkane-systems/bottle-imp&quot;&gt;https://github.com/arkane-systems/bottle-imp&lt;/a&gt; and then done :-)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;September 19, 2021 &lt;a href=&quot;https://github.com/rtanglao/rt-making-wsl-and-windows-work-for-me#19september2021-systemctl&quot;&gt;19september2021 systemctl&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 16 Apr 2023 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2023/04/16/p2-systemd-part-of-wsl-window11/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2023/04/16/p2-systemd-part-of-wsl-window11/</guid>
+        
+        
+      </item>
     
       <item>
         <title>May Wong:The Myth of Maintenance Mode:We don’t build organizations that support the culture of maintenance...I wonder if this is also why Support is chronically undervalued and underfunded.</title>
@@ -290,29 +316,6 @@ We accidentally invented computers that can lie to us&lt;/code&gt;. Read the who
         <pubDate>Fri, 17 Feb 2023 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2023/02/17/p1-howto-label-image-emoji-imagemagick-rmagick/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2023/02/17/p1-howto-label-image-emoji-imagemagick-rmagick/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>March 2, 2019: has the current podcast boom busted yet? Fast forward to February 13, 2023 and yes it has!</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://devdilettante.com/@roland/109861838400394346&quot;&gt;ME :-) “It’s March 2, 2019: has the current podcast boom busted yet?http://rolandtanglao.com/2019/03/02/p1-is-the-current-podcast-boom-over-yet/ Fast forward to February 13, 2023 and yes it has! https://www.semafor.com/article/02/12/2023/how-spotifys-podcast-bet-went-wrong” - Roland’s Mastodon&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.semafor.com/article/02/12/2023/how-spotifys-podcast-bet-went-wrong&quot;&gt;How Spotify’s podcast bet went wrong&lt;/a&gt; –&amp;gt; QUOTE: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Spotify was a one-company podcast bubble. Its drastic cuts have triggered a podcast winter, as the small studios it helped support consolidate and lavish narrative productions wane. But rivals from tech giants Amazon and Apple to the radio company iHeart have found better returns on more cautious bets. Spotify’s pivot has more in common with the recent cuts to Hollywood’s spending on streaming television.&lt;/code&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Spotify’s “podcasts” are not really podcasts but I think the collapse has started for sure.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;March 2, 2019: &lt;a href=&quot;http://rolandtanglao.com/2019/03/02/p1-is-the-current-podcast-boom-over-yet/&quot;&gt;It’s March 2, 2019: has the current podcast boom busted yet?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 14 Feb 2023 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2023/02/14/the-podcast-boom-has-busted-spotify/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2023/02/14/the-podcast-boom-has-busted-spotify/</guid>
         
         
       </item>
