@@ -18,4 +18,4 @@ Again please read the whole thing :-) <https://pwords.substack.com/p/the-myth-of
 
 ### Previously
 
-* January 9, 2018 [How does Automattic handle 2000 support requests/day? With communication and respect for customers and respect for support folks](https://rytjekyll.ngrok.io/2018/01/09/p1-how-automattic-handles-2000-support-tickets-daily-communication-respect-for-team-and-customers/) <-- sadly the following link is broken in 2023: https://blog.freshdesk.com/secret-sauce-wordpress-com/ 
+* January 9, 2018 [How does Automattic handle 2000 support requests/day? With communication and respect for customers and respect for support folks](http://rolandtanglao.com/2018/01/09/p1-how-automattic-handles-2000-support-tickets-daily-communication-respect-for-team-and-customers/) <-- sadly the following link is broken in 2023: https://blog.freshdesk.com/secret-sauce-wordpress-com/ 
