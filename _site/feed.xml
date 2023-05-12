@@ -6,9 +6,47 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 16 Apr 2023 22:39:24 -0700</pubDate>
-    <lastBuildDate>Sun, 16 Apr 2023 22:39:24 -0700</lastBuildDate>
+    <pubDate>Fri, 12 May 2023 08:15:53 -0700</pubDate>
+    <lastBuildDate>Fri, 12 May 2023 08:15:53 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Leonid Rozenblit and Frank Keil: The misunderstood limits of folk science: an illusion of explanatory depth: Expertise takes time and energy and feedbadk otherwise we suffer the: illusion of explanatory depth (IOED)</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Strong opinions should be very loosely held if you are not an expert and beware of those who think they are experts on everything just because they “read it” and or did their “research”&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;via Erin Kissane’s &lt;a href=&quot;https://mstdn.social/@kissane/110334250073288994&quot;&gt;toot&lt;/a&gt;:&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;file under “things I can’t stop thinking about”
+The misunderstood limits of folk science: an illusion of explanatory depth&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We argue here that people’s limited knowledge and their misleading intuitive epistemology combine to create 
+an illusion of explanatory depth (IOED). Most people feel they understand the world with far greater detail, coherence,
+and depth than they really do. The illusion for explanatory knowledge–knowledge that involves complex causal patterns—is separate from, and
+additive with, people’s general overconfidence about their knowledge and skills. We therefore propose that knowledge of complex causal relations is
+particularly susceptible to illusions of understanding.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Please read the whole thing! &lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3062901/&quot;&gt;The misunderstood limits of folk science: an illusion of explanatory depth
+Leonid Rozenblit and Frank Keil&lt;/a&gt;
+    &lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+  &lt;/li&gt;
+  &lt;li&gt;September 14, 2019 &lt;a href=&quot;http://rolandtanglao.com/2019/09/14/p1-true-experts-are-authors-who-can-write-it-down-and-explain-it-to-others/&quot;&gt;True experts are authors i.e. they can write down explanations and explain it to non experts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 12 May 2023 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2023/05/12/p1-illusion-explanatory-depth/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2023/05/12/p1-illusion-explanatory-depth/</guid>
+        
+        
+      </item>
     
       <item>
         <title>WSL systemd kluge no longer needed in Windows 11 because systemd is built-in</title>
@@ -285,37 +323,6 @@ We accidentally invented computers that can lie to us&lt;/code&gt;. Read the who
         <pubDate>Mon, 06 Mar 2023 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2023/03/06/p1-darren-barefoot-created-complellingly-constantly/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2023/03/06/p1-darren-barefoot-created-complellingly-constantly/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How To label an image with an emoji using ruby rmagick with imagemagick? A: Use an XML entity escape e.g. &amp;x1234; with the pango text renderer</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;For my 3 followers :-) who want to create images with  emojis with ruby :-).&lt;/li&gt;
-  &lt;li&gt;Sadly copying and pasting the emoji doesn’t work.&lt;/li&gt;
-  &lt;li&gt;Neither does specifying the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Noto Color Emoji&lt;/code&gt; font (imagemagick fails with “cannot read font”).&lt;/li&gt;
-  &lt;li&gt;But oddly, copying and pasting an emoji into the command line e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;magick&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;convert&lt;/code&gt; work with copy/pasted emojis.&lt;/li&gt;
-  &lt;li&gt;Finally, I could not get the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rmagick/imagemagick&lt;/code&gt; combo to work without using &lt;a href=&quot;https://www.imagemagick.org/Usage/text/#pango&quot;&gt;pango&lt;/a&gt; which uses XML escapes for unicode characters like emojis.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;code&quot;&gt;Code&lt;/h3&gt;
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# convert pango:'a🤳Hello! 😀How are you?' example.png # Selfie emoji is 1F933&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'rmagick'&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;image&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Magick&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'pango:&amp;amp;#x1F933;The &amp;lt;b&amp;gt;bold&amp;lt;/b&amp;gt; and &amp;lt;i&amp;gt;beautiful&amp;lt;/i&amp;gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;first&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'pango.png'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://gist.github.com/rtanglao/0d0e9c5a9dbd7ffae7825acd5544140c&quot;&gt;https://gist.github.com/rtanglao/0d0e9c5a9dbd7ffae7825acd5544140c&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;January 2, 2022: &lt;a href=&quot;http://rolandtanglao.com/2022/01/02/p1-how-should-i-make-art-from-25000-firefox-support-questions-from-2021/&quot;&gt;What art should I make from the 25000 Firefox Support questions from 2021?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 17 Feb 2023 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2023/02/17/p1-howto-label-image-emoji-imagemagick-rmagick/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2023/02/17/p1-howto-label-image-emoji-imagemagick-rmagick/</guid>
         
         
       </item>
