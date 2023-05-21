@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>ChatGPT and other 'AI' models representational bias: misrepresentation, underrepresentation and overrepresentation; extrinsic harms: representational, performance disparities from 'On the Opportunities and Risks of Foundation Models' (2021) </title>
+    <meta name="description" content="flickr.com/roland, twitter.com/rtanglao #firefox #thunderbird
+">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://rolandtanglao.com/2023/05/21/p1-intrinsic-biases-extrinsic-harms-foundation-ai-models/">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Roland Tanglao</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">ChatGPT and other 'AI' models representational bias: misrepresentation, underrepresentation and overrepresentation; extrinsic harms: representational, performance disparities from 'On the Opportunities and Risks of Foundation Models' (2021) </h1>
+    <p class="post-meta">May 21, 2023</p>
+  </header>
+
+  <article class="post-content">
+    <p>via Ulrike Hahn’s <a href="https://fediscience.org/@UlrikeHahn/110407268640707229">toot</a></p>
+
+<blockquote>
+  <p>@baldur academics, ie non AI vendors, are saying the same things
+though when it comes to LLMs.
+We simultaneously know exactly what they do and don’t really…
+that’s not just a matter of documentation desire</p>
+</blockquote>
+
+<ul>
+  <li>The following paper was written in 2021. It’s 2023! Have we made any progress since then regarding: “representational bias: misrepresentation, underrepresentation and overreprsentation; extrinsic harms: representational, performance disparities”?</li>
+  <li>Here’s some juicy quotes from the 161 page paper (plus many pages of references!). Read the whole thing, <a href="https://arxiv.org/pdf/2108.07258.pdf">On the Opportunities and Risks of Foundation Models (2021)</a> (<a href="https://fsi.stanford.edu/publication/opportunities-and-risks-foundation-models">overview</a>):</li>
+</ul>
+
+<p>QUOTE</p>
+
+<blockquote>
+This report investigates an emerging paradigm for building artificial intelligence (AI) systems
+based on a general class of models which we term foundation models. A foundation model is any
+model that is trained on broad data (generally using self-supervision at scale) that can be adapted
+(e.g., fine-tuned) to a wide range of downstream tasks; current examples include BERT [Devlin et al .
+2019], GPT-3 [Brown et al . 2020], and CLIP [Radford et al . 2021]. From a technological point of view,
+foundation models are not new — they are based on deep neural networks and self-supervised
+learning, both of which have existed for decades. However, the sheer scale and scope of foundation
+models from the last few years have stretched our imagination of what is possible; 
+</blockquote>
+
+<ul>
+  <li>…page 131</li>
+</ul>
+
+<blockquote>
+  <p><strong>Intrinsic biases</strong>. Properties of the foundation model can lead to harm in downstream systems.
+As a result, these intrinsic biases can be measured directly within the foundation model, though
+the harm itself is only realized when the foundation model is adapted, and thereafter applied,
+i.e., these are latent biases or harms [DeCamp and Lindvall 2020]. We focus on the most widely
+studied form of intrinsic bias, <strong>representational bias</strong>, specifically considering <strong>misrepresentation</strong>,
+<strong>underrepresentation</strong> and <strong>overrepresentation</strong>. People can be misrepresented by pernicious stereo-
+types [Bolukbasi et al . 2016; Caliskan et al . 2017; Abid et al . 2021; Nadeem et al . 2021; Gehman et al .
+2020] or negative attitudes [Hutchinson et al . 2020], which can propagate through downstream
+models to reinforce this misrepresentation in society [Noble 2018; Benjamin 2019]. People can be
+underrepresented or entirely erased, e.g., when LGBTQ+ identity terms [Strengers et al. 2020;
+Oliva et al. 2021; Tomasev et al. 2021] or data describing African Americans [Buolamwini and Gebru
+2018; Koenecke et al. 2020; Blodgett and O’Connor 2017] is excluded in training data, downstream
+models will struggle with similar data at test-time. People can be overrepresented, e.g., BERT
+appears to encode an Anglocentric perspective [Zhou et al. 2021a] by default, which can amplify
+majority voices and contribute to homogenization of perspectives [Creel and Hellman 2021] or
+monoculture [Kleinberg and Raghavan 2021] (§5.6: ethics). <strong>These representational biases pertain to</strong>
+<strong>all AI systems, but their significance is greatly heightened in the foundation model paradigm.</strong> Since
+the same foundation model serves as the basis for myriad applications, biases in the representation
+of people propagate to many applications and settings. Further, since the foundation model does
+much of the heavy-lifting (compared to adaptation, which is generally intended to be lightweight),
+we anticipate that many of the experienced harms will be significantly determined by the internal
+properties of the foundation model.</p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Extrinsic harms</strong>. Users can experience specific harms from the downstream applications that are
+created by adapting a foundation model. These harms can be <strong>representational</strong> [Barocas et al. 2017;
+Crawford 2017; Blodgett et al . 2020], such as the sexualized depictions of black women produced by
+information retrieval systems [Noble 2018], the misgendering of persons by machine translation
+systems that default to male pronouns [Schiebinger 2013, 2014], or the generation of pernicious
+stereotypes [Nozza et al . 2021; Sheng et al. 2019; Abid et al. 2021]. They can consist of <strong>abuse</strong>, such
+as when dialogue agents based on foundation models attack users with toxic content [Dinan et al.
+2021; Gehman et al . 2020] or microaggressions [Breitfeller et al . 2019; Jurgens et al . 2019]. All of
+these user-facing behaviors can lead to psychological harms or the reinforcement of pernicious
+stereotypes [Spencer et al. 2016; Williams 2020].</p>
+</blockquote>
+
+<blockquote>
+  <p>In addition to harms experienced by individuals, groups or sub-populations may also be subject
+to harms such as <strong>group-level performance disparities</strong>. For example, systems may perform poorly
+on text or speech in African American English [Blodgett and O’Connor 2017; Koenecke et al . 2020],
+incorrectly detect medical conditions from clinical notes for racial, gender, and insurance-status
+minority groups [Zhang et al . 2020b], or fail to detect the faces of people with darker skin tones
+[Wilson et al . 2019; Buolamwini and Gebru 2018]. As foundation models are more pervasively
+applied, including in high-stakes domains, these disparities can spiral into further, and more severe,
+harms. Koenecke et al . [2020] discuss how if African American English speakers cannot reliably
+use speech recognition technologies (e.g., due to inequities in underlying foundation models), this
+may mean they cannot benefit from certain derivative products (e.g., voice assistants, assistive
+technologies) and will be disadvantaged if these technologies are used to conduct interviews for
+employment or transcribe courtroom proceedings. More generally, characterizing these group-level
+harms (and working towards justice for those harmed) also requires the AI community to improve
+its understanding of group-based prejudice [Allport 1954] and social groups: we point to relevant
+work in the social sciences and other communities on moving beyond binary treatments of gender.</p>
+</blockquote>
+
+<p>END QUOTE</p>
+
+<h3 id="previously">Previously</h3>
+
+<ul>
+  <li>April 9, 2023: <a href="http://rolandtanglao.com/2023/04/09/p3-simon-wilison-chatgpt-lies-so-how-can-we-trust-it/">Simon Willison: ChatGPT lies. Me: so how can we trust its output to truly be helpful even if we are experts in the domain of discourse? And therefore know how to fact check it?</a></li>
+</ul>
+
+    <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Roland Tanglao</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>Roland Tanglao</li>
+          <li><a href="mailto:roland@rolandtanglao.com">roland@rolandtanglao.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/rtanglao">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">rtanglao</span>
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/rtanglao">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <span class="username">rtanglao</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">flickr.com/roland, twitter.com/rtanglao #firefox #thunderbird
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

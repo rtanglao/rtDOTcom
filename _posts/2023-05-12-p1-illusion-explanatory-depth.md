@@ -17,6 +17,7 @@ title: "Leonid Rozenblit and Frank Keil: The misunderstood limits of folk scienc
 
 * Please read the whole thing! [The misunderstood limits of folk science: an illusion of explanatory depth
 Leonid Rozenblit and Frank Keil](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3062901/)
+
 ### Previously
 
 * September 14, 2019 [True experts are authors i.e. they can write down explanations and explain it to non experts](http://rolandtanglao.com/2019/09/14/p1-true-experts-are-authors-who-can-write-it-down-and-explain-it-to-others/)  
