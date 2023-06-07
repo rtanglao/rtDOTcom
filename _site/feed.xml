@@ -6,8 +6,8 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 06 Jun 2023 20:31:45 -0700</pubDate>
-    <lastBuildDate>Tue, 06 Jun 2023 20:31:45 -0700</lastBuildDate>
+    <pubDate>Tue, 06 Jun 2023 20:55:16 -0700</pubDate>
+    <lastBuildDate>Tue, 06 Jun 2023 20:55:16 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -16,7 +16,7 @@
   &lt;li&gt;Using datasette lite, load the CSV files.
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;https://lite.datasette.io/?csv=https%3A%2F%2Fraw.githubusercontent.com%2Frtanglao%2Frt-kits-tb-api%2Fmain%2Fdetails-firefox-kb-title-slug-all-articles.csv#/data/details-firefox-kb-title-slug-all-articles&quot;&gt;Firefox&lt;/a&gt;: Load &lt;a href=&quot;https://github.com/rtanglao/rt-kits-tb-api/blob/main/details-firefox-kb-title-slug-all-articles.csv&quot;&gt;https://github.com/rtanglao/rt-kits-tb-api/blob/main/details-firefox-kb-title-slug-all-articles.csv&lt;/a&gt; into datasette lite&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://lite.datasette.io/?csv=https%3A%2F%2Fraw.githubusercontent.com%2Frtanglao%2Frt-kits-tb-api%2Fmain%2Fthunderbird-kb-title-slug-all-articles-details.csv&quot;&gt;Thunderbird&lt;/a&gt;: Load &lt;a href=&quot;https://github.com/rtanglao/rt-kits-tb-api/blob/main/thunderbird-kb-title-slug-all-articles-details.csv&quot;&gt;https://github.com/rtanglao/rt-kits-tb-api/blob/main/thunderbird-kb-title-slug-all-articles-details.csv&lt;/a&gt; into datasette lite&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://lite.datasette.io/?csv=https%3A%2F%2Fraw.githubusercontent.com%2Frtanglao%2Frt-kits-tb-api%2Fmain%2Fdetails-thunderbird-kb-title-slug-all-articles.csv&quot;&gt;Thunderbird&lt;/a&gt;: Load &lt;a href=&quot;https://github.com/rtanglao/rt-kits-tb-api/blob/main/details-thunderbird-kb-title-slug-all-articles.csv&quot;&gt;details-thunderbird-kb-title-slug-all-articles.csv&lt;/a&gt; into datasette lite&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
