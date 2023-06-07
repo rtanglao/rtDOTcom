@@ -6,9 +6,33 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 21 May 2023 10:22:10 -0700</pubDate>
-    <lastBuildDate>Sun, 21 May 2023 10:22:10 -0700</lastBuildDate>
+    <pubDate>Tue, 06 Jun 2023 20:31:45 -0700</pubDate>
+    <lastBuildDate>Tue, 06 Jun 2023 20:31:45 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>How to use SQLite to search all the Firefox and Thunderbird kb articles including the HTML (sadly Markdown not available)</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Using datasette lite, load the CSV files.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://lite.datasette.io/?csv=https%3A%2F%2Fraw.githubusercontent.com%2Frtanglao%2Frt-kits-tb-api%2Fmain%2Fdetails-firefox-kb-title-slug-all-articles.csv#/data/details-firefox-kb-title-slug-all-articles&quot;&gt;Firefox&lt;/a&gt;: Load &lt;a href=&quot;https://github.com/rtanglao/rt-kits-tb-api/blob/main/details-firefox-kb-title-slug-all-articles.csv&quot;&gt;https://github.com/rtanglao/rt-kits-tb-api/blob/main/details-firefox-kb-title-slug-all-articles.csv&lt;/a&gt; into datasette lite&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://lite.datasette.io/?csv=https%3A%2F%2Fraw.githubusercontent.com%2Frtanglao%2Frt-kits-tb-api%2Fmain%2Fthunderbird-kb-title-slug-all-articles-details.csv&quot;&gt;Thunderbird&lt;/a&gt;: Load &lt;a href=&quot;https://github.com/rtanglao/rt-kits-tb-api/blob/main/thunderbird-kb-title-slug-all-articles-details.csv&quot;&gt;https://github.com/rtanglao/rt-kits-tb-api/blob/main/thunderbird-kb-title-slug-all-articles-details.csv&lt;/a&gt; into datasette lite&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;May 8, 2020: &lt;a href=&quot;http://rolandtanglao.com/2022/05/08/p1-query-my-firefox-201-sumo-support-data-from-your-web-browser-mobile-desktop-no-server-no-app-required/&quot;&gt;Thanks  to Simon Willison’s lite.datasette.io you can now query any SQLite data  with CORS headers anywhere and share the query URL with others so it  can spread virally :-)!  (e.g. 2021 Firefox SUMO Support questions) on  any web browser including desktop, iOS and Android&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 06 Jun 2023 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2023/06/06/p1-howto-sqlite-search-all-thunderbird-firefox-sumo-knowledge-base-articles/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2023/06/06/p1-howto-sqlite-search-all-thunderbird-firefox-sumo-knowledge-base-articles/</guid>
+        
+        
+      </item>
     
       <item>
         <title>ChatGPT and other 'AI' models representational bias: misrepresentation, underrepresentation and overrepresentation; extrinsic harms: representational, performance disparities from 'On the Opportunities and Risks of Foundation Models' (2021) </title>
@@ -369,34 +393,6 @@ We accidentally invented computers that can lie to us&lt;/code&gt;. Read the who
         <pubDate>Sun, 09 Apr 2023 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2023/04/09/p1-rejoined-thunderbird/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2023/04/09/p1-rejoined-thunderbird/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Payak 2023: I thought I was fastest evah but I wasn't. The cold (-8) and unwisely stopping just before the end for a drink (oops) made me slower</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Payak &lt;a href=&quot;https://zone4.ca/race/2023-02-25/3118c178/results&quot;&gt;2023&lt;/a&gt; on February 25, 2023 (skate)&lt;/li&gt;
-  &lt;li&gt;First time IRL since February 2020!&lt;/li&gt;
-  &lt;li&gt;It was cold but felt fast. The cold did slow me down, excuses excuses :-)&lt;/li&gt;
-  &lt;li&gt;Nice snow! Super fun!&lt;/li&gt;
-  &lt;li&gt;I only fell once and this was because somebody hit me from behind going downhill but I guess in retrospect I should haven’t done such a wide turn (dynamic “lalas” :-) as my old downhill ski instructor in Ottawa told me at Camp Fortune)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;strava-embed&quot;&gt;Strava Embed&lt;/h3&gt;
-
-&lt;div class=&quot;strava-embed-placeholder&quot; data-embed-type=&quot;activity&quot; data-embed-id=&quot;8621739175&quot;&gt;&lt;/div&gt;
-&lt;script src=&quot;https://strava-embeds.com/embed.js&quot;&gt;&lt;/script&gt;
-
-&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;February 22, 2020: &lt;a href=&quot;http://rolandtanglao.com/2020/02/22/p1-payak-2020-slower-because-i-fell-3-times-in-first-5-mountain-view-climb-was-fast-klaebo-rules/&quot;&gt;Payak 2020: 1:40 oops fell 3 times in the first 5km, but mountain view climb was fast because of the klaebo running up hill diagonal stride technique&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Thu, 16 Mar 2023 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2023/03/16/p1-payak-2023/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2023/03/16/p1-payak-2023/</guid>
         
         
       </item>
