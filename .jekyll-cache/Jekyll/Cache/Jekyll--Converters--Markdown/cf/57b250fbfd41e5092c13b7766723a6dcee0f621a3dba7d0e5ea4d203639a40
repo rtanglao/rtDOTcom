@@ -1,0 +1,19 @@
+I"D<ul>
+  <li>From <a href="https://devdilettante.com/@roland/110776081314717683">mastodon</a>: From the department of some people have questionable hobbies : -) , a few infographics of thunderbird support questions on support.mozilla.org  (April 1-June 30, 2023) (pink = title, content and answers from the  original poster, non pink = replies by others). Each row is 80 bytes.  code (https://github.com/rtanglao/rt-tb-swag-2023 ) here’s 1 such infographic: https://flic.kr/p/2oRDzR1</li>
+  <li>even better, now with moar pink thanks to imagemagick 7’s “best fit” option:
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>magick <span class="s1">'*-80x*.png'</span> <span class="nt">-define</span> ashlar:best-fit<span class="o">=</span><span class="nb">true</span> <span class="s1">'ashlar:ashlar-magick-3000-tb-aaq-2023-04-01-2023-06-30.png[3000x3000+0+0]'</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h3 id="flickr-embed">Flickr embed:</h3>
+
+<p><a data-flickr-embed="true" href="https://www.flickr.com/photos/roland/53071580001/" title="ashlar best fit aaq thunderbird april 1-june 30, 2023"><img src="https://live.staticflickr.com/65535/53071580001_a9e4167717_3k.jpg" width="2960" height="1364" alt="ashlar best fit aaq thunderbird april 1-june 30, 2023" /></a><script async="" src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+
+<h3 id="previously">Previously</h3>
+
+<ul>
+  <li>April 9, 2023: <a href="http://rolandtanglao.com/2023/04/09/p1-rejoined-thunderbird/">I have rejoined Thunderbird</a></li>
+</ul>
+
+:ET

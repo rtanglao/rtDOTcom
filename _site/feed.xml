@@ -6,9 +6,37 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 26 Jul 2023 21:42:50 -0700</pubDate>
-    <lastBuildDate>Wed, 26 Jul 2023 21:42:50 -0700</lastBuildDate>
+    <pubDate>Wed, 26 Jul 2023 22:01:39 -0700</pubDate>
+    <lastBuildDate>Wed, 26 Jul 2023 22:01:39 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>April 1 - June 30, 2023 infographic of Thunderbird SUMO Support Questions using the imagemagick 7.x ashlar best fit option</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;From &lt;a href=&quot;https://devdilettante.com/@roland/110776081314717683&quot;&gt;mastodon&lt;/a&gt;: From the department of some people have questionable hobbies : -) , a few infographics of thunderbird support questions on support.mozilla.org  (April 1-June 30, 2023) (pink = title, content and answers from the  original poster, non pink = replies by others). Each row is 80 bytes.  code (&lt;a href=&quot;https://github.com/rtanglao/rt-tb-swag-2023&quot;&gt;https://github.com/rtanglao/rt-tb-swag-2023&lt;/a&gt; ) here’s 1 such infographic: &lt;a href=&quot;https://flic.kr/p/2oRDzR1&quot;&gt;https://flic.kr/p/2oRDzR1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;even better, now with moar pink thanks to imagemagick 7’s “best fit” option:
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;magick &lt;span class=&quot;s1&quot;&gt;'*-80x*.png'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-define&lt;/span&gt; ashlar:best-fit&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'ashlar:ashlar-magick-3000-tb-aaq-2023-04-01-2023-06-30.png[3000x3000+0+0]'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;flickr-embed&quot;&gt;Flickr embed:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/53071580001/&quot; title=&quot;ashlar best fit aaq thunderbird april 1-june 30, 2023&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/53071580001_a9e4167717_3k.jpg&quot; width=&quot;2960&quot; height=&quot;1364&quot; alt=&quot;ashlar best fit aaq thunderbird april 1-june 30, 2023&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;April 9, 2023: &lt;a href=&quot;http://rolandtanglao.com/2023/04/09/p1-rejoined-thunderbird/&quot;&gt;I have rejoined Thunderbird&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 26 Jul 2023 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2023/07/26/p2-info-graphic-from-thunderbird-sumo-questions-april-june-2023/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2023/07/26/p2-info-graphic-from-thunderbird-sumo-questions-april-june-2023/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Thanks to all of you for the over $3000 in donations to the Cypress Challenge Pancreatic Cancer ride</title>
@@ -380,26 +408,6 @@ and then install &lt;code class=&quot;language-plaintext highlighter-rouge&quot;
         <pubDate>Mon, 10 Apr 2023 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2023/04/10/p1-age-of-average-kinfolk-airspace-peoples-choice-five-over-ones-etc/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2023/04/10/p1-age-of-average-kinfolk-airspace-peoples-choice-five-over-ones-etc/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Simon Willison: ChatGPT lies. Me: so how can we trust its output to truly be helpful even if we are experts in the domain of discourse? And therefore know how to fact check it?</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Simon Willison writes: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ChatGPT lies to people. This is a serious bug that has so far resisted all attempts at a fix. We need to prioritize helping people understand this, not debating the most precise terminology to use to describe it.
-We accidentally invented computers that can lie to us&lt;/code&gt;. Read the whole thing: &lt;a href=&quot;https://simonwillison.net/2023/Apr/7/chatgpt-lies/&quot;&gt;We need to tell people ChatGPT will lie to them, not debate linguistics&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;April 9, 2023 &lt;a href=&quot;http://rolandtanglao.com/2023/04/09/p2-are-humans-more-actualized-with-ai/&quot;&gt;Emily Bender: you are not a stochastic parrot / Judith Butler, are we more actualized with AI? from: NY Magazine you are not a parrot&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 09 Apr 2023 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2023/04/09/p3-simon-wilison-chatgpt-lies-so-how-can-we-trust-it/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2023/04/09/p3-simon-wilison-chatgpt-lies-so-how-can-we-trust-it/</guid>
         
         
       </item>
