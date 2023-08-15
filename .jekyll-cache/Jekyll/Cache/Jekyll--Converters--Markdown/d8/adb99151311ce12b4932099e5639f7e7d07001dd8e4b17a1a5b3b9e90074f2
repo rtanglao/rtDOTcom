@@ -1,0 +1,22 @@
+I"�<ul>
+  <li>Anybody know how to render these non standard custom glyph’s like Grafista’s <code class="language-plaintext highlighter-rouge">B0001</code> in a web app or in Python, Rust, Ruby etc. Ideally I’d render the custom glyphs to a PNG so I can make tshirts :-) !</li>
+  <li>Source for hex <code class="language-plaintext highlighter-rouge">B0001</code>  being an invalid Unicode codepoint (<del>I thought it was invalid initially!</del>) is Tim Bray’s blog post from <a href="https://www.tbray.org/ongoing/When/202x/2023/08/14/Unicode-Scalar-Value">August 14, 2023</a> (see also https://www.fileformat.info/info/unicode/char/b0001/index.htm which states:  <code class="language-plaintext highlighter-rouge">U+B0001 is not a valid unicode character.</code>) :
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The text must consist of a sequence of [Unicode scalar values]
+(https://www.unicode.org/versions/Unicode10.0.0/ch03.pdf#G7404), 
+i.e integers in the inclusive ranges 0-0xD7FF and 0xE000-0x10FFFF.
+</code></pre></div>    </div>
+  </li>
+  <li>My toot about this:
+    <ul>
+      <li>anybody know anything about custom fonts on Linux (ubuntu 22.04, on dell xps13) or macOS.? My plan was to use the cool graphic glyphs from the <a href="https://learn.scannerlicker.net/2016/10/06/making-grafista/">Grafista</a> font and make a thunderbird infographic  png out of text in Grafista. unfortunately although the font shows 1600 glyphs i only have access to 360 glyphs and <code class="language-plaintext highlighter-rouge">xfd</code> on linux shows the wrong glyphs, i.e. not the cool graphic glyphs</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="previously">Previously</h3>
+
+<ul>
+  <li>July 26, 2023: <a href="http://rolandtanglao.com/2023/07/26/p2-info-graphic-from-thunderbird-sumo-questions-april-june-2023/">April 1 - June 30, 2023 infographic of Thunderbird SUMO Support Questions using the imagemagick 7.x ashlar best fit option</a></li>
+</ul>
+
+:ET

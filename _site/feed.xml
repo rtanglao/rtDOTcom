@@ -6,9 +6,40 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 26 Jul 2023 22:01:39 -0700</pubDate>
-    <lastBuildDate>Wed, 26 Jul 2023 22:01:39 -0700</lastBuildDate>
+    <pubDate>Tue, 15 Aug 2023 09:23:10 -0700</pubDate>
+    <lastBuildDate>Tue, 15 Aug 2023 09:23:10 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Grafista has glyphs with codepoints that are invalid Unicode codepoints e.g. Hex B0001 but which can't be rendered (they render as black boxes) by imagemagick using the pango renderer. Help please!</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Anybody know how to render these non standard custom glyph’s like Grafista’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;B0001&lt;/code&gt; in a web app or in Python, Rust, Ruby etc. Ideally I’d render the custom glyphs to a PNG so I can make tshirts :-) !&lt;/li&gt;
+  &lt;li&gt;Source for hex &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;B0001&lt;/code&gt;  being an invalid Unicode codepoint (&lt;del&gt;I thought it was invalid initially!&lt;/del&gt;) is Tim Bray’s blog post from &lt;a href=&quot;https://www.tbray.org/ongoing/When/202x/2023/08/14/Unicode-Scalar-Value&quot;&gt;August 14, 2023&lt;/a&gt; (see also https://www.fileformat.info/info/unicode/char/b0001/index.htm which states:  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;U+B0001 is not a valid unicode character.&lt;/code&gt;) :
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;The text must consist of a sequence of [Unicode scalar values]
+(https://www.unicode.org/versions/Unicode10.0.0/ch03.pdf#G7404), 
+i.e integers in the inclusive ranges 0-0xD7FF and 0xE000-0x10FFFF.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;My toot about this:
+    &lt;ul&gt;
+      &lt;li&gt;anybody know anything about custom fonts on Linux (ubuntu 22.04, on dell xps13) or macOS.? My plan was to use the cool graphic glyphs from the &lt;a href=&quot;https://learn.scannerlicker.net/2016/10/06/making-grafista/&quot;&gt;Grafista&lt;/a&gt; font and make a thunderbird infographic  png out of text in Grafista. unfortunately although the font shows 1600 glyphs i only have access to 360 glyphs and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xfd&lt;/code&gt; on linux shows the wrong glyphs, i.e. not the cool graphic glyphs&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;July 26, 2023: &lt;a href=&quot;http://rolandtanglao.com/2023/07/26/p2-info-graphic-from-thunderbird-sumo-questions-april-june-2023/&quot;&gt;April 1 - June 30, 2023 infographic of Thunderbird SUMO Support Questions using the imagemagick 7.x ashlar best fit option&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 15 Aug 2023 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2023/08/15/p2-pango-imagemagick-does-not-render-custom-glyphs-that-are-not-unicode/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2023/08/15/p2-pango-imagemagick-does-not-render-custom-glyphs-that-are-not-unicode/</guid>
+        
+        
+      </item>
     
       <item>
         <title>April 1 - June 30, 2023 infographic of Thunderbird SUMO Support Questions using the imagemagick 7.x ashlar best fit option</title>
@@ -354,60 +385,6 @@ and then install &lt;code class=&quot;language-plaintext highlighter-rouge&quot;
         <pubDate>Tue, 11 Apr 2023 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2023/04/11/p1-talking-circle/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2023/04/11/p1-talking-circle/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>The age of average aka kinfolk, airspace, five over ones, people's choice, wind tunnel cars, same type in media, same clothing everythere, etc everywhere</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Do your own thing, do your own look and style, escape the bland hegemony :-)&lt;/li&gt;
-  &lt;li&gt;JUICY QUOTE (of course read the whole thing: &lt;a href=&quot;https://www.alexmurrell.co.uk/articles/the-age-of-average&quot;&gt;Alex Murrell: The age of average&lt;/a&gt;):&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;But it’s not all bad news.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I believe that the age of average is the age of opportunity.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;When every supermarket aisle looks like a sea of sameness, when every category abides by the same conventions, when every industry has converged on its own singular style, bold brands and courageous companies have the chance to chart a different course. To be different, distinctive and disruptive.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;So, this is your call to arms. Whether you’re in film or fashion, media or marketing, architecture, automotive or advertising, it doesn’t matter. Our visual culture is flatlining and the only cure is creativity.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It’s time to cast aside conformity. It’s time to exorcise the expected. It’s time to decline the indistinguishable.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;For years the world has been moving in the same stylistic direction. And it’s time we reintroduced some originality.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Or as the ad agency BBH says.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;When the world zigs. Zag.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;END QUOTE&lt;/p&gt;
-
-&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;April 2, 2005 &lt;a href=&quot;http://rolandtanglao.com/2005/04/02/how-design-really-gets-done/&quot;&gt;How design really gets done&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 10 Apr 2023 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2023/04/10/p1-age-of-average-kinfolk-airspace-peoples-choice-five-over-ones-etc/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2023/04/10/p1-age-of-average-kinfolk-airspace-peoples-choice-five-over-ones-etc/</guid>
         
         
       </item>
