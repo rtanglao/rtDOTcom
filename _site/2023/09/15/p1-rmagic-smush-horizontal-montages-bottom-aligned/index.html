@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>RMagick doesn't support smush to align horizontal images at the bottom but MiniMagick does</title>
+    <title>RMagick doesn't support smush to align horizontal images at the bottom but MiniMagick does; you need gravity set to `south` to anchor images to the bottom ie. `south`</title>
     <meta name="description" content="flickr.com/roland, twitter.com/rtanglao #firefox #thunderbird
 ">
 
@@ -57,13 +57,14 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">RMagick doesn't support smush to align horizontal images at the bottom but MiniMagick does</h1>
+    <h1 class="post-title">RMagick doesn't support smush to align horizontal images at the bottom but MiniMagick does; you need gravity set to `south` to anchor images to the bottom ie. `south`</h1>
     <p class="post-meta">Sep 15, 2023</p>
   </header>
 
   <article class="post-content">
     <ul>
   <li>From <a href="https://elk.zone/devdilettante.com/@roland/111067680184544895">Mastodon</a>: Today I Learned, RMagick doesn’t support <code class="language-plaintext highlighter-rouge">smush</code> (<a href="https://imagemagick.org/script/command-line-options.php#smush">imagemagick docs for smush</a>,<a href="https://www.rubydoc.info/gems/rmagick/Magick/ImageList/Montage"> RMagick docs for montage don’t mention smush</a>) to align horizontal images at the bottom but <a href="https://github.com/minimagick/minimagick">MiniMagick</a> does! Stack Overflow:<a href="https://stackoverflow.com/questions/60357036/imagemagick-montage-how-to-align-images-to-bottom">imagemagick montage - how to align images to bottom</a></li>
+  <li>The othe important thing to note is you need to set <code class="language-plaintext highlighter-rouge">gravity</code> to <code class="language-plaintext highlighter-rouge">south</code> to anchor the images at the bottom instead of at the top.</li>
 </ul>
 
 <h3 id="code">Code</h3>
