@@ -6,9 +6,44 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 15 Aug 2023 09:23:10 -0700</pubDate>
-    <lastBuildDate>Tue, 15 Aug 2023 09:23:10 -0700</lastBuildDate>
+    <pubDate>Fri, 15 Sep 2023 10:28:56 -0700</pubDate>
+    <lastBuildDate>Fri, 15 Sep 2023 10:28:56 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>RMagick doesn't support smush to align horizontal images at the bottom but MiniMagick does</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;From &lt;a href=&quot;https://elk.zone/devdilettante.com/@roland/111067680184544895&quot;&gt;Mastodon&lt;/a&gt;: Today I Learned, RMagick doesn’t support &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;smush&lt;/code&gt; (&lt;a href=&quot;https://imagemagick.org/script/command-line-options.php#smush&quot;&gt;imagemagick docs for smush&lt;/a&gt;,&lt;a href=&quot;https://www.rubydoc.info/gems/rmagick/Magick/ImageList/Montage&quot;&gt; RMagick docs for montage don’t mention smush&lt;/a&gt;) to align horizontal images at the bottom but &lt;a href=&quot;https://github.com/minimagick/minimagick&quot;&gt;MiniMagick&lt;/a&gt; does! Stack Overflow:&lt;a href=&quot;https://stackoverflow.com/questions/60357036/imagemagick-montage-how-to-align-images-to-bottom&quot;&gt;imagemagick montage - how to align images to bottom&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;code&quot;&gt;Code&lt;/h3&gt;
+&lt;p&gt;From: &lt;a href=&quot;https://github.com/rtanglao/rt-tb-noto-emoji-2023/blob/main/create-emoji-question-graphics.rb&quot;&gt;create-emoji-question-graphics.rb&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'mini_magick'&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;montage_images_horizontally&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;image_to_be_appended&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;no&quot;&gt;MiniMagick&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Tool&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Magick&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;gravity&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'south'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;m&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;image&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;m&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;image_to_be_appended&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;smush&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;m&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;image&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;February 17, 2023: &lt;a href=&quot;http://rolandtanglao.com/2023/02/17/p1-howto-label-image-emoji-imagemagick-rmagick/&quot;&gt;How To label an image with an emoji using ruby rmagick with imagemagick? A: Use an XML entity escape e.g. &amp;amp;x1234; with the pango text renderer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Fri, 15 Sep 2023 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2023/09/15/p1-rmagic-smush-horizontal-montages-bottom-aligned/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2023/09/15/p1-rmagic-smush-horizontal-montages-bottom-aligned/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Grafista has glyphs with codepoints that are invalid Unicode codepoints e.g. Hex B0001 but which can't be rendered (they render as black boxes) by imagemagick using the pango renderer. Help please!</title>
@@ -345,46 +380,6 @@ and then install &lt;code class=&quot;language-plaintext highlighter-rouge&quot;
         <pubDate>Sun, 16 Apr 2023 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2023/04/16/p1-may-wong-maintenance-mode-myth-support/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2023/04/16/p1-may-wong-maintenance-mode-myth-support/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Samantha Slade: Difficult Conversations and Talking Circles: A response for those longing for healthy team dynamics</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://medium.com/percolab-droplets/difficult-conversations-and-talking-circles-9fababc88e08&quot;&gt;Difficult Conversations and Talking Circles&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;QUOTE&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;A talking circle is NOT an action taking or decision making process, nor a feedback method. Talking circles help to go into a topic with depth, to explore what is stirring underneath, to engage in the complexity together. Think of something that is rumbling right now in your group or team. Circle practice can help to go into this rumbling in a safe way. If you find yourself being pulled into side conversations about an issue going on, it might be time to call a circle. It helps those concerned to go into the issue together, constructively. Circle helps to step away from blame culture and to really listen to one another.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;…&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;ol&gt;
-    &lt;li&gt;Speak from the “I”.&lt;/li&gt;
-    &lt;li&gt;Speak to the center of the circle.&lt;/li&gt;
-    &lt;li&gt;Go around with a talking/listening piece&lt;/li&gt;
-    &lt;li&gt;Silence is healthy.&lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;END QUOTE&lt;/p&gt;
-
-&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;June 12, 2022 &lt;a href=&quot;http://rolandtanglao.com/2022/06/12/p1-megan-carpenter-stop-assuming-good-intent-i-will-give-you-grace-if-you-give-me-effort/&quot;&gt;Megan Carpenter via Tara Robertson via Nancy White: Stop Assuming Good Intent; instead: I’ll give you grace if you give me effort&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 11 Apr 2023 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2023/04/11/p1-talking-circle/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2023/04/11/p1-talking-circle/</guid>
         
         
       </item>
