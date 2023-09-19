@@ -25,4 +25,3 @@ end
 
 * February 17, 2023: [How To label an image with an emoji using ruby rmagick with imagemagick? A: Use an XML entity escape e.g. &x1234; with the pango text renderer](http://rolandtanglao.com/2023/02/17/p1-howto-label-image-emoji-imagemagick-rmagick/)
 
-

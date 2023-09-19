@@ -6,9 +6,41 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 15 Sep 2023 10:36:08 -0700</pubDate>
-    <lastBuildDate>Fri, 15 Sep 2023 10:36:08 -0700</lastBuildDate>
+    <pubDate>Mon, 18 Sep 2023 22:50:33 -0700</pubDate>
+    <lastBuildDate>Mon, 18 Sep 2023 22:50:33 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>How to create a 2 second fps video using ffmpeg  from lots of JPEGs e.g. from Canon EOS RP</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;How to create a 2 second fps video using ffmpeg (via &lt;a href=&quot;https://www.plainlyvideos.com/blog/ffmpeg-convert-images-to-video&quot;&gt;How to convert images using FFmpeg to create a simple slideshow&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ffmpeg &lt;span class=&quot;nt&quot;&gt;-framerate&lt;/span&gt; 1/0.125 &lt;span class=&quot;nt&quot;&gt;-pattern_type&lt;/span&gt; glob &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'*.JPG'&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;-filter_complex&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2&quot;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;-pix_fmt&lt;/span&gt; yuv420p &lt;span class=&quot;nt&quot;&gt;-r&lt;/span&gt; 2 &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+1frame-every-0.125seconds-2FPS-2023-09-02-concord-park-viaduct-dutch-taiwanfest-london-drugs-dunsmuir-revolver-bicycling.mp4
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Even better over 1.5 hours condensed into 26 seconds :-) !
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ffmpeg &lt;span class=&quot;nt&quot;&gt;-framerate&lt;/span&gt; 1/0.002 &lt;span class=&quot;nt&quot;&gt;-pattern_type&lt;/span&gt; glob &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'*.JPG'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-filter_complex&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-pix_fmt&lt;/span&gt; yuv420p &lt;span class=&quot;nt&quot;&gt;-r&lt;/span&gt; 120 1frame-every-0.002seconds-120FPS-2023-09-04-eosrp-zeiss35mmf2-revolver-stanleypark-clarkpark-bicycling.mp4  
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;April 6, 2021: &lt;a href=&quot;http://rolandtanglao.com/2021/04/10/p1-photoshop-less-using-printf-header-magick-convert-xxd-rgb-png/&quot;&gt;Photoshop-less  way using printf and magick (imagemagick version 7) to convert an RGB  file created by xxd without a header to a PNG&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 18 Sep 2023 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2023/09/18/p1-howto-create-video-ffmpeg-from-lots-of-jpegs/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2023/09/18/p1-howto-create-video-ffmpeg-from-lots-of-jpegs/</guid>
+        
+        
+      </item>
     
       <item>
         <title>RMagick doesn't support smush to align horizontal images at the bottom but MiniMagick does; you need gravity set to `south` to anchor images to the bottom ie. `south`</title>
@@ -344,43 +376,6 @@ and then install &lt;code class=&quot;language-plaintext highlighter-rouge&quot;
         <pubDate>Sun, 16 Apr 2023 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2023/04/16/p2-systemd-part-of-wsl-window11/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2023/04/16/p2-systemd-part-of-wsl-window11/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>May Wong:The Myth of Maintenance Mode:We don’t build organizations that support the culture of maintenance...I wonder if this is also why Support is chronically undervalued and underfunded.</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://pwords.substack.com/p/the-myth-of-maintenance-mode&quot;&gt;The Myth of Maintenance Mode&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Your Support team has also been cobbling together a product lifetime’s worth of workarounds to make the product keep working, and now these might break your new fix as well.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;…&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;We don’t build organizations that support the culture of maintenance, and therefore it isn’t work that ends up being valued. I wonder if this is also why Support is chronically undervalued and underfunded.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Again please read the whole thing :-) &lt;a href=&quot;https://pwords.substack.com/p/the-myth-of-maintenance-mode&quot;&gt;https://pwords.substack.com/p/the-myth-of-maintenance-mode&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;January 9, 2018 &lt;a href=&quot;http://rolandtanglao.com/2018/01/09/p1-how-automattic-handles-2000-support-tickets-daily-communication-respect-for-team-and-customers/&quot;&gt;How does Automattic handle 2000 support requests/day? With communication and respect for customers and respect for support folks&lt;/a&gt; &amp;lt;– sadly the following link is broken in 2023: https://blog.freshdesk.com/secret-sauce-wordpress-com/&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 16 Apr 2023 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2023/04/16/p1-may-wong-maintenance-mode-myth-support/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2023/04/16/p1-may-wong-maintenance-mode-myth-support/</guid>
         
         
       </item>
