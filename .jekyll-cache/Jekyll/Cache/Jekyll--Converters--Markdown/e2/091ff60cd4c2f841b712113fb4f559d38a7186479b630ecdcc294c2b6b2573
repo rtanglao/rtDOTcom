@@ -1,0 +1,424 @@
+I"��<h3 id="move-your-cursor-over-to-get-the-first-66-characters-of-the-question-title-and-click-to-open-that-question-in-your-browser-for-all-sumo-tb-questions-from-september-22-2023">Move your cursor over to get the first 66 characters of the Question title and click to open that question in your browser for all SUMO TB questions from September 22, 2023</h3>
+
+<p><a href="http://rolandtanglao.com/2023/09/26/p1-thunderbird-bar-code-operating-system-antivirus-email-provider-userchrome/tb-sumo-daily-aaq-image-map-20230922.html">http://rolandtanglao.com/2023/09/26/p1-thunderbird-bar-code-operating-system-antivirus-email-provider-userchrome/tb-sumo-daily-aaq-image-map-20230922.html</a></p>
+
+<p>####The future</p>
+
+<ul>
+  <li>Not sure where to go next? Maybe remove all text and make the icons specific to brand names and operating system versions. To make it purely abstract?</li>
+  <li>Also maybe make all text format tabular format e.g. Markdown table to make it suitable for “real” work</li>
+</ul>
+
+<h3 id="code-to-create-the-barcode">Code to create the barcode</h3>
+
+<ul>
+  <li><a href="https://github.com/rtanglao/rt-tb-noto-emoji-2023/blob/main/create-emoji-question-graphics.rb">create-emoji-question-graphics.rb</a></li>
+</ul>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/env ruby</span>
+<span class="nb">require</span> <span class="s1">'rubygems'</span>
+<span class="nb">require</span> <span class="s1">'bundler/setup'</span>
+<span class="nb">require</span> <span class="s1">'amazing_print'</span>
+<span class="nb">require</span> <span class="s1">'json'</span>
+<span class="nb">require</span> <span class="s1">'time'</span>
+<span class="nb">require</span> <span class="s1">'date'</span>
+<span class="nb">require</span> <span class="s1">'csv'</span>
+<span class="nb">require</span> <span class="s1">'logger'</span>
+<span class="nb">require</span> <span class="s1">'rmagick'</span>
+<span class="nb">require</span> <span class="s1">'pry'</span>
+<span class="nb">require</span> <span class="s1">'facets/enumerable/find_yield'</span>
+<span class="nb">require_relative</span> <span class="s1">'regexes'</span>
+<span class="nb">require</span> <span class="s1">'mini_magick'</span>
+<span class="nb">require</span> <span class="s1">'nokogiri'</span>
+
+<span class="n">logger</span> <span class="o">=</span> <span class="no">Logger</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="vg">$stderr</span><span class="p">)</span>
+<span class="n">logger</span><span class="p">.</span><span class="nf">level</span> <span class="o">=</span> <span class="no">Logger</span><span class="o">::</span><span class="no">DEBUG</span>
+
+<span class="no">VERTICAL</span> <span class="o">=</span> <span class="kp">true</span>
+<span class="no">HORIZONTAL</span> <span class="o">=</span> <span class="kp">false</span>
+
+<span class="c1">#</span>
+<span class="c1"># &lt;img src="workplace.jpg" alt="Workplace" usemap="#workmap"&gt;</span>
+<span class="c1">#</span>
+<span class="c1"># &lt;map name="workmap"&gt;</span>
+<span class="c1">#   &lt;area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm"&gt;</span>
+<span class="c1">#   &lt;area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm"&gt;</span>
+<span class="c1">#   &lt;area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm"&gt;</span>
+<span class="c1"># &lt;/map&gt;</span>
+
+<span class="k">def</span> <span class="nf">calculate_img_map_coordinates</span><span class="p">(</span><span class="n">daily</span><span class="p">,</span> <span class="n">logger</span><span class="p">)</span>
+  <span class="n">day_id</span> <span class="o">=</span> <span class="n">daily</span><span class="p">[</span><span class="ss">:day_id</span><span class="p">]</span>
+  <span class="n">day_filename</span> <span class="o">=</span> <span class="n">daily</span><span class="p">[</span><span class="ss">:day_filename</span><span class="p">]</span>
+  <span class="n">day_width</span> <span class="o">=</span> <span class="n">daily</span><span class="p">[</span><span class="ss">:day_width</span><span class="p">]</span>
+  <span class="n">day_height</span> <span class="o">=</span> <span class="n">daily</span><span class="p">[</span><span class="ss">:day_height</span><span class="p">]</span>
+  <span class="n">html_str</span> <span class="o">=</span> <span class="s2">"&lt;img src='"</span>
+  <span class="n">html_str</span> <span class="o">+=</span> <span class="s2">"</span><span class="si">#{</span><span class="n">day_filename</span><span class="si">}</span><span class="s2">' alt='</span><span class="si">#{</span><span class="n">day_id</span><span class="si">}</span><span class="s2">' usemap='#</span><span class="si">#{</span><span class="n">day_id</span><span class="si">}</span><span class="s2">'&gt;</span><span class="se">\n</span><span class="s2">"</span>
+  <span class="n">html_str</span> <span class="o">+=</span> <span class="s2">"&lt;map name='</span><span class="si">#{</span><span class="n">day_id</span><span class="si">}</span><span class="s2">'&gt;"</span>
+  <span class="n">bottom_right_x_offset</span> <span class="o">=</span> <span class="mi">0</span>
+  <span class="n">daily</span><span class="p">[</span><span class="ss">:hourly_images</span><span class="p">].</span><span class="nf">each_with_index</span> <span class="k">do</span> <span class="o">|</span><span class="n">h</span><span class="p">,</span> <span class="n">hourly_index</span><span class="o">|</span>
+    <span class="n">logger</span><span class="p">.</span><span class="nf">debug</span> <span class="s2">"hourly_image: </span><span class="si">#{</span><span class="n">h</span><span class="p">.</span><span class="nf">ai</span><span class="si">}</span><span class="s2">"</span>
+    <span class="n">bottom_right_y_offset</span> <span class="o">=</span> <span class="n">day_height</span>
+    <span class="n">hourly_width</span> <span class="o">=</span> <span class="n">h</span><span class="p">[</span><span class="ss">:hourly_width</span><span class="p">]</span>
+    <span class="n">total_q_height</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">h</span><span class="p">[</span><span class="ss">:questions</span><span class="p">].</span><span class="nf">each_with_index</span> <span class="k">do</span> <span class="o">|</span><span class="n">q</span><span class="p">,</span> <span class="n">question_index</span><span class="o">|</span>
+      <span class="n">q_width</span> <span class="o">=</span> <span class="n">q</span><span class="p">[</span><span class="ss">:question_width</span><span class="p">]</span>
+      <span class="n">q_height</span> <span class="o">=</span> <span class="n">q</span><span class="p">[</span><span class="ss">:question_height</span><span class="p">]</span>
+      <span class="n">total_q_height</span> <span class="o">+=</span> <span class="n">q_height</span>
+      <span class="n">q_id</span> <span class="o">=</span> <span class="n">q</span><span class="p">[</span><span class="ss">:question_id</span><span class="p">]</span>
+      <span class="n">top_left_x</span> <span class="o">=</span> <span class="n">hourly_index</span><span class="p">.</span><span class="nf">zero?</span> <span class="p">?</span> <span class="mi">0</span> <span class="p">:</span> <span class="n">bottom_right_x_offset</span>
+      <span class="n">top_left_y</span> <span class="o">=</span> <span class="n">question_index</span><span class="p">.</span><span class="nf">zero?</span> <span class="p">?</span> <span class="n">day_height</span> <span class="o">-</span> <span class="n">q_height</span> <span class="p">:</span> <span class="n">day_height</span> <span class="o">-</span> <span class="n">total_q_height</span>
+      <span class="n">bottom_right_x</span> <span class="o">=</span> <span class="n">hourly_index</span><span class="p">.</span><span class="nf">zero?</span> <span class="p">?</span> <span class="n">hourly_width</span> <span class="p">:</span> <span class="n">hourly_width</span> <span class="o">+</span> <span class="n">bottom_right_x_offset</span>
+      <span class="n">bottom_right_y</span> <span class="o">=</span> <span class="n">question_index</span><span class="p">.</span><span class="nf">zero?</span> <span class="p">?</span> <span class="n">day_height</span> <span class="p">:</span> <span class="n">day_height</span> <span class="o">-</span> <span class="p">(</span><span class="n">total_q_height</span> <span class="o">-</span> <span class="n">q_height</span><span class="p">)</span>
+      <span class="n">bottom_right_y_offset</span> <span class="o">-=</span> <span class="n">q_height</span>
+      <span class="n">logger</span><span class="p">.</span><span class="nf">debug</span> <span class="s2">"top_left_x: </span><span class="si">#{</span><span class="n">top_left_x</span><span class="si">}</span><span class="s2"> top_left_y: </span><span class="si">#{</span><span class="n">top_left_y</span><span class="si">}</span><span class="s2">"</span>
+      <span class="n">logger</span><span class="p">.</span><span class="nf">debug</span> <span class="s2">"bottom_right_x: </span><span class="si">#{</span><span class="n">bottom_right_x</span><span class="si">}</span><span class="s2"> bottom_right_y: </span><span class="si">#{</span><span class="n">bottom_right_y</span><span class="si">}</span><span class="s2">"</span>
+      <span class="n">html_str</span> <span class="o">+=</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">&lt;area shape='rect' title='</span><span class="si">#{</span><span class="n">q</span><span class="p">[</span><span class="ss">:question_title</span><span class="p">]</span><span class="si">}</span><span class="s2">' "</span>
+      <span class="n">html_str</span> <span class="o">+=</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">coords='</span><span class="si">#{</span><span class="n">top_left_x</span><span class="si">}</span><span class="s2">,</span><span class="si">#{</span><span class="n">top_left_y</span><span class="si">}</span><span class="s2">,</span><span class="si">#{</span><span class="n">bottom_right_x</span><span class="si">}</span><span class="s2">,</span><span class="si">#{</span><span class="n">bottom_right_y</span><span class="si">}</span><span class="s2">' "</span>
+      <span class="n">html_str</span> <span class="o">+=</span> <span class="s2">"alt='question:</span><span class="si">#{</span><span class="n">q_id</span><span class="si">}</span><span class="s2">' href='https://support.mozilla.org/questions/</span><span class="si">#{</span><span class="n">q_id</span><span class="si">}</span><span class="s2">'&gt;"</span>
+      <span class="n">logger</span><span class="p">.</span><span class="nf">debug</span> <span class="s2">"html_str: </span><span class="si">#{</span><span class="n">html_str</span><span class="si">}</span><span class="s2">"</span>
+    <span class="k">end</span>
+    <span class="n">bottom_right_x_offset</span> <span class="o">+=</span> <span class="n">hourly_width</span>
+  <span class="k">end</span>
+  <span class="n">html_str</span> <span class="o">+=</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">&lt;/map&gt;"</span>
+<span class="k">end</span>
+
+<span class="k">def</span> <span class="nf">append_image</span><span class="p">(</span><span class="n">image_to_be_appended</span><span class="p">,</span> <span class="n">image</span><span class="p">,</span> <span class="n">vertical_or_horizontal</span><span class="p">)</span>
+  <span class="n">image_list</span> <span class="o">=</span> <span class="no">Magick</span><span class="o">::</span><span class="no">ImageList</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="n">image_to_be_appended</span><span class="p">,</span> <span class="n">image</span><span class="p">)</span>
+  <span class="n">appended_images</span> <span class="o">=</span> <span class="n">image_list</span><span class="p">.</span><span class="nf">append</span><span class="p">(</span><span class="n">vertical_or_horizontal</span><span class="p">)</span>
+  <span class="n">appended_images</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="n">image</span><span class="p">)</span>
+<span class="k">end</span>
+
+<span class="c1"># if RMagick supported a smush option then it would work but it doesn't</span>
+<span class="c1"># Therefore the RMagick version is commented out</span>
+<span class="c1">#  def montage_images_horizontally(image_to_be_appended, image)</span>
+<span class="c1">#   image_list = Magick::ImageList.new(image, image_to_be_appended)</span>
+<span class="c1">#   montaged_images = image_list.montage do |i|</span>
+<span class="c1">#     i.geometry = '+0+0'</span>
+<span class="c1">#     i.gravity = Magick::SouthGravity</span>
+<span class="c1">#     i.tile = 'x1' # Geometry.new(nil, 1, nil, nil, nil)</span>
+<span class="c1">#   end</span>
+<span class="c1">#   montaged_images.write(image)</span>
+<span class="c1"># end</span>
+
+<span class="k">def</span> <span class="nf">montage_images_horizontally</span><span class="p">(</span><span class="n">image_to_be_appended</span><span class="p">,</span> <span class="n">image</span><span class="p">)</span>
+  <span class="c1"># following is from:</span>
+  <span class="c1"># https://stackoverflow.com/questions/60357036/imagemagick-montage-how-to-align-images-to-bottom</span>
+  <span class="c1"># convert -background white -gravity south [abc].png +smush 10 result.png</span>
+  <span class="no">MiniMagick</span><span class="o">::</span><span class="no">Tool</span><span class="o">::</span><span class="no">Magick</span><span class="p">.</span><span class="nf">new</span> <span class="k">do</span> <span class="o">|</span><span class="n">m</span><span class="o">|</span>
+    <span class="n">m</span> <span class="o">&lt;&lt;</span> <span class="s1">'-gravity'</span> <span class="o">&lt;&lt;</span> <span class="s1">'South'</span>
+    <span class="n">m</span> <span class="o">&lt;&lt;</span> <span class="n">image</span>
+    <span class="n">m</span> <span class="o">&lt;&lt;</span> <span class="n">image_to_be_appended</span>
+    <span class="n">m</span> <span class="o">&lt;&lt;</span> <span class="s1">'+smush'</span> <span class="o">&lt;&lt;</span> <span class="s1">'0'</span> <span class="c1">#'10'</span>
+    <span class="n">m</span> <span class="o">&lt;&lt;</span> <span class="s1">'-geometry'</span> <span class="o">&lt;&lt;</span> <span class="s1">'+0+0'</span>
+    <span class="n">m</span> <span class="o">&lt;&lt;</span> <span class="n">image</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+
+<span class="c1"># Can't get the following to work, keeping it for future reference</span>
+<span class="k">def</span> <span class="nf">montage_images_vertically</span><span class="p">(</span><span class="n">image_to_be_appended</span><span class="p">,</span> <span class="n">image</span><span class="p">)</span>
+  <span class="c1"># following is from:</span>
+  <span class="c1"># https://stackoverflow.com/questions/60357036/imagemagick-montage-how-to-align-images-to-bottom</span>
+  <span class="c1"># convert -background white -gravity south [abc].png +smush 10 result.png</span>
+  <span class="no">MiniMagick</span><span class="o">::</span><span class="no">Tool</span><span class="o">::</span><span class="no">Magick</span><span class="p">.</span><span class="nf">new</span> <span class="k">do</span> <span class="o">|</span><span class="n">m</span><span class="o">|</span>
+    <span class="n">m</span><span class="p">.</span><span class="nf">gravity</span><span class="p">(</span><span class="s1">'south'</span><span class="p">)</span>
+    <span class="n">m</span> <span class="o">&lt;&lt;</span> <span class="n">image_to_be_appended</span>
+    <span class="n">m</span> <span class="o">&lt;&lt;</span> <span class="n">image</span>
+    <span class="n">m</span> <span class="o">&lt;&lt;</span> <span class="s1">'-smush'</span> <span class="o">&lt;&lt;</span> <span class="s1">'0'</span> <span class="c1"># stack vertically</span>
+    <span class="n">m</span> <span class="o">&lt;&lt;</span> <span class="n">image</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+
+<span class="k">def</span> <span class="nf">get_emojis_from_regex</span><span class="p">(</span><span class="n">emoji_regex</span><span class="p">,</span> <span class="n">content</span><span class="p">,</span> <span class="n">_logger</span><span class="p">)</span>
+  <span class="n">emoji_regex</span><span class="p">.</span><span class="nf">find_yield</span><span class="p">({</span> <span class="ss">emoji: </span><span class="no">UNKNOWN_EMOJI</span><span class="p">,</span> <span class="ss">matching_text: </span><span class="kp">nil</span> <span class="p">})</span> <span class="p">\</span>
+  <span class="p">{</span> <span class="o">|</span><span class="n">er</span><span class="o">|</span> <span class="p">{</span> <span class="ss">emoji: </span><span class="n">er</span><span class="p">[</span><span class="ss">:emoji</span><span class="p">],</span> <span class="ss">matching_text: </span><span class="no">Regexp</span><span class="p">.</span><span class="nf">last_match</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="p">}</span> <span class="k">if</span> <span class="n">content</span> <span class="o">=~</span> <span class="n">er</span><span class="p">[</span><span class="ss">:regex</span><span class="p">]</span> <span class="p">}</span>
+<span class="k">end</span>
+
+<span class="k">def</span> <span class="nf">format_emoji_content</span><span class="p">(</span><span class="n">content</span><span class="p">,</span> <span class="n">color</span><span class="p">,</span> <span class="n">label</span><span class="p">,</span> <span class="n">logger</span><span class="p">)</span>
+  <span class="n">logger</span><span class="p">.</span><span class="nf">debug</span> <span class="s2">"matching_text: </span><span class="si">#{</span><span class="n">content</span><span class="p">[</span><span class="ss">:matching_text</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span>
+  <span class="n">str</span> <span class="o">=</span> <span class="s2">"</span><span class="se">\r</span><span class="s2">&lt;span foreground='</span><span class="si">#{</span><span class="n">color</span><span class="si">}</span><span class="s2">' font='Latin Modern Roman Demi'&gt;&lt;b&gt;</span><span class="si">#{</span><span class="n">label</span><span class="si">}</span><span class="s2">:&lt;/b&gt;"</span>
+  <span class="n">str</span> <span class="o">+=</span> <span class="s2">"&lt;/span&gt;</span><span class="si">#{</span><span class="n">content</span><span class="p">[</span><span class="ss">:emoji</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span>
+  <span class="n">str</span> <span class="o">+</span> <span class="s2">"&lt;span font='Latin Modern Roman Demi'&gt;</span><span class="si">#{</span><span class="n">content</span><span class="p">[</span><span class="ss">:matching_text</span><span class="p">]</span><span class="si">}</span><span class="s2">&lt;/span&gt;"</span>
+<span class="k">end</span>
+
+<span class="k">if</span> <span class="no">ARGV</span><span class="p">.</span><span class="nf">length</span> <span class="o">&lt;</span> <span class="mi">2</span>
+  <span class="nb">puts</span> <span class="s2">"usage: </span><span class="si">#{</span><span class="vg">$PROGRAM_NAME</span><span class="si">}</span><span class="s2"> &lt;questions_CSV_file&gt; &lt;answers_CSV_file&gt;"</span>
+  <span class="nb">exit</span>
+<span class="k">end</span>
+
+<span class="n">all_questions</span> <span class="o">=</span> <span class="no">CSV</span><span class="p">.</span><span class="nf">read</span><span class="p">(</span><span class="no">ARGV</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="ss">headers: </span><span class="kp">true</span><span class="p">)</span>
+<span class="n">all_answers</span> <span class="o">=</span> <span class="no">CSV</span><span class="p">.</span><span class="nf">read</span><span class="p">(</span><span class="no">ARGV</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="ss">headers: </span><span class="kp">true</span><span class="p">)</span>
+<span class="n">fn_str</span> <span class="o">=</span> <span class="s1">'tb-question-emoji-%&lt;id&gt;s-%&lt;yyyy&gt;4.4d-%&lt;mm&gt;2.2d-%&lt;dd&gt;2.2d'</span>
+<span class="n">fn_str</span> <span class="o">+=</span> <span class="s1">'-%&lt;hh&gt;2.2d-%&lt;min&gt;2.2d-%&lt;ss&gt;2.2d'</span>
+<span class="n">fn_str</span> <span class="o">+=</span> <span class="s1">'-%&lt;width&gt;4.4dx%&lt;height&gt;4.4d.png'</span>
+
+<span class="no">HOURLY_STR</span> <span class="o">=</span> <span class="s1">'hourly-tb-emoji-%&lt;yyyy&gt;4.4d-%&lt;mm&gt;2.2d-%&lt;dd&gt;2.2d-%&lt;hh&gt;2.2d.png'</span><span class="p">.</span><span class="nf">freeze</span>
+<span class="no">HOURID_STR</span> <span class="o">=</span> <span class="s1">'%&lt;yyyy&gt;4.4d%&lt;mm&gt;2.2d%&lt;dd&gt;2.2d%&lt;hh&gt;2.2d'</span><span class="p">.</span><span class="nf">freeze</span>
+<span class="no">DAY_STR</span> <span class="o">=</span> <span class="s1">'%&lt;yyyy&gt;4.4d%&lt;mm&gt;2.2d%&lt;dd&gt;2.2d%'</span><span class="p">.</span><span class="nf">freeze</span>
+
+<span class="n">hourly_images</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">daily_images</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="n">all_questions</span><span class="p">.</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">q</span><span class="o">|</span>
+  <span class="n">content</span> <span class="o">=</span> <span class="s2">"</span><span class="si">#{</span><span class="n">q</span><span class="p">[</span><span class="s1">'title'</span><span class="p">]</span><span class="si">}</span><span class="s2"> </span><span class="si">#{</span><span class="n">q</span><span class="p">[</span><span class="s1">'content'</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span>
+  <span class="n">question_creator</span> <span class="o">=</span> <span class="n">q</span><span class="p">[</span><span class="s1">'creator'</span><span class="p">]</span>
+  <span class="n">all_answers</span><span class="p">.</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">a</span><span class="o">|</span>
+    <span class="n">content</span> <span class="o">+=</span> <span class="s2">" </span><span class="si">#{</span><span class="n">a</span><span class="p">[</span><span class="s1">'content'</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span> <span class="k">if</span> <span class="n">a</span><span class="p">[</span><span class="s1">'creator'</span><span class="p">]</span> <span class="o">==</span> <span class="n">question_creator</span>
+  <span class="k">end</span>
+  <span class="n">content</span> <span class="o">+=</span> <span class="s2">" </span><span class="si">#{</span><span class="n">q</span><span class="p">[</span><span class="s1">'tags'</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span>
+  <span class="nb">id</span> <span class="o">=</span> <span class="n">q</span><span class="p">[</span><span class="s1">'id'</span><span class="p">]</span>
+  <span class="n">logger</span><span class="p">.</span><span class="nf">debug</span> <span class="s2">"id: </span><span class="si">#{</span><span class="nb">id</span><span class="si">}</span><span class="s2">"</span>
+  <span class="n">created</span> <span class="o">=</span> <span class="no">Time</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">q</span><span class="p">[</span><span class="s1">'created'</span><span class="p">]).</span><span class="nf">utc</span>
+  <span class="n">hour</span> <span class="o">=</span> <span class="n">created</span><span class="p">.</span><span class="nf">hour</span>
+  <span class="n">min</span> <span class="o">=</span> <span class="n">created</span><span class="p">.</span><span class="nf">min</span>
+  <span class="n">year</span> <span class="o">=</span> <span class="n">created</span><span class="p">.</span><span class="nf">year</span>
+  <span class="n">month</span> <span class="o">=</span> <span class="n">created</span><span class="p">.</span><span class="nf">month</span>
+  <span class="n">day</span> <span class="o">=</span> <span class="n">created</span><span class="p">.</span><span class="nf">day</span>
+
+  <span class="n">os_emoji_content</span> <span class="o">=</span> <span class="n">get_emojis_from_regex</span><span class="p">(</span><span class="no">OS_EMOJI_ARRAY</span><span class="p">,</span> <span class="n">content</span><span class="p">,</span> <span class="n">logger</span><span class="p">)</span>
+  <span class="n">created_str</span> <span class="o">=</span> <span class="s2">"➖➖&lt;span font='Latin Modern Roman Demi'&gt;&lt;b&gt;"</span>
+  <span class="n">created_str</span> <span class="o">+=</span> <span class="nb">format</span><span class="p">(</span><span class="s1">'%&lt;hh&gt;2.2d:%&lt;min&gt;2.2d'</span><span class="p">,</span> <span class="ss">hh: </span><span class="n">hour</span><span class="p">,</span> <span class="ss">min: </span><span class="n">min</span><span class="p">)</span>
+  <span class="n">created_str</span> <span class="o">+=</span> <span class="s1">'&lt;/b&gt;&lt;/span&gt;➖➖'</span>
+  <span class="n">pango_str</span> <span class="o">=</span> <span class="s2">"pango:&lt;span font='Noto Color Emoji'&gt;</span><span class="si">#{</span><span class="n">created_str</span><span class="si">}</span><span class="se">\r</span><span class="s2">"</span>
+  <span class="n">pango_str</span> <span class="o">+=</span> <span class="s2">"&lt;span foreground='deeppink' font='Latin Modern Roman Demi'&gt;&lt;b&gt;id:&lt;/b&gt;</span><span class="si">#{</span><span class="nb">id</span><span class="si">}</span><span class="s2">&lt;/span&gt;"</span>
+  <span class="n">pango_str</span> <span class="o">+=</span> <span class="n">format_emoji_content</span><span class="p">(</span><span class="n">os_emoji_content</span><span class="p">,</span> <span class="s1">'black'</span><span class="p">,</span> <span class="s1">'OS'</span><span class="p">,</span> <span class="n">logger</span><span class="p">)</span>
+  <span class="n">topics_emoji_content</span> <span class="o">=</span> <span class="n">get_emojis_from_regex</span><span class="p">(</span><span class="no">TOPICS_EMOJI_ARRAY</span><span class="p">,</span> <span class="n">q</span><span class="p">[</span><span class="s1">'tags'</span><span class="p">],</span> <span class="n">logger</span><span class="p">)</span>
+  <span class="n">pango_str</span> <span class="o">+=</span> <span class="n">format_emoji_content</span><span class="p">(</span><span class="n">topics_emoji_content</span><span class="p">,</span> <span class="s1">'purple'</span><span class="p">,</span> <span class="s1">'Topic'</span><span class="p">,</span> <span class="n">logger</span><span class="p">)</span>
+  <span class="n">email_emoji_content</span> <span class="o">=</span> <span class="n">get_emojis_from_regex</span><span class="p">(</span><span class="no">EMAIL_EMOJI_ARRAY</span><span class="p">,</span> <span class="n">content</span><span class="p">,</span> <span class="n">logger</span><span class="p">)</span>
+  <span class="n">pango_str</span> <span class="o">+=</span> <span class="n">format_emoji_content</span><span class="p">(</span><span class="n">email_emoji_content</span><span class="p">,</span> <span class="s1">'darkblue'</span><span class="p">,</span> <span class="s1">'Email'</span><span class="p">,</span> <span class="n">logger</span><span class="p">)</span>
+  <span class="n">av_emoji_content</span> <span class="o">=</span> <span class="n">get_emojis_from_regex</span><span class="p">(</span><span class="no">ANTIVIRUS_EMOJI_ARRAY</span><span class="p">,</span> <span class="n">content</span><span class="p">,</span> <span class="n">logger</span><span class="p">)</span>
+  <span class="n">pango_str</span> <span class="o">+=</span> <span class="n">format_emoji_content</span><span class="p">(</span><span class="n">av_emoji_content</span><span class="p">,</span> <span class="s1">'darkred'</span><span class="p">,</span> <span class="s1">'AV'</span><span class="p">,</span> <span class="n">logger</span><span class="p">)</span>
+  <span class="n">userchrome_emoji_content</span> <span class="o">=</span> <span class="n">get_emojis_from_regex</span><span class="p">(</span><span class="no">USERCHROME_EMOJI_ARRAY</span><span class="p">,</span> <span class="n">content</span><span class="p">,</span> <span class="n">logger</span><span class="p">)</span>
+  <span class="n">pango_str</span> <span class="o">+=</span> <span class="n">format_emoji_content</span><span class="p">(</span><span class="n">userchrome_emoji_content</span><span class="p">,</span> <span class="s1">'darkgreen'</span><span class="p">,</span> <span class="s1">'userChrome'</span><span class="p">,</span> <span class="n">logger</span><span class="p">)</span>
+  <span class="n">pango_str</span> <span class="o">+=</span> <span class="s1">'\r➖➖➖➖➖➖&lt;/span&gt;'</span>
+  <span class="n">question_image</span> <span class="o">=</span> <span class="no">Magick</span><span class="o">::</span><span class="no">Image</span><span class="p">.</span><span class="nf">read</span><span class="p">(</span><span class="n">pango_str</span><span class="p">).</span><span class="nf">first</span>
+  <span class="n">question_width</span> <span class="o">=</span> <span class="n">question_image</span><span class="p">.</span><span class="nf">columns</span>
+  <span class="n">question_height</span> <span class="o">=</span> <span class="n">question_image</span><span class="p">.</span><span class="nf">rows</span>
+
+  <span class="n">question_filename</span> <span class="o">=</span> <span class="nb">format</span><span class="p">(</span>
+    <span class="n">fn_str</span><span class="p">,</span>
+    <span class="ss">id: </span><span class="nb">id</span><span class="p">,</span> <span class="ss">yyyy: </span><span class="n">year</span><span class="p">,</span> <span class="ss">mm: </span><span class="n">month</span><span class="p">,</span> <span class="ss">dd: </span><span class="n">day</span><span class="p">,</span>
+    <span class="ss">hh: </span><span class="n">hour</span><span class="p">,</span> <span class="ss">min: </span><span class="n">min</span><span class="p">,</span> <span class="ss">ss: </span><span class="n">created</span><span class="p">.</span><span class="nf">sec</span><span class="p">,</span>
+    <span class="ss">width: </span><span class="n">question_width</span><span class="p">,</span>
+    <span class="ss">height: </span><span class="n">question_height</span>
+  <span class="p">)</span>
+  <span class="n">question_image</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="n">question_filename</span><span class="p">)</span>
+
+  <span class="n">logger</span><span class="p">.</span><span class="nf">debug</span> <span class="s2">"question_width: </span><span class="si">#{</span><span class="n">question_width</span><span class="si">}</span><span class="s2">"</span>
+  <span class="n">logger</span><span class="p">.</span><span class="nf">debug</span> <span class="s2">"question_height: </span><span class="si">#{</span><span class="n">question_height</span><span class="si">}</span><span class="s2">"</span>
+  <span class="n">logger</span><span class="p">.</span><span class="nf">debug</span> <span class="s2">"question_filename: </span><span class="si">#{</span><span class="n">question_filename</span><span class="si">}</span><span class="s2">"</span>
+  <span class="n">abbreviated_title</span> <span class="o">=</span> <span class="no">Nokogiri</span><span class="o">::</span><span class="no">HTML</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">content</span><span class="p">).</span><span class="nf">text</span><span class="p">.</span><span class="nf">gsub</span><span class="p">(</span><span class="sr">/['"]/</span><span class="p">,</span> <span class="s1">''</span><span class="p">)</span>
+  <span class="n">question_hash</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="ss">question_filename: </span><span class="n">question_filename</span><span class="p">,</span>
+    <span class="ss">question_id: </span><span class="nb">id</span><span class="p">,</span>
+    <span class="ss">question_width: </span><span class="n">question_width</span><span class="p">,</span>
+    <span class="ss">question_height: </span><span class="n">question_height</span><span class="p">,</span>
+    <span class="ss">question_title: </span><span class="n">abbreviated_title</span><span class="p">[</span><span class="mi">0</span><span class="o">..</span><span class="mi">65</span><span class="p">]</span>
+  <span class="p">}</span>
+  <span class="c1"># FIXME: Assume question ids are ascending and assume ids are ascending by time</span>
+  <span class="c1"># append image to hourly image if it exists else create hourly image</span>
+  <span class="n">hourly_filename</span> <span class="o">=</span> <span class="nb">format</span><span class="p">(</span>
+    <span class="no">HOURLY_STR</span><span class="p">,</span> <span class="ss">yyyy: </span><span class="n">year</span><span class="p">,</span> <span class="ss">mm: </span><span class="n">month</span><span class="p">,</span> <span class="ss">dd: </span><span class="n">day</span><span class="p">,</span> <span class="ss">hh: </span><span class="n">hour</span>
+  <span class="p">)</span>
+  <span class="n">logger</span><span class="p">.</span><span class="nf">debug</span> <span class="s2">"hourly_filename: </span><span class="si">#{</span><span class="n">hourly_filename</span><span class="si">}</span><span class="s2">"</span>
+  <span class="n">hour_id</span> <span class="o">=</span> <span class="nb">format</span><span class="p">(</span><span class="no">HOURID_STR</span><span class="p">,</span> <span class="ss">yyyy: </span><span class="n">year</span><span class="p">,</span> <span class="ss">mm: </span><span class="n">month</span><span class="p">,</span> <span class="ss">dd: </span><span class="n">day</span><span class="p">,</span> <span class="ss">hh: </span><span class="n">hour</span><span class="p">)</span>
+  <span class="n">hourly_index</span> <span class="o">=</span> <span class="n">hourly_images</span><span class="p">.</span><span class="nf">index</span> <span class="p">{</span> <span class="o">|</span><span class="n">hi</span><span class="o">|</span> <span class="n">hi</span><span class="p">[</span><span class="ss">:hour_id</span><span class="p">]</span> <span class="o">==</span> <span class="n">hour_id</span> <span class="p">}</span>
+  <span class="k">if</span> <span class="n">hourly_index</span>
+    <span class="c1"># weird horizontal offset so montage_image_vertically() is commented out</span>
+    <span class="c1"># montage_images_vertically(filename, hourly_filename)</span>
+    <span class="n">append_image</span><span class="p">(</span><span class="n">question_filename</span><span class="p">,</span> <span class="n">hourly_filename</span><span class="p">,</span> <span class="no">VERTICAL</span><span class="p">)</span>
+    <span class="n">image</span> <span class="o">=</span> <span class="no">Magick</span><span class="o">::</span><span class="no">ImageList</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="n">hourly_filename</span><span class="p">)</span>
+    <span class="n">logger</span><span class="p">.</span><span class="nf">debug</span> <span class="s2">"hourly_index: </span><span class="si">#{</span><span class="n">hourly_index</span><span class="si">}</span><span class="s2">"</span>
+    <span class="n">hourly_images</span><span class="p">[</span><span class="n">hourly_index</span><span class="p">][</span><span class="ss">:hourly_width</span><span class="p">]</span> <span class="o">=</span> <span class="n">image</span><span class="p">.</span><span class="nf">columns</span>
+    <span class="n">hourly_images</span><span class="p">[</span><span class="n">hourly_index</span><span class="p">][</span><span class="ss">:hourly_height</span><span class="p">]</span> <span class="o">=</span> <span class="n">image</span><span class="p">.</span><span class="nf">rows</span>
+    <span class="n">hourly_images</span><span class="p">[</span><span class="n">hourly_index</span><span class="p">][</span><span class="ss">:questions</span><span class="p">].</span><span class="nf">push</span><span class="p">(</span><span class="n">question_hash</span><span class="p">)</span>
+  <span class="k">else</span>
+    <span class="no">FileUtils</span><span class="p">.</span><span class="nf">copy_file</span><span class="p">(</span><span class="n">question_filename</span><span class="p">,</span> <span class="n">hourly_filename</span><span class="p">)</span>
+    <span class="n">image</span> <span class="o">=</span> <span class="no">Magick</span><span class="o">::</span><span class="no">ImageList</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="n">hourly_filename</span><span class="p">)</span>
+    <span class="n">hourly_images</span><span class="p">.</span><span class="nf">push</span><span class="p">(</span>
+      <span class="p">{</span>
+        <span class="ss">hour_id: </span><span class="n">hour_id</span><span class="p">,</span>
+        <span class="ss">hourly_width: </span><span class="n">image</span><span class="p">.</span><span class="nf">columns</span><span class="p">,</span>
+        <span class="ss">hourly_height: </span><span class="n">image</span><span class="p">.</span><span class="nf">rows</span><span class="p">,</span>
+        <span class="ss">hourly_filename: </span><span class="n">hourly_filename</span><span class="p">,</span>
+        <span class="ss">questions: </span><span class="p">[</span><span class="n">question_hash</span><span class="p">]</span>
+      <span class="p">}</span>
+    <span class="p">)</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+<span class="c1"># Add 2 pixel red border</span>
+<span class="n">hourly_images</span><span class="p">.</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">img</span><span class="o">|</span>
+  <span class="n">hourly_filename</span> <span class="o">=</span> <span class="n">img</span><span class="p">[</span><span class="ss">:hourly_filename</span><span class="p">]</span>
+  <span class="no">MiniMagick</span><span class="o">::</span><span class="no">Tool</span><span class="o">::</span><span class="no">Magick</span><span class="p">.</span><span class="nf">new</span> <span class="k">do</span> <span class="o">|</span><span class="n">m</span><span class="o">|</span>
+    <span class="n">m</span> <span class="o">&lt;&lt;</span> <span class="n">hourly_filename</span>
+    <span class="n">m</span> <span class="o">&lt;&lt;</span> <span class="s1">'-bordercolor'</span> <span class="o">&lt;&lt;</span> <span class="s1">'red'</span>
+    <span class="n">m</span> <span class="o">&lt;&lt;</span> <span class="s1">'-border'</span> <span class="o">&lt;&lt;</span> <span class="s1">'2'</span>
+    <span class="n">m</span> <span class="o">&lt;&lt;</span> <span class="n">hourly_filename</span>
+  <span class="k">end</span>
+  <span class="n">image</span> <span class="o">=</span> <span class="no">Magick</span><span class="o">::</span><span class="no">ImageList</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="n">hourly_filename</span><span class="p">)</span>
+  <span class="n">img</span><span class="p">[</span><span class="ss">:hourly_width</span><span class="p">]</span> <span class="o">=</span> <span class="n">image</span><span class="p">.</span><span class="nf">columns</span>
+  <span class="n">img</span><span class="p">[</span><span class="ss">:hourly_height</span><span class="p">]</span> <span class="o">=</span> <span class="n">image</span><span class="p">.</span><span class="nf">rows</span>
+<span class="k">end</span>
+
+<span class="no">DAILY_STR</span> <span class="o">=</span> <span class="s1">'daily-tb-emoji-%&lt;yyyymmdd&gt;s.png'</span><span class="p">.</span><span class="nf">freeze</span>
+
+<span class="n">hourly_images</span><span class="p">.</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">hourly_img</span><span class="o">|</span>
+  <span class="n">day_id</span> <span class="o">=</span> <span class="n">hourly_img</span><span class="p">[</span><span class="ss">:hour_id</span><span class="p">][</span><span class="mi">0</span><span class="o">...-</span><span class="mi">2</span><span class="p">]</span>
+  <span class="n">daily_filename</span> <span class="o">=</span> <span class="nb">format</span><span class="p">(</span><span class="no">DAILY_STR</span><span class="p">,</span> <span class="ss">yyyymmdd: </span><span class="n">day_id</span><span class="p">)</span>
+  <span class="n">hourly_filename</span> <span class="o">=</span> <span class="n">hourly_img</span><span class="p">[</span><span class="ss">:hourly_filename</span><span class="p">]</span>
+  <span class="n">daily_index</span> <span class="o">=</span> <span class="n">daily_images</span><span class="p">.</span><span class="nf">index</span> <span class="p">{</span> <span class="o">|</span><span class="n">di</span><span class="o">|</span> <span class="n">di</span><span class="p">[</span><span class="ss">:day_id</span><span class="p">]</span> <span class="o">==</span> <span class="n">day_id</span> <span class="p">}</span>
+  <span class="k">if</span> <span class="n">daily_index</span>
+    <span class="n">montage_images_horizontally</span><span class="p">(</span><span class="n">hourly_filename</span><span class="p">,</span> <span class="n">daily_filename</span><span class="p">)</span>
+    <span class="n">image</span> <span class="o">=</span> <span class="no">Magick</span><span class="o">::</span><span class="no">ImageList</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="n">daily_filename</span><span class="p">)</span>
+    <span class="n">daily_images</span><span class="p">[</span><span class="n">daily_index</span><span class="p">][</span><span class="ss">:day_width</span><span class="p">]</span> <span class="o">=</span> <span class="n">image</span><span class="p">.</span><span class="nf">columns</span>
+    <span class="n">daily_images</span><span class="p">[</span><span class="n">daily_index</span><span class="p">][</span><span class="ss">:day_height</span><span class="p">]</span> <span class="o">=</span> <span class="n">image</span><span class="p">.</span><span class="nf">rows</span>
+    <span class="n">daily_images</span><span class="p">[</span><span class="n">daily_index</span><span class="p">][</span><span class="ss">:hourly_images</span><span class="p">].</span><span class="nf">push</span><span class="p">(</span><span class="n">hourly_img</span><span class="p">)</span>
+  <span class="k">else</span>
+    <span class="no">FileUtils</span><span class="p">.</span><span class="nf">copy_file</span><span class="p">(</span><span class="n">hourly_filename</span><span class="p">,</span> <span class="n">daily_filename</span><span class="p">)</span>
+    <span class="n">image</span> <span class="o">=</span> <span class="no">Magick</span><span class="o">::</span><span class="no">ImageList</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="n">daily_filename</span><span class="p">)</span>
+    <span class="n">daily_images</span><span class="p">.</span><span class="nf">push</span><span class="p">(</span>
+      <span class="p">{</span>
+        <span class="ss">day_id: </span><span class="n">day_id</span><span class="p">,</span>
+        <span class="ss">day_width: </span><span class="n">image</span><span class="p">.</span><span class="nf">columns</span><span class="p">,</span>
+        <span class="ss">day_height: </span><span class="n">image</span><span class="p">.</span><span class="nf">rows</span><span class="p">,</span>
+        <span class="ss">day_filename: </span><span class="n">daily_filename</span><span class="p">,</span>
+        <span class="ss">hourly_images: </span><span class="p">[</span><span class="n">hourly_img</span><span class="p">]</span>
+      <span class="p">}</span>
+    <span class="p">)</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+<span class="n">logger</span><span class="p">.</span><span class="nf">debug</span> <span class="n">daily_images</span><span class="p">.</span><span class="nf">ai</span>
+
+<span class="n">daily_images</span><span class="p">.</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">d</span><span class="o">|</span>
+  <span class="n">html_str</span> <span class="o">=</span> <span class="n">calculate_img_map_coordinates</span><span class="p">(</span><span class="n">d</span><span class="p">,</span> <span class="n">logger</span><span class="p">)</span>
+  <span class="no">File</span><span class="p">.</span><span class="nf">open</span><span class="p">(</span><span class="s2">"tb-sumo-daily-aaq-image-map-</span><span class="si">#{</span><span class="n">d</span><span class="p">[</span><span class="ss">:day_id</span><span class="p">]</span><span class="si">}</span><span class="s2">.html"</span><span class="p">,</span> <span class="s1">'w'</span><span class="p">)</span> <span class="p">{</span> <span class="o">|</span><span class="n">file</span><span class="o">|</span> <span class="n">file</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="n">html_str</span><span class="p">)</span> <span class="p">}</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<h3 id="regular-expressions-for-antivirus-operating-system-userchrome-email-provider">Regular expressions for antivirus, operating system, userChrome, email provider</h3>
+<ul>
+  <li><a href="https://github.com/rtanglao/rt-tb-noto-emoji-2023/blob/main/regexes.rb">regexes.rb</a></li>
+</ul>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="no">MACOS_EMOJI</span> <span class="o">=</span> <span class="s1">'🍎'</span><span class="p">.</span><span class="nf">freeze</span>
+<span class="no">LINUX_EMOJI</span> <span class="o">=</span> <span class="s1">'🐧'</span><span class="p">.</span><span class="nf">freeze</span>
+<span class="no">WINDOWS_EMOJI</span> <span class="o">=</span> <span class="s1">'🪟'</span><span class="p">.</span><span class="nf">freeze</span>
+<span class="no">UNKNOWN_EMOJI</span> <span class="o">=</span> <span class="s1">'❓'</span><span class="p">.</span><span class="nf">freeze</span>
+<span class="no">GMAIL_EMOJI</span> <span class="o">=</span> <span class="s1">'📮'</span><span class="p">.</span><span class="nf">freeze</span>
+<span class="no">MICROSOFT_EMAIL_EMOJI</span> <span class="o">=</span> <span class="s1">'💌'</span><span class="p">.</span><span class="nf">freeze</span>
+<span class="no">PROTONMAIL_EMOJI</span> <span class="o">=</span> <span class="s1">'📨'</span><span class="p">.</span><span class="nf">freeze</span>
+<span class="no">FASTMAIL_EMOJI</span> <span class="o">=</span> <span class="s1">'📧'</span><span class="p">.</span><span class="nf">freeze</span>
+<span class="no">YAHOOEMAIL_EMOJI</span> <span class="o">=</span> <span class="s1">'🇾'</span><span class="p">.</span><span class="nf">freeze</span>
+<span class="no">MAILFENCE_EMOJI</span> <span class="o">=</span> <span class="s1">'📯'</span><span class="p">.</span><span class="nf">freeze</span>
+<span class="no">KASPERSKY_EMOJI</span> <span class="o">=</span> <span class="s1">'🇰'</span><span class="p">.</span><span class="nf">freeze</span>
+<span class="no">BITDEFENDER_EMOJI</span> <span class="o">=</span> <span class="s1">'🇧'</span><span class="p">.</span><span class="nf">freeze</span>
+<span class="no">AVAST_EMOJI</span> <span class="o">=</span> <span class="s1">'🅰'</span><span class="p">.</span><span class="nf">freeze</span>
+<span class="no">AVIRA_EMOJI</span> <span class="o">=</span> <span class="s1">'🇦'</span><span class="p">.</span><span class="nf">freeze</span>
+<span class="no">ZONEALARM_EMOJI</span> <span class="o">=</span> <span class="s1">'🇿'</span><span class="p">.</span><span class="nf">freeze</span>
+<span class="no">COMODO_EMOJI</span> <span class="o">=</span> <span class="s1">'🇨'</span><span class="p">.</span><span class="nf">freeze</span>
+<span class="no">ESET_EMOJI</span> <span class="o">=</span> <span class="s1">'🇪'</span><span class="p">.</span><span class="nf">freeze</span>
+<span class="no">FSECURE_EMOJI</span> <span class="o">=</span> <span class="s1">'🇫'</span><span class="p">.</span><span class="nf">freeze</span>
+<span class="no">MALWAREBYTES_EMOJI</span> <span class="o">=</span> <span class="s1">'🇲'</span><span class="p">.</span><span class="nf">freeze</span>
+<span class="no">MCAFEE_EMOJI</span> <span class="o">=</span> <span class="s1">'Ⓜ'</span><span class="p">.</span><span class="nf">freeze</span>
+<span class="no">NORTON_EMOJI</span> <span class="o">=</span> <span class="s1">'🇳'</span><span class="p">.</span><span class="nf">freeze</span>
+<span class="no">TRENDMICRO_EMOJI</span> <span class="o">=</span> <span class="s1">'🇹'</span><span class="p">.</span><span class="nf">freeze</span>
+<span class="no">MSDEFENDER_EMOJI</span> <span class="o">=</span> <span class="s1">'🇩'</span><span class="p">.</span><span class="nf">freeze</span>
+<span class="no">SOPHOS_EMOJI</span> <span class="o">=</span> <span class="s1">'🇸'</span><span class="p">.</span><span class="nf">freeze</span>
+<span class="no">USERCHROME_EMOJI</span> <span class="o">=</span> <span class="s1">'🪛'</span><span class="p">.</span><span class="nf">freeze</span>
+<span class="c1"># Topics in the AAQ:</span>
+<span class="no">OTHER_EMOJI</span> <span class="o">=</span> <span class="s1">'👽'</span><span class="p">.</span><span class="nf">freeze</span> <span class="c1"># other in AAQ</span>
+<span class="no">FIX_PROBLEMS_EMOJI</span> <span class="o">=</span> <span class="s1">'🚧'</span><span class="p">.</span><span class="nf">freeze</span> <span class="c1"># fix-problems</span>
+<span class="no">CALENDAR_EMOJI</span> <span class="o">=</span> <span class="s1">'📅'</span><span class="p">.</span><span class="nf">freeze</span> <span class="c1"># calendar</span>
+<span class="no">CUSTOMIZE_EMOJI</span> <span class="o">=</span> <span class="s1">'🔩'</span><span class="p">.</span><span class="nf">freeze</span> <span class="c1"># customize</span>
+<span class="no">DOWNLOAD_AND_INSTALL_EMOJI</span> <span class="o">=</span> <span class="s1">'🛠'</span><span class="p">.</span><span class="nf">freeze</span> <span class="c1"># download-and-install</span>
+<span class="no">PRIVACY_AND_SECURITY_EMOJI</span> <span class="o">=</span> <span class="s1">'🔏'</span><span class="p">.</span><span class="nf">freeze</span> <span class="c1"># privacy-and-security</span>
+
+<span class="no">TOPICS_EMOJI_ARRAY</span> <span class="o">=</span> <span class="p">[</span>
+  <span class="p">{</span> <span class="ss">regex: </span><span class="sr">/(fix-problems)/i</span><span class="p">,</span> <span class="ss">emoji: </span><span class="no">FIX_PROBLEMS_EMOJI</span> <span class="p">},</span>
+  <span class="p">{</span> <span class="ss">regex: </span><span class="sr">/(calendar)/i</span><span class="p">,</span> <span class="ss">emoji: </span><span class="no">CALENDAR_EMOJI</span> <span class="p">},</span>
+  <span class="p">{</span> <span class="ss">regex: </span><span class="sr">/(download-and-install)/i</span><span class="p">,</span> <span class="ss">emoji: </span><span class="no">DOWNLOAD_AND_INSTALL_EMOJI</span> <span class="p">},</span>
+  <span class="p">{</span> <span class="ss">regex: </span><span class="sr">/(privacy-and-security)/i</span><span class="p">,</span> <span class="ss">emoji: </span><span class="no">PRIVACY_AND_SECURITY_EMOJI</span> <span class="p">},</span>
+  <span class="p">{</span> <span class="ss">regex: </span><span class="sr">/(customize)/i</span><span class="p">,</span> <span class="ss">emoji: </span><span class="no">CUSTOMIZE_EMOJI</span> <span class="p">},</span>
+  <span class="p">{</span> <span class="ss">regex: </span><span class="sr">/(other)/i</span><span class="p">,</span> <span class="ss">emoji: </span><span class="no">OTHER_EMOJI</span> <span class="p">}</span>
+<span class="p">]</span>
+<span class="no">USERCHROME_EMOJI_ARRAY</span> <span class="o">=</span> <span class="p">[</span>
+  <span class="p">{</span> <span class="ss">regex: </span><span class="sr">/(userchrome|usercontent)/i</span><span class="p">,</span> <span class="ss">emoji: </span><span class="no">USERCHROME_EMOJI</span> <span class="p">}</span>
+<span class="p">].</span><span class="nf">freeze</span>
+
+<span class="no">OS_EMOJI_ARRAY</span> <span class="o">=</span> <span class="p">[</span>
+  <span class="p">{</span>
+    <span class="ss">regex: </span><span class="sr">/(ventura|panther|\
+    snow(-| )*leopard|leopard|jaguar|monterey|mavericks|sonoma|\
+    sierra|el(-| )*capitan|mojave|catalina|big(-| )*sur|yosemite|\
+    mac(-| )*os(-| )*x*[0-9]*\.*[0-9]*\.*[0-9]*|osx|os-x)/i</span><span class="p">,</span>
+    <span class="ss">emoji: </span><span class="no">MACOS_EMOJI</span>
+  <span class="p">},</span>
+  <span class="p">{</span>
+    <span class="ss">regex: </span><span class="sr">/(linux|ubuntu|redhat|debian|bsd)/i</span><span class="p">,</span>
+    <span class="ss">emoji: </span><span class="no">LINUX_EMOJI</span>
+  <span class="p">},</span>
+  <span class="p">{</span> <span class="ss">regex: </span><span class="sr">/(windows-7|windows-8|windows-10|windows-11|windows 10|\
+    win 10|windows 11|win 11|windows 7|win 7|windows 8|win 8|\
+    win7|win10|win8|win11)/i</span><span class="p">,</span>
+    <span class="ss">emoji: </span><span class="no">WINDOWS_EMOJI</span> <span class="p">}</span>
+<span class="p">].</span><span class="nf">freeze</span>
+
+<span class="no">ANTIVIRUS_EMOJI_ARRAY</span> <span class="o">=</span> <span class="p">[</span>
+  <span class="p">{</span>
+    <span class="ss">regex: </span><span class="sr">/(kaspersky)/i</span><span class="p">,</span>
+    <span class="ss">emoji: </span><span class="no">KASPERSKY_EMOJI</span>
+  <span class="p">},</span>
+  <span class="p">{</span> <span class="ss">regex: </span><span class="sr">/(bitdefender)/i</span><span class="p">,</span>
+    <span class="ss">emoji: </span><span class="no">BITDEFENDER_EMOJI</span> <span class="p">},</span>
+  <span class="p">{</span> <span class="ss">regex: </span><span class="sr">/(avast|avg)/i</span><span class="p">,</span>
+    <span class="ss">emoji: </span><span class="no">AVAST_EMOJI</span> <span class="p">},</span>
+  <span class="p">{</span> <span class="ss">regex: </span><span class="sr">/(avira)/i</span><span class="p">,</span>
+    <span class="ss">emoji: </span><span class="no">AVIRA_EMOJI</span> <span class="p">},</span>
+  <span class="p">{</span> <span class="ss">regex: </span><span class="sr">/(zonealarm|zone alarm|checkpoint|check point)/i</span><span class="p">,</span>
+    <span class="ss">emoji: </span><span class="no">ZONEALARM_EMOJI</span> <span class="p">},</span>
+  <span class="p">{</span> <span class="ss">regex: </span><span class="sr">/(comodo)/i</span><span class="p">,</span>
+    <span class="ss">emoji: </span><span class="no">COMODO_EMOJI</span> <span class="p">},</span>
+  <span class="p">{</span> <span class="ss">regex: </span><span class="sr">/(eset|nod32)/i</span><span class="p">,</span>
+    <span class="ss">emoji: </span><span class="no">ESET_EMOJI</span> <span class="p">},</span>
+  <span class="p">{</span> <span class="ss">regex: </span><span class="sr">/(fsecure|f-secure|f secure)/i</span><span class="p">,</span>
+    <span class="ss">emoji: </span><span class="no">FSECURE_EMOJI</span> <span class="p">},</span>
+  <span class="p">{</span> <span class="ss">regex: </span><span class="sr">/(malwarebytes)/i</span><span class="p">,</span>
+    <span class="ss">emoji: </span><span class="no">MALWAREBYTES_EMOJI</span> <span class="p">},</span>
+  <span class="p">{</span> <span class="ss">regex: </span><span class="sr">/(mcafee)/i</span><span class="p">,</span>
+    <span class="ss">emoji: </span><span class="no">MCAFEE_EMOJI</span> <span class="p">},</span>
+  <span class="p">{</span> <span class="ss">regex: </span><span class="sr">/(norton)/i</span><span class="p">,</span>
+    <span class="ss">emoji: </span><span class="no">NORTON_EMOJI</span> <span class="p">},</span>
+  <span class="p">{</span> <span class="ss">regex: </span><span class="sr">/(sophos)/i</span><span class="p">,</span>
+    <span class="ss">emoji: </span><span class="no">SOPHOS_EMOJI</span> <span class="p">},</span>
+  <span class="p">{</span> <span class="ss">regex: </span><span class="sr">/(trendmicro|titanium)/i</span><span class="p">,</span>
+    <span class="ss">emoji: </span><span class="no">TRENDMICRO_EMOJI</span> <span class="p">},</span>
+  <span class="p">{</span> <span class="ss">regex: </span><span class="sr">/(defender)/i</span><span class="p">,</span>
+    <span class="ss">emoji: </span><span class="no">MSDEFENDER_EMOJI</span> <span class="p">}</span>
+<span class="p">]</span>
+
+<span class="no">EMAIL_EMOJI_ARRAY</span> <span class="o">=</span> <span class="p">[</span>
+  <span class="p">{</span> <span class="ss">regex: </span><span class="sr">/(gmail|google mail|googlemail)/i</span><span class="p">,</span>
+    <span class="ss">emoji: </span><span class="no">GMAIL_EMOJI</span> <span class="p">},</span>
+  <span class="p">{</span> <span class="ss">regex: </span><span class="sr">/(live(\.|-)*com|msn|ms365|outlook|office365|office 365|\
+    hotmail|livemail|passport|microsoft365|microsoft 365|\
+    o365|ms 365|verizon|microsoft mail|microsoftmail|\
+    timewarner|twc|godaddy|msexchange|ms exchange|\
+    microsoft exchange|microsoftexchange|\
+    spectrum|time warner|roadrunner)/i</span><span class="p">,</span>
+    <span class="ss">emoji: </span><span class="no">MICROSOFT_EMAIL_EMOJI</span> <span class="p">},</span>
+  <span class="p">{</span> <span class="ss">regex: </span><span class="sr">/(protonmail|proton\.me|pm\.me)/i</span><span class="p">,</span> <span class="ss">emoji: </span><span class="no">PROTONMAIL_EMOJI</span> <span class="p">},</span>
+  <span class="p">{</span> <span class="ss">regex: </span><span class="sr">/(fastmail.fm|fastmail)/i</span><span class="p">,</span> <span class="ss">emoji: </span><span class="no">FASTMAIL_EMOJI</span> <span class="p">},</span>
+  <span class="p">{</span> <span class="ss">regex: </span><span class="sr">/(yahoo)/i</span><span class="p">,</span> <span class="ss">emoji: </span><span class="no">YAHOOEMAIL_EMOJI</span> <span class="p">},</span>
+  <span class="p">{</span> <span class="ss">regex: </span><span class="sr">/(mailfence)/i</span><span class="p">,</span> <span class="ss">emoji: </span><span class="no">MAILFENCE_EMOJI</span> <span class="p">}</span>
+<span class="p">].</span><span class="nf">freeze</span>
+
+</code></pre></div></div>
+
+<h3 id="previously">Previously</h3>
+
+<ul>
+  <li>February 9, 2023: <a href="http://rolandtanglao.com/2023/02/09/p1-worldwide-flickr-barcode/">Inspired  by Darren and Derek, I created a real-time daily flickr worldwide  barcode website using ruby, a rust static web server and ngrok</a></li>
+  <li>October 27, 2020: <a href="http://rolandtanglao.com/2020/10/27/p1-barcode-ggplot2-by-hour-concatenated-2by12/">R  and ggplot2 barcode (pink: Windows, blue: macOS, green:Linux, purple:  unknown/other) of Firefox questions by hour arranged in a 2x12 collage  makes an interesting graphic, what if I did that for all of 2020? </a></li>
+  <li>October 7, 2020: <a href="http://rolandtanglao.com/2020/10/27/p1-barcode-ggplot2-by-hour-concatenated-2by12/">R  and ggplot2 barcode (pink: Windows, blue: macOS, green:Linux, purple:  unknown/other) of Firefox questions by hour arranged in a 2x12 collage  makes an interesting graphic, what if I did that for all of 2020? </a></li>
+</ul>
+
+:ET

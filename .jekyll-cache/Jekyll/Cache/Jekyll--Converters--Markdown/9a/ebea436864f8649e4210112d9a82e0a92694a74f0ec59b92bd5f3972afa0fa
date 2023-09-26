@@ -1,0 +1,26 @@
+I"&
+<ul>
+  <li>How to create a 2 second fps video using ffmpeg (via <a href="https://www.plainlyvideos.com/blog/ffmpeg-convert-images-to-video">How to convert images using FFmpeg to create a simple slideshow</a>]</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ffmpeg <span class="nt">-framerate</span> 1/0.125 <span class="nt">-pattern_type</span> glob <span class="nt">-i</span> <span class="s1">'*.JPG'</span> <span class="se">\</span>
+<span class="nt">-filter_complex</span> <span class="s2">"scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2"</span> <span class="se">\</span>
+<span class="nt">-pix_fmt</span> yuv420p <span class="nt">-r</span> 2 <span class="se">\</span>
+1frame-every-0.125seconds-2FPS-2023-09-02-concord-park-viaduct-dutch-taiwanfest-london-drugs-dunsmuir-revolver-bicycling.mp4
+</code></pre></div></div>
+<ul>
+  <li>Even better over 1.5 hours condensed into 26 seconds :-) !
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ffmpeg <span class="nt">-framerate</span> 1/0.002 <span class="nt">-pattern_type</span> glob <span class="nt">-i</span> <span class="s1">'*.JPG'</span> <span class="nt">-filter_complex</span> <span class="s2">"scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2"</span> <span class="nt">-pix_fmt</span> yuv420p <span class="nt">-r</span> 120 1frame-every-0.002seconds-120FPS-2023-09-04-eosrp-zeiss35mmf2-revolver-stanleypark-clarkpark-bicycling.mp4  
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h3 id="previously">Previously</h3>
+
+<ul>
+  <li>February 9, 2023: <a href="http://rolandtanglao.com/2023/02/09/p1-worldwide-flickr-barcode/">Inspired  by Darren and Derek, I created a real-time daily flickr worldwide  barcode website using ruby, a rust static web server and ngrok</a></li>
+  <li>October 27, 2020: <a href="http://rolandtanglao.com/2020/10/27/p1-barcode-ggplot2-by-hour-concatenated-2by12/">R  and ggplot2 barcode (pink: Windows, blue: macOS, green:Linux, purple:  unknown/other) of Firefox questions by hour arranged in a 2x12 collage  makes an interesting graphic, what if I did that for all of 2020? </a></li>
+  <li>October 7, 2020: <a href="http://rolandtanglao.com/2020/10/27/p1-barcode-ggplot2-by-hour-concatenated-2by12/">R  and ggplot2 barcode (pink: Windows, blue: macOS, green:Linux, purple:  unknown/other) of Firefox questions by hour arranged in a 2x12 collage  makes an interesting graphic, what if I did that for all of 2020? </a></li>
+</ul>
+
+:ET
