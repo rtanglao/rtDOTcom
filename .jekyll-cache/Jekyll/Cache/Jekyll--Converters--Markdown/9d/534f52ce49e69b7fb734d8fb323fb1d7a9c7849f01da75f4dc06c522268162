@@ -1,0 +1,19 @@
+I"x<ul>
+  <li>
+    <p>Oct 9, 2023 23:56 UPDATE:
+see https://github.com/simonw/csvs-to-sqlite/issues/88</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip3 install 'pandas==1.4.0'
+# git clone from this repo and cd to that directory
+pip3 install -e .
+</code></pre></div>    </div>
+    <p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Nov 2, 2020. <a href="https://stackoverflow.com/questions/42609943/what-is-the-use-case-for-pip-install-e">What is the use case for <code class="language-plaintext highlighter-rouge">pip install -e</code></a> I installed csvs-to-sqlite from simon w by changing pandas dependency to be just <code class="language-plaintext highlighter-rouge">pandas</code> instead of <code class="language-plaintext highlighter-rouge">pandas~=0.25.0</code> in <a href="https://github.com/simonw/csvs-to-sqlite/blob/master/setup.py">setup.py</a></p>
+  </li>
+</ul>
+
+<h3 id="previously">Previously</h3>
+
+<ul>
+  <li>March 27, 2022: <a href="http://rolandtanglao.com/2022/03/27/p1-firefox-sumo-317-support-questions-2021-june4-firefox89-new-look-and-feel/">2021  SUMO Firefox Desktop Support Questions in a SQLite file: 317 questions  on June 4, 2021 about Firefox look and feel changes in Firefox 89 (used  DB Browser for SQLite, csvstack, csvs-to-sqlite)</a></li>
+</ul>
+:ET
