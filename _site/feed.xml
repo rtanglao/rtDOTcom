@@ -6,9 +6,42 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 16 Oct 2023 23:57:43 -0700</pubDate>
-    <lastBuildDate>Mon, 16 Oct 2023 23:57:43 -0700</lastBuildDate>
+    <pubDate>Sat, 04 Nov 2023 22:45:33 -0700</pubDate>
+    <lastBuildDate>Sat, 04 Nov 2023 22:45:33 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Utilitarian philosophy considered harmful aka Ted Gioia: Why I Ran Away from Philosophy Because of Sam Bankman-Fried</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 4, 2023 21:38 &lt;a href=&quot;https://www.honest-broker.com/p/why-i-ran-away-from-philosophy-because&quot;&gt;Utilitarian philosophy considered harmful aka Ted Gioia: Why I Ran Away from Philosophy Because of Sam Bankman-Fried&lt;/a&gt; &amp;lt;– What Ted says, Read the Whole Thing (RTWT) - -&amp;gt; &lt;strong&gt;QUOTE&lt;/strong&gt;:
+    &lt;blockquote&gt;
+      &lt;p&gt;Here is what I believe today: `&lt;/p&gt;
+      &lt;ol&gt;
+        &lt;li&gt;Words are something you live by. They are defined by your actions, not by other words.&lt;/li&gt;
+        &lt;li&gt;We rely too much on numerical measures and reducing things to formulas—the most valuable things in human life resist quantification.&lt;/li&gt;
+        &lt;li&gt;I’m referring to core human values—such as love, compassion, forgiveness, trust, kindness, fidelity, decency, hope, etc. These are practices not arguments, and hence require no appeal to a larger context. Anyone who claims they require arguments (for falling in love or acting compassionately, for example) should be treated with extreme caution.&lt;/li&gt;
+        &lt;li&gt;Above all, beware of people who won’t do a good deed until they have calculated the long-term consequences and expect certain desired results in return. Maybe you can do a business deal with them (or maybe not), but never get into a close personal relationship with them.&lt;/li&gt;
+        &lt;li&gt;Gratuitous actions of generosity and kindness are best done without calculating rewards or consequences (which, by the way, is the reason I’ve celebrated gift giving and the bonds of trust and love it creates in my writings).&lt;/li&gt;
+        &lt;li&gt;Some choices are intrinsically evil. No larger context can cleanse them of this evil.&lt;/li&gt;
+        &lt;li&gt;Practicing good must begin in the immediate context of your life—in your actual actions today, not in some mythical past or dreamt-of future. And finally….&lt;/li&gt;
+        &lt;li&gt;Take care of Granny.&lt;/li&gt;
+      &lt;/ol&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;January 29, 2019: &lt;a href=&quot;http://rolandtanglao.com/2019/01/29/p1-i-do-not-trust-computer-scientists-philosophers-autonomous-vehicles/&quot;&gt;Citizen’s assembly instead of philosophers and computer scientists deciding who lives who dies?!!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 04 Nov 2023 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2023/11/04/p1-utilitarian-philosophy-harmful-ted-gioia-why-not-philosophy-because-sam-bankman-fried/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2023/11/04/p1-utilitarian-philosophy-harmful-ted-gioia-why-not-philosophy-because-sam-bankman-fried/</guid>
+        
+        
+      </item>
     
       <item>
         <title>To get csvs-to-sqlite to work, hardcode pandas dependency to 1.4.0</title>
@@ -666,30 +699,6 @@ i.e integers in the inclusive ranges 0-0xD7FF and 0xE000-0x10FFFF.
         <pubDate>Sun, 09 Jul 2023 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2023/07/09/p1-cypress-challenge-2023-pancreatic-cancer/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2023/07/09/p1-cypress-challenge-2023-pancreatic-cancer/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to use SQLite to search all the Firefox and Thunderbird kb articles including the HTML (sadly Markdown not available)</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Using datasette lite, load the CSV files.
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://lite.datasette.io/?csv=https%3A%2F%2Fraw.githubusercontent.com%2Frtanglao%2Frt-kits-tb-api%2Fmain%2Fdetails-firefox-kb-title-slug-all-articles.csv#/data/details-firefox-kb-title-slug-all-articles&quot;&gt;Firefox&lt;/a&gt;: Load &lt;a href=&quot;https://github.com/rtanglao/rt-kits-tb-api/blob/main/details-firefox-kb-title-slug-all-articles.csv&quot;&gt;https://github.com/rtanglao/rt-kits-tb-api/blob/main/details-firefox-kb-title-slug-all-articles.csv&lt;/a&gt; into datasette lite&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://lite.datasette.io/?csv=https%3A%2F%2Fraw.githubusercontent.com%2Frtanglao%2Frt-kits-tb-api%2Fmain%2Fdetails-thunderbird-kb-title-slug-all-articles.csv&quot;&gt;Thunderbird&lt;/a&gt;: Load &lt;a href=&quot;https://github.com/rtanglao/rt-kits-tb-api/blob/main/details-thunderbird-kb-title-slug-all-articles.csv&quot;&gt;details-thunderbird-kb-title-slug-all-articles.csv&lt;/a&gt; into datasette lite&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;May 8, 2020: &lt;a href=&quot;http://rolandtanglao.com/2022/05/08/p1-query-my-firefox-201-sumo-support-data-from-your-web-browser-mobile-desktop-no-server-no-app-required/&quot;&gt;Thanks  to Simon Willison’s lite.datasette.io you can now query any SQLite data  with CORS headers anywhere and share the query URL with others so it  can spread virally :-)!  (e.g. 2021 Firefox SUMO Support questions) on  any web browser including desktop, iOS and Android&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 06 Jun 2023 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2023/06/06/p1-howto-sqlite-search-all-thunderbird-firefox-sumo-knowledge-base-articles/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2023/06/06/p1-howto-sqlite-search-all-thunderbird-firefox-sumo-knowledge-base-articles/</guid>
         
         
       </item>
