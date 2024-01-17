@@ -6,14 +6,34 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 10 Dec 2023 11:05:46 -0800</pubDate>
-    <lastBuildDate>Sun, 10 Dec 2023 11:05:46 -0800</lastBuildDate>
+    <pubDate>Tue, 16 Jan 2024 19:08:49 -0800</pubDate>
+    <lastBuildDate>Tue, 16 Jan 2024 19:08:49 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>2024: More humility, more facts, less broad judgment, less speculation aka lessons from Julia Evans</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Jan 2, 2024 09:17 &lt;a href=&quot;https://devdilettante.com/@roland/111687389408117788&quot;&gt;roland in Elk: “More Julia in ‘24!-&amp;gt;“my approach to criticism is to try to stick as closely as possible to Facts About My Personal Experience…”&lt;/a&gt; &amp;lt;– More &lt;a href=&quot;https://social.jvns.ca/@b0rk/111619015130993366&quot;&gt;Julia&lt;/a&gt; in ‘24!  – &lt;strong&gt;QUOTE&lt;/strong&gt;:&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;my approach to criticism is to try to stick as closely as possible to Facts About My Personal Experience, like:1.here is what I use this thing for &amp;amp; why it's useful 2.here's a problem I ran into 3.this is why I found it frustrating 4.here's a possible solution 5.here are some questions/unresolved problems I still have I try to avoid: broad judgements (“this is designed badly because of X”) speculation (&quot;this is because the devs don't care about X&quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;May 1, 2005: &lt;a href=&quot;http://rolandtanglao.com/2005/05/01/it-all-boils-down-to-accountability-integrity-humility-transparency-honesty-and-a-genuine-deep-concern-for-your-customer/&quot;&gt; it all boils down to accountability, integrity, humility, transparency, honesty and a genuine deep concern for your customer.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 16 Jan 2024 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2024/01/16/p1-julia-evans-more-facts-more-humility-less-broad-judgement-less-speculation/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/01/16/p1-julia-evans-more-facts-more-humility-less-broad-judgement-less-speculation/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Venkatesh Rao: Camera not an Engine aka intelligence is a function of big data plus very small code; modern 'AI' versus Good Old Fashioned AI  aka 'GOFAI' Will we look back on this like we do Prolog and the Japanese 5th generation AI  project?</title>
         <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Dec 9, 2023 00:37 &lt;a href=&quot;https://studio.ribbonfarm.com/p/a-camera-not-an-engine&quot;&gt;A Camera, Not an Engine - by Venkatesh Rao&lt;/a&gt; &amp;lt;– “Modern AI” versus “Good old fashioned AI” and other discoveries! Whoah big data as in terabytes of data plus a super tiny bit of code is enough? Wil we look back on this with bemusement/contempt/yet another folly like the Japanese 5th Generation AI project? My guess is YES but check back in 2023 to see how wrong I am :-) ?!? –&amp;gt; &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Once you see intelligence as something embodied by particular pile of data rather than a particular kind of processing, a very powerful sort of decentering of anthropocentric conceits happens; a Copernican consciousness shift gets triggered. You are no more than the sum of data you’ve experienced. A big memory with a small shell script aside. And once you get over the trauma of that realization, you realize something even bigger: any pile of data that has some coherence in its source can be turned into an intelligence that you can relate to, broadening the possibilities of your own existence.&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Dec 9, 2023 00:37 &lt;a href=&quot;https://studio.ribbonfarm.com/p/a-camera-not-an-engine&quot;&gt;A Camera, Not an Engine - by Venkatesh Rao&lt;/a&gt; &amp;lt;– “Modern AI” versus “Good old fashioned AI” and other discoveries! Whoah big data as in terabytes of data plus a super tiny bit of code is enough? Will we look back on this with bemusement/contempt/yet another folly like the Japanese 5th Generation AI project? My guess is YES but check back in 2033 to see how wrong I am :-) ?!? –&amp;gt; &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Once you see intelligence as something embodied by particular pile of data rather than a particular kind of processing, a very powerful sort of decentering of anthropocentric conceits happens; a Copernican consciousness shift gets triggered. You are no more than the sum of data you’ve experienced. A big memory with a small shell script aside. And once you get over the trauma of that realization, you realize something even bigger: any pile of data that has some coherence in its source can be turned into an intelligence that you can relate to, broadening the possibilities of your own existence.&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
@@ -663,34 +683,6 @@ i.e integers in the inclusive ranges 0-0xD7FF and 0xE000-0x10FFFF.
         <pubDate>Tue, 15 Aug 2023 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2023/08/15/p2-pango-imagemagick-does-not-render-custom-glyphs-that-are-not-unicode/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2023/08/15/p2-pango-imagemagick-does-not-render-custom-glyphs-that-are-not-unicode/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>April 1 - June 30, 2023 infographic of Thunderbird SUMO Support Questions using the imagemagick 7.x ashlar best fit option</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;From &lt;a href=&quot;https://devdilettante.com/@roland/110776081314717683&quot;&gt;mastodon&lt;/a&gt;: From the department of some people have questionable hobbies : -) , a few infographics of thunderbird support questions on support.mozilla.org  (April 1-June 30, 2023) (pink = title, content and answers from the  original poster, non pink = replies by others). Each row is 80 bytes.  code (&lt;a href=&quot;https://github.com/rtanglao/rt-tb-swag-2023&quot;&gt;https://github.com/rtanglao/rt-tb-swag-2023&lt;/a&gt; ) here’s 1 such infographic: &lt;a href=&quot;https://flic.kr/p/2oRDzR1&quot;&gt;https://flic.kr/p/2oRDzR1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;even better, now with moar pink thanks to imagemagick 7’s “best fit” option:
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;magick &lt;span class=&quot;s1&quot;&gt;'*-80x*.png'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-define&lt;/span&gt; ashlar:best-fit&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'ashlar:ashlar-magick-3000-tb-aaq-2023-04-01-2023-06-30.png[3000x3000+0+0]'&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;flickr-embed&quot;&gt;Flickr embed:&lt;/h3&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/53071580001/&quot; title=&quot;ashlar best fit aaq thunderbird april 1-june 30, 2023&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/53071580001_a9e4167717_3k.jpg&quot; width=&quot;2960&quot; height=&quot;1364&quot; alt=&quot;ashlar best fit aaq thunderbird april 1-june 30, 2023&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;April 9, 2023: &lt;a href=&quot;http://rolandtanglao.com/2023/04/09/p1-rejoined-thunderbird/&quot;&gt;I have rejoined Thunderbird&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Wed, 26 Jul 2023 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2023/07/26/p2-info-graphic-from-thunderbird-sumo-questions-april-june-2023/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2023/07/26/p2-info-graphic-from-thunderbird-sumo-questions-april-june-2023/</guid>
         
         
       </item>
