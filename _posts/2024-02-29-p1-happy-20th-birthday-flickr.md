@@ -10,11 +10,11 @@ So many thoughts:
 
 * What if the community never left and deftly managed by George, et al miraculously prospered post Yahoo! post instagram etc etc??
 
-* I'm sad that the community has mostly left but I'm happy because of the amazing connections I made there and because it hosts over 2TB of my photos and videos :-)
+* I'm sad that the community has mostly left (the community is a long tail of micro communities with no real coordination function at any level but maybe that's the internet today a bunch of sub-cultures i.e. Switzerland instead of Canada :-) ?!?!) but I'm happy because of the amazing connections I made there and because it hosts over 2TB of my photos and videos :-)
 
 * The flickr API was ahead of its time and it just works! There have been some minor tweaks but 99% of the code that I've written still works!
 
-Finally, see Boris' blog post: 
+Finally, see [Boris' blog post](https://2023.bmannconsulting.com/archive/2004/03/09/flickr-buddy-icons-fun/): 
 
 **QUOTE**:  
 
