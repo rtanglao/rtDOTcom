@@ -6,9 +6,88 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 16 Jan 2024 19:08:49 -0800</pubDate>
-    <lastBuildDate>Tue, 16 Jan 2024 19:08:49 -0800</lastBuildDate>
+    <pubDate>Thu, 29 Feb 2024 21:29:11 -0800</pubDate>
+    <lastBuildDate>Thu, 29 Feb 2024 21:29:11 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Happy belated 20th Birthday Flickr :-) Thanks for the excellent API and storing my 500,000 photos</title>
+        <description>&lt;p&gt;Congrats on &lt;a href=&quot;https://blog.flickr.net/en/2024/02/02/20-years-of-significant-moments-in-flickrs-development/&quot;&gt;20 years flickr&lt;/a&gt;! I still believe :-)  I have over 500, 000 photos in 2 accounts most notably &lt;a href=&quot;https://www.flickr.com/photos/roland&quot;&gt;flickr.com/roland&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;So many thoughts:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;What if flickr never left Vancouver and had somehow squared the circle and become big here in Vancouver?  Imagine the possibilities and the startup scene would be totally different. See my May 26,  2005 post: &lt;a href=&quot;http://rolandtanglao.com/2005/05/26/flickr-leaving-do-at-the-alibi-room-tonight/&quot;&gt; Flickr leaving do at the Alibi Room tonight&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What if the community never left and deftly managed by George, et al miraculously prospered post Yahoo! post instagram etc etc??&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;I’m sad that the community has mostly left but I’m happy because of the amazing connections I made there and because it hosts over 2TB of my photos and videos :-)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The flickr API was ahead of its time and it just works! There have been some minor tweaks but 99% of the code that I’ve written still works!&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Finally, see Boris’s blog post: &lt;strong&gt;QUOTE&lt;/strong&gt;:  &lt;a href=&quot;https://blog.flickr.net/en/2024/02/02/20-years-of-significant-moments-in-flickrs-development/&quot;&gt;20 years of Flickr&lt;/a&gt;. And I just happened to tell the story today of the tech meetup I  organized in Vancouver 20 years ago. 6 people came, including &lt;a href=&quot;http://rolandtanglao.com/&quot;&gt;Roland Tanglao&lt;/a&gt;, who got us all early access to Flickr. &lt;strong&gt;END QUOTE&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;my-first-post-about-flickr-from-the-internet-archive-feb-12-2004&quot;&gt;My first post about flickr from the internet archive Feb 12, 2004&lt;/h2&gt;
+
+&lt;p&gt;From &lt;a href=&quot;https://web.archive.org/web/20040416223220/http://www.rolandtanglao.com/2004/02/12.html&quot;&gt;https://web.archive.org/web/20040416223220/http://www.rolandtanglao.com/2004/02/12.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;tonights-geek-dinner-was-a-blast&quot;&gt;&lt;a href=&quot;https://web.archive.org/web/20040416223220/http://www.rolandtanglao.com/2004/02/12.html#a6329&quot;&gt;Tonight’s Geek Dinner was a blast&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Had a blast at &lt;a href=&quot;https://web.archive.org/web/20040416223220/http://www.rolandtanglao.com/2004/02/11.html#a6327&quot;&gt;tonight’s geek dinner&lt;/a&gt;.  gotta do this once more before the baby but unfortunately I don’t think I’ll have time!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://web.archive.org/web/20040416223220/http://www.cincomsmalltalk.com/userblogs/avi/blogView&quot;&gt;Avi&lt;/a&gt;, as I anticipated, is very cool and knowledgeable and so too (again as I expected), is &lt;a href=&quot;https://web.archive.org/web/20040416223220/http://bmannconsulting.com/&quot;&gt;Boris&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Expect great stuff from these young :-) lads!&lt;/p&gt;
+
+&lt;p&gt;Another attendee Mary Brennan used to work on &lt;a href=&quot;https://web.archive.org/web/20040416223220/http://www.nwfusion.com/edge/news/2001/0720opc.html&quot;&gt;Optera Packet Core&lt;/a&gt; (OPC) at Nortel! What a small world.  OPC was one of  the clients for  the internal developer relations group that I managed at Nortel!&lt;/p&gt;
+
+&lt;p&gt;Walter was Walter which is a good thing.&lt;/p&gt;
+
+&lt;p&gt;And finally Ed from &lt;a href=&quot;https://web.archive.org/web/20040416223220/http://www.savoystyle.com/history.html&quot;&gt;Lindy Hop&lt;/a&gt; was there.  In another case of small world, he went to the same university (UVic) as Mary and Boris and is a friend of Mary’s.&lt;/p&gt;
+
+&lt;p&gt;We talked about lots of cool things such as: Zerendipity, Sxip,  Liberty Alliance, Passport, markets,  profiles, German,  C++, Python,  PHP, XpertWeb, transactions, Perl, impedance mismatch, Flickr,  Smalltalk, Ruby, Lisp, social software, blogs, Montreal, bagels,  TalkBroadband, DSL, Shaw, iLife, GarageBand, CDs, streaming radio, the  last mile broadband problem, digital identity (including Avi’s ideas  about this), etc.&lt;/p&gt;
+
+&lt;p&gt;Just for fun, I created a &lt;a href=&quot;https://web.archive.org/web/20040416223220/http://www.flickr.com/groups_view.gne?id=35034356605@N01&quot;&gt;YVR_GEEK_DINNER_11FEB2004 Community&lt;/a&gt; on &lt;a href=&quot;https://web.archive.org/web/20040416223220/http://flickr.com/&quot;&gt;Flickr&lt;/a&gt; exclusively for those who were there tonight (Mary, Walter, Avi, Boris, Ed and myself).  Check it out!&lt;/p&gt;
+
+&lt;p&gt;And in a case of leaky abstractions, I managed to screw up Flickr by trying to upload multiple photos to the gallery  which results in  the following error message:&lt;/p&gt;
+
+&lt;p&gt;Warning: rename() failed (Invalid cross-device link) in /var/www/html/www.flickr.com/groups_gallery_edit.gne on line 74&lt;/p&gt;
+
+&lt;p&gt;Warning: getimagesize: Unable to open  ‘/mnt/static1/gallery/1_IMG_4612.JPG.jpg’ for reading. in  /var/www/html/www.flickr.com/groups_gallery_edit.gne on line 83&lt;/p&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;January 3, 2022:  &lt;a href=&quot;http://rolandtanglao.com/2022/01/03/p1-flickr-api-change-woeid-not-woe_id/&quot;&gt;flickr.photos.search API change? woe_id is now woeid?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;March 29, 2021: &lt;a href=&quot;http://rolandtanglao.com/2021/03/29/p1-roland-flickr-metadata-2019-2020-one-table-sqlite-csv/&quot;&gt;My 2019 and 2020 flickr data 1 table SQLite and 1 file CSV version&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;March 22, 2021:  &lt;a href=&quot;http://rolandtanglao.com/2021/03/22/p1-getting-all-flickr-meta-data-2021-style-been-doing-this-since-2010/&quot;&gt;How To retrieve flickr photos meta data in a 2021 Stylee! Been doing this since September 2010! Now with Ruby 3.0 ‘except’&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;February 25, 2019: &lt;a href=&quot;http://rolandtanglao.com/2019/02/25/p1-i-have-written-flickr-backup-programs-twice-how-about-you/&quot;&gt;backup-originals.rb - I have written flickr backup programs like this at least twice :-) How about you :-) ?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;April 21, 2018 &lt;a href=&quot;http://rolandtanglao.com/2018/04/21/smugmug-buys-flickr-pledges-to-keep-api/&quot;&gt;SmugMug Buys Flickr and pledges to continue with flickr’s fab API, yay!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;May 7, 2017: &lt;a href=&quot;http://rolandtanglao.com/2017/05/07/p1-cogdog-bet-flickr-api-broken-by-april-30-2018/&quot;&gt;By April 30, 2018, the flickr API will be broken — my bet with cog dog&lt;/a&gt;        &amp;lt;— lost that bet as of February 29, 2024 the API is still working!&lt;/li&gt;
+  &lt;li&gt;November 20, 2016: &lt;a href=&quot;http://rolandtanglao.com/2016/11/20/p1-My-175K-flickr-photos-are-now-CC0-aka-public-domain/&quot;&gt;My 175K flickr photos are now CC0 aka public domain&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;May 29, 2011: &lt;a href=&quot;http://rolandtanglao.com/2011/05/29/still-dont-have-real-time-geotagged-photo-web-in-2011-proof-lack-of-geotagged-vancouver-photos-on-flickr-after-vancouver-canucks-beat-the-san-jose-sharks/&quot;&gt;Still  don’t have real time geotagged photo web in 2011! Proof: lack of  geotagged Vancouver photos on flickr after Vancouver Canucks beat the  San Jose Sharks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;May 3, 2011:  &lt;a href=&quot;http://rolandtanglao.com/2011/05/03/n8-video-and-flickr-not-working-symptomatic-of-both-flickr-and-nokia-irrelevance/&quot;&gt;N8 video &amp;amp; flickr not working - symptomatic of both Flickr &amp;amp; Nokia irrelevance?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;April 11, 2007: &lt;a href=&quot;http://rolandtanglao.com/2007/04/11/shozu-still-the-best-way-to-quickly-flickr-photos-lifeblog-and-gallery-require-too-many-clicks/&quot;&gt;ShoZu still the best way to quickly flickr photos, Lifeblog &amp;amp;  Gallery require too many clicks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;January 2, 2007: &lt;a href=&quot;http://rolandtanglao.com/2007/01/02/youtube-is-not-the-flickr-of-video/&quot;&gt;YouTube is NOT the flickr of video&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;December 24, 2005: &lt;a href=&quot;http://rolandtanglao.com/2005/12/24/no-flickr-of-video-emerges-rolands-2006-predictions-part-5/&quot;&gt;No Flickr of video emerges - Roland’s 2006 Predictions Part 5&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;October 5, 2005 : &lt;a href=&quot;http://rolandtanglao.com/2005/10/02/deploy-every-30-minutes-one-secret-behind-flickr-time-development/&quot;&gt; Deploy every 30 minutes: One secret behind Flickr time development&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;July 24, 2005: &lt;a href=&quot;http://rolandtanglao.com/2005/07/24/beware-of-bogus-long-tail-and-just-like-flickr-pitches/&quot;&gt; Beware of bogus ‘long tail and  ‘Just Like Flickr’ pitches&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;May 26, 2005: &lt;a href=&quot;http://rolandtanglao.com/2005/05/26/flickr-leaving-do-at-the-alibi-room-tonight/&quot;&gt; Flickr leaving do at the Alibi Room tonight&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Thu, 29 Feb 2024 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2024/02/29/p1-happy-20th-birthday-flickr/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/02/29/p1-happy-20th-birthday-flickr/</guid>
+        
+        
+      </item>
     
       <item>
         <title>2024: More humility, more facts, less broad judgment, less speculation aka lessons from Julia Evans</title>
@@ -652,37 +731,6 @@ pip3 &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;
         <pubDate>Fri, 15 Sep 2023 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2023/09/15/p1-rmagic-smush-horizontal-montages-bottom-aligned/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2023/09/15/p1-rmagic-smush-horizontal-montages-bottom-aligned/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Grafista has glyphs with codepoints that are invalid Unicode codepoints e.g. Hex B0001 but which can't be rendered (they render as black boxes) by imagemagick using the pango renderer. Help please!</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Anybody know how to render these non standard custom glyph’s like Grafista’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;B0001&lt;/code&gt; in a web app or in Python, Rust, Ruby etc. Ideally I’d render the custom glyphs to a PNG so I can make tshirts :-) !&lt;/li&gt;
-  &lt;li&gt;Source for hex &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;B0001&lt;/code&gt;  being an invalid Unicode codepoint (&lt;del&gt;I thought it was invalid initially!&lt;/del&gt;) is Tim Bray’s blog post from &lt;a href=&quot;https://www.tbray.org/ongoing/When/202x/2023/08/14/Unicode-Scalar-Value&quot;&gt;August 14, 2023&lt;/a&gt; (see also https://www.fileformat.info/info/unicode/char/b0001/index.htm which states:  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;U+B0001 is not a valid unicode character.&lt;/code&gt;) :
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;The text must consist of a sequence of [Unicode scalar values]
-(https://www.unicode.org/versions/Unicode10.0.0/ch03.pdf#G7404), 
-i.e integers in the inclusive ranges 0-0xD7FF and 0xE000-0x10FFFF.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;My toot about this:
-    &lt;ul&gt;
-      &lt;li&gt;anybody know anything about custom fonts on Linux (ubuntu 22.04, on dell xps13) or macOS.? My plan was to use the cool graphic glyphs from the &lt;a href=&quot;https://learn.scannerlicker.net/2016/10/06/making-grafista/&quot;&gt;Grafista&lt;/a&gt; font and make a thunderbird infographic  png out of text in Grafista. unfortunately although the font shows 1600 glyphs i only have access to 360 glyphs and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xfd&lt;/code&gt; on linux shows the wrong glyphs, i.e. not the cool graphic glyphs&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;July 26, 2023: &lt;a href=&quot;http://rolandtanglao.com/2023/07/26/p2-info-graphic-from-thunderbird-sumo-questions-april-june-2023/&quot;&gt;April 1 - June 30, 2023 infographic of Thunderbird SUMO Support Questions using the imagemagick 7.x ashlar best fit option&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Tue, 15 Aug 2023 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2023/08/15/p2-pango-imagemagick-does-not-render-custom-glyphs-that-are-not-unicode/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2023/08/15/p2-pango-imagemagick-does-not-render-custom-glyphs-that-are-not-unicode/</guid>
         
         
       </item>
