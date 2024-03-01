@@ -14,7 +14,13 @@ So many thoughts:
 
 * The flickr API was ahead of its time and it just works! There have been some minor tweaks but 99% of the code that I've written still works!
 
-Finally, see Boris's blog post: **QUOTE**:  [20 years of Flickr](https://blog.flickr.net/en/2024/02/02/20-years-of-significant-moments-in-flickrs-development/). And I just happened to tell the story today of the tech meetup I  organized in Vancouver 20 years ago. 6 people came, including [Roland Tanglao](http://rolandtanglao.com/), who got us all early access to Flickr. **END QUOTE**
+Finally, see Boris' blog post: 
+
+**QUOTE**:  
+
+[20 years of Flickr](https://blog.flickr.net/en/2024/02/02/20-years-of-significant-moments-in-flickrs-development/). And I just happened to tell the story today of the tech meetup I  organized in Vancouver 20 years ago. 6 people came, including [Roland Tanglao](http://rolandtanglao.com/), who got us all early access to Flickr. 
+
+**END QUOTE**
 
 ## My first post about flickr from the internet archive Feb 12, 2004
 
