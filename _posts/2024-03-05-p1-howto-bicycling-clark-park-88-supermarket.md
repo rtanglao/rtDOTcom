@@ -8,3 +8,5 @@ title: "How To: Bicycling Clark Park to 88 Supermarket"
 
 ## Previously
 * May 8, 2020 [rollingroland.com: Vancouver Crossings](http://rollingroland.com/post/2020-05-08-p1-vancouver-crossings/)
+* May 8, 2020: [Revised workflow for rollingroland.com](http://localhost:4000/2020/05/08/p1-revised-rolling-roland-hugo/)        
+* October 28, 2016: [How I created RollingRoland.com using hugo, hover.com DNS and surge.sh](http://localhost:4000/2016/10/28/p1-how-i-made-rollingroland/)        

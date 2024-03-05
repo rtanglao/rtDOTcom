@@ -6,9 +6,30 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 01 Mar 2024 12:01:07 -0800</pubDate>
-    <lastBuildDate>Fri, 01 Mar 2024 12:01:07 -0800</lastBuildDate>
+    <pubDate>Tue, 05 Mar 2024 07:31:26 -0800</pubDate>
+    <lastBuildDate>Tue, 05 Mar 2024 07:31:26 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>How To: Bicycling Clark Park to 88 Supermarket</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Fleming -&amp;gt; Maxwell -&amp;gt;Welwyn -&amp;gt; Jog over on the sidewalk to Miller -&amp;gt; Cross Kingsway at Miller -&amp;gt; Left onto 26th (which might be the  alley) -&amp;gt; Right onto Beatrice -&amp;gt; Left onto 32nd Ave and then 88 is on your right. No bicycle rack &amp;lt;– This will have to do until I get &lt;a href=&quot;http://rollingroland.com/&quot;&gt;rollingroland&lt;/a&gt; updating again&lt;/li&gt;
+  &lt;li&gt;Strava route showing &lt;a href=&quot;https://www.strava.com/activities/10885036845&quot;&gt;88-&amp;gt;Clark Park&lt;/a&gt; i.e. the reverse :-)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;May 8, 2020 &lt;a href=&quot;http://rollingroland.com/post/2020-05-08-p1-vancouver-crossings/&quot;&gt;rollingroland.com: Vancouver Crossings&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;May 8, 2020: &lt;a href=&quot;http://localhost:4000/2020/05/08/p1-revised-rolling-roland-hugo/&quot;&gt;Revised workflow for rollingroland.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;October 28, 2016: &lt;a href=&quot;http://localhost:4000/2016/10/28/p1-how-i-made-rollingroland/&quot;&gt;How I created RollingRoland.com using hugo, hover.com DNS and surge.sh&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 05 Mar 2024 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2024/03/05/p1-howto-bicycling-clark-park-88-supermarket/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/03/05/p1-howto-bicycling-clark-park-88-supermarket/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Happy belated 20th Birthday Flickr :-) Thanks for the excellent API and storing my 500,000 photos</title>
@@ -701,42 +722,6 @@ pip3 &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;
         <pubDate>Mon, 18 Sep 2023 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2023/09/18/p1-howto-create-video-ffmpeg-from-lots-of-jpegs/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2023/09/18/p1-howto-create-video-ffmpeg-from-lots-of-jpegs/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>RMagick doesn't support smush to align horizontal images at the bottom but MiniMagick does; you need gravity set to `south` to anchor images to the bottom ie. `south`</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;From &lt;a href=&quot;https://elk.zone/devdilettante.com/@roland/111067680184544895&quot;&gt;Mastodon&lt;/a&gt;: Today I Learned, RMagick doesn’t support &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;smush&lt;/code&gt; (&lt;a href=&quot;https://imagemagick.org/script/command-line-options.php#smush&quot;&gt;imagemagick docs for smush&lt;/a&gt;,&lt;a href=&quot;https://www.rubydoc.info/gems/rmagick/Magick/ImageList/Montage&quot;&gt; RMagick docs for montage don’t mention smush&lt;/a&gt;) to align horizontal images at the bottom but &lt;a href=&quot;https://github.com/minimagick/minimagick&quot;&gt;MiniMagick&lt;/a&gt; does! Stack Overflow:&lt;a href=&quot;https://stackoverflow.com/questions/60357036/imagemagick-montage-how-to-align-images-to-bottom&quot;&gt;imagemagick montage - how to align images to bottom&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;The othe important thing to note is you need to set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gravity&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;south&lt;/code&gt; to anchor the images at the bottom instead of at the top.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;code&quot;&gt;Code&lt;/h3&gt;
-&lt;p&gt;From: &lt;a href=&quot;https://github.com/rtanglao/rt-tb-noto-emoji-2023/blob/main/create-emoji-question-graphics.rb&quot;&gt;create-emoji-question-graphics.rb&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'mini_magick'&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;montage_images_horizontally&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;image_to_be_appended&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;no&quot;&gt;MiniMagick&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Tool&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Magick&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;gravity&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'south'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;m&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;image&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;m&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;image_to_be_appended&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;smush&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;m&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;image&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;February 17, 2023: &lt;a href=&quot;http://rolandtanglao.com/2023/02/17/p1-howto-label-image-emoji-imagemagick-rmagick/&quot;&gt;How To label an image with an emoji using ruby rmagick with imagemagick? A: Use an XML entity escape e.g. &amp;amp;x1234; with the pango text renderer&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Fri, 15 Sep 2023 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2023/09/15/p1-rmagic-smush-horizontal-montages-bottom-aligned/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2023/09/15/p1-rmagic-smush-horizontal-montages-bottom-aligned/</guid>
         
         
       </item>
