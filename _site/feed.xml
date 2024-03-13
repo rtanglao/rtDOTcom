@@ -6,9 +6,27 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 05 Mar 2024 08:12:40 -0800</pubDate>
-    <lastBuildDate>Tue, 05 Mar 2024 08:12:40 -0800</lastBuildDate>
+    <pubDate>Wed, 13 Mar 2024 09:31:42 -0700</pubDate>
+    <lastBuildDate>Wed, 13 Mar 2024 09:31:42 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Probably Wrong Prediction: (stolen :-) from Asa Dotzler) Apple will sell less than 6 million Vision Pros before March 11, 2029</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Mar 12, 2024 18:03 &lt;a href=&quot;https://www.facebook.com/asadotzler/posts/pfbid02CSE4uf6oY4cDYeCqhu8RgL6pBYSSrNQEvJPhzYQ5GkzGKUc5hwze2SPuX1Q1k5ddl&quot;&gt;Asa Dotzler on FB predicts that by March 11, 2029, Apple will have sold less than six million Vision Pros&lt;/a&gt; &amp;lt;– Probably wrong :-) prediction on my part: Asa is right! &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;If, in 5 years, Apple has 1/10th of them using Vision Pro, I'll eat some hat I have yet to purchase. That is, if 10% of Apples most fervent 60 million, or 6 million users, by all these wild and probably incorrect estimates above, jump on the VR bandwagon, then please call me out and link this post. (That's giving Apple 5 years to catch up to Meta's current active users.)&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;October 10, 2022: &lt;a href=&quot;http://rolandtanglao.com/2022/10/10/p1-autonomous-vehicle-winter-coming/&quot;&gt;Probably Wrong Prediction: Autonomous Vehicle ‘winter’ is coming in less than 5 years for G*link and other AV companies&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 13 Mar 2024 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2024/03/13/p1-prediction-apple-6-million-vision-pro-sold-2029/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/03/13/p1-prediction-apple-6-million-vision-pro-sold-2029/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How To: Bicycling Clark Park to 88 Supermarket</title>
@@ -690,38 +708,6 @@ pip3 &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;
         <pubDate>Tue, 26 Sep 2023 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2023/09/26/p1-thunderbird-bar-code-operating-system-antivirus-email-provider-userchrome/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2023/09/26/p1-thunderbird-bar-code-operating-system-antivirus-email-provider-userchrome/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to create a 2 second fps video using ffmpeg  from lots of JPEGs e.g. from Canon EOS RP</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;How to create a 2 second fps video using ffmpeg (via &lt;a href=&quot;https://www.plainlyvideos.com/blog/ffmpeg-convert-images-to-video&quot;&gt;How to convert images using FFmpeg to create a simple slideshow&lt;/a&gt;]&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ffmpeg &lt;span class=&quot;nt&quot;&gt;-framerate&lt;/span&gt; 1/0.125 &lt;span class=&quot;nt&quot;&gt;-pattern_type&lt;/span&gt; glob &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'*.JPG'&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;-filter_complex&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2&quot;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;-pix_fmt&lt;/span&gt; yuv420p &lt;span class=&quot;nt&quot;&gt;-r&lt;/span&gt; 2 &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-1frame-every-0.125seconds-2FPS-2023-09-02-concord-park-viaduct-dutch-taiwanfest-london-drugs-dunsmuir-revolver-bicycling.mp4
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;Even better over 1.5 hours condensed into 26 seconds :-) !
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ffmpeg &lt;span class=&quot;nt&quot;&gt;-framerate&lt;/span&gt; 1/0.002 &lt;span class=&quot;nt&quot;&gt;-pattern_type&lt;/span&gt; glob &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'*.JPG'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-filter_complex&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-pix_fmt&lt;/span&gt; yuv420p &lt;span class=&quot;nt&quot;&gt;-r&lt;/span&gt; 120 1frame-every-0.002seconds-120FPS-2023-09-04-eosrp-zeiss35mmf2-revolver-stanleypark-clarkpark-bicycling.mp4  
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;April 6, 2021: &lt;a href=&quot;http://rolandtanglao.com/2021/04/10/p1-photoshop-less-using-printf-header-magick-convert-xxd-rgb-png/&quot;&gt;Photoshop-less  way using printf and magick (imagemagick version 7) to convert an RGB  file created by xxd without a header to a PNG&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 18 Sep 2023 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2023/09/18/p1-howto-create-video-ffmpeg-from-lots-of-jpegs/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2023/09/18/p1-howto-create-video-ffmpeg-from-lots-of-jpegs/</guid>
         
         
       </item>
