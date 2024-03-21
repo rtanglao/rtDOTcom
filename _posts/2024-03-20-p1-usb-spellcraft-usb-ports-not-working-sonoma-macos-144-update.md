@@ -3,7 +3,7 @@ layout: post
 title: "USB Spellcraft (formerly v**doo): Thunderbolt dock USB ports stop working after macOS Sonoma 14.4 update: WORKAROUND: unplug USB-C cable, power down dock and Monitor with USB-A hub, power up re-attach USB-C cable"
 ---
 
-* I am experiencing the issue where after Sonoma 14.4 my USB ports on my dock mysteriously stop working! i can make it work by following this workaround/USB "Spellcraft" :-) formerly known as USB v**doo (posting it here in case others can benefit):
+* I am experiencing the issue where after Sonoma 14.4 my USB ports on my [Dell Thunderbolt WD22TB4 dock](https://www.dell.com/en-ca/shop/dell-thunderbolt-dock-wd22tb4/apd/210-bdqh/docks) mysteriously stop working! i can make it work by following this workaround/USB "Spellcraft" :-) formerly known as USB v**doo (posting it here in case others can benefit):
 
     1. unplug the USB-C cable from the Mac to the Thunderbolt dock
     2. power off the Thunderbird 4 dock
