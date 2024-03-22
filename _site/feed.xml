@@ -6,9 +6,28 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 21 Mar 2024 16:19:09 -0700</pubDate>
-    <lastBuildDate>Thu, 21 Mar 2024 16:19:09 -0700</lastBuildDate>
+    <pubDate>Fri, 22 Mar 2024 09:27:01 -0700</pubDate>
+    <lastBuildDate>Fri, 22 Mar 2024 09:27:01 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>USB Spellcraft: magic spell from March 20 no longer works; plugged in USB-A devices into old Anker USB 3 hub and plugged Anker hub into USB-C port of the Dell Thunderbolt 4 hub </title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;The USB Magic Spell from March 20th no longer works sad face.&lt;/li&gt;
+  &lt;li&gt;Workaround: plugged in USB-A devices into old Anker USB 3 hub and plugged Anker hub into USB-C port (using a USB-A to C converter) of the Dell WD22TB4 Thunderbolt 4 hub. macOS Sonoma 14.4 seems to have broken the USB-A ports on the Dell Thunderbird Hub but luckily the USB-C ports still work in 14.4!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;March 20, 2024: &lt;a href=&quot;http://rolandtanglao.com/2024/03/20/p1-usb-spellcraft-usb-ports-not-working-sonoma-macos-144-update/&quot;&gt;USB Spellcraft (formerly v**doo): Thunderbolt dock USB ports stop working after macOS Sonoma 14.4 update: WORKAROUND: unplug USB-C cable, power down dock and Monitor with USB-A hub, power up re-attach USB-C cable&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 22 Mar 2024 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2024/03/22/p1-usb-spellcraft-not-working-using-old-anker-usb3-hub/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/03/22/p1-usb-spellcraft-not-working-using-old-anker-usb3-hub/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How To: Bicycling Clark Park to Dami Korean Restaurant</title>
@@ -274,34 +293,6 @@
         <pubDate>Sat, 04 Nov 2023 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2023/11/04/p1-utilitarian-philosophy-harmful-ted-gioia-why-not-philosophy-because-sam-bankman-fried/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2023/11/04/p1-utilitarian-philosophy-harmful-ted-gioia-why-not-philosophy-because-sam-bankman-fried/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>To get csvs-to-sqlite to work, hardcode pandas dependency to 1.4.0</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Oct 9, 2023 23:56 UPDATE:
-see https://github.com/simonw/csvs-to-sqlite/issues/88&lt;/p&gt;
-
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pip3 &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'pandas==1.4.0'&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# git clone from this repo and cd to that directory&lt;/span&gt;
-pip3 &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-    &lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 2, 2020. &lt;a href=&quot;https://stackoverflow.com/questions/42609943/what-is-the-use-case-for-pip-install-e&quot;&gt;What is the use case for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pip install -e&lt;/code&gt;&lt;/a&gt; I installed csvs-to-sqlite from simon w by changing pandas dependency to be just &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pandas&lt;/code&gt; instead of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pandas~=0.25.0&lt;/code&gt; in &lt;a href=&quot;https://github.com/simonw/csvs-to-sqlite/blob/master/setup.py&quot;&gt;setup.py&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;March 27, 2022: &lt;a href=&quot;http://rolandtanglao.com/2022/03/27/p1-firefox-sumo-317-support-questions-2021-june4-firefox89-new-look-and-feel/&quot;&gt;2021  SUMO Firefox Desktop Support Questions in a SQLite file: 317 questions  on June 4, 2021 about Firefox look and feel changes in Firefox 89 (used  DB Browser for SQLite, csvstack, csvs-to-sqlite)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 16 Oct 2023 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2023/10/16/p1-hardcode-pandas-1.4.0-to-get-csvs-to-sqlite-to-work/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2023/10/16/p1-hardcode-pandas-1.4.0-to-get-csvs-to-sqlite-to-work/</guid>
         
         
       </item>
