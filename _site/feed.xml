@@ -6,9 +6,32 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 23 Mar 2024 17:36:12 -0700</pubDate>
-    <lastBuildDate>Sat, 23 Mar 2024 17:36:12 -0700</lastBuildDate>
+    <pubDate>Sat, 23 Mar 2024 18:03:01 -0700</pubDate>
+    <lastBuildDate>Sat, 23 Mar 2024 18:03:01 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>How to use cURL to send HTML email with Gmail | Change(b)log</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Mar 19, 2024 07:02 &lt;a href=&quot;https://zgadzaj.com/development/how-to/use-curl-to-send-html-email-with-gmail&quot;&gt;How to use cURL to send HTML email with Gmail | Change(b)log&lt;/a&gt; &amp;lt;– suitable for a github action –&amp;gt; &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;curl --ssl-reqd \
+--url 'smtps://smtp.gmail.com:465' \
+--user 'username@gmail.com:password' \
+--mail-from 'username@gmail.com' \
+--mail-rcpt 'john@example.com' \
+--upload-file mail.txt&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;January 9, 2021: &lt;a href=&quot;http://rolandtanglao.com/2019/01/09/p1-gmailr-jenny-bryan-tutorial-flickr-ignores-body/&quot;&gt;Thanks to Jenny Bryan’s gmailr tutorial, got emailing of my 3 week Firefox anti-virus mention graph working but flickr ignores the body&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 23 Mar 2024 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2024/03/23/p1-how-to-use-curl-to-send-gmail/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/03/23/p1-how-to-use-curl-to-send-gmail/</guid>
+        
+        
+      </item>
     
       <item>
         <title>USB Spellcraft: magic spell from March 20 no longer works; plugged in USB-A devices into old Anker USB 3 hub and plugged Anker hub into USB-C port of the Dell Thunderbolt 4 WD22TB4 hub</title>
@@ -260,39 +283,6 @@
         <pubDate>Sun, 26 Nov 2023 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2023/11/26/p1-emily-f-gorcenski-making-god-millenarianism-manifest-destiny-aitechno-futurism/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2023/11/26/p1-emily-f-gorcenski-making-god-millenarianism-manifest-destiny-aitechno-futurism/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Utilitarian philosophy considered harmful aka Ted Gioia: Why I Ran Away from Philosophy Because of Sam Bankman-Fried</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 4, 2023 21:38 &lt;a href=&quot;https://www.honest-broker.com/p/why-i-ran-away-from-philosophy-because&quot;&gt;Utilitarian philosophy considered harmful aka Ted Gioia: Why I Ran Away from Philosophy Because of Sam Bankman-Fried&lt;/a&gt; &amp;lt;– What Ted says, Read the Whole Thing (RTWT) - -&amp;gt; &lt;strong&gt;QUOTE&lt;/strong&gt;:
-    &lt;blockquote&gt;
-      &lt;p&gt;Here is what I believe today: `&lt;/p&gt;
-      &lt;ol&gt;
-        &lt;li&gt;Words are something you live by. They are defined by your actions, not by other words.&lt;/li&gt;
-        &lt;li&gt;We rely too much on numerical measures and reducing things to formulas—the most valuable things in human life resist quantification.&lt;/li&gt;
-        &lt;li&gt;I’m referring to core human values—such as love, compassion, forgiveness, trust, kindness, fidelity, decency, hope, etc. These are practices not arguments, and hence require no appeal to a larger context. Anyone who claims they require arguments (for falling in love or acting compassionately, for example) should be treated with extreme caution.&lt;/li&gt;
-        &lt;li&gt;Above all, beware of people who won’t do a good deed until they have calculated the long-term consequences and expect certain desired results in return. Maybe you can do a business deal with them (or maybe not), but never get into a close personal relationship with them.&lt;/li&gt;
-        &lt;li&gt;Gratuitous actions of generosity and kindness are best done without calculating rewards or consequences (which, by the way, is the reason I’ve celebrated gift giving and the bonds of trust and love it creates in my writings).&lt;/li&gt;
-        &lt;li&gt;Some choices are intrinsically evil. No larger context can cleanse them of this evil.&lt;/li&gt;
-        &lt;li&gt;Practicing good must begin in the immediate context of your life—in your actual actions today, not in some mythical past or dreamt-of future. And finally….&lt;/li&gt;
-        &lt;li&gt;Take care of Granny.&lt;/li&gt;
-      &lt;/ol&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;January 29, 2019: &lt;a href=&quot;http://rolandtanglao.com/2019/01/29/p1-i-do-not-trust-computer-scientists-philosophers-autonomous-vehicles/&quot;&gt;Citizen’s assembly instead of philosophers and computer scientists deciding who lives who dies?!!&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 04 Nov 2023 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2023/11/04/p1-utilitarian-philosophy-harmful-ted-gioia-why-not-philosophy-because-sam-bankman-fried/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2023/11/04/p1-utilitarian-philosophy-harmful-ted-gioia-why-not-philosophy-because-sam-bankman-fried/</guid>
         
         
       </item>

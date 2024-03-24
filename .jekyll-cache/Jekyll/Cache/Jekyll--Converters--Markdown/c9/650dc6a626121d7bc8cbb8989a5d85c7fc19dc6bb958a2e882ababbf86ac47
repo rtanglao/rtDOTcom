@@ -1,0 +1,14 @@
+I"�<ul>
+  <li><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a> Mar 19, 2024 07:02 <a href="https://zgadzaj.com/development/how-to/use-curl-to-send-html-email-with-gmail">How to use cURL to send HTML email with Gmail | Change(b)log</a> &lt;– suitable for a github action –&gt; <strong>QUOTE</strong>: <code class="language-plaintext highlighter-rouge">curl --ssl-reqd \
+--url 'smtps://smtp.gmail.com:465' \
+--user 'username@gmail.com:password' \
+--mail-from 'username@gmail.com' \
+--mail-rcpt 'john@example.com' \
+--upload-file mail.txt</code></li>
+</ul>
+
+<h2 id="previously">Previously</h2>
+<ul>
+  <li>January 9, 2021: <a href="http://rolandtanglao.com/2019/01/09/p1-gmailr-jenny-bryan-tutorial-flickr-ignores-body/">Thanks to Jenny Bryan’s gmailr tutorial, got emailing of my 3 week Firefox anti-virus mention graph working but flickr ignores the body</a></li>
+</ul>
+:ET
