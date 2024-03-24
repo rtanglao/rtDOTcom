@@ -6,14 +6,14 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 22 Mar 2024 09:27:01 -0700</pubDate>
-    <lastBuildDate>Fri, 22 Mar 2024 09:27:01 -0700</lastBuildDate>
+    <pubDate>Sat, 23 Mar 2024 17:36:12 -0700</pubDate>
+    <lastBuildDate>Sat, 23 Mar 2024 17:36:12 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
-        <title>USB Spellcraft: magic spell from March 20 no longer works; plugged in USB-A devices into old Anker USB 3 hub and plugged Anker hub into USB-C port of the Dell Thunderbolt 4 hub </title>
+        <title>USB Spellcraft: magic spell from March 20 no longer works; plugged in USB-A devices into old Anker USB 3 hub and plugged Anker hub into USB-C port of the Dell Thunderbolt 4 WD22TB4 hub</title>
         <description>&lt;ul&gt;
-  &lt;li&gt;The USB Magic Spell from March 20th no longer works sad face.&lt;/li&gt;
+  &lt;li&gt;The USB Magic Spell from &lt;a href=&quot;http://rolandtanglao.com/2024/03/20/p1-usb-spellcraft-usb-ports-not-working-sonoma-macos-144-update/&quot;&gt;March 20th, 2024&lt;/a&gt; i.e. 2 days ago no longer works sad face.&lt;/li&gt;
   &lt;li&gt;Workaround: plugged in USB-A devices into old Anker USB 3 hub and plugged Anker hub into USB-C port (using a USB-A to C converter) of the Dell WD22TB4 Thunderbolt 4 hub. macOS Sonoma 14.4 seems to have broken the USB-A ports on the Dell Thunderbird Hub but luckily the USB-C ports still work in 14.4!&lt;/li&gt;
 &lt;/ul&gt;
 
