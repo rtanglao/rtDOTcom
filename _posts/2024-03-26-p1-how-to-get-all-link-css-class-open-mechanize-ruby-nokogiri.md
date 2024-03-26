@@ -23,6 +23,7 @@ Net::HTTP.start(from_uri.host, from_uri.port,
       response = http.request request # Net::HTTPResponse object
       response_uri = response['location']
 ```
+
 ## Kludgy initial way
 
 ```ruby

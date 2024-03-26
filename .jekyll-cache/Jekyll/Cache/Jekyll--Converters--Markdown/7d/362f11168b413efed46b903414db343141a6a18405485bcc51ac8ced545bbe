@@ -1,0 +1,47 @@
+I"4<ul>
+  <li><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Mar 25, 2024. 17:40 CSS path using Firefox’s inspector:  <code class="language-plaintext highlighter-rouge">ul.locales:nth-child(2) &gt; li:nth-child(4) &gt; a:nth-child(1)</code> is list of localizations for a SUMO KB article https://support.mozilla.org/en-US/kb/troubleshoot-mode-thunderbird/show_translations i.e. <code class="language-plaintext highlighter-rouge">en-US./kb/&lt;slug&gt;/show_translations</code></li>
+  <li>The folowing is inspired by my code from 7 years ago (!) that tested SUMO KB redirects as part of our unsuccessful migration from Kitsune to Lithium. See April 5, 20217: <a href="http://rolandtanglao.com/2017/04/05/how-to-check-6000-redirects-version2-aka-procedural-programming-sucks/">How to Check 6000 URLS version 2.0</a></li>
+</ul>
+
+<h2 id="the-better-way-discovered-after-the-kludgy-way">The better way (discovered after the kludgy way)</h2>
+<ul>
+  <li>
+    <ol>
+      <li>one liner using the unique CSS class name for locale links which in this case is <code class="language-plaintext highlighter-rouge">translated_locale</code>:</li>
+    </ol>
+  </li>
+</ul>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">page</span> <span class="o">=</span> <span class="n">mechanize</span><span class="p">.</span><span class="nf">get</span> <span class="no">ARGV</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">results</span>  <span class="o">=</span> <span class="n">page</span><span class="p">.</span><span class="nf">css</span><span class="p">(</span><span class="s1">'.translated_locale'</span><span class="p">).</span><span class="nf">map</span><span class="p">{</span> <span class="o">|</span><span class="n">link</span><span class="o">|</span> <span class="n">link</span><span class="p">[</span><span class="s1">'href'</span><span class="p">]}</span>
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <ol>
+      <li>And then from: https://github.com/rtanglao/rt-li-sumo-redirects/blob/master/test-firefox-focus-android-redirects.rb open the link to see if there is a redirect.
+        <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="no">Net</span><span class="o">::</span><span class="no">HTTP</span><span class="p">.</span><span class="nf">start</span><span class="p">(</span><span class="n">from_uri</span><span class="p">.</span><span class="nf">host</span><span class="p">,</span> <span class="n">from_uri</span><span class="p">.</span><span class="nf">port</span><span class="p">,</span>
+              <span class="ss">:use_ssl</span> <span class="o">=&gt;</span> <span class="n">from_uri</span><span class="p">.</span><span class="nf">scheme</span> <span class="o">==</span> <span class="s1">'https'</span><span class="p">)</span> <span class="k">do</span> <span class="o">|</span><span class="n">http</span><span class="o">|</span>
+<span class="n">request</span> <span class="o">=</span> <span class="no">Net</span><span class="o">::</span><span class="no">HTTP</span><span class="o">::</span><span class="no">Get</span><span class="p">.</span><span class="nf">new</span> <span class="n">from_uri</span><span class="p">.</span><span class="nf">request_uri</span>
+<span class="n">request</span><span class="p">.</span><span class="nf">basic_auth</span> <span class="n">userid</span><span class="p">,</span> <span class="n">password</span>
+<span class="n">response</span> <span class="o">=</span> <span class="n">http</span><span class="p">.</span><span class="nf">request</span> <span class="n">request</span> <span class="c1"># Net::HTTPResponse object</span>
+<span class="n">response_uri</span> <span class="o">=</span> <span class="n">response</span><span class="p">[</span><span class="s1">'location'</span><span class="p">]</span>
+</code></pre></div>        </div>
+      </li>
+    </ol>
+  </li>
+</ul>
+
+<h2 id="kludgy-initial-way">Kludgy initial way</h2>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">page</span>  <span class="o">=</span> <span class="n">mechanize</span><span class="p">.</span><span class="nf">get</span> <span class="s1">'https://support.mozilla.org/en-US/kb/troubleshoot-mode-thunderbird/show_translations'</span>
+<span class="n">page</span><span class="p">.</span><span class="nf">css</span><span class="p">(</span><span class="s1">'.translated_locale'</span><span class="p">).</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">l</span><span class="o">|</span>
+<span class="n">irb</span><span class="p">(</span><span class="n">main</span><span class="p">):</span><span class="mi">201</span><span class="p">:</span><span class="mi">1</span><span class="o">*</span>   <span class="nb">puts</span> <span class="n">l</span><span class="p">.</span><span class="nf">css</span><span class="p">(</span><span class="s1">'@href'</span><span class="p">).</span><span class="nf">first</span><span class="p">.</span><span class="nf">value</span>
+<span class="n">irb</span><span class="p">(</span><span class="n">main</span><span class="p">):</span><span class="mi">202</span><span class="p">:</span><span class="mi">0</span><span class="o">&gt;</span> <span class="k">end</span>
+</code></pre></div></div>
+
+<h2 id="previously">Previously</h2>
+<ul>
+  <li>April 7, 2017:<a href="http://rolandtanglao.com/2017/04/07/Best-tool-to-test-HTTP-redirects/">What is the best open source tool to test HTTP redirects on 6000 URLs?</a></li>
+</ul>
+:ET
