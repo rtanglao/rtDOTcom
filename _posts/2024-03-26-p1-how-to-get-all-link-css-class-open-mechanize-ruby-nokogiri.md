@@ -4,7 +4,8 @@ title: "How To: Get all links with a CSS class and open them to find out redirec
 ---
 
 * [Discovered](http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/): Mar 25, 2024. 17:40 CSS path using Firefox's inspector:  `ul.locales:nth-child(2) > li:nth-child(4) > a:nth-child(1)` is list of localizations for a SUMO KB article https://support.mozilla.org/en-US/kb/troubleshoot-mode-thunderbird/show_translations i.e. `en-US./kb/<slug>/show_translations`
-* The folowing is inspired by my code from 7 years ago (!) that tested SUMO KB redirects as part of our unsuccessful migration from Kitsune to Lithium. See April 5, 20217: [How to Check 6000 URLS version 2.0](http://rolandtanglao.com/2017/04/05/how-to-check-6000-redirects-version2-aka-procedural-programming-sucks/)
+* **NOT TESTED** (I'll write a follow up blog post once I have working code) -->The following is inspired by my code from 7 years ago (!) that tested SUMO KB redirects as part of our unsuccessful migration from Kitsune to Lithium. 
+    * See April 5, 20217: [How to Check 6000 URLS version 2.0](http://rolandtanglao.com/2017/04/05/how-to-check-6000-redirects-version2-aka-procedural-programming-sucks/)
 
 ## The better way (discovered after the kludgy way)
 * 1. one liner using the unique CSS class name for locale links which in this case is `translated_locale`:

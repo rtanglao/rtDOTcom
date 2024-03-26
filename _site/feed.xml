@@ -6,15 +6,19 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 26 Mar 2024 07:05:59 -0700</pubDate>
-    <lastBuildDate>Tue, 26 Mar 2024 07:05:59 -0700</lastBuildDate>
+    <pubDate>Tue, 26 Mar 2024 07:14:39 -0700</pubDate>
+    <lastBuildDate>Tue, 26 Mar 2024 07:14:39 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
         <title>How To: Get all links with a CSS class and open them to find out redirects for translations of Thunderbird Knowledge Base articles using Ruby and Nokogiri</title>
         <description>&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Mar 25, 2024. 17:40 CSS path using Firefox’s inspector:  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ul.locales:nth-child(2) &amp;gt; li:nth-child(4) &amp;gt; a:nth-child(1)&lt;/code&gt; is list of localizations for a SUMO KB article https://support.mozilla.org/en-US/kb/troubleshoot-mode-thunderbird/show_translations i.e. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;en-US./kb/&amp;lt;slug&amp;gt;/show_translations&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;The folowing is inspired by my code from 7 years ago (!) that tested SUMO KB redirects as part of our unsuccessful migration from Kitsune to Lithium. See April 5, 20217: &lt;a href=&quot;http://rolandtanglao.com/2017/04/05/how-to-check-6000-redirects-version2-aka-procedural-programming-sucks/&quot;&gt;How to Check 6000 URLS version 2.0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;NOT TESTED&lt;/strong&gt; (I’ll write a follow up blog post once I have working code) –&amp;gt;The following is inspired by my code from 7 years ago (!) that tested SUMO KB redirects as part of our unsuccessful migration from Kitsune to Lithium.
+    &lt;ul&gt;
+      &lt;li&gt;See April 5, 20217: &lt;a href=&quot;http://rolandtanglao.com/2017/04/05/how-to-check-6000-redirects-version2-aka-procedural-programming-sucks/&quot;&gt;How to Check 6000 URLS version 2.0&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;the-better-way-discovered-after-the-kludgy-way&quot;&gt;The better way (discovered after the kludgy way)&lt;/h2&gt;
