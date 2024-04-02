@@ -1,0 +1,135 @@
+I"�A<ol>
+  <li>Get the articles using the Kitsune API
+    <ol>
+      <li>script: <a href="https://github.com/rtanglao/rt-kits-tb-api/blob/main/get-all-products-kb-articles-list.rb">get-all-products-kb-articles-list.rb</a></li>
+      <li>unofficial but awesome API: <code class="language-plaintext highlighter-rouge">https://support.mozilla.org/api/1/kb/'</code></li>
+    </ol>
+  </li>
+  <li>Get the articles details using the Kitsune API
+    <ol>
+      <li>script: <a href="https://github.com/rtanglao/rt-kits-tb-api/blob/main/get-kb-article-detailed-list.rb">get-kb-article-detailed-list.rb</a></li>
+      <li>unofficial but awesome API: <code class="language-plaintext highlighter-rouge">https://support.mozilla.org/api/1/kb/#{slug}</code></li>
+    </ol>
+  </li>
+  <li>Remove all non Thunderbird Desktop articles from the article details of step 2 using <a href="https://miller.readthedocs.io/en/latest/">miller</a> aka <code class="language-plaintext highlighter-rouge">mlr</code> a simple <a href="https://miller.readthedocs.io/en/latest/reference-main-regular-expressions/">regular expression</a> to filter out rows that don’t have <code class="language-plaintext highlighter-rouge">thunderbird</code>  in the <code class="language-plaintext highlighter-rouge">products_str</code> column</li>
+  <li>From 3. Get a list of TB slugs <code class="language-plaintext highlighter-rouge">mlr --headerless-csv-output --csv cut -f slug thunderbird-kb-title-slug-all-articles-details.csv</code></li>
+  <li>Scrape the slugs from 4 to find all the slugs of the localized articles
+    <ol>
+      <li>script:  <a href="https://github.com/rtanglao/rt-kits-tb-api/blob/main/get-localized-sumo-kb-urls.rb">get-localized-sumo-kb-urls.rb</a></li>
+      <li>scraping all links at  <code class="language-plaintext highlighter-rouge">https://support.mozilla.org/en-US/kb/#{kb_slug.chomp}/show_translations</code> with class: <code class="language-plaintext highlighter-rouge">translated_locale</code> so if the url path gets changed from <code class="language-plaintext highlighter-rouge">show_translations</code> to something else or if the class for each link is changed, then the script will break</li>
+    </ol>
+  </li>
+  <li>Get the Google Analytics for all products. Requires you to be a staff member.</li>
+  <li>From 6. remove everything that doesn’t have a slug as per 5. or doesn’t have the word <code class="language-plaintext highlighter-rouge">thunderbird</code>
+    <ol>
+      <li>script: <a href="https://github.com/rtanglao/rt-kits-tb-api/blob/main/remove-non-thunderbird-lines.rb">remove-non-thunderbird-lines.rb</a></li>
+    </ol>
+  </li>
+</ol>
+
+<h2 id="command-line-spellcraft--">Command Line spellcraft :-)</h2>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./get-all-products-kb-articles-list.rb <span class="c"># 1</span>
+<span class="c"># the above script creates: allproducts-kb-title-slug-all-articles.csv</span>
+./get-kb-article-detailed-list.rb allproducts-kb-title-slug-all-articles.csv <span class="c"># 2</span>
+<span class="c"># resulting file is: details-allproducts-kb-title-slug-all-articles.csv </span>
+mlr <span class="nt">--csv</span> filter <span class="s1">'$products_str =~ "thunderbird"'</span> details-allproducts-kb-title-slug-all-articles.csv <span class="se">\</span>
+<span class="o">&gt;</span> thunderbird-kb-title-slug-all-articles-details.csv <span class="c"># 3</span>
+<span class="c"># As a sanity check, count the number of rows</span>
+roland@Rolands-MacBook-Pro rt-kits-tb-api % mlr <span class="nt">--csv</span> filter <span class="s1">'$products_str =~ "thunderbird"'</span> <span class="k">then </span>count details-allproducts-kb-title-slug-all-articles.csv                      
+count
+154
+mlr <span class="nt">--headerless-csv-output</span> <span class="nt">--csv</span> <span class="nb">cut</span> <span class="nt">-f</span> slug thunderbird-kb-title-slug-all-articles-details.csv <span class="se">\</span>
+| ./get-localized-sumo-kb-urls.rb <span class="o">&gt;</span> thunderbird-localized-sumo-kb-article-slugs.csv <span class="c"># 5</span>
+<span class="c"># for #6, Get the Google Analytics for all products  you need GA access :-) and in this case I</span>
+<span class="c"># got the page review report for January 1, 2023 - December 31, 2023, top 5000</span>
+<span class="c"># which I saved as a CSV file called:</span>
+<span class="c"># just-pageviews-2024-04-01-GA-jan1-dec31-2023-top5000-pageviews.csv</span>
+./remove-non-thunderbird-lines.rb thunderbird-localized-sumo-kb-article-slugs.csv just-pageviews-2024-04-01-GA-jan1-dec31-2023-top5000-pageviews.csv <span class="c"># 7</span>
+</code></pre></div></div>
+
+<h2 id="previously">Previously</h2>
+<ul>
+  <li>March 26, 2024: <a href="http://rolandtanglao.com/2024/03/26/p1-how-to-get-all-link-css-class-open-mechanize-ruby-nokogiri/">How To: Get all links with a CSS class and open them to find out redirects for translations of Thunderbird Knowledge Base articles using Ruby and Nokogiri</a></li>
+</ul>
+
+<h2 id="source-code-because-i-am-paranoid---about-github">Source code because I am paranoid :-) about Github</h2>
+
+<h3 id="get-localized-sumo-kb-urlsrb"><a href="https://github.com/rtanglao/rt-kits-tb-api/blob/main/get-localized-sumo-kb-urls.rb">get-localized-sumo-kb-urls.rb</a></h3>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/env ruby</span>
+<span class="nb">require</span> <span class="s1">'rubygems'</span>
+<span class="nb">require</span> <span class="s1">'amazing_print'</span>
+<span class="nb">require</span> <span class="s1">'net/http'</span>
+<span class="nb">require</span> <span class="s1">'logger'</span>
+<span class="nb">require</span> <span class="s1">'mechanize'</span>
+<span class="n">logger</span> <span class="o">=</span> <span class="no">Logger</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="no">STDERR</span><span class="p">)</span>
+<span class="n">logger</span><span class="p">.</span><span class="nf">level</span> <span class="o">=</span> <span class="no">Logger</span><span class="o">::</span><span class="no">DEBUG</span>
+<span class="n">mechanize</span> <span class="o">=</span> <span class="no">Mechanize</span><span class="p">.</span><span class="nf">new</span>
+<span class="c1"># Prior art from 2017 :-)</span>
+<span class="c1"># https://github.com/rtanglao/rt-li-sumo-redirects/blob/master/OTHER-LANGUAGE/get-other-language-urls.rb</span>
+<span class="nb">puts</span> <span class="s1">'en-us-slug,localized-slug'</span>
+<span class="no">ARGF</span><span class="p">.</span><span class="nf">each_line</span> <span class="k">do</span> <span class="o">|</span><span class="n">kb_slug</span><span class="o">|</span>
+  <span class="n">kb_slug_url</span> <span class="o">=</span> <span class="s2">"https://support.mozilla.org/en-US/kb/</span><span class="si">#{</span><span class="n">kb_slug</span><span class="p">.</span><span class="nf">chomp</span><span class="si">}</span><span class="s2">/show_translations"</span>
+  <span class="n">logger</span><span class="p">.</span><span class="nf">debug</span> <span class="s2">"kb_slug_url </span><span class="si">#{</span><span class="n">kb_slug_url</span><span class="si">}</span><span class="s2">"</span>
+  <span class="n">page</span> <span class="o">=</span> <span class="n">mechanize</span><span class="p">.</span><span class="nf">get</span><span class="p">(</span><span class="n">kb_slug_url</span><span class="p">)</span>
+  <span class="n">page</span><span class="p">.</span><span class="nf">css</span><span class="p">(</span><span class="s1">'.translated_locale'</span><span class="p">).</span><span class="nf">map</span> <span class="p">{</span> <span class="o">|</span><span class="n">link</span><span class="o">|</span> <span class="n">link</span><span class="p">[</span><span class="s1">'href'</span><span class="p">]</span> <span class="p">}.</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">localized_slug</span><span class="o">|</span>
+    <span class="n">fromuri</span> <span class="o">=</span> <span class="s2">"https://support.mozilla.org</span><span class="si">#{</span><span class="n">localized_slug</span><span class="si">}</span><span class="s2">"</span>
+    <span class="n">logger</span><span class="p">.</span><span class="nf">debug</span> <span class="s2">"fromuri:</span><span class="si">#{</span><span class="n">fromuri</span><span class="si">}</span><span class="s2">"</span>
+    <span class="n">from_uri</span> <span class="o">=</span> <span class="no">URI</span><span class="p">(</span><span class="n">fromuri</span><span class="p">)</span>
+    <span class="no">Net</span><span class="o">::</span><span class="no">HTTP</span><span class="p">.</span><span class="nf">start</span><span class="p">(</span><span class="n">from_uri</span><span class="p">.</span><span class="nf">host</span><span class="p">,</span> <span class="n">from_uri</span><span class="p">.</span><span class="nf">port</span><span class="p">,</span> <span class="ss">use_ssl: </span><span class="n">from_uri</span><span class="p">.</span><span class="nf">scheme</span> <span class="o">==</span> <span class="s1">'https'</span><span class="p">)</span> <span class="k">do</span> <span class="o">|</span><span class="n">http</span><span class="o">|</span>
+      <span class="n">request</span> <span class="o">=</span> <span class="no">Net</span><span class="o">::</span><span class="no">HTTP</span><span class="o">::</span><span class="no">Get</span><span class="p">.</span><span class="nf">new</span> <span class="n">from_uri</span><span class="p">.</span><span class="nf">request_uri</span>
+      <span class="n">response</span> <span class="o">=</span> <span class="n">http</span><span class="p">.</span><span class="nf">request</span> <span class="n">request</span> <span class="c1"># Net::HTTPResponse object</span>
+      <span class="n">response_uri</span> <span class="o">=</span> <span class="n">response</span><span class="p">[</span><span class="s1">'location'</span><span class="p">]</span>
+      <span class="n">localized_slug_after_redirect</span> <span class="o">=</span> <span class="n">response_uri</span><span class="p">.</span><span class="nf">nil?</span> <span class="p">?</span> <span class="n">localized_slug</span> <span class="p">:</span> <span class="n">response_uri</span>
+      <span class="nb">puts</span> <span class="s2">"</span><span class="si">#{</span><span class="n">kb_slug</span><span class="p">.</span><span class="nf">chomp</span><span class="si">}</span><span class="s2">,</span><span class="si">#{</span><span class="n">localized_slug_after_redirect</span><span class="si">}</span><span class="s2">"</span>
+      <span class="nb">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="c1"># Keep Kitsune from throttling this script :-)</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<h3 id="remove-non-thunderbird-linesrb"><a href="https://github.com/rtanglao/rt-kits-tb-api/blob/main/remove-non-thunderbird-lines.rb">remove-non-thunderbird-lines.rb</a></h3>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/env ruby</span>
+<span class="nb">require</span> <span class="s1">'rubygems'</span>
+<span class="nb">require</span> <span class="s1">'amazing_print'</span>
+<span class="nb">require</span> <span class="s1">'logger'</span>
+<span class="nb">require</span> <span class="s1">'csv'</span>
+
+<span class="n">logger</span> <span class="o">=</span> <span class="no">Logger</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="no">STDERR</span><span class="p">)</span>
+<span class="n">logger</span><span class="p">.</span><span class="nf">level</span> <span class="o">=</span> <span class="no">Logger</span><span class="o">::</span><span class="no">DEBUG</span>
+
+<span class="k">if</span> <span class="no">ARGV</span><span class="p">.</span><span class="nf">length</span> <span class="o">!=</span> <span class="mi">2</span>
+  <span class="nb">puts</span> <span class="s2">"usage: </span><span class="si">#{</span><span class="vg">$0</span><span class="si">}</span><span class="s2"> &lt;csv-file-with-tb-slugs&gt; &lt;csv-file-with-allproducts-ga&gt;"</span>
+  <span class="nb">exit</span>
+<span class="k">end</span>
+<span class="no">CSV_WITH_SLUGS</span> <span class="o">=</span> <span class="no">ARGV</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="no">CSV_WITH_GA</span> <span class="o">=</span> <span class="no">ARGV</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+
+<span class="n">slugs</span> <span class="o">=</span> <span class="no">CSV</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="no">File</span><span class="p">.</span><span class="nf">read</span><span class="p">(</span><span class="no">CSV_WITH_SLUGS</span><span class="p">),</span> <span class="ss">headers: </span><span class="kp">true</span><span class="p">).</span><span class="nf">by_col</span><span class="p">[</span><span class="mi">1</span><span class="p">].</span><span class="nf">map</span><span class="p">(</span><span class="o">&amp;</span><span class="ss">:downcase</span><span class="p">)</span>
+<span class="n">ap</span> <span class="n">slugs</span>
+<span class="n">tb_ga_csv</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="no">CSV</span><span class="p">.</span><span class="nf">foreach</span><span class="p">(</span><span class="no">CSV_WITH_GA</span><span class="p">,</span> <span class="ss">headers: </span><span class="kp">true</span><span class="p">).</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">ga_line</span><span class="o">|</span>
+  <span class="n">ga_l</span> <span class="o">=</span> <span class="n">ga_line</span><span class="p">.</span><span class="nf">to_hash</span>
+  <span class="n">ap</span> <span class="n">ga_l</span>
+  <span class="k">next</span> <span class="k">if</span> <span class="n">ga_l</span><span class="p">[</span><span class="s1">'Page'</span><span class="p">].</span><span class="nf">nil?</span>
+
+  <span class="n">page</span> <span class="o">=</span> <span class="n">ga_l</span><span class="p">[</span><span class="s1">'Page'</span><span class="p">].</span><span class="nf">downcase</span>
+  <span class="n">tb_ga_csv</span><span class="p">.</span><span class="nf">push</span><span class="p">(</span><span class="n">ga_l</span><span class="p">)</span> <span class="k">if</span> <span class="n">page</span><span class="p">.</span><span class="nf">include?</span><span class="p">(</span><span class="s1">'thunderbird'</span><span class="p">)</span> <span class="o">||</span> <span class="n">slugs</span><span class="p">.</span><span class="nf">include?</span><span class="p">(</span><span class="n">page</span><span class="p">)</span>
+<span class="k">end</span>
+<span class="n">ap</span> <span class="n">tb_ga_csv</span>
+<span class="n">ap</span> <span class="n">tb_ga_csv</span><span class="p">.</span><span class="nf">first</span>
+<span class="n">ap</span> <span class="n">tb_ga_csv</span><span class="p">.</span><span class="nf">first</span><span class="p">.</span><span class="nf">keys</span>
+
+<span class="no">TB_GA_OUTPUT_CSV</span> <span class="o">=</span> <span class="s2">"just-thunderbird-desktop-articles-</span><span class="si">#{</span><span class="no">CSV_WITH_GA</span><span class="si">}</span><span class="s2">"</span><span class="p">.</span><span class="nf">freeze</span>
+<span class="no">CSV</span><span class="p">.</span><span class="nf">open</span><span class="p">(</span><span class="no">TB_GA_OUTPUT_CSV</span><span class="p">,</span> <span class="s1">'w'</span><span class="p">)</span> <span class="k">do</span> <span class="o">|</span><span class="n">csv</span><span class="o">|</span>
+  <span class="n">csv</span> <span class="o">&lt;&lt;</span> <span class="n">tb_ga_csv</span><span class="p">.</span><span class="nf">first</span><span class="p">.</span><span class="nf">keys</span> <span class="c1"># adds the attributes name on the first line</span>
+  <span class="n">tb_ga_csv</span><span class="p">.</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="nb">hash</span><span class="o">|</span>
+    <span class="n">csv</span> <span class="o">&lt;&lt;</span> <span class="nb">hash</span><span class="p">.</span><span class="nf">values</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+
+</code></pre></div></div>
+
+:ET
