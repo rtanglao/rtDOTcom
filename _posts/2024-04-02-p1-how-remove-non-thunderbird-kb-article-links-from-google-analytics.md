@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How To: Remove non Thunderbird Knowledge Base Articles From Google Analytics page view report CSV"
+title: "How To: Remove non Thunderbird Knowledge Base Articles From Google Analytics page view report CSV using 2 Kitsune API calls to get en-US TB URLs and scraping using Mechanize to get the localized URLs"
 ---
 
 1. Get the articles using the Kitsune API

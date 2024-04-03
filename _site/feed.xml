@@ -6,12 +6,12 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 02 Apr 2024 10:12:05 -0700</pubDate>
-    <lastBuildDate>Tue, 02 Apr 2024 10:12:05 -0700</lastBuildDate>
+    <pubDate>Wed, 03 Apr 2024 08:15:12 -0700</pubDate>
+    <lastBuildDate>Wed, 03 Apr 2024 08:15:12 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
-        <title>How To: Remove non Thunderbird Knowledge Base Articles From Google Analytics page view report CSV</title>
+        <title>How To: Remove non Thunderbird Knowledge Base Articles From Google Analytics page view report CSV using 2 Kitsune API calls to get en-US TB URLs and scraping using Mechanize to get the localized URLs</title>
         <description>&lt;ol&gt;
   &lt;li&gt;Get the articles using the Kitsune API
     &lt;ol&gt;
