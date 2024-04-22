@@ -6,14 +6,33 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 21 Apr 2024 17:12:55 -0700</pubDate>
-    <lastBuildDate>Sun, 21 Apr 2024 17:12:55 -0700</lastBuildDate>
+    <pubDate>Sun, 21 Apr 2024 20:47:36 -0700</pubDate>
+    <lastBuildDate>Sun, 21 Apr 2024 20:47:36 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Pipe characters aka 'or symbol' aka '|' must be escaped with a backslash to prevent being interpreted as a table</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;In the previous post, I re-discovered :-) that pipe characters aka the “or symbol “ aka &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;|&lt;/code&gt; must be escaped with a backslash to prevent being interpreted as a Markdown table&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;April 21, 2024: &lt;a href=&quot;http://rolandtanglao.com/2024/04/21/p1-hazel-weakly-humans-wired-to-be-productive-by-sharing-growing-loving/&quot;&gt;The Trap of Soulless Productivity: Hazel Weakly: instead humans are wired to be productive by sharing, loving, growing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 21 Apr 2024 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2024/04/21/p2-or-symbols-aka-pipes-must-be-escaped-to-prevent-being-interpreted-as-markdown-table/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/04/21/p2-or-symbols-aka-pipes-must-be-escaped-to-prevent-being-interpreted-as-markdown-table/</guid>
+        
+        
+      </item>
     
       <item>
         <title>The Trap of Soulless Productivity: Hazel Weakly: instead humans are wired to be productive by sharing, loving, growing</title>
         <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog&quot;&gt;Discovered&lt;/a&gt;: Apr 19, 2024 06:43: &lt;a href=&quot;https://hazelweakly.me/blog/soulless-productivity/&quot;&gt;The Trap of Soulless Productivity: Hazel Weakly: instead humans are wired to be productive by sharing, loving, growing&lt;/a&gt; &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Seriously! Humans are wired to be productive by sharing, by loving, by growing. ... It just breaks my heart that we have so much out there still that’s stuck in this old way of thinking that the only way to have humans create efficiently is to torture them into submission and rip out their very souls and dump them into the Capitalism Monster. It’s beyond aggravating to have to explain that, no, one can’t measure productivity, but they can measure belonging, and safety, and learning, and all of these wonderful ideas. ... Not only is that “fine”, it’s better.&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog&quot;&gt;Discovered&lt;/a&gt;: Apr 19, 2024 06:43: &lt;a href=&quot;https://hazelweakly.me/blog/soulless-productivity/&quot;&gt;The Trap of Soulless Productivity | Hazel Weakly: instead humans are wired to be productive by sharing, loving, growing&lt;/a&gt; &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Seriously! Humans are wired to be productive by sharing, by loving, by growing. ... It just breaks my heart that we have so much out there still that’s stuck in this old way of thinking that the only way to have humans create efficiently is to torture them into submission and rip out their very souls and dump them into the Capitalism Monster. It’s beyond aggravating to have to explain that, no, one can’t measure productivity, but they can measure belonging, and safety, and learning, and all of these wonderful ideas. ... Not only is that “fine”, it’s better.&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
@@ -359,27 +378,6 @@ mlr &lt;span class=&quot;nt&quot;&gt;--headerless-csv-output&lt;/span&gt; &lt;sp
         <pubDate>Wed, 13 Mar 2024 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2024/03/13/p1-prediction-apple-6-million-vision-pro-sold-2029/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2024/03/13/p1-prediction-apple-6-million-vision-pro-sold-2029/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How To: Bicycling Clark Park to 88 Supermarket</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Fleming -&amp;gt; Left onto 20th -&amp;gt; right onto Maxwell -&amp;gt;Left onto 22nd -&amp;gt; right onto Welwyn -&amp;gt; Jog over on the sidewalk to Miller -&amp;gt; Cross Kingsway at Miller -&amp;gt; Left onto 26th (which might be the  alley) -&amp;gt; Right onto Beatrice -&amp;gt; Left onto 32nd Ave and then 88 is on your right. No bicycle rack &amp;lt;– This will have to do until I get &lt;a href=&quot;http://rollingroland.com/&quot;&gt;rollingroland&lt;/a&gt; updating again&lt;/li&gt;
-  &lt;li&gt;Strava route showing &lt;a href=&quot;https://www.strava.com/activities/10885036845&quot;&gt;88-&amp;gt;Clark Park&lt;/a&gt; i.e. the reverse :-)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;May 8, 2020 &lt;a href=&quot;http://rollingroland.com/post/2020-05-08-p1-vancouver-crossings/&quot;&gt;rollingroland.com: Vancouver Crossings&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;May 8, 2020: &lt;a href=&quot;http://localhost:4000/2020/05/08/p1-revised-rolling-roland-hugo/&quot;&gt;Revised workflow for rollingroland.com&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;October 28, 2016: &lt;a href=&quot;http://localhost:4000/2016/10/28/p1-how-i-made-rollingroland/&quot;&gt;How I created RollingRoland.com using hugo, hover.com DNS and surge.sh&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 05 Mar 2024 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2024/03/05/p1-howto-bicycling-clark-park-88-supermarket/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/03/05/p1-howto-bicycling-clark-park-88-supermarket/</guid>
         
         
       </item>
