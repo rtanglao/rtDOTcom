@@ -6,14 +6,18 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 21 Apr 2024 20:47:36 -0700</pubDate>
-    <lastBuildDate>Sun, 21 Apr 2024 20:47:36 -0700</lastBuildDate>
+    <pubDate>Sun, 21 Apr 2024 21:05:00 -0700</pubDate>
+    <lastBuildDate>Sun, 21 Apr 2024 21:05:00 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
-        <title>Pipe characters aka 'or symbol' aka '|' must be escaped with a backslash to prevent being interpreted as a table</title>
+        <title>Pipe characters aka 'or symbol' aka '|' must be escaped with a backslash to prevent being interpreted as a table in Markdown</title>
         <description>&lt;ul&gt;
-  &lt;li&gt;In the previous post, I re-discovered :-) that pipe characters aka the “or symbol “ aka &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;|&lt;/code&gt; must be escaped with a backslash to prevent being interpreted as a Markdown table&lt;/li&gt;
+  &lt;li&gt;In the previous post, I re-discovered :-) that pipe characters aka the “or symbol “ aka &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;|&lt;/code&gt; must be escaped with a backslash to prevent being interpreted as a Markdown table. &lt;a href=&quot;https://github.github.com/gfm/#example-308&quot;&gt;Example 308 of the github flavoured markdown spec&lt;/a&gt; seems to document which characters must be escaped (e.g. in addition to the pipe character, exclamation mark, quotation marks, etc.):
+    &lt;ul&gt;
+      &lt;li&gt;!&quot;#$\%\&amp;amp;'()*+\,-.\/:\;&amp;lt;=&amp;gt;\?\@[\]\^_`{|}~&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
