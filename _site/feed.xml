@@ -6,9 +6,36 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 21 Apr 2024 21:05:00 -0700</pubDate>
-    <lastBuildDate>Sun, 21 Apr 2024 21:05:00 -0700</lastBuildDate>
+    <pubDate>Mon, 29 Apr 2024 07:12:06 -0700</pubDate>
+    <lastBuildDate>Mon, 29 Apr 2024 07:12:06 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>How I used httrack to backup my Wordpress blog barbandroland.com</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.httrack.com/&quot;&gt;httrack&lt;/a&gt; backed up my wordpress blog barbandroland.com in 9 hours! &lt;a href=&quot;https://devdilettante.com/tags/Lucky&quot;&gt;#Lucky&lt;/a&gt; &lt;a href=&quot;https://devdilettante.com/tags/Thanks&quot;&gt;#Thanks&lt;/a&gt;! Magic incantation:
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;httrack barbandroland.com &lt;span class=&quot;nt&quot;&gt;-W&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-O&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;s2&quot;&gt;&quot;/Users/roland/Documents/BARB_AND_ROLAND_DOT_COM_BACKUPS/HTTRACK_BACKUP/barbandrolandbackup&quot;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+-%v &lt;span class=&quot;nt&quot;&gt;-s0&lt;/span&gt; +www.barbandroland.com/&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.jpg
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;p&gt;where:&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-s0&lt;/code&gt; means infinite depth&lt;/li&gt;
+  &lt;li&gt;` %v` means  display on screen filenames downloaded (in realtime) (–display)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;July 19, 2017: &lt;a href=&quot;http://rolandtanglao.com/2017/07/19/p1-curl-to-get-multiple-jpgs-from-the-internet-and-convert-to-pdf/&quot;&gt;use curl -O url[1-455].jpg to get multiple JPGs from a website and then convert to a PDF with preview&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 29 Apr 2024 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2024/04/29/p1-backup-wordpress-blog-httrack/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/04/29/p1-backup-wordpress-blog-httrack/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Pipe characters aka 'or symbol' aka '|' must be escaped with a backslash to prevent being interpreted as a table in Markdown</title>
@@ -364,24 +391,6 @@ mlr &lt;span class=&quot;nt&quot;&gt;--headerless-csv-output&lt;/span&gt; &lt;sp
         <pubDate>Wed, 20 Mar 2024 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2024/03/20/p1-usb-spellcraft-usb-ports-not-working-sonoma-macos-144-update/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2024/03/20/p1-usb-spellcraft-usb-ports-not-working-sonoma-macos-144-update/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Probably Wrong Prediction: (stolen :-) from Asa Dotzler) Apple will sell less than 6 million Vision Pros before March 11, 2029</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Mar 12, 2024 18:03 &lt;a href=&quot;https://www.facebook.com/asadotzler/posts/pfbid02CSE4uf6oY4cDYeCqhu8RgL6pBYSSrNQEvJPhzYQ5GkzGKUc5hwze2SPuX1Q1k5ddl&quot;&gt;Asa Dotzler on FB predicts that by March 11, 2029, Apple will have sold less than six million Vision Pros&lt;/a&gt; &amp;lt;– Probably wrong :-) prediction on my part: Asa is right! &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;If, in 5 years, Apple has 1/10th of them using Vision Pro, I'll eat some hat I have yet to purchase. That is, if 10% of Apples most fervent 60 million, or 6 million users, by all these wild and probably incorrect estimates above, jump on the VR bandwagon, then please call me out and link this post. (That's giving Apple 5 years to catch up to Meta's current active users.)&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;October 10, 2022: &lt;a href=&quot;http://rolandtanglao.com/2022/10/10/p1-autonomous-vehicle-winter-coming/&quot;&gt;Probably Wrong Prediction: Autonomous Vehicle ‘winter’ is coming in less than 5 years for G*link and other AV companies&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 13 Mar 2024 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2024/03/13/p1-prediction-apple-6-million-vision-pro-sold-2029/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/03/13/p1-prediction-apple-6-million-vision-pro-sold-2029/</guid>
         
         
       </item>
