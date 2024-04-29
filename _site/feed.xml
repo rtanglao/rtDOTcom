@@ -6,8 +6,8 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 29 Apr 2024 07:12:06 -0700</pubDate>
-    <lastBuildDate>Mon, 29 Apr 2024 07:12:06 -0700</lastBuildDate>
+    <pubDate>Mon, 29 Apr 2024 07:30:33 -0700</pubDate>
+    <lastBuildDate>Mon, 29 Apr 2024 07:30:33 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -21,7 +21,7 @@
     &lt;p&gt;where:&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-s0&lt;/code&gt; means infinite depth&lt;/li&gt;
-  &lt;li&gt;` %v` means  display on screen filenames downloaded (in realtime) (–display)&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;%v&lt;/code&gt; means  display on screen filenames downloaded (in realtime) (–display)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;

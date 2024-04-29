@@ -11,7 +11,7 @@ httrack barbandroland.com -W -O \
 ```
 where:
 *  `-s0` means infinite depth
-* ` %v` means  display on screen filenames downloaded (in realtime) (--display)
+* `%v` means  display on screen filenames downloaded (in realtime) (--display)
 
 
 ## Previously
