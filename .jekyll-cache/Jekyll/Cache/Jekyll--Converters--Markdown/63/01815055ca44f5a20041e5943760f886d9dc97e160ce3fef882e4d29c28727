@@ -1,0 +1,37 @@
+I"t<ul>
+  <li>
+    <p>UPDATE 2: how output a json file! output is in <a href="https://github.com/rtanglao/devdilettante-backups/blob/main/2024-05-04-devdilettante-com-archive-20240505032936-7d3110aafe1a03f80e3db147600edd38/filtered_id_content.json">filtered_id_content.json</a></p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>2024-05-04-devdilettante-com-archive-20240505032936-7d3110aafe1a03f80e3db147600edd38/
+jq <span class="s1">'.orderedItems | .[]  | {id: .object.id? | select (. !=null), content: .object.content? | select(. != null)}'</span> outbox.json <span class="o">&gt;</span> filtered_id_content.json
+</code></pre></div>    </div>
+  </li>
+  <li>UPDATE1: how to display the <code class="language-plaintext highlighter-rouge">id</code> field so you can see the link to the toot:
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jq <span class="s1">'.orderedItems | .[]  | .object.id + " " + .object.content? | select(. != null)'</span> /Users/roland/Documents/DEV_DILETTANTE_COM_MASTODON_BACKUPS/2024-05-04-devdilettante-com-archive-20240505032936-7d3110aafe1a03f80e3db147600edd38/outbox.json | <span class="nb">grep </span>wget
+</code></pre></div>    </div>
+  </li>
+  <li>which results in:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"https://devdilettante.com/users/roland/statuses/112341435858857502 &lt;p&gt;`wget --execute=&amp;quot;robots = off&amp;quot; --spider --force-html -r -l 0 $url 2&amp;gt;&amp;amp;1  | grep -e &amp;#39;^--&amp;#39;  | grep -e &amp;#39;\\.\\(jpeg\\|mp3\\|png\\|gif\\|jpg\\) 2&amp;gt;stderr_mp3_jpg_png_urls.txt&amp;gt;_level_0_mp3_jpg_png_urls.txt` appears to get a list of URLs from a WordPress (or any?) website (via &lt;a href=\"https://stackoverflow.com/questions/2804467/spider-a-website-and-return-urls-only\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"&gt;&lt;span class=\"invisible\"&gt;https://&lt;/span&gt;&lt;span class=\"ellipsis\"&gt;stackoverflow.com/questions/28&lt;/span&gt;&lt;span class=\"invisible\"&gt;04467/spider-a-website-and-return-urls-only&lt;/span&gt;&lt;/a&gt; )&lt;/p&gt;"
+"https://devdilettante.com/users/roland/statuses/112343480523962150 &lt;p&gt;`cat _level_0_mp3_jpg_png_urls.txt | sed &amp;quot;s/--  / /g&amp;quot; | awk &amp;#39;{ print $3 }&amp;#39; | grep _photos | &amp;gt; photo_urls.txt ; mkdir PHOTOS; cd !$ ; cat ../photo_urls.txt | xargs -n 1 wget `&lt;/p&gt;"
+"https://devdilettante.com/users/roland/statuses/112343502318371811 &lt;p&gt;replace `&amp;#39;` with &amp;#39;`&amp;#39;` to keep bash and wget happy :-) (first `&amp;#39;` occurs at line 410&lt;/p&gt;"
+"https://devdilettante.com/users/roland/statuses/112343520971736534 &lt;p&gt;`tail --lines=+411 ../photo_urls.txt| xargs -n 1 wget`&lt;/p&gt;"
+"https://devdilettante.com/users/roland/statuses/112346164952219195 &lt;p&gt;I will work on potential issue with commas and colons after i see how well httrack works.&lt;br /&gt;Seems to be much better than wget.&lt;br /&gt;Here&amp;#39;s the magic :-) incantation:&lt;br /&gt;`httrack &lt;a href=\"http://www.barbandroland.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" translate=\"no\"&gt;&lt;span class=\"invisible\"&gt;http://www.&lt;/span&gt;&lt;span class=\"\"&gt;barbandroland.com&lt;/span&gt;&lt;span class=\"invisible\"&gt;&lt;/span&gt;&lt;/a&gt; -W -O &amp;quot;/Users/roland/Documents/BARB_AND_ROLAND_DOT_COM_BACKUPS/HTTRACK_BACKUP/barbandrolandbackup&amp;quot; -%v -s0 +www.barbandroland.com/*.jpg`&lt;/p&gt;"
+</code></pre></div>    </div>
+  </li>
+  <li>From <a href="https://devdilettante.com/deck/@roland/112389955186296998">mastodon</a>:  i couldn’t find my <code class="language-plaintext highlighter-rouge">wget</code> thread from April 26th so I searched my Mastodon archive as follows to get it :-) :</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jq <span class="s1">'.orderedItems | .[]  | .object.content? | \
+select(. != null)'</span>  <span class="se">\</span>
+/Users/roland/Documents/DEV_DILETTANTE_COM_MASTODON_BACKUPS/2024-05-04-devdilettante-com-archive-20240505032936-7d3110aafe1a03f80e3db147600edd38/outbox.json <span class="se">\</span>
+| <span class="nb">grep </span>wget
+</code></pre></div></div>
+<ul>
+  <li>so much yakshaving. it was actually faster to figure this out using Visual Code or emacs :-) on <code class="language-plaintext highlighter-rouge">outbox.json</code> and searching for <code class="language-plaintext highlighter-rouge">wget</code> but <code class="language-plaintext highlighter-rouge">jq</code> is a fun challenge for some value of <code class="language-plaintext highlighter-rouge">fun</code> :-) ?!?!?</li>
+  <li>the aforementioned thread from April 2026, 2024  is here:
+<a href="https://devdilettante.com/@roland/112341435858857502">https://devdilettante.com/@roland/112341435858857502</a>
+    <h2 id="previously">Previously</h2>
+  </li>
+  <li>June 20, 2017: <a href="http://rolandtanglao.com/2017/06/20/p1-using-jq-to-minify-json/">How to minify JSON using jq</a></li>
+</ul>
+:ET

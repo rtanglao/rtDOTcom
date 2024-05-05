@@ -2,7 +2,16 @@
 layout: post
 title: "How to find old threads in outbox.json from your Mastodon archive using jq (lo-tech solution is better again i.e. always faster to edit and search using emacs or visual code)"
 ---
-* UPDATE: how to display the `id` field so you can see the link to the toot:
+* UPDATE 2: how output a json file! output is in [filtered_id_content.json](https://github.com/rtanglao/devdilettante-backups/blob/main/2024-05-04-devdilettante-com-archive-20240505032936-7d3110aafe1a03f80e3db147600edd38/filtered_id_content.json)
+
+  ```bash
+  cd 2024-05-04-devdilettante-com-archive-20240505032936-7d3110aafe1a03f80e3db147600edd38/
+  jq '.orderedItems | .[]  | {id: .object.id? | select (. !=null), content: .object.content? | select(. != null)}' outbox.json > filtered_id_content.json
+  ```
+
+  
+
+* UPDATE1: how to display the `id` field so you can see the link to the toot:
 ```bash
 jq '.orderedItems | .[]  | .object.id + " " + .object.content? | select(. != null)' /Users/roland/Documents/DEV_DILETTANTE_COM_MASTODON_BACKUPS/2024-05-04-devdilettante-com-archive-20240505032936-7d3110aafe1a03f80e3db147600edd38/outbox.json | grep wget
 ```

@@ -63,7 +63,14 @@
 
   <article class="post-content">
     <ul>
-  <li>UPDATE: how to display the <code class="language-plaintext highlighter-rouge">id</code> field so you can see the link to the toot:
+  <li>
+    <p>UPDATE 2: how output a json file! output is in <a href="https://github.com/rtanglao/devdilettante-backups/blob/main/2024-05-04-devdilettante-com-archive-20240505032936-7d3110aafe1a03f80e3db147600edd38/filtered_id_content.json">filtered_id_content.json</a></p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>2024-05-04-devdilettante-com-archive-20240505032936-7d3110aafe1a03f80e3db147600edd38/
+jq <span class="s1">'.orderedItems | .[]  | {id: .object.id? | select (. !=null), content: .object.content? | select(. != null)}'</span> outbox.json <span class="o">&gt;</span> filtered_id_content.json
+</code></pre></div>    </div>
+  </li>
+  <li>UPDATE1: how to display the <code class="language-plaintext highlighter-rouge">id</code> field so you can see the link to the toot:
     <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jq <span class="s1">'.orderedItems | .[]  | .object.id + " " + .object.content? | select(. != null)'</span> /Users/roland/Documents/DEV_DILETTANTE_COM_MASTODON_BACKUPS/2024-05-04-devdilettante-com-archive-20240505032936-7d3110aafe1a03f80e3db147600edd38/outbox.json | <span class="nb">grep </span>wget
 </code></pre></div>    </div>
   </li>

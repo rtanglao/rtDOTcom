@@ -6,14 +6,21 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 05 May 2024 12:15:06 -0700</pubDate>
-    <lastBuildDate>Sun, 05 May 2024 12:15:06 -0700</lastBuildDate>
+    <pubDate>Sun, 05 May 2024 15:29:59 -0700</pubDate>
+    <lastBuildDate>Sun, 05 May 2024 15:29:59 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
         <title>How to find old threads in outbox.json from your Mastodon archive using jq (lo-tech solution is better again i.e. always faster to edit and search using emacs or visual code)</title>
         <description>&lt;ul&gt;
-  &lt;li&gt;UPDATE: how to display the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;id&lt;/code&gt; field so you can see the link to the toot:
+  &lt;li&gt;
+    &lt;p&gt;UPDATE 2: how output a json file! output is in &lt;a href=&quot;https://github.com/rtanglao/devdilettante-backups/blob/main/2024-05-04-devdilettante-com-archive-20240505032936-7d3110aafe1a03f80e3db147600edd38/filtered_id_content.json&quot;&gt;filtered_id_content.json&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;2024-05-04-devdilettante-com-archive-20240505032936-7d3110aafe1a03f80e3db147600edd38/
+jq &lt;span class=&quot;s1&quot;&gt;'.orderedItems | .[]  | {id: .object.id? | select (. !=null), content: .object.content? | select(. != null)}'&lt;/span&gt; outbox.json &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; filtered_id_content.json
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;UPDATE1: how to display the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;id&lt;/code&gt; field so you can see the link to the toot:
     &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jq &lt;span class=&quot;s1&quot;&gt;'.orderedItems | .[]  | .object.id + &quot; &quot; + .object.content? | select(. != null)'&lt;/span&gt; /Users/roland/Documents/DEV_DILETTANTE_COM_MASTODON_BACKUPS/2024-05-04-devdilettante-com-archive-20240505032936-7d3110aafe1a03f80e3db147600edd38/outbox.json | &lt;span class=&quot;nb&quot;&gt;grep &lt;/span&gt;wget
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
