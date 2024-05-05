@@ -1,0 +1,18 @@
+I"7<ul>
+  <li>From <a href="https://devdilettante.com/deck/@roland/112389955186296998">mastodon</a>:  i couldn’t find my <code class="language-plaintext highlighter-rouge">wget</code> thread from April 26th so I searched my Mastodon archive as follows to get it :-) :</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jq <span class="s1">'.orderedItems | .[]  | .object.content? | \
+select(. != null)'</span>  <span class="se">\</span>
+/Users/roland/Documents/DEV_DILETTANTE_COM_MASTODON_BACKUPS/2024-05-04-devdilettante-com-archive-20240505032936-7d3110aafe1a03f80e3db147600edd38/outbox.json <span class="se">\</span>
+| <span class="nb">grep </span>wget
+</code></pre></div></div>
+<ul>
+  <li>so much yakshaving. it was actually faster to figure this out using Visual Code or emacs :-) on <code class="language-plaintext highlighter-rouge">outbox.json</code> and searching for <code class="language-plaintext highlighter-rouge">wget</code> but <code class="language-plaintext highlighter-rouge">jq</code> is a fun challenge for some value of <code class="language-plaintext highlighter-rouge">fun</code> :-) ?!?!?</li>
+  <li>the aforementioned thread from April 2026, 2024  is here:
+<a href="https://devdilettante.com/@roland/112341435858857502">https://devdilettante.com/@roland/112341435858857502</a>
+    <h2 id="previously">Previously</h2>
+  </li>
+  <li>April 29, 2024:  <a href="http://rolandtanglao.com/2024/04/29/p1-backup-wordpress-blog-httrack/">How I used httrack to backup my Wordpress blog barbandroland.com</a></li>
+</ul>
+:ET

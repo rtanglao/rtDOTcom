@@ -6,9 +6,48 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 05 May 2024 11:38:16 -0700</pubDate>
-    <lastBuildDate>Sun, 05 May 2024 11:38:16 -0700</lastBuildDate>
+    <pubDate>Sun, 05 May 2024 12:15:06 -0700</pubDate>
+    <lastBuildDate>Sun, 05 May 2024 12:15:06 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>How to find old threads in outbox.json from your Mastodon archive using jq (lo-tech solution is better again i.e. always faster to edit and search using emacs or visual code)</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;UPDATE: how to display the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;id&lt;/code&gt; field so you can see the link to the toot:
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jq &lt;span class=&quot;s1&quot;&gt;'.orderedItems | .[]  | .object.id + &quot; &quot; + .object.content? | select(. != null)'&lt;/span&gt; /Users/roland/Documents/DEV_DILETTANTE_COM_MASTODON_BACKUPS/2024-05-04-devdilettante-com-archive-20240505032936-7d3110aafe1a03f80e3db147600edd38/outbox.json | &lt;span class=&quot;nb&quot;&gt;grep &lt;/span&gt;wget
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;which results in:
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;https://devdilettante.com/users/roland/statuses/112341435858857502 &amp;lt;p&amp;gt;`wget --execute=&amp;amp;quot;robots = off&amp;amp;quot; --spider --force-html -r -l 0 $url 2&amp;amp;gt;&amp;amp;amp;1  | grep -e &amp;amp;#39;^--&amp;amp;#39;  | grep -e &amp;amp;#39;\\.\\(jpeg\\|mp3\\|png\\|gif\\|jpg\\) 2&amp;amp;gt;stderr_mp3_jpg_png_urls.txt&amp;amp;gt;_level_0_mp3_jpg_png_urls.txt` appears to get a list of URLs from a WordPress (or any?) website (via &amp;lt;a href=\&quot;https://stackoverflow.com/questions/2804467/spider-a-website-and-return-urls-only\&quot; target=\&quot;_blank\&quot; rel=\&quot;nofollow noopener noreferrer\&quot; translate=\&quot;no\&quot;&amp;gt;&amp;lt;span class=\&quot;invisible\&quot;&amp;gt;https://&amp;lt;/span&amp;gt;&amp;lt;span class=\&quot;ellipsis\&quot;&amp;gt;stackoverflow.com/questions/28&amp;lt;/span&amp;gt;&amp;lt;span class=\&quot;invisible\&quot;&amp;gt;04467/spider-a-website-and-return-urls-only&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt; )&amp;lt;/p&amp;gt;&quot;
+&quot;https://devdilettante.com/users/roland/statuses/112343480523962150 &amp;lt;p&amp;gt;`cat _level_0_mp3_jpg_png_urls.txt | sed &amp;amp;quot;s/--  / /g&amp;amp;quot; | awk &amp;amp;#39;{ print $3 }&amp;amp;#39; | grep _photos | &amp;amp;gt; photo_urls.txt ; mkdir PHOTOS; cd !$ ; cat ../photo_urls.txt | xargs -n 1 wget `&amp;lt;/p&amp;gt;&quot;
+&quot;https://devdilettante.com/users/roland/statuses/112343502318371811 &amp;lt;p&amp;gt;replace `&amp;amp;#39;` with &amp;amp;#39;`&amp;amp;#39;` to keep bash and wget happy :-) (first `&amp;amp;#39;` occurs at line 410&amp;lt;/p&amp;gt;&quot;
+&quot;https://devdilettante.com/users/roland/statuses/112343520971736534 &amp;lt;p&amp;gt;`tail --lines=+411 ../photo_urls.txt| xargs -n 1 wget`&amp;lt;/p&amp;gt;&quot;
+&quot;https://devdilettante.com/users/roland/statuses/112346164952219195 &amp;lt;p&amp;gt;I will work on potential issue with commas and colons after i see how well httrack works.&amp;lt;br /&amp;gt;Seems to be much better than wget.&amp;lt;br /&amp;gt;Here&amp;amp;#39;s the magic :-) incantation:&amp;lt;br /&amp;gt;`httrack &amp;lt;a href=\&quot;http://www.barbandroland.com\&quot; target=\&quot;_blank\&quot; rel=\&quot;nofollow noopener noreferrer\&quot; translate=\&quot;no\&quot;&amp;gt;&amp;lt;span class=\&quot;invisible\&quot;&amp;gt;http://www.&amp;lt;/span&amp;gt;&amp;lt;span class=\&quot;\&quot;&amp;gt;barbandroland.com&amp;lt;/span&amp;gt;&amp;lt;span class=\&quot;invisible\&quot;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt; -W -O &amp;amp;quot;/Users/roland/Documents/BARB_AND_ROLAND_DOT_COM_BACKUPS/HTTRACK_BACKUP/barbandrolandbackup&amp;amp;quot; -%v -s0 +www.barbandroland.com/*.jpg`&amp;lt;/p&amp;gt;&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;From &lt;a href=&quot;https://devdilettante.com/deck/@roland/112389955186296998&quot;&gt;mastodon&lt;/a&gt;:  i couldn’t find my &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wget&lt;/code&gt; thread from April 26th so I searched my Mastodon archive as follows to get it :-) :&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jq &lt;span class=&quot;s1&quot;&gt;'.orderedItems | .[]  | .object.content? | \
+select(. != null)'&lt;/span&gt;  &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+/Users/roland/Documents/DEV_DILETTANTE_COM_MASTODON_BACKUPS/2024-05-04-devdilettante-com-archive-20240505032936-7d3110aafe1a03f80e3db147600edd38/outbox.json &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+| &lt;span class=&quot;nb&quot;&gt;grep &lt;/span&gt;wget
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;so much yakshaving. it was actually faster to figure this out using Visual Code or emacs :-) on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;outbox.json&lt;/code&gt; and searching for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wget&lt;/code&gt; but &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jq&lt;/code&gt; is a fun challenge for some value of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fun&lt;/code&gt; :-) ?!?!?&lt;/li&gt;
+  &lt;li&gt;the aforementioned thread from April 2026, 2024  is here:
+&lt;a href=&quot;https://devdilettante.com/@roland/112341435858857502&quot;&gt;https://devdilettante.com/@roland/112341435858857502&lt;/a&gt;
+    &lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+  &lt;/li&gt;
+  &lt;li&gt;June 20, 2017: &lt;a href=&quot;http://rolandtanglao.com/2017/06/20/p1-using-jq-to-minify-json/&quot;&gt;How to minify JSON using jq&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 05 May 2024 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2024/05/05/p2-how-to-search-mastodon-backup-outbox-json-jq-emacs-is-faster/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/05/05/p2-how-to-search-mastodon-backup-outbox-json-jq-emacs-is-faster/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How to get links to images and audio files using wget on a Wordpress blog: barbandroland.com aka a tale of trial and error and httrack was better in this case :-)</title>
@@ -397,26 +436,6 @@ mlr &lt;span class=&quot;nt&quot;&gt;--headerless-csv-output&lt;/span&gt; &lt;sp
         <pubDate>Fri, 22 Mar 2024 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2024/03/22/p1-usb-spellcraft-not-working-using-old-anker-usb3-hub/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2024/03/22/p1-usb-spellcraft-not-working-using-old-anker-usb3-hub/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How To: Bicycling Clark Park to Dami Korean Restaurant</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Fleming -&amp;gt; Findlay -&amp;gt; Alley -&amp;gt; 19th -&amp;gt; 20th -&amp;gt; Right onto Slocan -&amp;gt; Left onto 21st -&amp;gt; Right on Renfrew -&amp;gt; Left onto 22nd (scoot on the Sidewalk) -&amp;gt; 21st -&amp;gt; Alley before Rupert-&amp;gt; Dami  &amp;lt;– This will have to do until I get &lt;a href=&quot;http://rollingroland.com/&quot;&gt;rollingroland&lt;/a&gt; updating again&lt;/li&gt;
-  &lt;li&gt;Strava route: Zum Kimchi Jjigae :-) -&amp;gt; &lt;a href=&quot;https://www.strava.com/activities/11003558838&quot;&gt;https://www.strava.com/activities/11003558838&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;March 5, 2024: &lt;a href=&quot;http://rolandtanglao.com/2024/03/05/p1-howto-bicycling-clark-park-88-supermarket/&quot;&gt;How To: Bicycling Clark Park to 88 Supermarket&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;May 8, 2020 &lt;a href=&quot;http://rollingroland.com/post/2020-05-08-p1-vancouver-crossings/&quot;&gt;rollingroland.com: Vancouver Crossings&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 21 Mar 2024 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2024/03/21/p1-howto-bicycling-clark-park-dami-korean-restaurant/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/03/21/p1-howto-bicycling-clark-park-dami-korean-restaurant/</guid>
         
         
       </item>
