@@ -7,10 +7,7 @@ title: "How to find old threads in outbox.json from your Mastodon archive using 
   ```bash
   cd 2024-05-04-devdilettante-com-archive-20240505032936-7d3110aafe1a03f80e3db147600edd38/
   jq '.orderedItems | .[]  | {id: .object.id? | select (. !=null), content: .object.content? | select(. != null)}' outbox.json > filtered_id_content.json
-  ```
-
-  
-
+```
 * UPDATE1: how to display the `id` field so you can see the link to the toot:
 ```bash
 jq '.orderedItems | .[]  | .object.id + " " + .object.content? | select(. != null)' /Users/roland/Documents/DEV_DILETTANTE_COM_MASTODON_BACKUPS/2024-05-04-devdilettante-com-archive-20240505032936-7d3110aafe1a03f80e3db147600edd38/outbox.json | grep wget
@@ -34,6 +31,7 @@ select(. != null)'  \
 * so much yakshaving. it was actually faster to figure this out using Visual Code or emacs :-) on `outbox.json` and searching for `wget` but `jq` is a fun challenge for some value of `fun` :-) ?!?!?
 * the aforementioned thread from April 2026, 2024  is here:
 [https://devdilettante.com/@roland/112341435858857502](https://devdilettante.com/@roland/112341435858857502)
+
 ## Previously
 
 * June 20, 2017: [How to minify JSON using jq](http://rolandtanglao.com/2017/06/20/p1-using-jq-to-minify-json/)        

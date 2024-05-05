@@ -6,8 +6,8 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 05 May 2024 15:29:59 -0700</pubDate>
-    <lastBuildDate>Sun, 05 May 2024 15:29:59 -0700</lastBuildDate>
+    <pubDate>Sun, 05 May 2024 15:34:14 -0700</pubDate>
+    <lastBuildDate>Sun, 05 May 2024 15:34:14 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -43,9 +43,12 @@ select(. != null)'&lt;/span&gt;  &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
 &lt;ul&gt;
   &lt;li&gt;so much yakshaving. it was actually faster to figure this out using Visual Code or emacs :-) on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;outbox.json&lt;/code&gt; and searching for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wget&lt;/code&gt; but &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jq&lt;/code&gt; is a fun challenge for some value of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fun&lt;/code&gt; :-) ?!?!?&lt;/li&gt;
   &lt;li&gt;the aforementioned thread from April 2026, 2024  is here:
-&lt;a href=&quot;https://devdilettante.com/@roland/112341435858857502&quot;&gt;https://devdilettante.com/@roland/112341435858857502&lt;/a&gt;
-    &lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-  &lt;/li&gt;
+&lt;a href=&quot;https://devdilettante.com/@roland/112341435858857502&quot;&gt;https://devdilettante.com/@roland/112341435858857502&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+
+&lt;ul&gt;
   &lt;li&gt;June 20, 2017: &lt;a href=&quot;http://rolandtanglao.com/2017/06/20/p1-using-jq-to-minify-json/&quot;&gt;How to minify JSON using jq&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
