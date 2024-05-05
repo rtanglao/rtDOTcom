@@ -13,7 +13,6 @@ where:
 *  `-s0` means infinite depth
 * `%v` means  display on screen filenames downloaded (in realtime) (--display)
 
-
 ## Previously
 
 * July 19, 2017: [use curl -O url\[1-455\].jpg to get multiple JPGs from a website and then convert to a PDF with preview](http://rolandtanglao.com/2017/07/19/p1-curl-to-get-multiple-jpgs-from-the-internet-and-convert-to-pdf/)         

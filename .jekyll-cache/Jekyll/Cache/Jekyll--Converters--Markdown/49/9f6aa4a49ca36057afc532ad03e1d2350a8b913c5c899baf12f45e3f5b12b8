@@ -1,0 +1,41 @@
+I"m<ul>
+  <li>tl;dr: <code class="language-plaintext highlighter-rouge">httrack</code> appeared to get 200 more images and do a full backup so I abandoned <code class="language-plaintext highlighter-rouge">wget</code> and used it instead see the previous post: <a href="http://rolandtanglao.com/2024/04/29/p1-backup-wordpress-blog-httrack/">How I used httrack to backup my Wordpress blog barbandroland.com</a></li>
+  <li>1. from <a href="https://devdilettante.com/@roland/112341446232283984">mastodon on devdilettante.com</a>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget <span class="nt">--execute</span><span class="o">=</span><span class="s2">"robots = off"</span> <span class="nt">--spider</span> <span class="nt">--force-html</span> <span class="nt">-r</span> <span class="nt">-l</span> 0 <span class="nv">$url</span> 2&gt;&amp;1  | <span class="nb">grep</span> <span class="nt">-e</span> <span class="s1">'^--'</span>  | <span class="nb">grep</span> <span class="nt">-e</span> <span class="s1">'\.\(jpeg\|mp3\|png\|gif\|jpg\) 2&gt;stderr_mp3_jpg_png_urls.txt&gt;_level_0_mp3_jpg_png_urls.txt
+</span></code></pre></div>    </div>
+  </li>
+  <li>
+    <p>The above command line snippet appears to get a list of URLs from a WordPress (or any?) website (via https://stackoverflow.com/questions/2804467/spider-a-website-and-return-urls-only )</p>
+  </li>
+  <li>2. the two spaces throws off awk so remove one of the spaces and proceed :-)
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cat </span>_level_0_mp3_jpg_png_urls.txt | <span class="nb">sed</span> <span class="s2">"s/--  / /g"</span> | <span class="nb">awk</span> <span class="s1">'{ print $3 }'</span> <span class="se">\</span>
+| <span class="nb">grep </span>_photos <span class="sb">`</span>
+</code></pre></div>    </div>
+  </li>
+  <li>3. Get the photos
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="sb">`</span><span class="nb">cat </span>_level_0_mp3_jpg_png_urls.txt | <span class="se">\</span>
+<span class="nb">sed</span> <span class="s2">"s/--  / /g"</span> | <span class="nb">awk</span> <span class="s1">'{ print $3 }'</span> | <span class="se">\</span>
+<span class="nb">grep </span>_photos | <span class="o">&gt;</span> photo_urls.txt <span class="p">;</span> <span class="se">\</span>
+<span class="nb">mkdir </span>PHOTOS<span class="p">;</span> <span class="nb">cd</span> <span class="o">!</span><span class="nv">$ </span><span class="p">;</span> <span class="nb">cat</span> ../photo_urls.txt | <span class="se">\</span>
+xargs <span class="nt">-n</span> 1 wget <span class="sb">`</span>
+</code></pre></div>    </div>
+  </li>
+  <li>4. replace <code class="language-plaintext highlighter-rouge">'</code> with ‘<code class="language-plaintext highlighter-rouge">'</code> to keep bash and wget happy :-) (first <code class="language-plaintext highlighter-rouge">'</code> occurs at line 410
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">tail</span> <span class="nt">--lines</span><span class="o">=</span>+411 ../photo_urls.txt| xargs <span class="nt">-n</span> 1 wget
+</code></pre></div>    </div>
+  </li>
+  <li>5. of course that leads to the next layer of the onion :-)
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>--2024-04-27 08:31:40--  http://www.barbandroland.com/_photos/Thu,%20Jul%2029,%202004%2006:30:16%20PM.jpg
+Resolving www.barbandroland.com (www.barbandroland.com)... 64.91.252.138
+Connecting to www.barbandroland.com (www.barbandroland.com)|64.91.252.138|:80... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2024-04-27 08:31:41 ERROR 404: Not Found. &lt;-- what is wrong wtih the URL? do commas need to be URL encoded?
+</code></pre></div>    </div>
+  </li>
+  <li>6. Ultimately this led to a dead-end. <code class="language-plaintext highlighter-rouge">httrack</code> appeared to get 200 more images and do a full backup so I abandoned <code class="language-plaintext highlighter-rouge">wget</code>
+```
+    <h2 id="previously">Previously</h2>
+  </li>
+  <li>April 29, 2024:  <a href="http://rolandtanglao.com/2024/04/29/p1-backup-wordpress-blog-httrack/">How I used httrack to backup my Wordpress blog barbandroland.com</a></li>
+</ul>
+:ET

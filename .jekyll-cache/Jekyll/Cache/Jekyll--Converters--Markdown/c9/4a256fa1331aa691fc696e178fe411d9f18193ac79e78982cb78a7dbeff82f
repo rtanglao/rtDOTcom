@@ -1,0 +1,19 @@
+I"»<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget <span class="nt">--execute</span><span class="o">=</span><span class="s2">"robots = off"</span> <span class="nt">--spider</span> <span class="nt">--force-html</span> <span class="nt">-r</span> <span class="nt">-l</span> 0 <span class="nv">$url</span> 2&gt;&amp;1  | <span class="nb">grep</span> <span class="nt">-e</span> <span class="s1">'^--'</span>  | <span class="nb">grep</span> <span class="nt">-e</span> <span class="s1">'\.\(jpeg\|mp3\|png\|gif\|jpg\) 2&gt;stderr_mp3_jpg_png_urls.txt&gt;_level_0_mp3_jpg_png_urls.txt
+</span></code></pre></div></div>
+<ul>
+  <li>The above command line snippet appears to get a list of URLs from a WordPress (or any?) website (via https://stackoverflow.com/questions/2804467/spider-a-website-and-return-urls-only )</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+* the 2 spaces throws off awk so remove one of the spaces and proceed :-)
+```bash
+cat _level_0_mp3_jpg_png_urls.txt | sed "s/--  / /g" | awk '{ print $3 }' \
+| grep _photos `
+</code></pre></div></div>
+
+<h2 id="previously">Previously</h2>
+
+<ul>
+  <li>July 19, 2017: <a href="http://rolandtanglao.com/2017/07/19/p1-curl-to-get-multiple-jpgs-from-the-internet-and-convert-to-pdf/">use curl -O url[1-455].jpg to get multiple JPGs from a website and then convert to a PDF with preview</a></li>
+</ul>
+:ET
