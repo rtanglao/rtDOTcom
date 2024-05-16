@@ -6,9 +6,36 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 15 May 2024 19:39:43 -0700</pubDate>
-    <lastBuildDate>Wed, 15 May 2024 19:39:43 -0700</lastBuildDate>
+    <pubDate>Wed, 15 May 2024 20:40:10 -0700</pubDate>
+    <lastBuildDate>Wed, 15 May 2024 20:40:10 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>feh --randomize is great for viewing random images; not great for making collages, use imagemagick instead</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;feh&lt;/code&gt; can’t handle large numbers of thumbnails (and for some reason I never understood it said there were 5x thumbnails than there actually was) but it’s great for small random collages.&lt;/li&gt;
+  &lt;li&gt;e.g. here’s two
+    &lt;ul&gt;
+      &lt;li&gt;make a random collage with feh (imagemagick is probably faster!) &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;feh  --randomize -r . --montage --verbose -X -x -H 4000 -W 4000 -O  2024-05-08-random-montage.png -E 10 -y 10&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;10200 pixel by 10200 pixel command line which took 6 hours
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;feh -r . --montage  --verbose -X -x -H 10200 -W 10200 -O  reverse-filelist-borderless-10200x10200-2024-05-09-sort-mtime-montage.png -E 20 -y 20 -S mtime --conversion-timeout 1 --borderless --reverse -f  hopefully-just-png-jpg-files.txt&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Here’s my complete mastodon&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;feh&lt;/code&gt; thread: &lt;a href=&quot;https://devdilettante.com/deck/@roland/112445889280926642&quot;&gt;https://devdilettante.com/deck/@roland/112445889280926642&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;October 29, 2022: &lt;a href=&quot;http://rolandtanglao.com/2022/10/29/p1-howto-imagemagick-montage-of-resized-1x1-average-colour/&quot;&gt;imagemagick  How To make a montage of images from average colour: 1st get average  colour by downsizing to 1x1 ; 2nd upscale with a fixed size; this  results in images in this case with 20x20 which at 80x24 leads to  1600x480&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 15 May 2024 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2024/05/15/p2-feh-great-for-randomly-displaying-images-not-for-collages-use-imagemagick-instead/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/05/15/p2-feh-great-for-randomly-displaying-images-not-for-collages-use-imagemagick-instead/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Tested positive for COVID 19 on May 3, tested negative on May 10, 2024, fever for one day, headache and sore throat 4 days, gone after 5</title>
@@ -438,29 +465,6 @@ mlr &lt;span class=&quot;nt&quot;&gt;--headerless-csv-output&lt;/span&gt; &lt;sp
         <pubDate>Mon, 25 Mar 2024 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2024/03/25/p1-macos-14-4-1-fixes-usb-a-isssues-dell-wd22tb4-hub/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2024/03/25/p1-macos-14-4-1-fixes-usb-a-isssues-dell-wd22tb4-hub/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to use cURL to send HTML email with Gmail | Change(b)log</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt; Mar 19, 2024 07:02 &lt;a href=&quot;https://zgadzaj.com/development/how-to/use-curl-to-send-html-email-with-gmail&quot;&gt;How to use cURL to send HTML email with Gmail | Change(b)log&lt;/a&gt; &amp;lt;– suitable for a github action –&amp;gt; &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;curl --ssl-reqd \
---url 'smtps://smtp.gmail.com:465' \
---user 'username@gmail.com:password' \
---mail-from 'username@gmail.com' \
---mail-rcpt 'john@example.com' \
---upload-file mail.txt&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;January 9, 2021: &lt;a href=&quot;http://rolandtanglao.com/2019/01/09/p1-gmailr-jenny-bryan-tutorial-flickr-ignores-body/&quot;&gt;Thanks to Jenny Bryan’s gmailr tutorial, got emailing of my 3 week Firefox anti-virus mention graph working but flickr ignores the body&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 23 Mar 2024 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2024/03/23/p1-how-to-use-curl-to-send-gmail/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/03/23/p1-how-to-use-curl-to-send-gmail/</guid>
         
         
       </item>
