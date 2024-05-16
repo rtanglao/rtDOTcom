@@ -6,13 +6,47 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 05 May 2024 15:34:14 -0700</pubDate>
-    <lastBuildDate>Sun, 05 May 2024 15:34:14 -0700</lastBuildDate>
+    <pubDate>Wed, 15 May 2024 19:39:43 -0700</pubDate>
+    <lastBuildDate>Wed, 15 May 2024 19:39:43 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Tested positive for COVID 19 on May 3, tested negative on May 10, 2024, fever for one day, headache and sore throat 4 days, gone after 5</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Tested positive for COVID 19 on May 3, 2024&lt;/li&gt;
+  &lt;li&gt;Tested negative for Covid 19 on May 10, 2024 and May 12, 2024&lt;/li&gt;
+  &lt;li&gt;Fever on day 1 was gone on Day 2&lt;/li&gt;
+  &lt;li&gt;This time I had headache and sore throat for 4 days and then it was gone&lt;/li&gt;
+  &lt;li&gt;Pretty sure my 5 vaccinations  prevented it from being worse. Go science go!&lt;/li&gt;
+  &lt;li&gt;Not sure where I got it but my guess is my dentist (who unlike my other 2 dentists didn’t have the expensive air purifiers). If  that’s the case I guess we’ll never know because no contact tracing since 2021 sad face. I certainly don’t blame the dentist!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;May 29, 2022: &lt;a href=&quot;http://rolandtanglao.com/2022/05/29/p1-covid-19-tested-positive-16-may-2022/&quot;&gt;Tested  positive for COVID 19 on May 16, tested negative on May 27, 2022, no  fever, just headache and sore throat day 1, headache was gone day 2,  sore throat took a week to go, felt tired&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 15 May 2024 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2024/05/15/p1-covid-positive-may3-2024-negative-may10-2024/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/05/15/p1-covid-positive-may3-2024-negative-may10-2024/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How to find old threads in outbox.json from your Mastodon archive using jq (lo-tech solution is better again i.e. always faster to edit and search using emacs or visual code)</title>
         <description>&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;UPDATE 3: even better output a properly formed json file i.e. an array :-) by adding &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[]&lt;/code&gt; around the query. The resulting json can then be fed to datasette lite to allow searching and manipulation:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://lite.datasette.io/?json=https%3A%2F%2Fraw.githubusercontent.com%2Frtanglao%2Fdevdilettante-backups%2Fmain%2F2024-05-04-devdilettante-com-archive-20240505032936-7d3110aafe1a03f80e3db147600edd38%2Farray_filtered_id_content.json#/data/array_filtered_id_content&quot;&gt;super long url that loads array_filtered_id_content.json into lite.datasette.io&lt;/a&gt;
+        &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jq &lt;span class=&quot;s1&quot;&gt;'[.orderedItems | .[]  | {id: .object.id? | select (. !=null), content: .object.content? | select(. != null)}]'&lt;/span&gt; outbox.json  &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; array_filtered_id_content.json
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;UPDATE 2: how output a json file! output is in &lt;a href=&quot;https://github.com/rtanglao/devdilettante-backups/blob/main/2024-05-04-devdilettante-com-archive-20240505032936-7d3110aafe1a03f80e3db147600edd38/filtered_id_content.json&quot;&gt;filtered_id_content.json&lt;/a&gt;&lt;/p&gt;
 
@@ -427,25 +461,6 @@ mlr &lt;span class=&quot;nt&quot;&gt;--headerless-csv-output&lt;/span&gt; &lt;sp
         <pubDate>Sat, 23 Mar 2024 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2024/03/23/p1-how-to-use-curl-to-send-gmail/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2024/03/23/p1-how-to-use-curl-to-send-gmail/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>USB Spellcraft: magic spell from March 20 no longer works; plugged in USB-A devices into old Anker USB 3 hub and plugged Anker hub into USB-C port of the Dell Thunderbolt 4 WD22TB4 hub</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;The USB Magic Spell from &lt;a href=&quot;http://rolandtanglao.com/2024/03/20/p1-usb-spellcraft-usb-ports-not-working-sonoma-macos-144-update/&quot;&gt;March 20th, 2024&lt;/a&gt; i.e. 2 days ago no longer works sad face.&lt;/li&gt;
-  &lt;li&gt;Workaround: plugged in USB-A devices into old Anker USB 3 hub and plugged Anker hub into USB-C port (using a USB-A to C converter) of the Dell WD22TB4 Thunderbolt 4 hub. macOS Sonoma 14.4 seems to have broken the USB-A ports on the Dell Thunderbird Hub but luckily the USB-C ports still work in 14.4!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;March 20, 2024: &lt;a href=&quot;http://rolandtanglao.com/2024/03/20/p1-usb-spellcraft-usb-ports-not-working-sonoma-macos-144-update/&quot;&gt;USB Spellcraft (formerly v**doo): Thunderbolt dock USB ports stop working after macOS Sonoma 14.4 update: WORKAROUND: unplug USB-C cable, power down dock and Monitor with USB-A hub, power up re-attach USB-C cable&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 22 Mar 2024 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2024/03/22/p1-usb-spellcraft-not-working-using-old-anker-usb3-hub/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/03/22/p1-usb-spellcraft-not-working-using-old-anker-usb3-hub/</guid>
         
         
       </item>

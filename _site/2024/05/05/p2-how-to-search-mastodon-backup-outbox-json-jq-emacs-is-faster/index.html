@@ -64,6 +64,16 @@
   <article class="post-content">
     <ul>
   <li>
+    <p>UPDATE 3: even better output a properly formed json file i.e. an array :-) by adding <code class="language-plaintext highlighter-rouge">[]</code> around the query. The resulting json can then be fed to datasette lite to allow searching and manipulation:</p>
+
+    <ul>
+      <li><a href="https://lite.datasette.io/?json=https%3A%2F%2Fraw.githubusercontent.com%2Frtanglao%2Fdevdilettante-backups%2Fmain%2F2024-05-04-devdilettante-com-archive-20240505032936-7d3110aafe1a03f80e3db147600edd38%2Farray_filtered_id_content.json#/data/array_filtered_id_content">super long url that loads array_filtered_id_content.json into lite.datasette.io</a>
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jq <span class="s1">'[.orderedItems | .[]  | {id: .object.id? | select (. !=null), content: .object.content? | select(. != null)}]'</span> outbox.json  <span class="o">&gt;</span> array_filtered_id_content.json
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+  <li>
     <p>UPDATE 2: how output a json file! output is in <a href="https://github.com/rtanglao/devdilettante-backups/blob/main/2024-05-04-devdilettante-com-archive-20240505032936-7d3110aafe1a03f80e3db147600edd38/filtered_id_content.json">filtered_id_content.json</a></p>
 
     <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>2024-05-04-devdilettante-com-archive-20240505032936-7d3110aafe1a03f80e3db147600edd38/
