@@ -1,0 +1,49 @@
+I"�<ul>
+  <li>Lessons learned from <a href="https://devdilettante.com/@roland/112456929894572722">my super long flickr average colour thread on Mastodon</a>:  Lessons learned: Flickr API limit of 1 API request / second means that if I am running 12 threads in parallel then I need delay minimum of 1 second between API requests (assuming my code needs 1 second to do its thing) and get the bare minimum metadata.</li>
+</ul>
+
+<h3 id="thread">Thread</h3>
+
+<ol>
+  <li>
+    <p>1 of whenever I get bored or give up (OWIGBOGU)  :-) <a href="https://devdilettante.com/tags/rt">#rt</a>-flickr-worldwide-average-colour My next project I guess is hourly average colour of all of flickr hmmmm :-)</p>
+  </li>
+  <li>
+    <p>2/OWIGBOGU :-) <a href="https://devdilettante.com/tags/rt">#rt</a>-flickr-worldwide-average-colour i wonder how many photos are uploaded hourly? 100,000? more? less?</p>
+  </li>
+  <li>
+    <p>3/OWIGBOGU :-) <a href="https://devdilettante.com/tags/rt">#rt</a>-flickr-worldwide-average-colour I am sure that 50% of  photos are uploaded many hours after they are  taken. Possibly more. Also the flickr API might not give me all the  photos. So I guess I’ll think of it as an hourly snapshot of world wide  flickr average colour :-)</p>
+  </li>
+  <li>
+    <p>4/OWIGBOGU <a href="https://devdilettante.com/tags/rt">#rt</a>-flickr-worldwide-average-colour And it will be line noise in appearance :-) with no real patterns of colour I think which has become mundane for me :-) Mundane world wide average colour hourly for the win :-)</p>
+  </li>
+  <li>
+    <p>5/OWIGBOGU <a href="https://devdilettante.com/tags/rt">#rt</a>-flickr-worldwide-average-colour maybe store the average colours of photos as ints? 
+<code class="language-plaintext highlighter-rouge">magick -list Storage</code>
+output:
+`<code class="language-plaintext highlighter-rouge">
+Char
+Double
+Float
+Long
+LongLong
+Quantum
+Short
+\</code>`</p>
+
+    <p><a href="https://devdilettante.com/@roland/112463779375960051">May 18 *</a></p>
+
+    <p><img src="https://prod-244acc89-mastodon-f6597c90-bucket.s3.fr-par.scw.cloud/accounts/avatars/109/338/940/025/934/008/original/3ef77e319ba25089.jpeg" alt="roland" /></p>
+
+    <p><strong>roland</strong> @roland</p>
+
+    <p>6/OWIGBOGU <a href="https://devdilettante.com/tags/rt">#rt</a>-flickr-worldwide-average-colour gave up on <code class="language-plaintext highlighter-rouge">imagemagick</code> stream because i couldn’t get it to work. Same with <code class="language-plaintext highlighter-rouge">vips</code>: too complicated. Going with :<code class="language-plaintext highlighter-rouge">magickimp = sprintf("magick convert \"%s\" -resize 1x1 txt:- | ggrep -Po \"#[[:xdigit:]]{6}\"", filename.gsub(/\$/, '\$'))</code> from https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/get-filename-imagemagick-average-colour-from-75x75thumbnail.rb See also: <a href="http://rolandtanglao.com/2021/04/05/p1-rename-file-from-rgb-to-raw-opened-photoshop-converted-to-png/">http://rolandtanglao.com/2021/04/05/p</a></p>
+  </li>
+</ol>
+
+<h2 id="previously">Previously</h2>
+
+<ul>
+  <li>October 29, 2022: <a href="http://rolandtanglao.com/2022/10/29/p1-howto-imagemagick-montage-of-resized-1x1-average-colour/">imagemagick  How To make a montage of images from average colour: 1st get average  colour by downsizing to 1x1 ; 2nd upscale with a fixed size; this  results in images in this case with 20x20 which at 80x24 leads to  1600x480</a></li>
+</ul>
+:ET
