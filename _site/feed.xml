@@ -6,9 +6,36 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 17 Jun 2024 09:42:51 -0700</pubDate>
-    <lastBuildDate>Mon, 17 Jun 2024 09:42:51 -0700</lastBuildDate>
+    <pubDate>Mon, 14 Oct 2024 10:33:06 -0700</pubDate>
+    <lastBuildDate>Mon, 14 Oct 2024 10:33:06 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Bodensee Bicycle Ride with Radweg Reisen tours: Fabulous except for bad wayfinding</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;I’ve never been great at navigation (I cried when I could not find the controls as a kid orienteering at Ball’s Falls in Ontario) so I had a lot of anxiety because Radweg Reisen didn’t provide GPX files (they had Komoot trails on their website that didn’t match up with our bicycle tour), just a paper map! I would have  paid an extra 100 Euro for GPX files that one could load into Komoot, Strava or any of the popular bicycle wayfinding apps. I would still have got lost with the GPX files but much less so and it would have given us a route to go back to when inevitably we took the wrong turn. Google Maps is terrible because it steers you to the “Rennrad” i.e. the road bicycling route when you get away from the separated bicycle paths.
+    &lt;ul&gt;
+      &lt;li&gt;Our neighbours Alex and Sharon had a good way to do this: have the route set by somebody who knows the trails and then have somebody who doesn’t know the trail to actually ride it and provide feedback.&lt;/li&gt;
+      &lt;li&gt;Oh and don’t forget to mention the de-skilling of folks like me :-) In the good ole days, everybody knew how to use a paper map right? And coped with paper maps right?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Other than that and it raining half the time (which didn’t bother me in the slightest since I bicycle in hard rain 6 months of the year in Vancouver) the trip was fabulous.&lt;/li&gt;
+  &lt;li&gt;So privileged to have the physical, mental and financial wherewithal to ride 220 km with my brother and sister around the Bodensee through Austria, Germany and Switzerland (Lake Constance in English).&lt;/li&gt;
+  &lt;li&gt;Big thanks to my brother for his fantastic navigation with the terrible Google Maps!!!!!!!!!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;April 6, 2020: &lt;a href=&quot;http://rolandtanglao.com/2020/04/26/p1-adrian-daub-no-alternativelessness-hiding-germany-hidden-crisis/&quot;&gt;Adrian Daub: There Is No Alternativelessness - What’s been hiding Germany’s hidden crisis?  &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 14 Oct 2024 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2024/10/14/p1-bodensee-bicycle-ride-fabulous-despite-bad-wayfinding/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/10/14/p1-bodensee-bicycle-ride-fabulous-despite-bad-wayfinding/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Lessons learned: Flickr API limit of 1 API request / second means running 12 threads in parallel then I need to delay at least 1 second between API requests (assuming my code needs 1 second to do its thing) and get the bare minimum metadata &amp; flickr ids are larger than ruby max int which breaks ruby sorting</title>
@@ -550,66 +577,6 @@ mlr &lt;span class=&quot;nt&quot;&gt;--headerless-csv-output&lt;/span&gt; &lt;sp
         <pubDate>Tue, 02 Apr 2024 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2024/04/02/p1-how-remove-non-thunderbird-kb-article-links-from-google-analytics/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2024/04/02/p1-how-remove-non-thunderbird-kb-article-links-from-google-analytics/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How To: Get all links with a CSS class and open them to find out redirects for translations of Thunderbird Knowledge Base articles using Ruby and Nokogiri</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Mar 25, 2024. 17:40 CSS path using Firefox’s inspector:  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ul.locales:nth-child(2) &amp;gt; li:nth-child(4) &amp;gt; a:nth-child(1)&lt;/code&gt; is list of localizations for a SUMO KB article https://support.mozilla.org/en-US/kb/troubleshoot-mode-thunderbird/show_translations i.e. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;en-US./kb/&amp;lt;slug&amp;gt;/show_translations&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;NOT TESTED&lt;/strong&gt; (I’ll write a follow up blog post once I have working code) –&amp;gt;The following is inspired by my code from 7 years ago (!) that tested SUMO KB redirects as part of our unsuccessful migration from Kitsune to Lithium.
-    &lt;ul&gt;
-      &lt;li&gt;See April 5, 20217: &lt;a href=&quot;http://rolandtanglao.com/2017/04/05/how-to-check-6000-redirects-version2-aka-procedural-programming-sucks/&quot;&gt;How to Check 6000 URLS version 2.0&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;the-better-way-discovered-after-the-kludgy-way&quot;&gt;The better way (discovered after the kludgy way)&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;ol&gt;
-      &lt;li&gt;one liner using the unique CSS class name for locale links which in this case is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;translated_locale&lt;/code&gt;:&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;page&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mechanize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ARGV&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;results&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;css&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.translated_locale'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;link&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'href'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;ol&gt;
-      &lt;li&gt;And then from: https://github.com/rtanglao/rt-li-sumo-redirects/blob/master/test-firefox-focus-android-redirects.rb open the link to see if there is a redirect.
-        &lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;no&quot;&gt;Net&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;HTTP&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;from_uri&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;host&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;from_uri&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;port&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-              &lt;span class=&quot;ss&quot;&gt;:use_ssl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;from_uri&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;scheme&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'https'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Net&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;HTTP&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;from_uri&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;request_uri&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;basic_auth&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;userid&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;password&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;response&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;request&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# Net::HTTPResponse object&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;response_uri&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'location'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-      &lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;kludgy-initial-way&quot;&gt;Kludgy initial way&lt;/h2&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;page&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mechanize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'https://support.mozilla.org/en-US/kb/troubleshoot-mode-thunderbird/show_translations'&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;css&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.translated_locale'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;irb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;201&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;   &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;css&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'@href'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;first&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;value&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;irb&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;202&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;April 7, 2017:&lt;a href=&quot;http://rolandtanglao.com/2017/04/07/Best-tool-to-test-HTTP-redirects/&quot;&gt;What is the best open source tool to test HTTP redirects on 6000 URLs?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 26 Mar 2024 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2024/03/26/p1-how-to-get-all-link-css-class-open-mechanize-ruby-nokogiri/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/03/26/p1-how-to-get-all-link-css-class-open-mechanize-ruby-nokogiri/</guid>
         
         
       </item>
