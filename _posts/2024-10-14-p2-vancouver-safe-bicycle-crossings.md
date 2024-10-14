@@ -1,0 +1,39 @@
+---
+layout: post
+title: "Safe Vancouver Bicycle crossings"
+---
+* Since I am too silly :-) evidently to update my hugo blog post: [Vancouver Crossings](http://rollingroland.com/post/2020-05-08-p1-vancouver-crossings/)
+## East / West
+
+* Cross Nanaimo at 24th / Vanness
+* Cross Nanaimo at 20th
+* Cross Broadway at Slocan
+* Cross 12th at Slocan
+* No beg buttons on Kaslo at 1st, Broadway and 12th
+* Cross Knight at 47th
+* Cross Knight at 37th
+* Cross Knight at 19th
+* Cross Main at 18th
+* Cross Main at 14th
+* Cross Fraser at 19th
+* Cross Cambie at 14th
+* Cross Cambie at  18th
+* Cross Cambie at 20th
+* Cross Victoria at 22nd
+
+## North / South	
+
+* Cross 12th at Heather
+* Cross Kingsway at Glen
+* Cross Kingsway at Miller
+* Cross Kingsway at Windsor
+* Cross 49th at Cypress
+* Cross 49th at Tisdall (not Heather or Willow)
+* Cross 41st at Angus
+* Cross 1st at Lilooet
+* Cross 29th at Atlin
+* No safe crossing at Skeena and 1st Avenue (just walk)
+
+## Previously
+
+* April 6, 2020: [Adrian Daub: There Is No Alternativelessness - What's been hiding Germany's hidden crisis?  ](http://rolandtanglao.com/2020/04/26/p1-adrian-daub-no-alternativelessness-hiding-germany-hidden-crisis/)        
