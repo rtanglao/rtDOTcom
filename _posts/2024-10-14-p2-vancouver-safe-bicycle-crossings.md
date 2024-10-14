@@ -3,9 +3,13 @@ layout: post
 title: "Safe Vancouver Bicycle crossings"
 ---
 * Since I am too silly :-) evidently to update my hugo blog post: [Vancouver Crossings](http://rollingroland.com/post/2020-05-08-p1-vancouver-crossings/)
+
 ## East / West
 
-* Cross Nanaimo at 24th / Vanness
+* Cross Kingsway at Miller (e.g. if you are going to Shiok or 88)
+* Cross Nanaimo at 24th / Vanness (e.g. if you are going to Pampanga's at Joyce)
+* Cross Victoria at 19th (new in 2023 beg button/flashing lights)
+* Cross Commercial Drive (just before it turns into Victoria Diversion) at 18th
 * Cross Nanaimo at 20th
 * Cross Broadway at Slocan
 * Cross 12th at Slocan
@@ -36,4 +40,4 @@ title: "Safe Vancouver Bicycle crossings"
 
 ## Previously
 
-* April 6, 2020: [Adrian Daub: There Is No Alternativelessness - What's been hiding Germany's hidden crisis?  ](http://rolandtanglao.com/2020/04/26/p1-adrian-daub-no-alternativelessness-hiding-germany-hidden-crisis/)        
+*  March 21, 2024:  [How To: Bicycling Clark Park to Dami Korean Restaurant](http://rolandtanglao.com/2024/03/21/p1-howto-bicycling-clark-park-dami-korean-restaurant/)        
