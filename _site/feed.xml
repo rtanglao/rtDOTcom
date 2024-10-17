@@ -6,12 +6,12 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 17 Oct 2024 11:11:27 -0700</pubDate>
-    <lastBuildDate>Thu, 17 Oct 2024 11:11:27 -0700</lastBuildDate>
+    <pubDate>Thu, 17 Oct 2024 11:15:12 -0700</pubDate>
+    <lastBuildDate>Thu, 17 Oct 2024 11:15:12 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
-        <title>Extract Month and Year from timestamp in BigQuery using EXTRACT, YEAR, MONTH, CONCAT, CAST, LPAD</title>
+        <title>Extract Month and Year from timestamp in BigQuery using SQL EXTRACT, YEAR, MONTH, CONCAT, CAST, LPAD</title>
         <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Aug 8, 2024 00:29  &lt;a href=&quot;https://stackoverflow.com/questions/48206963/extract-month-and-year-from-timestamp-in-bigquery&quot;&gt;Extract Month and Year from timestamp in Bigquery - Stack Overflow&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Answering the title of the question as probably others will end up here like me looking for a way to create a YYYYMM year-month from a BigQuery timestamp. ... This is the code I ended up with in standard SQL:&lt;/code&gt;&lt;/p&gt;
 
 &lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;CONCAT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;

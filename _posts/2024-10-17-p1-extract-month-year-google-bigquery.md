@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Extract Month and Year from timestamp in BigQuery using EXTRACT, YEAR, MONTH, CONCAT, CAST, LPAD"
+title: "Extract Month and Year from timestamp in BigQuery using SQL EXTRACT, YEAR, MONTH, CONCAT, CAST, LPAD"
 ---
 [Discovered](http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/): Aug 8, 2024 00:29  [Extract Month and Year from timestamp in Bigquery - Stack Overflow](https://stackoverflow.com/questions/48206963/extract-month-and-year-from-timestamp-in-bigquery) <-- **QUOTE**: `Answering the title of the question as probably others will end up here like me looking for a way to create a YYYYMM year-month from a BigQuery timestamp. ... This is the code I ended up with in standard SQL:`
 
