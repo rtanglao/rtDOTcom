@@ -1,0 +1,78 @@
+I" <p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Sep 12, 2024 06:36</p>
+
+<ol>
+  <li>Create column with unix epoch time from <a href="https://github.com/thunderbird/github-action-thunderbird-aaq/blob/main/ALLTIME/2024-yearly-thunderbird-questions.csv">ALLTIME/2024-yearly-thunderbird-questions.csv:</a></li>
+</ol>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> ../ALLTIME
+mlr <span class="nt">--csv</span> put <span class="s1">'$created_epoch = strptime($created, "%Y-%m-%d %H:%M:%S %z")'</span> <span class="se">\</span>
+2024-yearly-thunderbird-questions.csv <span class="o">&gt;</span> created_epoch-2024-yearly-thunderbird-questions.csv
+</code></pre></div></div>
+<ol>
+  <li>Create <code class="language-plaintext highlighter-rouge">created_epoch</code> with unix time and isoweek with <code class="language-plaintext highlighter-rouge">iso_week</code>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mlr <span class="nt">--csv</span> put <span class="s1">'$created_epoch = strptime($created, "%Y-%m-%d %H:%M:%S %z")'</span> <span class="se">\</span>
+<span class="k">then </span>put <span class="s1">'$iso_week = strftime($created_epoch, "%V")'</span> <span class="se">\</span>
+../ALLTIME/2024-yearly-thunderbird-questions.csv <span class="o">&gt;</span> <span class="se">\</span>
+epoch_time_iso_week_2024-yearly-thunderbird-questions.csv
+</code></pre></div>    </div>
+  </li>
+  <li>Count by iso_week
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> mlr <span class="nt">--csv</span> count-distinct <span class="nt">-f</span> iso_week <span class="se">\</span>
+epoch_time_iso_week_2024-yearly-thunderbird-questions.csv
+</code></pre></div>    </div>
+    <p>result:</p>
+    <pre><code class="language-csv">iso_week,count
+01,237
+02,255
+03,251
+04,279
+05,238
+06,231
+07,243
+08,273
+09,237
+10,214
+11,226
+12,214
+13,227
+14,194
+15,237
+16,259
+17,226
+18,194
+19,211
+20,217
+21,177
+22,179
+23,202
+24,211
+25,231
+26,194
+27,190
+28,295
+29,337
+30,331
+31,400
+32,416
+33,392
+34,401
+35,375
+36,367
+37,115
+</code></pre>
+  </li>
+  <li>Create database file
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> ../SQLITE
+sqlite-utils insert epoch_iso_week-2024-thunderbird-questions-only.db questions <span class="se">\</span>
+../ALLTIME/epoch_time_iso_week_2024-yearly-thunderbird-questions.csv <span class="nt">--csv</span> <span class="se">\</span>
+<span class="nt">--detect-types</span>
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h2 id="previously">Previously</h2>
+
+<ul>
+  <li>March 1, 2020: <a href="http://rolandtanglao.com/2020/03/01/p1-howto-mlr-miller-remov-fields-from-csv/">How to: retain selected fields and remove the rest in a CSV file using mlr aka miller</a></li>
+</ul>
+:ET

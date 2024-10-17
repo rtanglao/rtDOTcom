@@ -6,9 +6,96 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 14 Oct 2024 13:05:19 -0700</pubDate>
-    <lastBuildDate>Mon, 14 Oct 2024 13:05:19 -0700</lastBuildDate>
+    <pubDate>Wed, 16 Oct 2024 17:15:12 -0700</pubDate>
+    <lastBuildDate>Wed, 16 Oct 2024 17:15:12 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Count Thunderbird SUMO questions by week using a CSV file using mlr aka miller by 1st creating a unix time column w/strptime and then creating an iso_week column from the unix aka epoch time w/strftime (bonus: create a SQLite file using sqlite-utils)</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Sep 12, 2024 06:36&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Create column with unix epoch time from &lt;a href=&quot;https://github.com/thunderbird/github-action-thunderbird-aaq/blob/main/ALLTIME/2024-yearly-thunderbird-questions.csv&quot;&gt;ALLTIME/2024-yearly-thunderbird-questions.csv:&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ../ALLTIME
+mlr &lt;span class=&quot;nt&quot;&gt;--csv&lt;/span&gt; put &lt;span class=&quot;s1&quot;&gt;'$created_epoch = strptime($created, &quot;%Y-%m-%d %H:%M:%S %z&quot;)'&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+2024-yearly-thunderbird-questions.csv &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; created_epoch-2024-yearly-thunderbird-questions.csv
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ol&gt;
+  &lt;li&gt;Create &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;created_epoch&lt;/code&gt; with unix time and isoweek with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;iso_week&lt;/code&gt;
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mlr &lt;span class=&quot;nt&quot;&gt;--csv&lt;/span&gt; put &lt;span class=&quot;s1&quot;&gt;'$created_epoch = strptime($created, &quot;%Y-%m-%d %H:%M:%S %z&quot;)'&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;then &lt;/span&gt;put &lt;span class=&quot;s1&quot;&gt;'$iso_week = strftime($created_epoch, &quot;%V&quot;)'&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+../ALLTIME/2024-yearly-thunderbird-questions.csv &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+epoch_time_iso_week_2024-yearly-thunderbird-questions.csv
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Count by iso_week
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; mlr &lt;span class=&quot;nt&quot;&gt;--csv&lt;/span&gt; count-distinct &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; iso_week &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+epoch_time_iso_week_2024-yearly-thunderbird-questions.csv
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;p&gt;result:&lt;/p&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-csv&quot;&gt;iso_week,count
+01,237
+02,255
+03,251
+04,279
+05,238
+06,231
+07,243
+08,273
+09,237
+10,214
+11,226
+12,214
+13,227
+14,194
+15,237
+16,259
+17,226
+18,194
+19,211
+20,217
+21,177
+22,179
+23,202
+24,211
+25,231
+26,194
+27,190
+28,295
+29,337
+30,331
+31,400
+32,416
+33,392
+34,401
+35,375
+36,367
+37,115
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Create database file
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ../SQLITE
+sqlite-utils insert epoch_iso_week-2024-thunderbird-questions-only.db questions &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+../ALLTIME/epoch_time_iso_week_2024-yearly-thunderbird-questions.csv &lt;span class=&quot;nt&quot;&gt;--csv&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;--detect-types&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;March 1, 2020: &lt;a href=&quot;http://rolandtanglao.com/2020/03/01/p1-howto-mlr-miller-remov-fields-from-csv/&quot;&gt;How to: retain selected fields and remove the rest in a CSV file using mlr aka miller&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 16 Oct 2024 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2024/10/16/p1-mlr-unix-time-strptime-isoweek-strftime-sqlite-utils/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/10/16/p1-mlr-unix-time-strptime-isoweek-strftime-sqlite-utils/</guid>
+        
+        
+      </item>
     
       <item>
         <title>We are all pure bloggers or at least we could be :-)</title>
@@ -468,29 +555,6 @@ HTTP request sent, awaiting response... 404 Not Found
         <pubDate>Mon, 29 Apr 2024 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2024/04/29/p1-backup-wordpress-blog-httrack/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2024/04/29/p1-backup-wordpress-blog-httrack/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Pipe characters aka 'or symbol' aka '|' must be escaped with a backslash to prevent being interpreted as a table in Markdown</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;In the previous post, I re-discovered :-) that pipe characters aka the “or symbol “ aka &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;|&lt;/code&gt; must be escaped with a backslash to prevent being interpreted as a Markdown table. &lt;a href=&quot;https://github.github.com/gfm/#example-308&quot;&gt;Example 308 of the github flavoured markdown spec&lt;/a&gt; seems to document which characters must be escaped (e.g. in addition to the pipe character, exclamation mark, quotation marks, etc.):
-    &lt;ul&gt;
-      &lt;li&gt;!&quot;#$\%\&amp;amp;'()*+\,-.\/:\;&amp;lt;=&amp;gt;\?\@[\]\^_`{|}~&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;April 21, 2024: &lt;a href=&quot;http://rolandtanglao.com/2024/04/21/p1-hazel-weakly-humans-wired-to-be-productive-by-sharing-growing-loving/&quot;&gt;The Trap of Soulless Productivity: Hazel Weakly: instead humans are wired to be productive by sharing, loving, growing&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 21 Apr 2024 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2024/04/21/p2-or-symbols-aka-pipes-must-be-escaped-to-prevent-being-interpreted-as-markdown-table/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/04/21/p2-or-symbols-aka-pipes-must-be-escaped-to-prevent-being-interpreted-as-markdown-table/</guid>
         
         
       </item>
