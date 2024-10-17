@@ -1,0 +1,14 @@
+I"<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Aug 8, 2024 00:29  <a href="https://stackoverflow.com/questions/48206963/extract-month-and-year-from-timestamp-in-bigquery">Extract Month and Year from timestamp in Bigquery - Stack Overflow</a> &lt;– <strong>QUOTE</strong>: <code class="language-plaintext highlighter-rouge">Answering the title of the question as probably others will end up here like me looking for a way to create a YYYYMM year-month from a BigQuery timestamp. ... This is the code I ended up with in standard SQL:</code></p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">CONCAT</span><span class="p">(</span><span class="err">\</span>
+<span class="k">CAST</span><span class="p">(</span><span class="k">EXTRACT</span><span class="p">(</span><span class="nb">YEAR</span> <span class="k">from</span> <span class="nb">timestamp</span><span class="p">)</span> <span class="k">as</span> <span class="n">string</span><span class="p">),</span> <span class="err">\</span>
+<span class="n">LPAD</span><span class="p">(</span><span class="k">CAST</span><span class="p">(</span><span class="k">EXTRACT</span><span class="p">(</span><span class="k">MONTH</span> <span class="k">from</span> <span class="nb">timestamp</span><span class="p">)</span> <span class="n">asstring</span><span class="p">),</span><span class="mi">2</span><span class="p">,</span><span class="s1">'0'</span><span class="p">))</span> <span class="err">\</span>
+<span class="k">AS</span> <span class="n">yearmonth</span>
+</code></pre></div></div>
+<p>^^– I’ll probably need this Eines Tages!</p>
+<h2 id="previously">Previously</h2>
+
+<ul>
+  <li>May 25, 2020: <a href="http://rolandtanglao.com/2020/05/25/p3-sqlite-sql-query-to-get-all-questions-01may2020-25may2020-title-tag-content-contain-sync/">HowTo: SQLite SQL query to get all May 1-25, 2020 Firefox desktop en-us questions that contain sync in title, content or tags columns</a></li>
+</ul>
+:ET

@@ -6,9 +6,32 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 16 Oct 2024 17:15:12 -0700</pubDate>
-    <lastBuildDate>Wed, 16 Oct 2024 17:15:12 -0700</lastBuildDate>
+    <pubDate>Thu, 17 Oct 2024 11:11:27 -0700</pubDate>
+    <lastBuildDate>Thu, 17 Oct 2024 11:11:27 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Extract Month and Year from timestamp in BigQuery using EXTRACT, YEAR, MONTH, CONCAT, CAST, LPAD</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Aug 8, 2024 00:29  &lt;a href=&quot;https://stackoverflow.com/questions/48206963/extract-month-and-year-from-timestamp-in-bigquery&quot;&gt;Extract Month and Year from timestamp in Bigquery - Stack Overflow&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Answering the title of the question as probably others will end up here like me looking for a way to create a YYYYMM year-month from a BigQuery timestamp. ... This is the code I ended up with in standard SQL:&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;CONCAT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;CAST&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;EXTRACT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;YEAR&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;timestamp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;LPAD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;CAST&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;EXTRACT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;MONTH&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;timestamp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;asstring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'0'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;yearmonth&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;^^– I’ll probably need this Eines Tages!&lt;/p&gt;
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;May 25, 2020: &lt;a href=&quot;http://rolandtanglao.com/2020/05/25/p3-sqlite-sql-query-to-get-all-questions-01may2020-25may2020-title-tag-content-contain-sync/&quot;&gt;HowTo: SQLite SQL query to get all May 1-25, 2020 Firefox desktop en-us questions that contain sync in title, content or tags columns&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 17 Oct 2024 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2024/10/17/p1-extract-month-year-google-bigquery/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/10/17/p1-extract-month-year-google-bigquery/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Count Thunderbird SUMO questions by week using a CSV file using mlr aka miller by 1st creating a unix time column w/strptime and then creating an iso_week column from the unix aka epoch time w/strftime (bonus: create a SQLite file using sqlite-utils)</title>
@@ -528,33 +551,6 @@ HTTP request sent, awaiting response... 404 Not Found
         <pubDate>Sun, 05 May 2024 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2024/05/05/p1-how-to-get-links-wget-png-jpg-mp3/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2024/05/05/p1-how-to-get-links-wget-png-jpg-mp3/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How I used httrack to backup my Wordpress blog barbandroland.com</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.httrack.com/&quot;&gt;httrack&lt;/a&gt; backed up my wordpress blog barbandroland.com in 9 hours! &lt;a href=&quot;https://devdilettante.com/tags/Lucky&quot;&gt;#Lucky&lt;/a&gt; &lt;a href=&quot;https://devdilettante.com/tags/Thanks&quot;&gt;#Thanks&lt;/a&gt;! Magic incantation:
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;httrack barbandroland.com &lt;span class=&quot;nt&quot;&gt;-W&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-O&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;s2&quot;&gt;&quot;/Users/roland/Documents/BARB_AND_ROLAND_DOT_COM_BACKUPS/HTTRACK_BACKUP/barbandrolandbackup&quot;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
--%v &lt;span class=&quot;nt&quot;&gt;-s0&lt;/span&gt; +www.barbandroland.com/&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.jpg
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-    &lt;p&gt;where:&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-s0&lt;/code&gt; means infinite depth&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;%v&lt;/code&gt; means  display on screen filenames downloaded (in realtime) (–display)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;July 19, 2017: &lt;a href=&quot;http://rolandtanglao.com/2017/07/19/p1-curl-to-get-multiple-jpgs-from-the-internet-and-convert-to-pdf/&quot;&gt;use curl -O url[1-455].jpg to get multiple JPGs from a website and then convert to a PDF with preview&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 29 Apr 2024 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2024/04/29/p1-backup-wordpress-blog-httrack/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/04/29/p1-backup-wordpress-blog-httrack/</guid>
         
         
       </item>
