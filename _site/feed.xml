@@ -6,9 +6,28 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 17 Oct 2024 11:15:12 -0700</pubDate>
-    <lastBuildDate>Thu, 17 Oct 2024 11:15:12 -0700</lastBuildDate>
+    <pubDate>Mon, 21 Oct 2024 18:01:39 -0700</pubDate>
+    <lastBuildDate>Mon, 21 Oct 2024 18:01:39 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Got my 6th COVID and yearly flu vaccination text message at 3:05p.m., made an appointment for 5:05 p.m.. All done! Yay! #GoScienceGo!</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Received Moderna and the 2024 flu shot  at the Save-On at Kingsway and Knight. They are doing walk-ins 11-5p.m. (closed for lunch 130-2pm) for the next few days.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;October 14, 2023: &lt;a href=&quot;http://rolandtanglao.com/2023/10/14/p1-5th-vaccination-moderna-bivalent-booster-go-science-go/&quot;&gt;Got my 5th vaccination today: Moderna bivalent booster for 2023 plus the 2023 flu vaccine, go science go! #VaccinateThePlanet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 21 Oct 2024 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2024/10/21/p1-covid-19-6th-vaccination-moderna-booster-go-science-go/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/10/21/p1-covid-19-6th-vaccination-moderna-booster-go-science-go/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Extract Month and Year from timestamp in BigQuery using SQL EXTRACT, YEAR, MONTH, CONCAT, CAST, LPAD</title>
@@ -494,63 +513,6 @@ select(. != null)'&lt;/span&gt;  &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
         <pubDate>Sun, 05 May 2024 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2024/05/05/p2-how-to-search-mastodon-backup-outbox-json-jq-emacs-is-faster/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2024/05/05/p2-how-to-search-mastodon-backup-outbox-json-jq-emacs-is-faster/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to get links to images and audio files using wget on a Wordpress blog: barbandroland.com aka a tale of trial and error and httrack was better in this case :-)</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;tl;dr: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;httrack&lt;/code&gt; appeared to get 200 more images and do a full backup so I abandoned &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wget&lt;/code&gt; and used it instead see the previous post: &lt;a href=&quot;http://rolandtanglao.com/2024/04/29/p1-backup-wordpress-blog-httrack/&quot;&gt;How I used httrack to backup my Wordpress blog barbandroland.com&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;1. from &lt;a href=&quot;https://devdilettante.com/@roland/112341446232283984&quot;&gt;mastodon on devdilettante.com&lt;/a&gt;
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wget &lt;span class=&quot;nt&quot;&gt;--execute&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;robots = off&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--spider&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--force-html&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-r&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt; 0 &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;$url&lt;/span&gt; 2&amp;gt;&amp;amp;1  | &lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'^--'&lt;/span&gt;  | &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'\.\(jpeg\|mp3\|png\|gif\|jpg\) \
-2&amp;gt;stderr_mp3_jpg_png_urls.txt \
-&amp;gt;_level_0_mp3_jpg_png_urls.txt
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The above command line snippet appears to get a list of URLs from a WordPress (or any?) website (via https://stackoverflow.com/questions/2804467/spider-a-website-and-return-urls-only )&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;2. the two spaces throws off awk so remove one of the spaces and proceed :-)
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;_level_0_mp3_jpg_png_urls.txt | &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;sed&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;s/--  / /g&quot;&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;awk&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'{ print $3 }'&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-| &lt;span class=&quot;nb&quot;&gt;grep &lt;/span&gt;_photos &lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;3. Get the photos
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;_level_0_mp3_jpg_png_urls.txt | &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;sed&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;s/--  / /g&quot;&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;awk&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'{ print $3 }'&lt;/span&gt; | &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;grep &lt;/span&gt;_photos | &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; photo_urls.txt &lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;mkdir &lt;/span&gt;PHOTOS&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;cat&lt;/span&gt; ../photo_urls.txt | &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-xargs &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; 1 wget &lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;4. replace &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;'&lt;/code&gt; with ‘&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;'&lt;/code&gt; to keep bash and wget happy :-) (first &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;'&lt;/code&gt; occurs at line 410
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;tail&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--lines&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;+411 ../photo_urls.txt| xargs &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; 1 wget
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;5. of course that leads to the next layer of the onion :-)
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;--2024-04-27 08:31:40--  http://www.barbandroland.com/_photos/Thu,%20Jul%2029,%202004%2006:30:16%20PM.jpg
-Resolving www.barbandroland.com (www.barbandroland.com)... 64.91.252.138
-Connecting to www.barbandroland.com (www.barbandroland.com)|64.91.252.138|:80... connected.
-HTTP request sent, awaiting response... 404 Not Found
-2024-04-27 08:31:41 ERROR 404: Not Found. &amp;lt;-- what is wrong wtih the URL? do commas need to be URL encoded?
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;6. Ultimately this led to a dead-end. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;httrack&lt;/code&gt; appeared to get 200 more images and do a full backup so I abandoned &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wget&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;April 29, 2024:  &lt;a href=&quot;http://rolandtanglao.com/2024/04/29/p1-backup-wordpress-blog-httrack/&quot;&gt;How I used httrack to backup my Wordpress blog barbandroland.com&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 05 May 2024 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2024/05/05/p1-how-to-get-links-wget-png-jpg-mp3/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/05/05/p1-how-to-get-links-wget-png-jpg-mp3/</guid>
         
         
       </item>
