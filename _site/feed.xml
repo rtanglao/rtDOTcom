@@ -6,9 +6,58 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 25 Oct 2024 23:49:08 -0700</pubDate>
-    <lastBuildDate>Fri, 25 Oct 2024 23:49:08 -0700</lastBuildDate>
+    <pubDate>Sat, 02 Nov 2024 15:35:00 -0700</pubDate>
+    <lastBuildDate>Sat, 02 Nov 2024 15:35:00 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Collapsible Sections work but you need an markdown=&quot;1&quot; attribute in the details tag and markdown=&quot;span&quot; in the summary tag</title>
+        <description>&lt;h2 id=&quot;collapsible-markdown-works&quot;&gt;Collapsible markdown works&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You need a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;markdown=&quot;1&quot;&lt;/code&gt; attribute in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;details&lt;/code&gt; tag and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;markdown=&quot;span&quot;&lt;/code&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt; &lt;/code&gt;in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;summary&lt;/code&gt; tag&lt;/li&gt;
+  &lt;li&gt;Hat tip to the folks who found this in github.com issue: &lt;a href=&quot;https://github.com/github/docs/issues/32988&quot;&gt;Update docs for “Organizing information with collapsed sections” to include GitHub Pages support #32988&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;details&gt;
+  &lt;summary&gt;Click me&lt;/summary&gt;
+  &lt;h3 id=&quot;yes-even-collapsed-code-blocks-work&quot;&gt;yes, even collapsed code blocks work&lt;/h3&gt;
+  &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;hello world!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/details&gt;
+
+&lt;h3 id=&quot;full-code-from-issue-32988&quot;&gt;Full code from issue 32988&lt;/h3&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;details markdown=&quot;1&quot;&amp;gt;
+
+&amp;lt;summary markdown=&quot;span&quot;&amp;gt;Tips for collapsed sections&amp;lt;/summary&amp;gt;
+
+### You can add a header
+
+You can add text within a collapsed section. 
+
+You can add an image or a code block, too.
+
+```ruby
+   puts &quot;Hello World&quot;
+\`\`\` &amp;lt;-- unescape the backslashes for your actual blog post!
+
+&amp;lt;/details&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;November 26, 2018: &lt;a href=&quot;http://rolandtanglao.com/2018/11/26/p1-collapsing-and-expanding-disclosure-triangles-using-details-summary-html-tags/&quot;&gt;HTML tags  and  can be used for expand/collapse with disclosure triangles for ‘collapsible HTML’&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 02 Nov 2024 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2024/11/02/p1-collapsible-sections-details-html-tag-test/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/11/02/p1-collapsible-sections-details-html-tag-test/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Bodensee / Lake Constance circumnavigation / ride around the lake Strava routes &amp; GPX files for anybody riding around the Bodensee in the future! Do not follow, for planning only! To help make up for the lack of GPX files from Radweg Reisen and my lack of map / wayfinding skills</title>
@@ -459,30 +508,6 @@ Solution: sort using a string I guess :-) !?!?&lt;/p&gt;
         <pubDate>Wed, 15 May 2024 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2024/05/15/p2-feh-great-for-randomly-displaying-images-not-for-collages-use-imagemagick-instead/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2024/05/15/p2-feh-great-for-randomly-displaying-images-not-for-collages-use-imagemagick-instead/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Tested positive for COVID 19 on May 3, tested negative on May 10, 2024, fever for one day, headache and sore throat 4 days, gone after 5</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Tested positive for COVID 19 on May 3, 2024&lt;/li&gt;
-  &lt;li&gt;Tested negative for Covid 19 on May 10, 2024 and May 12, 2024&lt;/li&gt;
-  &lt;li&gt;Fever on day 1 was gone on Day 2&lt;/li&gt;
-  &lt;li&gt;This time I had headache and sore throat for 4 days and then it was gone&lt;/li&gt;
-  &lt;li&gt;Pretty sure my 5 vaccinations  prevented it from being worse. Go science go!&lt;/li&gt;
-  &lt;li&gt;Not sure where I got it but my guess is my dentist (who unlike my other 2 dentists didn’t have the expensive air purifiers). If  that’s the case I guess we’ll never know because no contact tracing since 2021 sad face. I certainly don’t blame the dentist!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;May 29, 2022: &lt;a href=&quot;http://rolandtanglao.com/2022/05/29/p1-covid-19-tested-positive-16-may-2022/&quot;&gt;Tested  positive for COVID 19 on May 16, tested negative on May 27, 2022, no  fever, just headache and sore throat day 1, headache was gone day 2,  sore throat took a week to go, felt tired&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 15 May 2024 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2024/05/15/p1-covid-positive-may3-2024-negative-may10-2024/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/05/15/p1-covid-positive-may3-2024-negative-may10-2024/</guid>
         
         
       </item>

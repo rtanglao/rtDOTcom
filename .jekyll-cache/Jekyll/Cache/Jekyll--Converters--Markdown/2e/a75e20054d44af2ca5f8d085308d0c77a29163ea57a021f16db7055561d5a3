@@ -1,0 +1,40 @@
+I"�<h2 id="collapsible-markdown-works">Collapsible markdown works</h2>
+
+<ul>
+  <li>You need a <code class="language-plaintext highlighter-rouge">markdown="1"</code> attribute in the <code class="language-plaintext highlighter-rouge">details</code> tag and <code class="language-plaintext highlighter-rouge">markdown="span"</code><code class="language-plaintext highlighter-rouge"> </code>in the <code class="language-plaintext highlighter-rouge">summary</code> tag</li>
+  <li>Hat tip to the folks who found this in github.com issue: <a href="https://github.com/github/docs/issues/32988">Update docs for “Organizing information with collapsed sections” to include GitHub Pages support #32988</a></li>
+</ul>
+
+<details>
+  <summary>Click me</summary>
+  <h3 id="yes-even-collapsed-code-blocks-work">yes, even collapsed code blocks work</h3>
+  <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">"hello world!"</span><span class="p">)</span>
+</code></pre></div>  </div>
+</details>
+
+<h3 id="full-code-from-issue-32988">Full code from issue 32988</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;details markdown="1"&gt;
+
+&lt;summary markdown="span"&gt;Tips for collapsed sections&lt;/summary&gt;
+
+### You can add a header
+
+You can add text within a collapsed section. 
+
+You can add an image or a code block, too.
+
+```ruby
+   puts "Hello World"
+\`\`\` &lt;-- unescape the backslashes for your actual blog post!
+
+&lt;/details&gt;
+
+</code></pre></div></div>
+
+<h2 id="previously">Previously</h2>
+
+<ul>
+  <li>November 26, 2018: <a href="http://rolandtanglao.com/2018/11/26/p1-collapsing-and-expanding-disclosure-triangles-using-details-summary-html-tags/">HTML tags  and  can be used for expand/collapse with disclosure triangles for ‘collapsible HTML’</a></li>
+</ul>
+:ET

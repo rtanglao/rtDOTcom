@@ -1,0 +1,21 @@
+I"�<h2 id="collapsible-markdown-works">collapsible markdown works</h2>
+
+<ul>
+  <li>hat tip to the folks who found this in github.com issue: <a href="https://github.com/github/docs/issues/32988">Update docs for “Organizing information with collapsed sections” to include GitHub Pages support #32988</a></li>
+</ul>
+
+<details>
+  <summary>Click me</summary>
+  <h3 id="yes-even-collapsed-code-blocks-work">yes, even collapsed code blocks work</h3>
+
+  <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">"hello world!"</span><span class="p">)</span>
+</code></pre></div>  </div>
+
+</details>
+
+<h2 id="previously">Previously</h2>
+
+<ul>
+  <li>November 26, 2018: <a href="http://rolandtanglao.com/2018/11/26/p1-collapsing-and-expanding-disclosure-triangles-using-details-summary-html-tags/">HTML tags  and  can be used for expand/collapse with disclosure triangles for ‘collapsible HTML’</a></li>
+</ul>
+:ET

@@ -1,0 +1,18 @@
+I"Á<h3 id="collapsible-markdown">collapsible markdown?</h3>
+
+<details>
+<summary>CLICK ME</summary>
+#### yes, even hidden code blocks!
+
+```python
+print("hello world!")
+```
+
+</details>
+
+<h2 id="previously">Previously</h2>
+
+<ul>
+  <li>October 14, 2024: <a href="http://rolandtanglao.com/2024/10/14/p1-bodensee-bicycle-ride-fabulous-despite-bad-wayfinding/">Bodensee Bicycle Ride with Radweg Reisen tours: Fabulous except for bad wayfinding</a></li>
+</ul>
+:ET

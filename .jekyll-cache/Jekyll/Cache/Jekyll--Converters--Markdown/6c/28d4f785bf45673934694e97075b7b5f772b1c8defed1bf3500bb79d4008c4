@@ -1,0 +1,17 @@
+I"�<h2 id="collapsible-markdown">collapsible markdown?</h2>
+
+<details>
+  <summary>Tips for collapsed sections</summary>
+  <h3 id="yes-even-hidden-code-blocks-work-on-githubcom-but-dont-work-on-this-blog-as-in-the-markdown-is-not-evaluated-after-the-summary-tag--perhaps-because-this-blog-is-using-an--old-version-of-jekyll-ie-411-instead-of-todays-434">yes, even hidden code blocks work on github.com but don’t work on this blog as in the markdown is not evaluated after the summary tag,  perhaps because this blog is using an  old version of jekyll i.e. 4.1.1 instead of today’s 4.3.4?!</h3>
+
+  <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">"hello world!"</span><span class="p">)</span>
+</code></pre></div>  </div>
+
+</details>
+
+<h2 id="previously">Previously</h2>
+
+<ul>
+  <li>November 26, 2018: <a href="http://rolandtanglao.com/2018/11/26/p1-collapsing-and-expanding-disclosure-triangles-using-details-summary-html-tags/">HTML tags  and  can be used for expand/collapse with disclosure triangles for ‘collapsible HTML’</a></li>
+</ul>
+:ET
