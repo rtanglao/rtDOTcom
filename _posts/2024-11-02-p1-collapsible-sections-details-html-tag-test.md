@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Collapsible Sections work but you need an markdown="1" attribute in the details tag and markdown="span" in the summary tag'
+title: 'Collapsible Sections work in jekyll github.com blogs and github pages but you need a markdown="1" attribute in the details tag and markdown="span" in the summary tag'
 ---
 ##  Collapsible markdown works
 
