@@ -20,13 +20,16 @@ title: "Safe Vancouver Bicycle crossings"
 * Cross Main at 18th
 * Cross Main at 14th
 * Cross Fraser at 19th
+* Cross Fraser at 27th
+* Cross Fraser at 28th (29th Avenue Bikeway)
 * Cross Cambie at 14th
 * Cross Cambie at  18th
 * Cross Cambie at 20th
-* Cross Victoria at 22nd
+* Cross Victoria at 22nd (no safe crossing at Stainsbury or Porter)
 
 ## North / South	
 
+* Unsafe at rush hour and weekdays since there is no light! --> Cross King Edward at Nanton (use Arbutus Greenway at busy times)
 * Cross 12th at Heather
 * Cross Kingsway at Glen
 * Cross Kingsway at Miller
@@ -34,7 +37,7 @@ title: "Safe Vancouver Bicycle crossings"
 * Cross 49th at Cypress
 * Cross 49th at Tisdall (not Heather or Willow)
 * Cross 41st at Angus
-* Cross 1st at Lilooet
+* Cross 1st at Lillooet
 * Cross 29th at Atlin
 * No safe crossing at Skeena and 1st Avenue (just walk)
 

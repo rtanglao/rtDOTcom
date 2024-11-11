@@ -6,8 +6,8 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 02 Nov 2024 16:16:20 -0700</pubDate>
-    <lastBuildDate>Sat, 02 Nov 2024 16:16:20 -0700</lastBuildDate>
+    <pubDate>Sun, 10 Nov 2024 22:29:29 -0800</pubDate>
+    <lastBuildDate>Sun, 10 Nov 2024 22:29:29 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -260,15 +260,18 @@ sqlite-utils insert epoch_iso_week-2024-thunderbird-questions-only.db questions 
   &lt;li&gt;Cross Main at 18th&lt;/li&gt;
   &lt;li&gt;Cross Main at 14th&lt;/li&gt;
   &lt;li&gt;Cross Fraser at 19th&lt;/li&gt;
+  &lt;li&gt;Cross Fraser at 27th&lt;/li&gt;
+  &lt;li&gt;Cross Fraser at 28th (29th Avenue Bikeway)&lt;/li&gt;
   &lt;li&gt;Cross Cambie at 14th&lt;/li&gt;
   &lt;li&gt;Cross Cambie at  18th&lt;/li&gt;
   &lt;li&gt;Cross Cambie at 20th&lt;/li&gt;
-  &lt;li&gt;Cross Victoria at 22nd&lt;/li&gt;
+  &lt;li&gt;Cross Victoria at 22nd (no safe crossing at Stainsbury or Porter)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;north--south&quot;&gt;North / South&lt;/h2&gt;
 
 &lt;ul&gt;
+  &lt;li&gt;Unsafe at rush hour and weekdays since there is no light! –&amp;gt; Cross King Edward at Nanton (use Arbutus Greenway at busy times)&lt;/li&gt;
   &lt;li&gt;Cross 12th at Heather&lt;/li&gt;
   &lt;li&gt;Cross Kingsway at Glen&lt;/li&gt;
   &lt;li&gt;Cross Kingsway at Miller&lt;/li&gt;
@@ -276,7 +279,7 @@ sqlite-utils insert epoch_iso_week-2024-thunderbird-questions-only.db questions 
   &lt;li&gt;Cross 49th at Cypress&lt;/li&gt;
   &lt;li&gt;Cross 49th at Tisdall (not Heather or Willow)&lt;/li&gt;
   &lt;li&gt;Cross 41st at Angus&lt;/li&gt;
-  &lt;li&gt;Cross 1st at Lilooet&lt;/li&gt;
+  &lt;li&gt;Cross 1st at Lillooet&lt;/li&gt;
   &lt;li&gt;Cross 29th at Atlin&lt;/li&gt;
   &lt;li&gt;No safe crossing at Skeena and 1st Avenue (just walk)&lt;/li&gt;
 &lt;/ul&gt;
