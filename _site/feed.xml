@@ -6,9 +6,20 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 10 Nov 2024 22:29:29 -0800</pubDate>
-    <lastBuildDate>Sun, 10 Nov 2024 22:29:29 -0800</lastBuildDate>
+    <pubDate>Sat, 07 Dec 2024 20:35:58 -0800</pubDate>
+    <lastBuildDate>Sat, 07 Dec 2024 20:35:58 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Greg Wilson:: The Third Bit: Afraid of Change</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 4, 2024 07:19 &lt;a href=&quot;https://third-bit.com/2018/11/24/afraid-of-change/&quot;&gt;Greg Wilson:: The Third Bit: Afraid of Change&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;I think thought leaders in Silicon Valley started recommending it to each other for two reasons. First, it allows them to blame subordinates for not speaking out (again, ignoring the experience some of those subordinates may have had of bosses who say “I want to hear what you think” but really don’t). Second, it satisfies tech bros’ need to talk about something other than sexual harassment, racial discrimination, and pay inequity—in other words, their need to talk about things that sound important but won’t make them uncomfortable or undermine the system that they hope will make them rich.&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 04 Dec 2024 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2024/12/04/p0719-afraid-of-change/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/04/p0719-afraid-of-change/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Collapsible Sections work in jekyll github.com blogs and github pages but you need a markdown=&quot;1&quot; attribute in the details tag and markdown=&quot;span&quot; in the summary tag</title>
@@ -484,33 +495,6 @@ Solution: sort using a string I guess :-) !?!?&lt;/p&gt;
         <pubDate>Mon, 17 Jun 2024 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2024/06/17/p1-flickr-api-delay-1-second-only-get-bare-minimum-metadata/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2024/06/17/p1-flickr-api-delay-1-second-only-get-bare-minimum-metadata/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>feh --randomize is great for viewing random images; not great for making collages, use imagemagick instead</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;feh&lt;/code&gt; can’t handle large numbers of thumbnails (and for some reason I never understood it said there were 5x thumbnails than there actually was) but it’s great for small random collages.&lt;/li&gt;
-  &lt;li&gt;e.g. here’s two
-    &lt;ul&gt;
-      &lt;li&gt;make a random collage with feh (imagemagick is probably faster!) &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;feh  --randomize -r . --montage --verbose -X -x -H 4000 -W 4000 -O  2024-05-08-random-montage.png -E 10 -y 10&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;10200 pixel by 10200 pixel command line which took 6 hours
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;feh -r . --montage  --verbose -X -x -H 10200 -W 10200 -O  reverse-filelist-borderless-10200x10200-2024-05-09-sort-mtime-montage.png -E 20 -y 20 -S mtime --conversion-timeout 1 --borderless --reverse -f  hopefully-just-png-jpg-files.txt&lt;/code&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Here’s my complete mastodon&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;feh&lt;/code&gt; thread: &lt;a href=&quot;https://devdilettante.com/deck/@roland/112445889280926642&quot;&gt;https://devdilettante.com/deck/@roland/112445889280926642&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;October 29, 2022: &lt;a href=&quot;http://rolandtanglao.com/2022/10/29/p1-howto-imagemagick-montage-of-resized-1x1-average-colour/&quot;&gt;imagemagick  How To make a montage of images from average colour: 1st get average  colour by downsizing to 1x1 ; 2nd upscale with a fixed size; this  results in images in this case with 20x20 which at 80x24 leads to  1600x480&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 15 May 2024 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2024/05/15/p2-feh-great-for-randomly-displaying-images-not-for-collages-use-imagemagick-instead/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/05/15/p2-feh-great-for-randomly-displaying-images-not-for-collages-use-imagemagick-instead/</guid>
         
         
       </item>
