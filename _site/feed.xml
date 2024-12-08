@@ -6,8 +6,8 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 07 Dec 2024 20:35:58 -0800</pubDate>
-    <lastBuildDate>Sat, 07 Dec 2024 20:35:58 -0800</lastBuildDate>
+    <pubDate>Sat, 07 Dec 2024 20:55:54 -0800</pubDate>
+    <lastBuildDate>Sat, 07 Dec 2024 20:55:54 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -17,6 +17,17 @@
         <pubDate>Wed, 04 Dec 2024 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2024/12/04/p0719-afraid-of-change/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2024/12/04/p0719-afraid-of-change/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Nic Morales:: Cost of Convenience, a Wireless Shifting Review - BIKEPACKING.com</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 4, 2024 07:15 &lt;a href=&quot;https://bikepacking.com/plog/cost-of-convenience-wireless-shifting-review/&quot;&gt;Nic Morales:: Cost of Convenience, a Wireless Shifting Review - BIKEPACKING.com&lt;/a&gt; &amp;lt;– can we invent electronic shifting that doesn’t require lithium batteries and complicated and bug prone proprietary software? I think so but there’s no will :-) –&amp;gt; &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;I can’t answer all those questions. And living in a world that has normalized such energy usage is complex. I’m typing this on a computer powered by lithium batteries while sitting next to a phone powered by lithium batteries and being kept cool by a window unit A/C powered by electricity. But if we have to qualify and exonerate every potential criticism of new technologies through the sometimes unavoidable missteps of our current circumstance, we’ll never make anything better. I’m not proposing an unimpeachable solution to the moral and material ailments of our society—I’m 29 years old, I don’t know anything. I’m questioning the unnecessary complication of an activity that has meaningfully improved my life through the inherently revolutionary nature of its existence. &lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 04 Dec 2024 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2024/12/04/p0715-cost-of-convenience-wireless-shifting-review/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/04/p0715-cost-of-convenience-wireless-shifting-review/</guid>
         
         
       </item>
@@ -331,170 +342,6 @@ sqlite-utils insert epoch_iso_week-2024-thunderbird-questions-only.db questions 
         <pubDate>Mon, 14 Oct 2024 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2024/10/14/p1-bodensee-bicycle-ride-fabulous-despite-bad-wayfinding/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2024/10/14/p1-bodensee-bicycle-ride-fabulous-despite-bad-wayfinding/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Lessons learned: Flickr API limit of 1 API request / second means running 12 threads in parallel then I need to delay at least 1 second between API requests (assuming my code needs 1 second to do its thing) and get the bare minimum metadata &amp; flickr ids are larger than ruby max int which breaks ruby sorting</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Lessons learned from &lt;a href=&quot;https://devdilettante.com/@roland/112456929894572722&quot;&gt;my super long flickr average colour thread on Mastodon&lt;/a&gt;:  Lessons learned: Flickr API limit of 1 API request / second means that if I am running 12 threads in parallel then I need delay minimum of 1 second between API requests (assuming my code needs 1 second to do its thing) and get the bare minimum metadata.&lt;/li&gt;
-  &lt;li&gt;I also learned that flickr integer ids are bigger than the maximum ruby ids so sorting by flickr ids as integers does NOT work. Oops :-)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;thread&quot;&gt;Thread&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;1 of whenever I get bored or give up (OWIGBOGU)  :-) &lt;a href=&quot;https://devdilettante.com/tags/rt&quot;&gt;#rt&lt;/a&gt;-flickr-worldwide-average-colour My next project I guess is hourly average colour of all of flickr hmmmm :-)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;2/OWIGBOGU :-) &lt;a href=&quot;https://devdilettante.com/tags/rt&quot;&gt;#rt&lt;/a&gt;-flickr-worldwide-average-colour i wonder how many photos are uploaded hourly? 100,000? more? less?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;3/OWIGBOGU :-) &lt;a href=&quot;https://devdilettante.com/tags/rt&quot;&gt;#rt&lt;/a&gt;-flickr-worldwide-average-colour I am sure that 50% of  photos are uploaded many hours after they are  taken. Possibly more. Also the flickr API might not give me all the  photos. So I guess I’ll think of it as an hourly snapshot of world wide  flickr average colour :-)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;4/OWIGBOGU &lt;a href=&quot;https://devdilettante.com/tags/rt&quot;&gt;#rt&lt;/a&gt;-flickr-worldwide-average-colour And it will be line noise in appearance :-) with no real patterns of colour I think which has become mundane for me :-) Mundane world wide average colour hourly for the win :-)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;5/OWIGBOGU &lt;a href=&quot;https://devdilettante.com/tags/rt&quot;&gt;#rt&lt;/a&gt;-flickr-worldwide-average-colour maybe store the average colours of photos as ints? 
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;magick -list Storage&lt;/code&gt;
-output:
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Char
-Double
-Float
-Long
-LongLong
-Quantum
-Short
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;6/OWIGBOGU &lt;a href=&quot;https://devdilettante.com/tags/rt&quot;&gt;#rt&lt;/a&gt;-flickr-worldwide-average-colour gave up on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;imagemagick&lt;/code&gt; stream because i couldn’t get it to work. Same with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vips&lt;/code&gt;: too complicated. Going with :&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;magickimp = sprintf(&quot;magick convert \&quot;%s\&quot; -resize 1x1 txt:- | ggrep -Po \&quot;#[[:xdigit:]]{6}\&quot;&quot;, filename.gsub(/\$/, '\$'))&lt;/code&gt; from https://github.com/rtanglao/rt-flickr-sqlite-csv/blob/main/get-filename-imagemagick-average-colour-from-75x75thumbnail.rb See also: &lt;a href=&quot;http://rolandtanglao.com/2021/04/05/p1-rename-file-from-rgb-to-raw-opened-photoshop-converted-to-png/&quot;&gt;http://rolandtanglao.com/2021/04/05/p&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;7/OWIGBOGU #rt-flickr-worldwide-average-colour I think my current plan is:
-1. use the flickr api to get all the metadata for an hour
-2. download the first 10,000 75 pixel by 75 pixel thumbnails (maybe I’ll download all teh meta data but only 10,000 thumbs?!?)
-3. Make a 100 by 100 average colour graphic (or maybe 200 x 200 if I decide to download the first 40,000 thumbnails instead of the the first 10, 000)&lt;/li&gt;
-  &lt;li&gt;8/OWIGBOGU #rt-flickr-worldwide-average-colour It turns out I have most of the code I need in getLastFewWorldWidePhotos.rb , https://github.com/rtanglao/rt-flickr-worldwide-barcode/blob/main/getLastFewWorldWidePhotos.rb &amp;lt;– That code plus the resize from post #6 in this thread is all I need I think :-) Famous last words.&lt;/li&gt;
-  &lt;li&gt;9/OWIGBOGU &lt;a href=&quot;https://devdilettante.com/tags/rt&quot;&gt;#rt&lt;/a&gt;-flickr-worldwide-average-colour I’m going to attempt to do a vertical bar graph style for each hour. Current plan:
-    &lt;ol&gt;
-      &lt;li&gt;store the thumbnails in a daily directory e.g. THUMBS/2024-05-19&lt;/li&gt;
-      &lt;li&gt;store all the flickr metadata in a metadata directory e.g. “METADATA”&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;10/OWIGBOGU #rt-flickr-worldwide-average-colour It looks like there’s approximately 24000 photos uploaded to flickr every hour. Less than I thought. From my WIP at: https://github.com/rtanglao/rt-worldwide-average-colour/blob/main/get-thumbs-for-1hour-and-make-vertical-infographic.rb
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[1] pry(main)&amp;gt; photos = photos_on_this_page['photos'] =&amp;gt; {&quot;page&quot;=&amp;gt;1,  &quot;pages&quot;=&amp;gt;48, &quot;perpage&quot;=&amp;gt;500,&quot;total&quot;=&amp;gt;23505...&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;11/OWIGBOGU #rt-flickr-worldwide-average-colour going for it :-) &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;parallel ./get-metadata-for-1-hour.rb 2024 1 1 {} ::: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;12/OWIGBOGU &lt;a href=&quot;https://devdilettante.com/tags/rt&quot;&gt;#rt&lt;/a&gt;-flickr-worldwide-average-colour the metadata file for 1 hour is over 20 Megabytes LOL :-)&lt;/li&gt;
-  &lt;li&gt;13/OWIGBOGU &lt;a href=&quot;https://devdilettante.com/tags/rt&quot;&gt;#rt&lt;/a&gt;-flickr-worldwide-average-colour December 25, 2023 is even more hilarious. 194, 500 photos in 1 hour :-)
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;-rw-r--r--  1 roland  staff   224M 21 May 07:20 2023-12-25-00-flickr-metadata.csv
-roland@Rolands-MacBook-Pro METADATA % mlr --csv count 2023-12-25-00-flickr-metadata.csv 
-count
-194500
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;14/OWIGBOGU &lt;a href=&quot;https://devdilettante.com/tags/rt&quot;&gt;#rt&lt;/a&gt;-flickr-worldwide-average-colour where’s the best place to store these huge metadata files :-) ??!?  dropbox? S3? don’t bother :-) ?!? i am leaning towards not bothering :-)&lt;/li&gt;
-  &lt;li&gt;15/OWIGBOGU &lt;a href=&quot;https://devdilettante.com/tags/rt&quot;&gt;#rt&lt;/a&gt;-flickr-worldwide-average-colour 215,000 photos uploaded in 1 hour on Christmas day 2023. &lt;a href=&quot;https://devdilettante.com/tags/SillyStats&quot;&gt;#SillyStats&lt;/a&gt; :-)
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;% find . -name '*.csv' -print | xargs -n 1  mlr --csv count
-count
-187500
-count
-189000
-count
-197000
-count
-189500
-count
-202500
-count
-207000
-count
-187000
-count
-203500
-count
-198000
-count
-198000
-count
-210500
-count
-197000
-count
-205500
-count
-191000
-count
-195000
-count
-194500
-count
-202500
-count
-199000
-count
-215000
-count
-206000
-count
-202500
-count
-199500
-count
-199500
-count
-201000
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;16/OWIGBOGU &lt;a href=&quot;https://devdilettante.com/tags/rt&quot;&gt;#rt&lt;/a&gt;-flickr-worldwide-average-colour
-so I think I will code something like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;if &amp;gt; 200K photos pick 4000 random ones else pick number of photos / 200 K * 4000&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;17/OWIGBOGU &lt;a href=&quot;https://devdilettante.com/tags/rt&quot;&gt;#rt&lt;/a&gt;-flickr-worldwide-average-colour the following seems to be working &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;parallel --jobs 3 --results LOGS  ../../generate-hourly-info-graphic.rb ::: *.csv&lt;/code&gt;
-code: &lt;a href=&quot;https://github.com/rtanglao/rt-worldwide-average-colour/blob/main/generate-hourly-info-graphic.rb&quot;&gt;generate-hourly-info-graphic.rb&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;18/OWIGBOGU &lt;a href=&quot;https://devdilettante.com/tags/rt&quot;&gt;#rt&lt;/a&gt;-flickr-worldwide-average-colour &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;magick montage &quot;2023-12-25*.png&quot; -tile 24x1  -geometry &quot;+0+0&quot;   daily-random-4000-2023-12-25.png&lt;/code&gt;. On flickr: https://flic.kr/p/2pTMVQZ&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;19/OWIGBOGU &lt;a href=&quot;https://devdilettante.com/tags/rt&quot;&gt;#rt&lt;/a&gt;-flickr-worldwide-average-colour The default &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gravity&lt;/code&gt; setting of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Center&lt;/code&gt; is not what we want :-) Use  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;South&lt;/code&gt; to align all images with the bottom of the image https://imagemagick.org/discourse-server/viewtopic.php?t=21965 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;magick montage &quot;2023-12-25*.png&quot; -tile 24x  -gravity South -geometry &quot;1x4000+0+0&quot;  daily-random-4000-2023-12-25.png&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;20/OWIGBOGU &lt;a href=&quot;https://devdilettante.com/tags/rt&quot;&gt;#rt&lt;/a&gt;-flickr-worldwide-average-colour flickr ids e.g. 53733918346 are greater than ruby’s maximum integer value so the sort method fails if you are sorting using flickr’s ids converted to integers.:&lt;/p&gt;
-
-    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;53733918346 &amp;gt; 2147483647 =&amp;gt; true&lt;/code&gt;
-Solution: sort using a string I guess :-) !?!?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;21/OWIGBOGU #rt-flickr-worldwide-average-colour https://github.com/rtanglao/rt-worldwide-average-colour/blob/main/sorted-asc-try2-generate-hourly-info-graphic.rb is the code to generate sorted ascending hourly graphics (instead of sorted randomly) command line:
- &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;../../sorted-asc-try2-generate-hourly-info-graphic.rb 2023-12-25-00-flickr-metadata.csv&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;22/OWIGBOGU #rt-flickr-worldwide-average-colour  generate hourly infographics each with up to 4000 photos randomly picked i.e. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;y pixels x 1 pixel&lt;/code&gt; where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;y&amp;lt;=4000&lt;/code&gt; sorted by ascending time:
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;parallel --jobs 3 --results LOGS ../../sorted-asc-try2-generate-hourly-info-graphic.rb ::: *.csv &lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;23/OWIGBOGU #rt-flickr-worldwide-average-colour  Let’s get the metadata for all of December :-) 
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;parallel --jobs 3 ./get-metadata-for-1-hour.rb 2024 12 ::: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 26 27 28 29 30 31 ::: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;24/OWIGBOGU #rt-flickr-worldwide-average-colour It’s still running 7 hours later LOL. Optimization is in order perhaps? Because 24 hours / day *30 days *6 minutes per hour /60 minutes per hour = 72 hours :-)&lt;/li&gt;
-  &lt;li&gt;25/OWIGBOGU #rt-flickr-worldwide-average-colour  8 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;performance cores&lt;/code&gt; so let’s try 8 jobs &amp;amp; see if that’s faster. It might be but I think I’ll need to kill it anyway because I’ll need to move storage from the internal SSD to an external 1 to have enough space to hold the metadata files!
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;parallel --jobs 8 ./get-metadata-for-1-hour.rb 2024 12 :::   3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 26 27 28 29 30 31 ::: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 &lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;26/OWIGBOGU #rt-flickr-worldwide-average-colour YAGNI :-) You Ain’t gonna need it is an overused cliche but i am going to refactor the code to download only the necessary metadata and to check the flickr status code and to randomly delay between 500ms and 4 seconds to avoid the dreaded rate limit :-) EDIT:3600 queries per hour :-)&lt;/li&gt;
-  &lt;li&gt;27/OWIGBOGU #rt-flickr-worldwide-average-colour
-    &lt;ul&gt;
-      &lt;li&gt;3600 flickr api requests per hour&lt;/li&gt;
-      &lt;li&gt;300,000 photos / 500 photos per page = 600 API queries for each hour 600 * 24 = 600*24 = 14,400 api requests for 1 day&lt;/li&gt;
-      &lt;li&gt;14400 / 3600 = 4 hours of API request for each day, so sleep &lt;del&gt;0.25&lt;/del&gt;4 seconds between API requests. Perhaps &lt;del&gt;1&lt;/del&gt; 3 seconds is more than enough margin of error since it takes time to process each of the 500 photos?!?!?&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;​&lt;/p&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;May 15, 2024: &lt;a href=&quot;http://rolandtanglao.com/2024/05/15/p2-feh-great-for-randomly-displaying-images-not-for-collages-use-imagemagick-instead/&quot;&gt;feh –randomize is great for viewing random images; not great for making collages, use imagemagick instead&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 17 Jun 2024 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2024/06/17/p1-flickr-api-delay-1-second-only-get-bare-minimum-metadata/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/06/17/p1-flickr-api-delay-1-second-only-get-bare-minimum-metadata/</guid>
         
         
       </item>
