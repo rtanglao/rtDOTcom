@@ -6,9 +6,20 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 07 Dec 2024 21:50:01 -0800</pubDate>
-    <lastBuildDate>Sat, 07 Dec 2024 21:50:01 -0800</lastBuildDate>
+    <pubDate>Sat, 07 Dec 2024 22:33:00 -0800</pubDate>
+    <lastBuildDate>Sat, 07 Dec 2024 22:33:00 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Tablecruncher – Lightweight CSV editor for your Mac via a toot from  Alex Samuel</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 7, 2024 22:27 &lt;a href=&quot;https://tablecruncher.com/&quot;&gt;Tablecruncher – Lightweight CSV editor for your Mac via a toot from  Alex Samuel&lt;/a&gt; &amp;lt;–whoah, macros in JS. Probably easier and faster to grok for non developers than miller aka mlr :-) –&amp;gt; QUOTE: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Use Javascript as a macro language to manipulate your CSV files. A simple API gives you access to all cells and you can change cell content as well as do abitrary calculations. &lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 07 Dec 2024 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2024/12/07/p2227-tablecruncher/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/07/p2227-tablecruncher/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Greg Wilson:: The Third Bit: Afraid of Change</title>
@@ -105,17 +116,6 @@
         <pubDate>Sat, 30 Nov 2024 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2024/11/30/p1811-1231/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2024/11/30/p1811-1231/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>s427/MARL: Mastodon Archive Reader Lite - a lightweight single-page app to explore the contents of your Mastodon archive file</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 30, 2024 14:52 &lt;a href=&quot;https://github.com/s427/MARL&quot;&gt;s427/MARL: Mastodon Archive Reader Lite - a lightweight single-page app to explore the contents of your Mastodon archive file&lt;/a&gt; (via https://lou.lt/@s427/113567190207673533 ) &amp;lt;– super cool –&amp;gt; &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Mastodon Archive Reader Lite - a lightweight single-page app to explore the contents of your Mastodon archive&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 30 Nov 2024 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2024/11/30/p1452-MARL/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/11/30/p1452-MARL/</guid>
         
         
       </item>
