@@ -6,9 +6,20 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 08 Dec 2024 09:00:28 -0800</pubDate>
-    <lastBuildDate>Sun, 08 Dec 2024 09:00:28 -0800</lastBuildDate>
+    <pubDate>Sun, 08 Dec 2024 09:23:46 -0800</pubDate>
+    <lastBuildDate>Sun, 08 Dec 2024 09:23:46 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Om Malik and the other guy :-):: Will A.I. Eat The Browser?</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 8, 2024 09:19 &lt;a href=&quot;https://crazystupidtech.com/archive/will-ai-eat-the-browser/&quot;&gt;Om Malik and the other guy :-):: Will A.I. Eat The Browser?&lt;/a&gt; &amp;lt;–&lt;strong&gt;Probably wrong opinion&lt;/strong&gt;: We’ll finally get the agent from the 1990s in something that vaguely resembles a web browser. We’ll use our voice as a command line and the LLM will work with us in a time consuming back and forth chat to get us what we want. For most people that will be better than using today’s web browser or today’s command line interface. For geeks they’ll use the traditional CLI and scripts and other programmatic stuff as well as the LLM agent. &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Miller’s optimism stems from the fact that the browser was able to metamorphose for mobile phones. Our mobile apps are essentially browsers with wrappers to perform specific tasks and make the internet more manageable and personalized. The next evolution might require a bit more contortion. ...As VR, AR, audio interfaces, and chat become ever more central to our daily lives — and not just for Vision Pro addicts like myself, but for everyone — the web browser’s limitations are becoming increasingly apparent.  There is no doubt in my mind that the implications of this seismic change in what a browser does, and how it works, will be felt far and wide.&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 08 Dec 2024 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2024/12/08/p0919-will-ai-eat-the-browser/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/08/p0919-will-ai-eat-the-browser/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Tablecruncher – Lightweight CSV editor for your Mac via a toot from  Alex Samuel</title>
@@ -105,17 +116,6 @@
         <pubDate>Sat, 30 Nov 2024 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2024/11/30/p1952-1119/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2024/11/30/p1952-1119/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How vips_text support unicode characters like (๑S . Y๑) and (⁎⁍̴̛ᴗ⁍̴̛⁎) #1231</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 30, 2024 18:11 &lt;a href=&quot;https://github.com/libvips/libvips/issues/1231&quot;&gt;How vips_text support unicode characters like (๑S . Y๑) and (⁎⁍̴̛ᴗ⁍̴̛⁎) #1231&lt;/a&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;require 'vips'  x = Vips::Image.text &quot;🪟❓O:❓AV:❓UC:🐈A ∥  ⊞ ≅ B&quot;, dpi:300  x.flatten(background: [255, 105, 180], max_alpha: 0) x.write_to_file &quot;x.png&quot;&lt;/code&gt;`&lt;/p&gt;
-</description>
-        <pubDate>Sat, 30 Nov 2024 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2024/11/30/p1811-1231/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/11/30/p1811-1231/</guid>
         
         
       </item>
