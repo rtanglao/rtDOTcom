@@ -1,0 +1,2 @@
+I"<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Nov 30, 2024 18:11 <a href="https://github.com/libvips/libvips/issues/1231">How vips_text support unicode characters like (๑S . Y๑) and (⁎⁍̴̛ᴗ⁍̴̛⁎) #1231</a> <code class="language-plaintext highlighter-rouge">require 'vips'  x = Vips::Image.text "🪟❓O:❓AV:❓UC:🐈A ∥  ⊞ ≅ B", dpi:300  x.flatten(background: [255, 105, 180], max_alpha: 0) x.write_to_file "x.png"</code>`</p>
+:ET

@@ -1,0 +1,2 @@
+I"�<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Nov 30, 2024 20:32  <a href="https://github.com/libvips/libvips/issues/2194">Add full colour mode to vips_text using pango · Issue #2194 github libvips/libvips</a>  &lt;– pango works in vips! –&gt; <code class="language-plaintext highlighter-rouge">vips text x.png "😀&lt;span foreground='red'&gt;red&lt;/span&gt;&lt;span background='cyan'&gt;blue&lt;/span&gt;" --dpi 300 --rgba</code></p>
+:ET

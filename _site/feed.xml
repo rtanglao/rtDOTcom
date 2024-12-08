@@ -6,8 +6,8 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 07 Dec 2024 21:35:10 -0800</pubDate>
-    <lastBuildDate>Sat, 07 Dec 2024 21:35:10 -0800</lastBuildDate>
+    <pubDate>Sat, 07 Dec 2024 21:50:01 -0800</pubDate>
+    <lastBuildDate>Sat, 07 Dec 2024 21:50:01 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -77,121 +77,45 @@
       </item>
     
       <item>
-        <title>Collapsible Sections work in jekyll github.com blogs and github pages but you need a markdown=&quot;1&quot; attribute in the details tag and markdown=&quot;span&quot; in the summary tag</title>
-        <description>&lt;h2 id=&quot;collapsible-markdown-works&quot;&gt;Collapsible markdown works&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;You need a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;markdown=&quot;1&quot;&lt;/code&gt; attribute in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;details&lt;/code&gt; tag and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;markdown=&quot;span&quot;&lt;/code&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt; &lt;/code&gt;in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;summary&lt;/code&gt; tag&lt;/li&gt;
-  &lt;li&gt;Hat tip to the folks who found this in github.com issue: &lt;a href=&quot;https://github.com/github/docs/issues/32988&quot;&gt;Update docs for “Organizing information with collapsed sections” to include GitHub Pages support #32988&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;details&gt;
-  &lt;summary&gt;Click me&lt;/summary&gt;
-  &lt;h3 id=&quot;yes-even-collapsed-code-blocks-work&quot;&gt;yes, even collapsed code blocks work&lt;/h3&gt;
-  &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;hello world!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
-&lt;/details&gt;
-
-&lt;h3 id=&quot;full-code-from-issue-32988&quot;&gt;Full code from issue 32988&lt;/h3&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;details markdown=&quot;1&quot;&amp;gt;
-
-&amp;lt;summary markdown=&quot;span&quot;&amp;gt;Tips for collapsed sections&amp;lt;/summary&amp;gt;
-
-### You can add a header
-
-You can add text within a collapsed section. 
-
-You can add an image or a code block, too.
-
-```ruby
-   puts &quot;Hello World&quot;
-\`\`\` &amp;lt;-- unescape the backslashes for your actual blog post!
-
-&amp;lt;/details&amp;gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;November 26, 2018: &lt;a href=&quot;http://rolandtanglao.com/2018/11/26/p1-collapsing-and-expanding-disclosure-triangles-using-details-summary-html-tags/&quot;&gt;HTML tags  and  can be used for expand/collapse with disclosure triangles for ‘collapsible HTML’&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+        <title>Add full colour mode to vips_text using pango · Issue #2194 github libvips/libvips</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 30, 2024 20:32  &lt;a href=&quot;https://github.com/libvips/libvips/issues/2194&quot;&gt;Add full colour mode to vips_text using pango · Issue #2194 github libvips/libvips&lt;/a&gt;  &amp;lt;– pango works in vips! –&amp;gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vips text x.png &quot;😀&amp;lt;span foreground='red'&amp;gt;red&amp;lt;/span&amp;gt;&amp;lt;span background='cyan'&amp;gt;blue&amp;lt;/span&amp;gt;&quot; --dpi 300 --rgba&lt;/code&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sat, 02 Nov 2024 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2024/11/02/p1-collapsible-sections-details-html-tag-test/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/11/02/p1-collapsible-sections-details-html-tag-test/</guid>
+        <pubDate>Sat, 30 Nov 2024 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2024/11/30/p2032-2194/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/11/30/p2032-2194/</guid>
         
         
       </item>
     
       <item>
-        <title>Bodensee / Lake Constance circumnavigation / ride around the lake Strava routes &amp; GPX files for anybody riding around the Bodensee in the future! Do not follow, for planning only! To help make up for the lack of GPX files from Radweg Reisen and my lack of map / wayfinding skills</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;As seen on Mastodon :-)  at &lt;a href=&quot;https://devdilettante.com/@roland/113334906051980251&quot;&gt;devdilettante.com/@roland/113334906051980251&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;1. Bodensee Bummel Day 1 route: Bodensee Bummel: Hotel Ko’ono, Konstanz -&amp;gt; Gailingen am Hochrein (&lt;a href=&quot;https://drive.google.com/file/d/1d4YJmoGz6i6LVxq7FSUYpo0yD_gQx3L3/view?usp=sharing&quot;&gt;Day 1 GPX file in Google Drive&lt;/a&gt;) &amp;lt;– &lt;a href=&quot;https://www.strava.com/routes/3282752547101555878&quot;&gt;www.strava.com/routes/3282752547101555878 &lt;/a&gt; Please don’t follow this route :-) because we ended up on the road too much because we didn’t have a GPX file in advance like this. Instead, use it to plan yours :-) And hopefully someday somebody will do a proper route that avoids traffic as much as possible (I bet somebody else has already done so and I hope Radweg Reisen provides the GPX files to future customers which I see other bicycle tour companies e.g. UTracks provides a  &lt;a href=&quot;https://www.utracks.com/Spain/Self-Guided-Cycling/Spanish-Camino-by-Bike-Leon-to-Santiago&quot;&gt;Digital information pack with route notes &amp;amp; GPX for their Spanish Camino bicycle tour&lt;/a&gt; ). And yes I should learn how to use paper maps (but I bet i am not the only one who would pay extra for GPX files on bicycle tours) and not rely on digital whinge whinge, &lt;a href=&quot;https://en.wikipedia.org/wiki/Deskilling&quot;&gt;deskilling&lt;/a&gt; etc etc :-)&lt;/li&gt;
-  &lt;li&gt;2. Bodensee Bummel Day 2 route: Bodensee Bummel: Gailingen am Hochrein -&amp;gt; Überlingen &amp;lt;– &lt;a href=&quot;https://strava.com/routes/3282759657221707238&quot;&gt;strava.com/routes/3282759657221707238&lt;/a&gt; (&lt;a href=&quot;https://drive.google.com/file/d/1e-DIj3oQOo-Ry3UPwYV5q5ewmiapZ9nK/view?usp=sharing&quot;&gt;Day 2 GPX file&lt;/a&gt;): Please don’t follow this route :-) because we ended up on the road too much because we didn’t have a GPX file in advance like this. Instead, use it to plan yours :-)&lt;/li&gt;
-  &lt;li&gt;3.  Day 3
-    &lt;ul&gt;
-      &lt;li&gt;3.1 Bodensee Bummel: Day 3 Part 1 Bodensee Bummel: Überlingen -&amp;gt; Fishbach, Friedrichshafen  &lt;a href=&quot;https://strava.com/routes/3282833367325959334&quot;&gt;strava.com/routes/3282833367325959334&lt;/a&gt; (&lt;a href=&quot;https://drive.google.com/file/d/1ovZz-JXbWp6GypyRytspvN-beMSxVOnV/view?usp=sharing&quot;&gt;Day 3 Part 1 GPX file&lt;/a&gt;) Please don’t follow this route :-)  etc etc :-)&lt;/li&gt;
-      &lt;li&gt;3.2 Bodensee Bummel: Day 3 Part 2 Bodensee Bummel: Day 3 Part 2: Fishbach,  Friedrichshafen -&amp;gt; Kressbronn (&lt;a href=&quot;https://drive.google.com/file/d/1-hZInoOANwInN4MpjhAhgzDSRfM2tLMN/view?usp=sharing&quot;&gt;Day 3 Part 2 GPX file&lt;/a&gt;):  Please don’t follow this route :-)  etc etc :-)  &lt;a href=&quot;https://www.strava.com/routes/3282834608474893990&quot;&gt;www.strava.com/routes/3282834608474893990&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;4.  Bodensee Bummel: Day 4: Bodensee Bummel: Kressbronn -&amp;gt; Höchst, Austria (&lt;a href=&quot;https://drive.google.com/file/d/12uHXbxcfOdKMj-AEBbzxE_yC2MTQMcY8/view?usp=sharing&quot;&gt;Day 4 GPX file&lt;/a&gt;): Please don’t follow this route :-) etc etc :-)   &lt;a href=&quot;https://www.strava.com/routes/3282835839360900774&quot;&gt;strava.com/routes/3282835839360900774&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;5. Bodensee Bummel: Day 5: Höchst, Austria -&amp;gt; Hotel Ko’Ono Litzelstetten, Konstanz, Germany (&lt;a href=&quot;https://drive.google.com/file/d/1nqGMeCEtaYQFX2SXkzCaGgMb4JqpCvCt/view?usp=sharing&quot;&gt;Day 5 GPX file&lt;/a&gt;): &lt;a href=&quot;https://www.strava.com/routes/3282836840272815270&quot;&gt;strava.com/routes/3282836840272815270)&lt;/a&gt; Please don’t follow this route :-) etc etc :-)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;October 14, 2024: &lt;a href=&quot;http://rolandtanglao.com/2024/10/14/p1-bodensee-bicycle-ride-fabulous-despite-bad-wayfinding/&quot;&gt;Bodensee Bicycle Ride with Radweg Reisen tours: Fabulous except for bad wayfinding&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+        <title>github libvips issue: Changing color of background on vips_text · Issue #1119</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 30, 2024 19:52 &lt;a href=&quot;https://github.com/libvips/libvips/issues/1119&quot;&gt;github libvips issue: Changing color of background on vips_text · Issue #1119&lt;/a&gt;  · libvips/libvips –&amp;gt; ruby code: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;require 'vips' ...  x = Vips::Image.text &quot;🪟❓O:❓AV:❓UC:🐈A ∥  ⊞ ≅ B&quot; ... y = x.ifthenelse([0, 0, 0], [255, 192, 203], blend: true) #foreground black, background pink ... y.write_to_file &quot;y.png&quot; &lt;/code&gt; &amp;lt;–  command line &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vips text out.png  &quot;&amp;lt;0001fa9f&amp;gt;❓O:❓AV:❓UC:🐈A ∥ ⊞ ≅ B&quot;&lt;/code&gt;&lt;/p&gt;
 </description>
-        <pubDate>Fri, 25 Oct 2024 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2024/10/25/p1-bodensee-lake-constance-circumnavigation-bicycle-tour-gpx-files/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/10/25/p1-bodensee-lake-constance-circumnavigation-bicycle-tour-gpx-files/</guid>
+        <pubDate>Sat, 30 Nov 2024 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2024/11/30/p1952-1119/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/11/30/p1952-1119/</guid>
         
         
       </item>
     
       <item>
-        <title>Got my 6th COVID and yearly flu vaccination text message at 3:05p.m., made an appointment for 5:05 p.m.. All done! Yay! #GoScienceGo!</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;Received Moderna and the 2024 flu shot  at the Save-On at Kingsway and Knight. They are doing walk-ins 11-5p.m. (closed for lunch 130-2pm) for the next few days.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;October 14, 2023: &lt;a href=&quot;http://rolandtanglao.com/2023/10/14/p1-5th-vaccination-moderna-bivalent-booster-go-science-go/&quot;&gt;Got my 5th vaccination today: Moderna bivalent booster for 2023 plus the 2023 flu vaccine, go science go! #VaccinateThePlanet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+        <title>How vips_text support unicode characters like (๑S . Y๑) and (⁎⁍̴̛ᴗ⁍̴̛⁎) #1231</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 30, 2024 18:11 &lt;a href=&quot;https://github.com/libvips/libvips/issues/1231&quot;&gt;How vips_text support unicode characters like (๑S . Y๑) and (⁎⁍̴̛ᴗ⁍̴̛⁎) #1231&lt;/a&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;require 'vips'  x = Vips::Image.text &quot;🪟❓O:❓AV:❓UC:🐈A ∥  ⊞ ≅ B&quot;, dpi:300  x.flatten(background: [255, 105, 180], max_alpha: 0) x.write_to_file &quot;x.png&quot;&lt;/code&gt;`&lt;/p&gt;
 </description>
-        <pubDate>Mon, 21 Oct 2024 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2024/10/21/p1-covid-19-6th-vaccination-moderna-booster-go-science-go/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/10/21/p1-covid-19-6th-vaccination-moderna-booster-go-science-go/</guid>
+        <pubDate>Sat, 30 Nov 2024 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2024/11/30/p1811-1231/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/11/30/p1811-1231/</guid>
         
         
       </item>
     
       <item>
-        <title>Extract Month and Year from timestamp in BigQuery using SQL EXTRACT, YEAR, MONTH, CONCAT, CAST, LPAD</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Aug 8, 2024 00:29  &lt;a href=&quot;https://stackoverflow.com/questions/48206963/extract-month-and-year-from-timestamp-in-bigquery&quot;&gt;Extract Month and Year from timestamp in Bigquery - Stack Overflow&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Answering the title of the question as probably others will end up here like me looking for a way to create a YYYYMM year-month from a BigQuery timestamp. ... This is the code I ended up with in standard SQL:&lt;/code&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;CONCAT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;CAST&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;EXTRACT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;YEAR&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;timestamp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;LPAD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;CAST&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;EXTRACT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;MONTH&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;timestamp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;asstring&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'0'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;yearmonth&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;^^– I’ll probably need this Eines Tages!&lt;/p&gt;
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;May 25, 2020: &lt;a href=&quot;http://rolandtanglao.com/2020/05/25/p3-sqlite-sql-query-to-get-all-questions-01may2020-25may2020-title-tag-content-contain-sync/&quot;&gt;HowTo: SQLite SQL query to get all May 1-25, 2020 Firefox desktop en-us questions that contain sync in title, content or tags columns&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+        <title>s427/MARL: Mastodon Archive Reader Lite - a lightweight single-page app to explore the contents of your Mastodon archive file</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 30, 2024 14:52 &lt;a href=&quot;https://github.com/s427/MARL&quot;&gt;s427/MARL: Mastodon Archive Reader Lite - a lightweight single-page app to explore the contents of your Mastodon archive file&lt;/a&gt; (via https://lou.lt/@s427/113567190207673533 ) &amp;lt;– super cool –&amp;gt; &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Mastodon Archive Reader Lite - a lightweight single-page app to explore the contents of your Mastodon archive&lt;/code&gt;&lt;/p&gt;
 </description>
-        <pubDate>Thu, 17 Oct 2024 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2024/10/17/p1-extract-month-year-google-bigquery/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/10/17/p1-extract-month-year-google-bigquery/</guid>
+        <pubDate>Sat, 30 Nov 2024 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2024/11/30/p1452-MARL/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/11/30/p1452-MARL/</guid>
         
         
       </item>
