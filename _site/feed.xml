@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 08 Dec 2024 09:23:46 -0800</pubDate>
-    <lastBuildDate>Sun, 08 Dec 2024 09:23:46 -0800</lastBuildDate>
+    <pubDate>Sun, 08 Dec 2024 21:22:51 -0800</pubDate>
+    <lastBuildDate>Sun, 08 Dec 2024 21:22:51 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Michael Nielsen:  How to be a wise optimist about science and technology? Do work on non-market safety. Do work on differential technology development, especially how to better align civilization with DTD. There's a hubris in pessimism, agreed!</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 8, 2024 21:03 &lt;a href=&quot;https://michaelnotebook.com/optimism/&quot;&gt;Michael Nielsen:  How to be a wise optimist about science and technology? Do work on non-market safety. Do work on differential technology development, especially how to better align civilization with DTD. There’s a hubris in pessimism, agreed!&lt;/a&gt; &amp;lt;– Wow! Bravo read the whole thing! –&amp;gt; &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;What, then, of the question of the title: how to be a wise optimist about science and technology? My condensed, provisional, personal answers: Do work on non-market safety. Do work on differential technology development, especially how to better align civilization with DTD. (I won't be individually prescriptive, since work on DTD will mean different things for different people, including: work on climate, on biosafety, on nuclear safety, on ways of improving the commons in general, on developing new amplifiers to modulate capitalism.) Despite the temptation and the honeyed words, don't work for AGI organizations unless they are making major sacrifices for non-market safety. Right now, it's not clear that includes any of the major companies. Finally: which world to choose: the precautionary world or the posthuman world? I'd say &quot;posthuman world&quot; if I felt confident that the organizations which aim to bring that world into existence were doing so in a way that prioritized non-market safety. But, as I said, right now I don't feel confident in that at all. I hope I'm wrong about that, and very much hope it's possible to help foster such a world. ... Is this enough for optimism? I think so. I don't see a guaranteed solution – but then, if the problem were easy, it would already have been solved! As I said earlier, there's often hubris in pessimism. The point is well made by Richard Feynman, recounting his mistaken pessimism about the future in response to the bombing of Hiroshima and Nagasaki, and his eventual belief that it's better to keep taking small optimistic steps, even in the face of daunting odds: ... [After returning from the Manhattan Project] I sat in a restaurant in New York… and I looked out at the buildings and I began to think, you know, about how much the radius of the Hiroshima bomb damage was and so forth… All those buildings, all smashed – and so on. And I would go along and I would see people building a bridge, or they'd be making a new road, and I thought, they're crazy, they just don't understand, they don't understand. Why are they making new things? It's so useless. But, fortunately, it's been useless for almost forty years now, hasn't it? So I've been wrong about it being useless making bridges and I'm glad those other people had the sense to go ahead. ... Let me conclude with some key takeaways from the essay:&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously:&lt;/h2&gt;
+
+&lt;p&gt;October 25, 2018: &lt;a href=&quot;http://rolandtanglao.com/2018/10/25/p1-machine-learning-for-consumer-software-support-folks/&quot;&gt;Anybody have any case studies about machine learning for supporting consumer software and state of the art consumer software support in 2018?&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 08 Dec 2024 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2024/12/08/p2103-optimism/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/08/p2103-optimism/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Om Malik and the other guy :-):: Will A.I. Eat The Browser?</title>
@@ -105,17 +120,6 @@
         <pubDate>Sat, 30 Nov 2024 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2024/11/30/p2032-2194/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2024/11/30/p2032-2194/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>github libvips issue: Changing color of background on vips_text · Issue #1119</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 30, 2024 19:52 &lt;a href=&quot;https://github.com/libvips/libvips/issues/1119&quot;&gt;github libvips issue: Changing color of background on vips_text · Issue #1119&lt;/a&gt;  · libvips/libvips –&amp;gt; ruby code: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;require 'vips' ...  x = Vips::Image.text &quot;🪟❓O:❓AV:❓UC:🐈A ∥  ⊞ ≅ B&quot; ... y = x.ifthenelse([0, 0, 0], [255, 192, 203], blend: true) #foreground black, background pink ... y.write_to_file &quot;y.png&quot; &lt;/code&gt; &amp;lt;–  command line &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vips text out.png  &quot;&amp;lt;0001fa9f&amp;gt;❓O:❓AV:❓UC:🐈A ∥ ⊞ ≅ B&quot;&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 30 Nov 2024 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2024/11/30/p1952-1119/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/11/30/p1952-1119/</guid>
         
         
       </item>
