@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 08 Dec 2024 21:30:34 -0800</pubDate>
-    <lastBuildDate>Sun, 08 Dec 2024 21:30:34 -0800</lastBuildDate>
+    <pubDate>Mon, 09 Dec 2024 18:17:56 -0800</pubDate>
+    <lastBuildDate>Mon, 09 Dec 2024 18:17:56 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Rclone: command-line program to manage files on cloud storage.</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 9, 2024 18:09 &lt;a href=&quot;https://rclone.org/&quot;&gt;Rclone: command-line program to manage files on cloud storage.&lt;/a&gt; &amp;lt;– via Danny Colin in Matrix chat, sounds great! –&amp;gt; &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Rclone is a command-line program to manage files on cloud storage. It is a feature-rich alternative to cloud vendors' web storage interfaces. Over 70 cloud storage products support rclone including S3 object stores, business &amp;amp; consumer file storage services, as well as standard transfer protocols.&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2024/04/29/p1-backup-wordpress-blog-httrack/&quot;&gt;How I used httrack to backup my Wordpress blog barbandroland.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 09 Dec 2024 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2024/12/09/p1809-rclone-command-line-backup-to-cloud/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/09/p1809-rclone-command-line-backup-to-cloud/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Michael Nielsen:  How to be a wise optimist about science and technology? Do work on non-market safety. Do work on differential technology development, especially how to better align civilization with DTD. There's a hubris in pessimism, agreed!</title>
@@ -109,17 +124,6 @@
         <pubDate>Sat, 30 Nov 2024 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2024/11/30/p2032-how-to-add-spacing-between-characters-in-text-using-vips/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2024/11/30/p2032-how-to-add-spacing-between-characters-in-text-using-vips/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Add full colour mode to vips_text using pango · Issue #2194 github libvips/libvips</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 30, 2024 20:32  &lt;a href=&quot;https://github.com/libvips/libvips/issues/2194&quot;&gt;Add full colour mode to vips_text using pango · Issue #2194 github libvips/libvips&lt;/a&gt;  &amp;lt;– pango works in vips! –&amp;gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vips text x.png &quot;😀&amp;lt;span foreground='red'&amp;gt;red&amp;lt;/span&amp;gt;&amp;lt;span background='cyan'&amp;gt;blue&amp;lt;/span&amp;gt;&quot; --dpi 300 --rgba&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 30 Nov 2024 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2024/11/30/p2032-2194/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/11/30/p2032-2194/</guid>
         
         
       </item>
