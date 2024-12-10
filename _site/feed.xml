@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 10 Dec 2024 07:43:05 -0800</pubDate>
-    <lastBuildDate>Tue, 10 Dec 2024 07:43:05 -0800</lastBuildDate>
+    <pubDate>Tue, 10 Dec 2024 15:25:35 -0800</pubDate>
+    <lastBuildDate>Tue, 10 Dec 2024 15:25:35 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Me:: what's the cheapest 64GB laptop that will run Llama 3.3 70B  ?  #AskingForAFriend :-) Simon Willison:: I can now run a GPT-4 class model on my laptop</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 10, 2024 15:24 &lt;a href=&quot;https://simonwillison.net/2024/Dec/9/llama-33-70b/&quot;&gt;Me:: what’s the cheapest 64GB laptop that will run Llama 3.3 70B  ?  #AskingForAFriend :-) Simon Willison:: I can now run a GPT-4 class model on my laptop&lt;/a&gt; &amp;lt;– QUOTE: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Meta’s new Llama 3.3 70B is a genuinely GPT-4 class Large Language Model that runs on my laptop. ... Just 20 months ago I was amazed to see something that felt GPT-3 class run on that same machine. The quality of models that are accessible on consumer hardware has improved dramatically in the past two years. ... My laptop is a 64GB MacBook Pro M2, which I got in January 2023—two months after the initial release of ChatGPT. All of my experiments running LLMs on a laptop have used this same machine.&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;May 21, 2023 &lt;a href=&quot;http://rolandtanglao.com/2023/05/21/p1-intrinsic-biases-extrinsic-harms-foundation-ai-models/&quot;&gt;ChatGPT and other ‘AI’ models representational bias: misrepresentation, underrepresentation and overrepresentation; extrinsic harms: representational, performance disparities from ‘On the Opportunities and Risks of Foundation Models’ (2021) &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 10 Dec 2024 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2024/12/10/p1524-llama-33-70b/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/10/p1524-llama-33-70b/</guid>
+        
+        
+      </item>
     
       <item>
         <title>There is no safe crossing at 20th and Clark/Knight.  Transit app's Vancouver bicycle directions still steer you into dangerous situations.</title>
@@ -118,17 +135,6 @@
         <pubDate>Tue, 03 Dec 2024 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2024/12/03/p0736-dead-internet-souls/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2024/12/03/p0736-dead-internet-souls/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Jason Velaquez:: Bluesky may have the juice, but we don't have to drink the Kool-Aid</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 3, 2024 07:31 &lt;a href=&quot;https://www.fromjason.xyz/p/notebook/bluesky-may-have-the-juice-but-we-don-t-have-to-drink-the-kool-aid/&quot;&gt;Jason Velaquez:: Bluesky may have the juice, but we don’t have to drink the Kool-Aid&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Communities cultivate. Markets extract. Cultivators make decisions based on what is best for the community. Extractors make the number go up. Communities can have markets, of course. But when markets run the community, we end up with the Internet we have today. Markets had their shot and they f🇺cked it up. It's time we brought back the virtual community.&lt;/code&gt; &amp;lt;– Amen! Read the whole thing :-)&lt;/p&gt;
-</description>
-        <pubDate>Tue, 03 Dec 2024 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2024/12/03/p0731-bluesky-may-have-the-juice-but-we-don-t-have-to-drink-the-kool-aid/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/03/p0731-bluesky-may-have-the-juice-but-we-don-t-have-to-drink-the-kool-aid/</guid>
         
         
       </item>
