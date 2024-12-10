@@ -6,9 +6,36 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 09 Dec 2024 18:17:56 -0800</pubDate>
-    <lastBuildDate>Mon, 09 Dec 2024 18:17:56 -0800</lastBuildDate>
+    <pubDate>Tue, 10 Dec 2024 07:43:05 -0800</pubDate>
+    <lastBuildDate>Tue, 10 Dec 2024 07:43:05 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>There is no safe crossing at 20th and Clark/Knight.  Transit app's Vancouver bicycle directions still steer you into dangerous situations.</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 10, 2024. 07:33 &lt;a href=&quot;https://transitapp.com/en/region/vancouver&quot;&gt;There is no safe crossing at 20th and Clark/Knight.  Transit app’s Vancouver bicycle directions still steer you into dangerous situations.&lt;/a&gt; &amp;lt;– The safe crossing is at 19th and Clark/Knight. Perhaps this is due to the database not being updated? I need to enter my safe Vancouver street crossings info (see &lt;a href=&quot;http://rolandtanglao.com/2024/10/14/p2-vancouver-safe-bicycle-crossings/&quot;&gt;Safe Vancouver Bicycle crossings&lt;/a&gt; into Open Street Maps. Hopefully Transit app reads from Open Street Maps.&lt;/p&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;November 18, 2024: &lt;a href=&quot;http://rolandtanglao.com/2024/11/18/p2252-go-bike/&quot;&gt;Transit app is now a bike app, too&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 10 Dec 2024 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2024/12/10/p0733-vancouver/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/10/p0733-vancouver/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Guangchuang Yu:: How to use ggimage to plot PNGs instead of points in ggplot2</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 9, 2024 19:56 &lt;a href=&quot;https://yulab-smu.top/pkgdocs/ggimage.html&quot;&gt;Guangchuang Yu:: How to use ggimage to plot PNGs instead of points in ggplot2&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ggplot(d, aes(x, y)) + geom_image(aes(image=image), size=.05)&lt;/code&gt; via Stack Overflow: &lt;a href=&quot;https://stackoverflow.com/questions/2181902/how-to-use-an-image-as-a-point-in-ggplot&quot;&gt;How to use an image as a point in ggplot&lt;/a&gt;? To do it in python with matplotlib see https://www.tutorialspoint.com/how-to-use-a-custom-png-image-marker-in-a-plot-matplotlib&lt;/p&gt;
+</description>
+        <pubDate>Mon, 09 Dec 2024 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2024/12/09/p1956-ggimage.html/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/09/p1956-ggimage.html/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Rclone: command-line program to manage files on cloud storage.</title>
@@ -102,28 +129,6 @@
         <pubDate>Tue, 03 Dec 2024 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2024/12/03/p0731-bluesky-may-have-the-juice-but-we-don-t-have-to-drink-the-kool-aid/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2024/12/03/p0731-bluesky-may-have-the-juice-but-we-don-t-have-to-drink-the-kool-aid/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Fred's ImageMagick Scripts: SHUFFLE  Randomly shuffles positions of square sized tiles in an image. </title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 1, 2024 06:38 &lt;a href=&quot;http://www.fmwconcepts.com/imagemagick/shuffle/index.php&quot;&gt;Fred’s ImageMagick Scripts: SHUFFLE  Randomly shuffles positions of square sized tiles in an image. &lt;/a&gt; &amp;lt;– I’ve written Ruby code to do this in the past, oops. But then again maybe this doesn’t work in imagemagick version 7?!? Awesome if it did!&lt;/p&gt;
-</description>
-        <pubDate>Sun, 01 Dec 2024 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2024/12/01/p0638-index.php/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/01/p0638-index.php/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>c - How to add spacing between characters in text using VIPS? - Stack Overflow</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 30, 2024 20:32 &lt;a href=&quot;https://stackoverflow.com/questions/59506844/how-to-add-spacing-between-characters-in-text-using-vips&quot;&gt;c - How to add spacing between characters in text using VIPS? - Stack Overflow&lt;/a&gt; &amp;lt;– colour output is now supported –&amp;gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vips text x.png '&amp;lt;span letter_spacing=&quot;10000&quot;&amp;gt;Hello!&amp;lt;/span&amp;gt;' --dpi 300&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 30 Nov 2024 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2024/11/30/p2032-how-to-add-spacing-between-characters-in-text-using-vips/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/11/30/p2032-how-to-add-spacing-between-characters-in-text-using-vips/</guid>
         
         
       </item>
