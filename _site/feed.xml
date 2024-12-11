@@ -6,9 +6,34 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 10 Dec 2024 19:36:54 -0800</pubDate>
-    <lastBuildDate>Tue, 10 Dec 2024 19:36:54 -0800</lastBuildDate>
+    <pubDate>Wed, 11 Dec 2024 07:45:56 -0800</pubDate>
+    <lastBuildDate>Wed, 11 Dec 2024 07:45:56 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Me:: Generative AI is hard to use (Super subtle nuance: Code Interpreter can't make API requests; Canvas can't access uploaded files) like Excel but you only need to use a small portion of their features to benefit Simon Willison:: ChatGPT Canvas can make API requests now, but it’s complicated</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 11, 2024 07:33  &lt;a href=&quot;https://simonwillison.net/2024/Dec/10/chatgpt-canvas/&quot;&gt;Me:: Generative AI is hard to use (Super subtle nuance: Code Interpreter can’t make API requests; Canvas can’t access uploaded files) like Excel but you only need to use a small portion of their features to benefit Simon Willison:: ChatGPT Canvas can make API requests now, but it’s complicated&lt;/a&gt;  &amp;lt;– The API stuff as of December 11, 2024 appears super hard to use.&lt;/p&gt;
+
+&lt;p&gt;Read the Whole Thing -&amp;gt;  &lt;a href=&quot;https://simonwillison.net/2024/Dec/10/chatgpt-canvas/&quot;&gt;Simon Willison:: ChatGPT Canvas can make API requests now, but it’s complicated&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+This is really, really confusing
+
+Do you find this all hopelessly confusing? I don’t blame you. I’m a professional web developer and a Python engineer of 20+ years and I can just about understand and internalize the above set of rules.
+
+I don’t really have any suggestions for where we go from here. This stuff is hard to use. The more features and capabilities we pile onto these systems the harder it becomes to obtain true mastery of them and really understand what they can do and how best to put them into practice.
+
+Maybe this doesn’t matter? I don’t know anyone with true mastery of Excel—to the point where they could compete in last week’s Microsoft Excel World Championship—and yet plenty of people derive enormous value from Excel despite only scratching the surface of what it can do.
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Wed, 11 Dec 2024 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2024/12/11/p0733-chatgpt-canvas/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/11/p0733-chatgpt-canvas/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Alex Samuel:: Should You Write with Gen AI? Me tl;dring: yes but don't use it for the first draft, instead ask it to give you an outline or better yet revise your first rough draft</title>
@@ -124,17 +149,6 @@
         <pubDate>Wed, 04 Dec 2024 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2024/12/04/p0719-afraid-of-change/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2024/12/04/p0719-afraid-of-change/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Nic Morales:: Cost of Convenience, a Wireless Shifting Review - BIKEPACKING.com</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 4, 2024 07:15 &lt;a href=&quot;https://bikepacking.com/plog/cost-of-convenience-wireless-shifting-review/&quot;&gt;Nic Morales:: Cost of Convenience, a Wireless Shifting Review - BIKEPACKING.com&lt;/a&gt; &amp;lt;– can we invent electronic shifting that doesn’t require lithium batteries and complicated and bug prone proprietary software? I think so but there’s no will :-) –&amp;gt; &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;I can’t answer all those questions. And living in a world that has normalized such energy usage is complex. I’m typing this on a computer powered by lithium batteries while sitting next to a phone powered by lithium batteries and being kept cool by a window unit A/C powered by electricity. But if we have to qualify and exonerate every potential criticism of new technologies through the sometimes unavoidable missteps of our current circumstance, we’ll never make anything better. I’m not proposing an unimpeachable solution to the moral and material ailments of our society—I’m 29 years old, I don’t know anything. I’m questioning the unnecessary complication of an activity that has meaningfully improved my life through the inherently revolutionary nature of its existence. &lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 04 Dec 2024 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2024/12/04/p0715-cost-of-convenience-wireless-shifting-review/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/04/p0715-cost-of-convenience-wireless-shifting-review/</guid>
         
         
       </item>
