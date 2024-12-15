@@ -6,9 +6,30 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 14 Dec 2024 21:05:09 -0800</pubDate>
-    <lastBuildDate>Sat, 14 Dec 2024 21:05:09 -0800</lastBuildDate>
+    <pubDate>Sat, 14 Dec 2024 21:25:10 -0800</pubDate>
+    <lastBuildDate>Sat, 14 Dec 2024 21:25:10 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>microsoft/markitdown: Python tool for converting files and office documents e.g. PDF, Word, Excel, Images, Audio, speech transcription, html including Wikipedia, csv, json, json, xml to Markdown.</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 14, 2024 21:17 &lt;a href=&quot;https://github.com/microsoft/markitdown&quot;&gt;microsoft/markitdown: Python tool for converting files and office documents e.g. PDF, Word, Excel, Images, Audio, speech transcription, html including Wikipedia, csv, json, json, xml to Markdown.&lt;/a&gt; via &lt;a href=&quot;https://daringfireball.net/linked/2024/12/13/markitdown&quot;&gt;Daring Fireball via MarkItDown: Python Tool for Converting Files and Office Documents to Markdown&lt;/a&gt; &amp;lt;– sounds great!&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The MarkItDown library is a utility tool for converting various files to Markdown (e.g., for indexing, text analysis, etc.)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It presently supports:  PDF (.pdf), PowerPoint (.pptx), Word (.docx), Excel (.xlsx), Images (EXIF metadata, and OCR), Audio (EXIF metadata, and speech transcription), HTML (special handling of Wikipedia, etc.), Various other text-based formats (csv, json, xml, etc.)&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sat, 14 Dec 2024 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2024/12/14/p2117-markitdown/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/14/p2117-markitdown/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Me:: ML should belong to governments like nuclear fission and fusion Alexander Hartley:: To Whom Does the World Belong? - Boston Review</title>
@@ -167,22 +188,6 @@ Maybe this doesn’t matter? I don’t know anyone with true mastery of Excel—
         <pubDate>Tue, 10 Dec 2024 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2024/12/10/p1524-llama-33-70b/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2024/12/10/p1524-llama-33-70b/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>There is no safe crossing at 20th and Clark/Knight.  Transit app's Vancouver bicycle directions still steer you into dangerous situations.</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 10, 2024. 07:33 &lt;a href=&quot;https://transitapp.com/en/region/vancouver&quot;&gt;There is no safe crossing at 20th and Clark/Knight.  Transit app’s Vancouver bicycle directions still steer you into dangerous situations.&lt;/a&gt; &amp;lt;– The safe crossing is at 19th and Clark/Knight. Perhaps this is due to the database not being updated? I need to enter my safe Vancouver street crossings info (see &lt;a href=&quot;http://rolandtanglao.com/2024/10/14/p2-vancouver-safe-bicycle-crossings/&quot;&gt;Safe Vancouver Bicycle crossings&lt;/a&gt; into Open Street Maps. Hopefully Transit app reads from Open Street Maps.&lt;/p&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;November 18, 2024: &lt;a href=&quot;http://rolandtanglao.com/2024/11/18/p2252-go-bike/&quot;&gt;Transit app is now a bike app, too&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 10 Dec 2024 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2024/12/10/p0733-vancouver/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/10/p0733-vancouver/</guid>
         
         
       </item>
