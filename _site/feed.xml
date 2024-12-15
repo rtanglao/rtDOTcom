@@ -6,9 +6,20 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 14 Dec 2024 21:25:10 -0800</pubDate>
-    <lastBuildDate>Sat, 14 Dec 2024 21:25:10 -0800</lastBuildDate>
+    <pubDate>Sun, 15 Dec 2024 07:56:20 -0800</pubDate>
+    <lastBuildDate>Sun, 15 Dec 2024 07:56:20 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Me:: 2030 is when folks don't realize they're browsing a fake internet using GenAI generated pages raganwald 🍓::  'How long before G⭕ogle goes back to showing you search results, but every result on the front page is generated in real-time by GenAI? How long before a large population of users think that they're browsing `the web`, but it's all fake pages written just for them at that moment?' - mastodon@bau-ha.us</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 15, 2024 07:22 &lt;a href=&quot;https://social.bau-ha.us/@raganwald/113657396478306139&quot;&gt;Me:: 2030 is when folks don’t realize they’re browsing a fake internet using GenAI generated pages raganwald 🍓::  “How long before G⭕ogle goes back to showing you search results, but every result on the front page is generated in real-time by GenAI? How long before a large population of users think that they’re browsing “the web,” but it’s all fake pages written just for them at that moment?” - mastodon@bau-ha.us&lt;/a&gt;  &amp;lt;– Sadly I think that moment has already arrived for some folks using GenAI.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 15 Dec 2024 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2024/12/15/p0722-113657396478306139-browsing-fake-genai-generated-internet-2030/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/15/p0722-113657396478306139-browsing-fake-genai-generated-internet-2030/</guid>
+        
+        
+      </item>
     
       <item>
         <title>microsoft/markitdown: Python tool for converting files and office documents e.g. PDF, Word, Excel, Images, Audio, speech transcription, html including Wikipedia, csv, json, json, xml to Markdown.</title>
@@ -171,23 +182,6 @@ Maybe this doesn’t matter? I don’t know anyone with true mastery of Excel—
         <pubDate>Tue, 10 Dec 2024 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2024/12/10/p1928-should-you-write-with-gen-ai/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2024/12/10/p1928-should-you-write-with-gen-ai/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Me:: what's the cheapest 64GB laptop that will run Llama 3.3 70B  ?  #AskingForAFriend :-) Simon Willison:: I can now run a GPT-4 class model on my laptop</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 10, 2024 15:24 &lt;a href=&quot;https://simonwillison.net/2024/Dec/9/llama-33-70b/&quot;&gt;Me:: what’s the cheapest 64GB laptop that will run Llama 3.3 70B  ?  #AskingForAFriend :-) Simon Willison:: I can now run a GPT-4 class model on my laptop&lt;/a&gt; &amp;lt;– QUOTE: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Meta’s new Llama 3.3 70B is a genuinely GPT-4 class Large Language Model that runs on my laptop. ... Just 20 months ago I was amazed to see something that felt GPT-3 class run on that same machine. The quality of models that are accessible on consumer hardware has improved dramatically in the past two years. ... My laptop is a 64GB MacBook Pro M2, which I got in January 2023—two months after the initial release of ChatGPT. All of my experiments running LLMs on a laptop have used this same machine.&lt;/code&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;May 21, 2023 &lt;a href=&quot;http://rolandtanglao.com/2023/05/21/p1-intrinsic-biases-extrinsic-harms-foundation-ai-models/&quot;&gt;ChatGPT and other ‘AI’ models representational bias: misrepresentation, underrepresentation and overrepresentation; extrinsic harms: representational, performance disparities from ‘On the Opportunities and Risks of Foundation Models’ (2021) &lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 10 Dec 2024 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2024/12/10/p1524-llama-33-70b/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/10/p1524-llama-33-70b/</guid>
         
         
       </item>
