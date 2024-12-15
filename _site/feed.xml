@@ -6,9 +6,34 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 13 Dec 2024 08:12:04 -0800</pubDate>
-    <lastBuildDate>Fri, 13 Dec 2024 08:12:04 -0800</lastBuildDate>
+    <pubDate>Sat, 14 Dec 2024 21:05:09 -0800</pubDate>
+    <lastBuildDate>Sat, 14 Dec 2024 21:05:09 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Me:: ML should belong to governments like nuclear fission and fusion Alexander Hartley:: To Whom Does the World Belong? - Boston Review</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 13, 2024 09:25 &lt;a href=&quot;https://www.bostonreview.net/articles/to-whom-does-the-world-belong&quot;&gt;Me:: ML should belong to governments like nuclear fission and fusion Alexander Hartley:: To Whom Does the World Belong? - Boston Review&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing:: &lt;a href=&quot;https://www.bostonreview.net/articles/to-whom-does-the-world-belong&quot;&gt;To Whom Does the World Belong? - Boston Review&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We may wish to consider a still more fundamental question. If AI is as potentially capital-accumulating, dangerous, and powerful as its developers claim, should we allow private companies to hold patents on this technology at all? If the idea seems crazy, that’s only a sign of our neoliberal times. Entrepreneur Charles Jennings, himself a former tech CEO, draws a comparison between AI and nuclear fission and fusion. When Harry Truman created the Atomic Energy Commission (AEC) in 1946, he concentrated ownership and authority over nuclear power in an arm of government relatively insulated from day-to-day politics. The federal government’s role in nationalizing nuclear weapons was that of owner, not operator—it outsourced most of the work. The military possessed finished bombs, Westinghouse built and operated nuclear energy plants, but the AEC controlled the core and had all the leverage.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;AI pioneer Geoffrey Hinton fears what nationalization would mean in the hands of figures like D⭕nald Tr🇺mp, Vl🅰dimir P🇺tin, and Xi JInping. Here the analogy with nuclear technology presents a bleak sort of consolation. Concentrating power over atomic weapons in the hands of the executive branch has been, by any measure, terrifically dangerous. But could anyone seriously argue we would be in a safer world than the one we are in if this power were concentrated in the private branches of the military-industrial complex, and if nuclear blueprints and resources were the private possessions of large corporations?&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 13 Dec 2024 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2024/12/13/p0925-to-whom-does-the-world-belong/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/13/p0925-to-whom-does-the-world-belong/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Me:: Centralized social media are like Mainframes and Malls I agree Ted Gioia:: Are Social Media Platforms the Next Dying Malls</title>
@@ -158,17 +183,6 @@ Maybe this doesn’t matter? I don’t know anyone with true mastery of Excel—
         <pubDate>Tue, 10 Dec 2024 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2024/12/10/p0733-vancouver/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2024/12/10/p0733-vancouver/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Guangchuang Yu:: How to use ggimage to plot PNGs instead of points in ggplot2</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 9, 2024 19:56 &lt;a href=&quot;https://yulab-smu.top/pkgdocs/ggimage.html&quot;&gt;Guangchuang Yu:: How to use ggimage to plot PNGs instead of points in ggplot2&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ggplot(d, aes(x, y)) + geom_image(aes(image=image), size=.05)&lt;/code&gt; via Stack Overflow: &lt;a href=&quot;https://stackoverflow.com/questions/2181902/how-to-use-an-image-as-a-point-in-ggplot&quot;&gt;How to use an image as a point in ggplot&lt;/a&gt;? To do it in python with matplotlib see https://www.tutorialspoint.com/how-to-use-a-custom-png-image-marker-in-a-plot-matplotlib&lt;/p&gt;
-</description>
-        <pubDate>Mon, 09 Dec 2024 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2024/12/09/p1956-ggimage.html/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/09/p1956-ggimage.html/</guid>
         
         
       </item>
