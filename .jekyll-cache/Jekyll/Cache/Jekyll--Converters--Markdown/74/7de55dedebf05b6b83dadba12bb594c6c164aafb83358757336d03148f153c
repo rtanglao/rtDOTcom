@@ -1,0 +1,7 @@
+I"g<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Dec 16, 2024 16:58 <a href="https://simonwillison.net/2024/Dec/15/preferring-throwaway-code-over-design-docs/">Me:: Everybody can and should prototype: Simon Willison:: Preferring throwaway code over design docs</a> &lt;– Agreed and maybe with LLMs so-called “non software developers” (IMHO everybody who can do a pivot table in a spreadsheet and/or complicated spreadsheet formulas is a software developer) can write some crude code and create a very rough prototype (of course no code prototypes are always awesome too) instead of overly verbose specs :-) &lt;– <strong>QUOTE</strong>: <code class="language-plaintext highlighter-rouge">The thing I love about issue comments (or PR comments) for recording ongoing design decisions is that because they incorporate a timestamp there's no implicit expectation to keep them up to date as the software changes. </code></p>
+
+<h2 id="previously">Previously</h2>
+<ul>
+  <li>November 26, 2022: <a href="http://rolandtanglao.com/2022/11/26/p1-simon-willison-issue-oriented-development-including-documentation-tests/">Simon Willison: Massively increase your productivity on personal projects with comprehensive documentation and automated tests aka issue oriented development including tests for documentation!</a></li>
+</ul>
+:ET

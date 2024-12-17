@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 16 Dec 2024 07:50:31 -0800</pubDate>
-    <lastBuildDate>Mon, 16 Dec 2024 07:50:31 -0800</lastBuildDate>
+    <pubDate>Mon, 16 Dec 2024 19:40:42 -0800</pubDate>
+    <lastBuildDate>Mon, 16 Dec 2024 19:40:42 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Me:: Everybody can and should prototype: Simon Willison:: Preferring throwaway code over design docs</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 16, 2024 16:58 &lt;a href=&quot;https://simonwillison.net/2024/Dec/15/preferring-throwaway-code-over-design-docs/&quot;&gt;Me:: Everybody can and should prototype: Simon Willison:: Preferring throwaway code over design docs&lt;/a&gt; &amp;lt;– Agreed and maybe with LLMs so-called “non software developers” (IMHO everybody who can do a pivot table in a spreadsheet and/or complicated spreadsheet formulas is a software developer) can write some crude code and create a very rough prototype (of course no code prototypes are always awesome too) instead of overly verbose specs :-) &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;The thing I love about issue comments (or PR comments) for recording ongoing design decisions is that because they incorporate a timestamp there's no implicit expectation to keep them up to date as the software changes. &lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;November 26, 2022: &lt;a href=&quot;http://rolandtanglao.com/2022/11/26/p1-simon-willison-issue-oriented-development-including-documentation-tests/&quot;&gt;Simon Willison: Massively increase your productivity on personal projects with comprehensive documentation and automated tests aka issue oriented development including tests for documentation!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 16 Dec 2024 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2024/12/16/p1658-preferring-throwaway-code-over-design-docs/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/16/p1658-preferring-throwaway-code-over-design-docs/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Tantek post from 2018:: Post Positive things Promptly PPTP :-)</title>
@@ -157,31 +173,6 @@ However, it is encouraging news!&lt;/li&gt;
         <pubDate>Wed, 11 Dec 2024 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2024/12/11/p2355-2024-12-07-ducky-covid-general/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2024/12/11/p2355-2024-12-07-ducky-covid-general/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Me:: Generative AI is hard to use (Super subtle nuance: Code Interpreter can't make API requests; Canvas can't access uploaded files) like Excel but you only need to use a small portion of their features to benefit Simon Willison:: ChatGPT Canvas can make API requests now, but it’s complicated</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 11, 2024 07:33  &lt;a href=&quot;https://simonwillison.net/2024/Dec/10/chatgpt-canvas/&quot;&gt;Me:: Generative AI is hard to use (Super subtle nuance: Code Interpreter can’t make API requests; Canvas can’t access uploaded files) like Excel but you only need to use a small portion of their features to benefit Simon Willison:: ChatGPT Canvas can make API requests now, but it’s complicated&lt;/a&gt;  &amp;lt;– The API stuff as of December 11, 2024 appears super hard to use.&lt;/p&gt;
-
-&lt;p&gt;Read the Whole Thing -&amp;gt;  &lt;a href=&quot;https://simonwillison.net/2024/Dec/10/chatgpt-canvas/&quot;&gt;Simon Willison:: ChatGPT Canvas can make API requests now, but it’s complicated&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;QUOTE&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-This is really, really confusing
-
-Do you find this all hopelessly confusing? I don’t blame you. I’m a professional web developer and a Python engineer of 20+ years and I can just about understand and internalize the above set of rules.
-
-I don’t really have any suggestions for where we go from here. This stuff is hard to use. The more features and capabilities we pile onto these systems the harder it becomes to obtain true mastery of them and really understand what they can do and how best to put them into practice.
-
-Maybe this doesn’t matter? I don’t know anyone with true mastery of Excel—to the point where they could compete in last week’s Microsoft Excel World Championship—and yet plenty of people derive enormous value from Excel despite only scratching the surface of what it can do.
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Wed, 11 Dec 2024 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2024/12/11/p0733-chatgpt-canvas/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/11/p0733-chatgpt-canvas/</guid>
         
         
       </item>
