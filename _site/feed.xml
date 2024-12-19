@@ -6,9 +6,31 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 18 Dec 2024 21:12:20 -0800</pubDate>
-    <lastBuildDate>Wed, 18 Dec 2024 21:12:20 -0800</lastBuildDate>
+    <pubDate>Thu, 19 Dec 2024 07:41:23 -0800</pubDate>
+    <lastBuildDate>Thu, 19 Dec 2024 07:41:23 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Me:: uv run allows you to run python scripts without requirements.txt Simon Willison:: Building Python tools with a one-shot prompt using uv run and Claude Projects</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 19, 2024 07:31  &lt;a href=&quot;https://simonwillison.net/2024/Dec/19/one-shot-python-tools/&quot;&gt;Me:: uv run allows you to run python scripts without requirements.txt Simon Willison:: Building Python tools with a one-shot prompt using uv run and Claude Projects&lt;/a&gt; &amp;lt;– I love it! I hate extra files like requirements.txt especially for a 1 file script. I guess i am switching to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;uv&lt;/code&gt; :-) !&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
+&lt;p&gt;Read the whole thing &lt;a href=&quot;https://simonwillison.net/2024/Dec/19/one-shot-python-tools/&quot;&gt;Simon Willison:: Building Python tools with a one-shot prompt using uv run and Claude Projects&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is an example of inline script dependencies, a feature described in PEP 723 and implemented by uv run. Running the script causes uv to create a temporary virtual environment with those dependencies installed, a process that takes just a few milliseconds once the uv cache has been populated.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This even works if the script is specified by a URL! Anyone with uv installed can run the following command (provided you trust me not to have replaced the script with something malicious) to debug one of their own S3 buckets`&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Thu, 19 Dec 2024 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2024/12/19/p0731-one-shot-python-tools/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/19/p0731-one-shot-python-tools/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Me:: there is no safe crossing of Clark at E. Georgia, use Frances instead! Transit app wrong again :-) (Transit app war falsch :-) Kein SafeCrossing bei E. Georgia, safe crossing ist bei Frances!) Zum... ¦ Ride ¦ Strava</title>
@@ -136,31 +158,6 @@ He said ‘I’m on Twitch, Kick, and Rumble.’&lt;/p&gt;
         <pubDate>Sat, 14 Dec 2024 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2024/12/14/p2117-markitdown/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2024/12/14/p2117-markitdown/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Me:: ML should belong to governments like nuclear fission and fusion Alexander Hartley:: To Whom Does the World Belong? - Boston Review</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 13, 2024 09:25 &lt;a href=&quot;https://www.bostonreview.net/articles/to-whom-does-the-world-belong&quot;&gt;Me:: ML should belong to governments like nuclear fission and fusion Alexander Hartley:: To Whom Does the World Belong? - Boston Review&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Read the whole thing:: &lt;a href=&quot;https://www.bostonreview.net/articles/to-whom-does-the-world-belong&quot;&gt;To Whom Does the World Belong? - Boston Review&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;We may wish to consider a still more fundamental question. If AI is as potentially capital-accumulating, dangerous, and powerful as its developers claim, should we allow private companies to hold patents on this technology at all? If the idea seems crazy, that’s only a sign of our neoliberal times. Entrepreneur Charles Jennings, himself a former tech CEO, draws a comparison between AI and nuclear fission and fusion. When Harry Truman created the Atomic Energy Commission (AEC) in 1946, he concentrated ownership and authority over nuclear power in an arm of government relatively insulated from day-to-day politics. The federal government’s role in nationalizing nuclear weapons was that of owner, not operator—it outsourced most of the work. The military possessed finished bombs, Westinghouse built and operated nuclear energy plants, but the AEC controlled the core and had all the leverage.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;AI pioneer Geoffrey Hinton fears what nationalization would mean in the hands of figures like D⭕nald Tr🇺mp, Vl🅰dimir P🇺tin, and Xi JInping. Here the analogy with nuclear technology presents a bleak sort of consolation. Concentrating power over atomic weapons in the hands of the executive branch has been, by any measure, terrifically dangerous. But could anyone seriously argue we would be in a safer world than the one we are in if this power were concentrated in the private branches of the military-industrial complex, and if nuclear blueprints and resources were the private possessions of large corporations?&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Fri, 13 Dec 2024 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2024/12/13/p0925-to-whom-does-the-world-belong/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/13/p0925-to-whom-does-the-world-belong/</guid>
         
         
       </item>
