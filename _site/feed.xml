@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 19 Dec 2024 07:41:23 -0800</pubDate>
-    <lastBuildDate>Thu, 19 Dec 2024 07:41:23 -0800</lastBuildDate>
+    <pubDate>Fri, 20 Dec 2024 16:29:47 -0800</pubDate>
+    <lastBuildDate>Fri, 20 Dec 2024 16:29:47 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Hardly any snow at Cypress this winter so far (and in 2014 and last year) is yet another sign of climate change - Cypress Nummer Fünf des 2024-25 Langlaufsaisons :-) #FreeTheHeelFreeTheMind #XcSkiing #Skate... ¦ Nordic Ski ¦ Strava</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 20, 2024 16:23  &lt;a href=&quot;https://www.strava.com/activities/13153045938&quot;&gt;Hardly any snow at Cypress this winter so far (and in 2014 and last year) is yet another sign of climate change - Cypress Nummer Fünf des 2024-25 Langlaufsaisons :-) #FreeTheHeelFreeTheMind #XcSkiing #Skate… ¦ Nordic Ski ¦ Strava&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;June 26, 2021: &lt;a href=&quot;http://rolandtanglao.com/2021/06/26/p1-heat-dome-kim-stanley-robinson-ministry-for-the-future/&quot;&gt;Heat Dome 2021 over BC is very much like what Kim Stanley Robinson predicted in Ministry for the Future&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;February 7, 2006: &lt;a href=&quot;http://rolandtanglao.com/2006/02/07/join-oscms-people-for-our-snow-event-at-cypress-mountain/&quot;&gt;Join OSCMS people for our snow event at Cypress Mountain&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 20 Dec 2024 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2024/12/20/p1623-13153045938-cypress-no-snow-climate-change/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/20/p1623-13153045938-cypress-no-snow-climate-change/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Me:: uv run allows you to run python scripts without requirements.txt Simon Willison:: Building Python tools with a one-shot prompt using uv run and Claude Projects</title>
@@ -137,27 +154,6 @@ He said ‘I’m on Twitch, Kick, and Rumble.’&lt;/p&gt;
         <pubDate>Sun, 15 Dec 2024 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2024/12/15/p0722-113657396478306139-browsing-fake-genai-generated-internet-2030/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2024/12/15/p0722-113657396478306139-browsing-fake-genai-generated-internet-2030/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>microsoft/markitdown: Python tool for converting files and office documents e.g. PDF, Word, Excel, Images, Audio, speech transcription, html including Wikipedia, csv, json, json, xml to Markdown.</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 14, 2024 21:17 &lt;a href=&quot;https://github.com/microsoft/markitdown&quot;&gt;microsoft/markitdown: Python tool for converting files and office documents e.g. PDF, Word, Excel, Images, Audio, speech transcription, html including Wikipedia, csv, json, json, xml to Markdown.&lt;/a&gt; via &lt;a href=&quot;https://daringfireball.net/linked/2024/12/13/markitdown&quot;&gt;Daring Fireball via MarkItDown: Python Tool for Converting Files and Office Documents to Markdown&lt;/a&gt; &amp;lt;– sounds great!&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The MarkItDown library is a utility tool for converting various files to Markdown (e.g., for indexing, text analysis, etc.)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It presently supports:  PDF (.pdf), PowerPoint (.pptx), Word (.docx), Excel (.xlsx), Images (EXIF metadata, and OCR), Audio (EXIF metadata, and speech transcription), HTML (special handling of Wikipedia, etc.), Various other text-based formats (csv, json, xml, etc.)&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Sat, 14 Dec 2024 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2024/12/14/p2117-markitdown/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/14/p2117-markitdown/</guid>
         
         
       </item>
