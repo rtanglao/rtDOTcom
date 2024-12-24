@@ -6,9 +6,31 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 23 Dec 2024 12:19:03 -0800</pubDate>
-    <lastBuildDate>Mon, 23 Dec 2024 12:19:03 -0800</lastBuildDate>
+    <pubDate>Tue, 24 Dec 2024 08:41:34 -0800</pubDate>
+    <lastBuildDate>Tue, 24 Dec 2024 08:41:34 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Loaded the Ontario anti-bicycling Bill 212  comments (most of which are against the bill ie for bicycling) CSV file into SQLite using the amazing #datasette  ! This means you can use SQL to make queries if that's your jam. Hope it's helpful!</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 24, 2024 08:19 &lt;a href=&quot;https://devdilettante.com/@roland/113706583164153867&quot;&gt;Loaded the Ontario anti-bicycling Bill 212  comments (most of which are against the bill ie for bicycling) CSV file into SQLite using the amazing #datasette  ! This means you can use SQL to make queries if that’s your jam. Hope it’s helpful!&lt;/a&gt; &amp;lt;–Run your SQL queries (no SQL knowledge needed, just play around :-) and if you need to know more there are plenty of learning SQL resources on the internet) by going to &lt;a href=&quot;https://lite.datasette.io/?csv=https%3A%2F%2Fraw.githubusercontent.com%2Frtanglao%2Fbill-212-fun%2Fmain%2F2024-12-23-ontario-bill-212-anti-bicycle-bill.csv&quot;&gt;this lite.datasette.io URL with the CSV pre-loaded&lt;/a&gt;. This means you can search for words, visualize it without running code, just by using lite.datasette.io or any the 1000s of CSV tools that will load the CSV which is at: &lt;a href=&quot;https://github.com/rtanglao/bill-212-fun/blob/main/2024-12-23-ontario-bill-212-anti-bicycle-bill.csv`&quot;&gt;github rtanglao bill-212-fun 2024-12-23-ontario-bill-212-anti-bicycle-bill.csv&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 24 Dec 2024 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2024/12/24/p0819-113706583164153867-bill212-ontario-comments/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/24/p0819-113706583164153867-bill212-ontario-comments/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Me:: I believe Typora on Windows erroneously changes unicode characters to US-ASCII or so it seems to me :-) Normalize Unicode github: issues/2443</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 23, 2024 16:06 &lt;a href=&quot;https://github.com/typora/typora-issues/issues/2443&quot;&gt;Me:: I believe Typora on Windows erroneously changes unicode characters to US-ASCII or so it seems to me :-) Normalize Unicode github: issues/2443&lt;/a&gt; &amp;lt;– note to self, write a proper bug report after testing  Typora on macOS and Windows or something :-)&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Dec 2024 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2024/12/23/p1606-2443-possible-typora-windows-unicode-issue/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/23/p1606-2443-possible-typora-windows-unicode-issue/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Ryan Broderick: If you want to be part of a c⭕nservative social network fine ....You're giving them 10% of your revenue to fund their culture w🇦r and they're going to keep locking your audience behind their walled garden. There are many alternatives and they're all fine Kottke:: “S🇺bstack Is At It Again”</title>
@@ -128,38 +150,6 @@
         <pubDate>Wed, 18 Dec 2024 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2024/12/18/p1525-113676218846578318-rui-carno-portable-computing-sbc-radxa-zero-ipad/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2024/12/18/p1525-113676218846578318-rui-carno-portable-computing-sbc-radxa-zero-ipad/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Me:: Kai Cenat, Adin Ross, Jynxzi, and Sketch on Twitch, Kick, and Rumble &lt;-- The fringe, no desire to be part of this because I fear they might be rɨght-wing-like-alternative Twɨtters?!?!? Ted Gioia:: Mainstream Is Now Fringe, and Fringe Is Mainstream</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 18, 2024 07:23 &lt;a href=&quot;https://www.honest-broker.com/p/mainstream-is-now-fringe-and-fringe&quot;&gt;Me:: Kai Cenat, Adin Ross, Jynxzi, and Sketch on Twitch, Kick, and Rumble &amp;lt;– The fringe, no desire to be part of this because I fear they might be rɨght-wing-like-alternative Twɨtters?!?!? Ted Gioia:: Mainstream Is Now Fringe, and Fringe Is Mainstream&lt;/a&gt; &amp;lt;– You know you are old when you have no idea who these people are except for twitch have no idea what the social media platforms are :-) And honestly if they are showcasing rɨght wing stuff like Twɨtter I don’t want to be a part of them&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;p&gt;(Read the whole thing: &lt;a href=&quot;https://www.honest-broker.com/p/mainstream-is-now-fringe-and-fringe&quot;&gt;Ted Gioia:: Mainstream Is Now Fringe, and Fringe Is Mainstream&lt;/a&gt;)&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;He says Kai Cenat, Adin Ross, Jynxzi, and Sketch. I don’t know who he is talking about.&lt;/p&gt;
-
-  &lt;p&gt;I said ‘What platforms are you on
-He said ‘I’m on Twitch, Kick, and Rumble.’&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Wed, 18 Dec 2024 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2024/12/18/p0723-mainstream-is-now-fringe-and-fringe/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/18/p0723-mainstream-is-now-fringe-and-fringe/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Me tl;dr-ing:: Filipino tech enabled Acapulco-Manila trade starting in the 1500s until the 1800s aka Philippines&lt;-&gt;Mexico Spanish empire was built with Filipino tech as well as the usual colonial oppression :-) Andrew Christian Petersen for his PhD in 2014:: Making the first global trade route : the southeast Asian foundations of the Acapulco-Manila galleon trade, 1519-1650</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 17, 2024 17:18 &lt;a href=&quot;https://scholarspace.manoa.hawaii.edu/items/42c9c452-629f-4ab9-89b9-969e363c4769&quot;&gt;Me tl;dr-ing:: Filipino tech enabled Acapulco-Manila trade starting in the 1500s until the 1800s aka Philippines&amp;lt;-&amp;gt;Mexico Spanish empire was built with Filipino tech as well as the usual colonial oppression :-) Andrew Christian Petersen for his PhD in 2014:: Making the first global trade route : the southeast Asian foundations of the Acapulco-Manila galleon trade, 1519-1650&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;It is the conclusion of this study that while the merchants and trade goods of East Asia were crucial to the trans-Pacific trade, the galleons themselves were built and maintained within the Philippines, using locally sourced building materials and laborers, as well as the skill of indigenous craftsmen and seafarers. It was not just Spaniards and Chinese traders coming together to trade at Manila, but also many thousands of Indio laborers working to support the trade as well. The vast array of necessary human and environmental resources that was readily available in the Philippines will be shown to have been a part of a thriving Southeast Asian maritime seafaring community, the foundations of which came to form the supporting structure of Spain's trans-Pacific endeavors. This dissertation revisits the creation of the Acapulco-Manila galleon trade with consideration given to the Indios of the Philippines, the resources of greater Southeast Asia, and the global context in which the trade developed&lt;/code&gt; &amp;lt;– Full 315 PhD thesis in PDF form :-) : &lt;a href=&quot;https://www.icloud.com/iclouddrive/0906ojZPdxCxm8dYXNm6yNIOg&quot;&gt;iCloud&lt;/a&gt;, &lt;a href=&quot;https://drive.google.com/file/d/1FWQv35M8gQrO1NrWvWUdr6BHcP4C699I/view?usp=sharing&quot;&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 17 Dec 2024 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2024/12/17/p1718-42c9c452-629f-4ab9-89b9-969e363c4769-manila-acapulco-spanish-empire-galleon-trade-mexico-phillipes/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/17/p1718-42c9c452-629f-4ab9-89b9-969e363c4769-manila-acapulco-spanish-empire-galleon-trade-mexico-phillipes/</guid>
         
         
       </item>
