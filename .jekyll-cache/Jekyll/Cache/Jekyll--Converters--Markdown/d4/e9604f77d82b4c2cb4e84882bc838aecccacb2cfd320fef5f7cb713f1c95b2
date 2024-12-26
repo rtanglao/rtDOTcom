@@ -1,0 +1,2 @@
+I"ô<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Sep 10, 2024. 20:01 <a href="https://sqlite-utils.datasette.io/en/stable/cli.html">How to insert a CSV into a SQLite database</a> <code class="language-plaintext highlighter-rouge">sqlite-utils insert 2024-thunderbird-questions-only.db questions ../ALLTIME/2024-yearly-thunderbird-questions.csv --csv --detect-types</code> &lt;â€“ how to make a sqlite database from CSV using sqlite-utils</p>
+:ET
