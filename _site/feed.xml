@@ -6,9 +6,20 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 25 Dec 2024 12:11:31 -0800</pubDate>
-    <lastBuildDate>Wed, 25 Dec 2024 12:11:31 -0800</lastBuildDate>
+    <pubDate>Wed, 25 Dec 2024 16:38:45 -0800</pubDate>
+    <lastBuildDate>Wed, 25 Dec 2024 16:38:45 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Me:: Hoooray for easy to deploy matrix servers! June Clementine Strawberry:: Introduction - conduwuit 🏳️‍⚧️ 💜 🦴</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 25, 2024 13:55 &lt;a href=&quot;https://conduwuit.puppyirl.gay/&quot;&gt;Me:: Hoooray for easy to deploy matrix servers! June Clementine Strawberry:: Introduction - conduwuit 🏳️‍⚧️ 💜 🦴&lt;/a&gt; &amp;lt;– via Martin’s &lt;a href=&quot;https://chaos.social/@freaktechnik/113715519194268225&quot;&gt;toot&lt;/a&gt; –&amp;gt; Sounds easy to deploy because no “real” database (RockDB and SQLITE) and Rust “fun”! –&amp;gt; &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A high-performance and efficient Matrix homeserver that's easy to set up and just works. You can install it on a mini-computer like the Raspberry Pi to host Matrix for your family, friends or company.&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 25 Dec 2024 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2024/12/25/p1355-conduwuit-puppyirl-gay/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/25/p1355-conduwuit-puppyirl-gay/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Me:: Mathematica + Machine Learning is better than other systems?!? Not convinced but willing to be proven wrong :-)! Stephen Wolfram 2024-12-09:: Writings Useful to the Point of Being Revolutionary: Introducing Wolfram Notebook Assistant</title>
@@ -138,23 +149,6 @@
         <pubDate>Thu, 19 Dec 2024 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2024/12/19/p0731-one-shot-python-tools/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2024/12/19/p0731-one-shot-python-tools/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Me:: there is no safe crossing of Clark at E. Georgia, use Frances instead! Transit app wrong again :-) (Transit app war falsch :-) Kein SafeCrossing bei E. Georgia, safe crossing ist bei Frances!) Zum... ¦ Ride ¦ Strava</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 18, 2024 21:09 &lt;a href=&quot;https://www.strava.com/activities/13144881963&quot;&gt;Me:: there is no safe crossing of Clark at E. Georgia, use Frances instead! Transit app wrong again :-) (Transit app war falsch :-) Kein SafeCrossing bei E. Georgia, safe crossing ist bei Frances!) Zum… ¦ Ride ¦ Strava&lt;/a&gt; &amp;lt;– Not picking on Transit app, this is the limitation of algorithms. Use Open Street Map which has safe crossing data or could easily add it I guess :-) ?!?!&lt;/p&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;December 10, 2024: &lt;a href=&quot;http://rolandtanglao.com/2024/12/10/p0733-vancouver/&quot;&gt;There is no safe crossing at 20th and Clark/Knight. Transit app’s Vancouver bicycle directions still steer you into dangerous situations.&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 18 Dec 2024 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2024/12/18/p2109-13144881963-cross-clark-at-frances-not-georgia/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/18/p2109-13144881963-cross-clark-at-frances-not-georgia/</guid>
         
         
       </item>
