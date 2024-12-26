@@ -6,9 +6,42 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 26 Dec 2024 09:01:48 -0800</pubDate>
-    <lastBuildDate>Thu, 26 Dec 2024 09:01:48 -0800</lastBuildDate>
+    <pubDate>Thu, 26 Dec 2024 09:35:44 -0800</pubDate>
+    <lastBuildDate>Thu, 26 Dec 2024 09:35:44 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Me: It would be wonderful if we all could write and modify software that's better than today's  world of mass software development which is spreadsheets  and things like Hypercard Geoffrey Litt:: Malleable software in the age of LLMs</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 26, 2024 09:30 &lt;a href=&quot;https://www.geoffreylitt.com/2023/03/25/llm-end-user-programming&quot;&gt;Me: It would be wonderful if we all could write and modify software that’s better than today’s  world of mass software development which is spreadsheets  and things like Hypercard Geoffrey Litt:: Malleable software in the age of LLMs&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;p&gt;Read the whole thing: &lt;a href=&quot;https://www.geoffreylitt.com/[2023/03/25/llm-end-user-programming&quot;&gt;Geoffrey Litt:: Malleable software in the age of LLMs&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If this hypothesis indeed comes true, we might start to see some surprising changes in the way people use software:&lt;/p&gt;
+
+&lt;p&gt;One-off scripts: Normal computer users have their AI create and execute scripts dozens of times a day, to perform tasks like data analysis, video editing, or automating tedious tasks.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;One-off GUIs: People use AI to create entire GUI applications just for performing a single specific task—containing just the features they need, no bloat.&lt;/li&gt;
+  &lt;li&gt;Build don’t buy: Businesses develop more software in-house that meets their custom needs, rather than buying SaaS off the shelf, since it’s now cheaper to get software tailored to the use case.&lt;/li&gt;
+  &lt;li&gt;Modding/extensions: Consumers and businesses demand the ability to extend and mod their existing software, since it’s now easier to specify a new feature or a tweak to match a user’s workflow.&lt;/li&gt;
+  &lt;li&gt;Recombination: Take the best parts of the different applications you like best, and create a new hybrid that composes them together.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All of these changes would go beyond just making our current software production process faster. They would be changing when software gets created, by whom, for what purpose.&lt;/p&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;March 9, 2021 &lt;a href=&quot;http://rolandtanglao.com/2021/03/09/p1-excel-never-dies-the-spreadsheet-that-launched-a-million-companies/&quot;&gt;Excel Never Dies The Spreadsheet That Launched A Million Companies &amp;lt;– The real ‘programming for the people’&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 26 Dec 2024 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2024/12/26/p0930-llm-end-user-programming/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/26/p0930-llm-end-user-programming/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Me:: Hoooray for easy to deploy matrix servers! June Clementine Strawberry:: Introduction - conduwuit 🏳️‍⚧️ 💜 🦴</title>
@@ -127,28 +160,6 @@
         <pubDate>Fri, 20 Dec 2024 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2024/12/20/p1623-13153045938-cypress-no-snow-climate-change/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2024/12/20/p1623-13153045938-cypress-no-snow-climate-change/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Me:: uv run allows you to run python scripts without requirements.txt Simon Willison:: Building Python tools with a one-shot prompt using uv run and Claude Projects</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 19, 2024 07:31  &lt;a href=&quot;https://simonwillison.net/2024/Dec/19/one-shot-python-tools/&quot;&gt;Me:: uv run allows you to run python scripts without requirements.txt Simon Willison:: Building Python tools with a one-shot prompt using uv run and Claude Projects&lt;/a&gt; &amp;lt;– I love it! I hate extra files like requirements.txt especially for a 1 file script. I guess i am switching to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;uv&lt;/code&gt; :-) !&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
-&lt;p&gt;Read the whole thing &lt;a href=&quot;https://simonwillison.net/2024/Dec/19/one-shot-python-tools/&quot;&gt;Simon Willison:: Building Python tools with a one-shot prompt using uv run and Claude Projects&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This is an example of inline script dependencies, a feature described in PEP 723 and implemented by uv run. Running the script causes uv to create a temporary virtual environment with those dependencies installed, a process that takes just a few milliseconds once the uv cache has been populated.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This even works if the script is specified by a URL! Anyone with uv installed can run the following command (provided you trust me not to have replaced the script with something malicious) to debug one of their own S3 buckets`&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Thu, 19 Dec 2024 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2024/12/19/p0731-one-shot-python-tools/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/19/p0731-one-shot-python-tools/</guid>
         
         
       </item>

@@ -6,7 +6,7 @@ title: "Me: It would be wonderful if we all could write and modify software that
 
 ## QUOTE
 
-Read the whole thing: Geoffrey Litt:: Malleable software in the age of LLMs](https://www.geoffreylitt.com/[2023/03/25/llm-end-user-programming) 
+Read the whole thing: [Geoffrey Litt:: Malleable software in the age of LLMs](https://www.geoffreylitt.com/[2023/03/25/llm-end-user-programming) 
 
 If this hypothesis indeed comes true, we might start to see some surprising changes in the way people use software:
 
