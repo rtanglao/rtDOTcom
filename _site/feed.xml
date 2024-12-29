@@ -6,9 +6,23 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 28 Dec 2024 17:43:25 -0800</pubDate>
-    <lastBuildDate>Sat, 28 Dec 2024 17:43:25 -0800</lastBuildDate>
+    <pubDate>Sun, 29 Dec 2024 09:44:29 -0800</pubDate>
+    <lastBuildDate>Sun, 29 Dec 2024 09:44:29 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>A: use backslash K in a regular expression (regex) to remove any text matched before it CRandER:: How to replace the last occurrence of a substring in ruby? - Stack Overflow</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 29, 2024 09:34 &lt;a href=&quot;https://stackoverflow.com/questions/3185144/how-to-replace-the-last-occurrence-of-a-substring-in-ruby&quot;&gt;A: use backslash K to remove any text matched before it CRandER:: How to replace the last occurrence of a substring in ruby? - Stack Overflow&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Since Ruby 2.0 we can use \K which removes any text matched before it from the returned match. Combine with a greedy operator and you get this&lt;/code&gt; &amp;lt;– For me the following ruby snippet seems to work to remove only the last .php in “.php.blah.php”&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;slug&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;slug&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;sub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/.*\K\.[\D]+$/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Sun, 29 Dec 2024 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2024/12/29/p0934-how-to-replace-the-last-occurrence-of-a-substring-in-ruby/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/29/p0934-how-to-replace-the-last-occurrence-of-a-substring-in-ruby/</guid>
+        
+        
+      </item>
     
       <item>
         <title>my ruby script that's responsible for my flurry of recent blog posts is called blog_all_open.rb.. It calls blogthis.rb to create blog posts in jekyll format with a nice slug from my all open list items in my 'blog this'  checkvist list 74286 after you type 'y' to approve it</title>
@@ -166,23 +180,6 @@
         <pubDate>Mon, 23 Dec 2024 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2024/12/23/p0747-what-would-a-woman-do-to-an-unconscious/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2024/12/23/p0747-what-would-a-woman-do-to-an-unconscious/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Me:: So how do traditional media stay relevant? Provide their own 'AI' 'agent'? OM:: Musings on Media in the Age of AI</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 22, 2024 08:17 &lt;a href=&quot;https://om.co/2024/12/21/dark-musings-on-media-ai/&quot;&gt;Me:: So how do traditional media stay relevant? Provide their own ‘AI’ ‘agent’? On:: Musings on Media in the Age of AI&lt;/a&gt; &amp;lt;– This sounds exactly like the ‘AI’ dream of the 1990s except with terabytes of data to pick from with more stuff online every second so maybe it will work this time?!? –&amp;gt; QUOTE: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;You stay still, but your AI agent goes out and fetches, distills, and synthesizes the content and renders it in whatever format you want — audio, video, or text. This is the future. None of the media business models will work in the future &lt;/code&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;December 18, 2004: &lt;a href=&quot;http://rolandtanglao.com/2004/12/18/peoples-blogs-are-the-best-filters-and-agents-for-information/&quot;&gt;People’s blogs are the best filters and agents for information&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 22 Dec 2024 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2024/12/22/p0817-dark-musings-on-media-ai/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/22/p0817-dark-musings-on-media-ai/</guid>
         
         
       </item>

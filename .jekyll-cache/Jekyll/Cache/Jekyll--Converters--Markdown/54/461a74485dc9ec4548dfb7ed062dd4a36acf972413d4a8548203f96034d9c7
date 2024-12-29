@@ -1,0 +1,5 @@
+I"c<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Dec 29, 2024 09:34 <a href="https://stackoverflow.com/questions/3185144/how-to-replace-the-last-occurrence-of-a-substring-in-ruby">A: use backslash K to remove any text matched before it CRandER:: How to replace the last occurrence of a substring in ruby? - Stack Overflow</a> &lt;– <strong>QUOTE</strong>: <code class="language-plaintext highlighter-rouge">Since Ruby 2.0 we can use \K which removes any text matched before it from the returned match. Combine with a greedy operator and you get this</code> &lt;– For me the following ruby snippet seems to work to remove only the last .php in “.php.blah.php”</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">slug</span> <span class="o">=</span> <span class="n">slug</span><span class="p">.</span><span class="nf">sub</span><span class="p">(</span><span class="sr">/.*\K\.[\D]+$/</span><span class="p">,</span> <span class="s1">''</span><span class="p">)</span> 
+</code></pre></div></div>
+:ET
