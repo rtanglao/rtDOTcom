@@ -6,9 +6,35 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 26 Dec 2024 22:01:23 -0800</pubDate>
-    <lastBuildDate>Thu, 26 Dec 2024 22:01:23 -0800</lastBuildDate>
+    <pubDate>Sat, 28 Dec 2024 17:43:25 -0800</pubDate>
+    <lastBuildDate>Sat, 28 Dec 2024 17:43:25 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>my ruby script that's responsible for my flurry of recent blog posts is called blog_all_open.rb.. It calls blogthis.rb to create blog posts in jekyll format with a nice slug from my all open list items in my 'blog this'  checkvist list 74286 after you type 'y' to approve it</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 28, 2024 17:18  &lt;a href=&quot;https://github.com/rtanglao/rt-checkvist/blob/main/blog_all_open.rb&quot;&gt;my ruby script that’s responsible for my flurry of recent blog posts is called blog_all_open.rb.. It calls blogthis.rb to create a blog posts in jekyll format with a nice slug from my all open list items my ‘blog this’  checkvist list 74286 after you type ‘y’ to approve it&lt;/a&gt; Check it out at: &lt;a href=&quot;https://github.com/rtanglao/rt-checkvist/blob/main/blogthis.rb&quot;&gt;github: rt-checkvist/blob/main/blogthis.rb&lt;/a&gt; and &lt;a href=&quot;https://github.com/rtanglao/rt-checkvist/blob/main/blog_all_open.rb&quot;&gt;github: rt-checkvist/blob/main/blog_all_open.rb&lt;/a&gt;. It depends on everything being time stamped and having a link at the beginning e.g.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Dec 26, 2024 21:43 [fun link](example.com) Moar text&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;so probably not generally applicable to others :-) as per usual with my hobbyist software.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;I re-learned that the pipe symbol, \¦,  screws things up in markdown because it triggers table formatting?!?&lt;/li&gt;
+  &lt;li&gt;To do: &lt;a href=&quot;https://github.com/rtanglao/rt-checkvist/issues/4&quot;&gt;deal with all numeric slugs. Maybe ask user to input the slug manually? #4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;July 29, 2020 &lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;BlogThis! A checkvist list of links to blog&lt;/a&gt; i.e. I have only been thinking about this since 2020 :-) ROFL&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 28 Dec 2024 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2024/12/28/p1718-blog_all_open/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/28/p1718-blog_all_open/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Me:: The link is everything :-) and AI summaries lose this everything-ness Dec 6, 2024 Collin Jennings:: When AI summaries replace hyperlinks, thought itself is flattened | Aeon Essays</title>
@@ -157,17 +183,6 @@
         <pubDate>Sun, 22 Dec 2024 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2024/12/22/p0817-dark-musings-on-media-ai/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2024/12/22/p0817-dark-musings-on-media-ai/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Me:: yes please I want this for our balcony, I too want to save 30% in energy! Kottke: Balkonkraftwerk: a German word meaning “balcony power plant”...</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 21, 2024 08:08  &lt;a href=&quot;https://kottke.org/24/12/0045895-balkonkraftwerk-a-german-&quot;&gt;Me:: yes please I want this for our balcony, I too want to save 30% in energy! Kottke: Balkonkraftwerk: a German word meaning “balcony power plant”…&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Balkonkraftwerk: a German word meaning “balcony power plant”, aka the low-cost solar panels people are hanging from their balconies to generate extra household energy.&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 21 Dec 2024 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2024/12/21/p0808-0045895-balkonkraftwerk-a-german/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/21/p0808-0045895-balkonkraftwerk-a-german/</guid>
         
         
       </item>

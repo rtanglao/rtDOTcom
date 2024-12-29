@@ -1,0 +1,17 @@
+I"C<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Dec 28, 2024 17:18  <a href="https://github.com/rtanglao/rt-checkvist/blob/main/blog_all_open.rb">my ruby script that’s responsible for my flurry of recent blog posts is called blog_all_open.rb.. It calls blogthis.rb to create a blog posts in jekyll format with a nice slug from my all open list items my ‘blog this’  checkvist list 74286 after you type ‘y’ to approve it</a> Check it out at: <a href="https://github.com/rtanglao/rt-checkvist/blob/main/blogthis.rb">github: rt-checkvist/blob/main/blogthis.rb</a> and <a href="https://github.com/rtanglao/rt-checkvist/blob/main/blog_all_open.rb">github: rt-checkvist/blob/main/blog_all_open.rb</a>. It depends on everything being time stamped and having a link at the beginning e.g.</p>
+
+<blockquote>
+  <p>Dec 26, 2024 21:43 [fun link](example.com) Moar text</p>
+</blockquote>
+
+<p>so probably not generally applicable to others :-) as per usual with my hobbyist software.</p>
+<ul>
+  <li>I re-learned that the pipe symbol, \¦,  screws things up in markdown because it triggers table formatting?!?</li>
+  <li>To do: <a href="https://github.com/rtanglao/rt-checkvist/issues/4">deal with all numeric slugs. Maybe ask user to input the slug manually? #4</a></li>
+</ul>
+
+<h2 id="previously">Previously:</h2>
+<ul>
+  <li>July 29, 2020 <a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">BlogThis! A checkvist list of links to blog</a> i.e. I have only been thinking about this since 2020 :-) ROFL</li>
+</ul>
+:ET
