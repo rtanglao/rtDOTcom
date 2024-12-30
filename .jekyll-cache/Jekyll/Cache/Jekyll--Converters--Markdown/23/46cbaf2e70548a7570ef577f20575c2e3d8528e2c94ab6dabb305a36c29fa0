@@ -1,0 +1,8 @@
+I"ð<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Dec 3, 2023 09:21 <a href="https://huggingface.co/blog/sentiment-analysis-python">Getting Started with Sentiment Analysis using Python</a> &lt;â€“ 5 lines of python code, is this huggingface sentiment better than other python sentiment analysis tools?</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">q</span> <span class="n">transformers</span>
+<span class="kn">from</span> <span class="nn">transformers</span> <span class="kn">import</span> <span class="n">pipeline</span>
+<span class="n">sentiment_pipeline</span> <span class="o">=</span> <span class="n">pipeline</span><span class="p">(</span><span class="s">"sentiment-analysis"</span><span class="p">)</span>
+<span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="s">"I love you"</span><span class="p">,</span> <span class="s">"I hate you"</span><span class="p">]</span>
+<span class="n">sentiment_pipeline</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+</code></pre></div></div>
+:ET

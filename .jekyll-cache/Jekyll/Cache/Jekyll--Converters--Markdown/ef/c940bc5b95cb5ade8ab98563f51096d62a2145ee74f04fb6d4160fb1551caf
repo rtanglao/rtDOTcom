@@ -1,0 +1,8 @@
+I"8<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Jul 24, 2023. 21:15 <a href="https://github.com/shenwei356/rush">rush:: a cross-platform command-line tool for executing jobs in parallel </a> regex</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>% <span class="nb">echo </span>tb-question-colours-1417199-2023-06-30-23-56-27-80x55.text ¦ <span class="se">\</span>
+rush <span class="s1">'echo {@([0-9]+).text$}'</span>
+55
+<span class="nb">ls</span> <span class="nt">-1</span> <span class="k">*</span>.rgba ¦ rush <span class="nt">--dry-run</span> <span class="s1">'echo magick -depth 8 -size 80x{@([0-9]+).rgba$}'</span> <span class="o">{}</span> <span class="o">{</span>.<span class="o">}</span>.png
+<span class="nb">ls</span> <span class="nt">-1</span> <span class="k">*</span>.rgba ¦ rush <span class="s1">'magick -depth 8 -size 80x{@([0-9]+).rgba$}'</span> <span class="o">{}</span> <span class="o">{</span>.<span class="o">}</span>.png
+</code></pre></div></div>
+:ET

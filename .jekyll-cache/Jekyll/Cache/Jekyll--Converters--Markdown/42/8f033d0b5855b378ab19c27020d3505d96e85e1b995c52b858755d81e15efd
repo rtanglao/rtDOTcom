@@ -1,0 +1,3 @@
+I"�<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Jun 18, 2023 19:20   <a href="https://simplicable.com/colors/dark-pink">64 Types of Dark Pink - Simplicable</a> - not all of these are “really pink” :-) whatever that means - use <code class="language-plaintext highlighter-rouge">some_string.unpack('U*')</code> to get an array of bytes or better yet <code class="language-plaintext highlighter-rouge">File.open('test.bin', 'wb') {¦file¦ BinData::Uint32be.new(3
+344989183).write(file) }</code> which is the same as <code class="language-plaintext highlighter-rouge">File.open('test.bin', 'wb') {¦file¦ BinData::Uint32be.new(0xc7607bff).write(file) }</code></p>
+:ET

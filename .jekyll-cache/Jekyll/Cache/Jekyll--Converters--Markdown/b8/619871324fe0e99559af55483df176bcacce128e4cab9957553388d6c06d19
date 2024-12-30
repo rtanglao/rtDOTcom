@@ -1,0 +1,14 @@
+I"¿<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Sep 18, 2023 11:18  <a href="https://github.com/OpenInterpreter/open-interpreter">Open Interpreter running locally:</a> <code class="language-plaintext highlighter-rouge">please write me a python program to get the average color of all photos on flickr tagged vancouver</code> (NB: the bugs, doesnâ€™t handle pagination?!? or does it?)</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="kn">import</span> <span class="nn">flickrapi</span>                                                              
+                                                                                
+  <span class="n">api_key</span> <span class="o">=</span> <span class="s">"your_api_key"</span>                                                      
+                                                                                
+  <span class="n">flickr</span> <span class="o">=</span> <span class="n">flickrapi</span><span class="p">.</span><span class="n">FlickrAPI</span><span class="p">(</span><span class="n">api_key</span><span class="p">)</span>                                         
+                                                                                
+  <span class="n">photos</span> <span class="o">=</span> <span class="n">flickr</span><span class="p">.</span><span class="n">photos</span><span class="p">.</span><span class="n">search</span><span class="p">(</span><span class="n">tags</span><span class="o">=</span><span class="s">"vancouver"</span><span class="p">)</span>                               
+                                                                                
+  <span class="k">for</span> <span class="n">photo</span> <span class="ow">in</span> <span class="n">photos</span><span class="p">:</span>                                                          
+      <span class="k">print</span><span class="p">(</span><span class="n">photo</span><span class="p">.</span><span class="n">title</span><span class="p">)</span>                                                        
+                         
+</code></pre></div></div>
+:ET
