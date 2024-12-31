@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 30 Dec 2024 17:08:30 -0800</pubDate>
-    <lastBuildDate>Mon, 30 Dec 2024 17:08:30 -0800</lastBuildDate>
+    <pubDate>Tue, 31 Dec 2024 07:46:01 -0800</pubDate>
+    <lastBuildDate>Tue, 31 Dec 2024 07:46:01 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Me:: HowTo disable Enhanced Visual Search off on your iPhone/iPad: Settings &gt; Apps &gt; Photos &gt; slide 'Enhanced Visual Search' to the left to disable it Jeff Johnson:: Apple Photos phones home on iOS 18 and macOS 15</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 31, 2024 07:32 &lt;a href=&quot;https://lapcatsoftware.com/articles/2024/12/3.html&quot;&gt;Me:: HowTo: Enhanced Visual Search off on your iPhone/iPad: Settings &amp;gt; Apps &amp;gt; Photos &amp;gt; slide ‘Enhanced Visual Search’ to the left to disable it Jeff Johnson:: Apple Photos phones home on iOS 18 and macOS 15&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;This morning while perusing the settings of a bunch of apps on my iPhone, I discovered a new setting for Photos that was enabled by default: Enhanced Visual Search. (I manually disabled it before taking the screenshot below.)&lt;/code&gt; &amp;lt;– Seems like a pointless feature so I turned it off! Yet another proof that Apple is better than most but still has privacy issues.&lt;/p&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;January 5, 2020 &lt;a href=&quot;http://rolandtanglao.com/2020/01/05/p1-iphone-airpod-applewatch-prove-that-total-user-experience-rules/&quot;&gt;2010s lookback: Total user experience rules! Proof is in the iPhone, AirPods and Apple Watch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 31 Dec 2024 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2024/12/31/p0732-apple-photos-phones-home-ios18-macos15/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/31/p0732-apple-photos-phones-home-ios18-macos15/</guid>
+        
+        
+      </item>
     
       <item>
         <title>What kinds of quality don't you care about? Me:: I don't care about pixel quality. I often don't notice teeny tiny pixel level details in software that make others go bonkers Terence Eden:: Most people don’t care about quality</title>
@@ -169,17 +185,6 @@
         <pubDate>Tue, 24 Dec 2024 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2024/12/24/p0819-113706583164153867-bill212-ontario-comments/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2024/12/24/p0819-113706583164153867-bill212-ontario-comments/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Me:: I believe Typora on Windows erroneously changes unicode characters to US-ASCII or so it seems to me :-) Normalize Unicode github: issues/2443</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 23, 2024 16:06 &lt;a href=&quot;https://github.com/typora/typora-issues/issues/2443&quot;&gt;Me:: I believe Typora on Windows erroneously changes unicode characters to US-ASCII or so it seems to me :-) Normalize Unicode github: issues/2443&lt;/a&gt; &amp;lt;– note to self, write a proper bug report after testing  Typora on macOS and Windows or something :-)&lt;/p&gt;
-</description>
-        <pubDate>Mon, 23 Dec 2024 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2024/12/23/p1606-2443-possible-typora-windows-unicode-issue/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/23/p1606-2443-possible-typora-windows-unicode-issue/</guid>
         
         
       </item>
