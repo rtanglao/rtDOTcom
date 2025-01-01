@@ -1,0 +1,5 @@
+I"‚<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Feb 8, 2023. 11:35 <a href="https://github.com/scripting/pagePark#mapping-port-80-to-1339">Dave Winer: Mapping port 80 to 1339 on ubuntu</a></p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> PREROUTING <span class="nt">-p</span> tcp <span class="nt">--dport</span> 80 <span class="nt">-j</span> REDIRECT <span class="nt">--to-port</span> 1339
+<span class="nb">sudo </span>iptables <span class="nt">-t</span> nat <span class="nt">-A</span> OUTPUT <span class="nt">-p</span> tcp <span class="nt">-o</span> lo <span class="nt">--dport</span> 80 <span class="nt">-j</span> REDIRECT <span class="nt">--to-ports</span> 1339
+</code></pre></div></div>
+:ET
