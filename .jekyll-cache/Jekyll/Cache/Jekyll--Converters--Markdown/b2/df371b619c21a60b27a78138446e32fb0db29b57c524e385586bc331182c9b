@@ -1,0 +1,10 @@
+I"�<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Dec 24, 2022 09:28 <a href="https://toolsforthought.rocks/@boris/109569765925948326">Boris Mann: “@roland the instructions fit i…” - Tools For Thought Rocks!</a></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. Check your #LogSeq folder into a Git repo
+
+2. Use the logseq-publish action by Pengx17 in a GitHub Action https://github.com/bmann/bmcgarden/blob/logseqconversion/.github/workflows/logseq.yml
+
+3. Turn on GH Pages publishing for the repo
+
+4. Flip the “all pages public when publishing” in Settings &gt; Editor OR set public:: true on individual pages
+</code></pre></div></div>
+:ET
