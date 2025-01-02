@@ -1,0 +1,8 @@
+I"<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Nov 13, 2022 09:09<a href="https://github.com/Anthchirp/mastodon-defederate">Anthchirp/mastodon-defederate: Aiding small Mastodon instance admins by tracking larger instances’ server blocklists</a> &lt;– QUOTE:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>If you are running a small Mastodon instance then you do not have the benefit of moderation teams that larger instances have. This means that you may see toots from instances that you are not interested in.
+Particularly when you use relays to discover interesting content there is a high probability that you will quickly discover eg. openly racist instances that nobody in their right mind needs or wants. With a personal mastodon instance it will be your job to either block individual users from those instances, or manually defederate (that is: block) the server for everyone on your instance.
+
+So if you trust some larger instance to do a good job at maintaining their instance block list then this tool allows you to piggyback on their work and use their blocklists on your instance.
+</code></pre></div></div>
+<p>&lt;– could be useful if ever get my server running :-)</p>
+:ET
