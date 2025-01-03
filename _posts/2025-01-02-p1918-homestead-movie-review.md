@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Me:: For once I'd love to see a movie that #FlipsTheSwitchThatsInTheHouse e.g. 🇺SA Spєcial Forces go rogue and dєtonate a nuke in Mⓐnila and a Fᜁlipina played by Dolly De Leon saves the world or something :-) Jemar Tisby, PhD::  'Homestead' is a disturbing and not great movie"
+title: "Me:: For once I'd love to see a movie that #FlipsTheSwitchThatsInTheHouse e.g. 🇺SA Spєcial Forces go rogue and dєtonate a nuke in Mⓐnila and a Fᜁlipina played by Dolly De Leon saves the world or something :-) Jemar Tisby, PhD::  'H⭕mestead' is a disturbing and not great movie"
 ---
 [Discovered](http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/): Jan 2, 2025 19:18 [Me:: For once I'd love to see a movie that #FlipsTheSwitchThatsInTheHouse e.g. 🇺SA Spєcial Forces go rogue and dєtonate a nuke in Mⓐnila and a Fᜁlipina played by Dolly De Leon saves the world or something :-) Jemar Tisby, PhD::  "Homestead" is a disturbing and not great movie](https://jemartisby.substack.com/p/homestead-movie-review) <-- see also the podcast: [H⭕mestead Movie Review](https://redcircle.com/shows/7e2c4421-4061-4bf8-b25e-a08ebdb30165/episodes/3ac22bfe-b42e-4aee-ac77-a084060ef971)
 

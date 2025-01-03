@@ -6,9 +6,42 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 02 Jan 2025 18:03:01 -0800</pubDate>
-    <lastBuildDate>Thu, 02 Jan 2025 18:03:01 -0800</lastBuildDate>
+    <pubDate>Thu, 02 Jan 2025 20:29:18 -0800</pubDate>
+    <lastBuildDate>Thu, 02 Jan 2025 20:29:18 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Me:: For once I'd love to see a movie that #FlipsTheSwitchThatsInTheHouse e.g. 🇺SA Spєcial Forces go rogue and dєtonate a nuke in Mⓐnila and a Fᜁlipina played by Dolly De Leon saves the world or something :-) Jemar Tisby, PhD::  'H⭕mestead' is a disturbing and not great movie</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 2, 2025 19:18 &lt;a href=&quot;https://jemartisby.substack.com/p/homestead-movie-review&quot;&gt;Me:: For once I’d love to see a movie that #FlipsTheSwitchThatsInTheHouse e.g. 🇺SA Spєcial Forces go rogue and dєtonate a nuke in Mⓐnila and a Fᜁlipina played by Dolly De Leon saves the world or something :-) Jemar Tisby, PhD::  “Homestead” is a disturbing and not great movie&lt;/a&gt; &amp;lt;– see also the podcast: &lt;a href=&quot;https://redcircle.com/shows/7e2c4421-4061-4bf8-b25e-a08ebdb30165/episodes/3ac22bfe-b42e-4aee-ac77-a084060ef971&quot;&gt;H⭕mestead Movie Review&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It wasn’t a coincidence that br⭕wn-skinned men speaking a different language (Tⓐgalog, I believe), were the ones who set off the nuclear bomb off the coast of Los Angeles that triggers the post-apocalyptic setting of the film.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;H⭕mestead is an ⓐngel Studios production, the company known for mega-hits like The Ch⭕sen and S⭕und of Freedom.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;ⓐngel Studios is not sitting at the kids’ table in the film and TV space. With revenues climbing to $45 million in the first half of 2024 and plans to go public, the studio has become adept at weaving faith-focused themes into high-quality entertainment.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;While their content has high production value, the studio’s alignment with a blend of conservative ideology and a particular type of Chrᜁstianity had me skeptical.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;As the movie unfolded, my initial unease proved well-founded.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Thu, 02 Jan 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/01/02/p1918-homestead-movie-review/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/01/02/p1918-homestead-movie-review/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Anselm Eickhoff:: Hello World! Software is too hard. Distributed state is too hard. Software is places, not apps. Humanity needs simulation. | garden computing</title>
@@ -167,32 +200,6 @@ More often than not, it is those in positions of power who construct knowledge.&
         <pubDate>Sun, 29 Dec 2024 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2024/12/29/p0934-how-to-replace-the-last-occurrence-of-a-substring-in-ruby/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2024/12/29/p0934-how-to-replace-the-last-occurrence-of-a-substring-in-ruby/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>my ruby script that's responsible for my flurry of recent blog posts is called blog_all_open.rb.. It calls blogthis.rb to create blog posts in jekyll format with a nice slug from my all open list items in my 'blog this'  checkvist list 74286 after you type 'y' to approve it</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 28, 2024 17:18  &lt;a href=&quot;https://github.com/rtanglao/rt-checkvist/blob/main/blog_all_open.rb&quot;&gt;my ruby script that’s responsible for my flurry of recent blog posts is called blog_all_open.rb.. It calls blogthis.rb to create a blog posts in jekyll format with a nice slug from my all open list items my ‘blog this’  checkvist list 74286 after you type ‘y’ to approve it&lt;/a&gt; Check it out at: &lt;a href=&quot;https://github.com/rtanglao/rt-checkvist/blob/main/blogthis.rb&quot;&gt;github: rt-checkvist/blob/main/blogthis.rb&lt;/a&gt; and &lt;a href=&quot;https://github.com/rtanglao/rt-checkvist/blob/main/blog_all_open.rb&quot;&gt;github: rt-checkvist/blob/main/blog_all_open.rb&lt;/a&gt;. It depends on everything being time stamped and having a link at the beginning e.g.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Dec 26, 2024 21:43 [fun link](example.com) Moar text&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;so probably not generally applicable to others :-) as per usual with my hobbyist software.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;I re-learned that the pipe symbol, \¦,  screws things up in markdown because it triggers table formatting?!?&lt;/li&gt;
-  &lt;li&gt;To do: &lt;a href=&quot;https://github.com/rtanglao/rt-checkvist/issues/4&quot;&gt;deal with all numeric slugs. Maybe ask user to input the slug manually? #4&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously:&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;July 29, 2020 &lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;BlogThis! A checkvist list of links to blog&lt;/a&gt; i.e. I have only been thinking about this since 2020 :-) ROFL&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 28 Dec 2024 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2024/12/28/p1718-blog_all_open/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2024/12/28/p1718-blog_all_open/</guid>
         
         
       </item>
