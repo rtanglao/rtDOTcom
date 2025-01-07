@@ -1,0 +1,22 @@
+I"c<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Oct 10, 2022 17:49 <a href="https://interconnected.org/home/2022/10/10/servers">I wish my web server were in the corner of my room (Interconnected)</a> &lt;– I wish that as well but dynamic DNS, security updates, etc :-) I would love to buy a box and a service that somehow takes these difficulties magically out of home hosting! I did run Apache on Windows NT in the 1999 and early 2000s and it was ‘difficult’. &lt;– QUOTE:</p>
+
+<blockquote>
+  <p>Perhaps there’s a way to host my website at home, but have the static bits served by Cloudflare if the Raspberry Pi isn’t available (using a global CDN as a UPS), and the dynamic bits always visit my home – but there’s a graceful “come back later” message if the Pi is down?</p>
+</blockquote>
+
+<blockquote>
+  <p>I’m pretty technically capable but I’m not sure I can be bothered.</p>
+</blockquote>
+
+<blockquote>
+  <p>There are so many things in the way. Getting a routable IP address at home. Making it secure. Monitoring it. Gracefully stepping up and down from the CDN.</p>
+</blockquote>
+
+<blockquote>
+  <p>I would love a turnkey way to home-host.</p>
+</blockquote>
+
+<blockquote>
+  <p>Here’s the BIG question: even if it works as above, it’s still a bit of a hacky compromise to have my web server sitting on a shelf. How could it be easier than a monthly rental fee for cloud hosting? How could it be extra? Sure, ambient beats playing into my home office when somebody visits this blog… but what else? There’s a project here.</p>
+</blockquote>
+:ET

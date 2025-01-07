@@ -1,0 +1,6 @@
+I"<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Oct 12, 2022. 19:29 <a href="https://imagemagick.org/script/convert.php">How To:: resize and make animated gif with imagemagick in 1 step</a>Followup to blog post about animated gif</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>~/bin/magick convert <span class="nt">-delay</span> 20 <span class="nt">-loop</span> 0 <span class="sb">`</span><span class="nb">ls</span> <span class="nt">-1</span> <span class="k">*</span>.JPG<span class="sb">`</span> <span class="se">\</span>
+<span class="nt">-resize</span> 1200x675 12oct2022beeflying.gif 
+</code></pre></div></div>
+<p>^^– resize and make animated gif in 1 step</p>
+:ET

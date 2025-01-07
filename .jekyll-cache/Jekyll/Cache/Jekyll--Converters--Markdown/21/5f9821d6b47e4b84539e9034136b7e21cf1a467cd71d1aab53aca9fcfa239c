@@ -1,0 +1,9 @@
+I"�<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Oct 12, 2022. 20:09 <a href="https://imagemagick.org/script/montage.php">imagemagick montage issues on macOS and WSL</a> &lt;– both the following seem to work and give the same error on WSL (maybe it works on macOS?!? because of WSL font problems?):</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">montage: unable to read font </code>helvetica’ @ error/annotate.c/RenderFreetype/1616.`</li>
+  <li>` ~/bin/magick montage ‘*.JPG[1x1]’ -tile 6x1 -strip -geometry ‘1x1+0+0’ averagecolor.png`</li>
+  <li>` ~/bin/magick convert ‘*.JPG’ -strip -resize 1x1 miff:- ¦ ~/bin/magick montage - -tile 6x1 -strip -geometry ‘1x1+0+0’ averagecolor.png` &lt;– i think i trust the second version more &lt;– works great on macO must be a WSL issue</li>
+  <li>the following also works great on macOS: <code class="language-plaintext highlighter-rouge">magick montage '*.jpg[1x1]' -tile 13x1 -geometry '1x1+0+0' png:- ¦ magick - -scale 260x20 averagecolouresized.png</code> &lt;– use scale not resize or the image isn’t crisp</li>
+  <li>WSL: <code class="language-plaintext highlighter-rouge">magick montage '/mnt/c/Users/rolan/OneDrive/Pictures/WALKING_12OCT2022/*.JPG[1x1]' -tile 15x1 -geometry '1x1+0+0' png:- ¦ magick - -scale 300x20 2022-10-12-walking-averagecolor.png</code></li>
+</ul>
+:ET
