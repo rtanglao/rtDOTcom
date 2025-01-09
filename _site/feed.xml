@@ -6,9 +6,42 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 08 Jan 2025 18:02:00 -0800</pubDate>
-    <lastBuildDate>Wed, 08 Jan 2025 18:02:00 -0800</lastBuildDate>
+    <pubDate>Thu, 09 Jan 2025 09:36:35 -0800</pubDate>
+    <lastBuildDate>Thu, 09 Jan 2025 09:36:35 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Me:: Nvidia GPUs don't work currently on Raspbery PI and you need a Linux kernel patch for AMD GPUs 2024-11-19:: Jeff Geerling:: AMD Radeon PRO W7700 running on Raspberry Pi  </title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 9, 2025 09:30 &lt;a href=&quot;https://www.jeffgeerling.com/blog/2024/amd-radeon-pro-w7700-running-on-raspberry-pi&quot;&gt;Me:: Nvidia GPUs don’t work currently on Raspbery PI and you need a Linux kernel patch for AMD GPUs 2024-11-19:: Jeff Geerling:: AMD Radeon PRO W7700 running on Raspberry Pi  &lt;/a&gt; &amp;lt;– someday there will be a plug and play solution for raspberry Pis. Not there yet :-) &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;After years of work among a bunch of people in the Pi community (special callout to Coreforge!), we finally have multiple generations of AMD graphics cards working on the Raspberry Pi 5.&lt;/code&gt; &amp;lt;– see also the youtube video:  &lt;a href=&quot;https://www.youtube.com/watch?v=AyR7iCS7gNI&quot;&gt;A GPU-powered Pi for more efficient AI?&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 09 Jan 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/01/09/p0930-amd-radeon-pro-w7700-running-on-raspberry-pi/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/01/09/p0930-amd-radeon-pro-w7700-running-on-raspberry-pi/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Me:: Secular Monks is a scary but accurate phrase for many men Derek Thompson:: The Anti-Social Century - The Atlantic</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 8, 2025 22:44 &lt;a href=&quot;https://www.theatlantic.com/magazine/archive/2025/02/american-loneliness-personality-politics/681091/&quot;&gt;Me:: Secular Monks is a scary but accurate phrase for many men Derek Thompson:: The Anti-Social Century - The Atlantic&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Taggart called these men “secular monks” for their combination of old-fashioned austerity and modern solipsism. “Practitioners submit themselves to ever more rigorous, monitored forms of ascetic self-control,” he wrote, “among them, cold showers, intermittent fasting, data-driven health optimization, and meditation boot camps.”&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 08 Jan 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/01/08/p2244-american-loneliness-personality-politics/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/01/08/p2244-american-loneliness-personality-politics/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Me:: while it lasts :-) add cooked,wiki in front of an recipe url to get a no fluff reader mode style recipe Recipes that work:: Elise Bauer:: Pasta Carbonara</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 8, 2025 20:35 &lt;a href=&quot;https://cooked.wiki/new/recent/02d9102d-bfbd-419e-b0bc-c078b0c7545e&quot;&gt;Me:: while it lasts :-) add cooked,wiki in front of an recipe url to get a no fluff reader mode style recipe Recipes that work:: Elise Bauer:: Pasta Carbonara&lt;/a&gt; –&amp;gt; original recipe is here: &lt;a href=&quot;https://www.simplyrecipes.com/recipes/spaghetti_alla_carbonara/&quot;&gt;Elise Bauer:: Pasta Carbonara ¦ simply recipes&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 08 Jan 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/01/08/p2035-pasta-carbonara-cooked-wiki/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/01/08/p2035-pasta-carbonara-cooked-wiki/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Me:: we have great conversations but no way of truly capturing them I agree 2020:: Max Krieger:: Chapter 1 | Chatting with Glue</title>
@@ -117,45 +150,6 @@ The prompt puts humans in control. Ask a question, get an answer, review it, tak
         <pubDate>Mon, 06 Jan 2025 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2025/01/06/p0721-news-iphone-6-ios14-older-ja1lbreak/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/01/06/p0721-news-iphone-6-ios14-older-ja1lbreak/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Transit app didn't realize I was on 10th; GPS issue on my old phone?)&amp; kept telling me I needed to do a right on 10th and Google Maps steered me to non safe routes like Clark Drive Strava:: Zum Telus :-) #Trocken</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 6, 2025 06:38  &lt;a href=&quot;https://www.strava.com/activities/13257995501&quot;&gt;Transit app didn’t realize I was on 10th; GPS issue on my old phone?)&amp;amp; kept telling me I needed to do a right on 10th and Google Maps steered me to non safe routes like Clark Drive Strava:: Zum Telus :-) #Trocken&lt;/a&gt; &amp;lt;– I guess I need to try Komoot and other apps again since it’s 2025 :-)&lt;/p&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;December 18, 2024 &lt;a href=&quot;http://rolandtanglao.com/2024/12/18/p2109-13144881963-cross-clark-at-frances-not-georgia/&quot;&gt;Me:: there is no safe crossing of Clark at E. Georgia, use Frances instead! Transit app wrong again :-) (Transit app war falsch :-) Kein SafeCrossing bei E. Georgia, safe crossing ist bei Frances!) Zum… ¦ Ride ¦ Strava&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 06 Jan 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/01/06/p0638-13257995501-transit-app-google-maps-bad-bicycling-directions/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/01/06/p0638-13257995501-transit-app-google-maps-bad-bicycling-directions/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Me:: We can suppress any viral disease if we have the will via: multiple vaccinations, clean air, Five years of the COVID-19 pandemic: An interview with Dr. Arijit Chakravarty</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 5, 2025 22:13 &lt;a href=&quot;https://www.wsws.org/en/articles/2024/12/31/zgyj-d31.html&quot;&gt;Me:: We can suppress any viral disease if we have the will via: multiple vaccinations, clean air, Five years of the COVID-19 pandemic: An interview with Dr. Arijit Chakravarty&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;If you want to avoid making that same mistake again, don’t put all your eggs in the neutralizing antibody vaccine basket or in the nasal vaccine basket. Don’t put all your eggs in the evolution-proof basket. It isn’t going to work. The story’s going to end the same way as it did last time. ... But if you come in with a multipronged strategy where you limited onward spread from long-term infections, you develop combination therapies for long-term infections, you use the multipronged approach to reduce the viral load, including deploying things like HEPA filters and far-UVC and monitoring viral load in public spaces, now you have a fighting shot. If you then use a variety of different vaccines to really maximize the diversity of neutralizing antibodies at a population level, the odds of slowing viral evolution down to a crawl start looking good.&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 05 Jan 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/01/05/p2213-zgyj-d31/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/01/05/p2213-zgyj-d31/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Me: He's a c⭕n man, r🅐cist and lᜁar. Those 3 things should be linked at the top of every story. 3 links to 3 3 web pages of one liners with every c⭕n and lᜁe and r🅐cist statement. Dan Froomkin: President 45 and elect 47 coverage needs to change and here’s how | Press Watch</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 5, 2025 22:07 &lt;a href=&quot;https://presswatchers.org/2024/12/trump-coverage-needs-to-change-and-heres-how/&quot;&gt;Me: He’s a c⭕n man, r🅐cist and lᜁar. Those 3 things should be linked at the top of every story. 3 links to 3 3 web pages of one liners with every c⭕n and lᜁe and r🅐cist statement. Dan Froomkin: President 45 and elect 47 coverage needs to change and here’s how ¦ Press Watch&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;He is the proverbial snake-oil salesman. That’s the accurate framing. But it’s not what we’re getting from the traditional mainstream media.&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 05 Jan 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/01/05/p2207-trump-coverage-needs-to-change-and-heres-how/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/01/05/p2207-trump-coverage-needs-to-change-and-heres-how/</guid>
         
         
       </item>
