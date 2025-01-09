@@ -6,9 +6,87 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 07 Jan 2025 09:38:08 -0800</pubDate>
-    <lastBuildDate>Tue, 07 Jan 2025 09:38:08 -0800</lastBuildDate>
+    <pubDate>Wed, 08 Jan 2025 18:02:00 -0800</pubDate>
+    <lastBuildDate>Wed, 08 Jan 2025 18:02:00 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Me:: we have great conversations but no way of truly capturing them I agree 2020:: Max Krieger:: Chapter 1 | Chatting with Glue</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 8, 2025 17:41 &lt;a href=&quot;https://a9.io/glue-comic/&quot;&gt;Me:: we have great conversations but no way of truly capturing them I agree 2020:: Max Krieger:: Chapter 1 ¦ Chatting with Glue&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Our conversations have a memory problem...online and offline&lt;/code&gt; &amp;lt;– Read the whole five part comic thing: &lt;a href=&quot;https://a9.io/glue-comic/&quot;&gt;2020:: Max Krieger:: Chapter 1 ¦ Chatting with Glue&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 08 Jan 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/01/08/p1741-glue-comic/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/01/08/p1741-glue-comic/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ahmed-musallam:: How to compress a PDF with ghostscript</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 8, 2025 15:08 &lt;a href=&quot;https://gist.github.com/ahmed-musallam/27de7d7c5ac68ecbd1ed65b6b48416f9&quot;&gt;ahmed-musallam:: How to compress a PDF with ghostscript&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gs &lt;span class=&quot;nt&quot;&gt;-q&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-dNOPAUSE&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-dBATCH&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-dSAFER&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-sDEVICE&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;pdfwrite &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;-dCompatibilityLevel&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1.3 &lt;span class=&quot;nt&quot;&gt;-dPDFSETTINGS&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/screen -&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;dEmbedAllFonts&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-dSubsetFonts&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;-dColorImageDownsampleType&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/Bicubic &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;-dColorImageResolution&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;144 &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;-dGrayImageDownsampleType&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/Bicubic &lt;span class=&quot;nt&quot;&gt;-dGrayImageResolution&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;144 &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;-dMonoImageDownsampleType&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/Bicubic &lt;span class=&quot;nt&quot;&gt;-dMonoImageResolution&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;144 &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;-sOutputFile&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;out.pdf inputfile.pdf
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Wed, 08 Jan 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/01/08/p1508-27de7d7c5ac68ecbd1ed65b6b48416f9/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/01/08/p1508-27de7d7c5ac68ecbd1ed65b6b48416f9/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Me: Spreadsheets are the number 1 programming language. HTML is number 2 because not everybody can code in HTML unlike spreadsheets Tim Carmody:: HTML Is Actually a Programming Language. Fight Me | WIRED</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 8, 2025 07:33 &lt;a href=&quot;https://www.wired.com/story/html-is-actually-a-programming-language-fight-me/&quot;&gt;Me: Spreadsheets are the number 1 programming language. HTML is number 2 because not everybody can code in HTML unlike spreadsheets Tim Carmody:: HTML Is Actually a Programming Language. Fight Me ¦ WIRED&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;What other programmers might say dismissively is something HTML lovers embrace: Anyone can do it. Whether we’re using complex frameworks or very simple tools, HTML’s promise is that we can build, make, code, and do anything we want.&lt;/code&gt; &amp;lt;– RTWH: &lt;a href=&quot;https://www.wired.com/story/html-is-actually-a-programming-language-fight-me/&quot;&gt;Tim Carmody:: HTML Is Actually a Programming Language. Fight Me ¦ WIRED&lt;/a&gt; (&lt;a href=&quot;https://archive.is/TBoBI&quot;&gt;non paywalled&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;December 26, 2024: &lt;a href=&quot;http://rolandtanglao.com/2024/12/26/p0930-llm-end-user-programming/&quot;&gt;Me: It would be wonderful if we all could write and modify software that’s better than today’s world of mass software development which is spreadsheets and things like Hypercard Geoffrey Litt:: Malleable software in the age of LLMs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 08 Jan 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/01/08/p0733-html-is-actually-a-programming-language-fight-me/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/01/08/p0733-html-is-actually-a-programming-language-fight-me/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Manton Reece:: no agents &amp; unattended algorithms	- AI prompts vs. agents</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 7, 2025 11:51 &lt;a href=&quot;https://www.manton.org/2025/01/07/ai-prompts-vs-agents.html&quot;&gt;Manton Reece:: no agents &amp;amp; unattended algorithms	- AI prompts vs. agents&lt;/a&gt; &amp;lt;–I agree, for now :-) ! Since for now they are not AGI and unless there’s a breakthrough AGI doesn’t look like it will happen anytime soon (i.e. before 2030) but hey I could be wrong :-)&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+&lt;p&gt;Read the whole thing: &lt;a href=&quot;https://www.manton.org/2025/01/07/ai-prompts-vs-agents.html&quot;&gt;AI prompts vs. agents&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This isn’t even the most insane story you could imagine. Many of the examples of AI threatening humanity are actually agents. AI that runs our military, power plants, or transportation with little human oversight.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In generative AI, the “prompt” has a big influence on the quality of the output. Not just the prompt you see when typing into ChatGPT, but also the hidden prompts behind the scenes to guide the AI in the right direction.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The prompt isn’t always something you type directly. It could be automatically triggered, for example to analyze keywords for a photo that was uploaded. But the prompt should be tied to a user action.
+The prompt puts humans in control. Ask a question, get an answer, review it, take action. Agents will attempt to collapse that workflow, in some cases replacing the human’s role in reviewing and taking action. This is dangerous.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In my own use and work in Micro.one and Micro.blog, I plan to draw a line here. No agents. No unattended algorithms, as I wrote in my book. I hope this approach will help us use AI effectively without getting lost.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Tue, 07 Jan 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/01/07/p1151-ai-prompts-vs-agents/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/01/07/p1151-ai-prompts-vs-agents/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Recipes that will probably work :-) :: Pailin Chongchitnant:: Vegan Pad Thai Recipe (that Thai people actually eat)</title>
@@ -78,55 +156,6 @@
         <pubDate>Sun, 05 Jan 2025 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2025/01/05/p2207-trump-coverage-needs-to-change-and-heres-how/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/01/05/p2207-trump-coverage-needs-to-change-and-heres-how/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>'If you make the decision to automate, still ask the questions and seek the friction.' Fred Hebert:: Local Optimizations Don't Lead to Global Optimums</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 5, 2025 15:25 &lt;a href=&quot;https://ferd.ca/local-optimizations-don-t-lead-to-global-optimums.html&quot;&gt;‘If you make the decision to automate, still ask the questions and seek the friction.’ Fred Hebert:: Local Optimizations Don’t Lead to Global Optimums&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;I've been disappointed by proposals of turning LLMs into incident reviewers; I'd rather see them becoming analysis second-guessers: maybe they can point out agentive language leading to bias, elements that sound counterfactual, highlights elements that appear blameful to create blame awareness? .... If you make the decision to automate, still ask the questions and seek the friction. Systems adjust themselves and activate their adaptive capacity based on the type of challenges they face. Highlight friction. It’s useful, and it would be a waste to ignore it.&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 05 Jan 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/01/05/p1525-local-optimizations-don-t-lead-to-global-optimums/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/01/05/p1525-local-optimizations-don-t-lead-to-global-optimums/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Me:: Value is in the action triggered by a metric or alert not the metric or alert itself, agreed! 2021:: Fred Hebert:: Plato's Dashboards</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 5, 2025 15:22 &lt;a href=&quot;https://ferd.ca/plato-s-dashboards.html&quot;&gt;Me:: Value is in the action triggered by a metric or alert not the metric or alert itself, agreed! 2021:: Fred Hebert:: Plato’s Dashboards&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;The actual value is not in the metric nor the alert, but in the reaction that follows. They're a great trigger point for more meaningful things to happen, and maintaining that meaningfulness should be the priority.&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 05 Jan 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/01/05/p1522-plato-s-dashboards/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/01/05/p1522-plato-s-dashboards/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Me:: tl;dr Natural Language Processing-based test automation strategy is best for  web apps Leotta, Ricca, Marchetto, Olianas:: An empirical study to compare three web test automation approaches: NLP‐based, programmable, and capture&amp;amp;replay - 2024 - Journal of Software: Evolution and Process - Wiley Online Library</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 5, 2025 07:06 &lt;a href=&quot;https://onlinelibrary.wiley.com/doi/10.1002/smr.2606&quot;&gt;Me:: tl;dr Natural Language Processing-based test automation strategy is best for  web apps Leotta, Ricca, Marchetto, Olianas:: An empirical study to compare three web test automation approaches: NLP‐based, programmable, and capture&amp;amp;replay - 2024 - Journal of Software: Evolution and Process - Wiley Online Library&lt;/a&gt;&amp;lt;– via Greg Wilson’s summary of papers page:  &lt;a href=&quot;https://third-bit.com/ideas/nwit/&quot;&gt;It will never work in theory&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Results show that the NLT approach appears to be the best option for small- to medium-sized test suites such as those considered in our empirical study. In fact, compared with competitors, the NLT approach minimizes the total cumulative cost (development and evolution) and does not require software testers with programming skills. NLT is also the best in terms of resiliency being more robust to the evolution of a web application. CRT is slightly faster during development but then loses when evolution is considered. In conclusion, these new NLP-based tools appear to be very promising and will probably be even more performing in the near future when the adopted NLP algorithms used to transform natural language based test cases into executable test cases improve further.&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 05 Jan 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/01/05/p0706-smr.2606/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/01/05/p0706-smr.2606/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Me:: Support and maintenance people like Brienna Hall make the world go round :-) (and of course I'm not naive enough to think that all the other non support people are not just as important. Everything and Everybody in a team counts). I am glad this article glorifies the support staff because most of the time they receive 0 glory and 100% aggro :-) despite playing a vital role! Ben Cohen:: WSJ:: It’s the Most Indispensable Machine in the World—and It Depends on This Woman Support Engineer</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 3, 2025 20:41  &lt;a href=&quot;https://archive.is/NXQou&quot;&gt;Me:: Support and maintenance people like Brienna Hall make the world go round :-) (and of course I’m not naive enough to think that all the other non support people are not just as important. Everything and Everybody in a team counts). I am glad this article glorifies the support staff because most of the time they receive 0 glory and 100% aggro :-) despite playing a vital role! Ben Cohen:: WSJ:: It’s the Most Indispensable Machine in the World—and It Depends on This Woman Support Engineer&lt;/a&gt; &amp;lt;– link to the original in the WSJ: &lt;a href=&quot;https://www.wsj.com/tech/ai/asml-euv-machine-lithography-chips-967954d0&quot;&gt;It’s the Most Indispensable Machine in the World—and It Depends on This Woman&lt;/a&gt; &amp;lt;– QUOTE: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;I got a rare look at the one tool responsible for all the tech in your life. It’s made by a company you’ve never heard of. And it’s maintained by hidden figures like her&lt;/code&gt; &amp;lt;– Don’t read the comments because it ‘s full of people who don’t realize that technology is a worldwide team sport :-)&lt;/p&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;December 25, 2023 2023-12-25 &lt;a href=&quot;https://www.rolandmicroblog.com/2023/12/25/thank-you-thunderbird.html&quot;&gt;Thank you Thunderbird Non Coding Contributors&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 03 Jan 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/01/03/p2041-nxqou-support-people-make-the-world-work/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/01/03/p2041-nxqou-support-people-make-the-world-work/</guid>
         
         
       </item>
