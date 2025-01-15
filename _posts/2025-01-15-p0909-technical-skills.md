@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Me:: Everybody is 'technical' in one or more domains and provids 'value' (value and productivity are bogus concepts since they are so arbitrary) and can learn more domains Sasha Laundy:: 'Technical' skills"
+title: "Me:: Everybody is 'technical' in one or more domains and provides 'value' (value and productivity are bogus concepts since they are so arbitrary) and can learn more domains Sasha Laundy:: 'Technical' skills"
 ---
 [Discovered](http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/): Jan 15, 2025 09:09 [Me:: Everybody is 'technical' in one or more domains and provids 'value' (value and productivity are bogus concepts since they are so arbitrary) and can learn more domains Sasha Laundy:: "Technical" skills](https://sashalaundy.com/writing/technical-skills/)
 
@@ -21,3 +21,7 @@ title: "Me:: Everybody is 'technical' in one or more domains and provids 'value'
 >This distinction isn't just about semantics. It's also about value.
 
 >Erasing technical skills lets you erase value.
+
+## Previously
+
+* April 21, 2024 [The Trap of Soulless Productivity: Hazel Weakly: instead humans are wired to be productive by sharing, loving, growing](https://rolandtanglao.com/2024/04/21/p1-hazel-weakly-humans-wired-to-be-productive-by-sharing-growing-loving/)
