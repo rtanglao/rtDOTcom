@@ -6,9 +6,37 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 15 Jan 2025 12:32:35 -0800</pubDate>
-    <lastBuildDate>Wed, 15 Jan 2025 12:32:35 -0800</lastBuildDate>
+    <pubDate>Fri, 17 Jan 2025 18:30:37 -0800</pubDate>
+    <lastBuildDate>Fri, 17 Jan 2025 18:30:37 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Me:: Komoot doesn't know about the Dunsmuir viaduct bicycling path instead it directs me to use the Central Valley Greenway which is better than Google Maps but not optimal Bike ride from Revolver to St. Joseph’s | Komoot</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 17, 2025 18:21  &lt;a href=&quot;https://www.komoot.com/tour/2018367957&quot;&gt;Me:: Komoot doesn’t know about the Dunsmuir viaduct bicycling path instead it directs me to use the Central Valley Greenway which is better than Google Maps but not optimal Bike ride from Revolver to St. Joseph’s ¦ Komoot&lt;/a&gt; &amp;lt;– oh well. The path it chose isn’t a bad one, it’s just obviously in need of Vancouver data or something :-)&lt;/p&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;January 11, 2025: &lt;a href=&quot;http://rolandtanglao.com/2025/01/11/p1746-13319298712-google-maps-error-nanaimo-victoria-instead-lakewood/&quot;&gt;I am really going to have to try another app for bicycle route finding. Not impressed by Google Maps and Transit app. Google Maps once more steers me wrong (recommended Nanaimo and Victoria instead of Lakewood - Strava:: Zum Pho Dundas :-)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 17 Jan 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/01/17/p1821-2018367957-komoot-nonoptimal-central-valley-greenway-route/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/01/17/p1821-2018367957-komoot-nonoptimal-central-valley-greenway-route/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Me:: use flexoki's high contrast colour scheme for future data visualizations?!? Flexoki — Steph Ango</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 16, 2025 07:05 &lt;a href=&quot;https://stephango.com/flexoki&quot;&gt;Me:: use flexoki’s high contrast colour scheme for future data visualizations?!? Flexoki — Steph Ango&lt;/a&gt; &amp;lt;– QUOTE: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Flexoki is minimalistic and high-contrast. The colors are calibrated for legibility and perceptual balance across devices and when switching between light and dark modes.&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 16 Jan 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/01/16/p0705-flexoki/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/01/16/p0705-flexoki/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Me:: Everybody is 'technical' in one or more domains and provides 'value' (value and productivity are bogus concepts since they are so arbitrary) and can learn more domains Sasha Laundy:: 'Technical' skills</title>
@@ -219,28 +247,6 @@ This ‘myth of meritocracy’ is far from cost-free: it contributes to the acce
         <pubDate>Fri, 10 Jan 2025 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2025/01/10/p0752-wisdom-of-plagues-h5n1-mpox/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/01/10/p0752-wisdom-of-plagues-h5n1-mpox/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Me:: Nvidia GPUs don't work currently on Raspbery PI and you need a Linux kernel patch for AMD GPUs 2024-11-19:: Jeff Geerling:: AMD Radeon PRO W7700 running on Raspberry Pi  </title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 9, 2025 09:30 &lt;a href=&quot;https://www.jeffgeerling.com/blog/2024/amd-radeon-pro-w7700-running-on-raspberry-pi&quot;&gt;Me:: Nvidia GPUs don’t work currently on Raspbery PI and you need a Linux kernel patch for AMD GPUs 2024-11-19:: Jeff Geerling:: AMD Radeon PRO W7700 running on Raspberry Pi  &lt;/a&gt; &amp;lt;– someday there will be a plug and play solution for raspberry Pis. Not there yet :-) &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;After years of work among a bunch of people in the Pi community (special callout to Coreforge!), we finally have multiple generations of AMD graphics cards working on the Raspberry Pi 5.&lt;/code&gt; &amp;lt;– see also the youtube video:  &lt;a href=&quot;https://www.youtube.com/watch?v=AyR7iCS7gNI&quot;&gt;A GPU-powered Pi for more efficient AI?&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 09 Jan 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/01/09/p0930-amd-radeon-pro-w7700-running-on-raspberry-pi/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/01/09/p0930-amd-radeon-pro-w7700-running-on-raspberry-pi/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Me:: Secular Monks is a scary but accurate phrase for many men Derek Thompson:: The Anti-Social Century - The Atlantic</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 8, 2025 22:44 &lt;a href=&quot;https://www.theatlantic.com/magazine/archive/2025/02/american-loneliness-personality-politics/681091/&quot;&gt;Me:: Secular Monks is a scary but accurate phrase for many men Derek Thompson:: The Anti-Social Century - The Atlantic&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Taggart called these men “secular monks” for their combination of old-fashioned austerity and modern solipsism. “Practitioners submit themselves to ever more rigorous, monitored forms of ascetic self-control,” he wrote, “among them, cold showers, intermittent fasting, data-driven health optimization, and meditation boot camps.”&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 08 Jan 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/01/08/p2244-american-loneliness-personality-politics/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/01/08/p2244-american-loneliness-personality-politics/</guid>
         
         
       </item>
