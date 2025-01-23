@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Me:: I find browser extension problematic because they require a lot of implicit knowledge, there's no simple 1 file hello world for example! 2023:: Geoffrey Litt:: For your next side project, make a browser extension"
+title: "Me:: I find browser extension development problematic because they require a lot of implicit knowledge, there's no simple 1 file hello world for example! 2023:: Geoffrey Litt:: For your next side project, make a browser extension"
 ---
-[Discovered](http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/): Jan 23, 2025 09:51  [Me:: I find browser extension problematic because they require a lot of implicit knowledge, there's no simple 1 file hello world for example! 2023:: Geoffrey Litt:: For your next side project, make a browser extension](https://www.geoffreylitt.com/2023/01/08/for-your-next-side-project-make-a-browser-extension) 
+[Discovered](http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/): Jan 23, 2025 09:51  [Me:: I find browser extension development problematic because they require a lot of implicit knowledge, there's no simple 1 file hello world for example! 2023:: Geoffrey Litt:: For your next side project, make a browser extension](https://www.geoffreylitt.com/2023/01/08/for-your-next-side-project-make-a-browser-extension) 
 
 ## QUOTE
 Read the whole thing: [2023:: Geoffrey Litt:: For your next side project, make a browser extension](https://www.geoffreylitt.com/2023/01/08/for-your-next-side-project-make-a-browser-extension) 
