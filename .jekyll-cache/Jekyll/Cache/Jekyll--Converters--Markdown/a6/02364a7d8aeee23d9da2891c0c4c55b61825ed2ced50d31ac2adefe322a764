@@ -1,0 +1,17 @@
+I"�<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Jan 30, 2025 08:14 <a href="https://sketch.dev/sk/a5ph">David Crawshaw’s sketch.dev LLM hello world gets into a loop abut deleting duplicate files </a> –&gt; See David Crashaw’s blog post: <a href="https://crawshaw.io/blog/programming-with-llms">How I program with LLMs</a></p>
+
+<h2 id="sketchdevs-llm-goes-into-a-loop-with-the-following-output-over-and-over-again">sketch.dev’s LLM goes into a loop with the following output over and over again</h2>
+
+<blockquote>
+  <p>I see the current program has some file organization issues and inconsistencies. Let me help clean this up by:</p>
+</blockquote>
+
+<blockquote>
+  <p>Deleting the duplicate test file at the root level (/pkg_test.go)
+   Deleting the empty file at the root level (/pkg.go)</p>
+</blockquote>
+
+<blockquote>
+  <p>I’ll ask about what additional improvements you’d like to make to this greeting program.</p>
+</blockquote>
+:ET
