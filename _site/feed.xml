@@ -6,9 +6,28 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 05 Feb 2025 19:20:19 -0800</pubDate>
-    <lastBuildDate>Wed, 05 Feb 2025 19:20:19 -0800</lastBuildDate>
+    <pubDate>Thu, 06 Feb 2025 10:38:44 -0800</pubDate>
+    <lastBuildDate>Thu, 06 Feb 2025 10:38:44 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Dr. Martin Luther King Jr.:: Like life, rⷶcial understanding is not something that we find but something that we must create &lt;-- 'Where Do We Go From Here: Chaos or Community?', 1967.</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.drmartinlutherkingjr.com/drking/mlk-quotes/&quot;&gt;Dr. Martin Luther King Jr.:: “Like life, rⷶcial understanding is not something that we find but something that we must create.” 
+&amp;lt;- “Where Do We Go From Here: Chaos or Community?”, 1967.&lt;/a&gt; 
+&amp;lt;– Read the book –&amp;gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/Where_Do_We_Go_from_Here:_Chaos_or_Community&quot;&gt;‘Where Do We Go From Here: Chaos or Community?’, 1967, wiki page&lt;/a&gt;
+&amp;lt;– 2025 seems to be 1967 all over again.&lt;/p&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;January 20, 2025 &lt;a href=&quot;http://rolandtanglao.com/2025/01/20/p0713-mlk-quotes/&quot;&gt;Dr. Martin Luther King Jr.:: Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 06 Feb 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/02/06/p1038-r%E2%B7%B6cial-understandg-not-found-but-created/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/02/06/p1038-r%E2%B7%B6cial-understandg-not-found-but-created/</guid>
+        
+        
+      </item>
     
       <item>
         <title>HOW TO: to randomly open a jpeg larger than 12MB:: `find . -name '*.JPG' -type f -size +12M -print | sort -R | head -1 | xargs -n 1 open`  super user-unix:: How can I find files that are bigger/smaller than x bytes?</title>
@@ -174,32 +193,6 @@ progress in the US will always be fitful and uncertain”
         <pubDate>Fri, 31 Jan 2025 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2025/01/31/p2039-disproportionate-power-reactionary-south-progress-fitful-uncertain/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/01/31/p2039-disproportionate-power-reactionary-south-progress-fitful-uncertain/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>David Crawshaw's sketch.dev LLM hello world gets into a loop abut deleting duplicate files </title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 30, 2025 08:14 &lt;a href=&quot;https://sketch.dev/sk/a5ph&quot;&gt;David Crawshaw’s sketch.dev LLM hello world gets into a loop abut deleting duplicate files &lt;/a&gt; –&amp;gt; See David Crashaw’s blog post: &lt;a href=&quot;https://crawshaw.io/blog/programming-with-llms&quot;&gt;How I program with LLMs&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;sketchdevs-llm-goes-into-a-loop-with-the-following-output-over-and-over-again&quot;&gt;sketch.dev’s LLM goes into a loop with the following output over and over again&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I see the current program has some file organization issues and inconsistencies. Let me help clean this up by:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Deleting the duplicate test file at the root level (/pkg_test.go)
-   Deleting the empty file at the root level (/pkg.go)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I’ll ask about what additional improvements you’d like to make to this greeting program.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Thu, 30 Jan 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/01/30/p0814-a5ph-sketch-dev-llm-software-dev-david-crawshaw/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/01/30/p0814-a5ph-sketch-dev-llm-software-dev-david-crawshaw/</guid>
         
         
       </item>
