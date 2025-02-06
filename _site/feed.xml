@@ -6,9 +6,20 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 04 Feb 2025 20:18:13 -0800</pubDate>
-    <lastBuildDate>Tue, 04 Feb 2025 20:18:13 -0800</lastBuildDate>
+    <pubDate>Wed, 05 Feb 2025 19:20:19 -0800</pubDate>
+    <lastBuildDate>Wed, 05 Feb 2025 19:20:19 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>HOW TO: to randomly open a jpeg larger than 12MB:: `find . -name '*.JPG' -type f -size +12M -print | sort -R | head -1 | xargs -n 1 open`  super user-unix:: How can I find files that are bigger/smaller than x bytes?</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Feb 5, 2025 18:09  &lt;a href=&quot;https://superuser.com/questions/204564/how-can-i-find-files-that-are-bigger-smaller-than-x-bytes&quot;&gt;HOW TO: to randomly open a jpeg larger than 12MB:: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;find . -name '*.JPG' -type f -size +12M -print ¦ sort -R ¦ head -1 ¦ xargs -n 1 open&lt;/code&gt;  super user-unix:: How can I find files that are bigger/smaller than x bytes?&lt;/a&gt; –&amp;gt; &lt;strong&gt;QUOTE&lt;/strong&gt; from the macOS &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;find&lt;/code&gt; man page:  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;All primaries which take a numeric argument allow the number to be preceded by a plus sign (“+”) or a minus sign (“-”).  A preceding plus sign means “more than n”, a preceding minus sign means “less than n” and neither means “exactly n”.&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 05 Feb 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/02/05/p1809-how-can-i-find-files-that-are-bigger-smaller-than-x-bytes/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/02/05/p1809-how-can-i-find-files-that-are-bigger-smaller-than-x-bytes/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Dr. Martin Luther King Jr.:: When some members of the dominant group, particularly those in power, are rⷶcist in attitude and practice, bitterness accuses the whole group. &lt;-- 'Where Do We Go From Here: Chaos or Community?', 1967.</title>
@@ -25,6 +36,56 @@
         <pubDate>Tue, 04 Feb 2025 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2025/02/04/p2218-dominant-group-rcist-bitterness-whole-group/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/02/04/p2218-dominant-group-rcist-bitterness-whole-group/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Me:: A useful writing assistant that speeds common writing tasks up by 25% ?!? Fred  Vogelstein and Om Malik:: Google's NotebookLM AI will change my life-maybe yours too</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Feb 4, 2025 20:25 &lt;a href=&quot;https://crazystupidtech.com/archive/googles-notebooklm-ai-will-change-my-life-maybe/&quot;&gt;Me:: A useful writing assistant that speeds common writing tasks up by 25% ?!? Fred  Vogelstein and Om Malik:: Google’s NotebookLM AI will change my life-maybe yours too&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing
+    &lt;blockquote&gt;
+      &lt;p&gt;I’d like to ask my personal AI chatbot things like “How might I recast two book proposals I’ve written that didn’t sell?” Or  “Show me the notes and transcripts of interviews I did for a Google story I wrote in 2002.” Or “Generate the names and latest email addresses, sorted by story, of every person I’ve quoted in anything I’ve written. What did they say in those stories? Or “Describe my method for writing and reporting stories for a journalism school class. Or “Show me videos I took of my kids before they turned five.”&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We’re not there yet. But Google’s NotebookLM is close. I used it for this piece, uploading a 75 minute interview I did with its editorial director, Steven Johnson. I’d guess it reduced the story production time by 25 percent.  I asked it to write a 1000 word story and a 2000 word edited Q&amp;amp;A based on the interview. Neither were bad first drafts. And they helped me draft this version much faster.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Tue, 04 Feb 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/02/04/p2025-googles-notebooklm-ai-will-change-my-life-maybe/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/02/04/p2025-googles-notebooklm-ai-will-change-my-life-maybe/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Me:: I agree! Maybe not tear up the IP laws but just sell all the jailbreak things :-) ! Cory Doctorow:: Canada shouldn’t retaliate with US tariffs; Picks and Shovels Chapter One (Part 6 – CONCLUSION) (15 Jan 2025)</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Feb 3, 2025 19:29 &lt;a href=&quot;https://pluralistic.net/2025/01/15/beauty-eh/&quot;&gt;Me:: I agree! Maybe not tear up the IP laws but just sell all the jailbreak things :-) ! Cory Doctorow:: Canada shouldn’t retaliate with US tariffs; Picks and Shovels Chapter One (Part 6 – CONCLUSION) (15 Jan 2025)&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://pluralistic.net/2025/01/15/beauty-eh/&quot;&gt;Cory Doctorow:: Canada shouldn’t retaliate with US tariffs; Picks and Shovels Chapter One (Part 6 – CONCLUSION) (15 Jan 2025)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;What’s standing in the way of a Canadian industrial policy that focuses on raiding the sky-high margins of American monopolists with third-party add-ons, mods and jailbreaks?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Only the IP laws that Canada has agreed to in order to get tariff-free access to American markets. You know, the access that Trᜂmp has promised to end in less than a week’s time?&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Mon, 03 Feb 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/02/03/p1929-beauty-eh/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/02/03/p1929-beauty-eh/</guid>
         
         
       </item>
@@ -139,65 +200,6 @@ progress in the US will always be fitful and uncertain”
         <pubDate>Thu, 30 Jan 2025 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2025/01/30/p0814-a5ph-sketch-dev-llm-software-dev-david-crawshaw/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/01/30/p0814-a5ph-sketch-dev-llm-software-dev-david-crawshaw/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Me:: 'Hyperchrome' is just a fun filter LOL Pearla:: Professional Camera App with Film Simulations</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 30, 2025 06:35 &lt;a href=&quot;https://pearla.houseofmars.io/pearla-recipes/2024/03/hyperchrome/&quot;&gt;Me:: ‘Hyperchrome’ is just a fun filter LOL Pearla:: Professional Camera App with Film Simulations&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Hyperchrome is a portal to a world brimming with electrifying colours and boundless creativity. Imagine stepping into a photograph where every hue is amplified, pulsating with an energy that ignites the senses. That’s the magic of Hyperchrome.&lt;/code&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;recipe&quot;&gt;Recipe:&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Film Simulation: Afthonos&lt;/li&gt;
-  &lt;li&gt;Highlights/Shadows: -30/0&lt;/li&gt;
-  &lt;li&gt;Colour Balance Cyan/Red: 0&lt;/li&gt;
-  &lt;li&gt;Colour Balance Magenta/Green: -2&lt;/li&gt;
-  &lt;li&gt;Colour Balance Yellow/Blue: -1&lt;/li&gt;
-  &lt;li&gt;Colour Chrome Effect: On&lt;/li&gt;
-  &lt;li&gt;Colour Chrome Effect Blue: Off&lt;/li&gt;
-  &lt;li&gt;Saturation: 0&lt;/li&gt;
-  &lt;li&gt;Vibrance: 0&lt;/li&gt;
-  &lt;li&gt;Midtone Details: 0&lt;/li&gt;
-  &lt;li&gt;Grain: Weak&lt;/li&gt;
-  &lt;li&gt;Grain Strength: Small&lt;/li&gt;
-  &lt;li&gt;Bloom: 0&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 30 Jan 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/01/30/p0635-hyperchrome/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/01/30/p0635-hyperchrome/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Dr. Martin Luther King Jr.:: the alliance of Southern r⒜cism and Northern reaction has been the major roadblock to all social advancement, 'Where Do We Go From Here: Chaos or Community?', 1967.</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.drmartinlutherkingjr.com/drking/mlk-quotes/&quot;&gt;Dr. Martin Luther King Jr.:: the alliance of Southern r⒜cism and Northern reaction has been the major roadblock to all social advancement.” 
-&amp;lt;- “Where Do We Go From Here: Chaos or Community?”, 1967.&lt;/a&gt; 
-&amp;lt;– Read the book –&amp;gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/Where_Do_We_Go_from_Here:_Chaos_or_Community&quot;&gt;‘Where Do We Go From Here: Chaos or Community?’, 1967, wiki page&lt;/a&gt;
-&amp;lt;– 2025 seems to be 1967 all over again.&lt;/p&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;January 20, 2025 &lt;a href=&quot;http://rolandtanglao.com/2025/01/20/p0713-mlk-quotes/&quot;&gt;Dr. Martin Luther King Jr.:: Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 29 Jan 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/01/29/p2115-southern-rcism-northern-reaction-major-roadblock-social-advancement/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/01/29/p2115-southern-rcism-northern-reaction-major-roadblock-social-advancement/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Gitingest::  Turn any Git repository into a simple text digest of its codebase. This is useful for feeding a codebase into any LLM. </title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 28, 2025 15:35 &lt;a href=&quot;https://gitingest.com/&quot;&gt;Gitingest::  Turn any Git repository into a simple text digest of its codebase. This is useful for feeding a codebase into any LLM. &lt;/a&gt; &amp;lt;– super cool but probably not useful for large repos like https://github.com/thunderbird/github-action-thunderbird-aaq which &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gitingest&lt;/code&gt; turns into a 37 million token file (I excluded all ruby source code and just included the CSV files of SUMO questions and answers)&lt;/p&gt;
-</description>
-        <pubDate>Tue, 28 Jan 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/01/28/p1535-gitingest-com/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/01/28/p1535-gitingest-com/</guid>
         
         
       </item>
