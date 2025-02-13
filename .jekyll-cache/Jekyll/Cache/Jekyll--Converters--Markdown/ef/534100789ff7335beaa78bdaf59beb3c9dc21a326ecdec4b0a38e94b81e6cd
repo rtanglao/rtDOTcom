@@ -1,0 +1,15 @@
+I"õ<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Feb 10, 2025 07:00 <a href="https://github.com/rolkra/explore?tab=readme-ov-file">Me:: a quick, fun way to graph and explore datasets with R GitHub:: rolkra/explore:: R package that makes basic data exploration radically simple (interactive data exploration, reproducible data science)</a></p>
+
+<h2 id="quote">QUOTE:</h2>
+
+<ul>
+  <li>
+    <p>Read the whole thing: <a href="https://rolkra.github.io/explore/">Explore vignette on github</a></p>
+  </li>
+  <li><strong>Interactive data exploration:</strong> explore()</li>
+  <li>Use <strong>AI</strong> to unveil hidden patterns in your data (xgboost, RF, logreg, DT): <code class="language-plaintext highlighter-rouge">explain_*()</code></li>
+  <li>Generate an <strong>automated report</strong> of your data (or patterns in your data): <code class="language-plaintext highlighter-rouge">report()</code></li>
+  <li><strong>Manual exploration</strong>: <code class="language-plaintext highlighter-rouge">explore()</code>, <code class="language-plaintext highlighter-rouge">describe()</code>, <code class="language-plaintext highlighter-rouge">explain_*()</code>, <code class="language-plaintext highlighter-rouge">abtest()</code>, â€¦</li>
+  <li>18 ready to use <strong>datasets for teaching &amp; testing</strong>: <code class="language-plaintext highlighter-rouge">use_data_*()</code>, <code class="language-plaintext highlighter-rouge">create_data_*()</code></li>
+</ul>
+:ET

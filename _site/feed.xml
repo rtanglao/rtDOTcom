@@ -6,9 +6,20 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 12 Feb 2025 21:40:23 -0800</pubDate>
-    <lastBuildDate>Wed, 12 Feb 2025 21:40:23 -0800</lastBuildDate>
+    <pubDate>Thu, 13 Feb 2025 08:36:32 -0800</pubDate>
+    <lastBuildDate>Thu, 13 Feb 2025 08:36:32 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Me:: Do this on or before Feb 25, 2025 (USB download removed as of Feb 26, 2025) 2024:: UMA Technology:: How to De-DRM Kindle Books Using Calibre</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Feb 13, 2025 07:27 &lt;a href=&quot;https://umatechnology.org/how-to-de-drm-kindle-books-using-calibre-2024/&quot;&gt;Me:: Do this on or before Feb 25, 2025 (USB download removed as of Feb 26) 2024:: UMA Technology:: How to De-DRM Kindle Books Using Calibre&lt;/a&gt; via &lt;a href=&quot;https://nsinteger.com/@zacwest/113991537960396621&quot;&gt;this toot from Zac West&lt;/a&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Amazon is removing the ability to download purchased Kindle content, which is the only way to read it on my Kobo or elsewhere. What this means is I will no longer be purchasing (“a license to”–ick) any books by the mostly independent authors who exclusively publish there; just cancelled preorders.&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 13 Feb 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/02/13/p0727-how-to-de-drm-kindle-books-using-calibre-2024/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/02/13/p0727-how-to-de-drm-kindle-books-using-calibre-2024/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Dr. Martin Luther King Jr.:: Power without love is reckless and abusive, and love without power is sentimental and anemic. Power at its best is love implementing the demands of justice, and justice at its best is power correcting everything that stands against love. &lt;-- 'Where Do We Go From Here: Chaos or Community?', 1967.</title>
@@ -30,6 +41,17 @@
       </item>
     
       <item>
+        <title>Me:: A bot that runs once a day using Github actions amazing! Thanks for the open source code! I need to run my own bot on my Mastodon server to post art daily! Simon Willison:: 2023:: Building Mastodon bots with GitHub Actions and toot</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Feb 11, 2025 07:53 &lt;a href=&quot;https://til.simonwillison.net/mastodon/mastodon-bots-github-actions&quot;&gt;Me:: A bot that runs once a day using Github actions amazing! Thanks for the open source code! I need to run my own bot on my Mastodon server to post art daily! Simon Willison:: 2023:: Building Mastodon bots with GitHub Actions and toot&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;My entire bot is implemented as a GitHub Actions scheduled workflow.&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 11 Feb 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/02/11/p0753-mastodon-bots-github-actions/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/02/11/p0753-mastodon-bots-github-actions/</guid>
+        
+        
+      </item>
+    
+      <item>
         <title>Dr. Martin Luther King Jr.:: It is a disappointment with the Chrᜁstian church that appears to be more whᜁte than Chrᜁstian, and with many whᜁte clergymen who prefer to remain silent behind the security of stained-glass windows. &lt;-- 'Where Do We Go From Here: Chaos or Community?', 1967.</title>
         <description>&lt;p&gt;&lt;a href=&quot;https://www.drmartinlutherkingjr.com/drking/mlk-quotes/&quot;&gt;Dr. Martin Luther King Jr.:: “It is a disappointment with the Chrᜁstian church that appears to be more whᜁte than Chrᜁstian, and with many whᜁte clergymen who prefer to remain silent behind the security of stained-glass windows” 
 &amp;lt;- “Where Do We Go From Here: Chaos or Community?”, 1967.&lt;/a&gt; 
@@ -44,6 +66,41 @@
         <pubDate>Mon, 10 Feb 2025 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2025/02/10/p2207-disappointment-chrstian-chruch-more-whte-than-chrstian/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/02/10/p2207-disappointment-chrstian-chruch-more-whte-than-chrstian/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Me:: a quick, fun way to graph and explore datasets with R GitHub:: rolkra/explore:: R package that makes basic data exploration radically simple (interactive data exploration, reproducible data science)</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Feb 10, 2025 07:00 &lt;a href=&quot;https://github.com/rolkra/explore?tab=readme-ov-file&quot;&gt;Me:: a quick, fun way to graph and explore datasets with R GitHub:: rolkra/explore:: R package that makes basic data exploration radically simple (interactive data exploration, reproducible data science)&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Read the whole thing: &lt;a href=&quot;https://rolkra.github.io/explore/&quot;&gt;Explore vignette on github&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Interactive data exploration:&lt;/strong&gt; explore()&lt;/li&gt;
+  &lt;li&gt;Use &lt;strong&gt;AI&lt;/strong&gt; to unveil hidden patterns in your data (xgboost, RF, logreg, DT): &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;explain_*()&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Generate an &lt;strong&gt;automated report&lt;/strong&gt; of your data (or patterns in your data): &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;report()&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Manual exploration&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;explore()&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;describe()&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;explain_*()&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;abtest()&lt;/code&gt;, …&lt;/li&gt;
+  &lt;li&gt;18 ready to use &lt;strong&gt;datasets for teaching &amp;amp; testing&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;use_data_*()&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;create_data_*()&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 10 Feb 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/02/10/p0700-r-rolkra-explore-datasets/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/02/10/p0700-r-rolkra-explore-datasets/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Me:: I didn't know cron was deprecated in macOS!  Shinichi Okada:: The Complete Guide to Cron and Launchd on macOS/Linux</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Feb 9, 2025 17:26 &lt;a href=&quot;https://medium.com/towards-data-science/a-step-by-step-guide-to-scheduling-tasks-for-your-data-science-project-d7df4531fc41#919e&quot;&gt;Me:: I didn’t know cron was deprecated in macOS!  Shinichi Okada:: The Complete Guide to Cron and Launchd on macOS/Linux&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;In macOS, you can run a background job on a timed schedule in two ways: launchd jobs and cron jobs. Note that it is still supported in macOS v10.15 even though cron is not a recommended solution and launchd has superseded.&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 09 Feb 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/02/09/p1726-a-step-by-step-guide-to-scheduling-tasks-for-your-data-science-project-d7df4531fc41/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/02/09/p1726-a-step-by-step-guide-to-scheduling-tasks-for-your-data-science-project-d7df4531fc41/</guid>
         
         
       </item>
@@ -103,84 +160,6 @@
         <pubDate>Sun, 09 Feb 2025 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2025/02/09/p0941-tab-continuation-completion/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/02/09/p0941-tab-continuation-completion/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Me:: Just for fun, generate a random date that I can use to search my flickr archive for posting photos to roland.club  Stack Overflow:: Generate random date between two dates and times in Javascript</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Feb 9, 2025 08:53 &lt;a href=&quot;https://stackoverflow.com/questions/31378526/generate-random-date-between-two-dates-and-times-in-javascript&quot;&gt;Me:: Just for fun, generate a random date that I can use to search my flickr archive for posting photos to roland.club  Stack Overflow:: Generate random date between two dates and times in Javascript&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;javascript-code-randomdatejs&quot;&gt;JavaScript code randomdate.js&lt;/h2&gt;
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;randomDate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;startHour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;endHour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;date&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;start&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
-  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;hour&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;startHour&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;endHour&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;startHour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;¦&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nx&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;setHours&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;hour&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;randomDate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2004&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;24&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-</description>
-        <pubDate>Sun, 09 Feb 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/02/09/p0853-generate-random-date-between-two-dates-and-times-in-javascript/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/02/09/p0853-generate-random-date-between-two-dates-and-times-in-javascript/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Me:: I think my telus DSL modem/wifi router is in bridge mode! Need to double check someday :-) eero support article:: How do I bridge my upstream modem/router combo device?</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Feb 9, 2025 08:09 &lt;a href=&quot;https://support.eero.com/hc/en-us/articles/207613176-How-do-I-bridge-my-upstream-modem-router-combo-device&quot;&gt;Me:: I think my telus DSL modem/wifi router is in bridge mode! Need to double check someday :-) eero support article:: How do I bridge my upstream modem/router combo device?&lt;/a&gt; &amp;lt;– Note to self :-) &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;If your modem has a built-in router, we recommend that you put its routing functionality into bridge mode to make the best use of your eero(s). ... If your device doesn't offer bridge mode, you should turn off WiFi on the equipment provided to you by your ISP and put your eeros in bridge mode. &lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 09 Feb 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/02/09/p0809-207613176-how-do-i-bridge-my-upstream-modem-router-combo-device/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/02/09/p0809-207613176-how-do-i-bridge-my-upstream-modem-router-combo-device/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Me tl;dr-ing:: Summarizing using LLMS is good when volume is a good predictor of importance which isn't often the case. Still true in 2025?  May 2024:: Gerben Wierda::: When ChatGPT summarises, it actually does nothing of the kind. – R&amp;amp;A IT Strategy &amp;amp; Architecture</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Feb 9, 2025 07:48 &lt;a href=&quot;https://ea.rna.nl/2024/05/27/when-chatgpt-summarises-it-actually-does-nothing-of-the-kind/&quot;&gt;Me tl;dr-ing:: Summarizing using LLMS is good when volume is a good predictor of importance which isn’t often the case. Still true in 2025?  May 2024:: Gerben Wierda::: When ChatGPT summarises, it actually does nothing of the kind. – R&amp;amp;A IT Strategy &amp;amp; Architecture&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://ea.rna.nl/2024/05/27/when-chatgpt-summarises-it-actually-does-nothing-of-the-kind/&quot;&gt;When ChatGPT summarises, it actually does nothing of the kind. – R&amp;amp;A IT Strategy &amp;amp; Architecture&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;So, when will shortening the text be good enough for a reliable summary? Probably only when summarising consists of nothing else than turning something unnecessarily repetitive and long-winding into something short, i.e. when volume is a good predictor of importance. That is far less of a use case than people think. In the meantime, the result itself will — errors and all — suggest to readers that it is a true and reliable summary and we’re not going to doubt that, human as we are.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;January 30, 2025: &lt;a href=&quot;https://rolandtanglao.com/2025/01/30/p0814-a5ph-sketch-dev-llm-software-dev-david-crawshaw/&quot;&gt;David Crawshaw’s sketch.dev LLM hello world gets into a loop about deleting duplicate files&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 09 Feb 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/02/09/p0748-when-chatgpt-summarises-it-actually-does-nothing-of-the-kind/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/02/09/p0748-when-chatgpt-summarises-it-actually-does-nothing-of-the-kind/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Dr. Martin Luther King Jr.:: There is also great disappointment with the federal government and its timidity in implementing the civil rights laws on its statute books &lt;-- 'Where Do We Go From Here: Chaos or Community?', 1967.</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.drmartinlutherkingjr.com/drking/mlk-quotes/&quot;&gt;Dr. Martin Luther King Jr.:: “There is also great disappointment with the federal government and its timidity in implementing the civil rights laws on its statute books.” 
-&amp;lt;- “Where Do We Go From Here: Chaos or Community?”, 1967.&lt;/a&gt; 
-&amp;lt;– Read the book –&amp;gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/Where_Do_We_Go_from_Here:_Chaos_or_Community&quot;&gt;‘Where Do We Go From Here: Chaos or Community?’, 1967, wiki page&lt;/a&gt;
-&amp;lt;– 2025 seems to be 1967 all over again.&lt;/p&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;January 20, 2025 &lt;a href=&quot;http://rolandtanglao.com/2025/01/20/p0713-mlk-quotes/&quot;&gt;Dr. Martin Luther King Jr.:: Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 08 Feb 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/02/08/p2145-disappointement-federal-government-timidity-implementing-civil-rights-laws/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/02/08/p2145-disappointement-federal-government-timidity-implementing-civil-rights-laws/</guid>
         
         
       </item>
