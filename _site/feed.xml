@@ -6,9 +6,28 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 19 Feb 2025 20:43:31 -0800</pubDate>
-    <lastBuildDate>Wed, 19 Feb 2025 20:43:31 -0800</lastBuildDate>
+    <pubDate>Fri, 21 Feb 2025 20:55:59 -0800</pubDate>
+    <lastBuildDate>Fri, 21 Feb 2025 20:55:59 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Dr. Martin Luther King Jr.:: When hope dies, a revolution degenerates into an undiscriminating catchall for evanescent and futile gestures &lt;- 'Where Do We Go From Here: Chaos or Community?', 1967.</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.drmartinlutherkingjr.com/drking/mlk-quotes/&quot;&gt;Dr. Martin Luther King Jr.:: “ When hope dies, a revolution degenerates into an undiscriminating catchall for evanescent and futile gestures.” 
+&amp;lt;- “Where Do We Go From Here: Chaos or Community?”, 1967.&lt;/a&gt; 
+&amp;lt;– Read the book –&amp;gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/Where_Do_We_Go_from_Here:_Chaos_or_Community&quot;&gt;‘Where Do We Go From Here: Chaos or Community?’, 1967, wiki page&lt;/a&gt;
+&amp;lt;– 2025 seems to be 1967 all over again.&lt;/p&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;January 20, 2025 &lt;a href=&quot;http://rolandtanglao.com/2025/01/20/p0713-mlk-quotes/&quot;&gt;Dr. Martin Luther King Jr.:: Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 21 Feb 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/02/21/p2056-hope-dies-catchall-evanescent-futile-gestures/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/02/21/p2056-hope-dies-catchall-evanescent-futile-gestures/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Dr. Martin Luther King Jr.:: I wept for all the white parents and teachers who are forced to overlook the fact that the wealth of cultural and technological progress in America is a result of the commonwealth of inpouring contributions.&lt;- 'Where Do We Go From Here: Chaos or Community?', 1967.</title>
@@ -194,17 +213,6 @@
         <pubDate>Mon, 10 Feb 2025 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2025/02/10/p0700-r-rolkra-explore-datasets/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/02/10/p0700-r-rolkra-explore-datasets/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Me:: I didn't know cron was deprecated in macOS!  Shinichi Okada:: The Complete Guide to Cron and Launchd on macOS/Linux</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Feb 9, 2025 17:26 &lt;a href=&quot;https://medium.com/towards-data-science/a-step-by-step-guide-to-scheduling-tasks-for-your-data-science-project-d7df4531fc41#919e&quot;&gt;Me:: I didn’t know cron was deprecated in macOS!  Shinichi Okada:: The Complete Guide to Cron and Launchd on macOS/Linux&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;In macOS, you can run a background job on a timed schedule in two ways: launchd jobs and cron jobs. Note that it is still supported in macOS v10.15 even though cron is not a recommended solution and launchd has superseded.&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 09 Feb 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/02/09/p1726-a-step-by-step-guide-to-scheduling-tasks-for-your-data-science-project-d7df4531fc41/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/02/09/p1726-a-step-by-step-guide-to-scheduling-tasks-for-your-data-science-project-d7df4531fc41/</guid>
         
         
       </item>
