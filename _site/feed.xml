@@ -6,9 +6,28 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 21 Feb 2025 20:55:59 -0800</pubDate>
-    <lastBuildDate>Fri, 21 Feb 2025 20:55:59 -0800</lastBuildDate>
+    <pubDate>Sun, 23 Feb 2025 22:34:50 -0800</pubDate>
+    <lastBuildDate>Sun, 23 Feb 2025 22:34:50 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Dr. Martin Luther King Jr.:: Our most fruitful course is to stand firm, move forward with aggressive nonviolence, accept disappointments and cling to hope. Our determined refusal not to be stopped will eventually thrust open the door to fulfillment &lt;- 'Where Do We Go From Here: Chaos or Community?', 1967.</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.drmartinlutherkingjr.com/drking/mlk-quotes/&quot;&gt;Dr. Martin Luther King Jr.:: “Our most fruitful course is to stand firm, move forward with aggressive nonviolence, accept disappointments and cling to hope. Our determined refusal not to be stopped will eventually thrust open the door to fulfillment. “ 
+&amp;lt;- “Where Do We Go From Here: Chaos or Community?”, 1967.&lt;/a&gt; 
+&amp;lt;– Read the book –&amp;gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/Where_Do_We_Go_from_Here:_Chaos_or_Community&quot;&gt;‘Where Do We Go From Here: Chaos or Community?’, 1967, wiki page&lt;/a&gt;
+&amp;lt;– 2025 seems to be 1967 all over again.&lt;/p&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;January 20, 2025 &lt;a href=&quot;http://rolandtanglao.com/2025/01/20/p0713-mlk-quotes/&quot;&gt;Dr. Martin Luther King Jr.:: Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 23 Feb 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/02/23/p2234-stand-firm-aggressivenonviolence-accept-disappointment-determined-refusal-opens-door-fufilment/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/02/23/p2234-stand-firm-aggressivenonviolence-accept-disappointment-determined-refusal-opens-door-fufilment/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Dr. Martin Luther King Jr.:: When hope dies, a revolution degenerates into an undiscriminating catchall for evanescent and futile gestures &lt;- 'Where Do We Go From Here: Chaos or Community?', 1967.</title>
@@ -189,30 +208,6 @@
         <pubDate>Mon, 10 Feb 2025 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2025/02/10/p2207-disappointment-chrstian-chruch-more-whte-than-chrstian/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/02/10/p2207-disappointment-chrstian-chruch-more-whte-than-chrstian/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Me:: a quick, fun way to graph and explore datasets with R GitHub:: rolkra/explore:: R package that makes basic data exploration radically simple (interactive data exploration, reproducible data science)</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Feb 10, 2025 07:00 &lt;a href=&quot;https://github.com/rolkra/explore?tab=readme-ov-file&quot;&gt;Me:: a quick, fun way to graph and explore datasets with R GitHub:: rolkra/explore:: R package that makes basic data exploration radically simple (interactive data exploration, reproducible data science)&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Read the whole thing: &lt;a href=&quot;https://rolkra.github.io/explore/&quot;&gt;Explore vignette on github&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Interactive data exploration:&lt;/strong&gt; explore()&lt;/li&gt;
-  &lt;li&gt;Use &lt;strong&gt;AI&lt;/strong&gt; to unveil hidden patterns in your data (xgboost, RF, logreg, DT): &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;explain_*()&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Generate an &lt;strong&gt;automated report&lt;/strong&gt; of your data (or patterns in your data): &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;report()&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Manual exploration&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;explore()&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;describe()&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;explain_*()&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;abtest()&lt;/code&gt;, …&lt;/li&gt;
-  &lt;li&gt;18 ready to use &lt;strong&gt;datasets for teaching &amp;amp; testing&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;use_data_*()&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;create_data_*()&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 10 Feb 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/02/10/p0700-r-rolkra-explore-datasets/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/02/10/p0700-r-rolkra-explore-datasets/</guid>
         
         
       </item>
