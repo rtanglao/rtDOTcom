@@ -6,9 +6,37 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 25 Feb 2025 20:51:46 -0800</pubDate>
-    <lastBuildDate>Tue, 25 Feb 2025 20:51:46 -0800</lastBuildDate>
+    <pubDate>Wed, 26 Feb 2025 17:22:02 -0800</pubDate>
+    <lastBuildDate>Wed, 26 Feb 2025 17:22:02 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Me:: Sam Davis's kindle-bulk-downloader is the best way to download your Kindle books as .azw3 files (.kfx DeDRM doesn't work but .azw3 works with Calibre) assuming you have a pre 2024 Kindle before 2025-02-26 23:59:59 Jason Snell:: How to bulk download Kindle files, while you can – Six Colors</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Feb 26, 2025 17:08 &lt;a href=&quot;https://sixcolors.com/post/2025/02/how-to-bulk-download-kindle-files-while-you-can/&quot;&gt;Me:: Sam Davis’s kindle-bulk-downloader is the best way to download your Kindle books as .azw3 files (.kfx DeDRM doesn’t work but .azw3 works with Calibre) assuming you have a pre 2024 Kindle before 2025-02-26 23:59:59 Jason Snell:: How to bulk download Kindle files, while you can – Six Colors&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;So now, the bulk download part. I used the Amazon Kindle eBook Bulk Downloader by friend of the site Sam Davis. You will need some Terminal know-how (or the help of a friend who has it). Following Sam’s instructions, I installed bun, ran bun install, added my Amazon username and password to my environment variables via the export command, and then ran bun run start —baseUrl &quot;https://www.amazon.com&quot; since I’m in the United States.&lt;/code&gt; &amp;lt;– &lt;a href=&quot;https://github.com/treetrum/amazon-kindle-bulk-downloader&quot;&gt;Sam Davis’s Amazon Kindle Bulk Downloader code on github&lt;/a&gt; which requires Linux or macOS terminal knowledge. I assume it works on WSL?!?!&lt;/p&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;February 25, 2025: [(Before 26 Feb 23:59:59 :-) ) —&amp;gt; Me::HOW TO: download .azw3 files: in the amazon web app ‘More actions’ and select ‘Download and transfer via USB’. ;couldn’t remove DRM from .kfx files epubor:: Kindle DRM Removal Failed and Solution &lt;a href=&quot;http://rolandtanglao.com/2025/02/25/p2043-kindle-kfx-drm-remove-failed-and-solution/&quot;&gt;Updated 2025&lt;/a&gt; &amp;lt;– not as good as the solution in this post since you have to do this 1 at a time! Sam Davis’s Amazon Kindle Bulk Downloader does them all at once which if you have 100s or 1000s is a big time saver :-) !&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 26 Feb 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/02/26/p1708-how-to-bulk-download-kindle-files-while-you-can/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/02/26/p1708-how-to-bulk-download-kindle-files-while-you-can/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Tim Cowlishaw:: Who's writing interesting things on the *pedagogy* of creative coding - teaching programming either for the arts, or in the context of studio-based arts programmes? I'm developing quite a lot of trial-and-error reckons on this, and would love to see what's already out there. See: 2015:: Knochel and Patton:: If Art Education Then Critical Digital Making: Computational Thinking and Creative Code</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Feb 26, 2025 07:34 &lt;a href=&quot;https://assemblag.es/@mistertim/114069669921223519&quot;&gt;Tim Cowlishaw:: Who’s writing interesting things on the &lt;em&gt;pedagogy&lt;/em&gt; of creative coding - teaching programming either for the arts, or in the context of studio-based arts programmes? I’m developing quite a lot of trial-and-error reckons on this, and would love to see what’s already out there. See: 2015:: Knochel and Patton:: If Art Education Then Critical Digital Making: Computational Thinking and Creative Code&lt;/a&gt; &amp;lt;– Link to the paper &lt;a href=&quot;https://www.tandfonline.com/doi/pdf/10.1080/00393541.2015.11666280&quot;&gt;Knochel and Patton: If Art Education Then Critical Digital Making: Computational Thinking and Creative Code&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 26 Feb 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/02/26/p0734-tim-cowlishaw-pedagogy-creative-coding/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/02/26/p0734-tim-cowlishaw-pedagogy-creative-coding/</guid>
+        
+        
+      </item>
     
       <item>
         <title>(Before 26 Feb 23:59:59 :-) ) ---&gt; Me::HOW TO: download .azw3 files: in the amazon web app 'More actions' and select 'Download and transfer via USB'. ;couldn't remove DRM from .kfx files epubor:: Kindle DRM Removal Failed and Solution [Updated 2025</title>
@@ -175,36 +203,6 @@
         <pubDate>Thu, 13 Feb 2025 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2025/02/13/p0727-how-to-de-drm-kindle-books-using-calibre-2024/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/02/13/p0727-how-to-de-drm-kindle-books-using-calibre-2024/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Dr. Martin Luther King Jr.:: Power without love is reckless and abusive, and love without power is sentimental and anemic. Power at its best is love implementing the demands of justice, and justice at its best is power correcting everything that stands against love. &lt;-- 'Where Do We Go From Here: Chaos or Community?', 1967.</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.drmartinlutherkingjr.com/drking/mlk-quotes/&quot;&gt;Dr. Martin Luther King Jr.:: “Power without love is reckless and abusive, and love without power is sentimental and anemic. Power at its best is love implementing the demands of justice, and justice at its best is power correcting everything that stands against love.” 
-&amp;lt;- “Where Do We Go From Here: Chaos or Community?”, 1967.&lt;/a&gt; 
-&amp;lt;– Read the book –&amp;gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/Where_Do_We_Go_from_Here:_Chaos_or_Community&quot;&gt;‘Where Do We Go From Here: Chaos or Community?’, 1967, wiki page&lt;/a&gt;
-&amp;lt;– 2025 seems to be 1967 all over again.&lt;/p&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;January 20, 2025 &lt;a href=&quot;http://rolandtanglao.com/2025/01/20/p0713-mlk-quotes/&quot;&gt;Dr. Martin Luther King Jr.:: Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 12 Feb 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/02/12/p2140-power-with-love-implements-justice-whihc-corrects-everything-against-love/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/02/12/p2140-power-with-love-implements-justice-whihc-corrects-everything-against-love/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Me:: A bot that runs once a day using Github actions amazing! Thanks for the open source code! I need to run my own bot on my Mastodon server to post art daily! Simon Willison:: 2023:: Building Mastodon bots with GitHub Actions and toot</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Feb 11, 2025 07:53 &lt;a href=&quot;https://til.simonwillison.net/mastodon/mastodon-bots-github-actions&quot;&gt;Me:: A bot that runs once a day using Github actions amazing! Thanks for the open source code! I need to run my own bot on my Mastodon server to post art daily! Simon Willison:: 2023:: Building Mastodon bots with GitHub Actions and toot&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;My entire bot is implemented as a GitHub Actions scheduled workflow.&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 11 Feb 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/02/11/p0753-mastodon-bots-github-actions/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/02/11/p0753-mastodon-bots-github-actions/</guid>
         
         
       </item>
