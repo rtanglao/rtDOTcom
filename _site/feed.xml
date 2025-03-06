@@ -6,8 +6,8 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 05 Mar 2025 20:25:53 -0800</pubDate>
-    <lastBuildDate>Wed, 05 Mar 2025 20:25:53 -0800</lastBuildDate>
+    <pubDate>Thu, 06 Mar 2025 06:53:22 -0800</pubDate>
+    <lastBuildDate>Thu, 06 Mar 2025 06:53:22 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -44,6 +44,44 @@
         <pubDate>Mon, 03 Mar 2025 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2025/03/03/todays-despair-poor-chisel-carve-out-tomorrows-justice/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/03/03/todays-despair-poor-chisel-carve-out-tomorrows-justice/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Me:: finally somebody showing us how this is done, need more examples like this. It's like sample code, we need more sample prompt sessions! Wonder if things have changed in March 2025 ; June 2024:: Simon Willison:: Building search-based RAG using Claude, Datasette and Val Town</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Mar 3, 2025 07:06 &lt;a href=&quot;https://simonwillison.net/2024/Jun/21/search-based-rag/&quot;&gt;Me:: finally somebody showing us how this is done, need more examples like this. It’s like sample code, we need more sample prompt sessions! Wonder if things have changed in March 2025 ; June 2024:: Simon Willison:: Building search-based RAG using Claude, Datasette and Val Town&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;p&gt;Read the whole thing &lt;a href=&quot;https://simonwillison.net/2024/Jun/21/search-based-rag/&quot;&gt;June 2024:: Simon Willison:: Building search-based RAG using Claude, Datasette and Val Town&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Retrieval Augmented Generation (RAG) is a technique for adding extra “knowledge” to systems built on LLMs, allowing them to answer questions against custom information not included in their training data. A common way to implement this is to take a question from a user, translate that into a set of search queries, run those against a search engine and then feed the results back into the LLM to generate an answer.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I built a basic version of this pattern against the brand new Claude 3.5 Sonnet language model, using SQLite full-text search running in Datasette as the search backend and Val Town as the prototyping platform.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The implementation took just over an hour, during a live coding session with Val.Town founder Steve Krouse. I was the latest guest on Steve’s live streaming series where he invites people to hack on projects with his help&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Mon, 03 Mar 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/03/03/p0706-search-based-rag/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/03/03/p0706-search-based-rag/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Me:: Simon's recommended models as of 2025-03-02: Claude 3.7 Sonnet w/'thinking' on, OpenAI o3-mini-high &amp; GPT-4o with Python Code interpreter Simon Willison:: Hallucinations in code are the least dangerous form of LLM mistakes</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Mar 2, 2025 06:56 &lt;a href=&quot;https://simonwillison.net/2025/Mar/2/hallucinations-in-code/&quot;&gt;Me:: Simon’s recommended models as of 2025-03-02: Claude 3.7 Sonnet w/’thinking’ on, OpenAI o3-mini-high &amp;amp; GPT-4o with Python Code interpreter Simon Willison:: Hallucinations in code are the least dangerous form of LLM mistakes&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Try different models. It might be that another model has better training data for your chosen platform. As a Python and JavaScript programmer my favorite models right now are Claude 3.7 Sonnet with thinking turned on, OpenAI’s o3-mini-high and GPT-4o with Code Interpreter (for Python).&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 02 Mar 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/03/02/p0656-hallucinations-in-code/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/03/02/p0656-hallucinations-in-code/</guid>
         
         
       </item>
@@ -145,72 +183,6 @@
         <pubDate>Fri, 21 Feb 2025 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2025/02/21/p2056-hope-dies-catchall-evanescent-futile-gestures/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/02/21/p2056-hope-dies-catchall-evanescent-futile-gestures/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Dr. Martin Luther King Jr.:: I wept for all the white parents and teachers who are forced to overlook the fact that the wealth of cultural and technological progress in America is a result of the commonwealth of inpouring contributions.&lt;- 'Where Do We Go From Here: Chaos or Community?', 1967.</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.drmartinlutherkingjr.com/drking/mlk-quotes/&quot;&gt;Dr. Martin Luther King Jr.:: “I wept for all the white parents and teachers who are forced to overlook the fact that the wealth of cultural and technological progress in America is a result of the commonwealth of inpouring contributions.” 
-&amp;lt;- “Where Do We Go From Here: Chaos or Community?”, 1967.&lt;/a&gt; 
-&amp;lt;– Read the book –&amp;gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/Where_Do_We_Go_from_Here:_Chaos_or_Community&quot;&gt;‘Where Do We Go From Here: Chaos or Community?’, 1967, wiki page&lt;/a&gt;
-&amp;lt;– 2025 seems to be 1967 all over again.&lt;/p&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;January 20, 2025 &lt;a href=&quot;http://rolandtanglao.com/2025/01/20/p0713-mlk-quotes/&quot;&gt;Dr. Martin Luther King Jr.:: Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 19 Feb 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/02/19/p2041-wept-for-those-forced-overlook-fact-progress-result-of-commonwealth-of-inpouring-contributions/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/02/19/p2041-wept-for-those-forced-overlook-fact-progress-result-of-commonwealth-of-inpouring-contributions/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Me:: How to download all of your Kindle books so you can remove DRM using Calibre On the web: create collection, add all books on 'Manage Content &amp; Devices' 25 at a time On Kindle: 'Sort By' Collections, click on collection &gt; Download all items Play Ball and Fight Fᜀscists:: 'If you have a lot of books you need to download t…' - Mastodon</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Feb 17, 2025 21:06  &lt;a href=&quot;https://mastodon.social/@cafechatnoir/114021956957857545&quot;&gt;Me:: How to download all of your Kindle books so you can remove DRM using Calibre On the web: create collection, add all books on “Manage Content &amp;amp; Devices” 25 at a time On Kindle: “Sort By” Collections, click on collection &amp;gt; Download all items Play Ball and Fight Fᜀscists:: “If you have a lot of books you need to download t…” - Mastodon&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Read the whole thing of course: &lt;a href=&quot;https://mastodon.social/@cafechatnoir/114021956957857545&quot;&gt;Play Ball and Fight Fᜀscists:: “If you have a lot of books you need to download t…” - Mastodon&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;If you have a lot of books you need to download to your Kindle, create a collection, and add all your books to it on the Amazon “Manage Content &amp;amp; Devices” page, you can add 25 at a time.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Back on your Kindle, go to the Library on the Kindle’s home screen&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Select the ”Sort By” Menu in the top right corner&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Select Collections&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Select the Menu icon on that collection you just created&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Select Download all items&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;February 13, 2025: Me:: &lt;a href=&quot;http://rolandtanglao.com/2025/02/13/p0727-how-to-de-drm-kindle-books-using-calibre-2024/&quot;&gt;Do this on or before Feb 25, 2025 (USB download removed as of Feb 26, 2025) 2024:: UMA Technology:: How to De-DRM Kindle Books Using Calibre&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 17 Feb 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/02/17/p2106-how-to-download-all-kindle-books-to-your-desktop/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/02/17/p2106-how-to-download-all-kindle-books-to-your-desktop/</guid>
         
         
       </item>
