@@ -6,9 +6,92 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 12 Mar 2025 21:38:12 -0700</pubDate>
-    <lastBuildDate>Wed, 12 Mar 2025 21:38:12 -0700</lastBuildDate>
+    <pubDate>Tue, 18 Mar 2025 07:24:27 -0700</pubDate>
+    <lastBuildDate>Tue, 18 Mar 2025 07:24:27 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Yes I love Pearla AND bugs:: Viewfinder freeze still happens when loading large LUTs; GPS tagging doesn't work Feature Request:: a UX affordance e.g. button to quickly switch between LUTs ; Pro Filmic Camera on the iOS App Store Release Notes</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Mar 18, 2025 06:41 &lt;a href=&quot;https://apps.apple.com/gb/app/pearla-pro-filmic-camera/id6477783991&quot;&gt;Yes I love Pearla AND bugs:: Viewfinder freeze still happens when loading large LUTs; GPS tagging doesn’t work Feature Request:: a UX affordance e.g. button to quickly switch between LUTs ; Pro Filmic Camera on the iOS App Store Release Notes&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;First of all, I have to say that I love pearla and will give it a 5 star review. LUTs for me are much more fun than filters. Also I don’t do video just stills and it works great. So I am not going to comment on video stuff :-)&lt;/p&gt;
+
+&lt;h2 id=&quot;pearla-bugs&quot;&gt;Pearla bugs&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Viewfinder freeze still happens when loading certain LUTs and most LUTs over 1MB e.g.  &lt;a href=&quot;https://marcrphoto.wordpress.com/2022/11/18/new-lut-update-picturefx-leica-barnack-based-on-leica-type-ii-iii-35mm-film-camera/&quot;&gt;PictureFX-Leica-Barnack-125.cube from marcrphoto&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;GPS tagging doesn’t work on my iPhone 16 Pro Max with the latest version of iOS&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;pearla-feature-request&quot;&gt;Pearla feature request&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;a UX affordance e.g. button  to quickly switch between LUTs. Having to go to the settings works but is slow.&lt;/li&gt;
+  &lt;li&gt;Would be nice: a way to rename LUTs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;quote-from-the-release-notes&quot;&gt;QUOTE from the release notes&lt;/h2&gt;
+
+&lt;h3 id=&quot;212-18-feb-2025&quot;&gt;2.1.2 18-Feb-2025&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;FIXED: Bug that caused image stabilization to switch off in some video modes.&lt;/li&gt;
+  &lt;li&gt;FIXED: Bug that caused caused tapping to focus shift exposure values in video capture mode.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;211-12-feb-2025-bug-fixes&quot;&gt;2.1.1 12-Feb-2025 BUG FIXES:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fix for viewfinder freeze when loading LUTs larger than 33.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 18 Mar 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/03/18/p0641-pearla-rocks-small-bug-viewfinder-freeze-lut-affordance/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/03/18/p0641-pearla-rocks-small-bug-viewfinder-freeze-lut-affordance/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>joeyh:: moreutils is a collection of the unix tools that nobody thought to write long ago when unix was young.</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Mar 17, 2025 08:00 &lt;a href=&quot;https://joeyh.name/code/moreutils/&quot;&gt;joeyh:: moreutils is a collection of the unix tools that nobody thought to write long ago when unix was young.&lt;/a&gt; –&amp;gt; &lt;a href=&quot;https://joeyh.name/blog/entry/unix_tools_vidir/&quot;&gt;vdir&lt;/a&gt; in particular seems useful. Rename and or delete files using the power of your editor.&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;p&gt;Read the whole thing: &lt;a href=&quot;https://joeyh.name/code/moreutils/&quot;&gt;joeyh:: moreutils is a collection of the unix tools that nobody thought to write long ago when unix was young.&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;chronic: runs a command quietly unless it fails&lt;/li&gt;
+  &lt;li&gt;combine: combine the lines in two files using boolean operations&lt;/li&gt;
+  &lt;li&gt;errno: look up errno names and descriptions&lt;/li&gt;
+  &lt;li&gt;ifdata: get network interface info without parsing ifconfig output&lt;/li&gt;
+  &lt;li&gt;ifne: run a program if the standard input is not empty&lt;/li&gt;
+  &lt;li&gt;isutf8: check if a file or standard input is utf-8&lt;/li&gt;
+  &lt;li&gt;lckdo: execute a program with a lock held&lt;/li&gt;
+  &lt;li&gt;mispipe: pipe two commands, returning the exit status of the first&lt;/li&gt;
+  &lt;li&gt;parallel: run multiple jobs at once&lt;/li&gt;
+  &lt;li&gt;pee: tee standard input to pipes&lt;/li&gt;
+  &lt;li&gt;sponge: soak up standard input and write to a file&lt;/li&gt;
+  &lt;li&gt;ts: timestamp standard input&lt;/li&gt;
+  &lt;li&gt;vidir: edit a directory in your text editor&lt;/li&gt;
+  &lt;li&gt;vipe: insert a text editor into a pipe&lt;/li&gt;
+  &lt;li&gt;zrun: automatically uncompress arguments to command&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 17 Mar 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/03/17/p0800-moreutils/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/03/17/p0800-moreutils/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Me:: of course we need a diversity of people! Cambridge: Helen Taylor, PhD, Martin David Vestergaard, PhD:: Developmental dyslexia essential to human adaptive success, study,  Developmental Dyslexia: Disorder or Specialization in Exploration?, argues</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Mar 16, 2025 20:20 &lt;a href=&quot;https://www.cam.ac.uk/research/news/developmental-dyslexia-essential-to-human-adaptive-success-study-argues&quot;&gt;Me:: of course we need a diversity of people! Cambridge: Helen Taylor, PhD, Martin David Vestergaard, PhD:: Developmental dyslexia essential to human adaptive success, study,  Developmental Dyslexia: Disorder or Specialization in Exploration?, argues&lt;/a&gt; &amp;lt;– QUOTE: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Cambridge researchers studying cognition, behaviour and the brain have concluded that people with dyslexia are specialised to explore the unknown. This is likely to play a fundamental role in human adaptation to changing environments. ... They think this ‘explorative bias’ has an evolutionary basis and plays a crucial role in our survival.&lt;/code&gt; –&amp;gt; Read their paper: &lt;a href=&quot;https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.889245/full&quot;&gt;Developmental Dyslexia: Disorder or Specialization in Exploration?&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 16 Mar 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/03/16/p2020-developmental-dyslexia-essential-to-human-adaptive-success-study-argues/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/03/16/p2020-developmental-dyslexia-essential-to-human-adaptive-success-study-argues/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Dr. Martin Luther King Jr.:: In order to ‘be in step with the times,’ in order to ‘keep in touch,’ they yielded to one of the most ignominious evils that history has ever known &lt;- 'Where Do We Go From Here: Chaos or Community?', 1967.</title>
@@ -139,53 +222,6 @@
         <pubDate>Sun, 02 Mar 2025 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2025/03/02/p0656-hallucinations-in-code/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/03/02/p0656-hallucinations-in-code/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Dr. Martin Luther King Jr.:: This refusal to be stopped, this 'courage to be,' this determination to go on 'in spite of' is the hallmark of any great movement &lt;- 'Where Do We Go From Here: Chaos or Community?', 1967.</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.drmartinlutherkingjr.com/drking/mlk-quotes/&quot;&gt;Dr. Martin Luther King Jr.:: “This refusal to be stopped, this ‘courage to be,’ this determination to go on ‘in spite of’ is the hallmark of any great movement.” 
-&amp;lt;- “Where Do We Go From Here: Chaos or Community?”, 1967.&lt;/a&gt; 
-&amp;lt;– Read the book –&amp;gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/Where_Do_We_Go_from_Here:_Chaos_or_Community&quot;&gt;‘Where Do We Go From Here: Chaos or Community?’, 1967, wiki page&lt;/a&gt;
-&amp;lt;– 2025 seems to be 1967 all over again.&lt;/p&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;January 20, 2025 &lt;a href=&quot;http://rolandtanglao.com/2025/01/20/p0713-mlk-quotes/&quot;&gt;Dr. Martin Luther King Jr.:: Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 28 Feb 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/02/28/p2149-mlk-refusal-to-stop-courage-determiniation-hallmark-great-movement/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/02/28/p2149-mlk-refusal-to-stop-courage-determiniation-hallmark-great-movement/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Me:: Sam Davis's kindle-bulk-downloader is the best way to download your Kindle books as .azw3 files (.kfx DeDRM doesn't work but .azw3 works with Calibre) assuming you have a pre 2024 Kindle before 2025-02-26 23:59:59 Jason Snell:: How to bulk download Kindle files, while you can – Six Colors</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Feb 26, 2025 17:08 &lt;a href=&quot;https://sixcolors.com/post/2025/02/how-to-bulk-download-kindle-files-while-you-can/&quot;&gt;Me:: Sam Davis’s kindle-bulk-downloader is the best way to download your Kindle books as .azw3 files (.kfx DeDRM doesn’t work but .azw3 works with Calibre) assuming you have a pre 2024 Kindle before 2025-02-26 23:59:59 Jason Snell:: How to bulk download Kindle files, while you can – Six Colors&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;So now, the bulk download part. I used the Amazon Kindle eBook Bulk Downloader by friend of the site Sam Davis. You will need some Terminal know-how (or the help of a friend who has it). Following Sam’s instructions, I installed bun, ran bun install, added my Amazon username and password to my environment variables via the export command, and then ran bun run start —baseUrl &quot;https://www.amazon.com&quot; since I’m in the United States.&lt;/code&gt; &amp;lt;– &lt;a href=&quot;https://github.com/treetrum/amazon-kindle-bulk-downloader&quot;&gt;Sam Davis’s Amazon Kindle Bulk Downloader code on github&lt;/a&gt; which requires Linux or macOS terminal knowledge. I assume it works on WSL?!?!&lt;/p&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;February 25, 2025: [(Before 26 Feb 23:59:59 :-) ) —&amp;gt; Me::HOW TO: download .azw3 files: in the amazon web app ‘More actions’ and select ‘Download and transfer via USB’. ;couldn’t remove DRM from .kfx files epubor:: Kindle DRM Removal Failed and Solution &lt;a href=&quot;http://rolandtanglao.com/2025/02/25/p2043-kindle-kfx-drm-remove-failed-and-solution/&quot;&gt;Updated 2025&lt;/a&gt; &amp;lt;– not as good as the solution in this post since you have to do this 1 at a time! Sam Davis’s Amazon Kindle Bulk Downloader does them all at once which if you have 100s or 1000s is a big time saver :-) !&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 26 Feb 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/02/26/p1708-how-to-bulk-download-kindle-files-while-you-can/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/02/26/p1708-how-to-bulk-download-kindle-files-while-you-can/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Tim Cowlishaw:: Who's writing interesting things on the *pedagogy* of creative coding - teaching programming either for the arts, or in the context of studio-based arts programmes? I'm developing quite a lot of trial-and-error reckons on this, and would love to see what's already out there. See: 2015:: Knochel and Patton:: If Art Education Then Critical Digital Making: Computational Thinking and Creative Code</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Feb 26, 2025 07:34 &lt;a href=&quot;https://assemblag.es/@mistertim/114069669921223519&quot;&gt;Tim Cowlishaw:: Who’s writing interesting things on the &lt;em&gt;pedagogy&lt;/em&gt; of creative coding - teaching programming either for the arts, or in the context of studio-based arts programmes? I’m developing quite a lot of trial-and-error reckons on this, and would love to see what’s already out there. See: 2015:: Knochel and Patton:: If Art Education Then Critical Digital Making: Computational Thinking and Creative Code&lt;/a&gt; &amp;lt;– Link to the paper &lt;a href=&quot;https://www.tandfonline.com/doi/pdf/10.1080/00393541.2015.11666280&quot;&gt;Knochel and Patton: If Art Education Then Critical Digital Making: Computational Thinking and Creative Code&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 26 Feb 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/02/26/p0734-tim-cowlishaw-pedagogy-creative-coding/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/02/26/p0734-tim-cowlishaw-pedagogy-creative-coding/</guid>
         
         
       </item>

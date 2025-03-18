@@ -1,0 +1,24 @@
+I"!<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Mar 17, 2025 08:00 <a href="https://joeyh.name/code/moreutils/">joeyh:: moreutils is a collection of the unix tools that nobody thought to write long ago when unix was young.</a> –&gt; <a href="https://joeyh.name/blog/entry/unix_tools_vidir/">vdir</a> in particular seems useful. Rename and or delete files using the power of your editor.</p>
+
+<h2 id="quote">QUOTE</h2>
+
+<p>Read the whole thing: <a href="https://joeyh.name/code/moreutils/">joeyh:: moreutils is a collection of the unix tools that nobody thought to write long ago when unix was young.</a></p>
+
+<ul>
+  <li>chronic: runs a command quietly unless it fails</li>
+  <li>combine: combine the lines in two files using boolean operations</li>
+  <li>errno: look up errno names and descriptions</li>
+  <li>ifdata: get network interface info without parsing ifconfig output</li>
+  <li>ifne: run a program if the standard input is not empty</li>
+  <li>isutf8: check if a file or standard input is utf-8</li>
+  <li>lckdo: execute a program with a lock held</li>
+  <li>mispipe: pipe two commands, returning the exit status of the first</li>
+  <li>parallel: run multiple jobs at once</li>
+  <li>pee: tee standard input to pipes</li>
+  <li>sponge: soak up standard input and write to a file</li>
+  <li>ts: timestamp standard input</li>
+  <li>vidir: edit a directory in your text editor</li>
+  <li>vipe: insert a text editor into a pipe</li>
+  <li>zrun: automatically uncompress arguments to command</li>
+</ul>
+:ET
