@@ -6,7 +6,7 @@ title: "Me tl;dring: In 5 or 10 years we'll look back and say either: ML's a bub
 
 ## QUOTE
 
-* Read the whole thing: [Nicholas Carlini:: My Thoughts on the Future of "AI"](https://nicholas.carlini.com/writing/2025/thoughts-on-future-ai.html)  <-- See also [Nicholas Carlini::  How I Use](https://nicholas.carlini.com/writing/2024/how-i-use-ai.html)
+* Read the whole thing: [Nicholas Carlini:: My Thoughts on the Future of "AI"](https://nicholas.carlini.com/writing/2025/thoughts-on-future-ai.html)  <-- See also [Nicholas Carlini::  How I Use "AI"](https://nicholas.carlini.com/writing/2024/how-i-use-ai.html)
 
 > Conclusion
 

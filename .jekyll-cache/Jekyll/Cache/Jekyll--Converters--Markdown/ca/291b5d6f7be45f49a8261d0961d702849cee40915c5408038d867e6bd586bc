@@ -1,0 +1,31 @@
+I"�
+<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Mar 18, 2025 06:41 <a href="https://apps.apple.com/gb/app/pearla-pro-filmic-camera/id6477783991">Yes I love Pearla AND bugs:: Viewfinder freeze still happens when loading large LUTs; GPS tagging doesn’t work Feature Request:: a UX affordance e.g. button to quickly switch between LUTs ; Pro Filmic Camera on the iOS App Store Release Notes</a></p>
+
+<p>First of all, I have to say that I love pearla and will give it a 5 star review. LUTs for me are much more fun than filters. For examples of my fun LUT photos taken with Pearla: <a href="https://flic.kr/s/aHBqjC5Uf8">2025-03-17 Revolver Dwd_Arklight14_33b (a stronger “Matrix the Movie” LUT)</a> ( <a href="https://www.nickdriftwood.com/luts/arklight-14-b-lut-pack-the-matrix-look-with-great-skintones">Nick Driftwood’s blog post about this Matrix LUT</a>, <a href="https://www.nickdriftwood.com/wp-content/uploads/2024/10/Driftwood_Arklight14_and_14B_All_Size_LUTs.zip">Dwd_Arklight14_33b LUT</a>), thanks Nick!). <a href="https://www.flickr.com/photos/roland/albums/72177720324413928/">2025-03-13 Pearla Kodak TMAX 3200++ Kcc</a> (this LUT was discovered via this February 24, 2024 dpreview forum post: <a href="https://www.dpreview.com/forums/post/67610718">LUTs for photography</a>, <a href="https://drive.google.com/file/d/1GvvO38lXh0jwB_QZhoeAitYr1BCOqqnO/view?usp=drive_link">LUT</a>). Finally,  I don’t do video just stills and it works great. So I am not going to comment on video stuff :-)</p>
+
+<h2 id="pearla-bugs">Pearla bugs</h2>
+<ul>
+  <li>Viewfinder freeze still happens when loading certain LUTs and most LUTs over 1MB e.g.  <a href="https://marcrphoto.wordpress.com/2022/11/18/new-lut-update-picturefx-leica-barnack-based-on-leica-type-ii-iii-35mm-film-camera/">PictureFX-Leica-Barnack-125.cube from marcrphoto</a></li>
+  <li>GPS tagging doesn’t work on my iPhone 16 Pro Max with the latest version of iOS</li>
+</ul>
+
+<h2 id="pearla-feature-request">Pearla feature request</h2>
+
+<ul>
+  <li>a UX affordance e.g. button  to quickly switch between LUTs. Having to go to the settings works but is slow.</li>
+  <li>Would be nice: a way to rename LUTs</li>
+</ul>
+
+<h2 id="quote-from-the-release-notes">QUOTE from the release notes</h2>
+
+<h3 id="212-18-feb-2025">2.1.2 18-Feb-2025</h3>
+<ul>
+  <li>FIXED: Bug that caused image stabilization to switch off in some video modes.</li>
+  <li>FIXED: Bug that caused caused tapping to focus shift exposure values in video capture mode.</li>
+</ul>
+
+<h3 id="211-12-feb-2025-bug-fixes">2.1.1 12-Feb-2025 BUG FIXES:</h3>
+<ul>
+  <li>Fix for viewfinder freeze when loading LUTs larger than 33.</li>
+</ul>
+:ET
