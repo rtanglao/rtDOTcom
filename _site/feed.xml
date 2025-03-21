@@ -6,9 +6,28 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 19 Mar 2025 00:02:42 -0700</pubDate>
-    <lastBuildDate>Wed, 19 Mar 2025 00:02:42 -0700</lastBuildDate>
+    <pubDate>Fri, 21 Mar 2025 10:41:24 -0700</pubDate>
+    <lastBuildDate>Fri, 21 Mar 2025 10:41:24 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Dr. Martin Luther King Jr.:: Therefore I must oppose any attempt to gain our freedom by the methods of malice, hate, and violence that have characterized our oppressors. Hate is just as injurious to the hater as it is to the hated &lt;- 'Where Do We Go From Here: Chaos or Community?', 1967.</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.drmartinlutherkingjr.com/drking/mlk-quotes/&quot;&gt;Dr. Martin Luther King Jr.:: “Therefore I must oppose any attempt to gain our freedom by the methods of malice, hate, and violence that have characterized our oppressors. Hate is just as injurious to the hater as it is to the hated.” 
+&amp;lt;- “Where Do We Go From Here: Chaos or Community?”, 1967.&lt;/a&gt; 
+&amp;lt;– Read the book –&amp;gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/Where_Do_We_Go_from_Here:_Chaos_or_Community&quot;&gt;‘Where Do We Go From Here: Chaos or Community?’, 1967, wiki page&lt;/a&gt;
+&amp;lt;– 2025 seems to be 1967 all over again.&lt;/p&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;January 20, 2025 &lt;a href=&quot;http://rolandtanglao.com/2025/01/20/p0713-mlk-quotes/&quot;&gt;Dr. Martin Luther King Jr.:: Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 21 Mar 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/03/21/p1040-mlk-oppose-malice-hate-violence-hate-from-our-oppressors-injurious-hater/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/03/21/p1040-mlk-oppose-malice-hate-violence-hate-from-our-oppressors-injurious-hater/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Me tl;dring: In 5 or 10 years we'll look back and say either: ML's a bubble and it will plateau or it will continue to scale up and continue to get better ; Nicholas Carlini:: My Thoughts on the Future of 'AI'</title>
@@ -225,33 +244,6 @@
         <pubDate>Mon, 03 Mar 2025 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2025/03/03/todays-despair-poor-chisel-carve-out-tomorrows-justice/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/03/03/todays-despair-poor-chisel-carve-out-tomorrows-justice/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Me:: finally somebody showing us how this is done, need more examples like this. It's like sample code, we need more sample prompt sessions! Wonder if things have changed in March 2025 ; June 2024:: Simon Willison:: Building search-based RAG using Claude, Datasette and Val Town</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Mar 3, 2025 07:06 &lt;a href=&quot;https://simonwillison.net/2024/Jun/21/search-based-rag/&quot;&gt;Me:: finally somebody showing us how this is done, need more examples like this. It’s like sample code, we need more sample prompt sessions! Wonder if things have changed in March 2025 ; June 2024:: Simon Willison:: Building search-based RAG using Claude, Datasette and Val Town&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;p&gt;Read the whole thing &lt;a href=&quot;https://simonwillison.net/2024/Jun/21/search-based-rag/&quot;&gt;June 2024:: Simon Willison:: Building search-based RAG using Claude, Datasette and Val Town&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Retrieval Augmented Generation (RAG) is a technique for adding extra “knowledge” to systems built on LLMs, allowing them to answer questions against custom information not included in their training data. A common way to implement this is to take a question from a user, translate that into a set of search queries, run those against a search engine and then feed the results back into the LLM to generate an answer.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I built a basic version of this pattern against the brand new Claude 3.5 Sonnet language model, using SQLite full-text search running in Datasette as the search backend and Val Town as the prototyping platform.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The implementation took just over an hour, during a live coding session with Val.Town founder Steve Krouse. I was the latest guest on Steve’s live streaming series where he invites people to hack on projects with his help&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Mon, 03 Mar 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/03/03/p0706-search-based-rag/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/03/03/p0706-search-based-rag/</guid>
         
         
       </item>
