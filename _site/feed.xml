@@ -6,8 +6,8 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 26 Mar 2025 06:42:17 -0700</pubDate>
-    <lastBuildDate>Wed, 26 Mar 2025 06:42:17 -0700</lastBuildDate>
+    <pubDate>Wed, 26 Mar 2025 08:07:16 -0700</pubDate>
+    <lastBuildDate>Wed, 26 Mar 2025 08:07:16 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -25,6 +25,56 @@
         <pubDate>Wed, 26 Mar 2025 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2025/03/26/p0642-mlk-rid-incubus-racial-injustice-need-not-relinquish-privilege-obligation-love/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/03/26/p0642-mlk-rid-incubus-racial-injustice-need-not-relinquish-privilege-obligation-love/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Me:: this code kickstarted the machine learning 'revolution' :-) computerhistory/AlexNet-Source-Code: This package contains the original 2012 AlexNet code.</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Mar 25, 2025 09:17 &lt;a href=&quot;https://github.com/computerhistory/AlexNet-Source-Code&quot;&gt;Me:: this code kickstarted the machine learning ‘revolution’ :-) computerhistory/AlexNet-Source-Code: This package contains the original 2012 AlexNet code.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Super cool that this is on the internet! Wish I had time to figure it out from first principals!&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;p&gt;Read the whole thing including the code on github: &lt;a href=&quot;https://github.com/computerhistory/AlexNet-Source-Code&quot;&gt;computerhistory/AlexNet-Source-Code: This package contains the original 2012 AlexNet code.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;alexnet-source-code&quot;&gt;AlexNet Source Code&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This package contains the original AlexNet source code as it was in 2012, when it won the ImageNet competition. Geoffrey Hinton, Ilya Sutskever, and Alex Krizhevsky formed DNNResearch soon afterwards and sold the company, and the AlexNet source code along with it, to Google, which would continue work on it. This package also includes the parameter files trained on the ImageNet dataset.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Previously available as open source was Krizhevsky’s precursor to AlexNet, &lt;a href=&quot;https://code.google.com/archive/p/cuda-convnet/&quot;&gt;cuda-convnet&lt;/a&gt;, which was trained on the smaller CIFAR-10 dataset. While there are other existing repositories of code named “AlexNet” on the web, they are not the original code, but rather reimplementations based on the paper Krizhevsky, Sutskever, and Hinton published:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf&quot;&gt;Krizhevsky, A., Sutskever, I. &amp;amp; Hinton, G. E. (2012). ImageNet Classification with Deep Convolutional Neural Networks&lt;/a&gt;. In F. Pereira, C. J. C. Burges, L. Bottou &amp;amp; K. Q. Weinberger (ed.), Advances in Neural Information Processing Systems 25 (pp. 1097–1105). Curran Associates, Inc.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In 2020, Alex Krizhevsky connected CHM to Geoff Hinton, who directed us to a team at Google. CHM worked with Google to identify the original 2012 version of the code and negotiate the terms of the public release as open source. CHM thanks Krizhevsky and Hinton for their support and David Bieber of Google DeepMind for his help in securing the release.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;CHM is proud to present the source code to the 2012 version of Alex Krizhevsky, Ilya Sutskever, and Geoffery Hinton’s AlexNet, which transformed the field of artificial intelligence.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Tue, 25 Mar 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/03/25/p0917-alexnet-source-code/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/03/25/p0917-alexnet-source-code/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Lorenz:: halcy log:: Silly Mastodon apps based on mastondon.py plus other cool mastodon hacks</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Mar 23, 2025 09:42 &lt;a href=&quot;https://halcy.de/blog/2025/03/18/silly-mastodon-apps/&quot;&gt;Lorenz:: halcy log:: Silly Mastodon apps based on mastondon.py plus other cool mastodon hacks&lt;/a&gt; &amp;lt;– mastodon.py in the browser is amazing! Gotta try this in the browser and from the command line. –&amp;gt; &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Just like used to be the case with Twitter, there are a lot of very nice third-party apps for Mastodon. I’m not neccesarily very good at making those, or at least do not usually feel like writing good software for fun most days, but I do maintain Mastodon.py and as such occassionally feel like writing software that actually uses it. That being so, I have created an abundance of slightly silly Mastodon apps. Here are a few...&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 23 Mar 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/03/23/p0942-silly-mastodon-apps/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/03/23/p0942-silly-mastodon-apps/</guid>
         
         
       </item>
@@ -206,44 +256,6 @@
         <pubDate>Mon, 10 Mar 2025 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2025/03/10/p2206-mlk-conviction-not-conformity-nonviolence/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/03/10/p2206-mlk-conviction-not-conformity-nonviolence/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Dr. Martin Luther King Jr.:: But power and morality must go together, implementing, fulfilling, and ennobling each other &lt;- 'Where Do We Go From Here: Chaos or Community?', 1967.</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.drmartinlutherkingjr.com/drking/mlk-quotes/&quot;&gt;Dr. Martin Luther King Jr.:: “But power and morality must go together, implementing, fulfilling, and ennobling each other.” 
-&amp;lt;- “Where Do We Go From Here: Chaos or Community?”, 1967.&lt;/a&gt; 
-&amp;lt;– Read the book –&amp;gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/Where_Do_We_Go_from_Here:_Chaos_or_Community&quot;&gt;‘Where Do We Go From Here: Chaos or Community?’, 1967, wiki page&lt;/a&gt;
-&amp;lt;– 2025 seems to be 1967 all over again.&lt;/p&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;January 20, 2025 &lt;a href=&quot;http://rolandtanglao.com/2025/01/20/p0713-mlk-quotes/&quot;&gt;Dr. Martin Luther King Jr.:: Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 06 Mar 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/03/06/p1107-mlk-1967-power-morality-ennobling-each-other/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/03/06/p1107-mlk-1967-power-morality-ennobling-each-other/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Dr. Martin Luther King Jr.:: This is no time for romantic illusions and empty philosophical debates about freedom. This is a time for action &lt;- 'Where Do We Go From Here: Chaos or Community?', 1967.</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.drmartinlutherkingjr.com/drking/mlk-quotes/&quot;&gt;Dr. Martin Luther King Jr.:: “This is no time for romantic illusions and empty philosophical debates about freedom. This is a time for action.” 
-&amp;lt;- “Where Do We Go From Here: Chaos or Community?”, 1967.&lt;/a&gt; 
-&amp;lt;– Read the book –&amp;gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/Where_Do_We_Go_from_Here:_Chaos_or_Community&quot;&gt;‘Where Do We Go From Here: Chaos or Community?’, 1967, wiki page&lt;/a&gt;
-&amp;lt;– 2025 seems to be 1967 all over again.&lt;/p&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;January 20, 2025 &lt;a href=&quot;http://rolandtanglao.com/2025/01/20/p0713-mlk-quotes/&quot;&gt;Dr. Martin Luther King Jr.:: Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 05 Mar 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/03/05/p2026-no-time-romantic-illusions-empty-debates-time-for-action/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/03/05/p2026-no-time-romantic-illusions-empty-debates-time-for-action/</guid>
         
         
       </item>
