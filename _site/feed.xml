@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 31 Mar 2025 21:05:11 -0700</pubDate>
-    <lastBuildDate>Mon, 31 Mar 2025 21:05:11 -0700</lastBuildDate>
+    <pubDate>Tue, 01 Apr 2025 08:54:47 -0700</pubDate>
+    <lastBuildDate>Tue, 01 Apr 2025 08:54:47 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Me:: My #ProbablyWrongPrediction :-) --&gt; By July 11, 2044 we will have true Artificial General Intelligence</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Apr 1, 2025 07:25 &lt;a href=&quot;https://devdilettante.com/@roland/114262973726329430&quot;&gt;Me:: My #ProbablyWrongPrediction :-) –&amp;gt; By July 11, 2044 we will have true Artificial General Intelligence&lt;/a&gt; &amp;lt;– weil das mein achtzigste :-) geburtstag ist! lol&lt;/p&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2025/03/31/p2048-daniel-raffel-coding-models-outperform-top-human-software-developers-april-2028/&quot;&gt;March 31, 2025: Me tl;dr-ing Daniel Raffel’s #ProbablyWrong Prediction :-) :: By Mar 31, 2028 Daniel Raffel predicts coding models will outperform top software developers. Check back on April 1, 2028 to see if he is right :-), guess it depends on what you mean by ‘top’ and ‘outperform’ ; Daniel Raffel :: Learning to Play with the Machines&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 01 Apr 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/04/01/p0725-my-probably-wrong-prediction-2044-07-11-true-artificial-general-intelligence/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/04/01/p0725-my-probably-wrong-prediction-2044-07-11-true-artificial-general-intelligence/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Me tl;dr-ing Daniel Raffel's #ProbablyWrong Prediction :-) ::  By Mar 31, 2028 Daniel Raffel predicts coding models will outperform top software developers. Check back on April 1, 2028 to see if he is right :-), guess it depends on what you mean by 'top' and 'outperform' ; Daniel Raffel :: Learning to Play with the Machines</title>
@@ -187,45 +204,6 @@
         <pubDate>Tue, 18 Mar 2025 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2025/03/18/p2349-nicholas-carlini-thoughts-on-future-ai/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/03/18/p2349-nicholas-carlini-thoughts-on-future-ai/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Yes I love Pearla AND bugs:: Viewfinder freeze still happens when loading large LUTs; GPS tagging doesn't work Feature Request:: a UX affordance e.g. button to quickly switch between LUTs ; Pearla Pro Filmic Camera App iOS App Store Release Notes</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Mar 18, 2025 06:41 &lt;a href=&quot;https://apps.apple.com/gb/app/pearla-pro-filmic-camera/id6477783991&quot;&gt;Yes I love Pearla AND bugs:: Viewfinder freeze still happens when loading large LUTs; GPS tagging doesn’t work Feature Request:: a UX affordance e.g. button to quickly switch between LUTs ; Pro Filmic Camera on the iOS App Store Release Notes&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;First of all, I have to say that I love pearla and will give it a 5 star review. LUTs for me are much more fun than filters. For examples of my fun LUT photos taken with Pearla: &lt;a href=&quot;https://flic.kr/s/aHBqjC5Uf8&quot;&gt;2025-03-17 Revolver Dwd_Arklight14_33b (a stronger “Matrix the Movie” LUT)&lt;/a&gt; ( &lt;a href=&quot;https://www.nickdriftwood.com/luts/arklight-14-b-lut-pack-the-matrix-look-with-great-skintones&quot;&gt;Nick Driftwood’s blog post about this Matrix LUT&lt;/a&gt;, &lt;a href=&quot;https://www.nickdriftwood.com/wp-content/uploads/2024/10/Driftwood_Arklight14_and_14B_All_Size_LUTs.zip&quot;&gt;Dwd_Arklight14_33b LUT&lt;/a&gt;), thanks Nick!). &lt;a href=&quot;https://www.flickr.com/photos/roland/albums/72177720324413928/&quot;&gt;2025-03-13 Pearla Kodak TMAX 3200++ Kcc&lt;/a&gt; (this LUT was discovered via this February 24, 2024 dpreview forum post: &lt;a href=&quot;https://www.dpreview.com/forums/post/67610718&quot;&gt;LUTs for photography&lt;/a&gt;, &lt;a href=&quot;https://drive.google.com/file/d/1GvvO38lXh0jwB_QZhoeAitYr1BCOqqnO/view?usp=drive_link&quot;&gt;LUT&lt;/a&gt;). Finally,  I don’t do video just stills and it works great. So I am not going to comment on video stuff :-)&lt;/p&gt;
-
-&lt;h2 id=&quot;pearla-bugs&quot;&gt;Pearla bugs&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Viewfinder freeze still happens when loading certain LUTs and most LUTs over 1MB e.g.  &lt;a href=&quot;https://marcrphoto.wordpress.com/2022/11/18/new-lut-update-picturefx-leica-barnack-based-on-leica-type-ii-iii-35mm-film-camera/&quot;&gt;PictureFX-Leica-Barnack-125.cube from marcrphoto&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;GPS tagging doesn’t work on my iPhone 16 Pro Max with the latest version of iOS&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;pearla-feature-request&quot;&gt;Pearla feature request&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;a UX affordance e.g. button  to quickly switch between LUTs. Having to go to the settings works but is slow.&lt;/li&gt;
-  &lt;li&gt;Would be nice: a way to rename LUTs&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;quote-from-the-release-notes&quot;&gt;QUOTE from the release notes&lt;/h2&gt;
-
-&lt;h3 id=&quot;212-18-feb-2025&quot;&gt;2.1.2 18-Feb-2025&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;FIXED: Bug that caused image stabilization to switch off in some video modes.&lt;/li&gt;
-  &lt;li&gt;FIXED: Bug that caused caused tapping to focus shift exposure values in video capture mode.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;211-12-feb-2025-bug-fixes&quot;&gt;2.1.1 12-Feb-2025 BUG FIXES:&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Fix for viewfinder freeze when loading LUTs larger than 33.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 18 Mar 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/03/18/p0641-pearla-rocks-small-bug-viewfinder-freeze-lut-affordance/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/03/18/p0641-pearla-rocks-small-bug-viewfinder-freeze-lut-affordance/</guid>
         
         
       </item>
