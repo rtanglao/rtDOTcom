@@ -6,9 +6,20 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 31 Mar 2025 13:41:56 -0700</pubDate>
-    <lastBuildDate>Mon, 31 Mar 2025 13:41:56 -0700</lastBuildDate>
+    <pubDate>Mon, 31 Mar 2025 21:05:11 -0700</pubDate>
+    <lastBuildDate>Mon, 31 Mar 2025 21:05:11 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Me tl;dr-ing Daniel Raffel's #ProbablyWrong Prediction :-) ::  By Mar 31, 2028 Daniel Raffel predicts coding models will outperform top software developers. Check back on April 1, 2028 to see if he is right :-), guess it depends on what you mean by 'top' and 'outperform' ; Daniel Raffel :: Learning to Play with the Machines</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Mar 31, 2025 20:48 &lt;a href=&quot;https://danielraffel.me/2025/03/27/learning-to-play-with-the-machines/&quot;&gt;Me tl;dr-ing Daniel Raffel’s #ProbablyWrong Prediction :-) ::  By Mar 31, 2028 Daniel Raffel predicts coding models will outperform top software developers. Check back on April 1, 2028 to see if he is right :-), guess it depends on what you mean by ‘top’ and ‘outperform’ ; Daniel Raffel :: Learning to Play with the Machines&lt;/a&gt; via Om’s Daily Blog: “Why some people love AI and others don’t” &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Over the next 1–3 years, I expect coding models will outperform most top engineers when it comes to writing high-quality code. We’re nearing a point where a generalist can prompt their way to fully functional software products—front end, back end, design, marketing, and deployment—without needing deep expertise in any one domain.&lt;/code&gt; &amp;lt;– See also &lt;a href=&quot;https://blog.om.co/2025/03/31/why-some-people-love-ai-and-others-dont/&quot;&gt;Om Malik’s Daily Blog: : Why some people love AI and others don’t&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 31 Mar 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/03/31/p2048-daniel-raffel-coding-models-outperform-top-human-software-developers-april-2028/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/03/31/p2048-daniel-raffel-coding-models-outperform-top-human-software-developers-april-2028/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Me: Rᜂssian misinformation spread 33% of the time by: OpenAI’s ChatGPT-4o, You.com’s Smart Assistant, xAI’s Grok, Inflection’s Pi, Mistral’s le Chat, Microsoft’s Copilot, Meta AI, Anthropic’s Claude, Google’s Gemini, and Perplexity’s answer engine ; Newsgard:: A well-funded M⭕scow-based global ‘news’ network has infected Western artificial intelligence tools worldwide with Rᜂssian propaganda</title>
@@ -215,39 +226,6 @@
         <pubDate>Tue, 18 Mar 2025 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2025/03/18/p0641-pearla-rocks-small-bug-viewfinder-freeze-lut-affordance/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/03/18/p0641-pearla-rocks-small-bug-viewfinder-freeze-lut-affordance/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>joeyh:: moreutils is a collection of the unix tools that nobody thought to write long ago when unix was young.</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Mar 17, 2025 08:00 &lt;a href=&quot;https://joeyh.name/code/moreutils/&quot;&gt;joeyh:: moreutils is a collection of the unix tools that nobody thought to write long ago when unix was young.&lt;/a&gt; –&amp;gt; &lt;a href=&quot;https://joeyh.name/blog/entry/unix_tools_vidir/&quot;&gt;vdir&lt;/a&gt; in particular seems useful. Rename and or delete files using the power of your editor.&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;p&gt;Read the whole thing: &lt;a href=&quot;https://joeyh.name/code/moreutils/&quot;&gt;joeyh:: moreutils is a collection of the unix tools that nobody thought to write long ago when unix was young.&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;chronic: runs a command quietly unless it fails&lt;/li&gt;
-  &lt;li&gt;combine: combine the lines in two files using boolean operations&lt;/li&gt;
-  &lt;li&gt;errno: look up errno names and descriptions&lt;/li&gt;
-  &lt;li&gt;ifdata: get network interface info without parsing ifconfig output&lt;/li&gt;
-  &lt;li&gt;ifne: run a program if the standard input is not empty&lt;/li&gt;
-  &lt;li&gt;isutf8: check if a file or standard input is utf-8&lt;/li&gt;
-  &lt;li&gt;lckdo: execute a program with a lock held&lt;/li&gt;
-  &lt;li&gt;mispipe: pipe two commands, returning the exit status of the first&lt;/li&gt;
-  &lt;li&gt;parallel: run multiple jobs at once&lt;/li&gt;
-  &lt;li&gt;pee: tee standard input to pipes&lt;/li&gt;
-  &lt;li&gt;sponge: soak up standard input and write to a file&lt;/li&gt;
-  &lt;li&gt;ts: timestamp standard input&lt;/li&gt;
-  &lt;li&gt;vidir: edit a directory in your text editor&lt;/li&gt;
-  &lt;li&gt;vipe: insert a text editor into a pipe&lt;/li&gt;
-  &lt;li&gt;zrun: automatically uncompress arguments to command&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 17 Mar 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/03/17/p0800-moreutils/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/03/17/p0800-moreutils/</guid>
         
         
       </item>
