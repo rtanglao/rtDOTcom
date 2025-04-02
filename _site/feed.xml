@@ -6,9 +6,30 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 01 Apr 2025 08:54:47 -0700</pubDate>
-    <lastBuildDate>Tue, 01 Apr 2025 08:54:47 -0700</lastBuildDate>
+    <pubDate>Wed, 02 Apr 2025 12:34:58 -0700</pubDate>
+    <lastBuildDate>Wed, 02 Apr 2025 12:34:58 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>ME:: it's 2025 can we have a nice WYSIWYG control for simplified Markdown or HTML (don't need collapsible sections or anything fancy)? ;  iA Writer Blog:: Markdown and the slow fade of the formatting fetish</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Apr 2, 2025 12:24 &lt;a href=&quot;https://ia.net/topics/markdown-and-the-slow-fade-of-the-formatting-fetish&quot;&gt;ME:: it’s 2025 can we have a nice WYSIWYG control for simplified Markdown or HTML (don’t need collapsible sections or anything fancy)? ;  iA Writer Blog:: Markdown and the slow fade of the formatting fetish&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;You might not have noticed, but year after year, document formats like .docx, .ppt, and pdf lose a little bit of steam. Markdown is growing over and into the old formats, slowly, and nicely, like moss on a stranded star destroyer. Notes on a revolution in slow motion.&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I don’t mind writing bare markdown and bare simplified HTML but normal people don’t :-) I do love both simplified HTML and simplified Markdown!!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;November 2, 2024: &lt;a href=&quot;http://rolandtanglao.com/2024/11/02/p1-collapsible-sections-details-html-tag-test/&quot;&gt;Collapsible Sections work in jekyll github.com blogs and github pages but you need a markdown=”1” attribute in the details tag and markdown=”span” in the summary tag&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 02 Apr 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/04/02/p1224-markdown-and-the-slow-fade-of-the-formatting-fetish/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/04/02/p1224-markdown-and-the-slow-fade-of-the-formatting-fetish/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Me:: My #ProbablyWrongPrediction :-) --&gt; By July 11, 2044 we will have true Artificial General Intelligence</title>
@@ -163,47 +184,6 @@
         <pubDate>Fri, 21 Mar 2025 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2025/03/21/p1040-mlk-oppose-malice-hate-violence-hate-from-our-oppressors-injurious-hater/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/03/21/p1040-mlk-oppose-malice-hate-violence-hate-from-our-oppressors-injurious-hater/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Me tl;dring: In 5 or 10 years we'll look back and say either: ML's a bubble and it will plateau or it will continue to scale up and continue to get better ; Nicholas Carlini:: My Thoughts on the Future of 'AI'</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Mar 18, 2025 23:49 &lt;a href=&quot;https://nicholas.carlini.com/writing/2025/thoughts-on-future-ai.html&quot;&gt;Me tl;dring: In 5 or 10 years we’ll look back and say either: ML’s a bubble and it will plateau or it will continue to scale up and continue to get better ; Nicholas Carlini:: My Thoughts on the Future of “AI”&lt;/a&gt; via &lt;a href=&quot;https://simonwillison.net/2025/Mar/19/my-thoughts-on-the-future-of-ai/#atom-everything&quot;&gt;Simon Willison&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://nicholas.carlini.com/writing/2025/thoughts-on-future-ai.html&quot;&gt;Nicholas Carlini:: My Thoughts on the Future of “AI”&lt;/a&gt;  &amp;lt;– See also &lt;a href=&quot;https://nicholas.carlini.com/writing/2024/how-i-use-ai.html&quot;&gt;Nicholas Carlini::  How I Use “AI”&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Conclusion&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;LLMs are clearly useful today, and I believe they will be even better tomorrow. But I do not know how long this trend will hold.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Put differently: I think there is a very real probability that in five years we look back at the LLM hype of 2023-2025, we see it like we now see the Internet bubble of 1998-2000 (that is: a very new technology that will eventually have an impact, but that was overhyped in the short term). But I also think there is also a very real probability that, in the future, we will look back at the mid 2020s as the beginning of a new era, and when we list the most important inventions of humanity we include “AI” in the same sentence as the wheel or the printing press.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;What I hope that I’ve successfully argued in this article is that you should be willing to entertain that either of these two futures is possible. Neither is guaranteed, but neither is unquestionably impossible.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;In some small number of years we’ll have an answer to this question. And it will look obvious, in retrospect, what the answer was. We’ll say “Of course scaling continued for another five years, Moore’s law held, why wouldn’t we expect the AI equivalent to hold??” or we’ll say “No exponential continues forever, isn’t it obvious that LLMs plateaued??” And the half of the people who were unreasonably confident but ended up right will have the ability to say “I told you so”. I just hope that we remember that predicting the future is hard, and we honestly can’t know exactly how this is going to go.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;So over the next few years, I’d encourage you to keep an open mind and be willing to see the world as it is, and not as you want it to be. We’re going to learn a lot, things are going to change a lot, and so we need to be willing to accept what comes to pass, and not reject something just because it’s not what we expected.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Tue, 18 Mar 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/03/18/p2349-nicholas-carlini-thoughts-on-future-ai/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/03/18/p2349-nicholas-carlini-thoughts-on-future-ai/</guid>
         
         
       </item>
