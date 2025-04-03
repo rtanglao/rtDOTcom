@@ -6,9 +6,32 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 02 Apr 2025 12:34:58 -0700</pubDate>
-    <lastBuildDate>Wed, 02 Apr 2025 12:34:58 -0700</lastBuildDate>
+    <pubDate>Wed, 02 Apr 2025 17:10:45 -0700</pubDate>
+    <lastBuildDate>Wed, 02 Apr 2025 17:10:45 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>ME:: divide an array into sub arrays and insert into the first 2 sub arrays plus some magic = faster hash tables, will we see this in Rust, Python, Ruby soon? :-) ; Steve Nadis:: Undergraduate Andrew Krapivin Upends a 40-Year-Old Data Science Conjecture | Quanta Magazine</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Apr 2, 2025 16:59 &lt;a href=&quot;https://www.quantamagazine.org/undergraduate-upends-a-40-year-old-data-science-conjecture-20250210/&quot;&gt;ME:: divide an array into sub arrays and insert into the first 2 sub arrays plus some magic = faster hash tables, will we see this in Rust, Python, Ruby soon? :-) ; Steve Nadis:: Undergraduate Andrew Krapivin Upends a 40-Year-Old Data Science Conjecture ¦ Quanta Magazine&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: “Together, Krapivin (now a graduate student at the University of Cambridge), Farach-Colton (now at New York University) and Kuszmaul demonstrated in a January 2025 paper, &lt;a href=&quot;https://arxiv.org/html/2501.02305v1#S2&quot;&gt;Optimal Bounds for Open Addressing Without Reordering&lt;/a&gt;, that this new hash table can indeed find elements faster than was considered possible. ln so doing, they had disproved a conjecture long held to be true.”&lt;/p&gt;
+
+&lt;h2 id=&quot;aendrins-explanation-on-reddit&quot;&gt;Aendrin’s Explanation on Reddit&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://old.reddit.com/r/programming/comments/1in5hkt/undergraduate_upends_a_40yearold_data_science/mcb34rx/&quot;&gt;Aendrin’s comment&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;quote&quot;&gt;QUOTE&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In this comment, I’m just going to go over the method that they call elastic probing in the paper. The basic idea of this approach is to split the array into sub-arrays of descending size, and only care about two of the sub-arrays at a time. We keep working on the first two sub-arrays until the first is twice as full as the eventual fullness, and then move our window. By doing extra work in early insertions, later insertions are much easier.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Wed, 02 Apr 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/04/02/p1659-undergraduate-andrew-krapivin-upends-a-40-year-old-computer-science-hasthable-conjecture-20250210/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/04/02/p1659-undergraduate-andrew-krapivin-upends-a-40-year-old-computer-science-hasthable-conjecture-20250210/</guid>
+        
+        
+      </item>
     
       <item>
         <title>ME:: it's 2025 can we have a nice WYSIWYG control for simplified Markdown or HTML (don't need collapsible sections or anything fancy)? ;  iA Writer Blog:: Markdown and the slow fade of the formatting fetish</title>
@@ -165,25 +188,6 @@
         <pubDate>Sun, 23 Mar 2025 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2025/03/23/p0942-silly-mastodon-apps/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/03/23/p0942-silly-mastodon-apps/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Dr. Martin Luther King Jr.:: Therefore I must oppose any attempt to gain our freedom by the methods of malice, hate, and violence that have characterized our oppressors. Hate is just as injurious to the hater as it is to the hated &lt;- 'Where Do We Go From Here: Chaos or Community?', 1967.</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.drmartinlutherkingjr.com/drking/mlk-quotes/&quot;&gt;Dr. Martin Luther King Jr.:: “Therefore I must oppose any attempt to gain our freedom by the methods of malice, hate, and violence that have characterized our oppressors. Hate is just as injurious to the hater as it is to the hated.” 
-&amp;lt;- “Where Do We Go From Here: Chaos or Community?”, 1967.&lt;/a&gt; 
-&amp;lt;– Read the book –&amp;gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/Where_Do_We_Go_from_Here:_Chaos_or_Community&quot;&gt;‘Where Do We Go From Here: Chaos or Community?’, 1967, wiki page&lt;/a&gt;
-&amp;lt;– 2025 seems to be 1967 all over again.&lt;/p&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;January 20, 2025 &lt;a href=&quot;http://rolandtanglao.com/2025/01/20/p0713-mlk-quotes/&quot;&gt;Dr. Martin Luther King Jr.:: Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 21 Mar 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/03/21/p1040-mlk-oppose-malice-hate-violence-hate-from-our-oppressors-injurious-hater/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/03/21/p1040-mlk-oppose-malice-hate-violence-hate-from-our-oppressors-injurious-hater/</guid>
         
         
       </item>
