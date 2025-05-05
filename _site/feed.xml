@@ -6,9 +6,130 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 20 Apr 2025 17:24:33 -0700</pubDate>
-    <lastBuildDate>Sun, 20 Apr 2025 17:24:33 -0700</lastBuildDate>
+    <pubDate>Sun, 04 May 2025 17:16:33 -0700</pubDate>
+    <lastBuildDate>Sun, 04 May 2025 17:16:33 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>ME:: very similar  to 1994 novel 'Interface' by Neal Stephenson (writing as Stephen Bury with George Jewsbury) where Wikipedia states: 'a shadowy coalition bent on controlling the world economy attempts to manipulate a candidate for president of the USA through use of a computer biochip brain implant'; Mike Masnick:: The Hallucinating ChatGPT Presidency</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: May 3, 2025 19:04 &lt;a href=&quot;https://www.techdirt.com/2025/04/29/the-hallucinating-chatgpt-presidency/&quot;&gt;ME:: very similar  to 1994 novel ‘Interface’ by Neal Stephenson (writing as Stephen Bury with George Jewsbury) where Wikipedia states: ‘a shadowy coalition bent on controlling the world economy attempts to manipulate a candidate for president of the USA through use of a computer biochip brain implant’; Mike Masnick:: The Hallucinating ChatGPT Presidency&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Wikipedia Page: &lt;a href=&quot;https://en.wikipedia.org/wiki/Interface_(novel)&quot;&gt;Interface (novel)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing:: &lt;a href=&quot;https://www.techdirt.com/2025/04/29/the-hallucinating-chatgpt-presidency/&quot;&gt;Mike Masnick:: The Hallucinating ChatGPT Presidency&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The hallmarks of AI generation are all here: … Confident assertions without factual backing … Meandering diversions that maintain loose semantic connection to the topic … Pattern-matching to previous responses (“ripped off,” “billions of dollars”) ….Optimization for what sounds good rather than what’s true&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Just as an LLM will confidently generate plausible-sounding text without any real understanding, The Convicted Criminal generates responses that sound like answers while avoiding any engagement with the actual substance of the questions.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;He doesn’t answer the actual questions. He doesn’t address the actual points. He doesn’t understand what’s actually going on, so he crafts a rambling nonsensical answer based loosely on the question, while following the system prompt’s instructions to make sure the answer makes himself look good.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sat, 03 May 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/05/03/p1904-the-hallucinating-chatgpt-presidency/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/05/03/p1904-the-hallucinating-chatgpt-presidency/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>How To Make Art of Where tights from 32x32 pixel samples from over 600 3248 by 3248 pixel  Panasonic GM-1 Panasonic 25mm f1.4 photos using the flickr API, ruby scripts and imagemagick </title>
+        <description>&lt;h1 id=&quot;2025-04-20-p5-art-of-where-final-leggings-graphics&quot;&gt;2025-04-20-p5 Art of Where final leggings graphics&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Upload the following graphics to &lt;a href=&quot;https://artofwhere.com/&quot;&gt;art of where&lt;/a&gt;’s custom leggings web app and done :-)
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-flower-swag-2025/blob/main/vancouver-flowers-2025-32x32-patches-leftleg.png&quot;&gt;vancouver-flowers-2025-32x32-patches-leftleg.png&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-flower-swag-2025/blob/main/vancouver-flowers-2025-32x32-patches-rightleg.png&quot;&gt;vancouver-flowers-2025-32x32-patches-rightleg.png&lt;/a&gt;
+        &lt;h1 id=&quot;2025-04-20-p4-make-the-art-of-where-collage-legs-with-20696-randomly-arranged-files&quot;&gt;2025-04-20-p4 Make the art of where collage legs with 20696 randomly arranged files&lt;/h1&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;patch size is 32px x 32px&lt;/li&gt;
+  &lt;li&gt;Each leg of an Art of Where tights is 3325px x 6358 px (see &lt;a href=&quot;https://artofwhere.com/info/design-guidelines&quot;&gt;Art of Where’s Design Guidelines&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;3325/32 = 104 patches wide 6358/32 = 199 patches high&lt;/li&gt;
+  &lt;li&gt;104 * 199 = 20696&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-flower-swag-2025/blob/main/leftleg-files.txt&quot;&gt;leftleg-files.txt&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-flower-swag-2025/blob/main/rightleg-files.txt&quot;&gt;rightleg-files.txt&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;flickr set with the above left and right legs: &lt;a href=&quot;https://flic.kr/s/aHBqjC9JUq&quot;&gt;2025-04-20 Art of Where Tights from github rt-flower-swag&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;2025-04-20-p4-flickr-embed-left&quot;&gt;2025-04-20-p4 Flickr embed Left&lt;/h2&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/54465375744/in/album-72177720325249288/&quot; title=&quot;vancouver-flowers-2025-32x32-patches-leftleg&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/54465375744_39d646aaa4_w.jpg&quot; width=&quot;209&quot; height=&quot;400&quot; alt=&quot;vancouver-flowers-2025-32x32-patches-leftleg&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2025-04-20-p4-flickr-embed-right&quot;&gt;2025-04-20-p4 Flickr embed right&lt;/h2&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/54465375754/in/album-72177720325249288/&quot; title=&quot;vancouver-flowers-2025-32x32-patches-rightleg&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/54465375754_1ec6554b64_w.jpg&quot; width=&quot;209&quot; height=&quot;400&quot; alt=&quot;vancouver-flowers-2025-32x32-patches-rightleg&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;find 32X32PATCHES &lt;span class=&quot;nt&quot;&gt;-name&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'*.png'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-print&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;shuf&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;head&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; 20696 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; leftleg-files.txt
+find 32X32PATCHES &lt;span class=&quot;nt&quot;&gt;-name&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'*.png'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-print&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;shuf&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;head&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; 20696 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; rightleg-files.txt
+magick montage @leftleg-files.txt &lt;span class=&quot;nt&quot;&gt;-tile&lt;/span&gt; 104x199 &lt;span class=&quot;nt&quot;&gt;-geometry&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;32x32+0+0&quot;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+vancouver-flowers-2025-32x32-patches-leftleg.png
+magick montage @rightleg-files.txt &lt;span class=&quot;nt&quot;&gt;-tile&lt;/span&gt; 104x199 &lt;span class=&quot;nt&quot;&gt;-geometry&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;32x32+0+0&quot;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+vancouver-flowers-2025-32x32-patches-rightleg.png
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h1 id=&quot;2025-04-20-p3-make-20696-20661--35-more-patches-but-lets-do-100-more-just-for-fun&quot;&gt;2025-04-20-p3 Make 20696-20661 = 35 more patches but let’s do 100 more just for fun&lt;/h1&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;32X32PATCHES
+../create32px-32px-random-patches.rb ../ORIGINALS/originals.txt 100 2&amp;gt; one-hundred-more-stderr.txt &amp;amp;
+&lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-1&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;wc&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt;
+   20762
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h1 id=&quot;2025-04-20-p2-create-32x32-patches&quot;&gt;2025-04-20-p2 Create 32x32 patches&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;16 x 16 pixel was too abstract :-)&lt;/li&gt;
+  &lt;li&gt;leggings	3325px x 6358px for one leg&lt;/li&gt;
+  &lt;li&gt;3325/32 = 104, 6358/32 = 199&lt;/li&gt;
+  &lt;li&gt;104*199 = 20696 patches :-)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-flower-swag-2025/blob/main/create32px-32px-random-patches.rb&quot;&gt;create32px-32px-random-patches.rb&lt;/a&gt; is a Ruby script that creates the 32 pixel by 32 pixel patches&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;mkdir &lt;/span&gt;32X32PATCHES
+&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;
+ ../create32px-32px-random-patches.rb ../ORIGINALS/originals.txt 20696 2&amp;gt; stderr.txt &amp;amp;
+&lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-1&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;wc&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt;
+   20661
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h1 id=&quot;2025-04-20-p1-get-a-full-list-of-the-originals&quot;&gt;2025-04-20-p1 get a full list of the originals&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Apparently &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;realpath&lt;/code&gt; is macOS and/or BSD specific :-) oops
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;ORIGINALS
+&lt;span class=&quot;nb&quot;&gt;realpath&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.jpg &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; originals.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;h1 id=&quot;2025-04-19-p2-download-the-originals&quot;&gt;2025-04-19-p2 download the originals&lt;/h1&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ORIGINALS&lt;/code&gt; is in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.gitignore&lt;/code&gt; to prevent uploading 3.3GB of files to github :-)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;mkdir &lt;/span&gt;ORIGINALS
+&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;ORIGINALS
+../backup-originals.rb ../photoset-72177720324904746-metadata.csv
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;2025-04-19-p1-write-a-script-to-get-a-flickr-set&quot;&gt;2025-04-19-p1 write a script to get a flickr set&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;The &lt;a href=&quot;https://github.com/rtanglao/rt-flower-swag-2025/blob/main/backup-photoset-by-id.rb&quot;&gt;backup-photoset-by-id.rb&lt;/a&gt; Ruby script creates &lt;a href=&quot;https://github.com/rtanglao/rt-flower-swag-2025/blob/main/photoset-72177720324904746-metadata.csv&quot;&gt;photoset-72177720324904746-metadata.csv&lt;/a&gt;
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./backup-photoset-by-id.rb 72177720324904746
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 20 Apr 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/04/20/p2127-how-to-make-artofwheretights-vancouver-pink-flowery-photos-pana-gm1-25mmf4-flickrapi-magick/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/04/20/p2127-how-to-make-artofwheretights-vancouver-pink-flowery-photos-pana-gm1-25mmf4-flickrapi-magick/</guid>
+        
+        
+      </item>
     
       <item>
         <title>ME:: Saving for future reference. I have met Doug! Inspiring person! READ:: What is digital literacy? A Pragmatic investigation. A thesis submitted in 2011 to the Department of Education at Durham University by Douglas Alan Jonathan Belshaw for the degree of Doctor of Education (Ed.D.)</title>
@@ -117,28 +238,6 @@
         <pubDate>Sun, 13 Apr 2025 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2025/04/13/p1519-linkedin-is-a-waiting-room-of-doom/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/04/13/p1519-linkedin-is-a-waiting-room-of-doom/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: YES... The thing about The Economist is that's it's full of mansplaining Oxbrᜁdge folks who are not calling out the rᜀcism and lᜁes of the current administration of the ӮSA and RЭpublicans in general since Reᜀgan AND... they are right that Europe is the actual land of the free now :-) AND of course the European model is sustainable if you think beyond your narrow worldview :-)  ; READ:: The Economist:: The thing about Europe: it’s the actual land of the free now</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Apr 12, 2025 14:45 &lt;a href=&quot;https://archive.is/i0gpo#selection-1133.0-1133.60&quot;&gt;ME:: YES… The thing about The Economist is that’s it’s full of mansplaining Oxbrᜁdge folks who are not calling out the rᜀcism and lᜁes of the current administration of the ӮSA and RЭpublicans in general since Reᜀgan AND… they are right that Europe is the actual land of the free now :-) AND of course the European model is sustainable if you think beyond your narrow worldview :-)  ; READ:: The Economist:: The thing about Europe: it’s the actual land of the free now&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;The thing about Europe is that it is like an open-air museum, yesterday’s continent. Is its model even sustainable? A good question—one that presupposes the European model is worth defending. It is a place blessed with walkable cities, long life expectancies and vaccinated kids who do not need to be trained to dodge school shooters. Charlemagne’s realm is a place of many flaws, lots of them enduring. But in their own plodding way, Europeans have created a place where they are guaranteed rights to what others yearn for: life, liberty, and the pursuit of happiness.&lt;/code&gt; (‘ᜀ’ is Tagalog ‘a’ and ‘ᜁ’ is Tagalog ‘i’ and ‘Ӯ’ is ‘U’ in the Cyrillic alphabet since you know who is a Russian asset)&lt;/p&gt;
-</description>
-        <pubDate>Sat, 12 Apr 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/04/12/p1445-the-economist-is-right-europe-actual-land-of-the-free/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/04/12/p1445-the-economist-is-right-europe-actual-land-of-the-free/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: There is a world where a truly excellent User Experience for Mastodon and Matrix and other open decentralized networks is funded just like Bluesky and Slack are funded ; READ and LISTEN:: Ethan Zuckerman and Nathan Schneider:: 110. Is there hope for democracy in a social media-driven world? Nathan Schneider sees it every day. - Initiative for Digital Public Infrastructure at UMass Amherst</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Apr 10, 2025 07:11 &lt;a href=&quot;https://publicinfrastructure.org/podcast/110-nathan-schneider-governable-spaces/&quot;&gt;ME:: There is a world where a truly excellent User Experience for Mastodon and Matrix and other open decentralized networks is funded just like Bluesky and Slack are funded ; READ and LISTEN:: Ethan Zuckerman and Nathan Schneider:: 110. Is there hope for democracy in a social media-driven world? Nathan Schneider sees it every day. - Initiative for Digital Public Infrastructure at UMass Amherst&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;As much as the (Bluyesky) team talks about trying to make their platform billionaire-proof, it’s really not quite built that way. And the Fediverse, Mastodon and related apps offer this opportunity to really turn toward a network that is not captureable. But this is a network whose total expenditure, whose total investment in technology is like what, around a million dollars a year in that kind of order of magnitude compared to companies that are running on billions. &lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 10 Apr 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/04/10/p0711-110-me-open-decentralized-can-be-usable-government-funding-nathan-schneider-governable-spaces/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/04/10/p0711-110-me-open-decentralized-can-be-usable-government-funding-nathan-schneider-governable-spaces/</guid>
         
         
       </item>
