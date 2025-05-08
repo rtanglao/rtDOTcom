@@ -6,8 +6,8 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 04 May 2025 17:16:33 -0700</pubDate>
-    <lastBuildDate>Sun, 04 May 2025 17:16:33 -0700</lastBuildDate>
+    <pubDate>Wed, 07 May 2025 17:13:30 -0700</pubDate>
+    <lastBuildDate>Wed, 07 May 2025 17:13:30 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -44,16 +44,18 @@
     
       <item>
         <title>How To Make Art of Where tights from 32x32 pixel samples from over 600 3248 by 3248 pixel  Panasonic GM-1 Panasonic 25mm f1.4 photos using the flickr API, ruby scripts and imagemagick </title>
-        <description>&lt;h1 id=&quot;2025-04-20-p5-art-of-where-final-leggings-graphics&quot;&gt;2025-04-20-p5 Art of Where final leggings graphics&lt;/h1&gt;
+        <description>&lt;h2 id=&quot;2025-04-20-p5-art-of-where-final-leggings-graphics&quot;&gt;2025-04-20-p5 Art of Where final leggings graphics&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;Upload the following graphics to &lt;a href=&quot;https://artofwhere.com/&quot;&gt;art of where&lt;/a&gt;’s custom leggings web app and done :-)
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-flower-swag-2025/blob/main/vancouver-flowers-2025-32x32-patches-leftleg.png&quot;&gt;vancouver-flowers-2025-32x32-patches-leftleg.png&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-flower-swag-2025/blob/main/vancouver-flowers-2025-32x32-patches-rightleg.png&quot;&gt;vancouver-flowers-2025-32x32-patches-rightleg.png&lt;/a&gt;
-        &lt;h1 id=&quot;2025-04-20-p4-make-the-art-of-where-collage-legs-with-20696-randomly-arranged-files&quot;&gt;2025-04-20-p4 Make the art of where collage legs with 20696 randomly arranged files&lt;/h1&gt;
-      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-flower-swag-2025/blob/main/vancouver-flowers-2025-32x32-patches-rightleg.png&quot;&gt;vancouver-flowers-2025-32x32-patches-rightleg.png&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;2025-04-20-p4-make-the-art-of-where-collage-legs-with-20696-randomly-arranged-files&quot;&gt;2025-04-20-p4 Make the art of where collage legs with 20696 randomly arranged files&lt;/h2&gt;
+&lt;ul&gt;
   &lt;li&gt;patch size is 32px x 32px&lt;/li&gt;
   &lt;li&gt;Each leg of an Art of Where tights is 3325px x 6358 px (see &lt;a href=&quot;https://artofwhere.com/info/design-guidelines&quot;&gt;Art of Where’s Design Guidelines&lt;/a&gt;)&lt;/li&gt;
   &lt;li&gt;3325/32 = 104 patches wide 6358/32 = 199 patches high&lt;/li&gt;
@@ -77,15 +79,17 @@ magick montage @leftleg-files.txt &lt;span class=&quot;nt&quot;&gt;-tile&lt;/spa
 vancouver-flowers-2025-32x32-patches-leftleg.png
 magick montage @rightleg-files.txt &lt;span class=&quot;nt&quot;&gt;-tile&lt;/span&gt; 104x199 &lt;span class=&quot;nt&quot;&gt;-geometry&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;32x32+0+0&quot;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
 vancouver-flowers-2025-32x32-patches-rightleg.png
-
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h1 id=&quot;2025-04-20-p3-make-20696-20661--35-more-patches-but-lets-do-100-more-just-for-fun&quot;&gt;2025-04-20-p3 Make 20696-20661 = 35 more patches but let’s do 100 more just for fun&lt;/h1&gt;
+
+&lt;h2 id=&quot;2025-04-20-p3-make-20696-20661--35-more-patches-but-lets-do-100-more-just-for-fun&quot;&gt;2025-04-20-p3 Make 20696-20661 = 35 more patches but let’s do 100 more just for fun&lt;/h2&gt;
+
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;32X32PATCHES
 ../create32px-32px-random-patches.rb ../ORIGINALS/originals.txt 100 2&amp;gt; one-hundred-more-stderr.txt &amp;amp;
 &lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-1&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;wc&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt;
    20762
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h1 id=&quot;2025-04-20-p2-create-32x32-patches&quot;&gt;2025-04-20-p2 Create 32x32 patches&lt;/h1&gt;
+
+&lt;h2 id=&quot;2025-04-20-p2-create-32x32-patches&quot;&gt;2025-04-20-p2 Create 32x32 patches&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;16 x 16 pixel was too abstract :-)&lt;/li&gt;
   &lt;li&gt;leggings	3325px x 6358px for one leg&lt;/li&gt;
@@ -100,14 +104,20 @@ vancouver-flowers-2025-32x32-patches-rightleg.png
 &lt;span class=&quot;nb&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-1&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;wc&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt;
    20661
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h1 id=&quot;2025-04-20-p1-get-a-full-list-of-the-originals&quot;&gt;2025-04-20-p1 get a full list of the originals&lt;/h1&gt;
+
+&lt;h2 id=&quot;2025-04-20-p1-get-a-full-list-of-the-originals&quot;&gt;2025-04-20-p1 get a full list of the originals&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;Apparently &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;realpath&lt;/code&gt; is macOS and/or BSD specific :-) oops
     &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;ORIGINALS
 &lt;span class=&quot;nb&quot;&gt;realpath&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.jpg &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; originals.txt
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-    &lt;h1 id=&quot;2025-04-19-p2-download-the-originals&quot;&gt;2025-04-19-p2 download the originals&lt;/h1&gt;
   &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;2025-04-19-p2-download-the-originals&quot;&gt;2025-04-19-p2 download the originals&lt;/h2&gt;
+
+&lt;ul&gt;
   &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ORIGINALS&lt;/code&gt; is in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.gitignore&lt;/code&gt; to prevent uploading 3.3GB of files to github :-)&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -116,7 +126,8 @@ vancouver-flowers-2025-32x32-patches-rightleg.png
 ../backup-originals.rb ../photoset-72177720324904746-metadata.csv
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h1 id=&quot;2025-04-19-p1-write-a-script-to-get-a-flickr-set&quot;&gt;2025-04-19-p1 write a script to get a flickr set&lt;/h1&gt;
+&lt;h2 id=&quot;2025-04-19-p1-write-a-script-to-get-a-flickr-set&quot;&gt;2025-04-19-p1 write a script to get a flickr set&lt;/h2&gt;
+
 &lt;ul&gt;
   &lt;li&gt;The &lt;a href=&quot;https://github.com/rtanglao/rt-flower-swag-2025/blob/main/backup-photoset-by-id.rb&quot;&gt;backup-photoset-by-id.rb&lt;/a&gt; Ruby script creates &lt;a href=&quot;https://github.com/rtanglao/rt-flower-swag-2025/blob/main/photoset-72177720324904746-metadata.csv&quot;&gt;photoset-72177720324904746-metadata.csv&lt;/a&gt;
     &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./backup-photoset-by-id.rb 72177720324904746
