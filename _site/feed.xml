@@ -6,9 +6,100 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 07 May 2025 17:13:30 -0700</pubDate>
-    <lastBuildDate>Wed, 07 May 2025 17:13:30 -0700</lastBuildDate>
+    <pubDate>Wed, 07 May 2025 17:41:21 -0700</pubDate>
+    <lastBuildDate>Wed, 07 May 2025 17:41:21 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>How to Make a Go Make Custom custom tshirt with 128x128 on front and 64x64 patches on back</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: May 7, 2025 17:34 &lt;a href=&quot;https://github.com/rtanglao/rt-flower-swag-2025/blob/main/README.md#2025-05-07-p1-upload-front-and-back-to-go-make-custom-to-make-tshirt&quot;&gt;How to Make a Go Make Custom custom tshirt with 128x128 on front and 64x64 patches on back&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2025-05-07-p1-upload-front-and-back-to-go-make-custom-to-make-tshirt&quot;&gt;2025-05-07-p1 Upload front and back to Go Make Custom to make tshirt&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;https://www.gomakecustom.com/makecustom/shop/home&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;2025-05-07-p1-front-128x128&quot;&gt;2025-05-07-p1 Front 128x128:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/54503504802/in/dateposted-public/&quot; title=&quot;vancouver-flowers-2025-128x128-patches-go-custom-front&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/54503504802_91a19fa2ec_w.jpg&quot; width=&quot;331&quot; height=&quot;400&quot; alt=&quot;vancouver-flowers-2025-128x128-patches-go-custom-front&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2025-05-07-p1-back-64x64&quot;&gt;2025-05-07-p1 Back 64x64:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/54503504802/in/dateposted-public/&quot; title=&quot;vancouver-flowers-2025-128x128-patches-go-custom-front&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/54503504802_91a19fa2ec_w.jpg&quot; width=&quot;331&quot; height=&quot;400&quot; alt=&quot;vancouver-flowers-2025-128x128-patches-go-custom-front&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;## 2025-05-03-p4 Make go Make Custom Back of tshirt with 64 by 64 pixel patches&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;find 64X64PATCHES &lt;span class=&quot;nt&quot;&gt;-name&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'*.png'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-print&lt;/span&gt; ¦ &lt;span class=&quot;nb&quot;&gt;shuf&lt;/span&gt; ¦ &lt;span class=&quot;nb&quot;&gt;head&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; 2679 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; back-go-custom-files.txt
+magick montage @back-go-custom-files.txt &lt;span class=&quot;nt&quot;&gt;-tile&lt;/span&gt; 47x57 &lt;span class=&quot;nt&quot;&gt;-geometry&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;64x64+0+0&quot;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+vancouver-flowers-2025-64x64-patches-go-custom-back.png
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;2025-05-03-p3-go-make-custom-back-of-tshirt-using-64-pixel-by-64-pixel-patches&quot;&gt;2025-05-03-p3 Go Make Custom back of tshirt using 64 pixel by 64 pixel patches&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;10 inch by 12 inch at 300 dots per inch  = 3000 pixels by 3600 pixels&lt;/li&gt;
+  &lt;li&gt;3000 pixels / 64 pixels = approximately 47 patches wide&lt;/li&gt;
+  &lt;li&gt;3600 pixels / 64 pixels = approximately 57 patches height&lt;/li&gt;
+  &lt;li&gt;47 * 57 = 2679 patches but we’ll make 2800 just for fun&lt;/li&gt;
+  &lt;li&gt;add 64X64PATCHES to .gitignore and turn  off spotlight indexing in macOS
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;mkdir &lt;/span&gt;64X64PATCHES
+&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;
+ ../create64px-64px-random-patches.rb ../ORIGINALS/originals.txt 2800 2&amp;gt; stderr.txt &amp;amp;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;2025-05-03-p2-make-go-make-custom-front-of-tshirt-with-128-by-128-pixel-patches&quot;&gt;2025-05-03-p2 Make go Make Custom Front of tshirt with 128 by 128 pixel patches&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;find 128X128PATCHES &lt;span class=&quot;nt&quot;&gt;-name&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'*.png'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-print&lt;/span&gt; ¦ &lt;span class=&quot;nb&quot;&gt;shuf&lt;/span&gt; ¦ &lt;span class=&quot;nb&quot;&gt;head&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; 696 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; front-go-custom-files.txt
+magick montage @front-go-custom-files.txt &lt;span class=&quot;nt&quot;&gt;-tile&lt;/span&gt; 24x29 &lt;span class=&quot;nt&quot;&gt;-geometry&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;128x128+0+0&quot;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+vancouver-flowers-2025-128x128-patches-go-custom-front.png
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;2025-05-03-p1-go-make-custom-front-of-tshirt-using-128-pixel-by-128-pixel-patches&quot;&gt;2025-05-03-p1 Go Make Custom front of tshirt using 128 pixel by 128 pixel patches&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;10 inch by 12 inch at 300 dots per inch  = 3000 pixels by 3600 pixels&lt;/li&gt;
+  &lt;li&gt;3000 pixels / 128 pixels = approximately 24 patches wide&lt;/li&gt;
+  &lt;li&gt;3600 pixels / 128 pixels = approximately 29 patches height&lt;/li&gt;
+  &lt;li&gt;24 * 29 = 696 patches but we’ll make 1000 just for fun&lt;/li&gt;
+  &lt;li&gt;add 128X128PATCHES to .gitignore and turn  off spotlight indexing in macOS
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;mkdir &lt;/span&gt;128X128PATCHES
+&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;
+ ../create128px-128px-random-patches.rb ../ORIGINALS/originals.txt 1000 2&amp;gt; stderr.txt &amp;amp;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 07 May 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/05/07/p1734-readme/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/05/07/p1734-readme/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: 'Tyranny' of default apps that are centralized or something :-) ; seriously though maybe the Blᜂesky app should have settings to get around labelling by the Tᜂrkish government and other bad actors?!?1 READ:: Laurens Hof:: Bluesky, censorship and country-based moderation – The Fediverse Report</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: May 7, 2025 06:47 &lt;a href=&quot;https://fediversereport.com/bluesky-censorship-and-country-based-moderation/&quot;&gt;ME:: ‘Tyranny’ of default apps that are centralized or something :-) ; seriously though maybe the Blᜂesky app should have settings to get around labelling by the Tᜂrkish government and other bad actors?!?1 READ:: Laurens Hof:: Bluesky, censorship and country-based moderation – The Fediverse Report&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://fediversereport.com/bluesky-censorship-and-country-based-moderation/&quot;&gt;Laurens Hof:: Blᜂesky, censorship and country-based moderation – The Fediverse Report&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For now, it seems that Blᜂesky PBC and the Tᜂrkish government both have reached a situation that is acceptable for both parties. The Tᜂrkish government has significantly restricted the visibility of accounts they deem unwanted. Sidestepping these restrictions remains an option, with new and easier ways to do so. But considering how powerful the default apps are and how few people use other apps, this seems likely to be an acceptable tradeoff. For Blᜂesky PBC it seems to be an acceptable outcome as well. Not complying with the government order would risk the app to be banned in the entire country. Using geographic moderation labelers gives compliance with the government order, while at the same time minimising the impact: the accounts in question are still visible outside of the country, and people within Tᜂrkey have fairly accessible ways of sidestepping the ban.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;April 4, 2025: &lt;a href=&quot;http://rolandtanglao.com/2025/04/04/p1247-dave-winer-bluesky-is-centralized/&quot;&gt;ME:: I agree. See Christine Lemmer-Webber’s Nov 2024 blog post ; READ Dave Winer:: Bluesky is centralized&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 07 May 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/05/07/p0647-bluesky-censorship-and-country-based-moderation/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/05/07/p0647-bluesky-censorship-and-country-based-moderation/</guid>
+        
+        
+      </item>
     
       <item>
         <title>ME:: very similar  to 1994 novel 'Interface' by Neal Stephenson (writing as Stephen Bury with George Jewsbury) where Wikipedia states: 'a shadowy coalition bent on controlling the world economy attempts to manipulate a candidate for president of the USA through use of a computer biochip brain implant'; Mike Masnick:: The Hallucinating ChatGPT Presidency</title>
@@ -219,36 +310,6 @@ vancouver-flowers-2025-32x32-patches-rightleg.png
         <pubDate>Tue, 15 Apr 2025 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2025/04/15/p1042-mlk-whte-amrica-self-deluded-commitment-equality-not-enthrone-pessimism-racism-today-real-democratic-spirit-facing-it-equally-real/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/04/15/p1042-mlk-whte-amrica-self-deluded-commitment-equality-not-enthrone-pessimism-racism-today-real-democratic-spirit-facing-it-equally-real/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Dr. Martin Luther King Jr.:: There is a double standard in the enforcement of law, a double standard in the respect for particular laws. &lt;- 'Where Do We Go From Here: Chaos or Community?', 1967.</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://www.drmartinlutherkingjr.com/drking/mlk-quotes/&quot;&gt;Dr. Martin Luther King Jr.:: “There is a double standard in the enforcement of law, a double standard in the respect for particular laws.” 
-&amp;lt;- “Where Do We Go From Here: Chaos or Community?”, 1967.&lt;/a&gt; 
-&amp;lt;– Read the book –&amp;gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/Where_Do_We_Go_from_Here:_Chaos_or_Community&quot;&gt;‘Where Do We Go From Here: Chaos or Community?’, 1967, wiki page&lt;/a&gt;
-&amp;lt;– 2025 seems to be 1967 all over again.&lt;/p&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;January 20, 2025 &lt;a href=&quot;http://rolandtanglao.com/2025/01/20/p0713-mlk-quotes/&quot;&gt;Dr. Martin Luther King Jr.:: Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 14 Apr 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/04/14/p2012-mlk-double-standard-law-enforcement-respect-for-laws/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/04/14/p2012-mlk-double-standard-law-enforcement-respect-for-laws/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: We're not the problem, the system is but how do we fix it, I don't know?!? Universal Basic Income?!?? ; READ:: Greg Storey:: LinkedIn is a waiting room of doom: 'It's time to wake the zombies'</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Apr 13, 2025 15:19 &lt;a href=&quot;https://brilliantcrank.com/linkedin-is-a-waiting-room-of-doom/&quot;&gt;ME:: We’re not the problem, the system is but how do we fix it, I don’t know?!? Universal Basic Income?!?? ; READ:: Greg Storey:: LinkedIn is a waiting room of doom: ‘It’s time to wake the zombies’&lt;/a&gt; &amp;lt;– Far easier said than done :-) &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Because that’s what we’ve been trained to do: look hirable. Be valuable. Not human. .... If you’re reading this while doom scrolling, somewhere between your 200th application and your fourth coffee, I’m not going to tell you to keep grinding. ... I’m just going to say:  You’re not alone. You’re not imagining it. And you’re not the problem. This system was built to extract your ambition and sell it back to you in monthly installments. The sooner we stop playing along, the sooner something else becomes possible. ....It's time to wake the zombies.&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 13 Apr 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/04/13/p1519-linkedin-is-a-waiting-room-of-doom/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/04/13/p1519-linkedin-is-a-waiting-room-of-doom/</guid>
         
         
       </item>
