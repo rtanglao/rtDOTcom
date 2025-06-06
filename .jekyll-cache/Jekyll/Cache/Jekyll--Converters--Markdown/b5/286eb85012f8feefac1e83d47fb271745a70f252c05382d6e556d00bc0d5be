@@ -1,0 +1,2 @@
+I"<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Jan 4, 2022.22:03 DateTime <a href="https://www.sqlite.org/datatype3.html#datetime">Datatypes in SQLite</a> &lt;– <code class="language-plaintext highlighter-rouge">SQLite does not have a storage class set aside for storing dates and/or times. Instead, the built-in Date And Time Functions of SQLite are capable of storing dates and times as TEXT, REAL, or INTEGER values</code> &lt;– ISO 8601 or unix time integer or real</p>
+:ET
