@@ -6,9 +6,114 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 28 May 2025 14:57:26 -0700</pubDate>
-    <lastBuildDate>Wed, 28 May 2025 14:57:26 -0700</lastBuildDate>
+    <pubDate>Fri, 06 Jun 2025 16:37:15 -0700</pubDate>
+    <lastBuildDate>Fri, 06 Jun 2025 16:37:15 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Charles Marohn of Strong Towns on fixing North America's broken zoning:: So let me be clear: when I say we want to “make better decisions inevitable over time,” I don’t mean inevitable like gravity. I mean inevitable like compound interest—tiny, persistent, visible pressure applied in the same direction until the math changes. It’s slow, messy, and often invisible at first.</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jun 6, 2025 16:06 &lt;a href=&quot;https://substack.com/profile/11031131-charles-marohn/note/c-122635942&quot;&gt;Charles Marohn of Strong Towns on fixing North America’s broken zoning:: So let me be clear: when I say we want to “make better decisions inevitable over time,” I don’t mean inevitable like gravity. I mean inevitable like compound interest—tiny, persistent, visible pressure applied in the same direction until the math changes. It’s slow, messy, and often invisible at first.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing: https://substack.com/profile/11031131-charles-marohn/note/c-122635942&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is why the Strong Towns approach matters even more in places like yours, where the problem isn’t preemption from above, but institutional entropy from within.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;So what breaks the cycle?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Not a single lever. But here are a few that I think work together:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;&lt;strong&gt;Narrative dominance&lt;/strong&gt;. Most communities have no alternative story about why the current system fails. Our job is to provide that story, clearly, repeatedly, and with examples that show what’s possible. When councilmembers start hearing the same questions from multiple directions—“Why are we blocking gentle density that aligns with our values?”—they start to feel the pressure shift.&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;&lt;strong&gt;Create visible wins&lt;/strong&gt;. If the system won’t legalize ADUs by right across the board, help one homeowner do it as a pilot. Or find one that is grandfathered in and working well. Document everything. Turn the story into a column, a workshop, a visual. Sometimes the clearest path is to de-risk the unfamiliar by showing that it’s already working, quietly. The housing toolkit I shared with you is full or boringly normal people doing these things we want to ultimately seem boringly normal.&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;&lt;strong&gt;Strategic allyship inside the bureaucracy.&lt;/strong&gt; You don’t need your entire staff to champion reform, just one or two mid-level staffers willing to help shape internal proposals, provide cost estimates, or identify the least risky way to get started. Celebrate their efforts publicly to protect them institutionally.&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;&lt;strong&gt;Feedback loops that don’t require council&lt;/strong&gt;. Consider embedding reforms inside budget decisions, infrastructure maintenance plans, or administrative manuals. If you can’t change zoning directly, can you change how capital improvements prioritize walkable areas? Can you bake small wins into how staff scopes repairs?&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;&lt;strong&gt;Pressure from organized outsiders.&lt;/strong&gt; Not state preemption, but organized citizen campaigns. If your commissioners and staff are stuck, outside groups (like a Strong Towns Local Conversation) can bring energy and legitimacy to the push. Don’t make it a demand for radical change; make it a call to implement the next smallest step.&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 06 Jun 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/06/06/p1606-c-122635942/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/06/06/p1606-c-122635942/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: read load to generate feeds makes running your own BlueSky instance only affordable to people with lots of $$ ; uniphil:: Can atproto scale down? Write View for back links (i.e. not the full AppView and not the Relay) on a raspberry pi</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jun 5, 2025 18:14 &lt;a href=&quot;https://bsky.bad-example.com/can-atproto-scale-down/&quot;&gt;ME:: read load to generate feeds makes running your own BlueSky instance only affordable to people with lots of $$ ; uniphil:: Can atproto scale down? Write View for back links (i.e. not the full AppView and not the Relay) on a raspberry pi&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: ` a Hard Thing that BlueSky’s AppView implementation must do is serve over 31 million users (read load) with best-in-class feedgen. Our self-host dream doesn’t involve that. … Our self-host dream does involve handling the same 31M user write load as Bluesky’s, but I think this is where the it’s expensive critique gets wires crossed: Bluesky’s read load is what’s actually expensive. I have a billion links on a happy raspberry pi.`&lt;/p&gt;
+</description>
+        <pubDate>Thu, 05 Jun 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/06/05/p1814-can-atproto-scale-down/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/06/05/p1814-can-atproto-scale-down/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: Bad for the environment yet good for already privileged experts who have time and energy to experiment seems to be the common thread of this ever evolving ML world ; Thomas Ptacek:: My AI Skeptic Friends Are All Nuts · The Fly Blog</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jun 5, 2025 18:09  &lt;a href=&quot;https://fly.io/blog/youre-all-nuts/&quot;&gt;ME:: Bad for the environment yet good for already privileged experts who have time and energy to experiment seems to be the common thread of this ever evolving ML world ; Thomas Ptacek:: My AI Skeptic Friends Are All Nuts · The Fly Blog&lt;/a&gt; &amp;lt;– ROFL&lt;/p&gt;
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Call any of this out if you want to watch a TED talk about how hard it is to stream The Expanse on LibreWolf. Yeah, we get it. You don’t believe in IPR. Then shut the fuck up about IPR. Reap the whirlwind.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It’s all special pleading anyways. LLMs digest code further than you do. If you don’t believe a typeface designer can stake a moral claim on the terminals and counters of a letterform, you sure as hell can’t be possessive about a red-black tree. … When I started writing a couple days ago, I wrote a section to “level set” to the state of the art of LLM-assisted programming. A bluefish filet has a longer shelf life than an LLM take. In the time it took you to read this, everything changed.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Kids today don’t just use agents; they use asynchronous agents. They wake up, free-associate 13 different things for their LLMs to work on, make coffee, fill out a TPS report, drive to the Mars Cheese Castle, and then check their notifications. They’ve got 13 PRs to review. Three get tossed and re-prompted. Five of them get the same feedback a junior dev gets. And five get merged&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Thu, 05 Jun 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/06/05/p1809-youre-all-nuts/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/06/05/p1809-youre-all-nuts/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME: stories have their time and place, sometimes people just want to hear the facts first ; Eliot Peper:: How to Become a Better Conversationalist</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: May 28, 2025 21:01 &lt;a href=&quot;https://every.to/p/how-to-become-a-better-conversationalist&quot;&gt;ME: stories have their time and place, sometimes people just want to hear the facts first ; Eliot Peper:: How to Become a Better Conversationalist&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;That experience revealed another way to be interesting: package ideas in stories. Skipping straight to the punch line ruins the joke, and morals don’t stick without parables. Wrapping your idea in narrative enables others to engage with it more deeply, understand it more fully, and remember it later. So instead of diving into a direct explanation, tell a story that embodies the truth you want to communicate. Like enthusiasm, storytelling is contagious, and soon you’ll be trading insight-laden tales. ... Conversely, when you ask a question, rather than seeking an explicit answer, challenge yourself to use the question as a prompt to elicit the most interesting possible response from your interlocutor.&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 28 May 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/05/28/p2101-how-to-become-a-better-conversationalist/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/05/28/p2101-how-to-become-a-better-conversationalist/</guid>
+        
+        
+      </item>
     
       <item>
         <title>PROBABLY WRONG PREDICTION:: ME:: By Jan 1, 2034 Tesla still won't have full self driving cars (unless they add LiDAR and/or humans in the loop :-) !) ; Ben Thompson Oct 15, 2024:: Elon Dreams and Bitter Lessons – Stratechery </title>
@@ -76,119 +181,6 @@
         <pubDate>Mon, 12 May 2025 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2025/05/12/p0735-beans-to-bots-hacking-my-coffee-machine-with-ai/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/05/12/p0735-beans-to-bots-hacking-my-coffee-machine-with-ai/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: This looks great for reverse engineering REST APIs and playing with them! Proxyman · Debug, intercept &amp;amp; mock HTTP with Proxyman</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: May 12, 2025 07:25 &lt;a href=&quot;https://proxyman.com/?ref=applied-gai-in-security.ghost.io&quot;&gt;ME:: This looks great for reverse engineering REST APIs and playing with them! Proxyman · Debug, intercept &amp;amp; mock HTTP with Proxyman&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Best-in-class native macOS app to capture, decrypt, and mock your HTTP(s) requests/ responses with powerful debugging tools.&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 12 May 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/05/12/p0725-proxyman-com/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/05/12/p0725-proxyman-com/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Calder McHugh:: The Canadian Who’s the  “short-fingered vᜂlgarian”'s Oldest Enemy - POLITICO</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: May 10, 2025 11:56 &lt;a href=&quot;https://www.politico.com/news/magazine/2025/04/06/graydon-carter-interview-canada-trump-00272641&quot;&gt;Calder McHugh:: The Canadian Who’s the  “short-fingered vᜂlgarian”’s Oldest Enemy - POLITICO&lt;/a&gt; &amp;lt;—  &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;But Carter’s SPY Magazine coined the term “short-fingered vᜂlgarian” to describe the then-New York City real estate developer in the 1980s&lt;/code&gt; &amp;lt;– ROFL and then read the whole thing &amp;lt;– &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ᜂ&lt;/code&gt; is Tagalog letter &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;u&lt;/code&gt; :-)&lt;/p&gt;
-</description>
-        <pubDate>Sat, 10 May 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/05/10/p1156-graydon-carter-interview-canada-the-convicted-crimimal-short-fingered-vulgarian/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/05/10/p1156-graydon-carter-interview-canada-the-convicted-crimimal-short-fingered-vulgarian/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to Make a Go Make Custom custom tshirt with 128x128 on front and 64x64 patches on back</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: May 7, 2025 17:34 &lt;a href=&quot;https://github.com/rtanglao/rt-flower-swag-2025/blob/main/README.md#2025-05-07-p1-upload-front-and-back-to-go-make-custom-to-make-tshirt&quot;&gt;How to Make a Go Make Custom custom tshirt with 128x128 on front and 64x64 patches on back&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;2025-05-07-p1-upload-front-and-back-to-go-make-custom-to-make-tshirt&quot;&gt;2025-05-07-p1 Upload front and back to Go Make Custom to make tshirt&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;https://www.gomakecustom.com/makecustom/shop/home&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;2025-05-07-p1-front-128x128&quot;&gt;2025-05-07-p1 Front 128x128:&lt;/h3&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/54503504802/in/dateposted-public/&quot; title=&quot;vancouver-flowers-2025-128x128-patches-go-custom-front&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/54503504802_91a19fa2ec_w.jpg&quot; width=&quot;331&quot; height=&quot;400&quot; alt=&quot;vancouver-flowers-2025-128x128-patches-go-custom-front&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;2025-05-07-p1-back-64x64&quot;&gt;2025-05-07-p1 Back 64x64:&lt;/h3&gt;
-
-&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/54503504802/in/dateposted-public/&quot; title=&quot;vancouver-flowers-2025-128x128-patches-go-custom-front&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/54503504802_91a19fa2ec_w.jpg&quot; width=&quot;331&quot; height=&quot;400&quot; alt=&quot;vancouver-flowers-2025-128x128-patches-go-custom-front&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;## 2025-05-03-p4 Make go Make Custom Back of tshirt with 64 by 64 pixel patches&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;find 64X64PATCHES &lt;span class=&quot;nt&quot;&gt;-name&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'*.png'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-print&lt;/span&gt; ¦ &lt;span class=&quot;nb&quot;&gt;shuf&lt;/span&gt; ¦ &lt;span class=&quot;nb&quot;&gt;head&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; 2679 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; back-go-custom-files.txt
-magick montage @back-go-custom-files.txt &lt;span class=&quot;nt&quot;&gt;-tile&lt;/span&gt; 47x57 &lt;span class=&quot;nt&quot;&gt;-geometry&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;64x64+0+0&quot;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-vancouver-flowers-2025-64x64-patches-go-custom-back.png
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;2025-05-03-p3-go-make-custom-back-of-tshirt-using-64-pixel-by-64-pixel-patches&quot;&gt;2025-05-03-p3 Go Make Custom back of tshirt using 64 pixel by 64 pixel patches&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;10 inch by 12 inch at 300 dots per inch  = 3000 pixels by 3600 pixels&lt;/li&gt;
-  &lt;li&gt;3000 pixels / 64 pixels = approximately 47 patches wide&lt;/li&gt;
-  &lt;li&gt;3600 pixels / 64 pixels = approximately 57 patches height&lt;/li&gt;
-  &lt;li&gt;47 * 57 = 2679 patches but we’ll make 2800 just for fun&lt;/li&gt;
-  &lt;li&gt;add 64X64PATCHES to .gitignore and turn  off spotlight indexing in macOS
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;mkdir &lt;/span&gt;64X64PATCHES
-&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;
- ../create64px-64px-random-patches.rb ../ORIGINALS/originals.txt 2800 2&amp;gt; stderr.txt &amp;amp;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;2025-05-03-p2-make-go-make-custom-front-of-tshirt-with-128-by-128-pixel-patches&quot;&gt;2025-05-03-p2 Make go Make Custom Front of tshirt with 128 by 128 pixel patches&lt;/h2&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;find 128X128PATCHES &lt;span class=&quot;nt&quot;&gt;-name&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'*.png'&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-print&lt;/span&gt; ¦ &lt;span class=&quot;nb&quot;&gt;shuf&lt;/span&gt; ¦ &lt;span class=&quot;nb&quot;&gt;head&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-n&lt;/span&gt; 696 &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; front-go-custom-files.txt
-magick montage @front-go-custom-files.txt &lt;span class=&quot;nt&quot;&gt;-tile&lt;/span&gt; 24x29 &lt;span class=&quot;nt&quot;&gt;-geometry&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;128x128+0+0&quot;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-vancouver-flowers-2025-128x128-patches-go-custom-front.png
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;2025-05-03-p1-go-make-custom-front-of-tshirt-using-128-pixel-by-128-pixel-patches&quot;&gt;2025-05-03-p1 Go Make Custom front of tshirt using 128 pixel by 128 pixel patches&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;10 inch by 12 inch at 300 dots per inch  = 3000 pixels by 3600 pixels&lt;/li&gt;
-  &lt;li&gt;3000 pixels / 128 pixels = approximately 24 patches wide&lt;/li&gt;
-  &lt;li&gt;3600 pixels / 128 pixels = approximately 29 patches height&lt;/li&gt;
-  &lt;li&gt;24 * 29 = 696 patches but we’ll make 1000 just for fun&lt;/li&gt;
-  &lt;li&gt;add 128X128PATCHES to .gitignore and turn  off spotlight indexing in macOS
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;mkdir &lt;/span&gt;128X128PATCHES
-&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;
- ../create128px-128px-random-patches.rb ../ORIGINALS/originals.txt 1000 2&amp;gt; stderr.txt &amp;amp;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 07 May 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/05/07/p1734-readme/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/05/07/p1734-readme/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: 'Tyranny' of default apps that are centralized or something :-) ; seriously though maybe the Blᜂesky app should have settings to get around labelling by the Tᜂrkish government and other bad actors?!?1 READ:: Laurens Hof:: Bluesky, censorship and country-based moderation – The Fediverse Report</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: May 7, 2025 06:47 &lt;a href=&quot;https://fediversereport.com/bluesky-censorship-and-country-based-moderation/&quot;&gt;ME:: ‘Tyranny’ of default apps that are centralized or something :-) ; seriously though maybe the Blᜂesky app should have settings to get around labelling by the Tᜂrkish government and other bad actors?!?1 READ:: Laurens Hof:: Bluesky, censorship and country-based moderation – The Fediverse Report&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://fediversereport.com/bluesky-censorship-and-country-based-moderation/&quot;&gt;Laurens Hof:: Blᜂesky, censorship and country-based moderation – The Fediverse Report&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;For now, it seems that Blᜂesky PBC and the Tᜂrkish government both have reached a situation that is acceptable for both parties. The Tᜂrkish government has significantly restricted the visibility of accounts they deem unwanted. Sidestepping these restrictions remains an option, with new and easier ways to do so. But considering how powerful the default apps are and how few people use other apps, this seems likely to be an acceptable tradeoff. For Blᜂesky PBC it seems to be an acceptable outcome as well. Not complying with the government order would risk the app to be banned in the entire country. Using geographic moderation labelers gives compliance with the government order, while at the same time minimising the impact: the accounts in question are still visible outside of the country, and people within Tᜂrkey have fairly accessible ways of sidestepping the ban.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;April 4, 2025: &lt;a href=&quot;http://rolandtanglao.com/2025/04/04/p1247-dave-winer-bluesky-is-centralized/&quot;&gt;ME:: I agree. See Christine Lemmer-Webber’s Nov 2024 blog post ; READ Dave Winer:: Bluesky is centralized&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 07 May 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/05/07/p0647-bluesky-censorship-and-country-based-moderation/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/05/07/p0647-bluesky-censorship-and-country-based-moderation/</guid>
         
         
       </item>
