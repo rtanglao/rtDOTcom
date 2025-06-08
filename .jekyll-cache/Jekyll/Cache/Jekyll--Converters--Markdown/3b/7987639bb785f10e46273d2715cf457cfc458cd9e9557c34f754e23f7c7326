@@ -1,0 +1,11 @@
+I"S<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Sep 29, 2020. rbenv in catalina: <a href="https://stackoverflow.com/questions/58790425/why-rbenv-does-not-work-on-mac-os-catalina">MacOS Catalina uses zsh by default, if you are using the same you want to add the line to ~/.zshrc</a> “the line” is:</p>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">eval</span> <span class="s2">"</span><span class="si">$(</span>rbenv init -<span class="si">)</span><span class="s2">"</span>
+</code></pre></div></div>
+<p>As of this writing, stable ruby is 2.7.1, here’s <a href="https://stackoverflow.com/questions/36485180/how-to-update-ruby-with-homebrew">how to install ruby 2.7.1 using homebrew</a>:</p>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew update
+brew <span class="nb">install </span>ruby-build
+brew <span class="nb">install </span>rbenv
+rbenv <span class="nb">install </span>2.7.1
+rbenv global 2.7.1
+</code></pre></div></div>
+:ET

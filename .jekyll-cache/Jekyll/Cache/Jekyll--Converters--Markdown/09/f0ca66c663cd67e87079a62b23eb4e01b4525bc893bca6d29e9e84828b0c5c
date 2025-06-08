@@ -1,0 +1,14 @@
+I"<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Sep 29, 2020. <a href="https://bmannconsulting.com/wget/">wget</a> from Boris:</p>
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget <span class="se">\</span>
+     <span class="nt">--recursive</span> <span class="se">\</span>
+     <span class="nt">--no-clobber</span> <span class="se">\</span>
+     <span class="nt">--page-requisites</span> <span class="se">\</span>
+     <span class="nt">--html-extension</span> <span class="se">\</span>
+     <span class="nt">--convert-links</span> <span class="se">\</span>
+     <span class="nt">--restrict-file-names</span><span class="o">=</span>windows <span class="se">\</span>
+     <span class="nt">--domains</span> example1.com example2.com <span class="se">\</span>
+     <span class="nt">--no-parent</span> <span class="se">\</span>
+         example1.com 
+</code></pre></div></div>
+<p>&lt;— use this for barbandroland.com archiving</p>
+:ET
