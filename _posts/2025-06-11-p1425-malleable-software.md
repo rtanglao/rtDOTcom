@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "ME:: tl;dr-ing: As always, Lisp and Smalltalk were there first but too early and too much $ ; Mass-produced software is too rigid; Need: A gentle slope from user to creator; Tools not avocado slicers er apps :-) ; Need: communcal creation ; June 2025:: Geoffrey Litt, Josh Horowitz, Peter van Hardenberg, Todd Matthews:: ink and switch:: Malleable software: Restoring user agency in a world of locked-down apps"
+title: "ME:: tl;dr-ing: As always, Lisp and Smalltalk were there first but too early and too much $ ; Mass-produced software is too rigid; Need: A gentle slope from user to creator; Tools not avocado slicers er apps :-) ; Need: communal creation ; June 2025:: Geoffrey Litt, Josh Horowitz, Peter van Hardenberg, Todd Matthews:: ink and switch:: Malleable software: Restoring user agency in a world of locked-down apps"
 ---
-[Discovered](http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/): Jun 11, 2025 14:25 [ME:: tl;dr-ing: As always, Lisp and Smalltalk were there first but too early and too much $ ; Mass-produced software is too rigid; Need: A gentle slope from user to creator; Tools not avocado slicers er apps :-) ; Need: communcal creation ; June 2025:: Geoffrey Litt, Josh Horowitz, Peter van Hardenberg, Todd Matthews:: ink and switch:: Malleable software: Restoring user agency in a world of locked-down apps](https://www.inkandswitch.com/essay/malleable-software/)
+[Discovered](http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/): Jun 11, 2025 14:25 [ME:: tl;dr-ing: As always, Lisp and Smalltalk were there first but too early and too much $ ; Mass-produced software is too rigid; Need: A gentle slope from user to creator; Tools not avocado slicers er apps :-) ; Need: communal creation ; June 2025:: Geoffrey Litt, Josh Horowitz, Peter van Hardenberg, Todd Matthews:: ink and switch:: Malleable software: Restoring user agency in a world of locked-down apps](https://www.inkandswitch.com/essay/malleable-software/)
 
 ## QUOTE
 
