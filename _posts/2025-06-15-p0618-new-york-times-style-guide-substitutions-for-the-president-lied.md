@@ -16,4 +16,4 @@ title: "Micky McCauley:: May 19, 2020:: New York Times’ Style Guide Substituti
 
 ## Previously
 
-* June 3, 2025:: Carlos Greaves:: New York Times’ Style Guide Substitutions for “The President Violated the Constitution” - McSweeney’s Internet Tendency
+* June 3, 2025:: [Carlos Greaves:: New York Times’ Style Guide Substitutions for “The President Violated the Constitution” - McSweeney’s Internet Tendency](http://rolandtanglao.com/2025/06/15/p0614-new-york-times-style-guide-substitutions-for-the-president-violated-the-constitution/)
