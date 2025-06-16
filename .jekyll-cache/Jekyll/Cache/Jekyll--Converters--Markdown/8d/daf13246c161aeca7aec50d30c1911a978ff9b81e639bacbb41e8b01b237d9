@@ -1,0 +1,14 @@
+I" <p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Jun 16, 2025 00:09 <a href="https://stackoverflow.com/questions/24616288/ruby-local-to-utc-returns-invalid-year">Me:: this is where i found out about utc_to_local ;; date - Ruby local_to_utc returns invalid year - Stack Overflow</a></p>
+
+<h2 id="quote">QUOTE:</h2>
+
+<p>See my code in : <a href="https://github.com/rtanglao/rt-checkvist/blob/main/blogthis.rb">blogthis.rb</a></p>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">t</span> <span class="o">=</span> <span class="no">TZInfo</span><span class="o">::</span><span class="no">Timezone</span><span class="p">.</span><span class="nf">get</span><span class="p">(</span><span class="s1">'America/Vancouver'</span><span class="p">).</span><span class="nf">utc_to_local</span><span class="p">(</span><span class="no">DateTime</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">created_at</span><span class="p">))</span>
+</code></pre></div></div>
+
+<p>Inspired by:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="no">TZInfo</span><span class="o">::</span><span class="no">Timezone</span><span class="p">.</span><span class="nf">get</span><span class="p">(</span><span class="s1">'US/Eastern'</span><span class="p">).</span><span class="nf">local_to_utc</span><span class="p">(</span><span class="no">DateTime</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">date_src</span><span class="p">))</span>
+<span class="c1"># =&gt; #&lt;DateTime: 2014-07-08T03:10:00+00:00 ((2456847j,11400s,0n),+0s,2299161j)&gt;</span>
+</code></pre></div></div>
+:ET

@@ -6,9 +6,32 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 15 Jun 2025 23:42:20 -0700</pubDate>
-    <lastBuildDate>Sun, 15 Jun 2025 23:42:20 -0700</lastBuildDate>
+    <pubDate>Mon, 16 Jun 2025 00:15:50 -0700</pubDate>
+    <lastBuildDate>Mon, 16 Jun 2025 00:15:50 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Me:: this is where i found out about utc_to_local ;; date - Ruby local_to_utc returns invalid year - Stack Overflow</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jun 16, 2025 00:09 &lt;a href=&quot;https://stackoverflow.com/questions/24616288/ruby-local-to-utc-returns-invalid-year&quot;&gt;Me:: this is where i found out about utc_to_local ;; date - Ruby local_to_utc returns invalid year - Stack Overflow&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
+
+&lt;p&gt;See my code in : &lt;a href=&quot;https://github.com/rtanglao/rt-checkvist/blob/main/blogthis.rb&quot;&gt;blogthis.rb&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;TZInfo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Timezone&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'America/Vancouver'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;utc_to_local&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;DateTime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;parse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;created_at&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Inspired by:&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;no&quot;&gt;TZInfo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Timezone&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'US/Eastern'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;local_to_utc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;DateTime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;parse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;date_src&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# =&amp;gt; #&amp;lt;DateTime: 2014-07-08T03:10:00+00:00 ((2456847j,11400s,0n),+0s,2299161j)&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Mon, 16 Jun 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/06/16/p0009-ruby-local-to-utc-returns-invalid-year/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/06/16/p0009-ruby-local-to-utc-returns-invalid-year/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Micky McCauley:: May 19, 2020:: New York Times’ Style Guide Substitutions for “The President Lied” - McSweeney’s Internet Tendency</title>
@@ -195,17 +218,6 @@
         <pubDate>Thu, 05 Jun 2025 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2025/06/05/p1809-youre-all-nuts/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/06/05/p1809-youre-all-nuts/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME: stories have their time and place, sometimes people just want to hear the facts first ; Eliot Peper:: How to Become a Better Conversationalist</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: May 28, 2025 21:01 &lt;a href=&quot;https://every.to/p/how-to-become-a-better-conversationalist&quot;&gt;ME: stories have their time and place, sometimes people just want to hear the facts first ; Eliot Peper:: How to Become a Better Conversationalist&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;That experience revealed another way to be interesting: package ideas in stories. Skipping straight to the punch line ruins the joke, and morals don’t stick without parables. Wrapping your idea in narrative enables others to engage with it more deeply, understand it more fully, and remember it later. So instead of diving into a direct explanation, tell a story that embodies the truth you want to communicate. Like enthusiasm, storytelling is contagious, and soon you’ll be trading insight-laden tales. ... Conversely, when you ask a question, rather than seeking an explicit answer, challenge yourself to use the question as a prompt to elicit the most interesting possible response from your interlocutor.&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 28 May 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/05/28/p2101-how-to-become-a-better-conversationalist/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/05/28/p2101-how-to-become-a-better-conversationalist/</guid>
         
         
       </item>
