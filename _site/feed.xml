@@ -6,9 +6,60 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 19 Jun 2025 17:21:30 -0700</pubDate>
-    <lastBuildDate>Thu, 19 Jun 2025 17:21:30 -0700</lastBuildDate>
+    <pubDate>Mon, 23 Jun 2025 14:12:30 -0700</pubDate>
+    <lastBuildDate>Mon, 23 Jun 2025 14:12:30 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>ME:: gotta try this on my 5D Mark 1 aka Classic some day to get time lapse, focus peaking, zebras, and other goodies :-) ; a1ex:: October 2012:: &amp;lsqb;UNMAINTAINED&amp;rsqb; Canon 5D Classic Firmware  ** Beta 4 **</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jun 23, 2025 20:58 &lt;a href=&quot;https://www.magiclantern.fm/forum/index.php?topic=1010.0&quot;&gt;ME:: gotta try this on my 5D Mark 1 aka Classic some day to get time lapse, focus peaking, zebras, and other goodies :-) ; a1ex:: October 2012:: &amp;amp;lsqb;UNMAINTAINED&amp;amp;rsqb; Canon 5D Classic Firmware  ** Beta 4 **&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Jun 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/06/23/p1358-2012-magic-lantern-for-canon-5d-mark-i/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/06/23/p1358-2012-magic-lantern-for-canon-5d-mark-i/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Recipes that work according to fab colleague Tarandeep :-) ; Julie The Simple Veganista:: Lemony Quinoa + Chickpea Salad - </title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jun 23, 2025 19:23 &lt;a href=&quot;https://simple-veganista.com/quinoa-chickpea-salad/&quot;&gt;Recipes that work according to fab colleague Tarandeep :-) ; Julie The Simple Veganista:: Lemony Quinoa + Chickpea Salad - &lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Jun 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/06/23/p1223-quinoa-chickpea-salad/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/06/23/p1223-quinoa-chickpea-salad/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: I didn't know DateTime was deprecated! Mav Tipi:: Should I Use Date, Time, or DateTime in Ruby and Rails? ¦The Startup ¦ Medium</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jun 20, 2025 14:38 &lt;a href=&quot;https://medium.com/swlh/should-i-use-date-time-or-datetime-in-ruby-and-rails-9372ad20ca4f&quot;&gt;ME:: I didn’t know DateTime was deprecated! Mav Tipi:: Should I Use Date, Time, or DateTime in Ruby and Rails? ¦The Startup ¦ Medium&lt;/a&gt; &amp;lt;–  September 2020 ruby language commit from nurse:: &lt;a href=&quot;https://github.com/ruby/date/commit/58ca6e6a3ee20c72a77266e0f74920b12a06ee9d&quot;&gt;DateTime class is considered deprecated. Use Time class&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;As of Ruby 3 (released December 24th, 2020, as is Ruby tradition), DateTime only exists for backwards-compatibility. The date library docs recommend you just use Time instead. (I’m pretty sure this was essentially true from 2.0 forward, but now it’s formally true.)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you’re someone who googles around for answers (which you are, that’s why you’re here), keep this in mind! A lot of old articles are now misleading.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This simplifies our question by a lot. The biggest difference between Date and Time is that Date is concerned with days and above; if you care at all about hours, minutes, seconds and below, or think you might care about them in the future, you have to use Time. Date can’t handle any of that.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;On the other hand, here are some things Date can do better than Time:&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 20 Jun 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/06/20/p0738-should-i-use-date-time-or-datetime-in-ruby-and-rails-9372ad20ca4f/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/06/20/p0738-should-i-use-date-time-or-datetime-in-ruby-and-rails-9372ad20ca4f/</guid>
+        
+        
+      </item>
     
       <item>
         <title>ME:: Sounds like a great optimistic yet pessimistic retro history book so I ordered the 2019 edition with a new introduction ; Reviewed By Bruce Sterling:: March 24, 2008:: The Shock of the Old by David Edgerton</title>
@@ -162,82 +213,6 @@ Why Maestro?&lt;/p&gt;
         <pubDate>Mon, 16 Jun 2025 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2025/06/16/p1717-garmin-varia-rtl515-a-review/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/06/16/p1717-garmin-varia-rtl515-a-review/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Me:: this is where i found out about utc_to_local ;; date - Ruby local_to_utc returns invalid year - Stack Overflow</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jun 16, 2025 00:09 &lt;a href=&quot;https://stackoverflow.com/questions/24616288/ruby-local-to-utc-returns-invalid-year&quot;&gt;Me:: this is where i found out about utc_to_local ;; date - Ruby local_to_utc returns invalid year - Stack Overflow&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
-
-&lt;p&gt;See my code in : &lt;a href=&quot;https://github.com/rtanglao/rt-checkvist/blob/main/blogthis.rb&quot;&gt;blogthis.rb&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;TZInfo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Timezone&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'America/Vancouver'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;utc_to_local&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;DateTime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;parse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;created_at&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Inspired by:&lt;/p&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;no&quot;&gt;TZInfo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Timezone&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'US/Eastern'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;local_to_utc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;DateTime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;parse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;date_src&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# =&amp;gt; #&amp;lt;DateTime: 2014-07-08T03:10:00+00:00 ((2456847j,11400s,0n),+0s,2299161j)&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-</description>
-        <pubDate>Mon, 16 Jun 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/06/16/p0009-ruby-local-to-utc-returns-invalid-year/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/06/16/p0009-ruby-local-to-utc-returns-invalid-year/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Micky McCauley:: May 19, 2020:: New York Times’ Style Guide Substitutions for “The President Lied” - McSweeney’s Internet Tendency</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jun 16, 2025 06:18 &lt;a href=&quot;https://www.mcsweeneys.net/articles/new-york-times-style-guide-substitutions-for-the-president-lied&quot;&gt;Micky McCauley:: May 19, 2020:: New York Times’ Style Guide Substitutions for “The President Lied” - McSweeney’s Internet Tendency&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The president, offering no evidence, insisted upon his version of the story.”
-“The president extemporized with a blithe disregard for established fact.”
-“Confounding experts and antagonizing the historical record, the president painted his own, rosier portrait of events.”
-“The president, perhaps inadvertently, wound up smudging the line between empirical verification and his own boundless optimism.”
-“The president once again found himself galloping ahead of reality’s leisurely pace.”
-“The president dabbled anew in the shallow pond of misrepresentation, filling his beak with succulent morsels hidden among the reeds.”
-“The president’s most recent encounter with the specter of honesty caught him wrong-footed.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;June 3, 2025:: &lt;a href=&quot;http://rolandtanglao.com/2025/06/15/p0614-new-york-times-style-guide-substitutions-for-the-president-violated-the-constitution/&quot;&gt;Carlos Greaves:: New York Times’ Style Guide Substitutions for “The President Violated the Constitution” - McSweeney’s Internet Tendency&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 15 Jun 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/06/15/p0618-new-york-times-style-guide-substitutions-for-the-president-lied/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/06/15/p0618-new-york-times-style-guide-substitutions-for-the-president-lied/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>June 3, 2025:: Carlos Greaves:: New York Times’ Style Guide Substitutions for “The President Violated the Constitution” - McSweeney’s Internet Tendency</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jun 16, 2025 06:14 &lt;a href=&quot;https://www.mcsweeneys.net/articles/new-york-times-style-guide-substitutions-for-the-president-violated-the-constitution&quot;&gt;June 3, 2025:: Carlos Greaves:: New York Times’ Style Guide Substitutions for “The President Violated the Constitution” - McSweeney’s Internet Tendency&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;“The president remained steadfast in his novel interpretation of constitutional law.”
-“Faced with the choice between clinging to the letter of the law and marching to the beat of his own legal drum, the president chose the latter.”
-“The president’s solutions-focused approach to legal roadblocks necessitated thinking outside the constitutional box.”
-“Perhaps unaware that he had sailed beyond the Constitution’s horizons, the president found himself drifting further and further from legal terra firma.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;November 9, 2016: &lt;a href=&quot;http://rolandtanglao.com/2016/11/09/p1-this-is-not-america/&quot;&gt;This is not America&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 15 Jun 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/06/15/p0614-new-york-times-style-guide-substitutions-for-the-president-violated-the-constitution/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/06/15/p0614-new-york-times-style-guide-substitutions-for-the-president-violated-the-constitution/</guid>
         
         
       </item>
