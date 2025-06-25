@@ -1,0 +1,146 @@
+I"¾K<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Jun 25, 2025 01:01 <a href="https://github.com/thunderbird/thunderbird-notes/tree/master">TIL:: Thunderbird release notes are stored in a github repo called thunderbird-notes; I sketched some python code for getting tags, bugs, notes etc ; Release Notes for Thunderbird</a></p>
+
+<h2 id="python-code">Python code</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">resp</span> <span class="o">=</span> <span class="n">requests</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="s">"https://raw.githubusercontent.com/thunderbird/thunderbird-notes/refs/heads/master/release/139.0.yml"</span><span class="p">)</span>
+<span class="n">parsed_yaml</span> <span class="o">=</span> <span class="n">yaml</span><span class="p">.</span><span class="n">safe_load</span><span class="p">(</span><span class="n">resp</span><span class="p">.</span><span class="n">text</span><span class="p">)</span>
+<span class="n">pprint</span> <span class="n">parsed_yaml</span>
+</code></pre></div></div>
+
+<h2 id="example-yaml-release-notes">Example YAML release notes</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="s">'notes'</span><span class="p">:</span> <span class="p">[{</span><span class="s">'bugs'</span><span class="p">:</span> <span class="p">[</span><span class="mi">1950887</span><span class="p">],</span>
+            <span class="s">'note'</span><span class="p">:</span> <span class="s">'Implemented enterprise policy to allow granular in-app '</span>
+                    <span class="s">'notification control'</span><span class="p">,</span>
+            <span class="s">'tag'</span><span class="p">:</span> <span class="s">'new'</span><span class="p">},</span>
+           <span class="p">{</span><span class="s">'bugs'</span><span class="p">:</span> <span class="p">[</span><span class="mi">1953662</span><span class="p">],</span>
+            <span class="s">'note'</span><span class="p">:</span> <span class="s">"Added 'Mark as Read' and 'Delete' actions to mail "</span>
+                    <span class="s">'notifications'</span><span class="p">,</span>
+            <span class="s">'tag'</span><span class="p">:</span> <span class="s">'new'</span><span class="p">},</span>
+           <span class="p">{</span><span class="s">'bugs'</span><span class="p">:</span> <span class="p">[</span><span class="mi">1865057</span><span class="p">],</span>
+            <span class="s">'note'</span><span class="p">:</span> <span class="s">'Implemented customizable row count for Cards View in '</span>
+                    <span class="s">"'Appearance' settings"</span><span class="p">,</span>
+            <span class="s">'tag'</span><span class="p">:</span> <span class="s">'new'</span><span class="p">},</span>
+           <span class="p">{</span><span class="s">'bugs'</span><span class="p">:</span> <span class="p">[</span><span class="mi">1846550</span><span class="p">],</span>
+            <span class="s">'note'</span><span class="p">:</span> <span class="s">'Implemented ability to manually sort folders in the '</span>
+                    <span class="s">'folder pane'</span><span class="p">,</span>
+            <span class="s">'tag'</span><span class="p">:</span> <span class="s">'new'</span><span class="p">},</span>
+           <span class="p">{</span><span class="s">'bugs'</span><span class="p">:</span> <span class="p">[</span><span class="mi">1803006</span><span class="p">],</span>
+            <span class="s">'note'</span><span class="p">:</span> <span class="s">'Thunderbird could crash when setting message compose '</span>
+                    <span class="s">'headers'</span><span class="p">,</span>
+            <span class="s">'tag'</span><span class="p">:</span> <span class="s">'fixed'</span><span class="p">},</span>
+           <span class="p">{</span><span class="s">'bugs'</span><span class="p">:</span> <span class="p">[</span><span class="mi">1956988</span><span class="p">],</span>
+            <span class="s">'note'</span><span class="p">:</span> <span class="s">'Links in the OAuth authentication window did not open '</span>
+                    <span class="s">'when clicked'</span><span class="p">,</span>
+            <span class="s">'tag'</span><span class="p">:</span> <span class="s">'fixed'</span><span class="p">},</span>
+           <span class="p">{</span><span class="s">'bugs'</span><span class="p">:</span> <span class="p">[</span><span class="mi">1964145</span><span class="p">],</span>
+            <span class="s">'note'</span><span class="p">:</span> <span class="s">'Access was not allowed to attachments at specific UNC '</span>
+                    <span class="s">'hosts'</span><span class="p">,</span>
+            <span class="s">'tag'</span><span class="p">:</span> <span class="s">'fixed'</span><span class="p">},</span>
+           <span class="p">{</span><span class="s">'bugs'</span><span class="p">:</span> <span class="p">[</span><span class="mi">1952311</span><span class="p">],</span>
+            <span class="s">'note'</span><span class="p">:</span> <span class="s">'Mail window could stop functioning during and after '</span>
+                    <span class="s">'folder compaction'</span><span class="p">,</span>
+            <span class="s">'tag'</span><span class="p">:</span> <span class="s">'fixed'</span><span class="p">},</span>
+           <span class="p">{</span><span class="s">'bugs'</span><span class="p">:</span> <span class="p">[</span><span class="mi">1960343</span><span class="p">],</span>
+            <span class="s">'note'</span><span class="p">:</span> <span class="s">'Full folder sorting logic was not used when inserting '</span>
+                    <span class="s">'folders after move'</span><span class="p">,</span>
+            <span class="s">'tag'</span><span class="p">:</span> <span class="s">'fixed'</span><span class="p">},</span>
+           <span class="p">{</span><span class="s">'bugs'</span><span class="p">:</span> <span class="p">[</span><span class="mi">1961642</span><span class="p">],</span>
+            <span class="s">'note'</span><span class="p">:</span> <span class="s">'`mail.compose.other.header` headers were not shown in '</span>
+                    <span class="s">'Show All Headers mode'</span><span class="p">,</span>
+            <span class="s">'tag'</span><span class="p">:</span> <span class="s">'fixed'</span><span class="p">},</span>
+           <span class="p">{</span><span class="s">'bugs'</span><span class="p">:</span> <span class="p">[</span><span class="mi">1857315</span><span class="p">],</span>
+            <span class="s">'note'</span><span class="p">:</span> <span class="s">'Folder was hidden from Favorite when a subfolder was '</span>
+                    <span class="s">'removed'</span><span class="p">,</span>
+            <span class="s">'tag'</span><span class="p">:</span> <span class="s">'fixed'</span><span class="p">},</span>
+           <span class="p">{</span><span class="s">'bugs'</span><span class="p">:</span> <span class="p">[</span><span class="mi">1957878</span><span class="p">],</span>
+            <span class="s">'note'</span><span class="p">:</span> <span class="s">'Folder tree message counts displayed incorrectly under '</span>
+                    <span class="s">'certain conditions'</span><span class="p">,</span>
+            <span class="s">'tag'</span><span class="p">:</span> <span class="s">'fixed'</span><span class="p">},</span>
+           <span class="p">{</span><span class="s">'bugs'</span><span class="p">:</span> <span class="p">[</span><span class="mi">1958585</span><span class="p">],</span>
+            <span class="s">'note'</span><span class="p">:</span> <span class="s">'Selection was not restored after manual folder sorting'</span><span class="p">,</span>
+            <span class="s">'tag'</span><span class="p">:</span> <span class="s">'fixed'</span><span class="p">},</span>
+           <span class="p">{</span><span class="s">'bugs'</span><span class="p">:</span> <span class="p">[</span><span class="mi">1959545</span><span class="p">],</span>
+            <span class="s">'note'</span><span class="p">:</span> <span class="s">'Dragging a folder to a new parent did not insert it '</span>
+                    <span class="s">'correctly for IMAP folders'</span><span class="p">,</span>
+            <span class="s">'tag'</span><span class="p">:</span> <span class="s">'fixed'</span><span class="p">},</span>
+           <span class="p">{</span><span class="s">'bugs'</span><span class="p">:</span> <span class="p">[</span><span class="mi">1964265</span><span class="p">],</span>
+            <span class="s">'note'</span><span class="p">:</span> <span class="s">'Compact View users had all folders expanded after restart'</span><span class="p">,</span>
+            <span class="s">'tag'</span><span class="p">:</span> <span class="s">'fixed'</span><span class="p">},</span>
+           <span class="p">{</span><span class="s">'bugs'</span><span class="p">:</span> <span class="p">[</span><span class="mi">1822978</span><span class="p">],</span>
+            <span class="s">'note'</span><span class="p">:</span> <span class="s">'Invite attachments without a name were forwarded as '</span>
+                    <span class="s">"'Attached Message Part'"</span><span class="p">,</span>
+            <span class="s">'tag'</span><span class="p">:</span> <span class="s">'fixed'</span><span class="p">},</span>
+           <span class="p">{</span><span class="s">'bugs'</span><span class="p">:</span> <span class="p">[</span><span class="mi">1671747</span><span class="p">],</span>
+            <span class="s">'note'</span><span class="p">:</span> <span class="s">'Chat settings tab remained visible when '</span>
+                    <span class="s">'`mail.chat.enabled` was false'</span><span class="p">,</span>
+            <span class="s">'tag'</span><span class="p">:</span> <span class="s">'fixed'</span><span class="p">},</span>
+           <span class="p">{</span><span class="s">'bugs'</span><span class="p">:</span> <span class="p">[</span><span class="mi">1960978</span><span class="p">],</span>
+            <span class="s">'note'</span><span class="p">:</span> <span class="s">'Selected folder was not refreshed when applying '</span>
+                    <span class="s">"'Appearance' Threading settings"</span><span class="p">,</span>
+            <span class="s">'tag'</span><span class="p">:</span> <span class="s">'fixed'</span><span class="p">},</span>
+           <span class="p">{</span><span class="s">'bugs'</span><span class="p">:</span> <span class="p">[</span><span class="mi">1962278</span><span class="p">],</span>
+            <span class="s">'note'</span><span class="p">:</span> <span class="s">"'Grouped by Sort' for all folders in 'Appearance' "</span>
+                    <span class="s">'settings did not work properly'</span><span class="p">,</span>
+            <span class="s">'tag'</span><span class="p">:</span> <span class="s">'fixed'</span><span class="p">},</span>
+           <span class="p">{</span><span class="s">'bugs'</span><span class="p">:</span> <span class="p">[</span><span class="mi">1965304</span><span class="p">],</span>
+            <span class="s">'note'</span><span class="p">:</span> <span class="s">'Thunderbird could crash if message copying to Sent folder '</span>
+                    <span class="s">'was interrupted'</span><span class="p">,</span>
+            <span class="s">'tag'</span><span class="p">:</span> <span class="s">'fixed'</span><span class="p">},</span>
+           <span class="p">{</span><span class="s">'bugs'</span><span class="p">:</span> <span class="p">[</span><span class="mi">553048</span><span class="p">],</span>
+            <span class="s">'note'</span><span class="p">:</span> <span class="s">'System search toggle did not properly reflect and control '</span>
+                    <span class="s">'integration state'</span><span class="p">,</span>
+            <span class="s">'tag'</span><span class="p">:</span> <span class="s">'fixed'</span><span class="p">},</span>
+           <span class="p">{</span><span class="s">'bugs'</span><span class="p">:</span> <span class="p">[</span><span class="mi">1958549</span><span class="p">],</span>
+            <span class="s">'note'</span><span class="p">:</span> <span class="s">'Dragging attachments to desktop from Thunderbird did not '</span>
+                    <span class="s">'work on macOS'</span><span class="p">,</span>
+            <span class="s">'tag'</span><span class="p">:</span> <span class="s">'fixed'</span><span class="p">},</span>
+           <span class="p">{</span><span class="s">'bugs'</span><span class="p">:</span> <span class="p">[</span><span class="mi">1959691</span><span class="p">],</span>
+            <span class="s">'note'</span><span class="p">:</span> <span class="s">'Dark mode messages displayed in light mode due to '</span>
+                    <span class="s">'preference setting conflict'</span><span class="p">,</span>
+            <span class="s">'tag'</span><span class="p">:</span> <span class="s">'fixed'</span><span class="p">},</span>
+           <span class="p">{</span><span class="s">'bugs'</span><span class="p">:</span> <span class="p">[</span><span class="mi">250216</span><span class="p">],</span>
+            <span class="s">'note'</span><span class="p">:</span> <span class="s">'Cancelling a post to a news server could fail and remove '</span>
+                    <span class="s">'the article'</span><span class="p">,</span>
+            <span class="s">'tag'</span><span class="p">:</span> <span class="s">'fixed'</span><span class="p">},</span>
+           <span class="p">{</span><span class="s">'bugs'</span><span class="p">:</span> <span class="p">[</span><span class="mi">1961659</span><span class="p">],</span>
+            <span class="s">'note'</span><span class="p">:</span> <span class="s">'Thunderbird could crash in NNTP subscription dialog'</span><span class="p">,</span>
+            <span class="s">'tag'</span><span class="p">:</span> <span class="s">'fixed'</span><span class="p">},</span>
+           <span class="p">{</span><span class="s">'bugs'</span><span class="p">:</span> <span class="p">[</span><span class="mi">530193</span><span class="p">],</span>
+            <span class="s">'note'</span><span class="p">:</span> <span class="s">'Newsgroup searches with slashes were not supported with '</span>
+                    <span class="s">'XPAT-enabled servers'</span><span class="p">,</span>
+            <span class="s">'tag'</span><span class="p">:</span> <span class="s">'fixed'</span><span class="p">},</span>
+           <span class="p">{</span><span class="s">'bugs'</span><span class="p">:</span> <span class="p">[</span><span class="mi">288120</span><span class="p">],</span>
+            <span class="s">'note'</span><span class="p">:</span> <span class="s">'Offline newsgroup use lacked functionality needed for '</span>
+                    <span class="s">'effective offline access'</span><span class="p">,</span>
+            <span class="s">'tag'</span><span class="p">:</span> <span class="s">'fixed'</span><span class="p">},</span>
+           <span class="p">{</span><span class="s">'bugs'</span><span class="p">:</span> <span class="p">[</span><span class="mi">1959848</span><span class="p">],</span>
+            <span class="s">'note'</span><span class="p">:</span> <span class="s">'Chat accounts could not be deleted'</span><span class="p">,</span>
+            <span class="s">'tag'</span><span class="p">:</span> <span class="s">'fixed'</span><span class="p">},</span>
+           <span class="p">{</span><span class="s">'bugs'</span><span class="p">:</span> <span class="p">[</span><span class="mi">1954358</span><span class="p">],</span>
+            <span class="s">'note'</span><span class="p">:</span> <span class="s">'Reminders missed for all-day events when '</span>
+                    <span class="s">'`calendar.alarms.showmissed` was false'</span><span class="p">,</span>
+            <span class="s">'tag'</span><span class="p">:</span> <span class="s">'fixed'</span><span class="p">},</span>
+           <span class="p">{</span><span class="s">'bugs'</span><span class="p">:</span> <span class="p">[</span><span class="mi">1964473</span><span class="p">],</span>
+            <span class="s">'note'</span><span class="p">:</span> <span class="s">'Access to multiple CalDAV calendars was not possible'</span><span class="p">,</span>
+            <span class="s">'tag'</span><span class="p">:</span> <span class="s">'fixed'</span><span class="p">},</span>
+           <span class="p">{</span><span class="s">'bugs'</span><span class="p">:</span> <span class="p">[</span><span class="mi">1949810</span><span class="p">,</span> <span class="mi">1964156</span><span class="p">],</span>
+            <span class="s">'note'</span><span class="p">:</span> <span class="s">'Visual and UX improvements'</span><span class="p">,</span>
+            <span class="s">'tag'</span><span class="p">:</span> <span class="s">'fixed'</span><span class="p">},</span>
+           <span class="p">{</span><span class="s">'note'</span><span class="p">:</span> <span class="s">'[Security '</span>
+                    <span class="s">'fixes](https://www.mozilla.org/en-US/security/known-vulnerabilities/thunderbird/#thunderbird139)'</span><span class="p">,</span>
+            <span class="s">'tag'</span><span class="p">:</span> <span class="s">'fixed'</span><span class="p">},</span>
+           <span class="p">{</span><span class="s">'bugs'</span><span class="p">:</span> <span class="p">[</span><span class="mi">1968963</span><span class="p">],</span>
+            <span class="s">'note'</span><span class="p">:</span> <span class="s">'Message list switched to Cards View instead of keeping '</span>
+                    <span class="s">'Table View preference'</span><span class="p">,</span>
+            <span class="s">'tag'</span><span class="p">:</span> <span class="s">'unresolved'</span><span class="p">}],</span>
+ <span class="s">'release'</span><span class="p">:</span> <span class="p">{</span><span class="s">'import_system_requirements'</span><span class="p">:</span> <span class="s">'128.0beta'</span><span class="p">,</span>
+             <span class="s">'release_date'</span><span class="p">:</span> <span class="s">'2025-05-27'</span><span class="p">,</span>
+             <span class="s">'text'</span><span class="p">:</span> <span class="s">'**System Requirements:** '</span>
+                     <span class="s">'[Details](/en-US/thunderbird/139.0/system-requirements/)</span><span class="se">\n</span><span class="s">'</span>
+                     <span class="s">'</span><span class="se">\n</span><span class="s">'</span>
+                     <span class="s">'- Windows: Windows 10 or later</span><span class="se">\n</span><span class="s">'</span>
+                     <span class="s">'- Mac: macOS 10.15 or later</span><span class="se">\n</span><span class="s">'</span>
+                     <span class="s">'- Linux: GTK+ 3.14 or higher</span><span class="se">\n</span><span class="s">'</span><span class="p">}}</span>
+</code></pre></div></div>
+:ET

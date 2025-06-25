@@ -6,9 +6,186 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 23 Jun 2025 14:12:30 -0700</pubDate>
-    <lastBuildDate>Mon, 23 Jun 2025 14:12:30 -0700</lastBuildDate>
+    <pubDate>Tue, 24 Jun 2025 18:08:28 -0700</pubDate>
+    <lastBuildDate>Tue, 24 Jun 2025 18:08:28 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>TIL:: Thunderbird release notes are stored in a github repo called thunderbird-notes; I sketched some python code for getting tags, bugs, notes etc ; Release Notes for Thunderbird</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jun 25, 2025 01:01 &lt;a href=&quot;https://github.com/thunderbird/thunderbird-notes/tree/master&quot;&gt;TIL:: Thunderbird release notes are stored in a github repo called thunderbird-notes; I sketched some python code for getting tags, bugs, notes etc ; Release Notes for Thunderbird&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;python-code&quot;&gt;Python code&lt;/h2&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;resp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requests&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://raw.githubusercontent.com/thunderbird/thunderbird-notes/refs/heads/master/release/139.0.yml&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;parsed_yaml&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;yaml&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;safe_load&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;resp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;pprint&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;parsed_yaml&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;example-yaml-release-notes&quot;&gt;Example YAML release notes&lt;/h2&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'notes'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'bugs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1950887&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'note'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Implemented enterprise policy to allow granular in-app '&lt;/span&gt;
+                    &lt;span class=&quot;s&quot;&gt;'notification control'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'new'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'bugs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1953662&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'note'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Added 'Mark as Read' and 'Delete' actions to mail &quot;&lt;/span&gt;
+                    &lt;span class=&quot;s&quot;&gt;'notifications'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'new'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'bugs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1865057&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'note'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Implemented customizable row count for Cards View in '&lt;/span&gt;
+                    &lt;span class=&quot;s&quot;&gt;&quot;'Appearance' settings&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'new'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'bugs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1846550&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'note'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Implemented ability to manually sort folders in the '&lt;/span&gt;
+                    &lt;span class=&quot;s&quot;&gt;'folder pane'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'new'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'bugs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1803006&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'note'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Thunderbird could crash when setting message compose '&lt;/span&gt;
+                    &lt;span class=&quot;s&quot;&gt;'headers'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'fixed'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'bugs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1956988&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'note'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Links in the OAuth authentication window did not open '&lt;/span&gt;
+                    &lt;span class=&quot;s&quot;&gt;'when clicked'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'fixed'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'bugs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1964145&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'note'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Access was not allowed to attachments at specific UNC '&lt;/span&gt;
+                    &lt;span class=&quot;s&quot;&gt;'hosts'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'fixed'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'bugs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1952311&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'note'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Mail window could stop functioning during and after '&lt;/span&gt;
+                    &lt;span class=&quot;s&quot;&gt;'folder compaction'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'fixed'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'bugs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1960343&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'note'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Full folder sorting logic was not used when inserting '&lt;/span&gt;
+                    &lt;span class=&quot;s&quot;&gt;'folders after move'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'fixed'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'bugs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1961642&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'note'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'`mail.compose.other.header` headers were not shown in '&lt;/span&gt;
+                    &lt;span class=&quot;s&quot;&gt;'Show All Headers mode'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'fixed'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'bugs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1857315&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'note'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Folder was hidden from Favorite when a subfolder was '&lt;/span&gt;
+                    &lt;span class=&quot;s&quot;&gt;'removed'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'fixed'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'bugs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1957878&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'note'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Folder tree message counts displayed incorrectly under '&lt;/span&gt;
+                    &lt;span class=&quot;s&quot;&gt;'certain conditions'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'fixed'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'bugs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1958585&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'note'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Selection was not restored after manual folder sorting'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'fixed'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'bugs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1959545&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'note'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Dragging a folder to a new parent did not insert it '&lt;/span&gt;
+                    &lt;span class=&quot;s&quot;&gt;'correctly for IMAP folders'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'fixed'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'bugs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1964265&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'note'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Compact View users had all folders expanded after restart'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'fixed'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'bugs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1822978&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'note'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Invite attachments without a name were forwarded as '&lt;/span&gt;
+                    &lt;span class=&quot;s&quot;&gt;&quot;'Attached Message Part'&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'fixed'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'bugs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1671747&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'note'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Chat settings tab remained visible when '&lt;/span&gt;
+                    &lt;span class=&quot;s&quot;&gt;'`mail.chat.enabled` was false'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'fixed'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'bugs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1960978&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'note'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Selected folder was not refreshed when applying '&lt;/span&gt;
+                    &lt;span class=&quot;s&quot;&gt;&quot;'Appearance' Threading settings&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'fixed'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'bugs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1962278&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'note'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;'Grouped by Sort' for all folders in 'Appearance' &quot;&lt;/span&gt;
+                    &lt;span class=&quot;s&quot;&gt;'settings did not work properly'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'fixed'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'bugs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1965304&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'note'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Thunderbird could crash if message copying to Sent folder '&lt;/span&gt;
+                    &lt;span class=&quot;s&quot;&gt;'was interrupted'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'fixed'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'bugs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;553048&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'note'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'System search toggle did not properly reflect and control '&lt;/span&gt;
+                    &lt;span class=&quot;s&quot;&gt;'integration state'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'fixed'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'bugs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1958549&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'note'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Dragging attachments to desktop from Thunderbird did not '&lt;/span&gt;
+                    &lt;span class=&quot;s&quot;&gt;'work on macOS'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'fixed'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'bugs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1959691&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'note'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Dark mode messages displayed in light mode due to '&lt;/span&gt;
+                    &lt;span class=&quot;s&quot;&gt;'preference setting conflict'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'fixed'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'bugs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;250216&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'note'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Cancelling a post to a news server could fail and remove '&lt;/span&gt;
+                    &lt;span class=&quot;s&quot;&gt;'the article'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'fixed'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'bugs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1961659&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'note'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Thunderbird could crash in NNTP subscription dialog'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'fixed'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'bugs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;530193&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'note'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Newsgroup searches with slashes were not supported with '&lt;/span&gt;
+                    &lt;span class=&quot;s&quot;&gt;'XPAT-enabled servers'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'fixed'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'bugs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;288120&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'note'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Offline newsgroup use lacked functionality needed for '&lt;/span&gt;
+                    &lt;span class=&quot;s&quot;&gt;'effective offline access'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'fixed'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'bugs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1959848&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'note'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Chat accounts could not be deleted'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'fixed'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'bugs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1954358&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'note'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Reminders missed for all-day events when '&lt;/span&gt;
+                    &lt;span class=&quot;s&quot;&gt;'`calendar.alarms.showmissed` was false'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'fixed'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'bugs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1964473&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'note'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Access to multiple CalDAV calendars was not possible'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'fixed'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'bugs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1949810&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1964156&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'note'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Visual and UX improvements'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'fixed'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'note'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'[Security '&lt;/span&gt;
+                    &lt;span class=&quot;s&quot;&gt;'fixes](https://www.mozilla.org/en-US/security/known-vulnerabilities/thunderbird/#thunderbird139)'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'fixed'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+           &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'bugs'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1968963&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'note'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Message list switched to Cards View instead of keeping '&lt;/span&gt;
+                    &lt;span class=&quot;s&quot;&gt;'Table View preference'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'unresolved'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}],&lt;/span&gt;
+ &lt;span class=&quot;s&quot;&gt;'release'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'import_system_requirements'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'128.0beta'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+             &lt;span class=&quot;s&quot;&gt;'release_date'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'2025-05-27'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+             &lt;span class=&quot;s&quot;&gt;'text'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'**System Requirements:** '&lt;/span&gt;
+                     &lt;span class=&quot;s&quot;&gt;'[Details](/en-US/thunderbird/139.0/system-requirements/)&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;
+                     &lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;
+                     &lt;span class=&quot;s&quot;&gt;'- Windows: Windows 10 or later&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;
+                     &lt;span class=&quot;s&quot;&gt;'- Mac: macOS 10.15 or later&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;
+                     &lt;span class=&quot;s&quot;&gt;'- Linux: GTK+ 3.14 or higher&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Tue, 24 Jun 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/06/24/p1801-thunderbird-notes-github-repo-for-thunderbird-release-notes/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/06/24/p1801-thunderbird-notes-github-repo-for-thunderbird-release-notes/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: Amanda Wood used pixelsynth in her latest opening, (re)patterning! Gotta try it for my art! ; Olivia Jack:: .::::PIXELSYNTH::::.</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jun 24, 2025 15:26 &lt;a href=&quot;https://ojack.xyz/PIXELSYNTH/&quot;&gt;ME:: Amanda Wood used pixelsynth in her latest opening, (re)patterning! Gotta try it for my art! ; Olivia Jack:: .::::PIXELSYNTH::::.&lt;/a&gt; &amp;lt;– See &lt;a href=&quot;https://thethisgallery.com/collections/&quot;&gt;Amanda Wood’s and Val Loewen’s  (re)patterning page on THIS gallery’s website&lt;/a&gt; which I am sure will not last more than a year before it’s taken down. &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;re(patterning) emerges from a place of re-imagining and unmaking through close looking and repetition in material practices. Val Loewen and Amanda Wood use this ongoing collaborative exploration to obscure and reveal experiences of otherness that can develop when self identifying within a normative culture. Considering the power of an illegible text, the work is intuitive, working to consider new ways of unknowing that makes space for divergence. ...Repeated actions – breaking, revealing, glitching, and rearranging – are at the core of an attempt to uncover an imagined sensory language that moves beyond the visual to navigate experiences words fail to describe. Representational images and mundane objects are abstracted into sound, texture, and pattern that engage with concepts of coded language and imagined narratives. ... re(patterning) is a continual process of unlearning perceptions of value and reframing connections to social and cultural environments.&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 24 Jun 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/06/24/p0826-pixelsynth/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/06/24/p0826-pixelsynth/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: a Python course based on functions powered by Pyodide so no need to install anything like datasette! ; Pamela Fox:: Proficient Python: A free interactive online course</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jun 23, 2025 21:24 &lt;a href=&quot;https://blog.pamelafox.org/2025/06/proficient-python-free-interactive.html&quot;&gt;ME:: a Python course based on functions powered by Pyodide so no need to install anything like datasette! ; Pamela Fox:: Proficient Python: A free interactive online course&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Jun 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/06/23/p1424-proficient-python-free-interactive/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/06/23/p1424-proficient-python-free-interactive/</guid>
+        
+        
+      </item>
     
       <item>
         <title>ME:: gotta try this on my 5D Mark 1 aka Classic some day to get time lapse, focus peaking, zebras, and other goodies :-) ; a1ex:: October 2012:: &amp;lsqb;UNMAINTAINED&amp;rsqb; Canon 5D Classic Firmware  ** Beta 4 **</title>
@@ -164,55 +341,6 @@ Why Maestro?&lt;/p&gt;
         <pubDate>Wed, 18 Jun 2025 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2025/06/18/p0739-gif-the-git-interchange-format/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/06/18/p0739-gif-the-git-interchange-format/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: yay a more intuitive language than jq (which is fab but hard to learn) for filtering JSON ; André Arko:: fx, a language for working with JSON</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jun 18, 2025 14:32 &lt;a href=&quot;https://andre.arko.net/2025/06/13/2025-06-13-fx/&quot;&gt;ME:: yay a more intuitive language than jq (which is fab but hard to learn) for filtering JSON ; André Arko:: fx, a language for working with JSON&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Good news, you don’t have to learn a new language to filter JSON anymore, thanks to fx. With a docs site at the excellent domain fx.wtf, and the ability to filter interactively or by providing Javascript as arguments, fx is the program I have always wished that jq was.&lt;/code&gt; &amp;lt;– via &lt;a href=&quot;https://social.jvns.ca/@b0rk/114704626786265729&quot;&gt;Julia Evans on Mastodon&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 18 Jun 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/06/18/p0732-2025-06-13-fx-filtering-language-json-more-intuitive-jq/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/06/18/p0732-2025-06-13-fx-filtering-language-json-more-intuitive-jq/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: Recipes that work:: Jacqui Debono:: Farfalle pasta with smoked salmon &amp;amp; zucchini – The Pasta Project</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jun 18, 2025 01:47 &lt;a href=&quot;https://www.the-pasta-project.com/farfalle-pasta-with-smoked-salmon-zucchini/&quot;&gt;ME:: Recipes that work:: Jacqui Debono:: Farfalle pasta with smoked salmon &amp;amp; zucchini – The Pasta Project&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;instructions&quot;&gt;Instructions&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;ol&gt;
-    &lt;li&gt;Put a large pan of water onto boil for the pasta. When it starts to boil add some salt and bring to the boil again.&lt;/li&gt;
-    &lt;li&gt;In the meantime, wash the zucchini, pat dry and cut off the ends. Cut the zucchini lengthwise in 4 parts. Cut each quarter in two and cut into cubes.&lt;/li&gt;
-    &lt;li&gt;Put the cream in a bowl and mix in the grated ginger, a little orange zest and some black pepper. Set aside.&lt;/li&gt;
-    &lt;li&gt;Heat a little olive oil in a frying pan or skillet and add the crushed garlic cloves. As soon as the garlic begins to soften, add the zucchini and sauté for a couple of minutes.&lt;/li&gt;
-    &lt;li&gt;As soon as the zucchini become translucent, add the smoked salmon in pieces. Remove the garlic.&lt;/li&gt;
-    &lt;li&gt;Cook the salmon with the zucchini for a couple of minutes then add the cream mixture.&lt;/li&gt;
-    &lt;li&gt;Turn down the heat, stir well and allow to cook for 5 minutes. Add salt and pepper to taste.&lt;/li&gt;
-    &lt;li&gt;Cook the pasta al dente according to the instructions on the packet. When the pasta is ready, save a cup of the cooking water, drain the pasta and add it to the sauce. Mix well. If it seems dry, add a little of the pasta cooking water.&lt;/li&gt;
-    &lt;li&gt;Serve immediately with a sprinkling of orange zest, and pepper if required.&lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Tue, 17 Jun 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/06/17/p1847-farfalle-pasta-with-smoked-salmon-zucchini/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/06/17/p1847-farfalle-pasta-with-smoked-salmon-zucchini/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: love my radar, it's much better than a mirror since it works 140 metres away and you don't have to check, just wait for the beep. Mirrors are fine if you remember to check them :-) ;  MuddyTweed.com:: 2023:: Garmin Varia RTL515 – a review</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jun 17, 2025 00:17 &lt;a href=&quot;https://muddytweed.com/2023/01/24/garmin-varia-rtl515-a-review/&quot;&gt;ME:: love my radar, it’s much better than a mirror since it works 140 metres away and you don’t have to check, just wait for the beep. Mirrors are fine if you remember to check them :-) ;  MuddyTweed.com:: 2023:: Garmin Varia RTL515 – a review&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Why not use a mirror, you might ask? I don’t really like the design of most mirrors, and the others are quite small and don’t give much detail. You also have to frequently look at the mirror, which is sometimes difficult if you’re riding a tough stretch of road. The Varia gives you audio warnings and shows traffic much further away – it really is system you can switch on and forget about. ... I still look around me though. When I see a car come up behind me, I keep an eye on my bike computer to see where and how fast it is approaching. Depending on where I’m riding, I wait until the icon reaches a certain point (about 25m away) and look around to show the driver that I’ve recognised them and see how they act. I can then decide on how to respond.&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 16 Jun 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/06/16/p1717-garmin-varia-rtl515-a-review/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/06/16/p1717-garmin-varia-rtl515-a-review/</guid>
         
         
       </item>
