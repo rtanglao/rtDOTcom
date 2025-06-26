@@ -6,9 +6,28 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 24 Jun 2025 18:08:28 -0700</pubDate>
-    <lastBuildDate>Tue, 24 Jun 2025 18:08:28 -0700</lastBuildDate>
+    <pubDate>Wed, 25 Jun 2025 21:38:41 -0700</pubDate>
+    <lastBuildDate>Wed, 25 Jun 2025 21:38:41 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Things that make you go hmmm:: Why do people who go to the same cafe get wasteful takeout paper cups every day?</title>
+        <description>&lt;p&gt;If you are a tourist I almost understand (even then you could bring a travel mug, right?), but if you are a local, why not bring your own reusable cup instead?&lt;/p&gt;
+
+&lt;p&gt;See also: &lt;a href=&quot;https://www.theguardian.com/environment/2024/jan/22/disposable-coffee-cups-environmental-impact&quot;&gt;The Guardian:: Cecilia Nowell :: January 22, 2024:: The disposable cup crisis: what’s the environmental impact of a to-go coffee?&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: “The entire lifecycle of disposable cups, from raw material extraction  to production and transportation, requires significant energy,  contributing to environmental degradation,” Preetam Basu and Thanos  Papadopoulos, professors at the Kent School of Business and co-authors  of &lt;a href=&quot;https://www.kent.ac.uk/news/environment/32807/storm-in-a-coffee-cup-how-the-disposable-cup-problem-is-reaching-boiling-point&quot;&gt;a 2022 report&lt;/a&gt; on coffee cup waste, said in an emailed statement.&lt;/p&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;June 5, 2025: &lt;a href=&quot;https://rolandtanglao.com/2025/06/05/p1809-youre-all-nuts/&quot;&gt;ME:: Bad for the environment yet good for already privileged experts who have time and energy to experiment seems to be  the common thread of this ever evolving ML world ; Thomas Ptacek:: My AI Skeptic Friends Are All Nuts · The Fly Blog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 25 Jun 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/06/25/p2127-why-cafe-regulars-takeout-wasteful-papercups-daily/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/06/25/p2127-why-cafe-regulars-takeout-wasteful-papercups-daily/</guid>
+        
+        
+      </item>
     
       <item>
         <title>TIL:: Thunderbird release notes are stored in a github repo called thunderbird-notes; I sketched some python code for getting tags, bugs, notes etc ; Release Notes for Thunderbird</title>
@@ -330,17 +349,6 @@ Why Maestro?&lt;/p&gt;
         <pubDate>Wed, 18 Jun 2025 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2025/06/18/p1011-introducing-maestro-painless-mobile-ui-automation/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/06/18/p1011-introducing-maestro-painless-mobile-ui-automation/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: I should do this with my toots :-) ! ; Will Richardson:: GIF: The Git Interchange Format</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jun 18, 2025 14:39 &lt;a href=&quot;https://willhbr.net/2025/06/16/gif-the-git-interchange-format/&quot;&gt;ME:: I should do this with my toots :-) ! ; Will Richardson:: GIF: The Git Interchange Format&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Well, the obvious solution is to encode a git repo into an image, so you can share it however you like. This is why I made GIF: The Git Interchange Format. A whole git repo—with history—can be crammed into an animated GIF. Here’s the repo for the project itself, contained within a 153px square image with four frames:&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 18 Jun 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/06/18/p0739-gif-the-git-interchange-format/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/06/18/p0739-gif-the-git-interchange-format/</guid>
         
         
       </item>

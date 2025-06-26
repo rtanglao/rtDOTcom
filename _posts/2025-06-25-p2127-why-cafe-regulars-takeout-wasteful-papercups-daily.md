@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Things that may you go hmmm:: Why do people who go to the same cafe get wasteful takeout paper cups every day?"
+title: "Things that make you go hmmm:: Why do people who go to the same cafe get wasteful takeout paper cups every day?"
 ---
 If you are a tourist I almost understand (even then you could bring a travel mug, right?), but if you are a local, why not bring your own reusable cup instead? 
 
