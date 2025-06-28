@@ -1,0 +1,26 @@
+I"�<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Jun 26, 2025 04:47 <a href="https://simonwillison.net/2025/Jun/23/phoenix-new/">ME:: for $20/month for Elixir which is Erlang with a ruby syntax, it’s a great way to learn Elixir and in the future other languages and web app stacks; Simon Willison:: Phoenix.new is Fly’s entry into the prompt-driven app development space</a></p>
+
+<h2 id="quote">QUOTE</h2>
+
+<p>Read the whole thing: <a href="https://simonwillison.net/2025/Jun/23/phoenix-new/">Simon Willison:: Phoenix.new is Fly’s entry into the prompt-driven app development space</a></p>
+
+<blockquote>
+  <p>First, some background. Phoenix is an open source web framework for Elixir, the Ruby-like language that compiles to Erlang’s BEAM bytecode and runs on top of the highly concurrent Erlang runtime. The signature feature of the framework is Phoenix LiveView, a toolkit for building realtime interfaces through streaming diffs to server-side HTML over a WebSocket connection.</p>
+</blockquote>
+
+<blockquote>
+  <p>Phoenix was created by Chris McCord 11 years ago, and Chris joined Fly nearly four years ago. Phoenix.new is his latest project.</p>
+</blockquote>
+
+<blockquote>
+  <p>Phoenix LiveView is a really great fit for Fly’s geographically distributed application serving infrastructure. Fly co-founder Kurt Mackey wrote about that in April 2021, before they had hired Chris, describing how LiveView benefits from low latency by “moving app processes close to users”—something Fly has been designed to help with from the start.</p>
+</blockquote>
+
+<blockquote>
+  <p>There’s one major challenge though: Elixir is still a niche programming language, which means the number of people out there who are ready to spin up a new Phoenix app has always been artificially limited.</p>
+</blockquote>
+
+<blockquote>
+  <p>Fly’s solution? Get LLMs to shave that learning curve down to almost nothing.</p>
+</blockquote>
+:ET
