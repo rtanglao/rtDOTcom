@@ -6,9 +6,83 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 05 Jul 2025 17:47:04 -0700</pubDate>
-    <lastBuildDate>Sat, 05 Jul 2025 17:47:04 -0700</lastBuildDate>
+    <pubDate>Sun, 06 Jul 2025 20:47:57 -0700</pubDate>
+    <lastBuildDate>Sun, 06 Jul 2025 20:47:57 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>ME:: filter JSON. from the command line using JSON instead of JS like fx ; see also jello in python; Peter Ohler:: ohler55/ojg: Optimized JSON for Go</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jul 6, 2025 21:44 &lt;a href=&quot;https://github.com/ohler55/ojg&quot;&gt;ME:: filter JSON. from the command line using JSON instead of JS like fx ; see also jello in python; Peter Ohler:: ohler55/ojg: Optimized JSON for Go&lt;/a&gt; &amp;lt;– see also &lt;a href=&quot;https://willhbr.net/2025/06/08/using-ruby-in-shell-pipelines/&quot;&gt;Will Richardson:: Using Ruby in Shell Pipelines&lt;/a&gt; to use ruby functions in command line shell pipelines and kellyjonbrazil:: &lt;a href=&quot;https://github.com/kellyjonbrazil/jello&quot;&gt;jello in python: CLI tool to filter JSON and JSON Lines data with Python syntax. (Similar to jq)&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;June 18, 2025: &lt;a href=&quot;https://rolandtanglao.com/2025/06/18/p0732-2025-06-13-fx-filtering-language-json-more-intuitive-jq/&quot;&gt;ME:: yay a more intuitive language than jq (which is fab but hard to learn) for filtering JSON ; André Arko:: fx, a language for working with JSON&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 06 Jul 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/07/06/p1444-ojg/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/07/06/p1444-ojg/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: $49 course; Probably obsolete soon because of LLM enhanced automation apps like the forthcoming Sky;  Keyboard Maestro Field Guide ¦ MacSparky Field Guides</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jul 6, 2025 01:12 &lt;a href=&quot;https://learn.macsparky.com/p/km&quot;&gt;ME:: $49 course; Probably obsolete soon because of LLM enhanced automation apps like the forthcoming Sky;  Keyboard Maestro Field Guide ¦ MacSparky Field Guides&lt;/a&gt; &amp;lt;– probably  obsoleted by LLM assisted keyboard assistants at some point like &lt;a href=&quot;https://sky.app/&quot;&gt;sky.app&lt;/a&gt; ? See: &lt;a href=&quot;https://www.macstories.net/stories/sky-for-mac-preview/&quot;&gt;Federico Viticci:: MacStories:: From the Creators of Shortcuts, Sky Extends AI Integration and Automation to Your Entire Mac&lt;/a&gt; &amp;lt;– see also the &lt;a href=&quot;https://wiki.keyboardmaestro.com/Home_Page&quot;&gt;Keyboard Maestro official wiki&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 05 Jul 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/07/05/p1812-keyboard-maestro-field-guide-made-obsolete-by-sky-llm-enhanced-automation/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/07/05/p1812-keyboard-maestro-field-guide-made-obsolete-by-sky-llm-enhanced-automation/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>3 Ways to Download and Transfer Kindle eBooks (Yeah, It’s Still Possible)</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jul 6, 2025 01:05 &lt;a href=&quot;https://blog.the-ebook-reader.com/2025/03/11/3-ways-to-download-and-transfer-kindle-ebooks-yeah-its-still-possible/&quot;&gt;3 Ways to Download and Transfer Kindle eBooks (Yeah, It’s Still Possible)&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;If you missed the deadline to download your purchased Kindle ebooks from Amazon’s website before they took the download and transfer feature away, there’s no need to worry because there are still three other ways to get your ebooks away from Amazon’s clutches.&lt;/code&gt; &amp;lt;– It is still possible, that’s great!&lt;/p&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;February 26, 2025: &lt;a href=&quot;https://rolandtanglao.com/2025/02/26/p1708-how-to-bulk-download-kindle-files-while-you-can/&quot;&gt;Me:: Sam Davis’s kindle-bulk-downloader is the best way to download your Kindle books as .azw3 files (.kfx DeDRM doesn’t work but .azw3 works with Calibre) assuming you have a pre 2024 Kindle before 2025-02-26 23:59:59 Jason Snell:: How to bulk download Kindle files, while you can – Six Colors&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 05 Jul 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/07/05/p1805-3-ways-to-download-and-transfer-kindle-ebooks-yeah-its-still-possible/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/07/05/p1805-3-ways-to-download-and-transfer-kindle-ebooks-yeah-its-still-possible/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: SVG w/link to PDF that downloads a ZIP with a JS which downloads and runs a JAR in order to get around corporate firewalls, AV and security ; LLM used to find a vulnerability, and to generate a python script that reproduces it ; Jonathan Bennett:: June 20, 2025:: This Week In Security: That Time I Caused A 9.5 CVE, IOS Spyware, And The Day The Internet Went Down ¦ Hackaday</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jul 6, 2025 00:54 &lt;a href=&quot;https://hackaday.com/2025/06/20/this-week-in-security-that-time-i-caused-a-9-5-cve-ios-spyware-and-the-day-the-internet-went-down/&quot;&gt;ME:: SVG w/link to PDF that downloads a ZIP with a JS which downloads and runs a JAR in order to get around corporate firewalls, AV and security ; LLM used to find a vulnerability, and to generate a python script that reproduces it ; Jonathan Bennett:: June 20, 2025:: This Week In Security: That Time I Caused A 9.5 CVE, IOS Spyware, And The Day The Internet Went Down ¦ Hackaday&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://hackaday.com/2025/06/20/this-week-in-security-that-time-i-caused-a-9-5-cve-ios-spyware-and-the-day-the-internet-went-down/&quot;&gt;Jonathan Bennett:: June 20, 2025:: This Week In Security: That Time I Caused A 9.5 CVE, IOS Spyware, And The Day The Internet Went Down ¦ Hackaday&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The attack chain that X-Force highlights is convoluted, with the SVG containing a link offering a PDF download. Clicking this actually downloads a ZIP containing a JS file, which when run, downloads and attempts to execute a JAR file. This may seem ridiculous, but it’s all intended to defeat a somewhat sophisticated corporate security system, so an inattentive user will click through all the files in order to get the day’s work done. And apparently this tactic works.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We’ve talked a few times about vibe researching, but [Craig Young] is only tipping his toes in here. He used an LLM to find a published vulnerability, and then analyzed it himself. Turns out that the GIMP despeckle plugin doesn’t do bounds checking for very large images. Back again to an LLM, to get a Python script to generate such a file. It does indeed crash GIMP when trying to despeckle, confirming the vulnerability report, and demonstrating that there really are good ways to use LLMs while doing security research.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sat, 05 Jul 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/07/05/p1754-this-week-in-security-that-time-i-caused-a-9-5-cve-ios-spyware-and-the-day-the-internet-went-down/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/07/05/p1754-this-week-in-security-that-time-i-caused-a-9-5-cve-ios-spyware-and-the-day-the-internet-went-down/</guid>
+        
+        
+      </item>
     
       <item>
         <title>ME:: $CDN12 USB to Bluetooth Adapter for mice and keyboard good for connecting a usb only mouse via bluetooth e.g. a ploopy trackball ; X2 USB Keyboard Mouse Converter Bluetooth-Compatible 5.1 No Delay Gaming Keyboard Mouse Adapter For Android IPhone System - AliExpress 44</title>
@@ -114,82 +188,6 @@
         <pubDate>Fri, 27 Jun 2025 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2025/06/27/p0940-i-want-to-love-linux-it-doesnt-love-me-back-post-1-built-for-control-but-not-for-people/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/06/27/p0940-i-want-to-love-linux-it-doesnt-love-me-back-post-1-built-for-control-but-not-for-people/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Gatekeepers gotta gatekeep :-) ; You Don’t Own the Word “Freedom”: A Full-Burn Response to the GNU/Linux Comment That Tried to Gatekeep Me Off My Own Machine — fireborn</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jun 27, 2025 16:39 &lt;a href=&quot;https://fireborn.mataroa.blog/blog/you-dont-own-the-word-freedom-a-full-burn-response-to-the-gnulinux-comment-that-tried-to-gatekeep-me-off-my-own-machine/&quot;&gt;Gatekeepers gotta gatekeep :-) ; You Don’t Own the Word “Freedom”: A Full-Burn Response to the GNU/Linux Comment That Tried to Gatekeep Me Off My Own Machine — fireborn&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 27 Jun 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/06/27/p0939-you-dont-own-the-word-freedom-a-full-burn-response-to-the-gnulinux-comment-that-tried-to-gatekeep-me-off-my-own-machine/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/06/27/p0939-you-dont-own-the-word-freedom-a-full-burn-response-to-the-gnulinux-comment-that-tried-to-gatekeep-me-off-my-own-machine/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Dan aka deeja on github:: Get all file names from a public Github repo through the Github API using git trees- Stack Overflow</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jun 27, 2025 14:29 &lt;a href=&quot;https://stackoverflow.com/questions/25022016/get-all-file-names-from-a-github-repo-through-the-github-api&quot;&gt;Dan aka deeja on github:: Get all file names from a public Github repo through the Github API using git trees- Stack Overflow&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://api.github.com/repos/[USER]/[REPO]/git/trees/[BRANCH]?recursive=1&lt;/code&gt; e.g. &lt;a href=&quot;https://api.github.com/repos/thunderbird/thunderbird-notes/git/trees/master?recursive=1&quot;&gt;https://api.github.com/repos/thunderbird/thunderbird-notes/git/trees/master?recursive=1&lt;/a&gt; &amp;lt;– I will use this to get all the thunderbird-notes yaml files.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 27 Jun 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/06/27/p0729-get-all-file-names-from-a-github-repo-through-the-github-api/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/06/27/p0729-get-all-file-names-from-a-github-repo-through-the-github-api/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: for $20/month for Elixir which is Erlang with a ruby syntax, it's a great way to learn Elixir and in the future other languages and web app stacks; Simon Willison:: Phoenix.new is Fly’s entry into the prompt-driven app development space</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jun 26, 2025 04:47 &lt;a href=&quot;https://simonwillison.net/2025/Jun/23/phoenix-new/&quot;&gt;ME:: for $20/month for Elixir which is Erlang with a ruby syntax, it’s a great way to learn Elixir and in the future other languages and web app stacks; Simon Willison:: Phoenix.new is Fly’s entry into the prompt-driven app development space&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;p&gt;Read the whole thing: &lt;a href=&quot;https://simonwillison.net/2025/Jun/23/phoenix-new/&quot;&gt;Simon Willison:: Phoenix.new is Fly’s entry into the prompt-driven app development space&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;First, some background. Phoenix is an open source web framework for Elixir, the Ruby-like language that compiles to Erlang’s BEAM bytecode and runs on top of the highly concurrent Erlang runtime. The signature feature of the framework is Phoenix LiveView, a toolkit for building realtime interfaces through streaming diffs to server-side HTML over a WebSocket connection.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Phoenix was created by Chris McCord 11 years ago, and Chris joined Fly nearly four years ago. Phoenix.new is his latest project.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Phoenix LiveView is a really great fit for Fly’s geographically distributed application serving infrastructure. Fly co-founder Kurt Mackey wrote about that in April 2021, before they had hired Chris, describing how LiveView benefits from low latency by “moving app processes close to users”—something Fly has been designed to help with from the start.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;There’s one major challenge though: Elixir is still a niche programming language, which means the number of people out there who are ready to spin up a new Phoenix app has always been artificially limited.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Fly’s solution? Get LLMs to shave that learning curve down to almost nothing.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Wed, 25 Jun 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/06/25/p2147-phoenix-new/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/06/25/p2147-phoenix-new/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Things that make you go hmmm:: Why do people who go to the same cafe get wasteful takeout paper cups every day?</title>
-        <description>&lt;p&gt;If you are a tourist I almost understand (even then you could bring a travel mug, right?), but if you are a local, why not bring your own reusable cup instead?&lt;/p&gt;
-
-&lt;p&gt;See also: &lt;a href=&quot;https://www.theguardian.com/environment/2024/jan/22/disposable-coffee-cups-environmental-impact&quot;&gt;The Guardian:: Cecilia Nowell :: January 22, 2024:: The disposable cup crisis: what’s the environmental impact of a to-go coffee?&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: “The entire lifecycle of disposable cups, from raw material extraction  to production and transportation, requires significant energy,  contributing to environmental degradation,” Preetam Basu and Thanos  Papadopoulos, professors at the Kent School of Business and co-authors  of &lt;a href=&quot;https://www.kent.ac.uk/news/environment/32807/storm-in-a-coffee-cup-how-the-disposable-cup-problem-is-reaching-boiling-point&quot;&gt;a 2022 report&lt;/a&gt; on coffee cup waste, said in an emailed statement.&lt;/p&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;June 5, 2025: &lt;a href=&quot;https://rolandtanglao.com/2025/06/05/p1809-youre-all-nuts/&quot;&gt;ME:: Bad for the environment yet good for already privileged experts who have time and energy to experiment seems to be  the common thread of this ever evolving ML world ; Thomas Ptacek:: My AI Skeptic Friends Are All Nuts · The Fly Blog&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 25 Jun 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/06/25/p2127-why-cafe-regulars-takeout-wasteful-papercups-daily/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/06/25/p2127-why-cafe-regulars-takeout-wasteful-papercups-daily/</guid>
         
         
       </item>
