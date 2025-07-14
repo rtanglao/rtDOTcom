@@ -7,7 +7,7 @@ tl;dr Please [donate](https://cypresschallenge.ca/fundraiser/roland) to my ride 
 * On the occasion of my birthday on July 11, 2025 I'd like you to consider donating to the Cypress Challenge in honour of my mother Sofia who died of pancreatic cancer in 2013 less than week after being diagnosed. It's a zero overhead ride so all money goes to Pancreatic Cancer research. We all have limited charity budgets and we're still living in a pandemic until we get a [sterilizing vaccine](https://pmc.ncbi.nlm.nih.gov/articles/PMC9595357/) so if donation isn't possible, please send healing and innovation vibes to the incredible pancreatic researchers at BC Cancer (and of course I'd love some good bicycling karma for the 12km ascent to Cypress!).
 * [https://cypresschallenge.ca/fundraiser/roland](https://cypresschallenge.ca/fundraiser/roland)
 
-## Thanks to my generous Cypress Challange Donors
+## Thanks to my generous Cypress Challenge Donors
 * A big thank you to the following folks for their generous donations: Kevin, Fiona, Richard, Chris, Dale, Brendan, Lillian, Mike, Mia, Ron and Natalie. You rock! I would love to bicycle with you up Cypress someday !
 
 ## Thanks for all the great birthday wishes on FB and elsewhere:
