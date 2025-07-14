@@ -8,9 +8,10 @@ tl;dr Please [donate](https://cypresschallenge.ca/fundraiser/roland) to my ride 
 * [https://cypresschallenge.ca/fundraiser/roland](https://cypresschallenge.ca/fundraiser/roland)
 
 ## Thanks to my generous Cypress Challenge Donors
-* A big thank you to the following folks for their generous donations: Kevin, Fiona, Richard, Chris, Dale, Brendan, Lillian, Mike, Mia, Ron and Natalie. You rock! I would love to bicycle with you up Cypress someday !
+* A big thank you to the following folks for their generous donations: Kevin, Fiona, Richard, Chris, Dale, Brendan, Lillian, Mike, Mia, Ron and Natalie. You rock! I would love to bicycle with you up Cypress someday ! Or a coffee/tea/whatever at Revolver at 325 Cambie. Vancouver :-)
 
 ## Thanks for all the great birthday wishes on FB and elsewhere:
+* Don't worry if your name isn't on the following list, it's because I am slow, you will get added eventually :-)
 * I would love to buy you a coffee/tea/something :-) at Revolver at 325 Cambie Street someday soon. In no order :-) :
     * Sally and Gloria (The Keg and a bicycle ride :-) before the rains start, ok?)
 
