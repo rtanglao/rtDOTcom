@@ -16,4 +16,4 @@ tl;dr Please [donate](https://cypresschallenge.ca/fundraiser/roland) to my ride 
     * Sally and Gloria (The Keg and a bicycle ride :-) before the rains start, ok?)
 
 ### Previously
-* July 11, 2021:[Please donate to my ride up Cypress Mountain on July 30, 2023, the Cypress Challenge. 100% goes to Pancreatic Cancer Research](https://rolandtanglao.com/2023/07/09/p1-cypress-challenge-2023-pancreatic-cancer/)
+* July 9, 2023:[Please donate to my ride up Cypress Mountain on July 30, 2023, the Cypress Challenge. 100% goes to Pancreatic Cancer Research](https://rolandtanglao.com/2023/07/09/p1-cypress-challenge-2023-pancreatic-cancer/)
