@@ -6,9 +6,149 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 17 Sep 2025 22:14:14 -0700</pubDate>
-    <lastBuildDate>Wed, 17 Sep 2025 22:14:14 -0700</lastBuildDate>
+    <pubDate>Fri, 26 Sep 2025 17:13:08 -0700</pubDate>
+    <lastBuildDate>Fri, 26 Sep 2025 17:13:08 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>ME: tl;dr-ing Stock firmware works (Unlike Rui, I have no need for low-level control) and so does OpenWRT. Something to consider in 2027 or something but by then there will be something shinier :-)  LOL! ; Rui:: The Cudy AX3000 Wi-Fi 6 System (with OpenWRT) - Tao of Mac</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Sep 26, 2025 06:52 (UTC)&lt;a href=&quot;https://taoofmac.com/space/reviews/2025/09/14/1630&quot;&gt;ME: tl;dr-ing Stock firmware works (Unlike Rui, I have no need for low-level control) and so does OpenWRT. Something to consider in 2027 or something but by then there will be something shinier :-)  LOL! ; Rui:: The Cudy AX3000 Wi-Fi 6 System (with OpenWRT) - Tao of Mac&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The Cudy AX3000/M3000 models make for pretty great Airport Extreme replacements, and in this age of networking devices with cloud features nobody asked for OpenWRT turns them into very nice locally managed access points that I will never have to worry about again (until I break the configuration myself, of course).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Although it is much too early to weigh in on hardware reliability (some of the 802.11ac Airport Extremes I was using were manufactured over a decade ago), the price/performance ratio is great, and right now I don’t mind it not being Wi-Fi 7.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;After all, it took almost ten years for the 2.4GHz band to become saturated in my building, and it doesn’t look as if the 5GHz band is going to be massively swamped anytime soon, so I’m expecting something like 3-4 years of hassle-free operation if the hardware holds up.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A relevant thing I should point out again is that people who have less need for low-level control might actually be fine with the stock firmware—I did not use it extensively (nor did I try the Cudy app or any of the router/firewall features), but it already exposes a lot more functionality (and seems a lot more flexible) than ISP gear, so I would encourage people to give it a go.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Thu, 25 Sep 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/09/25/p2352-rui-carno-likes-cudy-ax3000-wifi6-router-openwrt/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/09/25/p2352-rui-carno-likes-cudy-ax3000-wifi6-router-openwrt/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: tl;dr-ing: When we write the code to pass the test, it must be failing;  Jason Gorman:: Test Driven Development Under The Microscope #1 – Usage-Driven Design</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Sep 24, 2025 08:45 (UTC)&lt;a href=&quot;https://codemanship.wordpress.com/2025/09/24/tdd-under-the-microscope-1-usage-driven-design/&quot;&gt;ME:: tl;dr-ing: When we write the code to pass the test, it must be failing;  Jason Gorman:: Test Driven Development Under The Microscope #1 – Usage-Driven Design&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://codemanship.wordpress.com/2025/09/24/tdd-under-the-microscope-1-usage-driven-design/&quot;&gt;Jason Gorman:: TDD Under The Microscope #1 – Usage-Driven Design – Codemanship’s Blog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A more flexible and robust way to describe workflow is to imply ordering of events declaratively*. Instead of “Boil the kettle, then pour the water into the teapot”, we might say “When the water is poured into the teapot, it must be at near boiling”. Now all of our edge cases work. We could have boiled it in a pan. We could have boiled it in a microwave. We could have watched the squirrel and then boiled the kettle again. Workflow is implied: the water has been boiled, but we leave ourselves many more routes to pouring it in the teapot.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A similar approach can be taken with workflows like TDD; instead of “Run the test to see it fail, then write the simplest code to pass it”, we could say “When we write the code to pass the test, it must be failing”. It’s a subtle but important distinction, and one which I’ve realised I’ve been using for a long time when I observe developers working.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Wed, 24 Sep 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/09/24/p0145-tdd-under-the-microscope-1-usage-driven-design/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/09/24/p0145-tdd-under-the-microscope-1-usage-driven-design/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: Zero to working space invaders code in 1 prompt! From Chinese 'frontier' ai company Z.ai way back :-) 2 months ago to July 29, 2025 ; Simon Willison:: My 2.5 year old laptop can write Space Invaders in JavaScript now, using GLM-4.5 Air and MLX</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Sep 20, 2025 14:56 (UTC)&lt;a href=&quot;https://simonwillison.net/2025/Jul/29/space-invaders/&quot;&gt;ME:: Zero to working space invaders code in 1 prompt! From Chinese “frontier” ai company Z.ai way back :-) 2 months ago to July 29, 2025 ; Simon Willison:: My 2.5 year old laptop can write Space Invaders in JavaScript now, using GLM-4.5 Air and MLX&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://simonwillison.net/2025/Jul/29/space-invaders/&quot;&gt;Simon Willison:: My 2.5 year old laptop can write Space Invaders in JavaScript now, using GLM-4.5 Air and MLX&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;My 2.5 year old laptop can write Space Invaders in JavaScript now, using GLM-4.5 Air and MLX&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I wrote about the new GLM-4.5 model family yesterday—new open weight (MIT licensed) models from Z.ai in China which their benchmarks claim score highly in coding even against models such as Claude Sonnet 4.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The models are pretty big—the smaller GLM-4.5 Air model is still 106 billion total parameters, which is 205.78GB on Hugging Face.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ivan Fioravanti built this 44GB 3bit quantized version for MLX, specifically sized so people with 64GB machines could have a chance of running it. I tried it out… and it works extremely well.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I fed it the following prompt:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Write an HTML and JavaScript page implementing space invaders&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;And it churned away for a while and produced the following:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Clearly this isn’t a particularly novel example, but I still think it’s noteworthy that a model running on my 2.5 year old laptop (a 64GB MacBook Pro M2) is able to produce code like this—especially code that worked first time with no further edits needed.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sat, 20 Sep 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/09/20/p0756-space-invaders/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/09/20/p0756-space-invaders/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: oh brother yet another governance error (this time by Ruby Central) screws my favourite programming language Jan Lehnardt :couchdb:: 'What the f*ck is going on with Ruby?.... For the moment we have to consider all gems compromised:' - narrativ.es</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Sep 19, 2025 15:06 (UTC)&lt;a href=&quot;https://narrativ.es/@janl/115230600677063843&quot;&gt;ME:: oh brother yet another governance error (this time by Ruby Central) screws my favourite programming language Jan Lehnardt :couchdb:: “What the f*ck is going on with Ruby?…. For the moment we have to consider all gems compromised:” - narrativ.es&lt;/a&gt; &amp;lt;– See Ellenn Dash aka duckinator’s resignation from Ruby Central https://pup-e.com/goodbye-rubygems.pdf&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mastodon.social/@pierstoval/115231088070271632&quot;&gt;Alex Rock writes&lt;/a&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;How to make sure *existing* gems aren't compromised somehow? ... That's the main point of failure with supply-chain instability in general (and the node.js ecosystem knows a huge lot about it). ... Not only if rubygems dies they can't update stuff, but will they find a reliable mirror that will allow to *keep* the existing gems downloadable without risk?&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 19 Sep 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/09/19/p0806-ruby-central-compromised-freenode-meets-wordpress/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/09/19/p0806-ruby-central-compromised-freenode-meets-wordpress/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: We all make sh*tty software as Dave Winer has said so many times! Including Microsoft and Samsung! ; Thom Holwerda:: Dark patterns killed my wife’s Windows 11 installation  –  OSnews via Mike Hoye</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Sep 19, 2025 14:58 (UTC)&lt;a href=&quot;https://www.osnews.com/story/143376/dark-patterns-killed-my-wifes-windows-11-installation/&quot;&gt;ME:: We all make sh*tty software as Dave Winer has said so many times! Including Microsoft and Samsung! ; Thom Holwerda:: Dark patterns killed my wife’s Windows 11 installation  –  OSnews via Mike Hoye&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This tragedy of dark patterns then neatly cascaded into a catastrophic comedy of bugs, where a full root drive apparently corrupts online Microsoft accounts on Windows 11 so hard they become essentially unrecoverable. There were no warnings and no informational popups. Ominous user accounts started to appear on the login screen. Weird suggestions to use corporate-looking security USB keys pop up. Windows wrongfully tells my wife the PIN code and password she enters are incorrect. The suggestion to change the password or PIN code breaks completely. All the well-known rescue options any average user would turn to in WinRE throw up cryptic errors.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;May 4, 2017: &lt;a href=&quot;http://rolandtanglao.com/2017/05/14/p1-we-all-make-shtty-software-including-mcrosoft/&quot;&gt;We all make sh*tty software including M$crosoft part 8888 – www.iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 19 Sep 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/09/19/p0758-dark-patterns-killed-my-wifes-windows-11-installation/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/09/19/p0758-dark-patterns-killed-my-wifes-windows-11-installation/</guid>
+        
+        
+      </item>
     
       <item>
         <title>ME:: Does this AI notes thing work :-) ?!? ; Notability note taking startup</title>
@@ -132,120 +272,6 @@
         <pubDate>Sat, 06 Sep 2025 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2025/09/06/p1435-how-to-innovate-with-generative-ai/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/09/06/p1435-how-to-innovate-with-generative-ai/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: Machine learning assisted coding doesn't increase the number of apps part 8888 :-) ?!? ; Mike Judge:: Where's the Shovelware? Why AI Coding Claims Don't Add Up</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Sep 4, 2025 15:23 (UTC)&lt;a href=&quot;https://mikelovesrobots.substack.com/p/wheres-the-shovelware-why-ai-coding&quot;&gt;ME:: Machine learning assisted coding doesn’t increase the number of apps part 8888 :-) ?!? ; Mike Judge:: Where’s the Shovelware? Why AI Coding Claims Don’t Add Up&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;And yet, despite the most widespread adoption one could imagine5, these tools don’t work.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;My argument: If so many developers are so extraordinarily productive using these tools, where is the flood of shovelware? We should be seeing apps of all shapes and sizes, video games, new websites, mobile apps, software-as-a-service apps — we should be drowning in choice. We should be in the middle of an indie software revolution. We should be seeing 10,000 Tetris clones on Steam.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Thu, 04 Sep 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/09/04/p0823-wheres-the-shovelware-why-ai-coding/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/09/04/p0823-wheres-the-shovelware-why-ai-coding/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME::  Tempted to try this but $CDN40/month for streaming is a lot ; Fedihost:: Create New Peertube Service</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Sep 4, 2025 15:14 (UTC)&lt;a href=&quot;https://fedihost.co/create&quot;&gt;ME::  Tempted to try this but $CDN40/month for streaming is a lot ; Fedihost:: Create New Peertube Service&lt;/a&gt; &amp;lt;– I probably should wait until a co-op does this or something :-)&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Peertube 30
-$39.99
-Monthly&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Always included:
-Daily Backups
-10 GB Base Storage
-Global CDN&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Specifications:
-Priority Support
-4 Encoders Guaranteed
-Video Studio
-1 Concurrent Livestream&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Multiple user instance with frequent uploads and live streaming.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Thu, 04 Sep 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/09/04/p0814-create/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/09/04/p0814-create/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: yet another Tailscale HOW TO, i have to try this someday! ; Avush Pande:: I use Tailscale to remotely access my self-hosted services - here's how</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Sep 3, 2025 15:00 (UTC)&lt;a href=&quot;https://www.xda-developers.com/tailscale-guide/&quot;&gt;ME:: yet another Tailscale HOW TO, i have to try this someday! ; Avush Pande:: I use Tailscale to remotely access my self-hosted services - here’s how&lt;/a&gt; &amp;lt;- QUOTE: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;As if that’s not enough, your home network could be afflicted with the scourge called CGNAT, making port forwarding even more of a hassle. While it’s not exactly a fully self-hosted solution since you’re relying on a company’s servers, Tailscale simplifies the process of exposing your local services to external networks. So, here’s a quick guide on how you can configure Tailscale to remotely access your favorite self-hosted services.&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 03 Sep 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/09/03/p0800-tailscale-guide/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/09/03/p0800-tailscale-guide/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: Oh Pharmacy in Coquitlam had unexpired vaccines as of August 11 2025 ; Ducky :: 2025-08-11 oops 13  General – Pandemics in British Columbia</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Aug 31, 2025 19:26 (UTC)&lt;a href=&quot;https://covidbc.webfoot.com/2025/08/13/2025-08-11-general/&quot;&gt;ME:: Oh Pharmacy in Coquitlam had unexpired vaccines as of August 11 2025 ; Ducky :: 2025-08-11 oops 13  General – Pandemics in British Columbia&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: “Addendum2: An alert reader says that there is in fact at least one pharmacy in BC which has unexpired COVID-19 vaccines: &lt;a href=&quot;https://www.healthlinkbc.ca/clinic/oh-pharmacy&quot;&gt;Oh Pharmacy&lt;/a&gt;.”&lt;/p&gt;
-</description>
-        <pubDate>Sun, 31 Aug 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/08/31/p1226-2025-08-11-general/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/08/31/p1226-2025-08-11-general/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: Not tested on Humans yet but sounds promising go science go; September 2024:: Brigham and Women’s Hospital. PCANS Drug-free nasal spray blocks, neutralizes viruses, bacteria — Harvard Gazette</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Aug 31, 2025 19:05 (UTC)&lt;a href=&quot;https://news.harvard.edu/gazette/story/2024/09/drug-free-nasal-spray-blocks-neutralizes-viruses-bacteria/&quot;&gt;ME:: Not tested on Humans yet but sounds promising go science go; September 2024:: Brigham and Women’s Hospital. PCANS Drug-free nasal spray blocks, neutralizes viruses, bacteria — Harvard Gazette&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;via &lt;a href=&quot;https://sfba.social/@nwchapman/115124195881987830&quot;&gt;@nwchapman’s toot&lt;/a&gt; and also there’s a an earlier drug free nasal spray using Iota-Carrageenan: see October 2021:: &lt;a href=&quot;https://pmc.ncbi.nlm.nih.gov/articles/PMC8493111/&quot;&gt;Efficacy of a Nasal Spray Containing Iota-Carrageenan in the Postexposure Prophylaxis of COVID-19 in Hospital Personnel Dedicated to Patients Care with COVID-19 Disease&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://news.harvard.edu/gazette/story/2024/09/drug-free-nasal-spray-blocks-neutralizes-viruses-bacteria/&quot;&gt;PCANS Drug-free nasal spray blocks, neutralizes viruses, bacteria — Harvard Gazette&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Experiments in mice showed that a single dose of the PCANS nasal spray could effectively block infection from an influenza virus (PR8) at 25 times the lethal dose. Virus levels in the lungs were reduced by &amp;gt;99.99 percent, and the inflammatory cells and cytokines in the lungs of PCANS-treated animals were normal.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The formulation’s ability to inactivate a broad spectrum of pathogens, including the deadly PR8 influenza virus, demonstrates its high effectiveness,” said co-senior author Yohannes Tesfaigzi, AstraZeneca Professor of Medicine in the Field of Respiratory and Inflammatory Diseases at BWH. “In a rigorous mouse model study, prophylactic treatment with PCANS demonstrated exceptional efficacy, with treated mice exhibiting complete protection, while the untreated group showed no such benefit.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;While the study’s limitations include the lack of human studies of PCANS, it provides a strong foundation for future research to explore the full potential of PCANS in a broader context. The researchers are exploring whether PCANS can also block allergens, opening a potential new avenue for allergy relief.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Sun, 31 Aug 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/08/31/p1205-drug-free-nasal-spray-blocks-neutralizes-viruses-bacteria/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/08/31/p1205-drug-free-nasal-spray-blocks-neutralizes-viruses-bacteria/</guid>
         
         
       </item>
