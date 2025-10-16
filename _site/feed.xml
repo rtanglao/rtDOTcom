@@ -6,9 +6,189 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 12 Oct 2025 13:04:29 -0700</pubDate>
-    <lastBuildDate>Sun, 12 Oct 2025 13:04:29 -0700</lastBuildDate>
+    <pubDate>Wed, 15 Oct 2025 17:51:41 -0700</pubDate>
+    <lastBuildDate>Wed, 15 Oct 2025 17:51:41 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>ME tl;dr-ing:: investigative skills, Evaluative skills and innovation skills are all things we need to improve to prosper in an LLM enabled world. LLMs have none of these skills ; Chelsea Troy: What can we expect of LLMs as Software Engineers?</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 14, 2025 15:55 (UTC)&lt;a href=&quot;https://chelseatroy.com/2025/07/14/what-can-we-expect-of-llms-as-software-engineers/&quot;&gt;ME tl;dr-ing:: investigative skills, Evaluative skills and innovation skills are all things we need to improve to prosper in an LLM enabled world. LLMs have none of these skills ; Chelsea Troy: What can we expect of LLMs as Software Engineers?&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chelseatroy.com/2025/07/14/what-can-we-expect-of-llms-as-software-engineers/&quot;&gt;Chelsea Troy: What can we expect of LLMs as Software Engineers?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It’s also unlikely to surprise you that they fail students when the code base the student is working on exceeds about 300 lines. To use them most effectively, students must first write COHESIVE code—code in which the concepts that must be understood together live together—and recognizing patterns from github does not prepare a tool to generate this type of code. The specific cohesive part on which a student needs help then needs to be entered into the tool in isolation.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;These things only become more true as the code base increases in complexity. I wrote a compiler in Rust earlier this year—a language I don’t know especially well—to better understand the experiences of my students trying to use LLMs to build projects in Python. I’d say the LLM reduced the amount of physical typing I needed to do by 95%. I’d say it reduced the amount I needed to know, about the implementation details of compilers as well as the characteristics of Rust, in order to get my compiler working correctly, by about 5%.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The first skill set is investigative skills: we need to be able to scope down the area in which we are facing a problem, and learn to ask specific questions about how our assumptions differ from the ground truth.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I find this to be a woefully undertaught and undervalued skill among engineers precisely because we tend to view debugging or familiarizing ourselves with the system we’re working on, not as part of our work, but as a blocking obstacle that distracts from our actual work of plowing through features and system changes. I think this is a deeply flawed way to view our profession, and one made even less accurate than it already was by the advent of tools that can plow through feature development for us, provided we possess the investigative skill set to identify and understand when and how those solutions make inaccurate assumptions or need to be fixed.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The second skill set is evaluative skills: we need to be able to select from a range of implementation options based on how those options’ benefits and shortcomings fit the bill of our specific situation.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I think engineers, particularly at more senior levels, need to take stock of why best practices are what they are, and determine whether those reasons make sense in each situation where they’re being used.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;More granularly, I think it falls to engineers to learn to specify exactly what their decision criteria are, decide explicitly which of those are optimizing criteria and which are satisficing criteria, and document how each of their implementation options stack up against those criteria. An LLM can tell you what most people usually say to do. It can’t tell you what you should do, but the truth is, neither can most human engineers right now. This skill set addresses that.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The final skill set is innovation skills: we need to learn to proactively search for the shortcomings of the available options, and consider solutions that haven’t been tried before.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;These are precisely the solutions that a Generative AI product cannot produce by handing us a global average of what the internet has to say about a topic. The task falls to us, I am afraid, to understand how our status quo falls short, and figure out what we could change to improve those shortfalls. We need the ability to proactively identify who our systems do not serve, or serve poorly, and why, and how to fix it.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Tue, 14 Oct 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/10/14/p0855-what-can-we-expect-of-llms-as-software-engineers/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/14/p0855-what-can-we-expect-of-llms-as-software-engineers/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: tl;dr-ing: Show up as we want to show up and learn how to divert that negative energy somehow (in a way we feel good about it) ; John Cutler:: 2023::  TBM 254: Self-Gaslighting and the Doubt Loop</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 14, 2025 15:45 (UTC)&lt;a href=&quot;https://cutlefishDOTsubstack.com/p/tbm-254-self-gaslighting-and-the&quot;&gt;ME:: tl;dr-ing: Show up as we want to show up and learn how to divert that negative energy somehow (in a way we feel good about it) ; John Cutler:: 2023::  TBM 254: Self-Gaslighting and the Doubt Loop&lt;/a&gt; &amp;lt;–broken link on purpose because s*bstack&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;p&gt;Read the whole thing: &lt;a href=&quot;https://cutlefishDOTsubstack.com/p/tbm-254-self-gaslighting-and-the&quot;&gt;John Butler:: TBM 254: Self-Gaslighting and the Doubt Loop&lt;/a&gt;) &amp;lt;–broken link on purpose because s*bstack (just change DOT to . LOL)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;So the same people telling you to step up, arrive with solutions, not problems, deal with ambiguity, and be more strategic are being told those things by their managers. It is almost comical—like a big bi-directional cascade of people questioning their worth and chops, but causing others to question THEIR worth and chops. The theatricality of it all is comforting on some level.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;So:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Joy and pride at work signal true fulfillment.&lt;/li&gt;
+    &lt;li&gt;Save energy for what truly fulfills your needs.&lt;/li&gt;
+    &lt;li&gt;Even “top performers” face similar challenges and doubts.&lt;/li&gt;
+    &lt;li&gt;Companies often have a chain reaction of doubt and pressure.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Tue, 14 Oct 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/10/14/p0845-tbm-254-self-gaslighting-and-the/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/14/p0845-tbm-254-self-gaslighting-and-the/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: What does Jim Covello of Goldman Sachs think today in late 2025? Still an AI bubble? Is it bursting? LLM Winter? ; Ed Citron:: July 8, 2024 Pop Culture</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 14, 2025 15:02 (UTC)&lt;a href=&quot;https://www.wheresyoured.at/pop-culture/&quot;&gt;ME:: What does Jim Covello of Goldman Sachs think today in late 2025? Still an AI bubble? Is it bursting? LLM Winter? ; Ed Citron:: July 8, 2024 Pop Culture&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://www.wheresyoured.at/pop-culture/&quot;&gt;Ed Citron:: Pop Culture&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The most fascinating part of the report (page 10) is an interview with Jim Covello, Goldman Sachs’ Head of Global Equity Research. Covello isn’t a name you’ll have heard unless you are, for whatever reason, a big semiconductor-head, but he’s consistently been on the right side of history, named as the top semiconductor analyst by II Research for years, successfully catching the downturn in fundamentals in multiple major chip firms far before others did.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;And Jim, in no uncertain terms, thinks that the generative AI bubble is full of shit.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Covello believes that the combined expenditure of all parts of the generative AI boom — data centers, utilities and applications — will cost a trillion dollars in the next several years alone, and asks one very simple question: “what trillion dollar problem will AI solve?” He notes that “replacing low-wage jobs with tremendously costly technology is basically the polar opposite of the prior technology transitions [he’s] witnessed in the last thirty years.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Tue, 14 Oct 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/10/14/p0802-pop-culture/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/14/p0802-pop-culture/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: is programming with local LLM inference better or worse a year later? My guess is (based on Simon Willison) that it's a wee bit better ; Chris Wellons:: November 10, 2024:: Everything I've learned so far about running local LLMs ; 'I really tried, but never saw LLM output beyond 2–3 lines of code which I would consider acceptable.'</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 13, 2025 18:59 (UTC) &lt;a href=&quot;https://nullprogram.com/blog/2024/11/10/&quot;&gt;ME:: is programming with local LLM inference better or worse a year later? My guess is (based on Simon Willison) that it’s a wee bit better ; Chris Wellons:: November 10, 224:: Everything I’ve learned so far about running local LLMs&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;quote&quot;&gt;QUOTE:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing:  &lt;a href=&quot;https://nullprogram.com/blog/2024/11/10/&quot;&gt; Chris Wellons:: November 10, 224:: Everything I’ve learned so far about running local LLMs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The next group are “coder” models trained for programming. In particular, they have fill-in-the-middle (FIM) training for generating code inside an existing program. I’ll discuss what that entails in a moment. As far as I can tell, they’re no better at code review nor other instruct-oriented tasks. It’s the opposite: FIM training is done in the base model, with instruct training applied later on top, so instruct works against FIM! In other words, base model FIM outputs are markedly better, though you lose the ability to converse with them.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Third, &lt;strong&gt;LLMs are poor programmers&lt;/strong&gt;. At best they write code at maybe an undergraduate student level who’s read a lot of documentation. That sounds better than it is. The typical fresh graduate enters the workforce knowing practically nothing about software engineering. Day one on the job is the first day of their real education. In that sense, LLMs today haven’t even begun their education.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;To be fair, that LLMs work as well as they do is amazing! Thrown into the middle of a program in my unconvential style, LLMs figure it out and make use of the custom interfaces. (Caveat: My code and writing is in the training data of most of these LLMs.) So the more context, the better, within the effective context length. The challenge is getting something useful out of an LLM in less time than writing it myself.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Writing new code is the easy part. The hard part is maintaining code, and writing new code with that maintenance in mind. Even when an LLM produces code that works, there’s no thought to maintenance, nor could there be. In general the reliability of generate code follows the inverse square law by length, and generating more than a dozen lines at a time is fraught. I really tried, but never saw LLM output beyond 2–3 lines of code which I would consider acceptable.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Quality varies substantially by language. LLMs are better at Python than C, and better at C than assembly. I suspect it’s related to the difficulty of the language and the quality of the input. It’s trained on lots of terrible C — the internet is loaded with it after all — and probably the only labeled x86 assembly it’s seen is crummy beginner tutorials. Ask it to use SDL2 and it reliably produces the common mistakes because it’s been trained to do so.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;What about boilerplate? That’s something an LLM could probably do with a low error rate, and perhaps there’s merit to it. Though the fastest way to deal with boilerplate is to not write it at all. Change your problem to not require boilerplate.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Without taking my word for it, consider how it show up in the economics: If AI companies could deliver the productivity gains they claim, they wouldn’t sell AI. They’d keep it to themselves and gobble up the software industry. Or consider the software products produced by companies on the bleeding edge of AI. It’s still the same old, bloated web garbage everyone else is building. (My LLM research has involved navigating their awful web sites, and it’s made be bitter.)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Mon, 13 Oct 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/10/13/p1159-chris-wellons-local-llms-only-good-for-3-lines-of-code-as-of-november-2024/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/13/p1159-chris-wellons-local-llms-only-good-for-3-lines-of-code-as-of-november-2024/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Highly Recommended for all folks not just Filipinos! Carmela Sison as Chef Mela is fabulous in Lasa ng Imperyo/A Taste of Empire, an adaptation of a play by Jovanni Sy Oct 9-19, 2025 at Presentation House Theatre, North Vancouver, $30</title>
@@ -140,66 +320,6 @@
         <pubDate>Sun, 12 Oct 2025 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2025/10/12/p0813-pyflickr/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/10/12/p0813-pyflickr/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: looks great but sadly deprecated as of November 2024 since the maintainer/author doesn't use the flickr API any more sad face ; Sybren A. Stüvel:: Python Flickr API ¦ dr. Sybren</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 12, 2025 15:05 (UTC)&lt;a href=&quot;https://stuvel.eu/software/flickrapi/&quot;&gt;ME:: looks great but sadly deprecated as of November 2024 since the maintainer/author doesn’t use the flickr API any more sad face ; Sybren A. Stüvel:: Python Flickr API ¦ dr. Sybren&lt;/a&gt; &amp;lt;– See this &lt;a href=&quot;https://github.com/sybrenstuvel/flickrapi/commit/21b9e721c2c4ead53e6b336b596bdd9439818627&quot;&gt;commit&lt;/a&gt;: “I have no time to maintain this repository, and haven’t used the software myself for years and years.”&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Flickr is one of the most popular photo hosting websites on the planet. Their extensive API gives programmers plenty of opportunity to use Flickr any way they see fit.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The easy to use Flickr API has several interfaces written in Python, the best one created by Beej. I’ve been the maintainer for this interface since August 2007.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;May 7, 2017: &lt;a href=&quot;https://rolandtanglao.com/2017/05/07/p1-cogdog-bet-flickr-api-broken-by-april-30-2018/&quot;&gt;By April 30, 2018, the flickr API will be broken — my bet with cog dog&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 12 Oct 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/10/12/p0805-flickrapi/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/12/p0805-flickrapi/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: AI stuff to code effectively requires time and $ which many minority folks simply don't have ; Dr Cat Hicks:: New research from me: AI Skill Threat &amp;amp; contest cultures on software teams</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 9, 2025 20:05 (UTC)&lt;a href=&quot;https://www.drcathicks.com/post/new-research-from-me-ai-skill-threat-contest-cultures-on-software-teams&quot;&gt;ME:: AI stuff to code effectively requires time and $ which many minority folks simply don’t have ; Dr Cat Hicks:: New research from me: AI Skill Threat &amp;amp; contest cultures on software teams&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;And because of our deep investment in recruiting underrepresented perspectives across all of our projects, we are able to share evidence that there are critically important equity and opportunity gaps emerging across developers' experiences with AI-assisted coding. For example, 56% of Racially Minoritized developers report a negative judgment of the quality of AI outputs in coding work, compared with 28% for all developers, and report higher levels of AI Skill Threat. Women and LGBTQ+ people on software teams are less likely to report upskilling in AI-assisted coding, potentially signaling a lack of resources. It is vital to learn from these groups' insights as well as take action to ensure these gaps do not calcify into new, career-threatening barriers.&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 09 Oct 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/10/09/p1305-new-research-from-me-ai-skill-threat-contest-cultures-on-software-teams/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/09/p1305-new-research-from-me-ai-skill-threat-contest-cultures-on-software-teams/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Fuji Superia, Velvia, Kodak Ektachrome, Gold, Portra, SkyOptiimizer2, SunShadeSharp Luts from falk.wagenknecht- Google Drive</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 7, 2025 15:41 (UTC)&lt;a href=&quot;https://drive.google.com/drive/folders/1dcxrhHJqTxhIlgwNGNO6XL5llnVh7r84&quot;&gt;Fuji Superia, Velvia, Kodak Ektachrome, Gold, Portra, SkyOptiimizer2, SunShadeSharp Luts from falk.wagenknecht- Google Drive&lt;/a&gt; &amp;lt;– (via &lt;a href=&quot;https://www.reddit.com/r/LumixLUTs/comments/1kajiq6/big_lut_update_leave_a_like/&quot;&gt;Reddit post 5 months ago on r/LumixLUTs:&lt;/a&gt;: “Big LUT update, leave a like!” &amp;lt;– :) &amp;lt;– looks great, thanks!&lt;/p&gt;
-</description>
-        <pubDate>Tue, 07 Oct 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/10/07/p0841-falk-wegenknecht-luts-fuji-kodak-sunshadesharp/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/07/p0841-falk-wegenknecht-luts-fuji-kodak-sunshadesharp/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: Go Blacksky go!!! I doubt that Blacksky will be under the 'thumb of Bluesky's moderation service' forever (if this is true, I don't know enough about ATProto to know for sure who is under the thumb of who) ; Bruno Dias,:: Delusions of a Protocol ¦ Azhdarchid</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 6, 2025 14:42 (UTC)&lt;a href=&quot;https://azhdarchid.com/delusions-of-a-protocol/&quot;&gt;ME:: Go Blacksky go!!! I doubt that Blacksky will be under the “thumb of Bluesky’s moderation service” forever (if this is true, I don’t know enough about ATProto to know for sure who is under the thumb of who) ; Bruno Dias,:: Delusions of a Protocol ¦ Azhdarchid&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;To my knowledge there's only one alternate stack that runs atproto as a complete service, Blacksky. But this isn't a turnkey solution that you can stand up as your own independent alternative; Blacksky at present barely has documentation. And even Blacksky users are still more or less under the thumb of Bluesky's moderation service, if they intend to reach 99% of the network as it exists today.&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 06 Oct 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/10/06/p0742-delusions-of-a-protocol/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/06/p0742-delusions-of-a-protocol/</guid>
         
         
       </item>
