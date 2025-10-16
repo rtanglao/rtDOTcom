@@ -6,320 +6,194 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 15 Oct 2025 17:51:41 -0700</pubDate>
-    <lastBuildDate>Wed, 15 Oct 2025 17:51:41 -0700</lastBuildDate>
+    <pubDate>Thu, 16 Oct 2025 10:44:42 -0700</pubDate>
+    <lastBuildDate>Thu, 16 Oct 2025 10:44:42 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
-        <title>ME tl;dr-ing:: investigative skills, Evaluative skills and innovation skills are all things we need to improve to prosper in an LLM enabled world. LLMs have none of these skills ; Chelsea Troy: What can we expect of LLMs as Software Engineers?</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 14, 2025 15:55 (UTC)&lt;a href=&quot;https://chelseatroy.com/2025/07/14/what-can-we-expect-of-llms-as-software-engineers/&quot;&gt;ME tl;dr-ing:: investigative skills, Evaluative skills and innovation skills are all things we need to improve to prosper in an LLM enabled world. LLMs have none of these skills ; Chelsea Troy: What can we expect of LLMs as Software Engineers?&lt;/a&gt;&lt;/p&gt;
+        <title>ME tl-dr-ing; Computational poetry based on Telegu is cool ; koundinya:: Prāsa Programming Language:: Documentation - poetic computer</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 16, 2025 15:35 (UTC)&lt;a href=&quot;https://poetic.computer/implementation/&quot;&gt;ME tl-dr-ing; Computational poetry based on Telegu is cool ; koundinya:: Prāsa Programming Language:: Documentation - poetic computer&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Prāsa is an esoteric programming language that investigates the intersection of technology and cultural identity.&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 16 Oct 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/10/16/p0835-implementation/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/16/p0835-implementation/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: I need to dig deeper into Postmodern criticism, deconstruction, etc ; Brian Marick:: Deconstructing (cruddily) 'How to Deconstruct Almost Everything' // Oddly Influenced</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 16, 2025 15:28 (UTC)&lt;a href=&quot;https://blog.oddly-influenced.dev/2024/12/19/how-to-deconstruct.html&quot;&gt;ME:: I need to dig deeper into Postmodern criticism, deconstruction, etc ; Brian Marick:: Deconstructing (cruddily) “How to Deconstruct Almost Everything” // Oddly Influenced&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chelseatroy.com/2025/07/14/what-can-we-expect-of-llms-as-software-engineers/&quot;&gt;Chelsea Troy: What can we expect of LLMs as Software Engineers?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://blog.oddly-influenced.dev/2024/12/19/how-to-deconstruct.html&quot;&gt;Brian Marick:: Deconstructing (cruddily) “How to Deconstruct Almost Everything” // Oddly Influenced&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;It’s also unlikely to surprise you that they fail students when the code base the student is working on exceeds about 300 lines. To use them most effectively, students must first write COHESIVE code—code in which the concepts that must be understood together live together—and recognizing patterns from github does not prepare a tool to generate this type of code. The specific cohesive part on which a student needs help then needs to be entered into the tool in isolation.&lt;/p&gt;
+  &lt;p&gt;In 1993, the software engineer Chip Morningstar published an essay called “How To Deconstruct Almost Anything.” In it, he surveys what he learned reading Jonathan Culler’s 1982 book On Deconstruction: Theory and Criticism after Structuralism, which was a standard text at the time for people who want to do literary criticism.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;These things only become more true as the code base increases in complexity. I wrote a compiler in Rust earlier this year—a language I don’t know especially well—to better understand the experiences of my students trying to use LLMs to build projects in Python. I’d say the LLM reduced the amount of physical typing I needed to do by 95%. I’d say it reduced the amount I needed to know, about the implementation details of compilers as well as the characteristics of Rust, in order to get my compiler working correctly, by about 5%.&lt;/p&gt;
+  &lt;p&gt;Nowadays, he’d have had an easier time. I would recommend Peter Berry’s 1995 Beginning Theory: An Introduction to Literary and Cultural Theory or Lois Tyson’s 1998 Critical Theory Today: A User-Friendly Guide. Both are survey books, covering various different styles of criticism, including the New Criticism, structuralism, deconstruction (a rival of structuralism), New Historicism, and so on. Those are generally lumped together as “Theory,” not a great name in my opinion. Morningstar speaks of “postmodernism” and “deconstruction” rather interchangeably, which is wrong but unfortunately common. Postmodern criticism is a type of Theory that lives alongside deconstruction. You can think of Theory as the abstract superclass, and postmodernism and deconstruction as concrete subclasses. He’s got the inheritance hierarchy – and which properties belong to which class – all mixed up. It’s possibly also important that deconstruction and postmodernism were originally philosophical theories by actual philosophers that were later adopted by literary critics. Jacques Derrida the philosopher was doing the philosophy thing of being in dialogue with dead philosophers like Hegel, Heidegger, Nietzsche, and Husserl, and his key writings assume you’ve already read those people. (And Hegel, Husserl and Heidegger are notoriously opaque, even for philosophers.) Culler tries to explain both the philosophy and its application, which makes for a tough read.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;…&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The first skill set is investigative skills: we need to be able to scope down the area in which we are facing a problem, and learn to ask specific questions about how our assumptions differ from the ground truth.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I find this to be a woefully undertaught and undervalued skill among engineers precisely because we tend to view debugging or familiarizing ourselves with the system we’re working on, not as part of our work, but as a blocking obstacle that distracts from our actual work of plowing through features and system changes. I think this is a deeply flawed way to view our profession, and one made even less accurate than it already was by the advent of tools that can plow through feature development for us, provided we possess the investigative skill set to identify and understand when and how those solutions make inaccurate assumptions or need to be fixed.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;…&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The second skill set is evaluative skills: we need to be able to select from a range of implementation options based on how those options’ benefits and shortcomings fit the bill of our specific situation.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;…&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I think engineers, particularly at more senior levels, need to take stock of why best practices are what they are, and determine whether those reasons make sense in each situation where they’re being used.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;More granularly, I think it falls to engineers to learn to specify exactly what their decision criteria are, decide explicitly which of those are optimizing criteria and which are satisficing criteria, and document how each of their implementation options stack up against those criteria. An LLM can tell you what most people usually say to do. It can’t tell you what you should do, but the truth is, neither can most human engineers right now. This skill set addresses that.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;…&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The final skill set is innovation skills: we need to learn to proactively search for the shortcomings of the available options, and consider solutions that haven’t been tried before.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;These are precisely the solutions that a Generative AI product cannot produce by handing us a global average of what the internet has to say about a topic. The task falls to us, I am afraid, to understand how our status quo falls short, and figure out what we could change to improve those shortfalls. We need the ability to proactively identify who our systems do not serve, or serve poorly, and why, and how to fix it.&lt;/p&gt;
+  &lt;p&gt;The critic is like the programmer. You can use just one approach (like deconstruction, or like Rust) for all your projects, but you’re better off if you can choose the tool you think most appropriate for the job&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
-        <pubDate>Tue, 14 Oct 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/10/14/p0855-what-can-we-expect-of-llms-as-software-engineers/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/14/p0855-what-can-we-expect-of-llms-as-software-engineers/</guid>
+        <pubDate>Thu, 16 Oct 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/10/16/p0828-how-to-deconstruct/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/16/p0828-how-to-deconstruct/</guid>
         
         
       </item>
     
       <item>
-        <title>ME:: tl;dr-ing: Show up as we want to show up and learn how to divert that negative energy somehow (in a way we feel good about it) ; John Cutler:: 2023::  TBM 254: Self-Gaslighting and the Doubt Loop</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 14, 2025 15:45 (UTC)&lt;a href=&quot;https://cutlefishDOTsubstack.com/p/tbm-254-self-gaslighting-and-the&quot;&gt;ME:: tl;dr-ing: Show up as we want to show up and learn how to divert that negative energy somehow (in a way we feel good about it) ; John Cutler:: 2023::  TBM 254: Self-Gaslighting and the Doubt Loop&lt;/a&gt; &amp;lt;–broken link on purpose because s*bstack&lt;/p&gt;
+        <title>ME:: make everything yellow :-) ; Nick Driftwood:: Goldilocks False Color LUT for Sony S-Log3 Cameras FREE! </title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 16, 2025 15:21 (UTC)&lt;a href=&quot;https://www.nickdriftwood.com/all-cameras/goldilocks-false-color-lut-for-sony-s-log3-cameras-free&quot;&gt;ME:: make everything yellow :-) ; Nick Driftwood:: Goldilocks False Color LUT for Sony S-Log3 Cameras FREE! &lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 16 Oct 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/10/16/p0821-goldilocks-false-color-lut-for-sony-s-log3-cameras-free/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/16/p0821-goldilocks-false-color-lut-for-sony-s-log3-cameras-free/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: rossandhisjpegs reviews blue night, reglisse, black frost-n and newtro; Gotta check these out! ; Ross:: Testing LUMIX LUTs, So You Don’t Have To - YouTube</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 16, 2025 15:09 (UTC)&lt;a href=&quot;https://www.youtube.com/watch?v=Ca6vJlOabm0&quot;&gt;ME:: rossandhisjpegs reviews blue night, reglisse, black frost-n and newtro; Gotta check these out! ; Ross:: Testing LUMIX LUTs, So You Don’t Have To - YouTube&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
 
-&lt;p&gt;Read the whole thing: &lt;a href=&quot;https://cutlefishDOTsubstack.com/p/tbm-254-self-gaslighting-and-the&quot;&gt;John Butler:: TBM 254: Self-Gaslighting and the Doubt Loop&lt;/a&gt;) &amp;lt;–broken link on purpose because s*bstack (just change DOT to . LOL)&lt;/p&gt;
-
 &lt;blockquote&gt;
-  &lt;p&gt;So the same people telling you to step up, arrive with solutions, not problems, deal with ambiguity, and be more strategic are being told those things by their managers. It is almost comical—like a big bi-directional cascade of people questioning their worth and chops, but causing others to question THEIR worth and chops. The theatricality of it all is comforting on some level.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;So:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Joy and pride at work signal true fulfillment.&lt;/li&gt;
-    &lt;li&gt;Save energy for what truly fulfills your needs.&lt;/li&gt;
-    &lt;li&gt;Even “top performers” face similar challenges and doubts.&lt;/li&gt;
-    &lt;li&gt;Companies often have a chain reaction of doubt and pressure.&lt;/li&gt;
-  &lt;/ul&gt;
+  &lt;p&gt;LUT 01 // ‘Blue Night’ by EJAY
+LUT 02 // ‘Reglisse’ by Benjamin Tantot
+LUT 03 // ‘Black Frost-N’ by Emily Lowrey ‪@MicroFourNerds‬ 
+LUT 04 // ‘NEWTRO’ by Kotaro Kumazawa
+LUT 05 // ‘Luminous City’ yuuui&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
-        <pubDate>Tue, 14 Oct 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/10/14/p0845-tbm-254-self-gaslighting-and-the/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/14/p0845-tbm-254-self-gaslighting-and-the/</guid>
+        <pubDate>Thu, 16 Oct 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/10/16/p0809-watch/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/16/p0809-watch/</guid>
         
         
       </item>
     
       <item>
-        <title>ME:: What does Jim Covello of Goldman Sachs think today in late 2025? Still an AI bubble? Is it bursting? LLM Winter? ; Ed Citron:: July 8, 2024 Pop Culture</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 14, 2025 15:02 (UTC)&lt;a href=&quot;https://www.wheresyoured.at/pop-culture/&quot;&gt;ME:: What does Jim Covello of Goldman Sachs think today in late 2025? Still an AI bubble? Is it bursting? LLM Winter? ; Ed Citron:: July 8, 2024 Pop Culture&lt;/a&gt;&lt;/p&gt;
+        <title>ME:: Another LUT to check out :-) ; Camila Ballell:: Cinematic Retro Film Look - Free LUT for video editing ¦ Uppbeat</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 16, 2025 15:06 (UTC)&lt;a href=&quot;https://uppbeat.io/luts/asset/cinematic-retro-film-look-7108&quot;&gt;ME:: Another LUT to check out :-) ; Camila Ballell:: Cinematic Retro Film Look - Free LUT for video editing ¦ Uppbeat&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 16 Oct 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/10/16/p0806-cinematic-retro-film-look-7108/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/16/p0806-cinematic-retro-film-look-7108/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: more LUTs to check out on my S9 and Pearla and not boring iPhone camera app some day ; True Log Conversion LUTs Free Download (Inc. Rec.709) - Bounce Color®</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 16, 2025 15:05 (UTC)&lt;a href=&quot;https://www.bouncecolor.com/blogs/news/true-luts&quot;&gt;ME:: more LUTs to check out on my S9 and Pearla and not boring iPhone camera app some day ; True Log Conversion LUTs Free Download (Inc. Rec.709) - Bounce Color®&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 16 Oct 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/10/16/p0805-true-luts/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/16/p0805-true-luts/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: gotta check out NEWTRO, Warm Film, Teal Flat-S and of course Leica Monchrome on my S9 ; Comment by Bass Potoo:: Lumix S5ii lut recommendation : r/Lumix</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 16, 2025 15:01 (UTC)&lt;a href=&quot;https://www.reddit.com/r/Lumix/comments/1ifm4ks/comment/majhfgk/&quot;&gt;ME:: gotta check out NEWTRO, Warm Film, Teal Flat-S and of course Leica Monchrome on my S9 ; Comment by Bass Potoo:: Lumix S5ii lut recommendation : r/Lumix&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://www.wheresyoured.at/pop-culture/&quot;&gt;Ed Citron:: Pop Culture&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;blockquote&gt;
-  &lt;p&gt;The most fascinating part of the report (page 10) is an interview with Jim Covello, Goldman Sachs’ Head of Global Equity Research. Covello isn’t a name you’ll have heard unless you are, for whatever reason, a big semiconductor-head, but he’s consistently been on the right side of history, named as the top semiconductor analyst by II Research for years, successfully catching the downturn in fundamentals in multiple major chip firms far before others did.&lt;/p&gt;
+  &lt;p&gt;“NEWTRO” by Kotaro Kumazawa - this one is my go to for everyday-shoot and portraits. The color profile is close to what my eyes see, with lifted blacks. I set the opacity at around 60-70%.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;And Jim, in no uncertain terms, thinks that the generative AI bubble is full of shit.&lt;/p&gt;
+  &lt;p&gt;“Warm Film” by EJAY - though meant for VLOG, I use this one quite a lot when shooting well-lit environments with a lot of whites in the scene. It warms the scene up in a harmonious way. I also like the way it expresses skin tone. Again, play around with the opacity. I usually stack it on top of a Rec709 LUT set to 10% opacity.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Covello believes that the combined expenditure of all parts of the generative AI boom — data centers, utilities and applications — will cost a trillion dollars in the next several years alone, and asks one very simple question: “what trillion dollar problem will AI solve?” He notes that “replacing low-wage jobs with tremendously costly technology is basically the polar opposite of the prior technology transitions [he’s] witnessed in the last thirty years.&lt;/p&gt;
+  &lt;p&gt;“Teal Flat-S” by LUMIX - kind of a fun one. I usually use it at night. It makes the yellows really pop.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Leica Monochrome” - my go-to for black and white!&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
-        <pubDate>Tue, 14 Oct 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/10/14/p0802-pop-culture/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/14/p0802-pop-culture/</guid>
+        <pubDate>Thu, 16 Oct 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/10/16/p0801-rossandhisjpegs-review-luts-newtro-warmfilm-teal-flat-s/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/16/p0801-rossandhisjpegs-review-luts-newtro-warmfilm-teal-flat-s/</guid>
         
         
       </item>
     
       <item>
-        <title>ME:: is programming with local LLM inference better or worse a year later? My guess is (based on Simon Willison) that it's a wee bit better ; Chris Wellons:: November 10, 2024:: Everything I've learned so far about running local LLMs ; 'I really tried, but never saw LLM output beyond 2–3 lines of code which I would consider acceptable.'</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 13, 2025 18:59 (UTC) &lt;a href=&quot;https://nullprogram.com/blog/2024/11/10/&quot;&gt;ME:: is programming with local LLM inference better or worse a year later? My guess is (based on Simon Willison) that it’s a wee bit better ; Chris Wellons:: November 10, 224:: Everything I’ve learned so far about running local LLMs&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;quote&quot;&gt;QUOTE:&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Read the whole thing:  &lt;a href=&quot;https://nullprogram.com/blog/2024/11/10/&quot;&gt; Chris Wellons:: November 10, 224:: Everything I’ve learned so far about running local LLMs&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The next group are “coder” models trained for programming. In particular, they have fill-in-the-middle (FIM) training for generating code inside an existing program. I’ll discuss what that entails in a moment. As far as I can tell, they’re no better at code review nor other instruct-oriented tasks. It’s the opposite: FIM training is done in the base model, with instruct training applied later on top, so instruct works against FIM! In other words, base model FIM outputs are markedly better, though you lose the ability to converse with them.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;…&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Third, &lt;strong&gt;LLMs are poor programmers&lt;/strong&gt;. At best they write code at maybe an undergraduate student level who’s read a lot of documentation. That sounds better than it is. The typical fresh graduate enters the workforce knowing practically nothing about software engineering. Day one on the job is the first day of their real education. In that sense, LLMs today haven’t even begun their education.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;To be fair, that LLMs work as well as they do is amazing! Thrown into the middle of a program in my unconvential style, LLMs figure it out and make use of the custom interfaces. (Caveat: My code and writing is in the training data of most of these LLMs.) So the more context, the better, within the effective context length. The challenge is getting something useful out of an LLM in less time than writing it myself.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Writing new code is the easy part. The hard part is maintaining code, and writing new code with that maintenance in mind. Even when an LLM produces code that works, there’s no thought to maintenance, nor could there be. In general the reliability of generate code follows the inverse square law by length, and generating more than a dozen lines at a time is fraught. I really tried, but never saw LLM output beyond 2–3 lines of code which I would consider acceptable.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Quality varies substantially by language. LLMs are better at Python than C, and better at C than assembly. I suspect it’s related to the difficulty of the language and the quality of the input. It’s trained on lots of terrible C — the internet is loaded with it after all — and probably the only labeled x86 assembly it’s seen is crummy beginner tutorials. Ask it to use SDL2 and it reliably produces the common mistakes because it’s been trained to do so.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;What about boilerplate? That’s something an LLM could probably do with a low error rate, and perhaps there’s merit to it. Though the fastest way to deal with boilerplate is to not write it at all. Change your problem to not require boilerplate.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Without taking my word for it, consider how it show up in the economics: If AI companies could deliver the productivity gains they claim, they wouldn’t sell AI. They’d keep it to themselves and gobble up the software industry. Or consider the software products produced by companies on the bleeding edge of AI. It’s still the same old, bloated web garbage everyone else is building. (My LLM research has involved navigating their awful web sites, and it’s made be bitter.)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-</description>
-        <pubDate>Mon, 13 Oct 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/10/13/p1159-chris-wellons-local-llms-only-good-for-3-lines-of-code-as-of-november-2024/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/13/p1159-chris-wellons-local-llms-only-good-for-3-lines-of-code-as-of-november-2024/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Highly Recommended for all folks not just Filipinos! Carmela Sison as Chef Mela is fabulous in Lasa ng Imperyo/A Taste of Empire, an adaptation of a play by Jovanni Sy Oct 9-19, 2025 at Presentation House Theatre, North Vancouver, $30</title>
-        <description>&lt;p&gt;&lt;strong&gt;Highly recommended&lt;/strong&gt;. &lt;a href=&quot;https://www.instagram.com/rapsberryshake/&quot;&gt;Carmela Sison&lt;/a&gt; as Chef Mela is fabulous -&amp;gt; Lasa ng Imperyo/&lt;a href=&quot;https://talonbooks.com/books/a-taste-of-empire&quot;&gt;A Taste of Empire&lt;/a&gt;, an adaptation of a play by &lt;a href=&quot;https://www.canadiantheatre.com/dict.pl?term=Sy%2C%20Jovanni&quot;&gt;Jovanni Sy,&lt;/a&gt; is playing in North Vancouver at the &lt;a href=&quot;https://www.phtheatre.org/stec_event/lasa-ng-imperyo/&quot;&gt;Presentation House Theatre&lt;/a&gt; until October 19, 2025. It’s a history lesson from Magellan to the Spanish Empire’s influence on Filipino cuisine since the 1500s to the Spanish American war’s killing of over 10, 000 Filipinos by American soldiers (some historians say many more like over 100, 000), to the migrant workers of Mexico in Abbotsford who in an ironic twist work hard with very low wages to supply tomatoes to Filipinos (ironic because Spanish Empire Philippines was administered from Acapulco, Mexico for over 200 years, see Wikipedia: &lt;a href=&quot;https://en.wikipedia.org/wiki/Manila_galleon&quot;&gt;Manila galleon&lt;/a&gt;) to Trump and a &lt;a href=&quot;https://www.kawalingpinoy.com/relyenong-bangus/&quot;&gt;relyenong bangus&lt;/a&gt; cooking lesson. It’s funny sad, and gut wrenching. Only $30! The first time I’ve seen a play in Tagalog with English subtitles. &lt;strong&gt;100% relevant to everybody not just Filipinos.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;blurb-from-ph-theatre&quot;&gt;Blurb from PH Theatre&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Superstar of the culinary world, Master Chef Maximo Cortés is offering an exclusive demonstration, sharing the secrets of his trademarked Imperial Cuisine cooking techniques with you, his lucky, elite guests! Or at least, he would have, if he had shown up.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Luckily, the witty and intrepid Sous-Chef Mela is here to save the day! Her task? To cook rellenong bangus, or stuffed milkfish, a dish whose intricate preparation process takes its roots from the country’s culinary traditions and colonial past. In a surprising fusion of theatre and gastronomy, this live cooking demonstration pairs the harsh truths of a global food system with shocking humour. Performed in Tagalog with English surtitles, this show guides audiences across the layered history of Philippine cultural heritage through a live cooking demonstration.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This adaptation of Jovanni Sy’s &lt;em&gt;A Taste of Empire&lt;/em&gt; reimagines this acclaimed play through a fresh female perspective. As the dish is brought to life, so too are the stories embedded within its ingredients.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Food will be served. Contact 604-990-3473 if you have allergy concerns.&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;(originally written usig Wordland and posted on &lt;a href=&quot;https://roland.wordpress.com/2025/10/12/324/&quot;&gt;roland.wordpress.com&lt;/a&gt;)&lt;/p&gt;
-</description>
-        <pubDate>Sun, 12 Oct 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/10/12/p1108-lasa-imperyo-jovanni-sy-carmela-sison-adaptation-tagalog-presentation-house-theatre-northvan-highly-recommended/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/12/p1108-lasa-imperyo-jovanni-sy-carmela-sison-adaptation-tagalog-presentation-house-theatre-northvan-highly-recommended/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Ben Werdmuller:: Lifelogging under fascism...Imagine a device that lifelogged and stored quantified self data using strong, key-based encryption &lt;-- ME:: I want this yes please!</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 12, 2025 16:29 (UTC)&lt;a href=&quot;https://werd.io/lifelogging-under-fascism/&quot;&gt;Ben Werdmuller:: Lifelogging under fascism…Imagine a device that lifelogged and stored quantified self data using strong, key-based encryption &amp;lt;– ME:: I want this yes please!&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;:: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Imagine a device that lifelogged and stored quantified self data using strong, key-based encryption. You could access the information yourself for your own purposes, but it would remain fully encrypted and behind multi-factor login protection. If you needed to, you could release footage to predefined trusted parties: family members, a trusted member of the community, organizations like the ACLU, and as a tip to trusted newsrooms. If you didn’t get a chance to do that before being detained or otherwise incapacitated, a set number (three or five, perhaps) trusted people could agree to release your footage by taking action on their own devices together — a bit like needing multiple people to launch a nuclear missile. Every time footage was released, that action would be indelibly logged, as a guard against abuse.&lt;/code&gt; ; Read the whole thing &lt;a href=&quot;https://werd.io/lifelogging-under-fascism/&quot;&gt;Lifelogging under fascism&lt;/a&gt; ]&lt;/p&gt;
-</description>
-        <pubDate>Sun, 12 Oct 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/10/12/p0929-lifelogging-under-fascism/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/12/p0929-lifelogging-under-fascism/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: Ben, this sounds great, how can I help support this? Ben Werdmuller:: If I started fresh...a private-by-default, federated platform designed for groups that already know each other or are actively building trust</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 12, 2025 16:15 (UTC)&lt;a href=&quot;https://werd.io/if-i-started-fresh/&quot;&gt;ME:: Ben, this sounds great, how can I help support this? Ben Werdmuller:: If I started fresh…a private-by-default, federated platform designed for groups that already know each other or are actively building trust&lt;/a&gt; &amp;lt;–&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://werd.io/if-i-started-fresh/&quot;&gt;If I started fresh&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;By not releasing an open source project at first, the business has a chance to seed the culture of the platform. It can provide the resources, support, and vigilance needed to make sure the space is inclusive, respectful, and safe. Once the platform has matured and there are thriving, healthy communities, that’s when we can release a reference codebase — not as a symbolic gesture, but as a foundation others can build on without compromise. That moment would come once the platform has proven its core use case, the community culture is thriving, and the financial base is strong enough to support long-term governance.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;In the meantime, because it’s all based on open social web protocols, other developers could have been building their own participating open source community platforms, dashboards, and libraries.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Sun, 12 Oct 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/10/12/p0915-if-i-started-fresh/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/12/p0915-if-i-started-fresh/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Ben Werdmuller:: If I ran my life, private schools would be banned &lt;-- ME::Amen!</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 12, 2025 15:47 (UTC)&lt;a href=&quot;https://werd.io/if-i-ran-my-life/&quot;&gt;Ben Werdmuller:: If I ran my life, private schools would be banned &amp;lt;– ME::Amen!&lt;/a&gt; &amp;lt;– Read the whole thing:: &lt;a href=&quot;https://werd.io/if-i-ran-my-life/&quot;&gt;If I ran my life&lt;/a&gt;! &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;As for schools? One of my most controversial opinions is that private schools should be banned. Everyone, no matter how rich or how poor, should have to go through the same system. This will force the system to be better, and helps ensure that everyone has the same opportunities. (It also ensures that children meet peers from other stratas and classes.) In reality, that’s never going to happen&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 12 Oct 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/10/12/p0847-if-i-ran-my-life/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/12/p0847-if-i-ran-my-life/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: LLMs are a useful tool to complement your learning and to help construct your meaning; you can use them to replace your labour and get good grades but that's not going to result in learning which is of course NOT about grades ; Soroush Sabbaghan:: AI can be responsibly integrated into classrooms by answering the ‘why’ and ‘when’</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 12, 2025 15:24 (UTC)&lt;a href=&quot;https://theconversation.com/ai-can-be-responsibly-integrated-into-classrooms-by-answering-the-why-and-when-261496&quot;&gt;ME:: LLMs are a useful tool to complement your learning and to help construct your meaning; you can use them to replace your labour and get good grades but that’s not going to result in learning which is of course NOT about grades ; Soroush Sabbaghan:: AI can be responsibly integrated into classrooms by answering the ‘why’ and ‘when’&lt;/a&gt;&lt;/p&gt;
+        <title>ME:: classic paper about why groupware and social apps fail ; Jonathan Grudin:: 1988:: WHY CSCW APPLICATIONS FAIL: PROBLEMS IN THE DESIGN AND EVALUATION OF ORGANIZATIONAL INTERFACES</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 16, 2025 14:57 (UTC)&lt;a href=&quot;https://www.cs.uml.edu/~holly/teaching/91550/spring2012/p85-grudin.pdf&quot;&gt;ME:: classic paper about why groupware and social apps fail ; Jonathan Grudin:: 1988:: WHY CSCW APPLICATIONS FAIL: PROBLEMS IN THE DESIGN AND EVALUATION OF ORGANIZATIONAL INTERFACES&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://theconversation.com/ai-can-be-responsibly-integrated-into-classrooms-by-answering-the-why-and-when-261496&quot;&gt;AI can be responsibly integrated into classrooms by answering the ‘why’ and ‘when’&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://www.cs.uml.edu/~holly/teaching/91550/spring2012/p85-grudin.pdf&quot;&gt;Jonathan Grudin:: 1988:: WHY CSCW APPLICATIONS FAIL: PROBLEMS IN THE DESIGN AND EVALUATION OF ORGANIZATIONAL INTERFACES&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;This reframes the “why” of using AI. From this perspective, the only justification for integrating AI into a learning process should be to support and sustain intellectual labour.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;…&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;However, when the “how” of AI is used to bypass the very struggle that builds virtue (by exercising intellectual labour, including analysis, deliberation and judgment), it directly undermines the “why” of the assignment. A graduate student who generates a descriptive list of pertinent research about a topic without engaging with the sources skips the valuable process of synthesis and critical engagement.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;For Dewey, learning happens through doing, questioning and grappling with complexity, not by acquiring information passively. Assignments that reward perfection and correctness over process and growth further incentivize the use of AI as a shortcut, reducing learning to prompting and receiving rather than engaging in the intellectual labour of constructing meaning.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This is where an “ethics of care” becomes indispensable. As philosopher Nel Noddings proposed, a care-based approach prioritizes relationships and the needs of the individual over rigid, universal rules. It moves away from a one-size-fits-all policy and toward discretionary judgment.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Deciding the “when” requires educators to know their learner, understand the learning goal and act with compassion and wisdom. It is a relational act, not a technical one.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Educators must ensure that AI supports rather than displaces the development of core capabilities.&lt;/p&gt;
+  &lt;p&gt;Many systems, applications, and features that support
+cooperative work share two characteristics: A significant
+investment has been made in their development, and their
+successes have consistently fallen far short of expecta-
+tions. Examination of several application areas reveals a
+common dynamic: 1) A factor contributing to the
+application’s failure is the disparity between those who
+will benefit from an application and those who must do
+additional work to support it. 2) A factor contributing to
+the decision-making failure that leads to ill-fated
+development efforts is the unique lack of management
+intuition for CSCW applications. 3) A factor contributing
+to the failure to learn from experience is the extreme
+difficulty of evaluating these applications. These three
+problem areas escape adequate notice due to two natural
+but ultimately misleading analogies: the analogy between
+multi-user application programs and multi-user computer
+systems, and the analogy between multi-user applications
+and single-user applications. These analogies influence
+the way we think about cooperative work applications and
+designers and decision-makers fail to recognize their
+limits. Several CSCW application areas are examined in
+some deta&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
-        <pubDate>Sun, 12 Oct 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/10/12/p0824-ai-can-be-responsibly-integrated-into-classrooms-by-answering-the-why-and-when-261496/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/12/p0824-ai-can-be-responsibly-integrated-into-classrooms-by-answering-the-why-and-when-261496/</guid>
+        <pubDate>Thu, 16 Oct 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/10/16/p0757-p85-grudin/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/16/p0757-p85-grudin/</guid>
         
         
       </item>
     
       <item>
-        <title>GitHub - yotam/PyFlickr: Download Images using the Flickr API via the flickrapi python package </title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 12, 2025 15:13 (UTC)&lt;a href=&quot;https://github.com/yotam/PyFlickr&quot;&gt;GitHub - yotam/PyFlickr: Download Images using the Flickr API via the flickrapi python package &lt;/a&gt; &amp;lt;– May not work since it requires the flickrapi python package which is not maintained/deprecated see previous post. &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Downloads images from Flickr with the requested tags. Requires python package flickrapi, and a Flickr API key (set this in the script).&lt;/code&gt;&lt;/p&gt;
+        <title>ME:: What is the downside to uv? Doesn't seem to be one :-) It does it all, runs python, manages dependencies etc ;  Rob Hudson:: From pyenv to uv: Streamlining Python Management ¦ Rob's Cogitations</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 16, 2025 14:51 (UTC)&lt;a href=&quot;https://rob.cogit8.org/posts/2024-09-19-pyenv-to-uv/&quot;&gt;ME:: What is the downside to uv? Doesn’t seem to be one :-) It does it all, runs python, manages dependencies etc ;  Rob Hudson:: From pyenv to uv: Streamlining Python Management ¦ Rob’s Cogitations&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sun, 12 Oct 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/10/12/p0813-pyflickr/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/12/p0813-pyflickr/</guid>
+        <pubDate>Thu, 16 Oct 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/10/16/p0751-2024-09-19-pyenv-to-uv/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/16/p0751-2024-09-19-pyenv-to-uv/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: if you can break a problem into a series of sub-problems and write that list of sub-problems you have always been capable of being a software developer. Now more than ever with or without LLMs ; Brandon Dixon:: Febuary 16, 2024:: Can you write? Great, you're a developer.</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 16, 2025 14:48 (UTC)&lt;a href=&quot;https://applied-gai-in-security.ghost.io/natural-language-as-code/&quot;&gt;ME:: if you can break a problem into a series of sub-problems and write that list of sub-problems you have always been capable of being a software developer. Now more than ever with or without LLMs ; Brandon Dixon:: Febuary 16, 2024:: Can you write? Great, you’re a developer.&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 16 Oct 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/10/16/p0748-natural-language-as-code/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/16/p0748-natural-language-as-code/</guid>
         
         
       </item>
