@@ -1,0 +1,23 @@
+I"Y<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Oct 18, 2025 19:44 (UTC)<a href="https://blog.pixelmelt.dev/kindle-web-drm/">ME:: Pointless ‘drm’ gotta pointless or something :-) ; Pixelmelt:: How I Reversed Amazon’s Kindle Web Obfuscation Because Their App Sucked</a></p>
+
+<h2 id="quote">QUOTE</h2>
+<ul>
+  <li>read the whole thing: <a href="https://blog.pixelmelt.dev/kindle-web-drm/">How I Reversed Amazon’s Kindle Web Obfuscation Because Their App Sucked</a></li>
+</ul>
+
+<blockquote>
+  <p>TL;DR</p>
+</blockquote>
+
+<blockquote>
+  <ul>
+    <li>I bought my first ebook from amazon</li>
+    <li>Amazon’s Kindle Android app was really buggy and crashed a bunch</li>
+    <li>Tried to download my book to use with a functioning reader app</li>
+    <li>Realized Amazon no longer lets you do that</li>
+    <li>Decided to reverse engineer their obfuscation system out of spite</li>
+    <li>Discovered multiple layers of protection including randomized alphabets</li>
+    <li>Defeated all of them with font matching wizardry</li>
+  </ul>
+</blockquote>
+:ET

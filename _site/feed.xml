@@ -6,9 +6,140 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 16 Oct 2025 10:44:42 -0700</pubDate>
-    <lastBuildDate>Thu, 16 Oct 2025 10:44:42 -0700</lastBuildDate>
+    <pubDate>Sun, 19 Oct 2025 14:11:59 -0700</pubDate>
+    <lastBuildDate>Sun, 19 Oct 2025 14:11:59 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>ME:: Analogical programming by demonstration as opposed to programming with Fregean text ;  Ivan Reese, Jimmy Miller, and Lu Wilson:: Pygmalion by David C. Smith - Feeling of Computing - Omny.fm</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 19, 2025 07:23 (UTC)&lt;a href=&quot;https://omny.fm/shows/feeling-of-computing/pygmalion-by-david-c-smith&quot;&gt;ME:: Analogical programming by demonstration as opposed to programming with Fregean text ;  Ivan Reese, Jimmy Miller, and Lu Wilson:: Pygmalion by David C. Smith - Feeling of Computing - Omny.fm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;See also:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://acypher.com/wwid/Chapters/01Pygmalion.html&quot;&gt;Pygmalion: An Executable Electronic Blackboard David Canfield Smith&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://instadeq.com/blog/posts/no-code-history-pygmalion-1975/&quot;&gt;No-code History: Pygmalion (1975&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://acypher.com/wwid/&quot;&gt;Allan Cypher, editor,  co-edited by Daniel C. Halbert, David Kurlander, Henry Lieberman, David Maulsby, Brad A. Myers, and Alan Turransky::  Watch What I Do: Programming by Demonstration&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://omny.fm/shows/feeling-of-computing/pygmalion-by-david-c-smith&quot;&gt;Ivan Reese, Jimmy Miller, and Lu Wilson:: Pygmalion by David C. Smith - Feeling of Computing - Omny.fm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you’re anything like Ivan (oof, sorry), you’ve heard of Pygmalion but never caught more than the gist. Some sort of project from the early 70s, similar to Sketchpad or Smalltalk or something, yet another promising prototype from the early history of our field that failed to take the world by storm. Our stock-in-trade on this show.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;But you’ve probably heard of Programming by Demonstration. And you’ve certainly heard of icons — you know, those little pictures that have become indelibly part of computing as we know it. Pygmalion is the originator of these concepts… and more!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The best introduction to Pygmalion is Mariano Guerra’s No-code History: Pygmalion, which includes a clearly articulated summary of the big ideas, motivation, and design, with a video demonstration of the programming interface, key terminology, and links.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The most introduction to Pygmalion — or Pig Million, The Millionth Pig, as it’ll surely come to be known — is the subject of today’s episode: the original paper by David Canfield Smith.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sun, 19 Oct 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/10/19/p0023-pygmalion-by-david-c-smith/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/19/p0023-pygmalion-by-david-c-smith/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: Pointless 'drm' gotta pointless or something :-) ; Pixelmelt:: How I Reversed Amazon's Kindle Web Obfuscation Because Their App Sucked</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 18, 2025 19:44 (UTC)&lt;a href=&quot;https://blog.pixelmelt.dev/kindle-web-drm/&quot;&gt;ME:: Pointless ‘drm’ gotta pointless or something :-) ; Pixelmelt:: How I Reversed Amazon’s Kindle Web Obfuscation Because Their App Sucked&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;read the whole thing: &lt;a href=&quot;https://blog.pixelmelt.dev/kindle-web-drm/&quot;&gt;How I Reversed Amazon’s Kindle Web Obfuscation Because Their App Sucked&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;TL;DR&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;I bought my first ebook from amazon&lt;/li&gt;
+    &lt;li&gt;Amazon’s Kindle Android app was really buggy and crashed a bunch&lt;/li&gt;
+    &lt;li&gt;Tried to download my book to use with a functioning reader app&lt;/li&gt;
+    &lt;li&gt;Realized Amazon no longer lets you do that&lt;/li&gt;
+    &lt;li&gt;Decided to reverse engineer their obfuscation system out of spite&lt;/li&gt;
+    &lt;li&gt;Discovered multiple layers of protection including randomized alphabets&lt;/li&gt;
+    &lt;li&gt;Defeated all of them with font matching wizardry&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sat, 18 Oct 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/10/18/p1244-kindle-web-drm/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/18/p1244-kindle-web-drm/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Jo Freeman:: The Tyranny of Stuctureless; ME:: a classic, please read!</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 17, 2025 14:58 (UTC)&lt;a href=&quot;https://www.jofreeman.com/joreen/tyranny.htm&quot;&gt;Jo Freeman:: The Tyranny of Stuctureless; ME:: a classic, please read!&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://www.jofreeman.com/joreen/tyranny.htm?ref=dwebyvr.org&quot;&gt;Jo Freeman:: The Tyranny of Stuctureless&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;1) Delegation of specific authority to specific individuals for specific tasks by democratic procedures.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;….&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;2) Requiring all those to whom authority has been delegated to be responsible to those who selected them.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;3) Distribution of authority among as many people as is reasonably possible.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;4) Rotation of tasks among individuals. Responsibilities which are held too long by one person, formally or informally, come to be seen as that person’s “property” and are not easily relinquished or controlled by the group.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;…
+.
+5) Allocation of tasks along rational criteria. Selecting someone for a position because they are liked by the group or giving them hard work because they are disliked serves neither the group nor the person in the long run.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;6) Diffusion of information&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 17 Oct 2025 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2025/10/17/p0758-tyranny/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/17/p0758-tyranny/</guid>
+        
+        
+      </item>
     
       <item>
         <title>ME tl-dr-ing; Computational poetry based on Telegu is cool ; koundinya:: Prāsa Programming Language:: Documentation - poetic computer</title>
@@ -129,71 +260,6 @@ LUT 05 // ‘Luminous City’ yuuui&lt;/p&gt;
         <pubDate>Thu, 16 Oct 2025 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2025/10/16/p0801-rossandhisjpegs-review-luts-newtro-warmfilm-teal-flat-s/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/10/16/p0801-rossandhisjpegs-review-luts-newtro-warmfilm-teal-flat-s/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: classic paper about why groupware and social apps fail ; Jonathan Grudin:: 1988:: WHY CSCW APPLICATIONS FAIL: PROBLEMS IN THE DESIGN AND EVALUATION OF ORGANIZATIONAL INTERFACES</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 16, 2025 14:57 (UTC)&lt;a href=&quot;https://www.cs.uml.edu/~holly/teaching/91550/spring2012/p85-grudin.pdf&quot;&gt;ME:: classic paper about why groupware and social apps fail ; Jonathan Grudin:: 1988:: WHY CSCW APPLICATIONS FAIL: PROBLEMS IN THE DESIGN AND EVALUATION OF ORGANIZATIONAL INTERFACES&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://www.cs.uml.edu/~holly/teaching/91550/spring2012/p85-grudin.pdf&quot;&gt;Jonathan Grudin:: 1988:: WHY CSCW APPLICATIONS FAIL: PROBLEMS IN THE DESIGN AND EVALUATION OF ORGANIZATIONAL INTERFACES&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Many systems, applications, and features that support
-cooperative work share two characteristics: A significant
-investment has been made in their development, and their
-successes have consistently fallen far short of expecta-
-tions. Examination of several application areas reveals a
-common dynamic: 1) A factor contributing to the
-application’s failure is the disparity between those who
-will benefit from an application and those who must do
-additional work to support it. 2) A factor contributing to
-the decision-making failure that leads to ill-fated
-development efforts is the unique lack of management
-intuition for CSCW applications. 3) A factor contributing
-to the failure to learn from experience is the extreme
-difficulty of evaluating these applications. These three
-problem areas escape adequate notice due to two natural
-but ultimately misleading analogies: the analogy between
-multi-user application programs and multi-user computer
-systems, and the analogy between multi-user applications
-and single-user applications. These analogies influence
-the way we think about cooperative work applications and
-designers and decision-makers fail to recognize their
-limits. Several CSCW application areas are examined in
-some deta&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Thu, 16 Oct 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/10/16/p0757-p85-grudin/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/16/p0757-p85-grudin/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: What is the downside to uv? Doesn't seem to be one :-) It does it all, runs python, manages dependencies etc ;  Rob Hudson:: From pyenv to uv: Streamlining Python Management ¦ Rob's Cogitations</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 16, 2025 14:51 (UTC)&lt;a href=&quot;https://rob.cogit8.org/posts/2024-09-19-pyenv-to-uv/&quot;&gt;ME:: What is the downside to uv? Doesn’t seem to be one :-) It does it all, runs python, manages dependencies etc ;  Rob Hudson:: From pyenv to uv: Streamlining Python Management ¦ Rob’s Cogitations&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 16 Oct 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/10/16/p0751-2024-09-19-pyenv-to-uv/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/16/p0751-2024-09-19-pyenv-to-uv/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: if you can break a problem into a series of sub-problems and write that list of sub-problems you have always been capable of being a software developer. Now more than ever with or without LLMs ; Brandon Dixon:: Febuary 16, 2024:: Can you write? Great, you're a developer.</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 16, 2025 14:48 (UTC)&lt;a href=&quot;https://applied-gai-in-security.ghost.io/natural-language-as-code/&quot;&gt;ME:: if you can break a problem into a series of sub-problems and write that list of sub-problems you have always been capable of being a software developer. Now more than ever with or without LLMs ; Brandon Dixon:: Febuary 16, 2024:: Can you write? Great, you’re a developer.&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 16 Oct 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/10/16/p0748-natural-language-as-code/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/16/p0748-natural-language-as-code/</guid>
         
         
       </item>
