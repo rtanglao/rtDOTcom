@@ -6,9 +6,50 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 02 Nov 2025 00:10:23 -0700</pubDate>
-    <lastBuildDate>Sun, 02 Nov 2025 00:10:23 -0700</lastBuildDate>
+    <pubDate>Fri, 07 Nov 2025 14:52:05 -0800</pubDate>
+    <lastBuildDate>Fri, 07 Nov 2025 14:52:05 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>ME:: seems like mounting a tripod on bicycle handlebards with zip ties would be unstable?!? ; woofboy111:: The Hands Free Bicycle Camera Tripod : 6 Steps (with Pictures) - Instructables</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 5, 2025 03:40 (UTC) &lt;a href=&quot;https://www.instructables.com/The-Hands-Free-Bicycle-Camera-Tripod/&quot;&gt;ME:: seems like mounting a tripod on bicycle handlebards with zip ties would be unstable?!? ; woofboy111:: The Hands Free Bicycle Camera Tripod : 6 Steps (with Pictures) - Instructables&lt;/a&gt; &amp;lt;– from 16 years ago. i wonder if this works with a phone mounted on a peak design mount with a tripod mount&lt;/p&gt;
+</description>
+        <pubDate>Tue, 04 Nov 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/11/04/p1940-the-hands-free-bicycle-camera-tripod/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/11/04/p1940-the-hands-free-bicycle-camera-tripod/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: find is often easier to use with shell pattern matching instead of regular expressions ; How to randomly open a jpeg or JPG or JPEG or jpg file ; explainshell.com `-iname` to do filename case insensitive pattern matching and `-o` for boolean OR</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 3, 2025 18:37 (UTC) &lt;a href=&quot;https://explainshell.com/explain?cmd=find+.+-type+f+%5C%28+-iname+%22*.jpg%22+-o+-iname+%22*.jpeg%22+%5C%29+%7C+sort+-R+%7C+head+-1+%7C+xargs+-n+1+open&quot;&gt;ME:: find is often easier to use with shell pattern matching instead of regular expressions! ; How to randomly open a jpeg or JPG or JPEG or jpg file ; explainshell.com - find . -type f ( -iname “&lt;em&gt;.jpg” -o -iname “&lt;/em&gt;.jpeg” ) ¦ sort -R ¦ head -1 ¦ xargs -n 1 open&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;key-details&quot;&gt;Key Details&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;shell pattern matching seems (not sure how up to date this is) to be documented in gnu’s docs at &lt;a href=&quot;https://www.gnu.org/software/findutils/manual/html_node/find_html/Shell-Pattern-Matching.html&quot;&gt;2.3.4 Shell Pattern Matching&lt;/a&gt; and &lt;a href=&quot;https://www.linux.com/news/patterns-and-string-processing-shell-scripts/&quot;&gt;Peter Seebach’s Patterns and string processing in shell scripts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;you can use regular expressions in find using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-regex&lt;/code&gt; (probably want to also use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-E&lt;/code&gt; for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;extended modern regular expressions&lt;/code&gt; ) and if you do regular expressions test with an online simulator like &lt;a href=&quot;https://regex101.com/&quot;&gt;regex101&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;case insensitive shell pattern &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-iname pattern&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Like  -name,  but  the match is case insensitive.  For example, the patterns &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fo*' and &lt;/code&gt;F??’ match
+       the file names &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Foo', &lt;/code&gt;FOO’, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;foo', &lt;/code&gt;fOo’, etc.   In these patterns, unlike filename expansion  by
+       the  shell,  an  initial  ‘.’ can be matched by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*'.  That is, find -name *bar will match the file
+       &lt;/code&gt;.foobar’.   Please note that you should quote patterns as a matter of course, otherwise the shell
+       will expand any wildcard characters in them.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;within a shell pattern, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-o&lt;/code&gt; means &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OR&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-a&lt;/code&gt; means &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;AND&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 03 Nov 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/11/03/p1037-shell-pattern-matching-explained/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/11/03/p1037-shell-pattern-matching-explained/</guid>
+        
+        
+      </item>
     
       <item>
         <title>ME:: yes....and :-) so much to learn from philosophy ; Wikipedia:: Both/and reasoning</title>
@@ -242,46 +283,6 @@
         <pubDate>Fri, 17 Oct 2025 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2025/10/17/p0758-tyranny/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/10/17/p0758-tyranny/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME tl-dr-ing; Computational poetry based on Telegu is cool ; koundinya:: Prāsa Programming Language:: Documentation - poetic computer</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 16, 2025 15:35 (UTC)&lt;a href=&quot;https://poetic.computer/implementation/&quot;&gt;ME tl-dr-ing; Computational poetry based on Telegu is cool ; koundinya:: Prāsa Programming Language:: Documentation - poetic computer&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Prāsa is an esoteric programming language that investigates the intersection of technology and cultural identity.&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 16 Oct 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/10/16/p0835-implementation/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/16/p0835-implementation/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: I need to dig deeper into Postmodern criticism, deconstruction, etc ; Brian Marick:: Deconstructing (cruddily) 'How to Deconstruct Almost Everything' // Oddly Influenced</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 16, 2025 15:28 (UTC)&lt;a href=&quot;https://blog.oddly-influenced.dev/2024/12/19/how-to-deconstruct.html&quot;&gt;ME:: I need to dig deeper into Postmodern criticism, deconstruction, etc ; Brian Marick:: Deconstructing (cruddily) “How to Deconstruct Almost Everything” // Oddly Influenced&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://blog.oddly-influenced.dev/2024/12/19/how-to-deconstruct.html&quot;&gt;Brian Marick:: Deconstructing (cruddily) “How to Deconstruct Almost Everything” // Oddly Influenced&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;In 1993, the software engineer Chip Morningstar published an essay called “How To Deconstruct Almost Anything.” In it, he surveys what he learned reading Jonathan Culler’s 1982 book On Deconstruction: Theory and Criticism after Structuralism, which was a standard text at the time for people who want to do literary criticism.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Nowadays, he’d have had an easier time. I would recommend Peter Berry’s 1995 Beginning Theory: An Introduction to Literary and Cultural Theory or Lois Tyson’s 1998 Critical Theory Today: A User-Friendly Guide. Both are survey books, covering various different styles of criticism, including the New Criticism, structuralism, deconstruction (a rival of structuralism), New Historicism, and so on. Those are generally lumped together as “Theory,” not a great name in my opinion. Morningstar speaks of “postmodernism” and “deconstruction” rather interchangeably, which is wrong but unfortunately common. Postmodern criticism is a type of Theory that lives alongside deconstruction. You can think of Theory as the abstract superclass, and postmodernism and deconstruction as concrete subclasses. He’s got the inheritance hierarchy – and which properties belong to which class – all mixed up. It’s possibly also important that deconstruction and postmodernism were originally philosophical theories by actual philosophers that were later adopted by literary critics. Jacques Derrida the philosopher was doing the philosophy thing of being in dialogue with dead philosophers like Hegel, Heidegger, Nietzsche, and Husserl, and his key writings assume you’ve already read those people. (And Hegel, Husserl and Heidegger are notoriously opaque, even for philosophers.) Culler tries to explain both the philosophy and its application, which makes for a tough read.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The critic is like the programmer. You can use just one approach (like deconstruction, or like Rust) for all your projects, but you’re better off if you can choose the tool you think most appropriate for the job&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Thu, 16 Oct 2025 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2025/10/16/p0828-how-to-deconstruct/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/10/16/p0828-how-to-deconstruct/</guid>
         
         
       </item>

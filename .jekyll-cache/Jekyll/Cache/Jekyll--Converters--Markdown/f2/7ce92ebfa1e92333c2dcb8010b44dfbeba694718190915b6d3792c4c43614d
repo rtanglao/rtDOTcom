@@ -1,0 +1,21 @@
+I"@
+<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Nov 3, 2025 18:37 (UTC) <a href="https://explainshell.com/explain?cmd=find+.+-type+f+%5C%28+-iname+%22*.jpg%22+-o+-iname+%22*.jpeg%22+%5C%29+%7C+sort+-R+%7C+head+-1+%7C+xargs+-n+1+open">ME:: find is often easier to use with shell pattern matching instead of regular expressions! ; How to randomly open a jpeg or JPG or JPEG or jpg file ; explainshell.com - find . -type f ( -iname “<em>.jpg” -o -iname “</em>.jpeg” ) ¦ sort -R ¦ head -1 ¦ xargs -n 1 open</a></p>
+<h2 id="key-details">Key Details</h2>
+<ul>
+  <li>shell pattern matching seems (not sure how up to date this is) to be documented in gnu’s docs at <a href="https://www.gnu.org/software/findutils/manual/html_node/find_html/Shell-Pattern-Matching.html">2.3.4 Shell Pattern Matching</a> and <a href="https://www.linux.com/news/patterns-and-string-processing-shell-scripts/">Peter Seebach’s Patterns and string processing in shell scripts</a></li>
+  <li>you can use regular expressions in find using the <code class="language-plaintext highlighter-rouge">-regex</code> (probably want to also use <code class="language-plaintext highlighter-rouge">-E</code> for <code class="language-plaintext highlighter-rouge">extended modern regular expressions</code> ) and if you do regular expressions test with an online simulator like <a href="https://regex101.com/">regex101</a></li>
+  <li>case insensitive shell pattern <code class="language-plaintext highlighter-rouge">-iname pattern</code></li>
+</ul>
+
+<blockquote>
+  <p>Like  -name,  but  the match is case insensitive.  For example, the patterns <code class="language-plaintext highlighter-rouge">fo*' and </code>F??’ match
+       the file names <code class="language-plaintext highlighter-rouge">Foo', </code>FOO’, <code class="language-plaintext highlighter-rouge">foo', </code>fOo’, etc.   In these patterns, unlike filename expansion  by
+       the  shell,  an  initial  ‘.’ can be matched by <code class="language-plaintext highlighter-rouge">*'.  That is, find -name *bar will match the file
+       </code>.foobar’.   Please note that you should quote patterns as a matter of course, otherwise the shell
+       will expand any wildcard characters in them.</p>
+</blockquote>
+
+<ul>
+  <li>within a shell pattern, <code class="language-plaintext highlighter-rouge">-o</code> means <code class="language-plaintext highlighter-rouge">OR</code>, <code class="language-plaintext highlighter-rouge">-a</code> means <code class="language-plaintext highlighter-rouge">AND</code></li>
+</ul>
+:ET
