@@ -1,0 +1,30 @@
+I"�<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Nov 8, 2025 17:42 (UTC) <a href="https://www.brendangregg.com/flamegraphs.html">ME:: Need to explore Flame Graphs for support data and need to read the The Flame Graph ACM Paper ; Brendan Gregg:: Flame Graphs</a></p>
+
+<ul>
+  <li>Gotta read the original ACMQ paper: <a href="https://queue.acm.org/detail.cfm?id=2927301">The Flame Graph</a></li>
+</ul>
+
+<h2 id="quote">QUOTE</h2>
+
+<ul>
+  <li>Read the whole thing: <a href="https://www.brendangregg.com/flamegraphs.html">Brendan Gregg:: Flame Graphs</a></li>
+</ul>
+
+<blockquote>
+  <p>The x-axis shows the stack profile population, sorted alphabetically (it is not the passage of time), and the y-axis shows stack depth, counting from zero at the bottom. Each rectangle represents a stack frame. The wider a frame is is, the more often it was present in the stacks. The top edge shows what is on-CPU, and beneath it is its ancestry. Original flame graphs use random colors to help visually differentiate adjacent frames. Variations include inverting the y-axis (an “icicle graph”), changing the hue to indicate code type, and using a color spectrum to convey an additional dimension.</p>
+</blockquote>
+
+<blockquote>
+  <p>Flame graphs are both a static and dynamic visualization. As a static visualization, a flame graph can be saved as an image, included in print (books), and will still convey the “big picture” as only the most frequent frames have enough width for labels. A dynamic visualization allows interactive features to aid navigation and comprehension, including:</p>
+</blockquote>
+
+<blockquote>
+  <p>Mouse hover shows additional frame details in a status bar.
+   Mouse click zooms the visualization horizontally, revealing function names previously elided.
+   Search matches and highlights a given term and shows the “cumulative percentage” of stacks including the search term.</p>
+</blockquote>
+
+<blockquote>
+  <p>This visualization is fully explained in my ACMQ article <a href="https://queue.acm.org/detail.cfm?id=2927301">The Flame Graph</a>, also published in Communications of the ACM, Vol. 59 No. 6.</p>
+</blockquote>
+:ET
