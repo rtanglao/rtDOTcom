@@ -6,9 +6,20 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 08 Nov 2025 20:12:20 -0800</pubDate>
-    <lastBuildDate>Sat, 08 Nov 2025 20:12:20 -0800</lastBuildDate>
+    <pubDate>Sun, 09 Nov 2025 21:15:42 -0800</pubDate>
+    <lastBuildDate>Sun, 09 Nov 2025 21:15:42 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Polish is overrated in Podcasts :-) It's just audio on the internet. Get over yourself just post it :-) !</title>
+        <description>&lt;p&gt;Don’t worry (too much) about sound quality, editing, advertising, the image etc etc I certainly haven’t since 2004 LOL. See &lt;a href=&quot;https://over40invan.com/&quot;&gt;Over 40 in Vancouver&lt;/a&gt; for an example :-) or &lt;a href=&quot;https://www.rolandmicroblog.com/&quot;&gt;rolandmicroblog.com&lt;/a&gt; for even more thrilling lack of polish :-)&lt;/p&gt;
+</description>
+        <pubDate>Sun, 09 Nov 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/11/09/p2109-polish-overrated-podcasts-audio-internet-post/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/11/09/p2109-polish-overrated-podcasts-audio-internet-post/</guid>
+        
+        
+      </item>
     
       <item>
         <title>ME:: And so it begins go Firefox for Enterprise go :-) ! I was involved in the last Firefox Enterprise effort 2018-2020 and it didn't go anywhere; hopefully it will go further this time! ; Brian Smith:: Introducing early access for Firefox Support for Organizations</title>
@@ -105,45 +116,6 @@
         <pubDate>Sat, 08 Nov 2025 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2025/11/08/p0948-building-a-wordpress-mcp-server-for-claude-automating-blog-posts-with-ai/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/11/08/p0948-building-a-wordpress-mcp-server-for-claude-automating-blog-posts-with-ai/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: Need to explore Flame Graphs for support data and need to read the The Flame Graph ACM Paper ; Brendan Gregg:: Flame Graphs</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 8, 2025 17:42 (UTC) &lt;a href=&quot;https://www.brendangregg.com/flamegraphs.html&quot;&gt;ME:: Need to explore Flame Graphs for support data and need to read the The Flame Graph ACM Paper ; Brendan Gregg:: Flame Graphs&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Gotta read the original ACMQ paper: &lt;a href=&quot;https://queue.acm.org/detail.cfm?id=2927301&quot;&gt;The Flame Graph&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://www.brendangregg.com/flamegraphs.html&quot;&gt;Brendan Gregg:: Flame Graphs&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The x-axis shows the stack profile population, sorted alphabetically (it is not the passage of time), and the y-axis shows stack depth, counting from zero at the bottom. Each rectangle represents a stack frame. The wider a frame is is, the more often it was present in the stacks. The top edge shows what is on-CPU, and beneath it is its ancestry. Original flame graphs use random colors to help visually differentiate adjacent frames. Variations include inverting the y-axis (an “icicle graph”), changing the hue to indicate code type, and using a color spectrum to convey an additional dimension.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Flame graphs are both a static and dynamic visualization. As a static visualization, a flame graph can be saved as an image, included in print (books), and will still convey the “big picture” as only the most frequent frames have enough width for labels. A dynamic visualization allows interactive features to aid navigation and comprehension, including:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Mouse hover shows additional frame details in a status bar.
-   Mouse click zooms the visualization horizontally, revealing function names previously elided.
-   Search matches and highlights a given term and shows the “cumulative percentage” of stacks including the search term.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This visualization is fully explained in my ACMQ article &lt;a href=&quot;https://queue.acm.org/detail.cfm?id=2927301&quot;&gt;The Flame Graph&lt;/a&gt;, also published in Communications of the ACM, Vol. 59 No. 6.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Sat, 08 Nov 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/11/08/p0942-flamegraphs/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/11/08/p0942-flamegraphs/</guid>
         
         
       </item>
