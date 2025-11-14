@@ -1,0 +1,25 @@
+I"�
+<ul>
+  <li>format is <code class="language-plaintext highlighter-rouge">title followed by blank line followed by rest of the post in markdown format</code> for example:</li>
+</ul>
+
+<p><strong>Start of awesome post in a checkvist list item</strong></p>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>awesome title
+
+awesome rest of the post. <span class="gs">**awesome bold text**</span>
+</code></pre></div></div>
+<p><strong>End of awesome post in a checkvist list item</strong></p>
+
+<ul>
+  <li><a href="https://github.com/rtanglao/rt-checkvist/blob/main/without-link-blogthis.rb">without-link-blogthis.rb</a> autocreates the slug from the first line of a list item in a checkvist list (using the title with stop words removed)</li>
+  <li><a href="https://github.com/rtanglao/rt-checkvist/blob/main/linkless_blog_all_open.rb">linkless_blog_all_open.rb</a> calls without_blogthis.rb to create blog posts in jekyll format from my all open list items in my ‘blog this’ <a href="https://checkvist.com/checklists/936619">checkvist list 936619</a> after you type ‘y’ to approve it</li>
+  <li>Oh and along the way I improved my scripts so you don’t have to explicitly add the creation date. The created date is read from the checkvist api field <code class="language-plaintext highlighter-rouge">created_at</code>. Ruby code:
+    <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">t</span> <span class="o">=</span> <span class="no">Time</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">created_at</span><span class="p">)</span>
+<span class="n">logger</span><span class="p">.</span><span class="nf">debug</span><span class="p">(</span><span class="s2">"created_at: </span><span class="si">#{</span><span class="n">t</span><span class="p">.</span><span class="nf">ai</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="n">time_discovered_slug</span> <span class="o">=</span> <span class="n">t</span><span class="p">.</span><span class="nf">getlocal</span><span class="p">.</span><span class="nf">strftime</span><span class="p">(</span><span class="s1">'%Y-%m-%d-p%H%M'</span><span class="p">)</span>
+</code></pre></div>    </div>
+    <h2 id="previously">Previously</h2>
+  </li>
+  <li>December 28, 2024: <a href="https://rolandtanglao.com/2024/12/28/p1718-blog_all_open/">my ruby script that’s responsible for my flurry of recent blog posts is called blog_all_open.rb.. It calls blogthis.rb to create blog posts in jekyll format with a nice slug from my all open list items in my ‘blog this’ checkvist list 74286 after you type ‘y’ to approve it</a></li>
+</ul>
+:ET

@@ -6,9 +6,42 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 13 Nov 2025 11:36:54 -0800</pubDate>
-    <lastBuildDate>Thu, 13 Nov 2025 11:36:54 -0800</lastBuildDate>
+    <pubDate>Fri, 14 Nov 2025 11:04:41 -0800</pubDate>
+    <lastBuildDate>Fri, 14 Nov 2025 11:04:41 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>without-link-blogthis.rb: new ruby script for blog posts that don't reference a link I call this from linkless_blog_all_open.rb.</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;format is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;title followed by blank line followed by rest of the post in markdown format&lt;/code&gt; for example:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Start of awesome post in a checkvist list item&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;awesome title
+
+awesome rest of the post. &lt;span class=&quot;gs&quot;&gt;**awesome bold text**&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;End of awesome post in a checkvist list item&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-checkvist/blob/main/without-link-blogthis.rb&quot;&gt;without-link-blogthis.rb&lt;/a&gt; autocreates the slug from the first line of a list item in a checkvist list (using the title with stop words removed)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-checkvist/blob/main/linkless_blog_all_open.rb&quot;&gt;linkless_blog_all_open.rb&lt;/a&gt; calls without_blogthis.rb to create blog posts in jekyll format from my all open list items in my ‘blog this’ &lt;a href=&quot;https://checkvist.com/checklists/936619&quot;&gt;checkvist list 936619&lt;/a&gt; after you type ‘y’ to approve it&lt;/li&gt;
+  &lt;li&gt;Oh and along the way I improved my scripts so you don’t have to explicitly add the creation date. The created date is read from the checkvist api field &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;created_at&lt;/code&gt;. Ruby code:
+    &lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;parse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;created_at&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;logger&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;debug&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;created_at: &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;ai&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;time_discovered_slug&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;getlocal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;strftime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'%Y-%m-%d-p%H%M'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+  &lt;/li&gt;
+  &lt;li&gt;December 28, 2024: &lt;a href=&quot;https://rolandtanglao.com/2024/12/28/p1718-blog_all_open/&quot;&gt;my ruby script that’s responsible for my flurry of recent blog posts is called blog_all_open.rb.. It calls blogthis.rb to create blog posts in jekyll format with a nice slug from my all open list items in my ‘blog this’ checkvist list 74286 after you type ‘y’ to approve it&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 14 Nov 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Revenge of renewables. Despite the USA and Alberta governments (and our former environmentalist PM), renewable i.e. solar and wind is the right side of history</title>
@@ -192,17 +225,6 @@
         <pubDate>Sun, 09 Nov 2025 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2025/11/09/p2109-polish-overrated-podcasts-audio-internet-post/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/11/09/p2109-polish-overrated-podcasts-audio-internet-post/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: And so it begins go Firefox for Enterprise go :-) ! I was involved in the last Firefox Enterprise effort 2018-2020 and it didn't go anywhere; hopefully it will go further this time! ; Brian Smith:: Introducing early access for Firefox Support for Organizations</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 8, 2025 18:25 (UTC) &lt;a href=&quot;https://blog.mozilla.org/en/firefox/firefox-support-for-organizations/&quot;&gt;ME:: And so it begins go Firefox for Enterprise go :-) ! I was involved in the last Firefox Enterprise effort 2018-2020 and it didn’t go anywhere; hopefully it will go further this time! ; Brian Smith:: Introducing early access for Firefox Support for Organizations&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Multiple Firefox logos forming a curved trail on a dark background. ... Increasingly, businesses, schools, and government institutions deploy Firefox at scale for security, resilience, and data sovereignty. Organizations have fine-grained administrative and orchestration control of the browser’s behavior using policies with Firefox and the Extended Support Release (ESR). Today, we’re opening early access to Firefox Support for Organizations, a new program that begins operation in January 2026.&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 08 Nov 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/11/08/p1025-firefox-support-for-organizations/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/11/08/p1025-firefox-support-for-organizations/</guid>
         
         
       </item>
