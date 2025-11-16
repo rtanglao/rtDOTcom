@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Panasonic please add the LUT name to the S9 EXIF in S9 JPEGs (and other cameras that support LUTs of course)"
+title: "Panasonic please add the LUT name to the EXIF in S9 JPEGs (and other cameras that support LUTs of course)"
 ---
 * So I can keep track of which LUT I used :-) . I doubt they will do this but can't help to ask. I'll see if I can file a support request or some such and if I can and do I will post a followup.
 * Oh and I hope and trust that somebody else has already asked for this feature :-) I don't ever claim to be original in my 1000s :-) of ideas!!
