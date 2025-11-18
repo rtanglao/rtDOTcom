@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ME:: tl;dr-ing Tariffs are justified for two reasons: 1. to pay for international freight emissions 2. social, fiscal and environmental dumping 3. ; Thomas Piketty:: Rethinking world trade"
+title: "ME:: tl;dr-ing Tariffs are justified for two reasons: 1. to pay for international freight emissions 2. social, fiscal and environmental dumping ; Thomas Piketty:: Rethinking world trade"
 ---
 [Discovered](http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/): Nov 17, 2025 02:14 (UTC) [ME:: tl;dr-ing Tariffs are justified for two reasons: 1. to pay for international freight emissions 2. social, fiscal and environmental dumping 3. ; Thomas Piketty:: Rethinking world trade](https://www.lemonde.fr/blog/piketty/2025/10/07/rethinking-world-trade/)
 
