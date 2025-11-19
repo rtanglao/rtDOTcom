@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 17 Nov 2025 22:41:24 -0800</pubDate>
-    <lastBuildDate>Mon, 17 Nov 2025 22:41:24 -0800</lastBuildDate>
+    <pubDate>Tue, 18 Nov 2025 20:10:06 -0800</pubDate>
+    <lastBuildDate>Tue, 18 Nov 2025 20:10:06 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>It's 2025: could websites, blog posts and newsletters use links to actually link to the restaurant, website, museum, etc that they're referring to pretty please :-) ?</title>
+        <description>&lt;p&gt;#LOLIHaveBeenAskingThisForAtLeast20Years ;-) Also I still hate newsletters (I’d rather read your website especially if it has RSS) and won’t read them even though I subscribe and I am still not starting a newsletter :-) #Ymmv&lt;/p&gt;
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;April 7, 2020: &lt;a href=&quot;http://rolandtanglao.com/2020/04/07/p1-blogs-and-rss-are-dead-but-since-nothing-to-sell-no-email-newsletter/&quot;&gt;Agree with Chuq! The blog is dead and so is RSS but since i’m not trying to sell you anything (yet) i will continue to blog, generate RSS &amp;amp; not have an email newsletter #ymmv #doWhatMakesYouHappyAndGivesYouThe’Engagement’YouSeek :-)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 18 Nov 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/11/18/p2000-websites-blog-posts-newsletters-should-link-to-restaurant-website-museum-websites-pretty-please/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/11/18/p2000-websites-blog-posts-newsletters-should-link-to-restaurant-website-museum-websites-pretty-please/</guid>
+        
+        
+      </item>
     
       <item>
         <title>My Apeman R1 Seeker rear view real-time video camera shows lots people illegally driving with their daytime running lights OFF behind me in the city of Vancouver.</title>
@@ -244,39 +259,6 @@ awesome rest of the post. &lt;span class=&quot;gs&quot;&gt;**awesome bold text**
         <pubDate>Thu, 13 Nov 2025 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2025/11/13/p0841-revenge-renewables-usa-alberta-government-wrong-side-history/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/11/13/p0841-revenge-renewables-usa-alberta-government-wrong-side-history/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: free websites for folks who know how to use git for how long? Sounds great, except for having enough $. And grebedoc is codeberg spelled backwards LOL ; Catherine 'whitequark' and teammates:: Grebedoc — static site hosting for git forges</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 13, 2025 16:33 (UTC) &lt;a href=&quot;https://grebedoc.dev/&quot;&gt;ME:: free websites for folks who know how to use git for how long? Sounds great, except for having enough $. And grebedoc is codeberg spelled backwards LOL ; Catherine ‘whitequark’ and teammates:: Grebedoc — static site hosting for git forges&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://grebedoc.dev/&quot;&gt;Grebedoc — static site hosting for git forges&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;In short: a service that publishes the pages branch in your Git repository as a website on your domain; think GitHub Pages if it was open source and community operated.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;More specifically, it is a public deployment of git-pages and Caddy configured to work especially with Codeberg but also with other Git forges. It is operated by Catherine ‘whitequark’ and teammates, and currently deployed using Rage4 anycast infrastructure routing to VPSes in six regions (Europe, North America East, North America West, South America, East Asia, Australia), with site contents stored on Tigris and backed up to Wasabi.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This service is provided as a public utility, especially for those migrating from GitHub to community operated forges, and we plan to operate it indefinitely. It is monitored and has a status page.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The size of a website is currently limited to 768 MiB. We are aiming to eventually raise this to 10 GiB.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Thu, 13 Nov 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/11/13/p0833-grebedoc-dev/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/11/13/p0833-grebedoc-dev/</guid>
         
         
       </item>
