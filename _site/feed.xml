@@ -6,9 +6,20 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 20 Nov 2025 22:07:41 -0800</pubDate>
-    <lastBuildDate>Thu, 20 Nov 2025 22:07:41 -0800</lastBuildDate>
+    <pubDate>Fri, 21 Nov 2025 09:44:13 -0800</pubDate>
+    <lastBuildDate>Fri, 21 Nov 2025 09:44:13 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Broken CFMU podcast scene :-) due to React perhaps?</title>
+        <description>&lt;p&gt;I can’t listen to my friend Kevin’s &lt;a href=&quot;https://cfmu.ca/episode/alternative-pre-89-episode-for-2025-11-12/&quot;&gt;second&lt;/a&gt; and &lt;a href=&quot;https://cfmu.ca/episode/alternative-pre-89-episode-for-2025-11-19/&quot;&gt;third&lt;/a&gt; pre 1989 alternative 80s shows because the web developer failed or something or React fails? &lt;a href=&quot;https://cfmu.ca/episode/alternative-pre-89-episode-for-2025-11-05/&quot;&gt;The first episode&lt;/a&gt; works fine. I tried debugging it with Firefox web tools and couldn’t figure it out i.e. I’m a terrible hobbyist web developer part 8888 :-).&lt;/p&gt;
+</description>
+        <pubDate>Fri, 21 Nov 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/11/21/p0842-broken-cfmu-podcast-scene-react/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/11/21/p0842-broken-cfmu-podcast-scene-react/</guid>
+        
+        
+      </item>
     
       <item>
         <title>ME:: Starcloud hides their 'secret compute in space' or something :-) ; Vaclav Vincalek:: Is this SciFi enough?</title>
@@ -248,17 +259,6 @@
         <pubDate>Sun, 16 Nov 2025 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2025/11/16/p0038-lenses-food-languages-books-sports-hobbies-volunteering/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/11/16/p0038-lenses-food-languages-books-sports-hobbies-volunteering/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: use this to access all my computers from anywhere ; Tailscale blog:: The Tailscale node you mail to your parents</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 16, 2025 02:19 (UTC) &lt;a href=&quot;https://tailscale.com/blog/exit-node-parents-streaming-support&quot;&gt;ME:: use this to access all my computers from anywhere ; Tailscale blog:: The Tailscale node you mail to your parents&lt;/a&gt; &amp;lt;– gotta do this to access my nodes from anywhere. &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Or the stoop, the package locker, or wherever your friends and family get their packages. Tailscale can run on tiny devices, like a Raspberry Pi or Apple TV, that fit in small boxes. Once plugged in, a pre-loaded Tailscale device can help you troubleshoot devices back home, provide an exit node for VPN purposes, and give you an off-site backup location, among other neat tricks.&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 15 Nov 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/11/15/p1819-tailscale-exit-node-parents-streaming-support/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/11/15/p1819-tailscale-exit-node-parents-streaming-support/</guid>
         
         
       </item>
