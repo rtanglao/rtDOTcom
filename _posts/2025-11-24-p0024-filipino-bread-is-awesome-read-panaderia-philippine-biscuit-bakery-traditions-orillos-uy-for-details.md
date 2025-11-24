@@ -2,7 +2,7 @@
 layout: post
 title: "Filipino bread is actually awesome. Read Panaderia: Philippine Bread, Biscuit and Bakery Traditions by Jenny Orillos and Amy Uy to learn the full breadth and depth of it."
 ---
-* It's just that people (the diaspora and the ones living in the Philippines)  don't actually know beyond the common place and the cliche. Perhaps because it takes a lot of time and it's expensive to to check it out in the USA and Canada (and in the Philippines).
+* It's just that people (the diaspora and the ones living in the Philippines)  don't actually know beyond the common place and the cliché. Perhaps because it takes a lot of time and it's expensive to to check it out in the USA and Canada (and in the Philippines).
 * There's way more to Filipino baking than just ensaymada, hopia, pan de sal etc etc. Check out [Panaderia: Philippine Bread, Biscuit and Bakery Traditions by Jenny Orillos and Amy Uy](https://panaderiaph.wordpress.com/panaderia-book/) (https://www.facebook.com/panaderiaph/) to learn all about it. 
 * It's not all overly sweet or bland. It's that :-) and everything marvelously in between.
 
