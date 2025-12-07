@@ -6,9 +6,53 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 05 Dec 2025 10:47:17 -0800</pubDate>
-    <lastBuildDate>Fri, 05 Dec 2025 10:47:17 -0800</lastBuildDate>
+    <pubDate>Sat, 06 Dec 2025 18:14:17 -0800</pubDate>
+    <lastBuildDate>Sat, 06 Dec 2025 18:14:17 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>ME:: go 'Te Hiku, Apertus and other smaller models for preserving small languages' go :-) ! ; Ethan Zuckerman:: Gramsci's Nightmare: AI, Platform Power and the Automation of Cultural Hegemony</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 6, 2025 23:15 (UTC) &lt;a href=&quot;https://ethanzuckerman.com/2025/12/05/gramscis-nightmare-ai-platform-power-and-the-automation-of-cultural-hegemony/&quot;&gt;ME:: go ‘Te Hiku, Apertus and other smaller models for preserving small languages’ go :-) ! ; Ethan Zuckerman:: Gramsci’s Nightmare: AI, Platform Power and the Automation of Cultural Hegemony&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://ethanzuckerman.com/2025/12/05/gramscis-nightmare-ai-platform-power-and-the-automation-of-cultural-hegemony/&quot;&gt;Ethan Zuckerman:: Gramsci’s Nightmare: AI, Platform Power and the Automation of Cultural Hegemony&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I’m inspired by a project in New Zealand launched by a cultural organization called Te Hiku Media. The CEO of Te Hiku, Peter-Lucas Jones, is Maori and the organization has worked since 1990 to put voices in te reo Maori, the Maori language, on the radio, ending decades during which the New Zealand government suppressed the teaching and speaking of the language. A few years ago, he asked his husband, Keoni Mahelona, a native Hawaiian and a polymathic scholar and technologist, to help the organization build a website. The two ended up realizing that the three decades of recorded Maori speech in the radio archives represented a cultural heritage that likely existed nowhere else.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;That archive of spoken te reo Maori becomes more powerful if it’s indexed, and that requires transcribing many thousands of hours of tape, or building a speech to text model. Mahelona visited with gatherings of Maori elders and explained how machine learning models worked, what a speech to text model might make possible and got buy-in and consent from the broader community. That allowed Te Hiku to recruit a truly amazing number of participants into the project of recording snippets of spoken Maori. Over ten days, 2500 speakers recorded 300 hours of the language, creating 200,000 labeled snippets of speech. Jones and Mahelona relied on a set of cultural institutions to accomplish this – they held a contest between traditional canoe racing teams to see which could record the most phrases. They ended up with training data that powers a language transcription model that is 92% accurate… and they’ve got engaged volunteers who could work to correct transcription errors and add data.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This Maori ML project is already being used to power a language learning application, similar to DuoLingo, but using tools built by the community rather than extracted from them. Young Maori speakers are able to check their pronunciation against a database of voices of elders who’ve worked to keep the language alive. And the 30+ years of audio that Te Hiku has collected are now both an indexable archive, but also potentially the corpus for a small LLM built around Maori language, knowledge and values.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The Te Hiku corpus is probably too small to build a large language model using the techniques we use today, which rely on ready access to massive data sets. But there are projects similar in spirit, notably Apertus, a Swiss project to create an open, multilingual language model that emphasizes the importance of non-English languages, especially Romansh and Swiss German. 40% of Apertus’s model is non-English… which gives you a sense of just how dominant English is in most models… and the goal is to build models for chatbots, translation systems and educational tools that emphasize transparency and diversity.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sat, 06 Dec 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/12/06/p1515-gramscis-nightmare-ai-platform-power-and-the-automation-of-cultural-hegemony/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/12/06/p1515-gramscis-nightmare-ai-platform-power-and-the-automation-of-cultural-hegemony/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: tl-dr-ing: substage is a macOS app that makes pandoc, ffmpeg, imagemagick, sips, etc usable for normal people via LLMs (using LLMs via OpenRouter and many LLMs) or something :-) Substage: Command line power, natural language ease.</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 5, 2025 20:44 (UTC) &lt;a href=&quot;https://selkie.design/substage/&quot;&gt;ME:: tl-dr-ing: substage is a macOS app that makes pandoc, ffmpeg, imagemagick, sips, etc usable for normal people via LLMs (using LLMs via OpenRouter and many LLMs) or something :-) Substage: Command line power, natural language ease.&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Substage converts natural language prompts into command line commands.&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 05 Dec 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/12/05/p1244-substage/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/12/05/p1244-substage/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Hey Canadian Facebook people, post news links to your blog and then link to your blog post in FB. Easy peasy stop whingeing :-)</title>
@@ -123,28 +167,6 @@ We are all one. When so many are sick and funding can help reduce that now and i
         <pubDate>Sat, 29 Nov 2025 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2025/11/29/p2355-the-ai-app-experience-matters-more-than-benchmarks-now/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/11/29/p2355-the-ai-app-experience-matters-more-than-benchmarks-now/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: Specifications can be version controlled much easier than prompts and are therefore the future for AI assisted software development; Marc Brooker:: Kiro and the future of AI spec-driven software development</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 30, 2025 07:49 (UTC) &lt;a href=&quot;https://kiro.dev/blog/kiro-and-the-future-of-software-development/&quot;&gt;ME:: Specifications can be version controlled much easier than prompts and are therefore the future for AI assisted software development; Marc Brooker:: Kiro and the future of AI spec-driven software development&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Approaching development with specifications has three significant benefits. First, it provides a way for developers and stakeholders to understand and agree on the goals of the program. It’s crisp documentation on what we want the program to do, the interface to look like, and how it should be implemented. Working at the specification level allows programmers to move faster, and spend more time thinking about the things that really matter. Second, it provides a guide for AI agents to work from, refer to, and validate their work against. A North Star to guide the work of the agent, allowing it to take on larger tasks without getting lost. Third, the specification tames the chaos of prompt-driven vibe coding on large code bases, moving away from an ad-hoc exercise in prompt engineering, to way for programmers to crisply express their intent to agents. A specification is a kind of (version controlled, human-readable) super prompt.&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 29 Nov 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/11/29/p2349-kiro-and-the-future-of-software-development/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/11/29/p2349-kiro-and-the-future-of-software-development/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>LLMs are just tools that are part of your problem solving system part 8888 :-) ; Marc Brooker:: LLMs as Parts of Systems</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 30, 2025 07:46 (UTC) &lt;a href=&quot;https://brooker.co.za/blog/2025/08/12/llms-as-components.html&quot;&gt;LLMs are just tools that are part of your problem solving system part 8888 :-) ; Marc Brooker:: LLMs as Parts of Systems&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;As a system builder, I’m much more interested in what systems of LLMs and tools can do together. LLMs and code interpreters. LLMs and databases. LLMs and browsers. LLMs and SMT solvers. These systems can do things, today, that LLMs alone simply can’t, and will never be able to do. More importantly, they can do things today orders of magnitude more cheaply and quickly than LLMs can, even in the case where they can do the same things.&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 29 Nov 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/11/29/p2346-llms-as-components/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/11/29/p2346-llms-as-components/</guid>
         
         
       </item>
