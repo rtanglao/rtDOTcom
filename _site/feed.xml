@@ -6,9 +6,111 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 07 Dec 2025 09:57:50 -0800</pubDate>
-    <lastBuildDate>Sun, 07 Dec 2025 09:57:50 -0800</lastBuildDate>
+    <pubDate>Tue, 09 Dec 2025 00:07:16 -0800</pubDate>
+    <lastBuildDate>Tue, 09 Dec 2025 00:07:16 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>ME:: I wonder how many tokens this will burn :-)  Again nobody talks about the $$$$$ i.e. the costs; Anand Chowdhary:: continuous-claude CLI tool: Running Claude Code in a loop </title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 8, 2025 05:45 (UTC) &lt;a href=&quot;https://anandchowdhary.com/blog/2025/running-claude-code-in-a-loop&quot;&gt;ME:: I wonder how many tokens this will burn :-)  Again nobody talks about the \(\)$ i.e. the costs; Anand Chowdhary:: continuous-claude CLI tool: Running Claude Code in a loop &lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://anandchowdhary.com/blog/2025/running-claude-code-in-a-loop&quot;&gt;Anand Chowdhary:: continuous-claude CLI tool: Running Claude Code in a loop&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Tools like Dependabot handle dependency updates, but Continuous Claude can also fix post-update breaking changes using release notes. You could run a GitHub Actions workflow every morning that checks for updates and continuously fixes issues until all tests pass.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Large refactoring tasks become manageable: breaking a monolith into modules, modernizing callbacks to async/await, or updating to new style guidelines. It could perform a series of 20 pull requests over a weekend, each doing part of the refactor with full CI validation. There’s a whole class of tasks that are too mundane for humans but still require attention to avoid breaking the build.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The model mirrors human development practices. Claude Code handles the grunt work, but humans remain in the loop through familiar mechanisms like PR reviews. Download the CLI from GitHub to get started: AnandChowdhary/continuous-claude&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sun, 07 Dec 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/12/07/p2145-running-claude-code-in-a-loop/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/12/07/p2145-running-claude-code-in-a-loop/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: sample Claude.md to decompile a N64 game from assembler to C language source code LOLz that this works but i guess it does :-) ; Chris Lewis:: snowboardkids2-decomp/CLAUDE.md at 852f47a4905a08d5d652387597bc5b47d29582f2</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 8, 2025 05:37 (UTC) &lt;a href=&quot;https://github.com/cdlewis/snowboardkids2-decomp/blob/852f47a4905a08d5d652387597bc5b47d29582f2/CLAUDE.md&quot;&gt;ME:: sample Claude.md to decompile a N64 game from assembler to C language source code LOLz that this works but i guess it does :-) ; Chris Lewis:: snowboardkids2-decomp/CLAUDE.md at 852f47a4905a08d5d652387597bc5b47d29582f2&lt;/a&gt; &amp;lt;– see Chris Lewis’s blog post about this: &lt;a href=&quot;https://blog.chrislewis.au/the-unexpected-effectiveness-of-one-shot-decompilation-with-claude/&quot;&gt;The Unexpected Effectiveness of One-Shot Decompilation with Claude&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 07 Dec 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/12/07/p2137-claude/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/12/07/p2137-claude/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Recommended: Moody Ales de-alcoholized Lavender Sour, over 90% as good :-) as the original version with alcohol</title>
+        <description>&lt;p&gt;Yay! (&lt;a href=&quot;https://www.moodyales.com/products/lavender-sour-non-alcoholic-beer&quot;&gt;Lavender Sour&lt;/a&gt;)&lt;/p&gt;
+</description>
+        <pubDate>Sun, 07 Dec 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/12/07/p2013-recommended-moody-ales-de-alcoholized-lavender-sour-90percent-as-good-as-original-version-alcohol/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/12/07/p2013-recommended-moody-ales-de-alcoholized-lavender-sour-90percent-as-good-as-original-version-alcohol/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Recommended: Field House de-alcoholized Salted Black Porter</title>
+        <description>&lt;p&gt;Yay :-) ! (&lt;a href=&quot;https://untappd.com/b/field-house-brewing-co-salted-black-porter/6481243&quot;&gt;Untappd link to the de-acoholized Salted Black Porter&lt;/a&gt;)&lt;/p&gt;
+</description>
+        <pubDate>Sun, 07 Dec 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/12/07/p2012-recommended-field-house-de-alcoholized-salted-black-porter/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/12/07/p2012-recommended-field-house-de-alcoholized-salted-black-porter/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: Recipes that probably work :-) ; Lauren Keating:: Sheet Pan Chicken Thighs With Root Vegetables ¦ Healthy Delicious</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 8, 2025 02:29 (UTC) &lt;a href=&quot;https://www.healthy-delicious.com/crispy-baked-chicken-thighs/&quot;&gt;ME:: Recipes that probably work :-) ; Lauren Keating:: Sheet Pan Chicken Thighs With Root Vegetables ¦ Healthy Delicious&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quoteing-the-full-recipe-because-i-dont-trust-the-internet--&quot;&gt;QUOTEing the full recipe because I don’t trust the internet :-)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://www.healthy-delicious.com/crispy-baked-chicken-thighs/&quot;&gt;Lauren Keating:: Sheet Pan Chicken Thighs With Root Vegetables ¦ Healthy Delicious&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;4 bone-in chicken thighs&lt;/li&gt;
+  &lt;li&gt;Kosher salt&lt;/li&gt;
+  &lt;li&gt;Cracked black pepper&lt;/li&gt;
+  &lt;li&gt;½ teaspoon crushed rosemary&lt;/li&gt;
+  &lt;li&gt;4 carrots peeled and diced&lt;/li&gt;
+  &lt;li&gt;1 turnip peeled and diced&lt;/li&gt;
+  &lt;li&gt;2 parsnips peeled and diced&lt;/li&gt;
+  &lt;li&gt;Parsley for garnish&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;instructions&quot;&gt;Instructions&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Heat your oven to 400ºF.&lt;/li&gt;
+  &lt;li&gt;Pat the chicken dry with paper towels. Season generously with salt, pepper, and rosemary.&lt;/li&gt;
+  &lt;li&gt;Add the diced vegetables to the bottom of a casserole dish. Place the chicken skin-side up on top of the vegetables.&lt;/li&gt;
+  &lt;li&gt;Roast on the top rack of your oven for 40-50 minutes, until the chicken reaches an internal temperature of 165 degrees and the skin is crisp.&lt;/li&gt;
+  &lt;li&gt;Remove from the oven and let rest for 5 minutes. Sprinkle with fresh parsley.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Sun, 07 Dec 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/12/07/p1829-crispy-baked-chicken-thighs/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/12/07/p1829-crispy-baked-chicken-thighs/</guid>
+        
+        
+      </item>
     
       <item>
         <title>The Hepatitis vaccination like all scientifically tested vaccinations saves lives.</title>
@@ -100,89 +202,6 @@
         <pubDate>Fri, 05 Dec 2025 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2025/12/05/p1244-substage/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/12/05/p1244-substage/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Hey Canadian Facebook people, post news links to your blog and then link to your blog post in FB. Easy peasy stop whingeing :-)</title>
-        <description>&lt;p&gt;LOL. Blogs are better according to this grumpy old man part 888888888888 :-)&lt;/p&gt;
-</description>
-        <pubDate>Fri, 05 Dec 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/12/05/p0840-canadian-facebook-people-post-news-links-to-your-blog-then-post-blog-link-to-facebook-stop-whingeing/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/12/05/p0840-canadian-facebook-people-post-news-links-to-your-blog-then-post-blog-link-to-facebook-stop-whingeing/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: part 8888 All software not just games will run on any device. Windows, macOS and linux software will run (or be emulated) on all machines is the future of software ; The Verge:: Steam Machine today, Steam Phones tomorrow</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 3, 2025 17:06 (UTC) &lt;a href=&quot;https://www.theverge.com/report/820656/valve-interview-arm-gaming-steamos-pierre-loup-griffais&quot;&gt;ME:: part 8888 All software not just games will run on any device. Windows, macOS and linux software will run (or be emulated) on all machines is the future of software ; The Verge:: Steam Machine today, Steam Phones tomorrow&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;It’s a big deal that Valve is making a game console. But I’m beginning to think the Steam Machine may end up a footnote in gaming history. What if Valve could bring PC games not just to its own living room consoles, but also to the Arm chips that billions of people have in their phones? What if you no longer had to wait for game developers to do the hard work of porting PC games to your phone, Mac, or other Arm hardware, because games built for desktop PCs could just work?&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 03 Dec 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/12/03/p0906-all-software-will-run-everywhere-valve-arm-gaming-steamos-pierre-loup-griffais/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/12/03/p0906-all-software-will-run-everywhere-valve-arm-gaming-steamos-pierre-loup-griffais/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Always be coding in 2025 is always be writing specifications for LLMs to code and for you to verify?</title>
-        <description>&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;October 16, 2025: &lt;a href=&quot;https://rolandtanglao.com/2025/10/16/p0748-natural-language-as-code/&quot;&gt;ME:: if you can break a problem into a series of sub-problems and write that list of sub-problems you have always been capable of being a software developer. Now more than ever with or without LLMs ; Brandon Dixon:: Febuary 16, 2024:: Can you write? Great, you’re a developer.&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 02 Dec 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/12/02/p2339-always-be-coding-2025-writing-specifications-llms-code-verify/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/12/02/p2339-always-be-coding-2025-writing-specifications-llms-code-verify/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: tl;dr-ing: I 100% agree with my friend :-) Alan! Always be Attributing (TASL-Title, Source, Author, Licence(s) all with links if possible) and Always be Linking; Alan Levine:: Tools for Attribution of Open Content – CogDogBlog</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 2, 2025 04:32 (UTC) &lt;a href=&quot;https://cogdogblog.com/2025/11/tools-for-attribution-of-open-content/&quot;&gt;ME:: tl;dr-ing: I 100% agree with my friend :-) Alan! Always be Attributing (TASL-Title, Source, Author, Licence(s) all with links if possible) and Always be Linking; Alan Levine:: Tools for Attribution of Open Content – CogDogBlog&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://cogdogblog.com/2025/11/tools-for-attribution-of-open-content/&quot;&gt;lan Levine:: Tools for Attribution of Open Content – CogDogBlog&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Its essentially all the information needed to create the &lt;a href=&quot;https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution&quot;&gt;Creative Commons TASL Best Practice form of attribution&lt;/a&gt; Title, Source (with link), Author (with link), Licences (with link).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;see-also&quot;&gt;See also&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Alan Levin:: November 30, 2014:: &lt;a href=&quot;https://cogdogblog.com/2014/11/always-be-attributing/&quot;&gt;Always be Attributing&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 01 Dec 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/12/01/p2032-always-be-attributing-tools-for-attribution-of-open-content/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/12/01/p2032-always-be-attributing-tools-for-attribution-of-open-content/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: tl-dr-ing: Courtesy of the oppressive Spanish Empire, Filipinos have been in North America since forever :-) Louisana in the mid-18th century is just one example of many! ; Wikipedia:: Saint Malo, Louisiana</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 1, 2025 15:17 (UTC) &lt;a href=&quot;https://en.wikipedia.org/wiki/Saint_Malo,_Louisiana&quot;&gt;ME:: tl-dr-ing: Courtesy of the oppressive Spanish Empire, Filipinos have been in North America since forever :-) Louisana in the mid-18th century is just one example of many! ; Wikipedia:: Saint Malo, Louisiana&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Saint Malo (Spanish: San Maló [samaˈlo]) was a small fishing village that existed along the shore of Lake Borgne in St. Bernard Parish, Louisiana as early as the mid-18th century until it was destroyed by the 1915 New Orleans hurricane.[1] Located along Bayou Saint Malo, about 6 miles (9.7 km) east of the Isleño fishing village of Shell Beach, it was the first permanent settlement of Filipinos and perhaps the first Asian American settlement in the United States.[2][3][4][5]&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The exact date of the establishment of Saint Malo is disputed.[6][4] The settlement may have been formed as early as 1763 or 1765 by Filipino deserters and escaped slaves of the Spanish Manila galleon trade.[7][8][9][10] The members of the community were commonly referred to as Manila men, or Manilamen, and later Tagalas.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Mon, 01 Dec 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/12/01/p0717-saint_malo,_louisiana/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/12/01/p0717-saint_malo,_louisiana/</guid>
         
         
       </item>
