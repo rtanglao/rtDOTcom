@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 09 Dec 2025 00:07:16 -0800</pubDate>
-    <lastBuildDate>Tue, 09 Dec 2025 00:07:16 -0800</lastBuildDate>
+    <pubDate>Wed, 10 Dec 2025 08:26:27 -0800</pubDate>
+    <lastBuildDate>Wed, 10 Dec 2025 08:26:27 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Like the car industry, the bicycle industry doesn't care about safety. If they did they'd lobby for separated bicycle lanes and have turn signals, brake lights, etc as standard equipment on commuter bicycles</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;It goes without saying mandating speed limiters and other car safety measures would help a lot more than regulating or adding safety features to bicycles ; we should do both :-) !
+    &lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+  &lt;/li&gt;
+  &lt;li&gt;August 15, 2025: &lt;a href=&quot;https://rolandtanglao.com/2025/08/15/p2216-signalling-right-by-pointing-right-with-right-arm-is-legal-in-british-columbia/&quot;&gt;To the #WhitePersonSplainers :-) who tell me extending my right arm is not a valid right turn signal (nobody who’s not white has ever mansplained this to me in 17 years of bicycling in Vancouver: It is a valid signal ; See:: BC Motor Vehicle Act:: Bicyclists signal a right turn by doing either of the following … (ii) extending the person’s right hand and arm horizontally from the cycle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 10 Dec 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/12/10/p0818-bicycle-industry-lobby-separated-lanes-turn-signals-brake-lights-standard-equipment/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/12/10/p0818-bicycle-industry-lobby-separated-lanes-turn-signals-brake-lights-standard-equipment/</guid>
+        
+        
+      </item>
     
       <item>
         <title>ME:: I wonder how many tokens this will burn :-)  Again nobody talks about the $$$$$ i.e. the costs; Anand Chowdhary:: continuous-claude CLI tool: Running Claude Code in a loop </title>
@@ -191,17 +207,6 @@
         <pubDate>Sat, 06 Dec 2025 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2025/12/06/p1515-gramscis-nightmare-ai-platform-power-and-the-automation-of-cultural-hegemony/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/12/06/p1515-gramscis-nightmare-ai-platform-power-and-the-automation-of-cultural-hegemony/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: tl-dr-ing: substage is a macOS app that makes pandoc, ffmpeg, imagemagick, sips, etc usable for normal people via LLMs (using LLMs via OpenRouter and many LLMs) or something :-) Substage: Command line power, natural language ease.</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 5, 2025 20:44 (UTC) &lt;a href=&quot;https://selkie.design/substage/&quot;&gt;ME:: tl-dr-ing: substage is a macOS app that makes pandoc, ffmpeg, imagemagick, sips, etc usable for normal people via LLMs (using LLMs via OpenRouter and many LLMs) or something :-) Substage: Command line power, natural language ease.&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Substage converts natural language prompts into command line commands.&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 05 Dec 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/12/05/p1244-substage/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/12/05/p1244-substage/</guid>
         
         
       </item>
