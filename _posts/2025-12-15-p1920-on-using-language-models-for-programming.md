@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "ME:: automation makes the bits left over humans more challenging; See also Lisanne Bainbridge's pape: Ironies of Automation from 1983; Tae Selene Sandoval Murgan:: thoughts/on-using-language-models-for-programming.md "
+title: "ME:: automation makes the bits left over humans more challenging; See also Lisanne Bainbridge's paper: Ironies of Automation from 1983; Tae Selene Sandoval Murgan:: thoughts/on-using-language-models-for-programming.md "
 ---
-[Discovered](http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/): Dec 16, 2025 03:20 (UTC) [ME:: automation makes the bits left over humans more challenging; See also Lisanne Bainbridge's pape: Ironies of Automation from 1983; Tae Selene Sandoval Murgan:: thoughts/on-using-language-models-for-programming.md ](https://codeberg.org/tssm/thoughts/src/branch/canon/on-using-language-models-for-programming.md) 
+[Discovered](http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/): Dec 16, 2025 03:20 (UTC) [ME:: automation makes the bits left over humans more challenging; See also Lisanne Bainbridge's paper: Ironies of Automation from 1983; Tae Selene Sandoval Murgan:: thoughts/on-using-language-models-for-programming.md ](https://codeberg.org/tssm/thoughts/src/branch/canon/on-using-language-models-for-programming.md) 
 
 ## QUOTE
 

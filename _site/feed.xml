@@ -6,9 +6,49 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 14 Dec 2025 22:47:57 -0800</pubDate>
-    <lastBuildDate>Sun, 14 Dec 2025 22:47:57 -0800</lastBuildDate>
+    <pubDate>Wed, 17 Dec 2025 09:36:00 -0800</pubDate>
+    <lastBuildDate>Wed, 17 Dec 2025 09:36:00 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>ME:: automation makes the bits left over humans more challenging; See also Lisanne Bainbridge's paper: Ironies of Automation from 1983; Tae Selene Sandoval Murgan:: thoughts/on-using-language-models-for-programming.md </title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 16, 2025 03:20 (UTC) &lt;a href=&quot;https://codeberg.org/tssm/thoughts/src/branch/canon/on-using-language-models-for-programming.md&quot;&gt;ME:: automation makes the bits left over humans more challenging; See also Lisanne Bainbridge’s paper: Ironies of Automation from 1983; Tae Selene Sandoval Murgan:: thoughts/on-using-language-models-for-programming.md &lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://codeberg.org/tssm/thoughts/src/branch/canon/on-using-language-models-for-programming.md&quot;&gt;Tae Selene Sandoval Murgan:: thoughts/on-using-language-models-for-programming.md at canon - tssm/thoughts - Codeberg.org&lt;/a&gt;  &amp;lt;– See also &lt;a href=&quot;https://ckrybus.com/static/papers/Bainbridge_1983_Automatica.pdf&quot;&gt;Lisanne Bainbridge’s classic 1983 paper in Automatic: Ironies of Automation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I wrote a version of the above as a Mastodon thread. And then I read Ironies of automation by Lisanne Bainbridge, a paper that, quoting its abstract, “discusses the ways in which automation of industrial processes may expand rather than eliminate problems with the human operator”. I got several ideas from it, but the most important is that regardless of how automation is performed, whatever levels of “intelligence” an automated system has, it’s rarely designed to collaborate with the human that formerly performed the work. On the contrary it’s designed to replace them. Which is an irony (as defined in the paper) because (among others) “by taking away the easy parts of his task, automation can make the difficult parts of the human operator’s task more difficult.” Even more, automation seldom “consider the integration of man and computer, nor how to maintain the effectiveness of the human operator by supporting his skills and motivation. There will always be a substantial human involvement with automated systems, because criteria other than efficiency are involved”.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We know language models have been touted as tools that enable computers to replace humans intellectual labor. And here we have a 40 years old paper saying actually that has never worked. I don’t believe language models or any other form of artificial “intelligence” is here to stay, but if that’s the case I hope it stays as a form of human-computer collaboration. As my skills and motivation lie in writing code, I’ll keep stubbornly rejection any trend that clashes with them. And as I keep feeling pressured to use these things, I’ll try to come with more silly ways which I feel that at least they don’t erase my motivation.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;So will I eagerly apply what I just described? I surely will when copy and pasting my code on a chatbot window is cheaper in motivation terms than filling in the gaps myself. The way to smooth the process is to run a local model, or pay for a service. For now I don’t want to do any, so who knows. At least I feel a little less dumber now.`&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Mon, 15 Dec 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/12/15/p1920-on-using-language-models-for-programming/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/12/15/p1920-on-using-language-models-for-programming/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: sparklines everythwere :-) Just kidding, only where they make sense ; Andros Fenollosa:: tanrax/quick-weather.el: Sparkline weather forecasts in Emacs</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 16, 2025 03:12 (UTC) &lt;a href=&quot;https://github.com/tanrax/quick-weather.el&quot;&gt;ME:: sparklines everythwere :-) Just kidding, only where they make sense ; Andros Fenollosa:: tanrax/quick-weather.el: Sparkline weather forecasts in Emacs&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Quick weather forecasts with sparklines for Emacs, using data from Open-Meteo.&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 15 Dec 2025 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2025/12/15/p1912-quick-sparklines-emacs-for-weather/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2025/12/15/p1912-quick-sparklines-emacs-for-weather/</guid>
+        
+        
+      </item>
     
       <item>
         <title>ME:: I didn't grow up with Mechado but I did grow up with Kaldereta and this dish has some overlapping ingredients Billy Parisi:: Mechado:: Cooking (probably) The Most Flavorful Beef Dish in the World - YouTube</title>
@@ -158,57 +198,6 @@ Non-EU recipients are responsible for possible taxes and duties.&lt;/p&gt;
         <pubDate>Sun, 07 Dec 2025 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2025/12/07/p2013-recommended-moody-ales-de-alcoholized-lavender-sour-90percent-as-good-as-original-version-alcohol/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/12/07/p2013-recommended-moody-ales-de-alcoholized-lavender-sour-90percent-as-good-as-original-version-alcohol/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Recommended: Field House de-alcoholized Salted Black Porter</title>
-        <description>&lt;p&gt;Yay :-) ! (&lt;a href=&quot;https://untappd.com/b/field-house-brewing-co-salted-black-porter/6481243&quot;&gt;Untappd link to the de-acoholized Salted Black Porter&lt;/a&gt;)&lt;/p&gt;
-</description>
-        <pubDate>Sun, 07 Dec 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/12/07/p2012-recommended-field-house-de-alcoholized-salted-black-porter/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/12/07/p2012-recommended-field-house-de-alcoholized-salted-black-porter/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: Recipes that probably work :-) ; Lauren Keating:: Sheet Pan Chicken Thighs With Root Vegetables ¦ Healthy Delicious</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 8, 2025 02:29 (UTC) &lt;a href=&quot;https://www.healthy-delicious.com/crispy-baked-chicken-thighs/&quot;&gt;ME:: Recipes that probably work :-) ; Lauren Keating:: Sheet Pan Chicken Thighs With Root Vegetables ¦ Healthy Delicious&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quoteing-the-full-recipe-because-i-dont-trust-the-internet--&quot;&gt;QUOTEing the full recipe because I don’t trust the internet :-)&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://www.healthy-delicious.com/crispy-baked-chicken-thighs/&quot;&gt;Lauren Keating:: Sheet Pan Chicken Thighs With Root Vegetables ¦ Healthy Delicious&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;4 bone-in chicken thighs&lt;/li&gt;
-  &lt;li&gt;Kosher salt&lt;/li&gt;
-  &lt;li&gt;Cracked black pepper&lt;/li&gt;
-  &lt;li&gt;½ teaspoon crushed rosemary&lt;/li&gt;
-  &lt;li&gt;4 carrots peeled and diced&lt;/li&gt;
-  &lt;li&gt;1 turnip peeled and diced&lt;/li&gt;
-  &lt;li&gt;2 parsnips peeled and diced&lt;/li&gt;
-  &lt;li&gt;Parsley for garnish&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;instructions&quot;&gt;Instructions&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Heat your oven to 400ºF.&lt;/li&gt;
-  &lt;li&gt;Pat the chicken dry with paper towels. Season generously with salt, pepper, and rosemary.&lt;/li&gt;
-  &lt;li&gt;Add the diced vegetables to the bottom of a casserole dish. Place the chicken skin-side up on top of the vegetables.&lt;/li&gt;
-  &lt;li&gt;Roast on the top rack of your oven for 40-50 minutes, until the chicken reaches an internal temperature of 165 degrees and the skin is crisp.&lt;/li&gt;
-  &lt;li&gt;Remove from the oven and let rest for 5 minutes. Sprinkle with fresh parsley.&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        <pubDate>Sun, 07 Dec 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/12/07/p1829-crispy-baked-chicken-thighs/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/12/07/p1829-crispy-baked-chicken-thighs/</guid>
         
         
       </item>
