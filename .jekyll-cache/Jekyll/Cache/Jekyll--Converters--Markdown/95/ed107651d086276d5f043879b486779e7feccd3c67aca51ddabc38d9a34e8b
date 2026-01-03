@@ -1,0 +1,4 @@
+I"t<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">grep</span> <span class="nt">-A</span> 2 <span class="s2">"comand to "</span> ~/Documents/LOGS/2026-01-02-2025-refresh-logs.txt ¦ <span class="se">\</span>
+<span class="nb">grep</span> <span class="nt">-v</span> <span class="s1">'cd'</span> ¦ <span class="nb">grep</span> <span class="nt">-v</span> <span class="s1">'E,'</span> ¦ <span class="nb">grep</span> <span class="nt">-v</span> <span class="s1">'\-\-'</span> <span class="o">&gt;</span> ~/Documents/LOGS/2025-01-03-re-run2025.sh
+</code></pre></div></div>
+:ET

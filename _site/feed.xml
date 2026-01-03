@@ -6,9 +6,113 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 29 Dec 2025 21:06:35 -0800</pubDate>
-    <lastBuildDate>Mon, 29 Dec 2025 21:06:35 -0800</lastBuildDate>
+    <pubDate>Sat, 03 Jan 2026 13:06:55 -0800</pubDate>
+    <lastBuildDate>Sat, 03 Jan 2026 13:06:55 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>grep command to get bash script to re-run SUMO AAQ API calls that fail using '-A 2' to get 2 lines after </title>
+        <description>&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-A&lt;/span&gt; 2 &lt;span class=&quot;s2&quot;&gt;&quot;comand to &quot;&lt;/span&gt; ~/Documents/LOGS/2026-01-02-2025-refresh-logs.txt ¦ &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'cd'&lt;/span&gt; ¦ &lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'E,'&lt;/span&gt; ¦ &lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'\-\-'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; ~/Documents/LOGS/2025-01-03-re-run2025.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Sat, 03 Jan 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/01/03/p1027-grep-command-bash-script-re-run-sumo-calls-fail-lines/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/03/p1027-grep-command-bash-script-re-run-sumo-calls-fail-lines/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: tl;dr-ing: Render HTML gist files on github as web pages ; Simon Willison:: Introducing gisthost.github.io</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 3, 2026 18:08 (UTC) &lt;a href=&quot;https://simonwillison.net/2026/Jan/1/gisthost/&quot;&gt;ME:: tl;dr-ing: Render HTML gist files on github as web pages ; Simon Willison:: Introducing gisthost.github.io&lt;/a&gt;
+&lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;I am a huge fan of gistpreview.github.io, the site by Leon Huang that lets you append ?GIST_id to see a browser-rendered version of an HTML page that you have saved to a Gist. The last commit was ten years ago and I needed a couple of small changes so I’ve forked it and deployed an updated version at gisthost.github.io.&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 03 Jan 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/01/03/p1008-gisthost/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/03/p1008-gisthost/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: tl;dr-ing: Groundhog Day , bliss station, noun, gifts, extraordinary, slay, change, tidy, demons, plant ; A book by Austin Kleon:: Keep Going</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 3, 2026 16:41 (UTC) &lt;a href=&quot;https://austinkleon.com/keepgoing/&quot;&gt;ME:: tl;dr-ing: Groundhog Day , bliss station, noun, gifts, extraordinary, slay, change, tidy, demons, plant ; A book by Austin Kleon:: Keep Going&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://austinkleon.com/keepgoing/&quot;&gt;A book by Austin Kleon:: Keep Going&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;Every day is Groundhog Day.&lt;/li&gt;
+    &lt;li&gt;Build a bliss station.&lt;/li&gt;
+    &lt;li&gt;Forget the noun, do the verb.&lt;/li&gt;
+    &lt;li&gt;Make gifts.&lt;/li&gt;
+    &lt;li&gt;The ordinary + extra attention = the extraordinary&lt;/li&gt;
+    &lt;li&gt;Slay the art monsters.&lt;/li&gt;
+    &lt;li&gt;You’re allowed to change your mind.&lt;/li&gt;
+    &lt;li&gt;When in doubt, tidy up.&lt;/li&gt;
+    &lt;li&gt;Demons hate fresh air.&lt;/li&gt;
+    &lt;li&gt;Plant your garden.&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sat, 03 Jan 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/01/03/p0841-keepgoing/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/03/p0841-keepgoing/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: gotta try this for beyond CLI interfaces aka TUIs (text user interfaces) in the terminal with ruby! ; Kerrick Long:: ratatui_ruby: 💎 Unofficial Ruby wrapper for Ratatui 👨‍🍳🐀.</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 3, 2026 06:35 (UTC) &lt;a href=&quot;https://sr.ht/~kerrick/ratatui_ruby/&quot;&gt;ME:: gotta try this for beyond CLI interfaces aka TUIs (text user interfaces) in the terminal with ruby! ; Kerrick Long:: ratatui_ruby: 💎 Unofficial Ruby wrapper for Ratatui 👨‍🍳🐀.&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ratatui_ruby is a Ruby wrapper for Ratatui. It allows you to cook up Terminal User Interfaces in Ruby. ratatui_ruby is a community wrapper that is not affiliated with the Ratatui team.&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 02 Jan 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/01/02/p2235-ratatui_ruby/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/02/p2235-ratatui_ruby/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: tl;dr-ing: How to make a static website on Codeberg using R and Quarto ; Ken Butler:: Quarto websites and Codeberg pages (part 1)</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 1, 2026 15:47 (UTC) &lt;a href=&quot;https://blog.ritsokiguess.site/posts/quarto-codeberg/&quot;&gt;ME:: tl;dr-ing: How to make a static website on Codeberg using R and Quarto ; Ken Butler:: Quarto websites and Codeberg pages (part 1)&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://blog.ritsokiguess.site/posts/quarto-codeberg/&quot;&gt;Ken Butler:: Quarto websites and Codeberg pages (part 1)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;One of the things Quarto can produce is a static website (meaning, it turns your content into a website that a user can look at but not interact with). This is ideal for websites for courses or workshops, where the idea is to provide material for your students to work with, or (at least in part) for a blog, where the idea is to share your ideas with the world. (In a blog, you might want to enable comments, but that is another story that we do not get into here.) A standard way to share these with the world was to use Github Pages, where you set your website up as a Github repo, and then configured the Pages part of Settings, and got a URL that would display the site.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;One thing that Github Pages has going for it is that the mechanism is fairly simple, and Quarto has a “publish gh-pages” that will handle most of the details for you. Codeberg has its own equivalent, Codeberg Pages, that works a bit differently. The website you want to publish has to be two things:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;on a branch called pages&lt;/li&gt;
+    &lt;li&gt;in the root folder of the repo.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I have a couple of ways of making this work, which may not be elegant, but they appear to work. The elegance, I leave to others.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Thu, 01 Jan 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/01/01/p0747-quarto-codeberg/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/01/p0747-quarto-codeberg/</guid>
+        
+        
+      </item>
     
       <item>
         <title>ME:: Broken Achievement Society Social Scene :-) ; Doug Belshaw:: What promised to liberate us instead helps to control us</title>
@@ -117,113 +221,6 @@
         <pubDate>Sat, 20 Dec 2025 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2025/12/20/p0759-thebible-is-not-antigay-antiimmigrant-antiabortion-antipoor/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2025/12/20/p0759-thebible-is-not-antigay-antiimmigrant-antiabortion-antipoor/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: Podcasts should be 15 minutes or less, prove me wrong :-). Substack is funded by terrible people and supports terrible people on its platform (as well as great people who don't realize that they are helping those terrible people) part 88888 ; Joan Westenberg:: Comfort Food for the Thinking Class: The Great Intellectual Stagnation</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 20, 2025 07:58 (UTC) &lt;a href=&quot;https://www.joanwestenberg.com/comfort-food-for-the-thinking-class-the-great-intellectual-stagnation/&quot;&gt;ME:: Podcasts should be 15 minutes or less, prove me wrong :-). Substack is funded by terrible people and supports terrible people on its platform (as well as great people who don’t realize that they are helping those terrible people) part 88888 ; Joan Westenberg:: Comfort Food for the Thinking Class: The Great Intellectual Stagnation&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Our intellectual underground, such as it is, consists of Substack, a platform funded by some of the most establishment venture capital imaginable, and podcasts that run for three hours and manage to say less than a single well-constructed paragraph.&lt;/code&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;August 7, 2025 &lt;a href=&quot;https://rolandtanglao.com/2025/08/07/om-malik-wrong-about-substack-in-1939-would-you-write-for-nazi-newspaper/&quot;&gt;I don’t care what people who I otherwise respect like Om Malik and Dana Blankenhorn say about network effects blah blah blah :-) . It is wrong to be on a platform that openly allows hate speech. If the Nazi Party’s newspaper paid you $USD1000 / month in 1939 to write an op-ed monthly would you do it? No. https://om.co/2025/08/03/the-why-of-substack/ is wrong. sorry not sorry Om et al!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 19 Dec 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/12/19/p2358-comfort-food-for-the-thinking-class-the-great-intellectual-stagnation/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/12/19/p2358-comfort-food-for-the-thinking-class-the-great-intellectual-stagnation/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: to import a LUT into No Fusion, tap on the multi-photo rectangular icon to import 1 or more LUTs OR Add New Preset &gt; Tick Blank &gt; Import ; LUT Import ¦ No Fusion Camera</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 18, 2025 17:48 (UTC) &lt;a href=&quot;https://www.nofusion.app/en/lut.html&quot;&gt;ME:: to import a LUT into No Fusion, tap on the multi-photo rectangular icon to import 1 or more LUTs OR Add New Preset &amp;gt; Tick Blank &amp;gt; Import ; LUT Import ¦ No Fusion Camera&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The following quoted instructions are out of date :-) LOL I have failed to update documentation in a timely fashion in my career too so this is not a big criticism.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;In No Fusion, navigate to Settings -&amp;gt; Stylization -&amp;gt; Add New Preset -&amp;gt; LUT, then you can import LUTs from your photo library or files.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Thu, 18 Dec 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/12/18/p0948-nofusion-camera-app-howto-lut/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/12/18/p0948-nofusion-camera-app-howto-lut/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: tl;dr-ing: pick from or edit LLM generated regexes or add your own and see relevant examples in VSCode, seems like a practical and safe use of LLMs;  Siddhartha Prasad:: LLMs ⭢ Regular Expressions, Responsibly!</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 17, 2025 17:51 (UTC) &lt;a href=&quot;https://blog.brownplt.org/2025/12/11/pick-regex.html&quot;&gt;ME:: tl;dr-ing: pick from or edit LLM generated regexes or add your own and see relevant examples in VSCode, seems like a practical and safe use of LLMs;  Siddhartha Prasad:: LLMs ⭢ Regular Expressions, Responsibly!&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://blog.brownplt.org/2025/12/11/pick-regex.html&quot;&gt;Siddhartha Prasad:: LLMs ⭢ Regular Expressions, Responsibly!&lt;/a&gt;]&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;But we can do a lot better! Our new tool, PICK:Regex, does the following. It asks you for a prompt and sends it to a GenAI system. However, it doesn’t ask for one regex; instead, it uses an LLMs ability to interpret prose in multiple ways to generate multiple (about four) candidate expressions. (The details don’t matter, but if you want to you can open the images below in a new tab to read them more easily.)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;In theory, that’s better than getting just one interpretation. But now you may have to read four regexes like the above, which is actually worse! Therefore, instead, PICK shows you concrete examples. Furthermore, the examples are carefully chosen to tell apart the regexes. You are then asked to upvote/downvote each example. As you do, you are actually voting on all the candidate regexes.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;You can stop at any point (you’re always shown the regexes), but the process naturally halts when only one regex remains (this is your best candidate of the ones you’ve seen so far) or none remain (in which case it would have been dangerous to use the LLMs output!).&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Wed, 17 Dec 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/12/17/p0951-pick-regex/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/12/17/p0951-pick-regex/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: automation makes the bits left over humans more challenging; See also Lisanne Bainbridge's paper: Ironies of Automation from 1983; Tae Selene Sandoval Murgan:: thoughts/on-using-language-models-for-programming.md </title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 16, 2025 03:20 (UTC) &lt;a href=&quot;https://codeberg.org/tssm/thoughts/src/branch/canon/on-using-language-models-for-programming.md&quot;&gt;ME:: automation makes the bits left over humans more challenging; See also Lisanne Bainbridge’s paper: Ironies of Automation from 1983; Tae Selene Sandoval Murgan:: thoughts/on-using-language-models-for-programming.md &lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://codeberg.org/tssm/thoughts/src/branch/canon/on-using-language-models-for-programming.md&quot;&gt;Tae Selene Sandoval Murgan:: thoughts/on-using-language-models-for-programming.md at canon - tssm/thoughts - Codeberg.org&lt;/a&gt;  &amp;lt;– See also &lt;a href=&quot;https://ckrybus.com/static/papers/Bainbridge_1983_Automatica.pdf&quot;&gt;Lisanne Bainbridge’s classic 1983 paper in Automatic: Ironies of Automation&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I wrote a version of the above as a Mastodon thread. And then I read Ironies of automation by Lisanne Bainbridge, a paper that, quoting its abstract, “discusses the ways in which automation of industrial processes may expand rather than eliminate problems with the human operator”. I got several ideas from it, but the most important is that regardless of how automation is performed, whatever levels of “intelligence” an automated system has, it’s rarely designed to collaborate with the human that formerly performed the work. On the contrary it’s designed to replace them. Which is an irony (as defined in the paper) because (among others) “by taking away the easy parts of his task, automation can make the difficult parts of the human operator’s task more difficult.” Even more, automation seldom “consider the integration of man and computer, nor how to maintain the effectiveness of the human operator by supporting his skills and motivation. There will always be a substantial human involvement with automated systems, because criteria other than efficiency are involved”.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;We know language models have been touted as tools that enable computers to replace humans intellectual labor. And here we have a 40 years old paper saying actually that has never worked. I don’t believe language models or any other form of artificial “intelligence” is here to stay, but if that’s the case I hope it stays as a form of human-computer collaboration. As my skills and motivation lie in writing code, I’ll keep stubbornly rejection any trend that clashes with them. And as I keep feeling pressured to use these things, I’ll try to come with more silly ways which I feel that at least they don’t erase my motivation.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;So will I eagerly apply what I just described? I surely will when copy and pasting my code on a chatbot window is cheaper in motivation terms than filling in the gaps myself. The way to smooth the process is to run a local model, or pay for a service. For now I don’t want to do any, so who knows. At least I feel a little less dumber now.`&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Mon, 15 Dec 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/12/15/p1920-on-using-language-models-for-programming/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/12/15/p1920-on-using-language-models-for-programming/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: sparklines everythwere :-) Just kidding, only where they make sense ; Andros Fenollosa:: tanrax/quick-weather.el: Sparkline weather forecasts in Emacs</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 16, 2025 03:12 (UTC) &lt;a href=&quot;https://github.com/tanrax/quick-weather.el&quot;&gt;ME:: sparklines everythwere :-) Just kidding, only where they make sense ; Andros Fenollosa:: tanrax/quick-weather.el: Sparkline weather forecasts in Emacs&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Quick weather forecasts with sparklines for Emacs, using data from Open-Meteo.&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 15 Dec 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/12/15/p1912-quick-sparklines-emacs-for-weather/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/12/15/p1912-quick-sparklines-emacs-for-weather/</guid>
         
         
       </item>
