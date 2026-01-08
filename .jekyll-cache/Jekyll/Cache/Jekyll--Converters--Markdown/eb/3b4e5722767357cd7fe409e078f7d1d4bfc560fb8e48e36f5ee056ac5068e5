@@ -1,0 +1,12 @@
+I"Ç<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Jan 6, 2026 22:49 (UTC) <a href="https://searchfox.org/firefox-main/source/browser/components/tabnotes/TabNotes.sys.mjs#106">SQLite data schema for tab notes (in the profile as tabnotes.sqlite) in Firefox nightly so i can search all the tabs and their notes ; TabNotesStorage.init (TabNotes.sys.mjs - mozsearch)</a> &lt;â€“ super cool, yay, thanks!</p>
+
+<h2 id="data-schema--">Data schema :-)</h2>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">CREATE</span> <span class="k">TABLE</span> <span class="n">IF</span> <span class="k">NOT</span> <span class="k">EXISTS</span> <span class="nv">"tabnotes"</span> <span class="p">(</span>
+            <span class="n">id</span>            <span class="nb">INTEGER</span> <span class="k">PRIMARY</span> <span class="k">KEY</span><span class="p">,</span>
+            <span class="n">canonical_url</span> <span class="nb">TEXT</span> <span class="k">NOT</span> <span class="k">NULL</span><span class="p">,</span>
+            <span class="n">created</span>       <span class="nb">INTEGER</span> <span class="k">NOT</span> <span class="k">NULL</span><span class="p">,</span>
+            <span class="n">note_text</span>     <span class="nb">TEXT</span> <span class="k">NOT</span> <span class="k">NULL</span>
+          <span class="p">);</span>
+</code></pre></div></div>
+:ET

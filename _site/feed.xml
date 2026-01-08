@@ -6,9 +6,181 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 03 Jan 2026 13:06:55 -0800</pubDate>
-    <lastBuildDate>Sat, 03 Jan 2026 13:06:55 -0800</lastBuildDate>
+    <pubDate>Wed, 07 Jan 2026 22:52:31 -0800</pubDate>
+    <lastBuildDate>Wed, 07 Jan 2026 22:52:31 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>It's 2026: Self Driving cars are still not proven safe and we don't need them to reduce cyclist or pedestrian deaths ; David Zipper:: Are Autonomous Vehicles Safer Than Human Drivers? We Don't Know Yet - Bloomberg</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 7, 2026 03:50 (UTC) &lt;a href=&quot;https://www.bloomberg.com/news/features/2026-01-06/are-autonomous-vehicles-safer-than-human-drivers-we-don-t-know-yet&quot;&gt;It’s 2026: Self Driving cars are still not proven safe and we don’t need them to reduce cyclist or pedestrian deaths ; David Zipper:: Are Autonomous Vehicles Safer Than Human Drivers? We Don’t Know Yet - Bloomberg&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;For proof, just look outside the US, where plenty of countries have managed to bring traffic fatalities down dramatically. Most recently, the Nordic cities of Helsinki and Oslo have gone an entire year without any cyclist or pedestrian deaths at all. How did they accomplish this feat? Local leaders credited a range of infrastructural and policy changes, from slower speed limits and wider sidewalks to higher car fees and stiffer enforcement.&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;December 6, 2025: &lt;a href=&quot;https://rolandtanglao.com/2025/12/06/p1829-if-self-driving-cars-worked-there-would-be-benefits-selfdriving-wont-work-before-2034-lets-deploy-more-trains-buses-first/&quot;&gt;ME:: All the benefits sound plausible but I still think self driving cars won’t work in 2034 and we’d be better improving ‘low tech’ non self driving trains and buses ; The Economist:: Self-driving cars will transform urban economies&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 06 Jan 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/01/06/p1950-are-autonomous-vehicles-safer-than-human-drivers-we-don-t-know-yet/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/06/p1950-are-autonomous-vehicles-safer-than-human-drivers-we-don-t-know-yet/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>SQLite data schema for tab notes (in the profile as tabnotes.sqlite) in Firefox nightly so i can search all the tabs and their notes ; TabNotesStorage.init (TabNotes.sys.mjs - mozsearch)</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 6, 2026 22:49 (UTC) &lt;a href=&quot;https://searchfox.org/firefox-main/source/browser/components/tabnotes/TabNotes.sys.mjs#106&quot;&gt;SQLite data schema for tab notes (in the profile as tabnotes.sqlite) in Firefox nightly so i can search all the tabs and their notes ; TabNotesStorage.init (TabNotes.sys.mjs - mozsearch)&lt;/a&gt; &amp;lt;– super cool, yay, thanks!&lt;/p&gt;
+
+&lt;h2 id=&quot;data-schema--&quot;&gt;Data schema :-)&lt;/h2&gt;
+
+&lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;CREATE&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;TABLE&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;IF&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;NOT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;EXISTS&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;&quot;tabnotes&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;id&lt;/span&gt;            &lt;span class=&quot;nb&quot;&gt;INTEGER&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;PRIMARY&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;KEY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;canonical_url&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;TEXT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;NOT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;NULL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;created&lt;/span&gt;       &lt;span class=&quot;nb&quot;&gt;INTEGER&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;NOT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;NULL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;note_text&lt;/span&gt;     &lt;span class=&quot;nb&quot;&gt;TEXT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;NOT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;NULL&lt;/span&gt;
+          &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Tue, 06 Jan 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/01/06/p1449-tabnotes.sys/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/06/p1449-tabnotes.sys/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: Avoid solutions, start with How Might We....? ; Maria Rosala:: 2021:: Using “How Might We” Questions to Ideate on the Right Problems - NN/G</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 6, 2026 18:53 (UTC) &lt;a href=&quot;https://www.nngroup.com/articles/how-might-we-questions/&quot;&gt;ME:: Avoid solutions, start with How Might We….? ; Maria Rosala:: 2021:: Using “How Might We” Questions to Ideate on the Right Problems - NN/G&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://www.nngroup.com/articles/how-might-we-questions/&quot;&gt;Maria Rosala:: 2021:: Using “How Might We” Questions to Ideate on the Right Problems - NN/G&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In our course on discovery at our UX Conference, we talk about the importance of solving the right problem. Discovery research commonly results in learning about the problem space. This knowledge should be used to generate solutions that solve real user problems.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;At the end of discovery, the team should come together, agree on the top things it found out, and use this knowledge to frame design challenges. To prevent individuals from suggesting their pet solutions, which might have little resemblance to the problems found, construct How might we questions that frame the problem(s) for ideation.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Tue, 06 Jan 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/01/06/p1053-how-might-we-questions/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/06/p1053-how-might-we-questions/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: I want my own personal atmospheric cloud running my own software including 'AI'. It doesn't have to be on my own hardware, could be in a trusted cloud provider(s) ; Paul Frazee:: Atmospheric Computing ¦ Paul's Dev Notes</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 6, 2026 18:44 (UTC) &lt;a href=&quot;https://www.pfrazee.com/blog/atmospheric-computing&quot;&gt;ME:: I want my own personal atmospheric cloud running my own software including ‘AI’. It doesn’t have to be on my own hardware, could be in a trusted cloud provider(s) ; Paul Frazee:: Atmospheric Computing ¦ Paul’s Dev Notes&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Atmospheric computing is about building an interoperable world. A cloud in that world can be big or small. It doesn’t matter. A bigger cloud will do bigger things, and a smaller clouds will do smaller things. But they’ll still talk.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We need a collectivist answer to Big Tech. I’m not just interested in the battles of yesterday; if now is the time of AI, I want a personal AI running on my personal cloud. There is zero reason for us to all become subservient clients to American corporations. The model can change.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The path to a sovereign tech stack is via commodification. The AT Protocol stack is akin to Backend-as-a-Service; it standardizes identity, oauth flows, permissioning, data flows, and more. We are now working with the IETF to form a Working Group [4] and I believe a standard cloud platform is emerging in these specs.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Tue, 06 Jan 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/01/06/p1044-atmospheric-computing/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/06/p1044-atmospheric-computing/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: I doubt I'll ever go to mainland  China but if I do I'd find a hotel in an 'old town' ; Steph+Chris:: Chinese Cooking Demystified:: What's a Chinese City actually like?</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 6, 2026 18:32 (UTC) &lt;a href=&quot;https://chinesecookingdemystified.substack.com/p/whats-a-chinese-city-actually-like&quot;&gt;ME:: I doubt I’ll ever go to mainland  China but if I do I’d find a hotel in an ‘old town’ ; Steph+Chris:: Chinese Cooking Demystified:: What’s a Chinese City actually like?&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://chinesecookingdemystified.substack.com/p/whats-a-chinese-city-actually-like&quot;&gt;Steph+Chris:: Chinese Cooking Demystified:: What’s a Chinese City actually like?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For travelers, I suggest trying to find a hotel in either an old town or a ‘medium’ town. Often the latter can be a better choice, but it can sometimes be a bit difficult to parse exactly where said ‘medium’ town is without getting your feet on the ground first. The satellite and Baidu street view can only tell you so much.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Note that fancy western hotel chains often tend to be located within the new town. A local Chinese hotel chain, ‘Jinjiang’, is our usual go-to and tends to have hotels in a diversity of neighborhoods. Because it can sometimes be difficult to tell where exactly is most interesting to be located, a decent idea if you’re staying in one city for a while is to only book two nights at first. This way you can easily change hotels if you find a neighborhood you prefer.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For living, as I said before, I find those older ‘commie blocks’ livable enough and would totally live in one again in a pinch. However, for me at least, the best of all worlds is to find a newer development that’s flanking a ‘medium’ town, an old town, or an urban village. This way you can get a little more light and space, while having all the benefit of being in a walkable neighborhood.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Tue, 06 Jan 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/01/06/p1032-whats-a-chinese-city-actually-like/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/06/p1032-whats-a-chinese-city-actually-like/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: tl;dr-ing: Accept, Time isn't holding up, forget mastery, more developing, droid, new normal to be confused, adventure not ordeal; Joey deVilla::Don’t feel bad; even the inventor of the term “vibe coding” is overwhelmed by all the AI-driven changes</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 6, 2026 15:58 (UTC) &lt;a href=&quot;https://www.globalnerdy.com/2026/01/04/dont-feel-bad-even-the-inventor-of-the-term-vibe-coding-is-overwhelmed-by-all-the-ai-driven-changes/&quot;&gt;ME:: tl;dr-ing: Accept, Time isn’t holding up, forget mastery, more developing, droid, new normal to be confused, adventure not ordeal; Joey deVilla::Don’t feel bad; even the inventor of the term “vibe coding” is overwhelmed by all the AI-driven changes&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://www.globalnerdy.com/2026/01/04/dont-feel-bad-even-the-inventor-of-the-term-vibe-coding-is-overwhelmed-by-all-the-ai-driven-changes/&quot;&gt;Joey deVilla::Don’t feel bad; even the inventor of the term “vibe coding” is overwhelmed by all the AI-driven changes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It has eight parts, listed below:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;Accept “falling behind” as the new normal. Learn to live with it and work around it.&lt;/li&gt;
+    &lt;li&gt;Understand that our sense of time has been altered by recent events.&lt;/li&gt;
+    &lt;li&gt;Forget “mastery.” Go for continuous, lightweight experimentation instead.&lt;/li&gt;
+    &lt;li&gt;Less coding, more developing.&lt;/li&gt;
+    &lt;li&gt;Yes, AI is an “alien tool,” but what if that alien tool is a droid instead of a probe?&lt;/li&gt;
+    &lt;li&gt;Other ideas I’m still working out&lt;/li&gt;
+    &lt;li&gt;This may be the “new normal” for Karpathy, but it’s just the “same old normal” for my dumb ass.&lt;/li&gt;
+    &lt;li&gt;The difference between an adventure and an ordeal is attitude.&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Tue, 06 Jan 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/01/06/p0758-dont-feel-bad-even-the-inventor-of-the-term-vibe-coding-is-overwhelmed-by-all-the-ai-driven-changes/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/06/p0758-dont-feel-bad-even-the-inventor-of-the-term-vibe-coding-is-overwhelmed-by-all-the-ai-driven-changes/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME::community energy sharing now yes please ; Tamara Kaňuchová:: 🗞️ Sharing is caring</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 5, 2026 08:13 (UTC) &lt;a href=&quot;https://elaine.mayoris.com/go/zps2n1gmwh1nd3jddqy0p6v6v1ybsouo21cf4g0o06z4/2866#recWqijSTmkxc9Elm&quot;&gt;ME::community energy sharing now yes please ; Tamara Kaňuchová:: 🗞️ Sharing is caring&lt;/a&gt;&amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;If I have a solar panel on my rooftop and it’s a sunny day, I might create more electricity than my small household needs. What to do with my surplus? &lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 05 Jan 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/01/05/p0013-community-energy-sharing-in-a-world-where-energy-is-free-and-we-have-a-surplus/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/05/p0013-community-energy-sharing-in-a-world-where-energy-is-free-and-we-have-a-surplus/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: tl-dr-ing: 'git diff --color-words' is a better way to diff for most situations (red deleted, green added) ; Holloway:: How can I get a side-by-side diff when I do 'git diff'? - Stack Overflow</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 4, 2026 08:00 (UTC) &lt;a href=&quot;https://stackoverflow.com/questions/7669963/how-can-i-get-a-side-by-side-diff-when-i-do-git-diff&quot;&gt;ME:: tl-dr-ing: ‘git diff –color-words’ is a better way to diff for most situations (red deleted, green added) ; Holloway:: How can I get a side-by-side diff when I do “git diff”? - Stack Overflow&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 04 Jan 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/01/04/p0000-how-can-i-get-a-side-by-side-diff-when-i-do-git-diff/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/04/p0000-how-can-i-get-a-side-by-side-diff-when-i-do-git-diff/</guid>
+        
+        
+      </item>
     
       <item>
         <title>grep command to get bash script to re-run SUMO AAQ API calls that fail using '-A 2' to get 2 lines after </title>
@@ -31,196 +203,6 @@
         <pubDate>Sat, 03 Jan 2026 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2026/01/03/p1008-gisthost/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/01/03/p1008-gisthost/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: tl;dr-ing: Groundhog Day , bliss station, noun, gifts, extraordinary, slay, change, tidy, demons, plant ; A book by Austin Kleon:: Keep Going</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 3, 2026 16:41 (UTC) &lt;a href=&quot;https://austinkleon.com/keepgoing/&quot;&gt;ME:: tl;dr-ing: Groundhog Day , bliss station, noun, gifts, extraordinary, slay, change, tidy, demons, plant ; A book by Austin Kleon:: Keep Going&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://austinkleon.com/keepgoing/&quot;&gt;A book by Austin Kleon:: Keep Going&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;ol&gt;
-    &lt;li&gt;Every day is Groundhog Day.&lt;/li&gt;
-    &lt;li&gt;Build a bliss station.&lt;/li&gt;
-    &lt;li&gt;Forget the noun, do the verb.&lt;/li&gt;
-    &lt;li&gt;Make gifts.&lt;/li&gt;
-    &lt;li&gt;The ordinary + extra attention = the extraordinary&lt;/li&gt;
-    &lt;li&gt;Slay the art monsters.&lt;/li&gt;
-    &lt;li&gt;You’re allowed to change your mind.&lt;/li&gt;
-    &lt;li&gt;When in doubt, tidy up.&lt;/li&gt;
-    &lt;li&gt;Demons hate fresh air.&lt;/li&gt;
-    &lt;li&gt;Plant your garden.&lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Sat, 03 Jan 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/01/03/p0841-keepgoing/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/03/p0841-keepgoing/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: gotta try this for beyond CLI interfaces aka TUIs (text user interfaces) in the terminal with ruby! ; Kerrick Long:: ratatui_ruby: 💎 Unofficial Ruby wrapper for Ratatui 👨‍🍳🐀.</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 3, 2026 06:35 (UTC) &lt;a href=&quot;https://sr.ht/~kerrick/ratatui_ruby/&quot;&gt;ME:: gotta try this for beyond CLI interfaces aka TUIs (text user interfaces) in the terminal with ruby! ; Kerrick Long:: ratatui_ruby: 💎 Unofficial Ruby wrapper for Ratatui 👨‍🍳🐀.&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ratatui_ruby is a Ruby wrapper for Ratatui. It allows you to cook up Terminal User Interfaces in Ruby. ratatui_ruby is a community wrapper that is not affiliated with the Ratatui team.&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 02 Jan 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/01/02/p2235-ratatui_ruby/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/02/p2235-ratatui_ruby/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: tl;dr-ing: How to make a static website on Codeberg using R and Quarto ; Ken Butler:: Quarto websites and Codeberg pages (part 1)</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 1, 2026 15:47 (UTC) &lt;a href=&quot;https://blog.ritsokiguess.site/posts/quarto-codeberg/&quot;&gt;ME:: tl;dr-ing: How to make a static website on Codeberg using R and Quarto ; Ken Butler:: Quarto websites and Codeberg pages (part 1)&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://blog.ritsokiguess.site/posts/quarto-codeberg/&quot;&gt;Ken Butler:: Quarto websites and Codeberg pages (part 1)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;One of the things Quarto can produce is a static website (meaning, it turns your content into a website that a user can look at but not interact with). This is ideal for websites for courses or workshops, where the idea is to provide material for your students to work with, or (at least in part) for a blog, where the idea is to share your ideas with the world. (In a blog, you might want to enable comments, but that is another story that we do not get into here.) A standard way to share these with the world was to use Github Pages, where you set your website up as a Github repo, and then configured the Pages part of Settings, and got a URL that would display the site.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;One thing that Github Pages has going for it is that the mechanism is fairly simple, and Quarto has a “publish gh-pages” that will handle most of the details for you. Codeberg has its own equivalent, Codeberg Pages, that works a bit differently. The website you want to publish has to be two things:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;on a branch called pages&lt;/li&gt;
-    &lt;li&gt;in the root folder of the repo.&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I have a couple of ways of making this work, which may not be elegant, but they appear to work. The elegance, I leave to others.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Thu, 01 Jan 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/01/01/p0747-quarto-codeberg/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/01/p0747-quarto-codeberg/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: Broken Achievement Society Social Scene :-) ; Doug Belshaw:: What promised to liberate us instead helps to control us</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 30, 2025 04:58 (UTC) &lt;a href=&quot;https://blog.dougbelshaw.com/liberate-control/&quot;&gt;ME:: Broken Achievement Society Social Scene :-) ; Doug Belshaw:: What promised to liberate us instead helps to control us&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://blog.dougbelshaw.com/liberate-control/&quot;&gt;Doug Belshaw:: What promised to liberate us instead helps to control us&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;ol&gt;
-    &lt;li&gt;Reclaim the right to be opaque, unmeasured, and unproductive.&lt;/li&gt;
-    &lt;li&gt;Resist the enclosure of digital life by prioritising connection with other people over connection with brands and corporations&lt;/li&gt;
-    &lt;li&gt;Build small, shared spaces that are not immediately optimised for extraction.&lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Mon, 29 Dec 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/12/29/p2058-liberate-control/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/12/29/p2058-liberate-control/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: 2023 How to: read/write github gists using the gist API; Github Gist Is Here To Save The Day...Literally! - Resources / Community Tutorials - Developer Forum ¦ Roblox</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 27, 2025 18:08 (UTC) &lt;a href=&quot;https://devforum.roblox.com/t/github-gist-is-here-to-save-the-dayliterally/2412487&quot;&gt;ME:: 2023 How to: read/write github gists using the gist API; Github Gist Is Here To Save The Day…Literally! - Resources / Community Tutorials - Developer Forum ¦ Roblox&lt;/a&gt; &amp;lt;– from 2023 so could be out of date&lt;/p&gt;
-</description>
-        <pubDate>Sat, 27 Dec 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/12/27/p1008-how-to-read-write-github-gists-using-the-api/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/12/27/p1008-how-to-read-write-github-gists-using-the-api/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: tl-dr-ing Coping with the flood of misinformation and the fact that we know less than we think we do (e.g. how do toilets work really?): rigourously maintained factual chronological timelines, critical ignoring, cognitive elaboration ; Erin Kissane:: Landslide; a ghost story</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 27, 2025 17:32 (UTC) &lt;a href=&quot;https://www.wrecka.ge/landslide-a-ghost-story/&quot;&gt;ME:: tl-dr-ing Coping with the flood of misinformation and the fact that we know less than we think we do (e.g. how do toilets work really?): rigourously maintained factual chronological timelines, critical ignoring, cognitive elaboration ; Erin Kissane:: Landslide; a ghost story&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://www.wrecka.ge/landslide-a-ghost-story/&quot;&gt;Erin Kissane:: Landslide; a ghost story&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;So: Even those of us who think we know things and believe that we’re “paying attention” know far less than we think we do. We are mostly skating on a brittle scrim of knowledge over an unperceived void, blithely trusting the resources around us to fill in for our spotty brains on a just-in-time basis.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;…&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;And let me say: Chronological timelines are about the least innovative and least sexy or funding-attracting thing imaginable, but like…go try to find them, for the things happening now! They’re hard to find and hard to make and hardest to maintain. Yet without an easily referenced record of when the many things happened, we’re extraordinarily vulnerable to doctored, adulterated, and just made up summaries of even extremely recent history. The subsequent mass misbeliefs can feel, to people who were closely tracking the realities being reinterpreted, like the results of mass hypnosis.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I think there are many other ways to densify information and make knowledge durable—and that people who work on the social internet should be thinking about how they can work toward that in their systems, in ways that also respect people’s desire to retain the orality or ephemerality of some communication. This is one of the things I’ll be digging down through in the coming year.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;…&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Several of the papers I’ve been working through discuss the role of cognitive elaboration in the creation of durable knowledge. Cognitive elaboration is, very roughly, synthesizing new information with other knowledge or otherwise playing around with information as a way of knitting it into our minds in ways we can use. This is an obvious springboard for the kind of facile, thought-leader-scented solutions institutions adore (all articles are now quizzes!) but I think it’s also fruitful territory for more sophisticated thinking and experimentation.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Critical ignoring has come up several times in my explorations since my crimeing partner Liz Neeley first sent me a paper about it. I’m also very interested in trustworthy catch-up tools that perhaps use machine learning but are not chatbot summaries. A lot of my work this year has been briefings and explainers on top of timelines as a resource for people who need to just drop the rope—and then, when they’re ready, return and catch up without having to go out and wrestle the shrieking backlog themselves. I don’t think we’re all the way there yet, but we’re learning a lot.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Sat, 27 Dec 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/12/27/p0932-landslide-a-ghost-story/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/12/27/p0932-landslide-a-ghost-story/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>So much for my memory :-). Opening day for me in the 2025/26 season was Dec 21, 2025 about 3 weeks after opening day for the 2024/2025 season ; November 24, 2024: Tag Eins des 2024-25 Langlaufsaisons bei Cypress :-) #FreeTheHeelFreeTheMind #XcSkiing ¦ Nordic Ski ¦ Strava</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 23, 2025 06:55 (UTC) &lt;a href=&quot;https://www.strava.com/activities/12975153329&quot;&gt;So much for my memory :-). Opening day for me in the 2025/26 season was Dec 21, 2025 about 3 weeks after opening day for the 2024/2025 season ; November 24, 2024: Tag Eins des 2024-25 Langlaufsaisons bei Cypress :-) #FreeTheHeelFreeTheMind #XcSkiing ¦ Nordic Ski ¦ Strava&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 22 Dec 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/12/22/p2255-cypress-xc-skiing-opening-day-3-weeks-later-2025-26-season/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/12/22/p2255-cypress-xc-skiing-opening-day-3-weeks-later-2025-26-season/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: the bible is not anti-poor, anti-abortion, anti gay rights and anti-immigrant. Read it completely 'Christians'! ; Nicholas Kristof:: What Would Surprise Jesus About Christmas 2025? - The New York Times</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Dec 20, 2025 15:59 (UTC) &lt;a href=&quot;https://archive.is/OILbI#selection-949.0-953.408&quot;&gt;ME:: the bible is not anti-poor, anti-abortion, anti gay rights and anti-immigrant. Read it completely ‘Christians’! ; Nicholas Kristof:: What Would Surprise Jesus About Christmas 2025? - The New York Times&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I do too. So many people who claim to follow Jesus appear to have no idea what he actually taught. When I was an evangelical, we thought it was important to know what the Bible said and act on it. But today the evangelical movement focuses largely on social agendas not promoted in the Bible while ignoring ethical injunctions the Bible makes repeatedly. Whatever one’s views of abortion today, it is simply wrong to say the Bible opposes it. The Bible never mentions a deliberate attempt to abort a fetus, and the only biblical passages that relate to the question of whether a fetus is to be treated as a living person with human rights indicate the answer is no (e.g., Exodus 21:22-25). What the Bible does stress, page after page, is the need to care for the poor, the outcast, the “other.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;So too with gay rights: People regularly quote Leviticus about how it’s a sin for a man to sleep with a man (Leviticus 18:22). But they then ignore the very next chapter, which explicitly insists that immigrants to your country are to be treated just the same as citizens (Leviticus 19:33-34). Why do people focus on one verse instead of the other? They simply pick what they find useful for their own views.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Sat, 20 Dec 2025 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2025/12/20/p0759-thebible-is-not-antigay-antiimmigrant-antiabortion-antipoor/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2025/12/20/p0759-thebible-is-not-antigay-antiimmigrant-antiabortion-antipoor/</guid>
         
         
       </item>
