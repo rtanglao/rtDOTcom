@@ -6,9 +6,27 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 07 Jan 2026 23:07:44 -0800</pubDate>
-    <lastBuildDate>Wed, 07 Jan 2026 23:07:44 -0800</lastBuildDate>
+    <pubDate>Mon, 12 Jan 2026 08:13:55 -0800</pubDate>
+    <lastBuildDate>Mon, 12 Jan 2026 08:13:55 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Things that Work: Hario Tetsuya Kasuya Double Stainless All Metal Pourover Dripper with Aramse Sofi Top and holder. Best pourover coffee ever :-) !</title>
+        <description>&lt;ol&gt;
+  &lt;li&gt;Place the &lt;a href=&quot;https://global.hario.com/kasuya_model/kdd.html&quot;&gt;Hario Double Stainless Dripper・KASUYA Model&lt;/a&gt;on top of your coffee cup or carafe and add your ground coffee.&lt;/li&gt;
+  &lt;li&gt;Place the Aramse &lt;a href=&quot;https://aramse.coffee/products/sofi&quot;&gt;Sofi&lt;/a&gt; &lt;a href=&quot;https://aramse.coffee/products/sofi-holder&quot;&gt;holder&lt;/a&gt; on top of the Tetsuya dripper and then place the top part of the Aramse Sofi brewer on top of the stand&lt;/li&gt;
+  &lt;li&gt;Use your favourite pourover method. The Armase Sofi top part acts as a shower head. No need for a fancy pourover kettle.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;No plastic! And super coffee with no fines.
+Disclaimer: I have no interest financially or otherwise in Hario or Aramse. Love them both!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 12 Jan 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/01/12/p0757-hario-kasuya-double-stainless-metal-pourover-dripper-aramse-sofi-highly-recommended/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/12/p0757-hario-kasuya-double-stainless-metal-pourover-dripper-aramse-sofi-highly-recommended/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Powerful lnav shortcuts when viewing logs: Control w for wordwrap, / to search, g for line 1, G for end of file, = to pause</title>
@@ -192,19 +210,6 @@
         <pubDate>Sun, 04 Jan 2026 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2026/01/04/p0000-how-can-i-get-a-side-by-side-diff-when-i-do-git-diff/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/01/04/p0000-how-can-i-get-a-side-by-side-diff-when-i-do-git-diff/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>grep command to get bash script to re-run SUMO AAQ API calls that fail using '-A 2' to get 2 lines after </title>
-        <description>&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-A&lt;/span&gt; 2 &lt;span class=&quot;s2&quot;&gt;&quot;comand to &quot;&lt;/span&gt; ~/Documents/LOGS/2026-01-02-2025-refresh-logs.txt ¦ &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'cd'&lt;/span&gt; ¦ &lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'E,'&lt;/span&gt; ¦ &lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'\-\-'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; ~/Documents/LOGS/2025-01-03-re-run2025.sh
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-</description>
-        <pubDate>Sat, 03 Jan 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/01/03/p1027-grep-command-bash-script-re-run-sumo-calls-fail-lines/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/03/p1027-grep-command-bash-script-re-run-sumo-calls-fail-lines/</guid>
         
         
       </item>
