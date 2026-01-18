@@ -10,16 +10,23 @@ title: "ME:: if these two articles convince 1% of the skeptics it would be a mir
 * Read the whole thing and [read part 2](https://www.cidrap.umn.edu/childhood-vaccines/cidrap-op-ed-vaccine-myths-won-t-die-and-how-counter-them-part-2): [Jake Scott:: CIDRAP Op-Ed: Vaccine myths that won't die and how to counter them—part 1 ¦ CIDRAP](https://www.cidrap.umn.edu/childhood-vaccines/cidrap-op-ed-vaccine-myths-wont-die-and-how-counter-them-part-1)
 
 >Myth #1: ‘Vaccines were never properly tested’
+>
 >Myth #2: ‘Vaccinated and unvaccinated kids haven’t been compared’
+>
 >Myth #3: ‘The ingredients are toxic’
+>
 >Myth #4: ‘Too many, too soon’
 
 From [part 2 ](https://www.cidrap.umn.edu/childhood-vaccines/cidrap-op-ed-vaccine-myths-won-t-die-and-how-counter-them-part-2):
 
 >Myth #5: ‘Vaccines cause autism’
+>
 >Myth #6: ‘Vaccines cause SIDS, autoimmune disease, allergies, and cancer’
+>
 >Myth #7: ‘VAERS proves vaccines are killing people’
+>
 >Myth #8: ‘The flu shot gave me the flu’ and ‘Natural immunity is better’
+>
 >Myth #9: ‘mRNA vaccines are gene therapy that causes turbo cancers’
 
 ## Previously
