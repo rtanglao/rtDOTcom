@@ -1,0 +1,20 @@
+I"Ü<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Jan 23, 2026 16:35 (UTC) <a href="https://gist.github.com/jvns/5bd9283d7abd5ceb26eb7ed28afe3030">ME:: How Julia Evans makes her mostly static websites; Julia Evans:: websites.md Â· GitHub gist</a></p>
+
+<h2 id="quote">QUOTE:</h2>
+
+<blockquote>
+  <p>I like to make tiny websites. My requirements for my sites are something like:</p>
+</blockquote>
+
+<blockquote>
+  <ul>
+    <li>I have maybe 20 websites (mostly static but not all)</li>
+    <li>I want to spend basically 0 time maintaining them, maybe 5 minutes every 2 months at most</li>
+    <li>I need to be able to ignore a project for 3 years and then come back and be able to develop it easily</li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <p>here are some of the ways I choose tools to keep my sites running without doing a lot of maintenance. this is a draft, might clean it up and make it into a real post later</p>
+</blockquote>
+:ET

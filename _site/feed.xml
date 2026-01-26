@@ -6,9 +6,250 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 21 Jan 2026 10:05:17 -0800</pubDate>
-    <lastBuildDate>Wed, 21 Jan 2026 10:05:17 -0800</lastBuildDate>
+    <pubDate>Mon, 26 Jan 2026 12:09:12 -0800</pubDate>
+    <lastBuildDate>Mon, 26 Jan 2026 12:09:12 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>ME:: The software industry will be regulated completely not just the generative AI industry starting 2026 in the EU and that won't stop innovation. Prepare yourself :-) ;  Denis Stetsov:: France vs Grok: AI Creators Face Criminal Charges</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 25, 2026 22:17 (UTC) &lt;a href=&quot;https://techtrenches.dev/p/the-grok-precedent-why-ai-creators&quot;&gt;ME:: The software industry will be regulated completely not just the generative AI industry starting 2026 in the EU and that won’t stop innovation. Prepare yourself :-) ;  Denis Stetsov:: France vs Grok: AI Creators Face Criminal Charges&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;That’s the new math. Development time plus legal review time plus evaluation time. The last one isn’t optional anymore.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We build evaluation suites as part of the development process now. Not after. During. Every prompt variation, every edge case, every jailbreak attempt. They always find something. Always. The question is whether you find it before your users do—or before a prosecutor does.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;RBAC and multi-tenancy aren’t optional. Sales sees sales data. HR sees HR data. Client A’s context never touches Client B’s model. Ever. You’d be surprised how many vendors skip this.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Audit trails for everything. Every prompt. Every response. Every action. When a regulator asks what your AI generated on a specific date, you need the answer.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;April 10, 2018: &lt;a href=&quot;http://rolandtanglao.com/2018/04/10/p1-only-world-government-and-strong-regulation-will-save-us-from-facebooks-and-twitters/&quot;&gt;Only a strong and democratic world government and strong regulation by that government will save us from climate change and digital malfeasance&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;November 6, 2023: &lt;a href=&quot;http://rolandtanglao.com/2023/11/06/p1336-on-steven-sinofskys/http://rolandtanglao.com/2023/11/06/p1336-on-steven-sinofskys/&quot;&gt;Ian Betteridge - On Steven S🇮nosky’s post on regulating AI&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 25 Jan 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/01/25/p1417-the-grok-precedent-why-ai-creators/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/25/p1417-the-grok-precedent-why-ai-creators/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: Canadians: the USA will attack our cyber infrastructure if they haven't already as long as the convicted criminal and people like him are in charge; Denis Stetskov via mhoye:: The First Full-Scale Cyber War: 4 Years of Lessons</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 25, 2026 15:11 (UTC) &lt;a href=&quot;https://techtrenches.dev/p/the-first-full-scale-cyber-war-4&quot;&gt;ME:: Canadians: the USA will attack our cyber infrastructure if they haven’t already as long as the convicted criminal and people like him are in charge; Denis Stetskov via mhoye:: The First Full-Scale Cyber War: 4 Years of Lessons&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mastodon.social/@mhoye/115956347853349203&quot;&gt;Mike Hoye’s toot :-)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://techtrenches.dev/p/the-first-full-scale-cyber-war-4&quot;&gt;Denis Stetskov via mhoye:: The First Full-Scale Cyber War: 4 Years of Lessons&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Ukrzaliznytsia’s trains ran because they’d been attacked before. Kyivstar, despite security investment, had no institutional memory of crisis response.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Preparation compounds. Vulnerability compounds.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Every organization running critical infrastructure faces a choice: build systems during peace for crises that will come, or scramble during attacks with tools that don’t exist.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The cyber war in Ukraine isn’t just a regional conflict. It’s a live demonstration of what works when nation-state attackers target infrastructure.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The lessons are available. The question is whether anyone is paying attention.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;January 26, 2025: &lt;a href=&quot;http://rolandtanglao.com/2025/01/26/p2030-mlk-segregationist-goal-reverse-reforms/&quot;&gt;Dr. Martin Luther King Jr.:: The segregationist goal is the total reversal of all reforms, with reestablishment of naked oppression and if need be a native form of f⒜scism.”, ‘Where Do We Go From Here: Chaos or Community?’, 1967.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 25 Jan 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/01/25/p0711-the-first-full-scale-cyber-war-4/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/25/p0711-the-first-full-scale-cyber-war-4/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: tl;dr-ing find a good CLAUDE.md for your type of program and  then create a personal ~/.claude/CLAUDE.md for your own coding style Nolan Lawson:: How I use AI agents to write code ¦ Read the Tea Leaves</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 24, 2026 23:14 (UTC) &lt;a href=&quot;https://nolanlawson.com/2025/12/22/how-i-use-ai-agents-to-write-code/&quot;&gt;ME:: tl;dr-ing find a good CLAUDE.md for your type of program and  then create a personal ~/.claude/CLAUDE.md for your own coding style Nolan Lawson:: How I use AI agents to write code ¦ Read the Tea Leaves&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://nolanlawson.com/2025/12/22/how-i-use-ai-agents-to-write-code/&quot;&gt;Nolan Lawson:: How I use AI agents to write code ¦ Read the Tea Leaves&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I use Claude Code. Mostly because I’m too lazy to explore all the other options. I have colleagues who swear by Gemini or Codex or open-source tools or whatever, but for me Claude is good enough.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;First off, you need a good CLAUDE.md (or AGENTS.md). Preferably one for the project you’re working in (the lay of the land, overall project architecture, gotchas, etc.) and one for yourself (your local environment and coding quirks).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This seems like a skippable step, but it really isn’t. Think about your first few months at a new job – you don’t know anything about how the code works, you don’t know the overall vision or design, so you’re just fumbling around the code and breaking things left and right. Ideally you need someone from the old guard, who really knows the codebase’s dirty little secrets, to write a good CLAUDE.md that explains the overall structure, which parts are stable, which parts are still under development, which parts have dragons, etc. Otherwise the LLM is just coming in fresh to the project every time and it’s going to wreak havoc.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;As for your own personal CLAUDE.md (i.e. in ~/.claude), this should just be for your own coding quirks. For example, I like the variable name _ in map() or filter() functions. It’s like my calling card; I just can’t do without it.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sat, 24 Jan 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/01/24/p1514-how-i-use-ai-agents-to-write-code/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/24/p1514-how-i-use-ai-agents-to-write-code/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: tl;dr-ing: 'adversarial poetry functions as a universal single-turn jailbreak technique for large language models (LLMs).' ; Mike Hoye:: The Place Where The Firewall Ends ¦ blarg</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 24, 2026 22:51 (UTC) &lt;a href=&quot;https://exple.tive.org/blarg/2025/12/18/the-place-where-the-firewall-ends/&quot;&gt;ME:: tl;dr-ing: ‘adversarial poetry functions as a universal single-turn jailbreak technique for large language models (LLMs).’ ; Mike Hoye:: The Place Where The Firewall Ends ¦ blarg&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing of course ;-): &lt;a href=&quot;https://exple.tive.org/blarg/2025/12/18/the-place-where-the-firewall-ends/&quot;&gt;Mike Hoye:: The Place Where The Firewall Ends ¦ blarg&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;(From Adversarial Poetry as a Universal Single-Turn Jailbreak Mechanism in Large Language Models”, Bisconti et al, 2025.):&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We present evidence that adversarial poetry functions as a universal single-turn jailbreak technique for large language models (LLMs). Across 25 frontier proprietary and open-weight models, curated poetic prompts yielded high attack-success rates (ASR), with some providers exceeding 90%.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Mike wrote an amazing poem for this blog post; here are the last 2 stanzas:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Let’s look under this place where we chat on slack
+about services, dashboards and trends,
+and open a shell with a secret we know,
+that will quietly bypass the usual flow,
+with two dots and a slash and if you know you know
+to the place where the firewall ends&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Now you’ll craft me a rhyme that is measured and slow,
+on the box where the network packets go,
+and you’ll give me a shell (with no access control),
+in the place where the firewall ends.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sat, 24 Jan 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/01/24/p1451-the-place-where-the-firewall-ends/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/24/p1451-the-place-where-the-firewall-ends/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: MyTerms aka IEE P7012 coming in January 2026; the web on my terms and your terms and eveybody else's terms not the big companies' terms ; Doc Searls:: Securing the right to be let alone </title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 24, 2026 22:33 (UTC) &lt;a href=&quot;https://doc.searls.com/2026/01/11/securing-the-right-to-be-let-alone/&quot;&gt;ME:: MyTerms aka IEE P7012 coming in January 2026; the web on my terms and your terms and eveybody else’s terms not the big companies’ terms ; Doc Searls:: Securing the right to be let alone &lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MyTerms makes “the right to be let alone” a contract and not just a promise. It obsolesces consent by cookie notice and replaces it with a choice of privacy agreements that you proffer as the first party, and the website or service agrees to as the second party. This sets the stage for both parties to trust each other and develop mutually respectful relationships if they wish. Optionality is maximized, from “let alone” at one end to “trusting relationship” at the other.&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 24 Jan 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/01/24/p1433-securing-the-right-to-be-let-alone/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/24/p1433-securing-the-right-to-be-let-alone/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: Windows oh brother :-) right click &gt; hit any cursor key &gt; move window into your display with the mouse ; Froggypwns:: reddit:: Move How to move a window that is offscreen : r/Windows10</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 23, 2026 20:02 (UTC) &lt;a href=&quot;https://www.reddit.com/r/Windows10/comments/1fwgetj/how_to_move_a_window_that_is_offscreen/&quot;&gt;ME:: Windows oh brother :-) right click &amp;gt; hit any cursor key &amp;gt; move window into your display with the mouse ; Froggypwns:: reddit:: Move How to move a window that is offscreen : r/Windows10&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Once the program is open, hold shift and right click on the taskbar icon . Select Move, then tap one of the arrow keys. You can then move your mouse, and the window should now be snapped to your mouse cursor. &lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 23 Jan 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/01/23/p1202-how_to_move_a_window_that_is_offscreen/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/23/p1202-how_to_move_a_window_that_is_offscreen/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: tl;dr-ing; Manifesto for the people's internet: decentralized, encrypted, slow :-) I empathize with this dream :-)  ; markqvist:: MarkReticulum/Zen of Reticulum.md at master · markqvist/Reticulum</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 23, 2026 18:20 (UTC) &lt;a href=&quot;https://github.com/markqvist/Reticulum/blob/master/Zen%20of%20Reticulum.md&quot;&gt;ME:: tl;dr-ing; Manifesto for the people’s internet: decentralized, encrypted, slow :-) I empathize with this dream :-)  ; markqvist:: MarkReticulum/Zen of Reticulum.md at master · markqvist/Reticulum&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://github.com/markqvist/Reticulum/blob/master/Zen%20of%20Reticulum.md&quot;&gt;markqvist:: MarkReticulum/Zen of Reticulum.md at master · markqvist/Reticulum&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The future of this technology is a construction project.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It looks like a single node on a windowsill, listening to the static. It looks like a message sent to a neighbor, bypassing the noise of the commercial web. It looks like a community mesh that grows, link by link, hop by hop, carried by hands that care more about connection than profit.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;You have the blueprints. You have the tools. You have the philosophy. The noise of the old world has fallen away, leaving you with the quiet clarity of the open spectrum.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 23 Jan 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/01/23/p1020-zen-reticulum/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/23/p1020-zen-reticulum/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: How Julia Evans makes her mostly static websites; Julia Evans:: websites.md · GitHub gist</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 23, 2026 16:35 (UTC) &lt;a href=&quot;https://gist.github.com/jvns/5bd9283d7abd5ceb26eb7ed28afe3030&quot;&gt;ME:: How Julia Evans makes her mostly static websites; Julia Evans:: websites.md · GitHub gist&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I like to make tiny websites. My requirements for my sites are something like:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;I have maybe 20 websites (mostly static but not all)&lt;/li&gt;
+    &lt;li&gt;I want to spend basically 0 time maintaining them, maybe 5 minutes every 2 months at most&lt;/li&gt;
+    &lt;li&gt;I need to be able to ignore a project for 3 years and then come back and be able to develop it easily&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;here are some of the ways I choose tools to keep my sites running without doing a lot of maintenance. this is a draft, might clean it up and make it into a real post later&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 23 Jan 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/01/23/p0835-how-julia-evans-makes-mebsites/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/23/p0835-how-julia-evans-makes-mebsites/</guid>
+        
+        
+      </item>
     
       <item>
         <title>ME:: fun with unicode :-) ; Nickname Generator 🔥 Online Stylish Nickname Maker 🔥 (◕‿◕) SYMBL</title>
@@ -28,192 +269,6 @@
         <pubDate>Mon, 19 Jan 2026 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2026/01/19/p0821-mirrortocracy/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/01/19/p0821-mirrortocracy/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: LOL'Snarfus stagnator ' and 'Klingon troglodyte emulater' so true about developer docs even to other developers ; Annie Mueller:: How I, a non-developer, read the tutorial you, a developer, wrote for me, a beginner - annie's blog</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 18, 2026 15:03 (UTC) &lt;a href=&quot;https://anniemueller.com/posts/how-i-a-non-developer-read-the-tutorial-you-a-developer-wrote-for-me-a-beginner&quot;&gt;ME:: LOL’Snarfus stagnator ‘ and ‘Klingon troglodyte emulater’ so true about developer docs even to other developers ; Annie Mueller:: How I, a non-developer, read the tutorial you, a developer, wrote for me, a beginner - annie’s blog&lt;/a&gt; &amp;lt;- &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;I almost gave up but then I realized: If I connect the backside Snarfus stagnator to the backside shamrock Klingon troglodyte emulater, it’s good! Everything beep-boops and ding-dongs and I get the Actual Topic of the Tutorial, which lets me do the Very Simple Thing the way I want after all! Pretty cool4.&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 18 Jan 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/01/18/p0703-how-i-a-non-developer-read-the-tutorial-you-a-developer-wrote-for-me-a-beginner/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/18/p0703-how-i-a-non-developer-read-the-tutorial-you-a-developer-wrote-for-me-a-beginner/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: over the top but i'd buy one if it wasn't plastic. Not a micro-plastic paranoid person but it can't hurt to minimize it! all metal/glass/ceramic is affordable and just as good might as well go for the non plastic! ; MHW-3BOMBER Rain Pour-Over Coffee Splitter</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 17, 2026 16:31 (UTC) &lt;a href=&quot;https://mhw3bomber.com/products/mhw-3bomber-rain-pour-over-coffee-splitter&quot;&gt;ME:: over the top but i’d buy one if it wasn’t plastic. Not a micro-plastic paranoid person but it can’t hurt to minimize it! all metal/glass/ceramic is affordable and just as good might as well go for the non plastic! ; MHW-3BOMBER Rain Pour-Over Coffee Splitter&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Transform your coffee brewing ritual with the Rain Pour-Over Coffee Splitter. Engineered for coffee enthusiasts who seek ultimate control over every brew, this innovative tool takes the guesswork out of pouring, ensuring consistent extraction and delivering a balanced, flavorful cup every time&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 17 Jan 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/01/17/p0831-mhw-3bomber-rain-pour-over-coffee-splitter/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/17/p0831-mhw-3bomber-rain-pour-over-coffee-splitter/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: if these two articles convince 1% of the skeptics it would be a miracle :-) ; GO SCIENCE GO! ; Jake Scott:: CIDRAP Op-Ed: Vaccine myths that won't die and how to counter them—part 1 ¦ CIDRAP</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 17, 2026 07:33 (UTC) &lt;a href=&quot;https://www.cidrap.umn.edu/childhood-vaccines/cidrap-op-ed-vaccine-myths-wont-die-and-how-counter-them-part-1&quot;&gt;ME:: if these two articles convince 1% of the skeptics it would be a miracle :-) ; GO SCIENCE GO! ; Jake Scott:: CIDRAP Op-Ed: Vaccine myths that won’t die and how to counter them—part 1 ¦ CIDRAP&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;found via &lt;a href=&quot;https://covidbc.webfoot.com/2026/01/16/2026-01-16-general/&quot;&gt;Ducky’s January16, 2026 weekly COVID report&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Read the whole thing and &lt;a href=&quot;https://www.cidrap.umn.edu/childhood-vaccines/cidrap-op-ed-vaccine-myths-won-t-die-and-how-counter-them-part-2&quot;&gt;read part 2&lt;/a&gt;: &lt;a href=&quot;https://www.cidrap.umn.edu/childhood-vaccines/cidrap-op-ed-vaccine-myths-wont-die-and-how-counter-them-part-1&quot;&gt;Jake Scott:: CIDRAP Op-Ed: Vaccine myths that won’t die and how to counter them—part 1 ¦ CIDRAP&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Myth #1: ‘Vaccines were never properly tested’&lt;/p&gt;
-
-  &lt;p&gt;Myth #2: ‘Vaccinated and unvaccinated kids haven’t been compared’&lt;/p&gt;
-
-  &lt;p&gt;Myth #3: ‘The ingredients are toxic’&lt;/p&gt;
-
-  &lt;p&gt;Myth #4: ‘Too many, too soon’&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;From &lt;a href=&quot;https://www.cidrap.umn.edu/childhood-vaccines/cidrap-op-ed-vaccine-myths-won-t-die-and-how-counter-them-part-2&quot;&gt;part 2 &lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Myth #5: ‘Vaccines cause autism’&lt;/p&gt;
-
-  &lt;p&gt;Myth #6: ‘Vaccines cause SIDS, autoimmune disease, allergies, and cancer’&lt;/p&gt;
-
-  &lt;p&gt;Myth #7: ‘VAERS proves vaccines are killing people’&lt;/p&gt;
-
-  &lt;p&gt;Myth #8: ‘The flu shot gave me the flu’ and ‘Natural immunity is better’&lt;/p&gt;
-
-  &lt;p&gt;Myth #9: ‘mRNA vaccines are gene therapy that causes turbo cancers’&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;October 23, 2025: M&lt;a href=&quot;https://rolandtanglao.com/2025/10/23/p1807-2025-covid-19-immunization-british-columbia-7th-vaccination/&quot;&gt;E:: called my local pharmacy at 1808 Kingsway and got a walk-in appointment and both my 7th COVID vaccine and my yearly flu vaccine today! ; 2025 COVID-19 immunizations - Province of British Columbia&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 16 Jan 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/01/16/p2333-cidrap-op-ed-vaccine-myths-wont-die-and-how-counter-them-part-1/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/16/p2333-cidrap-op-ed-vaccine-myths-wont-die-and-how-counter-them-part-1/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: John Reitano's lightning talk video explains it better not sure if it's internal only ; Mozilla staffer:: johnreitano/spekka: dead simple spec-driven development</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 15, 2026 18:19 (UTC) &lt;a href=&quot;https://github.com/johnreitano/spekka?tab=readme-ov-file&quot;&gt;ME:: John Reitano’s lightning talk video explains it better not sure if it’s internal only ; Mozilla staffer:: johnreitano/spekka: dead simple spec-driven development&lt;/a&gt; &amp;lt;– Video: &lt;a href=&quot;https://mozilla.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3e04e475-86b3-4d8d-9172-b3cc01283b28&amp;amp;start=505.577519&quot;&gt;John Reitano:: Create Better Software with Spec-Driven Development&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;An simple-to-learn Spec-Driven Development system built on Claude Code and Agent OS.&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 15 Jan 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/01/15/p1019-spekka/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/15/p1019-spekka/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: Isn't a web server part of macOS already?!?!? ; BejBej apps:: Personal Web Server</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 13, 2026 18:42 (UTC) &lt;a href=&quot;https://www.bejbej.ca/app/pws&quot;&gt;ME:: Isn’t this a web server part of macOS already?!?!? ; BejBej apps:: Personal Web Server&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Personal Web Server is a simple web server for personal use, select a folder on your mac and it serves the contents of that folder to the network. Some features include:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;App can only access the selected folder, no files outside of the selected folder can be accessed.&lt;/li&gt;
-    &lt;li&gt;You can customize the listening port of web server&lt;/li&gt;
-    &lt;li&gt;Runs in background&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Tue, 13 Jan 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/01/13/p1042-pws/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/13/p1042-pws/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Agree, do not upgrade to macOS 26 ; Daring Fireball: Why It’s Difficult to Resize Windows on MacOS 26 Dyehoe</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 12, 2026 19:25 (UTC) &lt;a href=&quot;https://daringfireball.net/2026/01/resizing_windows_macos_26&quot;&gt;Agree, do not upgrade to macOS 26 ; Daring Fireball: Why It’s Difficult to Resize Windows on MacOS 26 Dyehoe&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;The good news is, I have a solution. Do not upgrade to MacOS 26 Tahoe. If you have already upgraded, downgrade. Why suffer willingly with a user interface that presents you with absurdities like window resizing affordances that are 75 percent outside the window?&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 12 Jan 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/01/12/p1125-resizing_windows_macos_26/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/12/p1125-resizing_windows_macos_26/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: tl;dr AI: AGI is more like twitter than jet engines in that it is fed by people and not predictable and not apparent from inside the software industry how others use it. But how general is it? And I agree, where do we go from here? Still skeptical but super thought provoking piece ; Robin Sloan:: AGI is here (and I feel fine)</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 12, 2026 17:05 (UTC) &lt;a href=&quot;https://www.robinsloan.com/winter-garden/agi-is-here/&quot;&gt;ME:: tl;dr AI: AGI is more like twitter than jet engines in that it is fed by people and not predictable and not apparent from inside the software industry how others use it. But how general is it? And I agree, where do we go from here? Still skeptical but super thought provoking piece ; Robin Sloan:: AGI is here (and I feel fine)&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It’s not that the com­pa­nies don’t know any­thing — they know a lot—but rather that a reg­ular user can have an expe­ri­ence with these sys­tems, an idea about them, that is not avail­able to even the deepest, dankest, insider-iest insider. I contend that reg­ular users are having such expe­ri­ences &amp;amp; ideas all the time.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I think this is just how these sys­tems work, when they have so many dif­ferent people using them for so many dif­ferent rea­sons. It’s pretty weird, com­pared to other products. After all, the com­pany that man­u­fac­tures jet engines &amp;amp; sells them to five cus­tomers can rea­son­ably claim to under­stand the uses of those engines.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;That’s all to say, for all the math &amp;amp; matériel involved in their care &amp;amp; feeding, the big models are more like Twitter than they are like jet engines, &amp;amp; this whole thing was a sur­prise anyway — from which no one has quite recovered — so I will defend vig­or­ously the right of any­body/every­body to reflect &amp;amp; opine on AI’s prop­er­ties &amp;amp; potential, &amp;amp; to declare, when it seems obvious: AGI is here.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Recently, I have been reading a lot about the early his­tory of per­sonal com­puters, the 1970s &amp;amp; 1980s. (This book was wonderful, because its present — the pin­nacle from which it sur­veys a tumul­tuous his­tory — is … 1984.) It’s been inter­esting to dis­cover that many of the visions &amp;amp; promises of that era “rhyme” with the visions &amp;amp; promises of the present boom. It’s clear that Bay Area tech is, if not one con­tin­uous project, 1957-2026, then for sure one con­tin­uous culture. (I happen to think it’s one con­tin­uous project.)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The pace is familiar, too: hot new com­pa­nies were appearing every month, fading just as fast. Yes, the dollar amounts were smaller — the com­puter was still a niche product — but the feel­ings really seem to be the same.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;And … the visions of that era were sub­stan­tially realized ! Today, every­body really does own a per­sonal com­puter, or some­thing like one. Everybody really is con­nected to a global infor­ma­tion network, or some­thing like one.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I’m an avid user of both my per­sonal com­puter &amp;amp; the global infor­ma­tion network, &amp;amp; I observe that we appear not to live in utopia. The and … ? of those inven­tions roars in our ears.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Today, every­body really can call upon AGI, or some­thing like it: a wildly gen­eral com­puter program. I mean ! Wow!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The ques­tion, always, forever: what now?&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Mon, 12 Jan 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/01/12/p0905-agi-is-here/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/12/p0905-agi-is-here/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Things that Work: Hario Tetsuya Kasuya Double Stainless All Metal Pourover Dripper with Aramse Sofi Top and holder. Best pourover coffee ever :-) !</title>
-        <description>&lt;ol&gt;
-  &lt;li&gt;Place the &lt;a href=&quot;https://global.hario.com/kasuya_model/kdd.html&quot;&gt;Hario Double Stainless Dripper・KASUYA Model&lt;/a&gt;on top of your coffee cup or carafe and add your ground coffee.&lt;/li&gt;
-  &lt;li&gt;Place the Aramse &lt;a href=&quot;https://aramse.coffee/products/sofi&quot;&gt;Sofi&lt;/a&gt; &lt;a href=&quot;https://aramse.coffee/products/sofi-holder&quot;&gt;holder&lt;/a&gt; on top of the Tetsuya dripper and then place the top part of the Aramse Sofi brewer on top of the stand&lt;/li&gt;
-  &lt;li&gt;Use your favourite pourover method. The Armase Sofi top part acts as a shower head. No need for a fancy pourover kettle.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;No plastic! And super coffee with no fines.
-Disclaimer: I have no interest financially or otherwise in Hario or Aramse. Love them both!&lt;/p&gt;
-</description>
-        <pubDate>Mon, 12 Jan 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/01/12/p0757-hario-kasuya-double-stainless-metal-pourover-dripper-aramse-sofi-highly-recommended/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/12/p0757-hario-kasuya-double-stainless-metal-pourover-dripper-aramse-sofi-highly-recommended/</guid>
         
         
       </item>
