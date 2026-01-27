@@ -6,9 +6,54 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 26 Jan 2026 12:09:12 -0800</pubDate>
-    <lastBuildDate>Mon, 26 Jan 2026 12:09:12 -0800</lastBuildDate>
+    <pubDate>Mon, 26 Jan 2026 22:47:18 -0800</pubDate>
+    <lastBuildDate>Mon, 26 Jan 2026 22:47:18 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>ME:: I am part of the kagi small web which means that my blog has an Activity Pub feed as well as an RSS feed; September 2023:: Kagi Small Web ¦ Kagi Blog</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 27, 2026 06:36 (UTC) &lt;a href=&quot;https://blog.kagi.com/small-web&quot;&gt;ME:: I am part of the kagi small web which means that my blog has an Activity Pub feed as well as an RSS feed; September 2023:: Kagi Small Web ¦ Kagi Blog&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kagi.com/smallweb&quot;&gt;Kagi Small web website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;code on github: &lt;a href=&quot;https://github.com/kagisearch/smallweb&quot;&gt;kagisearch/smallweb&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/kagisearch/smallweb/blob/main/smallweb.txt&quot;&gt;smallweb.txt&lt;/a&gt; (which includes my RSS feed)&lt;/li&gt;
+  &lt;li&gt;My RSS feed’s ActivityPub handle: @rolandtanglao.com@rss.social which should eventually be reachable on the web at: &lt;a href=&quot;https://rss.social/@rolandtanglao.com&quot;&gt;rss.social/@rolandtanglao.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;What is Kagi Small Web?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;To begin with, while there is no single definition, “small web” typically refers to the non-commercial part of the web, crafted by individuals to express themselves or share knowledge without seeking any financial gain. This concept often evokes nostalgia for the early, less commercialized days of the web, before the ad-supported business model took over the internet (and we started fighting back!)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For a deeper understanding, Ben Hoyt’s “The Small Web is Beautiful” serves as an excellent primer. Additionally, our GitHub repository links to several more articles on this topic.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Kagi Small Web offers a fresh approach by promoting recently published content from the “small web.” We gather new content, published within the last week, from a handpicked list of blogs and surface it in multiple ways:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Directly within Kagi search results for applicable queries (existing Kagi members do not need to do anything, this will be automatic)&lt;/li&gt;
+    &lt;li&gt;Via the new Kagi Small Web website&lt;/li&gt;
+    &lt;li&gt;Through the Kagi Small Web RSS feed&lt;/li&gt;
+    &lt;li&gt;Via our Search API, where results are now part of the news enrichment API&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Mon, 26 Jan 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/01/26/p2236-my-blog-has-an-activitypub-feed-courtesy-of-kagi-small-web/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/26/p2236-my-blog-has-an-activitypub-feed-courtesy-of-kagi-small-web/</guid>
+        
+        
+      </item>
     
       <item>
         <title>ME:: The software industry will be regulated completely not just the generative AI industry starting 2026 in the EU and that won't stop innovation. Prepare yourself :-) ;  Denis Stetsov:: France vs Grok: AI Creators Face Criminal Charges</title>
@@ -258,17 +303,6 @@ in the place where the firewall ends.&lt;/p&gt;
         <pubDate>Tue, 20 Jan 2026 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2026/01/20/p0758-nickname-generator/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/01/20/p0758-nickname-generator/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: white, the 'right' asians etc nothing has changed in the tech 'mirrortocracy'  since 2014 ; Carlos Bueno:: 2014::Inside the Mirrortocracy</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 19, 2026 16:21 (UTC) &lt;a href=&quot;https://carlos.bueno.org/2014/06/mirrortocracy.html&quot;&gt;ME:: white, the ‘right’ asians etc nothing has changed in the tech ‘mirrortocracy’  since 2014 ; Carlos Bueno:: 2014::Inside the Mirrortocracy&lt;/a&gt; &amp;lt;- &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;So the second step is on you. In­stead of de­mand­ing that oth­ers re­flect your views, re­flect on your­self. Try to re­memb­er the last time some­one suc­cessful­ly chan­ged your mind. Try, just for a mo­ment, to sup­pose that it's pro­bab­ly un­natur­al for an in­dust­ry to be so heavi­ly dominated by white/asian middle-class males under 30 who keep tell­ing each other to only hire their friends. Hav­ing sup­posed that, think about what a just fu­ture should look like, and how to get there.&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 19 Jan 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/01/19/p0821-mirrortocracy/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/19/p0821-mirrortocracy/</guid>
         
         
       </item>

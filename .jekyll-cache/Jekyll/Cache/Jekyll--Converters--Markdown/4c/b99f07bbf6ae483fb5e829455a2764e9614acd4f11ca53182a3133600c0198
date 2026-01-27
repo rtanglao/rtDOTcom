@@ -1,0 +1,36 @@
+I"�<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Jan 27, 2026 06:36 (UTC) <a href="https://blog.kagi.com/small-web">ME:: I am part of the kagi small web which means that my blog has an Activity Pub feed as well as an RSS feed; September 2023:: Kagi Small Web ¦ Kagi Blog</a></p>
+
+<ul>
+  <li><a href="https://kagi.com/smallweb">Kagi Small web website</a></li>
+  <li>code on github: <a href="https://github.com/kagisearch/smallweb">kagisearch/smallweb</a></li>
+  <li><a href="https://github.com/kagisearch/smallweb/blob/main/smallweb.txt">smallweb.txt</a> (which includes my RSS feed)</li>
+  <li>My RSS feed’s ActivityPub handle: @rolandtanglao.com@rss.social which should eventually be reachable on the web at: <a href="https://rss.social/@rolandtanglao.com">rss.social/@rolandtanglao.com</a></li>
+</ul>
+
+<h2 id="quote">QUOTE:</h2>
+
+<blockquote>
+  <p>What is Kagi Small Web?</p>
+</blockquote>
+
+<blockquote>
+  <p>To begin with, while there is no single definition, “small web” typically refers to the non-commercial part of the web, crafted by individuals to express themselves or share knowledge without seeking any financial gain. This concept often evokes nostalgia for the early, less commercialized days of the web, before the ad-supported business model took over the internet (and we started fighting back!)</p>
+</blockquote>
+
+<blockquote>
+  <p>For a deeper understanding, Ben Hoyt’s “The Small Web is Beautiful” serves as an excellent primer. Additionally, our GitHub repository links to several more articles on this topic.</p>
+</blockquote>
+
+<blockquote>
+  <p>Kagi Small Web offers a fresh approach by promoting recently published content from the “small web.” We gather new content, published within the last week, from a handpicked list of blogs and surface it in multiple ways:</p>
+</blockquote>
+
+<blockquote>
+  <ul>
+    <li>Directly within Kagi search results for applicable queries (existing Kagi members do not need to do anything, this will be automatic)</li>
+    <li>Via the new Kagi Small Web website</li>
+    <li>Through the Kagi Small Web RSS feed</li>
+    <li>Via our Search API, where results are now part of the news enrichment API</li>
+  </ul>
+</blockquote>
+:ET
