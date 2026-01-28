@@ -1,0 +1,12 @@
+I"<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Jan 27, 2026 16:33 (UTC) <a href="https://mastodon.social/@hrbrmstr/115967981695102477">ME:: How to export a range of a Google Sheet to a CSV file ; Bob Rudis aka hrbrmstr 🇺🇦 🇬🇱 🇨🇦: “I know you can do this via API…” - Mastodon</a></p>
+
+<h2 id="quote">QUOTE</h2>
+
+<blockquote>
+  <p>I know you can do this via API calls but I’m kinda done instaling pkgs with egregious dependencies, and TIL you can export CSV ranges from ghseets:</p>
+</blockquote>
+
+<blockquote>
+  <p>https[:]//docs[.]google[.]com/spreadsheets/d/DAFT-GOOGLE-SHEETS-IDENTIFIER/edit?gid=ANOTHER-DAFT-IDENTIFIER#gid=YET-ANOTHER-DAFT-IDENTIFIER&amp;range=A2:M44</p>
+</blockquote>
+:ET
