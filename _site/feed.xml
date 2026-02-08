@@ -6,9 +6,20 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 06 Feb 2026 12:42:57 -0800</pubDate>
-    <lastBuildDate>Fri, 06 Feb 2026 12:42:57 -0800</lastBuildDate>
+    <pubDate>Sun, 08 Feb 2026 10:57:25 -0800</pubDate>
+    <lastBuildDate>Sun, 08 Feb 2026 10:57:25 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>ME:: In Vancouver (and probably all of BC), 33% whipped containers go in the mixed containers bin and are therefore not eligible to get the 10 ceent deposit back ; Return-It:: Milk Container Recycling in British Columbia Frequently Asked Question</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Feb 8, 2026 18:37 (UTC) &lt;a href=&quot;https://www.return-it.ca/beverage/faqs/general-milk/&quot;&gt;ME:: In Vancouver (and probably all of BC), 33% whipped containers go in the mixed containers bin and are therefore not eligible to get the 10 ceent deposit back ; Return-It:: Milk Container Recycling in British Columbia Frequently Asked Question&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: “Containers that are NOT included in the program are those not meant primarily as “ready-to-drink”, such as infant formula, meal replacement or dietary supplements, coffee cream and other coffee additives, &lt;strong&gt;whipping cream&lt;/strong&gt;, buttermilk, drinkable yogurt and kefir.”&lt;/p&gt;
+</description>
+        <pubDate>Sun, 08 Feb 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/02/08/p1037-whipping-cream-cartons-go-in-mixed-containers-not-eligible-for-deposit-vancouver-bc/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/02/08/p1037-whipping-cream-cartons-go-in-mixed-containers-not-eligible-for-deposit-vancouver-bc/</guid>
+        
+        
+      </item>
     
       <item>
         <title>ME:: go coffeegeek go! ; Mark Prince, Natia Simmons, Allison Gainey, Zuzanna Kaminski:: Silence is No Longer an Option: Why Coffee Geeks Must Reject Fascism - CoffeeGeek</title>
@@ -111,27 +122,6 @@
         <pubDate>Tue, 27 Jan 2026 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2026/01/27/p1102-original-pinoy-music-raining-manila-lola-amour-highlyrecommended/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/01/27/p1102-original-pinoy-music-raining-manila-lola-amour-highlyrecommended/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: How to export a range of a Google Sheet to a CSV file ; Bob Rudis aka hrbrmstr 🇺🇦 🇬🇱 🇨🇦: 'I know you can do this via API…' - Mastodon</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jan 27, 2026 16:33 (UTC) &lt;a href=&quot;https://mastodon.social/@hrbrmstr/115967981695102477&quot;&gt;ME:: How to export a range of a Google Sheet to a CSV file ; Bob Rudis aka hrbrmstr 🇺🇦 🇬🇱 🇨🇦: “I know you can do this via API…” - Mastodon&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I know you can do this via API calls but I’m kinda done instaling pkgs with egregious dependencies, and TIL you can export CSV ranges from ghseets:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;https[:]//docs[.]google[.]com/spreadsheets/d/DAFT-GOOGLE-SHEETS-IDENTIFIER/edit?gid=ANOTHER-DAFT-IDENTIFIER#gid=YET-ANOTHER-DAFT-IDENTIFIER&amp;amp;range=A2:M44&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Tue, 27 Jan 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/01/27/p0833-how-to-export-a-range-in-google-sheets/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/01/27/p0833-how-to-export-a-range-in-google-sheets/</guid>
         
         
       </item>
