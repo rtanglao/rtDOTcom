@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   flickr.com/roland, twitter.com/rtanglao #firefox #thunderbird
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://rolandtanglao.com" # the base hostname & protocol for your site
-twitter_username: rtanglao
+# twitter_username: rtanglao
 github_username:  rtanglao
 permalink: pretty
 
