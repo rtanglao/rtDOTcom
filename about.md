@@ -5,9 +5,10 @@ permalink: /about/
 ---
 
 * Here is my RSS feed :-): [http://rolandtanglao.com/feed.xml](http://rolandtanglao.com/feed.xml)
+* Here are my Mastodon accounts: [@roland@devdilettante.com](https://devdilettante.com/@roland) ([RSS](https://devdilettante.com/@roland.rss)), [@roland@cosocial.ca](https://cosocial.ca/@roland) ([RSS](https://cosocial.ca/@roland))
 * Here is my instagram feed: [https://www.instagram.com/roland/](https://www.instagram.com/roland/)
 * [Here is my flickr feed:](https://www.flickr.com/photos/roland)
-* [Here is my twitter](https://twitter.com/rtanglao/)
+* [Here was my twitter](https://twitter.com/rtanglao/)
 * [Here is my Facebook](https://www.facebook.com/rolandt)
 * Here is [my tumblr of bicycle photos](http://rtanglao.tumblr.com/)
 * Here is [my opml of blog subscriptions, currently 1205 as of 12 November 2017](https://www.dropbox.com/s/j7gxoa6okyelqc6/12november2017-roland-subscriptions.opml?dl=0)
