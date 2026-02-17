@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Updated without-link-blogthis.rb to point to my blog post about it :-)</title>
+    <meta name="description" content="flickr.com/roland, twitter.com/rtanglao #firefox #thunderbird
+">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://rolandtanglao.com/2026/02/16/p1628-updated-without-link-blogthisrb-point-blog-post/">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Roland Tanglao</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Updated without-link-blogthis.rb to point to my blog post about it :-)</h1>
+    <p class="post-meta">Feb 16, 2026</p>
+  </header>
+
+  <article class="post-content">
+    <ul>
+  <li><a href="https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/">Created</a>: Feb 17, 2026 00:28 (UTC)</li>
+  <li><a href="https://github.com/rtanglao/rt-checkvist/blob/main/without-link-blogthis.rb">without-link-blogthis.rb</a>
+    <h2 id="copy-paste-of-without-link-blogthisrb-code-in-case-github-ever-goes-away--">Copy paste of without-link-blogthis.rb code in case github ever goes away :-)</h2>
+    <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/env ruby</span>
+<span class="nb">require</span> <span class="s1">'rubygems'</span>
+<span class="nb">require</span> <span class="s1">'bundler/setup'</span>
+<span class="nb">require</span> <span class="s1">'amazing_print'</span>
+<span class="nb">require</span> <span class="s1">'time'</span>
+<span class="nb">require</span> <span class="s1">'date'</span>
+<span class="nb">require</span> <span class="s1">'logger'</span>
+<span class="nb">require</span> <span class="s1">'pry'</span>
+<span class="nb">require</span> <span class="s1">'typhoeus'</span>
+<span class="nb">require</span> <span class="s1">'json'</span>
+<span class="nb">require</span> <span class="s1">'uri'</span>
+<span class="nb">require</span> <span class="s1">'tzinfo'</span>
+<span class="nb">require</span> <span class="s1">'pragmatic_tokenizer'</span>
+<span class="nb">require</span> <span class="s1">'babosa'</span>
+<span class="n">logger</span> <span class="o">=</span> <span class="no">Logger</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="vg">$stderr</span><span class="p">)</span>
+<span class="n">logger</span><span class="p">.</span><span class="nf">level</span> <span class="o">=</span> <span class="no">Logger</span><span class="o">::</span><span class="no">DEBUG</span>
+<span class="k">if</span> <span class="no">ARGV</span><span class="p">.</span><span class="nf">empty?</span>
+<span class="nb">puts</span> <span class="s2">"usage: </span><span class="si">#{</span><span class="vg">$PROGRAM_NAME</span><span class="si">}</span><span class="s2"> checkvist_url_to_blog_using_lc_or_tc_checkvist_command"</span>
+<span class="nb">exit</span>
+<span class="k">end</span>
+<span class="k">def</span> <span class="nf">get_checkvist_response</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">params</span><span class="p">,</span> <span class="n">logger</span><span class="p">)</span>
+<span class="n">logger</span><span class="p">.</span><span class="nf">debug</span> <span class="n">url</span>
+<span class="n">logger</span><span class="p">.</span><span class="nf">debug</span> <span class="n">params</span>
+<span class="n">try_count</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">begin</span>
+  <span class="n">result</span> <span class="o">=</span> <span class="no">Typhoeus</span><span class="o">::</span><span class="no">Request</span><span class="p">.</span><span class="nf">get</span><span class="p">(</span>
+    <span class="n">url</span><span class="p">,</span>
+    <span class="ss">params: </span><span class="n">params</span>
+  <span class="p">)</span>
+  <span class="n">x</span> <span class="o">=</span> <span class="no">JSON</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">result</span><span class="p">.</span><span class="nf">body</span><span class="p">)</span>
+<span class="k">rescue</span> <span class="no">JSON</span><span class="o">::</span><span class="no">ParserError</span>
+  <span class="n">try_count</span> <span class="o">+=</span> <span class="mi">1</span>
+  <span class="k">if</span> <span class="n">try_count</span> <span class="o">&lt;</span> <span class="mi">4</span>
+    <span class="vg">$stderr</span><span class="p">.</span><span class="nf">printf</span><span class="p">(</span><span class="s2">"JSON::ParserError exception, retry:%d</span><span class="se">\n</span><span class="s2">"</span><span class="p">,\</span>
+                   <span class="n">try_count</span><span class="p">)</span>
+    <span class="nb">sleep</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+    <span class="k">retry</span>
+  <span class="k">else</span>
+    <span class="vg">$stderr</span><span class="p">.</span><span class="nf">printf</span><span class="p">(</span><span class="s2">"JSON::ParserError exception, retrying FAILED</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+    <span class="n">x</span> <span class="o">=</span> <span class="kp">nil</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+<span class="n">x</span>
+<span class="k">end</span>
+<span class="no">URL</span> <span class="o">=</span> <span class="no">ARGV</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nf">freeze</span>
+<span class="c1"># from https://checkvist.com/auth/api</span>
+<span class="c1"># e.g. https://checkvist.com/checklists/742486/tasks/67162153</span>
+<span class="c1"># get /checklists/checklist_id/tasks/task_id.(json¦xml)</span>
+<span class="c1"># GET https://checkvist.com/checklists/742486/tasks/67162153.json</span>
+<span class="n">task_api_url</span> <span class="o">=</span> <span class="s2">"</span><span class="si">#{</span><span class="no">URL</span><span class="si">}</span><span class="s2">.json"</span>
+<span class="n">json</span> <span class="o">=</span> <span class="n">get_checkvist_response</span><span class="p">(</span><span class="n">task_api_url</span><span class="p">,</span> <span class="s1">''</span><span class="p">,</span> <span class="n">logger</span><span class="p">)</span>
+<span class="n">logger</span><span class="p">.</span><span class="nf">debug</span> <span class="s2">"json: </span><span class="si">#{</span><span class="n">json</span><span class="p">.</span><span class="nf">ai</span><span class="si">}</span><span class="s2">"</span>
+<span class="n">content</span> <span class="o">=</span> <span class="n">json</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="s1">'content'</span><span class="p">]</span>
+<span class="n">created_at</span> <span class="o">=</span> <span class="n">json</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="s1">'created_at'</span><span class="p">]</span>
+<span class="c1"># Read UTC date and time from checkvist API instead of Pacific from the checkvist outline</span>
+<span class="c1">#</span>
+<span class="c1"># "Dec 4, 2024 07:19 [Greg Wilson:: The Third Bit: Afraid of Change](https://third-bit.com/2018/11/24/afraid-of-change/) &lt;-- **QUOTE**: `I think</span>
+<span class="c1"># thought leaders in Silicon Valley started recommending it to each other for two reasons. First, it allows them to blame subordinates for not</span>
+<span class="c1"># speaking out (again, ignoring the experience some of those subordinates may have had of bosses who say “I want to hear what you think” but really</span>
+<span class="c1"># don’t). Second, it satisfies tech bros’ need to talk about something other than sexual harassment, racial discrimination, and pay inequity—in</span>
+<span class="c1"># other words, their need to talk about things that sound important but won’t make them uncomfortable or undermine the system that they hope will</span>
+<span class="c1"># make them rich.`",</span>
+<span class="c1"># filename 2024-12-04-p0719-afraid-of-change.md</span>
+<span class="c1"># Assume format of date and then markdown link i.e. mmm n, YYYY hh:mm [link text](https://link) rest of text</span>
+<span class="c1"># split_at_markdown_leftsquarebracket = content.split('[', 2)</span>
+<span class="c1"># date_str = split_at_markdown_leftsquarebracket[0]</span>
+<span class="c1"># Hardcode since 99% of the time I will be in Vancouver, change to another timezone if the list item was added in a different timezone</span>
+<span class="c1"># ENV['TZ'] = 'America/Vancouver'</span>
+<span class="c1"># t = Time.parse(date_str)</span>
+<span class="c1"># filename = t.strftime('%Y-%m-%d-p%H%M')</span>
+<span class="n">logger</span><span class="p">.</span><span class="nf">debug</span> <span class="s2">"content </span><span class="si">#{</span><span class="n">content</span><span class="p">.</span><span class="nf">ai</span><span class="si">}</span><span class="s2">"</span>
+<span class="n">t</span> <span class="o">=</span> <span class="no">Time</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">created_at</span><span class="p">)</span>
+<span class="n">logger</span><span class="p">.</span><span class="nf">debug</span><span class="p">(</span><span class="s2">"created_at: </span><span class="si">#{</span><span class="n">t</span><span class="p">.</span><span class="nf">ai</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="n">time_created_slug</span> <span class="o">=</span> <span class="n">t</span><span class="p">.</span><span class="nf">getlocal</span><span class="p">.</span><span class="nf">strftime</span><span class="p">(</span><span class="s1">'%Y-%m-%d-p%H%M'</span><span class="p">)</span>
+<span class="n">created</span> <span class="o">=</span> <span class="n">t</span><span class="p">.</span><span class="nf">strftime</span><span class="p">(</span><span class="s1">'%b %-d, %Y %H:%M'</span><span class="p">)</span>
+<span class="n">content_array</span> <span class="o">=</span> <span class="n">content</span><span class="p">.</span><span class="nf">split</span><span class="p">(</span><span class="s2">"</span><span class="se">\r\n\r\n</span><span class="s2">"</span><span class="p">)</span>
+<span class="n">title</span> <span class="o">=</span> <span class="n">content_array</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">rest_of_content</span> <span class="o">=</span> <span class="n">content_array</span><span class="p">[</span><span class="mi">1</span><span class="o">..</span><span class="p">].</span><span class="nf">join</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+<span class="n">logger</span><span class="p">.</span><span class="nf">debug</span> <span class="s2">"title: </span><span class="si">#{</span><span class="n">title</span><span class="p">.</span><span class="nf">ai</span><span class="si">}</span><span class="s2">"</span>
+<span class="n">logger</span><span class="p">.</span><span class="nf">debug</span> <span class="s2">"rest of content: </span><span class="si">#{</span><span class="n">rest_of_content</span><span class="p">.</span><span class="nf">ai</span><span class="si">}</span><span class="s2">"</span>
+<span class="n">tokenizer</span> <span class="o">=</span> <span class="no">PragmaticTokenizer</span><span class="o">::</span><span class="no">Tokenizer</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span>
+<span class="ss">language: :en</span><span class="p">,</span> <span class="ss">remove_stop_words: </span><span class="kp">true</span><span class="p">,</span> <span class="ss">punctuation: :none</span><span class="p">,</span> <span class="ss">clean: </span><span class="kp">true</span><span class="p">,</span> <span class="ss">classic_filter: </span><span class="kp">true</span><span class="p">,</span> <span class="ss">minimum_length: </span><span class="mi">4</span>
+<span class="p">)</span>
+<span class="n">tokens</span> <span class="o">=</span> <span class="n">tokenizer</span><span class="p">.</span><span class="nf">tokenize</span><span class="p">(</span><span class="n">title</span><span class="p">).</span><span class="nf">uniq</span>
+<span class="n">slug</span> <span class="o">=</span> <span class="n">tokens</span><span class="p">.</span><span class="nf">join</span> <span class="s1">' '</span>
+<span class="n">slug</span> <span class="o">=</span> <span class="n">slug</span><span class="p">.</span><span class="nf">to_slug</span><span class="p">.</span><span class="nf">normalize</span><span class="p">.</span><span class="nf">to_s</span>
+<span class="n">logger</span><span class="p">.</span><span class="nf">debug</span> <span class="s2">"slug without timestamp: </span><span class="si">#{</span><span class="n">slug</span><span class="si">}</span><span class="s2">"</span>
+<span class="n">slug</span> <span class="o">=</span> <span class="s2">"</span><span class="si">#{</span><span class="n">time_created_slug</span><span class="si">}</span><span class="s2">-</span><span class="si">#{</span><span class="n">slug</span><span class="si">}</span><span class="s2">"</span>
+<span class="n">slug</span><span class="p">.</span><span class="nf">downcase!</span>
+<span class="n">logger</span><span class="p">.</span><span class="nf">debug</span><span class="p">(</span><span class="s2">"slug:</span><span class="si">#{</span><span class="n">slug</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="n">filename</span> <span class="o">=</span> <span class="s2">"</span><span class="si">#{</span><span class="n">slug</span><span class="si">}</span><span class="s2">.md"</span>
+<span class="n">logger</span><span class="p">.</span><span class="nf">debug</span> <span class="s2">"filename: </span><span class="si">#{</span><span class="n">filename</span><span class="si">}</span><span class="s2">"</span>
+<span class="n">filestr</span> <span class="o">=</span> <span class="s2">"---</span><span class="se">\n</span><span class="s2">"</span>
+<span class="n">filestr</span> <span class="o">+=</span> <span class="s2">"layout: post</span><span class="se">\n</span><span class="s2">"</span>
+<span class="n">filestr</span> <span class="o">+=</span> <span class="s2">"title: </span><span class="se">\"</span><span class="si">#{</span><span class="n">title</span><span class="si">}</span><span class="se">\"\n</span><span class="s2">"</span>
+<span class="n">filestr</span> <span class="o">+=</span> <span class="s2">"---</span><span class="se">\n</span><span class="s2">"</span>
+<span class="n">filestr</span> <span class="o">+=</span> <span class="s2">"* [Created](https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/): </span><span class="si">#{</span><span class="n">created</span><span class="si">}</span><span class="s2"> (UTC)</span><span class="se">\n</span><span class="s2">"</span>
+<span class="n">filestr</span> <span class="o">+=</span> <span class="s2">"</span><span class="si">#{</span><span class="n">rest_of_content</span><span class="p">.</span><span class="nf">gsub</span><span class="p">(</span><span class="s1">'¦'</span><span class="p">,</span> <span class="s1">'¦'</span><span class="p">)</span><span class="si">}</span><span class="se">\n</span><span class="s2">"</span>
+<span class="no">File</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="n">filestr</span><span class="p">)</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+    <p><a href="https://github.com/rtanglao/rtDOTcom/issues">Leave a comment on github</a></p>
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Roland Tanglao</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>Roland Tanglao</li>
+          <li><a href="mailto:roland@rolandtanglao.com">roland@rolandtanglao.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/rtanglao">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">rtanglao</span>
+            </a>
+          </li>
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">flickr.com/roland, twitter.com/rtanglao #firefox #thunderbird
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
