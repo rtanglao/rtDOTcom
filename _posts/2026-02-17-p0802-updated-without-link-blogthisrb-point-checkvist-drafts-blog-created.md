@@ -6,9 +6,12 @@ title: "Updated without-link-blogthis.rb to point to checkvist of drafts :-) and
 * [without-link-blogthis.rb](https://github.com/rtanglao/rt-checkvist/blob/main/without-link-blogthis.rb)
 ## Previously
 * February 16, 2026: [Updated without-link-blogthis.rb to point to my blog post about it :-)](http://rolandtanglao.com/2026/02/16/p1628-updated-without-link-blogthisrb-point-blog-post/)
+
 ## Copy paste of without-link-blogthis.rb code in case github ever goes away :-)
-<details>
-<summary>Click disclosure triangle to see the ruby code</summary>
+
+<details markdown="1">
+<summary markdown="span">Click triangle to see the ruby code</summary>
+
 ```ruby
 #!/usr/bin/env ruby
 require 'rubygems'
@@ -110,4 +113,5 @@ filestr += "* [Draft](https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1) [created](
 filestr += "#{rest_of_content.gsub('¦', '¦')}\n"
 File.write(filename, filestr)
 ```
+
 </details>
