@@ -6,9 +6,102 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 17 Feb 2026 10:48:21 -0800</pubDate>
-    <lastBuildDate>Tue, 17 Feb 2026 10:48:21 -0800</lastBuildDate>
+    <pubDate>Thu, 19 Feb 2026 09:55:11 -0800</pubDate>
+    <lastBuildDate>Thu, 19 Feb 2026 09:55:11 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Hao Jingfang:: January/February 2015:: Folding Beijing - Uncanny Magazine</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Feb 19, 2026 03:43 (UTC) &lt;a href=&quot;https://www.uncannymagazine.com/article/folding-beijing-2/&quot;&gt;Hao Jingfang:: January/February 2015:: Folding Beijing - Uncanny Magazine&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;See also:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://conversationswithtyler.com/episodes/rebecca-f-kuang/&quot;&gt;Rebecca F. Kuang on on Folding Beijing, National Literatures, Book Publishing, and History in Fiction (Ep. 202) ¦ Conversations with Tyler&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.uncannymagazine.com/want-write-history-inequality-hao-jingfang-translated-ken-liu/&quot;&gt;I Want to Write A History of Inequality, by Hao Jingfang, translated by Ken Liu - Uncanny Magazine&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 18 Feb 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/02/18/p1943-folding-beijing-2/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/02/18/p1943-folding-beijing-2/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>So non diverse Silicon Valley: no indigenous people, no latinos no filipinos, no african americans etc :-) (oh well the journey to Claude Code is interesting to the geek inside of me who's been writing code since 1977 despite my 2026 skepticism and cynicism about our industry) ; YouTube:: How Anthropic Built Claude Code (w/ Boris Cherny)</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Feb 18, 2026 06:45 (UTC) &lt;a href=&quot;https://www.youtube.com/watch?v=PQU9o_5rHC4&quot;&gt;So non diverse Silicon Valley: no indigenous people, no latinos no filipinos, no african americans etc :-) (oh well the journey to Claude Code is interesting to the geek inside of me who’s been writing code since 1977 despite my 2026 skepticism and cynicism about our industry) ; YouTube:: How Anthropic Built Claude Code (w/ Boris Cherny)&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 17 Feb 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/02/17/p2245-how-boris-cherny-anthropic-built-claude-code/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/02/17/p2245-how-boris-cherny-anthropic-built-claude-code/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>How To count semi-colon delimited Thunderbird Support Forum tags for Thunderbird Desktop using 'mlr' aka 'miller': use '--explode' with the 'nest verb' to make 1 row per tag and then count the rows with non null tags</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Feb 18, 2026 05:22 (UTC) &lt;a href=&quot;https://github.com/thunderbird/thunderbird-desktop-metrics-and-reports/blob/main/README.md#2026-02-16-how-to-count-tags-using-mlr-for-december-2025&quot;&gt;How To count semi-colon delimited Thunderbird Support Forum tags for Thunderbird Desktop using ‘mlr’ aka ‘miller’: use ‘–explode’ with the ‘nest verb’ to make 1 row per tag and then count the rows with non null tags&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mlr &lt;span class=&quot;nt&quot;&gt;--csv&lt;/span&gt; nest &lt;span class=&quot;nt&quot;&gt;--explode&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--values&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--across-records&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--nested-fs&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;;&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; tags&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+ &lt;span class=&quot;k&quot;&gt;then &lt;/span&gt;filter &lt;span class=&quot;nt&quot;&gt;-x&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'is_null($tags)'&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+ &lt;span class=&quot;k&quot;&gt;then &lt;/span&gt;count-distinct &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; tags&lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+ &lt;span class=&quot;k&quot;&gt;then &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sort&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-nr&lt;/span&gt; count 2025-12-thunderbird-questions.csv &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; 2025-12-thunderbird_questions_tags.csv
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The output is: &lt;a href=&quot;https://github.com/thunderbird/thunderbird-desktop-metrics-and-reports/blob/main/CONCATENATED_FILES/2025-12-thunderbird_questions_tags.csv&quot;&gt;CONCATENATED_FILES/2025-12-thunderbird_questions_tags.csv&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 17 Feb 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/02/17/p2122-mlr-split-semicolon-delimted-strings-howto/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/02/17/p2122-mlr-split-semicolon-delimted-strings-howto/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: read all 4 of these posts ; Adam Mastroianni:: The Decline of Deviance ; Nikita Jamjoshi:: The age of AI Face; Jia Tolentino:: The Age of Instagram Face ; Lisa Abend:: How Kinfolk Magazine Defined the Millennial Aesthetic…and Unraveled Behind the Scenes; Alex Murrell:: The age of average</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Feb 18, 2026 02:36 (UTC) &lt;a href=&quot;https://www.alexmurrell.co.uk/articles/the-age-of-average&quot;&gt;ME:: read all 4 of these posts ; Adam Mastroianni:: The Decline of Deviance ; Nikita Jamjoshi:: The age of AI Face; Jia Tolentino:: The Age of Instagram Face ; Lisa Abend:: How Kinfolk Magazine Defined the Millennial Aesthetic…and Unraveled Behind the Scenes; Alex Murrell:: The age of average&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Alex Murrell:: The age of average &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;So, the interiors of our homes, coffee shops and restaurants have begun to converge upon a single style. But when we move outside, the story doesn’t get much better&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;See also:
+    &lt;ul&gt;
+      &lt;li&gt;Nikita Jamjoshi:: &lt;a href=&quot;https://nikitanamjoshi.substack.com/p/the-age-of-ai-face&quot;&gt;The age of AI Face&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;So before the flood of AI faces desensitize our brains, let’s all take a minute to appreciate what actual humans look like. Go to the grocery store or a coffee shop, take a look at everyone around you, and marvel in their humanness.&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Adam Mastroianni:: &lt;a href=&quot;https://www.experimental-history.com/p/the-decline-of-deviance&quot;&gt;The Decline of Deviance&lt;/a&gt; &amp;lt;– Another &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;For the first time in history, weirdness is a choice. And it’s a hard one, because we have more to lose than ever.&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Jia Tolentino:: &lt;a href=&quot;https://archive.is/lBZtE#selection-327.0-327.25&quot;&gt;The Age of Instagram Face&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;What did it mean, I wondered, that I have spent so much of my life attempting to perform well in circumstances where an unaltered female face is aberrant? How had I been changed by an era in which ordinary humans receive daily metrics that appear to quantify how our personalities and our physical selves are performing on the market? What was the logical end of this escalating back-and-forth between digital and physical improvement?&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Lisa Abend:: &lt;a href=&quot;https://archive.is/T8qxM&quot;&gt;How Kinfolk Magazine Defined the Millennial Aesthetic…and Unraveled Behind the Scenes&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;So ubiquitous a signifier did Kinfolk become that parodies popped up to satirize what they took to be its bland, elitist, and exceedingly white omnipresence. One site, the Kinspiracy, simply collected the copycat images from Instagram and published them beneath the tagline “Kinfolk Magazine: Making White People Feel Artistic Since 2011.”&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 17 Feb 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/02/17/p1836-the-age-of-average/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/02/17/p1836-the-age-of-average/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: I like JPEGs for images not for my writing :-) Just say no to 'semantic ablation' :-) ; Claudio Nastruzzi:: Semantic ablation: Why AI writing is boring and dangerous • The Register</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Feb 18, 2026 02:32 (UTC) &lt;a href=&quot;https://www.theregister.com/2026/02/16/semantic_ablation_ai_writing/&quot;&gt;ME:: I like JPEGs for images not for my writing :-) Just say no to “semantic ablation” :-) ; Claudio Nastruzzi:: Semantic ablation: Why AI writing is boring and dangerous • The Register&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;The result is a &quot;JPEG of thought&quot; – visually coherent but stripped of its original data density through semantic ablation.&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 17 Feb 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/02/17/p1832-semantic_ablation_ai_writing/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/02/17/p1832-semantic_ablation_ai_writing/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME: tl;dr-ing; Mark Zᑌckerberg, the CEO of TikTok, etc are dictators ; FB, Tiktok, Twitter, etc  have  to be regulated ; Amanpour and Company:: YouTube:: Maria Ressa: on Trᑌmp 2nd Term: “Narrative Warfare &amp;amp; the Breakdown of Reality”</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Feb 17, 2026 23:50 (UTC) &lt;a href=&quot;https://www.youtube.com/watch?v=TFdfiMhnRS0&quot;&gt;ME: tl;dr-ing; Mark Zᑌckerberg, the CEO of TikTok, etc are dictators ; FB, Tiktok, Twitter, etc  have  to be regulated ; Amanpour and Company:: YouTube:: Maria Ressa: on Trᑌmp 2nd Term: “Narrative Warfare &amp;amp; the Breakdown of Reality”&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 17 Feb 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/02/17/p1550-fb-tiktok-should-be-regulated-mz-dictator/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/02/17/p1550-fb-tiktok-should-be-regulated-mz-dictator/</guid>
+        
+        
+      </item>
     
       <item>
         <title>'AI' Howlers:: google gemini 'ai' search made up a non existent 'tabulate' function in mlr</title>
@@ -175,189 +268,6 @@
         <pubDate>Mon, 16 Feb 2026 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2026/02/16/p2325-khelsilem-please-switch-to-patreon-ghost-and-i-will-donate/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/02/16/p2325-khelsilem-please-switch-to-patreon-ghost-and-i-will-donate/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Even if you don't like Chinese food, read 'Invitation to a Banquet: The Story of Chinese Food, 2023' by Fuchsia Dunlop #HighlyRecommended</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/checklists/936619&quot;&gt;Draft&lt;/a&gt; &lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;created&lt;/a&gt;: Feb 17, 2026 04:06 (UTC).&lt;/li&gt;
-  &lt;li&gt;Wikipedia: &lt;a href=&quot;https://en.wikipedia.org/wiki/Invitation_to_a_Banquet&quot;&gt;Invitation to a Banquet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Roughly 30 chapters about everything you know about Chinese food e.g. dim sum, mapo tofu, bbq pork, Chinese Buddhist cuisine, etc&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 16 Feb 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/02/16/p2006-chinese-food-read-invitation-banquet-story-2023-fuchsia-dunlop/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/02/16/p2006-chinese-food-read-invitation-banquet-story-2023-fuchsia-dunlop/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: Marcos Sr. (and I am 99% sure Jr. isn't a force for good either) was evil and so was Enrile ; Kirby Araullo:: Enrile dies at 101. Martial Law architect. His logging makes every typhoon deadlier today. 🇵🇭 - YouTube</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Feb 17, 2026 01:58 (UTC) &lt;a href=&quot;https://www.youtube.com/shorts/fPD0C5WaBHk&quot;&gt;ME:: Marcos Sr. (and I am 99% sure Jr. isn’t a force for good either) was evil and so was Enrile ; Kirby Araullo:: Enrile dies at 101. Martial Law architect. His logging makes every typhoon deadlier today. 🇵🇭 - YouTube&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 16 Feb 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/02/16/p1758-enrile-is-evil-and-so-was-marcos/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/02/16/p1758-enrile-is-evil-and-so-was-marcos/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: tl;dr-ing: (LOL i think it's more like 6 months! 1. learn more sentences in context  (100 per day) 2. read sentences with translations (save audio files and play them the next day in the background)  3. Memorize vocab with mnemonic association Test yourself immediately 4. speak aloud a lot  ; Mikel Telleria:: Speak any language in 3 months (Daily routine for fluency) - YouTube</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Feb 17, 2026 01:19 (UTC) &lt;a href=&quot;https://www.youtube.com/watch?v=WBC1iSHWSqQ&quot;&gt;ME:: tl;dr-ing: (LOL i think it’s more like 6 months! 1. learn more sentences in context  (100 per day) 2. read sentences with translations (save audio files and play them the next day in the background)  3. Memorize vocab with mnemonic association Test yourself immediately 4. speak aloud a lot  ; Mikel Telleria:: Speak any language in 3 months (Daily routine for fluency) - YouTube&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 16 Feb 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/02/16/p1719-learn-language-in-3-months-100-sentence-per-day-listen-to-audio-test-immediately-speak-aloud-alot-mikel-elleria/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/02/16/p1719-learn-language-in-3-months-100-sentence-per-day-listen-to-audio-test-immediately-speak-aloud-alot-mikel-elleria/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Happy Lunar New Year :-)</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1&quot;&gt;Draft&lt;/a&gt; &lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;created&lt;/a&gt;: Feb 17, 2026 01:07 (UTC).&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 16 Feb 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/02/16/p1707-happy-lunar-year/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/02/16/p1707-happy-lunar-year/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Updated without-link-blogthis.rb to point to my blog post about it :-)</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;Created&lt;/a&gt;: Feb 17, 2026 00:28 (UTC)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/rtanglao/rt-checkvist/blob/main/without-link-blogthis.rb&quot;&gt;without-link-blogthis.rb&lt;/a&gt;
-    &lt;h2 id=&quot;copy-paste-of-without-link-blogthisrb-code-in-case-github-ever-goes-away--&quot;&gt;Copy paste of without-link-blogthis.rb code in case github ever goes away :-)&lt;/h2&gt;
-    &lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;#!/usr/bin/env ruby&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'rubygems'&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'bundler/setup'&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'amazing_print'&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'time'&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'date'&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'logger'&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'pry'&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'typhoeus'&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'json'&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'uri'&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'tzinfo'&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'pragmatic_tokenizer'&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'babosa'&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;logger&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Logger&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$stderr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;logger&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;level&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Logger&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;DEBUG&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ARGV&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;empty?&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;usage: &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;vg&quot;&gt;$PROGRAM_NAME&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; checkvist_url_to_blog_using_lc_or_tc_checkvist_command&quot;&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;exit&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;get_checkvist_response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;params&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;logger&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;logger&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;debug&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;url&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;logger&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;debug&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;params&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;try_count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;begin&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Typhoeus&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;ss&quot;&gt;params: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;params&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;JSON&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;parse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;rescue&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;JSON&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;ParserError&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;try_count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;try_count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;
-    &lt;span class=&quot;vg&quot;&gt;$stderr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;JSON::ParserError exception, retry:%d&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,\&lt;/span&gt;
-                   &lt;span class=&quot;n&quot;&gt;try_count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;nb&quot;&gt;sleep&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;retry&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
-    &lt;span class=&quot;vg&quot;&gt;$stderr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;JSON::ParserError exception, retrying FAILED&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;nil&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;no&quot;&gt;URL&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ARGV&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;freeze&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# from https://checkvist.com/auth/api&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# e.g. https://checkvist.com/checklists/742486/tasks/67162153&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# get /checklists/checklist_id/tasks/task_id.(json¦xml)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# GET https://checkvist.com/checklists/742486/tasks/67162153.json&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;task_api_url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;URL&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.json&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;json&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;get_checkvist_response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;task_api_url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;logger&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;logger&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;debug&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;json: &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;ai&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;content&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'content'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;created_at&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'created_at'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# Read UTC date and time from checkvist API instead of Pacific from the checkvist outline&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# &quot;Dec 4, 2024 07:19 [Greg Wilson:: The Third Bit: Afraid of Change](https://third-bit.com/2018/11/24/afraid-of-change/) &amp;lt;-- **QUOTE**: `I think&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# thought leaders in Silicon Valley started recommending it to each other for two reasons. First, it allows them to blame subordinates for not&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# speaking out (again, ignoring the experience some of those subordinates may have had of bosses who say “I want to hear what you think” but really&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# don’t). Second, it satisfies tech bros’ need to talk about something other than sexual harassment, racial discrimination, and pay inequity—in&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# other words, their need to talk about things that sound important but won’t make them uncomfortable or undermine the system that they hope will&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# make them rich.`&quot;,&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# filename 2024-12-04-p0719-afraid-of-change.md&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# Assume format of date and then markdown link i.e. mmm n, YYYY hh:mm [link text](https://link) rest of text&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# split_at_markdown_leftsquarebracket = content.split('[', 2)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# date_str = split_at_markdown_leftsquarebracket[0]&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# Hardcode since 99% of the time I will be in Vancouver, change to another timezone if the list item was added in a different timezone&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# ENV['TZ'] = 'America/Vancouver'&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# t = Time.parse(date_str)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;# filename = t.strftime('%Y-%m-%d-p%H%M')&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;logger&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;debug&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;content &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;ai&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;parse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;created_at&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;logger&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;debug&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;created_at: &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;ai&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;time_created_slug&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;getlocal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;strftime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'%Y-%m-%d-p%H%M'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;created&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;strftime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'%b %-d, %Y %H:%M'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;content_array&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\r\n\r\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;content_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;rest_of_content&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;content_array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;logger&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;debug&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;title: &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;ai&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;logger&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;debug&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;rest of content: &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rest_of_content&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;ai&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;tokenizer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;PragmaticTokenizer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Tokenizer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;language: :en&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;remove_stop_words: &lt;/span&gt;&lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;punctuation: :none&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;clean: &lt;/span&gt;&lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;classic_filter: &lt;/span&gt;&lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;minimum_length: &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;tokens&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tokenizer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;tokenize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;uniq&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;slug&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tokens&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;join&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;' '&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;slug&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;slug&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_slug&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;normalize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_s&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;logger&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;debug&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;slug without timestamp: &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;slug&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;slug&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;time_created_slug&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;slug&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;slug&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;downcase!&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;logger&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;debug&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;slug:&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;slug&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;filename&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;slug&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.md&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;logger&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;debug&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;filename: &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filename&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;filestr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;---&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;filestr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;layout: post&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;filestr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;title: &lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&quot;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;filestr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;---&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;filestr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;* [Created](https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/): &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;created&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; (UTC)&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;filestr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rest_of_content&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;gsub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'¦'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'¦'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;filestr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 16 Feb 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/02/16/p1628-updated-without-link-blogthisrb-point-blog-post/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/02/16/p1628-updated-without-link-blogthisrb-point-blog-post/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: tl;dr-ing: Try 20 mins of moderate cardio before important tasks, hyperactivity: strength or high intensity, impulsivity interval training: Martial Arts or Yoga; Dr. Tracey Marks:: How One Workout Can Improve Focus for the ADHD Brain</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Feb 16, 2026 17:35 (UTC) &lt;a href=&quot;https://youtu.be/Bdb35NoCeUU?si=kc-GusmvSBuICa84https://youtu.be/Bdb35NoCeUU&quot;&gt;ME:: tl;dr-ing: Try 20 mins of moderate cardio before important tasks, hyperactivity: strength or high intensity, impulsivity interval training: Martial Arts or Yoga; Dr. Tracey Marks:: How One Workout Can Improve Focus for the ADHD Brain&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Summary at &lt;a href=&quot;https://www.youtube.com/watch?v=Bdb35NoCeUU&amp;amp;t=488s&quot;&gt;8:08&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;15 squats every hour is something I might try&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 16 Feb 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/02/16/p0935-tracey-marks-20minscardio-focus-hyperacitivty-strength-hiit-impulsivity-martial-arts-yoga/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/02/16/p0935-tracey-marks-20minscardio-focus-hyperacitivty-strength-hiit-impulsivity-martial-arts-yoga/</guid>
         
         
       </item>
