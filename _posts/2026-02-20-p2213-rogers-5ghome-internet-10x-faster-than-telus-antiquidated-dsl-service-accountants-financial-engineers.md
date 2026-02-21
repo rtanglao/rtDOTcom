@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Installed Rogers 5G Home Internet Ultimate plan, my upload speed has gone up 1500% (from less than 1Mb/s to 15MB/s or more on Telus's antiquidated DSL service). I want Telus Fiber but not available because accountants (?!?) see linked cosocial.ca thread :-)"
---
+---
 * [Draft](https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1) [created](https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/): Feb 21, 2026 06:13 (UTC).
 * [Rogers 5G Home Internet](https://cosocial.ca/@roland/116102056295841834)
 * cosocial.ca [thread](https://cosocial.ca/@roland/116102056295841834) (no disrespect to accountants and other financial 'engineers' :-) ):"
