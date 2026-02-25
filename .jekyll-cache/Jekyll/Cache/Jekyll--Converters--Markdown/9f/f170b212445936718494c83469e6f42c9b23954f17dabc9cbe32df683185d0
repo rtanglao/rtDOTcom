@@ -1,0 +1,25 @@
+I"�<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Feb 25, 2026 15:28 (UTC) <a href="https://www.anildash.com/2026/01/22/codeless/">ME:: tl;dr-ing; Anybody who can write a spec i.e. a text file of requirements can create software with tests and you don’t know have to know a programming language just how to write, it’s expensive (although open source tools are improving quickly which will decrease costs) and super geeky because you have to configure lots of moving parts and not super great for large legacy codebases at the moment ; Anil Dash:: January 2026:: Codeless: From idea to software</a></p>
+
+<h2 id="quote">QUOTE</h2>
+
+<ul>
+  <li>Read the whole thing: <a href="https://www.anildash.com/2026/01/22/codeless/">Anil Dash:: January 2026:: Codeless: From idea to software</a></li>
+</ul>
+
+<p>If you’re looking for a quick bullet-point summary, here’s something skimmable:</p>
+
+<ol>
+  <li>“Codeless” is a way to describe a new way of orchestrating large numbers of AI coding bots to build software at scale, controlled by a plain-English strategic plan for the bots to follow.</li>
+  <li>In this approach, you don’t write code directly. Instead, you write a plan for the end result or product that you want, and the system directs your bots to build code to deliver that product. (Codeless abstracts away directly writing code just like “serverless” abstracted away directly managing servers.)</li>
+  <li>This codeless approach is credible because it emerged organically from influential coders who don’t work for the Big AI companies, and independent devs are already starting to make it easier and more approachable. It’s not a pitch from a big company trying to sell a product, and in fact, codeless tools make it easy to swap out one LLM for another.</li>
+  <li>Today, codeless tools themselves don’t cost anything. The systems are entirely open source, though setting them up can be complicated and take some time. Actually running enough bots to generate all that code gets expensive quickly if you use cutting-edge commercial LLMs, but mixing in some lower-cost open tools can help defray costs. We can also expect that, as this approach gains momentum, more polished paid versions of the tools will emerge.</li>
+  <li>Many coders didn’t like using LLMs to generate code because they hallucinate. Codeless systems assume that the code they generate will be broken sometimes, and handle that failure. Just like other resilient systems assume that hard drives will fail, or that network connections will be unreliable, codeless systems are designed to handle unreliable code.</li>
+  <li>This has nothing to do with the “no code” hype from years ago, because it’s not locked-in to one commercial vendor or one proprietary platform. And codeless projects can be designed to output code that will run on any regular infrastructure, including your existing systems.</li>
+  <li>Codeless changes power dynamics. People and teams who adopt a codeless approach have the potential to build a lot more under their own control. And those codeless makers won’t necessarily have to ask for permission or resources in order to start creating. Putting this power in the hands of those individuals might have huge implications over time, as people realize that they may not have to raise funding or seek out sponsors to build the things that they imagine.</li>
+  <li>The management and creation interfaces for codeless systems are radically more accessible than many other platforms because they’re often controlled by simple plain text Markdown files. This means it’s likely that some of the most effective or successful codeless creators could end up being people who have had roles like product managers, designers, or systems architects, not just developers.</li>
+  <li>Codeless approaches are probably not a great way to take over a big legacy codebase, since they rely on accurately describing an entire problem, which can often be difficult to completely capture. And coding bots may lack sufficient context to understand legacy codebases, especially since LLMs are sometimes weaker with legacy technologies.</li>
+  <li>In many prior evolutions of coding, abstractions let coders work at higher levels, closer to the problem they were trying to solve. Low-level languages saved coders from having to write assembly language; high-level languages kept coders from having to write code to manage memory. Codeless systems abstract away directly writing code, continuing the long history of letting developers focus more on the problem to be solved than on manually creating every part of the code.</li>
+</ol>
+
+<p><strong>END QUOTE</strong></p>
+:ET
