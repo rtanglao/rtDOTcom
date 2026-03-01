@@ -8,7 +8,7 @@ Finished 54th (out of 60) overall LOL in "Male 18+, 15km"  3rd last in my age gr
 * Split time was good! 50:59.9
 * Finish time: 1:49:23.6 +1:04:30.1
 * Free15 km Male (60-64): 10/13
-* https://www.strava.com/activities/17557264310
+* [https://www.strava.com/activities/17557264310](https://www.strava.com/activities/17557264310)
 
 ## Previously
 * [2016: 1:52](https://www.sports-tracker.com/workout/roland/57d5e000e4b0ea908ad98c47), [flickr screenshot in case sports tracker goes away :-)](https://www.flickr.com/photos/roland/32305675443)
