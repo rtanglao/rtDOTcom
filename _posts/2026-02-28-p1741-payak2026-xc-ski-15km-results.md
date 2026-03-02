@@ -17,10 +17,11 @@ Finished 54th (out of 60) overall LOL in "Male 18+, 15km"  3rd last in my age gr
 * 2019 [Chip time:](https://zone4.ca/race/2019-02-23/327f562e/results) 1:29
 * 2020 [Payak 2020: 1:40 oops fell 3 times in the first 5km, but mountain view climb was fast because of the klaebo running up hill diagonal stride technique](https://rolandtanglao.com/2020/02/22/p1-payak-2020-slower-because-i-fell-3-times-in-first-5-mountain-view-climb-was-fast-klaebo-rules/), [Chip time:](https://zone4.ca/race/2020-02-22/bd0c809e/results) 1:40
 * 2023 [Payak 2023: 1:28 I thought I was fastest evah but I wasn't. The cold (-8) and unwisely stopping just before the end for a drink (oops) made me slower](https://rolandtanglao.com/2023/03/16/p1-payak-2023/), [Chip time:](https://zone4.ca/race/2023-02-25/3118c178/results) 1:28
-* 2024, Could not find my time :-) on zone4.ca
+* 2024, Didn't participate in Payak 2024 because there was no snow at Cypress and I didn't xc ski much (under 10 times before March 1, 2024)
 * 2025, [Chip time:](https://zone4.ca/race/2025-02-22/df6d74f6/results) 1:43
 
 ## Strava embed
 
 <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="17557264310" data-style="standard" data-from-embed="false"></div><script src="https://strava-embeds.com/embed.js"></script>
+
 
