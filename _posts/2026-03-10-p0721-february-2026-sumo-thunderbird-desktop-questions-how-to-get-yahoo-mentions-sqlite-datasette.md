@@ -7,33 +7,32 @@ title: "How to get all February 2026 SUMO Thunderbird Desktop Questions from my 
 * How to use multiple CSVs in datasette: [Simon Willison:: 2022:: Joining CSV files in your browser using Datasette Lite](https://simonwillison.net/2022/Jun/20/datasette-lite-csvs/)
 * [geeksforgeeks Union All](https://www.geeksforgeeks.org/sqlite/sqlite-union-all-operator/): **QUOTE**: "SQLite **UNION ALL** operator combines **multiple select statements** and fetches the entire data. Union All fetches the duplicate rows too. The select statement must have the same number of columns with the same data type and the first select statement column names are used as the result set column names. It helps to unite the multiple select statements to retrieve the specified output. In simple words, **it is used to fetch data from multiple tables**."
 
-<details>
-<summary>I like this example of adding a field called "Type" in a "select" statement from sqlitetutorial.net's UNION ALL tutorial at: https://www.sqlitetutorial.net/sqlite-union/</summary>
+<details markdown="1">
+<summary markdown="span">I like this example of adding a field called "Type" in a "select" statement from sqlitetutorial.net's UNION ALL tutorial at: https://www.sqlitetutorial.net/sqlite-union/</summary>
 
 ```sql
 SELECT
   FirstName,
   LastName,
   'Employee' AS Type
-FROM
-  employees
+FROM employees
 UNION
 SELECT
   FirstName,
   LastName,
   'Customer'
-FROM
-  customers
-ORDER BY
-  FirstName,
-  LastName;
+  FROM customers
+  ORDER BY
+      FirstName,
+      LastName;
 ```
 
 </details>
+
 * Thank you Simon Willison for your wonderful datasette software!
 
-<details>
-<summary>The actual query for SQLite nerds :-)</summary>
+<details markdown="1">
+<summary markdown="span">The actual query for SQLite nerds :-)</summary>
 
 ```sql
 select * from [2026-02-01-2026-02-01-thunderbird-creator-answers-desktop-all-locales] where content like '%yahoo%'
