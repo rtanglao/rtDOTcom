@@ -6,9 +6,115 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 06 Mar 2026 16:39:57 -0800</pubDate>
-    <lastBuildDate>Fri, 06 Mar 2026 16:39:57 -0800</lastBuildDate>
+    <pubDate>Tue, 10 Mar 2026 13:43:27 -0700</pubDate>
+    <lastBuildDate>Tue, 10 Mar 2026 13:43:27 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>How to get all February 2026 SUMO Thunderbird Desktop Questions from my CSV files (updated via a github action once per hour)l use 'select all' to unify the 28 CSVs once per day and TIL you can add fields using 'select'</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1&quot;&gt;Draft&lt;/a&gt; &lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;created&lt;/a&gt;: Mar 10, 2026 14:21 (UTC).&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lite.datasette.io/?csv=https://github.com/thunderbird/github-action-thunderbird-aaq/blob/main/2026/2026-02-01-2026-02-01-thunderbird-creator-answers-desktop-all-locales.csv&amp;amp;csv=https://github.com/thunderbird/github-action-thunderbird-aaq/blob/main/2026/2026-02-02-2026-02-02-thunderbird-creator-answers-desktop-all-locales.csv&amp;amp;csv=https://github.com/thunderbird/github-action-thunderbird-aaq/blob/main/2026/2026-02-03-2026-02-03-thunderbird-creator-answers-desktop-all-locales.csv&amp;amp;csv=https://github.com/thunderbird/github-action-thunderbird-aaq/blob/main/2026/2026-02-04-2026-02-04-thunderbird-creator-answers-desktop-all-locales.csv&amp;amp;csv=https://github.com/thunderbird/github-action-thunderbird-aaq/blob/main/2026/2026-02-05-2026-02-05-thunderbird-creator-answers-desktop-all-locales.csv&amp;amp;csv=https://github.com/thunderbird/github-action-thunderbird-aaq/blob/main/2026/2026-02-06-2026-02-06-thunderbird-creator-answers-desktop-all-locales.csv&amp;amp;csv=https://github.com/thunderbird/github-action-thunderbird-aaq/blob/main/2026/2026-02-07-2026-02-07-thunderbird-creator-answers-desktop-all-locales.csv&amp;amp;csv=https://github.com/thunderbird/github-action-thunderbird-aaq/blob/main/2026/2026-02-08-2026-02-08-thunderbird-creator-answers-desktop-all-locales.csv&amp;amp;csv=https://github.com/thunderbird/github-action-thunderbird-aaq/blob/main/2026/2026-02-09-2026-02-09-thunderbird-creator-answers-desktop-all-locales.csv&amp;amp;csv=https://github.com/thunderbird/github-action-thunderbird-aaq/blob/main/2026/2026-02-10-2026-02-10-thunderbird-creator-answers-desktop-all-locales.csv&amp;amp;csv=https://github.com/thunderbird/github-action-thunderbird-aaq/blob/main/2026/2026-02-11-2026-02-11-thunderbird-creator-answers-desktop-all-locales.csv&amp;amp;csv=https://github.com/thunderbird/github-action-thunderbird-aaq/blob/main/2026/2026-02-12-2026-02-12-thunderbird-creator-answers-desktop-all-locales.csv&amp;amp;csv=https://github.com/thunderbird/github-action-thunderbird-aaq/blob/main/2026/2026-02-13-2026-02-13-thunderbird-creator-answers-desktop-all-locales.csv&amp;amp;csv=https://github.com/thunderbird/github-action-thunderbird-aaq/blob/main/2026/2026-02-14-2026-02-14-thunderbird-creator-answers-desktop-all-locales.csv&amp;amp;csv=https://github.com/thunderbird/github-action-thunderbird-aaq/blob/main/2026/2026-02-15-2026-02-15-thunderbird-creator-answers-desktop-all-locales.csv&amp;amp;csv=https://github.com/thunderbird/github-action-thunderbird-aaq/blob/main/2026/2026-02-16-2026-02-16-thunderbird-creator-answers-desktop-all-locales.csv&amp;amp;csv=https://github.com/thunderbird/github-action-thunderbird-aaq/blob/main/2026/2026-02-17-2026-02-17-thunderbird-creator-answers-desktop-all-locales.csv&amp;amp;csv=https://github.com/thunderbird/github-action-thunderbird-aaq/blob/main/2026/2026-02-18-2026-02-18-thunderbird-creator-answers-desktop-all-locales.csv&amp;amp;csv=https://github.com/thunderbird/github-action-thunderbird-aaq/blob/main/2026/2026-02-19-2026-02-19-thunderbird-creator-answers-desktop-all-locales.csv&amp;amp;csv=https://github.com/thunderbird/github-action-thunderbird-aaq/blob/main/2026/2026-02-20-2026-02-20-thunderbird-creator-answers-desktop-all-locales.csv&amp;amp;csv=https://github.com/thunderbird/github-action-thunderbird-aaq/blob/main/2026/2026-02-21-2026-02-21-thunderbird-creator-answers-desktop-all-locales.csv&amp;amp;csv=https://github.com/thunderbird/github-action-thunderbird-aaq/blob/main/2026/2026-02-22-2026-02-22-thunderbird-creator-answers-desktop-all-locales.csv&amp;amp;csv=https://github.com/thunderbird/github-action-thunderbird-aaq/blob/main/2026/2026-02-23-2026-02-23-thunderbird-creator-answers-desktop-all-locales.csv&amp;amp;csv=https://github.com/thunderbird/github-action-thunderbird-aaq/blob/main/2026/2026-02-24-2026-02-24-thunderbird-creator-answers-desktop-all-locales.csv&amp;amp;csv=https://github.com/thunderbird/github-action-thunderbird-aaq/blob/main/2026/2026-02-25-2026-02-25-thunderbird-creator-answers-desktop-all-locales.csv&amp;amp;csv=https://github.com/thunderbird/github-action-thunderbird-aaq/blob/main/2026/2026-02-26-2026-02-26-thunderbird-creator-answers-desktop-all-locales.csv&amp;amp;csv=https://github.com/thunderbird/github-action-thunderbird-aaq/blob/main/2026/2026-02-27-2026-02-27-thunderbird-creator-answers-desktop-all-locales.csv&amp;amp;csv=https://github.com/thunderbird/github-action-thunderbird-aaq/blob/main/2026/2026-02-28-2026-02-28-thunderbird-creator-answers-desktop-all-locales.csv#/data?sql=select+*+from+%5B2026-02-01-2026-02-01-thunderbird-creator-answers-desktop-all-locales%5D+where+content+like+%27%25yahoo%25%27%0Aunion+all%0Aselect+*+from+%5B2026-02-02-2026-02-02-thunderbird-creator-answers-desktop-all-locales%5D+where+content+like+%27%25yahoo%25%27%0Aunion+all%0Aselect+*+from+%5B2026-02-03-2026-02-03-thunderbird-creator-answers-desktop-all-locales%5D+where+content+like+%27%25yahoo%25%27%0Aunion+all%0Aselect+*+from+%5B2026-02-04-2026-02-04-thunderbird-creator-answers-desktop-all-locales%5D+where+content+like+%27%25yahoo%25%27%0Aunion+all%0Aselect+*+from+%5B2026-02-05-2026-02-05-thunderbird-creator-answers-desktop-all-locales%5D+where+content+like+%27%25yahoo%25%27%0Aunion+all%0Aselect+*+from+%5B2026-02-06-2026-02-06-thunderbird-creator-answers-desktop-all-locales%5D+where+content+like+%27%25yahoo%25%27%0Aunion+all%0Aselect+*+from+%5B2026-02-07-2026-02-07-thunderbird-creator-answers-desktop-all-locales%5D+where+content+like+%27%25yahoo%25%27%0Aunion+all%0Aselect+*+from+%5B2026-02-08-2026-02-08-thunderbird-creator-answers-desktop-all-locales%5D+where+content+like+%27%25yahoo%25%27%0Aunion+all%0Aselect+*+from+%5B2026-02-09-2026-02-09-thunderbird-creator-answers-desktop-all-locales%5D+where+content+like+%27%25yahoo%25%27%0Aunion+all%0Aselect+*+from+%5B2026-02-10-2026-02-10-thunderbird-creator-answers-desktop-all-locales%5D+where+content+like+%27%25yahoo%25%27%0Aunion+all%0Aselect+*+from+%5B2026-02-11-2026-02-11-thunderbird-creator-answers-desktop-all-locales%5D+where+content+like+%27%25yahoo%25%27%0Aunion+all%0Aselect+*+from+%5B2026-02-12-2026-02-12-thunderbird-creator-answers-desktop-all-locales%5D+where+content+like+%27%25yahoo%25%27%0Aunion+all%0Aselect+*+from+%5B2026-02-13-2026-02-13-thunderbird-creator-answers-desktop-all-locales%5D+where+content+like+%27%25yahoo%25%27%0Aunion+all%0Aselect+*+from+%5B2026-02-14-2026-02-14-thunderbird-creator-answers-desktop-all-locales%5D+where+content+like+%27%25yahoo%25%27%0Aunion+all%0Aselect+*+from+%5B2026-02-15-2026-02-15-thunderbird-creator-answers-desktop-all-locales%5D+where+content+like+%27%25yahoo%25%27%0Aunion+all%0Aselect+*+from+%5B2026-02-16-2026-02-16-thunderbird-creator-answers-desktop-all-locales%5D+where+content+like+%27%25yahoo%25%27%0Aunion+all%0Aselect+*+from+%5B2026-02-17-2026-02-17-thunderbird-creator-answers-desktop-all-locales%5D+where+content+like+%27%25yahoo%25%27%0Aunion+all%0Aselect+*+from+%5B2026-02-18-2026-02-18-thunderbird-creator-answers-desktop-all-locales%5D+where+content+like+%27%25yahoo%25%27%0Aunion+all%0Aselect+*+from+%5B2026-02-19-2026-02-19-thunderbird-creator-answers-desktop-all-locales%5D+where+content+like+%27%25yahoo%25%27%0Aunion+all%0Aselect+*+from+%5B2026-02-20-2026-02-20-thunderbird-creator-answers-desktop-all-locales%5D+where+content+like+%27%25yahoo%25%27%0Aunion+all%0Aselect+*+from+%5B2026-02-21-2026-02-21-thunderbird-creator-answers-desktop-all-locales%5D+where+content+like+%27%25yahoo%25%27%0Aunion+all%0Aselect+*+from+%5B2026-02-22-2026-02-22-thunderbird-creator-answers-desktop-all-locales%5D+where+content+like+%27%25yahoo%25%27%0Aunion+all%0Aselect+*+from+%5B2026-02-23-2026-02-23-thunderbird-creator-answers-desktop-all-locales%5D+where+content+like+%27%25yahoo%25%27%0Aunion+all%0Aselect+*+from+%5B2026-02-24-2026-02-24-thunderbird-creator-answers-desktop-all-locales%5D+where+content+like+%27%25yahoo%25%27%0Aunion+all%0Aselect+*+from+%5B2026-02-25-2026-02-25-thunderbird-creator-answers-desktop-all-locales%5D+where+content+like+%27%25yahoo%25%27%0Aunion+all%0Aselect+*+from+%5B2026-02-26-2026-02-26-thunderbird-creator-answers-desktop-all-locales%5D+where+content+like+%27%25yahoo%25%27%0Aunion+all%0Aselect+*+from+%5B2026-02-27-2026-02-27-thunderbird-creator-answers-desktop-all-locales%5D+where+content+like+%27%25yahoo%25%27%0Aunion+all%0Aselect+*+from+%5B2026-02-28-2026-02-28-thunderbird-creator-answers-desktop-all-locales%5D+where+content+like+%27%25yahoo%25%27%0A&quot;&gt;A lite.datasette.io SQLite query to get all 42 support.mozilla.org (aka SUMO) Thunderbird Desktop questions in February 2026 that mention ‘yahoo’&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;How to use multiple CSVs in datasette: &lt;a href=&quot;https://simonwillison.net/2022/Jun/20/datasette-lite-csvs/&quot;&gt;Simon Willison:: 2022:: Joining CSV files in your browser using Datasette Lite&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/sqlite/sqlite-union-all-operator/&quot;&gt;geeksforgeeks Union All&lt;/a&gt;: &lt;strong&gt;QUOTE&lt;/strong&gt;: “SQLite &lt;strong&gt;UNION ALL&lt;/strong&gt; operator combines &lt;strong&gt;multiple select statements&lt;/strong&gt; and fetches the entire data. Union All fetches the duplicate rows too. The select statement must have the same number of columns with the same data type and the first select statement column names are used as the result set column names. It helps to unite the multiple select statements to retrieve the specified output. In simple words, &lt;strong&gt;it is used to fetch data from multiple tables&lt;/strong&gt;.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;details&gt;
+&lt;summary&gt;I like this example of adding a field called &quot;Type&quot; in a &quot;select&quot; statement from sqlitetutorial.net's UNION ALL tutorial at: https://www.sqlitetutorial.net/sqlite-union/&lt;/summary&gt;
+
+```sql
+SELECT
+  FirstName,
+  LastName,
+  'Employee' AS Type
+FROM
+  employees
+UNION
+SELECT
+  FirstName,
+  LastName,
+  'Customer'
+FROM
+  customers
+ORDER BY
+  FirstName,
+  LastName;
+```
+
+&lt;/details&gt;
+&lt;ul&gt;
+  &lt;li&gt;Thank you Simon Willison for your wonderful datasette software!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;details&gt;
+&lt;summary&gt;The actual query for SQLite nerds :-)&lt;/summary&gt;
+
+```sql
+select * from [2026-02-01-2026-02-01-thunderbird-creator-answers-desktop-all-locales] where content like '%yahoo%'
+union all
+select * from [2026-02-02-2026-02-02-thunderbird-creator-answers-desktop-all-locales] where content like '%yahoo%'
+union all
+select * from [2026-02-03-2026-02-03-thunderbird-creator-answers-desktop-all-locales] where content like '%yahoo%'
+union all
+select * from [2026-02-04-2026-02-04-thunderbird-creator-answers-desktop-all-locales] where content like '%yahoo%'
+union all
+select * from [2026-02-05-2026-02-05-thunderbird-creator-answers-desktop-all-locales] where content like '%yahoo%'
+union all
+select * from [2026-02-06-2026-02-06-thunderbird-creator-answers-desktop-all-locales] where content like '%yahoo%'
+union all
+select * from [2026-02-07-2026-02-07-thunderbird-creator-answers-desktop-all-locales] where content like '%yahoo%'
+union all
+select * from [2026-02-08-2026-02-08-thunderbird-creator-answers-desktop-all-locales] where content like '%yahoo%'
+union all
+select * from [2026-02-09-2026-02-09-thunderbird-creator-answers-desktop-all-locales] where content like '%yahoo%'
+union all
+select * from [2026-02-10-2026-02-10-thunderbird-creator-answers-desktop-all-locales] where content like '%yahoo%'
+union all
+select * from [2026-02-11-2026-02-11-thunderbird-creator-answers-desktop-all-locales] where content like '%yahoo%'
+union all
+select * from [2026-02-12-2026-02-12-thunderbird-creator-answers-desktop-all-locales] where content like '%yahoo%'
+union all
+select * from [2026-02-13-2026-02-13-thunderbird-creator-answers-desktop-all-locales] where content like '%yahoo%'
+union all
+select * from [2026-02-14-2026-02-14-thunderbird-creator-answers-desktop-all-locales] where content like '%yahoo%'
+union all
+select * from [2026-02-15-2026-02-15-thunderbird-creator-answers-desktop-all-locales] where content like '%yahoo%'
+union all
+select * from [2026-02-16-2026-02-16-thunderbird-creator-answers-desktop-all-locales] where content like '%yahoo%'
+union all
+select * from [2026-02-17-2026-02-17-thunderbird-creator-answers-desktop-all-locales] where content like '%yahoo%'
+union all
+select * from [2026-02-18-2026-02-18-thunderbird-creator-answers-desktop-all-locales] where content like '%yahoo%'
+union all
+select * from [2026-02-19-2026-02-19-thunderbird-creator-answers-desktop-all-locales] where content like '%yahoo%'
+union all
+select * from [2026-02-20-2026-02-20-thunderbird-creator-answers-desktop-all-locales] where content like '%yahoo%'
+union all
+select * from [2026-02-21-2026-02-21-thunderbird-creator-answers-desktop-all-locales] where content like '%yahoo%'
+union all
+select * from [2026-02-22-2026-02-22-thunderbird-creator-answers-desktop-all-locales] where content like '%yahoo%'
+union all
+select * from [2026-02-23-2026-02-23-thunderbird-creator-answers-desktop-all-locales] where content like '%yahoo%'
+union all
+select * from [2026-02-24-2026-02-24-thunderbird-creator-answers-desktop-all-locales] where content like '%yahoo%'
+union all
+select * from [2026-02-25-2026-02-25-thunderbird-creator-answers-desktop-all-locales] where content like '%yahoo%'
+union all
+select * from [2026-02-26-2026-02-26-thunderbird-creator-answers-desktop-all-locales] where content like '%yahoo%'
+union all
+select * from [2026-02-27-2026-02-27-thunderbird-creator-answers-desktop-all-locales] where content like '%yahoo%'
+union all
+select * from [2026-02-28-2026-02-28-thunderbird-creator-answers-desktop-all-locales] where content like '%yahoo%'
+```
+
+&lt;/details&gt;
+</description>
+        <pubDate>Tue, 10 Mar 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/03/10/p0721-february-2026-sumo-thunderbird-desktop-questions-how-to-get-yahoo-mentions-sqlite-datasette/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/03/10/p0721-february-2026-sumo-thunderbird-desktop-questions-how-to-get-yahoo-mentions-sqlite-datasette/</guid>
+        
+        
+      </item>
     
       <item>
         <title>There will be tears (RIP Mom who sang this to all 3 of us as kids ) if somebody sings Atin Cu Pung Singsing or really anything in Kapampangan in The Pitt :-)</title>
@@ -141,27 +247,6 @@
         <pubDate>Sat, 28 Feb 2026 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2026/02/28/p1741-payak2026-xc-ski-15km-results/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/02/28/p1741-payak2026-xc-ski-15km-results/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: tl;dr-ing: ATProto is the magical federated mesh. Best of federated + mesh worlds or worst :-) ?  ; Paul Frazee:: Practical Decentralization ¦ Paul's Dev Notes</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Feb 28, 2026 05:38 (UTC) &lt;a href=&quot;https://www.pfrazee.com/blog/practical-decentralization&quot;&gt;ME:: tl;dr-ing: ATProto is the magical federated mesh. Best of federated + mesh worlds or worst :-) ?  ; Paul Frazee:: Practical Decentralization ¦ Paul’s Dev Notes&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The magical federated mesh&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The atproto is both models and neither. More specifically, it’s a hybrid.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Fri, 27 Feb 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/02/27/p2138-atproto-best-all-possible-worlds-or-worst-paul-frazeepractical-decentralization/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/02/27/p2138-atproto-best-all-possible-worlds-or-worst-paul-frazeepractical-decentralization/</guid>
         
         
       </item>
