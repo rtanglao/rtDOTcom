@@ -6,9 +6,34 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 15 Mar 2026 16:29:53 -0700</pubDate>
-    <lastBuildDate>Sun, 15 Mar 2026 16:29:53 -0700</lastBuildDate>
+    <pubDate>Mon, 16 Mar 2026 18:43:58 -0700</pubDate>
+    <lastBuildDate>Mon, 16 Mar 2026 18:43:58 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>ME:: will this work on my M2 MacBook Pro  w/32GB of RAM? trevin-creator/autoresearch-mlx: Apple Silicon (MLX) port of Karpathy's autoresearch — autonomous AI research loops on Mac, no PyTorch required.</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Mar 16, 2026 20:02 (UTC) &lt;a href=&quot;https://github.com/trevin-creator/autoresearch-mlx&quot;&gt;ME:: will this work on my M2 MacBook Pro  w/32GB of RAM? trevin-creator/autoresearch-mlx: Apple Silicon (MLX) port of Karpathy’s autoresearch — autonomous AI research loops on Mac, no PyTorch required.&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Full credit to @karpathy for the core idea: fixed-time autonomous research loops controlled through program.md. This port keeps the same basic rules: one mutable train.py, one metric (val_bpb), a fixed 5-minute training budget, and keep-or-revert via git. It runs natively on Apple Silicon through MLX, so there is no PyTorch or CUDA dependency.&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 16 Mar 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/03/16/p1302-autoresearch-mlx/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/03/16/p1302-autoresearch-mlx/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: Crag Mod, please share the TaxBot2000 code and the prompts that allowed you to to build TaxBot2000 in 5 days :-) ; Craig Mod:: ' I’ve named my glorious contraption TaxBot2000. It is astounding. Let me repeat: I built this in five days' from Software Bonkers</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Mar 16, 2026 19:59 (UTC) &lt;a href=&quot;https://craigmod.com/essays/software_bonkers/&quot;&gt;ME:: Crag Mod, please share the TaxBot2000 code and the prompts that allowed you to to build TaxBot2000 in 5 days :-) ; Craig Mod:: ‘ I’ve named my glorious contraption TaxBot2000. It is astounding. Let me repeat: I built this in five days’ from Software Bonkers&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Most miraculously: For the first time in my life, I have a dashboard that gives me a true, holistic view, of everything financial happening in my life and business. I’ve named my glorious contraption TaxBot2000. It is astounding. Let me repeat: I built this in five days.&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;I don’t expect anybody like Craig Mod to narrate their work with prompts and roadblocks and interim code along the way but it sure would be nice :-) ! And wouldn’t that be in the spirit of open source?!? I am trying to narrate my work always! And it needs to be said that I fail often at narrating my work :-) !&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 16 Mar 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/03/16/p1259-craigmod-pls-share-prompts-code-accounting-system-software_bonkers/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/03/16/p1259-craigmod-pls-share-prompts-code-accounting-system-software_bonkers/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Or you can use an LLM that uses the github MCP to get all February 2026 SUMO Thunderbird Desktop Questions from my CSV files and then you won't need to learn SQLite. I think this should be YES...AND... One needs both at least in 2026 :-) !  Sample prompt follows:</title>
@@ -25,6 +50,17 @@ repo. The tags are semi-colon delimited. Please ignore the 'thunderbird' tag.&lt
         <pubDate>Sun, 15 Mar 2026 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2026/03/15/p1448-sample-prompt-to-plot-tags-from-sumo-thunderbird-desktop-support-forum-csv-files-on-github/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/03/15/p1448-sample-prompt-to-plot-tags-from-sumo-thunderbird-desktop-support-forum-csv-files-on-github/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: Recipes that probably work :-) ; Grace Lee's easy Kimchi Fried Rice Recipe</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Mar 12, 2026 03:44 (UTC) &lt;a href=&quot;https://cooking.nytimes.com/recipes/1018097-kimchi-fried-rice?unlocked_article_code=1.SlA.ufU5.gf6FI-CFlws2&amp;amp;smid=ck-recipe-iOS-share&amp;amp;cgs=c&quot;&gt;ME:: Recipes that probably work :-) ; Grace Lee’s easy Kimchi Fried Rice Recipe&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 11 Mar 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/03/11/p2044-1018097-kimchi-fried-rice/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/03/11/p2044-1018097-kimchi-fried-rice/</guid>
         
         
       </item>
@@ -193,39 +229,6 @@ repo. The tags are semi-colon delimited. Please ignore the 'thunderbird' tag.&lt
         <pubDate>Mon, 02 Mar 2026 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2026/03/02/p2340-opm-gracenote-taong-robot-kain-tulog-gising-trabaho/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/03/02/p2340-opm-gracenote-taong-robot-kain-tulog-gising-trabaho/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: flickr's URLs are still the best; Marcin Wichary:: Unsung heroes: Flickr’s URLs scheme</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Mar 2, 2026 16:32 (UTC) &lt;a href=&quot;https://unsung.aresluna.org/unsung-heroes-flickrs-urls-scheme/&quot;&gt;ME:: flickr’s URLs are still the best; Marcin Wichary:: Unsung heroes: Flickr’s URLs scheme&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 02 Mar 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/03/02/p0832-unsung-heroes-flickrs-urls-scheme/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/03/02/p0832-unsung-heroes-flickrs-urls-scheme/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Go Oliver go! I coached Oliver when he was 5 or 6 at the Hollyburn Cross Country Ski Club and I'm super proud to humble brag he finished first in his age group 13-15 with a VERY fast time of 39:06 at the 2026 Payak 15km cross country ski 'event' on February 28, 2026) ¦ Zone4.ca</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Mar 2, 2026 15:32 (UTC) &lt;a href=&quot;https://zone4.ca/race/2026-02-28/d11b5abe/results/fdac71ac&quot;&gt;Go Oliver go! I coached Oliver when he was 5 or 6 at the Hollyburn Cross Country Ski Club and I’m super proud to humble brag he finished first in his age group 13-15 with a VERY fast time of 39:06 at the 2026 Payak 15km cross country ski ‘event’ on February 28, 2026) ¦ Zone4.ca&lt;/a&gt; &amp;lt;- all of my former Hollyburn Cross Country Ski Jack Rabbits and Jack Bunnies will always be winners!!!!!!! 7 years of winners!&lt;/p&gt;
-</description>
-        <pubDate>Mon, 02 Mar 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/03/02/p0732-oliver-sennichenko-and-all-my-past-jackrabbits-are-great-cross-country-skiers/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/03/02/p0732-oliver-sennichenko-and-all-my-past-jackrabbits-are-great-cross-country-skiers/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Keir Archibald and Matthew Dormer developed a un-detectable magnetic driven bicycle, 'e-motor doping' is real 'I believe' :-) </title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Mar 1, 2026 16:32 (UTC) &lt;a href=&quot;https://trojanwheel.framer.website/&quot;&gt;Keir Archibald and Matthew Dormer developed a un-detectable magnetic driven bicycle, ‘e-motor doping’ is real ‘I believe’ :-) &lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;We developed the first ever concealed electromagnetic drive system integrated into a top-level racing bicycle, engineered to deliver an additional 20W while remaining undetectable under most existing UCI inspection methods.&lt;/code&gt; &amp;lt;- YouTube Video on GCN: &lt;a href=&quot;https://youtu.be/ZdDHtLP3oEs&quot;&gt;Motor Doping IS Possible. We’ve Done It.&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 01 Mar 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/03/01/p0832-keir-motor-doping-is-real-archibald-matthew-dorner-undetectable-by-uci-electric-bicycle-motor/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/03/01/p0832-keir-motor-doping-is-real-archibald-matthew-dorner-undetectable-by-uci-electric-bicycle-motor/</guid>
         
         
       </item>
