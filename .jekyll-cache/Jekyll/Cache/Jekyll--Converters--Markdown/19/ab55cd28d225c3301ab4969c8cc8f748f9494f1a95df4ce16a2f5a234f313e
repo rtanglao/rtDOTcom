@@ -1,0 +1,20 @@
+I"<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Mar 27, 2026 14:44 (UTC) <a href="https://friendlybit.com/python/writing-justhtml-with-coding-agents/">ME:: you have to review code of course and continuously nudge ; Emil Stenström:: How I wrote JustHTML using coding agents - Friendly Bit</a></p>
+
+<ul>
+  <li>See also:<a href="https://github.com/EmilStenstrom/justhtml/blob/main/.github/copilot-instructions.md">JustHTML – Agent instructions (for copilot)</a></li>
+</ul>
+
+<h2 id="quote">QUOTE</h2>
+
+<ul>
+  <li>Read the whole thing: <a href="https://friendlybit.com/python/writing-justhtml-with-coding-agents/">Emil Stenström:: How I wrote JustHTML using coding agents - Friendly Bit</a></li>
+</ul>
+
+<ol>
+  <li><strong>Start with a clear, measurable goal.</strong> “Make the tests pass” is better than “improve the code.”</li>
+  <li><strong>Review the changes.</strong> The agent writes a lot of code. Read it. You’ll catch issues and learn things.</li>
+  <li><strong>Push back.</strong> If something feels wrong, say so. “I don’t like that” is a valid response.</li>
+  <li><strong>Use version control.</strong> If the agent goes in the wrong direction, you can always revert.</li>
+  <li><strong>Let it fail.</strong> Running a command that fails teaches the agent something. Don’t try to prevent all errors upfront.</li>
+</ol>
+:ET

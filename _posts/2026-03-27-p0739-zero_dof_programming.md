@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "ME:: tl;dr-ing: You have to constrain LLMs with software that tests software and assures correctness and then they might be useful ; John Regehr:: zero_dof_programming"
+title: "ME:: tl;dr-ing: You have to constrain LLMs with software that tests software and assures correctness and then they might be useful ; John Regehr:: Zero-Degree-of-Freedom LLM Coding using Executable Oracles"
 ---
-[Discovered](http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/): Mar 27, 2026 14:39 (UTC) [ME:: tl;dr-ing: You have to constrain LLMs with software that tests software and assures correctness and then they might be useful ; John Regehr:: zero_dof_programming](https://john.regehr.org/writing/zero_dof_programming.html)
+[Discovered](http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/): Mar 27, 2026 14:39 (UTC) [ME:: tl;dr-ing: You have to constrain LLMs with software that tests software and assures correctness and then they might be useful ; John Regehr:: Zero-Degree-of-Freedom LLM Coding using Executable Oracles](https://john.regehr.org/writing/zero_dof_programming.html)
 
 ## QUOTE
 
