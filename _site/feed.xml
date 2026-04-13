@@ -6,9 +6,71 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 08 Apr 2026 08:24:44 -0700</pubDate>
-    <lastBuildDate>Wed, 08 Apr 2026 08:24:44 -0700</lastBuildDate>
+    <pubDate>Sun, 12 Apr 2026 19:12:33 -0700</pubDate>
+    <lastBuildDate>Sun, 12 Apr 2026 19:12:33 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>The ATProto-verse is living in the future where portable data and identity is real </title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1&quot;&gt;Draft&lt;/a&gt; &lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;created&lt;/a&gt;: Apr 13, 2026 02:07 (UTC).
+(As amply reinforced by the 1 day of the 4 day &lt;a href=&quot;http://org/&quot;&gt;ATmosphereConf&lt;/a&gt; 2026 I attended at UBC on March 28, 2026 )
+    &lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+  &lt;/li&gt;
+  &lt;li&gt;February 27, 2026::  &lt;a href=&quot;https://rolandtanglao.com/2026/02/27/p2138-atproto-best-all-possible-worlds-or-worst-paul-frazeepractical-decentralization/&quot;&gt;ME:: tl;dr-ing: ATProto is the magical federated mesh. Best of federated + mesh worlds or worst :-) ? ; Paul Frazee:: Practical Decentralization ¦ Paul’s Dev Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 12 Apr 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/04/12/p1907-atproto-verse-living-future-portable-data-identity-real/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/04/12/p1907-atproto-verse-living-future-portable-data-identity-real/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: Haunt, a static site generator in Guile, looks easy to use and therefore great! David Thompson:: Haunt is a simple, functional, hackable static site generator that gives authors the ability to treat websites as Scheme programs</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Apr 11, 2026 15:10 (UTC) &lt;a href=&quot;https://dthompson.us/projects/haunt.html&quot;&gt;ME:: Haunt, a static site generator in Guile, looks easy to use and therefore great! David Thompson:: Haunt is a simple, functional, hackable static site generator that gives authors the ability to treat websites as Scheme programs&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;found via &lt;a href=&quot;https://social.coop/@cwebber/116386646850827566&quot;&gt;Christine Lemmer-Webber’s toot&lt;/a&gt;: &lt;strong&gt;FULL TOOT&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Everyone I know who uses Haunt to build their websites loves it, and there's good reason for that: it's the static site generator foundation that best understands that a static site generator is a computer program, a function whose input is a pile of blogpost files and whose output is a complete website. ... But at the end of the day it's just a computer program, and you should be able to hack that program to make it yours. ... Use Haunt! &lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 11 Apr 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/04/11/p0810-haunt-static-website-builder-in-guile/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/04/11/p0810-haunt-static-website-builder-in-guile/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: tl;dr-ing uses open street maps yay! example: directions to HK BBQ Master in Richmond, BC :-)  ; Transitous - Get to places by public transport</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Apr 11, 2026 14:34 (UTC) &lt;a href=&quot;https://transitous.org/&quot;&gt;ME:: tl;dr-ing uses open street maps yay! example: directions to HK BBQ Master in Richmond, BC :-)  ; Transitous - Get to places by public transport&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://api.transitous.org/?time=2026-04-11T14%3A33%3A00.000Z&amp;amp;fromPlace=49.255576%2C-123.071432&amp;amp;toPlace=49.1796897%2C-123.1377358&amp;amp;withFares=true&amp;amp;fastestDirectFactor=1.5&amp;amp;joinInterlinedLegs=false&amp;amp;maxMatchingDistance=250&amp;amp;fromName=3271+Fleming+Street&amp;amp;toName=HK+B.B.Q.+Master&quot;&gt;directions to HK BBQ Master in Richmond, BC from East Vancouver&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 11 Apr 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/04/11/p0734-transitous-org/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/04/11/p0734-transitous-org/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Another great course from The Carpentries people:: Toby Hodges, Greg Wilson:: The Carpentries:: Organizational Change for Open Science</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Apr 10, 2026 14:38 (UTC) &lt;a href=&quot;https://gvwilson.github.io/change/#acknowledgments&quot;&gt;Another great course from The Carpentries people:: Toby Hodges, Greg Wilson:: The Carpentries:: Organizational Change for Open Science&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;This workshop is a short introduction to organizational change for people with backgrounds in research. All of the material is available under an open license, and contributions through our repository are welcome. All contributors are required to respect our Code of Conduct.&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;October 31, 2021:: &lt;a href=&quot;https://rolandtanglao.com/2021/10/31/p1-critical-history-logo-constructionist-learning/&quot;&gt;Greg Wilson: A Critical History of Logo and Constructionist Learning - ‘I believe very strongly that we will only get through the next fifty years if we start to care about each other and our collective future more than we do right now’&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 10 Apr 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/04/10/p0738-organizational-change-for-open-science/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/04/10/p0738-organizational-change-for-open-science/</guid>
+        
+        
+      </item>
     
       <item>
         <title>OPM:: Ano Ba Talaga Tayo / Hindi Tayo Pwede The Juans feat Janine Berdin &amp;amp; Janine Teñoso - YouTube</title>
@@ -145,68 +207,6 @@
         <pubDate>Fri, 03 Apr 2026 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2026/04/03/p1248-gas-town-and-bullet-hell/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/04/03/p1248-gas-town-and-bullet-hell/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Timothy Snyder:: The real stories are the investigative stories. They change how we understand reality.</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1&quot;&gt;Draft&lt;/a&gt; &lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;created&lt;/a&gt;: Mar 31, 2026 19:27 (UTC).&lt;/li&gt;
-  &lt;li&gt;from Debbie Millman’s &lt;a href=&quot;https://soundcloud.com/designmatters/timothy-snyder&quot;&gt;Design Matters - Timothy Snyder&lt;/a&gt; podcast&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 31 Mar 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/03/31/p1227-timothy-snyder-real-stories-are-investigative-change-understanding-of-reality/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/03/31/p1227-timothy-snyder-real-stories-are-investigative-change-understanding-of-reality/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Timothy Snyder:: Don't use Two Sides Framing. It never leads to the truth.</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1&quot;&gt;Draft&lt;/a&gt; &lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;created&lt;/a&gt;: Mar 31, 2026 19:27 (UTC).&lt;/li&gt;
-  &lt;li&gt;from Debbie Millman’s &lt;a href=&quot;https://soundcloud.com/designmatters/timothy-snyder&quot;&gt;Design Matters - Timothy Snyder&lt;/a&gt; podcast
-    &lt;h1 id=&quot;previously&quot;&gt;Previously&lt;/h1&gt;
-  &lt;/li&gt;
-  &lt;li&gt;November 17, 2020: &lt;a href=&quot;https://rolandtanglao.com/2020/11/17/p1-jay-rosen-two-paths-forward-american-press-canadian-press-also/&quot;&gt;Jay Rosen Two paths forward for the American press; applies to the Canadian press too&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 31 Mar 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/03/31/p1227-timothy-snyder-2-sides-framing-never-leads-to-truth/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/03/31/p1227-timothy-snyder-2-sides-framing-never-leads-to-truth/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Timothy Snyder: Don't quote what they say. Figure out what is going on</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1&quot;&gt;Draft&lt;/a&gt; &lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;created&lt;/a&gt;: Mar 31, 2026 19:26 (UTC).&lt;/li&gt;
-  &lt;li&gt;from Debbie Millman’s &lt;a href=&quot;https://soundcloud.com/designmatters/timothy-snyder&quot;&gt;Design Matters - Timothy Snyder&lt;/a&gt; podcast&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 31 Mar 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/03/31/p1226-timothy-snyder-dont-quote-lies-determine-what-is-really-going-on/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/03/31/p1226-timothy-snyder-dont-quote-lies-determine-what-is-really-going-on/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: tl;dr-ing Renewable energy as fast as possible makes economic and all kinds of other sense ; Paul Krugman:: Talking with David Roberts</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Mar 31, 2026 14:32 (UTC) &lt;a href=&quot;https://paulkrugman.substack.com/p/talking-with-david-roberts&quot;&gt;ME:: tl;dr-ing Renewable energy as fast as possible makes economic and all kinds of other sense ; Paul Krugman:: Talking with David Roberts&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;One of the things I’m fond of saying is the shift to clean energy is overdetermined in terms of justification. You can justify it on a climate basis, but you can also take climate out of it entirely and still justify it easily. You can justify it purely on the basis of reductions in particulate pollution. The research on particulate pollution, it’s just gotten worse and worse and worse. We’re expanding our notion of how much damage it does. So just the public health benefits of reduced particulate pollution alone could pay for the transition. Or you can take pollution out of it. Just focus on AI, just focus on competitiveness with China. Take any one of these reasons. They all point the same direction. They all point: shift to clean renewable energy as fast as possible&lt;/code&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;November 13, 2025: &lt;a href=&quot;https://rolandtanglao.com/2025/11/13/p0841-revenge-renewables-usa-alberta-government-wrong-side-history/&quot;&gt;Revenge of renewables. Despite the USA and Alberta governments (and our former environmentalist PM), renewable i.e. solar and wind is the right side of history&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 31 Mar 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/03/31/p0732-krugman-renewable-energy-asap-economic-health-many-other-reasons/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/03/31/p0732-krugman-renewable-energy-asap-economic-health-many-other-reasons/</guid>
         
         
       </item>
