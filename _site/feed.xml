@@ -6,9 +6,58 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 14 Apr 2026 18:55:58 -0700</pubDate>
-    <lastBuildDate>Tue, 14 Apr 2026 18:55:58 -0700</lastBuildDate>
+    <pubDate>Fri, 17 Apr 2026 09:02:12 -0700</pubDate>
+    <lastBuildDate>Fri, 17 Apr 2026 09:02:12 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>ME:: confusable characters are definitely confusing :-) ; UTS #39: Unicode Security Mechanisms</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Apr 17, 2026 14:10 (UTC) &lt;a href=&quot;https://www.unicode.org/reports/tr39/#Confusable_Detection&quot;&gt;ME:: confusable characters are definitely confusing :-) ; UTS #39: Unicode Security Mechanisms&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;The data in [confusables] provide a mechanism for determining when two strings are visually confusable. The data in these files may be refined and extended over time. For information on handling modifications over time, see Section 2.10.1, Backward Compatibility in Unicode Technical Report #36, &quot;Unicode Security Considerations&quot; [UTR36] and the Migration section of this document. &lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;via mhoye on cosocial.ca: &lt;a href=&quot;https://cosocial.ca/@mhoye/116414934337589648&quot;&gt;If I understand your meaning, this sounds like the unicode “confusables” list of characters whose glyphs are very similar.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.unicode.org/Public/security/8.0.0/confusables.txt&quot;&gt;confusable list of Unicode characters&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 17 Apr 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/04/17/p0710-unicode-confusable-characters-are-confusing/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/04/17/p0710-unicode-confusable-characters-are-confusing/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: so as of April 2026 the pessimistic date for Amoc collapse is 2100, I hope this doesn't turn into 2050 or even earlier ; The Atlantic meridional overturning circulation (Amoc)  current significantly more likely to collapse than thought ¦ Oceans ¦ The Guardian</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Apr 16, 2026 23:08 (UTC) &lt;a href=&quot;https://www.theguardian.com/environment/2026/apr/15/critical-atlantic-current-significantly-more-likely-to-collapse-than-thought&quot;&gt;ME:: so as of April 2026 the pessimistic date for Amoc collapse is 2100, I hope this doesn’t turn into 2050 or even earlier ; The Atlantic meridional overturning circulation (Amoc)  current significantly more likely to collapse than thought ¦ Oceans ¦ The Guardian&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Prof Stefan Rahmstorf, at the Potsdam Institute for Climate Impact Research in Germany, said: “This is an important and very concerning result. It shows that the ‘pessimistic’ models, which show a strong weakening of the Amoc by 2100, are, unfortunately, the realistic ones, in that they agree better with observational data.” ...He added: “I now am increasingly worried that we may well pass that Amoc shutdown tipping point, where it becomes inevitable, in the middle of this century, which is quite close.” ...  Rahmstorf, who has studied the Amoc for 35 years, has said a collapse must be avoided “at all costs”. “I argued this when we thought the chance of an Amoc shutdown was maybe 5%, and even then we were saying that risk is too high, given the massive impacts. Now it looks like it’s more than 50%. The most dramatic and drastic climate changes we see in the last 100,000 years of Earth history have been when the Amoc switched to a different state.”&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 16 Apr 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/04/16/p1608-critical-atlantic-current-significantly-more-likely-to-collapse-than-thought/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/04/16/p1608-critical-atlantic-current-significantly-more-likely-to-collapse-than-thought/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: SmolFedi is super cool, thanks Adële ; The Fediverse deserves a dumb graphical client ¦ Adële's blog</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Apr 16, 2026 22:56 (UTC) &lt;a href=&quot;https://adele.pages.casa/md/blog/the-fediverse-deserves-a-dumb-graphical-client.md&quot;&gt;ME:: SmolFedi is super cool, thanks Adële ; The Fediverse deserves a dumb graphical client ¦ Adële’s blog&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 16 Apr 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/04/16/p1556-the-fediverse-deserves-a-dumb-graphical-client/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/04/16/p1556-the-fediverse-deserves-a-dumb-graphical-client/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>karpathy:: llm-wiki: A pattern for building personal knowledge bases using LLMs.</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Apr 15, 2026 16:55 (UTC) &lt;a href=&quot;https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f&quot;&gt;karpathy:: llm-wiki: A pattern for building personal knowledge bases using LLMs.&lt;/a&gt; &amp;lt;– “A pattern for building personal knowledge bases using LLMs.” OMG&lt;/p&gt;
+</description>
+        <pubDate>Wed, 15 Apr 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/04/15/p0955-building-personal-knowledgebase-with-llms/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/04/15/p0955-building-personal-knowledgebase-with-llms/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Probably Wrong prediction for The Pitt season 2 episode 15. Robby, Dana, Abbot and Al-Hashimi are all incapacitated by burnout and PTSD so Santos calls in her grandmother who was a field surgeon for Marcos's army against the NPA and Princess calls in her grandmother who was the NPA's top doctor :-) They both live in Pittsburgh unbeknownst to each other. They last met on the battle field in Mindanao in the late 70s during a truce</title>
@@ -91,93 +140,6 @@
         <pubDate>Sat, 11 Apr 2026 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2026/04/11/p0810-haunt-static-website-builder-in-guile/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/04/11/p0810-haunt-static-website-builder-in-guile/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: tl;dr-ing uses open street maps yay! example: directions to HK BBQ Master in Richmond, BC :-)  ; Transitous - Get to places by public transport</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Apr 11, 2026 14:34 (UTC) &lt;a href=&quot;https://transitous.org/&quot;&gt;ME:: tl;dr-ing uses open street maps yay! example: directions to HK BBQ Master in Richmond, BC :-)  ; Transitous - Get to places by public transport&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://api.transitous.org/?time=2026-04-11T14%3A33%3A00.000Z&amp;amp;fromPlace=49.255576%2C-123.071432&amp;amp;toPlace=49.1796897%2C-123.1377358&amp;amp;withFares=true&amp;amp;fastestDirectFactor=1.5&amp;amp;joinInterlinedLegs=false&amp;amp;maxMatchingDistance=250&amp;amp;fromName=3271+Fleming+Street&amp;amp;toName=HK+B.B.Q.+Master&quot;&gt;directions to HK BBQ Master in Richmond, BC from East Vancouver&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 11 Apr 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/04/11/p0734-transitous-org/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/04/11/p0734-transitous-org/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Another great course from The Carpentries people:: Toby Hodges, Greg Wilson:: The Carpentries:: Organizational Change for Open Science</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Apr 10, 2026 14:38 (UTC) &lt;a href=&quot;https://gvwilson.github.io/change/#acknowledgments&quot;&gt;Another great course from The Carpentries people:: Toby Hodges, Greg Wilson:: The Carpentries:: Organizational Change for Open Science&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;This workshop is a short introduction to organizational change for people with backgrounds in research. All of the material is available under an open license, and contributions through our repository are welcome. All contributors are required to respect our Code of Conduct.&lt;/code&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;October 31, 2021:: &lt;a href=&quot;https://rolandtanglao.com/2021/10/31/p1-critical-history-logo-constructionist-learning/&quot;&gt;Greg Wilson: A Critical History of Logo and Constructionist Learning - ‘I believe very strongly that we will only get through the next fifty years if we start to care about each other and our collective future more than we do right now’&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 10 Apr 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/04/10/p0738-organizational-change-for-open-science/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/04/10/p0738-organizational-change-for-open-science/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>OPM:: Ano Ba Talaga Tayo / Hindi Tayo Pwede The Juans feat Janine Berdin &amp;amp; Janine Teñoso - YouTube</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Apr 8, 2026 06:40 (UTC) &lt;a href=&quot;https://www.youtube.com/watch?v=NiKoIVVvxqg&quot;&gt;OPM:: Ano Ba Talaga Tayo / Hindi Tayo Pwede The Juans feat Janine Berdin &amp;amp; Janine Teñoso - YouTube&lt;/a&gt; &amp;lt;– As they say “mind blown” :-)&lt;/p&gt;
-</description>
-        <pubDate>Tue, 07 Apr 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/04/07/p2340-opm-ano-ba-talaga-tayo-hindi-tayo-pwede-the-juans-janine-berdin-janine-ten%CC%83oso/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/04/07/p2340-opm-ano-ba-talaga-tayo-hindi-tayo-pwede-the-juans-janine-berdin-janine-ten%CC%83oso/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: 1 year later and the 'wrong model with lots of data doing amazing things' disruption has come to software development for better or worse; tl;dr: from Ray Mooney: 'I just didn’t realize that if you trained that very conceptually wrong model on a lot of data, it could do amazing things.' ; John Pavlus:: April 30, 2025 When ChatGPT Broke an Entire Field: An Oral History ¦ Quanta Magazine</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Apr 7, 2026 07:53 (UTC) &lt;a href=&quot;https://www.quantamagazine.org/when-chatgpt-broke-an-entire-field-an-oral-history-20250430/&quot;&gt;ME:: 1 year later and the ‘wrong model with lots of data doing amazing things’ disruption has come to software development for better or worse; tl;dr: from Ray Mooney: ‘I just didn’t realize that if you trained that very conceptually wrong model on a lot of data, it could do amazing things.’ ; John Pavlus:: April 30, 2025 When ChatGPT Broke an Entire Field: An Oral History ¦ Quanta Magazine&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Read the whole thing &lt;a href=&quot;https://www.quantamagazine.org/when-chatgpt-broke-an-entire-field-an-oral-history-20250430/&quot;&gt;John Pavlus:: April 30, 2025 When ChatGPT Broke an Entire Field: An Oral History ¦ Quanta Magazine&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Researchers in “natural language processing” tried to tame human language. Then came the transformer.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Something very significant has happened to the field. And also to people. —Christopher Potts&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Asking scientists to identify a paradigm shift, especially in real time, can be tricky. After all, truly ground-shifting updates in knowledge may take decades to unfold. But you don’t necessarily have to invoke the P-word to acknowledge that one field in particular — natural language processing, or NLP — has changed. A lot.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The goal of natural language processing is right there on the tin: making the unruliness of human language (the “natural” part) tractable by computers (the “processing” part). A blend of engineering and science that dates back to the 1940s, NLP gave Stephen Hawking a voice, Siri a brain and social media companies another way to target us with ads. It was also ground zero for the emergence of large language models — a technology that NLP helped to invent but whose explosive growth and transformative power still managed to take many people in the field entirely by surprise.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;How AI sent linguistic researchers into an existential crisis.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;To put it another way: In 2019, Quanta reported on a then-groundbreaking NLP system called BERT without once using the phrase “large language model.” A mere five and a half years later, LLMs are everywhere, igniting discovery, disruption and debate in whatever scientific community they touch. But the one they touched first — for better, worse and everything in between — was natural language processing. What did that impact feel like to the people experiencing it firsthand?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Quanta interviewed 19 current and former NLP researchers to tell that story. From experts to students, tenured academics to startup founders, they describe a series of moments — dawning realizations, elated encounters and at least one “existential crisis” — that changed their world. And ours.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Tue, 07 Apr 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/04/07/p0053-when-chatgpt-broke-an-entire-field-an-oral-history-20250430/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/04/07/p0053-when-chatgpt-broke-an-entire-field-an-oral-history-20250430/</guid>
         
         
       </item>
