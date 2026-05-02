@@ -6,9 +6,86 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 26 Apr 2026 18:27:38 -0700</pubDate>
-    <lastBuildDate>Sun, 26 Apr 2026 18:27:38 -0700</lastBuildDate>
+    <pubDate>Sat, 02 May 2026 11:22:27 -0700</pubDate>
+    <lastBuildDate>Sat, 02 May 2026 11:22:27 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>ME:: tl-dr quoting: 'The demographics are unrelenting. 73% of Americans live in car-centric suburbs and exurbs. When millions of them can no longer drive, everyone has a problem. ' ; LLoyd Alter:: Many older drivers don't see the road ahead</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: May 2, 2026 15:40 (UTC) &lt;a href=&quot;https://archive.is/Ud00n&quot;&gt;ME:: tl-dr quoting: ‘The demographics are unrelenting. 73% of Americans live in car-centric suburbs and exurbs. When millions of them can no longer drive, everyone has a problem. ‘ ; LLoyd Alter:: Many older drivers don’t see the road ahead&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;“We have 75 million North American baby boomers, almost all of whom will not be able to drive at some point. We need accessible housing, and walkable communities with good sidewalks, corner stores, medical facilities and coffee shops within a reasonable distance. We need good, safe, accessible transit for when we have to go further. We all must prepare for a non-driving future. And as the AARP study shows, almost nobody is.”&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 02 May 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/05/02/p0840-car-centric-boomers-who-cant-walk-or-bicycle-are-a-growing-danger/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/05/02/p0840-car-centric-boomers-who-cant-walk-or-bicycle-are-a-growing-danger/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: omg the cargo culting of all things Karpathy continues :-) oh well some of these Claude.md 'spells' :-) are worthwhile i grudgingly admit :-) Stephen Downes:: forrestchang/andrej-karpathy-skills</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: May 1, 2026 14:24 (UTC) &lt;a href=&quot;https://www.downes.ca/post/79198&quot;&gt;ME:: omg the cargo culting of all things karpathy continues :-) oh well some of these Claude.md ‘spells’ :-) are worthwhile i grudgingly admit :-) Stephen Downes:: forrestchang/andrej-karpathy-skills&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;I don't use this exact CLAUDE.ms file telling the AI how I want it to approach programming tasks, but my own version is very similar. &quot;A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.&quot; The key instruction: &quot;Don't assume. Don't hide confusion. Surface tradeoffs.&quot; Now that I think about it, it's probably pretty good advice for life in general. Here's a version you can paste into your project.&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 May 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/05/01/p0724-cargo-cult-karpathy-claude-md-file-to-improve-programming/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/05/01/p0724-cargo-cult-karpathy-claude-md-file-to-improve-programming/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: Play all of the versions LOUD and on repeat! ; Ben Werdmuller:: All You Fascists (Bound to Lose)  A collection of Woody Guthrie covers</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Apr 30, 2026 14:48 (UTC) &lt;a href=&quot;https://werd.io/all-you-fascists-bound-to-lose/&quot;&gt;ME:: Play all of the versions LOUD and on repeat! ; Ben Werdmuller:: All You Fascists (Bound to Lose)  A collection of Woody Guthrie covers&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 30 Apr 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/04/30/p0748-all-you-fascists-bound-to-lose/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/04/30/p0748-all-you-fascists-bound-to-lose/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Courtney Nash:: 'The person who seemingly 'caused' the incident is almost certainly the same person who prevented a dozen others that nobody ever wrote about, because all practitioner actions are gambles taken under uncertainty, and we only call them errors when the outcome is bad.`' from '“Human Error” Is an Illusion: A Response to Om Malik ¦ Resilience in Software Foundation</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Apr 30, 2026 14:30 (UTC) &lt;a href=&quot;https://resilienceinsoftware.org/news/11512183&quot;&gt;Courtney Nash:: ‘The person who seemingly “caused” the incident is almost certainly the same person who prevented a dozen others that nobody ever wrote about, because all practitioner actions are gambles taken under uncertainty, and we only call them errors when the outcome is bad.`’ from ‘“Human Error” Is an Illusion: A Response to Om Malik ¦ Resilience in Software Foundation&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://resilienceinsoftware.org/news/11512183&quot;&gt;Courtney Nash:: ‘Human Error’ Is an Illusion: A Response to Om Malik ¦ Resilience in Software Foundation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This matters because complex systems don’t operate in a safe, neutral state waiting to be disrupted by careless people (or mischievous machines). They are, as Cook puts it, always running in degraded mode: containing ever-changing mixtures of latent failures at any given moment, held together not despite their human operators but because of them. Practitioners are the adaptable element of these complex systems, constantly making real-time adjustments that regularly prevent those latent failures from compounding into catastrophe. &lt;strong&gt;The person who seemingly “caused” the incident is almost certainly the same person who prevented a dozen others that nobody ever wrote about, because all practitioner actions are gambles taken under uncertainty, and we only call them errors when the outcome is bad.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Thu, 30 Apr 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/04/30/p0730-we-only-call-out-humans-who-make-complex-systems-work-when-things-go-wrong-which-are-usually-preventable/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/04/30/p0730-we-only-call-out-humans-who-make-complex-systems-work-when-things-go-wrong-which-are-usually-preventable/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>A fun story I should read :-) ; A Colder War - a novelette by Charles Stross</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Apr 29, 2026 14:55 (UTC) &lt;a href=&quot;https://www.infinityplus.co.uk/stories/colderwar.htm&quot;&gt;A fun story I should read :-) ; A Colder War - a novelette by Charles Stross&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 29 Apr 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/04/29/p0755-colderwar/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/04/29/p0755-colderwar/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Artists imagine a future we don't want ! Bravo Dara Vandor ; Dara Vandor:: Pax Americana: D.B. Weldon Library (2026)</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Apr 29, 2026 14:48 (UTC) &lt;a href=&quot;https://www.daravandor.com/pax-americana-weldon-plaques&quot;&gt;Artists imagine a future we don’t want ! Bravo Dara Vandor ; Dara Vandor:: Pax Americana: D.B. Weldon Library (2026)&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;Released in 2038, Project Homecoming, the flag-waving rock musical, tells the tale of Tommy Kazansky (Ryan Reynolds), America’s favorite ICE agent, and his lovable sidekick, a K-9 patrol dog named Payback. Armed with charisma and a keytar, the two crisscross the country reminding illegals that everyone belongs somewhere—just not here.  ... Standing in for ICE headquarters, this building served as a backdrop for two memorable musical numbers in the film. The first, “Paw Patrol (Three Barks Means We Found You),” was a duet between Reynolds and Payback; the second was a solo by Sabrina Carpenter entitled “Nice Try, But I Don’t Speak Mexican.”&lt;/code&gt; &amp;lt;– Read the whole thing &lt;a href=&quot;https://www.daravandor.com/pax-americana-weldon-plaques&quot;&gt;Dara Vandor:: Pax Americana: D.B. Weldon Library (2026)&lt;/a&gt; 
+​`&lt;/p&gt;
+</description>
+        <pubDate>Wed, 29 Apr 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/04/29/p0748-pax-americana-weldon-plaques/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/04/29/p0748-pax-americana-weldon-plaques/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Restaurants to Try:: Epic Grill SiLogs + Sans Rival,New Westminister is a 1 hour bicycle ride  post May 14, since they are closed for a three week holiday and re-open on May 15, 2026; Epic Grill SiLogs + Sans Rival</title>
@@ -65,121 +142,6 @@ FILIPINO BREAKFASTS AND DESSERTS
         <pubDate>Sat, 25 Apr 2026 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2026/04/25/p1058-gujarati-jalso-the-burnaby-restaurant-giving-gujarati-food-top-billing/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/04/25/p1058-gujarati-jalso-the-burnaby-restaurant-giving-gujarati-food-top-billing/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>BC Government: $262 every two weeks is not enough for Christi-Ann Watkins  while she recovers from a fractured pelvis, punctured lung, and broken ribs, while raising two young sons!  LeLe Chan:: Lapu Lapu :: One Year Later</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Apr 25, 2026 01:42 (UTC) &lt;a href=&quot;https://lelechan.substack.com/p/one-year-later&quot;&gt;BC Government: $262 every two weeks is not enough for Christi-Ann Watkins  while she recovers from a fractured pelvis, punctured lung, and broken ribs, while raising two young sons!  LeLe Chan:: Lapu Lapu :: One Year Later&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;That is not accountability. That is erasure dressed up as concern. And it is not unrelated to everything else I have described. The same governments that offer Christi $262 every two weeks while she recovers from a fractured pelvis, punctured lung, and broken ribs, while raising two young sons, are the same governments that stay silent while media narratives build a case against Filipino presence in this city. The pattern is the same. Who gets to be seen. Who gets to be protected. Who gets to be believed. And who is left to absorb the cost.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Fri, 24 Apr 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/04/24/p1842-lapu-lapu-one-year-later/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/04/24/p1842-lapu-lapu-one-year-later/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: I need to look at support.mozilla.org's page view for Thunderbird Knowledge Base Articles, bet they are down too; Luis Villa (who I spoke with on a bus in the 2010s when he was at Mozilla):: Wikipedia's traffic drop: more on languages and freshness - lu.is</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Apr 23, 2026 14:17 (UTC) &lt;a href=&quot;https://lu.is/2026/04/wikipedia-decline-by-topic/&quot;&gt;ME:: I need to look at support.mozilla.org’s page view for Thunderbird Knowledge Base Articles, bet they are down too; Luis Villa (who I spoke with on a bus in the 2010s when he was at Mozilla):: Wikipedia’s traffic drop: more on languages and freshness - lu.is&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Since 2016–2019, aggregate monthly pageviews of Wikipedia’s “Vital Articles” are down −26% across eight major languages I sampled (en, es, fr, de, it, pt, ja, ar). The Vital Articles are an imperfect set, but they cover a much broader set of topics than my last sample set, and are widely replicated across wikis. (All of these wikis have at least 80% of the articles, making it more apples-to-apples.)...The decline isn’t even across topics. Mathematics, physical sciences, and technology are down 43% to 85%; biographical articles and geography are down less than 10% in half the languages I looked at. The per-topic ordering (which have declined the most or the least) is nearly identical in every one of the eight languages. ....Freshness of article content matters, but not as strongly as topic&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 23 Apr 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/04/23/p0717-wikipedia-decline-by-topic/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/04/23/p0717-wikipedia-decline-by-topic/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: Never hated eye contact or didn't deliberately not do it. I just talked without eye contact since I was a kid. I never thought it was a big deal,I thought it was Filipino somehow :-) LOL so wrong ?!? ; : Kory Andreas:: 'She made eye contact and used “appropriate gestures while she talked' ...You've Never Seen an Untraumatized Autistic Adult. Neither Have I - Autism Spectrum News</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Apr 23, 2026 05:51 (UTC) &lt;a href=&quot;https://autismspectrumnews.org/youve-never-seen-an-untraumatized-autistic-adult-neither-have-i/&quot;&gt;ME:: Never hated eye contact or didn’t deliberately not do it. I just talked without eye contact since I was a kid. I never thought it was a big deal,I thought it was Filipino somehow :-) LOL so wrong ?!? ; : Kory Andreas:: ‘She made eye contact and used “appropriate gestures while she talked’ …You’ve Never Seen an Untraumatized Autistic Adult. Neither Have I - Autism Spectrum News&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;A former client, “Sarah” emails just as I open my laptop, one hour into a five-hour psychological evaluation, in a desperate attempt to get graduate school accommodations. Within thirty minutes, the evaluating psychologist had already started expressing doubt that Sarah met diagnostic criteria. The reason? She made eye contact and used “appropriate gestures while she talked.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;My former client broke down crying. She explained that both were learned behaviors, developed under years of familial and social pressure. That she is almost constantly monitoring herself for the correct type of eye contact. She explained that she is exhausted, burnt out, and constantly unable to complete simple tasks because of the energy expended socially each day. Sarah shared documentation from our work together. The evaluator apologized and said, I believe you, unfortunately, without the non-verbal piece, you just don’t meet the criteria for Autism.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;She ended her message with five words: “Fighting for my autistic life here.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I read it twice. Then I walked into the room of 400 therapists who were there to learn about the Foundations of modern autism.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“We have much to do.”&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Wed, 22 Apr 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/04/22/p2251-youve-never-seen-an-untraumatized-autistic-adult-neither-have-i/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/04/22/p2251-youve-never-seen-an-untraumatized-autistic-adult-neither-have-i/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Maybe I'll use this for my next pair of tights with The Chromophiliacs photos I took in March ; magick input.png -crop 2x2@ result%02d.png ; imagemagick - Split image of any size into to 4 quarters - Stack Overflow</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Apr 22, 2026 03:33 (UTC) &lt;a href=&quot;https://stackoverflow.com/questions/78707586/split-image-of-any-size-into-to-4-quarters&quot;&gt;Maybe I’ll use this for my next pair of tights with The Chromophiliacs photos I took in March ; magick input.png -crop 2x2@ result%02d.png ; imagemagick - Split image of any size into to 4 quarters - Stack Overflow&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;The &lt;a href=&quot;https://www.richmondartgallery.org/thechromophiliacs&quot;&gt;Richmond Art Gallery Chromophiliacs photos&lt;/a&gt; are in this album on flickr: &lt;a href=&quot;https://www.flickr.com/photos/roland/albums/72177720332919251/&quot;&gt;2026-04-04-a1-om-system-om5-markii-14-150-richmond-art-gallery-chromophiliacs-sunny&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 21 Apr 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/04/21/p2033-split-image-of-any-size-into-to-4-quarters/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/04/21/p2033-split-image-of-any-size-into-to-4-quarters/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Maybe I'll use Livebook to learn Elixir finally :-) ! probably not though ; Home - Livebook.dev</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Apr 21, 2026 14:04 (UTC) &lt;a href=&quot;https://livebook.dev/&quot;&gt;Maybe I’ll use Livebook to learn Elixir finally :-) ! probably not though ; Home - Livebook.dev&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Get rid of scripts, manual steps, and outdated docs. Use Elixir and Livebook to share knowledge, deploy apps, visualize data, run machine learning models, debug systems, and more&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 21 Apr 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/04/21/p0704-livebook-dev/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/04/21/p0704-livebook-dev/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: Lol. Most people :-) Joan westenberg: I truly hate mostpeopleslop</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Apr 20, 2026 05:25 (UTC) &lt;a href=&quot;https://www.joanwestenberg.com/i-truly-hate-mostpeopleslop/&quot;&gt;ME:: Lol. Most people :-) Joan westenberg: I truly hate mostpeopleslop&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;In 2006, Joe Sugarman published a book called The Adweek Copywriting Handbook - and an axiom stuck…&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The sole purpose of the first sentence in an advertisement is to get you to read the second sentence.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;That line, more or less, explains how social media turned into a pile of shit.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Sugarman’s advice became the core system prompt for 300,000 tech assholes on Twitter. They’ve run it through algorithm after algorithm and produced the most soul destroying rhetorical tic of the 2020s. I’m talking about “Mostpeopleslop.” “Most founders don’t know this yet.” “Most people aren’t paying attention to this.” “Most founders skip [thing my startup sells] because [bad reason].” “Most founders treat [normal activity] like [wrong version of activity].” “Most founders say they want [thing]. Few actually [thing] well.” “Most founders confuse [vague concept A] with [vague concept B].” You’ve seen it, you’ve scrolled past it, and you’ve maybe even liked one or two of these excretions before your brain caught up to your thumb, because it’s bloody everywhere.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Sun, 19 Apr 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/04/19/p2225-i-truly-hate-mostpeopleslop/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/04/19/p2225-i-truly-hate-mostpeopleslop/</guid>
         
         
       </item>
