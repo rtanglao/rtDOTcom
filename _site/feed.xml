@@ -6,9 +6,102 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 08 May 2026 21:26:29 -0700</pubDate>
-    <lastBuildDate>Fri, 08 May 2026 21:26:29 -0700</lastBuildDate>
+    <pubDate>Sun, 24 May 2026 11:03:13 -0700</pubDate>
+    <lastBuildDate>Sun, 24 May 2026 11:03:13 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>ME::tl-dr-ing Google: 'prominence allocation' aka Indexing and presenting the perfect contextual ad in the guise of an 'answer'; Matthias Ott: Ad Infinitum</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: May 22, 2026 02:52 (UTC) &lt;a href=&quot;https://matthiasott.com/notes/ad-infinitum&quot;&gt;ME::tl-dr-ing Google: ‘prominence allocation’ aka Indexing and presenting the perfect contextual ad in the guise of an ‘answer’; Matthias Ott: Ad Infinitum&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Another approach – also from Google researchers – fits the new “Search” much more precisely. It’s called “prominence allocation.” Here, when a user submits a query with commercial intent, the system runs an auction that doesn’t just decide which ads appear, but how prominently the LLM writes about each one. The auction outputs a prominence score for each advertiser, essentially telling the model: give this product 35 words, that one 20, and this one zero. The ad isn’t next to the answer. The ad is the answer. Or rather, it shapes how much space and enthusiasm each product gets within the answer.&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 21 May 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/05/21/p1952-ad-infinitum/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/05/21/p1952-ad-infinitum/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Tom Chick:: Best thing I've seen since February 28, 2026: Offside ¦ Patreon</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: May 21, 2026 20:17 (UTC) &lt;a href=&quot;https://www.patreon.com/posts/best-thing-ive-152411170&quot;&gt;Tom Chick:: Best thing I’ve seen since February 28, 2026: Offside ¦ Patreon&lt;/a&gt; &amp;lt;– Gotta Watch ‘The Circle’ and ‘Offside’ some day!!&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://www.patreon.com/posts/best-thing-ive-152411170&quot;&gt;Tom Chick:: Best thing I’ve seen since February 28, 2026: Offside ¦ Patreon&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;My favorite Jafar Panahi movie, however, is The Circle, where all the lead actors are pitch-perfect, surprisingly varied, and wonderfully expressive considering they’re all women acting from within their hijabs. It’s an unforgettable script, a cannily daisy-chained set of short stories; eat your Raymond Carver-loving heart out, Robert Altman! But unlike Offside, it’s bleak, without much hope, a despairing look at women in a male-dominated theocracy.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It’s especially hard to watch these movies while the county is being pummeled by airstrikes. It certainly makes it easier to understand conflicting emotions expressed like this, quoted by the BBC from an Iranian man named Kaveh:  “I had always imagined [the death of Khamenei] would feel like happiness, but it didn’t. Almost all the years of my life and the lives of millions like me were destroyed and thousands lost their lives - and yet he himself was removed from the scene in a single moment, [which] made me truly angry.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Jafar Panahi is basically exiled from Iran. But his son, the director of Hit the Road, was in Iran when the US and Israeli airstrikes began. I hope both of them get to make many more movies, and I would love for them to be able to continue telling me stories about Iran. My heart goes out to them and everyone else swept up in this awful and unnecessary war. I hope it ends soon.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Thu, 21 May 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/05/21/p1317-best-thing-ive-152411170/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/05/21/p1317-best-thing-ive-152411170/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>How to Recalculate a Spreadsheet – Lord.io</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: May 21, 2026 20:14 (UTC) &lt;a href=&quot;https://lord.io/spreadsheets/&quot;&gt;How to Recalculate a Spreadsheet – Lord.io&lt;/a&gt; &amp;lt;– love blog posts explaining algorithms like this!&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This simple strategy of recalculating the whole document may sound wasteful, but it’s actually already better than VisiCalc, the first spreadsheet software ever made, and the first so-called “killer app”, responsible for popularizing the Apple II. VisiCalc would repeatedly recalculate cells from left-to-right and top-to-bottom, sweeping over them again and again until none of them changed. Despite this “interesting” algorithm, VisiCalc remained the dominant spreadsheet software for four years. Its reign ended in 1983, when Lotus 1-2-3 swept the market with “natural-order recalculation”&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Thu, 21 May 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/05/21/p1314-spreadsheets/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/05/21/p1314-spreadsheets/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: Someday gotta try this! ; Adam H. Sparks::Further Enhancing R.nvim with Arf and {terminalgraphics}</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: May 11, 2026 02:28 (UTC) &lt;a href=&quot;https://adamhsparks.netlify.app/2026/03/10/further-enhancing-r-nvim-with-arf-and-terminalgraphics/&quot;&gt;ME:: Someday gotta try this! ; Adam H. Sparks::Further Enhancing R.nvim with Arf and {terminalgraphics}&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 10 May 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/05/10/p1928-further-enhancing-r-nvim-with-arf-and-terminalgraphics/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/05/10/p1928-further-enhancing-r-nvim-with-arf-and-terminalgraphics/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>zhang.dianli:: 'The subtle complexity that forms the unique signature of each fine tea comes from tea polyphenols (TPP)'  from Tea Snobbery 101: Milk and Sugar are Evil</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: May 9, 2026 14:10 (UTC) &lt;a href=&quot;https://wordsmith.social/zhang-dianli/tea-snobbery-101-milk-and-sugar-are-evil&quot;&gt;zhang.dianli:: ‘The subtle complexity that forms the unique signature of each fine tea comes from tea polyphenols (TPP)’  from Tea Snobbery 101: Milk and Sugar are Evil&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I love these “better living through chemistry” explanations of tea and coffee :-)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://wordsmith.social/zhang-dianli/tea-snobbery-101-milk-and-sugar-are-evil&quot;&gt;Tea Snobbery 101: Milk and Sugar are Evil — zhang.dianli&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The subtle complexity that forms the unique signature of each fine tea comes from tea polyphenols (TPP). When milk is added, the casein micelles sweep in and bind to these polyphenol compounds, effectively removing the “free” polyphenols from the tea infusion. This forming of larger complexes decreases the availability of free TPP.  What is perceived as “smoothness” in the mouthfeel is, in actuality, the erasure of the fine-grained profile that gives the tea its depth and complexity. The tea’s delicate astringency (the building block of that flavour development I described above) is chemically neutralized at the molecular level.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sat, 09 May 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/05/09/p0710-tea-snobbery-101-milk-and-sugar-are-evil/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/05/09/p0710-tea-snobbery-101-milk-and-sugar-are-evil/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Walked to Pharmasave at 1808 Kingsway and got a walk-in appointment and my 8th COVID vaccination  today</title>
@@ -73,71 +166,6 @@
         <pubDate>Wed, 06 May 2026 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2026/05/06/p2256-the-war-between-fast-and-legitimate-is-here/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/05/06/p2256-the-war-between-fast-and-legitimate-is-here/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: tl-dr quoting: 'The demographics are unrelenting. 73% of Americans live in car-centric suburbs and exurbs. When millions of them can no longer drive, everyone has a problem. ' ; LLoyd Alter:: Many older drivers don't see the road ahead</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: May 2, 2026 15:40 (UTC) &lt;a href=&quot;https://archive.is/Ud00n&quot;&gt;ME:: tl-dr quoting: ‘The demographics are unrelenting. 73% of Americans live in car-centric suburbs and exurbs. When millions of them can no longer drive, everyone has a problem. ‘ ; LLoyd Alter:: Many older drivers don’t see the road ahead&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;“We have 75 million North American baby boomers, almost all of whom will not be able to drive at some point. We need accessible housing, and walkable communities with good sidewalks, corner stores, medical facilities and coffee shops within a reasonable distance. We need good, safe, accessible transit for when we have to go further. We all must prepare for a non-driving future. And as the AARP study shows, almost nobody is.”&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 02 May 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/05/02/p0840-car-centric-boomers-who-cant-walk-or-bicycle-are-a-growing-danger/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/05/02/p0840-car-centric-boomers-who-cant-walk-or-bicycle-are-a-growing-danger/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: omg the cargo culting of all things Karpathy continues :-) oh well some of these Claude.md 'spells' :-) are worthwhile i grudgingly admit :-) Stephen Downes:: forrestchang/andrej-karpathy-skills</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: May 1, 2026 14:24 (UTC) &lt;a href=&quot;https://www.downes.ca/post/79198&quot;&gt;ME:: omg the cargo culting of all things karpathy continues :-) oh well some of these Claude.md ‘spells’ :-) are worthwhile i grudgingly admit :-) Stephen Downes:: forrestchang/andrej-karpathy-skills&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;I don't use this exact CLAUDE.ms file telling the AI how I want it to approach programming tasks, but my own version is very similar. &quot;A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.&quot; The key instruction: &quot;Don't assume. Don't hide confusion. Surface tradeoffs.&quot; Now that I think about it, it's probably pretty good advice for life in general. Here's a version you can paste into your project.&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 01 May 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/05/01/p0724-cargo-cult-karpathy-claude-md-file-to-improve-programming/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/05/01/p0724-cargo-cult-karpathy-claude-md-file-to-improve-programming/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: Play all of the versions LOUD and on repeat! ; Ben Werdmuller:: All You Fascists (Bound to Lose)  A collection of Woody Guthrie covers</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Apr 30, 2026 14:48 (UTC) &lt;a href=&quot;https://werd.io/all-you-fascists-bound-to-lose/&quot;&gt;ME:: Play all of the versions LOUD and on repeat! ; Ben Werdmuller:: All You Fascists (Bound to Lose)  A collection of Woody Guthrie covers&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 30 Apr 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/04/30/p0748-all-you-fascists-bound-to-lose/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/04/30/p0748-all-you-fascists-bound-to-lose/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Courtney Nash:: 'The person who seemingly 'caused' the incident is almost certainly the same person who prevented a dozen others that nobody ever wrote about, because all practitioner actions are gambles taken under uncertainty, and we only call them errors when the outcome is bad.`' from '“Human Error” Is an Illusion: A Response to Om Malik ¦ Resilience in Software Foundation</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Apr 30, 2026 14:30 (UTC) &lt;a href=&quot;https://resilienceinsoftware.org/news/11512183&quot;&gt;Courtney Nash:: ‘The person who seemingly “caused” the incident is almost certainly the same person who prevented a dozen others that nobody ever wrote about, because all practitioner actions are gambles taken under uncertainty, and we only call them errors when the outcome is bad.`’ from ‘“Human Error” Is an Illusion: A Response to Om Malik ¦ Resilience in Software Foundation&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://resilienceinsoftware.org/news/11512183&quot;&gt;Courtney Nash:: ‘Human Error’ Is an Illusion: A Response to Om Malik ¦ Resilience in Software Foundation&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This matters because complex systems don’t operate in a safe, neutral state waiting to be disrupted by careless people (or mischievous machines). They are, as Cook puts it, always running in degraded mode: containing ever-changing mixtures of latent failures at any given moment, held together not despite their human operators but because of them. Practitioners are the adaptable element of these complex systems, constantly making real-time adjustments that regularly prevent those latent failures from compounding into catastrophe. &lt;strong&gt;The person who seemingly “caused” the incident is almost certainly the same person who prevented a dozen others that nobody ever wrote about, because all practitioner actions are gambles taken under uncertainty, and we only call them errors when the outcome is bad.&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Thu, 30 Apr 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/04/30/p0730-we-only-call-out-humans-who-make-complex-systems-work-when-things-go-wrong-which-are-usually-preventable/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/04/30/p0730-we-only-call-out-humans-who-make-complex-systems-work-when-things-go-wrong-which-are-usually-preventable/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>A fun story I should read :-) ; A Colder War - a novelette by Charles Stross</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Apr 29, 2026 14:55 (UTC) &lt;a href=&quot;https://www.infinityplus.co.uk/stories/colderwar.htm&quot;&gt;A fun story I should read :-) ; A Colder War - a novelette by Charles Stross&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 29 Apr 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/04/29/p0755-colderwar/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/04/29/p0755-colderwar/</guid>
         
         
       </item>
