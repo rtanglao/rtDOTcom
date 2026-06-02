@@ -6,9 +6,26 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 01 Jun 2026 19:14:10 -0700</pubDate>
-    <lastBuildDate>Mon, 01 Jun 2026 19:14:10 -0700</lastBuildDate>
+    <pubDate>Mon, 01 Jun 2026 19:31:12 -0700</pubDate>
+    <lastBuildDate>Mon, 01 Jun 2026 19:31:12 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Periodic reminder :-) HOW TO: get all Thunderbird Desktop and Android SUMO KB articles</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jun 2, 2026 02:27 (UTC) &lt;a href=&quot;https://lite.datasette.io/?csv=https%3A%2F%2Fraw.githubusercontent.com%2Fthunderbird%2Fgithub-action-thunderbird-kb%2Frefs%2Fheads%2Fmain%2Fdetails-allproducts-kb-title-slug-all-articles.csv#/data?sql=select+url+from+%5Bdetails-allproducts-kb-title-slug-all-articles%5D+where+products_str+like+%27%25thunderbird%25%27&quot;&gt;Periodic reminder :-) HOW TO: get all Thunderbird Desktop and Android SUMO KB articles&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;sqlite-query&quot;&gt;SQLite query&lt;/h3&gt;
+
+&lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;details&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;allproducts&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;kb&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;slug&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;all&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;articles&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; 
+&lt;span class=&quot;k&quot;&gt;where&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;products_str&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;like&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'%thunderbird%'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Mon, 01 Jun 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/06/01/p1927-lite-datasette-io/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/06/01/p1927-lite-datasette-io/</guid>
+        
+        
+      </item>
     
       <item>
         <title>I really loved Alien Clay by Adrian Tchaikovsky. Especially the alien life's ability to take over other life and its emergent intelligence. Highly recommended if you are interested in a different sort of life and insights into a fascist, totalitarian regime. Sound familar :-) ?!?</title>
@@ -154,23 +171,6 @@
         <pubDate>Sat, 09 May 2026 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2026/05/09/p0710-tea-snobbery-101-milk-and-sugar-are-evil/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/05/09/p0710-tea-snobbery-101-milk-and-sugar-are-evil/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Walked to Pharmasave at 1808 Kingsway and got a walk-in appointment and my 8th COVID vaccination  today</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1&quot;&gt;Draft&lt;/a&gt; &lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;created&lt;/a&gt;: May 9, 2026 04:11 (UTC).&lt;/li&gt;
-  &lt;li&gt;They don’t appear to be busy and have plenty of doses of Moderna. Get yours today seriously!
-    &lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-  &lt;/li&gt;
-  &lt;li&gt;October 23, 2025:: &lt;a href=&quot;https://rolandtanglao.com/2025/10/23/p1807-2025-covid-19-immunization-british-columbia-7th-vaccination/&quot;&gt;ME:: called my local pharmacy at 1808 Kingsway and got a walk-in appointment and both my 7th COVID vaccine and my yearly flu vaccine today! ; 2025 COVID-19 immunizations - Province of British Columbia&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 08 May 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/05/08/p2111-walked-pharmasave-1808-kingsway-walk-in-appointment-covid-vaccination-today/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/05/08/p2111-walked-pharmasave-1808-kingsway-walk-in-appointment-covid-vaccination-today/</guid>
         
         
       </item>

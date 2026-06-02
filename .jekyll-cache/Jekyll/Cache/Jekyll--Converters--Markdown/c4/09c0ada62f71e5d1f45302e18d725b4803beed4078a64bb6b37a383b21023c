@@ -1,0 +1,8 @@
+I"3<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Jun 2, 2026 02:27 (UTC) <a href="https://lite.datasette.io/?csv=https%3A%2F%2Fraw.githubusercontent.com%2Fthunderbird%2Fgithub-action-thunderbird-kb%2Frefs%2Fheads%2Fmain%2Fdetails-allproducts-kb-title-slug-all-articles.csv#/data?sql=select+url+from+%5Bdetails-allproducts-kb-title-slug-all-articles%5D+where+products_str+like+%27%25thunderbird%25%27">Periodic reminder :-) HOW TO: get all Thunderbird Desktop and Android SUMO KB articles</a></p>
+
+<h3 id="sqlite-query">SQLite query</h3>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">select</span> <span class="n">url</span> <span class="k">from</span> <span class="p">[</span><span class="n">details</span><span class="o">-</span><span class="n">allproducts</span><span class="o">-</span><span class="n">kb</span><span class="o">-</span><span class="n">title</span><span class="o">-</span><span class="n">slug</span><span class="o">-</span><span class="k">all</span><span class="o">-</span><span class="n">articles</span><span class="p">]</span> 
+<span class="k">where</span> <span class="n">products_str</span> <span class="k">like</span> <span class="s1">'%thunderbird%'</span>
+</code></pre></div></div>
+:ET
