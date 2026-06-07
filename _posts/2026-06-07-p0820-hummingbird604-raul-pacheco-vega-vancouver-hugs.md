@@ -12,7 +12,9 @@ title: "Hummingbird604 aka Dr. Raúl Pacheco-Vega: Vancouver will miss you and y
 * Since I don't trust the university's website:
 
 >Profesor investigador de la FLACSO México adscrito al Laboratorio de Métodos. Ha sido catedrático titular en la División de Administración Pública del Centro de Investigación y Docencia Económicas, Director Regional por la Western Canada y Lead Researcher in Water and Climate Change, en el Canadian Institute for Environmental Law and Policy e investigador en CIATEG/CIATEC.
+
 >Sus campos de interés son los métodos mixtos, las políticas públicas, y en especial las políticas ambientales, nacionales y globales. Sus temas de investigación incluyen la gobernanza del agua, el saneamiento de aguas residuales, el activismo ambiental transnacional, y las políticas públicas para poblaciones vulnerables (personas adultas mayores y personas en situación de calle). Ha desarrollado también proyectos de evaluación de política climática, y de movilidad debida a factores climáticos.
+
 >Es Ingeniero Químico por la Universidad de Guanajuato, estudió la Maestría en Gestión de la Tecnología Avanzada, y el Doctorado en Administración de Recursos y Estudios Ambientales, ambos en The University of British Columbia en Vancouver, Canadá, así como una especialización en University of Manchester. Es miembro del Sistema Nacional de Investigadoras e Investigadores de la SECIHTI, con el Nivel II. Forma parte del Executive Council de la International Association for the Study of the Commons (IASC) durante el periodo 2025-2031.
 
 ## Amazing bloggers from Vancouver's community who we all miss deeply
