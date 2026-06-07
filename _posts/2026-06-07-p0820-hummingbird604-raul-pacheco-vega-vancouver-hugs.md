@@ -3,8 +3,8 @@ layout: post
 title: "Hummingbird604 aka Dr. Raúl Pacheco-Vega: Vancouver will miss you and your hugs."
 ---
 * [Draft](https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1) [created](https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/): Jun 7, 2026 15:20 (UTC).
-* My photo of Raúl at Northern Voice 2011
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/rolexpv/" title="051320116991"><img src="https://live.staticflickr.com/2708/5718124266_2b7019f84c_w.jpg" width="400" height="225" alt="051320116991"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+* My photo of Raúl at Northern Voice 2011:<br />
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/rolexpv/" title="051320116991"><img src="https://live.staticflickr.com/2708/5718124266_2b7019f84c_w.jpg" width="400" height="225" alt="051320116991"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script><br />
 * [Official announcement of Professor Vega's death from his university](https://www.flacso.edu.mx/pacheco-vega-raul/)
 ## QUOTE
 Since I don't trust the university's website:
