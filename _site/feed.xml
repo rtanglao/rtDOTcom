@@ -6,9 +6,92 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 07 Jun 2026 08:49:34 -0700</pubDate>
-    <lastBuildDate>Sun, 07 Jun 2026 08:49:34 -0700</lastBuildDate>
+    <pubDate>Sat, 13 Jun 2026 11:10:24 -0700</pubDate>
+    <lastBuildDate>Sat, 13 Jun 2026 11:10:24 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Greg Wilson explains monads in a way I can understand: 'a way to chain operations without explicitly passing extra arguments' and more ; Greg Wilson:: Monads</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jun 12, 2026 13:50 (UTC) &lt;a href=&quot;https://third-bit.com/l4py/monads/&quot;&gt;Greg Wilson explains monads in a way I can understand: ‘a way to chain operations without explicitly passing extra arguments’ and more ; Greg Wilson:: Monads&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://third-bit.com/l4py/monads/&quot;&gt;Greg Wilson:: Monads&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you’re coming from Python, the cleanest way to think about it is that a monad is a way to chain operations without explicitly passing extra arguments. Monads aren’t just for input and output; they can also be used for:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;possible failure (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;None&lt;/code&gt;, exceptions)&lt;/li&gt;
+    &lt;li&gt;async execution (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;await&lt;/code&gt;)&lt;/li&gt;
+    &lt;li&gt;logging&lt;/li&gt;
+    &lt;li&gt;random number generation&lt;/li&gt;
+    &lt;li&gt;dependency injection&lt;/li&gt;
+    &lt;li&gt;parsing context&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 12 Jun 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/06/12/p0650-greg-wilson-explains-monads/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/06/12/p0650-greg-wilson-explains-monads/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: Stlite, WASM version of Streamlit enables interactive client side graphing with sliders that works on web assembly, no backend required! ; Stlite </title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jun 9, 2026 14:28 (UTC) &lt;a href=&quot;https://stlite.net/&quot;&gt;ME:: Stlite, WASM version of Streamlit enables interactive client side graphing with sliders that works on web assembly, no backend required! ; Stlite &lt;/a&gt; &amp;lt;– Stlite Serverless Streamlit Running Entirely in Your Browser&lt;/p&gt;
+</description>
+        <pubDate>Tue, 09 Jun 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/06/09/p0728-stlite-net/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/06/09/p0728-stlite-net/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: now if only these python cli apps could be on the internet with a url somehow e.g python web assembly ; Cyclopts — cyclopts</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jun 9, 2026 14:22 (UTC) &lt;a href=&quot;https://cyclopts.readthedocs.io/en/stable/&quot;&gt;ME:: now if only these python cli apps could be on the internet with a url somehow e.g python web assembly ; Cyclopts — cyclopts&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Intuitive API: Quickly write CLI applications using a terse, intuitive syntax.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Advanced Type Hinting: Full support of all builtin types and even user-specified (yes, including Pydantic, Dataclasses, and Attrs).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Rich Help Generation: Automatically generates beautiful help pages from docstrings and other contextual data.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Extendable: Easily customize converters, validators, token parsing, and application launching.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Tue, 09 Jun 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/06/09/p0722-cyclopts-easy-python-cli-appse/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/06/09/p0722-cyclopts-easy-python-cli-appse/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: I believe I can use Streamlit to create interactive dashboards with sliders from CSV files on the internet ; streamlit/streamlit: Streamlit — A faster way to build and share data apps.</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jun 8, 2026 16:14 (UTC) &lt;a href=&quot;https://github.com/streamlit/streamlit&quot;&gt;ME:: I believe I can use Streamlit to create interactive dashboards with sliders from CSV files on the internet ; streamlit/streamlit: Streamlit — A faster way to build and share data apps.&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Streamlit lets you transform Python scripts into interactive web apps in minutes, instead of weeks. Build dashboards, generate reports, or create chat apps. &lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 08 Jun 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/06/08/p0914-streamlit/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/06/08/p0914-streamlit/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Hummingbird604 aka Dr. Raúl Pacheco-Vega: Vancouver will miss you and your hugs.</title>
@@ -118,78 +201,6 @@
         <pubDate>Mon, 25 May 2026 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2026/05/25/p0826-0049000-not-bring-reusable-containers-and-cups-always-recycling-is-theatre-worldwide/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/05/25/p0826-0049000-not-bring-reusable-containers-and-cups-always-recycling-is-theatre-worldwide/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Richard Powers:: 'The Overstory'. 'There are a hundred thousand species of love, separately invented, each more ingenious than the last, and every one of them keeps making things.' &lt;- I couldn't agree more! Highly recommended!</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1&quot;&gt;Draft&lt;/a&gt; &lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;created&lt;/a&gt;: May 25, 2026 15:04 (UTC).&lt;/li&gt;
-  &lt;li&gt;Wikipedia: &lt;a href=&quot;https://en.wikipedia.org/wiki/Richard_Powers&quot;&gt;Richard Powers&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Wikipedia: &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Overstory&quot;&gt;The Overstory&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 25 May 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/05/25/p0804-richard-powers-overstory-species-love-separately-invented-ingenious-making-agree-highly-recommended/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/05/25/p0804-richard-powers-overstory-species-love-separately-invented-ingenious-making-agree-highly-recommended/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME::tl-dr-ing Google: 'prominence allocation' aka Indexing and presenting the perfect contextual ad in the guise of an 'answer'; Matthias Ott: Ad Infinitum</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: May 22, 2026 02:52 (UTC) &lt;a href=&quot;https://matthiasott.com/notes/ad-infinitum&quot;&gt;ME::tl-dr-ing Google: ‘prominence allocation’ aka Indexing and presenting the perfect contextual ad in the guise of an ‘answer’; Matthias Ott: Ad Infinitum&lt;/a&gt; &amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Another approach – also from Google researchers – fits the new “Search” much more precisely. It’s called “prominence allocation.” Here, when a user submits a query with commercial intent, the system runs an auction that doesn’t just decide which ads appear, but how prominently the LLM writes about each one. The auction outputs a prominence score for each advertiser, essentially telling the model: give this product 35 words, that one 20, and this one zero. The ad isn’t next to the answer. The ad is the answer. Or rather, it shapes how much space and enthusiasm each product gets within the answer.&lt;/code&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 21 May 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/05/21/p1952-ad-infinitum/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/05/21/p1952-ad-infinitum/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Tom Chick:: Best thing I've seen since February 28, 2026: Offside ¦ Patreon</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: May 21, 2026 20:17 (UTC) &lt;a href=&quot;https://www.patreon.com/posts/best-thing-ive-152411170&quot;&gt;Tom Chick:: Best thing I’ve seen since February 28, 2026: Offside ¦ Patreon&lt;/a&gt; &amp;lt;– Gotta Watch ‘The Circle’ and ‘Offside’ some day!!&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://www.patreon.com/posts/best-thing-ive-152411170&quot;&gt;Tom Chick:: Best thing I’ve seen since February 28, 2026: Offside ¦ Patreon&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;My favorite Jafar Panahi movie, however, is The Circle, where all the lead actors are pitch-perfect, surprisingly varied, and wonderfully expressive considering they’re all women acting from within their hijabs. It’s an unforgettable script, a cannily daisy-chained set of short stories; eat your Raymond Carver-loving heart out, Robert Altman! But unlike Offside, it’s bleak, without much hope, a despairing look at women in a male-dominated theocracy.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It’s especially hard to watch these movies while the county is being pummeled by airstrikes. It certainly makes it easier to understand conflicting emotions expressed like this, quoted by the BBC from an Iranian man named Kaveh:  “I had always imagined [the death of Khamenei] would feel like happiness, but it didn’t. Almost all the years of my life and the lives of millions like me were destroyed and thousands lost their lives - and yet he himself was removed from the scene in a single moment, [which] made me truly angry.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Jafar Panahi is basically exiled from Iran. But his son, the director of Hit the Road, was in Iran when the US and Israeli airstrikes began. I hope both of them get to make many more movies, and I would love for them to be able to continue telling me stories about Iran. My heart goes out to them and everyone else swept up in this awful and unnecessary war. I hope it ends soon.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Thu, 21 May 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/05/21/p1317-best-thing-ive-152411170/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/05/21/p1317-best-thing-ive-152411170/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to Recalculate a Spreadsheet – Lord.io</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: May 21, 2026 20:14 (UTC) &lt;a href=&quot;https://lord.io/spreadsheets/&quot;&gt;How to Recalculate a Spreadsheet – Lord.io&lt;/a&gt; &amp;lt;– love blog posts explaining algorithms like this!&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This simple strategy of recalculating the whole document may sound wasteful, but it’s actually already better than VisiCalc, the first spreadsheet software ever made, and the first so-called “killer app”, responsible for popularizing the Apple II. VisiCalc would repeatedly recalculate cells from left-to-right and top-to-bottom, sweeping over them again and again until none of them changed. Despite this “interesting” algorithm, VisiCalc remained the dominant spreadsheet software for four years. Its reign ended in 1983, when Lotus 1-2-3 swept the market with “natural-order recalculation”&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Thu, 21 May 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/05/21/p1314-spreadsheets/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/05/21/p1314-spreadsheets/</guid>
         
         
       </item>
