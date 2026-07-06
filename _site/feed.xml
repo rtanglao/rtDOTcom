@@ -6,9 +6,54 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 01 Jul 2026 21:29:42 -0700</pubDate>
-    <lastBuildDate>Wed, 01 Jul 2026 21:29:42 -0700</lastBuildDate>
+    <pubDate>Sun, 05 Jul 2026 18:18:39 -0700</pubDate>
+    <lastBuildDate>Sun, 05 Jul 2026 18:18:39 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>ME:: everybody thinks they know what a free market is; most us are wrong myself included and it requires strong, enlightened regulation ; Stefan Schüller:: The Free Market Lie: Why Switzerland Has 25 Gbit Internet and America Doesn't</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jul 5, 2026 00:20 (UTC) &lt;a href=&quot;https://stefan.schueller.net/posts/the-free-market-lie/&quot;&gt;ME:: everybody thinks they know what a free market is; most us are wrong myself included and it requires strong, enlightened regulation ; Stefan Schüller:: The Free Market Lie: Why Switzerland Has 25 Gbit Internet and America Doesn’t&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://stefan.schueller.net/posts/the-free-market-lie/&quot;&gt;Stefan Schüller:: The Free Market Lie: Why Switzerland Has 25 Gbit Internet and America Doesn’t&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is the paradox that confuses so many people.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The American and German approach of letting incumbents build monopolies, allowing wasteful overbuild, and refusing to regulate natural monopolies is often called a ‘free market.’&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;But it’s not free. And it’s not a market.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;True capitalism requires competition. But infrastructure is a natural monopoly. If you treat it like a regular consumer product, you don’t get competition. You get waste, or you get a monopoly.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The Swiss model understands this. They built the infrastructure once, as a shared, neutral asset, and then let the market compete on the services that run over it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;That’s not anti-capitalist. It’s actually better capitalism. It directs competition to where it adds value, not to where it destroys it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The free market doesn’t mean letting powerful incumbents do whatever they want. It means creating the conditions where genuine competition can thrive.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sat, 04 Jul 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/07/04/p1720-so-called-free-markets-require-strong-regulation-the-free-market-lie/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/07/04/p1720-so-called-free-markets-require-strong-regulation-the-free-market-lie/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Amazing, thanks Les! ; lmorchard's strudel.cc cover of the intro to Stripdown by Agent Side Grinder</title>
@@ -191,35 +236,6 @@ PLEASE DO NOT SHARE THESE LINKS PUBLICLY.&lt;/p&gt;
         <pubDate>Tue, 09 Jun 2026 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2026/06/09/p0728-stlite-net/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/06/09/p0728-stlite-net/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: now if only these python cli apps could be on the internet with a url somehow e.g python web assembly ; Cyclopts — cyclopts</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jun 9, 2026 14:22 (UTC) &lt;a href=&quot;https://cyclopts.readthedocs.io/en/stable/&quot;&gt;ME:: now if only these python cli apps could be on the internet with a url somehow e.g python web assembly ; Cyclopts — cyclopts&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Intuitive API: Quickly write CLI applications using a terse, intuitive syntax.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Advanced Type Hinting: Full support of all builtin types and even user-specified (yes, including Pydantic, Dataclasses, and Attrs).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Rich Help Generation: Automatically generates beautiful help pages from docstrings and other contextual data.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Extendable: Easily customize converters, validators, token parsing, and application launching.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Tue, 09 Jun 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/06/09/p0722-cyclopts-easy-python-cli-appse/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/06/09/p0722-cyclopts-easy-python-cli-appse/</guid>
         
         
       </item>

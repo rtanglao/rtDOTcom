@@ -7,6 +7,7 @@ title: "ME:: everybody thinks they know what a free market is; most us are wrong
 ## QUOTE
 
 * Read the whole thing: [Stefan Schüller:: The Free Market Lie: Why Switzerland Has 25 Gbit Internet and America Doesn't](https://stefan.schueller.net/posts/the-free-market-lie/)
+
 >This is the paradox that confuses so many people.
 
 >The American and German approach of letting incumbents build monopolies, allowing wasteful overbuild, and refusing to regulate natural monopolies is often called a ‘free market.’
