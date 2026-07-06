@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ME:: everybody thinks they know what a free market is; most us are wrong myself included and it requires strong, enlightened regulation ; Stefan Schüller:: The Free Market Lie: Why Switzerland Has 25 Gbit Internet and America Doesn't"
+title: "ME:: everybody thinks they know what a free market is; most of us are wrong myself included and it requires strong, enlightened regulation ; Stefan Schüller:: The Free Market Lie: Why Switzerland Has 25 Gbit Internet and America Doesn't"
 ---
 [Discovered](http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/): Jul 5, 2026 00:20 (UTC) [ME:: everybody thinks they know what a free market is; most us are wrong myself included and it requires strong, enlightened regulation ; Stefan Schüller:: The Free Market Lie: Why Switzerland Has 25 Gbit Internet and America Doesn't](https://stefan.schueller.net/posts/the-free-market-lie/)
 
