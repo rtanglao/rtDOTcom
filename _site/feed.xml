@@ -6,9 +6,37 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 01 Aug 2026 00:12:59 -0700</pubDate>
-    <lastBuildDate>Sat, 01 Aug 2026 00:12:59 -0700</lastBuildDate>
+    <pubDate>Sat, 01 Aug 2026 22:19:36 -0700</pubDate>
+    <lastBuildDate>Sat, 01 Aug 2026 22:19:36 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>How to create and delete a non default CalDAV calendar using curl</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1&quot;&gt;Draft&lt;/a&gt; &lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;created&lt;/a&gt;: Aug 2, 2026 05:03 (UTC).
+From: &lt;a href=&quot;https://github.com/thunderbird/desktop-support-tools/blob/main/README.md&quot;&gt;github.com/thunderbird/desktop-support-tools/blob/main/README.md&lt;/a&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;make-a-calendar&quot;&gt;Make a calendar&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; nemo@thundermail.com &lt;span class=&quot;nt&quot;&gt;-X&lt;/span&gt; MKCALENDAR &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;-H&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Content-Type: application/xml'&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;--data&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&amp;gt;
+&amp;lt;C:mkcalendar xmlns:D=&quot;DAV:&quot; xmlns:C=&quot;urn:ietf:params:xml:ns:caldav&quot;&amp;gt;&amp;lt;D:set&amp;gt;&amp;lt;D:prop&amp;gt;&amp;lt;D:displayname&amp;gt;ticket-1234&amp;lt;/D:displayname&amp;gt;&amp;lt;/D:prop&amp;gt;&amp;lt;/D:set&amp;gt;&amp;lt;/C:mkcalendar&amp;gt;'&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;s1&quot;&gt;'https://mail.thundermail.com/dav/cal/nemo%40thundermail.com/ticket-1234/'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;delete-a-calendar&quot;&gt;Delete a calendar&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$CAL_USER&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-X&lt;/span&gt; DELETE &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;CAL_HOME&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;ticket-1234/&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Sat, 01 Aug 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/08/01/p2203-how-to-create-delete-default-caldav-calendar-curl/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/08/01/p2203-how-to-create-delete-default-caldav-calendar-curl/</guid>
+        
+        
+      </item>
     
       <item>
         <title>I thought Star Trek Strange New Worlds S4 Episode 2 was less magnificent than episode 1 but only because I don't like horror movies. Still liked it though.</title>
@@ -160,27 +188,6 @@
         <pubDate>Mon, 20 Jul 2026 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2026/07/20/p2242-music-piracy-what-cd-oink-nine-inch-nails-streaming/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/07/20/p2242-music-piracy-what-cd-oink-nine-inch-nails-streaming/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: Women have done all the STEM things including software forever and have forever been ignored ;  Olivia Guest:: Cryptogyny</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jul 21, 2026 05:37 (UTC) &lt;a href=&quot;https://olivia.science/cryptogyny/&quot;&gt;ME:: Women have done all the STEM things including software forever and have forever been ignored ;  Olivia Guest:: Cryptogyny&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;quote&quot;&gt;QUOTE:&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://olivia.science/cryptogyny/&quot;&gt;Olivia Guest:: Cryptogyny&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Obfuscating women’s interests in and contributions to technology echoes through the ages (Erscoi et al., 2023); see Figure 1. Culinary recipes are archetypal algorithms, but cooking is not seen as related to programming (cf. Shore, 1985). Jaccard looms, machines that weave cloth, are the original use case for punchcards – physical pieces of paper that were used to program computers (Harlizius-Klück, 2017). Ada Lovelace invented the first computer program (Aiello, 2016). Women mathematicians and programmers worked with the first digital computer, the ENIAC (Kleiman, 2022). Grace Hopper invented the compiler (Beyer, 2012). Core rope memory was created through knitting copper wires by women for NASA’s Apollo missions (Rosner, Shorey, Craft, Remick, 2018). Margaret Hamilton was Director of the Software Engineering Division that, inter alia, took humans to the Moon (Hamilton &amp;amp; Hackler, 2008).&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Mon, 20 Jul 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/07/20/p2237-cryptogyny/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/07/20/p2237-cryptogyny/</guid>
         
         
       </item>
