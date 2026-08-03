@@ -6,9 +6,68 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 02 Aug 2026 10:35:02 -0700</pubDate>
-    <lastBuildDate>Sun, 02 Aug 2026 10:35:02 -0700</lastBuildDate>
+    <pubDate>Mon, 03 Aug 2026 10:39:29 -0700</pubDate>
+    <lastBuildDate>Mon, 03 Aug 2026 10:39:29 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Evgenia Karunus:: All Lean Books And Where To Find Them</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Aug 3, 2026 16:36 (UTC) &lt;a href=&quot;https://lakesare.brick.do/all-lean-books-and-where-to-find-them-x2nYwjM3AwBQ&quot;&gt;Evgenia Karunus:: All Lean Books And Where To Find Them&lt;/a&gt; &amp;lt;–Super good list! Doesn’t have Kevin Hartnett’s ‘The Proof is in the Code’&lt;/p&gt;
+</description>
+        <pubDate>Mon, 03 Aug 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/08/03/p0936-evgenia-karunus-all-lean-books-and-where-to-find-them/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/08/03/p0936-evgenia-karunus-all-lean-books-and-where-to-find-them/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>LambdaClass:: Lean raises the bar: it converts logical errors into compilation errors. .... If It Compiles, It Is Correct: A Practical Introduction to Lean 4 for Engineers</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Aug 3, 2026 16:25 (UTC) &lt;a href=&quot;https://blog.lambdaclass.com/if-it-compiles-it-is-correct-almost-an-introduction-to-lean-4-for-zk-systems-and-engineering-2/&quot;&gt;LambdaClass:: Lean raises the bar: it converts logical errors into compilation errors. …. If It Compiles, It Is Correct: A Practical Introduction to Lean 4 for Engineers&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;My only concern is that it is written in terrible and unsafe language C++. Oh well most of lean is written in lean so I guess we’ll have to live with the C++ part. At least it uses C++ 17 i.e. modern C++ according to &lt;a href=&quot;https://en.wikipedia.org/wiki/Lean_(proof_assistant)&quot;&gt;Wikipedia&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;And if I don’t start programming in Lean it won’t be for mathematical proofs which I never really loved but instead I’d use it for programming a DSL or simple command line scripts or maybe even a &lt;a href=&quot;https://support.mozilla.org/en-US/kb/markup-chart&quot;&gt;support.mozilla.org aka SUMO KB Markup linter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
+
+&lt;p&gt;Read the whole thing: &lt;a href=&quot;https://blog.lambdaclass.com/if-it-compiles-it-is-correct-almost-an-introduction-to-lean-4-for-zk-systems-and-engineering-2/&quot;&gt;If It Compiles, It Is Correct: A Practical Introduction to Lean 4 for Engineers&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;From a mathematical perspective, the binary is an &lt;strong&gt;Executable Instance&lt;/strong&gt; of your proof. It serves to calculate concrete values (witnesses) that satisfy your theorems, bringing mathematical objects from the world of ideas onto the hard drive.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It is the same file, but one views it as a &lt;strong&gt;confirmation of theory&lt;/strong&gt;,&lt;br /&gt;
+and the other as a &lt;strong&gt;production tool&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Lean 4 narrows that gap significantly: it’s both a proof assistant and a modern programming language that compiles to efficient C. You can write your specification, prove it correct, and extract deployable code, all in the same system.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Mon, 03 Aug 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/08/03/p0925-if-it-compiles-it-is-correct-almost-an-introduction-to-lean-4-for-zk-systems-and-engineering-2/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/08/03/p0925-if-it-compiles-it-is-correct-almost-an-introduction-to-lean-4-for-zk-systems-and-engineering-2/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: Surprisingly I loved a non fiction book! First one I've finished in at least 6 months! Maybe because I love the idea of software that is provable and always have since the 1980s and my painful forays into Lisp and Prolog at Waterloo ; Kevin Hartnett:: The Proof in the Code - Quanta Books</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Aug 3, 2026 16:04 (UTC) &lt;a href=&quot;https://www.quantabooks.org/books/the-proof-in-the-code/&quot;&gt;ME:: Surprisingly I loved a non fiction book! First one I’ve finished in at least 6 months! Maybe because I love the idea of software that is provable and always have since the 1980s and my painful forays into Lisp and Prolog at Waterloo ; Kevin Hartnett:: The Proof in the Code - Quanta Books&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Thank you Dennis for writing Lisp back on the Xerox Lisp workstation all those years ago. I just learned how to use the Lisp debugger to run the code backwards and forwards. Lisp debugging was in 1987 sooooooo easy! Dennis wrote the Lisp stuff; I ran the Lisp debugger if I remember correctly haha! I remember debugging as being almost fun! Probably because it was integrated and not bolted on afterwards. Unlike gdb/adb/xdb and the other terrible debuggers I have used for C and C++ over the years. The gdb family of debuggers is not much better than good logging or printing in my probably wrong opinion :-)&lt;/li&gt;
+  &lt;li&gt;Prolog on the other hand broke my brain :-) ! Never really understood or learned it but I did pass the course!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 03 Aug 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/08/03/p0904-the-proof-in-the-code/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/08/03/p0904-the-proof-in-the-code/</guid>
+        
+        
+      </item>
     
       <item>
         <title>'Safe'-ish bicycle route to Coquitlam that doesn't require you to ride on the shoulder with no protection with cars going 60km/h or faster using the Freeway and Avalon trail</title>
@@ -131,70 +190,6 @@ From: &lt;a href=&quot;https://github.com/thunderbird/desktop-support-tools/blob
         <pubDate>Wed, 22 Jul 2026 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2026/07/22/p0820-in-the-mood-for-love-highly-recommended/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/07/22/p0820-in-the-mood-for-love-highly-recommended/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>omg i love hong kong 'art house' movies: go see chungking express if you do too!</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jul 22, 2026 15:16 (UTC) &lt;a href=&quot;https://devdilettante.com/@roland/116964278385876910&quot;&gt;omg i love hong kong “art house” movies: go see chungking express if you do too!&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Wikipedia: &lt;a href=&quot;https://en.wikipedia.org/wiki/Chungking_Express&quot;&gt;Chungking Express&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 22 Jul 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/07/22/p0816-chungking-express/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/07/22/p0816-chungking-express/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Naomi Klein is going to start a substack? A newsletter about anti-fascism on a platform that supports fascism?!?!? I am sure she'll change platforms. Sooner rather than later I hope.</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1&quot;&gt;Draft&lt;/a&gt; &lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;created&lt;/a&gt;: Jul 21, 2026 07:02 (UTC).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;December 19, 2025  &lt;a href=&quot;https://rolandtanglao.com/2025/12/19/p2358-comfort-food-for-the-thinking-class-the-great-intellectual-stagnation/&quot;&gt;ME:: Podcasts should be 15 minutes or less, prove me wrong :-). Substack is funded by terrible people and supports terrible people on its platform (as well as great people who don’t realize that they are helping those terrible people) part 88888 ; Joan Westenberg:: Comfort Food for the Thinking Class: The Great Intellectual Stagnation&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 21 Jul 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/07/21/p0002-naomi-klein-start-substack-newsletter-anti-fascism-platform-supports-fascism-change-platforms-sooner-hope/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/07/21/p0002-naomi-klein-start-substack-newsletter-anti-fascism-platform-supports-fascism-change-platforms-sooner-hope/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>The Americans killed thousands (if not tens of thousands or 100,000 or more)  Filipinos in this war and we've forgotten about it even though it's not a hidden conspiracy theory. See Karnow's In our Image for a biased American history of this ; Mmina Maclang Tamayo aka @thoughtspresso:: It doesn't escape me as someone from a former  US colony (and in many ways continue to be under Uncle Sam's thumb), that they indeed brought a gift horse to our shores. In the late 1890s, under the guise of friendship, the US staged the Battle of Manila to pretend to help fight off the Spanish colonizers. Then they turned around and became our colonizer. 🤷🏻‍♀️</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jul 21, 2026 06:22 (UTC) &lt;a href=&quot;https://www.threads.com/@thoughtspresso/post/Da_vHwBmgj_&quot;&gt;The Americans killed thousands (if not tens of thousands or 100,000 or more)  Filipinos in this war and we’ve forgotten about it even though it’s not a hidden conspiracy theory. See Karnow’s In our Image for a biased American history of this ; Mmina Maclang Tamayo aka @thoughtspresso:: It doesn’t escape me as someone from a former  US colony (and in many ways continue to be under Uncle Sam’s thumb), that they indeed brought a gift horse to our shores. In the late 1890s, under the guise of friendship, the US staged the Battle of Manila to pretend to help fight off the Spanish colonizers. Then they turned around and became our colonizer. 🤷🏻‍♀️&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Wikipedia: &lt;a href=&quot;https://en.wikipedia.org/wiki/In_Our_Image:_America%27s_Empire_in_the_Philippines&quot;&gt;In Our Image: America’s Empire in the Philippines&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Wikipedia: &lt;a href=&quot;https://en.wikipedia.org/wiki/Philippine%E2%80%93American_War&quot;&gt;The &lt;strong&gt;Philippine–American War&lt;/strong&gt;, known alternatively as the &lt;strong&gt;Filipino–American War&lt;/strong&gt;, &lt;strong&gt;Philippine Insurrection&lt;/strong&gt;, or &lt;strong&gt;Tagalog Insurgency&lt;/strong&gt;&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;blockquote&gt;
-          &lt;p&gt;Filipino casualties were much greater than among Americans. The &lt;a href=&quot;https://en.wikipedia.org/wiki/United_States_Department_of_State&quot; title=&quot;United States Department of State&quot;&gt;United States Department of State&lt;/a&gt; states that the war “resulted in the death of over 4,200 American and over 20,000 Filipino combatants”, and that “as many as 200,000 Filipino civilians died from violence, famine, and disease” … A &lt;a href=&quot;https://en.wikipedia.org/wiki/1902_cholera_outbreak_of_the_Philippines&quot;&gt;cholera epidemic&lt;/a&gt; “1902 cholera outbreak of the Philippines”) at the war’s end killed between 150,000 and 200,000 people.&lt;a href=&quot;https://en.wikipedia.org/wiki/Philippine%E2%80%93American_War#cite_note-Silbey-24&quot;&gt;20&lt;/a&gt; According to Andrea Pitzer, over 11,000 Filipinos died in concentration camps.&lt;/p&gt;
-        &lt;/blockquote&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;blockquote&gt;
-          &lt;p&gt;Some estimates reach 1,000,000 dead…..Filipino scholar Luzviminda Francisco cites an alleged interview in &lt;em&gt;The New York Times&lt;/em&gt; with General James M. Bell, who commanded forces in a part of southern Luzon, in May 1901 where it was said he suggested that “over 600,000 people in Luzon alone had been killed or had died of disease as a result of the war”. Francisco also cites the forced incarceration of a reported 300,000 people in the province of Albay, and allegations of war crimes in Mindanao and high death rates in Bilibid Prison to raise doubts of the validity of, then, accepted casualty figures for the war. …Historian John M. Gates has described the figure of 600,000 as unfounded and exaggerated …According to Gates, the maximum possible number of war-related deaths in the Philippines between 1898 and 1903 is 321,000 based on American and Spanish census data&lt;/p&gt;
-        &lt;/blockquote&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 20 Jul 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/07/20/p2322-mmina-maclang-tamayo-the-odyssey-filipino-american-war/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/07/20/p2322-mmina-maclang-tamayo-the-odyssey-filipino-american-war/</guid>
         
         
       </item>

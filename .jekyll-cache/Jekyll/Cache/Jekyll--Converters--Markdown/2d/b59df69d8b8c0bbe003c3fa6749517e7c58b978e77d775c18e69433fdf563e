@@ -1,0 +1,24 @@
+I"A<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Aug 3, 2026 16:25 (UTC) <a href="https://blog.lambdaclass.com/if-it-compiles-it-is-correct-almost-an-introduction-to-lean-4-for-zk-systems-and-engineering-2/">LambdaClass:: Lean raises the bar: it converts logical errors into compilation errors. …. If It Compiles, It Is Correct: A Practical Introduction to Lean 4 for Engineers</a></p>
+
+<ul>
+  <li>My only concern is that it is written in terrible and unsafe language C++. Oh well most of lean is written in lean so I guess we’ll have to live with the C++ part. At least it uses C++ 17 i.e. modern C++ according to <a href="https://en.wikipedia.org/wiki/Lean_(proof_assistant)">Wikipedia</a>.</li>
+  <li>And if I don’t start programming in Lean it won’t be for mathematical proofs which I never really loved but instead I’d use it for programming a DSL or simple command line scripts or maybe even a <a href="https://support.mozilla.org/en-US/kb/markup-chart">support.mozilla.org aka SUMO KB Markup linter</a></li>
+</ul>
+
+<h2 id="quote">QUOTE:</h2>
+
+<p>Read the whole thing: <a href="https://blog.lambdaclass.com/if-it-compiles-it-is-correct-almost-an-introduction-to-lean-4-for-zk-systems-and-engineering-2/">If It Compiles, It Is Correct: A Practical Introduction to Lean 4 for Engineers</a></p>
+
+<blockquote>
+  <p>From a mathematical perspective, the binary is an <strong>Executable Instance</strong> of your proof. It serves to calculate concrete values (witnesses) that satisfy your theorems, bringing mathematical objects from the world of ideas onto the hard drive.</p>
+</blockquote>
+
+<blockquote>
+  <p>It is the same file, but one views it as a <strong>confirmation of theory</strong>,<br />
+and the other as a <strong>production tool</strong></p>
+</blockquote>
+
+<blockquote>
+  <p>Lean 4 narrows that gap significantly: it’s both a proof assistant and a modern programming language that compiles to efficient C. You can write your specification, prove it correct, and extract deployable code, all in the same system.</p>
+</blockquote>
+:ET
