@@ -6,9 +6,54 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 03 Aug 2026 10:39:29 -0700</pubDate>
-    <lastBuildDate>Mon, 03 Aug 2026 10:39:29 -0700</lastBuildDate>
+    <pubDate>Tue, 04 Aug 2026 10:30:14 -0700</pubDate>
+    <lastBuildDate>Tue, 04 Aug 2026 10:30:14 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>How to create and delete a non default CalDAV calendar using curl on Windows (untested)</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1&quot;&gt;Draft&lt;/a&gt; &lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;created&lt;/a&gt;: Aug 4, 2026 16:44 (UTC). From: &lt;a href=&quot;https://github.com/thunderbird/desktop-support-tools/blob/main/README.md&quot;&gt;github.com/thunderbird/desktop-support-tools/blob/main/README.md&lt;/a&gt;:
+    &lt;h2 id=&quot;make-a-calendar&quot;&gt;Make a calendar&lt;/h2&gt;
+  &lt;/li&gt;
+  &lt;li&gt;create a file called mkcalender.xml:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-xml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;D:propfind&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;xmlns:D=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;DAV:&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;xmlns:C=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;urn:ietf:params:xml:ns:caldav&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;D:prop&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;D:displayname/&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;D:resourcetype/&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;C:schedule-default-calendar-URL/&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/D:prop&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/D:propfind&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Then run the following in powershell:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl.exe &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; nemo@thundermail.com &lt;span class=&quot;nt&quot;&gt;-X&lt;/span&gt; MKCALENDAR ^
+  &lt;span class=&quot;nt&quot;&gt;-H&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Content-Type: application/xml&quot;&lt;/span&gt; ^
+  &lt;span class=&quot;nt&quot;&gt;--data-binary&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;@mkcalendar.xml&quot;&lt;/span&gt; ^
+  &lt;span class=&quot;s2&quot;&gt;&quot;https://mail.thundermail.com/dav/cal/nemo%40thundermail.com/ticket-1234/&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;delete-a-calendar&quot;&gt;Delete a calendar&lt;/h2&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl.exe &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$CAL_USER&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-X&lt;/span&gt; DELETE &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;CAL_HOME&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;ticket-1234/&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;August 1, 2026: &lt;a href=&quot;https://rolandtanglao.com/2026/08/01/p2203-how-to-create-delete-default-caldav-calendar-curl/&quot;&gt;How to create and delete a non default CalDAV calendar using curl&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 04 Aug 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/08/04/p0944-create-delete-default-caldav-calendar-curl-windows-untested/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/08/04/p0944-create-delete-default-caldav-calendar-curl-windows-untested/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Evgenia Karunus:: All Lean Books And Where To Find Them</title>
@@ -175,21 +220,6 @@ From: &lt;a href=&quot;https://github.com/thunderbird/desktop-support-tools/blob
         <pubDate>Wed, 22 Jul 2026 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2026/07/22/p0823-gujarati-jalso-awesome-food/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/07/22/p0823-gujarati-jalso-awesome-food/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>omg i love hong kong 'art house' movies: go see In the Mood for Love if you do too!</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jul 22, 2026 15:20 (UTC) &lt;a href=&quot;https://devdilettante.com/@roland/116964282985784273&quot;&gt;omg i love hong kong “art house” movies: go see In the Mood for Love if you do too!&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Wikipedia: &lt;a href=&quot;https://en.wikipedia.org/wiki/In_the_Mood_for_Love&quot;&gt;In the Mood for Love&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 22 Jul 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/07/22/p0820-in-the-mood-for-love-highly-recommended/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/07/22/p0820-in-the-mood-for-love-highly-recommended/</guid>
         
         
       </item>

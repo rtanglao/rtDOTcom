@@ -1,0 +1,36 @@
+I"Ú	<ul>
+  <li><a href="https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1">Draft</a> <a href="https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/">created</a>: Aug 4, 2026 16:44 (UTC). From: <a href="https://github.com/thunderbird/desktop-support-tools/blob/main/README.md">github.com/thunderbird/desktop-support-tools/blob/main/README.md</a>:
+    <h2 id="make-a-calendar">Make a calendar</h2>
+  </li>
+  <li>create a file called mkcalender.xml:</li>
+</ul>
+
+<div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?xml version="1.0" encoding="utf-8"?&gt;</span>
+<span class="nt">&lt;D:propfind</span> <span class="na">xmlns:D=</span><span class="s">"DAV:"</span> <span class="na">xmlns:C=</span><span class="s">"urn:ietf:params:xml:ns:caldav"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;D:prop&gt;</span>
+    <span class="nt">&lt;D:displayname/&gt;</span>
+    <span class="nt">&lt;D:resourcetype/&gt;</span>
+    <span class="nt">&lt;C:schedule-default-calendar-URL/&gt;</span>
+  <span class="nt">&lt;/D:prop&gt;</span>
+<span class="nt">&lt;/D:propfind&gt;</span>
+</code></pre></div></div>
+<ul>
+  <li>Then run the following in powershell:</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl.exe <span class="nt">-i</span> <span class="nt">-u</span> nemo@thundermail.com <span class="nt">-X</span> MKCALENDAR ^
+  <span class="nt">-H</span> <span class="s2">"Content-Type: application/xml"</span> ^
+  <span class="nt">--data-binary</span> <span class="s2">"@mkcalendar.xml"</span> ^
+  <span class="s2">"https://mail.thundermail.com/dav/cal/nemo%40thundermail.com/ticket-1234/"</span>
+</code></pre></div></div>
+
+<h2 id="delete-a-calendar">Delete a calendar</h2>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl.exe <span class="nt">-i</span> <span class="nt">-u</span> <span class="s2">"</span><span class="nv">$CAL_USER</span><span class="s2">"</span> <span class="nt">-X</span> DELETE <span class="s2">"</span><span class="k">${</span><span class="nv">CAL_HOME</span><span class="k">}</span><span class="s2">ticket-1234/"</span>
+</code></pre></div></div>
+
+<h2 id="previously">Previously</h2>
+
+<ul>
+  <li>August 1, 2026: <a href="https://rolandtanglao.com/2026/08/01/p2203-how-to-create-delete-default-caldav-calendar-curl/">How to create and delete a non default CalDAV calendar using curl</a></li>
+</ul>
+:ET
