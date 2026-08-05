@@ -6,9 +6,27 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 04 Aug 2026 10:30:14 -0700</pubDate>
-    <lastBuildDate>Tue, 04 Aug 2026 10:30:14 -0700</lastBuildDate>
+    <pubDate>Wed, 05 Aug 2026 08:16:00 -0700</pubDate>
+    <lastBuildDate>Wed, 05 Aug 2026 08:16:00 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>CardDAV is the logical next thing to automate for Thundermail testing and support</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1&quot;&gt;Draft&lt;/a&gt; &lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;created&lt;/a&gt;: Aug 5, 2026 15:12 (UTC).&lt;/li&gt;
+  &lt;li&gt;I guess create an address book, add contacts, delete an addres book in order to support Thundermail folks.
+    &lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+  &lt;/li&gt;
+  &lt;li&gt;August 4, 2026: &lt;a href=&quot;https://rolandtanglao.com/2026/08/04/p0944-create-delete-default-caldav-calendar-curl-windows-untested/&quot;&gt;How to create and delete a non default CalDAV calendar using curl on Windows (untested)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;August 1, 2026: &lt;a href=&quot;https://rolandtanglao.com/2026/08/01/p2203-how-to-create-delete-default-caldav-calendar-curl/&quot;&gt;How to create and delete a non default CalDAV calendar using curl&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 05 Aug 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/08/05/p0812-carddav-logical-automate-thundermail-testing-support/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/08/05/p0812-carddav-logical-automate-thundermail-testing-support/</guid>
+        
+        
+      </item>
     
       <item>
         <title>How to create and delete a non default CalDAV calendar using curl on Windows (untested)</title>
@@ -199,27 +217,6 @@ From: &lt;a href=&quot;https://github.com/thunderbird/desktop-support-tools/blob
         <pubDate>Fri, 24 Jul 2026 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2026/07/24/p2119-listening-to-cassandra-misogyny-classical-and-modern/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/07/24/p2119-listening-to-cassandra-misogyny-classical-and-modern/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Gujarati Jalso was as awesome as Fernando said  it would be :-) not that I ever doubted him :-) </title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Jul 22, 2026 15:23 (UTC) &lt;a href=&quot;https://cosocial.ca/@roland/116712451511209818&quot;&gt;Gujarati Jalso was as awesome as Fernando said  it would be :-) not that I ever doubted him :-) &lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://scoutmagazine.ca/gujarati-jalso-the-burnaby-restaurant-giving-gujarati-food-top-billing/&quot;&gt;Gujarati Jalso was as awesome as Fernando wrote in Scout Magazine&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;April 5, 2026: &lt;a href=&quot;https://rolandtanglao.com/2026/04/25/p1058-gujarati-jalso-the-burnaby-restaurant-giving-gujarati-food-top-billing/&quot;&gt;Gotta try it! 50 minute bicycle ride or take the sky train to Edmonds and walk; Fernando Medrano:: Gujarati Jalso: The Burnaby Restaurant Giving Gujarati Food Top Billing – Scout Magazine&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 22 Jul 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/07/22/p0823-gujarati-jalso-awesome-food/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/07/22/p0823-gujarati-jalso-awesome-food/</guid>
         
         
       </item>
