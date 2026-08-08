@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dakal a Salamat Lechon Diva & Halina for the superb 11 course meal for $70 with 2 glasses of wine!"
+title: "Dakal a Salamat Lechon Diva & Haliná for the superb 11 course meal for $70 with 2 glasses of wine!"
 ---
 * [Draft](https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1) [created](https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/): Aug 8, 2026 08:05 (UTC).
 * So good! Thank you Diva! Thank you staff and chefs!
