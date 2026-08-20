@@ -6,9 +6,253 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 18 Aug 2026 12:10:55 -0700</pubDate>
-    <lastBuildDate>Tue, 18 Aug 2026 12:10:55 -0700</lastBuildDate>
+    <pubDate>Wed, 19 Aug 2026 18:38:58 -0700</pubDate>
+    <lastBuildDate>Wed, 19 Aug 2026 18:38:58 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>littleFedi ¦ A small ActivityPub server written in Go</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Aug 19, 2026 04:11 (UTC) &lt;a href=&quot;https://littlefedi.org/index.html&quot;&gt;littleFedi ¦ A small ActivityPub server written in Go&lt;/a&gt;&amp;lt;– &lt;strong&gt;QUOTE&lt;/strong&gt;: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;littleFedi is a small ActivityPub server written in Go. It ships as a single static executable with a server-rendered web interface, a Mastodon-compatible client API, a durable federation queue, moderation tools, and optional PostgreSQL and S3 support. No runtime to install, no services to wire together. &lt;/code&gt; &amp;lt;– Sounds great!&lt;/p&gt;
+
+&lt;h2 id=&quot;probably-wrong-advice-from-gemini&quot;&gt;Probably wrong advice from Gemini&lt;/h2&gt;
+
+&lt;h3 id=&quot;user&quot;&gt;User:&lt;/h3&gt;
+&lt;p&gt;littleone fedi&lt;/p&gt;
+
+&lt;h3 id=&quot;assistant&quot;&gt;Assistant:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;littleFedi&lt;/strong&gt; is a lightweight, low-resource ActivityPub and Fediverse server software designed by Stefano Marinelli to run on minimal hardware like a Raspberry Pi Zero W. &lt;strong&gt;littleOne&lt;/strong&gt; (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;littleone.littlefedi.social&lt;/code&gt;) serves as an early public instance running on this software.&lt;/p&gt;
+
+&lt;h4 id=&quot;about-littlefedi&quot;&gt;About littleFedi&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Single Binary Design:&lt;/strong&gt; Built in Go without heavy database or worker process dependencies like Redis or Sidekiq.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Low Power:&lt;/strong&gt; Optimized to run efficiently on single-board computers using very little RAM.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Fediverse Compatibility:&lt;/strong&gt; Fully speaks ActivityPub and features a Mastodon-compatible client API so standard apps work smoothly.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Static Blogging:&lt;/strong&gt; Includes features to turn Fediverse posts and their public threaded replies into lightweight static blog pages.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you want, let me know if you would like to:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Learn how to &lt;strong&gt;set up or host&lt;/strong&gt; a littleFedi instance&lt;/li&gt;
+  &lt;li&gt;Understand how it &lt;strong&gt;compares to Mastodon or snac&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Let me know how you’d like to proceed.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;user-1&quot;&gt;User:&lt;/h3&gt;
+&lt;p&gt;how to host a littleFedi instance on a raspberry pi behind tailscale&lt;/p&gt;
+
+&lt;h3 id=&quot;assistant-1&quot;&gt;Assistant:&lt;/h3&gt;
+&lt;p&gt;To host a &lt;strong&gt;littleFedi&lt;/strong&gt; instance on a Raspberry Pi behind Tailscale, you must overcome the major hurdle of typical Fediverse hosting: other instances need to reach your server over standard public HTTPS, but Tailscale hides your Pi from the public internet.&lt;/p&gt;
+
+&lt;p&gt;To solve this, littleFedi includes a built-in feature called &lt;strong&gt;littleMesh&lt;/strong&gt;. This mechanism allows your private instance to securely peer and federate through a public “lighthouse” proxy without needing public DNS records, an open router port, or a public IP address.&lt;/p&gt;
+
+&lt;p&gt;Here is how to set up littleFedi on your Pi with Tailscale for private client access while keeping federation active via littleMesh.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;step-1-install-tailscale-on-the-raspberry-pi&quot;&gt;Step 1: Install Tailscale on the Raspberry Pi&lt;/h4&gt;
+&lt;p&gt;You need Tailscale active on your Pi so your phones, laptops, and Mastodon clients can connect to it securely from anywhere.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;SSH into your Raspberry Pi.&lt;/li&gt;
+  &lt;li&gt;Run the official Tailscale installation script:
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;nt&quot;&gt;-fsSL&lt;/span&gt; https://tailscale.com ¦ sh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Authenticate and bring the network interface up:
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;tailscale up
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Copy your Pi’s Tailscale IP address for future reference:
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;tailscale ip &lt;span class=&quot;nt&quot;&gt;-4&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;step-2-download-and-install-littlefedi&quot;&gt;Step 2: Download and Install littleFedi&lt;/h4&gt;
+&lt;p&gt;Because littleFedi compiles down to a single, static Go binary with an embedded SQLite database, installation takes seconds.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Download the correct ARM binary for your Raspberry Pi architecture from the official littleFedi release page.&lt;/li&gt;
+  &lt;li&gt;Move the binary into your execution path and make it executable:
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo mv &lt;/span&gt;littlefedi /usr/local/bin/
+&lt;span class=&quot;nb&quot;&gt;sudo chmod&lt;/span&gt; +x /usr/local/bin/littlefedi
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;step-3-run-the-interactive-setup&quot;&gt;Step 3: Run the Interactive Setup&lt;/h4&gt;
+&lt;p&gt;littleFedi includes an onboarding tool to configure your instance and automatically request/configure the &lt;strong&gt;littleMesh&lt;/strong&gt; federation tunnel.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Initialize the setup wizard:
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;littlefedi init
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;When prompted by the interactive command line:
+    &lt;ul&gt;
+      &lt;li&gt;Select &lt;strong&gt;Lighthouse / littleMesh&lt;/strong&gt; mode when asked about network topology.&lt;/li&gt;
+      &lt;li&gt;Provide the network address or choose the embedded SQLite database profile.&lt;/li&gt;
+      &lt;li&gt;If running on a low-end Pi (like a Pi Zero), toggle &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;low_power = true&lt;/code&gt; in the configuration file to optimize database locks and memory caching.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;step-4-configure-the-web-interface-listener&quot;&gt;Step 4: Configure the Web Interface Listener&lt;/h4&gt;
+&lt;p&gt;To ensure you can log into your instance using a Mastodon mobile app or web browser over your Tailscale network, change the listening interface.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Open your generated littleFedi configuration file (usually &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;config.toml&lt;/code&gt; or similar).&lt;/li&gt;
+  &lt;li&gt;Set the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;listen&lt;/code&gt; address to explicitly bind to your &lt;strong&gt;Tailscale IP address&lt;/strong&gt; (from Step 1) or to all local interfaces:
+    &lt;div class=&quot;language-toml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;py&quot;&gt;listen&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;0.0.0.0:8080&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;(Optional) If you want a smooth interface without manual port typing, install a lightweight reverse proxy like Caddy on the Pi to map incoming Tailscale traffic on port 80/443 over to your littleFedi port.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;step-5-automate-with-systemd&quot;&gt;Step 5: Automate with systemd&lt;/h4&gt;
+&lt;p&gt;Create a background service file so littleFedi automatically boots and recovers when your Pi restarts.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Create a service file:
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;nano /etc/systemd/system/littlefedi.service
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Paste the configuration text below (adjusting paths to match where your config file is stored):
+    &lt;div class=&quot;language-ini highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nn&quot;&gt;[Unit]&lt;/span&gt;
+&lt;span class=&quot;py&quot;&gt;Description&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;littleFedi Server&lt;/span&gt;
+&lt;span class=&quot;py&quot;&gt;After&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;network.target tailscaled.service&lt;/span&gt;
+
+&lt;span class=&quot;nn&quot;&gt;[Service]&lt;/span&gt;
+&lt;span class=&quot;py&quot;&gt;Type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;simple&lt;/span&gt;
+&lt;span class=&quot;py&quot;&gt;User&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;pi&lt;/span&gt;
+&lt;span class=&quot;py&quot;&gt;WorkingDirectory&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;/home/pi/littlefedi&lt;/span&gt;
+&lt;span class=&quot;py&quot;&gt;ExecStart&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;/usr/local/bin/littlefedi --config /home/pi/littlefedi/config.toml&lt;/span&gt;
+&lt;span class=&quot;py&quot;&gt;Restart&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;always&lt;/span&gt;
+
+&lt;span class=&quot;nn&quot;&gt;[Install]&lt;/span&gt;
+&lt;span class=&quot;py&quot;&gt;WantedBy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;multi-user.target&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Enable and start the service:
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;systemctl daemon-reload
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;systemctl &lt;span class=&quot;nb&quot;&gt;enable &lt;/span&gt;littlefedi
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;systemctl start littlefedi
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;step-6-connect-your-clients&quot;&gt;Step 6: Connect Your Clients&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Web UI:&lt;/strong&gt; Turn on Tailscale on your laptop, type your Pi’s Tailscale IP address (e.g., &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;http://100.x.y.z:8080&lt;/code&gt;) into your browser, and log in.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Mobile Apps:&lt;/strong&gt; Use any Mastodon-compatible app (Mona, Ivory, Ice Cubes) while connected to your Tailnet. Enter your localized Tailscale instance URL when the app requests your server domain.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you are interested, I can:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Provide the configuration blocks to &lt;strong&gt;set up Caddy as a local HTTPS reverse proxy&lt;/strong&gt; using Tailscale’s automatic SSL certificates.&lt;/li&gt;
+  &lt;li&gt;Explain how to &lt;strong&gt;add custom static blog themes&lt;/strong&gt; to your littleFedi instance.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Let me know how you want to proceed.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;user-2&quot;&gt;User:&lt;/h3&gt;
+&lt;p&gt;Provide the configuration blocks to set up Caddy as a local HTTPS reverse proxy using Tailscale’s automatic SSL certificates.&lt;/p&gt;
+
+&lt;h3 id=&quot;assistant-2&quot;&gt;Assistant:&lt;/h3&gt;
+&lt;p&gt;To set up Caddy Server as a local reverse proxy with automatic Tailscale HTTPS certificates, you don’t need any complex SSL configuration block. Caddy automatically communicates with the local &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tailscaled&lt;/code&gt; daemon to request and renew the TLS certificates for any domain ending in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.ts.net&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-1-grant-caddy-access-to-tailscale&quot;&gt;Step 1: Grant Caddy Access to Tailscale&lt;/h4&gt;
+&lt;p&gt;By default, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;caddy&lt;/code&gt; user cannot access the Tailscale socket file to request certificates. You must tell the Tailscale daemon to allow the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;caddy&lt;/code&gt; system user to read its state.&lt;/p&gt;
+
+&lt;p&gt;Run this command on your Raspberry Pi:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;tailscale up &lt;span class=&quot;nt&quot;&gt;--operator&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;caddy
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;step-2-find-your-tailnet-magicdns-domain&quot;&gt;Step 2: Find Your Tailnet MagicDNS Domain&lt;/h4&gt;
+&lt;p&gt;You need the exact, unique domain string that Tailscale assigned to your Raspberry Pi. Get it by executing:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;tailscale status &lt;span class=&quot;nt&quot;&gt;--peers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;false&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;Look for your device’s Full Domain Name (e.g., &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;raspberrypi.tail1234.ts.net&lt;/code&gt;).&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-3-configure-the-caddyfile&quot;&gt;Step 3: Configure the Caddyfile&lt;/h4&gt;
+&lt;p&gt;Open or create your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/caddy/Caddyfile&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;nano /etc/caddy/Caddyfile
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Replace the contents with the block below. Make sure to swap out your actual &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.ts.net&lt;/code&gt; address and verify the port matches your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;littlefedi&lt;/code&gt; instance config (assuming port &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;8080&lt;/code&gt;):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-caddy&quot;&gt;# Replace with your actual device domain from Step 2
+raspberrypi.tail1234.ts.net {
+    # Route all traffic securely to your local littleFedi instance
+    reverse_proxy localhost:8080
+    
+    # Optional headers to ensure proper Fediverse activity headers pass through
+    header {
+        X-Forwarded-Proto https
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;step-4-apply-and-restart-services&quot;&gt;Step 4: Apply and Restart Services&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;Validate your Caddy syntax formatting:
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;caddy validate &lt;span class=&quot;nt&quot;&gt;--config&lt;/span&gt; /etc/caddy/Caddyfile
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Reload the Caddy service configuration to fetch the certificate from Tailscale:
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;systemctl reload caddy
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;troubleshooting&quot;&gt;Troubleshooting&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Handshake/Connection Errors:&lt;/strong&gt; Ensure you have explicitly enabled &lt;strong&gt;HTTPS Certificates&lt;/strong&gt; in your Tailscale Admin Console under the DNS settings menu.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Port Conflicts:&lt;/strong&gt; Ensure &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;littlefedi&lt;/code&gt; is listening on a local port like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;127.0.0.1:8080&lt;/code&gt; and &lt;strong&gt;not&lt;/strong&gt; trying to bind to port &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:80&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:443&lt;/code&gt;, as Caddy needs absolute control over those public-facing web ports.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you’d like, let me know if you would like to:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;See a &lt;strong&gt;Docker Compose example&lt;/strong&gt; managing both containers simultaneously&lt;/li&gt;
+  &lt;li&gt;Troubleshoot &lt;strong&gt;Caddy logs&lt;/strong&gt; if the domain fails to resolve securely&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Let me know how you would like to proceed!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;user-3&quot;&gt;User:&lt;/h3&gt;
+&lt;p&gt;so what will the domain name be? is it a tailscale domain or can i use my own doman?&lt;/p&gt;
+
+&lt;h3 id=&quot;assistant-3&quot;&gt;Assistant:&lt;/h3&gt;
+&lt;p&gt;You can use &lt;strong&gt;either&lt;/strong&gt;, but the choice radically changes how your instance connects to the rest of the Fediverse.&lt;/p&gt;
+
+&lt;p&gt;Here is how the domain name works depending on which path you choose:&lt;/p&gt;
+
+&lt;h4 id=&quot;option-1-using-your-tailscale-domain-tsnet&quot;&gt;Option 1: Using your Tailscale domain (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.ts.net&lt;/code&gt;)&lt;/h4&gt;
+&lt;p&gt;If you use the Tailscale domain (e.g., &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;your-pi.tail1234.ts.net&lt;/code&gt;), you get automatic, zero-configuration HTTPS via Caddy.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;How you connect:&lt;/strong&gt; You type &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://ts.net&lt;/code&gt; into your browser or mobile app.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The Catch:&lt;/strong&gt; Other public Fediverse servers (like Mastodon or Bluesky bridges) &lt;strong&gt;cannot&lt;/strong&gt; see or talk to a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.ts.net&lt;/code&gt; domain because it only exists inside your private Tailscale network. You will be completely isolated unless you utilize littleFedi’s built-in &lt;strong&gt;littleMesh&lt;/strong&gt; lighthouse feature to tunnel the traffic out.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;option-2-using-your-own-custom-domain-eg-yournamecom&quot;&gt;Option 2: Using your own custom domain (e.g., &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;://yourname.com&lt;/code&gt;)&lt;/h4&gt;
+&lt;p&gt;You can absolutely use your own custom domain name, which is highly recommended if you want a clean, professional username like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@you@yourname.com&lt;/code&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 18 Aug 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/08/18/p2111-little-fedi-in-golang/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/08/18/p2111-little-fedi-in-golang/</guid>
+        
+        
+      </item>
     
       <item>
         <title>ME:: if there wasn't tariffs I'd probably go for this and install the AC (Midea Duo or Dreo 740S Inverter Portable AC or Senville Mini split if I had some money :-)  on our ground floor swing outward casement window! Apparently $USD300 plus shipping plus tariffs so much for free trade. Instead I'll hire a local handyman I guess; Custom Portable AC Window Kit for Casement Windows — Martinson Manufacturing</title>
@@ -204,17 +448,6 @@ The other will be human-facing: emotional, experiential, and deeply brand-driven
         <pubDate>Sun, 16 Aug 2026 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2026/08/16/p0929-unforgetful/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/08/16/p0929-unforgetful/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Must watch this Japanese movie from 2021; Wikipedia:: Drive My Car (film)</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Aug 16, 2026 16:25 (UTC) &lt;a href=&quot;https://en.wikipedia.org/wiki/Drive_My_Car_(film)&quot;&gt;Must watch this Japanese movie from 2021; Wikipedia:: Drive My Car (film)&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 16 Aug 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/08/16/p0925-drive_my_car_film/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/08/16/p0925-drive_my_car_film/</guid>
         
         
       </item>
