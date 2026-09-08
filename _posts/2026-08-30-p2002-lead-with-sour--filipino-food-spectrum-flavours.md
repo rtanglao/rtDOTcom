@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "You haven't experienced the full Filipino food spectrum of flavours if you haven't tried one or more the of the following dishes which lead with sour: Sinigang, Paksiw, Adobo, Kinilaw, Dinuguan and many others I haven't tried I but and/or used vinegar (or soy sauce with citrus like calamansi) as a dipping sauce with Filipino beer food or Filipino food in general"
+title: "You haven't experienced the full Filipino food spectrum of flavours if you haven't tried one or more the of the following dishes which lead with sour: Sinigang, Paksiw, Adobo, Kinilaw, Dinuguan and many others I haven't tried I LOL and/or used vinegar (or soy sauce with citrus like calamansi) as a dipping sauce with Filipino beer food or Filipino food in general"
 ---
 * [Draft](https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1) [created](https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/): Aug 31, 2026 03:02 (UTC).
 * If adobo doesn't have a sour component that you can discern, then it's not really Filipino adobo. It can still be delicious of course :-)
