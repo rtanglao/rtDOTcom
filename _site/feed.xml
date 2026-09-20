@@ -6,9 +6,20 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 07 Sep 2026 22:12:43 -0700</pubDate>
-    <lastBuildDate>Mon, 07 Sep 2026 22:12:43 -0700</lastBuildDate>
+    <pubDate>Sat, 19 Sep 2026 21:46:24 -0700</pubDate>
+    <lastBuildDate>Sat, 19 Sep 2026 21:46:24 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>ME:: tl;dr-ing: 'The organisation trades analogue flexibility for digital predictability, and discovers the cost only when complexity arrives that the fixed stencils cannot process.' ; Dave Snowden:: Cognitive outsourcing 3/3: analogue asymmetry - The Cynefin Co</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Sep 8, 2026 15:05 (UTC) &lt;a href=&quot;https://thecynefin.co/cognitive-outsourcing-3-3-analogue-asymmetry/&quot;&gt;ME:: tl;dr-ing: ‘The organisation trades analogue flexibility for digital predictability, and discovers the cost only when complexity arrives that the fixed stencils cannot process.’ ; Dave Snowden:: Cognitive outsourcing 3/3: analogue asymmetry - The Cynefin Co&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 08 Sep 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/09/08/p0805-cognitive-outsourcing-3-3-analogue-asymmetry/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/09/08/p0805-cognitive-outsourcing-3-3-analogue-asymmetry/</guid>
+        
+        
+      </item>
     
       <item>
         <title>HIGHLY RECOMMENDED: Filipiñana, the full 2026 movie, is full arthouse at its most thought (or sleep) provoking and very gut wrenching simultaneously.  What actually happened? Did the Doctor and all the Ilustrados get their just desserts :-) ?!?!? Probably not because corruption.</title>
@@ -43,6 +54,31 @@
         <pubDate>Sun, 30 Aug 2026 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2026/08/30/p2002-lead-with-sour-filipino-food-spectrum-flavours/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/08/30/p2002-lead-with-sour-filipino-food-spectrum-flavours/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Gotta try it for future scraping projects; adbar/trafilatura: Python &amp;amp; Command-line tool to gather text and metadata on the Web: Crawling, scraping, extraction, output as CSV, JSON, HTML, MD, TXT, XML</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Aug 29, 2026 17:18 (UTC) &lt;a href=&quot;https://github.com/adbar/trafilatura&quot;&gt;Gotta try it for future scraping projects; adbar/trafilatura: Python &amp;amp; Command-line tool to gather text and metadata on the Web: Crawling, scraping, extraction, output as CSV, JSON, HTML, MD, TXT, XML&lt;/a&gt; &amp;lt;– QUOTE: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Trafilatura is a comprehensive Python package and command-line tool designed to gather text from the Web and turn raw HTML into structured, meaningful data. It includes all necessary discovery and text processing components to perform web crawling, downloads, scraping, and extraction of main texts, metadata and comments. It aims at staying handy and modular: no database is required, the output can be converted to commonly used formats. ... Going from raw HTML to essential parts, it focuses on the actual content, avoids noise caused by recurring elements (headers, footers, boilerplate), and makes sense of the data and metadata. The extractor strikes a balance between limiting noise (precision) and including all valid parts (recall). It is robust and reasonably fast.&lt;/code&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 29 Aug 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/08/29/p1018-trafilatura/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/08/29/p1018-trafilatura/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Has this IP address been the victim of a botnet attack and has it participated in a DDOS attack? ;DDoS address lookup · Nokia Deepfield</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Aug 29, 2026 14:38 (UTC) &lt;a href=&quot;https://check.deepfield.net/&quot;&gt;Has this IP address been the victim of a botnet attack and has it participated in a DDOS attack? ;DDoS address lookup · Nokia Deepfield&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;nt&quot;&gt;--silent&lt;/span&gt; v4.check.deepfield.net ¦ htmlq &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'.headline'&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Sat, 29 Aug 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/08/29/p0738-check-deepfield-net/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/08/29/p0738-check-deepfield-net/</guid>
         
         
       </item>
@@ -115,39 +151,6 @@
         <pubDate>Tue, 25 Aug 2026 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2026/08/25/p0823-washing-soda-not-draino/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/08/25/p0823-washing-soda-not-draino/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Cloudflare DNS issue? I couldn't get holos.social's Android app to work on my Pixel 7A my account if it ever works will be :-) @roland@rolandt.lol</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Aug 25, 2026 13:53 (UTC) &lt;a href=&quot;https://rolandt.lol/@roland&quot;&gt;Cloudflare DNS issue? I couldn’t get holos.social’s Android app to work on my Pixel 7A my account if it ever works will be :-) @roland@rolandt.lol&lt;/a&gt; &amp;lt;– More info at &lt;a href=&quot;https://holos.social/&quot;&gt;holos.social&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 25 Aug 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/08/25/p0653-holos-social-not-working-on-pixel-7a-cloudflare-dns-issue-perhaps/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/08/25/p0653-holos-social-not-working-on-pixel-7a-cloudflare-dns-issue-perhaps/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>100%, 50%, 25%, 15%, 10% CUSMA is a joke and so are the illegal tariffs and the embarrassing convict-led administration to the south of us. - Me on CoSocial</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Aug 25, 2026 13:49 (UTC) &lt;a href=&quot;https://cosocial.ca/@roland/117133962038046245&quot;&gt;100%, 50%, 25%, 15%, 10% CUSMA is a joke and so are the illegal tariffs and the embarrassing convict-led administration to the south of us. - Me on CoSocial&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 25 Aug 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/08/25/p0649-cusma-is-a-joke/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/08/25/p0649-cusma-is-a-joke/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>'Illegal initiated-by-American-convicted felon Trade War' instead of 'Trade War'. There I fixed it for you Canadian and USA media :-)</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Aug 24, 2026 17:35 (UTC) &lt;a href=&quot;https://devdilettante.com/@roland/117120133446275288&quot;&gt;‘Illegal initiated-by-American-convicted felon Trade War’ instead of ‘Trade War’. There I fixed it for you Canadian and USA media :-)&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 24 Aug 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/08/24/p1035-illegal-usa-trade-war-initiated-by-convict/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/08/24/p1035-illegal-usa-trade-war-initiated-by-convict/</guid>
         
         
       </item>

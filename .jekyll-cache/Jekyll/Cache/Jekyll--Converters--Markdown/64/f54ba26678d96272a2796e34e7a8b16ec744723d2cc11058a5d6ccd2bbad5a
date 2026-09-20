@@ -1,0 +1,5 @@
+I"=<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Aug 29, 2026 14:38 (UTC) <a href="https://check.deepfield.net/">Has this IP address been the victim of a botnet attack and has it participated in a DDOS attack? ;DDoS address lookup · Nokia Deepfield</a></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl <span class="nt">--silent</span> v4.check.deepfield.net ¦ htmlq <span class="nt">-t</span> <span class="s1">'.headline'</span>
+</code></pre></div></div>
+:ET
