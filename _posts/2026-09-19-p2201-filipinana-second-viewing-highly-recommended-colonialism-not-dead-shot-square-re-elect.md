@@ -4,7 +4,7 @@ title: "Filipiñana 2nd viewing: shot in square i.e. 1:1 re-elect Dr. Palanca, c
 ---
 * The re-elect Dr. Palanca terrible campaign is absolutely true; in fact truth is stranger than fiction when it comes to Filipino election campaigns at any level!
 * Actually shot in 4:3 but really looks square
-* Colonialism isn't over: 1st the Spanish, then the Americans, then the Japanese, then the Americans again (how never realy left) and the Chinese want to colonize the Philipines too
+* Colonialism isn't over: 1st the Spanish, then the Americans, then the Japanese, then the Americans again (who never really left) and the Chinese want to colonize the Philipines too
 * I was hoping that I had fallen asleep and that there was a happy ending but there was not. Would probably make the movie ridiculous if it ended happily.
 * I've been to resorts like the one in the movie and wow just wow. This is so realistic. It's also realistic the coverup and the oligarchy/illustrado taking care of their own and not caring about the other 99 million people in the Philippines.
 * Wikipedia page: https://en.wikipedia.org/wiki/Filipi%C3%B1ana is a 2026 [black comedy](https://en.wikipedia.org/wiki/Dark_humor "Dark humor") [drama](https://en.wikipedia.org/wiki/Drama_\(film_and_television\) "Drama (film and television)") film
