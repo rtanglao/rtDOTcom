@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Filipiñana 2nd viewing: shot in square i.e. 1:1 re-elect Dr. Palanca, colonialism is not over in the Philippines. This movie still highly recommended.
-
+title: "Filipiñana 2nd viewing: shot in square i.e. 1:1 re-elect Dr. Palanca, colonialism is not over in the Philippines. This movie still highly recommended."
+---
 * The re-elect Dr. Palanca terrible campaign is absolutely true; in fact truth is stranger than fiction when it comes to Filipino election campaigns at any level!
 * Actually shot in 4:3 but really looks square
 * Colonialism isn't over: 1st the Spanish, then the Americans, then the Japanese, then the Americans again (how never realy left) and the Chinese want to colonize the Philipines too
