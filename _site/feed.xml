@@ -6,9 +6,127 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 26 Sep 2026 19:15:41 -0700</pubDate>
-    <lastBuildDate>Sat, 26 Sep 2026 19:15:41 -0700</lastBuildDate>
+    <pubDate>Fri, 02 Oct 2026 17:26:50 -0700</pubDate>
+    <lastBuildDate>Fri, 02 Oct 2026 17:26:50 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>I think I was 14 when I learned that 'danum' is Kapampangan for water and that the Tagalog word is 'tubig' :-) #7100Islands #100orMoreLanguages</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1&quot;&gt;Draft&lt;/a&gt; &lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;created&lt;/a&gt;: Oct 2, 2026 23:58 (UTC).
+    &lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+  &lt;/li&gt;
+  &lt;li&gt;September 28, 2026: &lt;a href=&quot;https://rolandtanglao.com/2026/09/26/p1902-butt-buldet-kapampangan-puwit-tagalog/&quot;&gt;A few days ago I also learned that buldet is not Tagalog for your backside. It is Kapampangan lol. In Tagalog, it’s puwit :-)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 02 Oct 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/10/02/p1658-water-kapampangan-danum-tubig-tagalog/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/10/02/p1658-water-kapampangan-danum-tubig-tagalog/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: Tell humans about the problem not the solution first as well of course! ; Sean Goedecke:: Tell agents the why, not just the how</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 2, 2026 16:06 (UTC) &lt;a href=&quot;https://www.seangoedecke.com/tell-agents-the-why/&quot;&gt;ME:: Tell humans about the problem not the solution first as well of course! ; Sean Goedecke:: Tell agents the why, not just the how&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://www.seangoedecke.com/tell-agents-the-why/&quot;&gt;Sean Goedecke:: Tell agents the why, not just the how&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;About half of this prompt is sharing broad context, such as the overall project I’m aiming for, the fact that it’s for me personally and not for work, and my priorities (e.g. keeping the laptop cold). If I had written an explicit spec, I would have missed a bunch of improvements: for instance, using native messaging for the local model, or choosing the Gradient model instead of EditLens.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I do the same thing for work, but typically with a stronger emphasis on my technical values. I often write a paragraph spiel explaining the relative priorities of avoiding bugs, observability, fitting elegantly into the current code, performance, and so on. Note that I said “relative” priorities: I don’t simply list all of these things and say they’re important, I explicitly tell the model which of those I care less about and can therefore be traded off to better achieve the others.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Models are now smart enough to have meaningful input on your broader goals. If you’re just prompting them with a concrete technical spec, you are committing the same mistake as in the XY problem: asking expert advice without giving the expert the context it needs.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 02 Oct 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/10/02/p0906-tell-agents-the-why/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/10/02/p0906-tell-agents-the-why/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Sean Goedecke:: If you have deep domain knowledge of any area of a codebase, you will routinely find yourself correcting powerful AI models and principal engineers ... You should all be asking way more questions</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 2, 2026 16:00 (UTC) &lt;a href=&quot;https://www.seangoedecke.com/you-should-all-be-asking-way-more-questions/&quot;&gt;Sean Goedecke:: If you have deep domain knowledge of any area of a codebase, you will routinely find yourself correcting powerful AI models and principal engineers … You should all be asking way more questions&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://www.seangoedecke.com/you-should-all-be-asking-way-more-questions/&quot;&gt;Sean Goedecke:: You should all be asking way more questions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;You should all be asking way more questions. In other words, you should all be trying harder to actually understand what you’re hearing. Don’t trust that the person (or AI model) you’re talking to knows what they’re doing, even if you think they’re smarter than you. Nobody understands complex software products. If you have deep domain knowledge of any area of a codebase, you will routinely find yourself correcting powerful AI models and principal engineers.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 02 Oct 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/10/02/p0900-you-should-all-be-asking-way-more-questions/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/10/02/p0900-you-should-all-be-asking-way-more-questions/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Sean Goedecke:: Wicked features are features that must be considered every time you build any other feature like l10n</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 2, 2026 15:53 (UTC) &lt;a href=&quot;https://www.seangoedecke.com/wicked-features/&quot;&gt;Sean Goedecke:: Wicked features are features that must be considered every time you build any other feature like l10n&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Wicked features are features that must be considered every time you build any other feature.&lt;br /&gt;
+Here’s some examples of wicked features:&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;Adding a new user type&lt;/li&gt;
+    &lt;li&gt;Adding an on-premise version of your SaaS&lt;/li&gt;
+    &lt;li&gt;Sharding your customers across many different databases&lt;/li&gt;
+    &lt;li&gt;Supporting strong data locality&lt;/li&gt;
+    &lt;li&gt;Supporting the ability for customers to move their accounts between regions&lt;/li&gt;
+    &lt;li&gt;I18n (translating your customer-facing text into their native language)&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 02 Oct 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/10/02/p0853-wicked-features/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/10/02/p0853-wicked-features/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ME:: technical leaders and a few support people know how to figure out how a product works, everybody else knows their small part ; Sean Goedecke:: Nobody knows how large software products work</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 2, 2026 15:41 (UTC) &lt;a href=&quot;https://www.seangoedecke.com/nobody-knows-how-software-products-work/#fnref-1&quot;&gt;ME:: technical leaders and a few support people know how to figure out how a product works, everybody else knows their small part ; Sean Goedecke:: Nobody knows how large software products work&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://www.seangoedecke.com/nobody-knows-how-software-products-work/&quot;&gt;Sean Goedecke:: Nobody knows how large software products work&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Large, rapidly-moving tech companies are constantly operating in the “fog of war” about their own systems. Simple questions like “can users of type Y access feature X?”, “what happens when you perform action Z in this situation?”, or even “how many different plans do we offer” often can only be answered by a handful of people in the organization. Sometimes there are &lt;em&gt;zero&lt;/em&gt; people at the organization who can answer them, and somebody has to be tasked with digging in like a researcher to figure it out.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;How can this be? Shouldn’t the engineers who built the software know what it does? Aren’t these answers documented internally? Better yet, aren’t these questions trivially answerable by looking at the public-facing documentation for end users? Tech companies are full of well-paid people who know what they’re doing&lt;a href=&quot;https://www.seangoedecke.com/nobody-knows-how-software-products-work/#fn-1&quot;&gt;1&lt;/a&gt;. Why aren’t those people able to get clear on what their own product does?&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 02 Oct 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/10/02/p0841-nobody-knows-how-software-products-work/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/10/02/p0841-nobody-knows-how-software-products-work/</guid>
+        
+        
+      </item>
     
       <item>
         <title>A few days ago I also learned that buldet is not Tagalog for your backside. It is Kapampangan lol. In Tagalog, it's puwit :-)</title>
@@ -19,7 +137,7 @@
 &lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;September 26, 2026: &lt;a href=&quot;http://localhost:4000/2026/09/26/p1856-blanket-ulas-kapampangan-kumot-tagalog/&quot;&gt;A few days ago I learned that ulas is Kapampangan for blanket and kumot is Tagalog for blanket. LOL I thought ulas was Tagalog :-)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;September 26, 2026: &lt;a href=&quot;http://rolandtanglao.com/2026/09/26/p1856-blanket-ulas-kapampangan-kumot-tagalog/&quot;&gt;A few days ago I learned that ulas is Kapampangan for blanket and kumot is Tagalog for blanket. LOL I thought ulas was Tagalog :-)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 </description>
@@ -99,96 +217,6 @@
         <pubDate>Tue, 22 Sep 2026 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2026/09/22/p0807-relationships-across-cultures-one-key-to-happiness-stands-out/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/09/22/p0807-relationships-across-cultures-one-key-to-happiness-stands-out/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>St. Joseph's Vietnamese food roughly once a month Saturday and Sunday. Excellent sweet and savoury treats and BBQ and $15 noodle soup on Sunday! Highly recommended. There is no schedule so either ask them or just go by St. Joseph's at 5pm on Saturday and see if their tent is up!</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1&quot;&gt;Draft&lt;/a&gt; &lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;created&lt;/a&gt;: Sep 20, 2026 17:01 (UTC).&lt;/li&gt;
-  &lt;li&gt;I am not a Christian. I enjoy the food only :-)&lt;/li&gt;
-  &lt;li&gt;1612 East 18th Avenue, Vancouver, BC V5N 2H6&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sun, 20 Sep 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/09/20/p1001-joseph-vietnamese-food-roughly-monthly-bun-bo-hue-15-highly-recommended/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/09/20/p1001-joseph-vietnamese-food-roughly-monthly-bun-bo-hue-15-highly-recommended/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Filipiñana 2nd viewing: shot in square i.e. 1:1 re-elect Dr. Palanca, colonialism is not over in the Philippines. This movie still highly recommended.</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;The re-elect Dr. Palanca terrible campaign is absolutely true; in fact truth is stranger than fiction when it comes to Filipino election campaigns at any level!&lt;/li&gt;
-  &lt;li&gt;Actually shot in 4:3 but really looks square.&lt;/li&gt;
-  &lt;li&gt;Colonialism isn’t over: 1st the Spanish, then the Americans, then the Japanese, then the Americans again (who never really left) and the Chinese want to colonize the Philipines too&lt;/li&gt;
-  &lt;li&gt;I was hoping that I had fallen asleep and that there was a happy ending but there was not. Would probably make the movie ridiculous if it ended happily.&lt;/li&gt;
-  &lt;li&gt;I’ve been to resorts like the one in the movie and wow just wow. This is so realistic. It’s also realistic the coverup and the oligarchy/illustrado taking care of their own and not caring about the other 99 million people in the Philippines.&lt;/li&gt;
-  &lt;li&gt;Wikipedia page: &lt;a href=&quot;https://en.wikipedia.org/wiki/Filipi%C3%B1ana&quot;&gt;Filipiñana&lt;/a&gt; is a 2026 &lt;a href=&quot;https://en.wikipedia.org/wiki/Dark_humor&quot; title=&quot;Dark humor&quot;&gt;black comedy&lt;/a&gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/Drama_\(film_and_television\)&quot; title=&quot;Drama (film and television)&quot;&gt;drama&lt;/a&gt; film&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;September 7, 2026: &lt;a href=&quot;https://rolandtanglao.com/2026/09/07/p2138-filipinana-2026-movie-highly-recommended/&quot;&gt;HIGHLY RECOMMENDED: Filipiñana, the full 2026 movie, is full arthouse at its most thought (or sleep) provoking and very gut wrenching simultaneously. What actually happened? Did the Doctor and all the Ilustrados get their just desserts :-) ?!?!? Probably not because corruption.&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1&quot;&gt;Draft&lt;/a&gt; &lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;created&lt;/a&gt;: Sep 20, 2026 05:01 (UTC).&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sat, 19 Sep 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/09/19/p2201-filipinana-second-viewing-highly-recommended-colonialism-not-dead-shot-square-re-elect/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/09/19/p2201-filipinana-second-viewing-highly-recommended-colonialism-not-dead-shot-square-re-elect/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: tl;dr-ing: 'The organisation trades analogue flexibility for digital predictability, and discovers the cost only when complexity arrives that the fixed stencils cannot process.' ; Dave Snowden:: Cognitive outsourcing 3/3: analogue asymmetry - The Cynefin Co</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Sep 8, 2026 15:05 (UTC) &lt;a href=&quot;https://thecynefin.co/cognitive-outsourcing-3-3-analogue-asymmetry/&quot;&gt;ME:: tl;dr-ing: ‘The organisation trades analogue flexibility for digital predictability, and discovers the cost only when complexity arrives that the fixed stencils cannot process.’ ; Dave Snowden:: Cognitive outsourcing 3/3: analogue asymmetry - The Cynefin Co&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 08 Sep 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/09/08/p0805-cognitive-outsourcing-3-3-analogue-asymmetry/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/09/08/p0805-cognitive-outsourcing-3-3-analogue-asymmetry/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>HIGHLY RECOMMENDED: Filipiñana, the full 2026 movie, is full arthouse at its most thought (or sleep) provoking and very gut wrenching simultaneously.  What actually happened? Did the Doctor and all the Ilustrados get their just desserts :-) ?!?!? Probably not because corruption.</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1&quot;&gt;Draft&lt;/a&gt; &lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;created&lt;/a&gt;: Sep 8, 2026 04:38 (UTC).&lt;/li&gt;
-  &lt;li&gt;As another gut wrenching complement to this movie please consider reading America is not the heart by Elaine Castillo. See my post from 2019: &lt;a href=&quot;https://www.rolandmicroblog.com/2019/09/01/america-is-not.html&quot;&gt;America Is Not The Heart - Elaine Castillo - Highly Recommended!&lt;/a&gt;. Guardian Review: &lt;a href=&quot;https://www.theguardian.com/books/2018/may/23/america-is-not-in-the-heart-elaine-castillo-review&quot;&gt;America Is Not the Heart by Elaine Castillo review – an impressive debut novel&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/bOr3hgo2x2c&quot;&gt;youtu.be/bOr3hgo2x2c&lt;/a&gt; &amp;lt;– things that make you go hmmm :-) &lt;a href=&quot;https://www.rafaelmanuel.com/filipinana&quot;&gt;Official Filipiñana website&lt;/a&gt; and  &lt;a href=&quot;https://en.wikipedia.org/wiki/Filipi%C3%B1ana&quot;&gt;Filipiñana&lt;/a&gt; on wikipedia&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Ilustrado&quot;&gt;Ilustrado&lt;/a&gt; - the spanish created them. Colonialism of course&lt;/li&gt;
-  &lt;li&gt;Read the book: &lt;a href=&quot;https://en.wikipedia.org/wiki/Miguel_Syjuco&quot;&gt;Miguel Syjuco&lt;/a&gt;’s novel: Ilustrado.Check out The Guardian’s review of https://www.theguardian.com/books/2010/jun/27/ilustrado-miguel-syjuco-review&lt;/li&gt;
-  &lt;li&gt;I know zero &lt;a href=&quot;https://en.wikipedia.org/wiki/Ilocano_language&quot;&gt;Ilokano&lt;/a&gt;! But yes the Ilokanos in this movie could have been speaking &lt;a href=&quot;https://en.wikipedia.org/wiki/Kapampangan_language&quot;&gt;Kapampangan&lt;/a&gt; or any the other 100 or so provincial languages (apparently there are 8 major groups)/&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 07 Sep 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/09/07/p2138-filipinana-2026-movie-highly-recommended/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/09/07/p2138-filipinana-2026-movie-highly-recommended/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>You haven't experienced the full Filipino food spectrum of flavours if you haven't tried one or more the of the following dishes which lead with sour: Sinigang, Paksiw, Adobo, Kinilaw, Dinuguan and many others I haven't tried LOL and/or used vinegar (or soy sauce with citrus like calamansi) as a dipping sauce with Filipino beer food or Filipino food in general</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1&quot;&gt;Draft&lt;/a&gt; &lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;created&lt;/a&gt;: Aug 31, 2026 03:02 (UTC).&lt;/li&gt;
-  &lt;li&gt;If adobo doesn’t have a sour component that you can discern, then it’s not really Filipino adobo. It can still be delicious of course :-)&lt;/li&gt;
-  &lt;li&gt;And if you don’t like sour then that’s valid of course :-) I do still recommend trying one of those canonical Filipino dishes that lead with sour. Maybe you will like it :-)&lt;/li&gt;
-  &lt;li&gt;My favourite of the canoncial sour dishes is sinigang (tamarind souring is amazing) of course, I do like a very sour adobo though (most of my non Filipino friends don’t like adobo or sinigang as sour as I like it!)
-    &lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-  &lt;/li&gt;
-  &lt;li&gt;August 7, 2026: &lt;a href=&quot;https://rolandtanglao.com/2026/08/07/p2253-filipino-food-leads-with-sour/&quot;&gt;Non Filipino people: Filipino food leads with sour despite the delicious adobo, lumpia and pancit you have tried :-) Those 3 dishes are great but because they don’t lead with sour, they don’t represent the full Filipino flavour spectrum. Also, the super sugary stuff is American colonial brainwashing and big food, it is not really representative of Filipino food and Filipino bread is amazing despite what Spanish colonizers thought, just like the Vietnamese they took the colonial bread and made it work for them. Finally, leylut manuk over arroz caldo :-) and I hated pinakbet growing up but now I love it despite the bitter melon ; Vanjo Merano:: Filipino Food - Panlasang Pinoy&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 30 Aug 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/08/30/p2002-lead-with-sour-filipino-food-spectrum-flavours/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/08/30/p2002-lead-with-sour-filipino-food-spectrum-flavours/</guid>
         
         
       </item>

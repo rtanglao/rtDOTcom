@@ -1,0 +1,18 @@
+I"“<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Oct 2, 2026 15:53 (UTC) <a href="https://www.seangoedecke.com/wicked-features/">Sean Goedecke:: Wicked features are features that must be considered every time you build any other feature like l10n</a></p>
+
+<h2 id="quote">QUOTE:</h2>
+
+<blockquote>
+  <p>Wicked features are features that must be considered every time you build any other feature.<br />
+Hereâ€™s some examples of wicked features:</p>
+
+  <ul>
+    <li>Adding a new user type</li>
+    <li>Adding an on-premise version of your SaaS</li>
+    <li>Sharding your customers across many different databases</li>
+    <li>Supporting strong data locality</li>
+    <li>Supporting the ability for customers to move their accounts between regions</li>
+    <li>I18n (translating your customer-facing text into their native language)</li>
+  </ul>
+</blockquote>
+:ET
