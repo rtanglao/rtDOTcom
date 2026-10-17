@@ -6,9 +6,56 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 11 Oct 2026 21:56:32 -0700</pubDate>
-    <lastBuildDate>Sun, 11 Oct 2026 21:56:32 -0700</lastBuildDate>
+    <pubDate>Sat, 17 Oct 2026 16:41:06 -0700</pubDate>
+    <lastBuildDate>Sat, 17 Oct 2026 16:41:06 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Vada Pav Mirchi's Maharashtrian food is highly recommended especially the Ragda Patties! 2975 Cambie Street (at 14th)</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1&quot;&gt;Draft&lt;/a&gt; &lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;created&lt;/a&gt;: Oct 17, 2026 21:34 (UTC).&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vadapavmirchi.com/&quot;&gt;Vada Pav Mirchi by Geeta&lt;/a&gt; &amp;lt;– you never know if a restaurant’s website will be there in a few years. So many people don’t bother renewing their domains and then the website dies.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 17 Oct 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/10/17/p1434-vada-mirchi-maharashtrian-food-highly-recommended/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/10/17/p1434-vada-mirchi-maharashtrian-food-highly-recommended/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>September 1993:: Loyd Blankenship:: The Cow Ate My Brain - A Novice's Guide to MOO Programming, Part I</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 17, 2026 03:11 (UTC) &lt;a href=&quot;https://web.archive.org/web/20250208031629/https://www.moo-cows.com/docs/tutorials/cowatebrain.html&quot;&gt;September 1993:: Loyd Blankenship:: The Cow Ate My Brain - A Novice’s Guide to MOO Programming, Part I&lt;/a&gt; &amp;lt;– I remember reading this in the 1990s :-) and thinking I should write some code for this. Clearly that didn’t happen!&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://web.archive.org/web/20250208031629/https://www.moo-cows.com/docs/tutorials/cowatebrain.html&quot;&gt;The Cow Ate My Brain&lt;/a&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;If you’re reading this, you’ve probably stumbled on to at least one MOO. At the high-concept end of things, a MOO is a multi-user, text-based virtual reality. At the low-concept end of things, think of it as a multi-player Infocom-style game that lets you talk to other players and build new locations and objects.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The MOO is a program running on a Unix-type computer system. The original MOO is LambdaMOO, and was developed by Pavel Curtis at the Xerox Palo Alto Research Center from an initial body of code provided by stephen White at the University of Waterloo. It has been up and running since October 1990.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The main program working the MOO is called the “server.” The server handles all the nitty-gritty details such as input/output between the Internet and the MOO, parsing (figuring out) the lines you enter, and so on. The source code for LambdaMOO’s server is freely available via FTP at parcftp.xerox.com. It has been ported to a number of systems, from BSD/I to Linux to Amiga Unix. This isn’t intended to be a comprehensive guide to setting up and running a MOO (mainly because I don’t know much about it!), so we’re going to assume that the reader has logged into someone else’s MOO.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The other big duty of the server is to compile and run programs (called “verbs”) written in a language called MOO. MOO is a cross between C++ and LISP. The programming language is thoroughly documented, but the docco is &lt;em&gt;not&lt;/em&gt; really aimed toward the novice user.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 16 Oct 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/10/16/p2011-moo-cow-ate-brain/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/10/16/p2011-moo-cow-ate-brain/</guid>
+        
+        
+      </item>
     
       <item>
         <title>1977 me would have been amazed that in 2026 there would be a Hollywood animated feature called Forgotten Island about Filipino mythology like the aswang and that Forgotten Island isn't scary. And that aswangs aren't always scary. Forgotten Island is highly recommended!</title>
@@ -176,36 +223,6 @@ Here’s some examples of wicked features:&lt;/p&gt;
         <pubDate>Sat, 26 Sep 2026 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2026/09/26/p1856-blanket-ulas-kapampangan-kumot-tagalog/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/09/26/p1856-blanket-ulas-kapampangan-kumot-tagalog/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>4000 pounds of daily danger: I would love to say to car and truck drivers who dangerously almost sideswipe bicyclists: How would you feel if a person driving this way hit your father, mother, grandparent, son, daughter, etc simply because they couldn't pass safely? Is every second so precious that you want to take that risk?</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1&quot;&gt;Draft&lt;/a&gt; &lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;created&lt;/a&gt;: Sep 27, 2026 01:52 (UTC).
-    &lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-  &lt;/li&gt;
-  &lt;li&gt;September 24, 2026: &lt;a href=&quot;https://rolandtanglao.com/2026/09/24/p1139-bicyclists-ebicyclists-escooter-riders-do-not-sideswipe-pedestrians/&quot;&gt;I would love to say to bicyclists, e-scooter riders and e-bicyclists who dangerously almost sideswipe pedestrians: How would you feel if a person riding this way hit your father, mother, grandparent, son, daughter, etc simply because they couldn’t bother slowing down to a safe speed or dismounting? Is every second so precious that you want to take that risk?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 26 Sep 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/09/26/p1852-4000-pounds-daily-danger-love/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/09/26/p1852-4000-pounds-daily-danger-love/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>I would love to say to bicyclists, e-scooter riders and e-bicyclists who dangerously almost sideswipe pedestrians: How would you feel if a person riding this way hit your father, mother, grandparent, son, daughter, etc simply because they couldn't bother slowing down to a safe speed or dismounting? Is every second so precious that you want to take that risk?</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1&quot;&gt;Draft&lt;/a&gt; &lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;created&lt;/a&gt;: Sep 24, 2026 18:39 (UTC).&lt;/li&gt;
-  &lt;li&gt;Oh and of course one day you will be the pedestrian and this will happen to you. Would you want a bicyclist or somebody on an electric scooter or e-bicycle to narrowly pass by you at speed while you are walking? Probably not.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 24 Sep 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/09/24/p1139-bicyclists-ebicyclists-escooter-riders-do-not-sideswipe-pedestrians/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/09/24/p1139-bicyclists-ebicyclists-escooter-riders-do-not-sideswipe-pedestrians/</guid>
         
         
       </item>
