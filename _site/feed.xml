@@ -6,9 +6,23 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 25 Oct 2026 20:29:34 -0700</pubDate>
-    <lastBuildDate>Sun, 25 Oct 2026 20:29:34 -0700</lastBuildDate>
+    <pubDate>Mon, 26 Oct 2026 08:49:23 -0700</pubDate>
+    <lastBuildDate>Mon, 26 Oct 2026 08:49:23 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Pampanga's Cuisine Combo 2 has gone up to $19 from $18. Still a great deal and still enough food for 2 not very hungry people!</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1&quot;&gt;Draft&lt;/a&gt; &lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;created&lt;/a&gt;: Oct 26, 2026 15:17 (UTC).&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.pampangascuisine.ca/&quot;&gt;Pampanga’s Cuisine&lt;/a&gt; is at 46th and Fraser and at Joyce Station for those who don’t know :-)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 26 Oct 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/10/26/p0817-pampanga-cuisine-combo2-19-dollars-from-18/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/10/26/p0817-pampanga-cuisine-combo2-19-dollars-from-18/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Highly Recommended Filipino film, Liway, about Marcos's martial law horrors</title>
@@ -202,33 +216,6 @@
         <pubDate>Fri, 02 Oct 2026 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2026/10/02/p0900-you-should-all-be-asking-way-more-questions/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/10/02/p0900-you-should-all-be-asking-way-more-questions/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Sean Goedecke:: Wicked features are features that must be considered every time you build any other feature like l10n</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 2, 2026 15:53 (UTC) &lt;a href=&quot;https://www.seangoedecke.com/wicked-features/&quot;&gt;Sean Goedecke:: Wicked features are features that must be considered every time you build any other feature like l10n&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Wicked features are features that must be considered every time you build any other feature.&lt;br /&gt;
-Here’s some examples of wicked features:&lt;/p&gt;
-
-  &lt;ul&gt;
-    &lt;li&gt;Adding a new user type&lt;/li&gt;
-    &lt;li&gt;Adding an on-premise version of your SaaS&lt;/li&gt;
-    &lt;li&gt;Sharding your customers across many different databases&lt;/li&gt;
-    &lt;li&gt;Supporting strong data locality&lt;/li&gt;
-    &lt;li&gt;Supporting the ability for customers to move their accounts between regions&lt;/li&gt;
-    &lt;li&gt;I18n (translating your customer-facing text into their native language)&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Fri, 02 Oct 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/10/02/p0853-wicked-features/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/10/02/p0853-wicked-features/</guid>
         
         
       </item>
