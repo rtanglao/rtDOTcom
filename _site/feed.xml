@@ -6,9 +6,24 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 02 Nov 2026 09:16:16 -0700</pubDate>
-    <lastBuildDate>Mon, 02 Nov 2026 09:16:16 -0700</lastBuildDate>
+    <pubDate>Tue, 03 Nov 2026 11:51:31 -0700</pubDate>
+    <lastBuildDate>Tue, 03 Nov 2026 11:51:31 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>sumo-lint — check support.mozilla.org Knowledge Base markup, fix markup and save to a file. Also a KB markup LSP, Visual Code extension and vi er vim and emacs modes</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 3, 2026 15:07 (UTC) &lt;a href=&quot;https://thunderbird.github.io/sumo-linter/&quot;&gt;sumo-lint — check support.mozilla.org Knowledge Base markup, fix markup and save to a file. Also a KB markup LSP, Visual Code extension and vi er vim and emacs modes&lt;/a&gt; &amp;lt;– Another SUMO tool that I “wrote”. SUMO markup is a variant of wikitet aka mediawiki syntax aka the markup used for wikipedia and wiki.mozilla.org&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I haven’t tested vim and emacs much :-) #HelpWanted  :-) Keeping them in case MS breaks Visual Code or does something silly with it. Plus I have been using vi since 1985 and emacs since 1989 so lots of sentimental value in them for this silly grumpy old person :-)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 03 Nov 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/11/03/p0807-sumo-linter/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/11/03/p0807-sumo-linter/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Clara Benin - Evidence/Oo (Cover) (Live at The Coffee Bean &amp;amp; Tea Lead 26th St. Bistro) #OPM #HighlyRecommended -YouTube</title>
@@ -167,20 +182,6 @@
         <pubDate>Sun, 18 Oct 2026 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2026/10/18/p1343-you-need-to-notice-bugs-cannot-turn-your-brain-off/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/10/18/p1343-you-need-to-notice-bugs-cannot-turn-your-brain-off/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Vada Pav Mirchi's Maharashtrian food is highly recommended especially the Ragda Patties! 2975 Cambie Street (at 14th)</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1&quot;&gt;Draft&lt;/a&gt; &lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;created&lt;/a&gt;: Oct 17, 2026 21:34 (UTC).&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://vadapavmirchi.com/&quot;&gt;Vada Pav Mirchi by Geeta&lt;/a&gt; &amp;lt;– you never know if a restaurant’s website will be there in a few years. So many people don’t bother renewing their domains and then the website dies.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 17 Oct 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/10/17/p1434-vada-mirchi-maharashtrian-food-highly-recommended/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/10/17/p1434-vada-mirchi-maharashtrian-food-highly-recommended/</guid>
         
         
       </item>
