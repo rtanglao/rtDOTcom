@@ -6,9 +6,33 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 03 Nov 2026 11:51:31 -0700</pubDate>
-    <lastBuildDate>Tue, 03 Nov 2026 11:51:31 -0700</lastBuildDate>
+    <pubDate>Wed, 04 Nov 2026 08:16:10 -0700</pubDate>
+    <lastBuildDate>Wed, 04 Nov 2026 08:16:10 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Tools for support folks that should come out of the box but never do :-) part 8888 Espanso and Keyboard Shortcuts (AutoHotKey on Windows, built-in app on macOS) for github issues, bugzilla links, etc etc :-) </title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 4, 2026 14:29 (UTC) &lt;a href=&quot;https://github.com/thunderbird/espanso-config&quot;&gt;Tools for support folks that should come out of the box but never do :-) part 8888 Espanso and Keyboard Shortcuts (AutoHotKey on Windows, built-in app on macOS) for github issues, bugzilla links, etc etc :-) &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Heavily customized for my needs but easily customized to yours :-) :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:hamburger&lt;/code&gt; for Thunderbird app menu SUMO KB markup&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:warmgreet&lt;/code&gt; for a randomly picked greeting&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:warmclose&lt;/code&gt; for a randomly picked closing&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Command+Control+z&lt;/code&gt; for a Zendesk ticket link For this and the following links, if you also hold down shift i.e. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Shift+Command+Control+z&lt;/code&gt; it will do HTML links as well as markdown links&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Command+Control+y&lt;/code&gt; for a Notion link&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Command+Control+g&lt;/code&gt; for a Github issue link&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Command+Control+u&lt;/code&gt; for a Bugzilla bug link&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Command+Control+l&lt;/code&gt; for a link to a page where our cursor is focused like this in Markdown &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[title of current tab )[url of tab]&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 04 Nov 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/11/04/p0729-espanso-macros-keyboard-shortcuts-for-support-folks/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/11/04/p0729-espanso-macros-keyboard-shortcuts-for-support-folks/</guid>
+        
+        
+      </item>
     
       <item>
         <title>sumo-lint — check support.mozilla.org Knowledge Base markup, fix markup and save to a file. Also a KB markup LSP, Visual Code extension and vi er vim and emacs modes</title>
@@ -161,27 +185,6 @@
         <pubDate>Sun, 18 Oct 2026 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2026/10/18/p1348-covid-and-flu-fall-2026-booster/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/10/18/p1348-covid-and-flu-fall-2026-booster/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: tl;dr-ing you have to be able to notice the bugs whether you coded or an LLM coded it. And you have to be able to find a solution for these things you notice. I wonder if this will be different in September 2030, probably not :-) September 26, 2026 Dan Luu:: There's no point at which turning your brain off will work</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 18, 2026 20:43 (UTC) &lt;a href=&quot;https://danluu.com/brain-off/&quot;&gt;ME:: tl;dr-ing you have to be able to notice the bugs whether you coded or an LLM coded it. And you ave to be able to find a solution for these things you notice. I wonder if this will be different in September 2030, probably not :-) September 26, 2026 Dan Luu:: There’s no point at which turning your brain off will work&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Read the whole thing: &lt;a href=&quot;https://danluu.com/brain-off/&quot;&gt;September 26, 2026 Dan Luu:: There’s no point at which turning your brain off will work&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Anyway, my point here is that, even when doing coding tasks, you often run into out of distribution questions where the agent behaves very poorly compared to a reasonable human being. If you want a good overall result today, you need to notice these cases and deal with them.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Sun, 18 Oct 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/10/18/p1343-you-need-to-notice-bugs-cannot-turn-your-brain-off/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/10/18/p1343-you-need-to-notice-bugs-cannot-turn-your-brain-off/</guid>
         
         
       </item>

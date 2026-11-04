@@ -1,0 +1,15 @@
+I"»<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Nov 4, 2026 14:29 (UTC) <a href="https://github.com/thunderbird/espanso-config">Tools for support folks that should come out of the box but never do :-) part 8888 Espanso and Keyboard Shortcuts (AutoHotKey on Windows, built-in app on macOS) for github issues, bugzilla links, etc etc :-) </a></p>
+
+<p>Heavily customized for my needs but easily customized to yours :-) :</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">:hamburger</code> for Thunderbird app menu SUMO KB markup</li>
+  <li><code class="language-plaintext highlighter-rouge">:warmgreet</code> for a randomly picked greeting</li>
+  <li><code class="language-plaintext highlighter-rouge">:warmclose</code> for a randomly picked closing</li>
+  <li><code class="language-plaintext highlighter-rouge">Command+Control+z</code> for a Zendesk ticket link For this and the following links, if you also hold down shift i.e. <code class="language-plaintext highlighter-rouge">Shift+Command+Control+z</code> it will do HTML links as well as markdown links</li>
+  <li><code class="language-plaintext highlighter-rouge">Command+Control+y</code> for a Notion link</li>
+  <li><code class="language-plaintext highlighter-rouge">Command+Control+g</code> for a Github issue link</li>
+  <li><code class="language-plaintext highlighter-rouge">Command+Control+u</code> for a Bugzilla bug link</li>
+  <li><code class="language-plaintext highlighter-rouge">Command+Control+l</code> for a link to a page where our cursor is focused like this in Markdown <code class="language-plaintext highlighter-rouge">[title of current tab )[url of tab]</code></li>
+</ul>
+:ET
