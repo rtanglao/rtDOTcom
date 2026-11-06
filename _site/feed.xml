@@ -6,9 +6,45 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 04 Nov 2026 08:16:10 -0700</pubDate>
-    <lastBuildDate>Wed, 04 Nov 2026 08:16:10 -0700</lastBuildDate>
+    <pubDate>Fri, 06 Nov 2026 12:38:56 -0700</pubDate>
+    <lastBuildDate>Fri, 06 Nov 2026 12:38:56 -0700</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Now that have an sound file like an AIFF broken into small chunks then I can play random chunks based on GPS jitter just like 2010 :-) on my N900</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1&quot;&gt;Draft&lt;/a&gt; &lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;created&lt;/a&gt;: Nov 6, 2026 15:21 (UTC).
+    &lt;h4 id=&quot;previously&quot;&gt;Previously&lt;/h4&gt;
+    &lt;p&gt;tl;dr; a long history of procrastination :-)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;November 4, 2026: &lt;a href=&quot;https://rolandtanglao.com/2026/11/04/p2159-break-aiff-file/&quot;&gt;How to break up an AIFF file into 1 second chunks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;May 6, 2018: &lt;a href=&quot;https://rolandtanglao.com/2018/05/06/p1-pythonista-script-to-get-gps-coordinates-on-ios/&quot;&gt;Pythonista script to get GPS and text adapt to make music like my 2010 N900 gpsgamelan.py script?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;July 6, 2010 &lt;a href=&quot;https://rolandtanglao.com/2010/07/06/gpsgamelan-py-is-ok-but-i-want-real-music-use-12-major-keys-with-10-chords/&quot;&gt;gpsgamelan.py is ok, but i want real music - use 12 major keys with 10 chords&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 06 Nov 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/11/06/p0821-gps-music-sound-file-aiff-broken/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/11/06/p0821-gps-music-sound-file-aiff-broken/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>How to break up an AIFF file into 1 second chunks</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1&quot;&gt;Draft&lt;/a&gt; &lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;created&lt;/a&gt;: Nov 5, 2026 04:59 (UTC).
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ffmpeg &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; input.aif &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; segment &lt;span class=&quot;nt&quot;&gt;-segment_time&lt;/span&gt; 1 output_%03d.aif
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;or 0.25 for 1/4 second chunks etc etc :-)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 04 Nov 2026 00:00:00 -0700</pubDate>
+        <link>http://rolandtanglao.com/2026/11/04/p2159-break-aiff-file/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/11/04/p2159-break-aiff-file/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Tools for support folks that should come out of the box but never do :-) part 8888 Espanso and Keyboard Shortcuts (AutoHotKey on Windows, built-in app on macOS) for github issues, bugzilla links, etc etc :-) </title>
@@ -137,54 +173,6 @@
         <pubDate>Mon, 26 Oct 2026 00:00:00 -0700</pubDate>
         <link>http://rolandtanglao.com/2026/10/26/p0817-pampanga-cuisine-combo2-19-dollars-from-18/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/10/26/p0817-pampanga-cuisine-combo2-19-dollars-from-18/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Highly Recommended Filipino film, Liway, about Marcos's martial law horrors</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 25, 2026 21:58 (UTC) &lt;a href=&quot;https://en.wikipedia.org/wiki/Liway&quot;&gt;Highly Recommended Filipino film, Liway,  about Marcos’s martial law horrors&lt;/a&gt; &amp;lt;– You can legally obtain the film from google drive at: &lt;a href=&quot;https://drive.google.com/drive/folders/1jtwXdnjpfsZhfEEIkraDQ3lRi0QjVnQZ&quot;&gt;drive.google.com/drive/folders/1jtwXdnjpfsZhfEEIkraDQ3lRi0QjVnQZ&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Read the whole thing on Wikipedia:: &lt;a href=&quot;https://en.wikipedia.org/wiki/Liway&quot;&gt;Liway&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Liway is a 2018 Filipino independent film directed by Kip Oebanda from a screenplay he co-wrote with Zig Dulay. It about the experiences of Dakip, a young boy growing up in prison as the son of anti-Marcos dissident Cecilia Flores-Oebanda, better known as Commander Liway and referred to in the film by the vernacular endearment “Day”, during the waning days of the Marcos dictatorship. The film is based on true events, with Glaiza de Castro playing the film’s major lead&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;September 7, 2026: &lt;a href=&quot;https://rolandtanglao.com/2026/09/07/p2138-filipinana-2026-movie-highly-recommended/&quot;&gt;HIGHLY RECOMMENDED: Filipiñana, the full 2026 movie, is full arthouse at its most thought (or sleep) provoking and very gut wrenching simultaneously. What actually happened? Did the Doctor and all the Ilustrados get their just desserts :-) ?!?!? Probably not because corruption.&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 25 Oct 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/10/25/p1458-liway/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/10/25/p1458-liway/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Got my 9th COVID jab and my 2026 Flu booster on Tuesday October 13, 2026 at The Pharmacy on the Drive in Vancouver. Plenty of appointments for kids of all ages. Do it now if able! It's free!</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;BC Residents book it at the following link: &lt;a href=&quot;https://www.getvaccinated.gov.bc.ca/s/bookavaccine&quot;&gt;www.getvaccinated.gov.bc.ca/s/bookavaccine&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;May 8, 2026:: &lt;a href=&quot;https://rolandtanglao.com/2026/05/08/p2111-walked-pharmasave-1808-kingsway-walk-in-appointment-covid-vaccination-today/&quot;&gt;Walked to Pharmasave at 1808 Kingsway and got a walk-in appointment and my 8th COVID vaccination today&lt;/a&gt;”&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1&quot;&gt;Draft&lt;/a&gt; &lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;created&lt;/a&gt;: Oct 18, 2026 20:48 (UTC).&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sun, 18 Oct 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/10/18/p1348-covid-and-flu-fall-2026-booster/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/10/18/p1348-covid-and-flu-fall-2026-booster/</guid>
         
         
       </item>

@@ -1,0 +1,8 @@
+I"$<ul>
+  <li><a href="https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1">Draft</a> <a href="https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/">created</a>: Nov 5, 2026 04:59 (UTC).
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ffmpeg <span class="nt">-i</span> input.aif <span class="nt">-f</span> segment <span class="nt">-segment_time</span> 1 output_%03d.aif
+</code></pre></div>    </div>
+  </li>
+  <li>or 0.25 for 1/4 second chunks etc etc :-)</li>
+</ul>
+:ET
