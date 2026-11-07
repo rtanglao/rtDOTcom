@@ -1,0 +1,479 @@
+I"�<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Nov 7, 2026 15:41 (UTC) <a href="https://github.com/rtanglao/gps-music-pythonista/tree/main">gps-music.py play random  music based on GPS lat/lon</a> &lt;– A Python script for Pythonista 3 on iOS that reads the device’s GPS coordinates and randomly plays .aif / .aiff audio files every 2 seconds based on your physical location.</p>
+
+<ul>
+  <li>Just like July 6, 2010 <a href="https://rolandtanglao.com/2010/07/06/gpsgamelan-py-is-ok-but-i-want-real-music-use-12-major-keys-with-10-chords/">gpsgamelan.py is ok, but i want real music - use 12 major keys with 10 chords</a> but better :-)</li>
+  <li>has all the usual pythonista problems like if the app is backgrounded, it stops runnng. Maybe a Swift playground app next to work around this?</li>
+</ul>
+
+<h3 id="python-code-for-gps_musicpy">Python code for: gps_music.py</h3>
+
+<p>Because my blog will last longer than github :-) herewith the code for <a href="https://github.com/rtanglao/gps-music-pythonista/blob/main/gps_music.py">gps_music.py</a></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/env python3
+</span><span class="s">"""
+gps_music.py - Location-based ambient audio playback for Pythonista 3.
+
+Runs an event loop that, once every 2 seconds, fetches the device's GPS
+coordinates and randomly plays an .aif/.aiff audio file from a designated
+directory based on the current location.
+"""</span>
+
+<span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">annotations</span>
+
+<span class="kn">import</span> <span class="nn">argparse</span>
+<span class="kn">import</span> <span class="nn">collections</span>
+<span class="kn">import</span> <span class="nn">hashlib</span>
+<span class="kn">import</span> <span class="nn">math</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">random</span>
+<span class="kn">import</span> <span class="nn">shutil</span>
+<span class="kn">import</span> <span class="nn">subprocess</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">import</span> <span class="nn">time</span>
+<span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">List</span><span class="p">,</span> <span class="n">Optional</span><span class="p">,</span> <span class="n">Sequence</span><span class="p">,</span> <span class="n">Tuple</span>
+
+<span class="c1"># ==============================================================================
+# Default Configuration (can be edited directly or overridden via CLI arguments)
+# ==============================================================================
+</span><span class="n">DEFAULT_AUDIO_DIR</span> <span class="o">=</span> <span class="s">"sample_audio"</span>  <span class="c1"># Directory containing .aif / .aiff files
+</span><span class="n">DEFAULT_INTERVAL</span> <span class="o">=</span> <span class="mf">2.0</span>              <span class="c1"># Interval in seconds between plays
+</span><span class="n">DEFAULT_GRID_SIZE_METERS</span> <span class="o">=</span> <span class="mf">50.0</span>     <span class="c1"># Spatial grid cell size in meters (~50m)
+</span><span class="n">DEFAULT_PALETTE_SIZE</span> <span class="o">=</span> <span class="mi">4</span>            <span class="c1"># Number of audio files per spatial cell pool
+</span><span class="n">DEFAULT_VOLUME</span> <span class="o">=</span> <span class="mf">1.0</span>                <span class="c1"># Volume from 0.0 to 1.0
+</span><span class="n">AUDIO_EXTENSIONS</span> <span class="o">=</span> <span class="p">(</span><span class="s">".aif"</span><span class="p">,</span> <span class="s">".aiff"</span><span class="p">,</span> <span class="s">".AIF"</span><span class="p">,</span> <span class="s">".AIFF"</span><span class="p">)</span>
+
+<span class="c1"># ==============================================================================
+# Platform Detection &amp; Native Modules
+# ==============================================================================
+</span><span class="k">try</span><span class="p">:</span>
+    <span class="kn">import</span> <span class="nn">location</span>  <span class="c1"># Pythonista 3 built-in module
+</span>    <span class="n">HAS_PYTHONISTA_LOCATION</span> <span class="o">=</span> <span class="bp">True</span>
+<span class="k">except</span> <span class="nb">ImportError</span><span class="p">:</span>
+    <span class="n">location</span> <span class="o">=</span> <span class="bp">None</span>
+    <span class="n">HAS_PYTHONISTA_LOCATION</span> <span class="o">=</span> <span class="bp">False</span>
+
+<span class="k">try</span><span class="p">:</span>
+    <span class="kn">import</span> <span class="nn">sound</span>  <span class="c1"># Pythonista 3 built-in module
+</span>    <span class="n">HAS_PYTHONISTA_SOUND</span> <span class="o">=</span> <span class="bp">True</span>
+<span class="k">except</span> <span class="nb">ImportError</span><span class="p">:</span>
+    <span class="n">sound</span> <span class="o">=</span> <span class="bp">None</span>
+    <span class="n">HAS_PYTHONISTA_SOUND</span> <span class="o">=</span> <span class="bp">False</span>
+
+
+<span class="k">def</span> <span class="nf">find_audio_files</span><span class="p">(</span><span class="n">directory</span><span class="p">:</span> <span class="nb">str</span> <span class="err">¦</span> <span class="n">Path</span><span class="p">,</span> <span class="n">extensions</span><span class="p">:</span> <span class="n">Sequence</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="n">AUDIO_EXTENSIONS</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Path</span><span class="p">]:</span>
+    <span class="s">"""Scan directory recursively for files matching the given audio extensions."""</span>
+    <span class="n">base_path</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">directory</span><span class="p">).</span><span class="n">expanduser</span><span class="p">().</span><span class="n">resolve</span><span class="p">()</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">base_path</span><span class="p">.</span><span class="n">exists</span><span class="p">():</span>
+        <span class="k">raise</span> <span class="nb">FileNotFoundError</span><span class="p">(</span><span class="sa">f</span><span class="s">"Audio directory does not exist: </span><span class="si">{</span><span class="n">base_path</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">base_path</span><span class="p">.</span><span class="n">is_dir</span><span class="p">():</span>
+        <span class="k">raise</span> <span class="nb">NotADirectoryError</span><span class="p">(</span><span class="sa">f</span><span class="s">"Audio path is not a directory: </span><span class="si">{</span><span class="n">base_path</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+
+    <span class="n">ext_set</span> <span class="o">=</span> <span class="p">{</span><span class="n">ext</span><span class="p">.</span><span class="n">lower</span><span class="p">()</span> <span class="k">for</span> <span class="n">ext</span> <span class="ow">in</span> <span class="n">extensions</span><span class="p">}</span>
+    <span class="n">audio_files</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="n">path</span> <span class="k">for</span> <span class="n">path</span> <span class="ow">in</span> <span class="n">base_path</span><span class="p">.</span><span class="n">rglob</span><span class="p">(</span><span class="s">"*"</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">path</span><span class="p">.</span><span class="n">is_file</span><span class="p">()</span> <span class="ow">and</span> <span class="n">path</span><span class="p">.</span><span class="n">suffix</span><span class="p">.</span><span class="n">lower</span><span class="p">()</span> <span class="ow">in</span> <span class="n">ext_set</span>
+    <span class="p">]</span>
+    <span class="n">audio_files</span><span class="p">.</span><span class="n">sort</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">audio_files</span>
+
+
+<span class="k">def</span> <span class="nf">coord_to_grid</span><span class="p">(</span><span class="n">lat</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span> <span class="n">lon</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span> <span class="n">grid_size_meters</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="n">DEFAULT_GRID_SIZE_METERS</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="nb">int</span><span class="p">]:</span>
+    <span class="s">"""
+    Convert latitude and longitude coordinates into 2D integer grid cell coordinates.
+    
+    1 degree of latitude is ~111,139 meters.
+    1 degree of longitude is ~111,139 * cos(lat) meters.
+    """</span>
+    <span class="n">meters_per_deg_lat</span> <span class="o">=</span> <span class="mf">111139.0</span>
+    <span class="n">lat_step</span> <span class="o">=</span> <span class="n">grid_size_meters</span> <span class="o">/</span> <span class="n">meters_per_deg_lat</span>
+    
+    <span class="c1"># Avoid division by zero near poles
+</span>    <span class="n">cos_lat</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="mf">0.0001</span><span class="p">,</span> <span class="n">math</span><span class="p">.</span><span class="n">cos</span><span class="p">(</span><span class="n">math</span><span class="p">.</span><span class="n">radians</span><span class="p">(</span><span class="n">lat</span><span class="p">)))</span>
+    <span class="n">lon_step</span> <span class="o">=</span> <span class="n">grid_size_meters</span> <span class="o">/</span> <span class="p">(</span><span class="n">meters_per_deg_lat</span> <span class="o">*</span> <span class="n">cos_lat</span><span class="p">)</span>
+
+    <span class="n">grid_x</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">math</span><span class="p">.</span><span class="n">floor</span><span class="p">(</span><span class="n">lat</span> <span class="o">/</span> <span class="n">lat_step</span><span class="p">))</span>
+    <span class="n">grid_y</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">math</span><span class="p">.</span><span class="n">floor</span><span class="p">(</span><span class="n">lon</span> <span class="o">/</span> <span class="n">lon_step</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">grid_x</span><span class="p">,</span> <span class="n">grid_y</span>
+
+
+<span class="k">def</span> <span class="nf">get_cell_palette</span><span class="p">(</span>
+    <span class="n">audio_files</span><span class="p">:</span> <span class="n">Sequence</span><span class="p">[</span><span class="n">Path</span><span class="p">],</span>
+    <span class="n">cell</span><span class="p">:</span> <span class="n">Tuple</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="nb">int</span><span class="p">],</span>
+    <span class="n">palette_size</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="n">DEFAULT_PALETTE_SIZE</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Path</span><span class="p">]:</span>
+    <span class="s">"""
+    Deterministically select an active subset (palette) of audio files for a grid cell.
+    
+    When moving within the same grid cell, the active palette remains identical.
+    When moving to a different grid cell, the palette changes.
+    """</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">audio_files</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">[]</span>
+    <span class="k">if</span> <span class="n">palette_size</span> <span class="o">&lt;=</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">palette_size</span> <span class="o">&gt;=</span> <span class="nb">len</span><span class="p">(</span><span class="n">audio_files</span><span class="p">):</span>
+        <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="n">audio_files</span><span class="p">)</span>
+
+    <span class="n">cell_key</span> <span class="o">=</span> <span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">cell</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s">:</span><span class="si">{</span><span class="n">cell</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="si">}</span><span class="s">"</span><span class="p">.</span><span class="n">encode</span><span class="p">(</span><span class="s">"utf-8"</span><span class="p">)</span>
+    <span class="n">seed</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">hashlib</span><span class="p">.</span><span class="n">sha256</span><span class="p">(</span><span class="n">cell_key</span><span class="p">).</span><span class="n">hexdigest</span><span class="p">()[:</span><span class="mi">8</span><span class="p">],</span> <span class="mi">16</span><span class="p">)</span>
+    <span class="n">rng</span> <span class="o">=</span> <span class="n">random</span><span class="p">.</span><span class="n">Random</span><span class="p">(</span><span class="n">seed</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rng</span><span class="p">.</span><span class="n">sample</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">audio_files</span><span class="p">),</span> <span class="n">palette_size</span><span class="p">)</span>
+
+
+<span class="k">class</span> <span class="nc">BaseLocationProvider</span><span class="p">:</span>
+    <span class="s">"""Base interface for location providers."""</span>
+
+    <span class="k">def</span> <span class="nf">start</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="nb">NotImplementedError</span>
+
+    <span class="k">def</span> <span class="nf">get_location</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">float</span><span class="p">]]:</span>
+        <span class="k">raise</span> <span class="nb">NotImplementedError</span>
+
+    <span class="k">def</span> <span class="nf">stop</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="nb">NotImplementedError</span>
+
+
+<span class="k">class</span> <span class="nc">PythonistaLocationProvider</span><span class="p">(</span><span class="n">BaseLocationProvider</span><span class="p">):</span>
+    <span class="s">"""Wraps Pythonista's native location module."""</span>
+
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">_started</span> <span class="o">=</span> <span class="bp">False</span>
+
+    <span class="k">def</span> <span class="nf">start</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="p">.</span><span class="n">_started</span> <span class="ow">and</span> <span class="n">location</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+            <span class="n">location</span><span class="p">.</span><span class="n">start_updates</span><span class="p">()</span>
+            <span class="bp">self</span><span class="p">.</span><span class="n">_started</span> <span class="o">=</span> <span class="bp">True</span>
+
+    <span class="k">def</span> <span class="nf">get_location</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">float</span><span class="p">]]:</span>
+        <span class="k">if</span> <span class="n">location</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">location</span><span class="p">.</span><span class="n">get_location</span><span class="p">()</span>
+        <span class="k">return</span> <span class="bp">None</span>
+
+    <span class="k">def</span> <span class="nf">stop</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="p">.</span><span class="n">_started</span> <span class="ow">and</span> <span class="n">location</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="n">location</span><span class="p">.</span><span class="n">stop_updates</span><span class="p">()</span>
+            <span class="k">except</span> <span class="nb">Exception</span><span class="p">:</span>
+                <span class="k">pass</span>
+            <span class="bp">self</span><span class="p">.</span><span class="n">_started</span> <span class="o">=</span> <span class="bp">False</span>
+
+
+<span class="k">class</span> <span class="nc">SimulatedLocationProvider</span><span class="p">(</span><span class="n">BaseLocationProvider</span><span class="p">):</span>
+    <span class="s">"""
+    Simulates GPS coordinates with slight random walk drift.
+    Useful for off-device testing or simulator environments.
+    """</span>
+
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">start_lat</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="mf">37.7749</span><span class="p">,</span>
+        <span class="n">start_lon</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="o">-</span><span class="mf">122.4194</span><span class="p">,</span>
+        <span class="n">drift_meters_per_sec</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="mf">5.0</span><span class="p">,</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">lat</span> <span class="o">=</span> <span class="n">start_lat</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">lon</span> <span class="o">=</span> <span class="n">start_lon</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">drift_meters</span> <span class="o">=</span> <span class="n">drift_meters_per_sec</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">last_time</span> <span class="o">=</span> <span class="n">time</span><span class="p">.</span><span class="n">monotonic</span><span class="p">()</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">_started</span> <span class="o">=</span> <span class="bp">False</span>
+
+    <span class="k">def</span> <span class="nf">start</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">last_time</span> <span class="o">=</span> <span class="n">time</span><span class="p">.</span><span class="n">monotonic</span><span class="p">()</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">_started</span> <span class="o">=</span> <span class="bp">True</span>
+
+    <span class="k">def</span> <span class="nf">get_location</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">float</span><span class="p">]:</span>
+        <span class="n">now</span> <span class="o">=</span> <span class="n">time</span><span class="p">.</span><span class="n">monotonic</span><span class="p">()</span>
+        <span class="n">dt</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="mf">0.0</span><span class="p">,</span> <span class="n">now</span> <span class="o">-</span> <span class="bp">self</span><span class="p">.</span><span class="n">last_time</span><span class="p">)</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">last_time</span> <span class="o">=</span> <span class="n">now</span>
+
+        <span class="c1"># Drift coordinates by small random steps
+</span>        <span class="n">deg_lat_step</span> <span class="o">=</span> <span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">drift_meters</span> <span class="o">*</span> <span class="n">dt</span><span class="p">)</span> <span class="o">/</span> <span class="mf">111139.0</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">lat</span> <span class="o">+=</span> <span class="n">random</span><span class="p">.</span><span class="n">uniform</span><span class="p">(</span><span class="o">-</span><span class="n">deg_lat_step</span><span class="p">,</span> <span class="n">deg_lat_step</span><span class="p">)</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">lon</span> <span class="o">+=</span> <span class="n">random</span><span class="p">.</span><span class="n">uniform</span><span class="p">(</span><span class="o">-</span><span class="n">deg_lat_step</span><span class="p">,</span> <span class="n">deg_lat_step</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="p">{</span>
+            <span class="s">"latitude"</span><span class="p">:</span> <span class="bp">self</span><span class="p">.</span><span class="n">lat</span><span class="p">,</span>
+            <span class="s">"longitude"</span><span class="p">:</span> <span class="bp">self</span><span class="p">.</span><span class="n">lon</span><span class="p">,</span>
+            <span class="s">"altitude"</span><span class="p">:</span> <span class="mf">10.0</span><span class="p">,</span>
+            <span class="s">"horizontal_accuracy"</span><span class="p">:</span> <span class="mf">5.0</span><span class="p">,</span>
+            <span class="s">"speed"</span><span class="p">:</span> <span class="mf">1.4</span><span class="p">,</span>
+            <span class="s">"timestamp"</span><span class="p">:</span> <span class="n">time</span><span class="p">.</span><span class="n">time</span><span class="p">(),</span>
+        <span class="p">}</span>
+
+    <span class="k">def</span> <span class="nf">stop</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">_started</span> <span class="o">=</span> <span class="bp">False</span>
+
+
+<span class="k">class</span> <span class="nc">BaseAudioPlayer</span><span class="p">:</span>
+    <span class="s">"""Base interface for audio players."""</span>
+
+    <span class="k">def</span> <span class="nf">play</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">file_path</span><span class="p">:</span> <span class="n">Path</span><span class="p">,</span> <span class="n">volume</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="mf">1.0</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="nb">NotImplementedError</span>
+
+    <span class="k">def</span> <span class="nf">stop_all</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="k">pass</span>
+
+
+<span class="k">class</span> <span class="nc">PythonistaAudioPlayer</span><span class="p">(</span><span class="n">BaseAudioPlayer</span><span class="p">):</span>
+    <span class="s">"""Audio playback using Pythonista 3's built-in sound module."""</span>
+
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">max_concurrent</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">8</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="c1"># Keep references to active sound.Player instances so Pythonista's GC doesn't cut sound short
+</span>        <span class="bp">self</span><span class="p">.</span><span class="n">_players</span><span class="p">:</span> <span class="n">collections</span><span class="p">.</span><span class="n">deque</span> <span class="o">=</span> <span class="n">collections</span><span class="p">.</span><span class="n">deque</span><span class="p">(</span><span class="n">maxlen</span><span class="o">=</span><span class="n">max_concurrent</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">play</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">file_path</span><span class="p">:</span> <span class="n">Path</span><span class="p">,</span> <span class="n">volume</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="mf">1.0</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">sound</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+            <span class="k">return</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">player</span> <span class="o">=</span> <span class="n">sound</span><span class="p">.</span><span class="n">Player</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">file_path</span><span class="p">))</span>
+            <span class="n">player</span><span class="p">.</span><span class="n">volume</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="mf">0.0</span><span class="p">,</span> <span class="nb">min</span><span class="p">(</span><span class="mf">1.0</span><span class="p">,</span> <span class="n">volume</span><span class="p">))</span>
+            <span class="n">player</span><span class="p">.</span><span class="n">play</span><span class="p">()</span>
+            <span class="bp">self</span><span class="p">.</span><span class="n">_players</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">player</span><span class="p">)</span>
+        <span class="k">except</span> <span class="nb">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"[Player Error] Failed to play </span><span class="si">{</span><span class="n">file_path</span><span class="p">.</span><span class="n">name</span><span class="si">}</span><span class="s">: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s">"</span><span class="p">,</span> <span class="nb">file</span><span class="o">=</span><span class="n">sys</span><span class="p">.</span><span class="n">stderr</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">stop_all</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="k">while</span> <span class="bp">self</span><span class="p">.</span><span class="n">_players</span><span class="p">:</span>
+            <span class="n">player</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">_players</span><span class="p">.</span><span class="n">popleft</span><span class="p">()</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="n">player</span><span class="p">.</span><span class="n">stop</span><span class="p">()</span>
+            <span class="k">except</span> <span class="nb">Exception</span><span class="p">:</span>
+                <span class="k">pass</span>
+
+
+<span class="k">class</span> <span class="nc">DesktopAudioPlayer</span><span class="p">(</span><span class="n">BaseAudioPlayer</span><span class="p">):</span>
+    <span class="s">"""
+    Fallback audio player for macOS (afplay) or console mocking.
+    """</span>
+
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">max_concurrent</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">8</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">has_afplay</span> <span class="o">=</span> <span class="n">shutil</span><span class="p">.</span><span class="n">which</span><span class="p">(</span><span class="s">"afplay"</span><span class="p">)</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">_processes</span><span class="p">:</span> <span class="n">collections</span><span class="p">.</span><span class="n">deque</span> <span class="o">=</span> <span class="n">collections</span><span class="p">.</span><span class="n">deque</span><span class="p">(</span><span class="n">maxlen</span><span class="o">=</span><span class="n">max_concurrent</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">play</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">file_path</span><span class="p">:</span> <span class="n">Path</span><span class="p">,</span> <span class="n">volume</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="mf">1.0</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="p">.</span><span class="n">has_afplay</span><span class="p">:</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="c1"># Cleanup finished processes
+</span>                <span class="bp">self</span><span class="p">.</span><span class="n">_processes</span> <span class="o">=</span> <span class="n">collections</span><span class="p">.</span><span class="n">deque</span><span class="p">(</span>
+                    <span class="p">[</span><span class="n">p</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="bp">self</span><span class="p">.</span><span class="n">_processes</span> <span class="k">if</span> <span class="n">p</span><span class="p">.</span><span class="n">poll</span><span class="p">()</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">],</span>
+                    <span class="n">maxlen</span><span class="o">=</span><span class="bp">self</span><span class="p">.</span><span class="n">_processes</span><span class="p">.</span><span class="n">maxlen</span><span class="p">,</span>
+                <span class="p">)</span>
+                <span class="n">proc</span> <span class="o">=</span> <span class="n">subprocess</span><span class="p">.</span><span class="n">Popen</span><span class="p">(</span>
+                    <span class="p">[</span><span class="s">"afplay"</span><span class="p">,</span> <span class="s">"-v"</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">volume</span><span class="p">),</span> <span class="nb">str</span><span class="p">(</span><span class="n">file_path</span><span class="p">)],</span>
+                    <span class="n">stdout</span><span class="o">=</span><span class="n">subprocess</span><span class="p">.</span><span class="n">DEVNULL</span><span class="p">,</span>
+                    <span class="n">stderr</span><span class="o">=</span><span class="n">subprocess</span><span class="p">.</span><span class="n">DEVNULL</span><span class="p">,</span>
+                <span class="p">)</span>
+                <span class="bp">self</span><span class="p">.</span><span class="n">_processes</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">proc</span><span class="p">)</span>
+            <span class="k">except</span> <span class="nb">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+                <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"[Desktop Player Error] </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s">"</span><span class="p">,</span> <span class="nb">file</span><span class="o">=</span><span class="n">sys</span><span class="p">.</span><span class="n">stderr</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="c1"># Fallback if no audio tool installed
+</span>            <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"[Mock Audio] Play: </span><span class="si">{</span><span class="n">file_path</span><span class="p">.</span><span class="n">name</span><span class="si">}</span><span class="s"> (volume=</span><span class="si">{</span><span class="n">volume</span><span class="si">}</span><span class="s">)"</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">stop_all</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="k">while</span> <span class="bp">self</span><span class="p">.</span><span class="n">_processes</span><span class="p">:</span>
+            <span class="n">p</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">_processes</span><span class="p">.</span><span class="n">popleft</span><span class="p">()</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="n">p</span><span class="p">.</span><span class="n">terminate</span><span class="p">()</span>
+            <span class="k">except</span> <span class="nb">Exception</span><span class="p">:</span>
+                <span class="k">pass</span>
+
+
+<span class="k">class</span> <span class="nc">GPSMusicApp</span><span class="p">:</span>
+    <span class="s">"""Coordinates GPS tracking and periodic audio playback."""</span>
+
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">audio_dir</span><span class="p">:</span> <span class="nb">str</span> <span class="err">¦</span> <span class="n">Path</span> <span class="o">=</span> <span class="n">DEFAULT_AUDIO_DIR</span><span class="p">,</span>
+        <span class="n">interval</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="n">DEFAULT_INTERVAL</span><span class="p">,</span>
+        <span class="n">grid_size_meters</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="n">DEFAULT_GRID_SIZE_METERS</span><span class="p">,</span>
+        <span class="n">palette_size</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="n">DEFAULT_PALETTE_SIZE</span><span class="p">,</span>
+        <span class="n">volume</span><span class="p">:</span> <span class="nb">float</span> <span class="o">=</span> <span class="n">DEFAULT_VOLUME</span><span class="p">,</span>
+        <span class="n">location_provider</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">BaseLocationProvider</span><span class="p">]</span> <span class="o">=</span> <span class="bp">None</span><span class="p">,</span>
+        <span class="n">audio_player</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">BaseAudioPlayer</span><span class="p">]</span> <span class="o">=</span> <span class="bp">None</span><span class="p">,</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">audio_dir</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="n">audio_dir</span><span class="p">)</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">interval</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">interval</span><span class="p">)</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">grid_size_meters</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">grid_size_meters</span><span class="p">)</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">palette_size</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">palette_size</span><span class="p">)</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">volume</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">volume</span><span class="p">)</span>
+
+        <span class="bp">self</span><span class="p">.</span><span class="n">audio_files</span> <span class="o">=</span> <span class="n">find_audio_files</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">audio_dir</span><span class="p">)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="p">.</span><span class="n">audio_files</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="nb">RuntimeError</span><span class="p">(</span>
+                <span class="sa">f</span><span class="s">"No .aif / .aiff files found in </span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">audio_dir</span><span class="p">.</span><span class="n">resolve</span><span class="p">()</span><span class="si">}</span><span class="s">."</span>
+            <span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">location_provider</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+            <span class="bp">self</span><span class="p">.</span><span class="n">location_provider</span> <span class="o">=</span> <span class="n">location_provider</span>
+        <span class="k">elif</span> <span class="n">HAS_PYTHONISTA_LOCATION</span><span class="p">:</span>
+            <span class="bp">self</span><span class="p">.</span><span class="n">location_provider</span> <span class="o">=</span> <span class="n">PythonistaLocationProvider</span><span class="p">()</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="s">"[Info] Pythonista 'location' module not detected; using simulated GPS coordinates."</span><span class="p">)</span>
+            <span class="bp">self</span><span class="p">.</span><span class="n">location_provider</span> <span class="o">=</span> <span class="n">SimulatedLocationProvider</span><span class="p">()</span>
+
+        <span class="k">if</span> <span class="n">audio_player</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+            <span class="bp">self</span><span class="p">.</span><span class="n">audio_player</span> <span class="o">=</span> <span class="n">audio_player</span>
+        <span class="k">elif</span> <span class="n">HAS_PYTHONISTA_SOUND</span><span class="p">:</span>
+            <span class="bp">self</span><span class="p">.</span><span class="n">audio_player</span> <span class="o">=</span> <span class="n">PythonistaAudioPlayer</span><span class="p">()</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="p">.</span><span class="n">audio_player</span> <span class="o">=</span> <span class="n">DesktopAudioPlayer</span><span class="p">()</span>
+
+        <span class="bp">self</span><span class="p">.</span><span class="n">_current_cell</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Tuple</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="nb">int</span><span class="p">]]</span> <span class="o">=</span> <span class="bp">None</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">_current_palette</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Path</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">_running</span> <span class="o">=</span> <span class="bp">False</span>
+
+    <span class="k">def</span> <span class="nf">update_palette</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">lat</span><span class="p">:</span> <span class="nb">float</span><span class="p">,</span> <span class="n">lon</span><span class="p">:</span> <span class="nb">float</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span><span class="n">Tuple</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="nb">int</span><span class="p">],</span> <span class="n">List</span><span class="p">[</span><span class="n">Path</span><span class="p">]]:</span>
+        <span class="n">cell</span> <span class="o">=</span> <span class="n">coord_to_grid</span><span class="p">(</span><span class="n">lat</span><span class="p">,</span> <span class="n">lon</span><span class="p">,</span> <span class="bp">self</span><span class="p">.</span><span class="n">grid_size_meters</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">cell</span> <span class="o">!=</span> <span class="bp">self</span><span class="p">.</span><span class="n">_current_cell</span><span class="p">:</span>
+            <span class="bp">self</span><span class="p">.</span><span class="n">_current_cell</span> <span class="o">=</span> <span class="n">cell</span>
+            <span class="bp">self</span><span class="p">.</span><span class="n">_current_palette</span> <span class="o">=</span> <span class="n">get_cell_palette</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">audio_files</span><span class="p">,</span> <span class="n">cell</span><span class="p">,</span> <span class="bp">self</span><span class="p">.</span><span class="n">palette_size</span><span class="p">)</span>
+            <span class="k">print</span><span class="p">(</span>
+                <span class="sa">f</span><span class="s">"</span><span class="se">\n</span><span class="s">--- [Grid Transition] Cell </span><span class="si">{</span><span class="n">cell</span><span class="si">}</span><span class="s"> ---"</span>
+                <span class="sa">f</span><span class="s">"</span><span class="se">\n</span><span class="s">Active pool (</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">_current_palette</span><span class="p">)</span><span class="si">}</span><span class="s"> sounds): "</span>
+                <span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="p">[</span><span class="n">p</span><span class="p">.</span><span class="n">name</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="bp">self</span><span class="p">.</span><span class="n">_current_palette</span><span class="p">]</span><span class="si">}</span><span class="s">"</span>
+            <span class="p">)</span>
+        <span class="k">return</span> <span class="n">cell</span><span class="p">,</span> <span class="bp">self</span><span class="p">.</span><span class="n">_current_palette</span>
+
+    <span class="k">def</span> <span class="nf">tick</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Path</span><span class="p">]:</span>
+        <span class="s">"""Perform a single 2-second cycle: read GPS, pick audio, play audio."""</span>
+        <span class="n">loc</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">location_provider</span><span class="p">.</span><span class="n">get_location</span><span class="p">()</span>
+
+        <span class="k">if</span> <span class="n">loc</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="s">"[Waiting for GPS fix... playing fallback random sound]"</span><span class="p">)</span>
+            <span class="n">candidate_pool</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">audio_files</span>
+            <span class="n">current_cell_str</span> <span class="o">=</span> <span class="s">"Acquiring..."</span>
+            <span class="n">lat_str</span><span class="p">,</span> <span class="n">lon_str</span> <span class="o">=</span> <span class="s">"N/A"</span><span class="p">,</span> <span class="s">"N/A"</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">lat</span> <span class="o">=</span> <span class="n">loc</span><span class="p">[</span><span class="s">"latitude"</span><span class="p">]</span>
+            <span class="n">lon</span> <span class="o">=</span> <span class="n">loc</span><span class="p">[</span><span class="s">"longitude"</span><span class="p">]</span>
+            <span class="n">cell</span><span class="p">,</span> <span class="n">candidate_pool</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">update_palette</span><span class="p">(</span><span class="n">lat</span><span class="p">,</span> <span class="n">lon</span><span class="p">)</span>
+            <span class="n">current_cell_str</span> <span class="o">=</span> <span class="sa">f</span><span class="s">"(</span><span class="si">{</span><span class="n">cell</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s">, </span><span class="si">{</span><span class="n">cell</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="si">}</span><span class="s">)"</span>
+            <span class="n">accuracy</span> <span class="o">=</span> <span class="n">loc</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="s">"horizontal_accuracy"</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">)</span>
+            <span class="n">lat_str</span> <span class="o">=</span> <span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">lat</span><span class="p">:.</span><span class="mi">6</span><span class="n">f</span><span class="si">}</span><span class="s">"</span>
+            <span class="n">lon_str</span> <span class="o">=</span> <span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">lon</span><span class="p">:.</span><span class="mi">6</span><span class="n">f</span><span class="si">}</span><span class="s"> (±</span><span class="si">{</span><span class="n">accuracy</span><span class="p">:.</span><span class="mi">1</span><span class="n">f</span><span class="si">}</span><span class="s">m)"</span>
+
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">candidate_pool</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">None</span>
+
+        <span class="n">selected_file</span> <span class="o">=</span> <span class="n">random</span><span class="p">.</span><span class="n">choice</span><span class="p">(</span><span class="n">candidate_pool</span><span class="p">)</span>
+        <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"[GPS: </span><span class="si">{</span><span class="n">lat_str</span><span class="si">}</span><span class="s">, </span><span class="si">{</span><span class="n">lon_str</span><span class="si">}</span><span class="s">] Cell: </span><span class="si">{</span><span class="n">current_cell_str</span><span class="si">}</span><span class="s"> -&gt; Playing: </span><span class="si">{</span><span class="n">selected_file</span><span class="p">.</span><span class="n">name</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">audio_player</span><span class="p">.</span><span class="n">play</span><span class="p">(</span><span class="n">selected_file</span><span class="p">,</span> <span class="n">volume</span><span class="o">=</span><span class="bp">self</span><span class="p">.</span><span class="n">volume</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">selected_file</span>
+
+    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">max_ticks</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span> <span class="o">=</span> <span class="bp">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="s">"""Run the playback loop every `self.interval` seconds."""</span>
+        <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Starting GPS Music Player..."</span><span class="p">)</span>
+        <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Directory: </span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">audio_dir</span><span class="p">.</span><span class="n">resolve</span><span class="p">()</span><span class="si">}</span><span class="s"> (</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">audio_files</span><span class="p">)</span><span class="si">}</span><span class="s"> files)"</span><span class="p">)</span>
+        <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Interval: </span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">interval</span><span class="si">}</span><span class="s">s ¦ Grid Cell: </span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">grid_size_meters</span><span class="si">}</span><span class="s">m ¦ Palette Size: </span><span class="si">{</span><span class="bp">self</span><span class="p">.</span><span class="n">palette_size</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">"Press Ctrl+C or Stop to exit.</span><span class="se">\n</span><span class="s">"</span><span class="p">)</span>
+
+        <span class="bp">self</span><span class="p">.</span><span class="n">location_provider</span><span class="p">.</span><span class="n">start</span><span class="p">()</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">_running</span> <span class="o">=</span> <span class="bp">True</span>
+        <span class="n">tick_count</span> <span class="o">=</span> <span class="mi">0</span>
+
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">next_tick</span> <span class="o">=</span> <span class="n">time</span><span class="p">.</span><span class="n">monotonic</span><span class="p">()</span>
+            <span class="k">while</span> <span class="bp">self</span><span class="p">.</span><span class="n">_running</span><span class="p">:</span>
+                <span class="bp">self</span><span class="p">.</span><span class="n">tick</span><span class="p">()</span>
+                <span class="n">tick_count</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="k">if</span> <span class="n">max_ticks</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span> <span class="ow">and</span> <span class="n">tick_count</span> <span class="o">&gt;=</span> <span class="n">max_ticks</span><span class="p">:</span>
+                    <span class="k">break</span>
+
+                <span class="n">next_tick</span> <span class="o">+=</span> <span class="bp">self</span><span class="p">.</span><span class="n">interval</span>
+                <span class="n">sleep_duration</span> <span class="o">=</span> <span class="n">next_tick</span> <span class="o">-</span> <span class="n">time</span><span class="p">.</span><span class="n">monotonic</span><span class="p">()</span>
+                <span class="k">if</span> <span class="n">sleep_duration</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+                    <span class="n">time</span><span class="p">.</span><span class="n">sleep</span><span class="p">(</span><span class="n">sleep_duration</span><span class="p">)</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="c1"># System fell behind, reset baseline
+</span>                    <span class="n">next_tick</span> <span class="o">=</span> <span class="n">time</span><span class="p">.</span><span class="n">monotonic</span><span class="p">()</span>
+        <span class="k">except</span> <span class="nb">KeyboardInterrupt</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">Playback interrupted by user."</span><span class="p">)</span>
+        <span class="k">finally</span><span class="p">:</span>
+            <span class="bp">self</span><span class="p">.</span><span class="n">stop</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">stop</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="s">"""Cleanup location updates and audio players."""</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">_running</span> <span class="o">=</span> <span class="bp">False</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">"Stopping location updates and cleaning up audio..."</span><span class="p">)</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="bp">self</span><span class="p">.</span><span class="n">location_provider</span><span class="p">.</span><span class="n">stop</span><span class="p">()</span>
+        <span class="k">except</span> <span class="nb">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Error stopping location service: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s">"</span><span class="p">,</span> <span class="nb">file</span><span class="o">=</span><span class="n">sys</span><span class="p">.</span><span class="n">stderr</span><span class="p">)</span>
+
+        <span class="k">try</span><span class="p">:</span>
+            <span class="bp">self</span><span class="p">.</span><span class="n">audio_player</span><span class="p">.</span><span class="n">stop_all</span><span class="p">()</span>
+        <span class="k">except</span> <span class="nb">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Error stopping audio players: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s">"</span><span class="p">,</span> <span class="nb">file</span><span class="o">=</span><span class="n">sys</span><span class="p">.</span><span class="n">stderr</span><span class="p">)</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">"GPS Music Player exited cleanly."</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">parse_args</span><span class="p">(</span><span class="n">argv</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Sequence</span><span class="p">[</span><span class="nb">str</span><span class="p">]]</span> <span class="o">=</span> <span class="bp">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">argparse</span><span class="p">.</span><span class="n">Namespace</span><span class="p">:</span>
+    <span class="n">parser</span> <span class="o">=</span> <span class="n">argparse</span><span class="p">.</span><span class="n">ArgumentParser</span><span class="p">(</span>
+        <span class="n">description</span><span class="o">=</span><span class="s">"Pythonista 3 GPS-based ambient audio player."</span>
+    <span class="p">)</span>
+    <span class="n">parser</span><span class="p">.</span><span class="n">add_argument</span><span class="p">(</span>
+        <span class="s">"--dir"</span><span class="p">,</span>
+        <span class="s">"-d"</span><span class="p">,</span>
+        <span class="n">default</span><span class="o">=</span><span class="n">DEFAULT_AUDIO_DIR</span><span class="p">,</span>
+        <span class="n">help</span><span class="o">=</span><span class="sa">f</span><span class="s">"Directory containing .aif files (default: </span><span class="si">{</span><span class="n">DEFAULT_AUDIO_DIR</span><span class="si">}</span><span class="s">)"</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="n">parser</span><span class="p">.</span><span class="n">add_argument</span><span class="p">(</span>
+        <span class="s">"--interval"</span><span class="p">,</span>
+        <span class="s">"-i"</span><span class="p">,</span>
+        <span class="nb">type</span><span class="o">=</span><span class="nb">float</span><span class="p">,</span>
+        <span class="n">default</span><span class="o">=</span><span class="n">DEFAULT_INTERVAL</span><span class="p">,</span>
+        <span class="n">help</span><span class="o">=</span><span class="sa">f</span><span class="s">"Interval in seconds between sound plays (default: </span><span class="si">{</span><span class="n">DEFAULT_INTERVAL</span><span class="si">}</span><span class="s">)"</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="n">parser</span><span class="p">.</span><span class="n">add_argument</span><span class="p">(</span>
+        <span class="s">"--grid-size"</span><span class="p">,</span>
+        <span class="s">"-g"</span><span class="p">,</span>
+        <span class="nb">type</span><span class="o">=</span><span class="nb">float</span><span class="p">,</span>
+        <span class="n">default</span><span class="o">=</span><span class="n">DEFAULT_GRID_SIZE_METERS</span><span class="p">,</span>
+        <span class="n">help</span><span class="o">=</span><span class="sa">f</span><span class="s">"Grid size in meters per coordinate cell (default: </span><span class="si">{</span><span class="n">DEFAULT_GRID_SIZE_METERS</span><span class="si">}</span><span class="s">)"</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="n">parser</span><span class="p">.</span><span class="n">add_argument</span><span class="p">(</span>
+        <span class="s">"--palette-size"</span><span class="p">,</span>
+        <span class="s">"-p"</span><span class="p">,</span>
+        <span class="nb">type</span><span class="o">=</span><span class="nb">int</span><span class="p">,</span>
+        <span class="n">default</span><span class="o">=</span><span class="n">DEFAULT_PALETTE_SIZE</span><span class="p">,</span>
+        <span class="n">help</span><span class="o">=</span><span class="sa">f</span><span class="s">"Active audio palette size per cell (default: </span><span class="si">{</span><span class="n">DEFAULT_PALETTE_SIZE</span><span class="si">}</span><span class="s">)"</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="n">parser</span><span class="p">.</span><span class="n">add_argument</span><span class="p">(</span>
+        <span class="s">"--volume"</span><span class="p">,</span>
+        <span class="s">"-v"</span><span class="p">,</span>
+        <span class="nb">type</span><span class="o">=</span><span class="nb">float</span><span class="p">,</span>
+        <span class="n">default</span><span class="o">=</span><span class="n">DEFAULT_VOLUME</span><span class="p">,</span>
+        <span class="n">help</span><span class="o">=</span><span class="sa">f</span><span class="s">"Playback volume between 0.0 and 1.0 (default: </span><span class="si">{</span><span class="n">DEFAULT_VOLUME</span><span class="si">}</span><span class="s">)"</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="n">parser</span><span class="p">.</span><span class="n">add_argument</span><span class="p">(</span>
+        <span class="s">"--simulate-gps"</span><span class="p">,</span>
+        <span class="n">action</span><span class="o">=</span><span class="s">"store_true"</span><span class="p">,</span>
+        <span class="n">help</span><span class="o">=</span><span class="s">"Force simulated GPS movement even if native location is available"</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="n">parser</span><span class="p">.</span><span class="n">add_argument</span><span class="p">(</span>
+        <span class="s">"--max-ticks"</span><span class="p">,</span>
+        <span class="nb">type</span><span class="o">=</span><span class="nb">int</span><span class="p">,</span>
+        <span class="n">default</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span>
+        <span class="n">help</span><span class="o">=</span><span class="s">"Optional maximum number of iterations before automatic exit"</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="k">return</span> <span class="n">parser</span><span class="p">.</span><span class="n">parse_args</span><span class="p">(</span><span class="n">argv</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">parse_args</span><span class="p">()</span>
+    <span class="n">loc_provider</span> <span class="o">=</span> <span class="n">SimulatedLocationProvider</span><span class="p">()</span> <span class="k">if</span> <span class="n">args</span><span class="p">.</span><span class="n">simulate_gps</span> <span class="k">else</span> <span class="bp">None</span>
+
+    <span class="n">app</span> <span class="o">=</span> <span class="n">GPSMusicApp</span><span class="p">(</span>
+        <span class="n">audio_dir</span><span class="o">=</span><span class="n">args</span><span class="p">.</span><span class="nb">dir</span><span class="p">,</span>
+        <span class="n">interval</span><span class="o">=</span><span class="n">args</span><span class="p">.</span><span class="n">interval</span><span class="p">,</span>
+        <span class="n">grid_size_meters</span><span class="o">=</span><span class="n">args</span><span class="p">.</span><span class="n">grid_size</span><span class="p">,</span>
+        <span class="n">palette_size</span><span class="o">=</span><span class="n">args</span><span class="p">.</span><span class="n">palette_size</span><span class="p">,</span>
+        <span class="n">volume</span><span class="o">=</span><span class="n">args</span><span class="p">.</span><span class="n">volume</span><span class="p">,</span>
+        <span class="n">location_provider</span><span class="o">=</span><span class="n">loc_provider</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="n">app</span><span class="p">.</span><span class="n">run</span><span class="p">(</span><span class="n">max_ticks</span><span class="o">=</span><span class="n">args</span><span class="p">.</span><span class="n">max_ticks</span><span class="p">)</span>
+
+
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">"__main__"</span><span class="p">:</span>
+    <span class="n">main</span><span class="p">()</span>
+</code></pre></div></div>
+:ET
