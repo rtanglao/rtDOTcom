@@ -14,8 +14,7 @@ title: "Changed the gps python music script to use AVAudioPlayer so that it woul
 
 Because my blog will last longer than github :-) herewith the code for [gps_music.py](https://github.com/rtanglao/gps-music-pythonista/blob/main/gps_music.py)
 
-```
-python
+```python
 #!/usr/bin/env python3
 """
 gps_music.py - Location-based ambient audio playback for Pythonista 3.
