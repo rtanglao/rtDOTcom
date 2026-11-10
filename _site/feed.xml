@@ -6,9 +6,35 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 08 Nov 2026 09:17:27 -0700</pubDate>
-    <lastBuildDate>Sun, 08 Nov 2026 09:17:27 -0700</lastBuildDate>
+    <pubDate>Tue, 10 Nov 2026 07:11:18 -0800</pubDate>
+    <lastBuildDate>Tue, 10 Nov 2026 07:11:18 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>What if I miss you for the rest of my life? (Live at The Cozy Cove) - Janine Berdin - I love all versions of this song</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 10, 2026 14:27 (UTC) &lt;a href=&quot;https://www.youtube.com/watch?v=p70LFKdt4w4&quot;&gt;What if I miss you for the rest of my life? (Live at The Cozy Cove)::Janine Berdin - I love all versions of this song&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 10 Nov 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/11/10/p0727-janine-berdin-what-if-i-miss-you-for-the-rest-of-my-life/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/11/10/p0727-janine-berdin-what-if-i-miss-you-for-the-rest-of-my-life/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Sinigang fried chicken and pancit miki at Haliná were awesome last night #HighlyRecommended</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1&quot;&gt;Draft&lt;/a&gt; &lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;created&lt;/a&gt;: Nov 9, 2026 15:35 (UTC).&lt;/li&gt;
+  &lt;li&gt;That is all. Go eat at &lt;a href=&quot;https://www.halinarestaurant.com/&quot;&gt;Haliná&lt;/a&gt; :-)&lt;/li&gt;
+  &lt;li&gt;I want to try all the pasta dishes and the bulalo next!&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 09 Nov 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/11/09/p0835-sinigang-fried-chicken-pancit-miki-halina-awesome/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/11/09/p0835-sinigang-fried-chicken-pancit-miki-halina-awesome/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Changed the gps python music script to use AVAudioPlayer so that it would play sound through the iPhone's built-in speakers instead of only working over Bluetooth </title>
@@ -603,7 +629,7 @@ directory based on the current location.
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
-        <pubDate>Sun, 08 Nov 2026 00:00:00 -0700</pubDate>
+        <pubDate>Sun, 08 Nov 2026 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2026/11/08/p0805-avaudioplayer-instead-of-pythonista3-old-ios-audio-framework/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/11/08/p0805-avaudioplayer-instead-of-pythonista3-old-ios-audio-framework/</guid>
         
@@ -1091,7 +1117,7 @@ directory based on the current location.
     &lt;span class=&quot;n&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
-        <pubDate>Sat, 07 Nov 2026 00:00:00 -0700</pubDate>
+        <pubDate>Sat, 07 Nov 2026 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2026/11/07/p0841-gps-music-pythonista-play-random-music-files-lat-lon/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/11/07/p0841-gps-music-pythonista-play-random-music-files-lat-lon/</guid>
         
@@ -1113,7 +1139,7 @@ directory based on the current location.
   &lt;li&gt;July 6, 2010 &lt;a href=&quot;https://rolandtanglao.com/2010/07/06/gpsgamelan-py-is-ok-but-i-want-real-music-use-12-major-keys-with-10-chords/&quot;&gt;gpsgamelan.py is ok, but i want real music - use 12 major keys with 10 chords&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Fri, 06 Nov 2026 00:00:00 -0700</pubDate>
+        <pubDate>Fri, 06 Nov 2026 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2026/11/06/p0821-gps-music-sound-file-aiff-broken/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/11/06/p0821-gps-music-sound-file-aiff-broken/</guid>
         
@@ -1130,7 +1156,7 @@ directory based on the current location.
   &lt;li&gt;or 0.25 for 1/4 second chunks etc etc :-)&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Wed, 04 Nov 2026 00:00:00 -0700</pubDate>
+        <pubDate>Wed, 04 Nov 2026 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2026/11/04/p2159-break-aiff-file/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/11/04/p2159-break-aiff-file/</guid>
         
@@ -1154,7 +1180,7 @@ directory based on the current location.
   &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Command+Control+l&lt;/code&gt; for a link to a page where our cursor is focused like this in Markdown &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[title of current tab )[url of tab]&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Wed, 04 Nov 2026 00:00:00 -0700</pubDate>
+        <pubDate>Wed, 04 Nov 2026 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2026/11/04/p0729-espanso-macros-keyboard-shortcuts-for-support-folks/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/11/04/p0729-espanso-macros-keyboard-shortcuts-for-support-folks/</guid>
         
@@ -1169,7 +1195,7 @@ directory based on the current location.
   &lt;li&gt;I haven’t tested vim and emacs much :-) #HelpWanted  :-) Keeping them in case MS breaks Visual Code or does something silly with it. Plus I have been using vi since 1985 and emacs since 1989 so lots of sentimental value in them for this silly grumpy old person :-)&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Tue, 03 Nov 2026 00:00:00 -0700</pubDate>
+        <pubDate>Tue, 03 Nov 2026 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2026/11/03/p0807-sumo-linter/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/11/03/p0807-sumo-linter/</guid>
         
@@ -1180,7 +1206,7 @@ directory based on the current location.
         <title>Clara Benin - Evidence/Oo (Cover) (Live at The Coffee Bean &amp;amp; Tea Lead 26th St. Bistro) #OPM #HighlyRecommended -YouTube</title>
         <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 2, 2026 15:50 (UTC) &lt;a href=&quot;https://www.youtube.com/watch?v=gE438rAPEUQ&amp;amp;list=RDgE438rAPEUQ&amp;amp;start_radio=1&quot;&gt;Clara Benin - Evidence/Oo (Cover) (Live at The Coffee Bean &amp;amp; Tea Lead 26th St. Bistro) #OPM #HighlyRecommended -YouTube&lt;/a&gt; &amp;lt;– March 27, 2015 so good! Highly recommended!&lt;/p&gt;
 </description>
-        <pubDate>Mon, 02 Nov 2026 00:00:00 -0700</pubDate>
+        <pubDate>Mon, 02 Nov 2026 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2026/11/02/p0850-clara-benin-evidence-oo-cover-from-2015/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/11/02/p0850-clara-benin-evidence-oo-cover-from-2015/</guid>
         
@@ -1191,54 +1217,9 @@ directory based on the current location.
         <title>version-everywhere: new EXPERIMENTAL Thunderbird add-on that displays the channel (Release, Beta, Daily, ESR) version number and at the top right near the hamburger menu </title>
         <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 2, 2026 14:57 (UTC) &lt;a href=&quot;https://github.com/thunderbird/version-everywhere&quot;&gt;version-everywhere: new EXPERIMENTAL Thunderbird add-on that displays the channel (Release, Beta, Daily, ESR) version number and at the top right near the hamburger menu &lt;/a&gt; &amp;lt;– feature requests via github issues and pull requests welcome (maybe a setting to move it to a different place so it doesn’t show up in screenshots?!?)&lt;/p&gt;
 </description>
-        <pubDate>Mon, 02 Nov 2026 00:00:00 -0700</pubDate>
+        <pubDate>Mon, 02 Nov 2026 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2026/11/02/p0757-thunderbird-add-on-version-everywhere/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/11/02/p0757-thunderbird-add-on-version-everywhere/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Obsessed with this song and this version is 11 minutes! yes!  12 years ago! Up Dharma Down - 'Turn It Well' Live! - YouTube</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 31, 2026 03:11 (UTC) &lt;a href=&quot;https://www.youtube.com/watch?v=RBxtKyQjbGU&quot;&gt;Obsessed with this song and this version is 11 minutes! yes!  12 years ago! Up Dharma Down - “Turn It Well” Live! - YouTube&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/UDD_%28band%29&quot;&gt;UDD (band) - Wikipedia&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=W0sUW0BM-2g&quot;&gt;Up Dharma Down - Turn It Well (Official Video) - YouTube&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 30 Oct 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/10/30/p2011-updharma-down-udd-turn-it-well-2012-ghighly-recommended/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/10/30/p2011-updharma-down-udd-turn-it-well-2012-ghighly-recommended/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Highly recommended: cardamon bun and pourover at Café Olive in Quebec City discovered in The Sprudge Guide To Coffee In Quebec City, Aug 2025 </title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Oct 30, 2026 14:40 (UTC) &lt;a href=&quot;https://sprudge.com/the-sprudge-guide-to-coffee-in-quebec-city-313473.html&quot;&gt;Highly recommended: cardamon bun and pourover at Café Olive in Quebec City discovered in The Sprudge Guide To Coffee In Quebec City, Aug 2025 &lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Should have went back and had an espresso and another 3 buns :-) !&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Read the whole thing for other great recommendations:&lt;a href=&quot;https://sprudge.com/the-sprudge-guide-to-coffee-in-quebec-city-313473.html&quot;&gt;Highly recommended: cardamon bun and pourover at Café Olive in Quebec City discovered in The Sprudge Guide To Coffee In Quebec City, Aug 2025 &lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Many customers rave about their cardamom buns that pair well with a flat white but, much like their coffee program, their food focus is very minimalist. You can also ask for a V60 made to order, and for those seeking a non-coffee option, their citrus iced matcha is a popular choice. Owner Sami Boudaya and the team are always super friendly and accommodating, always with a smile. This is a real gem.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Café Olive is located at &lt;a href=&quot;https://www.google.com/maps/place/caf%C3%A9+Olive/@46.8026616,-71.2275825,516m/data=!3m2!1e3!4b1!4m6!3m5!1s0x4cb8973a6d5a0bd9:0xf9a5f3c38ab60d36!8m2!3d46.8026616!4d-71.2250022!16s%2Fg%2F11fvt01zln?entry=ttu&amp;amp;g_ep=EgoyMDI1MDQwNi4wIKXMDSoASAFQAw%3D%3D&quot;&gt;1190-A Av. Cartier, Québec&lt;/a&gt;. Follow them on &lt;a href=&quot;https://www.instagram.com/cafeolivequebec/?hl=en&quot;&gt;Instagram&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Fri, 30 Oct 2026 00:00:00 -0700</pubDate>
-        <link>http://rolandtanglao.com/2026/10/30/p0740-cafe-olive-highly-recommended-cardamon-buns-sprudge-guide-coffee-quebec-city-313473/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/10/30/p0740-cafe-olive-highly-recommended-cardamon-buns-sprudge-guide-coffee-quebec-city-313473/</guid>
         
         
       </item>
