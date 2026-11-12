@@ -1,0 +1,32 @@
+I"+	<p><a href="http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/">Discovered</a>: Nov 12, 2026 04:10 (UTC) <a href="https://smolfedi.pollux.casa/">Adële’s blog:: Small, simple with no CSS tricks ‘dumb’ graphical mastodon client Home Timeline - SmolFedi/smolfedi.pollux.casa</a></p>
+
+<ul>
+  <li><a href="https://adele.pages.casa/md/blog/the-fediverse-deserves-a-dumb-graphical-client.md">The Fediverse deserves a dumb graphical client ¦ Adële’s blog</a></li>
+</ul>
+
+<h2 id="quote">QUOTE:</h2>
+
+<blockquote>
+  <p>What I wanted was something in between: a client that runs in a plain browser, handles images properly, but does not require a JavaScript engine to display a list of posts. The API returns JSON; a server-side script can turn that JSON into HTML just fine. We have been doing that for 25 years.</p>
+</blockquote>
+
+<blockquote>
+  <p>So I built <strong><a href="https://codeberg.org/adele/smolfedi">SmolFedi</a></strong>.</p>
+</blockquote>
+
+<blockquote>
+  <p>It is a PHP application. No npm, no Composer, no build step. It uses a SQLite database and basic PHP sessions. Every page is generated server-side and sent as plain HTML. It supports multiple accounts, timelines, notifications, polls, media attachments with alt text, content warnings, compose, reply, boost, favourite, everything I actually use day to day. CSS stays within <a href="https://smolweb.org/css-grading.html">smolweb Grade B</a>. There is not a single line of JavaScript in the codebase.</p>
+</blockquote>
+
+<blockquote>
+  <p>It works with Mastodon, GoToSocial and certainly other compatible Fediverse platforms. It works in Firefox, in Chromium, in Safari, in any browser that can render HTML and display a JPEG such as Dillo or Netsurf.</p>
+</blockquote>
+
+<blockquote>
+  <p>I am not claiming this is the right client for everyone. If you want a smooth single-page experience with live updates and animations, SmolFedi is not that. But if you want to browse the Fediverse on a modest device, a slow connection, or simply a setup where you would rather not run megabytes of JavaScript fetched from the web, SmolFedi is for you.</p>
+</blockquote>
+
+<blockquote>
+  <p>The source is on <a href="https://codeberg.org/adele/smolfedi">Codeberg</a> and a demo instance on <a href="https://smolfedi.pollux.casa">Pollux</a></p>
+</blockquote>
+:ET

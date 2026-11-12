@@ -6,9 +6,103 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 10 Nov 2026 07:11:18 -0800</pubDate>
-    <lastBuildDate>Tue, 10 Nov 2026 07:11:18 -0800</lastBuildDate>
+    <pubDate>Thu, 12 Nov 2026 07:59:47 -0800</pubDate>
+    <lastBuildDate>Thu, 12 Nov 2026 07:59:47 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>ME:: It's hilarious that  asking LLMs to do TDD resulted in worse tests than just letting it write tests; Dan Luu:: Test and verification technique effectiveness with Astra</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 12, 2026 15:31 (UTC) &lt;a href=&quot;https://danluu.com/astra-testing/&quot;&gt;ME:: It’s hilarious that  asking LLMs to do TDD resulted in worse tests than just letting it write tests; Dan Luu:: Test and verification technique effectiveness with Astra&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read the whole thing (Dan needs a tl;dr or something :-) ): &lt;a href=&quot;https://danluu.com/astra-testing/&quot;&gt;Dan Luu:: Test and verification technique effectiveness with Astra&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;When we looked at how well agents used test/verification techniques in August1, we saw that GPT-5.6 Sol generally did what you might call a caricature of various techniques when asked to use a technique or library such as TDD, QuickCheck, Lean 4, etc.; not specifying any particular test method (which we’ll call Default) resulted in many worthless unit tests, which was one of the best performing conditions because asking agents to test in specific ways mostly made them worse. In that eval, we gave agents the Zstd RFC and asked them to implement Zstd (with an addendum for how they should test for all conditions other than Default).&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Thu, 12 Nov 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/11/12/p0831-tdd-worse-than-not-spcifying-tdd-astra-testing/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/11/12/p0831-tdd-worse-than-not-spcifying-tdd-astra-testing/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Sue Smith:: Make a website, no setup required, the spirit of glitch lives or something :-) </title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 12, 2026 15:13 (UTC) &lt;a href=&quot;https://didye.github.io/&quot;&gt;Sue Smith:: Make a website, no setup required, the spirit of glitch lives or something :-) &lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 12 Nov 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/11/12/p0813-sue-smith-make-small-website-like-glitch-no-programming-environment-required/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/11/12/p0813-sue-smith-make-small-website-like-glitch-no-programming-environment-required/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>any password longer than 256 characters is accepted for root on alpine, openwrt, buildroot, yocto, etc Since 2016!!! *sshole · sshhole.com</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 12, 2026 14:52 (UTC) &lt;a href=&quot;https://sshhole.com/&quot;&gt;any password longer than 256 characters is accepted for root on alpine, openwrt, buildroot, yocto, etc Since 2016!!! *sshole · sshhole.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;so openssh on musl linux (alpine, openwrt, buildroot, yocto, and a lot of the docker images you’ve pulled) has had a little problem since 2016.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;accounts that should never take a password at all (root, your key-only deploy user, ldap users, the default user on alpine’s aws and azure images) take any password longer than 256 characters.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Thu, 12 Nov 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/11/12/p0752-sshhole-com/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/11/12/p0752-sshhole-com/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Adële's blog:: Small, simple with no CSS tricks 'dumb' graphical mastodon client Home Timeline - SmolFedi/smolfedi.pollux.casa</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 12, 2026 04:10 (UTC) &lt;a href=&quot;https://smolfedi.pollux.casa/&quot;&gt;Adële’s blog:: Small, simple with no CSS tricks ‘dumb’ graphical mastodon client Home Timeline - SmolFedi/smolfedi.pollux.casa&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://adele.pages.casa/md/blog/the-fediverse-deserves-a-dumb-graphical-client.md&quot;&gt;The Fediverse deserves a dumb graphical client ¦ Adële’s blog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;What I wanted was something in between: a client that runs in a plain browser, handles images properly, but does not require a JavaScript engine to display a list of posts. The API returns JSON; a server-side script can turn that JSON into HTML just fine. We have been doing that for 25 years.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;So I built &lt;strong&gt;&lt;a href=&quot;https://codeberg.org/adele/smolfedi&quot;&gt;SmolFedi&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It is a PHP application. No npm, no Composer, no build step. It uses a SQLite database and basic PHP sessions. Every page is generated server-side and sent as plain HTML. It supports multiple accounts, timelines, notifications, polls, media attachments with alt text, content warnings, compose, reply, boost, favourite, everything I actually use day to day. CSS stays within &lt;a href=&quot;https://smolweb.org/css-grading.html&quot;&gt;smolweb Grade B&lt;/a&gt;. There is not a single line of JavaScript in the codebase.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It works with Mastodon, GoToSocial and certainly other compatible Fediverse platforms. It works in Firefox, in Chromium, in Safari, in any browser that can render HTML and display a JPEG such as Dillo or Netsurf.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I am not claiming this is the right client for everyone. If you want a smooth single-page experience with live updates and animations, SmolFedi is not that. But if you want to browse the Fediverse on a modest device, a slow connection, or simply a setup where you would rather not run megabytes of JavaScript fetched from the web, SmolFedi is for you.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The source is on &lt;a href=&quot;https://codeberg.org/adele/smolfedi&quot;&gt;Codeberg&lt;/a&gt; and a demo instance on &lt;a href=&quot;https://smolfedi.pollux.casa&quot;&gt;Pollux&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Wed, 11 Nov 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/11/11/p2110-small-fediverse-client-no-css-tricks-smolfedi-pollux-casa/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/11/11/p2110-small-fediverse-client-no-css-tricks-smolfedi-pollux-casa/</guid>
+        
+        
+      </item>
     
       <item>
         <title>What if I miss you for the rest of my life? (Live at The Cozy Cove) - Janine Berdin - I love all versions of this song</title>
@@ -1159,67 +1253,6 @@ directory based on the current location.
         <pubDate>Wed, 04 Nov 2026 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2026/11/04/p2159-break-aiff-file/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/11/04/p2159-break-aiff-file/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Tools for support folks that should come out of the box but never do :-) part 8888 Espanso and Keyboard Shortcuts (AutoHotKey on Windows, built-in app on macOS) for github issues, bugzilla links, etc etc :-) </title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 4, 2026 14:29 (UTC) &lt;a href=&quot;https://github.com/thunderbird/espanso-config&quot;&gt;Tools for support folks that should come out of the box but never do :-) part 8888 Espanso and Keyboard Shortcuts (AutoHotKey on Windows, built-in app on macOS) for github issues, bugzilla links, etc etc :-) &lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Heavily customized for my needs but easily customized to yours :-) :&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:hamburger&lt;/code&gt; for Thunderbird app menu SUMO KB markup&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:warmgreet&lt;/code&gt; for a randomly picked greeting&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:warmclose&lt;/code&gt; for a randomly picked closing&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Command+Control+z&lt;/code&gt; for a Zendesk ticket link For this and the following links, if you also hold down shift i.e. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Shift+Command+Control+z&lt;/code&gt; it will do HTML links as well as markdown links&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Command+Control+y&lt;/code&gt; for a Notion link&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Command+Control+g&lt;/code&gt; for a Github issue link&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Command+Control+u&lt;/code&gt; for a Bugzilla bug link&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Command+Control+l&lt;/code&gt; for a link to a page where our cursor is focused like this in Markdown &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[title of current tab )[url of tab]&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 04 Nov 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/11/04/p0729-espanso-macros-keyboard-shortcuts-for-support-folks/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/11/04/p0729-espanso-macros-keyboard-shortcuts-for-support-folks/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>sumo-lint — check support.mozilla.org Knowledge Base markup, fix markup and save to a file. Also a KB markup LSP, Visual Code extension and vi er vim and emacs modes</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 3, 2026 15:07 (UTC) &lt;a href=&quot;https://thunderbird.github.io/sumo-linter/&quot;&gt;sumo-lint — check support.mozilla.org Knowledge Base markup, fix markup and save to a file. Also a KB markup LSP, Visual Code extension and vi er vim and emacs modes&lt;/a&gt; &amp;lt;– Another SUMO tool that I “wrote”. SUMO markup is a variant of wikitet aka mediawiki syntax aka the markup used for wikipedia and wiki.mozilla.org&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;I haven’t tested vim and emacs much :-) #HelpWanted  :-) Keeping them in case MS breaks Visual Code or does something silly with it. Plus I have been using vi since 1985 and emacs since 1989 so lots of sentimental value in them for this silly grumpy old person :-)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 03 Nov 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/11/03/p0807-sumo-linter/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/11/03/p0807-sumo-linter/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Clara Benin - Evidence/Oo (Cover) (Live at The Coffee Bean &amp;amp; Tea Lead 26th St. Bistro) #OPM #HighlyRecommended -YouTube</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 2, 2026 15:50 (UTC) &lt;a href=&quot;https://www.youtube.com/watch?v=gE438rAPEUQ&amp;amp;list=RDgE438rAPEUQ&amp;amp;start_radio=1&quot;&gt;Clara Benin - Evidence/Oo (Cover) (Live at The Coffee Bean &amp;amp; Tea Lead 26th St. Bistro) #OPM #HighlyRecommended -YouTube&lt;/a&gt; &amp;lt;– March 27, 2015 so good! Highly recommended!&lt;/p&gt;
-</description>
-        <pubDate>Mon, 02 Nov 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/11/02/p0850-clara-benin-evidence-oo-cover-from-2015/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/11/02/p0850-clara-benin-evidence-oo-cover-from-2015/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>version-everywhere: new EXPERIMENTAL Thunderbird add-on that displays the channel (Release, Beta, Daily, ESR) version number and at the top right near the hamburger menu </title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 2, 2026 14:57 (UTC) &lt;a href=&quot;https://github.com/thunderbird/version-everywhere&quot;&gt;version-everywhere: new EXPERIMENTAL Thunderbird add-on that displays the channel (Release, Beta, Daily, ESR) version number and at the top right near the hamburger menu &lt;/a&gt; &amp;lt;– feature requests via github issues and pull requests welcome (maybe a setting to move it to a different place so it doesn’t show up in screenshots?!?)&lt;/p&gt;
-</description>
-        <pubDate>Mon, 02 Nov 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/11/02/p0757-thunderbird-add-on-version-everywhere/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/11/02/p0757-thunderbird-add-on-version-everywhere/</guid>
         
         
       </item>
