@@ -6,9 +6,41 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 12 Nov 2026 07:59:47 -0800</pubDate>
-    <lastBuildDate>Thu, 12 Nov 2026 07:59:47 -0800</lastBuildDate>
+    <pubDate>Fri, 13 Nov 2026 15:15:20 -0800</pubDate>
+    <lastBuildDate>Fri, 13 Nov 2026 15:15:20 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>I guess they finally paid Gary :-) LOL k3ym𖺀: 'INT. REDMOND, BUILDING 34. 3:4…' - Infosec Exchange</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 13, 2026 23:09 (UTC) &lt;a href=&quot;https://infosec.exchange/@k3ym0/117607080678996785&quot;&gt;I guess they finally paid Gary :-) LOL k3ym𖺀: “INT. REDMOND, BUILDING 34. 3:4…” - Infosec Exchange&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;EVP: …Is there anyone left who understands how any of this works?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;DAVE: Gary.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;EVP: Who’s Gary?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;DAVE: Contractor. 61 years old. He wrote the original Exchange routing logic in 2003 and he’s the only one who knows why there’s a sleep(7) in the auth handshake. We let him go in January, but HR forgot to disable his VPN&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;previously&quot;&gt;Previously&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;July 30, 2024: &lt;a href=&quot;https://rolandtanglao.com/2024/07/30/p0652-what-i-learned-from-the-microsoft-global-it-outage-d6138c06ebdb/&quot;&gt;What I learned from the ‘Microsoft global IT outage’ ¦ by Kevin Beaumont ¦ Jul, 2024 ¦ DoublePulsar&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 13 Nov 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/11/13/p1609-microsoft-364-outage-they-finally-paid-gary-lol/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/11/13/p1609-microsoft-364-outage-they-finally-paid-gary-lol/</guid>
+        
+        
+      </item>
     
       <item>
         <title>ME:: It's hilarious that  asking LLMs to do TDD resulted in worse tests than just letting it write tests; Dan Luu:: Test and verification technique effectiveness with Astra</title>
@@ -1236,23 +1268,6 @@ directory based on the current location.
         <pubDate>Fri, 06 Nov 2026 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2026/11/06/p0821-gps-music-sound-file-aiff-broken/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/11/06/p0821-gps-music-sound-file-aiff-broken/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>How to break up an AIFF file into 1 second chunks</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1&quot;&gt;Draft&lt;/a&gt; &lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;created&lt;/a&gt;: Nov 5, 2026 04:59 (UTC).
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ffmpeg &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; input.aif &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; segment &lt;span class=&quot;nt&quot;&gt;-segment_time&lt;/span&gt; 1 output_%03d.aif
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;or 0.25 for 1/4 second chunks etc etc :-)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 04 Nov 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/11/04/p2159-break-aiff-file/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/11/04/p2159-break-aiff-file/</guid>
         
         
       </item>
