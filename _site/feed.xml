@@ -6,9 +6,49 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 16 Nov 2026 07:44:42 -0800</pubDate>
-    <lastBuildDate>Mon, 16 Nov 2026 07:44:42 -0800</lastBuildDate>
+    <pubDate>Tue, 17 Nov 2026 07:35:33 -0800</pubDate>
+    <lastBuildDate>Tue, 17 Nov 2026 07:35:33 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Thunderbird-support related shortcuts ported to Ubuntu 26 LTS Wayland (to do: Bugzilla and Notion shortcuts); espanso-config/LINUX.md at main · thunderbird/espanso-config</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 17, 2026 14:49 (UTC) &lt;a href=&quot;https://github.com/thunderbird/espanso-config/blob/main/LINUX.md&quot;&gt;Thunderbird-support related shortcuts ported to Ubuntu 26 LTS Wayland (to do: Bugzilla and Notion shortcuts); espanso-config/LINUX.md at main · thunderbird/espanso-config&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The normal AutoKey without Wayland should work on non-Wayland-Linux too.&lt;/li&gt;
+  &lt;li&gt;Non Support people probably would love the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Control+Super G &lt;/code&gt;for github issue inks and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Control+Super L&lt;/code&gt; for linking to the current page in your web browser&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;November 16, 2026: &lt;a href=&quot;https://rolandtanglao.com/2026/11/16/p0834-autohotkey-wayland/&quot;&gt;Hopefully I can port my Thunderbird-support-specific keyboard shortcuts to linux from Windows and macOS with AutoKey for Wayland ; Installing AutoKey for Wayland — AutoKey for Wayland 0.97.6 documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;November 4, 2026: &lt;a href=&quot;https://rolandtanglao.com/2026/11/04/p0729-espanso-macros-keyboard-shortcuts-for-support-folks/&quot;&gt;Tools for support folks that should come out of the box but never do :-) part 8888 Espanso and Keyboard Shortcuts (AutoHotKey on Windows, built-in app on macOS) for github issues, bugzilla links, etc etc :-)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 17 Nov 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/11/17/p0749-thunderbird-support-keyboard-shortucts-autokey-wayland-ported-linux/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/11/17/p0749-thunderbird-support-keyboard-shortucts-autokey-wayland-ported-linux/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>I fixed my round spring clamp for my Samsung WW25B6900AX washer using a paper clip instead of a fancy tool and  3 YouTube videos</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1&quot;&gt;Draft&lt;/a&gt; &lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;created&lt;/a&gt;: Nov 17, 2026 14:32 (UTC).&lt;/li&gt;
+  &lt;li&gt;I wish I had the fancy tool though! Which is:&lt;a href=&quot;https://www.amazon.ca/383eer4004A-Expansion-Construction-AH3569695-EA3569695/dp/B085VGD78J?ie=UTF8&amp;amp;th=1&quot;&gt;Swess 383EER4001A Washer Spring Expansion Tool Compatible with LG &amp;amp; Samsung ¦ Inner Outer Tub Removal Tool, Solid Metal, Replaces 1268355 AH3569695 EA3569695 PS3569695, for 4986ER0004F/B/G Boot Clamps : Amazon.ca: Home&lt;/a&gt; &amp;lt;– I don’t like Amazon, I’ll see if I can find it at Home Hardware.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=AURnQz7XtQQ&quot;&gt;How to Remove and Install Washer Gasket Outer Spring Clamp - YouTube&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=ijCGOkYBCFw&quot;&gt;(1) 💰Save That Money! With This Washer Spring Expansion Removal Tool! DIY 😎 - YouTube&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=YBXCVIucPoY&quot;&gt;How to replace door seal rubber gasket on a Samsung washing machine drum - YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 17 Nov 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/11/17/p0732-fixed-spring-clamp-samsung-washer-ww25b6900ax/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/11/17/p0732-fixed-spring-clamp-samsung-washer-ww25b6900ax/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Hopefully I can port my Thunderbird-support-specific keyboard shortcuts to linux from Windows and macOS with AutoKey for Wayland ; Installing AutoKey for Wayland — AutoKey for Wayland 0.97.6 documentation</title>
@@ -193,32 +233,6 @@
         <pubDate>Wed, 11 Nov 2026 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2026/11/11/p2110-small-fediverse-client-no-css-tricks-smolfedi-pollux-casa/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/11/11/p2110-small-fediverse-client-no-css-tricks-smolfedi-pollux-casa/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>What if I miss you for the rest of my life? (Live at The Cozy Cove) - Janine Berdin - I love all versions of this song</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 10, 2026 14:27 (UTC) &lt;a href=&quot;https://www.youtube.com/watch?v=p70LFKdt4w4&quot;&gt;What if I miss you for the rest of my life? (Live at The Cozy Cove)::Janine Berdin - I love all versions of this song&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 10 Nov 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/11/10/p0727-janine-berdin-what-if-i-miss-you-for-the-rest-of-my-life/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/11/10/p0727-janine-berdin-what-if-i-miss-you-for-the-rest-of-my-life/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Sinigang fried chicken and pancit miki at Haliná were awesome last night #HighlyRecommended</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1&quot;&gt;Draft&lt;/a&gt; &lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;created&lt;/a&gt;: Nov 9, 2026 15:35 (UTC).&lt;/li&gt;
-  &lt;li&gt;That is all. Go eat at &lt;a href=&quot;https://www.halinarestaurant.com/&quot;&gt;Haliná&lt;/a&gt; :-)&lt;/li&gt;
-  &lt;li&gt;I want to try all the pasta dishes and the bulalo next!&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 09 Nov 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/11/09/p0835-sinigang-fried-chicken-pancit-miki-halina-awesome/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/11/09/p0835-sinigang-fried-chicken-pancit-miki-halina-awesome/</guid>
         
         
       </item>
