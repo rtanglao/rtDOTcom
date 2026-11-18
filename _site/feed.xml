@@ -6,9 +6,25 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 17 Nov 2026 07:35:33 -0800</pubDate>
-    <lastBuildDate>Tue, 17 Nov 2026 07:35:33 -0800</lastBuildDate>
+    <pubDate>Wed, 18 Nov 2026 09:15:35 -0800</pubDate>
+    <lastBuildDate>Wed, 18 Nov 2026 09:15:35 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Avoid the mess at Broadway and Victoria when bicycling east bound on Grandview. After passing Commercial drive, turn left from Grandview onto East 8th Avenue (if you go straight you will end up in the 'messy' Broadway/Victoria intersection).</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1&quot;&gt;Draft&lt;/a&gt; &lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;created&lt;/a&gt;: Nov 18, 2026 14:50 (UTC).&lt;/li&gt;
+  &lt;li&gt;For those on Strava: &lt;a href=&quot;https://www.strava.com/activities/21028593863&quot;&gt;Afternoon Ride ¦ Ride ¦ Strava&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;See the following screenshot from Strava on flickr:
+&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/roland/55660655443/&quot; title=&quot;turn left onto East 8th. The first left after crossing Commercial Drive. This avoids the Broadway / Victoria noisy and dangerous mess :-)  - img-2026-11-18-09-56-53&quot;&gt;&lt;img src=&quot;https://live.staticflickr.com/65535/55660655443_6171635eea_c.jpg&quot; width=&quot;800&quot; height=&quot;241&quot; alt=&quot;turn left onto East 8th. The first left after crossing Commercial Drive. This avoids the Broadway / Victoria noisy and dangerous mess :-)  - img-2026-11-18-09-56-53&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 18 Nov 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/11/18/p0750-avoid-mess-broadway-victoria-bicycling-east/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/11/18/p0750-avoid-mess-broadway-victoria-bicycling-east/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Thunderbird-support related shortcuts ported to Ubuntu 26 LTS Wayland (to do: Bugzilla and Notion shortcuts); espanso-config/LINUX.md at main · thunderbird/espanso-config</title>
@@ -192,47 +208,6 @@
         <pubDate>Thu, 12 Nov 2026 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2026/11/12/p0752-sshhole-com/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/11/12/p0752-sshhole-com/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Adële's blog:: Small, simple with no CSS tricks 'dumb' graphical mastodon client Home Timeline - SmolFedi/smolfedi.pollux.casa</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 12, 2026 04:10 (UTC) &lt;a href=&quot;https://smolfedi.pollux.casa/&quot;&gt;Adële’s blog:: Small, simple with no CSS tricks ‘dumb’ graphical mastodon client Home Timeline - SmolFedi/smolfedi.pollux.casa&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://adele.pages.casa/md/blog/the-fediverse-deserves-a-dumb-graphical-client.md&quot;&gt;The Fediverse deserves a dumb graphical client ¦ Adële’s blog&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE:&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;What I wanted was something in between: a client that runs in a plain browser, handles images properly, but does not require a JavaScript engine to display a list of posts. The API returns JSON; a server-side script can turn that JSON into HTML just fine. We have been doing that for 25 years.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;So I built &lt;strong&gt;&lt;a href=&quot;https://codeberg.org/adele/smolfedi&quot;&gt;SmolFedi&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It is a PHP application. No npm, no Composer, no build step. It uses a SQLite database and basic PHP sessions. Every page is generated server-side and sent as plain HTML. It supports multiple accounts, timelines, notifications, polls, media attachments with alt text, content warnings, compose, reply, boost, favourite, everything I actually use day to day. CSS stays within &lt;a href=&quot;https://smolweb.org/css-grading.html&quot;&gt;smolweb Grade B&lt;/a&gt;. There is not a single line of JavaScript in the codebase.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It works with Mastodon, GoToSocial and certainly other compatible Fediverse platforms. It works in Firefox, in Chromium, in Safari, in any browser that can render HTML and display a JPEG such as Dillo or Netsurf.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I am not claiming this is the right client for everyone. If you want a smooth single-page experience with live updates and animations, SmolFedi is not that. But if you want to browse the Fediverse on a modest device, a slow connection, or simply a setup where you would rather not run megabytes of JavaScript fetched from the web, SmolFedi is for you.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The source is on &lt;a href=&quot;https://codeberg.org/adele/smolfedi&quot;&gt;Codeberg&lt;/a&gt; and a demo instance on &lt;a href=&quot;https://smolfedi.pollux.casa&quot;&gt;Pollux&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Wed, 11 Nov 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/11/11/p2110-small-fediverse-client-no-css-tricks-smolfedi-pollux-casa/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/11/11/p2110-small-fediverse-client-no-css-tricks-smolfedi-pollux-casa/</guid>
         
         
       </item>

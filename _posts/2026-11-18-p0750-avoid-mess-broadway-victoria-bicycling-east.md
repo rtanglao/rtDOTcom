@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Avoid the mess at Broadway and Victoria when bicycling east bound on Grandview. Hang a left from Grandview onto East 8th Avenue (if you go straight you will end up in the "messy" Broadway/Victoria intersection."
+title: "Avoid the mess at Broadway and Victoria when bicycling east bound on Grandview. After passing Commercial drive, turn left from Grandview onto East 8th Avenue (if you go straight you will end up in the 'messy' Broadway/Victoria intersection)."
 ---
 * [Draft](https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1) [created](https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/): Nov 18, 2026 14:50 (UTC).
 - For those on Strava: [Afternoon Ride ¦ Ride ¦ Strava](https://www.strava.com/activities/21028593863)
