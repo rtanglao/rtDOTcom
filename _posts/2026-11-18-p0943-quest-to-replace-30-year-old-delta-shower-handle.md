@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Quixotic :-) Quest to fix our 30 year old broken Delta shower handle with a diamond 'broach': Delta RP17451 Clear Knob Handle Kit for Tub and Shower, Faucet Handles"
+title: "Quixotic :-) quest to fix our 30 year old broken Delta shower handle with a diamond 'broach': Delta RP17451 Clear Knob Handle Kit for Tub and Shower, Faucet Handles"
 ---
 [Discovered](http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/): Nov 18, 2026 16:43 (UTC) [Quixotic :-) Quest to fix our broken shower handle: Delta RP17451 Clear Knob Handle Kit for Tub and Shower, Faucet Handles - Amazon Canada](https://www.amazon.ca/FAUCET-RP17451-Single-Handle-Finishes/dp/B00084VK0C?source=ps-sl-shoppingads-lpcontext&psc=1&smid=A3DWYIK6Y9EEQB) <-- `Perfect replacement for a 20-30 year old broken shower knob with diamond shaped ball valve stem. Couldn’t find at home depot`
 
