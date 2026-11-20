@@ -6,9 +6,27 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 19 Nov 2026 10:16:06 -0800</pubDate>
-    <lastBuildDate>Thu, 19 Nov 2026 10:16:06 -0800</lastBuildDate>
+    <pubDate>Fri, 20 Nov 2026 05:48:55 -0800</pubDate>
+    <lastBuildDate>Fri, 20 Nov 2026 05:48:55 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Quixotic Quest Part 3: I ordered a Houseen brand clone of the Delta handle from Amazon because I didn't want to wait 2 weeks and it appears to have a diamond-shaped broach aka stem</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1&quot;&gt;Draft&lt;/a&gt; &lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;created&lt;/a&gt;: Nov 20, 2026 13:29 (UTC).&lt;/li&gt;
+  &lt;li&gt;Here’s what I ordered because it arrives today November 20 and it appears (not 100% certain) to have diamond-shaped ‘broach’ aka stem and I can get it today: &lt;a href=&quot;https://www.amazon.ca/dp/B0DWF5ZW2Y?ref=ppx_yo2ov_dt_b_fed_asin_title&quot;&gt;Faucet Handles Replacement Compatible with Delta Faucet RP2391, Single Clear Knob Handle Kit with Offset Hole for Shower/Tub, 2-1/2” H x 2-1/8” W, Shower Faucet Knob Replacement, Clear Acrylic Finish, Faucet Handles - Amazon Canada&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;seems like Rona has what I want but I’d have to wait almost a week (November 25): &lt;a href=&quot;https://www.rona.ca/en/product/delta-knob-handle-kit-for-bathtub-and-shower-clear-rp17451-330725074?viewStore=82413&quot;&gt;DELTA Knob Handle Kit for bathtub and Shower - Clear RP17451 ¦ RONA&lt;/a&gt;
+    &lt;h2 id=&quot;previously&quot;&gt;Previously&lt;/h2&gt;
+  &lt;/li&gt;
+  &lt;li&gt;November 19, 2026: &lt;a href=&quot;https://rolandtanglao.com/2026/11/19/p1052-plumbshop-delta-handle-kit-canadian-tire-didnt-work-because-round-not-hexagonal-broach/&quot;&gt;Quixotic Quest Part 2 The PlumbShop Delta Handle Kit from Canadian Tire didn’t work well (you have to move it with force with very subtle movements) because it has a round hole which doesn’t connect snuggly with our shower’s diamond shaped broach. It works but it’s a kludge. And it 100% doesn’t work if you try it with the hexagonal adapter because physically the circular connector won’t fit over the hexagonal adapter. It’s too small.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 20 Nov 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/11/20/p0629-quixotic-quest-ordered-houseen-brand-clone/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/11/20/p0629-quixotic-quest-ordered-houseen-brand-clone/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Quixotic Quest Part 2 The PlumbShop Delta Handle Kit from Canadian Tire didn't work well (you have to move it with force with very subtle movements) because it has a round hole which doesn't connect snuggly with our shower's diamond shaped broach. It works but it's a kludge. And it 100% doesn't work if you try it with the hexagonal adapter because physically the circular connector won't fit over the hexagonal adapter. It's too small.</title>
@@ -190,27 +208,6 @@
         <pubDate>Fri, 13 Nov 2026 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2026/11/13/p1609-microsoft-364-outage-they-finally-paid-gary-lol/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/11/13/p1609-microsoft-364-outage-they-finally-paid-gary-lol/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>ME:: It's hilarious that  asking LLMs to do TDD resulted in worse tests than just letting it write tests; Dan Luu:: Test and verification technique effectiveness with Astra</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 12, 2026 15:31 (UTC) &lt;a href=&quot;https://danluu.com/astra-testing/&quot;&gt;ME:: It’s hilarious that  asking LLMs to do TDD resulted in worse tests than just letting it write tests; Dan Luu:: Test and verification technique effectiveness with Astra&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;quote&quot;&gt;QUOTE&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Read the whole thing (Dan needs a tl;dr or something :-) ): &lt;a href=&quot;https://danluu.com/astra-testing/&quot;&gt;Dan Luu:: Test and verification technique effectiveness with Astra&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;When we looked at how well agents used test/verification techniques in August1, we saw that GPT-5.6 Sol generally did what you might call a caricature of various techniques when asked to use a technique or library such as TDD, QuickCheck, Lean 4, etc.; not specifying any particular test method (which we’ll call Default) resulted in many worthless unit tests, which was one of the best performing conditions because asking agents to test in specific ways mostly made them worse. In that eval, we gave agents the Zstd RFC and asked them to implement Zstd (with an addendum for how they should test for all conditions other than Default).&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Thu, 12 Nov 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/11/12/p0831-tdd-worse-than-not-spcifying-tdd-astra-testing/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/11/12/p0831-tdd-worse-than-not-spcifying-tdd-astra-testing/</guid>
         
         
       </item>
