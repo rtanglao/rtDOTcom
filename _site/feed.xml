@@ -6,9 +6,136 @@
 </description>
     <link>http://rolandtanglao.com/</link>
     <atom:link href="http://rolandtanglao.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 22 Nov 2026 06:47:09 -0800</pubDate>
-    <lastBuildDate>Sun, 22 Nov 2026 06:47:09 -0800</lastBuildDate>
+    <pubDate>Mon, 23 Nov 2026 14:44:10 -0800</pubDate>
+    <lastBuildDate>Mon, 23 Nov 2026 14:44:10 -0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Support tools I have 'written' in 2026</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://checkvist.com/p/MVg7Me1Z01Rz7KOTRFjBf1&quot;&gt;Draft&lt;/a&gt; &lt;a href=&quot;https://rolandtanglao.com/2025/11/14/p0908-without-link-blogthis-linkless_blog_all_open/&quot;&gt;created&lt;/a&gt;: Nov 23, 2026 22:15 (UTC).
+This post lists the tools that I have &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;written&lt;/code&gt; in the &lt;a href=&quot;https://github.com/thunderbird&quot;&gt;thunderbird&lt;/a&gt; GitHub organization. Production is Y for tools that are ready for production use. The add-ons are not signed yet, so the links go to the unsigned add-on and to instructions for it. I have removed the private tools.
+The list was made on 2026-11-21 with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tools_post.py&lt;/code&gt; (&lt;a href=&quot;https://github.com/thunderbird/thunderbird-support-blog-backups/tree/main/tools-post&quot;&gt;private repo link&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name:&lt;/th&gt;
+      &lt;th&gt;Production&lt;/th&gt;
+      &lt;th&gt;Comment&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thundermail DNS tool: &lt;a href=&quot;https://thunderbird.github.io/dns-scripts/&quot;&gt;web app&lt;/a&gt;, &lt;a href=&quot;https://github.com/thunderbird/dns-scripts/blob/main/verify_thundermail_dns.py&quot;&gt;command line script &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;verify_thundermail_dns.py&lt;/code&gt;&lt;/a&gt;, &lt;a href=&quot;https://github.com/thunderbird/dns-scripts#readme&quot;&gt;docs&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Y&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SUMO Forum API scraper: &lt;a href=&quot;https://github.com/thunderbird/aaq-scraper&quot;&gt;repo and docs&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;Y&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SUMO Linter: &lt;a href=&quot;https://thunderbird.github.io/sumo-linter/&quot;&gt;web app&lt;/a&gt;, &lt;a href=&quot;https://github.com/thunderbird/sumo-linter&quot;&gt;repo and docs&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thunderbird Desktop automated screenshot tool (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tb_shot.py&lt;/code&gt; tour in sumo-linter): &lt;a href=&quot;https://github.com/thunderbird/sumo-linter&quot;&gt;repo&lt;/a&gt;, &lt;a href=&quot;https://github.com/thunderbird/sumo-linter/issues/55&quot;&gt;issue #55&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SUMO Knowledge Base tools (draft, edit and publish articles with Google Docs): &lt;a href=&quot;https://github.com/thunderbird/support-tools&quot;&gt;repo and docs&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SUMO Knowledge Base revision scripts (save a user’s KB revisions in SQLite, report approved and changed articles): &lt;a href=&quot;https://github.com/thunderbird/knowledgebase-issues/blob/main/kb_revisions.py&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kb_revisions.py&lt;/code&gt;&lt;/a&gt;, &lt;a href=&quot;https://github.com/thunderbird/knowledgebase-issues/blob/main/kb_approved_report.py&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kb_approved_report.py&lt;/code&gt;&lt;/a&gt;, &lt;a href=&quot;https://github.com/thunderbird/knowledgebase-issues/blob/main/kb_changed_report.py&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kb_changed_report.py&lt;/code&gt;&lt;/a&gt;, &lt;a href=&quot;https://lite.datasette.io/?sql=https://raw.githubusercontent.com/thunderbird/knowledgebase-issues/main/kb_revisions.sql&quot;&gt;browse the data in Datasette Lite&lt;/a&gt;, &lt;a href=&quot;https://github.com/thunderbird/knowledgebase-issues#readme&quot;&gt;docs&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SUMO Forum data GitHub Actions: &lt;a href=&quot;https://github.com/thunderbird/github-action-thunderbird-aaq&quot;&gt;Thunderbird Desktop questions&lt;/a&gt;, &lt;a href=&quot;https://github.com/thunderbird/github-action-tbandroid-aaq&quot;&gt;Thunderbird for Android questions&lt;/a&gt;, &lt;a href=&quot;https://github.com/thunderbird/github-action-thunderbird-kb&quot;&gt;Knowledge Base articles&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Regular expression SUMO Forum spike detector: &lt;a href=&quot;https://github.com/thunderbird/thunderbird-metrics-and-reports/tree/main/PROJECT1&quot;&gt;Project 1 spike reports&lt;/a&gt;, &lt;a href=&quot;https://github.com/thunderbird/rt-tb-regular-expression-scanner&quot;&gt;first experiment&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;LLM monthly reports that use the spike detector: &lt;a href=&quot;https://github.com/thunderbird/thunderbird-metrics-and-reports/tree/main/LLM_INSIGHTS&quot;&gt;LLM insights&lt;/a&gt;, &lt;a href=&quot;https://thunderbird.github.io/thunderbird-metrics-and-reports/&quot;&gt;reports site&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SUMO assignment tool (Claim and Release for unanswered questions): &lt;a href=&quot;https://thunderbird.github.io/thunderbird-metrics-and-reports/UNANSWERED_QUESTIONS/&quot;&gt;unanswered questions report&lt;/a&gt;, &lt;a href=&quot;https://github.com/thunderbird/thunderbird-metrics-and-reports/tree/main/UNANSWERED_QUESTIONS&quot;&gt;assignment data&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thunderbird for Android metrics and reports: &lt;a href=&quot;https://github.com/thunderbird/thunderbird-android-metrics-and-reports&quot;&gt;repo&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SUMO Forum R scripts: &lt;a href=&quot;https://github.com/thunderbird/thunderbird-rt-r-scripts&quot;&gt;repo&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Machine learning experiments with SUMO Forum data: &lt;a href=&quot;https://github.com/thunderbird/rt-support-ml-experiments&quot;&gt;repo&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Doc Detective experiments for Appointment documentation: &lt;a href=&quot;https://github.com/thunderbird/rt-appointment-docdetective&quot;&gt;repo&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thunderbird add-on that shows the Thunderbird version (version-everywhere): &lt;a href=&quot;https://github.com/thunderbird/version-everywhere/releases/latest&quot;&gt;unsigned add-on&lt;/a&gt; (Thunderbird 140 or newer), &lt;a href=&quot;https://github.com/thunderbird/version-everywhere#install&quot;&gt;how to install the unsigned add-on&lt;/a&gt;, &lt;a href=&quot;https://github.com/thunderbird/version-everywhere&quot;&gt;repo and docs&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Firefox add-on to list and add Thundermail calendars: &lt;a href=&quot;https://github.com/thunderbird/desktop-support-tools/releases/latest&quot;&gt;unsigned add-on&lt;/a&gt; (Firefox ESR 140.15 or newer), &lt;a href=&quot;https://github.com/thunderbird/desktop-support-tools#the-firefox-add-on&quot;&gt;how to use the unsigned add-on&lt;/a&gt;, &lt;a href=&quot;https://github.com/thunderbird/desktop-support-tools/tree/main/firefox-addon&quot;&gt;add-on source&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Desktop Support Tools (Troubleshooting Information parser, settings checker, CalDAV scripts): &lt;a href=&quot;https://thunderbird.github.io/desktop-support-tools/&quot;&gt;web app&lt;/a&gt;, &lt;a href=&quot;https://github.com/thunderbird/desktop-support-tools&quot;&gt;repo and docs&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;MZLA Support daily handoff: &lt;a href=&quot;https://mzla-support-handoff.quick.mozilla.cloud/&quot;&gt;web app&lt;/a&gt; (Mozilla SSO), &lt;a href=&quot;https://github.com/thunderbird/mzla-support-handoff&quot;&gt;repo&lt;/a&gt; (private)&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Matrix notifications from web pages and GitHub Actions: &lt;a href=&quot;https://github.com/thunderbird/matrix-notify&quot;&gt;repo and docs&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Keyboard shortcuts and macros (links to Notion, Bugzilla, Zendesk and web pages, and random warm greetings and closes for Zendesk): &lt;a href=&quot;https://github.com/thunderbird/espanso-config&quot;&gt;repo and docs&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;N&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Mon, 23 Nov 2026 00:00:00 -0800</pubDate>
+        <link>http://rolandtanglao.com/2026/11/23/p1515-support-tools-written-2026/</link>
+        <guid isPermaLink="true">http://rolandtanglao.com/2026/11/23/p1515-support-tools-written-2026/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Quixotic Quest Part 4: The Houseen brand clone of the Delta worked! Will probably still order the Delta one from Rona because now I don't mind waiting and I we have a second shower with the same handle</title>
@@ -191,21 +318,6 @@
         <pubDate>Tue, 17 Nov 2026 00:00:00 -0800</pubDate>
         <link>http://rolandtanglao.com/2026/11/17/p0732-fixed-spring-clamp-samsung-washer-ww25b6900ax/</link>
         <guid isPermaLink="true">http://rolandtanglao.com/2026/11/17/p0732-fixed-spring-clamp-samsung-washer-ww25b6900ax/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Hopefully I can port my Thunderbird-support-specific keyboard shortcuts to linux from Windows and macOS with AutoKey for Wayland ; Installing AutoKey for Wayland — AutoKey for Wayland 0.97.6 documentation</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://rolandtanglao.com/2020/07/29/p1-blogthis-checkvist-list-links-to-blog/&quot;&gt;Discovered&lt;/a&gt;: Nov 16, 2026 15:34 (UTC) &lt;a href=&quot;https://autokey-wayland.readthedocs.io/en/latest/installation.html&quot;&gt;Hopefully I can port my Thunderbird-support-specific keyboard shortcuts to linux from Windows and macOS with AutoKey for Wayland ; Installing AutoKey for Wayland — AutoKey for Wayland 0.97.6 documentation&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;My Keyboard shortcuts and espanso macros for Thunderbird support are in: &lt;a href=&quot;https://github.com/thunderbird/espanso-config&quot;&gt;github: thunderbird/espanso-config &lt;/a&gt; &amp;lt;– currently only macOS and Windows&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 16 Nov 2026 00:00:00 -0800</pubDate>
-        <link>http://rolandtanglao.com/2026/11/16/p0834-autohotkey-wayland/</link>
-        <guid isPermaLink="true">http://rolandtanglao.com/2026/11/16/p0834-autohotkey-wayland/</guid>
         
         
       </item>
